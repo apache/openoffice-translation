@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
-"e%2Ftext%2Fsmath%2Fguide.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+helpcontent2%2Fsource%2Ftext%2Fsmath%2Fguide.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2019-01-01 19:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,14 +14,102 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.2.4\n"
 "X-Merge-On: location\n"
 
-#: align.xhp%23tit.help.text
+#: text.xhp#tit.help.text
+msgid "Entering Text"
+msgstr "Entering Text"
+
+#: text.xhp#bm_id3155962.help.text
+msgid ""
+"<bookmark_value>text strings; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>direct text; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>inserting;text in $[officename] "
+"Math</bookmark_value>"
+msgstr ""
+"<bookmark_value>text strings; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>direct text; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>inserting;text in $[officename] "
+"Math</bookmark_value>"
+
+#: text.xhp#hd_id5676442.help.text
+msgid ""
+"<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\" name=\""
+"Entering Text\">Entering Text</link></variable>"
+msgstr ""
+"<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\" name=\""
+"Entering Text\">Entering Text</link></variable>"
+
+#: text.xhp#hd_id8509170.help.text
+msgid "How to enter direct text strings that do not get interpreted?"
+msgstr "How to enter direct text strings that do not get interpreted?"
+
+#: text.xhp#par_id337229.help.text
+msgid ""
+"Some text strings get interpreted as operators automatically. Sometimes this "
+"is not what you want. If you want to write W<emph>*</emph> (a letter with a "
+"superscripted asterisk), the asterisk will be interpreted as a "
+"multiplication operator. Enclose the direct text within double quotes or add "
+"spaceholders."
+msgstr ""
+"Some text strings get interpreted as operators automatically. Sometimes this "
+"is not what you want. If you want to write W<emph>*</emph> (a letter with a "
+"superscripted asterisk), the asterisk will be interpreted as a "
+"multiplication operator. Enclose the direct text within double quotes or add "
+"spaceholders."
+
+#: text.xhp#par_idN105D0.help.text
+msgid "Examples:"
+msgstr "Examples:"
+
+#: text.xhp#par_id521866.help.text
+msgid "An imported MathType formula contains the following string"
+msgstr "An imported MathType formula contains the following string"
+
+#: text.xhp#par_id9413739.help.text
+msgid "W rSup { size 8{*} }"
+msgstr "W rSup { size 8{*} }"
+
+#: text.xhp#par_id755943.help.text
+msgid ""
+"If you have set up Math to convert imported MathType formulas (in <"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Preferences</caseinline><defaultinline>Tools - "
+"Options</defaultinline></switchinline> - Load/Save - Microsoft Office), you "
+"see the formula with a placeholder instead of the asterisk."
+msgstr ""
+"If you have set up Math to convert imported MathType formulas (in <"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Preferences</caseinline><defaultinline>Tools - "
+"Options</defaultinline></switchinline> - Load/Save - Microsoft Office), you "
+"see the formula with a placeholder instead of the asterisk."
+
+#: text.xhp#par_id5988952.help.text
+msgid "Change {*} to {} * {} as in the following formula:"
+msgstr "Change {*} to {} * {} as in the following formula:"
+
+#: text.xhp#par_id3304544.help.text
+msgid "W rSup { size 8{} * {} }"
+msgstr "W rSup { size 8{} * {} }"
+
+#: text.xhp#par_id4941557.help.text
+msgid "You can also use W^\"*\" to enter the character as direct text."
+msgstr "You can also use W^\"*\" to enter the character as direct text."
+
+#: text.xhp#par_id9961851.help.text
+msgid ""
+"Some formulas start with an = sign. Use \"=\" to enter that character as "
+"direct text."
+msgstr ""
+"Some formulas start with an = sign. Use \"=\" to enter that character as "
+"direct text."
+
+#: align.xhp#tit.help.text
 msgid "Manually Aligning Formula Parts"
 msgstr "Ručné zarovnanie časti vzorcov"
 
-#: align.xhp%23bm_id3156384.help.text
+#: align.xhp#bm_id3156384.help.text
 msgid ""
 "<bookmark_value>aligning; characters in %PRODUCTNAME "
 "Math</bookmark_value><bookmark_value>formula parts; manually "
@@ -31,7 +119,7 @@ msgstr ""
 "Math</bookmark_value><bookmark_value>formula parts; manually "
 "aligning</bookmark_value>"
 
-#: align.xhp%23hd_id3156384.1.help.text
+#: align.xhp#hd_id3156384.1.help.text
 msgid ""
 "<variable id=\"align\"><link href=\"text/smath/guide/align.xhp\" name=\""
 "Manually Aligning Formula Parts\">Manually Aligning Formula "
@@ -41,11 +129,11 @@ msgstr ""
 "Manually Aligning Formula Parts\">Manually Aligning Formula "
 "Parts</link></variable>"
 
-#: align.xhp%23hd_id3154657.2.help.text
+#: align.xhp#hd_id3154657.2.help.text
 msgid "How do you align characters in $[officename] Math quickly and easily?"
 msgstr "Ako mám zarovnať znaky v $[officename] Math rýchlo a ľahko?"
 
-#: align.xhp%23par_id3150249.3.help.text
+#: align.xhp#par_id3150249.3.help.text
 msgid ""
 "To accomplish this, you must define empty groups and character strings. They "
 "do not require any space, but carry information that helps in the alignment "
@@ -55,7 +143,7 @@ msgstr ""
 "nevyžadujú žiadny priestor, ale nesú informácie, ktoré pomáhajú v úprave "
 "zoskupení."
 
-#: align.xhp%23par_id3153912.4.help.text
+#: align.xhp#par_id3153912.4.help.text
 msgid ""
 "To create empty groups, enter curly brackets <emph>{}</emph> in the Commands "
 "window. In the following example, the goal is to achieve a line break so "
@@ -67,11 +155,11 @@ msgstr ""
 "that the plus signs are beneath one another, even though one less character "
 "is entered in the upper line:"
 
-#: align.xhp%23par_id3153246.7.help.text
+#: align.xhp#par_id3153246.7.help.text
 msgid "a+a+a+{} newline {}{}{}{}{}a+a+a+a"
 msgstr "a+a+a+{} nový riadok {}{}{}{}{}a+a+a+a"
 
-#: align.xhp%23par_id3143229.5.help.text
+#: align.xhp#par_id3143229.5.help.text
 msgid ""
 "Empty character strings are a simple way to ensure that texts and formulas "
 "are left-aligned. They are defined using double inverted commas \"\" . Make "
@@ -81,15 +169,15 @@ msgstr ""
 "vzorce boli zarovnané doľava. Sú definované použitím dvojitých úvodzoviek \""
 "\" . Overte, či nepoužívate nejaké typografické úvodzovky. Príklad:"
 
-#: align.xhp%23par_id3153809.6.help.text
+#: align.xhp#par_id3153809.6.help.text
 msgid "\"A further example.\" newline a+b newline \"\"c-d"
 msgstr "\"Ďalší príklad.\" nový riadok a+b nový riadok \"\"c-d"
 
-#: brackets.xhp%23tit.help.text
+#: brackets.xhp#tit.help.text
 msgid "Merging Formula Parts in Brackets"
 msgstr "Zlučovanie vzorcov pomocou hranatých zátvoriek"
 
-#: brackets.xhp%23bm_id3152596.help.text
+#: brackets.xhp#bm_id3152596.help.text
 msgid ""
 "<bookmark_value>brackets; merging formula "
 "parts</bookmark_value><bookmark_value>formula parts; "
@@ -103,7 +191,7 @@ msgstr ""
 "formulas</bookmark_value><bookmark_value>merging;formula "
 "parts</bookmark_value>"
 
-#: brackets.xhp%23hd_id3152596.1.help.text
+#: brackets.xhp#hd_id3152596.1.help.text
 msgid ""
 "<variable id=\"brackets\"><link href=\"text/smath/guide/brackets.xhp\" name="
 "\"Merging Formula Parts in Brackets\">Merging Formula Parts in "
@@ -113,11 +201,11 @@ msgstr ""
 "\"Merging Formula Parts in Brackets\">Merging Formula Parts in "
 "Brackets</link></variable>"
 
-#: brackets.xhp%23hd_id3154511.2.help.text
+#: brackets.xhp#hd_id3154511.2.help.text
 msgid "Inserting fractions into formulas"
 msgstr "Vkladanie zlomkov do vzorcov"
 
-#: brackets.xhp%23par_id3146971.4.help.text
+#: brackets.xhp#par_id3146971.4.help.text
 msgid ""
 "In the case of a fraction whose numerator and denominator consist of a "
 "product, a sum, and so on, the values that belong together must be bracketed "
@@ -126,33 +214,279 @@ msgstr ""
 "V prípade, zlomoku ktorého čitateľ a menovateľ pozostáva z výsledku, súčtu, "
 "atď., hodnoty ktoré patria spolu, musia byť v hranatých zátvorkách spolu."
 
-#: brackets.xhp%23par_id3149021.3.help.text
+#: brackets.xhp#par_id3149021.3.help.text
 msgid "Use the following syntax:"
 msgstr "Použite nasledujúcu syntax:"
 
-#: brackets.xhp%23par_id3083280.7.help.text
+#: brackets.xhp#par_id3083280.7.help.text
 msgid "{a + c} over 2 = m"
 msgstr "{a + c} over 2 = m"
 
-#: brackets.xhp%23par_id3154703.6.help.text
+#: brackets.xhp#par_id3154703.6.help.text
 msgid "or"
 msgstr "alebo"
 
-#: brackets.xhp%23par_id3150297.5.help.text
+#: brackets.xhp#par_id3150297.5.help.text
 msgid "m = {a + c} over 2"
 msgstr "m = {a + c} over 2"
 
-#: keyboard.xhp%23tit.help.text
+#: comment.xhp#tit.help.text
+msgid "Entering Comments"
+msgstr "Zadávanie poznámok"
+
+#: comment.xhp#bm_id3155961.help.text
+msgid ""
+"<bookmark_value>comments; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>inserting;comments in $[officename] "
+"Math</bookmark_value>"
+msgstr ""
+"<bookmark_value>comments; entering in $[officename] "
+"Math</bookmark_value><bookmark_value>inserting;comments in $[officename] "
+"Math</bookmark_value>"
+
+#: comment.xhp#hd_id3155961.1.help.text
+msgid ""
+"<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\" name=\""
+"Entering Comments\">Entering Comments</link></variable>"
+msgstr ""
+"<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\" name=\""
+"Entering Comments\">Entering Comments</link></variable>"
+
+#: comment.xhp#hd_id3154657.2.help.text
+msgid ""
+"How does one attach comments that don't appear in the document to a formula?"
+msgstr ""
+"Ako vykonať pripojenie poznámky k dokumentu, ktorá sa neobjaví vo vzorci?"
+
+#: comment.xhp#par_id3149499.3.help.text
+msgid ""
+"A comment begins with a double percent sign <emph>%%</emph>, and extends to "
+"the next line-end character (Enter key). Everything that lies in between is "
+"ignored and is not printed out. If there are percent signs in the text, they "
+"are treated as part of the text."
+msgstr ""
+"A comment begins with a double percent sign <emph>%%</emph>, and extends to "
+"the next line-end character (Enter key). Everything that lies in between is "
+"ignored and is not printed out. If there are percent signs in the text, they "
+"are treated as part of the text."
+
+#: comment.xhp#par_idN105D0.help.text
+msgid "Example:"
+msgstr "Príklad:"
+
+#: comment.xhp#par_idN105D3.help.text
+msgid "a^2+b^2=c^2 %% Pythagorean theorem."
+msgstr "a^2+b^2=c^2 %% Pythagorova veta."
+
+#: main.xhp#tit.help.text
+msgid "Instructions for Using $[officename] Math"
+msgstr "Návod na použitie $[officename] Math"
+
+#: main.xhp#bm_id3147341.help.text
+msgid ""
+"<bookmark_value>$[officename] Math;general "
+"instructions</bookmark_value><bookmark_value>instructions; $[officename] "
+"Math</bookmark_value><bookmark_value>Equation Editor, see $[officename] "
+"Math</bookmark_value>"
+msgstr ""
+"<bookmark_value>$[officename] Math;general "
+"instructions</bookmark_value><bookmark_value>instructions; $[officename] "
+"Math</bookmark_value><bookmark_value>Equation Editor, see $[officename] "
+"Math</bookmark_value>"
+
+#: main.xhp#hd_id3147341.1.help.text
+msgid ""
+"<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\" name=\""
+"Instructions for Using $[officename] Math\">Instructions for Using "
+"$[officename] Math</link></variable>"
+msgstr ""
+"<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\" name=\""
+"Instructions for Using $[officename] Math\">Instructions for Using "
+"$[officename] Math</link></variable>"
+
+#: main.xhp#hd_id3150199.2.help.text
+msgid "Entering and Editing Formulas"
+msgstr "Vkladanie a úprava vzorcov"
+
+#: limits.xhp#tit.help.text
+msgid "Working with Limits"
+msgstr "Working with Limits"
+
+#: limits.xhp#bm_id8404492.help.text
+msgid ""
+"<bookmark_value>limits;in sums/integrals</bookmark_value><bookmark_value>"
+"integral limits</bookmark_value>"
+msgstr ""
+"<bookmark_value>limits;in sums/integrals</bookmark_value><bookmark_value>"
+"integral limits</bookmark_value>"
+
+#: limits.xhp#hd_id1892147.help.text
+msgid ""
+"<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">Working "
+"with Limits</link></variable>"
+msgstr ""
+"<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">Working "
+"with Limits</link></variable>"
+
+#: limits.xhp#hd_id9881893.help.text
+msgid "How can I define the limits in a Sum or Integral formula?"
+msgstr "How can I define the limits in a Sum or Integral formula?"
+
+#: limits.xhp#par_id6504409.help.text
+msgid ""
+"You want to insert a summation formula like \"summation of s^k from k = 0 to "
+"n\" at the cursor in a Writer text document."
+msgstr ""
+"You want to insert a summation formula like \"summation of s^k from k = 0 to "
+"n\" at the cursor in a Writer text document."
+
+#: limits.xhp#par_id8811304.help.text
+msgctxt "limits.xhp#par_id8811304.help.text"
+msgid "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
+msgstr "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
+
+#: limits.xhp#par_id1276589.help.text
+msgid ""
+"You see the Math input window and the Elements window. If you don't see the "
+"Elements window, you can enable it in the View menu."
+msgstr ""
+"You see the Math input window and the Elements window. If you don't see the "
+"Elements window, you can enable it in the View menu."
+
+#: limits.xhp#par_id3283791.help.text
+msgid ""
+"In the upper part of the Elements window, click the <emph>Operators</emph> "
+"icon."
+msgstr ""
+"In the upper part of the Elements window, click the <emph>Operators</emph> "
+"icon."
+
+#: limits.xhp#par_id9734794.help.text
+msgid ""
+"In the lower part of the Elements window, click the <emph>Sum</emph> icon."
+msgstr ""
+"In the lower part of the Elements window, click the <emph>Sum</emph> icon."
+
+#: limits.xhp#par_id9641712.help.text
+msgid ""
+"To enable lower and upper limits, click additionally the <emph>Upper and "
+"Lower Limits</emph> icon."
+msgstr ""
+"To enable lower and upper limits, click additionally the <emph>Upper and "
+"Lower Limits</emph> icon."
+
+#: limits.xhp#par_id3304239.help.text
+msgid ""
+"In the input window, the first placeholder or marker is selected, and you "
+"can start to enter the lower limit: "
+msgstr ""
+"In the input window, the first placeholder or marker is selected, and you "
+"can start to enter the lower limit: "
+
+#: limits.xhp#par_id8679158.help.text
+msgid "k = 0"
+msgstr "k = 0"
+
+#: limits.xhp#par_id8471327.help.text
+msgid "Press F4 to advance to the next marker, and enter the upper limit:"
+msgstr "Press F4 to advance to the next marker, and enter the upper limit:"
+
+#: limits.xhp#par_id4731894.help.text
+msgid "n"
+msgstr "n"
+
+#: limits.xhp#par_id759300.help.text
+msgid "Press F4 to advance to the next marker, and enter the summand:"
+msgstr "Press F4 to advance to the next marker, and enter the summand:"
+
+#: limits.xhp#par_id651875.help.text
+msgid "s^k"
+msgstr "s^k"
+
+#: limits.xhp#par_id6756187.help.text
+msgid ""
+"Now the formula is complete. Click into your text document outside the "
+"formula to leave the formula editor."
+msgstr ""
+"Now the formula is complete. Click into your text document outside the "
+"formula to leave the formula editor."
+
+#: limits.xhp#par_id9406414.help.text
+msgid ""
+"In the same way, you can enter an Integral formula with limits. When you "
+"click an icon from the Elements window, the assigned text command is "
+"inserted in the input window. If you know the text commands, you can enter "
+"the commands directly in the input window."
+msgstr ""
+"In the same way, you can enter an Integral formula with limits. When you "
+"click an icon from the Elements window, the assigned text command is "
+"inserted in the input window. If you know the text commands, you can enter "
+"the commands directly in the input window."
+
+#: limits.xhp#par_id5866267.help.text
+msgctxt "limits.xhp#par_id5866267.help.text"
+msgid "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
+msgstr "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
+
+#: limits.xhp#par_id1965697.help.text
+msgid "Click in the input window and enter the following line:"
+msgstr "Click in the input window and enter the following line:"
+
+#: limits.xhp#par_id9004486.help.text
+msgid "int from{a} to{b} f(x)`dx"
+msgstr "int from{a} to{b} f(x)`dx"
+
+#: limits.xhp#par_id4651020.help.text
+msgid ""
+"A small gap exists between f(x) and dx, which you can also enter using the "
+"Elements window: click the <emph>Format</emph> icon, then the <emph>Small "
+"Gap</emph> icon."
+msgstr ""
+"A small gap exists between f(x) and dx, which you can also enter using the "
+"Elements window: click the <emph>Format</emph> icon, then the <emph>Small "
+"Gap</emph> icon."
+
+#: limits.xhp#par_id3877071.help.text
+msgid ""
+"If you don't like the font of the letters f and x, choose <item type=\""
+"menuitem\">Format - Fonts</item> and select other fonts. Click the "
+"<emph>Default</emph> button to use the new fonts as default from now on."
+msgstr ""
+"If you don't like the font of the letters f and x, choose <item type=\""
+"menuitem\">Format - Fonts</item> and select other fonts. Click the "
+"<emph>Default</emph> button to use the new fonts as default from now on."
+
+#: limits.xhp#par_id3021332.help.text
+msgid ""
+"If you need the formula within a line of text, the limits increase the line "
+"height. You can choose <item type=\"menuitem\">Format - Text Mode</item> to "
+"place the limits besides the Sum or Integral symbol, which reduces the line "
+"height."
+msgstr ""
+"If you need the formula within a line of text, the limits increase the line "
+"height. You can choose <item type=\"menuitem\">Format - Text Mode</item> to "
+"place the limits besides the Sum or Integral symbol, which reduces the line "
+"height."
+
+#: limits.xhp#par_id260322.help.text
+msgid ""
+"<link href=\"text/smath/01/03090909.xhp\">Example of Integral and Sum "
+"ranges</link>"
+msgstr ""
+"<link href=\"text/smath/01/03090909.xhp\">Example of Integral and Sum "
+"ranges</link>"
+
+#: keyboard.xhp#tit.help.text
 msgid "Shortcuts ($[officename] Math Accessibility)"
 msgstr "Skratky ($[officename] Math prístupnosť)"
 
-#: keyboard.xhp%23bm_id3149018.help.text
+#: keyboard.xhp#bm_id3149018.help.text
 msgid ""
 "<bookmark_value>accessibility; $[officename] Math shortcuts</bookmark_value>"
 msgstr ""
 "<bookmark_value>accessibility; $[officename] Math shortcuts</bookmark_value>"
 
-#: keyboard.xhp%23hd_id3149018.12.help.text
+#: keyboard.xhp#hd_id3149018.12.help.text
 msgid ""
 "<variable id=\"keyboard\"><link href=\"text/smath/guide/keyboard.xhp\" name="
 "\"Shortcuts ($[officename] Math Accessibility)\">Shortcuts ($[officename] "
@@ -162,15 +496,15 @@ msgstr ""
 "\"Shortcuts ($[officename] Math Accessibility)\">Shortcuts ($[officename] "
 "Math Accessibility)</link></variable>"
 
-#: keyboard.xhp%23par_id3150298.1.help.text
+#: keyboard.xhp#par_id3150298.1.help.text
 msgid "You can control $[officename] Math without a mouse."
 msgstr "Môžete ovládať $[officename] Math bez myšky."
 
-#: keyboard.xhp%23hd_id3150343.2.help.text
+#: keyboard.xhp#hd_id3150343.2.help.text
 msgid "Inserting a Formula Directly"
 msgstr "Priame vkladanie vzorcov"
 
-#: keyboard.xhp%23par_id3154659.3.help.text
+#: keyboard.xhp#par_id3154659.3.help.text
 msgid ""
 "If you want to insert a formula into a text document, and you already know "
 "the correct writing, you can proceed as follows:"
@@ -178,23 +512,23 @@ msgstr ""
 "Ak chcete vložiť vzorec do textu dokumentu a už poznáte korektné "
 "zapisovanie, môžete pokračovať nasledovným spôsobom:"
 
-#: keyboard.xhp%23par_id3153818.4.help.text
+#: keyboard.xhp#par_id3153818.4.help.text
 msgid "Write the formula into your text"
 msgstr "Zapíšte vzorec do vášho textu"
 
-#: keyboard.xhp%23par_id3153915.5.help.text
+#: keyboard.xhp#par_id3153915.5.help.text
 msgid "Select the formula"
 msgstr "Označte vzorec"
 
-#: keyboard.xhp%23par_id3150213.6.help.text
+#: keyboard.xhp#par_id3150213.6.help.text
 msgid "Choose the command <emph>Insert - Object - Formula</emph>."
 msgstr "Choose the command <emph>Insert - Object - Formula</emph>."
 
-#: keyboard.xhp%23hd_id3154767.7.help.text
+#: keyboard.xhp#hd_id3154767.7.help.text
 msgid "Inserting a Formula using a Window"
 msgstr "Vloženie vzorcov s použitím okna"
 
-#: keyboard.xhp%23par_id3149875.8.help.text
+#: keyboard.xhp#par_id3149875.8.help.text
 msgid ""
 "If you want to use the $[officename] Math interface to edit a formula, "
 "choose the command <emph>Insert - Object - Formula</emph> without any text "
@@ -204,11 +538,11 @@ msgstr ""
 "choose the command <emph>Insert - Object - Formula</emph> without any text "
 "selected."
 
-#: keyboard.xhp%23par_id3150391.9.help.text
+#: keyboard.xhp#par_id3150391.9.help.text
 msgid "The cursor waits in the Commands window and you can type the formula."
 msgstr "Kurzor čaká na príkazy v okne pre zapísanie vzorcov."
 
-#: keyboard.xhp%23par_id3150537.13.help.text
+#: keyboard.xhp#par_id3150537.13.help.text
 msgid ""
 "You can compose formulas using the Elements window. Open it with the menu "
 "<emph>View - Elements</emph> if it is not already open."
@@ -216,7 +550,7 @@ msgstr ""
 "You can compose formulas using the Elements window. Open it with the menu "
 "<emph>View - Elements</emph> if it is not already open."
 
-#: keyboard.xhp%23par_id3155625.10.help.text
+#: keyboard.xhp#par_id3155625.10.help.text
 msgid ""
 "If the Elements window is open, use F6 to switch from the Commands window to "
 "the Elements window and back."
@@ -224,183 +558,135 @@ msgstr ""
 "If the Elements window is open, use F6 to switch from the Commands window to "
 "the Elements window and back."
 
-#: keyboard.xhp%23hd_id3154554.11.help.text
+#: keyboard.xhp#hd_id3154554.11.help.text
 msgid "Elements window"
 msgstr "Elements window"
 
-#: limits.xhp%23tit.help.text
-msgid "Working with Limits"
-msgstr "Working with Limits"
+#: parentheses.xhp#tit.help.text
+msgid "Inserting Brackets"
+msgstr "Vkladanie hranatých zátvoriek"
 
-#: limits.xhp%23bm_id8404492.help.text
+#: parentheses.xhp#bm_id3153415.help.text
 msgid ""
-"<bookmark_value>limits;in sums/integrals</bookmark_value><bookmark_value>"
-"integral limits</bookmark_value>"
+"<bookmark_value>brackets; inserting in %PRODUCTNAME Math</bookmark_value><boo"
+"kmark_value>inserting;brackets</bookmark_value><bookmark_value>distances "
+"between brackets</bookmark_value>"
 msgstr ""
-"<bookmark_value>limits;in sums/integrals</bookmark_value><bookmark_value>"
-"integral limits</bookmark_value>"
+"<bookmark_value>brackets; inserting in %PRODUCTNAME Math</bookmark_value><boo"
+"kmark_value>inserting;brackets</bookmark_value><bookmark_value>distances "
+"between brackets</bookmark_value>"
 
-#: limits.xhp%23hd_id1892147.help.text
+#: parentheses.xhp#hd_id3153415.1.help.text
 msgid ""
-"<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">Working "
-"with Limits</link></variable>"
+"<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\" "
+"name=\"Inserting Brackets\">Inserting Brackets</link></variable>"
 msgstr ""
-"<variable id=\"limits\"><link href=\"text/smath/guide/limits.xhp\">Working "
-"with Limits</link></variable>"
+"<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\" "
+"name=\"Inserting Brackets\">Inserting Brackets</link></variable>"
 
-#: limits.xhp%23hd_id9881893.help.text
-msgid "How can I define the limits in a Sum or Integral formula?"
-msgstr "How can I define the limits in a Sum or Integral formula?"
-
-#: limits.xhp%23par_id6504409.help.text
+#: parentheses.xhp#hd_id3150751.2.help.text
 msgid ""
-"You want to insert a summation formula like \"summation of s^k from k = 0 to "
-"n\" at the cursor in a Writer text document."
+"In <item type=\"productname\">%PRODUCTNAME</item> Math, can brackets be "
+"shown separately so that the distance between them is freely definable?"
 msgstr ""
-"You want to insert a summation formula like \"summation of s^k from k = 0 to "
-"n\" at the cursor in a Writer text document."
+"In <item type=\"productname\">%PRODUCTNAME</item> Math, can brackets be "
+"shown separately so that the distance between them is freely definable?"
 
-#: limits.xhp%23par_id8811304.help.text
-msgctxt "limits.xhp#par_id8811304.help.text"
-msgid "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
-msgstr "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
-
-#: limits.xhp%23par_id1276589.help.text
+#: parentheses.xhp#par_id3083281.3.help.text
 msgid ""
-"You see the Math input window and the Elements window. If you don't see the "
-"Elements window, you can enable it in the View menu."
+"You can set individual brackets using \"left\" and \"right\", but the "
+"distance between the brackets will not be fixed, as they adapt to the "
+"argument. Nevertheless, there is a way to display brackets so that the "
+"distance between them is fixed. To accomplish this, place a \"\\\" "
+"(backslash) before the normal brackets. These brackets now behave like any "
+"other symbol and the alignment is the same as with other symbols:"
 msgstr ""
-"You see the Math input window and the Elements window. If you don't see the "
-"Elements window, you can enable it in the View menu."
+"You can set individual brackets using \"left\" and \"right\", but the "
+"distance between the brackets will not be fixed, as they adapt to the "
+"argument. Nevertheless, there is a way to display brackets so that the "
+"distance between them is fixed. To accomplish this, place a \"\\\" "
+"(backslash) before the normal brackets. These brackets now behave like any "
+"other symbol and the alignment is the same as with other symbols:"
 
-#: limits.xhp%23par_id3283791.help.text
+#: parentheses.xhp#par_id3155960.6.help.text
+msgid "left lbrace x right none"
+msgstr "left lbrace x right none"
+
+#: parentheses.xhp#par_id3148489.5.help.text
+msgid "size *2 langle x rangle"
+msgstr "size *2 langle x rangle"
+
+#: parentheses.xhp#par_id3150344.4.help.text
+msgid "size *2 \\langle x \\rangle"
+msgstr "size *2 \\langle x \\rangle"
+
+#: attributes.xhp#tit.help.text
+msgid "Changing Default Attributes"
+msgstr "Zmeniť východzie atribúty"
+
+#: attributes.xhp#bm_id3145792.help.text
 msgid ""
-"In the upper part of the Elements window, click the <emph>Operators</emph> "
-"icon."
+"<bookmark_value>attributes; changing in $[officename] "
+"Math</bookmark_value><bookmark_value>font attributes;changing "
+"defaults</bookmark_value><bookmark_value>formatting;changing default "
+"attributes</bookmark_value><bookmark_value>defaults;changing default "
+"formatting</bookmark_value><bookmark_value>changing;default "
+"formatting</bookmark_value>"
 msgstr ""
-"In the upper part of the Elements window, click the <emph>Operators</emph> "
-"icon."
+"<bookmark_value>attributes; changing in $[officename] "
+"Math</bookmark_value><bookmark_value>font attributes;changing "
+"defaults</bookmark_value><bookmark_value>formatting;changing default "
+"attributes</bookmark_value><bookmark_value>defaults;changing default "
+"formatting</bookmark_value><bookmark_value>changing;default "
+"formatting</bookmark_value>"
 
-#: limits.xhp%23par_id9734794.help.text
+#: attributes.xhp#hd_id3145792.1.help.text
 msgid ""
-"In the lower part of the Elements window, click the <emph>Sum</emph> icon."
+"<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\" "
+"name=\"Changing Default Attributes\">Changing Default "
+"Attributes</link></variable>"
 msgstr ""
-"In the lower part of the Elements window, click the <emph>Sum</emph> icon."
+"<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\" "
+"name=\"Changing Default Attributes\">Changing Default "
+"Attributes</link></variable>"
 
-#: limits.xhp%23par_id9641712.help.text
+#: attributes.xhp#hd_id3154484.2.help.text
+msgid "Can default formats in $[officename] Math be modified?"
+msgstr "Môže byť východzí formát v $[officename] Math modifikovaný?"
+
+#: attributes.xhp#par_id3148870.3.help.text
+msgid "Some parts of formulas are always formatted bold or italic by default."
+msgstr ""
+"Niektoré časti vzorcov sú vždy vo východzom nastavení formátované tučným "
+"písmom, alebo kurzívou."
+
+#: attributes.xhp#par_id3150210.7.help.text
 msgid ""
-"To enable lower and upper limits, click additionally the <emph>Upper and "
-"Lower Limits</emph> icon."
+"You can remove these attributes using \"nbold\" and \"nitalic\". Example:"
 msgstr ""
-"To enable lower and upper limits, click additionally the <emph>Upper and "
-"Lower Limits</emph> icon."
+"Môžete odstrániť tieto hodnoty použitím \"nbold\" a \"nitalic\". Príklad:"
 
-#: limits.xhp%23par_id3304239.help.text
+#: attributes.xhp#par_id3143231.6.help.text
+msgid "a + b"
+msgstr "a + b"
+
+#: attributes.xhp#par_id3153810.5.help.text
+msgid "nitalic a + bold b."
+msgstr "nitalic a + bold b."
+
+#: attributes.xhp#par_id3149872.4.help.text
 msgid ""
-"In the input window, the first placeholder or marker is selected, and you "
-"can start to enter the lower limit: "
+"In the second formula, the a is not italic. The b is bold. You cannot change "
+"the plus sign by this method."
 msgstr ""
-"In the input window, the first placeholder or marker is selected, and you "
-"can start to enter the lower limit: "
+"V druhom vzorci, nie je a kurzíva. B je tučným. Pri tejto metóde nemôžte "
+"zmeniť znamienko plus."
 
-#: limits.xhp%23par_id8679158.help.text
-msgid "k = 0"
-msgstr "k = 0"
-
-#: limits.xhp%23par_id8471327.help.text
-msgid "Press F4 to advance to the next marker, and enter the upper limit:"
-msgstr "Press F4 to advance to the next marker, and enter the upper limit:"
-
-#: limits.xhp%23par_id4731894.help.text
-msgid "n"
-msgstr "n"
-
-#: limits.xhp%23par_id759300.help.text
-msgid "Press F4 to advance to the next marker, and enter the summand:"
-msgstr "Press F4 to advance to the next marker, and enter the summand:"
-
-#: limits.xhp%23par_id651875.help.text
-msgid "s^k"
-msgstr "s^k"
-
-#: limits.xhp%23par_id6756187.help.text
-msgid ""
-"Now the formula is complete. Click into your text document outside the "
-"formula to leave the formula editor."
-msgstr ""
-"Now the formula is complete. Click into your text document outside the "
-"formula to leave the formula editor."
-
-#: limits.xhp%23par_id9406414.help.text
-msgid ""
-"In the same way, you can enter an Integral formula with limits. When you "
-"click an icon from the Elements window, the assigned text command is "
-"inserted in the input window. If you know the text commands, you can enter "
-"the commands directly in the input window."
-msgstr ""
-"In the same way, you can enter an Integral formula with limits. When you "
-"click an icon from the Elements window, the assigned text command is "
-"inserted in the input window. If you know the text commands, you can enter "
-"the commands directly in the input window."
-
-#: limits.xhp%23par_id5866267.help.text
-msgctxt "limits.xhp#par_id5866267.help.text"
-msgid "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
-msgstr "Choose <item type=\"menuitem\">Insert - Object - Formula</item>."
-
-#: limits.xhp%23par_id1965697.help.text
-msgid "Click in the input window and enter the following line:"
-msgstr "Click in the input window and enter the following line:"
-
-#: limits.xhp%23par_id9004486.help.text
-msgid "int from{a} to{b} f(x)`dx"
-msgstr "int from{a} to{b} f(x)`dx"
-
-#: limits.xhp%23par_id4651020.help.text
-msgid ""
-"A small gap exists between f(x) and dx, which you can also enter using the "
-"Elements window: click the <emph>Format</emph> icon, then the <emph>Small "
-"Gap</emph> icon."
-msgstr ""
-"A small gap exists between f(x) and dx, which you can also enter using the "
-"Elements window: click the <emph>Format</emph> icon, then the <emph>Small "
-"Gap</emph> icon."
-
-#: limits.xhp%23par_id3877071.help.text
-msgid ""
-"If you don't like the font of the letters f and x, choose <item type=\""
-"menuitem\">Format - Fonts</item> and select other fonts. Click the "
-"<emph>Default</emph> button to use the new fonts as default from now on."
-msgstr ""
-"If you don't like the font of the letters f and x, choose <item type=\""
-"menuitem\">Format - Fonts</item> and select other fonts. Click the "
-"<emph>Default</emph> button to use the new fonts as default from now on."
-
-#: limits.xhp%23par_id3021332.help.text
-msgid ""
-"If you need the formula within a line of text, the limits increase the line "
-"height. You can choose <item type=\"menuitem\">Format - Text Mode</item> to "
-"place the limits besides the Sum or Integral symbol, which reduces the line "
-"height."
-msgstr ""
-"If you need the formula within a line of text, the limits increase the line "
-"height. You can choose <item type=\"menuitem\">Format - Text Mode</item> to "
-"place the limits besides the Sum or Integral symbol, which reduces the line "
-"height."
-
-#: limits.xhp%23par_id260322.help.text
-msgid ""
-"<link href=\"text/smath/01/03090909.xhp\">Example of Integral and Sum "
-"ranges</link>"
-msgstr ""
-"<link href=\"text/smath/01/03090909.xhp\">Example of Integral and Sum "
-"ranges</link>"
-
-#: newline.xhp%23tit.help.text
+#: newline.xhp#tit.help.text
 msgid "Entering Line Breaks"
 msgstr "Vkladanie zalomení riadkov"
 
-#: newline.xhp%23bm_id1295205.help.text
+#: newline.xhp#bm_id1295205.help.text
 msgid ""
 "<bookmark_value>line breaks; in "
 "formulas</bookmark_value><bookmark_value>formulas;line "
@@ -412,7 +698,7 @@ msgstr ""
 "breaks</bookmark_value><bookmark_value>wrapping text;in "
 "formulas</bookmark_value>"
 
-#: newline.xhp%23hd_id3146970.1.help.text
+#: newline.xhp#hd_id3146970.1.help.text
 msgid ""
 "<variable id=\"newline\"><link href=\"text/smath/guide/newline.xhp\" name=\""
 "Entering Line Breaks\">Entering Line Breaks</link></variable>"
@@ -420,7 +706,7 @@ msgstr ""
 "<variable id=\"newline\"><link href=\"text/smath/guide/newline.xhp\" name=\""
 "Entering Line Breaks\">Entering Line Breaks</link></variable>"
 
-#: newline.xhp%23hd_id3147339.2.help.text
+#: newline.xhp#hd_id3147339.2.help.text
 msgid ""
 "How to write formulas in $[officename] Math over two lines (with manual line "
 "break):"
@@ -428,296 +714,10 @@ msgstr ""
 "Ako zapísať vzorce v $[officename] Math cez dva riadky (s ručným zalomením "
 "riadku):"
 
-#: newline.xhp%23par_id3154702.3.help.text
+#: newline.xhp#par_id3154702.3.help.text
 msgid ""
 "Create a line break by using the \"newline\" command. Everything coming "
 "after the line break is placed on the next line."
 msgstr ""
 "Vytvoriť zalomenie riadku použitím príkazu \"newline\". Všetko, čo nasleduje "
 "po tomto zalomení riadku je umiestnené na nasledujúcom riadku."
-
-#: parentheses.xhp%23tit.help.text
-msgid "Inserting Brackets"
-msgstr "Vkladanie hranatých zátvoriek"
-
-#: parentheses.xhp%23bm_id3153415.help.text
-msgid ""
-"<bookmark_value>brackets; inserting in %PRODUCTNAME Math</bookmark_value><boo"
-"kmark_value>inserting;brackets</bookmark_value><bookmark_value>distances "
-"between brackets</bookmark_value>"
-msgstr ""
-"<bookmark_value>brackets; inserting in %PRODUCTNAME Math</bookmark_value><boo"
-"kmark_value>inserting;brackets</bookmark_value><bookmark_value>distances "
-"between brackets</bookmark_value>"
-
-#: parentheses.xhp%23hd_id3153415.1.help.text
-msgid ""
-"<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\" "
-"name=\"Inserting Brackets\">Inserting Brackets</link></variable>"
-msgstr ""
-"<variable id=\"parentheses\"><link href=\"text/smath/guide/parentheses.xhp\" "
-"name=\"Inserting Brackets\">Inserting Brackets</link></variable>"
-
-#: parentheses.xhp%23hd_id3150751.2.help.text
-msgid ""
-"In <item type=\"productname\">%PRODUCTNAME</item> Math, can brackets be "
-"shown separately so that the distance between them is freely definable?"
-msgstr ""
-"In <item type=\"productname\">%PRODUCTNAME</item> Math, can brackets be "
-"shown separately so that the distance between them is freely definable?"
-
-#: parentheses.xhp%23par_id3083281.3.help.text
-msgid ""
-"You can set individual brackets using \"left\" and \"right\", but the "
-"distance between the brackets will not be fixed, as they adapt to the "
-"argument. Nevertheless, there is a way to display brackets so that the "
-"distance between them is fixed. To accomplish this, place a \"\\\" "
-"(backslash) before the normal brackets. These brackets now behave like any "
-"other symbol and the alignment is the same as with other symbols:"
-msgstr ""
-"You can set individual brackets using \"left\" and \"right\", but the "
-"distance between the brackets will not be fixed, as they adapt to the "
-"argument. Nevertheless, there is a way to display brackets so that the "
-"distance between them is fixed. To accomplish this, place a \"\\\" "
-"(backslash) before the normal brackets. These brackets now behave like any "
-"other symbol and the alignment is the same as with other symbols:"
-
-#: parentheses.xhp%23par_id3155960.6.help.text
-msgid "left lbrace x right none"
-msgstr "left lbrace x right none"
-
-#: parentheses.xhp%23par_id3148489.5.help.text
-msgid "size *2 langle x rangle"
-msgstr "size *2 langle x rangle"
-
-#: parentheses.xhp%23par_id3150344.4.help.text
-msgid "size *2 \\langle x \\rangle"
-msgstr "size *2 \\langle x \\rangle"
-
-#: comment.xhp%23tit.help.text
-msgid "Entering Comments"
-msgstr "Zadávanie poznámok"
-
-#: comment.xhp%23bm_id3155961.help.text
-msgid ""
-"<bookmark_value>comments; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>inserting;comments in $[officename] "
-"Math</bookmark_value>"
-msgstr ""
-"<bookmark_value>comments; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>inserting;comments in $[officename] "
-"Math</bookmark_value>"
-
-#: comment.xhp%23hd_id3155961.1.help.text
-msgid ""
-"<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\" name=\""
-"Entering Comments\">Entering Comments</link></variable>"
-msgstr ""
-"<variable id=\"comment\"><link href=\"text/smath/guide/comment.xhp\" name=\""
-"Entering Comments\">Entering Comments</link></variable>"
-
-#: comment.xhp%23hd_id3154657.2.help.text
-msgid ""
-"How does one attach comments that don't appear in the document to a formula?"
-msgstr ""
-"Ako vykonať pripojenie poznámky k dokumentu, ktorá sa neobjaví vo vzorci?"
-
-#: comment.xhp%23par_id3149499.3.help.text
-msgid ""
-"A comment begins with a double percent sign <emph>%%</emph>, and extends to "
-"the next line-end character (Enter key). Everything that lies in between is "
-"ignored and is not printed out. If there are percent signs in the text, they "
-"are treated as part of the text."
-msgstr ""
-"A comment begins with a double percent sign <emph>%%</emph>, and extends to "
-"the next line-end character (Enter key). Everything that lies in between is "
-"ignored and is not printed out. If there are percent signs in the text, they "
-"are treated as part of the text."
-
-#: comment.xhp%23par_idN105D0.help.text
-msgid "Example:"
-msgstr "Príklad:"
-
-#: comment.xhp%23par_idN105D3.help.text
-msgid "a^2+b^2=c^2 %% Pythagorean theorem."
-msgstr "a^2+b^2=c^2 %% Pythagorova veta."
-
-#: main.xhp%23tit.help.text
-msgid "Instructions for Using $[officename] Math"
-msgstr "Návod na použitie $[officename] Math"
-
-#: main.xhp%23bm_id3147341.help.text
-msgid ""
-"<bookmark_value>$[officename] Math;general "
-"instructions</bookmark_value><bookmark_value>instructions; $[officename] "
-"Math</bookmark_value><bookmark_value>Equation Editor, see $[officename] "
-"Math</bookmark_value>"
-msgstr ""
-"<bookmark_value>$[officename] Math;general "
-"instructions</bookmark_value><bookmark_value>instructions; $[officename] "
-"Math</bookmark_value><bookmark_value>Equation Editor, see $[officename] "
-"Math</bookmark_value>"
-
-#: main.xhp%23hd_id3147341.1.help.text
-msgid ""
-"<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\" name=\""
-"Instructions for Using $[officename] Math\">Instructions for Using "
-"$[officename] Math</link></variable>"
-msgstr ""
-"<variable id=\"main\"><link href=\"text/smath/guide/main.xhp\" name=\""
-"Instructions for Using $[officename] Math\">Instructions for Using "
-"$[officename] Math</link></variable>"
-
-#: main.xhp%23hd_id3150199.2.help.text
-msgid "Entering and Editing Formulas"
-msgstr "Vkladanie a úprava vzorcov"
-
-#: text.xhp%23tit.help.text
-msgid "Entering Text"
-msgstr "Entering Text"
-
-#: text.xhp%23bm_id3155962.help.text
-msgid ""
-"<bookmark_value>text strings; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>direct text; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>inserting;text in $[officename] "
-"Math</bookmark_value>"
-msgstr ""
-"<bookmark_value>text strings; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>direct text; entering in $[officename] "
-"Math</bookmark_value><bookmark_value>inserting;text in $[officename] "
-"Math</bookmark_value>"
-
-#: text.xhp%23hd_id5676442.help.text
-msgid ""
-"<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\" name=\""
-"Entering Text\">Entering Text</link></variable>"
-msgstr ""
-"<variable id=\"text\"><link href=\"text/smath/guide/text.xhp\" name=\""
-"Entering Text\">Entering Text</link></variable>"
-
-#: text.xhp%23hd_id8509170.help.text
-msgid "How to enter direct text strings that do not get interpreted?"
-msgstr "How to enter direct text strings that do not get interpreted?"
-
-#: text.xhp%23par_id337229.help.text
-msgid ""
-"Some text strings get interpreted as operators automatically. Sometimes this "
-"is not what you want. If you want to write W<emph>*</emph> (a letter with a "
-"superscripted asterisk), the asterisk will be interpreted as a "
-"multiplication operator. Enclose the direct text within double quotes or add "
-"spaceholders."
-msgstr ""
-"Some text strings get interpreted as operators automatically. Sometimes this "
-"is not what you want. If you want to write W<emph>*</emph> (a letter with a "
-"superscripted asterisk), the asterisk will be interpreted as a "
-"multiplication operator. Enclose the direct text within double quotes or add "
-"spaceholders."
-
-#: text.xhp%23par_idN105D0.help.text
-msgid "Examples:"
-msgstr "Examples:"
-
-#: text.xhp%23par_id521866.help.text
-msgid "An imported MathType formula contains the following string"
-msgstr "An imported MathType formula contains the following string"
-
-#: text.xhp%23par_id9413739.help.text
-msgid "W rSup { size 8{*} }"
-msgstr "W rSup { size 8{*} }"
-
-#: text.xhp%23par_id755943.help.text
-msgid ""
-"If you have set up Math to convert imported MathType formulas (in <"
-"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
-"Preferences</caseinline><defaultinline>Tools - "
-"Options</defaultinline></switchinline> - Load/Save - Microsoft Office), you "
-"see the formula with a placeholder instead of the asterisk."
-msgstr ""
-"If you have set up Math to convert imported MathType formulas (in <"
-"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
-"Preferences</caseinline><defaultinline>Tools - "
-"Options</defaultinline></switchinline> - Load/Save - Microsoft Office), you "
-"see the formula with a placeholder instead of the asterisk."
-
-#: text.xhp%23par_id5988952.help.text
-msgid "Change {*} to {} * {} as in the following formula:"
-msgstr "Change {*} to {} * {} as in the following formula:"
-
-#: text.xhp%23par_id3304544.help.text
-msgid "W rSup { size 8{} * {} }"
-msgstr "W rSup { size 8{} * {} }"
-
-#: text.xhp%23par_id4941557.help.text
-msgid "You can also use W^\"*\" to enter the character as direct text."
-msgstr "You can also use W^\"*\" to enter the character as direct text."
-
-#: text.xhp%23par_id9961851.help.text
-msgid ""
-"Some formulas start with an = sign. Use \"=\" to enter that character as "
-"direct text."
-msgstr ""
-"Some formulas start with an = sign. Use \"=\" to enter that character as "
-"direct text."
-
-#: attributes.xhp%23tit.help.text
-msgid "Changing Default Attributes"
-msgstr "Zmeniť východzie atribúty"
-
-#: attributes.xhp%23bm_id3145792.help.text
-msgid ""
-"<bookmark_value>attributes; changing in $[officename] "
-"Math</bookmark_value><bookmark_value>font attributes;changing "
-"defaults</bookmark_value><bookmark_value>formatting;changing default "
-"attributes</bookmark_value><bookmark_value>defaults;changing default "
-"formatting</bookmark_value><bookmark_value>changing;default "
-"formatting</bookmark_value>"
-msgstr ""
-"<bookmark_value>attributes; changing in $[officename] "
-"Math</bookmark_value><bookmark_value>font attributes;changing "
-"defaults</bookmark_value><bookmark_value>formatting;changing default "
-"attributes</bookmark_value><bookmark_value>defaults;changing default "
-"formatting</bookmark_value><bookmark_value>changing;default "
-"formatting</bookmark_value>"
-
-#: attributes.xhp%23hd_id3145792.1.help.text
-msgid ""
-"<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\" "
-"name=\"Changing Default Attributes\">Changing Default "
-"Attributes</link></variable>"
-msgstr ""
-"<variable id=\"attributes\"><link href=\"text/smath/guide/attributes.xhp\" "
-"name=\"Changing Default Attributes\">Changing Default "
-"Attributes</link></variable>"
-
-#: attributes.xhp%23hd_id3154484.2.help.text
-msgid "Can default formats in $[officename] Math be modified?"
-msgstr "Môže byť východzí formát v $[officename] Math modifikovaný?"
-
-#: attributes.xhp%23par_id3148870.3.help.text
-msgid "Some parts of formulas are always formatted bold or italic by default."
-msgstr ""
-"Niektoré časti vzorcov sú vždy vo východzom nastavení formátované tučným "
-"písmom, alebo kurzívou."
-
-#: attributes.xhp%23par_id3150210.7.help.text
-msgid ""
-"You can remove these attributes using \"nbold\" and \"nitalic\". Example:"
-msgstr ""
-"Môžete odstrániť tieto hodnoty použitím \"nbold\" a \"nitalic\". Príklad:"
-
-#: attributes.xhp%23par_id3143231.6.help.text
-msgid "a + b"
-msgstr "a + b"
-
-#: attributes.xhp%23par_id3153810.5.help.text
-msgid "nitalic a + bold b."
-msgstr "nitalic a + bold b."
-
-#: attributes.xhp%23par_id3149872.4.help.text
-msgid ""
-"In the second formula, the a is not italic. The b is bold. You cannot change "
-"the plus sign by this method."
-msgstr ""
-"V druhom vzorci, nie je a kurzíva. B je tučným. Pri tejto metóde nemôžte "
-"zmeniť znamienko plus."

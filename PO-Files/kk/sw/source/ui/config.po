@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
-"onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+sw%2Fsource%2Fui%2Fconfig.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2019-01-01 19:34+0000\n"
 "PO-Revision-Date: 2014-04-23 14:40+0000\n"
 "Last-Translator: Baurzhan <baurthefirst@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,1051 +19,878 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1398264028.000000\n"
 
-#: mailconfigpage.src%23TP_MAILCONFIG.FL_IDENTITY.fixedline.text
-msgid "User information"
-msgstr "Пайдаланушы ақпараты"
+#: optdlg.src#TP_CONTENT_OPT.FL_LINE.fixedline.text
+msgid "Guides"
+msgstr "Нұсқаулықтар"
 
-#: mailconfigpage.src%23TP_MAILCONFIG.FT_DISPLAYNAME.fixedtext.text
+#: optdlg.src#TP_CONTENT_OPT.CB_CROSS.checkbox.text
 #, fuzzy
-msgid "~Your name"
-msgstr "_Сіздің атыңыз:"
+msgid "Guides ~while moving"
+msgstr "_Жылжытқанда көмекші сызықтар"
 
-#: mailconfigpage.src%23TP_MAILCONFIG.FT_ADDRESS.fixedtext.text
+#: optdlg.src#TP_CONTENT_OPT.CB_HANDLE.checkbox.text
 #, fuzzy
-msgid "~E-Mail address"
-msgstr "_Эл. пошта адресі:"
+msgid "Sim~ple handles"
+msgstr "Үлгі ~кестелер"
 
-#: mailconfigpage.src%23TP_MAILCONFIG.CB_REPLYTO.checkbox.text
+#: optdlg.src#TP_CONTENT_OPT.CB_BIGHANDLE.checkbox.text
 #, fuzzy
-msgid "Send replies to ~different e-mail address"
-msgstr "Жауаптарды ба~сқа эл. пошта адресіне жіберу"
+msgid "Large handles"
+msgstr "Үлкен өзгеріс"
 
-#: mailconfigpage.src%23TP_MAILCONFIG.FT_REPLYTO.fixedtext.text
-#, fuzzy
-msgid "~Reply address"
-msgstr "_Жауап беру адресі:"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.FL_SMTP.fixedline.text
-msgid "Outgoing server (SMTP) Settings"
-msgstr "Шығыс сервер (SMTP) баптаулары"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.FT_SERVER.fixedtext.text
-#, fuzzy
-msgid "~Server name"
-msgstr "_Сервер аты:"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.FT_PORT.fixedtext.text
-msgid "~Port"
-msgstr "~Порт"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.CB_SECURE.checkbox.text
-#, fuzzy
-msgid "~Use secure connection (SSL)"
-msgstr "Қауіпсіз байланысты қолд~ану (SSL)"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.PB_AUTHENTICATION.pushbutton.text
-#, fuzzy
-msgid "Server Au~thentication"
-msgstr "Сервер ау~тентификациясы"
-
-#: mailconfigpage.src%23TP_MAILCONFIG.PB_TEST.pushbutton.text
-#, fuzzy
-msgid "Test S~ettings..."
-msgstr "Баптау~ларды тексеру..."
-
-#: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
-msgstr "Электрондық поштаны тарату"
-
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
-msgid "%PRODUCTNAME is testing the e-mail account settings..."
-msgstr "%PRODUCTNAME эл. пошта тіркелгісінің баптауларын тексеруде..."
-
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_ERROR.fixedtext.text
-msgid "Errors"
-msgstr "Қателер"
-
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.PB_STOP.pushbutton.text
-msgid "~Stop"
-msgstr "~Тоқтату"
-
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Тіркелгі баптауларын тексеру"
-
-#: mailconfigpage.src%23ST_TASK.string.text
-msgid "Task"
-msgstr "Тапсырма"
-
-#: mailconfigpage.src%23ST_STATUS.string.text
-msgid "Status"
-msgstr "Күйі"
-
-#: mailconfigpage.src%23ST_ESTABLISH.string.text
-msgid "Establish network connection"
-msgstr "Желілік байланысты орнату"
-
-#: mailconfigpage.src%23ST_FINDSERVER.string.text
-msgid "Find outgoing mail server"
-msgstr "Шығыс пошта серверін табу"
-
-#: mailconfigpage.src%23ST_COMPLETED.string.text
-msgid "Successful"
-msgstr "Сәтті"
-
-#: mailconfigpage.src%23ST_FAILED.string.text
-msgid "Failed"
-msgstr "Сәтсіз"
-
-#: mailconfigpage.src%23ST_ERROR_SERVER.string.text
-msgid ""
-"%PRODUCTNAME could not connect to the outgoing mail server. Check your "
-"system's settings and the settings in %PRODUCTNAME. Check the server name, "
-"the port and the secure connections settings"
-msgstr ""
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
-#, fuzzy
-msgid "The outgoing mail server (SMTP) requires au~thentication"
-msgstr "Шығыс пошта сервері (SMTP) ау~тентификацияны талап етеді"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
-#, fuzzy
-msgid "The outgoing mail server (SMTP) requires ~separate authentication"
-msgstr "Шығыс пошта сервері (SMTP) бө~лек аутентификацияны талап етеді"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
-msgid "Outgoing mail server:"
-msgstr "Шығыс пошта сервері:"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
-msgid "~User name"
-msgstr "Пайдаланушы ~аты"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "~Пароль"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
-msgid ""
-"The outgoing mail server uses the same authentication as the ~incoming mail "
-"server. Enter the settings of the incoming mail server."
-msgstr ""
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
-msgid "Incoming mail server:"
-msgstr "Кіріс пошта сервері:"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
-#, fuzzy
-msgid "Server ~name"
-msgstr "_Сервер аты:"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
-#, fuzzy
-msgid "P~ort"
-msgstr "~Порт"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
-msgid "Type"
+#: optdlg.src#TP_CONTENT_OPT.FL_WINDOW.fixedline.text
+msgid "View"
 msgstr "Түрі"
 
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
+#: optdlg.src#TP_CONTENT_OPT.CB_HSCROLL.checkbox.text
 #, fuzzy
-msgid "~POP3"
-msgstr "_POP3"
+msgid "H~orizontal scrollbar"
+msgstr "Г~оризонталды айналдыру жолағы"
 
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
+#: optdlg.src#TP_CONTENT_OPT.CB_VSCROLL.checkbox.text
 #, fuzzy
-msgid "~IMAP"
-msgstr "~IMAP"
+msgid "~Vertical scrollbar"
+msgstr "~Вертикалды айналдыру жолағы"
 
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
+#: optdlg.src#TP_CONTENT_OPT.CB_ANY_RULER.checkbox.text
 #, fuzzy
-msgid "Us~er name"
-msgstr "Пайдаланушы аты"
+msgid "R~uler"
+msgstr "~Сызғыш"
 
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
-msgid "Pass~word"
-msgstr "~Паролі"
+#: optdlg.src#TP_CONTENT_OPT.CB_HRULER.checkbox.text
+#, fuzzy
+msgid "Hori~zontal ruler"
+msgstr "Гори~зонт. сызғыш"
 
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Сервер аутентификациясы"
+#: optdlg.src#TP_CONTENT_OPT.CB_VRULER.checkbox.text
+#, fuzzy
+msgid "Verti~cal ruler"
+msgstr "В~ертик. сызғыш"
 
-#: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
-msgid "Text display"
-msgstr "Мәтіннің бейнеленуі"
+#: optdlg.src#TP_CONTENT_OPT.CB_VRULER_RIGHT.checkbox.text
+msgid "Right-aligned"
+msgstr "Оңға тураланған"
 
-#: redlopt.src%23TP_REDLINE_OPT.FT_CHG_INSERT.fixedtext.text
-msgid "Insertions"
-msgstr "Кірістірулер"
+#: optdlg.src#TP_CONTENT_OPT.CB_SMOOTH_SCROLL.checkbox.text
+#, fuzzy
+msgid "S~mooth scroll"
+msgstr "~Тегіс айналдыру"
 
-#: redlopt.src%23TP_REDLINE_OPT.FT_INS_ATTR.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_INS_ATTR.fixedtext.text"
-msgid "Attributes"
-msgstr "Атрибуттар"
+#: optdlg.src#TP_CONTENT_OPT.FL_DISP.fixedline.text
+msgid "Display"
+msgstr "Көрсету"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.1.stringlist.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.1.stringlist.text"
-msgid "[None]"
-msgstr "[Жоқ]"
+#: optdlg.src#TP_CONTENT_OPT.CB_GRF.checkbox.text
+#, fuzzy
+msgid "~Graphics and objects"
+msgstr "~Суреттер мен объекттер"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.2.stringlist.text
-msgid "Bold"
-msgstr "Жуан"
+#: optdlg.src#TP_CONTENT_OPT.CB_TBL.checkbox.text
+msgid "~Tables "
+msgstr "~Кестелер"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.3.stringlist.text
-msgid "Italic"
-msgstr "Көлбеу"
+#: optdlg.src#TP_CONTENT_OPT.CB_DRWFAST.checkbox.text
+#, fuzzy
+msgid "Dra~wings and controls"
+msgstr "Суре~ттер және басқару элементтері"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.4.stringlist.text
-msgid "Underlined"
-msgstr "Асты сызылған"
+#: optdlg.src#TP_CONTENT_OPT.CB_FIELD.checkbox.text
+#, fuzzy
+msgid "~Field codes"
+msgstr "~Өрістер кодтары"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.5.stringlist.text
-msgid "Underlined: double"
-msgstr "Асты сызылған: қос"
+#: optdlg.src#TP_CONTENT_OPT.CB_POSTIT.checkbox.text
+msgctxt "optdlg.src#TP_CONTENT_OPT.CB_POSTIT.checkbox.text"
+msgid "~Comments"
+msgstr "Түсі~ндірмелер"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.6.stringlist.text
-msgid "Strikethrough"
-msgstr "Сызып тастау"
+#: optdlg.src#TP_CONTENT_OPT.FL_SETTINGS.fixedline.text
+msgctxt "optdlg.src#TP_CONTENT_OPT.FL_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Баптаулар"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.7.stringlist.text
-msgid "Uppercase"
-msgstr "Бас әріптер"
+#: optdlg.src#TP_CONTENT_OPT.FT_METRIC.fixedtext.text
+msgctxt "optdlg.src#TP_CONTENT_OPT.FT_METRIC.fixedtext.text"
+msgid "Measurement unit"
+msgstr "Өлшем бірлігі"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.8.stringlist.text
-msgid "Lowercase"
-msgstr "Кіші әріптер"
+#: optdlg.src#TP_OPTPRINT_PAGE.FL_1.fixedline.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.FL_1.fixedline.text"
+msgid "Contents"
+msgstr "Құрамасы"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.9.stringlist.text
-msgid "Small caps"
-msgstr "Кіші бас әріптер"
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_PGRF.checkbox.text
+#, fuzzy
+msgid "~Pictures and objects"
+msgstr "~Суреттер мен объекттер"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.10.stringlist.text
-msgid "Title font"
-msgstr "Атау қарібі"
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_CTRLFLD.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_CTRLFLD.checkbox.text"
+msgid "Form control~s"
+msgstr "~Басқару элементтері"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_INS_ATTR.11.stringlist.text
-msgid "Background color"
-msgstr "Фон түсі"
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_BACKGROUND.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_BACKGROUND.checkbox.text"
+msgid "Page ba~ckground"
+msgstr "Бет фо~ны"
 
-#: redlopt.src%23TP_REDLINE_OPT.FT_INS_COL.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_INS_COL.fixedtext.text"
-msgid "Color"
-msgstr "Түс"
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_BLACK_FONT.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_BLACK_FONT.checkbox.text"
+msgid "Print text in blac~k"
+msgstr "Мәтінді қ~ара түспен басу"
 
-#: redlopt.src%23TP_REDLINE_OPT.WIN_INS.window.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.WIN_INS.window.text"
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_HIDDEN_TEXT.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_HIDDEN_TEXT.checkbox.text"
+msgid "Hidden te~xt"
+msgstr "Жасырын мә~тін"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_TEXT_PLACEHOLDER.checkbox.text
+#, fuzzy
+msgid "Text ~placeholder"
+msgstr "Мәтінді ауыстыры~п қою өрісі"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.FL_2.fixedline.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.FL_2.fixedline.text"
+msgid "Pages"
+msgstr "Беттер"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_LEFTP.checkbox.text
+#, fuzzy
+msgid "~Left pages"
+msgstr "~Сол жақ беттері"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_RIGHTP.checkbox.text
+#, fuzzy
+msgid "~Right pages"
+msgstr "~Оң жақ беттері"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_PROSPECT.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_PROSPECT.checkbox.text"
+msgid "Broch~ure"
+msgstr "~Кітапшамен"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_PROSPECT_RTL.checkbox.text
+msgid "Right to Left"
+msgstr "Оңнан солға"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.RB_NO.radiobutton.text
+msgid "~None"
+msgstr "~Жоқ"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.RB_ONLY.radiobutton.text
+#, fuzzy
+msgid "Comments ~only"
+msgstr "~Тек түсіндірмелер ғана"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.RB_END.radiobutton.text
+#, fuzzy
+msgid "End of docu~ment"
+msgstr "Құ~жат соңында"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.RB_PAGEEND.radiobutton.text
+#, fuzzy
+msgid "~End of page"
+msgstr "~Бет соңында"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.FL_3.fixedline.text
+msgid "Comments"
+msgstr "Түсіндірмелер"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.FL_4.fixedline.text
+msgid "Other"
+msgstr "Басқа"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_PRINTEMPTYPAGES.checkbox.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_PRINTEMPTYPAGES.checkbox.text"
+msgid "Print ~automatically inserted blank pages"
+msgstr "~Автоматты түрде енгізілген бос парақтарды баспаға шығару"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.CB_PAPERFROMSETUP.checkbox.text
+#, fuzzy
+msgid "~Paper tray from printer settings"
+msgstr "Қағаз сөре~сі принтер баптауларынан"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.FT_FAX.fixedtext.text
+#, fuzzy
+msgid "~Fax"
+msgstr "~Факс"
+
+#: optdlg.src#TP_OPTPRINT_PAGE.ST_NONE.string.text
+msgctxt "optdlg.src#TP_OPTPRINT_PAGE.ST_NONE.string.text"
+msgid "<None>"
+msgstr "<Жоқ>"
+
+#: optdlg.src#TP_STD_FONT.FL_STDCHR.fixedline.text
+msgid "Basic fonts (%1)"
+msgstr "Негізгі қаріптер (%1)"
+
+#: optdlg.src#TP_STD_FONT.FT_TYPE.fixedtext.text
+msgid "Font"
+msgstr "Қаріп"
+
+#: optdlg.src#TP_STD_FONT.FT_SIZE.fixedtext.text
+msgid "Size"
+msgstr "Өлшемі"
+
+#: optdlg.src#TP_STD_FONT.FT_STANDARD.fixedtext.text
+#, fuzzy
+msgid "De~fault"
+msgstr "Стандарт"
+
+#: optdlg.src#TP_STD_FONT.FT_TITLE.fixedtext.text
+#, fuzzy
+msgid "Headin~g"
+msgstr "Тақырыптама"
+
+#: optdlg.src#TP_STD_FONT.FT_LIST.fixedtext.text
+#, fuzzy
+msgid "~List"
+msgstr "Тізім"
+
+#: optdlg.src#TP_STD_FONT.FT_LABEL.fixedtext.text
+#, fuzzy
+msgid "C~aption"
+msgstr "Аты"
+
+#: optdlg.src#TP_STD_FONT.FT_IDX.fixedtext.text
+msgid "~Index"
+msgstr "~Нұсқағыш"
+
+#: optdlg.src#TP_STD_FONT.CB_DOCONLY.checkbox.text
+#, fuzzy
+msgid "C~urrent document only"
+msgstr "Тек ағ~ымдағы құжат"
+
+#: optdlg.src#TP_STD_FONT.PB_STANDARD.pushbutton.text
+msgid "~Default"
+msgstr "Үнсіз ~келісім бойынша"
+
+#: optdlg.src#TP_STD_FONT.ST_SCRIPT_ASIAN.string.text
+msgid "Asian"
+msgstr "Азиялық"
+
+#: optdlg.src#TP_STD_FONT.ST_SCRIPT_CTL.string.text
+msgid "CTL"
+msgstr "CTL"
+
+#: optdlg.src#TP_STD_FONT.ST_SCRIPT_WESTERN.string.text
+msgid "Western"
+msgstr "Батыс"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FL_TABLE.fixedline.text
+msgid "Default"
+msgstr "Стандарт"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_HEADER.checkbox.text
+#, fuzzy
+msgid "H~eading"
+msgstr "Т~ақырыптама"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_REPEAT_HEADER.checkbox.text
+#, fuzzy
+msgid "Re~peat on each page"
+msgstr "Әр бетте қа~йталау"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_DONT_SPLIT.checkbox.text
+#, fuzzy
+msgid "Do not split"
+msgstr "_Бөлмеу"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_BORDER.checkbox.text
+#, fuzzy
+msgid "B~order"
+msgstr "~Жақтау"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FL_TABLE_INSERT.fixedline.text
+msgid "Input in tables"
+msgstr "Кестелерге енгізу"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_NUMFORMATTING.checkbox.text
+#, fuzzy
+msgid "Number recognition"
+msgstr "Са_ндарды тану"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_NUMFMT_FORMATTING.checkbox.text
+#, fuzzy
+msgid "Number format recognition"
+msgstr "Са_ндар пішімін тану"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.CB_NUMALIGNMENT.checkbox.text
+msgid "Alignment"
+msgstr "Туралау"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FL_MOVE.fixedline.text
+msgid "Keyboard handling"
+msgstr "Пернетақтаны өңдеу"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_MOVE.fixedtext.text
+msgid "Move cells"
+msgstr "Ұяшықтарды жылжыту"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_ROWMOVE.fixedtext.text
+msgid "~Row"
+msgstr "~Қатарлар"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_COLMOVE.fixedtext.text
+#, fuzzy
+msgid "~Column"
+msgstr "Баған"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_INSERT.fixedtext.text
+#, fuzzy
+msgid "Insert cell"
+msgstr "Ұяшықты кірістіру"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_ROWINSERT.fixedtext.text
+#, fuzzy
+msgid "Ro~w"
+msgstr "Ж~ол"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_COLINSERT.fixedtext.text
+msgid "Colu~mn"
+msgstr "~Баған"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_HANDLING.fixedtext.text
+msgid "Behavior of rows/columns"
+msgstr "Жолдар/бағандар мінез-құлығы"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.RB_FIX.radiobutton.text
+#, fuzzy
+msgid "~Fixed"
+msgstr "~Бекітілген"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_FIX.fixedtext.text
+msgid "Changes affect the adjacent area only"
+msgstr "Өзгерістер тек сыбайлас аймаққа әсер етеді"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.RB_FIXPROP.radiobutton.text
+#, fuzzy
+msgid "Fi~xed, proportional"
+msgstr "Бе~кітілген, пропорционалды"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_FIXPROP.fixedtext.text
+msgid "Changes affect the entire table"
+msgstr "Өзгерістер толық кестеге әсер етеді"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.RB_VAR.radiobutton.text
+#, fuzzy
+msgid "~Variable"
+msgstr "Ө~згермелі"
+
+#: optdlg.src#TP_OPTTABLE_PAGE.FT_VAR.fixedtext.text
+msgid "Changes affect the table size"
+msgstr "Өзгерістер кесте өлшеміне әсер етеді"
+
+#: optdlg.src#TP_OPTSHDWCRSR.FL_NOPRINT.fixedline.text
+msgid "Display of"
+msgstr "Көрсету"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_PARA.checkbox.text
+#, fuzzy
+msgid "Pa~ragraph end"
+msgstr "А~бзац соңы"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_SHYPH.checkbox.text
+#, fuzzy
+msgid "Custom h~yphens"
+msgstr "Таңдауыңызша ~тасымалдау"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_SPACE.checkbox.text
+#, fuzzy
+msgid "Spac~es"
+msgstr "Бос ара~лықтар"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_HSPACE.checkbox.text
+#, fuzzy
+msgid "Non-breaking s~paces"
+msgstr "Үзбейтін бос арал~ықтар"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_TAB.checkbox.text
+#, fuzzy
+msgid "Ta~bs"
+msgstr "Та~буляция"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_BREAK.checkbox.text
+#, fuzzy
+msgid "Brea~ks"
+msgstr "А~жыраулар"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_CHAR_HIDDEN.checkbox.text
+msgid "Hidden text"
+msgstr "Жасырын мәтін"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_FLD_HIDDEN.checkbox.text
+#, fuzzy
+msgid "Fields: Hidden te~xt"
+msgstr "Өрістер: Жасырын мә~тін"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_FLD_HIDDEN_PARA.checkbox.text
+#, fuzzy
+msgid "Fields: Hidden p~aragraphs"
+msgstr "Өрістер: Жасырын ~абзацтар"
+
+#: optdlg.src#TP_OPTSHDWCRSR.FL_SHDWCRSFLAG.fixedline.text
+msgid "Direct cursor"
+msgstr "Бос курсор"
+
+#: optdlg.src#TP_OPTSHDWCRSR.CB_SHDWCRSONOFF.checkbox.text
+#, fuzzy
+msgid "~Direct cursor"
+msgstr "~Бос курсор"
+
+#: optdlg.src#TP_OPTSHDWCRSR.FT_SHDWCRSFILLMODE.fixedtext.text
+msgctxt "optdlg.src#TP_OPTSHDWCRSR.FT_SHDWCRSFILLMODE.fixedtext.text"
 msgid "Insert"
 msgstr "Кірістіру"
 
-#: redlopt.src%23TP_REDLINE_OPT.FT_CHG_DELETE.fixedtext.text
-msgid "Deletions"
-msgstr "Өшірулер"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_DEL_ATTR.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_DEL_ATTR.fixedtext.text"
-msgid "Attributes"
-msgstr "Атрибуттар"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_DEL_COL.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_DEL_COL.fixedtext.text"
-msgid "Color"
-msgstr "Түс"
-
-#: redlopt.src%23TP_REDLINE_OPT.WIN_DEL.window.text
-msgid "Delete"
-msgstr "Өшіру"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_CHG_CHANGE.fixedtext.text
-msgid "Changed attributes"
-msgstr "Өзгертілген атрибуттар"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_CHG_ATTR.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_CHG_ATTR.fixedtext.text"
-msgid "Attributes"
-msgstr "Атрибуттар"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_CHG_COL.fixedtext.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.FT_CHG_COL.fixedtext.text"
-msgid "Color"
-msgstr "Түс"
-
-#: redlopt.src%23TP_REDLINE_OPT.WIN_CHG.window.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.WIN_CHG.window.text"
-msgid "Attributes"
-msgstr "Атрибуттар"
-
-#: redlopt.src%23TP_REDLINE_OPT.FL_LC.fixedline.text
-msgid "Lines changed"
-msgstr "Өзгертілген жолдар"
-
-#: redlopt.src%23TP_REDLINE_OPT.FT_MARKPOS.fixedtext.text
+#: optdlg.src#TP_OPTSHDWCRSR.RB_SHDWCRSFILLMARGIN.radiobutton.text
 #, fuzzy
-msgid "Mar~k"
-msgstr "Нау"
+msgid "Para~graph alignment"
+msgstr "Абза~ц туралануы"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_MARKPOS.1.stringlist.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.1.stringlist.text"
-msgid "[None]"
-msgstr "[Жоқ]"
+#: optdlg.src#TP_OPTSHDWCRSR.RB_SHDWCRSFILLINDENT.radiobutton.text
+#, fuzzy
+msgid "~Left paragraph margin"
+msgstr "Со~л жақ абзацтың шет өрісі"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_MARKPOS.2.stringlist.text
-msgid "Left margin"
-msgstr "Сол жақ шет өрісі"
+#: optdlg.src#TP_OPTSHDWCRSR.RB_SHDWCRSFILLTAB.radiobutton.text
+#, fuzzy
+msgid "~Tabs"
+msgstr "~Табуляция"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_MARKPOS.3.stringlist.text
-msgid "Right margin"
-msgstr "Оң жақ шет өрісі"
+#: optdlg.src#TP_OPTSHDWCRSR.RB_SHDWCRSFILLSPACE.radiobutton.text
+#, fuzzy
+msgid "Tabs a~nd spaces"
+msgstr "Табуляция жә~не бос аралықтар"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_MARKPOS.4.stringlist.text
-msgid "Outer margin"
-msgstr "Сыртқы шет өрісі"
+#: optdlg.src#TP_OPTSHDWCRSR.FL_CRSR_OPT.fixedline.text
+msgid "Cursor in protected areas"
+msgstr "Курсор қорғалған аймақтарда"
 
-#: redlopt.src%23TP_REDLINE_OPT.LB_MARKPOS.5.stringlist.text
-msgid "Inner margin"
-msgstr "Ішкі шет өрісі"
+#: optdlg.src#TP_OPTSHDWCRSR.CB_ALLOW_IN_PROT.checkbox.text
+msgid "Enable"
+msgstr "Іске қосу"
 
-#: redlopt.src%23TP_REDLINE_OPT.FT_LC_COL.fixedtext.text
-msgid "~Color"
-msgstr "~Түс"
+#: optdlg.src#TP_OPTSHDWCRSR.FL_LAYOUT_OPTIONS.fixedline.text
+msgid "Layout assistance"
+msgstr "Қосымша жайма"
 
-#: redlopt.src%23TP_REDLINE_OPT.STR_AUTHOR.string.text
-msgid "By author"
-msgstr "Автор бойынша"
+#: optdlg.src#TP_OPTSHDWCRSR.CB_MATH_BASELINE_ALIGNMENT.checkbox.text
+msgid "Math baseline alignment"
+msgstr "Math базалық сызықпен туралау"
 
-#: redlopt.src%23TP_REDLINE_OPT.STR_NOTHING.string.text
-msgctxt "redlopt.src#TP_REDLINE_OPT.STR_NOTHING.string.text"
-msgid "[None]"
-msgstr "[Жоқ]"
+#: optdlg.src#STR_PRINTOPTUI.1.itemlist.text
+msgid "%PRODUCTNAME %s"
+msgstr "%PRODUCTNAME %s"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.FL_MAIN.fixedline.text
+#: optdlg.src#STR_PRINTOPTUI.2.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.2.itemlist.text"
+msgid "Contents"
+msgstr "Құрамасы"
+
+#: optdlg.src#STR_PRINTOPTUI.3.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.3.itemlist.text"
+msgid "Page ba~ckground"
+msgstr "Бет фо~ны"
+
+#: optdlg.src#STR_PRINTOPTUI.4.itemlist.text
+msgid "P~ictures and other graphic objects"
+msgstr "Сур~еттер және басқа да графикалық объектілер"
+
+#: optdlg.src#STR_PRINTOPTUI.5.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.5.itemlist.text"
+msgid "Hidden te~xt"
+msgstr "Жасырын мә~тін"
+
+#: optdlg.src#STR_PRINTOPTUI.6.itemlist.text
+msgid "~Text placeholders"
+msgstr "Өрі~стерде мәтінді орналастыру"
+
+#: optdlg.src#STR_PRINTOPTUI.7.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.7.itemlist.text"
+msgid "Form control~s"
+msgstr "~Басқару элементтері"
+
+#: optdlg.src#STR_PRINTOPTUI.8.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.8.itemlist.text"
+msgid "Color"
+msgstr "Түс"
+
+#: optdlg.src#STR_PRINTOPTUI.9.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.9.itemlist.text"
+msgid "Print text in blac~k"
+msgstr "Мәтінді қ~ара түспен басу"
+
+#: optdlg.src#STR_PRINTOPTUI.10.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.10.itemlist.text"
+msgid "Pages"
+msgstr "Беттер"
+
+#: optdlg.src#STR_PRINTOPTUI.11.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.11.itemlist.text"
+msgid "Print ~automatically inserted blank pages"
+msgstr "~Автоматты түрде енгізілген бос парақтарды баспаға шығару"
+
+#: optdlg.src#STR_PRINTOPTUI.12.itemlist.text
+msgid "~Use only paper tray from printer preferences"
+msgstr "Принтер бап~тауларынан ғана қағаз сөресін қолдану"
+
+#: optdlg.src#STR_PRINTOPTUI.13.itemlist.text
+msgid "Print"
+msgstr "Баспаға шығару"
+
+#: optdlg.src#STR_PRINTOPTUI.14.itemlist.text
+msgid "None (document only)"
+msgstr "Жоқ (тек құжат)"
+
+#: optdlg.src#STR_PRINTOPTUI.15.itemlist.text
+msgid "Comments only"
+msgstr "Тек түсіндірмелер ғана"
+
+#: optdlg.src#STR_PRINTOPTUI.16.itemlist.text
+msgid "Place at end of document"
+msgstr "Құжат соңына орналастыру"
+
+#: optdlg.src#STR_PRINTOPTUI.17.itemlist.text
+msgid "Place at end of page"
+msgstr "Бет соңына орналастыру"
+
+#: optdlg.src#STR_PRINTOPTUI.18.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.18.itemlist.text"
+msgid "~Comments"
+msgstr "Түсі~ндірмелер"
+
+#: optdlg.src#STR_PRINTOPTUI.19.itemlist.text
+msgid "Page sides"
+msgstr "Беттер"
+
+#: optdlg.src#STR_PRINTOPTUI.20.itemlist.text
+msgid "All pages"
+msgstr "Барлық парақтар"
+
+#: optdlg.src#STR_PRINTOPTUI.21.itemlist.text
+msgid "Back sides / left pages"
+msgstr "Артқы беттер / сол жақ парақтар"
+
+#: optdlg.src#STR_PRINTOPTUI.22.itemlist.text
+msgid "Front sides / right pages"
+msgstr "Алдыңғы беттер / оң жақ парақтар"
+
+#: optdlg.src#STR_PRINTOPTUI.23.itemlist.text
+msgid "Include"
+msgstr "Қосу"
+
+#: optdlg.src#STR_PRINTOPTUI.24.itemlist.text
+msgctxt "optdlg.src#STR_PRINTOPTUI.24.itemlist.text"
+msgid "Broch~ure"
+msgstr "~Кітапшамен"
+
+#: optdlg.src#STR_PRINTOPTUI.25.itemlist.text
+msgid "Left-to-right script"
+msgstr "Солдан оңға"
+
+#: optdlg.src#STR_PRINTOPTUI.26.itemlist.text
+msgid "Right-to-left script"
+msgstr "Оңнан солға"
+
+#: optdlg.src#STR_PRINTOPTUI.27.itemlist.text
+msgid "Range and copies"
+msgstr "Баспа аймағы және көшірмелер"
+
+#: optdlg.src#STR_PRINTOPTUI.28.itemlist.text
+msgid "~All pages"
+msgstr "~Барлық беттер"
+
+#: optdlg.src#STR_PRINTOPTUI.29.itemlist.text
+msgid "Pa~ges"
+msgstr "Бе~ттер"
+
+#: optdlg.src#STR_PRINTOPTUI.30.itemlist.text
+msgid "~Selection"
+msgstr "~Таңдау"
+
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.FL_MAIN.fixedline.text
 msgid "Compatibility options for %DOCNAME"
 msgstr "%DOCNAME үшін үйлесімділік опциялары"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.FT_FORMATTING.fixedtext.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.FT_FORMATTING.fixedtext.text
 msgid "Recommended ~formatting options for"
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.FT_OPTIONS.fixedtext.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.FT_OPTIONS.fixedtext.text
 msgid "~Options"
 msgstr "~Параметрлер"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.PB_RESET.pushbutton.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.PB_RESET.pushbutton.text
 msgid "~Reset"
 msgstr "Қал~пына келтіру"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.PB_DEFAULT.pushbutton.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.PB_DEFAULT.pushbutton.text
 #, fuzzy
 msgid "Use as ~Default"
 msgstr "Ү~нсіз келісім бойынша қолдану"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_USERENTRY.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_USERENTRY.string.text
 msgid "<User settings>"
 msgstr "<Пайдаланушы баптаулары>"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_QRYBOX_USEASDEFAULT.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_QRYBOX_USEASDEFAULT.string.text
 msgid ""
 "Do you want to change the compatibility options of the default template?\n"
 "This will affect all new documents based on the default template."
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_PRINTER_METRICS.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_PRINTER_METRICS.string.text
 msgid "Use printer metrics for document formatting"
 msgstr "Құжат пішімдеуі үшін принтер баптауларын қолдану"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_MERGE_PARA_DIST.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_MERGE_PARA_DIST.string.text
 msgid "Add spacing between paragraphs and tables (in current document)"
 msgstr "Абзацтар және кестелер арасында аралықты қосу (ағымдағы құжатта)"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_MERGE_PARA_DIST_PAGESTART.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_MERGE_PARA_DIST_PAGESTART.string.text
 msgid "Add paragraph and table spacing at tops of pages (in current document)"
 msgstr "Беттер үстіне абзацтар және кестелер аралығын қосу (ағымдағы құжатта)"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_TAB_ALIGNMENT.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_TAB_ALIGNMENT.string.text
 msgid "Use %WRITERCOMPATIBILITYVERSIONOOO11 tabstop formatting"
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_EXTERNAL_LEADING.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_EXTERNAL_LEADING.string.text
 msgid "Do not add leading (extra space) between lines of text"
 msgstr "Мәтін жолдарының арасына басындағы (қосымша) шегіністі қоспау."
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_LINE_SPACING.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_LINE_SPACING.string.text
 msgid "Use %WRITERCOMPATIBILITYVERSIONOOO11 line spacing"
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_ADD_TABLESPACING.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_ADD_TABLESPACING.string.text
 msgid "Add paragraph and table spacing at bottom of table cells"
 msgstr "Абзацтар мен кестелер аралықтарын кесте ұяшықтарының астына қосу"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_USE_OBJPOSITIONING.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_USE_OBJPOSITIONING.string.text
 msgid "Use %WRITERCOMPATIBILITYVERSIONOOO11 object positioning"
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_USE_OURTEXTWRAPPING.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_USE_OURTEXTWRAPPING.string.text
 msgid "Use %WRITERCOMPATIBILITYVERSIONOOO11 text wrapping around objects"
 msgstr ""
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_CONSIDER_WRAPPINGSTYLE.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_CONSIDER_WRAPPINGSTYLE.string.text
 msgid "Consider wrapping style when positioning objects"
 msgstr "Объекттерді орналастыру кезінде аймалау стилін ескеру"
 
-#: optcomp.src%23TP_OPTCOMPATIBILITY_PAGE.STR_EXPAND_WORDSPACE.string.text
+#: optcomp.src#TP_OPTCOMPATIBILITY_PAGE.STR_EXPAND_WORDSPACE.string.text
 msgid ""
 "Expand word space on lines with manual line breaks in justified paragraphs"
 msgstr ""
 "Жолды қолмен тасымалдаған кезде, енімен тураланған абзацтар үшін сөздер "
 "аралығын үлкейту"
 
-#: optdlg.src%23TP_CONTENT_OPT.FL_LINE.fixedline.text
-msgid "Guides"
-msgstr "Нұсқаулықтар"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_CROSS.checkbox.text
-#, fuzzy
-msgid "Guides ~while moving"
-msgstr "_Жылжытқанда көмекші сызықтар"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_HANDLE.checkbox.text
-#, fuzzy
-msgid "Sim~ple handles"
-msgstr "Үлгі ~кестелер"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_BIGHANDLE.checkbox.text
-#, fuzzy
-msgid "Large handles"
-msgstr "Үлкен өзгеріс"
-
-#: optdlg.src%23TP_CONTENT_OPT.FL_WINDOW.fixedline.text
-msgid "View"
-msgstr "Түрі"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_HSCROLL.checkbox.text
-#, fuzzy
-msgid "H~orizontal scrollbar"
-msgstr "Г~оризонталды айналдыру жолағы"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_VSCROLL.checkbox.text
-#, fuzzy
-msgid "~Vertical scrollbar"
-msgstr "~Вертикалды айналдыру жолағы"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_ANY_RULER.checkbox.text
-#, fuzzy
-msgid "R~uler"
-msgstr "~Сызғыш"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_HRULER.checkbox.text
-#, fuzzy
-msgid "Hori~zontal ruler"
-msgstr "Гори~зонт. сызғыш"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_VRULER.checkbox.text
-#, fuzzy
-msgid "Verti~cal ruler"
-msgstr "В~ертик. сызғыш"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_VRULER_RIGHT.checkbox.text
-msgid "Right-aligned"
-msgstr "Оңға тураланған"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_SMOOTH_SCROLL.checkbox.text
-#, fuzzy
-msgid "S~mooth scroll"
-msgstr "~Тегіс айналдыру"
-
-#: optdlg.src%23TP_CONTENT_OPT.FL_DISP.fixedline.text
-msgid "Display"
-msgstr "Көрсету"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_GRF.checkbox.text
-#, fuzzy
-msgid "~Graphics and objects"
-msgstr "~Суреттер мен объекттер"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_TBL.checkbox.text
-msgid "~Tables "
-msgstr "~Кестелер"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_DRWFAST.checkbox.text
-#, fuzzy
-msgid "Dra~wings and controls"
-msgstr "Суре~ттер және басқару элементтері"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_FIELD.checkbox.text
-#, fuzzy
-msgid "~Field codes"
-msgstr "~Өрістер кодтары"
-
-#: optdlg.src%23TP_CONTENT_OPT.CB_POSTIT.checkbox.text
-msgctxt "optdlg.src#TP_CONTENT_OPT.CB_POSTIT.checkbox.text"
-msgid "~Comments"
-msgstr "Түсі~ндірмелер"
-
-#: optdlg.src%23TP_CONTENT_OPT.FL_SETTINGS.fixedline.text
-msgctxt "optdlg.src#TP_CONTENT_OPT.FL_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Баптаулар"
-
-#: optdlg.src%23TP_CONTENT_OPT.FT_METRIC.fixedtext.text
-msgctxt "optdlg.src#TP_CONTENT_OPT.FT_METRIC.fixedtext.text"
-msgid "Measurement unit"
-msgstr "Өлшем бірлігі"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.FL_1.fixedline.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.FL_1.fixedline.text"
-msgid "Contents"
-msgstr "Құрамасы"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_PGRF.checkbox.text
-#, fuzzy
-msgid "~Pictures and objects"
-msgstr "~Суреттер мен объекттер"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_CTRLFLD.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_CTRLFLD.checkbox.text"
-msgid "Form control~s"
-msgstr "~Басқару элементтері"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_BACKGROUND.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_BACKGROUND.checkbox.text"
-msgid "Page ba~ckground"
-msgstr "Бет фо~ны"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_BLACK_FONT.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_BLACK_FONT.checkbox.text"
-msgid "Print text in blac~k"
-msgstr "Мәтінді қ~ара түспен басу"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_HIDDEN_TEXT.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_HIDDEN_TEXT.checkbox.text"
-msgid "Hidden te~xt"
-msgstr "Жасырын мә~тін"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_TEXT_PLACEHOLDER.checkbox.text
-#, fuzzy
-msgid "Text ~placeholder"
-msgstr "Мәтінді ауыстыры~п қою өрісі"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.FL_2.fixedline.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.FL_2.fixedline.text"
-msgid "Pages"
-msgstr "Беттер"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_LEFTP.checkbox.text
-#, fuzzy
-msgid "~Left pages"
-msgstr "~Сол жақ беттері"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_RIGHTP.checkbox.text
-#, fuzzy
-msgid "~Right pages"
-msgstr "~Оң жақ беттері"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_PROSPECT.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_PROSPECT.checkbox.text"
-msgid "Broch~ure"
-msgstr "~Кітапшамен"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_PROSPECT_RTL.checkbox.text
-msgid "Right to Left"
-msgstr "Оңнан солға"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.RB_NO.radiobutton.text
-msgid "~None"
-msgstr "~Жоқ"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.RB_ONLY.radiobutton.text
-#, fuzzy
-msgid "Comments ~only"
-msgstr "~Тек түсіндірмелер ғана"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.RB_END.radiobutton.text
-#, fuzzy
-msgid "End of docu~ment"
-msgstr "Құ~жат соңында"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.RB_PAGEEND.radiobutton.text
-#, fuzzy
-msgid "~End of page"
-msgstr "~Бет соңында"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.FL_3.fixedline.text
-msgid "Comments"
-msgstr "Түсіндірмелер"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.FL_4.fixedline.text
-msgid "Other"
-msgstr "Басқа"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_PRINTEMPTYPAGES.checkbox.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.CB_PRINTEMPTYPAGES.checkbox.text"
-msgid "Print ~automatically inserted blank pages"
-msgstr "~Автоматты түрде енгізілген бос парақтарды баспаға шығару"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.CB_PAPERFROMSETUP.checkbox.text
-#, fuzzy
-msgid "~Paper tray from printer settings"
-msgstr "Қағаз сөре~сі принтер баптауларынан"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.FT_FAX.fixedtext.text
-#, fuzzy
-msgid "~Fax"
-msgstr "~Факс"
-
-#: optdlg.src%23TP_OPTPRINT_PAGE.ST_NONE.string.text
-msgctxt "optdlg.src#TP_OPTPRINT_PAGE.ST_NONE.string.text"
-msgid "<None>"
-msgstr "<Жоқ>"
-
-#: optdlg.src%23TP_STD_FONT.FL_STDCHR.fixedline.text
-msgid "Basic fonts (%1)"
-msgstr "Негізгі қаріптер (%1)"
-
-#: optdlg.src%23TP_STD_FONT.FT_TYPE.fixedtext.text
-msgid "Font"
-msgstr "Қаріп"
-
-#: optdlg.src%23TP_STD_FONT.FT_SIZE.fixedtext.text
-msgid "Size"
-msgstr "Өлшемі"
-
-#: optdlg.src%23TP_STD_FONT.FT_STANDARD.fixedtext.text
-#, fuzzy
-msgid "De~fault"
-msgstr "Стандарт"
-
-#: optdlg.src%23TP_STD_FONT.FT_TITLE.fixedtext.text
-#, fuzzy
-msgid "Headin~g"
-msgstr "Тақырыптама"
-
-#: optdlg.src%23TP_STD_FONT.FT_LIST.fixedtext.text
-#, fuzzy
-msgid "~List"
-msgstr "Тізім"
-
-#: optdlg.src%23TP_STD_FONT.FT_LABEL.fixedtext.text
-#, fuzzy
-msgid "C~aption"
-msgstr "Аты"
-
-#: optdlg.src%23TP_STD_FONT.FT_IDX.fixedtext.text
-msgid "~Index"
-msgstr "~Нұсқағыш"
-
-#: optdlg.src%23TP_STD_FONT.CB_DOCONLY.checkbox.text
-#, fuzzy
-msgid "C~urrent document only"
-msgstr "Тек ағ~ымдағы құжат"
-
-#: optdlg.src%23TP_STD_FONT.PB_STANDARD.pushbutton.text
-msgid "~Default"
-msgstr "Үнсіз ~келісім бойынша"
-
-#: optdlg.src%23TP_STD_FONT.ST_SCRIPT_ASIAN.string.text
-msgid "Asian"
-msgstr "Азиялық"
-
-#: optdlg.src%23TP_STD_FONT.ST_SCRIPT_CTL.string.text
-msgid "CTL"
-msgstr "CTL"
-
-#: optdlg.src%23TP_STD_FONT.ST_SCRIPT_WESTERN.string.text
-msgid "Western"
-msgstr "Батыс"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FL_TABLE.fixedline.text
-msgid "Default"
-msgstr "Стандарт"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_HEADER.checkbox.text
-#, fuzzy
-msgid "H~eading"
-msgstr "Т~ақырыптама"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_REPEAT_HEADER.checkbox.text
-#, fuzzy
-msgid "Re~peat on each page"
-msgstr "Әр бетте қа~йталау"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_DONT_SPLIT.checkbox.text
-#, fuzzy
-msgid "Do not split"
-msgstr "_Бөлмеу"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_BORDER.checkbox.text
-#, fuzzy
-msgid "B~order"
-msgstr "~Жақтау"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FL_TABLE_INSERT.fixedline.text
-msgid "Input in tables"
-msgstr "Кестелерге енгізу"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_NUMFORMATTING.checkbox.text
-#, fuzzy
-msgid "Number recognition"
-msgstr "Са_ндарды тану"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_NUMFMT_FORMATTING.checkbox.text
-#, fuzzy
-msgid "Number format recognition"
-msgstr "Са_ндар пішімін тану"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.CB_NUMALIGNMENT.checkbox.text
-msgid "Alignment"
-msgstr "Туралау"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FL_MOVE.fixedline.text
-msgid "Keyboard handling"
-msgstr "Пернетақтаны өңдеу"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_MOVE.fixedtext.text
-msgid "Move cells"
-msgstr "Ұяшықтарды жылжыту"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_ROWMOVE.fixedtext.text
-msgid "~Row"
-msgstr "~Қатарлар"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_COLMOVE.fixedtext.text
-#, fuzzy
-msgid "~Column"
-msgstr "Баған"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_INSERT.fixedtext.text
-#, fuzzy
-msgid "Insert cell"
-msgstr "Ұяшықты кірістіру"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_ROWINSERT.fixedtext.text
-#, fuzzy
-msgid "Ro~w"
-msgstr "Ж~ол"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_COLINSERT.fixedtext.text
-msgid "Colu~mn"
-msgstr "~Баған"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_HANDLING.fixedtext.text
-msgid "Behavior of rows/columns"
-msgstr "Жолдар/бағандар мінез-құлығы"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.RB_FIX.radiobutton.text
-#, fuzzy
-msgid "~Fixed"
-msgstr "~Бекітілген"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_FIX.fixedtext.text
-msgid "Changes affect the adjacent area only"
-msgstr "Өзгерістер тек сыбайлас аймаққа әсер етеді"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.RB_FIXPROP.radiobutton.text
-#, fuzzy
-msgid "Fi~xed, proportional"
-msgstr "Бе~кітілген, пропорционалды"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_FIXPROP.fixedtext.text
-msgid "Changes affect the entire table"
-msgstr "Өзгерістер толық кестеге әсер етеді"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.RB_VAR.radiobutton.text
-#, fuzzy
-msgid "~Variable"
-msgstr "Ө~згермелі"
-
-#: optdlg.src%23TP_OPTTABLE_PAGE.FT_VAR.fixedtext.text
-msgid "Changes affect the table size"
-msgstr "Өзгерістер кесте өлшеміне әсер етеді"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.FL_NOPRINT.fixedline.text
-msgid "Display of"
-msgstr "Көрсету"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_PARA.checkbox.text
-#, fuzzy
-msgid "Pa~ragraph end"
-msgstr "А~бзац соңы"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_SHYPH.checkbox.text
-#, fuzzy
-msgid "Custom h~yphens"
-msgstr "Таңдауыңызша ~тасымалдау"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_SPACE.checkbox.text
-#, fuzzy
-msgid "Spac~es"
-msgstr "Бос ара~лықтар"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_HSPACE.checkbox.text
-#, fuzzy
-msgid "Non-breaking s~paces"
-msgstr "Үзбейтін бос арал~ықтар"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_TAB.checkbox.text
-#, fuzzy
-msgid "Ta~bs"
-msgstr "Та~буляция"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_BREAK.checkbox.text
-#, fuzzy
-msgid "Brea~ks"
-msgstr "А~жыраулар"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_CHAR_HIDDEN.checkbox.text
-msgid "Hidden text"
-msgstr "Жасырын мәтін"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_FLD_HIDDEN.checkbox.text
-#, fuzzy
-msgid "Fields: Hidden te~xt"
-msgstr "Өрістер: Жасырын мә~тін"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_FLD_HIDDEN_PARA.checkbox.text
-#, fuzzy
-msgid "Fields: Hidden p~aragraphs"
-msgstr "Өрістер: Жасырын ~абзацтар"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.FL_SHDWCRSFLAG.fixedline.text
-msgid "Direct cursor"
-msgstr "Бос курсор"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_SHDWCRSONOFF.checkbox.text
-#, fuzzy
-msgid "~Direct cursor"
-msgstr "~Бос курсор"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.FT_SHDWCRSFILLMODE.fixedtext.text
-msgctxt "optdlg.src#TP_OPTSHDWCRSR.FT_SHDWCRSFILLMODE.fixedtext.text"
-msgid "Insert"
-msgstr "Кірістіру"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.RB_SHDWCRSFILLMARGIN.radiobutton.text
-#, fuzzy
-msgid "Para~graph alignment"
-msgstr "Абза~ц туралануы"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.RB_SHDWCRSFILLINDENT.radiobutton.text
-#, fuzzy
-msgid "~Left paragraph margin"
-msgstr "Со~л жақ абзацтың шет өрісі"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.RB_SHDWCRSFILLTAB.radiobutton.text
-#, fuzzy
-msgid "~Tabs"
-msgstr "~Табуляция"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.RB_SHDWCRSFILLSPACE.radiobutton.text
-#, fuzzy
-msgid "Tabs a~nd spaces"
-msgstr "Табуляция жә~не бос аралықтар"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.FL_CRSR_OPT.fixedline.text
-msgid "Cursor in protected areas"
-msgstr "Курсор қорғалған аймақтарда"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_ALLOW_IN_PROT.checkbox.text
-msgid "Enable"
-msgstr "Іске қосу"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.FL_LAYOUT_OPTIONS.fixedline.text
-msgid "Layout assistance"
-msgstr "Қосымша жайма"
-
-#: optdlg.src%23TP_OPTSHDWCRSR.CB_MATH_BASELINE_ALIGNMENT.checkbox.text
-msgid "Math baseline alignment"
-msgstr "Math базалық сызықпен туралау"
-
-#: optdlg.src%23STR_PRINTOPTUI.1.itemlist.text
-msgid "%PRODUCTNAME %s"
-msgstr "%PRODUCTNAME %s"
-
-#: optdlg.src%23STR_PRINTOPTUI.2.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.2.itemlist.text"
-msgid "Contents"
-msgstr "Құрамасы"
-
-#: optdlg.src%23STR_PRINTOPTUI.3.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.3.itemlist.text"
-msgid "Page ba~ckground"
-msgstr "Бет фо~ны"
-
-#: optdlg.src%23STR_PRINTOPTUI.4.itemlist.text
-msgid "P~ictures and other graphic objects"
-msgstr "Сур~еттер және басқа да графикалық объектілер"
-
-#: optdlg.src%23STR_PRINTOPTUI.5.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.5.itemlist.text"
-msgid "Hidden te~xt"
-msgstr "Жасырын мә~тін"
-
-#: optdlg.src%23STR_PRINTOPTUI.6.itemlist.text
-msgid "~Text placeholders"
-msgstr "Өрі~стерде мәтінді орналастыру"
-
-#: optdlg.src%23STR_PRINTOPTUI.7.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.7.itemlist.text"
-msgid "Form control~s"
-msgstr "~Басқару элементтері"
-
-#: optdlg.src%23STR_PRINTOPTUI.8.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.8.itemlist.text"
+#: redlopt.src#TP_REDLINE_OPT.FL_TE.fixedline.text
+msgid "Text display"
+msgstr "Мәтіннің бейнеленуі"
+
+#: redlopt.src#TP_REDLINE_OPT.FT_CHG_INSERT.fixedtext.text
+msgid "Insertions"
+msgstr "Кірістірулер"
+
+#: redlopt.src#TP_REDLINE_OPT.FT_INS_ATTR.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_INS_ATTR.fixedtext.text"
+msgid "Attributes"
+msgstr "Атрибуттар"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.1.stringlist.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.1.stringlist.text"
+msgid "[None]"
+msgstr "[Жоқ]"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.2.stringlist.text
+msgid "Bold"
+msgstr "Жуан"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.3.stringlist.text
+msgid "Italic"
+msgstr "Көлбеу"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.4.stringlist.text
+msgid "Underlined"
+msgstr "Асты сызылған"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.5.stringlist.text
+msgid "Underlined: double"
+msgstr "Асты сызылған: қос"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.6.stringlist.text
+msgid "Strikethrough"
+msgstr "Сызып тастау"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.7.stringlist.text
+msgid "Uppercase"
+msgstr "Бас әріптер"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.8.stringlist.text
+msgid "Lowercase"
+msgstr "Кіші әріптер"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.9.stringlist.text
+msgid "Small caps"
+msgstr "Кіші бас әріптер"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.10.stringlist.text
+msgid "Title font"
+msgstr "Атау қарібі"
+
+#: redlopt.src#TP_REDLINE_OPT.LB_INS_ATTR.11.stringlist.text
+msgid "Background color"
+msgstr "Фон түсі"
+
+#: redlopt.src#TP_REDLINE_OPT.FT_INS_COL.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_INS_COL.fixedtext.text"
 msgid "Color"
 msgstr "Түс"
 
-#: optdlg.src%23STR_PRINTOPTUI.9.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.9.itemlist.text"
-msgid "Print text in blac~k"
-msgstr "Мәтінді қ~ара түспен басу"
+#: redlopt.src#TP_REDLINE_OPT.WIN_INS.window.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.WIN_INS.window.text"
+msgid "Insert"
+msgstr "Кірістіру"
 
-#: optdlg.src%23STR_PRINTOPTUI.10.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.10.itemlist.text"
-msgid "Pages"
-msgstr "Беттер"
+#: redlopt.src#TP_REDLINE_OPT.FT_CHG_DELETE.fixedtext.text
+msgid "Deletions"
+msgstr "Өшірулер"
 
-#: optdlg.src%23STR_PRINTOPTUI.11.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.11.itemlist.text"
-msgid "Print ~automatically inserted blank pages"
-msgstr "~Автоматты түрде енгізілген бос парақтарды баспаға шығару"
+#: redlopt.src#TP_REDLINE_OPT.FT_DEL_ATTR.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_DEL_ATTR.fixedtext.text"
+msgid "Attributes"
+msgstr "Атрибуттар"
 
-#: optdlg.src%23STR_PRINTOPTUI.12.itemlist.text
-msgid "~Use only paper tray from printer preferences"
-msgstr "Принтер бап~тауларынан ғана қағаз сөресін қолдану"
+#: redlopt.src#TP_REDLINE_OPT.FT_DEL_COL.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_DEL_COL.fixedtext.text"
+msgid "Color"
+msgstr "Түс"
 
-#: optdlg.src%23STR_PRINTOPTUI.13.itemlist.text
-msgid "Print"
-msgstr "Баспаға шығару"
+#: redlopt.src#TP_REDLINE_OPT.WIN_DEL.window.text
+msgid "Delete"
+msgstr "Өшіру"
 
-#: optdlg.src%23STR_PRINTOPTUI.14.itemlist.text
-msgid "None (document only)"
-msgstr "Жоқ (тек құжат)"
+#: redlopt.src#TP_REDLINE_OPT.FT_CHG_CHANGE.fixedtext.text
+msgid "Changed attributes"
+msgstr "Өзгертілген атрибуттар"
 
-#: optdlg.src%23STR_PRINTOPTUI.15.itemlist.text
-msgid "Comments only"
-msgstr "Тек түсіндірмелер ғана"
+#: redlopt.src#TP_REDLINE_OPT.FT_CHG_ATTR.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_CHG_ATTR.fixedtext.text"
+msgid "Attributes"
+msgstr "Атрибуттар"
 
-#: optdlg.src%23STR_PRINTOPTUI.16.itemlist.text
-msgid "Place at end of document"
-msgstr "Құжат соңына орналастыру"
+#: redlopt.src#TP_REDLINE_OPT.FT_CHG_COL.fixedtext.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.FT_CHG_COL.fixedtext.text"
+msgid "Color"
+msgstr "Түс"
 
-#: optdlg.src%23STR_PRINTOPTUI.17.itemlist.text
-msgid "Place at end of page"
-msgstr "Бет соңына орналастыру"
+#: redlopt.src#TP_REDLINE_OPT.WIN_CHG.window.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.WIN_CHG.window.text"
+msgid "Attributes"
+msgstr "Атрибуттар"
 
-#: optdlg.src%23STR_PRINTOPTUI.18.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.18.itemlist.text"
-msgid "~Comments"
-msgstr "Түсі~ндірмелер"
+#: redlopt.src#TP_REDLINE_OPT.FL_LC.fixedline.text
+msgid "Lines changed"
+msgstr "Өзгертілген жолдар"
 
-#: optdlg.src%23STR_PRINTOPTUI.19.itemlist.text
-msgid "Page sides"
-msgstr "Беттер"
+#: redlopt.src#TP_REDLINE_OPT.FT_MARKPOS.fixedtext.text
+#, fuzzy
+msgid "Mar~k"
+msgstr "Нау"
 
-#: optdlg.src%23STR_PRINTOPTUI.20.itemlist.text
-msgid "All pages"
-msgstr "Барлық парақтар"
+#: redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.1.stringlist.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.1.stringlist.text"
+msgid "[None]"
+msgstr "[Жоқ]"
 
-#: optdlg.src%23STR_PRINTOPTUI.21.itemlist.text
-msgid "Back sides / left pages"
-msgstr "Артқы беттер / сол жақ парақтар"
+#: redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.2.stringlist.text
+msgid "Left margin"
+msgstr "Сол жақ шет өрісі"
 
-#: optdlg.src%23STR_PRINTOPTUI.22.itemlist.text
-msgid "Front sides / right pages"
-msgstr "Алдыңғы беттер / оң жақ парақтар"
+#: redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.3.stringlist.text
+msgid "Right margin"
+msgstr "Оң жақ шет өрісі"
 
-#: optdlg.src%23STR_PRINTOPTUI.23.itemlist.text
-msgid "Include"
-msgstr "Қосу"
+#: redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.4.stringlist.text
+msgid "Outer margin"
+msgstr "Сыртқы шет өрісі"
 
-#: optdlg.src%23STR_PRINTOPTUI.24.itemlist.text
-msgctxt "optdlg.src#STR_PRINTOPTUI.24.itemlist.text"
-msgid "Broch~ure"
-msgstr "~Кітапшамен"
+#: redlopt.src#TP_REDLINE_OPT.LB_MARKPOS.5.stringlist.text
+msgid "Inner margin"
+msgstr "Ішкі шет өрісі"
 
-#: optdlg.src%23STR_PRINTOPTUI.25.itemlist.text
-msgid "Left-to-right script"
-msgstr "Солдан оңға"
+#: redlopt.src#TP_REDLINE_OPT.FT_LC_COL.fixedtext.text
+msgid "~Color"
+msgstr "~Түс"
 
-#: optdlg.src%23STR_PRINTOPTUI.26.itemlist.text
-msgid "Right-to-left script"
-msgstr "Оңнан солға"
+#: redlopt.src#TP_REDLINE_OPT.STR_AUTHOR.string.text
+msgid "By author"
+msgstr "Автор бойынша"
 
-#: optdlg.src%23STR_PRINTOPTUI.27.itemlist.text
-msgid "Range and copies"
-msgstr "Баспа аймағы және көшірмелер"
+#: redlopt.src#TP_REDLINE_OPT.STR_NOTHING.string.text
+msgctxt "redlopt.src#TP_REDLINE_OPT.STR_NOTHING.string.text"
+msgid "[None]"
+msgstr "[Жоқ]"
 
-#: optdlg.src%23STR_PRINTOPTUI.28.itemlist.text
-msgid "~All pages"
-msgstr "~Барлық беттер"
-
-#: optdlg.src%23STR_PRINTOPTUI.29.itemlist.text
-msgid "Pa~ges"
-msgstr "Бе~ттер"
-
-#: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
-msgid "~Selection"
-msgstr "~Таңдау"
-
-#: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
+#: optload.src#TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
 msgstr "Жаңарту"
 
-#: optload.src%23TP_OPTLOAD_PAGE.FT_LINK.fixedtext.text
+#: optload.src#TP_OPTLOAD_PAGE.FT_LINK.fixedtext.text
 msgid "Update links when loading"
 msgstr "Жүктеу кезінде сілтемелерді жаңарту"
 
-#: optload.src%23TP_OPTLOAD_PAGE.RB_ALWAYS.radiobutton.text
+#: optload.src#TP_OPTLOAD_PAGE.RB_ALWAYS.radiobutton.text
 #, fuzzy
 msgid "~Always"
 msgstr "Әрқ~ашан"
 
-#: optload.src%23TP_OPTLOAD_PAGE.RB_REQUEST.radiobutton.text
+#: optload.src#TP_OPTLOAD_PAGE.RB_REQUEST.radiobutton.text
 #, fuzzy
 msgid "~On request"
 msgstr "~Сұрауы бойынша"
 
-#: optload.src%23TP_OPTLOAD_PAGE.RB_NEVER.radiobutton.text
+#: optload.src#TP_OPTLOAD_PAGE.RB_NEVER.radiobutton.text
 #, fuzzy
 msgid "~Never"
 msgstr "Ешқаша~н"
 
-#: optload.src%23TP_OPTLOAD_PAGE.FT_FIELD.fixedtext.text
+#: optload.src#TP_OPTLOAD_PAGE.FT_FIELD.fixedtext.text
 msgid "Automatically"
 msgstr "Автоматты түрде"
 
-#: optload.src%23TP_OPTLOAD_PAGE.CB_AUTO_UPDATE_FIELDS.checkbox.text
+#: optload.src#TP_OPTLOAD_PAGE.CB_AUTO_UPDATE_FIELDS.checkbox.text
 msgid "~Fields"
 msgstr "Өрі~стер"
 
-#: optload.src%23TP_OPTLOAD_PAGE.CB_AUTO_UPDATE_CHARTS.checkbox.text
+#: optload.src#TP_OPTLOAD_PAGE.CB_AUTO_UPDATE_CHARTS.checkbox.text
 #, fuzzy
 msgid "~Charts"
 msgstr "~Диаграммалар"
 
-#: optload.src%23TP_OPTLOAD_PAGE.FL_SETTINGS.fixedline.text
+#: optload.src#TP_OPTLOAD_PAGE.FL_SETTINGS.fixedline.text
 msgctxt "optload.src#TP_OPTLOAD_PAGE.FL_SETTINGS.fixedline.text"
 msgid "Settings"
 msgstr "Баптаулар"
 
-#: optload.src%23TP_OPTLOAD_PAGE.FT_METRIC.fixedtext.text
+#: optload.src#TP_OPTLOAD_PAGE.FT_METRIC.fixedtext.text
 msgctxt "optload.src#TP_OPTLOAD_PAGE.FT_METRIC.fixedtext.text"
 msgid "Measurement unit"
 msgstr "Өлшем бірлігі"
 
-#: optload.src%23TP_OPTLOAD_PAGE.FT_TAB.fixedtext.text
+#: optload.src#TP_OPTLOAD_PAGE.FT_TAB.fixedtext.text
 msgid "Tab stops"
 msgstr "Табуляция"
 
-#: optload.src%23TP_OPTLOAD_PAGE.CB_USE_SQUARE_PAGE_MODE.checkbox.text
+#: optload.src#TP_OPTLOAD_PAGE.CB_USE_SQUARE_PAGE_MODE.checkbox.text
 #, fuzzy
 msgid "Use square page mode for text grid"
 msgstr "Мәтіндік тор үшін квадраттық беттерді қ_олдану"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_OBJECTS.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_OBJECTS.fixedtext.text
 msgid ""
 "Add captions automatically\n"
 "when inserting:"
@@ -1071,159 +898,332 @@ msgstr ""
 "Кірістіру кезінде жазуларды\n"
 "автокірістіру:"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_ORDER.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_ORDER.fixedtext.text
 msgid "Caption order"
 msgstr "Атаулар реті"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.LB_ORDER.1.stringlist.text
+#: optload.src#TP_OPTCAPTION_PAGE.LB_ORDER.1.stringlist.text
 msgid "Category first"
 msgstr "Алдымен санат"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.LB_ORDER.2.stringlist.text
+#: optload.src#TP_OPTCAPTION_PAGE.LB_ORDER.2.stringlist.text
 msgid "Numbering first"
 msgstr "Алдымен нөмірлеу"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_TABLE.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_TABLE.string.text
 msgid "%PRODUCTNAME Writer Table"
 msgstr "%PRODUCTNAME Writer кестесі"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_FRAME.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_FRAME.string.text
 msgid "%PRODUCTNAME Writer Frame"
 msgstr "%PRODUCTNAME Writer фреймі"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_GRAPHIC.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_GRAPHIC.string.text
 msgid "%PRODUCTNAME Writer Picture"
 msgstr "%PRODUCTNAME Writer суреті"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_OLE.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_OLE.string.text
 msgid "Other OLE Objects"
 msgstr "Басқа OLE объекттері"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FL_SETTINGS_2.fixedline.text
+#: optload.src#TP_OPTCAPTION_PAGE.FL_SETTINGS_2.fixedline.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.FL_SETTINGS_2.fixedline.text"
 msgid "Caption"
 msgstr "Аты"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.TXT_CATEGORY.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.TXT_CATEGORY.fixedtext.text
 msgid "Category"
 msgstr "Санат"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.TXT_FORMAT.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.TXT_FORMAT.fixedtext.text
 #, fuzzy
 msgid "~Numbering"
 msgstr "~Нөмірлеу"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_NUM_SEP.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_NUM_SEP.fixedtext.text
 msgid "Numbering separator"
 msgstr "Нөмірлеудің ажыратқышы"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.TXT_TEXT.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.TXT_TEXT.fixedtext.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.TXT_TEXT.fixedtext.text"
 msgid "Separator"
 msgstr "Ажыратқыш"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.TXT_POS.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.TXT_POS.fixedtext.text
 msgid "Position"
 msgstr "Орналасу"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FL_NUMCAPT.fixedline.text
+#: optload.src#TP_OPTCAPTION_PAGE.FL_NUMCAPT.fixedline.text
 msgid "Numbering captions by chapter"
 msgstr "Тараулар бойынша нөмірлеу"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_LEVEL.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_LEVEL.fixedtext.text
 msgid "Level"
 msgstr "Деңгей"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.LB_LEVEL.1.stringlist.text
+#: optload.src#TP_OPTCAPTION_PAGE.LB_LEVEL.1.stringlist.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.LB_LEVEL.1.stringlist.text"
 msgid "None"
 msgstr "Жоқ"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_SEPARATOR.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_SEPARATOR.fixedtext.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.FT_SEPARATOR.fixedtext.text"
 msgid "Separator"
 msgstr "Ажыратқыш"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FL_CATEGORY.fixedline.text
+#: optload.src#TP_OPTCAPTION_PAGE.FL_CATEGORY.fixedline.text
 msgid "Category and frame format"
 msgstr "Санат және фрейм пішіні"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.FT_CHARSTYLE.fixedtext.text
+#: optload.src#TP_OPTCAPTION_PAGE.FT_CHARSTYLE.fixedtext.text
 msgid "Character style"
 msgstr "Таңба стилі"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.LB_CHARSTYLE.1.stringlist.text
+#: optload.src#TP_OPTCAPTION_PAGE.LB_CHARSTYLE.1.stringlist.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.LB_CHARSTYLE.1.stringlist.text"
 msgid "None"
 msgstr "Жоқ"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.CB_APPLYBORDER.checkbox.text
+#: optload.src#TP_OPTCAPTION_PAGE.CB_APPLYBORDER.checkbox.text
 msgid "Apply border and shadow"
 msgstr "Шекаралар және көлеңкелеуді іске асыру"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_BEGINNING.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_BEGINNING.string.text
 #, fuzzy
 msgid "At the beginning"
 msgstr "Басынан бастап жалғастыру керек пе?"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_END.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_END.string.text
 #, fuzzy
 msgid "At the end"
 msgstr "сол жақта"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_ABOVE.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_ABOVE.string.text
 msgid "Above"
 msgstr "Үстінде"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_CP_BELOW.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_CP_BELOW.string.text
 msgid "Below"
 msgstr "Астында"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.STR_CATEGORY_NONE.string.text
+#: optload.src#TP_OPTCAPTION_PAGE.STR_CATEGORY_NONE.string.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.STR_CATEGORY_NONE.string.text"
 msgid "<None>"
 msgstr "<Жоқ>"
 
-#: optload.src%23TP_OPTCAPTION_PAGE.tabpage.text
+#: optload.src#TP_OPTCAPTION_PAGE.tabpage.text
 msgctxt "optload.src#TP_OPTCAPTION_PAGE.tabpage.text"
 msgid "Caption"
 msgstr "Аты"
 
-#: optload.src%23STR_ARR_METRIC.1.itemlist.text
+#: optload.src#STR_ARR_METRIC.1.itemlist.text
 msgid "Millimeter"
 msgstr "Миллиметр"
 
-#: optload.src%23STR_ARR_METRIC.2.itemlist.text
+#: optload.src#STR_ARR_METRIC.2.itemlist.text
 msgid "Centimeter"
 msgstr "Сантиметр"
 
-#: optload.src%23STR_ARR_METRIC.3.itemlist.text
+#: optload.src#STR_ARR_METRIC.3.itemlist.text
 msgid "Meter"
 msgstr "Метр"
 
-#: optload.src%23STR_ARR_METRIC.4.itemlist.text
+#: optload.src#STR_ARR_METRIC.4.itemlist.text
 msgid "Kilometer"
 msgstr "Километр"
 
-#: optload.src%23STR_ARR_METRIC.5.itemlist.text
+#: optload.src#STR_ARR_METRIC.5.itemlist.text
 msgid "Inch"
 msgstr "Дюйм"
 
-#: optload.src%23STR_ARR_METRIC.6.itemlist.text
+#: optload.src#STR_ARR_METRIC.6.itemlist.text
 msgid "Foot"
 msgstr "Фут"
 
-#: optload.src%23STR_ARR_METRIC.7.itemlist.text
+#: optload.src#STR_ARR_METRIC.7.itemlist.text
 msgid "Miles"
 msgstr "Милялар"
 
-#: optload.src%23STR_ARR_METRIC.8.itemlist.text
+#: optload.src#STR_ARR_METRIC.8.itemlist.text
 msgid "Pica"
 msgstr "Пика"
 
-#: optload.src%23STR_ARR_METRIC.9.itemlist.text
+#: optload.src#STR_ARR_METRIC.9.itemlist.text
 msgid "Point"
 msgstr "Нүкте"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FL_IDENTITY.fixedline.text
+msgid "User information"
+msgstr "Пайдаланушы ақпараты"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FT_DISPLAYNAME.fixedtext.text
+#, fuzzy
+msgid "~Your name"
+msgstr "_Сіздің атыңыз:"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FT_ADDRESS.fixedtext.text
+#, fuzzy
+msgid "~E-Mail address"
+msgstr "_Эл. пошта адресі:"
+
+#: mailconfigpage.src#TP_MAILCONFIG.CB_REPLYTO.checkbox.text
+#, fuzzy
+msgid "Send replies to ~different e-mail address"
+msgstr "Жауаптарды ба~сқа эл. пошта адресіне жіберу"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FT_REPLYTO.fixedtext.text
+#, fuzzy
+msgid "~Reply address"
+msgstr "_Жауап беру адресі:"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FL_SMTP.fixedline.text
+msgid "Outgoing server (SMTP) Settings"
+msgstr "Шығыс сервер (SMTP) баптаулары"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FT_SERVER.fixedtext.text
+#, fuzzy
+msgid "~Server name"
+msgstr "_Сервер аты:"
+
+#: mailconfigpage.src#TP_MAILCONFIG.FT_PORT.fixedtext.text
+msgid "~Port"
+msgstr "~Порт"
+
+#: mailconfigpage.src#TP_MAILCONFIG.CB_SECURE.checkbox.text
+#, fuzzy
+msgid "~Use secure connection (SSL)"
+msgstr "Қауіпсіз байланысты қолд~ану (SSL)"
+
+#: mailconfigpage.src#TP_MAILCONFIG.PB_AUTHENTICATION.pushbutton.text
+#, fuzzy
+msgid "Server Au~thentication"
+msgstr "Сервер ау~тентификациясы"
+
+#: mailconfigpage.src#TP_MAILCONFIG.PB_TEST.pushbutton.text
+#, fuzzy
+msgid "Test S~ettings..."
+msgstr "Баптау~ларды тексеру..."
+
+#: mailconfigpage.src#TP_MAILCONFIG.tabpage.text
+#, fuzzy
+msgid "Mail Merge e-mail"
+msgstr "Электрондық поштаны тарату"
+
+#: mailconfigpage.src#DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
+msgid "%PRODUCTNAME is testing the e-mail account settings..."
+msgstr "%PRODUCTNAME эл. пошта тіркелгісінің баптауларын тексеруде..."
+
+#: mailconfigpage.src#DLG_MM_TESTACCOUNTSETTINGS.FI_ERROR.fixedtext.text
+msgid "Errors"
+msgstr "Қателер"
+
+#: mailconfigpage.src#DLG_MM_TESTACCOUNTSETTINGS.PB_STOP.pushbutton.text
+msgid "~Stop"
+msgstr "~Тоқтату"
+
+#: mailconfigpage.src#DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Тіркелгі баптауларын тексеру"
+
+#: mailconfigpage.src#ST_TASK.string.text
+msgid "Task"
+msgstr "Тапсырма"
+
+#: mailconfigpage.src#ST_STATUS.string.text
+msgid "Status"
+msgstr "Күйі"
+
+#: mailconfigpage.src#ST_ESTABLISH.string.text
+msgid "Establish network connection"
+msgstr "Желілік байланысты орнату"
+
+#: mailconfigpage.src#ST_FINDSERVER.string.text
+msgid "Find outgoing mail server"
+msgstr "Шығыс пошта серверін табу"
+
+#: mailconfigpage.src#ST_COMPLETED.string.text
+msgid "Successful"
+msgstr "Сәтті"
+
+#: mailconfigpage.src#ST_FAILED.string.text
+msgid "Failed"
+msgstr "Сәтсіз"
+
+#: mailconfigpage.src#ST_ERROR_SERVER.string.text
+msgid ""
+"%PRODUCTNAME could not connect to the outgoing mail server. Check your "
+"system's settings and the settings in %PRODUCTNAME. Check the server name, "
+"the port and the secure connections settings"
+msgstr ""
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
+#, fuzzy
+msgid "The outgoing mail server (SMTP) requires au~thentication"
+msgstr "Шығыс пошта сервері (SMTP) ау~тентификацияны талап етеді"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
+#, fuzzy
+msgid "The outgoing mail server (SMTP) requires ~separate authentication"
+msgstr "Шығыс пошта сервері (SMTP) бө~лек аутентификацияны талап етеді"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
+msgid "Outgoing mail server:"
+msgstr "Шығыс пошта сервері:"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "Пайдаланушы ~аты"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "~Пароль"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
+msgid ""
+"The outgoing mail server uses the same authentication as the ~incoming mail "
+"server. Enter the settings of the incoming mail server."
+msgstr ""
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
+msgid "Incoming mail server:"
+msgstr "Кіріс пошта сервері:"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
+#, fuzzy
+msgid "Server ~name"
+msgstr "_Сервер аты:"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
+#, fuzzy
+msgid "P~ort"
+msgstr "~Порт"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
+msgid "Type"
+msgstr "Түрі"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
+#, fuzzy
+msgid "~POP3"
+msgstr "_POP3"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
+#, fuzzy
+msgid "~IMAP"
+msgstr "~IMAP"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
+#, fuzzy
+msgid "Us~er name"
+msgstr "Пайдаланушы аты"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "~Паролі"
+
+#: mailconfigpage.src#DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Сервер аутентификациясы"
 
 #~ msgid "Mail Merge E-mail"
 #~ msgstr "Электрондық поштаны тарату"

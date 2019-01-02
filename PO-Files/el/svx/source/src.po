@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+svx%2Fsource%2Fsrc.o"
-"o&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+svx%2Fsource%2Fsrc.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2019-01-01 19:34+0000\n"
 "PO-Revision-Date: 2013-06-30 11:02+0000\n"
 "Last-Translator: Christos <xstefanidis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,185 +15,193 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.2.4\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1372590154.0\n"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_ERROR.string.text
+#: app.src#RID_ERRBOX_MODULENOTINSTALLED.errorbox.text
+msgid ""
+"The action could not be executed. The %PRODUCTNAME program module needed for "
+"this action is currently not installed."
+msgstr ""
+"Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας. Το άρθρωμα του %PRODUCTNAME "
+"που απαιτείται για αυτή την ενέργεια δεν έχει εγκατασταθεί."
+
+#: errtxt.src#RID_ERRCTX.ERRCTX_ERROR.string.text
 msgid "Error"
 msgstr "Σφάλμα"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_WARNING.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_WARNING.string.text
 msgid "Warning"
 msgstr "Προειδοποίηση"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_LOADTEMPLATE.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_LOADTEMPLATE.string.text
 msgid "$(ERR) loading the template $(ARG1)"
 msgstr "$(ERR) κατά τη φόρτωση του προτύπου $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_SAVEDOC.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_SAVEDOC.string.text
 msgctxt "errtxt.src#RID_ERRCTX.ERRCTX_SFX_SAVEDOC.string.text"
 msgid "$(ERR) saving the document $(ARG1)"
 msgstr "$(ERR) κατά την αποθήκευση του εγγράφου $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_SAVEASDOC.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_SAVEASDOC.string.text
 msgctxt "errtxt.src#RID_ERRCTX.ERRCTX_SFX_SAVEASDOC.string.text"
 msgid "$(ERR) saving the document $(ARG1)"
 msgstr "$(ERR) κατά την αποθήκευση του εγγράφου $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_DOCINFO.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_DOCINFO.string.text
 msgid "$(ERR) displaying doc. information for document $(ARG1)"
 msgstr "$(ERR) κατά την προβολή πληροφοριών doc. για το έγγραφο $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_DOCTEMPLATE.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_DOCTEMPLATE.string.text
 msgid "$(ERR) writing document $(ARG1) as template"
 msgstr "$(ERR) κατά την εγγραφή του εγγράφου $(ARG1) ως πρότυπο"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_MOVEORCOPYCONTENTS.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_MOVEORCOPYCONTENTS.string.text
 msgid "$(ERR) copying or moving document contents"
 msgstr "$(ERR) κατά την αντιγραφή ή μετακίνηση των περιεχομένων του εγγράφου"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_DOCMANAGER.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_DOCMANAGER.string.text
 msgid "$(ERR) starting the Document Manager"
 msgstr "$(ERR) κατά την εκκίνηση του Διαχειριστή Εγγράφων"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_OPENDOC.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_OPENDOC.string.text
 msgid "$(ERR) loading document $(ARG1)"
 msgstr "$(ERR) κατά το φόρτωμα του εγγράφου $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_NEWDOCDIRECT.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_NEWDOCDIRECT.string.text
 msgctxt "errtxt.src#RID_ERRCTX.ERRCTX_SFX_NEWDOCDIRECT.string.text"
 msgid "$(ERR) creating a new document"
 msgstr "$(ERR) κατά την δημιουργία ενός νέου εγγράφου"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_NEWDOC.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_NEWDOC.string.text
 msgctxt "errtxt.src#RID_ERRCTX.ERRCTX_SFX_NEWDOC.string.text"
 msgid "$(ERR) creating a new document"
 msgstr "$(ERR) κατά την δημιουργία ενός νέου εγγράφου"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_CREATEOBJSH.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_CREATEOBJSH.string.text
 msgid "$(ERR) expanding entry"
 msgstr "$(ERR) κατά την επέκταση μιας εισόδου"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_LOADBASIC.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_LOADBASIC.string.text
 msgid "$(ERR) loading BASIC of document $(ARG1)"
 msgstr "$(ERR) κατά τη φόρτωση του BASIC του εγγράφου $(ARG1)"
 
-#: errtxt.src%23RID_ERRCTX.ERRCTX_SFX_SEARCHADDRESS.string.text
+#: errtxt.src#RID_ERRCTX.ERRCTX_SFX_SEARCHADDRESS.string.text
 msgid "$(ERR) searching for an address"
 msgstr "$(ERR) κατά την αναζήτηση διεύθυνσης"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_ABORT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_ABORT.string.text
 msgid "Abort"
 msgstr "Ακύρωση"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_NOTEXISTS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_NOTEXISTS.string.text
 msgid "Nonexistent object"
 msgstr "Ανύπαρκτο αντικείμενο"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_ALREADYEXISTS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_ALREADYEXISTS.string.text
 msgid "Object already exists"
 msgstr "Το αντικείμενο υπάρχει ήδη"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_ACCESS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_ACCESS.string.text
 msgid "Object not accessible"
 msgstr "Αντικείμενο μη προσβάσιμο"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_PATH.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_PATH.string.text
 msgid "Inadmissible path"
 msgstr "Μη έγκυρη διαδρομή"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_LOCKING.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_LOCKING.string.text
 msgid "Locking problem"
 msgstr "Πρόβλημα κλειδώματος"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_PARAMETER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_PARAMETER.string.text
 msgid "Wrong parameter"
 msgstr "Λάθος παράμετρος"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_SPACE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_SPACE.string.text
 msgid "Resource exhausted"
 msgstr "Οι πόροι εξαντλήθηκαν"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_NOTSUPPORTED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_NOTSUPPORTED.string.text
 msgid "Action not supported"
 msgstr "Η ενέργεια δεν υποστηρίζεται"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_READ.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_READ.string.text
 msgid "Read-Error"
 msgstr "Σφάλμα-Ανάγνωσης"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_WRITE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_WRITE.string.text
 msgid "Write Error"
 msgstr "Σφάλμα Έγγραφης"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_UNKNOWN.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_UNKNOWN.string.text
 msgid "unknown"
 msgstr "άγνωστο"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_VERSION.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_VERSION.string.text
 msgid "Version Incompatibility"
 msgstr "Ασυμβατότητα Έκδοσης"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_GENERAL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_GENERAL.string.text
 msgctxt "errtxt.src#RID_ERRHDL.ERRCODE_CLASS_GENERAL.string.text"
 msgid "General Error"
 msgstr "Γενικό Σφάλμα"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_FORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_FORMAT.string.text
 msgid "Incorrect format"
 msgstr "Εσφαλμένη μορφή"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_CREATE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_CREATE.string.text
 msgid "Error creating object"
 msgstr "Σφάλμα κατά την δημιουργία αντικειμένου"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_SBX.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_SBX.string.text
 msgid "Inadmissible value or data type"
 msgstr "Μη αποδεκτή τιμή ή τύπος δεδομένων"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_RUNTIME.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_RUNTIME.string.text
 msgid "BASIC runtime error"
 msgstr "Σφάλμα χρόνου εκτέλεσης BASIC"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_COMPILER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_COMPILER.string.text
 msgid "BASIC syntax error"
 msgstr "Σφάλμα σύνταξης BASIC"
 
-#: errtxt.src%23RID_ERRHDL.1.string.text
+#: errtxt.src#RID_ERRHDL.1.string.text
 msgctxt "errtxt.src#RID_ERRHDL.1.string.text"
 msgid "General Error"
 msgstr "Γενικό Σφάλμα"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_GENERAL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_GENERAL.string.text
 msgid "General input/output error."
 msgstr "Γενικό σφάλμα εισαγωγής/εξαγωγής."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_MISPLACEDCHAR.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_MISPLACEDCHAR.string.text
 msgid "Invalid file name."
 msgstr "Μη έγκυρο όνομα αρχείου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTEXISTS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTEXISTS.string.text
 msgid "Nonexistent file."
 msgstr "Ανύπαρκτο αρχείο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_ALREADYEXISTS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_ALREADYEXISTS.string.text
 msgid "File already exists."
 msgstr "Το αρχείο υπάρχει ήδη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTADIRECTORY.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTADIRECTORY.string.text
 msgid "The object is not a directory."
 msgstr "Το αντικείμενο δεν είναι κατάλογος."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTAFILE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTAFILE.string.text
 msgid "The object is not a file."
 msgstr "Το επιλεγμένο αντικείμενο δεν είναι αρχείο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDDEVICE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDDEVICE.string.text
 msgid "The specified device is invalid."
 msgstr "Η καθορισμένη συσκευή δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_ACCESSDENIED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_ACCESSDENIED.string.text
 msgid ""
 "The object cannot be accessed\n"
 "due to insufficient user rights."
@@ -201,15 +209,15 @@ msgstr ""
 "Δεν είναι δυνατή η προσπέλαση του αντικειμένου\n"
 "λόγω μη επαρκών δικαιωμάτων χρήστη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_LOCKVIOLATION.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_LOCKVIOLATION.string.text
 msgid "Sharing violation while accessing the object."
 msgstr "Σφάλμα κατά την κοινή πρόσβαση στο αντικείμενο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_OUTOFSPACE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_OUTOFSPACE.string.text
 msgid "No more space on device."
 msgstr "Δεν υπάρχει διαθέσιμος χώρος στη συσκευή."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_ISWILDCARD.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_ISWILDCARD.string.text
 msgid ""
 "This operation cannot be run on\n"
 "files containing wildcards."
@@ -217,87 +225,87 @@ msgstr ""
 "Αυτή η λειτουργία δεν μπορεί να εκτελεστεί σε\n"
 "αρχεία που περιέχουν χαρακτήρες μπαλαντέρ."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTSUPPORTED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTSUPPORTED.string.text
 msgid "This operation is not supported on this operating system."
 msgstr "Αυτή η λειτουργία δεν υποστηρίζεται σε αυτό το λειτουργικό σύστημα."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_TOOMANYOPENFILES.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_TOOMANYOPENFILES.string.text
 msgid "There are too many files open."
 msgstr "Υπάρχουν πάρα πολλά ανοιχτά αρχεία."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CANTREAD.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CANTREAD.string.text
 msgid "Data could not be read from the file."
 msgstr "Τα δεδομένα δε μπορούν να διαβαστούν από το αρχείο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CANTWRITE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CANTWRITE.string.text
 msgid "The file could not be written."
 msgstr "Δεν ήταν δυνατή η εγγραφή του αρχείου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_OUTOFMEMORY.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_OUTOFMEMORY.string.text
 msgid "The operation could not be run due to insufficient memory."
 msgstr "Η λειτουργία δε μπόρεσε να εκτελεστεί λόγω μη επαρκούς μνήμης."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CANTSEEK.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CANTSEEK.string.text
 msgid "The seek operation could not be run."
 msgstr "Δεν ήταν δυνατόν να εκτελεστεί η λειτουργία αναζήτησης."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CANTTELL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CANTTELL.string.text
 msgid "The tell operation could not be run."
 msgstr "Δεν ήταν δυνατόν να εκτελεστεί η tell λειτουργία."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_WRONGVERSION.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_WRONGVERSION.string.text
 msgid "Incorrect file version."
 msgstr "Λάθος έκδοση του αρχείου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_WRONGFORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_WRONGFORMAT.string.text
 msgid "Incorrect file format."
 msgstr "Μη έγκυρη μορφή αρχείου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDCHAR.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDCHAR.string.text
 msgid "The file name contains invalid characters."
 msgstr "Το όνομα του αρχείου περιέχει μη έγκυρους χαρακτήρες."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_UNKNOWN.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_UNKNOWN.string.text
 msgid "An unknown I/O error has occurred."
 msgstr "Παρουσιάστηκε άγνωστο σφάλμα εισαγωγής I/O εξαγωγής."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDACCESS.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDACCESS.string.text
 msgid "An invalid attempt was made to access the file."
 msgstr "Επιχειρήθηκε μια μη έγκυρη προσπάθεια πρόσβασης στο αρχείο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CANTCREATE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CANTCREATE.string.text
 msgid "The file could not be created."
 msgstr "Το αρχείο δε μπορούσε να δημιουργηθεί."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDPARAMETER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDPARAMETER.string.text
 msgid "The operation was started under an invalid parameter."
 msgstr "Η λειτουργία εκίνησε με μη έγκυρη παράμετρο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_ABORT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_ABORT.string.text
 msgid "The operation on the file was aborted."
 msgstr "Διακοπή της λειτουργίας πάνω στο αρχείο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTEXISTSPATH.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTEXISTSPATH.string.text
 msgid "Path to the file does not exist."
 msgstr "Η διαδρομή προς το αρχείο δεν υπάρχει."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_RECURSIVE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_RECURSIVE.string.text
 msgid "An object cannot be copied into itself."
 msgstr "Ένα αντικείμενο δεν μπορεί να αντιγραφεί στον εαυτό του."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOSTDTEMPLATE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOSTDTEMPLATE.string.text
 msgid "The default template could not be opened."
 msgstr "Δεν ήταν δυνατόν να ανοιχτεί το πρότυπο προεπιλογής."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_TEMPLATENOTFOUND.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_TEMPLATENOTFOUND.string.text
 msgid "The specified template could not be found."
 msgstr "Δεν βρέθηκε το επιλεγμένο πρότυπο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOTATEMPLATE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOTATEMPLATE.string.text
 msgid "The file cannot be used as template."
 msgstr "Δεν είναι δυνατόν να χρησιμοποιηθεί το αρχείο ως πρότυπο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTREADDOCINFO.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTREADDOCINFO.string.text
 msgid ""
 "Document information could not be read from the file because\n"
 "the document information format is unknown or because document information "
@@ -310,35 +318,35 @@ msgstr ""
 "του αρχείου\n"
 "δεν υπάρχουν."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_ALREADYOPEN.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_ALREADYOPEN.string.text
 msgid "This document has already been opened for editing."
 msgstr "Το έγγραφο είναι ήδη ανοιχτό για επεξεργασία."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_WRONGPASSWORD.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_WRONGPASSWORD.string.text
 msgid "The wrong password has been entered."
 msgstr "Δόθηκε εσφαλμένος κωδικός πρόσβασης."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_DOLOADFAILED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_DOLOADFAILED.string.text
 msgid "Error reading file."
 msgstr "Σφάλμα ανάγνωσης αρχείου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_DOCUMENTREADONLY.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_DOCUMENTREADONLY.string.text
 msgid "The document was opened as read-only."
 msgstr "Το έγγραφο ανοίχθηκε μόνο για ανάγνωση."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_OLEGENERAL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_OLEGENERAL.string.text
 msgid "General OLE Error."
 msgstr "Γενικό Σφάλμα OLE."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_NAME_RESOLVE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_NAME_RESOLVE.string.text
 msgid "The host name $(ARG1) could not be resolved."
 msgstr "Δεν ήταν δυνατόν γίνει ανάλυση του ονόματος του υπολογιστή $(ARG1)."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_CONNECT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_CONNECT.string.text
 msgid "Could not establish Internet connection to $(ARG1)."
 msgstr "Αδυναμία σύνδεσης μέσω διαδικτύου στο $(ARG1)."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_READ.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_READ.string.text
 msgid ""
 "Error reading data from the Internet.\n"
 "Server error message: $(ARG1)."
@@ -346,7 +354,7 @@ msgstr ""
 "Σφάλμα ανάγνωσης δεδομένων από το διαδίκτυο.\n"
 "Μήνυμα σφάλματος εξυπηρετητή: $(ARG1)."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_WRITE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_WRITE.string.text
 msgid ""
 "Error transferring data to the Internet.\n"
 "Server error message: $(ARG1)."
@@ -354,11 +362,11 @@ msgstr ""
 "Σφάλμα μεταφοράς δεδομένων στο διαδίκτυο.\n"
 "Μήνυμα σφάλματος εξυπηρετητή: $(ARG1)."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_GENERAL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_GENERAL.string.text
 msgid "General Internet error has occurred."
 msgstr "Συνέβηκε ένα γενικό σφάλμα διαδικτύου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_INET_OFFLINE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_INET_OFFLINE.string.text
 msgid ""
 "The requested Internet data is not available in the cache and cannot be "
 "transmitted as the Online mode has not be activated."
@@ -366,117 +374,117 @@ msgstr ""
 "Τα αιτούμενα δεδομένα Διαδικτύου δεν βρίσκονται στη προσωρινή μνήμη και δεν "
 "μπορούν να μεταδοθούν επειδή δεν έχει ενεργοποιηθεί η λειτουργία με σύνδεση."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFXMSG_STYLEREPLACE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFXMSG_STYLEREPLACE.string.text
 msgid "Should the $(ARG1) Style be replaced?"
 msgstr "Να αντικατασταθεί το Στυλ $(ARG1);"
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOFILTER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOFILTER.string.text
 msgid "A filter has not been found."
 msgstr "Δεν βρέθηκε κάποιο φίλτρο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTFINDORIGINAL.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTFINDORIGINAL.string.text
 msgid "The original could not be determined."
 msgstr "Αδυναμία προσδιορισμού αρχικού."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTCREATECONTENT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATECONTENT.string.text
 msgid "The contents could not be created."
 msgstr "Δεν ήταν δυνατόν να δημιουργηθεί το περιεχόμενο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTCREATELINK.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATELINK.string.text
 msgid "The link could not be created."
 msgstr "Δεν ήταν δυνατόν να δημιουργηθεί η σύνδεση."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_WRONGBMKFORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_WRONGBMKFORMAT.string.text
 msgid "The link format is invalid."
 msgstr "Η μορφή της σύνδεσης δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_WRONGICONFILE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_WRONGICONFILE.string.text
 msgid "The configuration of the icon display is invalid."
 msgstr "Η διαμόρφωση της εμφάνισης των συμβόλων δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTWRITEICONFILE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTWRITEICONFILE.string.text
 msgid "The configuration of the icon display can not be saved."
 msgstr ""
 "Δεν ήταν δυνατόν να αποθηκευτεί η διαμόρφωση της εμφάνισης των συμβόλων."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTDELICONFILE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTDELICONFILE.string.text
 msgid "The configuration of the icon display could not be deleted."
 msgstr "Δεν ήταν δυνατόν να διαγραφεί η διαμόρφωση της εμφάνισης των συμβόλων."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTRENAMECONTENT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTRENAMECONTENT.string.text
 msgid "Contents cannot be renamed."
 msgstr "Το περιεχόμενο δεν ήταν δυνατόν να μετονομαστεί."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INVALIDBMKPATH.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INVALIDBMKPATH.string.text
 msgid "The bookmark folder is invalid."
 msgstr "Ο φάκελος σελιδοδεικτών δεν είναι έγκυρος."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTWRITEURLCFGFILE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTWRITEURLCFGFILE.string.text
 msgid "The configuration of the URLs to be saved locally could not be saved."
 msgstr ""
 "Δεν αποθηκεύτηκε η διαμόρφωση των URL, που πρόκειται να αποθηκευτούν τοπικά."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_WRONGURLCFGFORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_WRONGURLCFGFORMAT.string.text
 msgid "The configuration format of the URLs to be saved locally is invalid."
 msgstr ""
 "Η μορφή της διαμόρφωσης του URL, το οποίο πρόκειται να αποθηκευτεί τοπικά, "
 "δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NODOCUMENT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NODOCUMENT.string.text
 msgid "This action cannot be applied to a document that does not exist."
 msgstr "Δεν υπάρχει έγγραφο στο οποίο να εφαρμοστεί η ενέργεια."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INVALIDLINK.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INVALIDLINK.string.text
 msgid "The link refers to an invalid target."
 msgstr "Η σύνδεση αναφέρεται σε έναν μη έγκυρο προορισμό."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INVALIDTRASHPATH.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INVALIDTRASHPATH.string.text
 msgid "The Recycle Bin path is invalid."
 msgstr "Η διαδρομή του Κάδου Ανακύκλωσης δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOTRESTORABLE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOTRESTORABLE.string.text
 msgid "The entry could not be restored."
 msgstr "Αδυναμία αποκατάστασης καταχώρισης."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NAMETOOLONG.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NAMETOOLONG.string.text
 msgid "The file name is too long for the target file system."
 msgstr ""
 "Το όνομα του αρχείου είναι πολύ μεγάλο για το σύστημα αρχείων για το οποίο "
 "προορίζεται."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CONSULTUSER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CONSULTUSER.string.text
 msgid "The details for running the function are incomplete."
 msgstr "Τα δεδομένα για την εκτέλεση της συνάρτησης δεν είναι ολοκληρωμένα."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INVALIDSYNTAX.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INVALIDSYNTAX.string.text
 msgctxt "errtxt.src#RID_ERRHDL.ERRCODE_SFX_INVALIDSYNTAX.string.text"
 msgid "The input syntax is invalid."
 msgstr "Μη έγκυρη μορφή της σύνταξης."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTCREATEFOLDER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATEFOLDER.string.text
 msgctxt "errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATEFOLDER.string.text"
 msgid "The input syntax is invalid."
 msgstr "Η μορφή της σύνταξης δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTRENAMEFOLDER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTRENAMEFOLDER.string.text
 msgctxt "errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTRENAMEFOLDER.string.text"
 msgid "The input syntax is invalid."
 msgstr "Η μορφή της σύνταξης δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_WRONG_CDF_FORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_WRONG_CDF_FORMAT.string.text
 msgid "The channel document has an invalid format."
 msgstr "Η μορφή του καναλιού του εγγράφου δεν είναι έγκυρη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_EMPTY_SERVER.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_EMPTY_SERVER.string.text
 msgid "The server must not be empty."
 msgstr "Ο διακομιστής δεν επιτρέπεται να είναι κενός."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NO_ABOBOX.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NO_ABOBOX.string.text
 msgid "A subscription folder is required to install a Channel."
 msgstr ""
 "Για να γίνει η εγκατάσταση του Καναλιού απαιτείται ένας φάκελος συνδρομών."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTSTORABLEINBINARYFORMAT.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTSTORABLEINBINARYFORMAT.string.text
 msgid ""
 "This document contains attributes that cannot be saved in the selected "
 "format.\n"
@@ -487,7 +495,7 @@ msgstr ""
 "Παρακαλώ αποθηκεύστε το έγγραφο σε μορφή αρχείου %PRODUCTNAME "
 "%PRODUCTVERSION."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_TARGETFILECORRUPTED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_TARGETFILECORRUPTED.string.text
 msgid ""
 "The file $(FILENAME) cannot be saved. Please check your system settings. You "
 "can find an automatically generated backup copy of this file in folder "
@@ -497,7 +505,7 @@ msgstr ""
 "ρυθμίσεις του συστήματος σας. Μπορείτε να βρείτε ένα αντίγραφο αυτού του "
 "αρχείου που δημιουργήθηκε αυτόματα στο φάκελο $(PATH) με όνομα $(BACKUPNAME)."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOMOREDOCUMENTSALLOWED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOMOREDOCUMENTSALLOWED.string.text
 msgid ""
 "The maximum number of documents that can be opened at the same time has been "
 "reached. You need to close one or more documents before you can open a new "
@@ -507,11 +515,11 @@ msgstr ""
 "χρειαστεί να κλείσετε ένα ή περισσότερα έγγραφα πριν να ανοίξετε ένα νέο "
 "έγγραφο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTCREATEBACKUP.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATEBACKUP.string.text
 msgid "Could not create backup copy."
 msgstr "Δεν ήταν δυνατή η δημιουργία του αντιγράφου ασφαλείας."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_MACROS_SUPPORT_DISABLED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_MACROS_SUPPORT_DISABLED.string.text
 msgid ""
 "An attempt was made to execute a macro.\n"
 "For security reasons, macro support is disabled."
@@ -519,7 +527,7 @@ msgstr ""
 "Υπήρξε μια προσπάθεια εκτέλεσης μιας μακροεντολής.\n"
 "Για λόγους ασφαλείας, είναι απενεργοποιημένη η υποστήριξη μακροεντολών."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_DOCUMENT_MACRO_DISABLED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_DOCUMENT_MACRO_DISABLED.string.text
 msgid ""
 "This document contains macros.\n"
 "\n"
@@ -537,7 +545,7 @@ msgstr ""
 "\n"
 "Συνεπώς, αυτό έχει ως αποτέλεσμα να λείπουν κάποιες λειτουργίες."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_BROKENSIGNATURE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_BROKENSIGNATURE.string.text
 msgid ""
 "The digitally signed document content and/or macros do not match the current "
 "document signature.\n"
@@ -559,7 +567,7 @@ msgstr ""
 "Η εκτέλεση μακροεντολών είναι απενεργοποιημένη για αυτό το έγγραφο.\n"
 " "
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INCOMPLETE_ENCRYPTION.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INCOMPLETE_ENCRYPTION.string.text
 msgid ""
 "The encrypted document contains unexpected non-encrypted streams.\n"
 "\n"
@@ -577,35 +585,35 @@ msgstr ""
 "Η εκτέλεση μακροεντολών απενεργοποιήθηκε για αυτό το έγγραφο.\n"
 " "
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDLENGTH.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDLENGTH.string.text
 msgid "Invalid data length."
 msgstr "Μη έγκυρο μήκος δεδομένων."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CURRENTDIR.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_CURRENTDIR.string.text
 msgid "Function not possible: path contains current directory."
 msgstr ""
 "Δεν είναι δυνατόν να εκτελεστεί η λειτουργία: η διαδρομή περιέχει τον "
 "τρέχοντα κατάλογο."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTSAMEDEVICE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTSAMEDEVICE.string.text
 msgid "Function not possible: device (drive) not identical."
 msgstr ""
 "Δεν είναι δυνατόν να εκτελεστεί η λειτουργία: η συσκευή (δίσκου) δεν είναι η "
 "ίδια."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_DEVICENOTREADY.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_DEVICENOTREADY.string.text
 msgid "Device (drive) not ready."
 msgstr "Η συσκευή (μονάδα δίσκου) δεν είναι έτοιμη."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_BADCRC.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_BADCRC.string.text
 msgid "Wrong check amount."
 msgstr "Λάθος σύνολο ελέγχου."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_IO_WRITEPROTECTED.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_IO_WRITEPROTECTED.string.text
 msgid "Function not possible: write protected."
 msgstr "Δεν είναι δυνατόν να εκτελεστεί η λειτουργία: μόνο για ανάγνωση."
 
-#: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_SHARED_NOPASSWORDCHANGE.string.text
+#: errtxt.src#RID_ERRHDL.ERRCODE_SFX_SHARED_NOPASSWORDCHANGE.string.text
 msgid ""
 "The password of a shared spreadsheet cannot be set or changed.\n"
 "Deactivate sharing mode first."
@@ -613,11 +621,3 @@ msgstr ""
 "Ο κωδικός πρόσβασης ενός κοινόχρηστου λογιστικού φύλλου δεν μπορεί να "
 "οριστεί ή να αλλαχτεί.\n"
 "Απενεργοποιήστε τη λειτουργία κοινής χρήσης πρώτα."
-
-#: app.src%23RID_ERRBOX_MODULENOTINSTALLED.errorbox.text
-msgid ""
-"The action could not be executed. The %PRODUCTNAME program module needed for "
-"this action is currently not installed."
-msgstr ""
-"Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας. Το άρθρωμα του %PRODUCTNAME "
-"που απαιτείται για αυτή την ενέργεια δεν έχει εγκατασταθεί."

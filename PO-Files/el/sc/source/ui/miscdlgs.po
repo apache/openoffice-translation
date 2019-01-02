@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sc%2Fsource%2Fui%2Fm"
-"iscdlgs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+sc%2Fsource%2Fui%2Fmiscdlgs.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2019-01-01 19:34+0000\n"
 "PO-Revision-Date: 2017-02-01 21:22+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,254 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1485984167.000000\n"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT.checkbox.text
+msgid "~Show changes in spreadsheet"
+msgstr "Εμφάνιση αλ~λαγών υπολογιστικού φύλλου"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.FL_FILTER.fixedline.text
+msgid "Filter settings"
+msgstr "Ρυθμίσεις φίλτρων"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_ACCEPT.checkbox.text
+msgid "Show ~accepted changes"
+msgstr "Εμφάνιση αποδε~χομένων αλλαγών"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_REJECT.checkbox.text
+msgid "Show ~rejected changes"
+msgstr "Εμφάνιση απο~ρριπτέων αλλαγών"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text
+msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
+msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext"
+msgid "Minimize/Maximize"
+msgstr "Ελαχιστοποίηση/Μεγιστοποίηση"
+
+#: highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
+msgid "Show Changes"
+msgstr "Εμφάνιση αλλαγών"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
+msgid ""
+"The document you are about to export has one or more protected items with "
+"password that cannot be exported. Please re-type your password to be able to "
+"export your document."
+msgstr ""
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FL_DOCUMENT.fixedline.text
+msgid "Document protection"
+msgstr "Προστασία εγγράφου"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DOCSTATUS.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DOCSTATUS.fixedtext.text"
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_DOC.pushbutton.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_DOC.pushbutton.text"
+msgid "Re-type"
+msgstr "Πληκτρολογήστε ξανά"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FL_SHEET.fixedline.text
+msgid "Sheet protection"
+msgstr "Προστασία φύλλου"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETNAME1.fixedtext.text
+msgid "Sheet1 has a really long name"
+msgstr "Το φύλλο1 έχει πολύ μεγάλο όνομα"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS1.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS1.fixedtext.text"
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET1.pushbutton.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET1.pushbutton.text"
+msgid "Re-type"
+msgstr "Πληκτρολογήστε ξανά"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETNAME2.fixedtext.text
+msgid "Sheet2"
+msgstr "Φύλλο2"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS2.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS2.fixedtext.text"
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET2.pushbutton.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET2.pushbutton.text"
+msgid "Re-type"
+msgstr "Πληκτρολογήστε ξανά"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETNAME3.fixedtext.text
+msgid "Sheet3"
+msgstr "Φύλλο3"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS3.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS3.fixedtext.text"
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET3.pushbutton.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET3.pushbutton.text"
+msgid "Re-type"
+msgstr "Πληκτρολογήστε ξανά"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETNAME4.fixedtext.text
+msgid "Sheet4"
+msgstr "Φύλλο4"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS4.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS4.fixedtext.text"
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET4.pushbutton.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET4.pushbutton.text"
+msgid "Re-type"
+msgstr "Πληκτρολογήστε ξανά"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.STR_NOT_PROTECTED.string.text
+msgid "Not protected"
+msgstr "Δεν προστατεύεται"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.STR_NOT_PASS_PROTECTED.string.text
+msgid "Not password-protected"
+msgstr "Δεν προσατεύεται από κωδικό"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.STR_HASH_BAD.string.text
+msgid "Hash incompatible"
+msgstr "Hash μη συμβατό"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.STR_HASH_GOOD.string.text
+msgid "Hash compatible"
+msgstr "Hash συμβατό"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.STR_HASH_REGENERATED.string.text
+msgid "Hash re-generated"
+msgstr "Hash αναδημιουργημένο"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS.modaldialog.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.modaldialog.text"
+msgid "Re-type Password"
+msgstr "Πληκτρολογήστε ξανά τον κωδικό"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.BTN_RETYPE_PASSWORD.radiobutton.text
+msgid "Re-type password"
+msgstr "Πληκτρολογήστε ξανά τον κωδικό"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD1.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD1.fixedtext.text"
+msgid "~Password"
+msgstr "Κω~δικός"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD2.fixedtext.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD2.fixedtext.text"
+msgid "~Confirm"
+msgstr "Επι~βεβαίωση"
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.BTN_MATCH_OLD_PASSWORD.checkbox.text
+msgid "New password must match the original password."
+msgstr "Ο νέος κωδικός θα πρέπει να ταιριάζει με τον αρχικό κωδικό."
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.BTN_REMOVE_PASSWORD.radiobutton.text
+msgid "Remove password from this protected item."
+msgstr "Αφαιρέστεε τον κωδικό από αυτό το προστατευόμενο αντικείμενο."
+
+#: retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text
+msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text"
+msgid "Re-type Password"
+msgstr "Πληκτρολογήστε ξανά τον κωδικό"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+msgid "P~rotect this sheet and the contents of locked cells"
+msgstr ""
+"Π~ροστασία υτού του φύλου και όλων των περιεχομένων των κλεδωμένων κελιών"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
+msgid "~Password"
+msgstr "Κω~δικός"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
+msgid "~Confirm"
+msgstr "Επιβε~βαίωση"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+msgid "Options"
+msgstr "Επιλογές"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+msgid "Allow all users of this sheet to:"
+msgstr "Να επιτρέπεται στους χρήστες αυτού του φύλλου:"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+msgid "Select locked cells"
+msgstr "Επιλογή κλειδωμένων κελιών"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+msgid "Select unlocked cells"
+msgstr "Επιλογή ξεκλείδωτων κελιών"
+
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.modaldialog.text
+msgid "Protect Sheet"
+msgstr "Προστασία φύλλου"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Θέση"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+msgid "B~efore current sheet"
+msgstr "Π~ριν από το ενεργό φύλλο"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+msgid "~After current sheet"
+msgstr "Ύ~στερα από το ενεργό φύλλο"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Sheet"
+msgstr "Φύλλο"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+msgid "~New sheet"
+msgstr "Δη~μιουργία"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+msgid "N~o. of sheets"
+msgstr "Αρι~θμός φύλλων"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgid "Na~me"
+msgstr "Όνο~μα"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+msgid "~From file"
+msgstr "Από αρ~χείο"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+msgid "~Browse..."
+msgstr "Ανα~ζήτηση..."
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+msgid "Lin~k"
+msgstr "Σύν~δεση"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Sheet"
+msgstr "Εισαγωγή φύλλου"
+
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
 msgid "Share this spreadsheet with other users"
 msgstr "Κοινή χρήση εγγράφου με άλλους χρήστες"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_WARNING.fixedtext.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.FT_WARNING.fixedtext.text
 msgid ""
 "Note: Changes to formatting attributes like fonts, colors, and number "
 "formats will not be saved and some functionalities like editing charts and "
@@ -37,422 +280,151 @@ msgstr ""
 "λειτουργία για να έχετε αποκλειστική πρόσβαση για τις αλλαγές και "
 "λειτουργίες αυτές."
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_USERS.fixedtext.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.FT_USERS.fixedtext.text
 msgid "Users currently accessing this spreadsheet"
 msgstr "Χρήστες που έχουν πρόσβαση σε αυτό το υπολογιστικό φύλλο"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_NAME.string.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_TITLE_NAME.string.text
 msgid "Name"
 msgstr "Όνομα"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_ACCESSED.string.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_TITLE_ACCESSED.string.text
 msgid "Accessed"
 msgstr "Προσπελάστηκαν"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_NO_USER_DATA.string.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_NO_USER_DATA.string.text
 msgid "No user data available."
 msgstr "Δεν υπάρχουν διαθέσιμα δεδομένα χρήστη."
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text
 msgctxt "sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text"
 msgid "Unknown User"
 msgstr "Άγνωστος χρήστης"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_EXCLUSIVE_ACCESS.string.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_EXCLUSIVE_ACCESS.string.text
 msgid "(exclusive access)"
 msgstr "(αποκλειστική πρόσβαση)"
 
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.modaldialog.text
+#: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.modaldialog.text
 msgid "Share Document"
 msgstr "Κοινή χρήση εγγράφου"
 
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
-msgid ""
-"The document you are about to export has one or more protected items with "
-"password that cannot be exported. Please re-type your password to be able to "
-"export your document."
-msgstr ""
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FL_DOCUMENT.fixedline.text
-msgid "Document protection"
-msgstr "Προστασία εγγράφου"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_DOCSTATUS.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DOCSTATUS.fixedtext.text"
-msgid "Status unknown"
-msgstr "Άγνωστη κατάσταση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.BTN_RETYPE_DOC.pushbutton.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_DOC.pushbutton.text"
-msgid "Re-type"
-msgstr "Πληκτρολογήστε ξανά"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FL_SHEET.fixedline.text
-msgid "Sheet protection"
-msgstr "Προστασία φύλλου"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETNAME1.fixedtext.text
-msgid "Sheet1 has a really long name"
-msgstr "Το φύλλο1 έχει πολύ μεγάλο όνομα"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS1.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS1.fixedtext.text"
-msgid "Status unknown"
-msgstr "Άγνωστη κατάσταση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET1.pushbutton.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET1.pushbutton.text"
-msgid "Re-type"
-msgstr "Πληκτρολογήστε ξανά"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETNAME2.fixedtext.text
-msgid "Sheet2"
-msgstr "Φύλλο2"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS2.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS2.fixedtext.text"
-msgid "Status unknown"
-msgstr "Άγνωστη κατάσταση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET2.pushbutton.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET2.pushbutton.text"
-msgid "Re-type"
-msgstr "Πληκτρολογήστε ξανά"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETNAME3.fixedtext.text
-msgid "Sheet3"
-msgstr "Φύλλο3"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS3.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS3.fixedtext.text"
-msgid "Status unknown"
-msgstr "Άγνωστη κατάσταση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET3.pushbutton.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET3.pushbutton.text"
-msgid "Re-type"
-msgstr "Πληκτρολογήστε ξανά"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETNAME4.fixedtext.text
-msgid "Sheet4"
-msgstr "Φύλλο4"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS4.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_SHEETSTATUS4.fixedtext.text"
-msgid "Status unknown"
-msgstr "Άγνωστη κατάσταση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET4.pushbutton.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.BTN_RETYPE_SHEET4.pushbutton.text"
-msgid "Re-type"
-msgstr "Πληκτρολογήστε ξανά"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.STR_NOT_PROTECTED.string.text
-msgid "Not protected"
-msgstr "Δεν προστατεύεται"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.STR_NOT_PASS_PROTECTED.string.text
-msgid "Not password-protected"
-msgstr "Δεν προσατεύεται από κωδικό"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.STR_HASH_BAD.string.text
-msgid "Hash incompatible"
-msgstr "Hash μη συμβατό"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.STR_HASH_GOOD.string.text
-msgid "Hash compatible"
-msgstr "Hash συμβατό"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.STR_HASH_REGENERATED.string.text
-msgid "Hash re-generated"
-msgstr "Hash αναδημιουργημένο"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.modaldialog.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS.modaldialog.text"
-msgid "Re-type Password"
-msgstr "Πληκτρολογήστε ξανά τον κωδικό"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.BTN_RETYPE_PASSWORD.radiobutton.text
-msgid "Re-type password"
-msgstr "Πληκτρολογήστε ξανά τον κωδικό"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD1.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD1.fixedtext.text"
-msgid "~Password"
-msgstr "Κω~δικός"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD2.fixedtext.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.FT_PASSWORD2.fixedtext.text"
-msgid "~Confirm"
-msgstr "Επι~βεβαίωση"
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.BTN_MATCH_OLD_PASSWORD.checkbox.text
-msgid "New password must match the original password."
-msgstr "Ο νέος κωδικός θα πρέπει να ταιριάζει με τον αρχικό κωδικό."
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.BTN_REMOVE_PASSWORD.radiobutton.text
-msgid "Remove password from this protected item."
-msgstr "Αφαιρέστεε τον κωδικό από αυτό το προστατευόμενο αντικείμενο."
-
-#: retypepassdlg.src%23RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text
-msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text"
-msgid "Re-type Password"
-msgstr "Πληκτρολογήστε ξανά τον κωδικό"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-msgid "P~rotect this sheet and the contents of locked cells"
-msgstr ""
-"Π~ροστασία υτού του φύλου και όλων των περιεχομένων των κλεδωμένων κελιών"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
-msgid "~Password"
-msgstr "Κω~δικός"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
-msgid "~Confirm"
-msgstr "Επιβε~βαίωση"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-msgid "Options"
-msgstr "Επιλογές"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-msgid "Allow all users of this sheet to:"
-msgstr "Να επιτρέπεται στους χρήστες αυτού του φύλλου:"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-msgid "Select locked cells"
-msgstr "Επιλογή κλειδωμένων κελιών"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-msgid "Select unlocked cells"
-msgstr "Επιλογή ξεκλείδωτων κελιών"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
-msgid "Protect Sheet"
-msgstr "Προστασία φύλλου"
-
-#: acredlin.src%23RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
+#: acredlin.src#RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
 msgid "Range"
 msgstr "Περιοχή"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.text
+#: acredlin.src#RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.text
 msgctxt "acredlin.src#RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.text"
 msgid "-"
 msgstr "-"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
+#: acredlin.src#RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
 msgctxt "acredlin.src#RID_SCDLG_CHANGES.RB_ASSIGN.imagebutton.quickhelptext"
 msgid "Minimize/Maximize"
 msgstr "Ελαχιστοποίηση/Μεγιστοποίηση"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_INSERT_COLS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_INSERT_COLS.string.text
 msgid "Column inserted"
 msgstr "Έγινε εισαγωγή της στήλης"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_INSERT_ROWS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_INSERT_ROWS.string.text
 msgid "Row inserted "
 msgstr "Έγινε εισαγωγή της γραμμής "
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_INSERT_TABS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_INSERT_TABS.string.text
 msgid "Sheet inserted "
 msgstr "Έγινε εισαγωγή του φύλλου "
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_DELETE_COLS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_DELETE_COLS.string.text
 msgid "Column deleted"
 msgstr "Η στήλη έχει διαγραφεί"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_DELETE_ROWS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_DELETE_ROWS.string.text
 msgid "Row deleted"
 msgstr "Η γραμμή έχει διαγραφεί"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_DELETE_TABS.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_DELETE_TABS.string.text
 msgid "Sheet deleted"
 msgstr "Τα φύλλα έχουν διαγραφεί"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_MOVE.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_MOVE.string.text
 msgid "Range moved"
 msgstr "Η περιοχή επιλογής μετακινήθηκε"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_CONTENT.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_CONTENT.string.text
 msgctxt "acredlin.src#RID_SCDLG_CHANGES.STR_CONTENT.string.text"
 msgid "Changed contents"
 msgstr "Τροποποιημένα περιεχόμενα"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_CONTENT_WITH_CHILD.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_CONTENT_WITH_CHILD.string.text
 msgctxt "acredlin.src#RID_SCDLG_CHANGES.STR_CONTENT_WITH_CHILD.string.text"
 msgid "Changed contents"
 msgstr "Τροποποιημένα περιεχόμενα"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_CHILD_CONTENT.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_CHILD_CONTENT.string.text
 msgid "Changed to "
 msgstr "Αλλαγή προς "
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_CHILD_ORGCONTENT.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_CHILD_ORGCONTENT.string.text
 msgid "Original"
 msgstr "Αρχικό"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_REJECT.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_REJECT.string.text
 msgid "Changes rejected"
 msgstr "Αλλαγές απορρίφθηκαν"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_ACCEPTED.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_ACCEPTED.string.text
 msgid "Accepted"
 msgstr "Αποδεχόμενα"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_REJECTED.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_REJECTED.string.text
 msgid "Rejected"
 msgstr "Απορριπτόμενα"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_NO_ENTRY.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_NO_ENTRY.string.text
 msgid "No Entry"
 msgstr "Καμία καταχώριση"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.STR_EMPTY.string.text
+#: acredlin.src#RID_SCDLG_CHANGES.STR_EMPTY.string.text
 msgid "<empty>"
 msgstr "<κενό>"
 
-#: acredlin.src%23RID_SCDLG_CHANGES.modelessdialog.text
+#: acredlin.src#RID_SCDLG_CHANGES.modelessdialog.text
 msgid "Accept or Reject Changes"
 msgstr "Αποδοχή η απόρριψη αλλαγών"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_CHANGES_COMMENT.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_CHANGES_COMMENT.menuitem.text
 msgid "Edit Comment..."
 msgstr "Επεξεργασία σχολίου..."
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_ACTION.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_ACTION.menuitem.text
 msgid "Action"
 msgstr "Ενέργεια"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_POSITION.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_POSITION.menuitem.text
 msgctxt "acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_POSITION.menuitem.text"
 msgid "Position"
 msgstr "Θέση"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_AUTHOR.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_AUTHOR.menuitem.text
 msgctxt "acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_AUTHOR.menuitem.text"
 msgid "Author"
 msgstr "Συντάκτης"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_DATE.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_DATE.menuitem.text
 msgctxt "acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_DATE.menuitem.text"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_COMMENT.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_COMMENT.menuitem.text
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: acredlin.src%23RID_POPUP_CHANGES.SC_SUB_SORT.menuitem.text
+#: acredlin.src#RID_POPUP_CHANGES.SC_SUB_SORT.menuitem.text
 msgid "Sorting"
 msgstr "Ταξινόμηση"
 
-#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-msgid "URL of ~external data source"
-msgstr "~URL της εξωτερικής προέλευσης δεδομένων"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-msgid ""
-"(Enter the URL of the source document in the local file system or Internet "
-"here.)"
-msgstr ""
-"(Εισάγετε το URL για το έγγραφο προέλευσης από το τοπικό σύστημα αρχείων ή "
-"από το διαδίκτυο εδώ.)"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-msgid "~Available tables/ranges"
-msgstr "Δια~θέσιμοι πίνακες/περιοχές"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-msgid "~Update every"
-msgstr "Εν~ημέρωση κάθε"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-msgid "seconds"
-msgstr "δευτερόλεπτα"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
-msgid "External Data"
-msgstr "Εξωτερικά δεδομένα"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Θέση"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-msgid "B~efore current sheet"
-msgstr "Π~ριν από το ενεργό φύλλο"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-msgid "~After current sheet"
-msgstr "Ύ~στερα από το ενεργό φύλλο"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Sheet"
-msgstr "Φύλλο"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-msgid "~New sheet"
-msgstr "Δη~μιουργία"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-msgid "N~o. of sheets"
-msgstr "Αρι~θμός φύλλων"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgid "Na~me"
-msgstr "Όνο~μα"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-msgid "~From file"
-msgstr "Από αρ~χείο"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-msgid "~Browse..."
-msgstr "Ανα~ζήτηση..."
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-msgid "Lin~k"
-msgstr "Σύν~δεση"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Sheet"
-msgstr "Εισαγωγή φύλλου"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT.checkbox.text
-msgid "~Show changes in spreadsheet"
-msgstr "Εμφάνιση αλ~λαγών υπολογιστικού φύλλου"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.FL_FILTER.fixedline.text
-msgid "Filter settings"
-msgstr "Ρυθμίσεις φίλτρων"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_ACCEPT.checkbox.text
-msgid "Show ~accepted changes"
-msgstr "Εμφάνιση αποδε~χομένων αλλαγών"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_REJECT.checkbox.text
-msgid "Show ~rejected changes"
-msgstr "Εμφάνιση απο~ρριπτέων αλλαγών"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text
-msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
-msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext"
-msgid "Minimize/Maximize"
-msgstr "Ελαχιστοποίηση/Μεγιστοποίηση"
-
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
-msgid "Show Changes"
-msgstr "Εμφάνιση αλλαγών"
-
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
 msgid ""
 "There are conflicting changes in this shared spreadsheet. Conflicts must be "
 "resolved before saving the spreadsheet. Keep either own or other changes."
@@ -461,44 +433,72 @@ msgstr ""
 "πρέπει επιλυθούν οι συγκρούσεις πριν αποθηκευθεί το έγγραφο. Διατηρήστε είτε "
 "τις δικές σας αλλαγές ή των άλλων."
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
 msgid "Keep ~Mine"
 msgstr "Διατήρηση των ~δικών μου"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
 msgid "Keep ~Other"
 msgstr "Διατήρηση των ά~λλων"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
 msgid "~Keep All Mine"
 msgstr "~Διατήρηση όλων των δικών μου"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
 msgid "Keep ~All Others"
 msgstr "Διατήρηση ό~λων των άλλων"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
 msgid "Conflict"
 msgstr "Σύγκρουση"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
 msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text"
 msgid "Author"
 msgstr "Συντάκτης"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
 msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
 msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text"
 msgid "Unknown User"
 msgstr "Άγνωστος χρήστης"
 
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.modaldialog.text
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.modaldialog.text
 msgid "Resolve Conflicts"
 msgstr "Επίλυση συγκρούσεων"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+msgid "URL of ~external data source"
+msgstr "~URL της εξωτερικής προέλευσης δεδομένων"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
+msgid ""
+"(Enter the URL of the source document in the local file system or Internet "
+"here.)"
+msgstr ""
+"(Εισάγετε το URL για το έγγραφο προέλευσης από το τοπικό σύστημα αρχείων ή "
+"από το διαδίκτυο εδώ.)"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+msgid "~Available tables/ranges"
+msgstr "Δια~θέσιμοι πίνακες/περιοχές"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+msgid "~Update every"
+msgstr "Εν~ημέρωση κάθε"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.modaldialog.text
+msgid "External Data"
+msgstr "Εξωτερικά δεδομένα"
 
 #~ msgid ""
 #~ "The document you are about to export has one or more protected items with "
