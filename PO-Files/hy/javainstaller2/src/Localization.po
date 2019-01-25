@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+javainstaller2%2Fsrc%2FLocalization.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:13+0000\n"
-"PO-Revision-Date: 2019-01-23 18:02+0000\n"
+"PO-Revision-Date: 2019-01-24 18:18+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1548266552.000000\n"
+"X-POOTLE-MTIME: 1548353914.000000\n"
 
 #: setupstrings.ulf#STRING_PREVIOUS.LngText.text
 msgid "Back"
@@ -49,31 +49,31 @@ msgstr "Հեռացրու հիմա"
 
 #: setupstrings.ulf#STRING_HELP.LngText.text
 msgid "Help"
-msgstr ""
+msgstr "Օգնություն"
 
 #: setupstrings.ulf#STRING_OK.LngText.text
 msgid "OK"
-msgstr ""
+msgstr "ԼԱՎ"
 
 #: setupstrings.ulf#STRING_ERROR.LngText.text
 msgid "Error"
-msgstr ""
+msgstr "Սխալ"
 
 #: setupstrings.ulf#STRING_FILE_NOT_FOUND.LngText.text
 msgid "Error: File not found"
-msgstr ""
+msgstr "Սխալ։ Նիշքը չի գտնվել"
 
 #: setupstrings.ulf#STRING_APPLICATIONTITLE.LngText.text
 msgid "${PRODUCT_FULLNAME} Installation Wizard"
-msgstr ""
+msgstr "${PRODUCT_FULLNAME} տեղադրման հրաշագործ"
 
 #: setupstrings.ulf#STRING_APPLICATIONTITLEUNINSTALLATION.LngText.text
 msgid "${PRODUCT_FULLNAME} Uninstallation Wizard"
-msgstr ""
+msgstr "${PRODUCT_FULLNAME} ապատեղադրման հրաշագործ"
 
 #: setupstrings.ulf#STRING_CANCEL_DIALOG_TITLE.LngText.text
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 #: setupstrings.ulf#STRING_CANCEL_DIALOG.LngText.text
 msgid "Do you really want to exit the Installation Wizard?"
@@ -163,11 +163,11 @@ msgstr ""
 
 #: setupstrings.ulf#STRING_CHOOSEDIRECTORY6.LngText.text
 msgid "Select root directory"
-msgstr ""
+msgstr "Ընտրիր արմատ քարտացուցակը"
 
 #: setupstrings.ulf#STRING_CHOOSEDIRECTORY_NO_WRITE_ACCESS.LngText.text
 msgid "You do not have write access in the directory"
-msgstr ""
+msgstr "Այս քարտացուցակում դու չունես գրելու իրավունք"
 
 #: setupstrings.ulf#STRING_CHOOSEDIRECTORY_NOT_ALLOWED.LngText.text
 msgid "You are not allowed to create the directory"
@@ -209,33 +209,36 @@ msgstr "Ընտրիր տեղադրման տեսակը, որը լավագույն�
 #: setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE3.LngText.text
 msgctxt "setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE3.LngText.text"
 msgid "Select the Type of Installation"
-msgstr ""
+msgstr "Ընտրիր տեղադրման տեսակը"
 
 #: setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE4.LngText.text
 msgid "The main components will be installed. Recommended for most users."
 msgstr ""
+"Հիմնական բաղադրիչները կտեղադրվեն: Առաջարկվում է ամենաշատ օգտվողների համար:"
 
 #: setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE5.LngText.text
 msgid ""
 "You choose the components you want to install and where they are stored. "
 "Recommended for advanced users."
 msgstr ""
+"Դուք ընտրում եք այն բաղադրիչները, որոնք ցանկանում եք տեղադրել և որտեղ դրանք "
+"պահվում են: Խորհուրդ է տրվում առաջադեմ օգտվողների համար:"
 
 #: setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE6.LngText.text
 msgid "Typical"
-msgstr ""
+msgstr "Բնորոշ"
 
 #: setupstrings.ulf#STRING_CHOOSEINSTALLATIONTYPE7.LngText.text
 msgid "Custom"
-msgstr ""
+msgstr "Հաճախորդ"
 
 #: setupstrings.ulf#STRING_INSTALLATIONIMMINENT1.LngText.text
 msgid "Ready to Install"
-msgstr ""
+msgstr "Պատրաստ է տեղադրման համար"
 
 #: setupstrings.ulf#STRING_INSTALLATIONIMMINENT1_UPDATE.LngText.text
 msgid "Ready to Update"
-msgstr ""
+msgstr "Պատրաստ է թարմացման համար"
 
 #: setupstrings.ulf#STRING_INSTALLATIONIMMINENT2.LngText.text
 msgid "The following ${PRODUCT_FULLNAME} components will be installed:"
@@ -297,12 +300,15 @@ msgid ""
 "The Installation Wizard has successfully installed ${PRODUCT_FULLNAME} on "
 "your computer."
 msgstr ""
+"Տեղադրման հրաշագործը հաջողությամբ տեղադրեց ${PRODUCT_FULLNAME} ձեր "
+"համակարգչում:"
 
 #: setupstrings.ulf#STRING_INSTALLATIONCOMPLETED2_ABORT.LngText.text
 msgid ""
 "The Installation Wizard was aborted. ${PRODUCT_NAME} is not installed on "
 "your computer."
 msgstr ""
+"Տեղադրման հրաշագործը վիժեց։ ${PRODUCT_NAME} -ը չի տեղադրվել ձեր համակարգչում։"
 
 #: setupstrings.ulf#STRING_INSTALLATIONCOMPLETED2_ERROR.LngText.text
 msgid ""
@@ -310,36 +316,45 @@ msgid ""
 "${PRODUCT_NAME} on your computer successfully. Click 'Details...' for more "
 "information."
 msgstr ""
+"Սխալ է տեղի ունեցել։ Այսպիսով, տեղադրման հրաշագործը չի կարողանում տեղադրել "
+"${PRODUCT_NAME} -ը ձեր համակարգչում: Սեղմեք 'Մանրամասներ...' լրացուցիչ "
+"տեղեկությունների համար:"
 
 #: setupstrings.ulf#STRING_INSTALLATIONCOMPLETED3.LngText.text
 msgid "Click 'Finish' to exit the Wizard."
-msgstr ""
+msgstr "Սեղմեք 'Ավարտ' Հրաշագործից դուրս գալու համար։"
 
 #: setupstrings.ulf#STRING_INSTALLATIONCOMPLETED_BUTTON.LngText.text
 msgid "Details..."
-msgstr ""
+msgstr "Մանրամասներ..."
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONPROLOGUE2.LngText.text
 msgid ""
 "The ${PRODUCT_FULLNAME} Uninstallation Wizard will remove ${PRODUCT_FULLNAME}"
 " from your computer."
 msgstr ""
+"${PRODUCT_FULLNAME} ապատեղադրման հրաշագործը կհեռացնի ${PRODUCT_FULLNAME} քո "
+"համակարգչից։"
 
 #: setupstrings.ulf#STRING_UNINSTALLATION_PROLOGUE_WRONG_PRIVILEGES_CURRENT_ROOT.LngText.text
 msgid ""
 "Sorry, wrong privileges. Installation was done with User privilges, but you "
 "have Root privileges."
 msgstr ""
+"Ներեցեք, սխալ արտոնություններ: Տեղադրումը կատարվել է Օգտվողի "
+"արտոնություններով, բայց դուք ունեք Արմատի արտոնություններ:"
 
 #: setupstrings.ulf#STRING_UNINSTALLATION_PROLOGUE_WRONG_PRIVILEGES_CURRENT_USER.LngText.text
 msgid ""
 "Sorry, wrong privileges. Installation was done with Root privilges, but you "
 "have User privileges."
 msgstr ""
+"Ներեցեք, սխալ արտոնություններ: Տեղադրումը կատարվել է Արմատի "
+"արտոնություններով, բայց դուք ունեք Օգտվողի արտոնություններ:"
 
 #: setupstrings.ulf#STRING_CHOOSEUNINSTALLATIONTYPE1.LngText.text
 msgid "Select the Type of Uninstallation"
-msgstr ""
+msgstr "Ընտրիրր ապատեղադրման տեսակը"
 
 #: setupstrings.ulf#STRING_CHOOSEUNINSTALLATIONTYPE2.LngText.text
 msgid "Select the type of uninstallation that best suits your needs:"
@@ -389,33 +404,39 @@ msgstr "Ապատեղադրում…"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED1.LngText.text
 msgid "Uninstallation Completed"
-msgstr ""
+msgstr "Ապատեղադրումն ավարտվեց"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED1_ABORT.LngText.text
 msgid "Uninstallation Aborted"
-msgstr ""
+msgstr "Ապատեղադրումը վիժեց"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED1_ERROR.LngText.text
 msgid "Uninstallation Failed"
-msgstr ""
+msgstr "Ապատեղադրումը ձախողվեց"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED2.LngText.text
 msgid ""
 "The Uninstallation Wizard has successfully removed ${PRODUCT_FULLNAME} from "
 "your computer."
 msgstr ""
+"Ապատեղադրման հրաշագործ հաջողությամբ հեռացրեց ${PRODUCT_FULLNAME} քո "
+"համակարգչից։"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED2_PARTIAL.LngText.text
 msgid ""
 "The Uninstallation Wizard has successfully removed the selected components "
 "of ${PRODUCT_NAME} from your computer."
 msgstr ""
+"Ապատեղադրման հրաշագործ հաջողությամբ հեռացրեց ${PRODUCT_FULLNAME} ընտրված "
+"բաղադրիչները քո համակարգչից։"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED2_ABORT.LngText.text
 msgid ""
 "The Uninstallation Wizard was aborted before completely removing "
 "${PRODUCT_NAME} from your computer."
 msgstr ""
+"Ապատեղադրման հրաշագործը վիժեցվել է, մինչ ${PRODUCT_FULLNAME} -ը ամբողջովին "
+"հեռացվել է քո համակարգչից։"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONCOMPLETED2_ERROR.LngText.text
 msgid ""
@@ -423,14 +444,17 @@ msgid ""
 "${PRODUCT_NAME} from your computer successfully. Click 'Details...' for more "
 "information."
 msgstr ""
+"Սխալ է տեղի ունեցել. Այսպիսով, ապատեղադրման հրաշագործը  չի կարողացրել "
+"հաջողությամբ հեռացնել ${PRODUCT_NAME} - ը ձեր համակարգչից: Լրացուցիչ "
+"տեղեկությունների համար սեղմեք 'Մանրամասներ...':"
 
 #: setupstrings.ulf#STRING_INSTALLERFACTORY_OS_NOT_SUPPORTED.LngText.text
 msgid "Sorry, this Operating System is not supported yet."
-msgstr ""
+msgstr "Ներեցեք, այս օպերացիոն համակարգը դեռ չի աջակցվում:"
 
 #: setupstrings.ulf#STRING_OLDER_VERSION_INSTALLED_FOUND.LngText.text
 msgid "An older version of ${PRODUCT_NAME} was found on your system in:"
-msgstr ""
+msgstr "Ձեր համակարգում հայտնաբերվել է ${PRODUCT_NAME} -ի ավելի հին տարբերակը։"
 
 #: setupstrings.ulf#STRING_OLDER_VERSION_INSTALLED_REMOVE.LngText.text
 msgid ""
@@ -481,23 +505,27 @@ msgstr "Սկավառակի պահանջվող տարածքը"
 
 #: setupstrings.ulf#STRING_DISCSPACE_AVAILABLE.LngText.text
 msgid "Available disc space"
-msgstr ""
+msgstr "Հասանելի սկավառակային տարածք"
 
 #: setupstrings.ulf#STRING_DISCSPACE_TIP.LngText.text
 msgid ""
 "Please use another directory for installation or change your module "
 "selection."
 msgstr ""
+"Տեղադրման համար օգտագործեք այլ քարտացուցակ, կամ փոխիր քո մոդուլի "
+"ընտրությունը:"
 
 #: setupstrings.ulf#STRING_ANALYZING_DATABASE1.LngText.text
 msgid "Analyzing ..."
-msgstr ""
+msgstr "Վերլուծում ․․․"
 
 #: setupstrings.ulf#STRING_ANALYZING_DATABASE2.LngText.text
 msgid ""
 "Analyzing database\n"
 "Please wait a moment ..."
 msgstr ""
+"Շտեմարանի վերլուծում\n"
+"Սպասեք ..."
 
 #: setupstrings.ulf#STRING_PROLOGUE_1.LngText.text
 msgid ""
@@ -505,6 +533,9 @@ msgid ""
 "configuration settings.<p>At the bottom of each page are navigation buttons "
 "that let you move through the Installation Wizard:"
 msgstr ""
+"Բարի գալուստ Տեղադրման հրաշագործ: <p> Այս հրաշագործը հարցնում է տրամադրել "
+"կազմաձևման կարգավորումները: <p> Յուրաքանչյուր էջի ներքևի մասում առկա են "
+"նավարկման կոճակները, որոնք թույլ են տալիս շարժվել Տեղադրման հրաշագործում:"
 
 #: setupstrings.ulf#STRING_PROLOGUE_2.LngText.text
 msgctxt "setupstrings.ulf#STRING_PROLOGUE_2.LngText.text"
@@ -641,6 +672,8 @@ msgid ""
 "This page indicates the progress of the installation with the aid of a "
 "progress bar. To abort the installation process, click 'Stop'."
 msgstr ""
+"Այս էջը ցույց է տալիս տեղադրման ընթացքը առաջընթացի տողի օգնությամբ: "
+"Տեղադրման գործընթացը վիժեցնելու համար սեղմեք «Կանգ»:"
 
 #: setupstrings.ulf#STRING_UNINSTALLATIONONGOING_1.LngText.text
 msgid ""
