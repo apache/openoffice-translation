@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-01-01 12:24+0000\n"
+"PO-Revision-Date: 2019-02-17 23:31+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1546345461.000000\n"
+"X-POOTLE-MTIME: 1550446295.000000\n"
 
 #: conn_shared_res.src#STR_MOZILLA_ADDRESSBOOKS.string.text
 msgid "Mozilla/Seamonkey Addressbook Directory"
@@ -106,7 +106,6 @@ msgstr ""
 "El tipu de declaración nun tien sofitu d'esti controlador de base de datos."
 
 #: conn_shared_res.src#STR_UNSPECIFIED_ERROR.string.text
-#, fuzzy
 msgid "An unknown error occurred."
 msgstr "Hebo un fallu desconocíu."
 
@@ -121,12 +120,10 @@ msgid "The library '$libname$' could not be loaded."
 msgstr "El ficheru '$libname$' nun se pudo cargar."
 
 #: conn_shared_res.src#STR_ERROR_REFRESH_ROW.string.text
-#, fuzzy
 msgid "An error occurred while refreshing the current row."
-msgstr "Hebo un fallu cuando s'anovaba la filera actual."
+msgstr "Hebo un fallu al anovar la filera actual."
 
 #: conn_shared_res.src#STR_ERROR_GET_ROW.string.text
-#, fuzzy
 msgid "An error occurred while getting the current row."
 msgstr "Hebo un fallu al obtener la filera actual."
 
@@ -147,9 +144,8 @@ msgstr ""
 "columna."
 
 #: conn_shared_res.src#STR_ILLEGAL_MOVEMENT.string.text
-#, fuzzy
 msgid "Illegal cursor movement occurred."
-msgstr "Hebo un movimientu illegal del cursor."
+msgstr "Hebo un movimientu non permitíu del cursor."
 
 #: conn_shared_res.src#STR_COMMIT_ROW.string.text
 msgid "Please commit row '$position$' before update rows or insert new rows."
@@ -384,12 +380,11 @@ msgstr ""
 "instaláu."
 
 #: conn_shared_res.src#STR_COULD_NOT_DELETE_INDEX.string.text
-#, fuzzy
 msgid ""
 "The index could not be deleted. An unknown error while accessing the file "
 "system occurred."
 msgstr ""
-"Nun se pue desaniciar l'índiz. Hebo un fallu desconocíu al acceder al "
+"Nun se pudo desaniciar l'índiz. Hebo un fallu desconocíu al acceder al "
 "sistema de ficheros."
 
 #: conn_shared_res.src#STR_ONL_ONE_COLUMN_PER_INDEX.string.text
@@ -412,11 +407,10 @@ msgstr ""
 "Nun se pudo crear l'índiz. El ficheru '$filename$' ta usándolu otru índiz."
 
 #: conn_shared_res.src#STR_COULD_NOT_CREATE_INDEX_KEYSIZE.string.text
-#, fuzzy
 msgid ""
 "The index could not be created. The size of the chosen column is too big."
 msgstr ""
-"L'índiz nun se pudo crear. El tamañu de la columna escoyía ye demasiao "
+"Nun se pudo crear l'índiz. El tamañu de la columna escoyida ye demasiao "
 "grande."
 
 #: conn_shared_res.src#STR_SQL_NAME_ERROR.string.text
@@ -497,7 +491,7 @@ msgid ""
 "The table '$tablename$' could not be dropped. May be the file system is "
 "write protected."
 msgstr ""
-"La tabla '$tablename$'  nun puede amenorgase. Puede ser que'l sistema de "
+"La tabla '$tablename$' nun puede amenorgase. Puede ser que'l sistema de "
 "ficheros tea protexíu escontra escritura."
 
 #: conn_shared_res.src#STR_COULD_NOT_ALTER_TABLE.string.text
@@ -506,8 +500,7 @@ msgstr "La tabla nun puede alterase."
 
 #: conn_shared_res.src#STR_INVALID_DBASE_FILE.string.text
 msgid "The file '$filename$' is an invalid (or unrecognized) dBase file."
-msgstr ""
-"El ficheru '$filename$'  ye un ficheru dBase inválidu (o non reconocíu)."
+msgstr "El ficheru '$filename$' ye un ficheru dBase inválidu (o non reconocíu)."
 
 #: conn_shared_res.src#STR_CANNOT_OPEN_BOOK.string.text
 msgid "Cannot open Evolution address book."
@@ -559,7 +552,7 @@ msgstr "Nun puede executase la consulta. Nun contién una tabla válida."
 
 #: conn_shared_res.src#STR_QUERY_NO_COLUMN.string.text
 msgid "The query can not be executed. It contains no valid columns."
-msgstr "Nun puede executase la consulta.  Nun contién columnes válides."
+msgstr "Nun puede executase la consulta. Nun contién columnes válides."
 
 #: conn_shared_res.src#STR_INVALID_PARA_COUNT.string.text
 msgid "The count of the given parameter values doesn't match the parameters."
@@ -664,6 +657,8 @@ msgid ""
 "The current database needs to be converted. Please insert control user and "
 "password."
 msgstr ""
+"La base de datos actual precisa ser convertida. Por favor, conseña usuariu y "
+"contraseña de control."
 
 #: conn_shared_res.src#STR_USER_NO_DELETE.string.text
 msgid ""
@@ -686,14 +681,12 @@ msgstr ""
 "favor revisa l'allugamientu del ficheru de la base de datos."
 
 #: conn_shared_res.src#STR_NO_TABLE_CONTAINER.string.text
-#, fuzzy
 msgid "An error occurred while obtaining the connection's table container."
-msgstr "Fallu mientres s'obtenía el contenedor de la tabla de la conexón."
+msgstr "Hebo un fallu al obtener el contenedor de tables de la conexón."
 
 #: conn_shared_res.src#STR_NO_TABLE_EDITOR_DIALOG.string.text
-#, fuzzy
 msgid "An error occurred while creating the table editor dialog."
-msgstr "Fallu al crear el diálogu del editor de la tabla."
+msgstr "Hebo un fallu al crear el diálogu del editor de tables."
 
 #: conn_shared_res.src#STR_NO_TABLENAME.string.text
 msgid "There is no table named '$tablename$'."
