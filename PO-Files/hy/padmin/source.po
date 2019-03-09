@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+padmin%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:13+0000\n"
-"PO-Revision-Date: 2019-03-07 12:08+0000\n"
+"PO-Revision-Date: 2019-03-08 10:44+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1551960525.000000\n"
+"X-POOTLE-MTIME: 1552041868.000000\n"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
 msgid ""
@@ -617,12 +617,12 @@ msgstr "~Լռակյաց վարորդը"
 
 #: padialog.src#RID_ADDP_PAGE_FAXDRIVER.RID_ADDP_FAXDRV_BTN_SELECT.radiobutton.text
 msgid "A speci~fic driver, to adapt the format to another printer"
-msgstr ""
+msgstr "Հատ~ուկ վարորդ, ձևաչափը մեկ այլ տպիչի հարմարեցնելու համար"
 
 #: padialog.src#RID_ADDP_PAGE_PDFDRIVER.RID_ADDP_STR_TITLE.string.text
 msgctxt "padialog.src#RID_ADDP_PAGE_PDFDRIVER.RID_ADDP_STR_TITLE.string.text"
 msgid "Choose a driver"
-msgstr ""
+msgstr "Ընտրիր վարորդին"
 
 #: padialog.src#RID_ADDP_PAGE_PDFDRIVER.RID_ADDP_PDFDRV_TXT_DRIVER.fixedtext.text
 msgid "Use the following driver for this PDF converter"
@@ -735,39 +735,39 @@ msgstr "Այլ կարգաբերումներ"
 
 #: rtsetup.src#RID_RTS_RTSDIALOG.RID_RTS_RTSDIALOG_FROMDRIVER_TXT.string.text
 msgid "from driver"
-msgstr ""
+msgstr "վարորդից"
 
 #: rtsetup.src#RID_RTS_RTSDIALOG.RID_RTS_RTSDIALOG_INVALID_TXT.string.text
 msgid "<ignore>"
-msgstr ""
+msgstr "<անտեսիր>"
 
 #: rtsetup.src#RID_RTS_RTSDIALOG.tabdialog.text
 msgid "Properties of %s"
-msgstr ""
+msgstr "%s հատկությունները"
 
 #: rtsetup.src#RID_RTS_PAPERPAGE.RID_RTS_PAPER_PAPER_TXT.fixedtext.text
 msgid "~Paper size"
-msgstr ""
+msgstr "~Էջի չափը"
 
 #: rtsetup.src#RID_RTS_PAPERPAGE.RID_RTS_PAPER_ORIENTATION_TXT.fixedtext.text
 msgid "~Orientation"
-msgstr ""
+msgstr "~Կողմնորոշում"
 
 #: rtsetup.src#RID_RTS_PAPERPAGE.RID_RTS_PAPER_DUPLEX_TXT.fixedtext.text
 msgid "~Duplex"
-msgstr ""
+msgstr "~Երկակի"
 
 #: rtsetup.src#RID_RTS_PAPERPAGE.RID_RTS_PAPER_SLOT_TXT.fixedtext.text
 msgid "Paper tray"
-msgstr ""
+msgstr "Թղթի մատուցարան"
 
 #: rtsetup.src#RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_COLOR_TXT.string.text
 msgid "Color"
-msgstr ""
+msgstr "Գույն"
 
 #: rtsetup.src#RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_GRAY_TXT.string.text
 msgid "Grayscale"
-msgstr ""
+msgstr "Մոխրագույնի նրփերանգ"
 
 #: rtsetup.src#RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PPDKEY_TXT.fixedtext.text
 msgid "~Option"
@@ -886,12 +886,12 @@ msgstr "Տպիչ"
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_HELP.pushbutton.text
 msgctxt "rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_HELP.pushbutton.text"
 msgid "~Help"
-msgstr ""
+msgstr "~Օգնություն"
 
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_REMOVE.pushbutton.text
 msgctxt "rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_REMOVE.pushbutton.text"
 msgid "~Remove"
-msgstr ""
+msgstr "~Հեռացրու"
 
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_PDFHELP.string.text
 msgctxt "rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_PDFHELP.string.text"
@@ -902,6 +902,12 @@ msgid ""
 "file name. If \"(TMP)\" is in the command line, the PostScript code will be "
 "supplied via a file, otherwise via standard input (i.e. as a pipe)."
 msgstr ""
+"PDF -ի փոխարկիչների համար հրամանի տողը կատարվում է հետևյալ կերպ. "
+"յուրաքանչյուր տպված փաստաթղթի համար, \"(TMP)\" -ը հրամանի տողում փոխարինվում "
+"է ժամանակավոր նիշքով և \"(OUTFILE)\" -ը հրամանի տողում փոխարինվում է թիրախ "
+"PDF նիշքի անվանմամբ: Եթե \"(TMP)\" -ն հրամանի տողում է, PostScript- ի կոդն "
+"ուղարկվում է նիշքի միջոցով, այլապես ստանդարտ մուտքագրմամբ (այսինքն, որպես "
+"խողովակ):"
 
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_PRINTERHELP.string.text
 msgid ""
@@ -909,6 +915,9 @@ msgid ""
 "PostScript code is supplied as standard input (i.e. as a pipe) to the "
 "command line."
 msgstr ""
+"Տպիչ սարքերի հրամանի տողը կատարվում է հետևյալ կերպ. գեներացվող PostScript "
+"կոդը մատակարարվում է հրամանի տողին որպես ստանդարտ մուտքագրում (այսինքն որպես "
+"խողովակ):"
 
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_FAXHELP.string.text
 msgid ""
@@ -918,22 +927,28 @@ msgid ""
 "the command line, the PostScript code will be supplied via a file, otherwise "
 "it is passed as standard input (i.e. as a pipe)."
 msgstr ""
+"Ֆաքսի սարքերի հրամանի տողը կատարվում է հետևյալ կերպ. ուղարկված յուրաքանչյուր "
+"ֆաքսի համար, \"(TMP)\" -ն հրամանի տողում փոխարինվում է ժամանակավոր նիշքով և "
+"\"(PHONE)\" -ը հրամանի տողում փոխարինվում է ֆաքսի համարով: Եթե \"(TMP)\" -ն "
+"հայտնվում է հրամանի տողում, PostScript կոդը կտրամադրվի նիշքի միջոցով, "
+"հակառակ դեպքում այն տրամադրվում է որպես ստանդարտ մուտքագրում (այսինքն որպես "
+"խողովակ):"
 
 #: rtsetup.src#RID_RTS_OTHERPAGE.RID_RTS_OTHER_LEFTMARGIN_TXT.fixedtext.text
 msgid "~Left margin"
-msgstr ""
+msgstr "~Ձախ եզր"
 
 #: rtsetup.src#RID_RTS_OTHERPAGE.RID_RTS_OTHER_TOPMARGIN_TXT.fixedtext.text
 msgid "~Top margin"
-msgstr ""
+msgstr "~Վերին եզր"
 
 #: rtsetup.src#RID_RTS_OTHERPAGE.RID_RTS_OTHER_RIGHTMARGIN_TXT.fixedtext.text
 msgid "~Right margin"
-msgstr ""
+msgstr "~Աջ եզր"
 
 #: rtsetup.src#RID_RTS_OTHERPAGE.RID_RTS_OTHER_BOTTOMMARGIN_TXT.fixedtext.text
 msgid "~Bottom margin"
-msgstr ""
+msgstr "~Ներքևի եզր"
 
 #: rtsetup.src#RID_RTS_OTHERPAGE.RID_RTS_OTHER_COMMENT_TXT.fixedtext.text
 msgid "~Comment"
