@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:12+0000\n"
-"PO-Revision-Date: 2019-03-24 18:47+0000\n"
+"PO-Revision-Date: 2019-03-25 17:51+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1553453268.000000\n"
+"X-POOTLE-MTIME: 1553536301.000000\n"
 
 #: scstring.src#SCSTR_APPLICATION.string.text
 msgid "%PRODUCTNAME Calc 6.0"
@@ -6180,21 +6180,23 @@ msgid ""
 "Cumulative compounded interest. Calculates the total amount of the interest "
 "share in a period for an investment with a constant interest rate."
 msgstr ""
+"Կուտակային բարդացված տոկոսադրույք: Հաշվում է տոկոսային մասնաբաժնի ընդհանուր "
+"գումարը` անշարժ գույքի մշտական տոկոսադրույքով ներդրման ժամանակահատվածում:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.2.string.text"
 msgid "Rate"
-msgstr ""
+msgstr "Տոկոսադրույք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.3.string.text"
 msgid "The rate of interest per period."
-msgstr ""
+msgstr "Տարեկան տոկոսադրույքը ըստ ժամանակահատվածի:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.4.string.text"
 msgid "NPER"
-msgstr ""
+msgstr "NPER"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.5.string.text"
@@ -6202,11 +6204,12 @@ msgid ""
 "Payment period. The total number of periods in which the annuity (pension) "
 "is paid."
 msgstr ""
+"Վճարման ժամկետը: Անուիտետի (կենսաթոշակի) վճարման ժամկետների ընդհանուր քանակը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.6.string.text"
 msgid "pv"
-msgstr ""
+msgstr "նա"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_KUM_ZINS_Z.7.string.text"
@@ -6263,22 +6266,22 @@ msgstr "Արժեքը"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.3.string.text"
 msgid "Acquisition costs. The initial cost of the asset."
-msgstr ""
+msgstr "Համալրման ծախսեր: Ակտիվի սկզբնական արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.4.string.text"
 msgid "Salvage"
-msgstr ""
+msgstr "Փրկություն"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.5.string.text"
 msgid "Salvage: The remaining value of the asset at the end of its life."
-msgstr ""
+msgstr "Փրկություն։ Ակտիվի մնացորդային արժեքը դրա կյանքի վերջում:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.6.string.text"
 msgid "Life"
-msgstr ""
+msgstr "Կյանք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_DIA.7.string.text"
@@ -6367,40 +6370,46 @@ msgstr "Կյանք"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.7.string.text"
 msgid "Useful life. The number of periods in the useful life of the asset."
-msgstr ""
+msgstr "Օգտակար կյանք: Ակտիվի օգտակար ծառայության ժամկետները:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.8.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.8.string.text"
 msgid "Period"
-msgstr ""
+msgstr "Ժամանակահատված"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.9.string.text
 msgid ""
 "Period. The depreciation period in the same time unit as the average useful "
 "life entry."
 msgstr ""
+"Ժամանակաշրջան. Ամորտիզացիայի ժամկետը նույն ժամանակահատվածում, որպես միջին "
+"կենսապահովման մուտք:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.10.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.10.string.text"
 msgid "Factor"
-msgstr ""
+msgstr "Գործոն"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA.11.string.text
 msgid ""
 "Factor. The factor for balance decline. F = 2 means a double declining "
 "balance factor"
 msgstr ""
+"Գործոն: Հավասարակշռության նվազման գործոն: F = 2 նշանակում է կրկնակի նվազման "
+"հավասարակշռող գործոն"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA_2.1.string.text
 msgid ""
 "Returns the real depreciation of an asset for a specified period using the "
 "fixed-declining balance method."
 msgstr ""
+"Վերադարձնում է որոշակի ժամանակահատվածում ակտիվի իրական արժեզրկումը, "
+"օգտագործելով սևեռված նվազման հաշվեկշռի մեթոդը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA_2.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA_2.2.string.text"
 msgid "Cost"
-msgstr ""
+msgstr "Արժեք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_GDA_2.3.string.text
 msgid "Acquisition costs: The initial cost of the asset."
@@ -6453,45 +6462,49 @@ msgid ""
 "Variable declining balance. Returns the declining balance depreciation for a "
 "particular period."
 msgstr ""
+"Փոփոխական նվզման հավասարակշռություն: Վերադարձնում է որոշակի "
+"ժամանակահատվածում նվազման ենթակա մնացորդային արժեզրկումը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.2.string.text"
 msgid "Cost"
-msgstr ""
+msgstr "Արժեք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.3.string.text
 msgid "Cost. The initial cost of the asset."
-msgstr ""
+msgstr "Արժեքը: Ակտիվի սկզբնական արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.4.string.text"
 msgid "Salvage"
-msgstr ""
+msgstr "Փրկություն"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.5.string.text
 msgid "Salvage. The salvage value of an asset at the end of its useful life."
-msgstr ""
+msgstr "Փրկություն: Ակտիվի փրկության արժեքը իր օգտակար կյանքի ավարտին:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.6.string.text"
 msgid "Life"
-msgstr ""
+msgstr "Կյանք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.7.string.text"
 msgid "Useful life. The number of periods in the useful life of the asset."
-msgstr ""
+msgstr "Օգտակար կյանք: Ակտիվի օգտակար ծառայության ժամկետները:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.8.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.8.string.text"
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.9.string.text
 msgid ""
 "Start. The first period for depreciation in the same time unit as the useful "
 "life."
 msgstr ""
+"Սկսեք: Առաջին ժամանակահատվածը մաշվածության համար՝ նույն ժամանակային "
+"միավորում ինչ որ օգտակար կյանքն է:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_VBD.10.string.text
 msgid "end"
@@ -6546,43 +6559,46 @@ msgstr "Անվանական տոկոսադրույքը"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_EFFEKTIV.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_EFFEKTIV.4.string.text"
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_EFFEKTIV.5.string.text
 msgid "Periods. The number of interest payments per year."
-msgstr ""
+msgstr "Ժամկետները: Տարեկան տոկոսադրույքների ըստ տարվա:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOMINAL.1.string.text
 msgid ""
 "Calculates the yearly nominal interest rate as an effective interest rate."
 msgstr ""
+"Հաշվում է տարեկան անվանական տոկոսադրույքը որպես արդյունավետ տոկոսադրույք:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOMINAL.2.string.text
 msgid "effect_rate"
-msgstr ""
+msgstr "effect_rate"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOMINAL.3.string.text
 msgid "The effective interest rate"
-msgstr ""
+msgstr "Արդյունավետ տոկոսադրույքը"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOMINAL.4.string.text
 msgid "npery"
-msgstr ""
+msgstr "npery"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOMINAL.5.string.text
 msgid "Periods. The number of interest payment per year."
-msgstr ""
+msgstr "Ժամկետները: Տարեկան տոկոսադրույքների քանակը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NBW.1.string.text
 msgid ""
 "Net present value. Calculates the net present value of an investment based "
 "on a series of periodic payments and a discount rate."
 msgstr ""
+"Ներկայիս զուտ արժեքը: Հաշվում է ներդրումների զուտ ներկա արժեքը` հիմնվելով "
+"պարբերական վճարումների և զեղչի տոկոսադրույքների վրա:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NBW.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NBW.2.string.text"
 msgid "RATE"
-msgstr ""
+msgstr "ՏՈԿՈՍԱԴՐՈՒՅՔ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NBW.3.string.text
 msgid "The rate of discount for one period."
@@ -6642,40 +6658,44 @@ msgstr ""
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.2.string.text"
 msgid "Values"
-msgstr ""
+msgstr "Արժեքներ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.3.string.text
 msgid ""
 "An array or reference to cells whose contents correspond to the payments."
 msgstr ""
+"Մի զանգված կամ հղում դեպի բջիջներ, որոնց բովանդակությունը համապատասխանում է "
+"վճարումներին:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.4.string.text
 msgid "investment"
-msgstr ""
+msgstr "ներդրում"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.5.string.text
 msgid "Interest rate for investments (the negative values in the array)."
-msgstr ""
+msgstr "Ներդրումների համար տոկոսադրույք (զանգվածում բացասական արժեքներ):"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.6.string.text
 msgid "reinvest_rate"
-msgstr ""
+msgstr "reinvest_rate"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_MIRR.7.string.text
 msgid "interest rate for reinvestments (the positive values in the array)."
-msgstr ""
+msgstr "վերաֆինանսավորման տոկոսադրույքը (զանգվածի դրական արժեքները):"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ISPMT.1.string.text
 msgid "Returns the amount of interest for constant amortization rates."
 msgstr ""
+"Վերադարձնում է տոկոսադրույքի գումարը մշտական անորոշության դրույքաչափերի "
+"համար:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ISPMT.2.string.text
 msgid "rate"
-msgstr ""
+msgstr "տոկոսադրույք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ISPMT.3.string.text
 msgid "Interest rate for a single amortization rate."
-msgstr ""
+msgstr "Մեկ ամորտիզացիայի դրույքաչափի տոկոսադրույքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ISPMT.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ISPMT.4.string.text"
@@ -6722,45 +6742,47 @@ msgstr "Մշտական տոկոսադրույքները:"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.4.string.text"
 msgid "pv"
-msgstr ""
+msgstr "նա"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.5.string.text
 msgid "The present value. The current value of the investment."
-msgstr ""
+msgstr "Ներկայիս արժեքը: Ներդրումների ներկա արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.6.string.text"
 msgid "FV"
-msgstr ""
+msgstr "ԱԱ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_LAUFZ.7.string.text"
 msgid "The future value of the investment."
-msgstr ""
+msgstr "Ներդրումի ապագա արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.1.string.text
 msgid ""
 "Interest. Calculates the interest rate which represents the rate of return "
 "from an investment."
 msgstr ""
+"Հետաքրքրություն: Հաշվում է տոկոսադրույքը, որը ներկայացնում է եկամտի "
+"փոխարժեքը ներդրումից:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.2.string.text"
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.3.string.text
 msgid "The number of periods used in the calculation."
-msgstr ""
+msgstr "Հաշվարկման ժամանակաշրջանների թիվը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.4.string.text"
 msgid "pv"
-msgstr ""
+msgstr "նա"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.5.string.text
 msgid "Present value. The current value of the investment."
-msgstr ""
+msgstr "Ներկայիս արժեքը: Ներդրումների ներկա արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ZGZ.6.string.text"
@@ -6891,42 +6913,42 @@ msgstr "Վերադարձնում է TRUE, եթե արժեքը թիվ է։"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_VALUE.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_VALUE.2.string.text"
 msgid "value"
-msgstr ""
+msgstr "արժեք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_VALUE.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_VALUE.3.string.text"
 msgid "The value to be tested."
-msgstr ""
+msgstr "Փորձարկվող արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_FORMULA.1.string.text
 msgid "Returns TRUE if the cell is a formula cell."
-msgstr ""
+msgstr "Վերադարձնում է TRUE, եթե բջիջը բանաձևի բջիջ է:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_FORMULA.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_FORMULA.2.string.text"
 msgid "reference"
-msgstr ""
+msgstr "տեղեկանք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IS_FORMULA.3.string.text
 msgid "The cell to be checked."
-msgstr ""
+msgstr "Ընտրության վանդակ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_FORMULA.1.string.text
 msgid "Returns the formula of a formula cell."
-msgstr ""
+msgstr "Վերադարձնում է բանաձևի բջջի բանաձևը։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_FORMULA.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_FORMULA.2.string.text"
 msgid "Reference"
-msgstr ""
+msgstr "Տեղեկանք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_FORMULA.3.string.text
 msgid "The formula cell."
-msgstr ""
+msgstr "Բջջի բանաձև։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_N.1.string.text
 msgid "Converts a value to a number."
-msgstr ""
+msgstr "Ձևափոխում է արժեքը թվի։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_N.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_N.2.string.text"
@@ -6935,11 +6957,11 @@ msgstr "արժեք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_N.3.string.text
 msgid "The value to be interpreted as a number."
-msgstr ""
+msgstr "Արժեքը, որը պետք է մեկնաբանվի որպես թիվ:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NO_VALUE.1.string.text
 msgid "Not available. Returns the error value #N/A."
-msgstr ""
+msgstr "Անհասանելի. Վերադարձնում է #N/A սխալ արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.1.string.text
 msgid ""
@@ -6950,40 +6972,41 @@ msgstr ""
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.2.string.text"
 msgid "value"
-msgstr ""
+msgstr "արժեք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.3.string.text
 msgid "The value for which the data type is to be determined."
-msgstr ""
+msgstr "Արժեքը, որի համար պետք է որոշվի տվյալների տեսակը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.1.string.text
 msgid "Determines information about address, formatting or contents of a cell."
 msgstr ""
+"Սահմանում է բջջի հասցեի, ձևավորման կամ բովանդակության մասին տեղեկությունները:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.2.string.text
 msgid "info_type"
-msgstr ""
+msgstr "info_type"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.3.string.text
 msgid "String that specifies the type of information."
-msgstr ""
+msgstr "Պարամետր, որը սահմանում է տեղեկատվության տեսակը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.4.string.text"
 msgid "Reference"
-msgstr ""
+msgstr "Տեղեկանք"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CELL.5.string.text
 msgid "The position of the cell you want to examine."
-msgstr ""
+msgstr "Բջիջի դիրքորոշումը, որը ցանկանում եք ուսումնասիրել:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_CURRENT.1.string.text
 msgid "Calculates the current value of the formula at the present location. "
-msgstr ""
+msgstr "Հաշվում է բանաձևի ներկա արժեքը ներկայիս վայրում: "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_FALSE.1.string.text
 msgid "Defines the logical value as FALSE."
-msgstr ""
+msgstr "Սահմանում է տրամաբանական արժեքն որպես FALSE:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_NOT.1.string.text
 msgid "Reverses the value of the argument."
@@ -7023,20 +7046,20 @@ msgstr ""
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IF.6.string.text
 msgid "Otherwise_value"
-msgstr ""
+msgstr "Otherwise_value"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_IF.7.string.text
 msgid "The result of the function if the logical test returns FALSE."
-msgstr ""
+msgstr "Ֆունկցիայի արդյունքը, եթե տրամաբանական թեսթը վերադարձնում է FALSE:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_OR.1.string.text
 msgid "Returns TRUE if an argument is TRUE."
-msgstr ""
+msgstr "Վերադարձնում է TRUE, եթե փաստարկը TRUE է:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_OR.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_OR.2.string.text"
 msgid "Logical value "
-msgstr ""
+msgstr "Տրամաբանական արժեք "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_OR.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_OR.3.string.text"
@@ -7044,30 +7067,34 @@ msgid ""
 "Logical value 1, logical value 2,... are 1 to 30 conditions to be tested and "
 "which return either TRUE or FALSE."
 msgstr ""
+"Տրամաբանական արժեք 1, տրամաբանական արժեք 2, ... 1-ից 30 պայմաններ են որ պետք "
+"է փորձարկվեն, և որոնք վերադարձնում են TRUE կամ FALSE:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AND.1.string.text
 msgid "Returns TRUE if all arguments are TRUE."
-msgstr ""
+msgstr "Վերադարձնում է TRUE, եթե բոլոր փաստարկները TRUE են:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AND.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AND.2.string.text"
 msgid "Logical value "
-msgstr ""
+msgstr "Տրամաբանական արժեք "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AND.3.string.text
 msgid ""
 "Logical value 1, logical value 2;...are 1 to 30 conditions to be tested and "
 "each returns either TRUE or FALSE."
 msgstr ""
+"Տրամաբանական արժեք 1, տրամաբանական արժեք 2, ... 1-ից 30 պայմաններ են որ պետք "
+"է փորձարկվեն, և որոնք վերադարձնում են TRUE կամ FALSE:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_XOR.1.string.text
 msgid "Returns TRUE if exactly one of the arguments is TRUE."
-msgstr ""
+msgstr "Վերադարձնում է TRUE, եթե փաստարկներից մեկը ճշգրտորեն TRUE է:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_XOR.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_XOR.2.string.text"
 msgid "Logical value "
-msgstr ""
+msgstr "Տրամաբանական արժեք "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_XOR.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_XOR.3.string.text"
@@ -7075,76 +7102,80 @@ msgid ""
 "Logical value 1, logical value 2,... are 1 to 30 conditions to be tested and "
 "which return either TRUE or FALSE."
 msgstr ""
+"Տրամաբանական արժեք 1, տրամաբանական արժեք 2, ... 1-ից 30 պայմաններ են "
+"փորձարկվում և որոնք վերադարձնում են TRUE կամ FALSE:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ABS.1.string.text
 msgid "Absolute value of a number."
-msgstr ""
+msgstr "Թվի բացարձակ արժեքը։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ABS.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ABS.2.string.text"
 msgid "Number"
-msgstr ""
+msgstr "Թիվ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_ABS.3.string.text
 msgid "The number whose absolute value is to be returned."
-msgstr ""
+msgstr "Թիվը, որի բացարձակ արժեքը պետք է վերադարձվի:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.1.string.text
 msgid "Returns a^b, base a raised to the power of exponent b."
-msgstr ""
+msgstr "Վերադարձնում է a^b, հիմքը բարձրացվում է b-ի ցուցիչի հզորությանը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.2.string.text"
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.3.string.text
 msgid "The base a of the power a^b."
-msgstr ""
+msgstr "a^b ուժի հիմքը։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.4.string.text
 msgid "Exponent"
-msgstr ""
+msgstr "Էքսպոնենտ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_POWER.5.string.text
 msgid "The exponent b of the power a^b."
-msgstr ""
+msgstr "a^b ուժի b ցուցանիշը։"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_COUNT_EMPTY_CELLS.1.string.text
 msgid "Counts the blank cells in a specified range."
-msgstr ""
+msgstr "Հաշվում է սահմանված միջակայքում դատարկ բջիջները:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_COUNT_EMPTY_CELLS.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_COUNT_EMPTY_CELLS.2.string.text"
 msgid "range"
-msgstr ""
+msgstr "տիրույթ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_COUNT_EMPTY_CELLS.3.string.text
 msgid "The range in which empty cells are to be counted."
-msgstr ""
+msgstr "Տիրույթը, որում դատարկ բջիջները պետք է հաշվարկվեն:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_PI.1.string.text
 msgid "Returns the value of the number Pi."
-msgstr ""
+msgstr "Վերադարձնում է Pi- ի արժեքը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM.1.string.text
 msgid "Returns the sum of all arguments."
-msgstr ""
+msgstr "Վերադարձնում է բոլոր փաստարկների գումարը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM.2.string.text"
 msgid "number "
-msgstr ""
+msgstr "թիվ "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM.3.string.text
 msgid ""
 "Number 1, number 2, ... are 1 to 30 arguments whose total is to be "
 "calculated."
 msgstr ""
+"Number 1, number 2, ... 1-ից 30 փաստարկ են, որոնց ընդհանուր գումարը պետք է "
+"հաշվարկվի:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_SQ.1.string.text
 msgid "Returns the sum of the squares of the arguments."
-msgstr ""
+msgstr "Վերադարձնում է արգումենտների քառակուսիների գումարը:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_SQ.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_SQ.2.string.text"
@@ -7193,46 +7224,46 @@ msgstr ""
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.5.string.text"
 msgid "The cell range in which the search criteria are given."
-msgstr ""
+msgstr "Բջիջների տիրույթ, որում որոնման չափանիշները տրված են:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.6.string.text"
 msgid "sum_range"
-msgstr ""
+msgstr "sum_range"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_SUM_IF.7.string.text"
 msgid "The range from which the values are to be totalled."
-msgstr ""
+msgstr "Այն տիրույթը, որում արժեքները պետք է ընդգրկվեն:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.1.string.text
 msgid "Averages the arguments that meet the conditions."
-msgstr ""
+msgstr "Միջինացնում է արգումենտները, որոնք բավարարում են փաստարկներին:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.2.string.text"
 msgid "range"
-msgstr ""
+msgstr "տիրույթ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.3.string.text"
 msgid "The range to be evaluated by the criteria given."
-msgstr ""
+msgstr "Տիրույթը պետք է գնահատվի տրված չափանիշով:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.4.string.text"
 msgid "criteria"
-msgstr ""
+msgstr "չափանիշ"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.5.string.text"
 msgid "The cell range in which the search criteria are given."
-msgstr ""
+msgstr "Բջիջների տիրույթ, որում որոնման չափանիշները տրված են:"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.6.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.6.string.text"
 msgid "average_range"
-msgstr ""
+msgstr "average_range"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.7.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_AVERAGE_IF.7.string.text"
