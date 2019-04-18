@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+uui%2Fsource.oo&comp"
 "onent=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-01 19:49+0000\n"
+"PO-Revision-Date: 2019-04-17 19:15+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1554148186.000000\n"
+"X-POOTLE-MTIME: 1555528518.000000\n"
 
 #: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 msgid "Replace"
@@ -82,7 +82,7 @@ msgstr "Jätka"
 
 #: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
 msgid "Security Warning: "
-msgstr "Turvahoiatus:"
+msgstr "Turvahoiatus: "
 
 #: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
 msgid "The password is incorrect. The file cannot be opened."
@@ -142,14 +142,14 @@ msgid ""
 "The following Cookies should be set:\n"
 "\n"
 msgstr ""
-"Server '${HOST}' pakub üht või rohkemat küpsist.\n"
-"Küpsised sisaldavad kindlatele URLiklassidele viitavat infot. Kui %"
+"Server '${HOST}' soovib määrata vähemalt ühe küpsise.\n"
+"Küpsised sisaldavad kindlatele URLi klassidele viitavat infot. Kui %"
 "PRODUCTNAME soovib hiljem dokumenti, mille URL vastab varem vastuvõetud "
-"küpsise klassile, siis saadab %PRODUCTNAME selle info serverile. Selline "
-"käitumine võimaldab serveril tuvastada veebirakenduse olekut (nt. veebipoest "
-"tellides).\n"
+"küpsise klassile, siis saadab %PRODUCTNAME selle info serverile. See "
+"võimaldab serveril tuvastada veebirakenduse olekut, nt., WWW veebipoest "
+"tellides.\n"
 "\n"
-"Pakutakse järgnevaid küpsiseid:\n"
+"Järgnevad küpsised peaks olema määratud:\n"
 "\n"
 
 #: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
@@ -294,9 +294,9 @@ msgid ""
 "If you disable macros you may lose functionality provided by the document "
 "macros."
 msgstr ""
-"Makrod võivad sisaldada viiruseid. Makrode keelamine on alati turvaline, "
-"kuid keelates makrod, võid kaotada ka dokumendi makrode abil pakutava "
-"funktsionaalsuse."
+"Makrod võivad sisaldada viiruseid. Makrode keelamine on alati turvaline. Kui "
+"sa keelad makrod, võid kaotada funktsionaalsuse, mida pakuvad dokumendi "
+"makrod."
 
 #: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
 msgid "Always trust macros from this source"
@@ -331,8 +331,8 @@ msgid ""
 "Enter user name and password for: \n"
 "\"%2\" on %1"
 msgstr ""
-"Palun sisesta kasutajanimi ja parool:\n"
-"\"%2\" %1 -l ."
+"Sisesta kasutajanimi ja parool: \n"
+"\"%2\" asukohas %1"
 
 #: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
 msgid "~Path"
@@ -395,8 +395,8 @@ msgid ""
 "The file could not be locked for exclusive access by %PRODUCTNAME, due to "
 "missing permission to create a lock file on that file location."
 msgstr ""
-"%PRODUCTNAME ei saa lukustada faili ainukasutamiseks, kuna puuduvad õigused "
-"lukustusfaili loomiseks sellesse asukohta."
+"Faili ei saa lukustada %PRODUCTNAME le ainukasutuseks, sest puuduvad õigused "
+"sellesse asukohta lukustusfaili loomiseks."
 
 #: ids.src%23RID_KEEP_PASSWORD.string.text
 msgid "~Remember password until end of session"
@@ -441,10 +441,10 @@ msgid ""
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
-"Sa soovid salvestada/eksportida parooliga kaitstud BASICu teeki, milles "
-"sisalduv(ad) moodul(id) \n"
+"Sa oled salvestamas/eksportimas parooliga kaitstud BASICu teeki, mis "
+"sisaldab) moodul(eid) \n"
 "$(ARG1)\n"
-"on liiga suur(ed) binaarvormingusse salvestamiseks. Kui sa soovid, et "
+"mis on liiga suur(ed) binaarvormingusse salvestamiseks. Kui sa soovid, et "
 "kasutajad, kellel pole juurdepääsu teegi paroolile, saaksid nendes "
 "moodulites olevaid makrosid käivitada, tuleks moodulid jagada väiksemateks "
 "mooduliteks. Soovid sa teegi salvestamist/eksportimist jätkata?"
@@ -467,7 +467,7 @@ msgstr "$(ARG1)-i seek-operatsiooni ei saa teostada."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTTELL___ERRCODE_RES_MASK_.string.text
 msgid "The tell operation on $(ARG1) could not be performed."
-msgstr "$(ARG1)-i tell-operatsiooni ei saa teostada."
+msgstr "Ei saa teostada $(ARG1)-i tell-operatsiooni."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTWRITE___ERRCODE_RES_MASK_.string.text
 msgid "Data for $(ARG1) could not be written."
@@ -487,11 +487,11 @@ msgstr "Toiming pole võimalik: $(ARG1) ja $(ARG2) on erinevad seadmed (kettad).
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
 msgid "General input/output error while accessing $(ARG1)."
-msgstr "$(ARG1)-st lugemisel tekkis üldine sisend-/väljundviga."
+msgstr "Juurdepääsul $(ARG1)-i ilmnes üldine sisend-/väljundviga."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
 msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr "$(ARG1)-d püüti kasutada lubamatul moel."
+msgstr "Tehti katse $(ARG1) kasutada vääral moel."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDCHAR___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) contains invalid characters."
@@ -507,7 +507,7 @@ msgstr "$(ARG1)-st loetud andmetel on vigane pikkus."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
 msgid "The operation on $(ARG1) was started with an invalid parameter."
-msgstr "$(ARG1)-l käivitatud operatsiooni parameeter oli vigane."
+msgstr "Operatsioon $(ARG1)-l käivitati vigase parameetriga."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ISWILDCARD___ERRCODE_RES_MASK_.string.text
 msgid "The operation cannot be performed because $(ARG1) contains wildcards."
@@ -574,7 +574,7 @@ msgstr "$(ARG1) kopeerimine iseenda sisse pole võimalik."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNKNOWN___ERRCODE_RES_MASK_.string.text
 msgid "Unknown input/output error while accessing $(ARG1)."
-msgstr "$(ARG1)-st lugemisel tekkis tundmatu sisend-/väljundviga."
+msgstr "Tundmatu sisend-/väljundviga $(ARG1)-i lugemisel."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRITEPROTECTED___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is write protected."
@@ -634,7 +634,7 @@ msgstr "Andmeruum $(ARG1) pole valmis."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not ready; please insert a storage medium."
-msgstr "$(ARG1) ei ole valmis; palun sisesta andmekandja.."
+msgstr "$(ARG1) ei ole valmis; palun sisesta andmekandja."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready; please insert a storage medium."
@@ -749,7 +749,7 @@ msgid ""
 "this file cannot be granted."
 msgstr ""
 "Fail $(ARG1) on sinu poolt lukustatud. Praegusel hetkel ei ole võimalik anda "
-"uut ligipääsu faili kirjutamiseks"
+"uut ligipääsu faili kirjutamiseks."
 
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
 msgid "The file $(ARG1) is currently not locked by yourself."
@@ -805,7 +805,7 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"Sa püüdsid luua ühendust veebilehega $(ARG1).Paraku kuulub esitatud "
+"Sa püüdsid luua ühendust veebilehega $(ARG1). Paraku kuulub esitatud "
 "turvasertifikaat veebilehele $(ARG2). On vähetõenaoline, kuid siiski "
 "võimalik, et keegi püüab jälgida sinu ühendust selle veebilehega.\n"
 "\n"
@@ -927,9 +927,8 @@ msgid ""
 "Caution: If you forget the master password, you will be unable to access any "
 "of the information protected by it. Passwords are case-sensitive."
 msgstr ""
-"Hoiatus: jäta ülemparool kindlasti meelde. Kui sa unustad ülemparooli, ei "
-"pääse sa enam ligi selle poolt kaitstud teabele. Paroolid on tõstutundlikud "
-"ja vähemalt viie märgi pikkused."
+"Hoiatus: Kui sa unustad ülemparooli, ei pääse sa enam ligi selle poolt "
+"kaitstud teabele. Paroolid on tõstutundlikud."
 
 #: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
 msgid "Set Master Password"
@@ -951,11 +950,11 @@ msgid ""
 "Click 'Update Now...' to run online update and get the latest version of "
 "%PRODUCTNAME."
 msgstr ""
-"See dokument on loodud %PRODUCTNAME-i uuema versiooniga ja võib sisaldada "
+"See dokument on loodud %PRODUCTNAME-i uuema versiooniga. See võib sisaldada "
 "omadusi, mida sinu praegune versioon ei toeta.\n"
 "\n"
-"Internetiuuenduse käivitamiseks ja uusima %PRODUCTNAME-i versiooni "
-"hankimiseks klõpsa 'Uuenda kohe...'."
+"Kliki 'Uuenda kohe...' käivitamaks Internetiuuendust, et hankida uusim "
+"versioon tootest %PRODUCTNAME."
 
 #: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
 msgid "~Update Now..."

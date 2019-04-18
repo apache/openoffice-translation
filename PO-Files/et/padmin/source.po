@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+padmin%2Fsource.oo&c"
 "omponent=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-14 16:50+0000\n"
+"PO-Revision-Date: 2019-04-17 21:23+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1555260647.000000\n"
+"X-POOTLE-MTIME: 1555536181.000000\n"
 
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
 msgid ""
@@ -76,11 +76,11 @@ msgid ""
 "ghostscript, for example, and have to be located in the same directory as "
 "the font files or its afm subdirectory."
 msgstr ""
-"Fondile ei leitud vormindusfaili (laiendiga .afm)\n"
+"Vormindusfaili (laiendiga .afm) ei leitud sellele fondile\n"
 "%s\n"
-"ja seepärast ei saa seda fonti paigaldada. Vormindusfaile saab luua nt "
-"programmi ghostscript abil; vormindusfailid peavad asuma fondifailidega "
-"samas kataloogis või selle afm-nimelises alamkataloogis."
+"ja seetõttu ei saa seda fonti paigaldada. Vormindusfaile saab luua nt "
+"programmi ghostscript abil ning vormindusfailid peavad asuma fondifailidega "
+"samas kaustas või selle afm-nimelises alamkaustas."
 
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_AFMCOPYFAILED.string.text
 msgid ""
@@ -112,7 +112,7 @@ msgstr ""
 
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_NUMBEROFFONTSIMPORTED.string.text
 msgid "%d new fonts were added."
-msgstr "Lisati %d uut fonti."
+msgstr "lisati %d uut fonti."
 
 #: padialog.src%23RID_FONTIMPORT_DIALOG.modaldialog.text
 msgid "Add Fonts"
@@ -292,15 +292,15 @@ msgstr "Tõrketa"
 
 #: padialog.src%23RID_AFMERROR_NO_FONT_NAME.string.text
 msgid "The metric does not contain a 'FontName' entry."
-msgstr "Meetrika ei sisalda kirjet 'FontName'."
+msgstr "Meetrika ei sisalda 'FontName' kirjet."
 
 #: padialog.src%23RID_AFMERROR_NO_FULL_NAME.string.text
 msgid "The metric does not contain a 'FullName' entry."
-msgstr "Meetrika ei sisalda kirjet 'FullName'."
+msgstr "Meetrika ei sisalda 'FullName' kirjet."
 
 #: padialog.src%23RID_AFMERROR_NO_FAMILY_NAME.string.text
 msgid "The metric does not contain a 'FamilyName' entry."
-msgstr "Meetrika ei sisalda kirjet 'FamilyName'."
+msgstr "Meetrika ei sisalda 'FamilyName' kirjet."
 
 #: padialog.src%23RID_AFMERROR_MOVETO_FAILED.string.text
 msgid "The converted metric could not be written."
@@ -380,11 +380,11 @@ msgstr "Kas sa tõesti soovid eemaldada draiverit \"%s\"?"
 
 #: padialog.src%23RID_QUERY_REMOVEPRINTER.string.text
 msgid "Do you really want to remove this printer ?"
-msgstr "Kas sa tõesti soovid eemaldada seda printerit?"
+msgstr "Kas sa tõesti soovid selle printeri eemaldada?"
 
 #: padialog.src%23RID_QUERY_REMOVEFONTFROMLIST.string.text
 msgid "Do you really want to remove the selected fonts ?"
-msgstr "Kas sa tõesti soovid eemaldada valitud fondid?"
+msgstr "Kas sa tõesti soovid valitud fondid eemaldada?"
 
 #: padialog.src%23RID_QUERY_DRIVERUSED.string.text
 msgid ""
@@ -416,7 +416,7 @@ msgid ""
 "The driver \"%s\" is used by your default printer. Therefore, it cannot be "
 "removed."
 msgstr ""
-"Sinu vaikimisi printer kasutab draiverit \"%s\" ja seetõttu ei saa seda "
+"Sinu vaikimisi printer kasutab draiverit \"%s\". Seetõttu ei saa seda "
 "eemaldada."
 
 #: padialog.src%23RID_ERR_PRINTERNOTREMOVEABLE.string.text
@@ -569,9 +569,9 @@ msgid ""
 msgstr ""
 "PDF-konverterite käsurida käivitatakse järgmiselt: iga prinditava dokumendi "
 "jaoks asendatakse käsureal \"(TMP)\" ajutise faili nimega ja \"(OUTFILE)\" "
-"PDF-faili nimega. Kui käsurida sisaldab sõna \"(TMP)\", siis edastatakse "
-"PostScript-vormingus tekst ajutisse faili, vastasel juhul standardsisendi "
-"kaudu (st. putkena)."
+"siht PDF-faili nimega. Kui käsurida sisaldab sõna \"(TMP)\" siis edastatakse "
+"PostScript-vormingus tekst faili, vastasel juhul standardsisendi kaudu (st. "
+"putkena)."
 
 #: padialog.src%23RID_ADDP_PAGE_COMMAND.RID_ADDP_CMD_STR_FAXHELP.string.text
 msgid ""
@@ -583,9 +583,9 @@ msgid ""
 msgstr ""
 "Faksiühenduste käsurida käivitatakse järgmiselt: iga saadetava faksi jaoks "
 "asendatakse käsureal \"(TMP)\" ajutise faili nimega ja \"(PHONE)\" "
-"faksinumbriga. Kui käsurida sisaldab sõna \"(TMP)\", siis edastatakse "
-"PostScript-vormingus tekst ajutisse faili, vastasel juhul standardsisendi "
-"kaudu (st. putkena)."
+"faksinumbriga. Kui käsurida sisaldab sõna \"(TMP)\" siis edastatakse "
+"PostScript-vormingus tekst faili, vastasel juhul standardsisendi kaudu (st. "
+"putkena)."
 
 #: padialog.src%23RID_ADDP_PAGE_OLDPRINTERS.RID_ADDP_STR_TITLE.string.text
 msgid "Import printers from old versions"
@@ -877,7 +877,7 @@ msgstr "PDF sihtkataloog :"
 
 #: rtsetup.src%23RID_RTS_COMMANDPAGE.RID_RTS_CMD_TXT_CONNECT.fixedtext.text
 msgid "Command: "
-msgstr "Käsk:"
+msgstr "Käsklus: "
 
 #: rtsetup.src%23RID_RTS_COMMANDPAGE.RID_RTS_CMD_FL_DEFAULT.fixedline.text
 msgctxt "rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_FL_DEFAULT.fixedline.text"
@@ -905,9 +905,9 @@ msgid ""
 msgstr ""
 "PDF-konverterite käsurida käivitatakse järgmiselt: iga prinditava dokumendi "
 "jaoks asendatakse käsureal \"(TMP)\" ajutise faili nimega ja \"(OUTFILE)\" "
-"PDF-faili nimega. Kui käsurida sisaldab sõna \"(TMP)\", siis edastatakse "
-"PostScript-vormingus tekst ajutisse faili, vastasel juhul standardsisendi "
-"kaudu (st. putkena)."
+"PDF-faili nimega. Kui käsurida sisaldab sõna \"(TMP)\" siis edastatakse "
+"PostScript-vormingus tekst faili, vastasel juhul standardsisendi kaudu (st. "
+"putkena)."
 
 #: rtsetup.src%23RID_RTS_COMMANDPAGE.RID_RTS_CMD_STR_PRINTERHELP.string.text
 msgid ""

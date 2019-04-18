@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+connectivity%2Fsourc"
 "e%2Fresource.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-14 16:28+0000\n"
+"PO-Revision-Date: 2019-04-17 18:52+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1555259327.000000\n"
+"X-POOTLE-MTIME: 1555527170.000000\n"
 
 #: conn_shared_res.src%23STR_MOZILLA_ADDRESSBOOKS.string.text
 msgid "Mozilla/Seamonkey Addressbook Directory"
@@ -88,7 +88,7 @@ msgstr "Päringut ei saa sooritada. See vajab vähemalt üht tabelit."
 
 #: conn_shared_res.src%23STR_NO_COUNT_SUPPORT.string.text
 msgid "The driver does not support the 'COUNT' function."
-msgstr "Draiver ei toeta funktsiooni 'COUNT'."
+msgstr "Draiver ei toeta 'COUNT' funktsiooni."
 
 #: conn_shared_res.src%23STR_STMT_TYPE_NOT_SUPPORTED.string.text
 msgid "This statement type not supported by this database driver."
@@ -171,8 +171,8 @@ msgid ""
 "ParameterNameSubstitution\" is not set to TRUE in the data source."
 msgstr ""
 "Sa üritasid määrata parameetrit asukohas '$pos$' kuid lubatud on ainult "
-"'$count$' parameet(er)rit. Üheks põhjuseks võib olla, et omadusele \""
-"ParameterNameSubstitution\" ei ole andmeallikas määratud väärtust TRUE."
+"'$count$' parameetrit. Üheks põhjuseks võib olla, et omadusele \""
+"ParameterNameSubstitution\" ei ole andmeallikas määratud väärtust TÕENE."
 
 #: conn_shared_res.src%23STR_INPUTSTREAM_WRONG_LEN.string.text
 msgid ""
@@ -188,7 +188,7 @@ msgstr "Sisendvoogu pole määratud."
 
 #: conn_shared_res.src%23STR_NO_ELEMENT_NAME.string.text
 msgid "There is no element named '$name$'."
-msgstr "Elementi nimega '$name$' pole."
+msgstr "Ei ole elementi nimega '$name$'."
 
 #: conn_shared_res.src%23STR_INVALID_BOOKMARK.string.text
 msgid "Invalid bookmark value"
@@ -196,11 +196,11 @@ msgstr "Vigane järjehoidja väärtus"
 
 #: conn_shared_res.src%23STR_PRIVILEGE_NOT_GRANTED.string.text
 msgid "Privilege not granted: Only table privileges can be granted."
-msgstr "Privileegi ei lubatud. Lubada saab ainult tabeli privileege."
+msgstr "Privileegi ei lubatud: Lubada saab ainult tabeli privileege."
 
 #: conn_shared_res.src%23STR_PRIVILEGE_NOT_REVOKED.string.text
 msgid "Privilege not revoked: Only table privileges can be revoked."
-msgstr "Privileegi ei tühistatud. Tühistada saab ainult tabeli privileege."
+msgstr "Privileegi ei tühistatud: Tühistada saab ainult tabeli privileege."
 
 #: conn_shared_res.src%23STR_UNKNOWN_COLUMN_NAME.string.text
 msgid "The column name '$columnname$' is unknown."
@@ -223,8 +223,7 @@ msgid ""
 "The driver does not support the functionality for '$featurename$'. It is not "
 "implemented."
 msgstr ""
-"Draiver ei toeta omaduse '$featurename$' funktsionaalsust. See ei ole "
-"teostatud."
+"Draiver ei toeta funktsionaalsust '$featurename$'. Seda ei ole täidetud."
 
 #: conn_shared_res.src%23STR_FORMULA_WRONG.string.text
 msgid "The formula for TypeInfoSettings is wrong!"
@@ -235,13 +234,13 @@ msgid ""
 "The string '$string$' exceeds the maximum length of $maxlen$ characters when "
 "converted to the target character set '$charset$'."
 msgstr ""
-"String '$string$' ületab märgistikku $charset$' teisendamisel maksimaalset "
-"lubatud pikkust $maxlen$ märki."
+"String '$string$' ületab $maxlen$ tähemärkide maksimaalset pikkust, kui see "
+"on teisendatud siht-tähemärgi komplektiks '$charset$'."
 
 #: conn_shared_res.src%23STR_CANNOT_CONVERT_STRING.string.text
 msgid ""
 "The string '$string$' cannot be converted using the encoding '$charset$'."
-msgstr "Stringi '$string$' ei saa teisendada märgistikku ''$charset$''."
+msgstr "Stringi '$string$' ei saa teisendada kasutades kodeeringut '$charset$'."
 
 #: conn_shared_res.src%23STR_URI_SYNTAX_ERROR.string.text
 msgid "The connection URL is invalid."
@@ -397,23 +396,23 @@ msgstr "Faili $filename$ ei suudetud kustutada."
 
 #: conn_shared_res.src%23STR_INVALID_COLUMN_TYPE.string.text
 msgid "Invalid column type for column '$columnname$'."
-msgstr "Veeru '$columnname$' vigane tüüp."
+msgstr "Vigane tulba tüüp tulbale '$columnname$'."
 
 #: conn_shared_res.src%23STR_INVALID_COLUMN_PRECISION.string.text
 msgid "Invalid precision for column '$columnname$'."
-msgstr "Veeru '$columnname$' vigane täpsus."
+msgstr "Vigane täpsus tulbale '$columnname$'."
 
 #: conn_shared_res.src%23STR_INVALID_PRECISION_SCALE.string.text
 msgid "Precision is less than scale for column '$columnname$'."
-msgstr "Täpsus on väiksem kui veeru '$columnname$' komakohtade arv."
+msgstr "Täpsus on väiksem kui väärtuste vahemik tulbas '$columnname$'."
 
 #: conn_shared_res.src%23STR_INVALID_COLUMN_NAME_LENGTH.string.text
 msgid "Invalid column name length for column '$columnname$'."
-msgstr "Veeru '$columnname$' nime vigane pikkus."
+msgstr "Vigane nime pikkus tulbal '$columnname$'."
 
 #: conn_shared_res.src%23STR_DUPLICATE_VALUE_IN_COLUMN.string.text
 msgid "Duplicate value found in column '$columnname$'."
-msgstr "Veerus '$columnname$' leiti korduv väärtus."
+msgstr "Leiti korduv väärtus tulbas '$columnname$'."
 
 #: conn_shared_res.src%23STR_INVALID_COLUMN_DECIMAL_VALUE.string.text
 msgid ""
@@ -422,8 +421,8 @@ msgid ""
 "\n"
 "The specified value \"$value$ is longer than the number of digits allowed."
 msgstr ""
-"Veeru '$columnname$' tüübiks on määratud \"kümnendarv\", suurim pikkus on "
-"$precision$ märki (koos $scale$ komakohaga).\n"
+"Tulba '$columnname$' tüübiks on määratud \"kümnendarv\" tüüp, suurim pikkus "
+"on $precision$ tähemärki (koos $scale$ komakohaga).\n"
 "\n"
 "Määratud väärtus \"$value$ on pikem lubatud kohtade arvust."
 
@@ -487,8 +486,8 @@ msgid ""
 "The query can not be executed. It is too complex. Only \"COUNT(*)\" is "
 "supported."
 msgstr ""
-"Päringut ei saa sooritada. See on liiga keeruline. Toetatud on ainult \""
-"COUNT(*)\"."
+"Päringut ei saa sooritada. See on liiga keeruline. Ainult \"COUNT(*)\" on "
+"toetatud."
 
 #: conn_shared_res.src%23STR_QUERY_INVALID_BETWEEN.string.text
 msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
@@ -506,7 +505,8 @@ msgstr "Tabelit ei saa muuta. See on kirjutuskaitstud."
 msgid ""
 "The row could not be deleted. The option \"Display inactive records\" is set."
 msgstr ""
-"Rida ei saa kustutada. Märgitud on säte \"Mitteaktiivsete kirjete kuvamine\"."
+"Rida ei saa kustutada. Valik \"Mitteaktiivsete kirjete kuvamine\" on "
+"aktiivne."
 
 #: conn_shared_res.src%23STR_ROW_ALREADY_DELETED.string.text
 msgid "The row could not be deleted. It is already deleted."
@@ -654,7 +654,7 @@ msgstr "Tabeli redigeerimise dialoogi loomisel tekkis viga."
 
 #: conn_shared_res.src%23STR_NO_TABLENAME.string.text
 msgid "There is no table named '$tablename$'."
-msgstr "Ühtki tabelit nimega '$tablename$' pole."
+msgstr "Ei leitud ühtegi tabelit nimega '$tablename$'."
 
 #: conn_shared_res.src%23STR_NO_DOCUMENTUI.string.text
 msgid "The provided DocumentUI is not allowed to be NULL."

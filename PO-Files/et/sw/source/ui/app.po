@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fa"
 "pp.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-14 15:24+0000\n"
+"PO-Revision-Date: 2019-04-17 19:07+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1555255499.000000\n"
+"X-POOTLE-MTIME: 1555528073.000000\n"
 
 #: error.src%23STR_COMCORE_READERROR.string.text
 msgid "Read-Error"
@@ -57,7 +57,7 @@ msgstr "Ootamatu faili lõppemine."
 
 #: error.src%23RID_SW_ERRHDL.ERR_CODE___ERRCODE_CLASS_READ___ERR_SW6_PASSWD__.string.text
 msgid "Password-protected files cannot be opened."
-msgstr "Parooliga kaitstud failid ei ole toetatud"
+msgstr "Parooliga kaitstud faile ei saa avada."
 
 #: error.src%23RID_SW_ERRHDL.ERR_CODE___ERRCODE_CLASS_READ___ERR_WW6_NO_WW6_FILE_ERR__.string.text
 msgid "This is not a WinWord6 file."
@@ -69,8 +69,8 @@ msgid ""
 "This file was saved with WinWord in 'Fast Save' mode. Please unmark the "
 "WinWord option 'Allow Fast Saves' and save the file again."
 msgstr ""
-"See fail salvestati WinWord'i kiirsalvestusrežiimis. Palun keela WinWord'is "
-"kiirsalvestus ja salvesta fail uuesti."
+"See fail salvestati WinWord 'Kiirsalvestus' režiimis. Palun keela WinWord "
+"valik 'Luba kiirsalvestus' ja salvesta fail uuesti."
 
 #: error.src%23RID_SW_ERRHDL.ERR_CODE___ERRCODE_CLASS_READ___ERR_FORMAT_ROWCOL__.string.text
 msgid "File format error found at $(ARG1)(row,col)."
@@ -145,8 +145,8 @@ msgid ""
 "This file was saved with WinWord in 'Fast Save' mode. Please unmark the "
 "WinWord option 'Allow Fast Saves' and save the file again."
 msgstr ""
-"See fail salvestati WinWord'i kiirsalvestusrežiimis. Palun keela WinWord'is "
-"kiirsalvestus ja salvesta fail uuesti."
+"See fail salvestati WinWord 'Kiirsalvestus' režiimis. Palun keela WinWord "
+"valik 'Luba kiirsalvestus' ja salvesta fail uuesti."
 
 #: error.src%23RID_SW_ERRHDL.WARN_CODE___ERRCODE_CLASS_READ___WARN_SWG_FEATURES_LOST__.string.text
 msgid "Not all attributes could be read."
@@ -376,7 +376,7 @@ msgstr "Kirja saatmisel tekkis viga."
 
 #: app.src%23MSG_ERROR_PASSWD.infobox.text
 msgid "Invalid password"
-msgstr "Lubamatu parool."
+msgstr "Vigane salasõna"
 
 #: app.src%23STR_FMT_STD.string.text
 msgid "(none)"
@@ -463,8 +463,8 @@ msgid ""
 "To proceed with this action, you must first turn off the \"undo\" function. "
 "Do you want to turn off the \"undo\" function?"
 msgstr ""
-"Tegevuse jätkamiseks on vaja käskude tagasivõtmise funktsioon välja "
-"lülitada. Soovid sa seda teha?"
+"Tegevuse jätkamiseks on esmalt vaja \"tühistamise\" funktsioon välja "
+"lülitada. Kas sa soovid \"tühistamise\" funktsiooni välja lülitada?"
 
 #: app.src%23STR_TABLE_DEFNAME.string.text
 msgctxt "app.src#STR_TABLE_DEFNAME.string.text"
@@ -527,7 +527,7 @@ msgstr ""
 
 #: app.src%23STR_ABSTRACT_TITLE.string.text
 msgid "Abstract: "
-msgstr "Abstrakt:"
+msgstr "Kokkuvõte: "
 
 #: app.src%23STR_FDLG_TEMPLATE_BUTTON.string.text
 msgid "Style"
@@ -535,19 +535,19 @@ msgstr "Stiil"
 
 #: app.src%23STR_FDLG_TEMPLATE_NAME.string.text
 msgid "separated by: "
-msgstr "eraldaja:"
+msgstr "eraldaja: "
 
 #: app.src%23STR_FDLG_OUTLINE_LEVEL.string.text
 msgid "Outline: Level "
-msgstr "Liigendus: tase"
+msgstr "Liigendus: tase "
 
 #: app.src%23STR_FDLG_STYLE.string.text
 msgid "Style: "
-msgstr "Stiil:"
+msgstr "Stiil: "
 
 #: app.src%23STR_PAGEOFFSET.string.text
 msgid "Page number: "
-msgstr "Leheküljenumber:"
+msgstr "Leheküljenumber: "
 
 #: app.src%23STR_PAGEBREAK.string.text
 msgid "Break before new page"
@@ -555,11 +555,11 @@ msgstr "Piir enne uut lehekülge"
 
 #: app.src%23STR_WESTERN_FONT.string.text
 msgid "Western text: "
-msgstr "Lääne tekst:"
+msgstr "Lääne tekst: "
 
 #: app.src%23STR_CJK_FONT.string.text
 msgid "Asian text: "
-msgstr "Aasia tekst:"
+msgstr "Aasia tekst: "
 
 #: app.src%23STR_REDLINE_UNKNOWN_AUTHOR.string.text
 msgid "Unknown Author"
@@ -590,8 +590,8 @@ msgid ""
 "\n"
 "Please check the connections settings."
 msgstr ""
-"Andmeallikat \\'%1\\' ei leitud, kuna ühendust andmeallikaga ei suudetud "
-"luua.\n"
+"Andmeallikat \\'%1\\' ei leitud. Seetõttu ei suudetud luua ühendust "
+"andmeallikaga.\n"
 "\n"
 "Palun kontrolli ühenduse sätteid."
 
@@ -609,7 +609,7 @@ msgstr ""
 
 #: app.src%23RID_MODULE_TOOLBOX.string.text
 msgid "Function Bar (viewing mode)"
-msgstr "Funktsiooniriba"
+msgstr "Funktsiooniriba (vaate režiim)"
 
 #: app.src%23STR_DONT_ASK_AGAIN.string.text
 msgid "~Do not show warning again"
@@ -824,7 +824,7 @@ msgstr "Laius..."
 
 #: mn.src%23MN_TAB2.MN_SUB_TBLCOL.FN_TABLE_ADJUST_CELLS.menuitem.text
 msgid "~Optimal Width "
-msgstr "Optimaalne laius"
+msgstr "~Optimaalne laius "
 
 #: mn.src%23MN_TAB2.MN_SUB_TBLCOL.FN_TABLE_BALANCE_CELLS.menuitem.text
 msgctxt "mn.src#MN_TAB2.MN_SUB_TBLCOL.FN_TABLE_BALANCE_CELLS.menuitem.text"

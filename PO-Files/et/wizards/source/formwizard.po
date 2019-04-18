@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+wizards%2Fsource%2Ff"
 "ormwizard.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-14 16:22+0000\n"
+"PO-Revision-Date: 2019-04-17 21:52+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1555258970.000000\n"
+"X-POOTLE-MTIME: 1555537955.000000\n"
 
 #: dbwizres.src%23RID_COMMON_START___0.string.text
 msgid ""
@@ -144,10 +144,9 @@ msgid ""
 "reset the paths to the original default settings.\n"
 "Then run the wizard again."
 msgstr ""
-"Nõustaja käivitamine ei õnnestunud, kuna ei leitud mõningaid tähtsaid faile."
-"\n"
-"Klõpsa algsete asukohtade taastamiseks 'Tööriistad - Sätted - %PRODUCTNAME - "
-"Asukohad' all nuppu 'Vaikeväärtused'.\n"
+"Nõustaja käivitamine ei õnnestunud, kuna olulisi faile ei leitud.\n"
+"Algsete vaike-asukohtade taastamiseks klõpsa 'Tööriistad - Valikud - %"
+"PRODUCTNAME - Failiteed' all 'Vaikeväärtused' nuppu.\n"
 "Seejärel käivita nõustaja uuesti."
 
 #: dbwizres.src%23RID_DB_COMMON_START___0.string.text
@@ -177,7 +176,7 @@ msgstr "Tabeli nimi"
 #: dbwizres.src%23RID_DB_COMMON_START___6.string.text
 msgid ""
 "An error occurred while running the wizard. The wizard will be terminated."
-msgstr "Nõustaja töö käigus tekkinud tõrke tõttu katkestatakse töö."
+msgstr "Nõustaja töös ilmnes viga. Nõustaja töö katkestatakse."
 
 #: dbwizres.src%23RID_DB_COMMON_START___14.string.text
 msgid "No connection to the database could be established."
@@ -376,7 +375,7 @@ msgstr "Joonda paremale"
 
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___35.string.text
 msgid "Arrangement of DB fields"
-msgstr "Baasi väljade korraldus"
+msgstr "DB väljade korraldus"
 
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___36.string.text
 msgid "Columnar - Labels Left"
@@ -412,7 +411,7 @@ msgstr "~See vorm on mõeldud ainult andmete sisestamiseks."
 
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___45.string.text
 msgid "Existing data will not be displayed "
-msgstr "Olemasolevaid andmeid ei kuvata"
+msgstr "Olemasolevaid andmeid ei kuvata "
 
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___46.string.text
 msgid "T~he form is to display all data"
@@ -580,11 +579,11 @@ msgstr "Suvaline järgnevaist sobib"
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___11.string.text
 msgid "~Detailed query (Shows all records of the query.)"
-msgstr "Detailne päring (näitab kõiki päringu kirjeid)."
+msgstr "~Detailne päring (näitab kõiki päringu kirjeid)."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___12.string.text
 msgid "~Summary query (Shows only results of aggregate functions.)"
-msgstr "Kokkuvõtlik päring (näitab ainult liitfunktsioonide tulemusi)."
+msgstr "~Kokkuvõtlik päring (näitab ainult liitfunktsioonide tulemusi)."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___16.string.text
 msgid "Aggregate functions"
@@ -610,11 +609,11 @@ msgstr "Alias"
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___21.string.text
 msgid "Table: "
-msgstr "Tabel:"
+msgstr "Tabel: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___22.string.text
 msgid "Query: "
-msgstr "Päring:"
+msgstr "Päring: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___24.string.text
 msgid "Condition"
@@ -642,7 +641,7 @@ msgstr "suurem kui"
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___30.string.text
 msgid "is equal or less than "
-msgstr "väiksem või võrdne"
+msgstr "on võrdne või väiksem kui "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___31.string.text
 msgid "is equal or greater than"
@@ -706,11 +705,11 @@ msgstr "(puudub)"
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___50.string.text
 msgid "Fie~lds in the Query: "
-msgstr "Vä~ljad päringus:"
+msgstr "~Väljad päringus: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___51.string.text
 msgid "Sorting order: "
-msgstr "Sortimisjärjestus:"
+msgstr "Sortimisjärjestus: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___52.string.text
 msgid "No sorting fields were assigned."
@@ -718,7 +717,7 @@ msgstr "Ühtegi sortimisvälja pole omistatud."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___53.string.text
 msgid "Search conditions: "
-msgstr "Otsingutingimused:"
+msgstr "Otsingutingimused: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___54.string.text
 msgid "No conditions were assigned."
@@ -726,7 +725,7 @@ msgstr "Ühtegi tingimust pole omistatud."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___55.string.text
 msgid "Aggregate functions: "
-msgstr "Liitfunktsioonid:"
+msgstr "Liitfunktsioonid: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___56.string.text
 msgid "No aggregate functions were assigned."
@@ -734,7 +733,7 @@ msgstr "Ühtegi liitfunktsiooni pole omistatud."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___57.string.text
 msgid "Grouped by: "
-msgstr "Rühmitustingimus:"
+msgstr "Rühmitustingimus: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___58.string.text
 msgid "No Groups were assigned."
@@ -742,7 +741,7 @@ msgstr "Ühtegi rühma ei omistatud."
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___59.string.text
 msgid "Grouping conditions: "
-msgstr "Rühmitustingimused:"
+msgstr "Rühmitustingimused: "
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___60.string.text
 msgid "No grouping conditions were assigned."
@@ -827,7 +826,7 @@ msgid ""
 "The condition '<FIELDNAME> <LOGICOPERATOR> <VALUE>' was chosen twice. Each "
 "condition can only be chosen once"
 msgstr ""
-"Tingimus '<FIELDNAME> <LOGICOPERATOR> <VALUE>' valiti mitu korda. Iga "
+"Tingimus '<FIELDNAME> <LOGICOPERATOR> <VALUE>' valiti kaks korda. Iga "
 "tingimust saab valida ainult üks kord"
 
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___90.string.text
@@ -1102,9 +1101,9 @@ msgid ""
 "under the wrong name.<BR>See the Help for more detailed information.<BR>"
 "Please select another template."
 msgstr ""
-"Nõustaja töö käigus ilmnes tõrge.<BR>Mall '%PATH' võis olla vigane. <BR>"
+"Nõustaja töö käigus ilmnes tõrge.<BR>Mall '%PATH' võis olla vigane.<BR>"
 "Põhjuseks võib olla see, et nõutavaid sektsioone või tabeleid kas pole või "
-"on neil teine nimi.<BR>Täpsema info saamiseks vaata abiinfot.<BR>Palun vali "
+"on neil vale nimi.<BR>Täpsema info saamiseks vaata abiinfot.<BR>Palun vali "
 "mõni teine mall."
 
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___73.string.text
@@ -1317,7 +1316,7 @@ msgstr "~Kasuta olemasolevat välja primaarvõtmena"
 
 #: dbwizres.src%23RID_DB_TABLE_WIZARD_START___30.string.text
 msgid "Define p~rimary key as a combination of several fields "
-msgstr "Defineeri p~rimaarvõti mitme välja kombinatsioonina"
+msgstr "Defineeri p~rimaarvõti mitme välja kombinatsioonina "
 
 #: dbwizres.src%23RID_DB_TABLE_WIZARD_START___31.string.text
 msgid "F~ieldname"
@@ -1706,7 +1705,7 @@ msgstr "Austatud härra või proua"
 
 #: dbwizres.src%23RID_LETTERWIZARDSALUTATION_START___3.string.text
 msgid "Hello"
-msgstr "Tere!"
+msgstr "Tere"
 
 #: dbwizres.src%23RID_LETTERWIZARDGREETING_START___1.string.text
 msgctxt "dbwizres.src#RID_LETTERWIZARDGREETING_START___1.string.text"
@@ -1964,11 +1963,11 @@ msgstr "Austatud härra või proua,"
 
 #: dbwizres.src%23RID_FAXWIZARDSALUTATION_START___3.string.text
 msgid "Hello,"
-msgstr "Tere!"
+msgstr "Tere,"
 
 #: dbwizres.src%23RID_FAXWIZARDSALUTATION_START___4.string.text
 msgid "Hi,"
-msgstr "Tsau!"
+msgstr "Tsau,"
 
 #: dbwizres.src%23RID_FAXWIZARDGREETING_START___1.string.text
 msgctxt "dbwizres.src#RID_FAXWIZARDGREETING_START___1.string.text"
@@ -2050,7 +2049,7 @@ msgstr "Vali dokumendid, mida soovid avaldada"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__8.string.text
 msgid "Document information "
-msgstr "Dokumendi info"
+msgstr "Dokumendi info "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__9.string.text
 msgid "~Title:"
@@ -2058,7 +2057,7 @@ msgstr "~Pealkiri:"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__10.string.text
 msgid "~Summary: "
-msgstr "~Kokkuvõte:"
+msgstr "~Kokkuvõte: "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__11.string.text
 msgid "Au~thor:"
@@ -2149,7 +2148,7 @@ msgstr "~Vali veebilehe loomise nõustaja sätted"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__37.string.text
 msgid "Web site content "
-msgstr "Veebilehe sisu"
+msgstr "Veebilehe sisu "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__38.string.text
 msgid "~Add..."
@@ -2173,7 +2172,7 @@ msgstr "~Stiil:"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__48.string.text
 msgid "~Layouts: "
-msgstr "~Paigutused:"
+msgstr "~Paigutused: "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__50.string.text
 msgid "~Description"
@@ -2265,24 +2264,24 @@ msgid ""
 "The ZIP target '%FILENAME' already exists. Do you want to overwrite the "
 "existing target? "
 msgstr ""
-"Pakkimise sihtmärk '%FILENAME' on juba olemas. Soovid sa olemasolevat faili "
-"üle kirjutada?"
+"ZIP sihtmärk '%FILENAME' on juba olemas. Kas sa soovid olemasoleva üle "
+"kirjutada? "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__76.string.text
 msgid ""
 "The FTP target directory '%FILENAME' is not empty. Some files might be "
 "overwritten. Do you want to continue?"
 msgstr ""
-"FTP-sihtkataloog '%FILENAME' pole tühi, seega võidakse mõned failid üle "
-"kirjutada. Kas sa tõesti soovid jätkata?"
+"FTP-sihtkataloog '%FILENAME' pole tühi. Mõned failid võidakse üle kirjutada. "
+"Kas sa soovid jätkata?"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__77.string.text
 msgid ""
 "The local target directory '%FILENAME' is not empty. Some files might be "
 "overwritten. Do you want to continue?"
 msgstr ""
-"Kohalik sihtkataloog '%FILENAME' pole tühi, seega võidakse mõned failid üle "
-"kirjutada. Kas sa tõesti soovid jätkata?"
+"Kohalik sihtkataloog '%FILENAME' pole tühi. Mõned failid võidakse üle "
+"kirjutada. Kas sa soovid jätkata?"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__78.string.text
 msgid ""
@@ -2290,7 +2289,7 @@ msgid ""
 "existing settings? "
 msgstr ""
 "Sätted on selle nime all juba olemas. Soovid sa olemasolevaid sätteid üle "
-"kirjutada?"
+"kirjutada? "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__79.string.text
 msgid "Exporting documents..."
@@ -2354,7 +2353,7 @@ msgstr "Taustapildid"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START___99.string.text
 msgid "Choose a background image: "
-msgstr "Vali taustapilt:"
+msgstr "Vali taustapilt: "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START___100.string.text
 msgid "Icon sets"
@@ -2382,16 +2381,16 @@ msgstr "Veebisaidi genereerimisel ilmnesid mõned tõrked."
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__106.string.text
 msgid "An error occurred while generating the table of contents page(s). "
-msgstr "Sisukorralehtede genereerimisel ilmnesid mõned tõrked."
+msgstr "Sisukorralehtede genereerimisel ilmnes tõrge. "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__107.string.text
 msgid "An error occurred while copying the layout files. "
-msgstr "Paigutusefailide kopeerimisel ilmnesid mõned tõrked."
+msgstr "Paigutusefailide kopeerimisel ilmnes tõrge. "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__108.string.text
 msgid ""
 "An error occurred while gathering document information for '%FILENAME'. "
-msgstr "Info kogumisel dokumendi '%FILENAME' kohta ilmnes tõrge."
+msgstr "Info kogumisel dokumendi '%FILENAME' kohta ilmnes tõrge. "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__109.string.text
 msgid "An error occurred while exporting the document '%FILENAME'."
@@ -2449,11 +2448,11 @@ msgstr "Minu arhiiv"
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__122.string.text
 msgid "Introduction "
-msgstr "Sissejuhatus"
+msgstr "Tutvustus "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__123.string.text
 msgid "Documents "
-msgstr "Dokumendid"
+msgstr "Dokumendid "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__124.string.text
 msgid "Main layout"
@@ -2483,7 +2482,7 @@ msgid ""
 msgstr ""
 "Valitud sätted kustutatakse.\n"
 "\n"
-"Kas sa tõesti soovid neid sätteid kustutada?"
+"Kas sa tõesti soovid neid sätteid kustutada? "
 
 #: dbwizres.src%23RID_WEBWIZARDDIALOG_START__131.string.text
 msgid "%NUMBER pages"
