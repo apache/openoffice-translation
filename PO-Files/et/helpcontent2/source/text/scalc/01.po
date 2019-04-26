@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-01-29 20:55+0200\n"
-"PO-Revision-Date: 2019-04-23 18:44+0000\n"
+"PO-Revision-Date: 2019-04-25 22:38+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1556045069.000000\n"
+"X-POOTLE-MTIME: 1556231933.000000\n"
 
 #: 06030800.xhp%23tit.help.text
 msgid "Mark Invalid Data"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: func_timevalue.xhp%23tit.help.text
 msgid "TIMEVALUE "
-msgstr "TIMEVALUE"
+msgstr "AJAVÄÄRTUS "
 
 #: func_timevalue.xhp%23bm_id3146755.help.text
 msgid "<bookmark_value>TIMEVALUE function</bookmark_value>"
@@ -1061,7 +1061,7 @@ msgstr ""
 
 #: func_datevalue.xhp%23tit.help.text
 msgid "DATEVALUE "
-msgstr "DATEVALUE"
+msgstr "KUUPÄEVAVÄÄRTUS "
 
 #: func_datevalue.xhp%23bm_id3145621.help.text
 msgid "<bookmark_value>DATEVALUE function</bookmark_value>"
@@ -3487,8 +3487,8 @@ msgid ""
 "=DAYS(\"2010-01-01\"; NOW()) returns the number of days from today until "
 "January 1, 2010."
 msgstr ""
-"=DAYS(01.01.2010; NOW()) tagastab päevade arvu tänasest kuni 1. jaanuarini "
-"2010."
+"=PÄEVAD(\"2010-01-01\"; PRAEGU()) tagastab päevade arvu tänasest kuni 1. "
+"jaanuarini 2010."
 
 #: func_days.xhp%23par_id3163720.172.help.text
 msgid "=DAYS(\"1990-10-10\";\"1980-10-10\") returns 3652 days."
@@ -5055,13 +5055,14 @@ msgid ""
 "functions for defining the number format."
 msgstr ""
 "$[officename] käsitleb ajaväärtusi programmisiseselt arvväärtustena. Kui "
-"omistada kuupäevale või kellaajale arvu vorming, siis teisendatakse see "
-"arvuks. Näiteks 01/01/2000 12:00 PM teisendatakse arvuks 36526,5. Arvu "
-"täisosa kujutab siin kuupäeva, arvu murdosa kellaaega. Juhul, kui ei soovita "
-"ajaväärtusi näha arvudena, tuleb väärtusele uuesti määrata ajavorming. "
-"Selleks peab valima ajaväärtust sisaldava lahtri, avama kontekstimenüü ning "
-"valima sellest <emph>Vorminda lahtrid</emph>. Avaneva dialoogi kaardil "
-"<emph>Arvud</emph> saab väärtuse vormingut muuta."
+"omistada kuupäevale või kellaajale \"arv\" vorming, siis teisendatakse see "
+"arvuks. Näiteks 01/01/2000 12:00 PM teisendatakse arvuks 36526.5. Arvu "
+"täisosa kujutab siin kuupäeva; arvu murdosa kellaaega. Juhul, kui ei soovita "
+"ajaväärtusi näha numbrilisena, tuleb väärtusele uuesti ajavorming (kuupäev "
+"ja kellaaeg) määrata. Selleks peab valima ajaväärtust sisaldava lahtri, "
+"avama kontekstimenüü ning valima sellest <emph>Vorminda lahtrid</emph>. "
+"Avaneva dialoogi kaardil <emph>Arvud</emph> on funktsioon numbri vormingu "
+"määramiseks."
 
 #: 04060102.xhp%23hd_id2408825.help.text
 msgid "Date base for day zero"
@@ -7305,7 +7306,8 @@ msgid ""
 "<item type=\"input\">=EOMONTH(DATE(2001;9;14);6)</item> returns the serial "
 "number 37346. Formatted as a date, this is 2002-03-31."
 msgstr ""
-"<item type=\"input\">=EOMONTH(\"14.09.2001\";6)</item> tagastab 31.03.2002."
+"<item type=\"input\">=EOMONTH(DATE(2001;9;14);6)</item> tagastab "
+"seerianumbri 37346. See on kuupäevavormingus 2002-03-31."
 
 #: func_eomonth.xhp%23par_id3156144.239.help.text
 msgid ""
@@ -9870,9 +9872,9 @@ msgid ""
 "02140000.xhp\" name=\"other options\">additional options</link> for filling "
 "the cells."
 msgstr ""
-"$[officename] Calc kontekstimenüüd sisaldavad lahtrite täitmiseks <link href="
-"\"text/scalc/01/02140000.xhp\" name=\"other options\">täiendavaid "
-"sätteid</link>."
+"$[officename] Calc kontekstimenüüd sisaldavad <link href=\""
+"text/scalc/01/02140000.xhp\" name=\"other options\">täiendavaid "
+"sätteid</link> lahtrite täitmiseks."
 
 #: 02140000.xhp%23hd_id3149207.7.help.text
 msgid "<link href=\"text/scalc/01/02140500.xhp\" name=\"Sheet\">Sheet</link>"
@@ -10105,15 +10107,15 @@ msgstr "TIME(tunnid; minutid; sekundid)"
 
 #: func_time.xhp%23par_id3152904.153.help.text
 msgid "Use an integer to set the <emph>Hour</emph>."
-msgstr "<emph>Tunni</emph> määramiseks tuleb kasutada täisarvu."
+msgstr "Kasuta <emph>Tunni</emph> määramiseks täisarvu."
 
 #: func_time.xhp%23par_id3151346.154.help.text
 msgid "Use an integer to set the <emph>Minute</emph>."
-msgstr "<emph>Minuti</emph> määramiseks tuleb kasutada täisarvu."
+msgstr "Kasuta <emph>Minuti</emph> määramiseks täisarvu."
 
 #: func_time.xhp%23par_id3151366.155.help.text
 msgid "Use an integer to set the <emph>Second</emph>."
-msgstr "<emph>Sekundi</emph> määramiseks tuleb kasutada täisarvu."
+msgstr "Kasuta <emph>Sekundi</emph> määramiseks täisarvu."
 
 #: func_time.xhp%23hd_id3145577.156.help.text
 msgctxt "func_time.xhp#hd_id3145577.156.help.text"
@@ -11394,10 +11396,10 @@ msgid ""
 "documents must be set to the same date base. If date bases differ, the "
 "displayed date values will change!"
 msgstr ""
-"<link href=\"text/scalc/01/04060102.xhp\">Kuupäevaväärtusi</link> "
-"sisaldavate lahtrite kopeerimisel ühest arvutustabelist teise peavad mõlemad "
-"arvutustabelid kasutama sama algkuupäeva. Kui algkuupäevad erinevad, siis "
-"muutuvad ka kuvatavad kuupäevad!"
+"Kui sa kopeerid lahtreid, mis sisaldavad <link href=\"text/scalc/01/04060102."
+"xhp\">Kuupäeva väärtusi</link> ühest arvutustabelist teise, siis peavad "
+"mõlemad arvutustabelid kasutama sama kuupäeva-baasi. Kui kuupäeva-baasid "
+"erinevad, siis muutuvad ka kuvatavad kuupäevaväärtused!"
 
 #: 02180000.xhp%23hd_id3163710.3.help.text
 msgid "To Document"
@@ -13452,9 +13454,9 @@ msgid ""
 "result 2. Frank is in second grade. Enter <item type=\"input\">\"Age\"</item>"
 " instead of \"Grade\" and you will get Frank's age."
 msgstr ""
-"Nüüd sisestame nime <item type=\"input\">Frank</item> lahtrisse A14 ja "
-"näeme, et tulemus on 2. Frank on teises klassis. Sisestame \"Klass\" asemele "
-"<item type=\"input\">Vanus</item> ja saame vastuseks Franki vanuse."
+"Sisesta nimi <item type=\"input\">Frank</item> lahtrisse A14 ja sa näed, et "
+"tulemus on 2. Frank on teises klassis. Sisestame \"Klass\" asemele <item "
+"type=\"input\">Vanus</item> ja saame vastuseks Franki vanuse."
 
 #: 04060101.xhp%23par_id3148833.112.help.text
 msgid ""
@@ -13529,7 +13531,7 @@ msgid ""
 "the other. After entering a grade number, the weight of the heaviest child "
 "in that grade appears."
 msgstr ""
-"Nüüd sisestame väljale 'Klass' üksteise järel väärtused <item type=\"input\">"
+"Nüüd sisestame väljale Klass üksteise järel väärtused <item type=\"input\">"
 "1, 2, 3,</item> jne. Pärast iga klassi numbri sisestamist ilmub "
 "vastuseväljale klassi raskeima lapse kaal."
 
@@ -13708,9 +13710,9 @@ msgstr ""
 "<ahelp hid=\"HID_FUNC_DBSTDABW\">DSTDEV arvutab valimil baseeruva "
 "populatsiooni, mis koosneb määratud tingimustele vastavatest andmebaasi "
 "veeru arvudest, standardhälbe.</ahelp> Kirjeid käsitletakse kui andmete "
-"valimit. \"Meie\" lapsed esindavad justkui läbilõiget kõikidest lastest ("
-"tõepärase resultaadi saamiseks peab valimi populatsiooni suurus olema üle "
-"tuhande)."
+"valimit. See tähendab, et lapsed meie näites esindavad ristlõiget kõigist "
+"lastest. Pane tähele, et tõepärase tulemuse saamiseks peab valimi "
+"populatsiooni suurus olema üle tuhande."
 
 #: 04060101.xhp%23hd_id3149427.147.help.text
 msgctxt "04060101.xhp#hd_id3149427.147.help.text"
@@ -13990,7 +13992,7 @@ msgstr ""
 
 #: func_days360.xhp%23tit.help.text
 msgid "DAYS360 "
-msgstr "DAYS360"
+msgstr "DAYS360 "
 
 #: func_days360.xhp%23bm_id3148555.help.text
 msgid "<bookmark_value>DAYS360 function</bookmark_value>"
@@ -14794,11 +14796,11 @@ msgstr "<emph>2</emph>"
 
 #: 04060104.xhp%23par_id3150024.7.help.text
 msgid "x <item type=\"input\">value</item>"
-msgstr "X-<item type=\"input\">väärtus</item>"
+msgstr "x-<item type=\"input\">väärtus</item>"
 
 #: 04060104.xhp%23par_id3148725.8.help.text
 msgid "y <item type=\"input\">value</item>"
-msgstr "Y-<item type=\"input\">väärtus</item>"
+msgstr "y-<item type=\"input\">väärtus</item>"
 
 #: 04060104.xhp%23par_id3150480.9.help.text
 msgctxt "04060104.xhp#par_id3150480.9.help.text"
@@ -15539,9 +15541,9 @@ msgid ""
 "blank.</ahelp> This function is used to determine if the content of a cell "
 "is empty. A cell with a formula inside is not empty. "
 msgstr ""
-"<ahelp hid=\"HID_FUNC_ISTLEER\">Tagastab TÕENE, kui viidatud lahter on "
+"<ahelp hid=\"HID_FUNC_ISTLEER\">Tagastab TÕENE, kui viide lahtrile on "
 "tühi.</ahelp> Funktsiooniga saab kontrollida, kas lahtril on sisu. Valemit "
-"sisaldav lahter ei ole tühi."
+"sisaldav lahter ei ole tühi. "
 
 #: 04060104.xhp%23hd_id3159162.79.help.text
 msgctxt "04060104.xhp#hd_id3159162.79.help.text"
@@ -17023,7 +17025,7 @@ msgid ""
 "multiple operation.</ahelp>"
 msgstr ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_TABOP:ED_FORMULARANGE\">Sisesta viited "
-"lahtritele, mis sisaldavad valemeid, mida soovid kasutada mitme  tehte "
+"lahtritele, mis sisaldavad valemeid, mida soovid kasutada mitme tehte "
 "jaoks.</ahelp>"
 
 #: 12060000.xhp%23hd_id3154729.8.help.text
@@ -17058,7 +17060,7 @@ msgstr ""
 
 #: func_weekday.xhp%23tit.help.text
 msgid "WEEKDAY "
-msgstr "WEEKDAY"
+msgstr "NÄDALAPÄEV "
 
 #: func_weekday.xhp%23bm_id3154925.help.text
 msgid "<bookmark_value>WEEKDAY function</bookmark_value>"
@@ -17212,7 +17214,7 @@ msgstr ""
 
 #: func_month.xhp%23tit.help.text
 msgid "MONTH "
-msgstr "MONTH"
+msgstr "KUU "
 
 #: func_month.xhp%23bm_id3149936.help.text
 msgid "<bookmark_value>MONTH function</bookmark_value>"
@@ -17599,12 +17601,12 @@ msgid ""
 "more rows, and one or more columns. All rows must consist of the same number "
 "of elements, all columns must consist of the same number of elements. "
 msgstr ""
-"Calc toetab valemites põimitud maatriksi- ja massiivikonstante. Põimitud "
-"massiiv ümbritsetakse looksulgudega '{' ja '}'. Elementideks võivad olla "
-"arvud (sealhulgas negatiivsed), tõeväärtused (TÕENE, VÄÄR) ja "
-"tekstistringid. Mittekonstantsed avaldised pole lubatud. Massiive võib "
-"sisestada ühe või mitme rea või veeruna. Kõik read peavad sisaldama sama "
-"arvu elemente, samuti ka kõik veerud."
+"Calc toetab valemites põimitud maatriksi/massiivikonstante. Põimitud massiiv "
+"ümbritsetakse looksulgudega '{' ja '}'. Elementideks võivad olla arvud ("
+"sealhulgas negatiivsed), tõeväärtused (TÕENE, VÄÄR), või tekstistringid. "
+"Mittekonstantsed avaldised pole lubatud. Massiive võib sisestada ühe või "
+"mitme rea või veeruna. Kõik read peavad sisaldama sama arvu elemente, samuti "
+"ka kõik veerud. "
 
 #: 04060107.xhp%23par_id936613.help.text
 msgid ""
@@ -17612,9 +17614,9 @@ msgid ""
 "The row separator is a '|' pipe symbol. The separators are not language and "
 "locale dependent. "
 msgstr ""
-"Veergude eraldaja (ühes reas asuvate elementide eraldaja) on semikoolon ';'. "
-"Ridade eraldajaks on püstkriipsu märk '|'. Need eraldajad ei sõltu keelest "
-"ega lokaadist."
+"Veergude eraldaja (ühes reas asuvate elementide eraldaja) on ';' semikoolon. "
+"Ridade eraldajaks on püstkriipsu '|' märk. Need eraldajad ei sõltu keelest "
+"ega lokaadist. "
 
 #: 04060107.xhp%23par_id1877498.help.text
 msgid "Arrays can not be nested."
@@ -23498,8 +23500,9 @@ msgid ""
 "the list and confirm with OK."
 msgstr ""
 "<ahelp hid=\"SC:MULTILISTBOX:RID_SCDLG_SHOW_TAB:LB_ENTRYLIST\" visibility=\""
-"visible\">Kuvab arvutustabeli peidetud lehtede nimekirja.</ahelp> Mingi lehe "
-"näitamiseks klõpsa vastaval kirjel ja kinnita valik nupuga 'Sobib'."
+"visible\">Kuvab sinu arvutustabeli dokumendi peidetud lehtede "
+"nimekirja.</ahelp> Konkreetse lehe nägemiseks klõpsa vastaval kirjel ja "
+"kinnita valik nupuga Sobib."
 
 #: 05040000.xhp%23tit.help.text
 msgctxt "05040000.xhp#tit.help.text"
@@ -23888,7 +23891,7 @@ msgid ""
 "that is the number whose hyperbolic cosine is Number. "
 msgstr ""
 " See funktsioon tagastab <emph>arvu</emph> areakoosinuse, tulemuseks on arv, "
-"mille hüperboolne koosinus on antud arv."
+"mille hüperboolne koosinus on antud arv. "
 
 #: 04060106.xhp%23par_id6393932.help.text
 msgid " Number must be greater than or equal to 1."
@@ -24096,7 +24099,7 @@ msgid ""
 "that is the number whose hyperbolic sine is Number. "
 msgstr ""
 " See funktsioon tagastab <emph>arvu</emph> areasiinuse, tulemuseks on arv, "
-"mille hüperboolne siinus on antud arv."
+"mille hüperboolne siinus on antud arv. "
 
 #: 04060106.xhp%23hd_id3153212.105.help.text
 msgctxt "04060106.xhp#hd_id3153212.105.help.text"
@@ -24260,7 +24263,7 @@ msgid ""
 ", that is the number whose hyperbolic tangent is Number. "
 msgstr ""
 " See funktsioon tagastab <emph>arvu</emph> areatangensi, tulemuseks on arv, "
-"mille hüperboolne tangens on antud arv."
+"mille hüperboolne tangens on antud arv. "
 
 #: 04060106.xhp%23par_id9357280.help.text
 msgid " Number must obey the condition -1 < number < 1."
@@ -31465,8 +31468,7 @@ msgstr "Mis kuupäev on üks kuu enne 31.03.2001?"
 
 #: func_edate.xhp%23par_id3155999.221.help.text
 msgid "<item type=\"input\">=EDATE(3.31.2001;-1)</item> returns 2.28.2001."
-msgstr ""
-"<item type=\"input\">=EDATE(\"31.03.2001\";-1)</item> tagastab 28.02.2001."
+msgstr "<item type=\"input\">=EDATE(3.31.2001;-1)</item> tagastab 2.28.2001."
 
 #: 05040200.xhp%23tit.help.text
 msgctxt "05040200.xhp#tit.help.text"
@@ -31780,8 +31782,8 @@ msgid ""
 "If a sheet has been hidden, the Show Sheet dialog opens, which allows you to "
 "select a sheet to be shown again."
 msgstr ""
-"Kui leht on peidetud, avaneb dialoog 'Lehe näitamine', kus saab valida, "
-"millist peidetud lehte näidatakse."
+"Kui leht on peidetud, avaneb dialoog Näita Lehte, kus saab valida, millist "
+"peidetud lehte taas näidatakse."
 
 #: 05050000.xhp%23par_idN10656.help.text
 msgid "Right-To-Left"
@@ -31793,8 +31795,8 @@ msgid ""
 "sheet to Right-To-Left if <link href=\"text/shared/optionen/01150300.xhp\""
 ">CTL</link> support is enabled.</ahelp>"
 msgstr ""
-"<ahelp hid=\".uno:SheetRightToLeft\">Määrab lehe suunaks 'paremalt "
-"vasakule', kui <link href=\"text/shared/optionen/01150300.xhp\">CTL</link>-"
+"<ahelp hid=\".uno:SheetRightToLeft\">Määrab praeguse lehe suunaks paremalt-"
+"vasakule, kui <link href=\"text/shared/optionen/01150300.xhp\">CTL</link> "
 "tugi on lubatud.</ahelp>"
 
 #: solver_options.xhp%23tit.help.text
@@ -32440,7 +32442,7 @@ msgstr "Mitmendale nädalale langeb kuupäev 24.12.2001?"
 
 #: func_weeknumadd.xhp%23par_id3149914.230.help.text
 msgid "<item type=\"input\">=WEEKNUM_ADD(24.12.2001;1)</item> returns 52."
-msgstr "<item type=\"input\">=WEEKNUM_ADD(\"24.12.2001\";1)</item> tagastab 52."
+msgstr "<item type=\"input\">=WEEKNUM_ADD(24.12.2001;1)</item> tagastab 52."
 
 #: 04030000.xhp%23tit.help.text
 msgctxt "04030000.xhp#tit.help.text"
@@ -34804,7 +34806,7 @@ msgstr "Võrdlustehted"
 
 #: 04060199.xhp%23par_id3157902.30.help.text
 msgid "These operators return either true or false."
-msgstr "Need tehted tagastavad vastuseks kas 'tõene' või 'väär'."
+msgstr "Need tehted tagastavad vastuseks kas tõene või väär."
 
 #: 04060199.xhp%23par_id3149889.31.help.text
 msgctxt "04060199.xhp#par_id3149889.31.help.text"
@@ -35100,7 +35102,7 @@ msgid ""
 "Library </caseinline><defaultinline>AddIn DLL</defaultinline></switchinline>"
 msgstr ""
 "<switchinline select=\"sys\"><caseinline select=\"UNIX\">Jagatud "
-"teekide</caseinline><defaultinline>Lisatud DLL-"
+"teekide</caseinline><defaultinline>AddIn DLL-"
 "ide</defaultinline></switchinline> funktsioonid"
 
 #: 04060112.xhp%23par_id3148837.7.help.text
@@ -37666,11 +37668,11 @@ msgid ""
 "double-clicking an entry in the functions list, the respective function is "
 "directly inserted with all parameters."
 msgstr ""
-"<emph>Funktsioonide loend</emph> on muudetava suurusega <link href=\"text/"
-"shared/00/00000005.xhp#andocken\" name=\"dokitav aken\">dokitav aken</link>. "
-"Loendi abil saab arvutustabelisse hõlpsasti sisestada funktsioone. "
-"Topeltklõps funktsioonide loendi kirjel lisab selle koos kõikide "
-"argumentidega arvutustabelisse."
+"<emph>Funktsioonide loendi</emph> aken on muudetava suurusega <link href=\""
+"text/shared/00/00000005.xhp#andocken\" name=\"dockable window\">dokitav "
+"aken</link>. Loendi abil saab arvutustabelisse hõlpsasti sisestada "
+"funktsioone. Topeltklõps funktsioonide loendi kirjel lisab selle koos "
+"kõikide argumentidega arvutustabelisse."
 
 #: 04080000.xhp%23hd_id3145799.4.help.text
 msgid "Category List"
@@ -37807,7 +37809,7 @@ msgstr ""
 
 #: 12090100.xhp%23hd_id3147348.9.help.text
 msgid "Data source registered in $[officename]"
-msgstr "$[officename]-is registreeritud andmeallikas"
+msgstr "Tootes $[officename] registreeritud andmeallikas"
 
 #: 12090100.xhp%23par_id3145271.10.help.text
 msgid ""
