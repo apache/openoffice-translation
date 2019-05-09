@@ -6,16 +6,18 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-05-08 12:00+0000\n"
+"Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1557316820.000000\n"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 msgid "Replace"
@@ -31,42 +33,44 @@ msgstr ""
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
 msgid "Enter password to open file: \n"
-msgstr ""
+msgstr "Նիշքը բացելու համար մուտքագրեք գաղտնաբառը: \n"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
 msgid "Enter password to modify file: \n"
-msgstr ""
+msgstr "Նիշքը ձևափոխելու համար մուտքագրեք գաղտնաբառը: \n"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
 msgid "Enter password: "
-msgstr ""
+msgstr "Մուտքագրեք գաղտնաբառը: "
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
 msgid "Confirm password: "
-msgstr ""
+msgstr "Հաստատեք գաղտնաբառը: "
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
 msgid "Set Password"
-msgstr ""
+msgstr "Սահմանեք գաղտնաբառը"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
 msgid "Enter Password"
-msgstr ""
+msgstr "Մուտքագրեք գաղտնաբառը"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
 "The confirmation password did not match the password. Set the password again "
 "by entering the same password in both boxes."
 msgstr ""
+"Հաստատման գաղտնաբառը չի համապատասխանում գաղտնաբառին: Նորից ստեղծեք "
+"գաղտնաբառը, երկու վանդակներում էլ նույն գաղտնաբառը մուտքագրելով:"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
 msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
 msgid "No Text"
-msgstr ""
+msgstr "Չկա տեքստ"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
 msgid "View Certificate"
-msgstr ""
+msgstr "Դիտւր վկայագիրը"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
 msgid "Cancel Connection"
@@ -107,24 +111,24 @@ msgstr ""
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
 msgid "I~gnore"
-msgstr ""
+msgstr "Ա~նտեսիր"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
 msgid "I~nteractive"
-msgstr ""
+msgstr "Մ~իջակտիվ"
 
 #: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
 msgid "Future Cookie Handling"
-msgstr ""
+msgstr "Ապագա քուքիի սպասարկում"
 
 #: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
 msgid "~Ignore"
-msgstr ""
+msgstr "~Անտեսիր"
 
 #: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
 msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
 msgid "~Send"
-msgstr ""
+msgstr "~Ուղարկիր"
 
 #: cookiedg.src#STR_COOKIES_RECV_START.string.text
 msgid ""
@@ -138,15 +142,24 @@ msgid ""
 "The following Cookies should be set:\n"
 "\n"
 msgstr ""
+"'${HOST}' կայանը ցանկանում է տեղադրել մեկ կամ ավելի քուքիներ։\n"
+"Քուքիները պարունակում են տեղեկատվություն, վերաբերվող որոծակի URL դասերի։ Եթե "
+"%PRODUCTNAME հետագայում պահանջի նախօրոք սահմանված cookie-ի դասին "
+"համապատասխանող URL-ն, %PRODUCTNAME կուղարկի այս տեղեկատվությունը կայանին։ Սա "
+"թույլ է տալիս կայանին ճանաչելու WWW կիրառության կարգավիճակը, օրինակ, երբ "
+"կատարվում են առցանց գնումներ:\n"
+"\n"
+"Հետևյալ Cookies-ը պետք է կարգաբերվեն։\n"
+"\n"
 
 #: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
 msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
 msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr ""
+msgstr "Դոմեյն: ${DOMAIN}, Ուղի: ${PATH}, Cookie: ${COOKIE}.\n"
 
 #: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
 msgid "Cookie Reception"
-msgstr ""
+msgstr "Cookie ընդունում"
 
 #: cookiedg.src#STR_COOKIES_SEND_START.string.text
 msgid ""
