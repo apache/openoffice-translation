@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:12+0000\n"
-"PO-Revision-Date: 2019-05-08 12:00+0000\n"
+"PO-Revision-Date: 2019-05-09 19:36+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,19 +17,19 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1557316820.000000\n"
+"X-POOTLE-MTIME: 1557430575.000000\n"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 msgid "Replace"
-msgstr ""
+msgstr "Փոխարինել"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
 msgid "Rename"
-msgstr ""
+msgstr "Անվանափոխել"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
 msgid "File Exists"
-msgstr ""
+msgstr "Նիշքը առկա է"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
 msgid "Enter password to open file: \n"
@@ -74,40 +74,40 @@ msgstr "Դիտւր վկայագիրը"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
 msgid "Cancel Connection"
-msgstr ""
+msgstr "Չեղարկել միացումը"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
 msgid "Continue"
-msgstr ""
+msgstr "Շարունակել"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
 msgid "Security Warning: "
-msgstr ""
+msgstr "Անվտանգության զգուշացում։ "
 
 #: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
 msgid "The password is incorrect. The file cannot be opened."
-msgstr ""
+msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող բացվել:"
 
 #: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
 msgid "The password is incorrect. The file cannot be modified."
-msgstr ""
+msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող ձևափոխվել:"
 
 #: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
 msgid "The master password is incorrect."
-msgstr ""
+msgstr "Վարպետ գաղտնաբառը սխալ է։"
 
 #: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
 msgid "The password is incorrect."
-msgstr ""
+msgstr "Գաղտնաբառը սխալ է։"
 
 #: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
 msgid "The password confirmation does not match."
-msgstr ""
+msgstr "Գաղտնաբառի հաստատումը չի համապատասխանում:"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
 msgid "~Send"
-msgstr ""
+msgstr "~Ուղարկել"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
 msgid "I~gnore"
@@ -176,15 +176,27 @@ msgid ""
 "The following Cookies should be set:\n"
 "\n"
 msgstr ""
+"%PRODUCTNAME հիշել է քուկիները '${HOST}' կայանի համար, որը կուղարկվի, երբ "
+"կհարցվի ${PATH} փաստաթուղթը։\n"
+"Քուկիները պարունակում են տեղեկատվություն, որը վերաբերվում է որոշակի URL "
+"դասերին։Դրանք որոշ կայանների կողմից ուղարկվում են %PRODUCTNAME -ին, որտեղ "
+"դրանք հիշվում են, երբ որոաշկի փասըաթղթերի հասանելիություն է լինում։ Եթե %"
+"PRODUCTNAME բեռնում է փաստաթուղթ, որը համաձայն URL-ի, համապատասխանում է "
+"նախորդ անգամներում ստացված քուկիների դասերին, %PRODUCTNAME -ը կուղարկի այս "
+"տեղեկատվությունը այդ կայանին։ Սա հնարավորություն է տալիս կայանին հետևելու "
+"WWW ծրագրի կարգավիճակին, օրինակ, երբ գնումները կատարվում են առցանց:\n"
+"\n"
+"Հետևյալ քուկիները պետք է կարգաբերվեն:\n"
+"\n"
 
 #: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
 msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
 msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr ""
+msgstr "Դոմեյն: ${DOMAIN}, Ուղի: ${PATH}, Cookie: ${COOKIE}.\n"
 
 #: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
 msgid "Send Cookies"
-msgstr ""
+msgstr "Ուղարկիր քուկիներ"
 
 #: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
 msgid ""
@@ -195,15 +207,21 @@ msgid ""
 "for editing.\n"
 "\n"
 msgstr ""
+"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
+"է սկսած $(ARG2)\n"
+"\n"
+"Բացեք միայն կարդալու փաստաթուղթը կամ անտեսեք սեփական նիշքի կողպումը և բացեք "
+"փաստաթուղթը խմբագրելու համար:\n"
+"\n"
 
 #: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
 msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
 msgid "Open ~Read-Only"
-msgstr ""
+msgstr "Բացեք ~Կարդալ միայն"
 
 #: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
 msgid "~Open"
-msgstr ""
+msgstr "~Բացեք"
 
 #: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
 msgid ""
@@ -214,56 +232,61 @@ msgid ""
 "and save current document.\n"
 "\n"
 msgstr ""
+"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
+"է սկսած $(ARG2)\n"
+"Փակեք փաստաթուղթը այլ համակարգում և կրկին փորձեք հիշել կամ անտեսել սեփական "
+"նիշքի կողպումը և հիշեք ընթացիկ փաստաթուղթը:\n"
+"\n"
 
 #: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
 msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
 msgid "~Retry Saving"
-msgstr ""
+msgstr "~Կրկնեք հիշելը"
 
 #: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
 msgid "~Save"
-msgstr ""
+msgstr "~Հիշել"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
 msgid "Examine Certificate..."
-msgstr ""
+msgstr "Ուսումնասիրեք վկայականը․․․"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
 msgid "Help"
-msgstr ""
+msgstr "Օգնություն"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
 msgid "OK"
-msgstr ""
+msgstr "ԼԱՎ"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
 msgid "Accept this certificate temporarily for this session"
-msgstr ""
+msgstr "Ընդունեք այս վկայագիրը ժամանակավորապես այս կապի համար"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
 msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr ""
+msgstr "Մի ընդունեք այս վկայագիրը և մի միացեք ոստայնի այս կայքին"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
 msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
 msgid "No Text"
-msgstr ""
+msgstr "Չկա տեքստ"
 
 #: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
 msgid "Website Certified by an Unknown Authority"
-msgstr ""
+msgstr "Կայքը վկայագրված անհայտ պաշտոնյայի կողմից"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
 msgid "The document contains document macros signed by:"
-msgstr ""
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ, ստորագրված։"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
 msgid "The document contains document macros."
-msgstr ""
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ։"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
 msgid "View Signatures..."
-msgstr ""
+msgstr "Դիտիրր ստորագրությունները․․․"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
 msgid ""
@@ -271,6 +294,9 @@ msgid ""
 "If you disable macros you may lose functionality provided by the document "
 "macros."
 msgstr ""
+"Մակրոները կարող են պարունակել վիրուսներ: Փաստաթղթի մակրոներ անջատելը միշտ էլ "
+"ապահով է: Եթե դուք անջատեք մակրոները, կարող եք կորցնել փաստաթղթի մակրոների "
+"կողմից տրամադրած ֆունկցիոնալությունը:"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
 msgid "Always trust macros from this source"
@@ -278,64 +304,68 @@ msgstr ""
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
 msgid "~Enable Macros"
-msgstr ""
+msgstr "~Թույլատրեք մակրոները"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
 msgid "~Disable Macros"
-msgstr ""
+msgstr "~Արգելեք մակրոները"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
 msgid "%PRODUCTNAME - Security Warning"
-msgstr ""
+msgstr "%PRODUCTNAME - անվտանգության զգուշացում"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
 msgid "Message from server:"
-msgstr ""
+msgstr "Հաղորդագրություն կայանից։"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
 msgid ""
 "Enter user name and password for: \n"
 "%1"
 msgstr ""
+"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
+"%1"
 
 #: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
 msgid ""
 "Enter user name and password for: \n"
 "\"%2\" on %1"
 msgstr ""
+"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
+"\"%2\" on %1"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
 msgid "~Path"
-msgstr ""
+msgstr "~Ուղի"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
 msgid "~User name"
-msgstr ""
+msgstr "~Օգտվողի անուն"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
 msgid "Pass~word"
-msgstr ""
+msgstr "Գաղտ~նաբառ"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
 msgid "A~ccount"
-msgstr ""
+msgstr "Հ~աշիվ"
 
 #: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
 msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
 msgid "~Remember password"
-msgstr ""
+msgstr "~Հիշիր գաղտնաբառը"
 
 #: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
 msgid "~Use system credentials"
-msgstr ""
+msgstr "~Օգտագործեք համակարգային հավատարմագրերը"
 
 #: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
 msgid "Authentication Required"
-msgstr ""
+msgstr "Պահանջվում է նույնականացում"
 
 #: filechanged.src#STR_FILECHANGED_TITLE.string.text
 msgid "Document Has Been Changed by Others"
-msgstr ""
+msgstr "Փաստաթուղթը փոխվել է ուրիշների կողմից"
 
 #: filechanged.src#STR_FILECHANGED_MSG.string.text
 msgid ""
@@ -362,12 +392,12 @@ msgstr ""
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 msgid "~Remember password until end of session"
-msgstr ""
+msgstr "~Հիշել գաղտնաբառը, մինչև կապի ավարտը"
 
 #: ids.src#RID_SAVE_PASSWORD.string.text
 msgctxt "ids.src#RID_SAVE_PASSWORD.string.text"
 msgid "~Remember password"
-msgstr ""
+msgstr "~Հիշել գաղտնաբառը"
 
 #: ids.src#STR_WARNING_BROKENSIGNATURE_TITLE.string.text
 msgid "Invalid Document Signature"
@@ -391,7 +421,7 @@ msgstr ""
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TARGETALREADYEXISTS___ERRCODE_RES_MASK_.string.text
 msgid "Target already exists."
-msgstr ""
+msgstr "Թիրախն արդեն առկա է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -403,34 +433,42 @@ msgid ""
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
+"Դու պետք է հիշես/արտահանես գաղտնաբառով պաշտպանված հիմնական գրադարան, որը "
+"պարունակում է մոդուլ(ներ) \n"
+"$(ARG1)\n"
+"որոնք չափազանց մեծ են պահելու երկուական ձևաչափով: Եթե ցանկանում եք, որ այն "
+"օգտվողները, ովքեր չունեն գրադարանային գաղտնաբառ հնարավորություն ունենան "
+"աշխատեցնելու մակրոները այդ մոդուլ(ներ)ում, դուք պետք է բաժանեք այդ "
+"մոդուլները մի քանի փոքր մոդուլների: Ցանկանու?մ եք շարունակել հիշել/արտահանել "
+"այս գրադարանը:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 msgid "The data from $(ARG1) has an incorrect checksum."
-msgstr ""
+msgstr "Տվյալները $(ARG1) -ից ունեն սխալ ստուգիչ գումար։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE___ERRCODE_RES_MASK_.string.text
 msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
-msgstr ""
+msgstr "$(ARG1) օբյեկտը հնարավոր չէ ստեղծել $(ARG2) գրացուցակում։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTREAD___ERRCODE_RES_MASK_.string.text
 msgid "Data of $(ARG1) could not be read."
-msgstr ""
+msgstr "$(ARG1) -ի տվյալները հնարավոր չէ կարդալ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTSEEK___ERRCODE_RES_MASK_.string.text
 msgid "The seek operation on $(ARG1) could not be performed."
-msgstr ""
+msgstr "$(ARG1) -ում որոնման գործողությունը չի կարող կատարվել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTTELL___ERRCODE_RES_MASK_.string.text
 msgid "The tell operation on $(ARG1) could not be performed."
-msgstr ""
+msgstr "$(ARG1) -ում պատմելու գործողությունը չի կարող կատարվել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTWRITE___ERRCODE_RES_MASK_.string.text
 msgid "Data for $(ARG1) could not be written."
-msgstr ""
+msgstr "Տվյալները $(ARG1) -ի համար հնարավոր չէ գրել։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CURRENTDIR___ERRCODE_RES_MASK_.string.text
 msgid "Action impossible: $(ARG1) is the current directory."
-msgstr ""
+msgstr "Գործողությունը հնարավոր չէ. $(ARG1) ընթացիկ գրացուցակն է:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not ready."
@@ -470,39 +508,39 @@ msgstr ""
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_LOCKVIOLATION___ERRCODE_RES_MASK_.string.text
 msgid "Error during shared access to $(ARG1)."
-msgstr ""
+msgstr "Սխալ՝ $(ARG1) -ին համատեղ մուտքի ընթացքում։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MISPLACEDCHAR___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) contains misplaced characters."
-msgstr ""
+msgstr "$(ARG1) -ը պարունակում է անհարիր նիշեր:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NAMETOOLONG___ERRCODE_RES_MASK_.string.text
 msgid "The name $(ARG1) contains too many characters."
-msgstr ""
+msgstr "$(ARG1) անունը պարունակում է չափից շատ նիշեր։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) does not exist."
-msgstr ""
+msgstr "$(ARG1) -ը գոյություն չունի։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTSPATH___ERRCODE_RES_MASK_.string.text
 msgid "The path $(ARG1) does not exist."
-msgstr ""
+msgstr "$(ARG1) ուղին գոյություն չունի։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSUPPORTED___ERRCODE_RES_MASK_.string.text
 msgid "The operation on $(ARG1) is not supported on this operating system."
-msgstr ""
+msgstr "$(ARG1) -ի վրա գործողությունը չի աջակցվում այս օպերացիոն համակարգում։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTADIRECTORY___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not a directory."
-msgstr ""
+msgstr "$(ARG1) -ի գրացուցակ չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTAFILE___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not a file."
-msgstr ""
+msgstr "$(ARG1) -ը նիշք չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFSPACE___ERRCODE_RES_MASK_.string.text
 msgid "There is no space left on device $(ARG1)."
-msgstr ""
+msgstr "$(ARG1) սարքում տեղ չկա։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TOOMANYOPENFILES___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -546,43 +584,46 @@ msgstr ""
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
 msgid "Folder $(ARG1) does not exist."
-msgstr ""
+msgstr "$(ARG1) գրացուցակը առկա չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
 msgid "The installed Java version is not supported."
-msgstr ""
+msgstr "Տեղադրված Java տարբերակը չի աջակցվում։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION___ERRCODE_RES_MASK_.string.text
 msgid "The installed Java version $(ARG1) is not supported."
-msgstr ""
+msgstr "Java-ի տեղադրված $(ARG1) տարբերակը չի աջակցվում։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_MIN___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The installed Java version is not supported, at least version $(ARG1) is "
 "required."
 msgstr ""
+"Տեղադրված Java տարբերակը չի աջակցվում, պահանջվում է առնվազն $(ARG1) տարբերակ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION_MIN___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The installed Java version $(ARG1) is not supported, at least version $(ARG2)"
 " is required."
 msgstr ""
+"Java-ի տեղադրված $(ARG1) տարբերակը չի աջակցվում, պահանջվում է առնվազն $(ARG2)"
+" տարբերակ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
 msgid "The data associated with the partnership is corrupted."
-msgstr ""
+msgstr "Գործընկերության հետ կապված տվյալները վնասված են:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
 msgid "The data associated with the partnership $(ARG1) is corrupted."
-msgstr ""
+msgstr "$(ARG1) գործընկերության հետ կապված տվյալները վնասված են:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready."
-msgstr ""
+msgstr "$(ARG1) հատորը պատրաստ չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not ready; please insert a storage medium."
-msgstr ""
+msgstr "$(ARG1) -ը պատրաստ չէ, տեղադրեք հիշողության սարք։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready; please insert a storage medium."
@@ -650,26 +691,34 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the missing "
 "configuration data?"
 msgstr ""
+"Տվյալների կարգաբերման '$(ARG1)' աղբյուրը անհասանելի է։ Առանց այս տվյալների "
+"որոշ գործառույթներ կարող են սխալ գործել:\n"
+"Ցանկանու՞մ ես շարունակել %PRODUCTNAME -ի թողարկումը, առանց կազմաձևման "
+"տվյալների բացակայության։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
 msgid "The form contains invalid data. Do you still want to continue?"
-msgstr ""
+msgstr "Ձևը պարունակում է անվավեր տվյալներ: Դուք դեռ ուզու՞մ եք շարունակել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The file $(ARG1) is locked by another user. Currently, another write access "
 "to this file cannot be granted."
 msgstr ""
+"$(ARG1) նիշքը կողպված է մեկ այլ օգտվողի կողմից։ Ներկայումս այս նիշքին գրելու "
+"մեկ այլ թույլտվություն չի կարող շնորհվել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED_SELF___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The file $(ARG1) is locked by yourself. Currently, another write access to "
 "this file cannot be granted."
 msgstr ""
+"$(ARG1) նիշքը կողպված է քո կողմից։ Ներկայումս այս նիշքին գրելու մեկ այլ "
+"թույլտվություն չի կարող շնորհվել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
 msgid "The file $(ARG1) is currently not locked by yourself."
-msgstr ""
+msgstr "$(ARG1) նիշքը ներկայումս քո կողմից կողպված չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCK_EXPIRED___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -678,6 +727,10 @@ msgid ""
 "cannot be guaranteed that write operations on this file will not overwrite "
 "changes done by other users!"
 msgstr ""
+"$(ARG1) նիշքի համար նախապես ձեռք բերված կողպումը ժամկետանց է։\n"
+"Դա կարող է պատահել նիշքի կողպումի կառավարման կայանի խնդիրների պատճառով: Չի "
+"կարելի երաշխավորել, որ այս նիշքի վրա գրելու գործողությունները չեն վերագրի "
+"այլ օգտվողների կատարած փոփոխությունները:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_UNKNOWNAUTH_UNTRUSTED_.string.text
 msgid ""
@@ -687,6 +740,11 @@ msgid ""
 "certificate carefully. Are you willing to accept this certificate for the "
 "purpose of identifying the Web site $(ARG1)?"
 msgstr ""
+"Անհնար է ստուգել $(ARG1) կայքի ինքնությունը:\n"
+"\n"
+"Նախքան այս վկայագիրը ընդունելը, դուք պետք է ուշադիր ուսումնասիրեք այս կայքի "
+"վկայականը: Դուք պատրա՞ստ եք այս վկայագիրը ընդունել $(ARG1) վեբկայքի "
+"նույնության հաստատման նպատակով:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_EXPIRED_1_.string.text
 msgid ""
@@ -695,6 +753,11 @@ msgid ""
 "\n"
 "You should check to make sure that your computer's time is correct."
 msgstr ""
+"$(ARG1) -ը կայք է, որ փոխանցման ժամանակ տվյալների կոդավորման նպատակով "
+"օգտագործում է անվտանգության վկայագիրը, սակայն դրա վկայագրի ժամկետը լրացել է "
+"$(ARG2)։\n"
+"\n"
+"Պետք է ստուգեք, որպեսզի ձեր համակարգչի ժամանակը ճիշտ լինի:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_DOMAINMISMATCH_1_.string.text
 msgid ""
@@ -708,6 +771,15 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
+"Դուք փորձել եք կապ հաստատել $(ARG1) -ի հետ: Այնուամենայնիվ, ներկայացված "
+"անվտանգության վկայագիրը պատկանում է $(ARG2) -ին: Հնարավոր է, թեև քիչ "
+"հավանական է, որ ինչ-որ մեկը կարող է խանգարել ձեր հաղորդակցմանը այս կայքի հետ:"
+"\n"
+"\n"
+"Եթե կասկածում եք, որ ցուցադրված վկայագիրը չի պատկանում $(ARG1) -ին, խնդրում "
+"ենք չեղարկել կապը և ծանուցել կայքի կառավարիչին:\n"
+"\n"
+"Ցանկանու՞մ եք ամեն դեպքում շարունակել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_INVALID_1_.string.text
 msgid ""
@@ -761,7 +833,7 @@ msgstr ""
 #: trylater.src#STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
 msgid "Document in Use"
-msgstr ""
+msgstr "Փաստաթուղթը օգտագործվում է"
 
 #: trylater.src#STR_TRYLATER_MSG.string.text
 msgid ""
