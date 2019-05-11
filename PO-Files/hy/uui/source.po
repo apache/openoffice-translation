@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 12:12+0000\n"
-"PO-Revision-Date: 2019-05-09 19:36+0000\n"
+"PO-Revision-Date: 2019-05-10 10:31+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1557430575.000000\n"
+"X-POOTLE-MTIME: 1557484307.000000\n"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 msgid "Replace"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
 msgid "Always trust macros from this source"
-msgstr ""
+msgstr "Միշտ վստահիր այս աղբյուրի մակրոներին"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
 msgid "~Enable Macros"
@@ -375,20 +375,28 @@ msgid ""
 "Do you want to save anyway?\n"
 "\n"
 msgstr ""
+"Նիշքը փոխվել է, քանի որ այն բացվել է %PRODUCTNAME -ում խմբագրվելու համար: "
+"Փաստաթղթի ձեր տարբերակը հիշելը կվերագրվի ուրիշների կողմից կատարված "
+"փոփոխությունները:\n"
+"\n"
+"Ցանկանու՞մ եք ամեն դեպքում հիշել։\n"
+"\n"
 
 #: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
 msgid "~Save Anyway"
-msgstr ""
+msgstr "~Հիշիր ամեն դեպքում"
 
 #: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
 msgid "Filter Selection"
-msgstr ""
+msgstr "Զտիչի ընտրություն"
 
 #: lockfailed.src#STR_LOCKFAILED_MSG.string.text
 msgid ""
 "The file could not be locked for exclusive access by %PRODUCTNAME, due to "
 "missing permission to create a lock file on that file location."
 msgstr ""
+"Նիշքը չի կարող կողպվել %PRODUCTNAME -ի բացառիկ մուտքի համար, նիշքի այդ "
+"տեղաբաշխման համար նիշքը կողպելու թույլտվության բացակայության պատճառով:"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 msgid "~Remember password until end of session"
@@ -401,23 +409,23 @@ msgstr "~Հիշել գաղտնաբառը"
 
 #: ids.src#STR_WARNING_BROKENSIGNATURE_TITLE.string.text
 msgid "Invalid Document Signature"
-msgstr ""
+msgstr "Փաստաթղթի անվավեր ստորագրություն"
 
 #: ids.src#STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE.string.text
 msgid "Non-Encrypted Streams"
-msgstr ""
+msgstr "Չկոդավորված հոսքեր"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
 msgid "The operation executed on $(ARG1) was aborted."
-msgstr ""
+msgstr "$(ARG1) -ի վրա կատարված գործողությունը վիժեցվել է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
 msgid "Access to $(ARG1) was denied."
-msgstr ""
+msgstr "Մուտքը $(ARG1) արգելված է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ALREADYEXISTS___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) already exists."
-msgstr ""
+msgstr "$(ARG1) -ը արդեն առկա է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TARGETALREADYEXISTS___ERRCODE_RES_MASK_.string.text
 msgid "Target already exists."
@@ -472,39 +480,42 @@ msgstr "Գործողությունը հնարավոր չէ. $(ARG1) ընթացի
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not ready."
-msgstr ""
+msgstr "$(ARG1) -ը պատրաստ չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
 msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
 msgstr ""
+"Գործողությունն անհնարր չ. $(ARG1) -և և $(ARG2) -ը տարբեր սարքեր (կրիչներ) են:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
 msgid "General input/output error while accessing $(ARG1)."
-msgstr ""
+msgstr "Մուտքի/ելքի ընդհանուր սխալ, մինչ դիմում է $(ARG1) -ին:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
 msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr ""
+msgstr "Փորձ է արվել $(ARG1) անվավեր մուտք գործելու համար:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDCHAR___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) contains invalid characters."
-msgstr ""
+msgstr "$(ARG1) -ը պարունակում է անվավեր նիշեր։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
 msgid "The device (drive) $(ARG1) is invalid."
-msgstr ""
+msgstr "$(ARG1) սարքը (կրիչը) անվավեր է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
 msgid "The data from $(ARG1) has an invalid length."
-msgstr ""
+msgstr "Տվյալները $(ARG1) -ից ունեն անվավեր երկարություն։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
 msgid "The operation on $(ARG1) was started with an invalid parameter."
-msgstr ""
+msgstr "Գործողությունը $(ARG1) -ի վրա սկսվել է անվավեր պարամետրով։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ISWILDCARD___ERRCODE_RES_MASK_.string.text
 msgid "The operation cannot be performed because $(ARG1) contains wildcards."
 msgstr ""
+"Գործողությունը չի կարող կատարվել, քանի որ $(ARG1) պարունակում է տեղադրման "
+"նշաններ:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_LOCKVIOLATION___ERRCODE_RES_MASK_.string.text
 msgid "Error during shared access to $(ARG1)."
@@ -547,40 +558,46 @@ msgid ""
 "The operation on $(ARG1) cannot be performed because too many files are "
 "already open."
 msgstr ""
+"$(ARG1) -ի վրա գործառնություն չի կարող կատարվել, քանի որ չափից շատ նիշքեր են "
+"բացված:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFMEMORY___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The operation on $(ARG1) cannot be performed because there is no more memory "
 "available."
 msgstr ""
+"$(ARG1) -ի վրա գործառնություն չի կարող կատարվել, քանի որ էլ հասանելի "
+"հիշողություն չկա։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_PENDING___ERRCODE_RES_MASK_.string.text
 msgid "The operation on $(ARG1) cannot continue because more data is pending."
 msgstr ""
+"$(ARG1) -ի վրա գործառնություն չի կարող շարունակվել, քանի որ ավելի շատ "
+"տվյալներ են սպասվում:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_RECURSIVE___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) cannot be copied into itself."
-msgstr ""
+msgstr "$(ARG1) -ը հնարավոր չէ պատճենել ինքն իր մեջ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNKNOWN___ERRCODE_RES_MASK_.string.text
 msgid "Unknown input/output error while accessing $(ARG1)."
-msgstr ""
+msgstr "Մինչ դիմում է $(ARG1) -ին, մոտքի/ելքի անհայտ սխալ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRITEPROTECTED___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is write protected."
-msgstr ""
+msgstr "$(ARG1) -ը պաշտպանված է գրելու դեմ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGFORMAT___ERRCODE_RES_MASK_.string.text
 msgid "$(ARG1) is not in the correct format."
-msgstr ""
+msgstr "$(ARG1) -ը ճիշտ ձևաչափով չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGVERSION___ERRCODE_RES_MASK_.string.text
 msgid "The version of $(ARG1) is not correct."
-msgstr ""
+msgstr "$(ARG1) -ի տարբերակը  ճիշտ չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_VOLUME___ERRCODE_RES_MASK_.string.text
 msgid "Drive $(ARG1) does not exist."
-msgstr ""
+msgstr "$(ARG1) -ի վարողը առկա չէ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
 msgid "Folder $(ARG1) does not exist."
@@ -627,21 +644,23 @@ msgstr "$(ARG1) -ը պատրաստ չէ, տեղադրեք հիշողության
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready; please insert a storage medium."
-msgstr ""
+msgstr "$(ARG1) հատորը պատրատ չէ․ տեղադրեք հիշողության սարք։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
 msgid "Please insert disk $(ARG1)."
-msgstr ""
+msgstr "Տեղադրեք $(ARG1) սկավառակը։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE_NONAME___ERRCODE_RES_MASK_.string.text
 msgid "The object cannot be created in directory $(ARG1)."
-msgstr ""
+msgstr "$(ARG1) գրացուցակում հնարավոր չէ ստեղծել օբյեկտ։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNSUPPORTEDOVERWRITE___ERRCODE_RES_MASK_.string.text
 msgid ""
 "%PRODUCTNAME cannot keep files from being overwritten when this transmission "
 "protocol is used. Do you want to continue anyway?"
 msgstr ""
+"%PRODUCTNAME չի կարող պահել նիշքերը վերագրվելուց, երբ փոխանակման այս "
+"համաձայնագիրն է օգտագործվում: Ցանկանու՞մ եք այնուամենայնիվ շարունակել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -656,11 +675,22 @@ msgid ""
 "\n"
 "Should %PRODUCTNAME repair the file?\n"
 msgstr ""
+"'$(ARG1)' նիշքը վնասված է, և հետևապես չի կարող բացվել։ %PRODUCTNAME -ը կարող "
+"է փորձել վերականգնելու նիշքը։\n"
+"\n"
+"Վնասումը կարող է լինել փաստաթղթի մանիպուլյացիայի կամ կառուցվածքային "
+"փաստաթղթի վնասման  հետևանքով, տվյալների փոխանցման արդյունքում։\n"
+"\n"
+"Խորհուրդ ենք տալիս, որ դուք չվստահեք վերանորոգված փաստաթղթի բովանդակությանը:"
+"\n"
+"Այս փաստաթղթի համար մակրոների կատարումն արգելված է։\n"
+"\n"
+"Պե՞տք է, որ %PRODUCTNAME -ը վերանորոգի նիշքը։\n"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE_CANTREPAIR___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The file '$(ARG1)' could not be repaired and therefore cannot be opened."
-msgstr ""
+msgstr "'$(ARG1)' նիշքը չի կարող վերանորոգվել, ուստի չի կարող բացվել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -669,6 +699,9 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the corrupted "
 "configuration data?"
 msgstr ""
+"Տվյալների կազմաձևումը  '$(ARG1)' -ում վնասված է։ Առանց այս տվյալների որոշ "
+"գործառույթներ կարող են ճիշտ չգործել:\n"
+"Ցանկանու՞մ եք շարունակել %PRODUCTNAME -ը` առանց վնասված կազմաձևման տվյալների:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -677,12 +710,18 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the corrupted "
 "configuration data?"
 msgstr ""
+"'$(ARG1)' անձնական կազմաձևման նիշքը վնասված է և շարունակելու համար պետք է "
+"ջնջվի: Ձեր որոշ անձնական կարգավորումները կարող են կորել:\n"
+"Ցանկանու՞մ եք շարունակել %PRODUCTNAME -ի գործարկումը` առանց վնասված "
+"կազմաձևման տվյալների:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The configuration data source '$(ARG1)' is unavailable. Without this data "
 "some functions may not operate correctly."
 msgstr ""
+"'$(ARG1)' կազմաձևման տվյալների աղբյուրն անհասանելի է: Առանց այս տվյալների "
+"որոշ գործառույթներ կարող են ճիշտ չգործել:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
 msgid ""
@@ -789,23 +828,28 @@ msgid ""
 "If you suspect the certificate shown, please cancel the connection and "
 "notify the site administrator."
 msgstr ""
+"Վկայագիրը չի հաստատվել: Դուք պետք է ուշադիր ուսումնասիրեք այս կայքի "
+"վկայականը:\n"
+"\n"
+"Եթե կասկածում եք որ ցուցադրված է սերտիֆիկատը, խնդրում ենք չեղարկել կապը և "
+"ծանուցել կայքի կառավարչին:"
 
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_DOMAINMISMATCH_.string.text
 msgid "Security Warning: Domain Name Mismatch"
-msgstr ""
+msgstr "Անվտանգության նախազգուշացում. Դոմեյնի անվան անհամապատասխանություն"
 
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_EXPIRED_.string.text
 msgid "Security Warning: Server Certificate Expired"
-msgstr ""
+msgstr "Անվտանգության նախազգուշացում. կայանի վկայագիրը ժամկետանց է"
 
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_INVALID_.string.text
 msgid "Security Warning: Server Certificate Invalid"
-msgstr ""
+msgstr "Անվտանգության նախազգուշացում. կայանի վկայագիրն անվավեր է"
 
 #: openlocked.src#STR_OPENLOCKED_TITLE.string.text
 msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
 msgid "Document in Use"
-msgstr ""
+msgstr "Փաստաթուղթը օգտագործման մեջ է"
 
 #: openlocked.src#STR_OPENLOCKED_MSG.string.text
 msgid ""
@@ -816,19 +860,26 @@ msgid ""
 "Open document read-only or open a copy of the document for editing.\n"
 "\n"
 msgstr ""
+"Փաստաթղթային '$(ARG1)' նիշքը կողպված է խմբագրման համար այս անձի կողմից։\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Բացիր փաստաթուղթը որպես միայն կարդալու, կամ  խմբագրման համար բացիր փաստաթղթի "
+"պատճենը։\n"
+"\n"
 
 #: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
 msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
 msgid "Open ~Read-Only"
-msgstr ""
+msgstr "Բացիր ~միայն կարադալ"
 
 #: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
 msgid "Open ~Copy"
-msgstr ""
+msgstr "Բացեք ~պատճենը"
 
 #: openlocked.src#STR_UNKNOWNUSER.string.text
 msgid "Unknown User"
-msgstr ""
+msgstr "Անհայտ օգտվող"
 
 #: trylater.src#STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
@@ -844,15 +895,22 @@ msgid ""
 "Try again later to save document or save a copy of that document.\n"
 "\n"
 msgstr ""
+"Փաստաթղթային '$(ARG1)' նիշքը խմբագրման համար։ կողպված է այս անձի կողմից:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Փաստաթուղթը հիշելու համար նորից փորձիր ավելի ուշ, կամ հիշիր այդ փաստաթղթի "
+"պատճենը։\n"
+"\n"
 
 #: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
 msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
 msgid "~Retry Saving"
-msgstr ""
+msgstr "~Կրկնիր հիշելը"
 
 #: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
 msgid "~Save As..."
-msgstr ""
+msgstr "~Հիշիր որպես․․․"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
@@ -860,32 +918,37 @@ msgid ""
 "be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
 "from the protected password list."
 msgstr ""
+"Ոստայնի կապի համար գաղտնաբառերը պաշտպանված են վարպետ գաղտնաբառով: Ձեզանից "
+"կպահանջվի մուտքագրել այն մեկ անգամ մեկ կապի համար, եթե %PRODUCTNAME -ը "
+"վերցնում է գաղտնաբառը պաշտպանված գաղտնաբառի ցուցակից:"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
 msgid "~Enter password"
-msgstr ""
+msgstr "~Մուտքագրեք գաղտնաբառը"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
 msgid "~Reenter password"
-msgstr ""
+msgstr "~Կրկին մուտքագրեք գաղտնաբառը"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
 msgid ""
 "Caution: If you forget the master password, you will be unable to access any "
 "of the information protected by it. Passwords are case-sensitive."
 msgstr ""
+"Ուշադրություն. Եթե մոռանաս վարպետի գաղտնաբառը, ապա չեք կարողանա օգտվել նրա "
+"կողմից պաշտպանված տեղեկատվությունից: Գաղտնաբառերը ընտրությանը զգայուն են:"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
 msgid "Set Master Password"
-msgstr ""
+msgstr "Տեղադրի վարպետ գաղտնաբառը"
 
 #: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.FT_MASTERPASSWORD.fixedtext.text
 msgid "Enter password"
-msgstr ""
+msgstr "Մուտքագրեք գաղտնաբառը"
 
 #: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.modaldialog.text
 msgid "Enter Master Password"
-msgstr ""
+msgstr "Մուտքագրեք վարպետ գաղտնաբառը"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
 msgid ""
@@ -895,15 +958,20 @@ msgid ""
 "Click 'Update Now...' to run online update and get the latest version of "
 "%PRODUCTNAME."
 msgstr ""
+"Այս փաստաթուղթը ստեղծվել է %PRODUCTNAME -ի ավելի նոր տարբերակով: Այն կարող է "
+"պարունակել ձեր ներկա տարբերակն աջակցող հատկանիշներ:\n"
+"\n"
+"Սեղմեք «Թարմացնել հիմա ...», առցանց թարմացումը աշխատեցնելու և %PRODUCTNAME -"
+"ի վերջին տարբերակը ստանալու համար։"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
 msgid "~Update Now..."
-msgstr ""
+msgstr "~Թարմացրու հիմա․․․"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
 msgid "~Later"
-msgstr ""
+msgstr "~Ավելի ուշ"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
 msgid "%PRODUCTNAME Update Available"
-msgstr ""
+msgstr "%PRODUCTNAME -ի թարմացումը հասանելի է"
