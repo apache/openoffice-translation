@@ -6,8 +6,8 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-01-01 19:52+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2019-05-17 07:21+0000\n"
+"Last-Translator: Marko <marko.piirainen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1546372354.000000\n"
+"X-POOTLE-MTIME: 1558077712.000000\n"
 
 #: scstring.src#SCSTR_APPLICATION.string.text
 msgid "%PRODUCTNAME Calc 6.0"
@@ -6889,6 +6889,8 @@ msgid ""
 "Returns the data type of a value (1 = number, 2 = text, 4 = Boolean value, 8 "
 "= formula, 16 = error value, 64 = array)."
 msgstr ""
+"Tietotyypit (1 = luku, 2 = merkkijono, 4 = tosi/epätosi, 8 = kaava, 16 = "
+"virhe, 64 = taulukko)."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS1.SC_OPCODE_TYPE.2.string.text"
@@ -8967,10 +8969,9 @@ msgid "Type"
 msgstr "tyyppi"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_QUARTILE.5.string.text
-#, fuzzy
 msgid ""
 "The type of the quartile (0 = MIN, 1 = 25 %, 2 = 50 %, 3 = 75 %, 4 = MAX)."
-msgstr "Kvartiilin laji (0 = VÄH, 1 = 25%, 2 = 50 %, 3 = 75 %, 4 =ENIM)."
+msgstr "Kvartiilin laji (0 = Pienin, 1 = 25%, 2 = 50 %, 3 = 75 %, 4 =Suurin)."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_LARGE.1.string.text
 msgid "Returns the k-th largest value of a sample."
@@ -11302,7 +11303,6 @@ msgid "text "
 msgstr "teksti "
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONCAT.3.string.text
-#, fuzzy
 msgid "Text for the concatenation."
 msgstr "Yhdistettävä teksti."
 
@@ -12093,26 +12093,24 @@ msgid "Returns the bitwise AND of two integers"
 msgstr ""
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.2.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.2.string.text"
 msgid "Number1"
-msgstr "luku"
+msgstr "Luku1"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.3.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.4.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.4.string.text"
 msgid "Number2"
-msgstr "luku"
+msgstr "Luku2"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.5.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.1.string.text
 msgid "Returns the bitwise OR of two integers"
@@ -12127,44 +12125,41 @@ msgstr "luku"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.3.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.4.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.4.string.text"
 msgid "Number2"
-msgstr "luku"
+msgstr "Luku2"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.5.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.1.string.text
 msgid "Returns the bitwise XOR of two integers"
-msgstr ""
+msgstr "Palauttaa kahden kokonaisluvun bitin XOR"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.2.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.2.string.text"
 msgid "Number1"
-msgstr "luku"
+msgstr "Luku1"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.3.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.4.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.4.string.text"
 msgid "Number2"
-msgstr "luku"
+msgstr "Luku2"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.5.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.1.string.text
 msgid "Bitwise left shift of an integer value."

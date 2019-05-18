@@ -6,8 +6,8 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-05-15 08:54+0000\n"
-"Last-Translator: Anonymous Pootle User\n"
+"PO-Revision-Date: 2019-05-17 04:53+0000\n"
+"Last-Translator: Marko <marko.piirainen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1557910470.000000\n"
+"X-POOTLE-MTIME: 1558068794.000000\n"
 
 #: conn_shared_res.src#STR_MOZILLA_ADDRESSBOOKS.string.text
 msgid "Mozilla/Seamonkey Addressbook Directory"
@@ -98,7 +98,6 @@ msgid "This statement type not supported by this database driver."
 msgstr "Tietokanta-ajuri ei tue tämän tyyppisiä lausekkeita."
 
 #: conn_shared_res.src#STR_UNSPECIFIED_ERROR.string.text
-#, fuzzy
 msgid "An unknown error occurred."
 msgstr "Tapahtui tuntematon virhe."
 
@@ -111,14 +110,12 @@ msgid "The library '$libname$' could not be loaded."
 msgstr "Kirjastoa '$libname$' ei voitu ladata."
 
 #: conn_shared_res.src#STR_ERROR_REFRESH_ROW.string.text
-#, fuzzy
 msgid "An error occurred while refreshing the current row."
-msgstr "Nykyisen rivin päivityksessä tapahtui virhe."
+msgstr "Virhe rivin päivityksessä."
 
 #: conn_shared_res.src#STR_ERROR_GET_ROW.string.text
-#, fuzzy
 msgid "An error occurred while getting the current row."
-msgstr "Nykyisen rivin haussa tapahtui virhe."
+msgstr "Virhe rivin haussa."
 
 #: conn_shared_res.src#STR_CAN_NOT_CANCEL_ROW_UPDATE.string.text
 msgid "The row update can not be canceled."
@@ -137,9 +134,8 @@ msgstr ""
 "sarakkeen nimen kanssa."
 
 #: conn_shared_res.src#STR_ILLEGAL_MOVEMENT.string.text
-#, fuzzy
 msgid "Illegal cursor movement occurred."
-msgstr "Tapahtui virheellinen riviosoittimen siirto."
+msgstr "Virhe osoittimen siirrossa."
 
 #: conn_shared_res.src#STR_COMMIT_ROW.string.text
 msgid "Please commit row '$position$' before update rows or insert new rows."
@@ -233,7 +229,7 @@ msgstr ""
 
 #: conn_shared_res.src#STR_FORMULA_WRONG.string.text
 msgid "The formula for TypeInfoSettings is wrong!"
-msgstr "Kaava TypeInfoSettings:ille on väärin."
+msgstr "Virheellinen TypeInfoSettings!"
 
 #: conn_shared_res.src#STR_STRING_LENGTH_EXCEEDED.string.text
 msgid ""
@@ -367,13 +363,10 @@ msgstr ""
 "Yhteyttä ei voitu muodostaa. Tarvittavaa tietolähdettä ei ehkä ole asennettu."
 
 #: conn_shared_res.src#STR_COULD_NOT_DELETE_INDEX.string.text
-#, fuzzy
 msgid ""
 "The index could not be deleted. An unknown error while accessing the file "
 "system occurred."
-msgstr ""
-"Indeksiä ei voitu poistaa, koska tiedostojärjestelmää käsiteltäessä tapahtui "
-"tuntematon virhe."
+msgstr "Indeksiä ei voitu poistaa. Virhe tiedostojärjestelmän käsittelyssä."
 
 #: conn_shared_res.src#STR_ONL_ONE_COLUMN_PER_INDEX.string.text
 msgid "The index could not be created. Only one column per index is allowed."
@@ -641,15 +634,15 @@ msgstr ""
 msgid ""
 "The current database needs to be converted. Please insert control user and "
 "password."
-msgstr ""
+msgstr "Tietokanta edellyttää toimenpiteitä. Lisää käyttäjänimi ja salasana."
 
 #: conn_shared_res.src#STR_USER_NO_DELETE.string.text
 msgid ""
 "This user couldn't be deleted. Otherwise the database stays in a "
 "inconsistent state."
 msgstr ""
-"Tätä käyttäjää ei voitu poistaa, koska muuten tietokanta jäisi "
-"epäyhtenäiseen tilaan."
+"Käyttäjää ei voitu poistaa. Poistaminen jättäisi tietokannan epäyhtenäiseen "
+"tilaan."
 
 #: conn_shared_res.src#STR_NO_STROAGE.string.text
 msgid "The connection can not be established. No storage or URL was given."
@@ -666,14 +659,12 @@ msgstr ""
 "Tarkista tietokantatiedoston sijainti."
 
 #: conn_shared_res.src#STR_NO_TABLE_CONTAINER.string.text
-#, fuzzy
 msgid "An error occurred while obtaining the connection's table container."
-msgstr "Yhteyteen liittyvän taulusäiliön haussa tapahtui virhe."
+msgstr "Virhe yhteyteen liittyvän taulun haussa."
 
 #: conn_shared_res.src#STR_NO_TABLE_EDITOR_DIALOG.string.text
-#, fuzzy
 msgid "An error occurred while creating the table editor dialog."
-msgstr "Taulun muokkausikkunan luonnissa tapahtui virhe."
+msgstr "Virhe taulun muokkausikkunan luonnissa."
 
 #: conn_shared_res.src#STR_NO_TABLENAME.string.text
 msgid "There is no table named '$tablename$'."
