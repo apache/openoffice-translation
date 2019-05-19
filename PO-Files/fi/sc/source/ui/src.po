@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-05-17 07:21+0000\n"
+"PO-Revision-Date: 2019-05-18 16:46+0000\n"
 "Last-Translator: Marko <marko.piirainen@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1558077712.000000\n"
+"X-POOTLE-MTIME: 1558197985.000000\n"
 
 #: scstring.src#SCSTR_APPLICATION.string.text
 msgid "%PRODUCTNAME Calc 6.0"
@@ -659,7 +659,7 @@ msgstr "(Esikatselutila)"
 
 #: scstring.src#SCSTR_MOREBTN_MOREOPTIONS.string.text
 msgid "More ~Options"
-msgstr "Enemmän valintoja"
+msgstr "~Enemmän valintoja"
 
 #: scstring.src#SCSTR_MOREBTN_FEWEROPTIONS.string.text
 msgid "Fewer ~Options"
@@ -2317,7 +2317,7 @@ msgstr "~Solun tyyli"
 
 #: condfrmt.src#RID_SCDLG_CONDFORMAT.BTN_COND3_NEW.pushbutton.text
 msgid "New ~Style..."
-msgstr "Uusi tyyli..."
+msgstr "~Uusi tyyli..."
 
 #: condfrmt.src#RID_SCDLG_CONDFORMAT.modelessdialog.text
 msgid "Conditional Formatting"
@@ -8971,7 +8971,7 @@ msgstr "tyyppi"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_QUARTILE.5.string.text
 msgid ""
 "The type of the quartile (0 = MIN, 1 = 25 %, 2 = 50 %, 3 = 75 %, 4 = MAX)."
-msgstr "Kvartiilin laji (0 = Pienin, 1 = 25%, 2 = 50 %, 3 = 75 %, 4 =Suurin)."
+msgstr "Kvartiilin laji (0 = Pienin, 1 = 25 %, 2 = 50 %, 3 = 75 %, 4 =Suurin)."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_LARGE.1.string.text
 msgid "Returns the k-th largest value of a sample."
@@ -9104,9 +9104,8 @@ msgid "The percentage of marginal data that is not to be taken into account."
 msgstr "Poisjätettävien marginaalitietojen prosenttiosuus."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.1.string.text
-#, fuzzy
 msgid "Returns the discrete probability of an interval."
-msgstr "Palauttaa välin yksittäisen todennäköisyyden."
+msgstr "Palauttaa välin diskreettisen todennäköisyyden."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.2.string.text"
@@ -12090,7 +12089,7 @@ msgstr "Tekstin merkkien määrä."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.1.string.text
 msgid "Returns the bitwise AND of two integers"
-msgstr ""
+msgstr "Bittioperaattori AND palauttaa arvon tosi mikäli molemmat tosia"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITAND.2.string.text"
@@ -12115,12 +12114,12 @@ msgstr "Positiivinen kokonaisluku alle 2^48."
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.1.string.text
 msgid "Returns the bitwise OR of two integers"
 msgstr ""
+"Bittioperaattori OR palauttaa arvon tosi mikäli vähintään jompikumpi on tosi"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.2.string.text
-#, fuzzy
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.2.string.text"
 msgid "Number1"
-msgstr "luku"
+msgstr "Luku1"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITOR.3.string.text"
@@ -12163,7 +12162,7 @@ msgstr "Positiivinen kokonaisluku alle 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.1.string.text
 msgid "Bitwise left shift of an integer value."
-msgstr ""
+msgstr "Bittioperaattori << siirtää bittiä vasemmalle."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.2.string.text"
@@ -12173,49 +12172,49 @@ msgstr "luku"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.3.string.text"
 msgid "The value to be shifted. Positive integer."
-msgstr ""
+msgstr "Siirrettävä arvo. Positiivinen kokonaisluku."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.4.string.text"
 msgid "Shift"
-msgstr ""
+msgstr "Siirrä"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.5.string.text"
 msgid "The number of bits the first argument is to be shifted by."
-msgstr ""
+msgstr "Siirrettävä määrä. Positiivinen kokonaisluku."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.1.string.text
 msgid "Bitwise right shift of an integer value."
-msgstr ""
+msgstr "Bittioperaattori >> siirtää bittiä oikealle."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.2.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.2.string.text"
 msgid "Number"
-msgstr "luku"
+msgstr "Luku"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.3.string.text"
 msgid "The value to be shifted. Positive integer."
-msgstr ""
+msgstr "Siirrettävä arvo. Positiivinen kokonaisluku."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.4.string.text"
 msgid "Shift"
-msgstr ""
+msgstr "Siirrä"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.5.string.text"
 msgid "The number of bits the first argument is to be shifted by."
-msgstr ""
+msgstr "Siirrettävä määrä. Positiivinen kokonaisluku."
 
 #: autofmt.src#RID_SCDLG_AUTOFORMAT.FL_FORMAT.fixedline.text
 msgid "F~ormat"
-msgstr "M~uotoilu"
+msgstr "~Muotoilu"
 
 #: autofmt.src#RID_SCDLG_AUTOFORMAT.BTN_ADJUST.checkbox.text
 msgid "A~utoFit width and height"
-msgstr "Sovituta ~leveys ja korkeus"
+msgstr "~Sovita leveys ja korkeus"
 
 #: autofmt.src#RID_SCDLG_AUTOFORMAT.BTN_BORDER.checkbox.text
 msgid "~Borders"
@@ -12320,7 +12319,7 @@ msgstr "Solun ponnahdusvalikko"
 
 #: popup.src#RID_POPUP_CELLS.SID_CELL_FORMAT_RESET.menuitem.text
 msgid "~Default Formatting"
-msgstr "Oletusmuotoilu"
+msgstr "~Oletusmuotoilu"
 
 #: popup.src#RID_POPUP_CELLS.FID_CELL_FORMAT.menuitem.text
 msgctxt "popup.src#RID_POPUP_CELLS.FID_CELL_FORMAT.menuitem.text"
@@ -12341,11 +12340,11 @@ msgstr "~Poista sisältö..."
 
 #: popup.src#RID_POPUP_CELLS.SID_INSERT_POSTIT.menuitem.text
 msgid "Insert Co~mment"
-msgstr "Lisää huomautus"
+msgstr "~Lisää huomautus"
 
 #: popup.src#RID_POPUP_CELLS.SID_DELETE_NOTE.menuitem.text
 msgid "D~elete Comment"
-msgstr "Poista huomautus"
+msgstr "~Poista huomautus"
 
 #: popup.src#RID_POPUP_CELLS.FID_NOTE_VISIBLE.menuitem.text
 msgctxt "popup.src#RID_POPUP_CELLS.FID_NOTE_VISIBLE.menuitem.text"
@@ -12402,7 +12401,7 @@ msgstr "~Valitse kaikki taulukot"
 
 #: popup.src#RID_POPUP_TAB.FID_TAB_DESELECTALL.menuitem.text
 msgid "D~eselect All Sheets"
-msgstr "Poista kaikkien taulukoiden valinta"
+msgstr "~Poista kaikkien taulukoiden valinta"
 
 #: popup.src#RID_POPUP_TAB.FID_TAB_RTL.menuitem.text
 msgid "S~heet Right-To-Left"
@@ -12410,11 +12409,11 @@ msgstr "~Taulukko: Oikealta vasemmalle"
 
 #: popup.src#RID_POPUP_TAB.FID_TAB_EVENTS.menuitem.text
 msgid "Sheet E~vents..."
-msgstr "Laskentataulukon tapahtumat..."
+msgstr "~Laskentataulukon tapahtumat..."
 
 #: popup.src#RID_POPUP_TAB.FID_TAB_MENU_SET_TAB_BG_COLOR.menuitem.text
 msgid "~Tab Color..."
-msgstr "Välilehden väri..."
+msgstr "~Välilehden väri..."
 
 #: popup.src#RID_POPUP_PIVOT.string.text
 msgid "Pivot table pop-up menu"
@@ -13070,11 +13069,11 @@ msgstr "~Toinen lajitteluperuste"
 
 #: sortdlg.src#RID_SCPAGE_SORT_FIELDS.BTN_UP3.radiobutton.text
 msgid "As~cending"
-msgstr "Nouseva"
+msgstr "~Nouseva"
 
 #: sortdlg.src#RID_SCPAGE_SORT_FIELDS.BTN_DOWN3.radiobutton.text
 msgid "Desce~nding"
-msgstr "Laskeva"
+msgstr "~Laskeva"
 
 #: sortdlg.src#RID_SCPAGE_SORT_FIELDS.FL_SORT3.fixedline.text
 msgid "T~hen by"
@@ -13241,7 +13240,7 @@ msgstr "Poista ~kaikki"
 
 #: miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELSTRINGS.checkbox.text
 msgid "~Text"
-msgstr "Teksti"
+msgstr "~Teksti"
 
 #: miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELNUMBERS.checkbox.text
 msgctxt "miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELNUMBERS.checkbox.text"
@@ -13266,12 +13265,12 @@ msgstr "~Muotoilu"
 #: miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELNOTES.checkbox.text
 msgctxt "miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELNOTES.checkbox.text"
 msgid "~Comments"
-msgstr "Huomautukset"
+msgstr "~Huomautukset"
 
 #: miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELOBJECTS.checkbox.text
 msgctxt "miscdlgs.src#RID_SCDLG_DELCONT.BTN_DELOBJECTS.checkbox.text"
 msgid "~Objects"
-msgstr "Objektit"
+msgstr "~Objektit"
 
 #: miscdlgs.src#RID_SCDLG_DELCONT.FL_FRAME.fixedline.text
 msgctxt "miscdlgs.src#RID_SCDLG_DELCONT.FL_FRAME.fixedline.text"
@@ -13288,7 +13287,7 @@ msgstr "~Liitä kaikki"
 
 #: miscdlgs.src#RID_SCDLG_INSCONT.BTN_INSSTRINGS.checkbox.text
 msgid "Te~xt"
-msgstr "Teksti"
+msgstr "~Teksti"
 
 #: miscdlgs.src#RID_SCDLG_INSCONT.BTN_INSNUMBERS.checkbox.text
 msgctxt "miscdlgs.src#RID_SCDLG_INSCONT.BTN_INSNUMBERS.checkbox.text"
@@ -13318,7 +13317,7 @@ msgstr "~Objektit"
 #: miscdlgs.src#RID_SCDLG_INSCONT.BTN_INSNOTES.checkbox.text
 msgctxt "miscdlgs.src#RID_SCDLG_INSCONT.BTN_INSNOTES.checkbox.text"
 msgid "~Comments"
-msgstr "Huomautukset"
+msgstr "~Huomautukset"
 
 #: miscdlgs.src#RID_SCDLG_INSCONT.FL_FRAME.fixedline.text
 msgctxt "miscdlgs.src#RID_SCDLG_INSCONT.FL_FRAME.fixedline.text"
@@ -13488,7 +13487,7 @@ msgstr "~Päivä"
 
 #: miscdlgs.src#RID_SCDLG_FILLSERIES.BTN_DAY_OF_WEEK.radiobutton.text
 msgid "~Weekday"
-msgstr "Arkipäivä"
+msgstr "~Arkipäivä"
 
 #: miscdlgs.src#RID_SCDLG_FILLSERIES.BTN_MONTH.radiobutton.text
 msgid "~Month"
