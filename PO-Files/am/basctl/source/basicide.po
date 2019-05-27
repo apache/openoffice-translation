@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+basctl%2Fsource%2Fbasicide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-05-21 16:27+0000\n"
+"PO-Revision-Date: 2019-05-26 16:49+0000\n"
 "Last-Translator: Sam <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1558456072.000000\n"
+"X-POOTLE-MTIME: 1558889368.000000\n"
 
 #: objdlg.src#RID_BASICIDE_OBJCAT.RID_TB_TOOLBOX.TBITEM_SHOW.toolboxitem.text
 msgid "Show"
@@ -69,7 +69,7 @@ msgstr "ንቁ"
 
 #: brkdlg.src#RID_BASICIDE_BREAKPOINTDLG.RID_FT_PASS.fixedtext.text
 msgid "Pass Count:"
-msgstr ""
+msgstr "መቁጠር መተው:"
 
 #: brkdlg.src#RID_BASICIDE_BREAKPOINTDLG.RID_FT_BRKPOINTS.fixedtext.text
 msgid "Breakpoints"
@@ -263,6 +263,8 @@ msgid ""
 "The source text is too large and can be neither compiled nor saved.\n"
 "Delete some of the comments or transfer some methods into another module."
 msgstr ""
+"የ ጽሁፉ ምንጭ በጣም ትልቅ ነው እና ማሰናዳት ወይንም ማስቀጥ አልተቻለም:\n"
+"አንዳንድ አስተያየቶችን ያጥፉ ወይንም አንዳንድ ዘዴዎችን ወደ ሌላ ክፍል ውስጥ ያዘዋውሩ:"
 
 #: basidesh.src#RID_STR_ERROROPENSTORAGE.string.text
 msgid "Error opening file"
@@ -274,7 +276,7 @@ msgstr "ስህተት መጻህፍት ቤት በ መጫን ላይ"
 
 #: basidesh.src#RID_STR_NOLIBINSTORAGE.string.text
 msgid "The file does not contain any BASIC libraries"
-msgstr ""
+msgstr "ይህ ፋይል በ ውስጡ መሰረታዊ የ መጽሀፍት ቤት አልያዘም:"
 
 #: basidesh.src#RID_STR_BADSBXNAME.string.text
 msgid "Invalid Name"
@@ -282,11 +284,11 @@ msgstr "ዋጋ የሌለው ስም"
 
 #: basidesh.src#RID_STR_LIBNAMETOLONG.string.text
 msgid "A library name can have up to 30 characters."
-msgstr ""
+msgstr "የ መጽሀፍት ቤት ስም እስከ 30 ባህሪዎች መያዝ ይችላል:"
 
 #: basidesh.src#RID_STR_ERRORCHOOSEMACRO.string.text
 msgid "Macros from other documents are not accessible."
-msgstr ""
+msgstr "ማክሮስ ወደ ሌሎች ሰነዶች ጋር መድረስ አልቻለም:"
 
 #: basidesh.src#RID_STR_LIBISREADONLY.string.text
 msgid "This library is read-only."
@@ -330,10 +332,13 @@ msgid ""
 "\n"
 "For more information, check the security settings."
 msgstr ""
+"ለ ደህንነት ሲባል: እርስዎ ይህን ማክሮ ማስኬድ አይችሉም\n"
+"\n"
+"ለ በለጠ መረጃ: የ ደህንነት ማሰናጃ ይመልከቱ:"
 
 #: basidesh.src#RID_STR_COMPILEERROR.string.text
 msgid "Compile Error: "
-msgstr ""
+msgstr "ስህተት ማሰናጃ: "
 
 #: basidesh.src#RID_STR_RUNTIMEERROR.string.text
 msgid "Runtime Error: #"
@@ -361,7 +366,7 @@ msgstr "ይህን ፋይል ማስቀመጥ አልተቻለም"
 
 #: basidesh.src#RID_STR_CANNOTCHANGENAMESTDLIB.string.text
 msgid "The name of the default library cannot be changed."
-msgstr ""
+msgstr "የ ነባር መጽሀፍት ቤት ስም መቀየር አይቻልም:"
 
 #: basidesh.src#RID_STR_CANNOTCHANGENAMEREFLIB.string.text
 msgid "The name of a referenced library cannot be changed."
@@ -369,11 +374,11 @@ msgstr ""
 
 #: basidesh.src#RID_STR_CANNOTUNLOADSTDLIB.string.text
 msgid "The default library cannot be deactivated"
-msgstr ""
+msgstr "የ ነባር መጽሀፍት ቤት ማቦዘን አይቻልም:"
 
 #: basidesh.src#RID_STR_GENERATESOURCE.string.text
 msgid "Generating source"
-msgstr ""
+msgstr "ምንጭ በ ማመንጨት ላይ"
 
 #: basidesh.src#RID_STR_FILENAME.string.text
 msgid "File name:"
@@ -648,7 +653,7 @@ msgstr "መቀየሪያ"
 
 #: basidesh.src#RID_STR_DLGIMP_CLASH_TITLE.string.text
 msgid "Dialog Import - Name already used"
-msgstr ""
+msgstr "ንግግር ማምጫ - ይህን ስም ቀደም ብለው ተጠቅመውበታል"
 
 #: basidesh.src#RID_STR_DLGIMP_CLASH_TEXT.string.text
 msgid ""
@@ -670,7 +675,7 @@ msgstr ""
 
 #: basidesh.src#RID_STR_DLGIMP_MISMATCH_TITLE.string.text
 msgid "Dialog Import - Language Mismatch"
-msgstr ""
+msgstr "ንግግር ማምጫ - ቋንቋው አይመሳሰልም"
 
 #: basidesh.src#RID_STR_DLGIMP_MISMATCH_TEXT.string.text
 msgid ""
@@ -684,22 +689,29 @@ msgid ""
 "dialog's default language will be used.\n"
 " "
 msgstr ""
+"የሚመጣው ንግግር ሌሎች ቋንቋዎች ይደገፋል ከ ታለመው መጻህፍት ቤት በስተቀር:\n"
+"\n"
+"እነዚህን ቋንቋዎች ወደ መጽህፍት ቤት ውስጥ ይጨምሩ: ተጨማሪ የ ቋንቋዎች ምንጭ የቀረበውን በ ንግግሩ ውስጥ ወይንም "
+"ለማስቀረት እና በ አሁኑ መጽህፍት ቤት ቋንቋዎች ውስጥ እንዲቀመጡ:\n"
+"\n"
+"ማስታወሻ: በ ንግግሩ ለማይደገፉ ቋንቋዎች የ ንግግሩ ምንጭ የ ነባር ቋንቋዎች ይጠቀማል:\n"
+" "
 
 #: macrodlg.src#RID_MACROCHOOSER.RID_TXT_MACROSIN.fixedtext.text
 msgid "Existing macros ~in:"
-msgstr ""
+msgstr "የ ነበሩ ማክሮስ ~በ:"
 
 #: macrodlg.src#RID_MACROCHOOSER.RID_TXT_MACRONAME.fixedtext.text
 msgid "~Macro name"
-msgstr ""
+msgstr "የ ~ማክሮ ስም"
 
 #: macrodlg.src#RID_MACROCHOOSER.RID_TXT_MACROFROM.fixedtext.text
 msgid "Macro ~from"
-msgstr ""
+msgstr "ማክሮ ~ከ"
 
 #: macrodlg.src#RID_MACROCHOOSER.RID_TXT_SAVEMACRO.fixedtext.text
 msgid "Save m~acro in"
-msgstr ""
+msgstr "ማ~ክሮ ማስቀመጫ በ"
 
 #: macrodlg.src#RID_MACROCHOOSER.RID_TXT_DESCRIPTION.fixedtext.text
 msgid "De~scription"
@@ -742,7 +754,7 @@ msgstr "~አደራጅ..."
 
 #: macrodlg.src#RID_MACROCHOOSER.modaldialog.text
 msgid "%PRODUCTNAME Basic Macros"
-msgstr ""
+msgstr "%PRODUCTNAME መሰረታዊ ማክሮስ"
 
 #: macrodlg.src#RID_STR_STDMACRONAME.string.text
 msgid "Macro"
