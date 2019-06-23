@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sw%2Fsource%2Fui%2Fuiview.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fu"
+"iview.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: 2012-08-07 01:44+0100\n"
 "Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
 "Language-Team: Akerbeltz\n"
@@ -17,21 +17,37 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-Project-Style: openoffice\n"
 
-#: view.src#DLG_WRAP.querybox.text
+#: pview.src%23DLG_PAGEPREVIEW_ZOOM.FT_COL.fixedtext.text
+msgid "~Columns"
+msgstr "~Colbhan"
+
+#: pview.src%23DLG_PAGEPREVIEW_ZOOM.FT_ROW.fixedtext.text
+msgid "~Rows"
+msgstr "~Ràghan"
+
+#: pview.src%23DLG_PAGEPREVIEW_ZOOM.modaldialog.text
+msgid "Multiple Pages"
+msgstr "Iomadh duilleag"
+
+#: pview.src%23RID_PVIEW_TOOLBOX.string.text
+msgid "Page Preview"
+msgstr "Ro-shealladh na duilleige"
+
+#: view.src%23DLG_WRAP.querybox.text
 msgid "Do you want to continue checking at the beginning of the document?"
 msgstr ""
 "A bheil thu airson leantainn air adhart leis an sgrùdadh aig toiseach na "
 "sgrìobhainne?"
 
-#: view.src#DLG_BODY.querybox.text
+#: view.src%23DLG_BODY.querybox.text
 msgid "Do you want to check the main text?"
 msgstr "A bheil thu airson am prìomh-theacsa a sgrùdadh?"
 
-#: view.src#DLG_PRT_FIELDNAME.querybox.text
+#: view.src%23DLG_PRT_FIELDNAME.querybox.text
 msgid ""
 "Show field commands option is checked.\n"
 "Do you want to print the document with field names?"
@@ -39,24 +55,24 @@ msgstr ""
 "Tha cromag ris an roghainn a sheallas àitheantan an raoin.\n"
 "A bheil thu airson an sgrìobhainn a chlò-bhualadh le ainmean nan raointean?"
 
-#: view.src#DLG_SPECIAL.querybox.text
+#: view.src%23DLG_SPECIAL.querybox.text
 msgid "Do you want check the special regions?"
 msgstr "A bheil thu airson na h-àrainnean sònraichte a sgrùdadh?"
 
-#: view.src#DLG_THESAURUS.querybox.text
+#: view.src%23DLG_THESAURUS.querybox.text
 msgid ""
 "This word appears in the list of words you want to avoid! Start thesaurus?"
 msgstr ""
 "Tha am facal a' nochdadh air liosta nam faclan a bu toigh leat seachnadh. A "
 "bheil thu airson an co-fhaclair a thòiseachadh?"
 
-#: view.src#DLG_SPECIAL_FORCED.querybox.text
+#: view.src%23DLG_SPECIAL_FORCED.querybox.text
 msgid "Check special regions is deactivated. Check anyway?"
 msgstr ""
 "Tha sgrùdadh nan àrainnean sònraichte à comas. A bheil thu airson an "
 "sgrùdadh co-dhiù?"
 
-#: view.src#MSG_SEARCH_END.querybox.text
+#: view.src%23MSG_SEARCH_END.querybox.text
 msgid ""
 "%PRODUCTNAME Writer has searched to the end of the document. Do you want to "
 "continue at the beginning?"
@@ -64,7 +80,7 @@ msgstr ""
 "Lorg %PRODUCTNAME Writer gu deireadh na sgrìobhainn. A bheil thu airson "
 "leantainn air adhart aig an toiseach?"
 
-#: view.src#MSG_SEARCH_START.querybox.text
+#: view.src%23MSG_SEARCH_START.querybox.text
 msgid ""
 "%PRODUCTNAME Writer has searched to the beginning of the document. Do you "
 "want to continue at the end?"
@@ -72,121 +88,105 @@ msgstr ""
 "Lorg %PRODUCTNAME Writer gu toiseach na sgrìobhainn. A bheil thu airson "
 "leantainn air adhart aig an deireadh?"
 
-#: view.src#MSG_NO_MERGE_ENTRY.infobox.text
+#: view.src%23MSG_NO_MERGE_ENTRY.infobox.text
 msgid "Could not merge documents."
 msgstr "Cha do ghabh na sgrìobhainnean a cho-aonadh."
 
-#: view.src#MSG_ERR_INSERT_GLOS.infobox.text
+#: view.src%23MSG_ERR_INSERT_GLOS.infobox.text
 msgid "AutoText could not be created."
 msgstr "Cha do ghabh am fèin-teacsa a chruthachadh."
 
-#: view.src#MSG_ERR_SRCSTREAM.infobox.text
+#: view.src%23MSG_ERR_SRCSTREAM.infobox.text
 msgid "The source cannot be loaded."
 msgstr "Cha ghabh an tùs a luchdadh."
 
-#: view.src#MSG_ERR_NO_FAX.infobox.text
+#: view.src%23MSG_ERR_NO_FAX.infobox.text
 msgid "No fax printer has been set under Tools/Options/%1/Print."
 msgstr ""
 "Cha deach clò-bhualadair facs a shuidheachadh fo "
 "Innealan/Roghainnean/%1/Clò-bhualadh."
 
-#: view.src#STR_WEBOPTIONS.string.text
+#: view.src%23STR_WEBOPTIONS.string.text
 msgid "HTML document"
 msgstr "Sgrìobhainn HTML"
 
-#: view.src#STR_TEXTOPTIONS.string.text
+#: view.src%23STR_TEXTOPTIONS.string.text
 msgid "Text document"
 msgstr "Sgrìobhainn teacsa"
 
-#: view.src#MSG_NOT_FOUND.infobox.text
+#: view.src%23MSG_NOT_FOUND.infobox.text
 msgid "Search key not found."
 msgstr "Cha deach an iuchair luirg a lorg."
 
-#: view.src#MSG_INDEX_OVERFLOW.infobox.text
+#: view.src%23MSG_INDEX_OVERFLOW.infobox.text
 msgid "found."
 msgstr "air a lorg."
 
-#: view.src#MSG_SCAN_NOSOURCE.infobox.text
+#: view.src%23MSG_SCAN_NOSOURCE.infobox.text
 msgid "Source not specified."
 msgstr "Cha deach tùs a shònrachadh."
 
-#: view.src#STR_NUM_LEVEL.string.text
+#: view.src%23STR_NUM_LEVEL.string.text
 msgid "Level "
 msgstr "Leibheil "
 
-#: view.src#STR_NUM_OUTLINE.string.text
+#: view.src%23STR_NUM_OUTLINE.string.text
 msgid "Outline "
 msgstr "Oir-loidhne "
 
-#: view.src#STR_ERROR_NOLANG.string.text
+#: view.src%23STR_ERROR_NOLANG.string.text
 msgid "No language is selected in the proofed section."
 msgstr "Cha do thagh thu cànan san earrann a chaidh a dhearbhadh."
 
-#: view.src#STR_EDIT_FOOTNOTE.string.text
+#: view.src%23STR_EDIT_FOOTNOTE.string.text
 msgid "Edit Footnote/Endnote"
 msgstr "Deasaich am bun-nòta/nòta-deiridh"
 
-#: view.src#STR_NB_REPLACED.string.text
+#: view.src%23STR_NB_REPLACED.string.text
 msgid "Search key replaced XX times."
 msgstr "Chaidh an rud ùr a chur an àite na h-iuchrach luirg XX tura(i)s."
 
-#: view.src#RID_TOOLS_TOOLBOX.string.text
+#: view.src%23RID_TOOLS_TOOLBOX.string.text
 msgid "Main Toolbar"
 msgstr "Prìomh-bhàr-inneal"
 
-#: view.src#STR_SRCVIEW_ROW.string.text
+#: view.src%23STR_SRCVIEW_ROW.string.text
 msgid "Row "
 msgstr "Ràgh "
 
-#: view.src#STR_SRCVIEW_COL.string.text
+#: view.src%23STR_SRCVIEW_COL.string.text
 msgid "Column "
 msgstr "Colbh "
 
-#: view.src#STR_PRINT_TITLE.string.text
+#: view.src%23STR_PRINT_TITLE.string.text
 msgid "Printing selection"
 msgstr "Taghadh a' chlò-bhualaidh"
 
-#: view.src#STR_PRINT_MSG.string.text
+#: view.src%23STR_PRINT_MSG.string.text
 msgid "Do you want to print the selection or the entire document?"
 msgstr ""
 "A bheil thu airson na thagh thu a' chlò-bhualadh no an sgrìobhainn air fad?"
 
-#: view.src#STR_PRINT_ALL.string.text
+#: view.src%23STR_PRINT_ALL.string.text
 msgid "All"
 msgstr "An sgrìobhainn air fad"
 
-#: view.src#STR_PRINT_SELECTION.string.text
+#: view.src%23STR_PRINT_SELECTION.string.text
 msgid "Selection"
 msgstr "An taghadh"
 
-#: view.src#STR_READONLY_SEL.string.text
+#: view.src%23STR_READONLY_SEL.string.text
 msgid "read-only"
 msgstr "ri leughadh a-mhàin"
 
-#: view.src#STR_SAVEAS_SRC.string.text
+#: view.src%23STR_SAVEAS_SRC.string.text
 msgid "~Export source..."
 msgstr "Às-ph~ortaich an tùs..."
 
-#: view.src#MN_SRCVIEW_POPUPMENU.string.text
+#: view.src%23MN_SRCVIEW_POPUPMENU.string.text
 msgid "HTML source"
 msgstr "Tùs HTML"
 
-#: view.src#MN_SRCVIEW_POPUPMENU.SID_SOURCEVIEW.menuitem.text
+#: view.src%23MN_SRCVIEW_POPUPMENU.SID_SOURCEVIEW.menuitem.text
 msgid "HTML Source"
 msgstr "Tùs HTML"
-
-#: pview.src#DLG_PAGEPREVIEW_ZOOM.FT_COL.fixedtext.text
-msgid "~Columns"
-msgstr "~Colbhan"
-
-#: pview.src#DLG_PAGEPREVIEW_ZOOM.FT_ROW.fixedtext.text
-msgid "~Rows"
-msgstr "~Ràghan"
-
-#: pview.src#DLG_PAGEPREVIEW_ZOOM.modaldialog.text
-msgid "Multiple Pages"
-msgstr "Iomadh duilleag"
-
-#: pview.src#RID_PVIEW_TOOLBOX.string.text
-msgid "Page Preview"
-msgstr "Ro-shealladh na duilleige"

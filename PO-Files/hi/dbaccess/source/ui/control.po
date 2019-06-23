@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+dbaccess%2Fsource%2Fui%2Fcontrol.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 12:13+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+dbaccess%2Fsource%2F"
+"ui%2Fcontrol.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2014-02-15 08:51+0000\n"
 "Last-Translator: Nityanand <nnsharma_2006@yahoo.co.in>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,36 +15,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1392454280.000000\n"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
+#: undosqledit.src%23STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
+msgid "Modify SQL statement(s)"
+msgstr "SQL कथन सुधारें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_NAME.string.text
+msgid "Table name"
+msgstr "सारणी नाम"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_INSERT.string.text
+msgid "Insert data"
+msgstr "आँकड़ा जोड़ें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DELETE.string.text
+msgid "Delete data"
+msgstr "आँकड़ा मिटाएँ"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_UPDATE.string.text
+msgid "Modify data"
+msgstr "आँकड़ा सुधारें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_ALTER.string.text
+msgid "Alter structure"
+msgstr "बनावट बदलें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_SELECT.string.text
+msgid "Read data"
+msgstr "आँकड़ा पढें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_REFERENCE.string.text
+msgid "Modify references"
+msgstr "संदर्भ सुधारें"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DROP.string.text
+msgid "Drop structure"
+msgstr "बनावट गिरायें"
+
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
 msgid "Sort Ascending"
 msgstr "आरोहण क्रम में छाँटें"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
 msgid "Sort Descending"
 msgstr "अवरोहण क्रम में छाँटें"
 
-#: tabletree.src#STR_COULDNOTCREATE_DRIVERMANAGER.string.text
+#: tabletree.src%23STR_COULDNOTCREATE_DRIVERMANAGER.string.text
 msgid "Cannot connect to the SDBC driver manager (#servicename#)."
 msgstr "SDBC ड्राइवर प्रबन्धक (#servicename#) से संयोजित नहीं कर सकता है।"
 
-#: tabletree.src#STR_NOREGISTEREDDRIVER.string.text
+#: tabletree.src%23STR_NOREGISTEREDDRIVER.string.text
 msgid "A driver is not registered for the URL #connurl#."
 msgstr "URL #connurl# के लिए ड्राइवर को पंजीकृत नहीं किया है।"
 
-#: tabletree.src#STR_COULDNOTCONNECT.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT.string.text
 msgid "No connection could be established for the URL #connurl#."
 msgstr "URL #connurl# के लिए संयोजन स्थापित नहीं कर सकते है।"
 
-#: tabletree.src#STR_COULDNOTCONNECT_PLEASECHECK.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT_PLEASECHECK.string.text
 msgid "Please check the current settings, for example user name and password."
 msgstr ""
 "कृपया वर्तमान निर्धारणों की जाँच करें, उदाहरण के लिए उपयोक्ता नाम और कूटशब्द।"
 
-#: tabletree.src#STR_NOTABLEINFO.string.text
+#: tabletree.src%23STR_NOTABLEINFO.string.text
 msgid ""
 "Successfully connected, but information about database tables is not "
 "available."
@@ -52,50 +88,14 @@ msgstr ""
 "सफलता से संयोजन किया है, लेकिन डेटाबेस सारणियों के बारे में सूचना उपलब्ध नहीं"
 " है।"
 
-#: tabletree.src#STR_ALL_TABLES.string.text
+#: tabletree.src%23STR_ALL_TABLES.string.text
 msgid "All tables"
 msgstr "सभी सारणी"
 
-#: tabletree.src#STR_ALL_VIEWS.string.text
+#: tabletree.src%23STR_ALL_VIEWS.string.text
 msgid "All views"
 msgstr "सभी दृश्य"
 
-#: tabletree.src#STR_ALL_TABLES_AND_VIEWS.string.text
+#: tabletree.src%23STR_ALL_TABLES_AND_VIEWS.string.text
 msgid "All tables and views"
 msgstr "सभी सारणी और दृश्य"
-
-#: undosqledit.src#STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
-msgid "Modify SQL statement(s)"
-msgstr "SQL कथन सुधारें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_NAME.string.text
-msgid "Table name"
-msgstr "सारणी नाम"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_INSERT.string.text
-msgid "Insert data"
-msgstr "आँकड़ा जोड़ें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DELETE.string.text
-msgid "Delete data"
-msgstr "आँकड़ा मिटाएँ"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_UPDATE.string.text
-msgid "Modify data"
-msgstr "आँकड़ा सुधारें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_ALTER.string.text
-msgid "Alter structure"
-msgstr "बनावट बदलें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_SELECT.string.text
-msgid "Read data"
-msgstr "आँकड़ा पढें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_REFERENCE.string.text
-msgid "Modify references"
-msgstr "संदर्भ सुधारें"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DROP.string.text
-msgid "Drop structure"
-msgstr "बनावट गिरायें"

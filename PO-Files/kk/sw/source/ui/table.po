@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sw%2Fsource%2Fui%2Ftable.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Ft"
+"able.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,90 +14,138 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 
-#: instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
-msgid "Name"
-msgstr "Атауы"
-
-#: instable.src#DLG_INSERT_TABLE.FT_COL.fixedtext.text
-msgid "~Columns"
-msgstr "~Бағандар"
-
-#: instable.src#DLG_INSERT_TABLE.FT_ROW.fixedtext.text
-msgid "~Rows"
-msgstr "~Жолдар"
-
-#: instable.src#DLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Size"
-msgstr "Өлшемі"
-
-#: instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Тақырыптама"
-
-#: instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Тақырыптаманы қайталау"
-
-#: instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr ""
-
-#: instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
-#, fuzzy
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "Кестені ажыратпау"
-
-#: instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Шектер"
-
-#: instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "~Автопішімдеу..."
-
-#: instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Опциялар"
-
-#: instable.src#DLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Table"
-msgstr "Кестені кірістіру"
-
-#: table.src#MSG_ERR_TABLE_MERGE.infobox.text
+#: table.src%23MSG_ERR_TABLE_MERGE.infobox.text
 msgid "Selected table cells are too complex to merge."
 msgstr "Кестенің ерекшеленген ұяшықтары біріктіру үшін тым қиын."
 
-#: chartins.src#DLG_INSERT_CHART.FL_1.fixedline.text
+#: splittbl.src%23DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
+msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
+msgid "Mode"
+msgstr "Режимі"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
+#, fuzzy
+msgid "~Copy heading"
+msgstr "Тақырыптаманы көшіру"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
+#, fuzzy
+msgid "C~ustom heading (apply Style)"
+msgstr "Пайдаланушы тақырыптамасы (стильді қоса)"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
+#, fuzzy
+msgid "Cu~stom heading"
+msgstr "Пайдаланушы тақырыптамасы"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
+#, fuzzy
+msgid "~No heading"
+msgstr "Тақырыптамасыз"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.modaldialog.text
+msgid "Split Table"
+msgstr "Кестені бөлу"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
+#, fuzzy
+msgid "~Tabs"
+msgstr "~Табуляция"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
+#, fuzzy
+msgid "~Semicolons"
+msgstr "Нүктелі үтір"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
+#, fuzzy
+msgid "~Paragraph"
+msgstr "Абзац"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
+#, fuzzy
+msgid "~Other: "
+msgstr "Басқа:"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
+msgid "Equal width for all columns"
+msgstr "Барлық бағандардың ені бірдей"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
+msgid "Separate text at"
+msgstr "Мәтін ажыратқышы"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Тақырыптама"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Тақырыптаманы қайталау"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr ""
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
+#, fuzzy
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "Кестені ажыратпау"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Шектер"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Опциялар"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
+msgid "Convert Text to Table"
+msgstr "Мәтінді кестеге түрлендіру"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "~Автопішімдеу..."
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
+msgid "Symbol"
+msgstr "Таңба"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.modaldialog.text
+msgid "Convert Table to Text"
+msgstr "Мәтінді кестеге түрлендіру"
+
+#: chartins.src%23DLG_INSERT_CHART.FL_1.fixedline.text
 msgid "Selection"
 msgstr "Ерекшелеу"
 
-#: chartins.src#DLG_INSERT_CHART.FT_RANGE.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_RANGE.fixedtext.text
 #, fuzzy
 msgid "A~rea"
 msgstr "Аймақ"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
 #, fuzzy
 msgid "~First row as caption"
 msgstr "Атауы ретінде бірінші қа~тар"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
 #, fuzzy
 msgid "First ~column as caption"
 msgstr "Бірінші ~баған белгі ретінде"
 
-#: chartins.src#DLG_INSERT_CHART.FT_TEXT.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_TEXT.fixedtext.text
 msgid ""
 "If the selected cells do not contain the desired data, select the data range "
 "now.\n"
@@ -106,399 +154,457 @@ msgid ""
 "included in your chart."
 msgstr ""
 
-#: chartins.src#DLG_INSERT_CHART.BT_PREV.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_PREV.pushbutton.text
 msgid "<< ~Back"
 msgstr "<< Ар~тқа"
 
-#: chartins.src#DLG_INSERT_CHART.BT_NEXT.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_NEXT.pushbutton.text
 msgid "~Next >>"
 msgstr "~Келесі >>"
 
-#: chartins.src#DLG_INSERT_CHART.BT_FINISH.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_FINISH.pushbutton.text
 #, fuzzy
 msgid "Cre~ate"
 msgstr "Жасау"
 
-#: chartins.src#DLG_INSERT_CHART.modelessdialog.text
+#: chartins.src%23DLG_INSERT_CHART.modelessdialog.text
 #, fuzzy
 msgid "AutoFormat Chart (1-4)"
 msgstr "Кестенің автопішімі"
 
-#: tabledlg.src#TEXT_TEXTFLOW.#define.text
+#: rowht.src%23DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
+#, fuzzy
+msgid "~Fit to size"
+msgstr "Өл~шемді келтіру"
+
+#: rowht.src%23DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
+msgid "Height"
+msgstr "Биіктігі"
+
+#: rowht.src%23DLG_ROW_HEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Жол биіктігі"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
+msgid "Name"
+msgstr "Атауы"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_COL.fixedtext.text
+msgid "~Columns"
+msgstr "~Бағандар"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_ROW.fixedtext.text
+msgid "~Rows"
+msgstr "~Жолдар"
+
+#: instable.src%23DLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Size"
+msgstr "Өлшемі"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Тақырыптама"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Тақырыптаманы қайталау"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr ""
+
+#: instable.src%23DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
+#, fuzzy
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "Кестені ажыратпау"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_BORDER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Шектер"
+
+#: instable.src%23DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "~Автопішімдеу..."
+
+#: instable.src%23DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Опциялар"
+
+#: instable.src%23DLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Table"
+msgstr "Кестені кірістіру"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "~Ені"
+
+#: colwd.src%23DLG_COL_WIDTH.FL_WIDTH.fixedline.text
+msgid "Width"
+msgstr "Ені"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_COL.fixedtext.text
+#, fuzzy
+msgid "~Column"
+msgstr "Баған"
+
+#: colwd.src%23DLG_COL_WIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Баған ені"
+
+#: tabledlg.src%23TEXT_TEXTFLOW.%23define.text
 msgid "Text Flow"
 msgstr "Бетте"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
 msgid "Table"
 msgstr "Кесте"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
 msgid "Columns"
 msgstr "Бағандар"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
 msgid "Borders"
 msgstr "Шектер"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
 msgid "Background"
 msgstr "Фон"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.tabdialog.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.tabdialog.text
 msgid "Table Format"
 msgstr "Кесте қасиеттері"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_NAME.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_NAME.fixedtext.text
 msgid "~Name"
 msgstr "~Аты"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
 #, fuzzy
 msgid "W~idth"
 msgstr "~Ені"
 
-#: tabledlg.src#TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
+#: tabledlg.src%23TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
 #, fuzzy
 msgid "Relati~ve"
 msgstr "Сал~ыстырмалы"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text"
 msgid "Properties"
 msgstr "Қасиеттері"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FULL.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FULL.radiobutton.text
 #, fuzzy
 msgid "A~utomatic"
 msgstr "А~втоматты түрде"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
 msgid "~Left"
 msgstr "~Сол жақ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
 #, fuzzy
 msgid "~From left"
 msgstr "~Сол жақтан шегіну"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
 #, fuzzy
 msgid "R~ight"
 msgstr "Оң ~жақ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
 msgid "~Center"
 msgstr "Ор~тасына қарай"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FREE.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FREE.radiobutton.text
 msgid "~Manual"
 msgstr "Қол~дан"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_POS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text"
 msgid "Alignment"
 msgstr "Туралау"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_DIST.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_DIST.fixedline.text
 msgid "Spacing"
 msgstr "Аралық"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
 #, fuzzy
 msgid "Lef~t"
 msgstr "Сол ~жақ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
 #, fuzzy
 msgid "Ri~ght"
 msgstr "~Оң жақ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
 #, fuzzy
 msgid "~Above"
 msgstr "~Жоғары"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
 #, fuzzy
 msgid "~Below"
 msgstr "~Төмен"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text"
 msgid "Properties"
 msgstr "Қасиеттері"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
 #, fuzzy
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "~Мәтін бағыты"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Солдан оңға"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left"
 msgstr "Оңнан солға"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Баптауларды мұралау"
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
 #, fuzzy
 msgid "Adapt table ~width"
 msgstr "Кесте е~нін келтіру"
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_PROP.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_PROP.checkbox.text
 #, fuzzy
 msgid "Ad~just columns proportionally"
 msgstr "Бағандардың ендерін ~келтіру"
 
-#: tabledlg.src#TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
+#: tabledlg.src%23TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
 #, fuzzy
 msgid "Remaining space"
 msgstr "Қалған орны "
 
-#: tabledlg.src#TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
+#: tabledlg.src%23TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
 msgid "Column width"
 msgstr "Бағандар ендері"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
 msgid "~Break"
 msgstr "~Ажырау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
 #, fuzzy
 msgid "~Page"
 msgstr "~Бет"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
 #, fuzzy
 msgid "Col~umn"
 msgstr "~Баған"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
 #, fuzzy
 msgid "Be~fore"
 msgstr "Д~ейін"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
 #, fuzzy
 msgid "~After"
 msgstr "~Кейін"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
 #, fuzzy
 msgid "With Page St~yle"
 msgstr "Бет стилімен"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
 #, fuzzy
 msgid "Page ~number"
 msgstr "~Бет нөмірі"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
 #, fuzzy
 msgid "Allow ~table to split across pages and columns"
 msgstr "Кес~теге беттер және бағандар арасында ажырауды рұқсат ету"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
 #, fuzzy
 msgid "Allow row to break a~cross pages and columns"
 msgstr "Жо~лға беттер және бағандар арасында ажырауды рұқсат ету"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
 #, fuzzy
 msgid "~Keep with next paragraph"
 msgstr "~Келесі абзацпен бірге ұстау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
 #, fuzzy
 msgid "R~epeat heading"
 msgstr "~Тақырыптаманы қайталау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text"
 msgid "The first %POSITION_OF_CONTROL rows"
 msgstr ""
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
 #, fuzzy
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "~Мәтін бағыты"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Солдан оңға"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left (vertical)"
 msgstr "Оңнан солға (вертикалды)"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Баптауларды мұралау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text"
 msgid "Alignment"
 msgstr "Туралау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
 #, fuzzy
 msgid "~Vertical alignment"
 msgstr "~Вертикалды туралау"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
 msgid "Top"
 msgstr "Жоғарыдан"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
 msgid "Centered"
 msgstr "Ортасынан"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
 msgid "Bottom"
 msgstr "Төменнен"
 
-#: tabledlg.src#MSG_WRONG_TABLENAME.infobox.text
+#: tabledlg.src%23MSG_WRONG_TABLENAME.infobox.text
 msgid "The name of the table must not contain spaces."
 msgstr "Кестенің атында бос аралық болмауы тиіс."
 
-#: splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
-msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
-msgid "Mode"
-msgstr "Режимі"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
-#, fuzzy
-msgid "~Copy heading"
-msgstr "Тақырыптаманы көшіру"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
-#, fuzzy
-msgid "C~ustom heading (apply Style)"
-msgstr "Пайдаланушы тақырыптамасы (стильді қоса)"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
-#, fuzzy
-msgid "Cu~stom heading"
-msgstr "Пайдаланушы тақырыптамасы"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
-#, fuzzy
-msgid "~No heading"
-msgstr "Тақырыптамасыз"
-
-#: splittbl.src#DLG_SPLIT_TABLE.modaldialog.text
-msgid "Split Table"
-msgstr "Кестені бөлу"
-
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
 msgid "Format"
 msgstr "Пішімі"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
 msgid "~Number format"
 msgstr "~Сандық пішім"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
 msgid "~Borders"
 msgstr "~Шектер"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
 msgid "F~ont"
 msgstr "Қ~аріп"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
 msgid "~Pattern"
 msgstr "~Ою"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
 msgid "Alignmen~t"
 msgstr "~Туралау"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
 msgid "Formatting"
 msgstr "Пішімдеу"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
 msgid "~More"
 msgstr "~Көбірек"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
 msgid "~Add"
 msgstr "Қ~осу"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
 msgid "~Delete"
 msgstr "Ө~шіру"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
 msgid "~Rename"
 msgstr "Атын ө~згерту"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
 msgid "Add AutoFormat"
 msgstr "Автопішімді қосу"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
 msgctxt "tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text"
 msgid "Name"
 msgstr "Атауы"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
 msgid "Delete AutoFormat"
 msgstr "Автопішімді өшіру"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
 msgid "The following AutoFormat entry will be deleted:"
 msgstr "Келесі автопішім өшірілетін болады:"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
 msgid "Rename AutoFormat"
 msgstr "Автопішім атын өзгерту"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
 msgid "~Close"
 msgstr "~Жабу"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_JAN.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_JAN.string.text
 msgid "Jan"
 msgstr "Қан"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_FEB.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_FEB.string.text
 msgid "Feb"
 msgstr "Ақп"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MAR.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MAR.string.text
 msgid "Mar"
 msgstr "Нау"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_NORTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_NORTH.string.text
 msgid "North"
 msgstr "Солтүстік"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MID.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MID.string.text
 msgid "Mid"
 msgstr "Ортасы"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
 msgid "South"
 msgstr "Оңтүстік"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SUM.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SUM.string.text
 msgid "Sum"
 msgstr "Сома"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
 msgid ""
 "You have entered an invalid name.\n"
 "The desired AutoFormat could not be created. \n"
@@ -508,131 +614,25 @@ msgstr ""
 "Қаланған автопішімді жасау мүмкін емес.\n"
 "Басқа атын енгізіп көріңіз."
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.modaldialog.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.modaldialog.text
 msgid "AutoFormat"
 msgstr "Автопішімдеу"
 
-#: rowht.src#DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
-#, fuzzy
-msgid "~Fit to size"
-msgstr "Өл~шемді келтіру"
-
-#: rowht.src#DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
-msgid "Height"
-msgstr "Биіктігі"
-
-#: rowht.src#DLG_ROW_HEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Жол биіктігі"
-
-#: colwd.src#DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "~Ені"
-
-#: colwd.src#DLG_COL_WIDTH.FL_WIDTH.fixedline.text
-msgid "Width"
-msgstr "Ені"
-
-#: colwd.src#DLG_COL_WIDTH.FT_COL.fixedtext.text
-#, fuzzy
-msgid "~Column"
-msgstr "Баған"
-
-#: colwd.src#DLG_COL_WIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Баған ені"
-
-#: mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text
+#: mergetbl.src%23DLG_MERGE_TABLE.FL_MERGE.fixedline.text
 msgctxt "mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text"
 msgid "Mode"
 msgstr "Режимі"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
 #, fuzzy
 msgid "Join with ~previous table"
 msgstr "Ал~дыңғы кестемен біріктіру"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
 #, fuzzy
 msgid "Join with ~next table"
 msgstr "~Келесі кестемен біріктіру"
 
-#: mergetbl.src#DLG_MERGE_TABLE.modaldialog.text
+#: mergetbl.src%23DLG_MERGE_TABLE.modaldialog.text
 msgid "Merge Tables"
 msgstr "Кестелерді біріктіру"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
-#, fuzzy
-msgid "~Tabs"
-msgstr "~Табуляция"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
-#, fuzzy
-msgid "~Semicolons"
-msgstr "Нүктелі үтір"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
-#, fuzzy
-msgid "~Paragraph"
-msgstr "Абзац"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
-#, fuzzy
-msgid "~Other: "
-msgstr "Басқа:"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
-msgid "Equal width for all columns"
-msgstr "Барлық бағандардың ені бірдей"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
-msgid "Separate text at"
-msgstr "Мәтін ажыратқышы"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Тақырыптама"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Тақырыптаманы қайталау"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr ""
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
-#, fuzzy
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "Кестені ажыратпау"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Шектер"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Опциялар"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
-msgid "Convert Text to Table"
-msgstr "Мәтінді кестеге түрлендіру"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "~Автопішімдеу..."
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
-msgid "Symbol"
-msgstr "Таңба"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.modaldialog.text
-msgid "Convert Table to Text"
-msgstr "Мәтінді кестеге түрлендіру"

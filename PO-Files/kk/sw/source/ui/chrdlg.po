@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sw%2Fsource%2Fui%2Fchrdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
-"PO-Revision-Date: 2019-01-01 20:13+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
+"hrdlg.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
+"PO-Revision-Date: 2019-05-07 23:10+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kk\n"
@@ -17,99 +17,514 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1546373634.000000\n"
+"X-POOTLE-MTIME: 1557270636.000000\n"
 
-#: paradlg.src#DLG_PARA.1.TP_PARA_STD.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_STD.pageitem.text
+msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text"
+msgid "Font"
+msgstr "Қаріп"
+
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "Қаріп эффекттері"
+
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_POS.pageitem.text
+msgid "Position"
+msgstr "Орналасу"
+
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
+msgid "Asian Layout"
+msgstr "Шығысазиялық мәтіннің белгіленуі"
+
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_URL.pageitem.text
+msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text"
+msgid "Hyperlink"
+msgstr "Гиперсілтеме"
+
+#: chardlg.src%23DLG_CHAR.1.TP_BACKGROUND.pageitem.text
+#, fuzzy
+msgid "Background"
+msgstr "Фон"
+
+#: chardlg.src%23DLG_CHAR.tabdialog.text
+msgid "Character"
+msgstr "Таңбалар"
+
+#: chardlg.src%23DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
+msgctxt "chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text"
+msgid "Font"
+msgstr "Қаріп"
+
+#: chardlg.src%23DLG_DRAWCHAR.tabdialog.text
+msgctxt "chardlg.src#DLG_DRAWCHAR.tabdialog.text"
+msgid "Font"
+msgstr "Қаріп"
+
+#: chardlg.src%23TP_CHAR_URL.FL_URL.fixedline.text
+msgctxt "chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text"
+msgid "Hyperlink"
+msgstr "Гиперсілтеме"
+
+#: chardlg.src%23TP_CHAR_URL.FT_URL.fixedtext.text
+msgid "~URL"
+msgstr "~URL"
+
+#: chardlg.src%23TP_CHAR_URL.PB_URL.pushbutton.text
+msgid "~Browse..."
+msgstr "~Шолу..."
+
+#: chardlg.src%23TP_CHAR_URL.FT_TEXT.fixedtext.text
+msgid "Te~xt"
+msgstr "Мә~тін"
+
+#: chardlg.src%23TP_CHAR_URL.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "~Аты"
+
+#: chardlg.src%23TP_CHAR_URL.FT_TARGET.fixedtext.text
+#, fuzzy
+msgid "~Target frame"
+msgstr "Фрейм"
+
+#: chardlg.src%23TP_CHAR_URL.PB_EVENT.pushbutton.text
+msgid "~Events..."
+msgstr "~Оқиғалар..."
+
+#: chardlg.src%23TP_CHAR_URL.FL_STYLE.fixedline.text
+msgid "Character Styles"
+msgstr "Таңба стильдері"
+
+#: chardlg.src%23TP_CHAR_URL.FT_VISITED.fixedtext.text
+#, fuzzy
+msgid "~Visited links"
+msgstr "Қаралған сілтемелер"
+
+#: chardlg.src%23TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
+#, fuzzy
+msgid "Unvisited ~links"
+msgstr "Қаралмаған сілтемелер"
+
+#: drpcps.src%23DLG_DROPCAPS.1.TP_DROPCAPS.pageitem.text
+msgctxt "drpcps.src#DLG_DROPCAPS.1.TP_DROPCAPS.pageitem.text"
+msgid "Drop Caps"
+msgstr "Әріпше"
+
+#: drpcps.src%23DLG_DROPCAPS.tabdialog.text
+msgctxt "drpcps.src#DLG_DROPCAPS.tabdialog.text"
+msgid "Drop Caps"
+msgstr "Әріпше"
+
+#: drpcps.src%23TP_DROPCAPS.CB_SWITCH.checkbox.text
+#, fuzzy
+msgid "Display drop caps"
+msgstr "Әрі_пшені қосу"
+
+#: drpcps.src%23TP_DROPCAPS.CB_WORD.checkbox.text
+#, fuzzy
+msgid "~Whole word"
+msgstr "~Толық сөз"
+
+#: drpcps.src%23TP_DROPCAPS.FT_DROPCAPS.fixedtext.text
+#, fuzzy
+msgid "Number of ~characters:"
+msgstr "~Таңбалар саны:"
+
+#: drpcps.src%23TP_DROPCAPS.TXT_LINES.fixedtext.text
+#, fuzzy
+msgid "~Lines"
+msgstr "Сызықтар"
+
+#: drpcps.src%23TP_DROPCAPS.TXT_DISTANCE.fixedtext.text
+msgid "Space to text"
+msgstr "Мәтінге дейінгі арақашықтық"
+
+#: drpcps.src%23TP_DROPCAPS.FL_SETTINGS.fixedline.text
+msgid "Settings"
+msgstr "Баптаулар"
+
+#: drpcps.src%23TP_DROPCAPS.TXT_TEXT.fixedtext.text
+msgid "~Text"
+msgstr "~Мәтін"
+
+#: drpcps.src%23TP_DROPCAPS.TXT_TEMPLATE.fixedtext.text
+#, fuzzy
+msgid "Character St~yle"
+msgstr "Таңба стилі"
+
+#: drpcps.src%23TP_DROPCAPS.FL_CONTENT.fixedline.text
+msgid "Contents"
+msgstr "Құрамасы"
+
+#: paradlg.src%23DLG_PARA.1.TP_PARA_STD.pageitem.text
 msgctxt "paradlg.src#DLG_PARA.1.TP_PARA_STD.pageitem.text"
 msgid "Indents & Spacing"
 msgstr "Шегіністер және аралықтар"
 
-#: paradlg.src#DLG_PARA.1.TP_PARA_ALIGN.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_PARA_ALIGN.pageitem.text
 msgctxt "paradlg.src#DLG_PARA.1.TP_PARA_ALIGN.pageitem.text"
 msgid "Alignment"
 msgstr "Туралау"
 
-#: paradlg.src#DLG_PARA.1.TP_PARA_EXT.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_PARA_EXT.pageitem.text
 msgid "Text Flow"
 msgstr "Бетте"
 
-#: paradlg.src#DLG_PARA.1.TP_PARA_ASIAN.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_PARA_ASIAN.pageitem.text
 msgctxt "paradlg.src#DLG_PARA.1.TP_PARA_ASIAN.pageitem.text"
 msgid "Asian Typography"
 msgstr "Шығысазиялық теру ережелері"
 
-#: paradlg.src#DLG_PARA.1.TP_NUMPARA.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_NUMPARA.pageitem.text
 msgid "Outline & Numbering"
 msgstr "Құрылымы және нөмірлеу"
 
-#: paradlg.src#DLG_PARA.1.TP_TABULATOR.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_TABULATOR.pageitem.text
 msgctxt "paradlg.src#DLG_PARA.1.TP_TABULATOR.pageitem.text"
 msgid "Tabs"
 msgstr "Табуляция"
 
-#: paradlg.src#DLG_PARA.1.TP_DROPCAPS.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_DROPCAPS.pageitem.text
 msgctxt "paradlg.src#DLG_PARA.1.TP_DROPCAPS.pageitem.text"
 msgid "Drop Caps"
 msgstr "Әріпше"
 
-#: paradlg.src#DLG_PARA.1.TP_BORDER.pageitem.text
+#: paradlg.src%23DLG_PARA.1.TP_BORDER.pageitem.text
 msgid "Borders"
 msgstr "Шектер"
 
-#: paradlg.src#DLG_PARA.1.RID_SVXPAGE_AREA.pageitem.text
+#: paradlg.src%23DLG_PARA.1.RID_SVXPAGE_AREA.pageitem.text
 msgid "Area"
 msgstr ""
 
-#: paradlg.src#DLG_PARA.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+#: paradlg.src%23DLG_PARA.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
 msgid "Transparency"
 msgstr ""
 
-#: paradlg.src#DLG_PARA.tabdialog.text
+#: paradlg.src%23DLG_PARA.tabdialog.text
 msgctxt "paradlg.src#DLG_PARA.tabdialog.text"
 msgid "Paragraph"
 msgstr "Абзац"
 
-#: paradlg.src#DLG_DRAWPARA.1.TP_PARA_STD.pageitem.text
+#: paradlg.src%23DLG_DRAWPARA.1.TP_PARA_STD.pageitem.text
 msgctxt "paradlg.src#DLG_DRAWPARA.1.TP_PARA_STD.pageitem.text"
 msgid "Indents & Spacing"
 msgstr "Шегіністер және аралықтар"
 
-#: paradlg.src#DLG_DRAWPARA.1.TP_PARA_ALIGN.pageitem.text
+#: paradlg.src%23DLG_DRAWPARA.1.TP_PARA_ALIGN.pageitem.text
 msgctxt "paradlg.src#DLG_DRAWPARA.1.TP_PARA_ALIGN.pageitem.text"
 msgid "Alignment"
 msgstr "Туралау"
 
-#: paradlg.src#DLG_DRAWPARA.1.TP_PARA_ASIAN.pageitem.text
+#: paradlg.src%23DLG_DRAWPARA.1.TP_PARA_ASIAN.pageitem.text
 msgctxt "paradlg.src#DLG_DRAWPARA.1.TP_PARA_ASIAN.pageitem.text"
 msgid "Asian Typography"
 msgstr "Шығысазиялық теру ережелері"
 
-#: paradlg.src#DLG_DRAWPARA.1.TP_TABULATOR.pageitem.text
+#: paradlg.src%23DLG_DRAWPARA.1.TP_TABULATOR.pageitem.text
 msgctxt "paradlg.src#DLG_DRAWPARA.1.TP_TABULATOR.pageitem.text"
 msgid "Tabs"
 msgstr "Табуляция"
 
-#: paradlg.src#DLG_DRAWPARA.tabdialog.text
+#: paradlg.src%23DLG_DRAWPARA.tabdialog.text
 msgctxt "paradlg.src#DLG_DRAWPARA.tabdialog.text"
 msgid "Paragraph"
 msgstr "Абзац"
 
-#: chrdlg.src#STR_TEXTCOLL_HEADER.string.text
+#: numpara.src%23TP_NUMPARA.FL_OUTLINE_START.fixedline.text
+msgid "Outline"
+msgstr "Құрылымы"
+
+#: numpara.src%23TP_NUMPARA.FT_OUTLINE_LEVEL.fixedtext.text
+#, fuzzy
+msgid "Outline level"
+msgstr "Құрылым деңгейлері:"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.1.stringlist.text
+msgid "Body text"
+msgstr "Негізгі мәтін"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.2.stringlist.text
+msgid "Level 1"
+msgstr "Деңгей 1"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.3.stringlist.text
+msgid "Level 2"
+msgstr "Деңгей 2"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.4.stringlist.text
+msgid "Level 3"
+msgstr "Деңгей 3"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.5.stringlist.text
+msgid "Level 4"
+msgstr "Деңгей 4"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.6.stringlist.text
+msgid "Level 5"
+msgstr "Деңгей 5"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.7.stringlist.text
+msgid "Level 6"
+msgstr "Деңгей 6"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.8.stringlist.text
+msgid "Level 7"
+msgstr "Деңгей 7"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.9.stringlist.text
+msgid "Level 8"
+msgstr "Деңгей 8"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.10.stringlist.text
+msgid "Level 9"
+msgstr "Деңгей 9"
+
+#: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.11.stringlist.text
+msgid "Level 10"
+msgstr "Деңгей 10"
+
+#: numpara.src%23TP_NUMPARA.FL_NEW_START.fixedline.text
+msgid "Numbering"
+msgstr "Нөмірлеу"
+
+#: numpara.src%23TP_NUMPARA.FT_NUMBER_STYLE.fixedtext.text
+msgid "Numbering Style"
+msgstr "Нөмірлеу стилі"
+
+#: numpara.src%23TP_NUMPARA.LB_NUMBER_STYLE.1.stringlist.text
+msgid "None"
+msgstr "Жоқ"
+
+#: numpara.src%23TP_NUMPARA.CB_NEW_START.tristatebox.text
+#, fuzzy
+msgid "R~estart at this paragraph"
+msgstr "~Бұл абзацта қайтадан бастау"
+
+#: numpara.src%23TP_NUMPARA.CB_NUMBER_NEW_START.tristatebox.text
+#, fuzzy
+msgid "S~tart with"
+msgstr "Бас~тау"
+
+#: numpara.src%23TP_NUMPARA.FL_COUNT_PARA.fixedline.text
+msgid "Line numbering"
+msgstr "Жолдарды нөмірлеу"
+
+#: numpara.src%23TP_NUMPARA.CB_COUNT_PARA.tristatebox.text
+#, fuzzy
+msgid "~Include this paragraph in line numbering"
+msgstr "Бұл абзацты жолдар нө~мірленуіне қосу"
+
+#: numpara.src%23TP_NUMPARA.CB_RESTART_PARACOUNT.tristatebox.text
+#, fuzzy
+msgid "Rest~art at this paragraph"
+msgstr "Бұл абзацтан қ~айтадан бастау"
+
+#: numpara.src%23TP_NUMPARA.FT_RESTART_NO.fixedtext.text
+#, fuzzy
+msgid "~Start with"
+msgstr "Бас_тау"
+
+#: ccoll.src%23TP_CONDCOLL.FL_CONDITION.fixedline.text
+msgid "Options"
+msgstr "Опциялар"
+
+#: ccoll.src%23TP_CONDCOLL.CB_CONDITION.checkbox.text
+#, fuzzy
+msgid "~Conditional Style"
+msgstr "~Шартты стиль"
+
+#: ccoll.src%23TP_CONDCOLL.FT_CONTEXT.fixedtext.text
+#, fuzzy
+msgid "Conte~xt"
+msgstr "Конте~кст"
+
+#: ccoll.src%23TP_CONDCOLL.FT_USED.fixedtext.text
+msgid "Applied Styles"
+msgstr "Іске асырылған стильдер"
+
+#: ccoll.src%23TP_CONDCOLL.FT_STYLE.fixedtext.text
+#, fuzzy
+msgid "~Paragraph Styles"
+msgstr "~Абзац стильдері"
+
+#: ccoll.src%23TP_CONDCOLL.PB_REMOVE.pushbutton.text
+#, fuzzy
+msgid "Re~move"
+msgstr "Өшіру"
+
+#: ccoll.src%23TP_CONDCOLL.PB_ASSIGN.pushbutton.text
+msgid "~Apply"
+msgstr "Іске ~асыру"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.1.itemlist.text
+msgid "Table Header"
+msgstr "Кесте тақырыптамасы"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.2.itemlist.text
+msgid "Table"
+msgstr "Кесте"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.3.itemlist.text
+msgid "Frame"
+msgstr "Фрейм"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.4.itemlist.text
+msgid "Section"
+msgstr "Бөлім"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.5.itemlist.text
+msgid "Footnote"
+msgstr "Нұсқама"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.6.itemlist.text
+msgid "Endnote"
+msgstr "Соңдық нұсқама"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.7.itemlist.text
+msgid "Header"
+msgstr "Жоғарғы колонтитул"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.8.itemlist.text
+msgid "Footer"
+msgstr "Төменгі колонтитул"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.9.itemlist.text
+msgid " 1st Outline Level"
+msgstr " 1-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.10.itemlist.text
+msgid " 2nd Outline Level"
+msgstr " 2-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.11.itemlist.text
+msgid " 3rd Outline Level"
+msgstr " 3-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.12.itemlist.text
+msgid " 4th Outline Level"
+msgstr " 4-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.13.itemlist.text
+msgid " 5th Outline Level"
+msgstr " 5-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.14.itemlist.text
+msgid " 6th Outline Level"
+msgstr " 6-шы құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.15.itemlist.text
+msgid " 7th Outline Level"
+msgstr " 7-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.16.itemlist.text
+msgid " 8th Outline Level"
+msgstr " 8-ші құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.17.itemlist.text
+msgid " 9th Outline Level"
+msgstr " 9-шы құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.18.itemlist.text
+msgid "10th Outline Level"
+msgstr " 10-шы құрылым деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.19.itemlist.text
+msgid " 1st Numbering Level"
+msgstr " 1-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.20.itemlist.text
+msgid " 2nd Numbering Level"
+msgstr " 2-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.21.itemlist.text
+msgid " 3rd Numbering Level"
+msgstr " 3-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.22.itemlist.text
+msgid " 4th Numbering Level"
+msgstr " 4-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.23.itemlist.text
+msgid " 5th Numbering Level"
+msgstr " 5-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.24.itemlist.text
+msgid " 6th Numbering Level"
+msgstr " 6-шы нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.25.itemlist.text
+msgid " 7th Numbering Level"
+msgstr " 7-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.26.itemlist.text
+msgid " 8th Numbering Level"
+msgstr " 8-ші нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.27.itemlist.text
+msgid " 9th Numbering Level"
+msgstr " 9-шы нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_REGIONS.28.itemlist.text
+msgid "10th Numbering Level"
+msgstr " 10-шы нөмірлеу деңгейі"
+
+#: ccoll.src%23TP_CONDCOLL.STR_NOTEMPL.string.text
+msgid "<none>"
+msgstr "<жоқ>"
+
+#: swbreak.src%23DLG_BREAK.RB_LINE.radiobutton.text
+#, fuzzy
+msgid "~Line break"
+msgstr "Жолды тасымалдау"
+
+#: swbreak.src%23DLG_BREAK.RB_PAGE.radiobutton.text
+#, fuzzy
+msgid "~Page break"
+msgstr "Бет ажырауы"
+
+#: swbreak.src%23DLG_BREAK.RB_COL.radiobutton.text
+#, fuzzy
+msgid "~Column break"
+msgstr "Баған ажырауы"
+
+#: swbreak.src%23DLG_BREAK.FL_BREAK.fixedline.text
+msgid "Type"
+msgstr "Түрі"
+
+#: swbreak.src%23DLG_BREAK.FT_COLL.fixedtext.text
+msgid "~Style"
+msgstr "~Стиль"
+
+#: swbreak.src%23DLG_BREAK.LB_COLL.1.stringlist.text
+msgctxt "swbreak.src#DLG_BREAK.LB_COLL.1.stringlist.text"
+msgid "[None]"
+msgstr "[Жоқ]"
+
+#: swbreak.src%23DLG_BREAK.CB_PAGENUM.checkbox.text
+#, fuzzy
+msgid "Change page ~number"
+msgstr "Бет нөмірін өзгерту"
+
+#: swbreak.src%23DLG_BREAK.modaldialog.text
+msgid "Insert Break"
+msgstr "Ажырауды кірістіру"
+
+#: chrdlg.src%23STR_TEXTCOLL_HEADER.string.text
 #, fuzzy
 msgid "(Paragraph Style: "
 msgstr "Абзац стилі"
 
-#: chrdlg.src#STR_PAGEFMT_HEADER.string.text
+#: chrdlg.src%23STR_PAGEFMT_HEADER.string.text
 #, fuzzy
 msgid "(Page Style: "
 msgstr "Бет стилі"
 
-#: chrdlg.src#SW_STR_NONE.string.text
+#: chrdlg.src%23SW_STR_NONE.string.text
 msgctxt "chrdlg.src#SW_STR_NONE.string.text"
 msgid "[None]"
 msgstr "[Жоқ]"
 
-#: chrdlg.src#MSG_ILLEGAL_PAGENUM.infobox.text
+#: chrdlg.src%23MSG_ILLEGAL_PAGENUM.infobox.text
 #, fuzzy
 msgid ""
 "Page numbers cannot be applied to the current page.  Even numbers can be "
@@ -117,421 +532,6 @@ msgid ""
 msgstr ""
 "Бұл бетке нөмірді қою мүмкін емес. Сол жақ беттерде тек жұп, ал оң жақта тек "
 "тақ сандарды қоюға болады."
-
-#: drpcps.src#DLG_DROPCAPS.1.TP_DROPCAPS.pageitem.text
-msgctxt "drpcps.src#DLG_DROPCAPS.1.TP_DROPCAPS.pageitem.text"
-msgid "Drop Caps"
-msgstr "Әріпше"
-
-#: drpcps.src#DLG_DROPCAPS.tabdialog.text
-msgctxt "drpcps.src#DLG_DROPCAPS.tabdialog.text"
-msgid "Drop Caps"
-msgstr "Әріпше"
-
-#: drpcps.src#TP_DROPCAPS.CB_SWITCH.checkbox.text
-#, fuzzy
-msgid "Display drop caps"
-msgstr "Әрі_пшені қосу"
-
-#: drpcps.src#TP_DROPCAPS.CB_WORD.checkbox.text
-#, fuzzy
-msgid "~Whole word"
-msgstr "~Толық сөз"
-
-#: drpcps.src#TP_DROPCAPS.FT_DROPCAPS.fixedtext.text
-#, fuzzy
-msgid "Number of ~characters:"
-msgstr "~Таңбалар саны:"
-
-#: drpcps.src#TP_DROPCAPS.TXT_LINES.fixedtext.text
-#, fuzzy
-msgid "~Lines"
-msgstr "Сызықтар"
-
-#: drpcps.src#TP_DROPCAPS.TXT_DISTANCE.fixedtext.text
-msgid "Space to text"
-msgstr "Мәтінге дейінгі арақашықтық"
-
-#: drpcps.src#TP_DROPCAPS.FL_SETTINGS.fixedline.text
-msgid "Settings"
-msgstr "Баптаулар"
-
-#: drpcps.src#TP_DROPCAPS.TXT_TEXT.fixedtext.text
-msgid "~Text"
-msgstr "~Мәтін"
-
-#: drpcps.src#TP_DROPCAPS.TXT_TEMPLATE.fixedtext.text
-#, fuzzy
-msgid "Character St~yle"
-msgstr "Таңба стилі"
-
-#: drpcps.src#TP_DROPCAPS.FL_CONTENT.fixedline.text
-msgid "Contents"
-msgstr "Құрамасы"
-
-#: swbreak.src#DLG_BREAK.RB_LINE.radiobutton.text
-#, fuzzy
-msgid "~Line break"
-msgstr "Жолды тасымалдау"
-
-#: swbreak.src#DLG_BREAK.RB_PAGE.radiobutton.text
-#, fuzzy
-msgid "~Page break"
-msgstr "Бет ажырауы"
-
-#: swbreak.src#DLG_BREAK.RB_COL.radiobutton.text
-#, fuzzy
-msgid "~Column break"
-msgstr "Баған ажырауы"
-
-#: swbreak.src#DLG_BREAK.FL_BREAK.fixedline.text
-msgid "Type"
-msgstr "Түрі"
-
-#: swbreak.src#DLG_BREAK.FT_COLL.fixedtext.text
-msgid "~Style"
-msgstr "~Стиль"
-
-#: swbreak.src#DLG_BREAK.LB_COLL.1.stringlist.text
-msgctxt "swbreak.src#DLG_BREAK.LB_COLL.1.stringlist.text"
-msgid "[None]"
-msgstr "[Жоқ]"
-
-#: swbreak.src#DLG_BREAK.CB_PAGENUM.checkbox.text
-#, fuzzy
-msgid "Change page ~number"
-msgstr "Бет нөмірін өзгерту"
-
-#: swbreak.src#DLG_BREAK.modaldialog.text
-msgid "Insert Break"
-msgstr "Ажырауды кірістіру"
-
-#: ccoll.src#TP_CONDCOLL.FL_CONDITION.fixedline.text
-msgid "Options"
-msgstr "Опциялар"
-
-#: ccoll.src#TP_CONDCOLL.CB_CONDITION.checkbox.text
-#, fuzzy
-msgid "~Conditional Style"
-msgstr "~Шартты стиль"
-
-#: ccoll.src#TP_CONDCOLL.FT_CONTEXT.fixedtext.text
-#, fuzzy
-msgid "Conte~xt"
-msgstr "Конте~кст"
-
-#: ccoll.src#TP_CONDCOLL.FT_USED.fixedtext.text
-msgid "Applied Styles"
-msgstr "Іске асырылған стильдер"
-
-#: ccoll.src#TP_CONDCOLL.FT_STYLE.fixedtext.text
-#, fuzzy
-msgid "~Paragraph Styles"
-msgstr "~Абзац стильдері"
-
-#: ccoll.src#TP_CONDCOLL.PB_REMOVE.pushbutton.text
-#, fuzzy
-msgid "Re~move"
-msgstr "Өшіру"
-
-#: ccoll.src#TP_CONDCOLL.PB_ASSIGN.pushbutton.text
-msgid "~Apply"
-msgstr "Іске ~асыру"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.1.itemlist.text
-msgid "Table Header"
-msgstr "Кесте тақырыптамасы"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.2.itemlist.text
-msgid "Table"
-msgstr "Кесте"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.3.itemlist.text
-msgid "Frame"
-msgstr "Фрейм"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.4.itemlist.text
-msgid "Section"
-msgstr "Бөлім"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.5.itemlist.text
-msgid "Footnote"
-msgstr "Нұсқама"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.6.itemlist.text
-msgid "Endnote"
-msgstr "Соңдық нұсқама"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.7.itemlist.text
-msgid "Header"
-msgstr "Жоғарғы колонтитул"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.8.itemlist.text
-msgid "Footer"
-msgstr "Төменгі колонтитул"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.9.itemlist.text
-msgid " 1st Outline Level"
-msgstr " 1-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.10.itemlist.text
-msgid " 2nd Outline Level"
-msgstr " 2-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.11.itemlist.text
-msgid " 3rd Outline Level"
-msgstr " 3-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.12.itemlist.text
-msgid " 4th Outline Level"
-msgstr " 4-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.13.itemlist.text
-msgid " 5th Outline Level"
-msgstr " 5-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.14.itemlist.text
-msgid " 6th Outline Level"
-msgstr " 6-шы құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.15.itemlist.text
-msgid " 7th Outline Level"
-msgstr " 7-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.16.itemlist.text
-msgid " 8th Outline Level"
-msgstr " 8-ші құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.17.itemlist.text
-msgid " 9th Outline Level"
-msgstr " 9-шы құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.18.itemlist.text
-msgid "10th Outline Level"
-msgstr " 10-шы құрылым деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.19.itemlist.text
-msgid " 1st Numbering Level"
-msgstr " 1-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.20.itemlist.text
-msgid " 2nd Numbering Level"
-msgstr " 2-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.21.itemlist.text
-msgid " 3rd Numbering Level"
-msgstr " 3-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.22.itemlist.text
-msgid " 4th Numbering Level"
-msgstr " 4-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.23.itemlist.text
-msgid " 5th Numbering Level"
-msgstr " 5-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.24.itemlist.text
-msgid " 6th Numbering Level"
-msgstr " 6-шы нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.25.itemlist.text
-msgid " 7th Numbering Level"
-msgstr " 7-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.26.itemlist.text
-msgid " 8th Numbering Level"
-msgstr " 8-ші нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.27.itemlist.text
-msgid " 9th Numbering Level"
-msgstr " 9-шы нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_REGIONS.28.itemlist.text
-msgid "10th Numbering Level"
-msgstr " 10-шы нөмірлеу деңгейі"
-
-#: ccoll.src#TP_CONDCOLL.STR_NOTEMPL.string.text
-msgid "<none>"
-msgstr "<жоқ>"
-
-#: numpara.src#TP_NUMPARA.FL_OUTLINE_START.fixedline.text
-msgid "Outline"
-msgstr "Құрылымы"
-
-#: numpara.src#TP_NUMPARA.FT_OUTLINE_LEVEL.fixedtext.text
-#, fuzzy
-msgid "Outline level"
-msgstr "Құрылым деңгейлері:"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.1.stringlist.text
-msgid "Body text"
-msgstr "Негізгі мәтін"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.2.stringlist.text
-msgid "Level 1"
-msgstr "Деңгей 1"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.3.stringlist.text
-msgid "Level 2"
-msgstr "Деңгей 2"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.4.stringlist.text
-msgid "Level 3"
-msgstr "Деңгей 3"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.5.stringlist.text
-msgid "Level 4"
-msgstr "Деңгей 4"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.6.stringlist.text
-msgid "Level 5"
-msgstr "Деңгей 5"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.7.stringlist.text
-msgid "Level 6"
-msgstr "Деңгей 6"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.8.stringlist.text
-msgid "Level 7"
-msgstr "Деңгей 7"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.9.stringlist.text
-msgid "Level 8"
-msgstr "Деңгей 8"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.10.stringlist.text
-msgid "Level 9"
-msgstr "Деңгей 9"
-
-#: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.11.stringlist.text
-msgid "Level 10"
-msgstr "Деңгей 10"
-
-#: numpara.src#TP_NUMPARA.FL_NEW_START.fixedline.text
-msgid "Numbering"
-msgstr "Нөмірлеу"
-
-#: numpara.src#TP_NUMPARA.FT_NUMBER_STYLE.fixedtext.text
-msgid "Numbering Style"
-msgstr "Нөмірлеу стилі"
-
-#: numpara.src#TP_NUMPARA.LB_NUMBER_STYLE.1.stringlist.text
-msgid "None"
-msgstr "Жоқ"
-
-#: numpara.src#TP_NUMPARA.CB_NEW_START.tristatebox.text
-#, fuzzy
-msgid "R~estart at this paragraph"
-msgstr "~Бұл абзацта қайтадан бастау"
-
-#: numpara.src#TP_NUMPARA.CB_NUMBER_NEW_START.tristatebox.text
-#, fuzzy
-msgid "S~tart with"
-msgstr "Бас~тау"
-
-#: numpara.src#TP_NUMPARA.FL_COUNT_PARA.fixedline.text
-msgid "Line numbering"
-msgstr "Жолдарды нөмірлеу"
-
-#: numpara.src#TP_NUMPARA.CB_COUNT_PARA.tristatebox.text
-#, fuzzy
-msgid "~Include this paragraph in line numbering"
-msgstr "Бұл абзацты жолдар нө~мірленуіне қосу"
-
-#: numpara.src#TP_NUMPARA.CB_RESTART_PARACOUNT.tristatebox.text
-#, fuzzy
-msgid "Rest~art at this paragraph"
-msgstr "Бұл абзацтан қ~айтадан бастау"
-
-#: numpara.src#TP_NUMPARA.FT_RESTART_NO.fixedtext.text
-#, fuzzy
-msgid "~Start with"
-msgstr "Бас_тау"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text
-msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text"
-msgid "Font"
-msgstr "Қаріп"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "Қаріп эффекттері"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_POS.pageitem.text
-msgid "Position"
-msgstr "Орналасу"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
-msgid "Asian Layout"
-msgstr "Шығысазиялық мәтіннің белгіленуі"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text
-msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text"
-msgid "Hyperlink"
-msgstr "Гиперсілтеме"
-
-#: chardlg.src#DLG_CHAR.1.TP_BACKGROUND.pageitem.text
-#, fuzzy
-msgid "Background"
-msgstr "Фон"
-
-#: chardlg.src#DLG_CHAR.tabdialog.text
-msgid "Character"
-msgstr "Таңбалар"
-
-#: chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
-msgctxt "chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text"
-msgid "Font"
-msgstr "Қаріп"
-
-#: chardlg.src#DLG_DRAWCHAR.tabdialog.text
-msgctxt "chardlg.src#DLG_DRAWCHAR.tabdialog.text"
-msgid "Font"
-msgstr "Қаріп"
-
-#: chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text
-msgctxt "chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text"
-msgid "Hyperlink"
-msgstr "Гиперсілтеме"
-
-#: chardlg.src#TP_CHAR_URL.FT_URL.fixedtext.text
-msgid "~URL"
-msgstr "~URL"
-
-#: chardlg.src#TP_CHAR_URL.PB_URL.pushbutton.text
-msgid "~Browse..."
-msgstr "~Шолу..."
-
-#: chardlg.src#TP_CHAR_URL.FT_TEXT.fixedtext.text
-msgid "Te~xt"
-msgstr "Мә~тін"
-
-#: chardlg.src#TP_CHAR_URL.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "~Аты"
-
-#: chardlg.src#TP_CHAR_URL.FT_TARGET.fixedtext.text
-#, fuzzy
-msgid "~Target frame"
-msgstr "Фрейм"
-
-#: chardlg.src#TP_CHAR_URL.PB_EVENT.pushbutton.text
-msgid "~Events..."
-msgstr "~Оқиғалар..."
-
-#: chardlg.src#TP_CHAR_URL.FL_STYLE.fixedline.text
-msgid "Character Styles"
-msgstr "Таңба стильдері"
-
-#: chardlg.src#TP_CHAR_URL.FT_VISITED.fixedtext.text
-#, fuzzy
-msgid "~Visited links"
-msgstr "Қаралған сілтемелер"
-
-#: chardlg.src#TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
-#, fuzzy
-msgid "Unvisited ~links"
-msgstr "Қаралмаған сілтемелер"
 
 #~ msgctxt "paradlg.src#DLG_PARA.1.TP_BACKGROUND.pageitem.text"
 #~ msgid "Background"

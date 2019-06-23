@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+dbaccess%2Fsource%2Fui%2Fcontrol.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+dbaccess%2Fsource%2F"
+"ui%2Fcontrol.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2013-06-30 14:10+0000\n"
 "Last-Translator: Christos <xstefanidis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,38 +15,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1372601427.0\n"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
+#: undosqledit.src%23STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
+msgid "Modify SQL statement(s)"
+msgstr "Τροποποίηση πρόταση(-ων) του SQL"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_NAME.string.text
+msgid "Table name"
+msgstr "Όνομα πίνακα"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_INSERT.string.text
+msgid "Insert data"
+msgstr "Εισαγωγή δεδομένων"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DELETE.string.text
+msgid "Delete data"
+msgstr "Διαγραφή δεδομένων"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_UPDATE.string.text
+msgid "Modify data"
+msgstr "Τροποποίηση δεδομένων"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_ALTER.string.text
+msgid "Alter structure"
+msgstr "Αλλαγή δομής"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_SELECT.string.text
+msgid "Read data"
+msgstr "Ανάγνωση δεδομένων"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_REFERENCE.string.text
+msgid "Modify references"
+msgstr "Τροποποίηση παραπομπών"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DROP.string.text
+msgid "Drop structure"
+msgstr "Απόρριψη δομής"
+
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
 msgid "Sort Ascending"
 msgstr "Αύξουσα ταξινόμηση"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
 msgid "Sort Descending"
 msgstr "Φθίνουσα ταξινόμηση"
 
-#: tabletree.src#STR_COULDNOTCREATE_DRIVERMANAGER.string.text
+#: tabletree.src%23STR_COULDNOTCREATE_DRIVERMANAGER.string.text
 msgid "Cannot connect to the SDBC driver manager (#servicename#)."
 msgstr ""
 "Δεν ήταν δυνατόν να γίνει η σύνδεση με το πρόγραμμα διαχείρισης των "
 "προγραμμάτων οδήγησης SDBC (#servicename#)."
 
-#: tabletree.src#STR_NOREGISTEREDDRIVER.string.text
+#: tabletree.src%23STR_NOREGISTEREDDRIVER.string.text
 msgid "A driver is not registered for the URL #connurl#."
 msgstr "Δεν υπάρχει δηλωμένο πρόγραμμα οδήγησης για το URL #connurl#."
 
-#: tabletree.src#STR_COULDNOTCONNECT.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT.string.text
 msgid "No connection could be established for the URL #connurl#."
 msgstr "Δεν ήταν δυνατή η δημιουργία σύνδεσης για το URL #connurl#."
 
-#: tabletree.src#STR_COULDNOTCONNECT_PLEASECHECK.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT_PLEASECHECK.string.text
 msgid "Please check the current settings, for example user name and password."
 msgstr ""
 "Ελέγξτε τις τρέχουσες ρυθμίσεις, π.χ. όνομα χρήστη και κωδικό πρόσβασης."
 
-#: tabletree.src#STR_NOTABLEINFO.string.text
+#: tabletree.src%23STR_NOTABLEINFO.string.text
 msgid ""
 "Successfully connected, but information about database tables is not "
 "available."
@@ -54,50 +90,14 @@ msgstr ""
 "Η σύνδεση πέτυχε αλλά δεν ήταν δυνατόν να προσδιοριστούν πληροφορίες σχετικά "
 "με πίνακες στη βάση δεδομένων."
 
-#: tabletree.src#STR_ALL_TABLES.string.text
+#: tabletree.src%23STR_ALL_TABLES.string.text
 msgid "All tables"
 msgstr "Όλοι οι πίνακες"
 
-#: tabletree.src#STR_ALL_VIEWS.string.text
+#: tabletree.src%23STR_ALL_VIEWS.string.text
 msgid "All views"
 msgstr "Όλες οι προβολές των πινάκων"
 
-#: tabletree.src#STR_ALL_TABLES_AND_VIEWS.string.text
+#: tabletree.src%23STR_ALL_TABLES_AND_VIEWS.string.text
 msgid "All tables and views"
 msgstr "Όλοι οι πίνακες και όλες οι προβολές τους"
-
-#: undosqledit.src#STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
-msgid "Modify SQL statement(s)"
-msgstr "Τροποποίηση πρόταση(-ων) του SQL"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_NAME.string.text
-msgid "Table name"
-msgstr "Όνομα πίνακα"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_INSERT.string.text
-msgid "Insert data"
-msgstr "Εισαγωγή δεδομένων"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DELETE.string.text
-msgid "Delete data"
-msgstr "Διαγραφή δεδομένων"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_UPDATE.string.text
-msgid "Modify data"
-msgstr "Τροποποίηση δεδομένων"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_ALTER.string.text
-msgid "Alter structure"
-msgstr "Αλλαγή δομής"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_SELECT.string.text
-msgid "Read data"
-msgstr "Ανάγνωση δεδομένων"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_REFERENCE.string.text
-msgid "Modify references"
-msgstr "Τροποποίηση παραπομπών"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DROP.string.text
-msgid "Drop structure"
-msgstr "Απόρριψη δομής"

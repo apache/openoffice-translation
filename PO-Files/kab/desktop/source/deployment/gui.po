@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+desktop%2Fsource%2Fdeployment%2Fgui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+desktop%2Fsource%2Fd"
+"eployment%2Fgui.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2017-07-17 16:12+0000\n"
 "Last-Translator: Yacine <yacinebouklif@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,76 +14,257 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 
-#: dp_gui_dialog.src#RID_STR_ADD_PACKAGES.string.text
+#: dp_gui_dependencydialog.src%23RID_DLG_DEPENDENCIES.RID_DLG_DEPENDENCIES_TEXT.fixedtext.text
+msgid ""
+"The extension cannot be installed as the following\n"
+"system dependencies are not fulfilled:"
+msgstr ""
+"D awezɣi asbeddi n usiɣzef, acku tugal-agi\n"
+"n unagraw ur ttwaqadrent ara:"
+
+#: dp_gui_dependencydialog.src%23RID_DLG_DEPENDENCIES.modaldialog.text
+msgid "System dependencies check"
+msgstr "Aselken n tugal n unagraw"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_DOWNLOADING.fixedtext.text
+msgid "Downloading extensions..."
+msgstr "Aɛebbi n isiɣzifen..."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_RESULTS.fixedtext.text
+msgid "Result"
+msgstr "Agmuḍ"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_OK.okbutton.text
+msgid "OK"
+msgstr "IH"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ABORT.cancelbutton.text
+msgid "Cancel Update"
+msgstr "Semmet amucceḍ"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_INSTALLING.string.text
+msgid "Installing extensions..."
+msgstr "Sbedd isiɣzifen..."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_FINISHED.string.text
+msgid "Installation finished"
+msgstr "Asbeddi ifukk"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_NO_ERRORS.string.text
+msgid "No errors."
+msgstr "Ulac inezriyen."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_DOWNLOAD.string.text
+msgid "Error while downloading extension %NAME. "
+msgstr "Anezri deg weɛebbi n usiɣzef %NAME. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_THIS_ERROR_OCCURRED.string.text
+msgid "The error message is: "
+msgstr "Wagi d izen n tucḍa: "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_INSTALLATION.string.text
+msgid "Error while installing extension %NAME. "
+msgstr "Anezri deg wesbeddi n usiɣzef %NAME. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_LIC_DECLINED.string.text
+msgid "The license agreement for extension %NAME was refused. "
+msgstr "Atug n turagt i wesiɣzef %NAME ur yettwaqbel ara. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_EXTENSION_NOINSTALL.string.text
+msgid "The extension will not be installed."
+msgstr "Asiɣzef ur d-yettili ara usbeddi-ines."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.modaldialog.text
+msgid "Download and Installation"
+msgstr "Aɛebbi aked usbeddi"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_CHECKING.fixedtext.text
+msgid "Checking..."
+msgstr "Selken..."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_UPDATE.fixedtext.text
+msgid "~Available extension updates"
+msgstr "~Llant tuttuyin i wesiɣzef-agi"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ALL.checkbox.text
+msgid "~Show all updates"
+msgstr "~Sken tuttuyin merra"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_DESCRIPTION.fixedline.text
+msgid "Description"
+msgstr "Asnummel"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_PUBLISHER_LABEL.fixedtext.text
+msgid "Publisher:"
+msgstr "Ẓreg:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LABEL.fixedtext.text
+msgid "What is new:"
+msgstr "Acu yellan d amaynut:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LINK.fixedtext.text
+msgid "Release Notes"
+msgstr "Tamawin n tuttuyt"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_OK.pushbutton.text
+msgid "~Install"
+msgstr "S~bedd"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text
+msgctxt "dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text"
+msgid "Close"
+msgstr "Mdel"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ERROR.string.text
+msgid "Error"
+msgstr "Tuccḍa"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NONE.string.text
+msgid "No new updates are available."
+msgstr "Ulac tuttuyt tamaynutt."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALLABLE.string.text
+msgid ""
+"No installable updates are available. To see ignored or disabled updates, "
+"mark the check box 'Show all updates'."
+msgstr ""
+"Ulac tuttuyt i yezemren ad tettwasbedd. Iwakken ad teẓreḍ imucceḍen "
+"yettwattun neɣ yenxsin, fren taxxamt 'Beqqeḍ tuttuyin merra'."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_FAILURE.string.text
+msgid "An error occurred:"
+msgstr "Ylla-d unezri:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_UNKNOWNERROR.string.text
+msgid "Unknown error."
+msgstr "Anezri arussin."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODESCRIPTION.string.text
+msgid "No more details are available for this update."
+msgstr "Ulac asnummel i tuttuyt-agi."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALL.string.text
+msgid "The extension cannot be updated because:"
+msgstr "D awezɣi amucceḍ n usiɣzef acku:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY.string.text
+msgid "Required Apache OpenOffice version doesn't match:"
+msgstr "Tuttuyt n Apache OpenOffice i yelaqen ur tenmeɣra ara:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY_CUR_VER.string.text
+msgid "You have Apache OpenOffice %VERSION"
+msgstr "Tesɛiḍ Apache OpenOffice %VERSION"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_BROWSERBASED.string.text
+msgid "browser based update"
+msgstr "amucceḍ yebnan ɣef iminig"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_VERSION.string.text
+msgid "Version"
+msgstr "Tuttuyt"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE.string.text
+msgid "Ignore this Update"
+msgstr "Ttu amucceḍ-agi"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE_ALL.string.text
+msgid "Ignore all Updates"
+msgstr "Ttu imucceḍen merra"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ENABLE.string.text
+msgid "Enable Updates"
+msgstr "Sermed imucceḍen"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORED_UPDATE.string.text
+msgid "This update will be ignored.\n"
+msgstr "Amucceḍ-agi ad yettwattu.\n"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.modaldialog.text
+msgid "Extension Update"
+msgstr "Amucceḍ n usiɣzef"
+
+#: dp_gui_updatedialog.src%23RID_WARNINGBOX_UPDATE_SHARED_EXTENSION.warningbox.text
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when "
+"changing shared extensions in a multi user environment.\n"
+"Click \\'OK\\' to update the extensions.\n"
+"Click \\'Cancel\\' to stop updating the extensions."
+msgstr ""
+"Tḥeqqeq belli ulac aseqdac-nniḍen i yseqdacen %PRODUCTNAME mi ara tesbeddeḍ "
+"asiɣzef i yeseqdacen merra di twennaḍt n waṭas n iseqdacen.\n"
+"Ssed ɣef \\'IH\\' iwakken ad tmucceḍeḍ asiɣzef.\n"
+"Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ amucceḍ n usiɣzef."
+
+#: dp_gui_dialog.src%23RID_STR_ADD_PACKAGES.string.text
 msgid "Add Extension(s)"
 msgstr "Rnu isiɣzifen"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_REMOVE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_REMOVE.string.text
 msgid "~Remove"
 msgstr "~Kkes"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_ENABLE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_ENABLE.string.text
 msgid "~Enable"
 msgstr "Se~rmed"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_DISABLE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_DISABLE.string.text
 msgid "~Disable"
 msgstr "Se~xsi"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_CHECK_UPDATE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_CHECK_UPDATE.string.text
 msgid "~Update..."
 msgstr "A~mucceḍ..."
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_OPTIONS.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_OPTIONS.string.text
 msgid "~Options..."
 msgstr "Ti~nefrunin..."
 
-#: dp_gui_dialog.src#RID_STR_ADDING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_ADDING_PACKAGES.string.text
 msgctxt "dp_gui_dialog.src#RID_STR_ADDING_PACKAGES.string.text"
 msgid "Adding %EXTENSION_NAME"
 msgstr "Timerna n %EXTENSION_NAME"
 
-#: dp_gui_dialog.src#RID_STR_REMOVING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_REMOVING_PACKAGES.string.text
 msgid "Removing %EXTENSION_NAME"
 msgstr "Tukksa n %EXTENSION_NAME"
 
-#: dp_gui_dialog.src#RID_STR_ENABLING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_ENABLING_PACKAGES.string.text
 msgid "Enabling %EXTENSION_NAME"
 msgstr "Asermed n %EXTENSION_NAME"
 
-#: dp_gui_dialog.src#RID_STR_DISABLING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_DISABLING_PACKAGES.string.text
 msgid "Disabling %EXTENSION_NAME"
 msgstr "Asexsi n %EXTENSION_NAME"
 
-#: dp_gui_dialog.src#RID_STR_ACCEPT_LICENSE.string.text
+#: dp_gui_dialog.src%23RID_STR_ACCEPT_LICENSE.string.text
 msgid "Accept license for %EXTENSION_NAME"
 msgstr "Qbel turagt n %EXTENSION_NAME"
 
-#: dp_gui_dialog.src#RID_STR_INSTALL_FOR_ALL.string.text
+#: dp_gui_dialog.src%23RID_STR_INSTALL_FOR_ALL.string.text
 msgid "~For all users"
 msgstr "I yeseqdacen ~merra"
 
-#: dp_gui_dialog.src#RID_STR_INSTALL_FOR_ME.string.text
+#: dp_gui_dialog.src%23RID_STR_INSTALL_FOR_ME.string.text
 msgid "~Only for me"
 msgstr "I ~nekkini kan"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_UNKNOWN_STATUS.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_UNKNOWN_STATUS.string.text
 msgid "Error: The status of this extension is unknown"
 msgstr "Tucḍa: aẓayer n usiɣzef-agi d arussin"
 
-#: dp_gui_dialog.src#RID_STR_CLOSE_BTN.string.text
+#: dp_gui_dialog.src%23RID_STR_CLOSE_BTN.string.text
 msgctxt "dp_gui_dialog.src#RID_STR_CLOSE_BTN.string.text"
 msgid "Close"
 msgstr "Mdel"
 
-#: dp_gui_dialog.src#RID_STR_EXIT_BTN.string.text
+#: dp_gui_dialog.src%23RID_STR_EXIT_BTN.string.text
 msgid "Quit"
 msgstr "Ffeɣ"
 
-#: dp_gui_dialog.src#RID_STR_NO_ADMIN_PRIVILEGE.string.text
+#: dp_gui_dialog.src%23RID_STR_NO_ADMIN_PRIVILEGE.string.text
 msgid ""
 "%PRODUCTNAME has been updated to a new version. Some shared %PRODUCTNAME "
 "extensions are not compatible with this version and need to be updated "
@@ -99,31 +280,31 @@ msgstr ""
 "Amucceḍ n isiɣzifen yettwacerken yeḥwaǧ ismenyifen n unedbal. Nnermes "
 "anedbal n unagraw iwakken ad tmucceḍeḍ isiɣzifen agi yettwacerken:"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_MISSING_DEPENDENCIES.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_MISSING_DEPENDENCIES.string.text
 msgid ""
 "The extension cannot be enabled as the following system dependencies are not "
 "fulfilled:"
 msgstr "D awezɣi amucceḍ n usiɣzef acku tugal-agi n unagraw ur ttwaqadrent ara:"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_MISSING_LICENSE.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_MISSING_LICENSE.string.text
 msgid ""
 "This extension is disabled because you haven't accepted the license yet.\n"
 msgstr "Asiɣzef-agi yexsi acku mazal ur teqbileḍ ara turagt.\n"
 
-#: dp_gui_dialog.src#RID_STR_SHOW_LICENSE_CMD.string.text
+#: dp_gui_dialog.src%23RID_STR_SHOW_LICENSE_CMD.string.text
 msgid "Show license"
 msgstr "Beqqeḍ turagt"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_HEADER.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_HEADER.fixedtext.text
 msgid ""
 "Please follow these steps to proceed with the installation of the extension:"
 msgstr "Ttxil-k ḍfer imecwwaren-agi iwakken ad tesbeddeḍ asiɣzef:"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_1.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_1.fixedtext.text
 msgid "1."
 msgstr "1."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_1_TXT.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_1_TXT.fixedtext.text
 msgid ""
 "Read the complete License Agreement. Use the scroll bar or the \\'Scroll "
 "Down\\' button in this dialog to view the entire license text."
@@ -132,45 +313,45 @@ msgstr ""
 "turagt, seqdec tafeggagt n udrudem neɣ teqfalt \\'Adrudem d aksar\\' n "
 "tenkult-agi n udiwenni."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_2.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_2.fixedtext.text
 msgid "2."
 msgstr "2."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_2_TXT.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_2_TXT.fixedtext.text
 msgid ""
 "Accept the License Agreement for the extension by pressing the \\'Accept\\' "
 "button."
 msgstr ""
 "Iwakken ad tqebleḍ atug n turagt n usiɣzef-agi, ssed ɣef teqfalt \\'Qbel\\'."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.PB_LICENSE_DOWN.pushbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.PB_LICENSE_DOWN.pushbutton.text
 msgid "~Scroll Down"
 msgstr "Adrudem d a~ksar"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.BTN_LICENSE_ACCEPT.okbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.BTN_LICENSE_ACCEPT.okbutton.text
 msgid "Accept"
 msgstr "Qbel"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.BTN_LICENSE_DECLINE.cancelbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.BTN_LICENSE_DECLINE.cancelbutton.text
 msgid "Decline"
 msgstr "Agi"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.modaldialog.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.modaldialog.text
 msgctxt "dp_gui_dialog.src#RID_DLG_LICENSE.modaldialog.text"
 msgid "Extension Software License Agreement"
 msgstr "Atug n turagt n usiɣzef n useɣẓan"
 
-#: dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text
+#: dp_gui_dialog.src%23RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text
 msgctxt "dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text"
 msgid "Close"
 msgstr "Mdel"
 
-#: dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.modaldialog.text
+#: dp_gui_dialog.src%23RID_DLG_SHOW_LICENSE.modaldialog.text
 msgctxt "dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.modaldialog.text"
 msgid "Extension Software License Agreement"
 msgstr "Atug n turagt n usiɣzef n useɣẓan"
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_INSTALL_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_INSTALL_EXTENSION.warningbox.text
 msgid ""
 "You are about to install the extension \\'%NAME\\'.\n"
 "Click \\'OK\\' to proceed with the installation.\n"
@@ -180,7 +361,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwakken ad tekemmeleḍ asbeddi.\n"
 "Ssed ɣef \\'Semmet\\' iwakken ad tḥebseḍ asbeddi."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_REMOVE_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_REMOVE_EXTENSION.warningbox.text
 msgid ""
 "You are about to remove the extension \\'%NAME\\'.\n"
 "Click \\'OK\\' to remove the extension.\n"
@@ -190,7 +371,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwakken ad tekkseḍ asiɣzef.\n"
 "Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ tukksa n usiɣzef."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_REMOVE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_REMOVE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -202,7 +383,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwakken ad tekkseḍ asiɣzef.\n"
 "Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ tukksa n usiɣzef."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_ENABLE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_ENABLE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -214,7 +395,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwakken ad tekkseḍ asiɣzef.\n"
 "Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ tukksa n usiɣzef."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_DISABLE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_DISABLE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -226,207 +407,11 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwakken ad tekkseḍ asiɣzef.\n"
 "Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ tukksa n usiɣzef."
 
-#: dp_gui_dialog.src#RID_STR_UNSUPPORTED_PLATFORM.string.text
+#: dp_gui_dialog.src%23RID_STR_UNSUPPORTED_PLATFORM.string.text
 msgid "The extension \\'%Name\\' does not work on this computer."
 msgstr "Asiɣzef \\'%Name\\' ur iteddu ara deg uselkim-agi."
 
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CHECKING.fixedtext.text
-msgid "Checking..."
-msgstr "Selken..."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_UPDATE.fixedtext.text
-msgid "~Available extension updates"
-msgstr "~Llant tuttuyin i wesiɣzef-agi"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ALL.checkbox.text
-msgid "~Show all updates"
-msgstr "~Sken tuttuyin merra"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_DESCRIPTION.fixedline.text
-msgid "Description"
-msgstr "Asnummel"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_PUBLISHER_LABEL.fixedtext.text
-msgid "Publisher:"
-msgstr "Ẓreg:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LABEL.fixedtext.text
-msgid "What is new:"
-msgstr "Acu yellan d amaynut:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LINK.fixedtext.text
-msgid "Release Notes"
-msgstr "Tamawin n tuttuyt"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_OK.pushbutton.text
-msgid "~Install"
-msgstr "S~bedd"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text
-msgctxt "dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text"
-msgid "Close"
-msgstr "Mdel"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ERROR.string.text
-msgid "Error"
-msgstr "Tuccḍa"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NONE.string.text
-msgid "No new updates are available."
-msgstr "Ulac tuttuyt tamaynutt."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALLABLE.string.text
-msgid ""
-"No installable updates are available. To see ignored or disabled updates, "
-"mark the check box 'Show all updates'."
-msgstr ""
-"Ulac tuttuyt i yezemren ad tettwasbedd. Iwakken ad teẓreḍ imucceḍen "
-"yettwattun neɣ yenxsin, fren taxxamt 'Beqqeḍ tuttuyin merra'."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_FAILURE.string.text
-msgid "An error occurred:"
-msgstr "Ylla-d unezri:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_UNKNOWNERROR.string.text
-msgid "Unknown error."
-msgstr "Anezri arussin."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODESCRIPTION.string.text
-msgid "No more details are available for this update."
-msgstr "Ulac asnummel i tuttuyt-agi."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALL.string.text
-msgid "The extension cannot be updated because:"
-msgstr "D awezɣi amucceḍ n usiɣzef acku:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY.string.text
-msgid "Required Apache OpenOffice version doesn't match:"
-msgstr "Tuttuyt n Apache OpenOffice i yelaqen ur tenmeɣra ara:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY_CUR_VER.string.text
-msgid "You have Apache OpenOffice %VERSION"
-msgstr "Tesɛiḍ Apache OpenOffice %VERSION"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_BROWSERBASED.string.text
-msgid "browser based update"
-msgstr "amucceḍ yebnan ɣef iminig"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_VERSION.string.text
-msgid "Version"
-msgstr "Tuttuyt"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE.string.text
-msgid "Ignore this Update"
-msgstr "Ttu amucceḍ-agi"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE_ALL.string.text
-msgid "Ignore all Updates"
-msgstr "Ttu imucceḍen merra"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ENABLE.string.text
-msgid "Enable Updates"
-msgstr "Sermed imucceḍen"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORED_UPDATE.string.text
-msgid "This update will be ignored.\n"
-msgstr "Amucceḍ-agi ad yettwattu.\n"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.modaldialog.text
-msgid "Extension Update"
-msgstr "Amucceḍ n usiɣzef"
-
-#: dp_gui_updatedialog.src#RID_WARNINGBOX_UPDATE_SHARED_EXTENSION.warningbox.text
-msgid ""
-"Make sure that no further users are working with the same %PRODUCTNAME, when "
-"changing shared extensions in a multi user environment.\n"
-"Click \\'OK\\' to update the extensions.\n"
-"Click \\'Cancel\\' to stop updating the extensions."
-msgstr ""
-"Tḥeqqeq belli ulac aseqdac-nniḍen i yseqdacen %PRODUCTNAME mi ara tesbeddeḍ "
-"asiɣzef i yeseqdacen merra di twennaḍt n waṭas n iseqdacen.\n"
-"Ssed ɣef \\'IH\\' iwakken ad tmucceḍeḍ asiɣzef.\n"
-"Ssed ɣef \\'Semmet\\' iwakken ad teḥebseḍ amucceḍ n usiɣzef."
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_ADD.pushbutton.text
-msgid "~Add..."
-msgstr "~Rnu..."
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
-msgid "Check for ~Updates..."
-msgstr "Selken tuttuyin..."
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_GET_EXTENSIONS.fixedtext.text
-msgid "Get more extensions online..."
-msgstr "Awi-d isiɣzifen-nniḍen seg weẓeṭṭa..."
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text"
-msgid "Adding %EXTENSION_NAME"
-msgstr "Timerna n %EXTENSION_NAME"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text"
-msgid "Close"
-msgstr "Mdel"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.modelessdialog.text
-msgid "Extension Manager"
-msgstr "Asefrak n isiɣzifen"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_MSG.fixedtext.text
-msgid ""
-"%PRODUCTNAME has been updated to a new version. Some installed %PRODUCTNAME "
-"extensions are not compatible with this version and need to be updated "
-"before they can be used."
-msgstr ""
-"%PRODUCTNAME yemucceḍ ɣer tuttuyt tamaynutt. kra n isiɣzifen n %PRODUCTNAME "
-"yettwasbedden ur d-myezgan ara aked tuttuyt-agi u yelaq ad mucceḍen iwaken "
-"ad tizmireḍ ad ten-tesqedceḍ."
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text"
-msgid "Adding %EXTENSION_NAME"
-msgstr "Timerna n %EXTENSION_NAME"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
-msgid "Check for ~Updates..."
-msgstr "Selken ~tuttuyin..."
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CLOSE.pushbutton.text
-msgid "Disable all"
-msgstr "Sexsi kulec"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.modaldialog.text
-msgid "Extension Update Required"
-msgstr "Ilaq umucceḍ n usiɣzef"
-
-#: dp_gui_dialog2.src#RID_QUERYBOX_INSTALL_FOR_ALL.querybox.text
-msgid ""
-"Make sure that no further users are working with the same %PRODUCTNAME, when "
-"installing an extension for all users in a multi user environment.\n"
-"\n"
-"For whom do you want to install the extension?\n"
-msgstr ""
-"Tḥeqqeq belli ulac aseqdac-nniḍen i yseqdacen %PRODUCTNAME mi ara tesbeddeḍ "
-"asiɣzef i yeseqdacen merra di twennaḍt n waṭas n iseqdacen.\n"
-"\n"
-"Iwumi tebɣiḍ ad tesbeddeḍ asiɣzef-agi?\n"
-
-#: dp_gui_dependencydialog.src#RID_DLG_DEPENDENCIES.RID_DLG_DEPENDENCIES_TEXT.fixedtext.text
-msgid ""
-"The extension cannot be installed as the following\n"
-"system dependencies are not fulfilled:"
-msgstr ""
-"D awezɣi asbeddi n usiɣzef, acku tugal-agi\n"
-"n unagraw ur ttwaqadrent ara:"
-
-#: dp_gui_dependencydialog.src#RID_DLG_DEPENDENCIES.modaldialog.text
-msgid "System dependencies check"
-msgstr "Aselken n tugal n unagraw"
-
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_LESS.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_LESS.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The newer version $DEPLOYED is already installed.\n"
@@ -438,7 +423,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_LESS_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_LESS_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The newer version $DEPLOYED, named \\'$OLDNAME\\', is already installed.\n"
@@ -450,7 +435,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_EQUAL.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_EQUAL.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "That version is already installed.\n"
@@ -462,7 +447,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_EQUAL_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_EQUAL_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "That version, named \\'$OLDNAME\\', is already installed.\n"
@@ -474,7 +459,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_GREATER.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_GREATER.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The older version $DEPLOYED is already installed.\n"
@@ -486,7 +471,7 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_GREATER_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_GREATER_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The older version $DEPLOYED, named \\'$OLDNAME\\', is already installed.\n"
@@ -498,54 +483,69 @@ msgstr ""
 "Ssed ɣef \\'IH\\' iwaken ad tsemselsiḍ asiɣzef yettwasbedden.\n"
 "Ssed ɣef \\'Semmet\\' iwaken ad tḥebseḍ asbeddi."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_DOWNLOADING.fixedtext.text
-msgid "Downloading extensions..."
-msgstr "Aɛebbi n isiɣzifen..."
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_ADD.pushbutton.text
+msgid "~Add..."
+msgstr "~Rnu..."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_RESULTS.fixedtext.text
-msgid "Result"
-msgstr "Agmuḍ"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
+msgid "Check for ~Updates..."
+msgstr "Selken tuttuyin..."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_OK.okbutton.text
-msgid "OK"
-msgstr "IH"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_FT_GET_EXTENSIONS.fixedtext.text
+msgid "Get more extensions online..."
+msgstr "Awi-d isiɣzifen-nniḍen seg weẓeṭṭa..."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ABORT.cancelbutton.text
-msgid "Cancel Update"
-msgstr "Semmet amucceḍ"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Timerna n %EXTENSION_NAME"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_INSTALLING.string.text
-msgid "Installing extensions..."
-msgstr "Sbedd isiɣzifen..."
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text"
+msgid "Close"
+msgstr "Mdel"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_FINISHED.string.text
-msgid "Installation finished"
-msgstr "Asbeddi ifukk"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.modelessdialog.text
+msgid "Extension Manager"
+msgstr "Asefrak n isiɣzifen"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_NO_ERRORS.string.text
-msgid "No errors."
-msgstr "Ulac inezriyen."
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_FT_MSG.fixedtext.text
+msgid ""
+"%PRODUCTNAME has been updated to a new version. Some installed %PRODUCTNAME "
+"extensions are not compatible with this version and need to be updated "
+"before they can be used."
+msgstr ""
+"%PRODUCTNAME yemucceḍ ɣer tuttuyt tamaynutt. kra n isiɣzifen n %PRODUCTNAME "
+"yettwasbedden ur d-myezgan ara aked tuttuyt-agi u yelaq ad mucceḍen iwaken "
+"ad tizmireḍ ad ten-tesqedceḍ."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_DOWNLOAD.string.text
-msgid "Error while downloading extension %NAME. "
-msgstr "Anezri deg weɛebbi n usiɣzef %NAME. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Timerna n %EXTENSION_NAME"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_THIS_ERROR_OCCURRED.string.text
-msgid "The error message is: "
-msgstr "Wagi d izen n tucḍa: "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
+msgid "Check for ~Updates..."
+msgstr "Selken ~tuttuyin..."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_INSTALLATION.string.text
-msgid "Error while installing extension %NAME. "
-msgstr "Anezri deg wesbeddi n usiɣzef %NAME. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CLOSE.pushbutton.text
+msgid "Disable all"
+msgstr "Sexsi kulec"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_LIC_DECLINED.string.text
-msgid "The license agreement for extension %NAME was refused. "
-msgstr "Atug n turagt i wesiɣzef %NAME ur yettwaqbel ara. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.modaldialog.text
+msgid "Extension Update Required"
+msgstr "Ilaq umucceḍ n usiɣzef"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_EXTENSION_NOINSTALL.string.text
-msgid "The extension will not be installed."
-msgstr "Asiɣzef ur d-yettili ara usbeddi-ines."
-
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.modaldialog.text
-msgid "Download and Installation"
-msgstr "Aɛebbi aked usbeddi"
+#: dp_gui_dialog2.src%23RID_QUERYBOX_INSTALL_FOR_ALL.querybox.text
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when "
+"installing an extension for all users in a multi user environment.\n"
+"\n"
+"For whom do you want to install the extension?\n"
+msgstr ""
+"Tḥeqqeq belli ulac aseqdac-nniḍen i yseqdacen %PRODUCTNAME mi ara tesbeddeḍ "
+"asiɣzef i yeseqdacen merra di twennaḍt n waṭas n iseqdacen.\n"
+"\n"
+"Iwumi tebɣiḍ ad tesbeddeḍ asiɣzef-agi?\n"

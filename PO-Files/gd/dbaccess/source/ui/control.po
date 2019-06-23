@@ -3,10 +3,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+dbaccess%2Fsource%2Fui%2Fcontrol.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+dbaccess%2Fsource%2F"
+"ui%2Fcontrol.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2012-08-06 21:28+0100\n"
 "Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
 "Language-Team: Akerbeltz\n"
@@ -17,39 +17,75 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-Project-Style: openoffice\n"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
+#: undosqledit.src%23STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
+msgid "Modify SQL statement(s)"
+msgstr "Atharraich aithris(ean) SQL"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_NAME.string.text
+msgid "Table name"
+msgstr "Ainm a' chlàir"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_INSERT.string.text
+msgid "Insert data"
+msgstr "Cuir a-steach dàta"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DELETE.string.text
+msgid "Delete data"
+msgstr "Sguab às an dàta"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_UPDATE.string.text
+msgid "Modify data"
+msgstr "Atharraich an dàta"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_ALTER.string.text
+msgid "Alter structure"
+msgstr "Atharraich an structar"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_SELECT.string.text
+msgid "Read data"
+msgstr "Leugh an dàta"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_REFERENCE.string.text
+msgid "Modify references"
+msgstr "Atharraich na co-chomharran"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DROP.string.text
+msgid "Drop structure"
+msgstr "Leig an structar"
+
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
 msgid "Sort Ascending"
 msgstr "Seòrsaich a' dìreadh"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
 msgid "Sort Descending"
 msgstr "Seòrsaich a' teàrnadh"
 
-#: tabletree.src#STR_COULDNOTCREATE_DRIVERMANAGER.string.text
+#: tabletree.src%23STR_COULDNOTCREATE_DRIVERMANAGER.string.text
 msgid "Cannot connect to the SDBC driver manager (#servicename#)."
 msgstr ""
 "Cha ghabh ceangal a stèidheachadh ri manaidsear an draibheir SDBC "
 "(#servicename#)."
 
-#: tabletree.src#STR_NOREGISTEREDDRIVER.string.text
+#: tabletree.src%23STR_NOREGISTEREDDRIVER.string.text
 msgid "A driver is not registered for the URL #connurl#."
 msgstr "Cha deach draibhear a chlàradh airson an URL #connurl#."
 
-#: tabletree.src#STR_COULDNOTCONNECT.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT.string.text
 msgid "No connection could be established for the URL #connurl#."
 msgstr "Cha ghabh ceangal a stèidheachadh airson an URL #connurl#."
 
-#: tabletree.src#STR_COULDNOTCONNECT_PLEASECHECK.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT_PLEASECHECK.string.text
 msgid "Please check the current settings, for example user name and password."
 msgstr ""
 "Thoir sùil air na roghainnean agad, mar eisimpleir ainm a' chleachdaiche is "
 "am facal-faire."
 
-#: tabletree.src#STR_NOTABLEINFO.string.text
+#: tabletree.src%23STR_NOTABLEINFO.string.text
 msgid ""
 "Successfully connected, but information about database tables is not "
 "available."
@@ -57,50 +93,14 @@ msgstr ""
 "Cha ceangal a stèidheachadh ach chan eil fiosrachadh ri fhaighinn mu chlàir "
 "an stòir-dhàta."
 
-#: tabletree.src#STR_ALL_TABLES.string.text
+#: tabletree.src%23STR_ALL_TABLES.string.text
 msgid "All tables"
 msgstr "Gach clàr"
 
-#: tabletree.src#STR_ALL_VIEWS.string.text
+#: tabletree.src%23STR_ALL_VIEWS.string.text
 msgid "All views"
 msgstr "Gach sealladh"
 
-#: tabletree.src#STR_ALL_TABLES_AND_VIEWS.string.text
+#: tabletree.src%23STR_ALL_TABLES_AND_VIEWS.string.text
 msgid "All tables and views"
 msgstr "Gach clàr is sealladh"
-
-#: undosqledit.src#STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
-msgid "Modify SQL statement(s)"
-msgstr "Atharraich aithris(ean) SQL"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_NAME.string.text
-msgid "Table name"
-msgstr "Ainm a' chlàir"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_INSERT.string.text
-msgid "Insert data"
-msgstr "Cuir a-steach dàta"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DELETE.string.text
-msgid "Delete data"
-msgstr "Sguab às an dàta"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_UPDATE.string.text
-msgid "Modify data"
-msgstr "Atharraich an dàta"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_ALTER.string.text
-msgid "Alter structure"
-msgstr "Atharraich an structar"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_SELECT.string.text
-msgid "Read data"
-msgstr "Leugh an dàta"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_REFERENCE.string.text
-msgid "Modify references"
-msgstr "Atharraich na co-chomharran"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DROP.string.text
-msgid "Drop structure"
-msgstr "Leig an structar"

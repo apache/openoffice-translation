@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION 00001\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+desktop%2Fsource%2Fdeployment%2Fgui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+desktop%2Fsource%2Fd"
+"eployment%2Fgui.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2018-12-14 18:27+0000\n"
 "Last-Translator: Aivaras <astepukonis@gmail.com>\n"
 "Language-Team: Aivaras Stepukonis <astepukonis@apache.org>\n"
@@ -16,77 +16,258 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1544812027.000000\n"
 
-#: dp_gui_dialog.src#RID_STR_ADD_PACKAGES.string.text
+#: dp_gui_dependencydialog.src%23RID_DLG_DEPENDENCIES.RID_DLG_DEPENDENCIES_TEXT.fixedtext.text
+msgid ""
+"The extension cannot be installed as the following\n"
+"system dependencies are not fulfilled:"
+msgstr ""
+"Plėtinio negalima įdiegti,\n"
+"nes netenkinamos šios sisteminės priklausomybės:"
+
+#: dp_gui_dependencydialog.src%23RID_DLG_DEPENDENCIES.modaldialog.text
+msgid "System dependencies check"
+msgstr "Sisteminių priklausomybių patikra"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_DOWNLOADING.fixedtext.text
+msgid "Downloading extensions..."
+msgstr "Gaunami plėtiniai…"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_RESULTS.fixedtext.text
+msgid "Result"
+msgstr "Rezultatas"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_OK.okbutton.text
+msgid "OK"
+msgstr "Vykdyti"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ABORT.cancelbutton.text
+msgid "Cancel Update"
+msgstr "Nutraukti naujinimą"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_INSTALLING.string.text
+msgid "Installing extensions..."
+msgstr "Diegiami plėtiniai…"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_FINISHED.string.text
+msgid "Installation finished"
+msgstr "Diegimas baigtas"
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_NO_ERRORS.string.text
+msgid "No errors."
+msgstr "Klaidų nėra."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_DOWNLOAD.string.text
+msgid "Error while downloading extension %NAME. "
+msgstr "Klaida gaunant plėtinį „%NAME“. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_THIS_ERROR_OCCURRED.string.text
+msgid "The error message is: "
+msgstr "Klaidos pranešimas: "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_INSTALLATION.string.text
+msgid "Error while installing extension %NAME. "
+msgstr "Klaida diegiant plėtinį „%NAME“. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_LIC_DECLINED.string.text
+msgid "The license agreement for extension %NAME was refused. "
+msgstr "Atmesta plėtinio „%NAME“ licencinė sutartis. "
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_EXTENSION_NOINSTALL.string.text
+msgid "The extension will not be installed."
+msgstr "Plėtinys nebus įdiegtas."
+
+#: dp_gui_updateinstalldialog.src%23RID_DLG_UPDATEINSTALL.modaldialog.text
+msgid "Download and Installation"
+msgstr "Gavimas ir diegimas"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_CHECKING.fixedtext.text
+msgid "Checking..."
+msgstr "Tikrinama…"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_UPDATE.fixedtext.text
+msgid "~Available extension updates"
+msgstr "Galimi plėtinio naujiniai"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ALL.checkbox.text
+msgid "~Show all updates"
+msgstr "Rodyti visus naujinius"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_DESCRIPTION.fixedline.text
+msgid "Description"
+msgstr "Aprašas"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_PUBLISHER_LABEL.fixedtext.text
+msgid "Publisher:"
+msgstr "Leidėjas:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LABEL.fixedtext.text
+msgid "What is new:"
+msgstr "Naujienos:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LINK.fixedtext.text
+msgid "Release Notes"
+msgstr "Laidos apžvalga"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_OK.pushbutton.text
+msgid "~Install"
+msgstr "Diegti"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text
+msgctxt "dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text"
+msgid "Close"
+msgstr "Užverti"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ERROR.string.text
+msgid "Error"
+msgstr "Klaida"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NONE.string.text
+msgid "No new updates are available."
+msgstr "Naujinių nėra."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALLABLE.string.text
+msgid ""
+"No installable updates are available. To see ignored or disabled updates, "
+"mark the check box 'Show all updates'."
+msgstr ""
+"Diegimui skirtų naujinių nėra. Nepaisomi arba išjungti naujiniai rodomi, "
+"pažymėjus langelį „Rodyti visus naujinius“."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_FAILURE.string.text
+msgid "An error occurred:"
+msgstr "Klaida:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_UNKNOWNERROR.string.text
+msgid "Unknown error."
+msgstr "Nežinoma klaida."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODESCRIPTION.string.text
+msgid "No more details are available for this update."
+msgstr "Daugiau žinių apie šį naujinį nėra."
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALL.string.text
+msgid "The extension cannot be updated because:"
+msgstr "Plėtinio negalima naujinti, nes:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY.string.text
+msgid "Required Apache OpenOffice version doesn't match:"
+msgstr "Reikalaujama „Apache OpenOffice“ laida nesutampa su:"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY_CUR_VER.string.text
+msgid "You have Apache OpenOffice %VERSION"
+msgstr "Turite „Apache OpenOffice %VERSION“"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_BROWSERBASED.string.text
+msgid "browser based update"
+msgstr "naujinimas per naršyklę"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_VERSION.string.text
+msgid "Version"
+msgstr "Laida"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE.string.text
+msgid "Ignore this Update"
+msgstr "Nepaisyti šio naujinio"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE_ALL.string.text
+msgid "Ignore all Updates"
+msgstr "Nepaisyti visų naujinių"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_ENABLE.string.text
+msgid "Enable Updates"
+msgstr "Įjungti naujinius"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORED_UPDATE.string.text
+msgid "This update will be ignored.\n"
+msgstr "Šio naujinio bus nepaisoma.\n"
+
+#: dp_gui_updatedialog.src%23RID_DLG_UPDATE.modaldialog.text
+msgid "Extension Update"
+msgstr "Plėtinio naujinimas"
+
+#: dp_gui_updatedialog.src%23RID_WARNINGBOX_UPDATE_SHARED_EXTENSION.warningbox.text
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when "
+"changing shared extensions in a multi user environment.\n"
+"Click \\'OK\\' to update the extensions.\n"
+"Click \\'Cancel\\' to stop updating the extensions."
+msgstr ""
+"Ne vieno naudotojo aplinkoje keisdami bendruosius plėtinius, įsitikinkite, "
+"kad kiti naudotojai nesinaudoja tuo pačiu „%PRODUCTNAME“.\n"
+"Spustelėję „Vykdyti“, naujinsite plėtinius.\n"
+"Spustelėję „Nutraukti“, stabdysite plėtinių naujinimą."
+
+#: dp_gui_dialog.src%23RID_STR_ADD_PACKAGES.string.text
 msgid "Add Extension(s)"
 msgstr "Pridėti plėtinį(-ius)"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_REMOVE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_REMOVE.string.text
 msgid "~Remove"
 msgstr "Šalinti"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_ENABLE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_ENABLE.string.text
 msgid "~Enable"
 msgstr "Įjungti"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_DISABLE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_DISABLE.string.text
 msgid "~Disable"
 msgstr "Išjungti"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_CHECK_UPDATE.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_CHECK_UPDATE.string.text
 msgid "~Update..."
 msgstr "Naujinti…"
 
-#: dp_gui_dialog.src#RID_CTX_ITEM_OPTIONS.string.text
+#: dp_gui_dialog.src%23RID_CTX_ITEM_OPTIONS.string.text
 msgid "~Options..."
 msgstr "Nuostatos…"
 
-#: dp_gui_dialog.src#RID_STR_ADDING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_ADDING_PACKAGES.string.text
 msgctxt "dp_gui_dialog.src#RID_STR_ADDING_PACKAGES.string.text"
 msgid "Adding %EXTENSION_NAME"
 msgstr "Pridedama „%EXTENSION_NAME“"
 
-#: dp_gui_dialog.src#RID_STR_REMOVING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_REMOVING_PACKAGES.string.text
 msgid "Removing %EXTENSION_NAME"
 msgstr "Šalinama „%EXTENSION_NAME“"
 
-#: dp_gui_dialog.src#RID_STR_ENABLING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_ENABLING_PACKAGES.string.text
 msgid "Enabling %EXTENSION_NAME"
 msgstr "Įjungiama „%EXTENSION_NAME“"
 
-#: dp_gui_dialog.src#RID_STR_DISABLING_PACKAGES.string.text
+#: dp_gui_dialog.src%23RID_STR_DISABLING_PACKAGES.string.text
 msgid "Disabling %EXTENSION_NAME"
 msgstr "Išjungiama „%EXTENSION_NAME“"
 
-#: dp_gui_dialog.src#RID_STR_ACCEPT_LICENSE.string.text
+#: dp_gui_dialog.src%23RID_STR_ACCEPT_LICENSE.string.text
 msgid "Accept license for %EXTENSION_NAME"
 msgstr "Sutikite su „%EXTENSION_NAME“ licencijos sąlygomis"
 
-#: dp_gui_dialog.src#RID_STR_INSTALL_FOR_ALL.string.text
+#: dp_gui_dialog.src%23RID_STR_INSTALL_FOR_ALL.string.text
 msgid "~For all users"
 msgstr "Visiems naudotojams"
 
-#: dp_gui_dialog.src#RID_STR_INSTALL_FOR_ME.string.text
+#: dp_gui_dialog.src%23RID_STR_INSTALL_FOR_ME.string.text
 msgid "~Only for me"
 msgstr "Tik man"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_UNKNOWN_STATUS.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_UNKNOWN_STATUS.string.text
 msgid "Error: The status of this extension is unknown"
 msgstr "Klaida: nežinoma šio plėtinio būsena"
 
-#: dp_gui_dialog.src#RID_STR_CLOSE_BTN.string.text
+#: dp_gui_dialog.src%23RID_STR_CLOSE_BTN.string.text
 msgctxt "dp_gui_dialog.src#RID_STR_CLOSE_BTN.string.text"
 msgid "Close"
 msgstr "Užverti"
 
-#: dp_gui_dialog.src#RID_STR_EXIT_BTN.string.text
+#: dp_gui_dialog.src%23RID_STR_EXIT_BTN.string.text
 msgid "Quit"
 msgstr "Baigti"
 
-#: dp_gui_dialog.src#RID_STR_NO_ADMIN_PRIVILEGE.string.text
+#: dp_gui_dialog.src%23RID_STR_NO_ADMIN_PRIVILEGE.string.text
 msgid ""
 "%PRODUCTNAME has been updated to a new version. Some shared %PRODUCTNAME "
 "extensions are not compatible with this version and need to be updated "
@@ -102,32 +283,32 @@ msgstr ""
 "Bendriesiems plėtiniams naujinti reikalingos tvarkytojo teisės. Susisiekite "
 "su sistemos tvarkytoju, naujindami šiuos bendruosius plėtinius:"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_MISSING_DEPENDENCIES.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_MISSING_DEPENDENCIES.string.text
 msgid ""
 "The extension cannot be enabled as the following system dependencies are not "
 "fulfilled:"
 msgstr ""
 "Plėtinio negalima įjungti, nes netenkinamos šios sisteminės priklausomybės:"
 
-#: dp_gui_dialog.src#RID_STR_ERROR_MISSING_LICENSE.string.text
+#: dp_gui_dialog.src%23RID_STR_ERROR_MISSING_LICENSE.string.text
 msgid ""
 "This extension is disabled because you haven't accepted the license yet.\n"
 msgstr "Šis plėtinys išjungtas, nes dar nesutikote su licencijos sąlygomis.\n"
 
-#: dp_gui_dialog.src#RID_STR_SHOW_LICENSE_CMD.string.text
+#: dp_gui_dialog.src%23RID_STR_SHOW_LICENSE_CMD.string.text
 msgid "Show license"
 msgstr "Rodyti licenciją"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_HEADER.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_HEADER.fixedtext.text
 msgid ""
 "Please follow these steps to proceed with the installation of the extension:"
 msgstr "Plėtinį įdiegsite, atlikę šiuos žingsnius:"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_1.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_1.fixedtext.text
 msgid "1."
 msgstr "1."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_1_TXT.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_1_TXT.fixedtext.text
 msgid ""
 "Read the complete License Agreement. Use the scroll bar or the \\'Scroll "
 "Down\\' button in this dialog to view the entire license text."
@@ -135,11 +316,11 @@ msgstr ""
 "Perskaitykite licencinę sutartį. Pasitelkę dialogo slankjuostę arba mygtuką „"
 "Slinkti žemyn“, peržiūrėkite visą licencijos tekstą."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_2.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_2.fixedtext.text
 msgid "2."
 msgstr "2."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.FT_LICENSE_BODY_2_TXT.fixedtext.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.FT_LICENSE_BODY_2_TXT.fixedtext.text
 msgid ""
 "Accept the License Agreement for the extension by pressing the \\'Accept\\' "
 "button."
@@ -147,34 +328,34 @@ msgstr ""
 "Sutikite su plėtinio licencinės sutarties sąlygomis, spustelėdami mygtuką "
 "„Sutinku“."
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.PB_LICENSE_DOWN.pushbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.PB_LICENSE_DOWN.pushbutton.text
 msgid "~Scroll Down"
 msgstr "Slinkti žemyn"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.BTN_LICENSE_ACCEPT.okbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.BTN_LICENSE_ACCEPT.okbutton.text
 msgid "Accept"
 msgstr "Sutinku"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.BTN_LICENSE_DECLINE.cancelbutton.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.BTN_LICENSE_DECLINE.cancelbutton.text
 msgid "Decline"
 msgstr "Nesutinku"
 
-#: dp_gui_dialog.src#RID_DLG_LICENSE.modaldialog.text
+#: dp_gui_dialog.src%23RID_DLG_LICENSE.modaldialog.text
 msgctxt "dp_gui_dialog.src#RID_DLG_LICENSE.modaldialog.text"
 msgid "Extension Software License Agreement"
 msgstr "Plėtinio programos licencinė sutartis"
 
-#: dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text
+#: dp_gui_dialog.src%23RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text
 msgctxt "dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.RID_EM_BTN_CLOSE.okbutton.text"
 msgid "Close"
 msgstr "Užverti"
 
-#: dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.modaldialog.text
+#: dp_gui_dialog.src%23RID_DLG_SHOW_LICENSE.modaldialog.text
 msgctxt "dp_gui_dialog.src#RID_DLG_SHOW_LICENSE.modaldialog.text"
 msgid "Extension Software License Agreement"
 msgstr "Plėtinio programos licencinė sutartis"
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_INSTALL_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_INSTALL_EXTENSION.warningbox.text
 msgid ""
 "You are about to install the extension \\'%NAME\\'.\n"
 "Click \\'OK\\' to proceed with the installation.\n"
@@ -184,7 +365,7 @@ msgstr ""
 "Spustelėję „Vykdyti“, pradėsite diegimą.\n"
 "Spustelėję „Nutraukti“, stabdysite diegimą."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_REMOVE_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_REMOVE_EXTENSION.warningbox.text
 msgid ""
 "You are about to remove the extension \\'%NAME\\'.\n"
 "Click \\'OK\\' to remove the extension.\n"
@@ -194,7 +375,7 @@ msgstr ""
 "Spustelėję „Vykdyti“, plėtinį šalinsite.\n"
 "Spustelėję „Nutraukti“, plėtinio šalinimą stabdysite."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_REMOVE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_REMOVE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -206,7 +387,7 @@ msgstr ""
 "Spustelėję „Vykdyti“, plėtinį šalinsite.\n"
 "Spustelėję „Nutraukti“, plėtinio šalinimą stabdysite."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_ENABLE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_ENABLE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -218,7 +399,7 @@ msgstr ""
 "Spustelėję „Vykdyti“, įjungsite plėtinį.\n"
 "Spustelėję „Nutraukti“, stabdysite plėtinio įjungimą."
 
-#: dp_gui_dialog.src#RID_WARNINGBOX_DISABLE_SHARED_EXTENSION.warningbox.text
+#: dp_gui_dialog.src%23RID_WARNINGBOX_DISABLE_SHARED_EXTENSION.warningbox.text
 msgid ""
 "Make sure that no further users are working with the same %PRODUCTNAME, when "
 "changing shared extensions in a multi user environment.\n"
@@ -230,206 +411,11 @@ msgstr ""
 "Spustelėję „Vykdyti“, išjungsite plėtinį.\n"
 "Spustelėję „Nutraukti“, stabdysite plėtinio išjungimą."
 
-#: dp_gui_dialog.src#RID_STR_UNSUPPORTED_PLATFORM.string.text
+#: dp_gui_dialog.src%23RID_STR_UNSUPPORTED_PLATFORM.string.text
 msgid "The extension \\'%Name\\' does not work on this computer."
 msgstr "Plėtinys „%Name“ šiame kompiuteryje neveikia."
 
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CHECKING.fixedtext.text
-msgid "Checking..."
-msgstr "Tikrinama…"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_UPDATE.fixedtext.text
-msgid "~Available extension updates"
-msgstr "Galimi plėtinio naujiniai"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ALL.checkbox.text
-msgid "~Show all updates"
-msgstr "Rodyti visus naujinius"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_DESCRIPTION.fixedline.text
-msgid "Description"
-msgstr "Aprašas"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_PUBLISHER_LABEL.fixedtext.text
-msgid "Publisher:"
-msgstr "Leidėjas:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LABEL.fixedtext.text
-msgid "What is new:"
-msgstr "Naujienos:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_RELEASENOTES_LINK.fixedtext.text
-msgid "Release Notes"
-msgstr "Laidos apžvalga"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_OK.pushbutton.text
-msgid "~Install"
-msgstr "Diegti"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text
-msgctxt "dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_CLOSE.pushbutton.text"
-msgid "Close"
-msgstr "Užverti"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ERROR.string.text
-msgid "Error"
-msgstr "Klaida"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NONE.string.text
-msgid "No new updates are available."
-msgstr "Naujinių nėra."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALLABLE.string.text
-msgid ""
-"No installable updates are available. To see ignored or disabled updates, "
-"mark the check box 'Show all updates'."
-msgstr ""
-"Diegimui skirtų naujinių nėra. Nepaisomi arba išjungti naujiniai rodomi, "
-"pažymėjus langelį „Rodyti visus naujinius“."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_FAILURE.string.text
-msgid "An error occurred:"
-msgstr "Klaida:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_UNKNOWNERROR.string.text
-msgid "Unknown error."
-msgstr "Nežinoma klaida."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODESCRIPTION.string.text
-msgid "No more details are available for this update."
-msgstr "Daugiau žinių apie šį naujinį nėra."
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NOINSTALL.string.text
-msgid "The extension cannot be updated because:"
-msgstr "Plėtinio negalima naujinti, nes:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY.string.text
-msgid "Required Apache OpenOffice version doesn't match:"
-msgstr "Reikalaujama „Apache OpenOffice“ laida nesutampa su:"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_NODEPENDENCY_CUR_VER.string.text
-msgid "You have Apache OpenOffice %VERSION"
-msgstr "Turite „Apache OpenOffice %VERSION“"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_BROWSERBASED.string.text
-msgid "browser based update"
-msgstr "naujinimas per naršyklę"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_VERSION.string.text
-msgid "Version"
-msgstr "Laida"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE.string.text
-msgid "Ignore this Update"
-msgstr "Nepaisyti šio naujinio"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORE_ALL.string.text
-msgid "Ignore all Updates"
-msgstr "Nepaisyti visų naujinių"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_ENABLE.string.text
-msgid "Enable Updates"
-msgstr "Įjungti naujinius"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.RID_DLG_UPDATE_IGNORED_UPDATE.string.text
-msgid "This update will be ignored.\n"
-msgstr "Šio naujinio bus nepaisoma.\n"
-
-#: dp_gui_updatedialog.src#RID_DLG_UPDATE.modaldialog.text
-msgid "Extension Update"
-msgstr "Plėtinio naujinimas"
-
-#: dp_gui_updatedialog.src#RID_WARNINGBOX_UPDATE_SHARED_EXTENSION.warningbox.text
-msgid ""
-"Make sure that no further users are working with the same %PRODUCTNAME, when "
-"changing shared extensions in a multi user environment.\n"
-"Click \\'OK\\' to update the extensions.\n"
-"Click \\'Cancel\\' to stop updating the extensions."
-msgstr ""
-"Ne vieno naudotojo aplinkoje keisdami bendruosius plėtinius, įsitikinkite, "
-"kad kiti naudotojai nesinaudoja tuo pačiu „%PRODUCTNAME“.\n"
-"Spustelėję „Vykdyti“, naujinsite plėtinius.\n"
-"Spustelėję „Nutraukti“, stabdysite plėtinių naujinimą."
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_ADD.pushbutton.text
-msgid "~Add..."
-msgstr "~Pridėti…"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
-msgid "Check for ~Updates..."
-msgstr "Tikrinti, ar yra naujinių…"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_GET_EXTENSIONS.fixedtext.text
-msgid "Get more extensions online..."
-msgstr "Gauti daugiau plėtinių tinkle…"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text"
-msgid "Adding %EXTENSION_NAME"
-msgstr "Pridedama „%EXTENSION_NAME“"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text"
-msgid "Close"
-msgstr "Užverti"
-
-#: dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.modelessdialog.text
-msgid "Extension Manager"
-msgstr "Plėtinių tvarkytuvė"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_MSG.fixedtext.text
-msgid ""
-"%PRODUCTNAME has been updated to a new version. Some installed %PRODUCTNAME "
-"extensions are not compatible with this version and need to be updated "
-"before they can be used."
-msgstr ""
-"„%PRODUCTNAME“ laida atnaujinta. Kai kurie „%PRODUCTNAME“ plėtiniai su šia "
-"laida yra nesuderinami. Prieš naudojant, plėtinius reikia naujinti."
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text"
-msgid "Adding %EXTENSION_NAME"
-msgstr "Pridedama „%EXTENSION_NAME“"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
-msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
-msgid "Check for ~Updates..."
-msgstr "Tikrinti, ar yra naujinių…"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CLOSE.pushbutton.text
-msgid "Disable all"
-msgstr "Išjungti visus"
-
-#: dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.modaldialog.text
-msgid "Extension Update Required"
-msgstr "Reikia naujinti plėtinį"
-
-#: dp_gui_dialog2.src#RID_QUERYBOX_INSTALL_FOR_ALL.querybox.text
-msgid ""
-"Make sure that no further users are working with the same %PRODUCTNAME, when "
-"installing an extension for all users in a multi user environment.\n"
-"\n"
-"For whom do you want to install the extension?\n"
-msgstr ""
-"Ne vieno naudotojo aplinkoje diegdami plėtinį visiems naudotojams, "
-"įsitikinkite, kad kiti naudotojai nesinaudoja tuo pačiu „%PRODUCTNAME“.\n"
-"\n"
-"Kam diegti plėtinį?\n"
-
-#: dp_gui_dependencydialog.src#RID_DLG_DEPENDENCIES.RID_DLG_DEPENDENCIES_TEXT.fixedtext.text
-msgid ""
-"The extension cannot be installed as the following\n"
-"system dependencies are not fulfilled:"
-msgstr ""
-"Plėtinio negalima įdiegti,\n"
-"nes netenkinamos šios sisteminės priklausomybės:"
-
-#: dp_gui_dependencydialog.src#RID_DLG_DEPENDENCIES.modaldialog.text
-msgid "System dependencies check"
-msgstr "Sisteminių priklausomybių patikra"
-
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_LESS.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_LESS.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The newer version $DEPLOYED is already installed.\n"
@@ -441,7 +427,7 @@ msgstr ""
 "Spustelėję „Vykdyti“, pakeisite įdiegtą plėtinį.\n"
 "Spustelėkite „Nutraukti“, stabdysite diegimą."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_LESS_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_LESS_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The newer version $DEPLOYED, named \\'$OLDNAME\\', is already installed.\n"
@@ -453,7 +439,7 @@ msgstr ""
 "Spustelėjus „Vykdyti“, keičiamas įdiegtas plėtinys.\n"
 "Spustelėjus „Nutraukti“, stabdomas diegimas."
 
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_EQUAL.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_EQUAL.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "That version is already installed.\n"
@@ -465,7 +451,7 @@ msgstr ""
 "Spustelėjus „Vykdyti“, keičiamas įdiegtas plėtinys.\n"
 "Spustelėjus „Nutraukti“, stabdomas diegimas."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_EQUAL_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_EQUAL_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "That version, named \\'$OLDNAME\\', is already installed.\n"
@@ -477,7 +463,7 @@ msgstr ""
 "Spustelėjus „Vykdyti“, keičiamas įdiegtas plėtinys.\n"
 "Spustelėjus „Nutraukti“, stabdomas diegimas."
 
-#: dp_gui_versionboxes.src#RID_WARNINGBOX_VERSION_GREATER.warningbox.text
+#: dp_gui_versionboxes.src%23RID_WARNINGBOX_VERSION_GREATER.warningbox.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The older version $DEPLOYED is already installed.\n"
@@ -489,7 +475,7 @@ msgstr ""
 "Spustelėjus „Vykdyti“, keičiamas įdiegtas plėtinys.\n"
 "Spustelėjus „Nutraukti“, stabdomas diegimas."
 
-#: dp_gui_versionboxes.src#RID_STR_WARNINGBOX_VERSION_GREATER_DIFFERENT_NAMES.string.text
+#: dp_gui_versionboxes.src%23RID_STR_WARNINGBOX_VERSION_GREATER_DIFFERENT_NAMES.string.text
 msgid ""
 "You are about to install version $NEW of the extension \\'$NAME\\'.\n"
 "The older version $DEPLOYED, named \\'$OLDNAME\\', is already installed.\n"
@@ -501,54 +487,68 @@ msgstr ""
 "Spustelėjus „Vykdyti“, keičiamas įdiegtas plėtinys.\n"
 "Spustelėjus „Nutraukti“, stabdomas diegimas."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_DOWNLOADING.fixedtext.text
-msgid "Downloading extensions..."
-msgstr "Gaunami plėtiniai…"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_ADD.pushbutton.text
+msgid "~Add..."
+msgstr "~Pridėti…"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_RESULTS.fixedtext.text
-msgid "Result"
-msgstr "Rezultatas"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
+msgid "Check for ~Updates..."
+msgstr "Tikrinti, ar yra naujinių…"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_OK.okbutton.text
-msgid "OK"
-msgstr "Vykdyti"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_FT_GET_EXTENSIONS.fixedtext.text
+msgid "Get more extensions online..."
+msgstr "Gauti daugiau plėtinių tinkle…"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ABORT.cancelbutton.text
-msgid "Cancel Update"
-msgstr "Nutraukti naujinimą"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_FT_PROGRESS.fixedtext.text"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Pridedama „%EXTENSION_NAME“"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_INSTALLING.string.text
-msgid "Installing extensions..."
-msgstr "Diegiami plėtiniai…"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_EXTENSION_MANAGER.RID_EM_BTN_CLOSE.okbutton.text"
+msgid "Close"
+msgstr "Užverti"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_FINISHED.string.text
-msgid "Installation finished"
-msgstr "Diegimas baigtas"
+#: dp_gui_dialog2.src%23RID_DLG_EXTENSION_MANAGER.modelessdialog.text
+msgid "Extension Manager"
+msgstr "Plėtinių tvarkytuvė"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_NO_ERRORS.string.text
-msgid "No errors."
-msgstr "Klaidų nėra."
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_FT_MSG.fixedtext.text
+msgid ""
+"%PRODUCTNAME has been updated to a new version. Some installed %PRODUCTNAME "
+"extensions are not compatible with this version and need to be updated "
+"before they can be used."
+msgstr ""
+"„%PRODUCTNAME“ laida atnaujinta. Kai kurie „%PRODUCTNAME“ plėtiniai su šia "
+"laida yra nesuderinami. Prieš naudojant, plėtinius reikia naujinti."
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_DOWNLOAD.string.text
-msgid "Error while downloading extension %NAME. "
-msgstr "Klaida gaunant plėtinį „%NAME“. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_FT_PROGRESS.fixedtext.text"
+msgid "Adding %EXTENSION_NAME"
+msgstr "Pridedama „%EXTENSION_NAME“"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_THIS_ERROR_OCCURRED.string.text
-msgid "The error message is: "
-msgstr "Klaidos pranešimas: "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text
+msgctxt "dp_gui_dialog2.src#RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CHECK_UPDATES.pushbutton.text"
+msgid "Check for ~Updates..."
+msgstr "Tikrinti, ar yra naujinių…"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_INSTALLATION.string.text
-msgid "Error while installing extension %NAME. "
-msgstr "Klaida diegiant plėtinį „%NAME“. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.RID_EM_BTN_CLOSE.pushbutton.text
+msgid "Disable all"
+msgstr "Išjungti visus"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_ERROR_LIC_DECLINED.string.text
-msgid "The license agreement for extension %NAME was refused. "
-msgstr "Atmesta plėtinio „%NAME“ licencinė sutartis. "
+#: dp_gui_dialog2.src%23RID_DLG_UPDATE_REQUIRED.modaldialog.text
+msgid "Extension Update Required"
+msgstr "Reikia naujinti plėtinį"
 
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.RID_DLG_UPDATE_INSTALL_EXTENSION_NOINSTALL.string.text
-msgid "The extension will not be installed."
-msgstr "Plėtinys nebus įdiegtas."
-
-#: dp_gui_updateinstalldialog.src#RID_DLG_UPDATEINSTALL.modaldialog.text
-msgid "Download and Installation"
-msgstr "Gavimas ir diegimas"
+#: dp_gui_dialog2.src%23RID_QUERYBOX_INSTALL_FOR_ALL.querybox.text
+msgid ""
+"Make sure that no further users are working with the same %PRODUCTNAME, when "
+"installing an extension for all users in a multi user environment.\n"
+"\n"
+"For whom do you want to install the extension?\n"
+msgstr ""
+"Ne vieno naudotojo aplinkoje diegdami plėtinį visiems naudotojams, "
+"įsitikinkite, kad kiti naudotojai nesinaudoja tuo pačiu „%PRODUCTNAME“.\n"
+"\n"
+"Kam diegti plėtinį?\n"

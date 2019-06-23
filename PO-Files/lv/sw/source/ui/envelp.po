@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fe"
 "nvelp.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-05-22 10:14+0200\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,38 +17,42 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 
-#: envprt.src%23TP_ENV_PRT.FL_NONAME.fixedline.text
-msgid "Envelope orientation"
-msgstr "Aploksnes orientācija"
+#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
+msgid "~Entire page"
+msgstr "~Visa lapa"
 
-#: envprt.src%23TP_ENV_PRT.BTN_TOP.radiobutton.text
-msgid "~Print from top"
-msgstr "~Drukāt no augšas"
+#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
+msgid "~Single label"
+msgstr "~Viena etiķete"
 
-#: envprt.src%23TP_ENV_PRT.BTN_BOTTOM.radiobutton.text
-msgid "Print from ~bottom"
-msgstr "Drukāt no ~apakšas"
+#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
+msgid "Colu~mn"
+msgstr "Kolo~nna"
 
-#: envprt.src%23TP_ENV_PRT.TXT_RIGHT.fixedtext.text
-msgid "~Shift right"
-msgstr "~Pārvietot pa labi"
+#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
+msgid "Ro~w"
+msgstr "~Rinda"
 
-#: envprt.src%23TP_ENV_PRT.TXT_DOWN.fixedtext.text
-msgid "Shift ~down"
-msgstr "Pārvietot uz ~leju"
+#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
+msgid "Synchroni~ze contents"
+msgstr "Sinhroni~zēt saturu"
 
-#: envprt.src%23TP_ENV_PRT.FL_PRINTER.fixedline.text
-msgid "Current printer"
-msgstr "Izvēlētais printeris"
+#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
+msgid "Distribute"
+msgstr "Sadalīt"
 
-#: envprt.src%23TP_ENV_PRT.TXT_PRINTER.fixedtext.text
-msgid "- No printer installed -"
-msgstr "- Nav instalētu printeru -"
+#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
+msgid "Printer Name"
+msgstr "Printera nosaukums"
 
-#: envprt.src%23TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text
-msgctxt "envprt.src#TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text"
+#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
+msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
 msgid "Setup..."
 msgstr "Konfigurācija..."
+
+#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
+msgid " Printer "
+msgstr " Printeris "
 
 #: envlop.src%23DLG_ENV.1.TP_ENV_ENV.pageitem.text
 msgctxt "envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text"
@@ -103,6 +107,39 @@ msgstr "~Sūtītājs"
 msgctxt "envlop.src#STR_DOC_TITLE.string.text"
 msgid "Envelope"
 msgstr "Aploksne"
+
+#: envprt.src%23TP_ENV_PRT.FL_NONAME.fixedline.text
+msgid "Envelope orientation"
+msgstr "Aploksnes orientācija"
+
+#: envprt.src%23TP_ENV_PRT.BTN_TOP.radiobutton.text
+msgid "~Print from top"
+msgstr "~Drukāt no augšas"
+
+#: envprt.src%23TP_ENV_PRT.BTN_BOTTOM.radiobutton.text
+msgid "Print from ~bottom"
+msgstr "Drukāt no ~apakšas"
+
+#: envprt.src%23TP_ENV_PRT.TXT_RIGHT.fixedtext.text
+msgid "~Shift right"
+msgstr "~Pārvietot pa labi"
+
+#: envprt.src%23TP_ENV_PRT.TXT_DOWN.fixedtext.text
+msgid "Shift ~down"
+msgstr "Pārvietot uz ~leju"
+
+#: envprt.src%23TP_ENV_PRT.FL_PRINTER.fixedline.text
+msgid "Current printer"
+msgstr "Izvēlētais printeris"
+
+#: envprt.src%23TP_ENV_PRT.TXT_PRINTER.fixedtext.text
+msgid "- No printer installed -"
+msgstr "- Nav instalētu printeru -"
+
+#: envprt.src%23TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text
+msgctxt "envprt.src#TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text"
+msgid "Setup..."
+msgstr "Konfigurācija..."
 
 #: labfmt.src%23TP_LAB_FMT.TXT_HDIST.fixedtext.text
 msgid "Hori~zontal pitch"
@@ -207,254 +244,6 @@ msgstr ""
 #: labfmt.src%23DLG_SAVE_LABEL.modaldialog.text
 msgid "Save Label Format"
 msgstr "Saglabāt etiķetes formātu"
-
-#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
-msgid "~Entire page"
-msgstr "~Visa lapa"
-
-#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
-msgid "~Single label"
-msgstr "~Viena etiķete"
-
-#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
-msgid "Colu~mn"
-msgstr "Kolo~nna"
-
-#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
-msgid "Ro~w"
-msgstr "~Rinda"
-
-#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
-msgid "Synchroni~ze contents"
-msgstr "Sinhroni~zēt saturu"
-
-#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
-msgid "Distribute"
-msgstr "Sadalīt"
-
-#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
-msgid "Printer Name"
-msgstr "Printera nosaukums"
-
-#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
-msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
-msgid "Setup..."
-msgstr "Konfigurācija..."
-
-#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
-msgid " Printer "
-msgstr " Printeris "
-
-#: label.src%23LABEL_STRING.%23define.text
-msgctxt "label.src#LABEL_STRING.#define.text"
-msgid "Labels"
-msgstr "Etiķetes"
-
-#: label.src%23BUSINESS_CARD_STRING.%23define.text
-msgid "Business Cards"
-msgstr "Vizītkartes"
-
-#: label.src%23DLG_LAB.1.TP_PRIVATE_DATA.pageitem.text
-msgid "Private"
-msgstr "Privāts"
-
-#: label.src%23DLG_LAB.1.TP_BUSINESS_DATA.pageitem.text
-msgid "Business"
-msgstr "Biznesa"
-
-#: label.src%23DLG_LAB.1.TP_LAB_FMT.pageitem.text
-msgctxt "label.src#DLG_LAB.1.TP_LAB_FMT.pageitem.text"
-msgid "Format"
-msgstr "Formāts"
-
-#: label.src%23DLG_LAB.1.TP_LAB_PRT.pageitem.text
-msgctxt "label.src#DLG_LAB.1.TP_LAB_PRT.pageitem.text"
-msgid "Options"
-msgstr "Opcijas"
-
-#: label.src%23DLG_LAB.ST_FIRSTPAGE_BC.string.text
-msgid "Medium"
-msgstr "Vidējs"
-
-#: label.src%23TP_LAB_LAB.TXT_WRITING.fixedtext.text
-msgid "Label text"
-msgstr "Etiķetes teksts"
-
-#: label.src%23TP_LAB_LAB.BOX_ADDR.checkbox.text
-msgid "Address"
-msgstr "Adrese"
-
-#: label.src%23TP_LAB_LAB.FT_DATABASE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.FT_DATABASE.fixedtext.text"
-msgid "Database"
-msgstr "Datubāze"
-
-#: label.src%23TP_LAB_LAB.FT_TABLE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.FT_TABLE.fixedtext.text"
-msgid "Table"
-msgstr "Tabula"
-
-#: label.src%23TP_LAB_LAB.FT_DBFIELD.fixedtext.text
-msgid "Database field"
-msgstr "Datubāzes lauks"
-
-#: label.src%23TP_LAB_LAB.FL_WRITING.fixedline.text
-msgid "Inscription"
-msgstr "Uzraksts"
-
-#: label.src%23TP_LAB_LAB.BTN_CONT.radiobutton.text
-msgid "~Continuous"
-msgstr "~Nepārtraukts"
-
-#: label.src%23TP_LAB_LAB.BTN_SHEET.radiobutton.text
-msgid "~Sheet"
-msgstr "~Loksne"
-
-#: label.src%23TP_LAB_LAB.TXT_MAKE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.TXT_MAKE.fixedtext.text"
-msgid "Brand"
-msgstr "Zīmols"
-
-#: label.src%23TP_LAB_LAB.TXT_TYPE.fixedtext.text
-msgid "~Type"
-msgstr "~Tips"
-
-#: label.src%23TP_LAB_LAB.FL_FORMAT.fixedline.text
-msgctxt "label.src#TP_LAB_LAB.FL_FORMAT.fixedline.text"
-msgid "Format"
-msgstr "Formāts"
-
-#: label.src%23DLG_SYNC_BTN.BTN_SYNC.pushbutton.text
-msgid "Synchronize Labels"
-msgstr "Sinhronizēt etiķetes"
-
-#: label.src%23STR_DOC_TITLE.string.text
-msgctxt "label.src#STR_DOC_TITLE.string.text"
-msgid "Labels"
-msgstr "Etiķetes"
-
-#: label.src%23STR_CUSTOM.string.text
-msgid "[User]"
-msgstr "[Lietotājs]"
-
-#: label.src%23TP_VISITING_CARDS.FT_AUTO_TEXT_GROUP.fixedtext.text
-msgid "AutoText - Section"
-msgstr "Automātiskais teksts - sadaļa"
-
-#: label.src%23TP_VISITING_CARDS.FL_CONTENT.fixedline.text
-msgid "Content"
-msgstr "Saturs"
-
-#: label.src%23TP_PRIVATE_DATA.FL_DATA.fixedline.text
-msgid "Private data"
-msgstr "Privātie dati"
-
-#: label.src%23TP_PRIVATE_DATA.FT_NAME.fixedtext.text
-msgid "First/Last ~name/Initials"
-msgstr "~Vārds / Uzvārds / Iniciāļi"
-
-#: label.src%23TP_PRIVATE_DATA.FT_NAME_2.fixedtext.text
-msgid "First/Last ~name/Initials 2"
-msgstr "~Vārds / Uzvārds / Iniciāļi 2"
-
-#: label.src%23TP_PRIVATE_DATA.FT_STREET.fixedtext.text
-msgid "S~treet"
-msgstr "Ie~la"
-
-#: label.src%23TP_PRIVATE_DATA.FT_ZIPCITY.fixedtext.text
-msgid "Zip/Cit~y"
-msgstr "PI/Pilsē~ta"
-
-#: label.src%23TP_PRIVATE_DATA.FT_COUNTRYSTATE.fixedtext.text
-msgid "Co~untry/State"
-msgstr "Val~sts/Štats"
-
-#: label.src%23TP_PRIVATE_DATA.FT_TITLEPROF.fixedtext.text
-msgid "Title/~Profession"
-msgstr "Tituls/~Profesija"
-
-#: label.src%23TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text
-msgctxt "label.src#TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text"
-msgid "Phone/Mobile"
-msgstr "Telefons/Mobilais"
-
-#: label.src%23TP_PRIVATE_DATA.FT_FAX.fixedtext.text
-msgid "Fa~x"
-msgstr "Fa~kss"
-
-#: label.src%23TP_PRIVATE_DATA.FT_WWWMAIL.fixedtext.text
-msgid "Homepage / e-mail"
-msgstr "Mājaslapa / e-pasts"
-
-#: label.src%23TP_BUSINESS_DATA.FL_DATA.fixedline.text
-msgid "Business data"
-msgstr "Biznesa dati"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COMP.fixedtext.text
-msgid "Company"
-msgstr "Uzņēmums"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COMP_EXT.fixedtext.text
-msgid "Company 2nd line"
-msgstr "Uzņēmums, 2. rinda"
-
-#: label.src%23TP_BUSINESS_DATA.FT_SLOGAN.fixedtext.text
-msgid "Slogan"
-msgstr "Sauklis"
-
-#: label.src%23TP_BUSINESS_DATA.FT_STREET.fixedtext.text
-msgid "Street"
-msgstr "Iela"
-
-#: label.src%23TP_BUSINESS_DATA.FT_ZIPCITY.fixedtext.text
-msgid "ZIP/City"
-msgstr "PI/Pilsēta"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COUNTRYSTATE.fixedtext.text
-msgid "Country/State"
-msgstr "Valsts/Štats"
-
-#: label.src%23TP_BUSINESS_DATA.FT_POSITION.fixedtext.text
-msgctxt "label.src#TP_BUSINESS_DATA.FT_POSITION.fixedtext.text"
-msgid "Position"
-msgstr "Novietojums"
-
-#: label.src%23TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text
-msgctxt "label.src#TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text"
-msgid "Phone/Mobile"
-msgstr "Telefons/Mobilais"
-
-#: label.src%23TP_BUSINESS_DATA.FT_FAX.fixedtext.text
-msgid "Fax"
-msgstr "Fakss"
-
-#: label.src%23TP_BUSINESS_DATA.FT_WWWMAIL.fixedtext.text
-msgid "Ho~mepage / e-mail"
-msgstr "~Mājaslapa / e-pasts"
-
-#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
-msgid "Database could not be opened."
-msgstr "Neizdevās atvērt datubāzi."
-
-#: envelp.src%23STR_NO_DRIVERS.string.text
-msgid "No database drivers installed."
-msgstr "Nav instalēts neviens datubāzes draiveris."
-
-#: envelp.src%23STR_BTN_NEW_DOC.string.text
-msgid "~New Document"
-msgstr "Jau~ns dokuments"
-
-#: envelp.src%23STR_BTN_NEWDOC.string.text
-msgid "~New Doc."
-msgstr "Jau~ns dok."
-
-#: envelp.src%23STR_SENDER_TOKENS.string.text
-msgid ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
-msgstr ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
 
 #: mailmrge.src%23_MAIL_MERGE_STRING_.%23define.text
 msgid "Mail Merge"
@@ -673,3 +462,214 @@ msgstr "Ra~kstzīme"
 #: envfmt.src%23MNU_EDIT.MID_PARA.menuitem.text
 msgid "P~aragraph..."
 msgstr "~Rindkopa..."
+
+#: label.src%23LABEL_STRING.%23define.text
+msgctxt "label.src#LABEL_STRING.#define.text"
+msgid "Labels"
+msgstr "Etiķetes"
+
+#: label.src%23BUSINESS_CARD_STRING.%23define.text
+msgid "Business Cards"
+msgstr "Vizītkartes"
+
+#: label.src%23DLG_LAB.1.TP_PRIVATE_DATA.pageitem.text
+msgid "Private"
+msgstr "Privāts"
+
+#: label.src%23DLG_LAB.1.TP_BUSINESS_DATA.pageitem.text
+msgid "Business"
+msgstr "Biznesa"
+
+#: label.src%23DLG_LAB.1.TP_LAB_FMT.pageitem.text
+msgctxt "label.src#DLG_LAB.1.TP_LAB_FMT.pageitem.text"
+msgid "Format"
+msgstr "Formāts"
+
+#: label.src%23DLG_LAB.1.TP_LAB_PRT.pageitem.text
+msgctxt "label.src#DLG_LAB.1.TP_LAB_PRT.pageitem.text"
+msgid "Options"
+msgstr "Opcijas"
+
+#: label.src%23DLG_LAB.ST_FIRSTPAGE_BC.string.text
+msgid "Medium"
+msgstr "Vidējs"
+
+#: label.src%23TP_LAB_LAB.TXT_WRITING.fixedtext.text
+msgid "Label text"
+msgstr "Etiķetes teksts"
+
+#: label.src%23TP_LAB_LAB.BOX_ADDR.checkbox.text
+msgid "Address"
+msgstr "Adrese"
+
+#: label.src%23TP_LAB_LAB.FT_DATABASE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.FT_DATABASE.fixedtext.text"
+msgid "Database"
+msgstr "Datubāze"
+
+#: label.src%23TP_LAB_LAB.FT_TABLE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.FT_TABLE.fixedtext.text"
+msgid "Table"
+msgstr "Tabula"
+
+#: label.src%23TP_LAB_LAB.FT_DBFIELD.fixedtext.text
+msgid "Database field"
+msgstr "Datubāzes lauks"
+
+#: label.src%23TP_LAB_LAB.FL_WRITING.fixedline.text
+msgid "Inscription"
+msgstr "Uzraksts"
+
+#: label.src%23TP_LAB_LAB.BTN_CONT.radiobutton.text
+msgid "~Continuous"
+msgstr "~Nepārtraukts"
+
+#: label.src%23TP_LAB_LAB.BTN_SHEET.radiobutton.text
+msgid "~Sheet"
+msgstr "~Loksne"
+
+#: label.src%23TP_LAB_LAB.TXT_MAKE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.TXT_MAKE.fixedtext.text"
+msgid "Brand"
+msgstr "Zīmols"
+
+#: label.src%23TP_LAB_LAB.TXT_TYPE.fixedtext.text
+msgid "~Type"
+msgstr "~Tips"
+
+#: label.src%23TP_LAB_LAB.FL_FORMAT.fixedline.text
+msgctxt "label.src#TP_LAB_LAB.FL_FORMAT.fixedline.text"
+msgid "Format"
+msgstr "Formāts"
+
+#: label.src%23DLG_SYNC_BTN.BTN_SYNC.pushbutton.text
+msgid "Synchronize Labels"
+msgstr "Sinhronizēt etiķetes"
+
+#: label.src%23STR_DOC_TITLE.string.text
+msgctxt "label.src#STR_DOC_TITLE.string.text"
+msgid "Labels"
+msgstr "Etiķetes"
+
+#: label.src%23STR_CUSTOM.string.text
+msgid "[User]"
+msgstr "[Lietotājs]"
+
+#: label.src%23TP_VISITING_CARDS.FT_AUTO_TEXT_GROUP.fixedtext.text
+msgid "AutoText - Section"
+msgstr "Automātiskais teksts - sadaļa"
+
+#: label.src%23TP_VISITING_CARDS.FL_CONTENT.fixedline.text
+msgid "Content"
+msgstr "Saturs"
+
+#: label.src%23TP_PRIVATE_DATA.FL_DATA.fixedline.text
+msgid "Private data"
+msgstr "Privātie dati"
+
+#: label.src%23TP_PRIVATE_DATA.FT_NAME.fixedtext.text
+msgid "First/Last ~name/Initials"
+msgstr "~Vārds / Uzvārds / Iniciāļi"
+
+#: label.src%23TP_PRIVATE_DATA.FT_NAME_2.fixedtext.text
+msgid "First/Last ~name/Initials 2"
+msgstr "~Vārds / Uzvārds / Iniciāļi 2"
+
+#: label.src%23TP_PRIVATE_DATA.FT_STREET.fixedtext.text
+msgid "S~treet"
+msgstr "Ie~la"
+
+#: label.src%23TP_PRIVATE_DATA.FT_ZIPCITY.fixedtext.text
+msgid "Zip/Cit~y"
+msgstr "PI/Pilsē~ta"
+
+#: label.src%23TP_PRIVATE_DATA.FT_COUNTRYSTATE.fixedtext.text
+msgid "Co~untry/State"
+msgstr "Val~sts/Štats"
+
+#: label.src%23TP_PRIVATE_DATA.FT_TITLEPROF.fixedtext.text
+msgid "Title/~Profession"
+msgstr "Tituls/~Profesija"
+
+#: label.src%23TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text
+msgctxt "label.src#TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text"
+msgid "Phone/Mobile"
+msgstr "Telefons/Mobilais"
+
+#: label.src%23TP_PRIVATE_DATA.FT_FAX.fixedtext.text
+msgid "Fa~x"
+msgstr "Fa~kss"
+
+#: label.src%23TP_PRIVATE_DATA.FT_WWWMAIL.fixedtext.text
+msgid "Homepage / e-mail"
+msgstr "Mājaslapa / e-pasts"
+
+#: label.src%23TP_BUSINESS_DATA.FL_DATA.fixedline.text
+msgid "Business data"
+msgstr "Biznesa dati"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COMP.fixedtext.text
+msgid "Company"
+msgstr "Uzņēmums"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COMP_EXT.fixedtext.text
+msgid "Company 2nd line"
+msgstr "Uzņēmums, 2. rinda"
+
+#: label.src%23TP_BUSINESS_DATA.FT_SLOGAN.fixedtext.text
+msgid "Slogan"
+msgstr "Sauklis"
+
+#: label.src%23TP_BUSINESS_DATA.FT_STREET.fixedtext.text
+msgid "Street"
+msgstr "Iela"
+
+#: label.src%23TP_BUSINESS_DATA.FT_ZIPCITY.fixedtext.text
+msgid "ZIP/City"
+msgstr "PI/Pilsēta"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COUNTRYSTATE.fixedtext.text
+msgid "Country/State"
+msgstr "Valsts/Štats"
+
+#: label.src%23TP_BUSINESS_DATA.FT_POSITION.fixedtext.text
+msgctxt "label.src#TP_BUSINESS_DATA.FT_POSITION.fixedtext.text"
+msgid "Position"
+msgstr "Novietojums"
+
+#: label.src%23TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text
+msgctxt "label.src#TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text"
+msgid "Phone/Mobile"
+msgstr "Telefons/Mobilais"
+
+#: label.src%23TP_BUSINESS_DATA.FT_FAX.fixedtext.text
+msgid "Fax"
+msgstr "Fakss"
+
+#: label.src%23TP_BUSINESS_DATA.FT_WWWMAIL.fixedtext.text
+msgid "Ho~mepage / e-mail"
+msgstr "~Mājaslapa / e-pasts"
+
+#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
+msgid "Database could not be opened."
+msgstr "Neizdevās atvērt datubāzi."
+
+#: envelp.src%23STR_NO_DRIVERS.string.text
+msgid "No database drivers installed."
+msgstr "Nav instalēts neviens datubāzes draiveris."
+
+#: envelp.src%23STR_BTN_NEW_DOC.string.text
+msgid "~New Document"
+msgstr "Jau~ns dokuments"
+
+#: envelp.src%23STR_BTN_NEWDOC.string.text
+msgid "~New Doc."
+msgstr "Jau~ns dok."
+
+#: envelp.src%23STR_SENDER_TOKENS.string.text
+msgid ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"
+msgstr ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"

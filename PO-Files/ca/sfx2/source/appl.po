@@ -2,12 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sfx2%2Fsource%2Fappl.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 12:12+0000\n"
-"PO-Revision-Date: 2019-02-18 11:20+0000\n"
-"Last-Translator: Joan <joan@montane.cat>\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sfx2%2Fsource%2Fappl"
+".oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
+"PO-Revision-Date: 2019-04-27 12:06+0000\n"
+"Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -18,54 +18,197 @@ msgstr ""
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
 "X-Language: ca\n"
-"X-POOTLE-MTIME: 1550488802.000000\n"
+"X-POOTLE-MTIME: 1556366800.000000\n"
 
-#: sfx.src#STR_ACCTITLE_PRODUCTIVITYTOOLS.string.text
+#: sfx.src%23STR_ACCTITLE_PRODUCTIVITYTOOLS.string.text
 msgid "%PRODUCTNAME"
 msgstr "%PRODUCTNAME"
 
-#: app.src#STR_NONAME.string.text
+#: newhelp.src%23WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_CONTENTS.pageitem.text
+msgid "Contents"
+msgstr "Contingut"
+
+#: newhelp.src%23WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_INDEX.pageitem.text
+msgid "Index"
+msgstr "Índex"
+
+#: newhelp.src%23WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_SEARCH.pageitem.text
+msgid "Find"
+msgstr "Cerca"
+
+#: newhelp.src%23WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_BOOKMARKS.pageitem.text
+msgid "Bookmarks"
+msgstr "Marcadors"
+
+#: newhelp.src%23TP_HELP_INDEX.FT_EXPRESSION.fixedtext.text
+msgid "~Search term"
+msgstr "Terme de ~cerca"
+
+#: newhelp.src%23TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text
+msgctxt "newhelp.src#TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text"
+msgid "~Display"
+msgstr "~Visualitza"
+
+#: newhelp.src%23TP_HELP_SEARCH.FT_SEARCH.fixedtext.text
+msgid "S~earch term"
+msgstr "T~erme de cerca"
+
+#: newhelp.src%23TP_HELP_SEARCH.PB_SEARCH.pushbutton.text
+msgid "~Find"
+msgstr "~Cerca"
+
+#: newhelp.src%23TP_HELP_SEARCH.CB_FULLWORDS.checkbox.text
+msgid "~Complete words only"
+msgstr "~Només paraules senceres"
+
+#: newhelp.src%23TP_HELP_SEARCH.CB_SCOPE.checkbox.text
+msgid "Find in ~headings only"
+msgstr "Cerca només als ~encapçalaments"
+
+#: newhelp.src%23TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text
+msgctxt "newhelp.src#TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text"
+msgid "~Display"
+msgstr "~Visualitza"
+
+#: newhelp.src%23TP_HELP_BOOKMARKS.FT_BOOKMARKS.fixedtext.text
+msgid "~Bookmarks"
+msgstr "~Marcadors"
+
+#: newhelp.src%23TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text
+msgctxt "newhelp.src#TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text"
+msgid "~Display"
+msgstr "~Visualitza"
+
+#: newhelp.src%23STR_HELP_WINDOW_TITLE.string.text
+msgid "%PRODUCTNAME Help"
+msgstr "Ajuda de l'%PRODUCTNAME"
+
+#: newhelp.src%23STR_HELP_BUTTON_INDEX_ON.string.text
+msgid "Show Navigation Pane"
+msgstr "Mostra la subfinestra de navegació"
+
+#: newhelp.src%23STR_HELP_BUTTON_INDEX_OFF.string.text
+msgid "Hide Navigation Pane"
+msgstr "Amaga la subfinestra de navegació"
+
+#: newhelp.src%23STR_HELP_BUTTON_START.string.text
+msgid "First Page"
+msgstr "Primera pàgina"
+
+#: newhelp.src%23STR_HELP_BUTTON_PREV.string.text
+msgid "Previous Page"
+msgstr "Pàgina anterior"
+
+#: newhelp.src%23STR_HELP_BUTTON_NEXT.string.text
+msgid "Next Page"
+msgstr "Pàgina següent"
+
+#: newhelp.src%23STR_HELP_BUTTON_PRINT.string.text
+msgid "Print..."
+msgstr "Imprimeix..."
+
+#: newhelp.src%23STR_HELP_BUTTON_ADDBOOKMARK.string.text
+msgid "Add to Bookmarks..."
+msgstr "Afegeix als marcadors..."
+
+#: newhelp.src%23STR_HELP_BUTTON_SEARCHDIALOG.string.text
+msgid "Find on this Page..."
+msgstr "Cerca en aquesta pàgina..."
+
+#: newhelp.src%23STR_HELP_BUTTON_SOURCEVIEW.string.text
+msgid "HTML Source"
+msgstr "Font HTML"
+
+#: newhelp.src%23STR_HELP_FIRST_MESSAGE.string.text
+msgid "The Help is being started..."
+msgstr "S'està iniciant l'ajuda..."
+
+#: newhelp.src%23STR_HELP_MENU_TEXT_SELECTION_MODE.string.text
+msgid "Select Text"
+msgstr "Selecciona el text"
+
+#: newhelp.src%23STR_HELP_MENU_TEXT_COPY.string.text
+msgid "~Copy"
+msgstr "~Copia"
+
+#: newhelp.src%23DLG_HELP_ADDBOOKMARK.FT_BOOKMARK_TITLE.fixedtext.text
+msgid "Bookmark:"
+msgstr "Marcadors:"
+
+#: newhelp.src%23DLG_HELP_ADDBOOKMARK.STR_BOOKMARK_RENAME.string.text
+msgid "Rename Bookmark"
+msgstr "Canvia el nom del marcador"
+
+#: newhelp.src%23DLG_HELP_ADDBOOKMARK.modaldialog.text
+msgid "Add to Bookmarks"
+msgstr "Afegeix als marcadors"
+
+#: newhelp.src%23MENU_HELP_BOOKMARKS.MID_OPEN.menuitem.text
+msgid "Display"
+msgstr "Mostra"
+
+#: newhelp.src%23MENU_HELP_BOOKMARKS.MID_RENAME.menuitem.text
+msgid "Rename..."
+msgstr "Canvia el nom..."
+
+#: newhelp.src%23MENU_HELP_BOOKMARKS.MID_DELETE.menuitem.text
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: newhelp.src%23RID_INFO_NOSEARCHRESULTS.infobox.text
+msgid "No topics found."
+msgstr "No s'han trobat temes."
+
+#: newhelp.src%23RID_INFO_NOSEARCHTEXTFOUND.infobox.text
+msgid "The text you entered was not found."
+msgstr "El text que heu introduït no s'ha trobat."
+
+#: newhelp.src%23RID_HELP_ONSTARTUP_TEXT.string.text
+msgid "~Display %PRODUCTNAME %MODULENAME Help at Startup"
+msgstr "~Mostra l'ajuda de l'%PRODUCTNAME %MODULENAME a l'inici"
+
+#: app.src%23STR_NONAME.string.text
 msgid "Untitled"
 msgstr "Sense nom"
 
-#: app.src#STR_CLOSE.string.text
+#: app.src%23STR_CLOSE.string.text
 msgid "Close"
 msgstr "Tanca"
 
-#: app.src#STR_STYLE_FILTER_AUTO.string.text
+#: app.src%23STR_STYLE_FILTER_AUTO.string.text
 msgid "Automatic"
 msgstr "Automàtic"
 
-#: app.src#STR_STANDARD_SHORTCUT.string.text
+#: app.src%23STR_STANDARD_SHORTCUT.string.text
 msgctxt "app.src#STR_STANDARD_SHORTCUT.string.text"
 msgid "Standard"
 msgstr "Estàndard"
 
-#: app.src#STR_BYTES.string.text
+#: app.src%23STR_BYTES.string.text
 msgid "Bytes"
 msgstr "Bytes"
 
-#: app.src#STR_KB.string.text
+#: app.src%23STR_KB.string.text
 msgid "KB"
 msgstr "kB"
 
-#: app.src#STR_MB.string.text
+#: app.src%23STR_MB.string.text
 msgid "MB"
 msgstr "MB"
 
-#: app.src#STR_GB.string.text
+#: app.src%23STR_GB.string.text
 msgid "GB"
 msgstr "GB"
 
-#: app.src#MSG_QUERY_LASTVERSION.querybox.text
+#: app.src%23MSG_QUERY_LASTVERSION.querybox.text
 msgid "Cancel all changes?"
 msgstr "Voleu cancel·lar tots els canvis?"
 
-#: app.src#RID_DOCALREADYLOADED_DLG.infobox.text
+#: app.src%23RID_DOCALREADYLOADED_DLG.infobox.text
 msgid "Document already open."
 msgstr "Document ja obert."
 
-#: app.src#MSG_ERR_NO_WEBBROWSER_FOUND.errorbox.text
+#: app.src%23MSG_ERR_NO_WEBBROWSER_FOUND.errorbox.text
 msgid ""
 "%PRODUCTNAME could not find a web browser on your system. Please check your "
 "desktop preferences or install a web browser (for example, Mozilla) in the "
@@ -76,112 +219,112 @@ msgstr ""
 "Mozilla) a la ubicació predeterminada indicada durant la instal·lació del "
 "navegador."
 
-#: app.src#GID_INTERN.string.text
+#: app.src%23GID_INTERN.string.text
 msgid "Internal"
 msgstr "Intern"
 
-#: app.src#GID_APPLICATION.string.text
+#: app.src%23GID_APPLICATION.string.text
 msgid "Application"
 msgstr "Aplicació"
 
-#: app.src#GID_VIEW.string.text
+#: app.src%23GID_VIEW.string.text
 msgid "View"
 msgstr "Visualització"
 
-#: app.src#GID_DOCUMENT.string.text
+#: app.src%23GID_DOCUMENT.string.text
 msgid "Documents"
 msgstr "Documents"
 
-#: app.src#GID_EDIT.string.text
+#: app.src%23GID_EDIT.string.text
 msgid "Edit"
 msgstr "Edita"
 
-#: app.src#GID_MACRO.string.text
+#: app.src%23GID_MACRO.string.text
 msgid "BASIC"
 msgstr "BASIC"
 
-#: app.src#GID_OPTIONS.string.text
+#: app.src%23GID_OPTIONS.string.text
 msgid "Options"
 msgstr "Opcions"
 
-#: app.src#GID_MATH.string.text
+#: app.src%23GID_MATH.string.text
 msgid "Math"
 msgstr "Matemàtiques"
 
-#: app.src#GID_NAVIGATOR.string.text
+#: app.src%23GID_NAVIGATOR.string.text
 msgid "Navigate"
 msgstr "Navega"
 
-#: app.src#GID_INSERT.string.text
+#: app.src%23GID_INSERT.string.text
 msgid "Insert"
 msgstr "Insereix"
 
-#: app.src#GID_FORMAT.string.text
+#: app.src%23GID_FORMAT.string.text
 msgid "Format"
 msgstr "Formata"
 
-#: app.src#GID_TEMPLATE.string.text
+#: app.src%23GID_TEMPLATE.string.text
 msgid "Templates"
 msgstr "Plantilles"
 
-#: app.src#GID_TEXT.string.text
+#: app.src%23GID_TEXT.string.text
 msgid "Text"
 msgstr "Text"
 
-#: app.src#GID_FRAME.string.text
+#: app.src%23GID_FRAME.string.text
 msgid "Frame"
 msgstr "Marc"
 
-#: app.src#GID_GRAPHIC.string.text
+#: app.src%23GID_GRAPHIC.string.text
 msgctxt "app.src#GID_GRAPHIC.string.text"
 msgid "Graphic"
 msgstr "Gràfic"
 
-#: app.src#GID_TABLE.string.text
+#: app.src%23GID_TABLE.string.text
 msgid "Table"
 msgstr "Taula"
 
-#: app.src#GID_ENUMERATION.string.text
+#: app.src%23GID_ENUMERATION.string.text
 msgid "Numbering"
 msgstr "Numeració"
 
-#: app.src#GID_DATA.string.text
+#: app.src%23GID_DATA.string.text
 msgid "Data"
 msgstr "Dades"
 
-#: app.src#GID_SPECIAL.string.text
+#: app.src%23GID_SPECIAL.string.text
 msgid "Special Functions"
 msgstr "Funcions especials"
 
-#: app.src#GID_IMAGE.string.text
+#: app.src%23GID_IMAGE.string.text
 msgid "Image"
 msgstr "Imatge"
 
-#: app.src#GID_CHART.string.text
+#: app.src%23GID_CHART.string.text
 msgid "Chart"
 msgstr "Diagrama"
 
-#: app.src#GID_EXPLORER.string.text
+#: app.src%23GID_EXPLORER.string.text
 msgid "Explorer"
 msgstr "Explorador"
 
-#: app.src#GID_CONNECTOR.string.text
+#: app.src%23GID_CONNECTOR.string.text
 msgid "Connector"
 msgstr "Connector"
 
-#: app.src#GID_MODIFY.string.text
+#: app.src%23GID_MODIFY.string.text
 msgid "Modify"
 msgstr "Modifica"
 
-#: app.src#GID_DRAWING.string.text
+#: app.src%23GID_DRAWING.string.text
 msgid "Drawing"
 msgstr "Dibuix"
 
-#: app.src#GID_CONTROLS.string.text
+#: app.src%23GID_CONTROLS.string.text
 msgid "Controls"
 msgstr "Controls"
 
-#: app.src#MSG_CANT_QUIT.infobox.text
+#: app.src%23MSG_CANT_QUIT.infobox.text
 msgid ""
 "The application cannot be terminated at the moment.\n"
 "Please wait until all print jobs and/or\n"
@@ -191,35 +334,35 @@ msgstr ""
 "Espereu que s'acabin totes les feines d'impressió i/o\n"
 "les accions d'OLE i tanqueu tots els quadres de diàleg."
 
-#: app.src#STR_ISMODIFIED.string.text
+#: app.src%23STR_ISMODIFIED.string.text
 msgid "Do you want to save the changes to %1?"
 msgstr "Voleu desar les modificacions a %1?"
 
-#: app.src#STR_QUITAPP.string.text
+#: app.src%23STR_QUITAPP.string.text
 msgid "E~xit"
 msgstr "~Surt"
 
-#: app.src#RID_STR_HELP.string.text
+#: app.src%23RID_STR_HELP.string.text
 msgid "Help"
 msgstr "Ajuda"
 
-#: app.src#RID_STR_NOAUTOSTARTHELPAGENT.string.text
+#: app.src%23RID_STR_NOAUTOSTARTHELPAGENT.string.text
 msgid "No automatic start at 'XX'"
 msgstr "No iniciar automàticament amb 'XX'"
 
-#: app.src#RID_HELPBAR.string.text
+#: app.src%23RID_HELPBAR.string.text
 msgid "Help Bar"
 msgstr "Barra d'ajuda"
 
-#: app.src#RID_STR_HLPFILENOTEXIST.string.text
+#: app.src%23RID_STR_HLPFILENOTEXIST.string.text
 msgid "The help file for this topic is not installed."
 msgstr "No s'ha instal·lat el fitxer d'ajuda per a aquest tema."
 
-#: app.src#RID_ENVTOOLBOX.string.text
+#: app.src%23RID_ENVTOOLBOX.string.text
 msgid "Function Bar"
 msgstr "Barra de funcions"
 
-#: app.src#RID_SPECIALCONFIG_ERROR.string.text
+#: app.src%23RID_SPECIALCONFIG_ERROR.string.text
 msgid ""
 "An error has occurred in the special configuration.\n"
 "Please contact your administrator."
@@ -227,59 +370,59 @@ msgstr ""
 "S'ha produït un error en la configuració especial.\n"
 "Poseu-vos en contacte amb l'administrador."
 
-#: app.src#STR_QUICKSTART_EXIT.string.text
+#: app.src%23STR_QUICKSTART_EXIT.string.text
 msgid "Exit Quickstarter"
 msgstr "Surt de l'inici ràpid"
 
-#: app.src#STR_QUICKSTART_TIP.string.text
+#: app.src%23STR_QUICKSTART_TIP.string.text
 msgid "%PRODUCTNAME %PRODUCTVERSION Quickstarter"
 msgstr "Inici ràpid de l'%PRODUCTNAME %PRODUCTVERSION"
 
-#: app.src#STR_QUICKSTART_FILEOPEN.string.text
+#: app.src%23STR_QUICKSTART_FILEOPEN.string.text
 msgid "Open Document..."
 msgstr "Obre un document..."
 
-#: app.src#STR_QUICKSTART_FROMTEMPLATE.string.text
+#: app.src%23STR_QUICKSTART_FROMTEMPLATE.string.text
 msgid "From Template..."
 msgstr "Des d'una plantilla..."
 
-#: app.src#STR_QUICKSTART_PRELAUNCH.string.text
+#: app.src%23STR_QUICKSTART_PRELAUNCH.string.text
 msgid "Load %PRODUCTNAME During System Start-Up"
 msgstr "Carrega l'%PRODUCTNAME en iniciar el sistema"
 
-#: app.src#STR_QUICKSTART_PRELAUNCH_UNX.string.text
+#: app.src%23STR_QUICKSTART_PRELAUNCH_UNX.string.text
 msgid "Disable Quickstarter"
 msgstr "Inhabilita l'inici ràpid"
 
-#: app.src#STR_QUICKSTART_LNKNAME.string.text
+#: app.src%23STR_QUICKSTART_LNKNAME.string.text
 msgid "%PRODUCTNAME %PRODUCTVERSION"
 msgstr "%PRODUCTNAME %PRODUCTVERSION"
 
-#: app.src#STR_QUICKSTART_FILE.string.text
+#: app.src%23STR_QUICKSTART_FILE.string.text
 msgid "File"
 msgstr "Fitxer"
 
-#: app.src#STR_QUICKSTART_STARTCENTER.string.text
+#: app.src%23STR_QUICKSTART_STARTCENTER.string.text
 msgid "Startcenter"
 msgstr "Centre d'inici"
 
-#: app.src#STR_QUICKSTART_RECENTDOC.string.text
+#: app.src%23STR_QUICKSTART_RECENTDOC.string.text
 msgid "Recent Documents"
 msgstr "Documents recents"
 
-#: app.src#STR_QUERY_UPDATE_LINKS.string.text
+#: app.src%23STR_QUERY_UPDATE_LINKS.string.text
 msgid "Update all links?"
 msgstr "Voleu actualitzar tots els enllaços?"
 
-#: app.src#STR_DDE_ERROR.string.text
+#: app.src%23STR_DDE_ERROR.string.text
 msgid "DDE link to % for % area % are not available."
 msgstr "Els enllaços DDE a % per % l'àrea % no estan disponibles."
 
-#: app.src#RID_SECURITY_WARNING_HYPERLINK.warningbox.text
+#: app.src%23RID_SECURITY_WARNING_HYPERLINK.warningbox.text
 msgid "This hyperlink is going to open \"%s\". Do you want to proceed?"
 msgstr "S'obrirà l'enllaç «%s». Voleu continuar?"
 
-#: app.src#RID_SECURITY_WARNING_NO_HYPERLINKS.warningbox.text
+#: app.src%23RID_SECURITY_WARNING_NO_HYPERLINKS.warningbox.text
 msgid ""
 "For security reasons, the hyperlink cannot be executed.\n"
 "The stated address will not be opened."
@@ -287,11 +430,11 @@ msgstr ""
 "Per motius de seguretat, l'enllaç no es pot executar.\n"
 "L'adreça indicada no s'obrirà."
 
-#: app.src#RID_SECURITY_WARNING_TITLE.string.text
+#: app.src%23RID_SECURITY_WARNING_TITLE.string.text
 msgid "Security Warning"
 msgstr "Avís de seguretat"
 
-#: app.src#RID_XMLSEC_QUERY_LOSINGSIGNATURE.querybox.text
+#: app.src%23RID_XMLSEC_QUERY_LOSINGSIGNATURE.querybox.text
 msgid ""
 "Saving will remove all existing signatures.\n"
 "Do you want to continue saving the document?"
@@ -299,7 +442,7 @@ msgstr ""
 "En desar, s'eliminaran totes les signatures existents.\n"
 "Voleu continuar desant el document?"
 
-#: app.src#RID_XMLSEC_QUERY_SAVEBEFORESIGN.querybox.text
+#: app.src%23RID_XMLSEC_QUERY_SAVEBEFORESIGN.querybox.text
 msgid ""
 "The document has to be saved before it can be signed.\n"
 "Do you want to save the document?"
@@ -307,7 +450,7 @@ msgstr ""
 "Cal que deseu el document per poder signar-lo.\n"
 "Voleu desar el document?"
 
-#: app.src#RID_XMLSEC_INFO_WRONGDOCFORMAT.infobox.text
+#: app.src%23RID_XMLSEC_INFO_WRONGDOCFORMAT.infobox.text
 msgid ""
 "This document must be saved in OpenDocument file format before it can be "
 "digitally signed."
@@ -315,37 +458,37 @@ msgstr ""
 "Cal que deseu aquest document en format OpenDocument per poder signar-lo "
 "digitalment."
 
-#: app.src#RID_XMLSEC_DOCUMENTSIGNED.string.text
+#: app.src%23RID_XMLSEC_DOCUMENTSIGNED.string.text
 msgid " (Signed)"
 msgstr " (Signat)"
 
-#: app.src#STR_STANDARD.string.text
+#: app.src%23STR_STANDARD.string.text
 msgctxt "app.src#STR_STANDARD.string.text"
 msgid "Standard"
 msgstr "Estàndard"
 
-#: app.src#RID_SVXSTR_FILELINK.string.text
+#: app.src%23RID_SVXSTR_FILELINK.string.text
 msgid "Document"
 msgstr "Document"
 
-#: app.src#STR_NONE.string.text
+#: app.src%23STR_NONE.string.text
 msgid "- None -"
 msgstr "- Cap -"
 
-#: app.src#RID_SVXSTR_GRAFIKLINK.string.text
+#: app.src%23RID_SVXSTR_GRAFIKLINK.string.text
 msgctxt "app.src#RID_SVXSTR_GRAFIKLINK.string.text"
 msgid "Graphic"
 msgstr "Gràfic"
 
-#: app.src#STR_SFX_FILTERNAME_ALL.string.text
+#: app.src%23STR_SFX_FILTERNAME_ALL.string.text
 msgid "All files (*.*)"
 msgstr "Tots els fitxers (*.*)"
 
-#: app.src#RID_SVXSTR_EDITGRFLINK.string.text
+#: app.src%23RID_SVXSTR_EDITGRFLINK.string.text
 msgid "Link graphics"
 msgstr "Enllaça els gràfics"
 
-#: app.src#STR_ERRUNOEVENTBINDUNG.string.text
+#: app.src%23STR_ERRUNOEVENTBINDUNG.string.text
 msgid ""
 "An appropriate component method %1\n"
 "could not be found.\n"
@@ -357,190 +500,47 @@ msgstr ""
 "\n"
 "Verifiqueu l'ortografia del nom del mètode."
 
-#: app.src#RID_SVXSTR_GRFILTER_OPENERROR.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_OPENERROR.string.text
 msgid "Graphics file cannot be opened"
 msgstr "No es pot obrir el fitxer gràfic"
 
-#: app.src#RID_SVXSTR_GRFILTER_IOERROR.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_IOERROR.string.text
 msgid "Graphics file cannot be read"
 msgstr "No es pot llegir el fitxer gràfic"
 
-#: app.src#RID_SVXSTR_GRFILTER_FORMATERROR.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_FORMATERROR.string.text
 msgid "Unknown graphics format"
 msgstr "El format del gràfic és desconegut"
 
-#: app.src#RID_SVXSTR_GRFILTER_VERSIONERROR.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_VERSIONERROR.string.text
 msgid "This version of the graphics file is not supported"
 msgstr "Aquesta versió del fitxer gràfic no és compatible"
 
-#: app.src#RID_SVXSTR_GRFILTER_FILTERERROR.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_FILTERERROR.string.text
 msgid "Graphics filter not found"
 msgstr "No s'ha trobat el filtre gràfic"
 
-#: app.src#RID_SVXSTR_GRFILTER_TOOBIG.string.text
+#: app.src%23RID_SVXSTR_GRFILTER_TOOBIG.string.text
 msgid "Not enough memory to insert graphic"
 msgstr "No hi ha prou memòria per inserir el gràfic"
 
-#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_CONTENTS.pageitem.text
-msgid "Contents"
-msgstr "Contingut"
-
-#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_INDEX.pageitem.text
-msgid "Index"
-msgstr "Índex"
-
-#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_SEARCH.pageitem.text
-msgid "Find"
-msgstr "Cerca"
-
-#: newhelp.src#WIN_HELPINDEX.TC_INDEX.HELP_INDEX_PAGE_BOOKMARKS.pageitem.text
-msgid "Bookmarks"
-msgstr "Marcadors"
-
-#: newhelp.src#TP_HELP_INDEX.FT_EXPRESSION.fixedtext.text
-msgid "~Search term"
-msgstr "Terme de ~cerca"
-
-#: newhelp.src#TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text
-msgctxt "newhelp.src#TP_HELP_INDEX.PB_OPEN_INDEX.pushbutton.text"
-msgid "~Display"
-msgstr "~Visualitza"
-
-#: newhelp.src#TP_HELP_SEARCH.FT_SEARCH.fixedtext.text
-msgid "S~earch term"
-msgstr "T~erme de cerca"
-
-#: newhelp.src#TP_HELP_SEARCH.PB_SEARCH.pushbutton.text
-msgid "~Find"
-msgstr "~Cerca"
-
-#: newhelp.src#TP_HELP_SEARCH.CB_FULLWORDS.checkbox.text
-msgid "~Complete words only"
-msgstr "~Només paraules senceres"
-
-#: newhelp.src#TP_HELP_SEARCH.CB_SCOPE.checkbox.text
-msgid "Find in ~headings only"
-msgstr "Cerca només als ~encapçalaments"
-
-#: newhelp.src#TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text
-msgctxt "newhelp.src#TP_HELP_SEARCH.PB_OPEN_SEARCH.pushbutton.text"
-msgid "~Display"
-msgstr "~Visualitza"
-
-#: newhelp.src#TP_HELP_BOOKMARKS.FT_BOOKMARKS.fixedtext.text
-msgid "~Bookmarks"
-msgstr "~Marcadors"
-
-#: newhelp.src#TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text
-msgctxt "newhelp.src#TP_HELP_BOOKMARKS.PB_BOOKMARKS.pushbutton.text"
-msgid "~Display"
-msgstr "~Visualitza"
-
-#: newhelp.src#STR_HELP_WINDOW_TITLE.string.text
-msgid "%PRODUCTNAME Help"
-msgstr "Ajuda de l'%PRODUCTNAME"
-
-#: newhelp.src#STR_HELP_BUTTON_INDEX_ON.string.text
-msgid "Show Navigation Pane"
-msgstr "Mostra la subfinestra de navegació"
-
-#: newhelp.src#STR_HELP_BUTTON_INDEX_OFF.string.text
-msgid "Hide Navigation Pane"
-msgstr "Amaga la subfinestra de navegació"
-
-#: newhelp.src#STR_HELP_BUTTON_START.string.text
-msgid "First Page"
-msgstr "Primera pàgina"
-
-#: newhelp.src#STR_HELP_BUTTON_PREV.string.text
-msgid "Previous Page"
-msgstr "Pàgina anterior"
-
-#: newhelp.src#STR_HELP_BUTTON_NEXT.string.text
-msgid "Next Page"
-msgstr "Pàgina següent"
-
-#: newhelp.src#STR_HELP_BUTTON_PRINT.string.text
-msgid "Print..."
-msgstr "Imprimeix..."
-
-#: newhelp.src#STR_HELP_BUTTON_ADDBOOKMARK.string.text
-msgid "Add to Bookmarks..."
-msgstr "Afegeix als marcadors..."
-
-#: newhelp.src#STR_HELP_BUTTON_SEARCHDIALOG.string.text
-msgid "Find on this Page..."
-msgstr "Cerca en aquesta pàgina..."
-
-#: newhelp.src#STR_HELP_BUTTON_SOURCEVIEW.string.text
-msgid "HTML Source"
-msgstr "Font HTML"
-
-#: newhelp.src#STR_HELP_FIRST_MESSAGE.string.text
-msgid "The Help is being started..."
-msgstr "S'està iniciant l'ajuda..."
-
-#: newhelp.src#STR_HELP_MENU_TEXT_SELECTION_MODE.string.text
-msgid "Select Text"
-msgstr "Selecciona el text"
-
-#: newhelp.src#STR_HELP_MENU_TEXT_COPY.string.text
-msgid "~Copy"
-msgstr "~Copia"
-
-#: newhelp.src#DLG_HELP_ADDBOOKMARK.FT_BOOKMARK_TITLE.fixedtext.text
-msgid "Bookmark:"
-msgstr "Marcadors:"
-
-#: newhelp.src#DLG_HELP_ADDBOOKMARK.STR_BOOKMARK_RENAME.string.text
-msgid "Rename Bookmark"
-msgstr "Canvia el nom del marcador"
-
-#: newhelp.src#DLG_HELP_ADDBOOKMARK.modaldialog.text
-msgid "Add to Bookmarks"
-msgstr "Afegeix als marcadors"
-
-#: newhelp.src#MENU_HELP_BOOKMARKS.MID_OPEN.menuitem.text
-msgid "Display"
-msgstr "Mostra"
-
-#: newhelp.src#MENU_HELP_BOOKMARKS.MID_RENAME.menuitem.text
-msgid "Rename..."
-msgstr "Canvia el nom..."
-
-#: newhelp.src#MENU_HELP_BOOKMARKS.MID_DELETE.menuitem.text
-msgid "Delete"
-msgstr "Suprimeix"
-
-#: newhelp.src#RID_INFO_NOSEARCHRESULTS.infobox.text
-msgid "No topics found."
-msgstr "No s'han trobat temes."
-
-#: newhelp.src#RID_INFO_NOSEARCHTEXTFOUND.infobox.text
-msgid "The text you entered was not found."
-msgstr "El text que heu introduït no s'ha trobat."
-
-#: newhelp.src#RID_HELP_ONSTARTUP_TEXT.string.text
-msgid "~Display %PRODUCTNAME %MODULENAME Help at Startup"
-msgstr "~Mostra l'ajuda de l'%PRODUCTNAME %MODULENAME a l'inici"
-
-#: dde.src#MD_DDE_LINKEDIT.FT_DDE_APP.fixedtext.text
+#: dde.src%23MD_DDE_LINKEDIT.FT_DDE_APP.fixedtext.text
 msgid "~Application:"
 msgstr "~Aplicació:"
 
-#: dde.src#MD_DDE_LINKEDIT.FT_DDE_TOPIC.fixedtext.text
+#: dde.src%23MD_DDE_LINKEDIT.FT_DDE_TOPIC.fixedtext.text
 msgid "~File:"
 msgstr "~Fitxer:"
 
-#: dde.src#MD_DDE_LINKEDIT.FT_DDE_ITEM.fixedtext.text
+#: dde.src%23MD_DDE_LINKEDIT.FT_DDE_ITEM.fixedtext.text
 msgid "~Category:"
 msgstr "~Categoria:"
 
-#: dde.src#MD_DDE_LINKEDIT.GROUP_DDE_CHG.fixedline.text
+#: dde.src%23MD_DDE_LINKEDIT.GROUP_DDE_CHG.fixedline.text
 msgid "Modify link"
 msgstr "Modifica l'enllaç"
 
-#: dde.src#MD_DDE_LINKEDIT.modaldialog.text
+#: dde.src%23MD_DDE_LINKEDIT.modaldialog.text
 msgid "Modify Link"
 msgstr "Modifica l'enllaç"
 

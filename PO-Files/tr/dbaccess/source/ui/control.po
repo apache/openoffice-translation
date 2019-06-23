@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+dbaccess%2Fsource%2Fui%2Fcontrol.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+dbaccess%2Fsource%2F"
+"ui%2Fcontrol.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:14+0200\n"
 "PO-Revision-Date: 2013-09-12 10:08+0000\n"
 "Last-Translator: Burak <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,35 +15,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1378980527.0\n"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
+#: undosqledit.src%23STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
+msgid "Modify SQL statement(s)"
+msgstr "SQL ifadesi(leri)ni değiştir"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_NAME.string.text
+msgid "Table name"
+msgstr "Tablo adı"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_INSERT.string.text
+msgid "Insert data"
+msgstr "Veri ekle"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DELETE.string.text
+msgid "Delete data"
+msgstr "Veriyi sil"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_UPDATE.string.text
+msgid "Modify data"
+msgstr "Veriyi değiştir"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_ALTER.string.text
+msgid "Alter structure"
+msgstr "Yapıyı değiştir"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_SELECT.string.text
+msgid "Read data"
+msgstr "Veriyi oku"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_REFERENCE.string.text
+msgid "Modify references"
+msgstr "Kaynakları değiştir"
+
+#: TableGrantCtrl.src%23STR_TABLE_PRIV_DROP.string.text
+msgid "Drop structure"
+msgstr "Yapıyı kaldır"
+
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_ASCENDING.menuitem.text
 msgid "Sort Ascending"
 msgstr "Küçükten Büyüğe Sırala"
 
-#: tabletree.src#MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
+#: tabletree.src%23MENU_TABLETREE_POPUP.MID_SORT_DECENDING.menuitem.text
 msgid "Sort Descending"
 msgstr "Büyükten Küçüğe Sırala"
 
-#: tabletree.src#STR_COULDNOTCREATE_DRIVERMANAGER.string.text
+#: tabletree.src%23STR_COULDNOTCREATE_DRIVERMANAGER.string.text
 msgid "Cannot connect to the SDBC driver manager (#servicename#)."
 msgstr "SDBC sürücü yöneticisine (#servicename#) bağlanılamıyor."
 
-#: tabletree.src#STR_NOREGISTEREDDRIVER.string.text
+#: tabletree.src%23STR_NOREGISTEREDDRIVER.string.text
 msgid "A driver is not registered for the URL #connurl#."
 msgstr "#connurl# URL'si için bir sürücü kayıtlı değil."
 
-#: tabletree.src#STR_COULDNOTCONNECT.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT.string.text
 msgid "No connection could be established for the URL #connurl#."
 msgstr "#connurl# URL'si için bağlantı kurulamadı."
 
-#: tabletree.src#STR_COULDNOTCONNECT_PLEASECHECK.string.text
+#: tabletree.src%23STR_COULDNOTCONNECT_PLEASECHECK.string.text
 msgid "Please check the current settings, for example user name and password."
 msgstr "Lütfen şu anki ayarları kontrol edin, örneğin kullanıcı adı ve parola."
 
-#: tabletree.src#STR_NOTABLEINFO.string.text
+#: tabletree.src%23STR_NOTABLEINFO.string.text
 msgid ""
 "Successfully connected, but information about database tables is not "
 "available."
@@ -51,50 +87,14 @@ msgstr ""
 "Başarılı olarak bağlandı, fakat veritabanı tabloları hakkında bilgi mevcut "
 "değil."
 
-#: tabletree.src#STR_ALL_TABLES.string.text
+#: tabletree.src%23STR_ALL_TABLES.string.text
 msgid "All tables"
 msgstr "Tüm tablolar"
 
-#: tabletree.src#STR_ALL_VIEWS.string.text
+#: tabletree.src%23STR_ALL_VIEWS.string.text
 msgid "All views"
 msgstr "Tüm görünümler"
 
-#: tabletree.src#STR_ALL_TABLES_AND_VIEWS.string.text
+#: tabletree.src%23STR_ALL_TABLES_AND_VIEWS.string.text
 msgid "All tables and views"
 msgstr "Tüm tablolar ve görünümler"
-
-#: undosqledit.src#STR_QUERY_UNDO_MODIFYSQLEDIT.string.text
-msgid "Modify SQL statement(s)"
-msgstr "SQL ifadesi(leri)ni değiştir"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_NAME.string.text
-msgid "Table name"
-msgstr "Tablo adı"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_INSERT.string.text
-msgid "Insert data"
-msgstr "Veri ekle"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DELETE.string.text
-msgid "Delete data"
-msgstr "Veriyi sil"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_UPDATE.string.text
-msgid "Modify data"
-msgstr "Veriyi değiştir"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_ALTER.string.text
-msgid "Alter structure"
-msgstr "Yapıyı değiştir"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_SELECT.string.text
-msgid "Read data"
-msgstr "Veriyi oku"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_REFERENCE.string.text
-msgid "Modify references"
-msgstr "Kaynakları değiştir"
-
-#: TableGrantCtrl.src#STR_TABLE_PRIV_DROP.string.text
-msgid "Drop structure"
-msgstr "Yapıyı kaldır"

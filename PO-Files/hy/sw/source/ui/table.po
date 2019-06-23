@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sw%2Fsource%2Fui%2Ftable.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 12:12+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Ft"
+"able.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: 2019-05-08 04:13+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,87 +15,127 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.5.1.3\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1557288827.000000\n"
 
-#: instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
-msgid "Name"
-msgstr "Անուն"
-
-#: instable.src#DLG_INSERT_TABLE.FT_COL.fixedtext.text
-msgid "~Columns"
-msgstr "~Սյունակներ"
-
-#: instable.src#DLG_INSERT_TABLE.FT_ROW.fixedtext.text
-msgid "~Rows"
-msgstr "~Սյունակներ"
-
-#: instable.src#DLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Size"
-msgstr "Չափ"
-
-#: instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Գլխագիր"
-
-#: instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Կրկնեք գլխագիրը"
-
-#: instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr "%POSITION_OF_CONTROL առաջին սյունակները"
-
-#: instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "Մի բաժանեք աղյուսակը"
-
-#: instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Սահման"
-
-#: instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "Ինքնա~ձևաչափ․․․"
-
-#: instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Ընտրանքներ"
-
-#: instable.src#DLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Table"
-msgstr "Տեղադրեք աղյուսակ"
-
-#: table.src#MSG_ERR_TABLE_MERGE.infobox.text
+#: table.src%23MSG_ERR_TABLE_MERGE.infobox.text
 msgid "Selected table cells are too complex to merge."
 msgstr "Ընտրված աղյուսակի բջիջները միաձուլման համար շատ բարդ են:"
 
-#: chartins.src#DLG_INSERT_CHART.FL_1.fixedline.text
+#: splittbl.src%23DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
+msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
+msgid "Mode"
+msgstr "Վիճակ"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
+msgid "~Copy heading"
+msgstr "~Պատճենիր գլխագիրը"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
+msgid "C~ustom heading (apply Style)"
+msgstr "Հ~աճախորդի գլխագիր (կիրառիր ոճը)"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
+msgid "Cu~stom heading"
+msgstr "Հա~ճախորդի գլխագիր"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
+msgid "~No heading"
+msgstr "~Չկա գլխագիր"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.modaldialog.text
+msgid "Split Table"
+msgstr "Բաժանեք աղյուսակը"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
+msgid "~Tabs"
+msgstr "~Տաբեր"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
+msgid "~Semicolons"
+msgstr "~Կետ ստորակետներ"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
+msgid "~Paragraph"
+msgstr "~Պարագրաֆ"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
+msgid "~Other: "
+msgstr "~Այլ։ "
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
+msgid "Equal width for all columns"
+msgstr "Հավասար լայնք բոլոր սյունակների համար"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
+msgid "Separate text at"
+msgstr "Բաժանիր տեքստը"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Գլխագիր"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Կրկնիր գլխագիրը"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr "%POSITION_OF_CONTROL առաջին սյունակները"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "Մի բաժանեք աղյուսակը"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Սահման"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Ընտրանքներ"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
+msgid "Convert Text to Table"
+msgstr "Ձևափոխեք տեքստը աղյուսակի"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "Ինքնա~ձևաչափ․․․"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
+msgid "Symbol"
+msgstr "Նիշ"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.modaldialog.text
+msgid "Convert Table to Text"
+msgstr "Ձևափոխեք աղյուսակը տեքստի"
+
+#: chartins.src%23DLG_INSERT_CHART.FL_1.fixedline.text
 msgid "Selection"
 msgstr "Ընտրություն"
 
-#: chartins.src#DLG_INSERT_CHART.FT_RANGE.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_RANGE.fixedtext.text
 msgid "A~rea"
 msgstr "Տ~արածք։"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
 msgid "~First row as caption"
 msgstr "~Առաջին տողը որպես որսում"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
 msgid "First ~column as caption"
 msgstr "Առաջին ~սյունակը որպես որսում"
 
-#: chartins.src#DLG_INSERT_CHART.FT_TEXT.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_TEXT.fixedtext.text
 msgid ""
 "If the selected cells do not contain the desired data, select the data range "
 "now.\n"
@@ -109,368 +149,427 @@ msgstr ""
 "Ներառեք բջիջները, որոնք պարունակում են սյունակի և տողի պիտակներ, եթե "
 "ցանկանում եք դրանք ներառել ձեր աղյուսակում:"
 
-#: chartins.src#DLG_INSERT_CHART.BT_PREV.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_PREV.pushbutton.text
 msgid "<< ~Back"
 msgstr "<< ~Հետ"
 
-#: chartins.src#DLG_INSERT_CHART.BT_NEXT.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_NEXT.pushbutton.text
 msgid "~Next >>"
 msgstr "~Հաջորդը >>"
 
-#: chartins.src#DLG_INSERT_CHART.BT_FINISH.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_FINISH.pushbutton.text
 msgid "Cre~ate"
 msgstr "Ստե~ղծել"
 
-#: chartins.src#DLG_INSERT_CHART.modelessdialog.text
+#: chartins.src%23DLG_INSERT_CHART.modelessdialog.text
 msgid "AutoFormat Chart (1-4)"
 msgstr "Ինքնաձևավորման աղյուսակ (1-4)"
 
-#: tabledlg.src#TEXT_TEXTFLOW.#define.text
+#: rowht.src%23DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
+msgid "~Fit to size"
+msgstr "~Տեղավորիր չափի մեջ"
+
+#: rowht.src%23DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
+msgid "Height"
+msgstr "Բարձրություն"
+
+#: rowht.src%23DLG_ROW_HEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Տողի բարձրությունը"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
+msgid "Name"
+msgstr "Անուն"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_COL.fixedtext.text
+msgid "~Columns"
+msgstr "~Սյունակներ"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_ROW.fixedtext.text
+msgid "~Rows"
+msgstr "~Սյունակներ"
+
+#: instable.src%23DLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Size"
+msgstr "Չափ"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Գլխագիր"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Կրկնեք գլխագիրը"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr "%POSITION_OF_CONTROL առաջին սյունակները"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "Մի բաժանեք աղյուսակը"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_BORDER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Սահման"
+
+#: instable.src%23DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "Ինքնա~ձևաչափ․․․"
+
+#: instable.src%23DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Ընտրանքներ"
+
+#: instable.src%23DLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Table"
+msgstr "Տեղադրեք աղյուսակ"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "~Լայնք"
+
+#: colwd.src%23DLG_COL_WIDTH.FL_WIDTH.fixedline.text
+msgid "Width"
+msgstr "Լայնք"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_COL.fixedtext.text
+msgid "~Column"
+msgstr "~Սյունակ"
+
+#: colwd.src%23DLG_COL_WIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Սյունակի լայնք"
+
+#: tabledlg.src%23TEXT_TEXTFLOW.%23define.text
 msgid "Text Flow"
 msgstr "Տեքստի սահք"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
 msgid "Table"
 msgstr "Աղյուսակ"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
 msgid "Columns"
 msgstr "Սյունակներ"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
 msgid "Borders"
 msgstr "Սահմաններ"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
 msgid "Background"
 msgstr "Հետնամաս"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.tabdialog.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.tabdialog.text
 msgid "Table Format"
 msgstr "Աղյուսակի ձևաչափ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_NAME.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_NAME.fixedtext.text
 msgid "~Name"
 msgstr "~Անուն"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
 msgid "W~idth"
 msgstr "Լ~այնք"
 
-#: tabledlg.src#TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
+#: tabledlg.src%23TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
 msgid "Relati~ve"
 msgstr "Հարաբերակ~ան"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text"
 msgid "Properties"
 msgstr "Հատկություններ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FULL.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FULL.radiobutton.text
 msgid "A~utomatic"
 msgstr "Ա~վտոմատ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
 msgid "~Left"
 msgstr "~Ձախ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
 msgid "~From left"
 msgstr "~Ձախից"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
 msgid "R~ight"
 msgstr "Ա~ջ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
 msgid "~Center"
 msgstr "~Կենտրոն"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FREE.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FREE.radiobutton.text
 msgid "~Manual"
 msgstr "~Ձեռքով"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_POS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text"
 msgid "Alignment"
 msgstr "Հավասարեցում"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_DIST.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_DIST.fixedline.text
 msgid "Spacing"
 msgstr "Միջակայք"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
 msgid "Lef~t"
 msgstr "Ձա~խ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
 msgid "Ri~ght"
 msgstr "Ա~ջ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
 msgid "~Above"
 msgstr "~Վերևում"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
 msgid "~Below"
 msgstr "~Ներքևում"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text"
 msgid "Properties"
 msgstr "Հատկություններ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "Տեքստի ~ուղղություն"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Ձախից աջ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left"
 msgstr "Աջից ձախ"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Օգտագործեք գերադասելի օբյեկտի կարգավորումները"
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
 msgid "Adapt table ~width"
 msgstr "Հարմարեցնել աղյուսակի ~լայնությունը"
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_PROP.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_PROP.checkbox.text
 msgid "Ad~just columns proportionally"
 msgstr "Կա~րգավորել սյունակները համաչափորեն"
 
-#: tabledlg.src#TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
+#: tabledlg.src%23TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
 msgid "Remaining space"
 msgstr "Մնացող բացատները"
 
-#: tabledlg.src#TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
+#: tabledlg.src%23TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
 msgid "Column width"
 msgstr "Սյունակի լայնք"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
 msgid "~Break"
 msgstr "~Կոտրվածք"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
 msgid "~Page"
 msgstr "~Էջ"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
 msgid "Col~umn"
 msgstr "Սյու~նակ"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
 msgid "Be~fore"
 msgstr "Մի~նչ"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
 msgid "~After"
 msgstr "~Հետո"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
 msgid "With Page St~yle"
 msgstr "Էջի ոճ~ով"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
 msgid "Page ~number"
 msgstr "Էջի ~համար"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
 msgid "Allow ~table to split across pages and columns"
 msgstr "Թույլ տալ ~աղյուսակի բաժանումը ըստ էջերի և սյունակների"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
 msgid "Allow row to break a~cross pages and columns"
 msgstr "Թույլատրել տողերը կոտրել ~ըստ էջերի և սյունակների"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
 msgid "~Keep with next paragraph"
 msgstr "~Պահեք հաջորդ պարագրաֆի հետ"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
 msgid "R~epeat heading"
 msgstr "Կ~րկնեք գլխագիրը"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text"
 msgid "The first %POSITION_OF_CONTROL rows"
 msgstr "%POSITION_OF_CONTROL առաջին տողը"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "Տեքստի ~ուղղվածություն"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Ձախից աջ"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left (vertical)"
 msgstr "Աջից ձախ (ուղղահայաց)"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Օգտագործեք գերադասելի օբյեկտի կարգավորումները"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text"
 msgid "Alignment"
 msgstr "Հավասարեցում"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
 msgid "~Vertical alignment"
 msgstr "~Ուղղահայաց հավասարեցում"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
 msgid "Top"
 msgstr "Վերև"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
 msgid "Centered"
 msgstr "Գեներացված"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
 msgid "Bottom"
 msgstr "Ներքևում"
 
-#: tabledlg.src#MSG_WRONG_TABLENAME.infobox.text
+#: tabledlg.src%23MSG_WRONG_TABLENAME.infobox.text
 msgid "The name of the table must not contain spaces."
 msgstr "Աղյուսակի անունը չպետք է պարունակի բացատներ։"
 
-#: splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
-msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
-msgid "Mode"
-msgstr "Վիճակ"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
-msgid "~Copy heading"
-msgstr "~Պատճենիր գլխագիրը"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
-msgid "C~ustom heading (apply Style)"
-msgstr "Հ~աճախորդի գլխագիր (կիրառիր ոճը)"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
-msgid "Cu~stom heading"
-msgstr "Հա~ճախորդի գլխագիր"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
-msgid "~No heading"
-msgstr "~Չկա գլխագիր"
-
-#: splittbl.src#DLG_SPLIT_TABLE.modaldialog.text
-msgid "Split Table"
-msgstr "Բաժանեք աղյուսակը"
-
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
 msgid "Format"
 msgstr "Ձևաչափ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
 msgid "~Number format"
 msgstr "~Թվային ձևաչափ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
 msgid "~Borders"
 msgstr "~Սահմաններ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
 msgid "F~ont"
 msgstr "Տ~առաձև"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
 msgid "~Pattern"
 msgstr "~Կաղապար"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
 msgid "Alignmen~t"
 msgstr "Հավասարեցու~մ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
 msgid "Formatting"
 msgstr "Չափանշում"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
 msgid "~More"
 msgstr "~Ավելին"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
 msgid "~Add"
 msgstr "~Ավելացնել"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
 msgid "~Delete"
 msgstr "~Ջնջել"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
 msgid "~Rename"
 msgstr "~Անվանափոխել"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
 msgid "Add AutoFormat"
 msgstr "Ավելացրեք ինքնաձևաչափ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
 msgctxt "tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text"
 msgid "Name"
 msgstr "Անուն"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
 msgid "Delete AutoFormat"
 msgstr "Ջնջեք ինքնաձևաչափը"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
 msgid "The following AutoFormat entry will be deleted:"
 msgstr "Ինքնաձևաչափի հետևյալ մուտքը կջնջվի։"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
 msgid "Rename AutoFormat"
 msgstr "Անվանափոխեք ինքնաձևաչափը"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
 msgid "~Close"
 msgstr "~Փակել"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_JAN.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_JAN.string.text
 msgid "Jan"
 msgstr "Հուն"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_FEB.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_FEB.string.text
 msgid "Feb"
 msgstr "Փետ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MAR.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MAR.string.text
 msgid "Mar"
 msgstr "Մար"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_NORTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_NORTH.string.text
 msgid "North"
 msgstr "Հյուսիս"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MID.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MID.string.text
 msgid "Mid"
 msgstr "Միջին"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
 msgid "South"
 msgstr "Հարավ"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SUM.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SUM.string.text
 msgid "Sum"
 msgstr "Գումար"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
 msgid ""
 "You have entered an invalid name.\n"
 "The desired AutoFormat could not be created. \n"
@@ -480,122 +579,23 @@ msgstr ""
 "Հնարավոր ինքնաձևաչափը չի ստեղծվել:\n"
 "Նորից փորձրի մեկ այլ անունով։"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.modaldialog.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.modaldialog.text
 msgid "AutoFormat"
 msgstr "Ինքնաձևաչափ"
 
-#: rowht.src#DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
-msgid "~Fit to size"
-msgstr "~Տեղավորիր չափի մեջ"
-
-#: rowht.src#DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
-msgid "Height"
-msgstr "Բարձրություն"
-
-#: rowht.src#DLG_ROW_HEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Տողի բարձրությունը"
-
-#: colwd.src#DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "~Լայնք"
-
-#: colwd.src#DLG_COL_WIDTH.FL_WIDTH.fixedline.text
-msgid "Width"
-msgstr "Լայնք"
-
-#: colwd.src#DLG_COL_WIDTH.FT_COL.fixedtext.text
-msgid "~Column"
-msgstr "~Սյունակ"
-
-#: colwd.src#DLG_COL_WIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Սյունակի լայնք"
-
-#: mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text
+#: mergetbl.src%23DLG_MERGE_TABLE.FL_MERGE.fixedline.text
 msgctxt "mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text"
 msgid "Mode"
 msgstr "Վիճակ"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
 msgid "Join with ~previous table"
 msgstr "Միացիր ~նախորդ աղյուսակով"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
 msgid "Join with ~next table"
 msgstr "Միացիր ~հաջորդ աղյուսակով"
 
-#: mergetbl.src#DLG_MERGE_TABLE.modaldialog.text
+#: mergetbl.src%23DLG_MERGE_TABLE.modaldialog.text
 msgid "Merge Tables"
 msgstr "Ձուլեք աղյուսակները"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
-msgid "~Tabs"
-msgstr "~Տաբեր"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
-msgid "~Semicolons"
-msgstr "~Կետ ստորակետներ"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
-msgid "~Paragraph"
-msgstr "~Պարագրաֆ"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
-msgid "~Other: "
-msgstr "~Այլ։ "
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
-msgid "Equal width for all columns"
-msgstr "Հավասար լայնք բոլոր սյունակների համար"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
-msgid "Separate text at"
-msgstr "Բաժանիր տեքստը"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Գլխագիր"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Կրկնիր գլխագիրը"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr "%POSITION_OF_CONTROL առաջին սյունակները"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "Մի բաժանեք աղյուսակը"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Սահման"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Ընտրանքներ"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
-msgid "Convert Text to Table"
-msgstr "Ձևափոխեք տեքստը աղյուսակի"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "Ինքնա~ձևաչափ․․․"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
-msgid "Symbol"
-msgstr "Նիշ"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.modaldialog.text
-msgid "Convert Table to Text"
-msgstr "Ձևափոխեք աղյուսակը տեքստի"

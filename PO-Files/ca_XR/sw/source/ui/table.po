@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+sw%2Fsource%2Fui%2Ftable.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Ft"
+"able.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: 2017-03-11 00:37+0000\n"
 "Last-Translator: Vincent <info@softwarevalencia.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,87 +15,127 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1489192665.000000\n"
 
-#: instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
-msgid "Name"
-msgstr "Nom"
-
-#: instable.src#DLG_INSERT_TABLE.FT_COL.fixedtext.text
-msgid "~Columns"
-msgstr "~Columnes"
-
-#: instable.src#DLG_INSERT_TABLE.FT_ROW.fixedtext.text
-msgid "~Rows"
-msgstr "~Files"
-
-#: instable.src#DLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Size"
-msgstr "Tamany"
-
-#: instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Capçalera"
-
-#: instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Repetir capcalera"
-
-#: instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr "Les primeres files de %POSITION_OF_CONTROL"
-
-#: instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "No dividir la taula"
-
-#: instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text
-msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Vora"
-
-#: instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "~Formatejat automàtic..."
-
-#: instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Opcions"
-
-#: instable.src#DLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Table"
-msgstr "Insertar una taula"
-
-#: table.src#MSG_ERR_TABLE_MERGE.infobox.text
+#: table.src%23MSG_ERR_TABLE_MERGE.infobox.text
 msgid "Selected table cells are too complex to merge."
 msgstr "Les celes seleccionades de la taula son massa complexes per a fusionar."
 
-#: chartins.src#DLG_INSERT_CHART.FL_1.fixedline.text
+#: splittbl.src%23DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
+msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
+msgid "Mode"
+msgstr "Modo"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
+msgid "~Copy heading"
+msgstr "~Copiar la capçalera"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
+msgid "C~ustom heading (apply Style)"
+msgstr "~Capçalera personalisada (aplicar estils)"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
+msgid "Cu~stom heading"
+msgstr "Capçalera ~propia"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
+msgid "~No heading"
+msgstr "~Sense capçalera"
+
+#: splittbl.src%23DLG_SPLIT_TABLE.modaldialog.text
+msgid "Split Table"
+msgstr "Dividir la taula"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
+msgid "~Tabs"
+msgstr "~Pestanyes"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
+msgid "~Semicolons"
+msgstr "P~unts i coma"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
+msgid "~Paragraph"
+msgstr "~Pàrraf"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
+msgid "~Other: "
+msgstr "~Atres:"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
+msgid "Equal width for all columns"
+msgstr "La mateixa amplària per a totes les columnes"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
+msgid "Separate text at"
+msgstr "Separador en el text"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Capçalera"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Repetir capcalera"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr "Les primeres files de %POSITION_OF_CONTROL"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "No dividir la taula"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Vora"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Opcions"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
+msgid "Convert Text to Table"
+msgstr "Convertir text a taula"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "~Formatejat automàtic..."
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
+msgid "Symbol"
+msgstr "Símbol"
+
+#: convert.src%23DLG_CONV_TEXT_TABLE.modaldialog.text
+msgid "Convert Table to Text"
+msgstr "Convertir taula a text"
+
+#: chartins.src%23DLG_INSERT_CHART.FL_1.fixedline.text
 msgid "Selection"
 msgstr "Seleccio"
 
-#: chartins.src#DLG_INSERT_CHART.FT_RANGE.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_RANGE.fixedtext.text
 msgid "A~rea"
 msgstr "A~rea"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_ROW.checkbox.text
 msgid "~First row as caption"
 msgstr "Primera ~fila com etiqueta"
 
-#: chartins.src#DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
+#: chartins.src%23DLG_INSERT_CHART.CB_FIRST_COL.checkbox.text
 msgid "First ~column as caption"
 msgstr "Primera c~olumna com etiqueta"
 
-#: chartins.src#DLG_INSERT_CHART.FT_TEXT.fixedtext.text
+#: chartins.src%23DLG_INSERT_CHART.FT_TEXT.fixedtext.text
 msgid ""
 "If the selected cells do not contain the desired data, select the data range "
 "now.\n"
@@ -109,368 +149,427 @@ msgstr ""
 "Seleccione les celes que tinguen etiquetes de columna i fila si desige "
 "incluir-les en el gràfic."
 
-#: chartins.src#DLG_INSERT_CHART.BT_PREV.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_PREV.pushbutton.text
 msgid "<< ~Back"
 msgstr "<< A~rrere"
 
-#: chartins.src#DLG_INSERT_CHART.BT_NEXT.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_NEXT.pushbutton.text
 msgid "~Next >>"
 msgstr "~Següent >>"
 
-#: chartins.src#DLG_INSERT_CHART.BT_FINISH.pushbutton.text
+#: chartins.src%23DLG_INSERT_CHART.BT_FINISH.pushbutton.text
 msgid "Cre~ate"
 msgstr "~Crear"
 
-#: chartins.src#DLG_INSERT_CHART.modelessdialog.text
+#: chartins.src%23DLG_INSERT_CHART.modelessdialog.text
 msgid "AutoFormat Chart (1-4)"
 msgstr "Diagrama de formatejat automàtic (1-4)"
 
-#: tabledlg.src#TEXT_TEXTFLOW.#define.text
+#: rowht.src%23DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
+msgid "~Fit to size"
+msgstr "~Ajust dinàmic"
+
+#: rowht.src%23DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
+msgid "Height"
+msgstr "Altura"
+
+#: rowht.src%23DLG_ROW_HEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Altura de la fila"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_NAME.fixedtext.text"
+msgid "Name"
+msgstr "Nom"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_COL.fixedtext.text
+msgid "~Columns"
+msgstr "~Columnes"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_ROW.fixedtext.text
+msgid "~Rows"
+msgstr "~Files"
+
+#: instable.src%23DLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Size"
+msgstr "Tamany"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_HEADER.checkbox.text"
+msgid "Heading"
+msgstr "Capçalera"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_REPEAT_HEADER.checkbox.text"
+msgid "Repeat heading"
+msgstr "Repetir capcalera"
+
+#: instable.src%23DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
+msgid "The first %POSITION_OF_CONTROL rows"
+msgstr "Les primeres files de %POSITION_OF_CONTROL"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_DONT_SPLIT.checkbox.text"
+msgid "Don't split table"
+msgstr "No dividir la taula"
+
+#: instable.src%23DLG_INSERT_TABLE.CB_BORDER.checkbox.text
+msgctxt "instable.src#DLG_INSERT_TABLE.CB_BORDER.checkbox.text"
+msgid "Border"
+msgstr "Vora"
+
+#: instable.src%23DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text
+msgctxt "instable.src#DLG_INSERT_TABLE.BT_AUTOFORMAT.pushbutton.text"
+msgid "Auto~Format..."
+msgstr "~Formatejat automàtic..."
+
+#: instable.src%23DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text
+msgctxt "instable.src#DLG_INSERT_TABLE.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Opcions"
+
+#: instable.src%23DLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Table"
+msgstr "Insertar una taula"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "~Amplaria"
+
+#: colwd.src%23DLG_COL_WIDTH.FL_WIDTH.fixedline.text
+msgid "Width"
+msgstr "Amplaria"
+
+#: colwd.src%23DLG_COL_WIDTH.FT_COL.fixedtext.text
+msgid "~Column"
+msgstr "~Columna"
+
+#: colwd.src%23DLG_COL_WIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Amplària de columna"
+
+#: tabledlg.src%23TEXT_TEXTFLOW.%23define.text
 msgid "Text Flow"
 msgstr "Fluix del text"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_FORMAT_TABLE.pageitem.text
 msgid "Table"
 msgstr "Taula"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_TABLE_COLUMN.pageitem.text
 msgid "Columns"
 msgstr "Columnes"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BORDER.pageitem.text
 msgid "Borders"
 msgstr "Vores"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.1.TP_BACKGROUND.pageitem.text
 msgid "Background"
 msgstr "Fondo"
 
-#: tabledlg.src#DLG_FORMAT_TABLE.tabdialog.text
+#: tabledlg.src%23DLG_FORMAT_TABLE.tabdialog.text
 msgid "Table Format"
 msgstr "Format de la taula"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_NAME.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_NAME.fixedtext.text
 msgid "~Name"
 msgstr "~Nom"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_WIDTH.fixedtext.text
 msgid "W~idth"
 msgstr "~Amplària"
 
-#: tabledlg.src#TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
+#: tabledlg.src%23TP_FORMAT_TABLE.CB_REL_WIDTH.checkbox.text
 msgid "Relati~ve"
 msgstr "Relati~u"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_OPTIONS.fixedline.text"
 msgid "Properties"
 msgstr "Propietats"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FULL.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FULL.radiobutton.text
 msgid "A~utomatic"
 msgstr "A~utomàtic"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_LEFT.radiobutton.text
 msgid "~Left"
 msgstr "~Esquerra"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FROM_LEFT.radiobutton.text
 msgid "~From left"
 msgstr "~De esquerra"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_RIGHT.radiobutton.text
 msgid "R~ight"
 msgstr "~Dreta"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_CENTER.radiobutton.text
 msgid "~Center"
 msgstr "~Centre"
 
-#: tabledlg.src#TP_FORMAT_TABLE.RB_FREE.radiobutton.text
+#: tabledlg.src%23TP_FORMAT_TABLE.RB_FREE.radiobutton.text
 msgid "~Manual"
 msgstr "~Manual"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_POS.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_POS.fixedline.text"
 msgid "Alignment"
 msgstr "Alineació"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_DIST.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_DIST.fixedline.text
 msgid "Spacing"
 msgstr "Espais"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_LEFT_DIST.fixedtext.text
 msgid "Lef~t"
 msgstr "~Esquerra"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_RIGHT_DIST.fixedtext.text
 msgid "Ri~ght"
 msgstr "~Dreta"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TOP_DIST.fixedtext.text
 msgid "~Above"
 msgstr "~Damunt"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_BOTTOM_DIST.fixedtext.text
 msgid "~Below"
 msgstr "~Avall"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FL_PROPERTIES.fixedline.text"
 msgid "Properties"
 msgstr "Propietats"
 
-#: tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "~Direcció de text"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Esquerra a dreta"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left"
 msgstr "Dreta a esquerra"
 
-#: tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_FORMAT_TABLE.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Utilisar la configuració de l'objecte superior. "
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_MOD_TBL.checkbox.text
 msgid "Adapt table ~width"
 msgstr "~Ajustar ample de la taula"
 
-#: tabledlg.src#TP_TABLE_COLUMN.CB_PROP.checkbox.text
+#: tabledlg.src%23TP_TABLE_COLUMN.CB_PROP.checkbox.text
 msgid "Ad~just columns proportionally"
 msgstr "A~justar columnes proporcionalment"
 
-#: tabledlg.src#TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
+#: tabledlg.src%23TP_TABLE_COLUMN.FT_SPACE.fixedtext.text
 msgid "Remaining space"
 msgstr "Espai restant"
 
-#: tabledlg.src#TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
+#: tabledlg.src%23TP_TABLE_COLUMN.COL_FL_LAYOUT.fixedline.text
 msgid "Column width"
 msgstr "Amplària de la columna"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGEBREAK.checkbox.text
 msgid "~Break"
 msgstr "~Salt"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKPAGE.radiobutton.text
 msgid "~Page"
 msgstr "~Pagina"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_BREAKCOLUMN.radiobutton.text
 msgid "Col~umn"
 msgstr "Col~umna"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKBEFORE.radiobutton.text
 msgid "Be~fore"
 msgstr "~Abans"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.RB_PAGEBREAKAFTER.radiobutton.text
 msgid "~After"
 msgstr "~Després"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_PAGECOLL.checkbox.text
 msgid "With Page St~yle"
 msgstr "Ab ~estil de pàgina"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_PAGENUM.fixedtext.text
 msgid "Page ~number"
 msgstr "~Numero de pagina"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT.checkbox.text
 msgid "Allow ~table to split across pages and columns"
 msgstr "Permetre a la ~taula dividir-se en diferents pàgines i columnes"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_SPLIT_ROW.tristatebox.text
 msgid "Allow row to break a~cross pages and columns"
 msgstr "Permetre a la ~fila dividir-se en diferents pàgines i columnes"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_KEEP.checkbox.text
 msgid "~Keep with next paragraph"
 msgstr "~Mantindre's junt en el següent pàrraf"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.CB_HEADLINE.checkbox.text
 msgid "R~epeat heading"
 msgstr "R~epetir capcalera"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_REPEAT_HEADER.fixedtext.text"
 msgid "The first %POSITION_OF_CONTROL rows"
 msgstr "Les primeres files de %POSITION_OF_CONTROL"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FT_TEXTDIRECTION.fixedtext.text"
 msgid "Text ~direction"
 msgstr "~Direcció de text"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.1.stringlist.text"
 msgid "Left-to-right"
 msgstr "Esquerra a dreta"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.2.stringlist.text
 msgid "Right-to-left (vertical)"
 msgstr "Dreta a esquerra (vertical)"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.LB_TEXTDIRECTION.3.stringlist.text"
 msgid "Use superordinate object settings"
 msgstr "Utilisar la configuració de l'objecte superior. "
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text
 msgctxt "tabledlg.src#TP_TABLE_TEXTFLOW.FL_VERT_ORIENT.fixedline.text"
 msgid "Alignment"
 msgstr "Alineació"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.FT_VERTORIENT.fixedtext.text
 msgid "~Vertical alignment"
 msgstr "Alineació ~vertical"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.1.stringlist.text
 msgid "Top"
 msgstr "Superior"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.2.stringlist.text
 msgid "Centered"
 msgstr "Centrat"
 
-#: tabledlg.src#TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
+#: tabledlg.src%23TP_TABLE_TEXTFLOW.LB_VERTORIENT.3.stringlist.text
 msgid "Bottom"
 msgstr "Inferior"
 
-#: tabledlg.src#MSG_WRONG_TABLENAME.infobox.text
+#: tabledlg.src%23MSG_WRONG_TABLENAME.infobox.text
 msgid "The name of the table must not contain spaces."
 msgstr "El nom de la taula no pot tindre espais."
 
-#: splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text
-msgctxt "splittbl.src#DLG_SPLIT_TABLE.FL_SPLIT.fixedline.text"
-msgid "Mode"
-msgstr "Modo"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_CNTNT.radiobutton.text
-msgid "~Copy heading"
-msgstr "~Copiar la capçalera"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_PARA.radiobutton.text
-msgid "C~ustom heading (apply Style)"
-msgstr "~Capçalera personalisada (aplicar estils)"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BOX_NOPARA.radiobutton.text
-msgid "Cu~stom heading"
-msgstr "Capçalera ~propia"
-
-#: splittbl.src#DLG_SPLIT_TABLE.RB_BORDER.radiobutton.text
-msgid "~No heading"
-msgstr "~Sense capçalera"
-
-#: splittbl.src#DLG_SPLIT_TABLE.modaldialog.text
-msgid "Split Table"
-msgstr "Dividir la taula"
-
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMAT.fixedline.text
 msgid "Format"
 msgstr "Format"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_NUMFORMAT.checkbox.text
 msgid "~Number format"
 msgstr "Format de ~numero"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_BORDER.checkbox.text
 msgid "~Borders"
 msgstr "~Vores"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_FONT.checkbox.text
 msgid "F~ont"
 msgstr "F~ont"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_PATTERN.checkbox.text
 msgid "~Pattern"
 msgstr "~Patró"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ALIGNMENT.checkbox.text
 msgid "Alignmen~t"
 msgstr "Alinea~ció"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.FL_FORMATS.fixedline.text
 msgid "Formatting"
 msgstr "Formatejant"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_MORE.morebutton.text
 msgid "~More"
 msgstr "~Mes"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_ADD.pushbutton.text
 msgid "~Add"
 msgstr "~Afegir"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_REMOVE.pushbutton.text
 msgid "~Delete"
 msgstr "~Borrar"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.BTN_RENAME.pushbutton.text
 msgid "~Rename"
 msgstr "~Renomenar"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_TITLE.string.text
 msgid "Add AutoFormat"
 msgstr "Afegir formatejat automàtic"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text
 msgctxt "tautofmt.src#DLG_AUTOFMT_TABLE.STR_ADD_LABEL.string.text"
 msgid "Name"
 msgstr "Nom"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_TITLE.string.text
 msgid "Delete AutoFormat"
 msgstr "Borrar formatejat automàtic"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_DEL_MSG.string.text
 msgid "The following AutoFormat entry will be deleted:"
 msgstr "La següent formatejat automàtic serà borrat:"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_RENAME_TITLE.string.text
 msgid "Rename AutoFormat"
 msgstr "Renomenar formatejat automàtic"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_BTN_CLOSE.string.text
 msgid "~Close"
 msgstr "~Tancar"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_JAN.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_JAN.string.text
 msgid "Jan"
 msgstr "Gin"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_FEB.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_FEB.string.text
 msgid "Feb"
 msgstr "Feb"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MAR.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MAR.string.text
 msgid "Mar"
 msgstr "Mar"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_NORTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_NORTH.string.text
 msgid "North"
 msgstr "Nort"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_MID.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_MID.string.text
 msgid "Mid"
 msgstr "Centrat"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SOUTH.string.text
 msgid "South"
 msgstr "Sur"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_SUM.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_SUM.string.text
 msgid "Sum"
 msgstr "Sumar"
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.STR_INVALID_AFNAME.string.text
 msgid ""
 "You have entered an invalid name.\n"
 "The desired AutoFormat could not be created. \n"
@@ -480,122 +579,23 @@ msgstr ""
 "El formatejat automàtic no s'ha pogut crear.\n"
 "Intente-ho de nou utilisant un nom diferent."
 
-#: tautofmt.src#DLG_AUTOFMT_TABLE.modaldialog.text
+#: tautofmt.src%23DLG_AUTOFMT_TABLE.modaldialog.text
 msgid "AutoFormat"
 msgstr "Format automatic"
 
-#: rowht.src#DLG_ROW_HEIGHT.CB_AUTOHEIGHT.checkbox.text
-msgid "~Fit to size"
-msgstr "~Ajust dinàmic"
-
-#: rowht.src#DLG_ROW_HEIGHT.FL_HEIGHT.fixedline.text
-msgid "Height"
-msgstr "Altura"
-
-#: rowht.src#DLG_ROW_HEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Altura de la fila"
-
-#: colwd.src#DLG_COL_WIDTH.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "~Amplaria"
-
-#: colwd.src#DLG_COL_WIDTH.FL_WIDTH.fixedline.text
-msgid "Width"
-msgstr "Amplaria"
-
-#: colwd.src#DLG_COL_WIDTH.FT_COL.fixedtext.text
-msgid "~Column"
-msgstr "~Columna"
-
-#: colwd.src#DLG_COL_WIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Amplària de columna"
-
-#: mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text
+#: mergetbl.src%23DLG_MERGE_TABLE.FL_MERGE.fixedline.text
 msgctxt "mergetbl.src#DLG_MERGE_TABLE.FL_MERGE.fixedline.text"
 msgid "Mode"
 msgstr "Modo"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_PREV.radiobutton.text
 msgid "Join with ~previous table"
 msgstr "Unir en la taula ~anterior"
 
-#: mergetbl.src#DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
+#: mergetbl.src%23DLG_MERGE_TABLE.RB_MERGE_NEXT.radiobutton.text
 msgid "Join with ~next table"
 msgstr "Unir en la taula ~següent"
 
-#: mergetbl.src#DLG_MERGE_TABLE.modaldialog.text
+#: mergetbl.src%23DLG_MERGE_TABLE.modaldialog.text
 msgid "Merge Tables"
 msgstr "Juntar taules"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_TAB.radiobutton.text
-msgid "~Tabs"
-msgstr "~Pestanyes"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_SEMI.radiobutton.text
-msgid "~Semicolons"
-msgstr "P~unts i coma"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_PARA.radiobutton.text
-msgid "~Paragraph"
-msgstr "~Pàrraf"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.RB_OTHER.radiobutton.text
-msgid "~Other: "
-msgstr "~Atres:"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_KEEPCOLUMN.checkbox.text
-msgid "Equal width for all columns"
-msgstr "La mateixa amplària per a totes les columnes"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_DELIM.fixedline.text
-msgid "Separate text at"
-msgstr "Separador en el text"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_HEADER.checkbox.text"
-msgid "Heading"
-msgstr "Capçalera"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_REPEAT_HEADER.checkbox.text"
-msgid "Repeat heading"
-msgstr "Repetir capcalera"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FT_REPEAT_HEADER.fixedtext.text"
-msgid "The first %POSITION_OF_CONTROL rows"
-msgstr "Les primeres files de %POSITION_OF_CONTROL"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_DONT_SPLIT.checkbox.text"
-msgid "Don't split table"
-msgstr "No dividir la taula"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.CB_BORDER.checkbox.text"
-msgid "Border"
-msgstr "Vora"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Opcions"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_CONVERT_TEXT_TABLE.string.text
-msgid "Convert Text to Table"
-msgstr "Convertir text a taula"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text
-msgctxt "convert.src#DLG_CONV_TEXT_TABLE.BT_AUTOFORMAT.pushbutton.text"
-msgid "Auto~Format..."
-msgstr "~Formatejat automàtic..."
-
-#: convert.src#DLG_CONV_TEXT_TABLE.STR_SYMBOL.string.text
-msgid "Symbol"
-msgstr "Símbol"
-
-#: convert.src#DLG_CONV_TEXT_TABLE.modaldialog.text
-msgid "Convert Table to Text"
-msgstr "Convertir taula a text"

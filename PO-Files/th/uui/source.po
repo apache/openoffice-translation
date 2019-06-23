@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+uui%2Fsource.oo&comp"
+"onent=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-06-22 07:15+0200\n"
 "PO-Revision-Date: 2016-04-14 13:08+0000\n"
 "Last-Translator: Teera <jteera5@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,47 +15,276 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1460639314.000000\n"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "เอกสารมีแมโครเอกสารที่ลงนามโดย:"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "เอกสารมีแมโครเอกสาร:"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "ดูลายเซ็น..."
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"แมคโครอาจมีไวรัสติด การปิดการทำงานของแมโครปลอดภัยเสมอ แต่ถ้าคุณปิดการทำงานของ"
+"แมโครคุณอาจสูญเสียความสามารถการทำงานที่แมคโครเอกสารมีให้"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "เชื่อถือแมโครจากแหล่งนี้เสมอ"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+msgid "~Enable Macros"
+msgstr "เ~ปิดการทำงานของแมคโคร"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "~Disable Macros"
+msgstr "ปิ~ดการทำงานของแมคโคร"
+
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
+msgid "%PRODUCTNAME - Security Warning"
+msgstr "%PRODUCTNAME - คำเตือนด้านความมั่นคง"
+
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 msgid "Replace"
 msgstr "แทนที่"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
 msgid "Rename"
 msgstr "เปลี่ยนชื่อ"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
 msgid "File Exists"
 msgstr "ไฟล์มีอยู่แล้ว"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "ตรวจสอบใบรับรอง..."
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "ตกลง"
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "ยอมรับใบรับรองนี้ชั่วคราวสำหรับช่วงการทำงานนี้"
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "ไม่ยอมรับใบรับรองนี้และไม่เชื่อมต่อไปยังเว็บไซต์ีนี้"
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "ไม่มีข้อความ"
+
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "เว็บไซต์รับรองโดยผู้รับรองที่ไม่รู้จัก"
+
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
+msgid ""
+"This document was created by a newer version of %PRODUCTNAME. It may contain "
+"features not supported by your current version.\n"
+"\n"
+"Click 'Update Now...' to run online update and get the latest version of "
+"%PRODUCTNAME."
+msgstr ""
+"เอกสารนี้สร้างขึ้นมาโดย %PRODUCTNAME เวอร์ชันใหม่กว่า "
+"จึงอาจมีลักษณะเฉพาะที่เวอร์ชันปัจจุบันของคุณไม่สนับสนุน\n"
+"\n"
+"คลิ๊ก 'อัพเดตเลย...' (Update Now...) "
+"เพื่อทำการอัพเดตโปรแกรมทางออนไลน์และรับเวอร์ชันล่าสุดของ %PRODUCTNAME"
+
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+msgid "~Update Now..."
+msgstr "~อัพเดตเลย..."
+
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+msgid "~Later"
+msgstr "~ทีหลัง"
+
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
+msgid "%PRODUCTNAME Update Available"
+msgstr "มีอัพเดตของโปรแกรม %PRODUCTNAME"
+
+#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
+msgid "Filter Selection"
+msgstr "การเลือกตัวกรอง"
+
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "รหัสผ่านไม่ถูกต้อง เอกสารไม่สามารถเปิดได้"
+
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "รหัสผ่านไม่ถูกต้อง ไม่สามารถเปลี่ยนแปลงเอกสารได้"
+
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "รหัสผ่านหลักไม่ถูกต้อง"
+
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "การยืนยันรหัสผ่านไม่ตรงกัน"
+
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "เอกสารถูกเปลี่ยนแปลงโดยผู้อื่น"
+
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+"ไฟล์ได้ถูกเปลี่ยนแปลงตั้งแต่เปิดไฟล์ขึ้นเพื่อแก้ไขใน %PRODUCTNAME "
+"การบันทึกเอกสารที่คุณแก้ไขไปจะทับการเปลี่ยนแปลงที่ผู้อื่นได้ทำไว้\n"
+"\n"
+"ต้องการบันทึกอยู่ดี?\n"
+"\n"
+
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "~บันทึกอยู่ดี"
+
+#: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
+msgid ""
+"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
+"missing permission to create a lock file on that file location."
+msgstr ""
+"%PRODUCTNAME ไม่สามารถล็อกไฟล์เพื่อใช้แต่เพียงผู้เดียว "
+"เนื่องจากไม่มีการอนุญาตให้สร้างการล็อกไฟล์ที่ตำแหน่งไฟล์นั้น"
+
+#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
+msgid "Document in Use"
+msgstr "เอกสารใช้งานอยู่"
+
+#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Open document read-only or open a copy of the document for editing.\n"
+"\n"
+msgstr ""
+"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกเพื่อแก้ไขโดย:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"คุณอาจเปิดเอกสารเพื่ออ่านอย่างเดียวหรือเปิดสำเนาของเอกสารเพื่อแก้ไข\n"
+"\n"
+
+#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "เปิดแบบ~อ่านอย่างเดียว"
+
+#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
+msgid "Open ~Copy"
+msgstr "เปิด~สำเนา"
+
+#: openlocked.src%23STR_UNKNOWNUSER.string.text
+msgid "Unknown User"
+msgstr "ไม่รู้จักผู้ใช้"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+msgid "Message from server:"
+msgstr "ข้อความจากเซิร์ฟเวอร์"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+msgid ""
+"Enter user name and password for: \n"
+"%1"
+msgstr ""
+"ป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ:\n"
+"%1"
+
+#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+msgid ""
+"Enter user name and password for: \n"
+"\"%2\" on %1"
+msgstr ""
+"ป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ:\n"
+"\"%2\" บน %1"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+msgid "~Path"
+msgstr "~เส้นทางที่เก็บไฟล์"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "~ชื่อผู้ใช้"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "รหัส~ผ่าน"
+
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+msgid "A~ccount"
+msgstr "บั~ญชีผู้ใช้"
+
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
+msgid "~Remember password"
+msgstr "~จำรหัสผ่าน"
+
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+msgid "~Use system credentials"
+msgstr "ใ~ช้หลักฐานรับรองของระบบ"
+
+#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
+msgid "Authentication Required"
+msgstr "จำเป็นต้องมีการพิสูจน์ตัวจริง"
+
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
 msgid "Enter password to open file: \n"
 msgstr "ใส่รหัสผ่านเพื่อเปิดไฟล์: \n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
 msgid "Enter password to modify file: \n"
 msgstr "ใส่รหัสผ่านเพื่อเปลี่ยนแปลงไฟล์: \n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
 msgid "Enter password: "
 msgstr "ใส่รหัสผ่าน: "
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
 msgid "Confirm password: "
 msgstr "ยืนยันรหัสผ่าน: "
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
 msgid "Set Password"
 msgstr "ตั้งรหัสผ่าน"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
 msgid "Enter Password"
 msgstr "ใส่รหัสผ่าน"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
 "The confirmation password did not match the password. Set the password again "
 "by entering the same password in both boxes."
@@ -63,74 +292,574 @@ msgstr ""
 "รหัสผ่านที่ยืนยันไม่ตรงกับรหัสผ่านครั้งแรก "
 "ตั้งรหัสผ่านใหม่โดยป้อนรหัสผ่านเดียวกันในกล่องข้อความทั้งคู่"
 
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: ids.src%23RID_KEEP_PASSWORD.string.text
+msgid "~Remember password until end of session"
+msgstr "~จำรหัสผ่านจนกว่าจบส่วนการทำงาน"
+
+#: ids.src%23RID_SAVE_PASSWORD.string.text
+msgctxt "ids.src#RID_SAVE_PASSWORD.string.text"
+msgid "~Remember password"
+msgstr "~จำรหัสผ่าน"
+
+#: ids.src%23STR_WARNING_BROKENSIGNATURE_TITLE.string.text
+msgid "Invalid Document Signature"
+msgstr "ลายเซ็นของเอกสารไม่ถูกต้อง"
+
+#: ids.src%23STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE.string.text
+msgid "Non-Encrypted Streams"
+msgstr "กระแสข้อมูลที่ไม่เข้ารหัสป้องกัน"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
+msgid "The operation executed on $(ARG1) was aborted."
+msgstr "The operation executed on $(ARG1) was aborted"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
+msgid "Access to $(ARG1) was denied."
+msgstr "การเข้าถึง $(ARG1) ถูกปฏิเสธ"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ALREADYEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) already exists."
+msgstr "$(ARG1) มีอยู่แล้ว"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_TARGETALREADYEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "Target already exists."
+msgstr "เป้าหมายมีอยู่แล้ว"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
+msgid ""
+"You are about to save/export a password protected basic library containing "
+"module(s) \n"
+"$(ARG1)\n"
+"which are too large to store in binary format. If you wish users that don't "
+"have access to the library password to be able to run macros in those "
+"module(s) you must split those modules into a number of smaller modules. Do "
+"you wish to continue to save/export this library?"
+msgstr ""
+"คุณกำลังจะบันทึก/ส่งออกไลบรารีปกป้องด้วยรหัสผ่านและมีโมดูล \n"
+"$(ARG1)\n"
+"ซึ่งใหญ่เกินกว่าที่จะเก็บในรูปแบบไบนารี ถ้าคุณต้องการให้ผู้ใช้ที่ไม่มีรหัสผ่า"
+"นของไลบรารีให้สามารถใช้แมคโครในโมดูลดังกล่าว "
+"คุณจะต้องแยกโมดูลออกเป็นโมดูลที่มีขนาดเล็กลงจำนวนหนึ่ง "
+"คุณต้องการที่จะทำการบันทึก/ส่งออกไลบรารีนี้ต่อไปหรือไม่?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
+msgid "The data from $(ARG1) has an incorrect checksum."
+msgstr "The data from $(ARG1) has an incorrect checksum"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE___ERRCODE_RES_MASK_.string.text
+msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
+msgstr "ไม่สามารถสร้างวัตถุ $(ARG1) ในไดเรกทอรี $(ARG2)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTREAD___ERRCODE_RES_MASK_.string.text
+msgid "Data of $(ARG1) could not be read."
+msgstr "ไม่สามารถอ่านข้อมูลของ $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTSEEK___ERRCODE_RES_MASK_.string.text
+msgid "The seek operation on $(ARG1) could not be performed."
+msgstr "ไม่สามารถปฏิบัติการการค้นหา $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTTELL___ERRCODE_RES_MASK_.string.text
+msgid "The tell operation on $(ARG1) could not be performed."
+msgstr "The tell operation on $(ARG1) could not be performed"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTWRITE___ERRCODE_RES_MASK_.string.text
+msgid "Data for $(ARG1) could not be written."
+msgstr "ไม่สามารถเขียนข้อมูล $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CURRENTDIR___ERRCODE_RES_MASK_.string.text
+msgid "Action impossible: $(ARG1) is the current directory."
+msgstr "Action impossible: $(ARG1) is the current directory"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not ready."
+msgstr "$(ARG1) ยังไม่พร้อม"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
+msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
+msgstr "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
+msgid "General input/output error while accessing $(ARG1)."
+msgstr "General input/output error while accessing $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
+msgid "An attempt was made to access $(ARG1) in an invalid way."
+msgstr "An attempt was made to access $(ARG1) in an invalid way"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDCHAR___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) contains invalid characters."
+msgstr "$(ARG1) มีอักขระที่ไม่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
+msgid "The device (drive) $(ARG1) is invalid."
+msgstr "อุปกรณ์ (ไดรฟ์) $(ARG1) ไม่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
+msgid "The data from $(ARG1) has an invalid length."
+msgstr "ข้อมูลจาก $(ARG1) มีความยาวที่ไม่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) was started with an invalid parameter."
+msgstr "การปฏิบัติการบน $(ARG1) มีการเริ่มด้วยพารามิเตอร์ที่ไม่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ISWILDCARD___ERRCODE_RES_MASK_.string.text
+msgid "The operation cannot be performed because $(ARG1) contains wildcards."
+msgstr "The operation cannot be performed because $(ARG1) contains wildcards"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_LOCKVIOLATION___ERRCODE_RES_MASK_.string.text
+msgid "Error during shared access to $(ARG1)."
+msgstr "Error during shared access to $(ARG1)."
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MISPLACEDCHAR___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) contains misplaced characters."
+msgstr "$(ARG1) contains misplaced characters"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NAMETOOLONG___ERRCODE_RES_MASK_.string.text
+msgid "The name $(ARG1) contains too many characters."
+msgstr "ชื่อ $(ARG1) มีอักขระมากเกินไป"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) does not exist."
+msgstr "$(ARG1) ไม่มี"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTSPATH___ERRCODE_RES_MASK_.string.text
+msgid "The path $(ARG1) does not exist."
+msgstr "ไม่มีพาธ $(ARG1) "
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSUPPORTED___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) is not supported on this operating system."
+msgstr "ไม่สนับสนุนการปฏิบัติการ $(ARG1) บนระบบปฏิบัติการนี้"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTADIRECTORY___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not a directory."
+msgstr "$(ARG1) ไม่ใช่ไดเรกทอรี"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTAFILE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not a file."
+msgstr "$(ARG1) ไม่ใช่แฟ้ม"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFSPACE___ERRCODE_RES_MASK_.string.text
+msgid "There is no space left on device $(ARG1)."
+msgstr "ไม่มีที่ว่างเหลือบนอุปกรณ์ $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_TOOMANYOPENFILES___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The operation on $(ARG1) cannot be performed because too many files are "
+"already open."
+msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากมีแฟ้มจำนวนมากเปิดอยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFMEMORY___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The operation on $(ARG1) cannot be performed because there is no more memory "
+"available."
+msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากไม่มีหน่วยความจำว่าง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_PENDING___ERRCODE_RES_MASK_.string.text
+msgid "The operation on $(ARG1) cannot continue because more data is pending."
+msgstr ""
+"ไม่สามารถดำเนินปฏิบัติการบน $(ARG1) ต่อได้เนื่องจากข้อมูลจำนวนมากค้างอยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_RECURSIVE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) cannot be copied into itself."
+msgstr "ไม่สามารถคัดลอก $(ARG1) ไปยังตัวมันเองได้"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNKNOWN___ERRCODE_RES_MASK_.string.text
+msgid "Unknown input/output error while accessing $(ARG1)."
+msgstr "ข้อผิดพลาดการป้อนเข้า/ผลลัพธ์ที่ไม่รู้จักขณะกำลังเข้าถึง $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRITEPROTECTED___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is write protected."
+msgstr "$(ARG1) ถูกป้องกันการเขียน"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGFORMAT___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not in the correct format."
+msgstr "$(ARG1) ไม่อยู่ในรูปแบบที่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGVERSION___ERRCODE_RES_MASK_.string.text
+msgid "The version of $(ARG1) is not correct."
+msgstr "รุ่นของ $(ARG1) ไม่ถูกต้อง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_VOLUME___ERRCODE_RES_MASK_.string.text
+msgid "Drive $(ARG1) does not exist."
+msgstr "ไม่มีไดรฟ์ $(ARG1) อยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
+msgid "Folder $(ARG1) does not exist."
+msgstr "ไม่มีโฟลเดอร์ $(ARG1) อยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version is not supported."
+msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION___ERRCODE_RES_MASK_.string.text
+msgid "The installed Java version $(ARG1) is not supported."
+msgstr "ไม่สนับสนุน Java รุ่น $(ARG1) ที่ติดตั้งอยู่"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_MIN___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The installed Java version is not supported, at least version $(ARG1) is "
+"required."
+msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่ อย่างน้อยที่สุดต้องการรุ่น $(ARG1) "
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION_MIN___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The installed Java version $(ARG1) is not supported, at least version $(ARG2)"
+" is required."
+msgstr ""
+"ไม่สนับสนุน Java เวอร์ชัน $(ARG1) ที่ติดตั้งอยู่ อย่างน้อยที่สุดต้องการรุ่น "
+"$(ARG2)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
+msgid "The data associated with the partnership is corrupted."
+msgstr "The data associated with the partnership is corrupted."
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
+msgid "The data associated with the partnership $(ARG1) is corrupted."
+msgstr "The data associated with the partnership $(ARG1) is corrupted."
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
+msgid "Volume $(ARG1) is not ready."
+msgstr "โวลุม $(ARG1) ไม่พร้อม"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
+msgid "$(ARG1) is not ready; please insert a storage medium."
+msgstr "$(ARG1) is not ready; please insert a storage medium"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
+msgid "Volume $(ARG1) is not ready; please insert a storage medium."
+msgstr "Volume $(ARG1) is not ready; please insert a storage medium"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
+msgid "Please insert disk $(ARG1)."
+msgstr "กรุณาใส่ดิสก์ $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE_NONAME___ERRCODE_RES_MASK_.string.text
+msgid "The object cannot be created in directory $(ARG1)."
+msgstr "ไม่สามารถสร้างวัตถุในไดเรกทอรี $(ARG1)"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNSUPPORTEDOVERWRITE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"%PRODUCTNAME cannot keep files from being overwritten when this transmission "
+"protocol is used. Do you want to continue anyway?"
+msgstr ""
+"%PRODUCTNAME "
+"ไม่สามารถป้องกันไฟล์จากการถูกเขียนทับเมื่อใช้โปรโตคอลการส่งข้อมูลนี้ "
+"คุณต้องการทำต่ออยู่ดีหรือไม่?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The file '$(ARG1)' is corrupt and therefore cannot be opened. %PRODUCTNAME "
+"can try to repair the file.\n"
+"\n"
+"The corruption could be the result of document manipulation or of structural "
+"document damage due to data transmission.\n"
+"\n"
+"We recommend that you do not trust the content of the repaired document.\n"
+"Execution of macros is disabled for this document.\n"
+"\n"
+"Should %PRODUCTNAME repair the file?\n"
+msgstr ""
+"ไฟล์ '$(ARG1)' เสียหายเปิดไม่ได้ %PRODUCTNAME สามารถลองซ่อมไฟล์ดังกล่าว\n"
+"\n"
+"ความเสียหายอาจเป็นผลมาจากการจัดการเอกสารหรือจากความเสียหายทางโครงสร้างของเอกส"
+"ารเนื่องจากการรับส่งข้อมูล\n"
+"\n"
+"ขอแนะนำว่าคุณอย่าเชื่อถือในเนื้อหาของเอกสารที่ซ่อมแซมแล้ว\n"
+"การทำงานของแมโครจะถูกปิดไว้สำหรับเอกสารนี้\n"
+"\n"
+"ต้องการให้ %PRODUCTNAME ซ่อมไฟล์หรือไม่?\n"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE_CANTREPAIR___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The file '$(ARG1)' could not be repaired and therefore cannot be opened."
+msgstr "แฟ้ม '$(ARG1)' ไม่สามารถซ่อมได้จึงไม่สามารถเปิดได้"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"Configuration data in '$(ARG1)' is corrupted. Without this data some "
+"functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted "
+"configuration data?"
+msgstr ""
+"Configuration data in '$(ARG1)' is corrupted. Without this data some "
+"functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted "
+"configuration data?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The personal configuration file '$(ARG1)' is corrupted and must be deleted "
+"to continue. Some of your personal settings may be lost.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted "
+"configuration data?"
+msgstr ""
+"The personal configuration file '$(ARG1)' is corrupted and must be deleted "
+"to continue. Some of your personal settings may be lost.\n"
+"Do you want to continue startup of %PRODUCTNAME without the corrupted "
+"configuration data?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The configuration data source '$(ARG1)' is unavailable. Without this data "
+"some functions may not operate correctly."
+msgstr ""
+"ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ "
+"ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The configuration data source '$(ARG1)' is unavailable. Without this data "
+"some functions may not operate correctly.\n"
+"Do you want to continue startup of %PRODUCTNAME without the missing "
+"configuration data?"
+msgstr ""
+"ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ "
+"ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้\n"
+"คุณยังต้องการเริ่ม %PRODUCTNAME ต่อไป โดยปราศจากข้อมูลโครงแบบดังกล่าวหรือไม่?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
+msgid "The form contains invalid data. Do you still want to continue?"
+msgstr "The form contains invalid data. Do you still want to continue?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The file $(ARG1) is locked by another user. Currently, another write access "
+"to this file cannot be granted."
+msgstr ""
+"ไฟล์ $(ARG1) ถูกล็อกโดยผู้ใช้คนอื่น "
+"ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED_SELF___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The file $(ARG1) is locked by yourself. Currently, another write access to "
+"this file cannot be granted."
+msgstr ""
+"ไฟล์ $(ARG1) ถูกล็อกโดยตัวคุณเอง "
+"ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
+msgid "The file $(ARG1) is currently not locked by yourself."
+msgstr "ไฟล์ $(ARG1) ขณะนี้ไม่ถูกล็อกโดยตัวคุณเอง"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCK_EXPIRED___ERRCODE_RES_MASK_.string.text
+msgid ""
+"The previously obtained lock for file $(ARG1) has expired.\n"
+"This can happen due to problems on the server managing the file lock. It "
+"cannot be guaranteed that write operations on this file will not overwrite "
+"changes done by other users!"
+msgstr ""
+"การล็อกของไฟล์ $(ARG1) ที่ได้มาก่อนหน้านี้ได้หมดอายุลง\n"
+"นี่อาจเกิดขึ้นจากปัญหาบนเครื่องเซิร์ฟเวอร์ในการจัดการการล็อกไฟล์ ไม่สามารถรับ"
+"ประกันได้ว่าปฏิบัติการเขียนลงไปที่ไฟล์ดังกล่าวจะไม่ถูกเขียนทับโดยผู้ใช้คนอื่น"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_UNKNOWNAUTH_UNTRUSTED_.string.text
+msgid ""
+"Unable to verify the identity of $(ARG1) site.\n"
+"\n"
+"Before accepting this certificate, you should examine this site's "
+"certificate carefully. Are you willing to accept this certificate for the "
+"purpose of identifying the Web site $(ARG1)?"
+msgstr ""
+"ไม่สามารถยืนยันเอกลักษณ์ของไซต์ $(ARG1)\n"
+"\n"
+"ก่อนยอมรับใบรับรองนี้ คุณควรตรวจสอบใบรับรองของไซต์นี้อย่างรอบคอบ คุณเต็มใจที่"
+"จะยอมรับใบรับรองนี้เพื่อวัตถุประสงค์ในการยืนยันเอกลักษณ์ของเว็บไซต์ $(ARG1) "
+"หรือไม่?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_EXPIRED_1_.string.text
+msgid ""
+"$(ARG1) is a site that uses a security certificate to encrypt data during "
+"transmission, but its certificate expired on $(ARG2).\n"
+"\n"
+"You should check to make sure that your computer's time is correct."
+msgstr ""
+"$(ARG1) เป็นไซต์ที่ใช้ใบรับรองด้านความมั่นคงในการเข้ารหัสป้องกันข้อมูลระหว่าง"
+"การสื่อสัญญาณ แต่ใบรับรองได้หมดอายุลงเมื่อ $(ARG2)\n"
+"\n"
+"คุณควรตรวจสอบให้แน่ใจว่าเวลาของคอมพิวเตอร์ของคุณถูกต้องแล้ว"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_DOMAINMISMATCH_1_.string.text
+msgid ""
+"You have attempted to establish a connection with $(ARG1). However, the "
+"security certificate presented belongs to $(ARG2). It is possible, though "
+"unlikely, that someone may be trying to intercept your communication with "
+"this web site.\n"
+"\n"
+"If you suspect the certificate shown does not belong to $(ARG1), please "
+"cancel the connection and notify the site administrator.\n"
+"\n"
+"Would you like to continue anyway?"
+msgstr ""
+"คุณได้พยายามที่จะสร้างการเชื่อมต่อกับ $(ARG1) แต่ใบรับรองความมั่นคงที่เสนอเป็"
+"นของ $(ARG2) มีความเป็นไปได้เล็กน้อยว่าบางคนอาจกำลังพยายามดักสกัดการสื่อสารขอ"
+"งคุณกับเว็บไซต์นี้\n"
+"\n"
+"ถ้าคุณสงสัยว่าใบรับรองที่แสดงไม่ใช่ของ $(ARG1) "
+"กรุณายกเลิกการเชื่อมต่อและแจ้งผู้ดูแลระบบของไซต์ดังกล่าว\n"
+"\n"
+"คุณต้องการทำต่ออยู่ดีหรือไม่?"
+
+#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_INVALID_1_.string.text
+msgid ""
+"The certificate could not be validated. You should examine this site's "
+"certificate carefully.\n"
+"\n"
+"If you suspect the certificate shown, please cancel the connection and "
+"notify the site administrator."
+msgstr ""
+"ไม่สามารถยืนยันความถูกต้องของใบรับรอง คุณควรตรวจสอบใบรับรองของไซต์นี้อย่"
+"างรอบคอบ\n"
+"\n"
+"ถ้าคุณสงสัยใบรับรองที่แสดง "
+"กรุณายกเลิกการเชื่อมต่อและแจ้งผู้ดูแลระบบของไซต์ดังกล่าว"
+
+#: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_DOMAINMISMATCH_.string.text
+msgid "Security Warning: Domain Name Mismatch"
+msgstr "คำเตือนด้านความมั่นคง: ชื่อโดเมนไม่ตรงกัน"
+
+#: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_EXPIRED_.string.text
+msgid "Security Warning: Server Certificate Expired"
+msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายหมดอายุ"
+
+#: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_INVALID_.string.text
+msgid "Security Warning: Server Certificate Invalid"
+msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายไม่ถูกต้อง"
+
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
 msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
 msgid "No Text"
 msgstr "ไม่มีข้อความ"
 
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
 msgid "View Certificate"
 msgstr "ดูใบรับรอง"
 
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
 msgid "Cancel Connection"
 msgstr "ยกเลิกการเชื่อมต่อ"
 
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
 msgid "Continue"
 msgstr "ทำต่อไป"
 
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
 msgid "Security Warning: "
 msgstr "คำเตือนความมั่นคง: "
 
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "รหัสผ่านไม่ถูกต้อง เอกสารไม่สามารถเปิดได้"
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกสำหรับแก้ไขโดยตัวคุณเองบนระบบอื่นตั้งแต่$(ARG2)\n"
+"\n"
+"เปิดเอกสารแบบอ่านอย่างเดียว "
+"หรือไม่สนใจการล็อกไฟล์ของตัวเองและเปิดเอกสารเพื่อแก้ไข\n"
+"\n"
 
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "รหัสผ่านไม่ถูกต้อง ไม่สามารถเปลี่ยนแปลงเอกสารได้"
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "เปิดแบบ~อ่านอย่างเดียว"
 
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "รหัสผ่านหลักไม่ถูกต้อง"
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "เ~ปิด"
 
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "รหัสผ่านไม่ถูกต้อง"
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกเพื่อแก้ไขโดยคุณเองบนระบบอื่นตั้งแต่ $(ARG2)\n"
+"\n"
+"ปิดเอกสารบนระบบอื่นและลองบันทึกอีกหรือไม่สนใจการล็อกไฟล์ของตัวเองและบันทึ"
+"กเอกสาร\n"
+"\n"
 
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "การยืนยันรหัสผ่านไม่ตรงกัน"
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "~พยายามบันทึกอีกครั้ง"
 
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "~บันทึก"
+
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+msgid ""
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
+msgstr ""
+"รหัสผ่านสำหรับการเชื่อมต่อเว็บถูกปกป้องโดยรหัสผ่านหลัก "
+"คุณจะต้องป้อนรหัสผ่านครั้งเดียวต่อช่วงการสื่อสาร ถ้า %PRODUCTNAME "
+"ดึงเอารหัสผ่านมาจากรายการรหัสผ่านที่ได้รับการปกป้องได้"
+
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "ใ~ส่รหัสผ่าน"
+
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Reenter password"
+msgstr "~จำรหัสผ่าน"
+
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"คำเตือน: ถ้าคุณลืมรหัสผ่านหลัก คุณจะไม่สามารถเข้าถึงสารสนเทศใดๆ "
+"ที่รหัสผ่านปกป้อง รหัสผ่านถือว่าอักษรตัวพิมพ์เล็กกับตัวพิมพ์ใหญ่ต่างกัน ("
+"case sensitive)"
+
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "ใส่รหัสผ่านหลัก"
+
+#: masterpassworddlg.src%23DLG_UUI_MASTERPASSWORD.FT_MASTERPASSWORD.fixedtext.text
+msgid "Enter password"
+msgstr "ใส่รหัสผ่าน"
+
+#: masterpassworddlg.src%23DLG_UUI_MASTERPASSWORD.modaldialog.text
+msgid "Enter Master Password"
+msgstr "ใส่รหัสผ่านหลัก"
+
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
 msgid "~Send"
 msgstr "~ส่ง"
 
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
 msgid "I~gnore"
 msgstr "เ~พิกเฉย"
 
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
 msgid "I~nteractive"
 msgstr "โ~ต้ตอบ"
 
-#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
+#: cookiedg.src%23DLG_COOKIES.GB_INFUTURE.groupbox.text
 msgid "Future Cookie Handling"
 msgstr "การจัดการคุกกี้ในอนาคต"
 
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
 msgid "~Ignore"
 msgstr "เ~พิกเฉย"
 
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
 msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
 msgid "~Send"
 msgstr "~ส่ง"
 
-#: cookiedg.src#STR_COOKIES_RECV_START.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_START.string.text
 msgid ""
 "The '${HOST}' server wishes to set one or more cookies.\n"
 "Cookies contain information referring to certain URL classes. If %"
@@ -151,16 +880,16 @@ msgstr ""
 "คุกกี้ต่อไปนี้จะถูกกำหนด:\n"
 "\n"
 
-#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
 msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
 msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
 msgstr "โดเมน: ${DOMAIN}, เส้นทางที่เก็บไฟล์: ${PATH}, คุกกี้: ${COOKIE}.\n"
 
-#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_TITLE.string.text
 msgid "Cookie Reception"
 msgstr "การรับคุกกี้"
 
-#: cookiedg.src#STR_COOKIES_SEND_START.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_START.string.text
 msgid ""
 "%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent "
 "when requesting the document ${PATH}.\n"
@@ -186,685 +915,21 @@ msgstr ""
 "คุกกี้นี้จะถูกกำหนด:\n"
 "\n"
 
-#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_COOKIES.string.text
 msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
 msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
 msgstr "โดเมน: ${DOMAIN}, เส้นทางที่เก็บไฟล์: ${PATH}, คุกกี้: ${COOKIE}.\n"
 
-#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
 msgid "Send Cookies"
 msgstr "ส่งคุกกี้"
 
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกสำหรับแก้ไขโดยตัวคุณเองบนระบบอื่นตั้งแต่$(ARG2)\n"
-"\n"
-"เปิดเอกสารแบบอ่านอย่างเดียว "
-"หรือไม่สนใจการล็อกไฟล์ของตัวเองและเปิดเอกสารเพื่อแก้ไข\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "เปิดแบบ~อ่านอย่างเดียว"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "เ~ปิด"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกเพื่อแก้ไขโดยคุณเองบนระบบอื่นตั้งแต่ $(ARG2)\n"
-"\n"
-"ปิดเอกสารบนระบบอื่นและลองบันทึกอีกหรือไม่สนใจการล็อกไฟล์ของตัวเองและบันทึ"
-"กเอกสาร\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "~พยายามบันทึกอีกครั้ง"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "~บันทึก"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "ตรวจสอบใบรับรอง..."
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "ช่วยเหลือ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "ตกลง"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "ยอมรับใบรับรองนี้ชั่วคราวสำหรับช่วงการทำงานนี้"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "ไม่ยอมรับใบรับรองนี้และไม่เชื่อมต่อไปยังเว็บไซต์ีนี้"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "ไม่มีข้อความ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "เว็บไซต์รับรองโดยผู้รับรองที่ไม่รู้จัก"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "เอกสารมีแมโครเอกสารที่ลงนามโดย:"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "เอกสารมีแมโครเอกสาร:"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "ดูลายเซ็น..."
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr ""
-"แมคโครอาจมีไวรัสติด การปิดการทำงานของแมโครปลอดภัยเสมอ แต่ถ้าคุณปิดการทำงานของ"
-"แมโครคุณอาจสูญเสียความสามารถการทำงานที่แมคโครเอกสารมีให้"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "เชื่อถือแมโครจากแหล่งนี้เสมอ"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-msgid "~Enable Macros"
-msgstr "เ~ปิดการทำงานของแมคโคร"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "~Disable Macros"
-msgstr "ปิ~ดการทำงานของแมคโคร"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
-msgid "%PRODUCTNAME - Security Warning"
-msgstr "%PRODUCTNAME - คำเตือนด้านความมั่นคง"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-msgid "Message from server:"
-msgstr "ข้อความจากเซิร์ฟเวอร์"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-msgid ""
-"Enter user name and password for: \n"
-"%1"
-msgstr ""
-"ป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ:\n"
-"%1"
-
-#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-msgid ""
-"Enter user name and password for: \n"
-"\"%2\" on %1"
-msgstr ""
-"ป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ:\n"
-"\"%2\" บน %1"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-msgid "~Path"
-msgstr "~เส้นทางที่เก็บไฟล์"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-msgid "~User name"
-msgstr "~ชื่อผู้ใช้"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-msgid "Pass~word"
-msgstr "รหัส~ผ่าน"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-msgid "A~ccount"
-msgstr "บั~ญชีผู้ใช้"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
-msgid "~Remember password"
-msgstr "~จำรหัสผ่าน"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-msgid "~Use system credentials"
-msgstr "ใ~ช้หลักฐานรับรองของระบบ"
-
-#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
-msgid "Authentication Required"
-msgstr "จำเป็นต้องมีการพิสูจน์ตัวจริง"
-
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "เอกสารถูกเปลี่ยนแปลงโดยผู้อื่น"
-
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
-msgstr ""
-"ไฟล์ได้ถูกเปลี่ยนแปลงตั้งแต่เปิดไฟล์ขึ้นเพื่อแก้ไขใน %PRODUCTNAME "
-"การบันทึกเอกสารที่คุณแก้ไขไปจะทับการเปลี่ยนแปลงที่ผู้อื่นได้ทำไว้\n"
-"\n"
-"ต้องการบันทึกอยู่ดี?\n"
-"\n"
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "~บันทึกอยู่ดี"
-
-#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
-msgid "Filter Selection"
-msgstr "การเลือกตัวกรอง"
-
-#: lockfailed.src#STR_LOCKFAILED_MSG.string.text
-msgid ""
-"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
-"missing permission to create a lock file on that file location."
-msgstr ""
-"%PRODUCTNAME ไม่สามารถล็อกไฟล์เพื่อใช้แต่เพียงผู้เดียว "
-"เนื่องจากไม่มีการอนุญาตให้สร้างการล็อกไฟล์ที่ตำแหน่งไฟล์นั้น"
-
-#: ids.src#RID_KEEP_PASSWORD.string.text
-msgid "~Remember password until end of session"
-msgstr "~จำรหัสผ่านจนกว่าจบส่วนการทำงาน"
-
-#: ids.src#RID_SAVE_PASSWORD.string.text
-msgctxt "ids.src#RID_SAVE_PASSWORD.string.text"
-msgid "~Remember password"
-msgstr "~จำรหัสผ่าน"
-
-#: ids.src#STR_WARNING_BROKENSIGNATURE_TITLE.string.text
-msgid "Invalid Document Signature"
-msgstr "ลายเซ็นของเอกสารไม่ถูกต้อง"
-
-#: ids.src#STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE.string.text
-msgid "Non-Encrypted Streams"
-msgstr "กระแสข้อมูลที่ไม่เข้ารหัสป้องกัน"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
-msgid "The operation executed on $(ARG1) was aborted."
-msgstr "The operation executed on $(ARG1) was aborted"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
-msgid "Access to $(ARG1) was denied."
-msgstr "การเข้าถึง $(ARG1) ถูกปฏิเสธ"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ALREADYEXISTS___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) already exists."
-msgstr "$(ARG1) มีอยู่แล้ว"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TARGETALREADYEXISTS___ERRCODE_RES_MASK_.string.text
-msgid "Target already exists."
-msgstr "เป้าหมายมีอยู่แล้ว"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
-"$(ARG1)\n"
-"which are too large to store in binary format. If you wish users that don't "
-"have access to the library password to be able to run macros in those "
-"module(s) you must split those modules into a number of smaller modules. Do "
-"you wish to continue to save/export this library?"
-msgstr ""
-"คุณกำลังจะบันทึก/ส่งออกไลบรารีปกป้องด้วยรหัสผ่านและมีโมดูล \n"
-"$(ARG1)\n"
-"ซึ่งใหญ่เกินกว่าที่จะเก็บในรูปแบบไบนารี ถ้าคุณต้องการให้ผู้ใช้ที่ไม่มีรหัสผ่า"
-"นของไลบรารีให้สามารถใช้แมคโครในโมดูลดังกล่าว "
-"คุณจะต้องแยกโมดูลออกเป็นโมดูลที่มีขนาดเล็กลงจำนวนหนึ่ง "
-"คุณต้องการที่จะทำการบันทึก/ส่งออกไลบรารีนี้ต่อไปหรือไม่?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
-msgid "The data from $(ARG1) has an incorrect checksum."
-msgstr "The data from $(ARG1) has an incorrect checksum"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE___ERRCODE_RES_MASK_.string.text
-msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
-msgstr "ไม่สามารถสร้างวัตถุ $(ARG1) ในไดเรกทอรี $(ARG2)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTREAD___ERRCODE_RES_MASK_.string.text
-msgid "Data of $(ARG1) could not be read."
-msgstr "ไม่สามารถอ่านข้อมูลของ $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTSEEK___ERRCODE_RES_MASK_.string.text
-msgid "The seek operation on $(ARG1) could not be performed."
-msgstr "ไม่สามารถปฏิบัติการการค้นหา $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTTELL___ERRCODE_RES_MASK_.string.text
-msgid "The tell operation on $(ARG1) could not be performed."
-msgstr "The tell operation on $(ARG1) could not be performed"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTWRITE___ERRCODE_RES_MASK_.string.text
-msgid "Data for $(ARG1) could not be written."
-msgstr "ไม่สามารถเขียนข้อมูล $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CURRENTDIR___ERRCODE_RES_MASK_.string.text
-msgid "Action impossible: $(ARG1) is the current directory."
-msgstr "Action impossible: $(ARG1) is the current directory"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is not ready."
-msgstr "$(ARG1) ยังไม่พร้อม"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
-msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
-msgstr "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
-msgid "General input/output error while accessing $(ARG1)."
-msgstr "General input/output error while accessing $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
-msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr "An attempt was made to access $(ARG1) in an invalid way"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDCHAR___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) contains invalid characters."
-msgstr "$(ARG1) มีอักขระที่ไม่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
-msgid "The device (drive) $(ARG1) is invalid."
-msgstr "อุปกรณ์ (ไดรฟ์) $(ARG1) ไม่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
-msgid "The data from $(ARG1) has an invalid length."
-msgstr "ข้อมูลจาก $(ARG1) มีความยาวที่ไม่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
-msgid "The operation on $(ARG1) was started with an invalid parameter."
-msgstr "การปฏิบัติการบน $(ARG1) มีการเริ่มด้วยพารามิเตอร์ที่ไม่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ISWILDCARD___ERRCODE_RES_MASK_.string.text
-msgid "The operation cannot be performed because $(ARG1) contains wildcards."
-msgstr "The operation cannot be performed because $(ARG1) contains wildcards"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_LOCKVIOLATION___ERRCODE_RES_MASK_.string.text
-msgid "Error during shared access to $(ARG1)."
-msgstr "Error during shared access to $(ARG1)."
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MISPLACEDCHAR___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) contains misplaced characters."
-msgstr "$(ARG1) contains misplaced characters"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NAMETOOLONG___ERRCODE_RES_MASK_.string.text
-msgid "The name $(ARG1) contains too many characters."
-msgstr "ชื่อ $(ARG1) มีอักขระมากเกินไป"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) does not exist."
-msgstr "$(ARG1) ไม่มี"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTSPATH___ERRCODE_RES_MASK_.string.text
-msgid "The path $(ARG1) does not exist."
-msgstr "ไม่มีพาธ $(ARG1) "
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSUPPORTED___ERRCODE_RES_MASK_.string.text
-msgid "The operation on $(ARG1) is not supported on this operating system."
-msgstr "ไม่สนับสนุนการปฏิบัติการ $(ARG1) บนระบบปฏิบัติการนี้"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTADIRECTORY___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is not a directory."
-msgstr "$(ARG1) ไม่ใช่ไดเรกทอรี"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTAFILE___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is not a file."
-msgstr "$(ARG1) ไม่ใช่แฟ้ม"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFSPACE___ERRCODE_RES_MASK_.string.text
-msgid "There is no space left on device $(ARG1)."
-msgstr "ไม่มีที่ว่างเหลือบนอุปกรณ์ $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_TOOMANYOPENFILES___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The operation on $(ARG1) cannot be performed because too many files are "
-"already open."
-msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากมีแฟ้มจำนวนมากเปิดอยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_OUTOFMEMORY___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The operation on $(ARG1) cannot be performed because there is no more memory "
-"available."
-msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากไม่มีหน่วยความจำว่าง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_PENDING___ERRCODE_RES_MASK_.string.text
-msgid "The operation on $(ARG1) cannot continue because more data is pending."
-msgstr ""
-"ไม่สามารถดำเนินปฏิบัติการบน $(ARG1) ต่อได้เนื่องจากข้อมูลจำนวนมากค้างอยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_RECURSIVE___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) cannot be copied into itself."
-msgstr "ไม่สามารถคัดลอก $(ARG1) ไปยังตัวมันเองได้"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNKNOWN___ERRCODE_RES_MASK_.string.text
-msgid "Unknown input/output error while accessing $(ARG1)."
-msgstr "ข้อผิดพลาดการป้อนเข้า/ผลลัพธ์ที่ไม่รู้จักขณะกำลังเข้าถึง $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRITEPROTECTED___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is write protected."
-msgstr "$(ARG1) ถูกป้องกันการเขียน"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGFORMAT___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is not in the correct format."
-msgstr "$(ARG1) ไม่อยู่ในรูปแบบที่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_WRONGVERSION___ERRCODE_RES_MASK_.string.text
-msgid "The version of $(ARG1) is not correct."
-msgstr "รุ่นของ $(ARG1) ไม่ถูกต้อง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_VOLUME___ERRCODE_RES_MASK_.string.text
-msgid "Drive $(ARG1) does not exist."
-msgstr "ไม่มีไดรฟ์ $(ARG1) อยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
-msgid "Folder $(ARG1) does not exist."
-msgstr "ไม่มีโฟลเดอร์ $(ARG1) อยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
-msgid "The installed Java version is not supported."
-msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION___ERRCODE_RES_MASK_.string.text
-msgid "The installed Java version $(ARG1) is not supported."
-msgstr "ไม่สนับสนุน Java รุ่น $(ARG1) ที่ติดตั้งอยู่"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_MIN___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The installed Java version is not supported, at least version $(ARG1) is "
-"required."
-msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่ อย่างน้อยที่สุดต้องการรุ่น $(ARG1) "
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA_VERSION_MIN___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The installed Java version $(ARG1) is not supported, at least version $(ARG2)"
-" is required."
-msgstr ""
-"ไม่สนับสนุน Java เวอร์ชัน $(ARG1) ที่ติดตั้งอยู่ อย่างน้อยที่สุดต้องการรุ่น "
-"$(ARG2)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
-msgid "The data associated with the partnership is corrupted."
-msgstr "The data associated with the partnership is corrupted."
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
-msgid "The data associated with the partnership $(ARG1) is corrupted."
-msgstr "The data associated with the partnership $(ARG1) is corrupted."
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
-msgid "Volume $(ARG1) is not ready."
-msgstr "โวลุม $(ARG1) ไม่พร้อม"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
-msgid "$(ARG1) is not ready; please insert a storage medium."
-msgstr "$(ARG1) is not ready; please insert a storage medium"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
-msgid "Volume $(ARG1) is not ready; please insert a storage medium."
-msgstr "Volume $(ARG1) is not ready; please insert a storage medium"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
-msgid "Please insert disk $(ARG1)."
-msgstr "กรุณาใส่ดิสก์ $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_CANTCREATE_NONAME___ERRCODE_RES_MASK_.string.text
-msgid "The object cannot be created in directory $(ARG1)."
-msgstr "ไม่สามารถสร้างวัตถุในไดเรกทอรี $(ARG1)"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_UNSUPPORTEDOVERWRITE___ERRCODE_RES_MASK_.string.text
-msgid ""
-"%PRODUCTNAME cannot keep files from being overwritten when this transmission "
-"protocol is used. Do you want to continue anyway?"
-msgstr ""
-"%PRODUCTNAME "
-"ไม่สามารถป้องกันไฟล์จากการถูกเขียนทับเมื่อใช้โปรโตคอลการส่งข้อมูลนี้ "
-"คุณต้องการทำต่ออยู่ดีหรือไม่?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The file '$(ARG1)' is corrupt and therefore cannot be opened. %PRODUCTNAME "
-"can try to repair the file.\n"
-"\n"
-"The corruption could be the result of document manipulation or of structural "
-"document damage due to data transmission.\n"
-"\n"
-"We recommend that you do not trust the content of the repaired document.\n"
-"Execution of macros is disabled for this document.\n"
-"\n"
-"Should %PRODUCTNAME repair the file?\n"
-msgstr ""
-"ไฟล์ '$(ARG1)' เสียหายเปิดไม่ได้ %PRODUCTNAME สามารถลองซ่อมไฟล์ดังกล่าว\n"
-"\n"
-"ความเสียหายอาจเป็นผลมาจากการจัดการเอกสารหรือจากความเสียหายทางโครงสร้างของเอกส"
-"ารเนื่องจากการรับส่งข้อมูล\n"
-"\n"
-"ขอแนะนำว่าคุณอย่าเชื่อถือในเนื้อหาของเอกสารที่ซ่อมแซมแล้ว\n"
-"การทำงานของแมโครจะถูกปิดไว้สำหรับเอกสารนี้\n"
-"\n"
-"ต้องการให้ %PRODUCTNAME ซ่อมไฟล์หรือไม่?\n"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE_CANTREPAIR___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The file '$(ARG1)' could not be repaired and therefore cannot be opened."
-msgstr "แฟ้ม '$(ARG1)' ไม่สามารถซ่อมได้จึงไม่สามารถเปิดได้"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
-msgid ""
-"Configuration data in '$(ARG1)' is corrupted. Without this data some "
-"functions may not operate correctly.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted "
-"configuration data?"
-msgstr ""
-"Configuration data in '$(ARG1)' is corrupted. Without this data some "
-"functions may not operate correctly.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted "
-"configuration data?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The personal configuration file '$(ARG1)' is corrupted and must be deleted "
-"to continue. Some of your personal settings may be lost.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted "
-"configuration data?"
-msgstr ""
-"The personal configuration file '$(ARG1)' is corrupted and must be deleted "
-"to continue. Some of your personal settings may be lost.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted "
-"configuration data?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The configuration data source '$(ARG1)' is unavailable. Without this data "
-"some functions may not operate correctly."
-msgstr ""
-"ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ "
-"ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The configuration data source '$(ARG1)' is unavailable. Without this data "
-"some functions may not operate correctly.\n"
-"Do you want to continue startup of %PRODUCTNAME without the missing "
-"configuration data?"
-msgstr ""
-"ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ "
-"ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้\n"
-"คุณยังต้องการเริ่ม %PRODUCTNAME ต่อไป โดยปราศจากข้อมูลโครงแบบดังกล่าวหรือไม่?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
-msgid "The form contains invalid data. Do you still want to continue?"
-msgstr "The form contains invalid data. Do you still want to continue?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The file $(ARG1) is locked by another user. Currently, another write access "
-"to this file cannot be granted."
-msgstr ""
-"ไฟล์ $(ARG1) ถูกล็อกโดยผู้ใช้คนอื่น "
-"ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED_SELF___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The file $(ARG1) is locked by yourself. Currently, another write access to "
-"this file cannot be granted."
-msgstr ""
-"ไฟล์ $(ARG1) ถูกล็อกโดยตัวคุณเอง "
-"ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
-msgid "The file $(ARG1) is currently not locked by yourself."
-msgstr "ไฟล์ $(ARG1) ขณะนี้ไม่ถูกล็อกโดยตัวคุณเอง"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCK_EXPIRED___ERRCODE_RES_MASK_.string.text
-msgid ""
-"The previously obtained lock for file $(ARG1) has expired.\n"
-"This can happen due to problems on the server managing the file lock. It "
-"cannot be guaranteed that write operations on this file will not overwrite "
-"changes done by other users!"
-msgstr ""
-"การล็อกของไฟล์ $(ARG1) ที่ได้มาก่อนหน้านี้ได้หมดอายุลง\n"
-"นี่อาจเกิดขึ้นจากปัญหาบนเครื่องเซิร์ฟเวอร์ในการจัดการการล็อกไฟล์ ไม่สามารถรับ"
-"ประกันได้ว่าปฏิบัติการเขียนลงไปที่ไฟล์ดังกล่าวจะไม่ถูกเขียนทับโดยผู้ใช้คนอื่น"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_UNKNOWNAUTH_UNTRUSTED_.string.text
-msgid ""
-"Unable to verify the identity of $(ARG1) site.\n"
-"\n"
-"Before accepting this certificate, you should examine this site's "
-"certificate carefully. Are you willing to accept this certificate for the "
-"purpose of identifying the Web site $(ARG1)?"
-msgstr ""
-"ไม่สามารถยืนยันเอกลักษณ์ของไซต์ $(ARG1)\n"
-"\n"
-"ก่อนยอมรับใบรับรองนี้ คุณควรตรวจสอบใบรับรองของไซต์นี้อย่างรอบคอบ คุณเต็มใจที่"
-"จะยอมรับใบรับรองนี้เพื่อวัตถุประสงค์ในการยืนยันเอกลักษณ์ของเว็บไซต์ $(ARG1) "
-"หรือไม่?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_EXPIRED_1_.string.text
-msgid ""
-"$(ARG1) is a site that uses a security certificate to encrypt data during "
-"transmission, but its certificate expired on $(ARG2).\n"
-"\n"
-"You should check to make sure that your computer's time is correct."
-msgstr ""
-"$(ARG1) เป็นไซต์ที่ใช้ใบรับรองด้านความมั่นคงในการเข้ารหัสป้องกันข้อมูลระหว่าง"
-"การสื่อสัญญาณ แต่ใบรับรองได้หมดอายุลงเมื่อ $(ARG2)\n"
-"\n"
-"คุณควรตรวจสอบให้แน่ใจว่าเวลาของคอมพิวเตอร์ของคุณถูกต้องแล้ว"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_DOMAINMISMATCH_1_.string.text
-msgid ""
-"You have attempted to establish a connection with $(ARG1). However, the "
-"security certificate presented belongs to $(ARG2). It is possible, though "
-"unlikely, that someone may be trying to intercept your communication with "
-"this web site.\n"
-"\n"
-"If you suspect the certificate shown does not belong to $(ARG1), please "
-"cancel the connection and notify the site administrator.\n"
-"\n"
-"Would you like to continue anyway?"
-msgstr ""
-"คุณได้พยายามที่จะสร้างการเชื่อมต่อกับ $(ARG1) แต่ใบรับรองความมั่นคงที่เสนอเป็"
-"นของ $(ARG2) มีความเป็นไปได้เล็กน้อยว่าบางคนอาจกำลังพยายามดักสกัดการสื่อสารขอ"
-"งคุณกับเว็บไซต์นี้\n"
-"\n"
-"ถ้าคุณสงสัยว่าใบรับรองที่แสดงไม่ใช่ของ $(ARG1) "
-"กรุณายกเลิกการเชื่อมต่อและแจ้งผู้ดูแลระบบของไซต์ดังกล่าว\n"
-"\n"
-"คุณต้องการทำต่ออยู่ดีหรือไม่?"
-
-#: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_INVALID_1_.string.text
-msgid ""
-"The certificate could not be validated. You should examine this site's "
-"certificate carefully.\n"
-"\n"
-"If you suspect the certificate shown, please cancel the connection and "
-"notify the site administrator."
-msgstr ""
-"ไม่สามารถยืนยันความถูกต้องของใบรับรอง คุณควรตรวจสอบใบรับรองของไซต์นี้อย่"
-"างรอบคอบ\n"
-"\n"
-"ถ้าคุณสงสัยใบรับรองที่แสดง "
-"กรุณายกเลิกการเชื่อมต่อและแจ้งผู้ดูแลระบบของไซต์ดังกล่าว"
-
-#: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_DOMAINMISMATCH_.string.text
-msgid "Security Warning: Domain Name Mismatch"
-msgstr "คำเตือนด้านความมั่นคง: ชื่อโดเมนไม่ตรงกัน"
-
-#: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_EXPIRED_.string.text
-msgid "Security Warning: Server Certificate Expired"
-msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายหมดอายุ"
-
-#: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_INVALID_.string.text
-msgid "Security Warning: Server Certificate Invalid"
-msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายไม่ถูกต้อง"
-
-#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
-msgid "Document in Use"
-msgstr "เอกสารใช้งานอยู่"
-
-#: openlocked.src#STR_OPENLOCKED_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Open document read-only or open a copy of the document for editing.\n"
-"\n"
-msgstr ""
-"ไฟล์เอกสาร '$(ARG1)' ถูกล็อกเพื่อแก้ไขโดย:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"คุณอาจเปิดเอกสารเพื่ออ่านอย่างเดียวหรือเปิดสำเนาของเอกสารเพื่อแก้ไข\n"
-"\n"
-
-#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "เปิดแบบ~อ่านอย่างเดียว"
-
-#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
-msgid "Open ~Copy"
-msgstr "เปิด~สำเนา"
-
-#: openlocked.src#STR_UNKNOWNUSER.string.text
-msgid "Unknown User"
-msgstr "ไม่รู้จักผู้ใช้"
-
-#: trylater.src#STR_TRYLATER_TITLE.string.text
+#: trylater.src%23STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
 msgid "Document in Use"
 msgstr "เอกสารใช้งานอยู่"
 
-#: trylater.src#STR_TRYLATER_MSG.string.text
+#: trylater.src%23STR_TRYLATER_MSG.string.text
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
 "\n"
@@ -880,76 +945,11 @@ msgstr ""
 "พยายามบันทึกเอกสารอีกครั้งในภายหลังหรือบันทึกสำเนาของเอกสารนั้น\n"
 "\n"
 
-#: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
+#: trylater.src%23STR_TRYLATER_RETRYSAVING_BTN.string.text
 msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
 msgid "~Retry Saving"
 msgstr "~พยายามบันทึกอีกครั้ง"
 
-#: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
+#: trylater.src%23STR_TRYLATER_SAVEAS_BTN.string.text
 msgid "~Save As..."
 msgstr "บันทึกเ~ป็น..."
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
-msgstr ""
-"รหัสผ่านสำหรับการเชื่อมต่อเว็บถูกปกป้องโดยรหัสผ่านหลัก "
-"คุณจะต้องป้อนรหัสผ่านครั้งเดียวต่อช่วงการสื่อสาร ถ้า %PRODUCTNAME "
-"ดึงเอารหัสผ่านมาจากรายการรหัสผ่านที่ได้รับการปกป้องได้"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-msgid "~Enter password"
-msgstr "ใ~ส่รหัสผ่าน"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-msgid "~Reenter password"
-msgstr "~จำรหัสผ่าน"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
-msgstr ""
-"คำเตือน: ถ้าคุณลืมรหัสผ่านหลัก คุณจะไม่สามารถเข้าถึงสารสนเทศใดๆ "
-"ที่รหัสผ่านปกป้อง รหัสผ่านถือว่าอักษรตัวพิมพ์เล็กกับตัวพิมพ์ใหญ่ต่างกัน ("
-"case sensitive)"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "ใส่รหัสผ่านหลัก"
-
-#: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.FT_MASTERPASSWORD.fixedtext.text
-msgid "Enter password"
-msgstr "ใส่รหัสผ่าน"
-
-#: masterpassworddlg.src#DLG_UUI_MASTERPASSWORD.modaldialog.text
-msgid "Enter Master Password"
-msgstr "ใส่รหัสผ่านหลัก"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
-msgid ""
-"This document was created by a newer version of %PRODUCTNAME. It may contain "
-"features not supported by your current version.\n"
-"\n"
-"Click 'Update Now...' to run online update and get the latest version of "
-"%PRODUCTNAME."
-msgstr ""
-"เอกสารนี้สร้างขึ้นมาโดย %PRODUCTNAME เวอร์ชันใหม่กว่า "
-"จึงอาจมีลักษณะเฉพาะที่เวอร์ชันปัจจุบันของคุณไม่สนับสนุน\n"
-"\n"
-"คลิ๊ก 'อัพเดตเลย...' (Update Now...) "
-"เพื่อทำการอัพเดตโปรแกรมทางออนไลน์และรับเวอร์ชันล่าสุดของ %PRODUCTNAME"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-msgid "~Update Now..."
-msgstr "~อัพเดตเลย..."
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-msgid "~Later"
-msgstr "~ทีหลัง"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
-msgid "%PRODUCTNAME Update Available"
-msgstr "มีอัพเดตของโปรแกรม %PRODUCTNAME"
