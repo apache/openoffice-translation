@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fe"
 "nvelp.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-01-29 20:55+0200\n"
+"POT-Creation-Date: 2019-07-07 07:23+0200\n"
 "PO-Revision-Date: 2019-04-17 21:33+0000\n"
 "Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,42 +15,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.5.1.3\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1555536802.000000\n"
 
-#: envprt.src%23TP_ENV_PRT.FL_NONAME.fixedline.text
-msgid "Envelope orientation"
-msgstr "Ümbriku suund"
+#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
+msgid "~Entire page"
+msgstr "T~erve lehekülg"
 
-#: envprt.src%23TP_ENV_PRT.BTN_TOP.radiobutton.text
-msgid "~Print from top"
-msgstr "~Prindi pealt"
+#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
+msgid "~Single label"
+msgstr "Ü~ksik silt"
 
-#: envprt.src%23TP_ENV_PRT.BTN_BOTTOM.radiobutton.text
-msgid "Print from ~bottom"
-msgstr "Prindi ~alt"
+#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
+msgid "Colu~mn"
+msgstr "Veer~g"
 
-#: envprt.src%23TP_ENV_PRT.TXT_RIGHT.fixedtext.text
-msgid "~Shift right"
-msgstr "~Nihe paremale"
+#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
+msgid "Ro~w"
+msgstr "Rid~a"
 
-#: envprt.src%23TP_ENV_PRT.TXT_DOWN.fixedtext.text
-msgid "Shift ~down"
-msgstr "Nihe ~alla"
+#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
+msgid "Synchroni~ze contents"
+msgstr "Sisu sünkroniseerimine"
 
-#: envprt.src%23TP_ENV_PRT.FL_PRINTER.fixedline.text
-msgid "Current printer"
-msgstr "Aktiivne printer"
+#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
+msgid "Distribute"
+msgstr "Jaotamine"
 
-#: envprt.src%23TP_ENV_PRT.TXT_PRINTER.fixedtext.text
-msgid "- No printer installed -"
-msgstr "- Printerit pole paigaldatud-"
+#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
+msgid "Printer Name"
+msgstr "Printeri nimi"
 
-#: envprt.src%23TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text
-msgctxt "envprt.src#TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text"
+#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
+msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
 msgid "Setup..."
 msgstr "Häälestus..."
+
+#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
+msgid " Printer "
+msgstr " Printer "
 
 #: envlop.src%23DLG_ENV.1.TP_ENV_ENV.pageitem.text
 msgctxt "envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text"
@@ -105,6 +109,39 @@ msgstr "~Saatja"
 msgctxt "envlop.src#STR_DOC_TITLE.string.text"
 msgid "Envelope"
 msgstr "Ümbrik"
+
+#: envprt.src%23TP_ENV_PRT.FL_NONAME.fixedline.text
+msgid "Envelope orientation"
+msgstr "Ümbriku suund"
+
+#: envprt.src%23TP_ENV_PRT.BTN_TOP.radiobutton.text
+msgid "~Print from top"
+msgstr "~Prindi pealt"
+
+#: envprt.src%23TP_ENV_PRT.BTN_BOTTOM.radiobutton.text
+msgid "Print from ~bottom"
+msgstr "Prindi ~alt"
+
+#: envprt.src%23TP_ENV_PRT.TXT_RIGHT.fixedtext.text
+msgid "~Shift right"
+msgstr "~Nihe paremale"
+
+#: envprt.src%23TP_ENV_PRT.TXT_DOWN.fixedtext.text
+msgid "Shift ~down"
+msgstr "Nihe ~alla"
+
+#: envprt.src%23TP_ENV_PRT.FL_PRINTER.fixedline.text
+msgid "Current printer"
+msgstr "Aktiivne printer"
+
+#: envprt.src%23TP_ENV_PRT.TXT_PRINTER.fixedtext.text
+msgid "- No printer installed -"
+msgstr "- Printerit pole paigaldatud-"
+
+#: envprt.src%23TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text
+msgctxt "envprt.src#TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text"
+msgid "Setup..."
+msgstr "Häälestus..."
 
 #: labfmt.src%23TP_LAB_FMT.TXT_HDIST.fixedtext.text
 msgid "Hori~zontal pitch"
@@ -209,254 +246,6 @@ msgstr ""
 #: labfmt.src%23DLG_SAVE_LABEL.modaldialog.text
 msgid "Save Label Format"
 msgstr "Sildi vormingu salvestamine"
-
-#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
-msgid "~Entire page"
-msgstr "T~erve lehekülg"
-
-#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
-msgid "~Single label"
-msgstr "Ü~ksik silt"
-
-#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
-msgid "Colu~mn"
-msgstr "Veer~g"
-
-#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
-msgid "Ro~w"
-msgstr "Rid~a"
-
-#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
-msgid "Synchroni~ze contents"
-msgstr "Sisu sünkroniseerimine"
-
-#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
-msgid "Distribute"
-msgstr "Jaotamine"
-
-#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
-msgid "Printer Name"
-msgstr "Printeri nimi"
-
-#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
-msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
-msgid "Setup..."
-msgstr "Häälestus..."
-
-#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
-msgid " Printer "
-msgstr " Printer "
-
-#: label.src%23LABEL_STRING.%23define.text
-msgctxt "label.src#LABEL_STRING.#define.text"
-msgid "Labels"
-msgstr "Sildid"
-
-#: label.src%23BUSINESS_CARD_STRING.%23define.text
-msgid "Business Cards"
-msgstr "Visiitkaardid"
-
-#: label.src%23DLG_LAB.1.TP_PRIVATE_DATA.pageitem.text
-msgid "Private"
-msgstr "Privaat"
-
-#: label.src%23DLG_LAB.1.TP_BUSINESS_DATA.pageitem.text
-msgid "Business"
-msgstr "Töö"
-
-#: label.src%23DLG_LAB.1.TP_LAB_FMT.pageitem.text
-msgctxt "label.src#DLG_LAB.1.TP_LAB_FMT.pageitem.text"
-msgid "Format"
-msgstr "Vormindus"
-
-#: label.src%23DLG_LAB.1.TP_LAB_PRT.pageitem.text
-msgctxt "label.src#DLG_LAB.1.TP_LAB_PRT.pageitem.text"
-msgid "Options"
-msgstr "Sätted"
-
-#: label.src%23DLG_LAB.ST_FIRSTPAGE_BC.string.text
-msgid "Medium"
-msgstr "Paber"
-
-#: label.src%23TP_LAB_LAB.TXT_WRITING.fixedtext.text
-msgid "Label text"
-msgstr "Sildi tekst"
-
-#: label.src%23TP_LAB_LAB.BOX_ADDR.checkbox.text
-msgid "Address"
-msgstr "Aadress"
-
-#: label.src%23TP_LAB_LAB.FT_DATABASE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.FT_DATABASE.fixedtext.text"
-msgid "Database"
-msgstr "Andmebaas"
-
-#: label.src%23TP_LAB_LAB.FT_TABLE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.FT_TABLE.fixedtext.text"
-msgid "Table"
-msgstr "Tabel"
-
-#: label.src%23TP_LAB_LAB.FT_DBFIELD.fixedtext.text
-msgid "Database field"
-msgstr "Andmebaasi väli"
-
-#: label.src%23TP_LAB_LAB.FL_WRITING.fixedline.text
-msgid "Inscription"
-msgstr "Pealdis"
-
-#: label.src%23TP_LAB_LAB.BTN_CONT.radiobutton.text
-msgid "~Continuous"
-msgstr "~Pidev"
-
-#: label.src%23TP_LAB_LAB.BTN_SHEET.radiobutton.text
-msgid "~Sheet"
-msgstr "~Leht"
-
-#: label.src%23TP_LAB_LAB.TXT_MAKE.fixedtext.text
-msgctxt "label.src#TP_LAB_LAB.TXT_MAKE.fixedtext.text"
-msgid "Brand"
-msgstr "Mark"
-
-#: label.src%23TP_LAB_LAB.TXT_TYPE.fixedtext.text
-msgid "~Type"
-msgstr "~Tüüp"
-
-#: label.src%23TP_LAB_LAB.FL_FORMAT.fixedline.text
-msgctxt "label.src#TP_LAB_LAB.FL_FORMAT.fixedline.text"
-msgid "Format"
-msgstr "Vormindus"
-
-#: label.src%23DLG_SYNC_BTN.BTN_SYNC.pushbutton.text
-msgid "Synchronize Labels"
-msgstr "Sünkroniseeri silte"
-
-#: label.src%23STR_DOC_TITLE.string.text
-msgctxt "label.src#STR_DOC_TITLE.string.text"
-msgid "Labels"
-msgstr "Sildid"
-
-#: label.src%23STR_CUSTOM.string.text
-msgid "[User]"
-msgstr "[User]"
-
-#: label.src%23TP_VISITING_CARDS.FT_AUTO_TEXT_GROUP.fixedtext.text
-msgid "AutoText - Section"
-msgstr "Automaattekst - sektsioon"
-
-#: label.src%23TP_VISITING_CARDS.FL_CONTENT.fixedline.text
-msgid "Content"
-msgstr "Sisu"
-
-#: label.src%23TP_PRIVATE_DATA.FL_DATA.fixedline.text
-msgid "Private data"
-msgstr "Privaatandmed"
-
-#: label.src%23TP_PRIVATE_DATA.FT_NAME.fixedtext.text
-msgid "First/Last ~name/Initials"
-msgstr "Ees-/~perekonnanimi/Initsiaalid"
-
-#: label.src%23TP_PRIVATE_DATA.FT_NAME_2.fixedtext.text
-msgid "First/Last ~name/Initials 2"
-msgstr "Ees- ja pereko~nnanimi/Init. 2"
-
-#: label.src%23TP_PRIVATE_DATA.FT_STREET.fixedtext.text
-msgid "S~treet"
-msgstr "~Tänav"
-
-#: label.src%23TP_PRIVATE_DATA.FT_ZIPCITY.fixedtext.text
-msgid "Zip/Cit~y"
-msgstr "Postiindeks/~Linn"
-
-#: label.src%23TP_PRIVATE_DATA.FT_COUNTRYSTATE.fixedtext.text
-msgid "Co~untry/State"
-msgstr "~Riik/Maakond"
-
-#: label.src%23TP_PRIVATE_DATA.FT_TITLEPROF.fixedtext.text
-msgid "Title/~Profession"
-msgstr "Tiitel/~Amet"
-
-#: label.src%23TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text
-msgctxt "label.src#TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text"
-msgid "Phone/Mobile"
-msgstr "Telefon/Mobiil"
-
-#: label.src%23TP_PRIVATE_DATA.FT_FAX.fixedtext.text
-msgid "Fa~x"
-msgstr "Fa~ks"
-
-#: label.src%23TP_PRIVATE_DATA.FT_WWWMAIL.fixedtext.text
-msgid "Homepage / e-mail"
-msgstr "Koduleht / e-post"
-
-#: label.src%23TP_BUSINESS_DATA.FL_DATA.fixedline.text
-msgid "Business data"
-msgstr "Äriandmed"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COMP.fixedtext.text
-msgid "Company"
-msgstr "Ettevõte"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COMP_EXT.fixedtext.text
-msgid "Company 2nd line"
-msgstr "Ettevõte 2. rida"
-
-#: label.src%23TP_BUSINESS_DATA.FT_SLOGAN.fixedtext.text
-msgid "Slogan"
-msgstr "Hüüdlause"
-
-#: label.src%23TP_BUSINESS_DATA.FT_STREET.fixedtext.text
-msgid "Street"
-msgstr "Tänav"
-
-#: label.src%23TP_BUSINESS_DATA.FT_ZIPCITY.fixedtext.text
-msgid "ZIP/City"
-msgstr "Postiindeks/Linn"
-
-#: label.src%23TP_BUSINESS_DATA.FT_COUNTRYSTATE.fixedtext.text
-msgid "Country/State"
-msgstr "Riik/Maakond"
-
-#: label.src%23TP_BUSINESS_DATA.FT_POSITION.fixedtext.text
-msgctxt "label.src#TP_BUSINESS_DATA.FT_POSITION.fixedtext.text"
-msgid "Position"
-msgstr "Paigutus"
-
-#: label.src%23TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text
-msgctxt "label.src#TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text"
-msgid "Phone/Mobile"
-msgstr "Telefon/Mobiil"
-
-#: label.src%23TP_BUSINESS_DATA.FT_FAX.fixedtext.text
-msgid "Fax"
-msgstr "Faks"
-
-#: label.src%23TP_BUSINESS_DATA.FT_WWWMAIL.fixedtext.text
-msgid "Ho~mepage / e-mail"
-msgstr "Ko~duleht / e-post"
-
-#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
-msgid "Database could not be opened."
-msgstr "Andmebaasi avamine ei õnnestunud."
-
-#: envelp.src%23STR_NO_DRIVERS.string.text
-msgid "No database drivers installed."
-msgstr "Ühtegi andmebaasidraiverit pole paigaldatud."
-
-#: envelp.src%23STR_BTN_NEW_DOC.string.text
-msgid "~New Document"
-msgstr "~Uus dokument"
-
-#: envelp.src%23STR_BTN_NEWDOC.string.text
-msgid "~New Doc."
-msgstr "~Uus dok."
-
-#: envelp.src%23STR_SENDER_TOKENS.string.text
-msgid ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
-msgstr ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
 
 #: mailmrge.src%23_MAIL_MERGE_STRING_.%23define.text
 msgid "Mail Merge"
@@ -675,3 +464,214 @@ msgstr "Märk..."
 #: envfmt.src%23MNU_EDIT.MID_PARA.menuitem.text
 msgid "P~aragraph..."
 msgstr "Lõik..."
+
+#: label.src%23LABEL_STRING.%23define.text
+msgctxt "label.src#LABEL_STRING.#define.text"
+msgid "Labels"
+msgstr "Sildid"
+
+#: label.src%23BUSINESS_CARD_STRING.%23define.text
+msgid "Business Cards"
+msgstr "Visiitkaardid"
+
+#: label.src%23DLG_LAB.1.TP_PRIVATE_DATA.pageitem.text
+msgid "Private"
+msgstr "Privaat"
+
+#: label.src%23DLG_LAB.1.TP_BUSINESS_DATA.pageitem.text
+msgid "Business"
+msgstr "Töö"
+
+#: label.src%23DLG_LAB.1.TP_LAB_FMT.pageitem.text
+msgctxt "label.src#DLG_LAB.1.TP_LAB_FMT.pageitem.text"
+msgid "Format"
+msgstr "Vormindus"
+
+#: label.src%23DLG_LAB.1.TP_LAB_PRT.pageitem.text
+msgctxt "label.src#DLG_LAB.1.TP_LAB_PRT.pageitem.text"
+msgid "Options"
+msgstr "Sätted"
+
+#: label.src%23DLG_LAB.ST_FIRSTPAGE_BC.string.text
+msgid "Medium"
+msgstr "Paber"
+
+#: label.src%23TP_LAB_LAB.TXT_WRITING.fixedtext.text
+msgid "Label text"
+msgstr "Sildi tekst"
+
+#: label.src%23TP_LAB_LAB.BOX_ADDR.checkbox.text
+msgid "Address"
+msgstr "Aadress"
+
+#: label.src%23TP_LAB_LAB.FT_DATABASE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.FT_DATABASE.fixedtext.text"
+msgid "Database"
+msgstr "Andmebaas"
+
+#: label.src%23TP_LAB_LAB.FT_TABLE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.FT_TABLE.fixedtext.text"
+msgid "Table"
+msgstr "Tabel"
+
+#: label.src%23TP_LAB_LAB.FT_DBFIELD.fixedtext.text
+msgid "Database field"
+msgstr "Andmebaasi väli"
+
+#: label.src%23TP_LAB_LAB.FL_WRITING.fixedline.text
+msgid "Inscription"
+msgstr "Pealdis"
+
+#: label.src%23TP_LAB_LAB.BTN_CONT.radiobutton.text
+msgid "~Continuous"
+msgstr "~Pidev"
+
+#: label.src%23TP_LAB_LAB.BTN_SHEET.radiobutton.text
+msgid "~Sheet"
+msgstr "~Leht"
+
+#: label.src%23TP_LAB_LAB.TXT_MAKE.fixedtext.text
+msgctxt "label.src#TP_LAB_LAB.TXT_MAKE.fixedtext.text"
+msgid "Brand"
+msgstr "Mark"
+
+#: label.src%23TP_LAB_LAB.TXT_TYPE.fixedtext.text
+msgid "~Type"
+msgstr "~Tüüp"
+
+#: label.src%23TP_LAB_LAB.FL_FORMAT.fixedline.text
+msgctxt "label.src#TP_LAB_LAB.FL_FORMAT.fixedline.text"
+msgid "Format"
+msgstr "Vormindus"
+
+#: label.src%23DLG_SYNC_BTN.BTN_SYNC.pushbutton.text
+msgid "Synchronize Labels"
+msgstr "Sünkroniseeri silte"
+
+#: label.src%23STR_DOC_TITLE.string.text
+msgctxt "label.src#STR_DOC_TITLE.string.text"
+msgid "Labels"
+msgstr "Sildid"
+
+#: label.src%23STR_CUSTOM.string.text
+msgid "[User]"
+msgstr "[User]"
+
+#: label.src%23TP_VISITING_CARDS.FT_AUTO_TEXT_GROUP.fixedtext.text
+msgid "AutoText - Section"
+msgstr "Automaattekst - sektsioon"
+
+#: label.src%23TP_VISITING_CARDS.FL_CONTENT.fixedline.text
+msgid "Content"
+msgstr "Sisu"
+
+#: label.src%23TP_PRIVATE_DATA.FL_DATA.fixedline.text
+msgid "Private data"
+msgstr "Privaatandmed"
+
+#: label.src%23TP_PRIVATE_DATA.FT_NAME.fixedtext.text
+msgid "First/Last ~name/Initials"
+msgstr "Ees-/~perekonnanimi/Initsiaalid"
+
+#: label.src%23TP_PRIVATE_DATA.FT_NAME_2.fixedtext.text
+msgid "First/Last ~name/Initials 2"
+msgstr "Ees- ja pereko~nnanimi/Init. 2"
+
+#: label.src%23TP_PRIVATE_DATA.FT_STREET.fixedtext.text
+msgid "S~treet"
+msgstr "~Tänav"
+
+#: label.src%23TP_PRIVATE_DATA.FT_ZIPCITY.fixedtext.text
+msgid "Zip/Cit~y"
+msgstr "Postiindeks/~Linn"
+
+#: label.src%23TP_PRIVATE_DATA.FT_COUNTRYSTATE.fixedtext.text
+msgid "Co~untry/State"
+msgstr "~Riik/Maakond"
+
+#: label.src%23TP_PRIVATE_DATA.FT_TITLEPROF.fixedtext.text
+msgid "Title/~Profession"
+msgstr "Tiitel/~Amet"
+
+#: label.src%23TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text
+msgctxt "label.src#TP_PRIVATE_DATA.FT_PHONE_MOBILE.fixedtext.text"
+msgid "Phone/Mobile"
+msgstr "Telefon/Mobiil"
+
+#: label.src%23TP_PRIVATE_DATA.FT_FAX.fixedtext.text
+msgid "Fa~x"
+msgstr "Fa~ks"
+
+#: label.src%23TP_PRIVATE_DATA.FT_WWWMAIL.fixedtext.text
+msgid "Homepage / e-mail"
+msgstr "Koduleht / e-post"
+
+#: label.src%23TP_BUSINESS_DATA.FL_DATA.fixedline.text
+msgid "Business data"
+msgstr "Äriandmed"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COMP.fixedtext.text
+msgid "Company"
+msgstr "Ettevõte"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COMP_EXT.fixedtext.text
+msgid "Company 2nd line"
+msgstr "Ettevõte 2. rida"
+
+#: label.src%23TP_BUSINESS_DATA.FT_SLOGAN.fixedtext.text
+msgid "Slogan"
+msgstr "Hüüdlause"
+
+#: label.src%23TP_BUSINESS_DATA.FT_STREET.fixedtext.text
+msgid "Street"
+msgstr "Tänav"
+
+#: label.src%23TP_BUSINESS_DATA.FT_ZIPCITY.fixedtext.text
+msgid "ZIP/City"
+msgstr "Postiindeks/Linn"
+
+#: label.src%23TP_BUSINESS_DATA.FT_COUNTRYSTATE.fixedtext.text
+msgid "Country/State"
+msgstr "Riik/Maakond"
+
+#: label.src%23TP_BUSINESS_DATA.FT_POSITION.fixedtext.text
+msgctxt "label.src#TP_BUSINESS_DATA.FT_POSITION.fixedtext.text"
+msgid "Position"
+msgstr "Paigutus"
+
+#: label.src%23TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text
+msgctxt "label.src#TP_BUSINESS_DATA.FT_PHONE_MOBILE.fixedtext.text"
+msgid "Phone/Mobile"
+msgstr "Telefon/Mobiil"
+
+#: label.src%23TP_BUSINESS_DATA.FT_FAX.fixedtext.text
+msgid "Fax"
+msgstr "Faks"
+
+#: label.src%23TP_BUSINESS_DATA.FT_WWWMAIL.fixedtext.text
+msgid "Ho~mepage / e-mail"
+msgstr "Ko~duleht / e-post"
+
+#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
+msgid "Database could not be opened."
+msgstr "Andmebaasi avamine ei õnnestunud."
+
+#: envelp.src%23STR_NO_DRIVERS.string.text
+msgid "No database drivers installed."
+msgstr "Ühtegi andmebaasidraiverit pole paigaldatud."
+
+#: envelp.src%23STR_BTN_NEW_DOC.string.text
+msgid "~New Document"
+msgstr "~Uus dokument"
+
+#: envelp.src%23STR_BTN_NEWDOC.string.text
+msgid "~New Doc."
+msgstr "~Uus dok."
+
+#: envelp.src%23STR_SENDER_TOKENS.string.text
+msgid ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"
+msgstr ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"
