@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
-"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
-"+xmlsecurity%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2019-01-01 19:34+0000\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
+"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
+"%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
+"POT-Creation-Date: 2019-07-07 07:23+0200\n"
 "PO-Revision-Date: 2019-05-14 12:37+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,75 +15,364 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.4\n"
+"X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1557837455.000000\n"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Այս փաստաթուղթը պարունակում է փաստաթղթի մակրոներ, ստորագրված․"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթի մակրոներ։"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Դիտեք ստորագրությունները․․․"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Մակրոները կարող են վիրուսներ պարունակել։ Փաստաթղթի համար մակրոների "
+"արգելափակումը միշտ անվտանգ է։ Եթե արգելափակես մակրոները, դու կկորցնես "
+"փաստաթղթի մակրոների կողմից տրամադրված ֆունկցիոնալությունը։"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Միշտ վստահեք այս աղբյուրի մակրոներին"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Թույլատրեք մակրոները"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Արգելափակեք մակրոները"
+
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Անվտանգության զգուշացում"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
+msgid "General"
+msgstr "Ընդհանուր"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_DETAILS.pageitem.text
+msgid "Details"
+msgstr "Մանրամասներ"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_CERTPATH.pageitem.text
+msgid "Certification Path"
+msgstr "Հավաստագրման ուղի"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.tabdialog.text
+msgid "View Certificate"
+msgstr "Դիտեք հավաստագիրը"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CERTINFO.fixedtext.text
+msgid " Certificate Information"
+msgstr " Հավաստագրի տեղեկատվություն"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_HINTNOTTRUST.fixedtext.text
+msgid "This certificate is intended for the following purpose(s):"
+msgstr "Այս հավաստագիրը նախատեսված է հետևյալ նպատակ(ներ)ի համար․"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSTOLABEL.fixedtext.text
+msgid "Issued to:"
+msgstr "Տրված է։"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSBYLABEL.fixedtext.text
+msgid "Issued by:"
+msgstr "Տրվել է։"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_VALIDDATE.fixedtext.text
+msgid "Valid from %SDATE% to %EDATE%"
+msgstr "Վավեր է %SDATE% մինչև %EDATE%"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CORRPRIVKEY.fixedtext.text
+msgid "You have a private key that corresponds to this certificate."
+msgstr "Դու ունես անձնական բանալի, որը կապված է այս հավաստագրի հետ։"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text"
+msgid "The certificate could not be validated."
+msgstr "Հավաստագիրը հնարավոր չէ նույնականացնել։"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_HEADERBAR.string.text
+msgid "Field\tValue"
+msgstr "Դաշտ\tարժեք"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VERSION.string.text
+msgid "Version"
+msgstr "Տարբերակ"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SERIALNUM.string.text
+msgid "Serial Number"
+msgstr "Սերիական համարը"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text"
+msgid "Signature Algorithm"
+msgstr "Ստորագրության ալգորիթմը"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER.string.text
+msgid "Issuer"
+msgstr "Տվող"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER_ID.string.text
+msgid "Issuer Unique ID"
+msgstr "Տվողի եզակի ID-ն"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDFROM.string.text
+msgid "Valid From"
+msgstr "Վավեր է սկսած"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDTO.string.text
+msgid "Valid to"
+msgstr "Վավեր է մինչ"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT.string.text
+msgid "Subject"
+msgstr "Խորագիր"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_ID.string.text
+msgid "Subject Unique ID"
+msgstr "Խորագրի եզակի ID"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_ALGO.string.text
+msgid "Subject Algorithm"
+msgstr "Խորագրի ալգորիթմ"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_VAL.string.text
+msgid "Public Key"
+msgstr "Հանրային բանալի"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text"
+msgid "Signature Algorithm"
+msgstr "Ստորագրության ալգորիթմ"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_SHA1.string.text
+msgid "Thumbprint SHA1"
+msgstr "Մեծ մատի մատնահետք SHA1"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_MD5.string.text
+msgid "Thumbprint MD5"
+msgstr "Մեծ մատի մատնահետք MD5"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTPATH.fixedtext.text
+msgid "Certification path"
+msgstr "Հավաստագրման ուղի"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Դիտիր հավաստագիրը․․․"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTSTATUS.fixedtext.text
+msgid "Certification status"
+msgstr "Հավաստագրման վիճակ"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_OK.string.text
+msgid "The certificate is OK."
+msgstr "Հավաստագիրը ԼԱՎ է"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text"
+msgid "The certificate could not be validated."
+msgstr "Հավաստագիրը հնարավոր չէ նույնականացնել"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
+msgstr "Ընտրեք ստորագրության համար օգտագործվող հավաստագիրը"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Issued to\tIssued by\tExpiration date"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Դիտեք հավաստագիրը․․․"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "Ընտրեք հավաստագիրը"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Անվտանգության մակարդակ"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Վստահված աղբյուրներ"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Վերակարգաբերեք"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Մակրոյի անվտանգություն"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+msgid ""
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
+msgstr ""
+"~Շատ բարձր։\n"
+"Կատարման համար միայն նիշքերի վստահելի վայրերի մակրոներն են թույլատրված։ "
+"Բոլոր մյուս մակրոները, անկախ այն համգամանքից ստորագրված են թե ոչ, "
+"արգելափակված են։"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"Բ~արձր։\n"
+"Կատարման համար միայն վստահելի աղբյուրների մակրոներն են թույլատրված։ "
+"Չստորագրված մակրոներն արգելափակված են։"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"~Միջին։\n"
+"Մինչ չվստահված աղբյուրներից մակրոների կատարումը, պահանջվում է հաստատում։"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"~Ցածր (երաշխավորված չէ)։\n"
+"Բոլոր մակրոները կկատարվեն առանց հաստատման։ Օգտագործեք այս կարգաբերումը "
+"միայն, եթե վստահ ես, որ բոլոր բացվող փաստաթղթերը անվտանգ են։"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Վստահված վկայագրեր"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Issued to\tIssued by\tExpiration date"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "Ավելացնել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Դիտել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Վստահված նիշքերի տեղաբաշխումներ"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+msgid ""
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr ""
+"Փաստաթղթի մակրոները միշտ կատարվում են, եթե դրանք բացված են հետևյալ "
+"տեղաբաշխումներից որևէ մեկից։"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Ավելացնել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Այս կարգաբերումը պաշտպանված է Կառավարչի կողմից"
+
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
 msgid "The following have signed the document content:"
 msgstr "Հետևյալը ստորագրել է փաստաթղթի բովանդակությունը․"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
 msgid "The following have signed the document macro:"
 msgstr "Հետևյալը ստորագրել է փաստաթղթի մակրոն․"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
 msgid "The following have signed this package:"
 msgstr "Հետևյալը ստորագրել է այս փաթեթը․"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
 msgid "\tSigned by\tDigital ID issued by\tDate"
 msgstr "\tՍտորագրված\tԹվային ID -ն տրված է\tԱմսաթիվ"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
 msgid "Valid signature"
 msgstr "Վավեր ստորագրություն"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
 msgid "Certificate could not be validated"
 msgstr "Հավաստագիրը հնարավոր չէ վավերացնել"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
 msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
 msgid "The signatures in this document are invalid"
 msgstr "Ստորագրություններն այս փաստաթղթում անվավեր են"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
 msgid "The signatures in this document are valid"
 msgstr "Ստորագրություններն այս փաստաթղթում վավեր են"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
 msgid "Not all parts of the document are signed"
 msgstr "Փաստաթղթի ոչ բոլոր մասերն են ստորագրված"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
 msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
 msgid "The signatures in this document are invalid"
 msgstr "Ստորագրություններն այս փաստաթղթում անվավեր են"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
 msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
 msgid "View Certificate..."
 msgstr "Դիտեք վկայագիրը․․․"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
 msgid "Sign Document..."
 msgstr "Ստորագրեք փաստաթուղթը․․․"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
 msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
 msgid "Remove"
 msgstr "Հեռացրեք"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
 msgid "Close"
 msgstr "Փակել"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
 msgid "Digital Signatures"
 msgstr "Թվային ստորագրություն"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
 msgid ""
 "This document contains signatures in ODF 1.1 format. Signing documents in %"
 "PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
@@ -99,7 +388,7 @@ msgstr ""
 "Հիշեք փաստաթուղթը ODF 1.2 ձևաչափով և կրկին ավելացրեք բոլոր պահանջվող "
 "ստորագրությունները։"
 
-#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
 msgid ""
 "Adding or removing a macro signature will remove all document signatures.\n"
 "Do you really want to continue?"
@@ -107,292 +396,3 @@ msgstr ""
 "Մակրո ստորագրության ավելացումը կամ հեռացումը կհեռացնի փաստաթղթի բոլոր "
 "ստորագրությունները։\n"
 "Իրո՞ք ցանկանում ես շարունակել։"
-
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Անվտանգության մակարդակ"
-
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Վստահված աղբյուրներ"
-
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Վերակարգաբերեք"
-
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Մակրոյի անվտանգություն"
-
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"~Շատ բարձր։\n"
-"Կատարման համար միայն նիշքերի վստահելի վայրերի մակրոներն են թույլատրված։ "
-"Բոլոր մյուս մակրոները, անկախ այն համգամանքից ստորագրված են թե ոչ, "
-"արգելափակված են։"
-
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"Բ~արձր։\n"
-"Կատարման համար միայն վստահելի աղբյուրների մակրոներն են թույլատրված։ "
-"Չստորագրված մակրոներն արգելափակված են։"
-
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"~Միջին։\n"
-"Մինչ չվստահված աղբյուրներից մակրոների կատարումը, պահանջվում է հաստատում։"
-
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"~Ցածր (երաշխավորված չէ)։\n"
-"Բոլոր մակրոները կկատարվեն առանց հաստատման։ Օգտագործեք այս կարգաբերումը "
-"միայն, եթե վստահ ես, որ բոլոր բացվող փաստաթղթերը անվտանգ են։"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Վստահված վկայագրեր"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Issued to\tIssued by\tExpiration date"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "Ավելացնել․․․"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Դիտել․․․"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
-msgid "Remove"
-msgstr "Հեռացնել"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Վստահված նիշքերի տեղաբաշխումներ"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr ""
-"Փաստաթղթի մակրոները միշտ կատարվում են, եթե դրանք բացված են հետևյալ "
-"տեղաբաշխումներից որևէ մեկից։"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Ավելացնել․․․"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Հեռացնել"
-
-#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Այս կարգաբերումը պաշտպանված է Կառավարչի կողմից"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Այս փաստաթուղթը պարունակում է փաստաթղթի մակրոներ, ստորագրված․"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Փաստաթուղթը պարունակում է փաստաթղթի մակրոներ։"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Դիտեք ստորագրությունները․․․"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr ""
-"Մակրոները կարող են վիրուսներ պարունակել։ Փաստաթղթի համար մակրոների "
-"արգելափակումը միշտ անվտանգ է։ Եթե արգելափակես մակրոները, դու կկորցնես "
-"փաստաթղթի մակրոների կողմից տրամադրված ֆունկցիոնալությունը։"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Միշտ վստահեք այս աղբյուրի մակրոներին"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Թույլատրեք մակրոները"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Արգելափակեք մակրոները"
-
-#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Անվտանգության զգուշացում"
-
-#: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr "Ընտրեք ստորագրության համար օգտագործվող հավաստագիրը"
-
-#: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Issued to\tIssued by\tExpiration date"
-
-#: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Դիտեք հավաստագիրը․․․"
-
-#: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "Ընտրեք հավաստագիրը"
-
-#: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
-msgid "General"
-msgstr "Ընդհանուր"
-
-#: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_DETAILS.pageitem.text
-msgid "Details"
-msgstr "Մանրամասներ"
-
-#: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_CERTPATH.pageitem.text
-msgid "Certification Path"
-msgstr "Հավաստագրման ուղի"
-
-#: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.tabdialog.text
-msgid "View Certificate"
-msgstr "Դիտեք հավաստագիրը"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_CERTINFO.fixedtext.text
-msgid " Certificate Information"
-msgstr " Հավաստագրի տեղեկատվություն"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_HINTNOTTRUST.fixedtext.text
-msgid "This certificate is intended for the following purpose(s):"
-msgstr "Այս հավաստագիրը նախատեսված է հետևյալ նպատակ(ներ)ի համար․"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_ISSTOLABEL.fixedtext.text
-msgid "Issued to:"
-msgstr "Տրված է։"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_ISSBYLABEL.fixedtext.text
-msgid "Issued by:"
-msgstr "Տրվել է։"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_VALIDDATE.fixedtext.text
-msgid "Valid from %SDATE% to %EDATE%"
-msgstr "Վավեր է %SDATE% մինչև %EDATE%"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.FI_CORRPRIVKEY.fixedtext.text
-msgid "You have a private key that corresponds to this certificate."
-msgstr "Դու ունես անձնական բանալի, որը կապված է այս հավաստագրի հետ։"
-
-#: certificateviewer.src#RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text"
-msgid "The certificate could not be validated."
-msgstr "Հավաստագիրը հնարավոր չէ նույնականացնել։"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_HEADERBAR.string.text
-msgid "Field\tValue"
-msgstr "Դաշտ\tարժեք"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_VERSION.string.text
-msgid "Version"
-msgstr "Տարբերակ"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SERIALNUM.string.text
-msgid "Serial Number"
-msgstr "Սերիական համարը"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text"
-msgid "Signature Algorithm"
-msgstr "Ստորագրության ալգորիթմը"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_ISSUER.string.text
-msgid "Issuer"
-msgstr "Տվող"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_ISSUER_ID.string.text
-msgid "Issuer Unique ID"
-msgstr "Տվողի եզակի ID-ն"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_VALIDFROM.string.text
-msgid "Valid From"
-msgstr "Վավեր է սկսած"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_VALIDTO.string.text
-msgid "Valid to"
-msgstr "Վավեր է մինչ"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SUBJECT.string.text
-msgid "Subject"
-msgstr "Խորագիր"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SUBJECT_ID.string.text
-msgid "Subject Unique ID"
-msgstr "Խորագրի եզակի ID"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_ALGO.string.text
-msgid "Subject Algorithm"
-msgstr "Խորագրի ալգորիթմ"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_VAL.string.text
-msgid "Public Key"
-msgstr "Հանրային բանալի"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text"
-msgid "Signature Algorithm"
-msgstr "Ստորագրության ալգորիթմ"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_THUMBPRINT_SHA1.string.text
-msgid "Thumbprint SHA1"
-msgstr "Մեծ մատի մատնահետք SHA1"
-
-#: certificateviewer.src#RID_XMLSECTP_DETAILS.STR_THUMBPRINT_MD5.string.text
-msgid "Thumbprint MD5"
-msgstr "Մեծ մատի մատնահետք MD5"
-
-#: certificateviewer.src#RID_XMLSECTP_CERTPATH.FT_CERTPATH.fixedtext.text
-msgid "Certification path"
-msgstr "Հավաստագրման ուղի"
-
-#: certificateviewer.src#RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Դիտիր հավաստագիրը․․․"
-
-#: certificateviewer.src#RID_XMLSECTP_CERTPATH.FT_CERTSTATUS.fixedtext.text
-msgid "Certification status"
-msgstr "Հավաստագրման վիճակ"
-
-#: certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_OK.string.text
-msgid "The certificate is OK."
-msgstr "Հավաստագիրը ԼԱՎ է"
-
-#: certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text"
-msgid "The certificate could not be validated."
-msgstr "Հավաստագիրը հնարավոր չէ նույնականացնել"
