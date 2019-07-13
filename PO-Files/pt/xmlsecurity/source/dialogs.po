@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
 "%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"POT-Creation-Date: 2019-07-07 07:23+0200\n"
 "PO-Revision-Date: 2017-01-18 08:33+0000\n"
 "Last-Translator: Pedro <palbuquerque73@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,153 @@ msgstr "Desactivar macros"
 #: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
 msgid "Security Warning"
 msgstr "Aviso de segurança"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
+msgid "General"
+msgstr "Geral"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_DETAILS.pageitem.text
+msgid "Details"
+msgstr "Detalhes"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_CERTPATH.pageitem.text
+msgid "Certification Path"
+msgstr "Caminho da certificação"
+
+#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.tabdialog.text
+msgid "View Certificate"
+msgstr "Ver certificado"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CERTINFO.fixedtext.text
+msgid " Certificate Information"
+msgstr " Informações sobre o certificado"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_HINTNOTTRUST.fixedtext.text
+msgid "This certificate is intended for the following purpose(s):"
+msgstr "Este certificado destina-se a:"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSTOLABEL.fixedtext.text
+msgid "Issued to:"
+msgstr "Emitido para:"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSBYLABEL.fixedtext.text
+msgid "Issued by:"
+msgstr "Emitido por:"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_VALIDDATE.fixedtext.text
+msgid "Valid from %SDATE% to %EDATE%"
+msgstr "Válido de %SDATE% a %EDATE%"
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CORRPRIVKEY.fixedtext.text
+msgid "You have a private key that corresponds to this certificate."
+msgstr "Tem uma chave privada que corresponde a este certificado."
+
+#: certificateviewer.src%23RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text"
+msgid "The certificate could not be validated."
+msgstr "Impossível validar o certificado."
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_HEADERBAR.string.text
+msgid "Field\tValue"
+msgstr "Campo\tValor"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VERSION.string.text
+msgid "Version"
+msgstr "Versão"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SERIALNUM.string.text
+msgid "Serial Number"
+msgstr "Número de série"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text"
+msgid "Signature Algorithm"
+msgstr "Algoritmo de assinatura"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER.string.text
+msgid "Issuer"
+msgstr "Emissor"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER_ID.string.text
+msgid "Issuer Unique ID"
+msgstr "ID exclusivo do emissor"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDFROM.string.text
+msgid "Valid From"
+msgstr "Válido de"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDTO.string.text
+msgid "Valid to"
+msgstr "Válido até"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT.string.text
+msgid "Subject"
+msgstr "Assunto"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_ID.string.text
+msgid "Subject Unique ID"
+msgstr "ID exclusivo do assunto"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_ALGO.string.text
+msgid "Subject Algorithm"
+msgstr "Algoritmo do assunto"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_VAL.string.text
+msgid "Public Key"
+msgstr "Chave pública"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text"
+msgid "Signature Algorithm"
+msgstr "Algoritmo de assinatura"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_SHA1.string.text
+msgid "Thumbprint SHA1"
+msgstr "Impressão digital SHA1"
+
+#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_MD5.string.text
+msgid "Thumbprint MD5"
+msgstr "Impressão digital MD5"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTPATH.fixedtext.text
+msgid "Certification path"
+msgstr "Caminho da certificação"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Ver certificado..."
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTSTATUS.fixedtext.text
+msgid "Certification status"
+msgstr "Estado da certificação"
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_OK.string.text
+msgid "The certificate is OK."
+msgstr "O certificado está correcto."
+
+#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text
+msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text"
+msgid "The certificate could not be validated."
+msgstr "Impossível validar o certificado."
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
+msgstr "Seleccione o certificado que quer usar em assinaturas"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Emitido para\tEmitido por\tData de expiração"
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Ver certificado..."
+
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "Seleccionar certificado"
 
 #: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
 msgid "Security Level"
@@ -245,150 +392,3 @@ msgstr ""
 "Adicionar ou remover uma assinatura numa macro, remove todas as assinaturas "
 "do documento.\n"
 "Tem a certeza que quer continuar?"
-
-#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
-msgid "General"
-msgstr "Geral"
-
-#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_DETAILS.pageitem.text
-msgid "Details"
-msgstr "Detalhes"
-
-#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_CERTPATH.pageitem.text
-msgid "Certification Path"
-msgstr "Caminho da certificação"
-
-#: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.tabdialog.text
-msgid "View Certificate"
-msgstr "Ver certificado"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CERTINFO.fixedtext.text
-msgid " Certificate Information"
-msgstr " Informações sobre o certificado"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_HINTNOTTRUST.fixedtext.text
-msgid "This certificate is intended for the following purpose(s):"
-msgstr "Este certificado destina-se a:"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSTOLABEL.fixedtext.text
-msgid "Issued to:"
-msgstr "Emitido para:"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_ISSBYLABEL.fixedtext.text
-msgid "Issued by:"
-msgstr "Emitido por:"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_VALIDDATE.fixedtext.text
-msgid "Valid from %SDATE% to %EDATE%"
-msgstr "Válido de %SDATE% a %EDATE%"
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.FI_CORRPRIVKEY.fixedtext.text
-msgid "You have a private key that corresponds to this certificate."
-msgstr "Tem uma chave privada que corresponde a este certificado."
-
-#: certificateviewer.src%23RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_GENERAL.STR_CERTIFICATE_NOT_VALIDATED.string.text"
-msgid "The certificate could not be validated."
-msgstr "Impossível validar o certificado."
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_HEADERBAR.string.text
-msgid "Field\tValue"
-msgstr "Campo\tValor"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VERSION.string.text
-msgid "Version"
-msgstr "Versão"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SERIALNUM.string.text
-msgid "Serial Number"
-msgstr "Número de série"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGALGORITHM.string.text"
-msgid "Signature Algorithm"
-msgstr "Algoritmo de assinatura"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER.string.text
-msgid "Issuer"
-msgstr "Emissor"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_ISSUER_ID.string.text
-msgid "Issuer Unique ID"
-msgstr "ID exclusivo do emissor"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDFROM.string.text
-msgid "Valid From"
-msgstr "Válido de"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_VALIDTO.string.text
-msgid "Valid to"
-msgstr "Válido até"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT.string.text
-msgid "Subject"
-msgstr "Assunto"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_ID.string.text
-msgid "Subject Unique ID"
-msgstr "ID exclusivo do assunto"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_ALGO.string.text
-msgid "Subject Algorithm"
-msgstr "Algoritmo do assunto"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SUBJECT_PUBKEY_VAL.string.text
-msgid "Public Key"
-msgstr "Chave pública"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_DETAILS.STR_SIGNATURE_ALGO.string.text"
-msgid "Signature Algorithm"
-msgstr "Algoritmo de assinatura"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_SHA1.string.text
-msgid "Thumbprint SHA1"
-msgstr "Impressão digital SHA1"
-
-#: certificateviewer.src%23RID_XMLSECTP_DETAILS.STR_THUMBPRINT_MD5.string.text
-msgid "Thumbprint MD5"
-msgstr "Impressão digital MD5"
-
-#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTPATH.fixedtext.text
-msgid "Certification path"
-msgstr "Caminho da certificação"
-
-#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Ver certificado..."
-
-#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.FT_CERTSTATUS.fixedtext.text
-msgid "Certification status"
-msgstr "Estado da certificação"
-
-#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_OK.string.text
-msgid "The certificate is OK."
-msgstr "O certificado está correcto."
-
-#: certificateviewer.src%23RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text
-msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED.string.text"
-msgid "The certificate could not be validated."
-msgstr "Impossível validar o certificado."
-
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr "Seleccione o certificado que quer usar em assinaturas"
-
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Emitido para\tEmitido por\tData de expiração"
-
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Ver certificado..."
-
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "Seleccionar certificado"
