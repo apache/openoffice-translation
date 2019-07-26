@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+extensions%2Fsource%"
 "2Fdbpilots.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2018-11-13 16:49+0200\n"
+"POT-Creation-Date: 2019-07-07 07:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,31 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.3.1\n"
 "X-Merge-On: location\n"
 
-#: dbpilots.src%23RID_DLG_GROUPBOXWIZARD.modaldialog.text
-msgid "Group Element Wizard"
-msgstr "معالج عناصر المجموعة"
+#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FL_FRAME.fixedline.text
+msgid "Table element"
+msgstr "عنصر جدول"
 
-#: dbpilots.src%23RID_DLG_GRIDWIZARD.modaldialog.text
-msgid "Table Element Wizard"
-msgstr "معالج عناصر الجدول"
+#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FT_EXISTING_FIELDS.fixedtext.text
+msgctxt "gridpages.src#RID_PAGE_GW_FIELDSELECTION.FT_EXISTING_FIELDS.fixedtext.text"
+msgid "Existing fields"
+msgstr "الحقول الموجودة"
 
-#: dbpilots.src%23RID_STR_LISTWIZARD_TITLE.string.text
-msgid "List Box Wizard"
-msgstr "معالج مربعات السرد"
+#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FT_SELECTED_FIELDS.fixedtext.text
+msgid "Selected fields"
+msgstr "الحقول المحددة"
 
-#: dbpilots.src%23RID_STR_COMBOWIZARD_TITLE.string.text
-msgid "Combo Box Wizard"
-msgstr "معالج مربعات التحرير والسرد"
+#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.tabpage.text
+msgctxt "gridpages.src#RID_PAGE_GW_FIELDSELECTION.tabpage.text"
+msgid "Field Selection"
+msgstr "تحديد الحقل"
 
-#: dbpilots.src%23RID_STR_COULDNOTOPENTABLE.string.text
-msgid "The table connection to the data source could not be established."
-msgstr "تعذر إجراء اتصال الجدول بمصدر البيانات."
+#: gridpages.src%23RID_STR_DATEPOSTFIX.string.text
+msgid " (Date)"
+msgstr " (التاريخ)"
+
+#: gridpages.src%23RID_STR_TIMEPOSTFIX.string.text
+msgid " (Time)"
+msgstr " (الوقت)"
 
 #: groupboxpages.src%23RID_PAGE_GROUPRADIOSELECTION.FT_RADIOLABELS.fixedtext.text
 msgid "Which ~names do you want to give the option fields?"
@@ -103,6 +109,100 @@ msgid ""
 msgstr ""
 "يمكنك إما حفظ قيمة مجموعة الخيارات في حقل قاعدة بيانات، أو استخدامها في "
 "عملية لاحقة."
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.FL_FRAME.fixedline.text
+msgid "Control"
+msgstr "عنصر تحكم"
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.FT_SELECTTABLE_LABEL.fixedtext.text
+msgid ""
+"On the right side, you see all the tables from the data source of the form.\n"
+"\n"
+"\n"
+"Choose the table from which the data should be used as basis for the list "
+"content:"
+msgstr ""
+"على جهة اليمين، تظهر كافة الجداول من مصدر بيانات النموذج.\n"
+"\n"
+"\n"
+"اختر الجدول الذي يجب استخدام البيانات منه كأساس لمحتويات القائمة:"
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.tabpage.text
+msgid "Table Selection"
+msgstr "تحديد الجدول"
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_TABLEFIELDS.fixedtext.text
+msgctxt "listcombopages.src#RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_TABLEFIELDS.fixedtext.text"
+msgid "Existing fields"
+msgstr "الحقول الموجودة"
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_DISPLAYEDFIELD.fixedtext.text
+msgid "Display field"
+msgstr "حقل العرض"
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.STR_FIELDINFO_COMBOBOX.string.text
+msgid "The contents of the field selected will be shown in the combo box list."
+msgstr "سيتم إظهار محتويات الحقل المحدد في قائمة مربعات التحرير والسرد."
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.STR_FIELDINFO_LISTBOX.string.text
+msgid ""
+"The contents of the selected field will be shown in the list box if the "
+"linked fields are identical."
+msgstr ""
+"ستظهر محتويات الحقل المحدد في مربع القائمة في حالة تطابق الحقول المرتبطة."
+
+#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.tabpage.text
+msgctxt "listcombopages.src#RID_PAGE_LCW_CONTENTSELECTION_FIELD.tabpage.text"
+msgid "Field Selection"
+msgstr "تحديد الحقل"
+
+#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_FIELDLINK_DESC.fixedtext.text
+msgid ""
+"This is where you select fields with matching contents so that the value "
+"from the display field will be shown."
+msgstr ""
+"يمكنك هنا تحديد حقول ذات محتويات متطابقة لكي تظهر القيمة الموجودة في حقل "
+"العرض."
+
+#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_VALUELISTFIELD.fixedtext.text
+msgid "Field from the ~Value Table"
+msgstr "حقل من ج~دول القيم"
+
+#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_TABLEFIELD.fixedtext.text
+msgid "Field from the ~List Table"
+msgstr "حقل من جدول ال~قائمة"
+
+#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.tabpage.text
+msgid "Field Link"
+msgstr "ارتباط الحقل"
+
+#: listcombopages.src%23RID_STR_COMBOWIZ_DBFIELD.string.text
+msgid ""
+"You can either save the value of the combo box in a database field or use it "
+"for display purposes."
+msgstr ""
+"يمكنك إما حفظ قيمة مربع التحرير والسرد في حقل قاعدة بيانات، أو استخدامها "
+"لأغراض العرض."
+
+#: dbpilots.src%23RID_DLG_GROUPBOXWIZARD.modaldialog.text
+msgid "Group Element Wizard"
+msgstr "معالج عناصر المجموعة"
+
+#: dbpilots.src%23RID_DLG_GRIDWIZARD.modaldialog.text
+msgid "Table Element Wizard"
+msgstr "معالج عناصر الجدول"
+
+#: dbpilots.src%23RID_STR_LISTWIZARD_TITLE.string.text
+msgid "List Box Wizard"
+msgstr "معالج مربعات السرد"
+
+#: dbpilots.src%23RID_STR_COMBOWIZARD_TITLE.string.text
+msgid "Combo Box Wizard"
+msgstr "معالج مربعات التحرير والسرد"
+
+#: dbpilots.src%23RID_STR_COULDNOTOPENTABLE.string.text
+msgid "The table connection to the data source could not be established."
+msgstr "تعذر إجراء اتصال الجدول بمصدر البيانات."
 
 #: commonpagesdbp.src%23RID_PAGE_TABLESELECTION.FL_DATA.fixedline.text
 msgctxt "commonpagesdbp.src#RID_PAGE_TABLESELECTION.FL_DATA.fixedline.text"
@@ -189,103 +289,3 @@ msgstr "الاستعلام"
 #: commonpagesdbp.src%23RID_STR_TYPE_COMMAND.string.text
 msgid "SQL command"
 msgstr "أمر SQL"
-
-#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FL_FRAME.fixedline.text
-msgid "Table element"
-msgstr "عنصر جدول"
-
-#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FT_EXISTING_FIELDS.fixedtext.text
-msgctxt "gridpages.src#RID_PAGE_GW_FIELDSELECTION.FT_EXISTING_FIELDS.fixedtext.text"
-msgid "Existing fields"
-msgstr "الحقول الموجودة"
-
-#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.FT_SELECTED_FIELDS.fixedtext.text
-msgid "Selected fields"
-msgstr "الحقول المحددة"
-
-#: gridpages.src%23RID_PAGE_GW_FIELDSELECTION.tabpage.text
-msgctxt "gridpages.src#RID_PAGE_GW_FIELDSELECTION.tabpage.text"
-msgid "Field Selection"
-msgstr "تحديد الحقل"
-
-#: gridpages.src%23RID_STR_DATEPOSTFIX.string.text
-msgid " (Date)"
-msgstr " (التاريخ)"
-
-#: gridpages.src%23RID_STR_TIMEPOSTFIX.string.text
-msgid " (Time)"
-msgstr " (الوقت)"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.FL_FRAME.fixedline.text
-msgid "Control"
-msgstr "عنصر تحكم"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.FT_SELECTTABLE_LABEL.fixedtext.text
-msgid ""
-"On the right side, you see all the tables from the data source of the form.\n"
-"\n"
-"\n"
-"Choose the table from which the data should be used as basis for the list "
-"content:"
-msgstr ""
-"على جهة اليمين، تظهر كافة الجداول من مصدر بيانات النموذج.\n"
-"\n"
-"\n"
-"اختر الجدول الذي يجب استخدام البيانات منه كأساس لمحتويات القائمة:"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_TABLE.tabpage.text
-msgid "Table Selection"
-msgstr "تحديد الجدول"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_TABLEFIELDS.fixedtext.text
-msgctxt "listcombopages.src#RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_TABLEFIELDS.fixedtext.text"
-msgid "Existing fields"
-msgstr "الحقول الموجودة"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.FT_DISPLAYEDFIELD.fixedtext.text
-msgid "Display field"
-msgstr "حقل العرض"
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.STR_FIELDINFO_COMBOBOX.string.text
-msgid "The contents of the field selected will be shown in the combo box list."
-msgstr "سيتم إظهار محتويات الحقل المحدد في قائمة مربعات التحرير والسرد."
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.STR_FIELDINFO_LISTBOX.string.text
-msgid ""
-"The contents of the selected field will be shown in the list box if the "
-"linked fields are identical."
-msgstr ""
-"ستظهر محتويات الحقل المحدد في مربع القائمة في حالة تطابق الحقول المرتبطة."
-
-#: listcombopages.src%23RID_PAGE_LCW_CONTENTSELECTION_FIELD.tabpage.text
-msgctxt "listcombopages.src#RID_PAGE_LCW_CONTENTSELECTION_FIELD.tabpage.text"
-msgid "Field Selection"
-msgstr "تحديد الحقل"
-
-#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_FIELDLINK_DESC.fixedtext.text
-msgid ""
-"This is where you select fields with matching contents so that the value "
-"from the display field will be shown."
-msgstr ""
-"يمكنك هنا تحديد حقول ذات محتويات متطابقة لكي تظهر القيمة الموجودة في حقل "
-"العرض."
-
-#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_VALUELISTFIELD.fixedtext.text
-msgid "Field from the ~Value Table"
-msgstr "حقل من ج~دول القيم"
-
-#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.FT_TABLEFIELD.fixedtext.text
-msgid "Field from the ~List Table"
-msgstr "حقل من جدول ال~قائمة"
-
-#: listcombopages.src%23RID_PAGE_LCW_FIELDLINK.tabpage.text
-msgid "Field Link"
-msgstr "ارتباط الحقل"
-
-#: listcombopages.src%23RID_STR_COMBOWIZ_DBFIELD.string.text
-msgid ""
-"You can either save the value of the combo box in a database field or use it "
-"for display purposes."
-msgstr ""
-"يمكنك إما حفظ قيمة مربع التحرير والسرد في حقل قاعدة بيانات، أو استخدامها "
-"لأغراض العرض."
