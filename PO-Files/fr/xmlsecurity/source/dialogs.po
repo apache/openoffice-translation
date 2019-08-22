@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
 "%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2014-12-04 09:23+0000\n"
 "Last-Translator: Cyril <oooforum@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,47 +15,134 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1417685005.000000\n"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Le document contient des macros de document signées par :"
-
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Le document contient des macros de document."
-
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Afficher les signatures..."
-
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
 msgstr ""
-"Les macros peuvent contenir des virus. Les désactiver est toujours sûr. Si "
-"vous le faites, vous pouvez perdre certaines fonctionnalités fournies dans "
-"le document."
+"Sélectionnez le certificat que vous souhaitez utiliser pour la signature"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Toujours faire confiance aux macros de cette source"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Émis pour\tÉmis par\tDate d'expiration"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Activer les macros"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Afficher le certificat..."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Désactiver les macros"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "Sélection d'un certificat"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Avertissement de sécurité"
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Niveau de sécurité"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Sources de confiance"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Sécurité des macros"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+msgid ""
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
+msgstr ""
+"Niveau de sécurité très éle~vé.\n"
+"Seules les macros provenant d'emplacements de fichier de confiance peuvent "
+"être exécutées. Toutes les autres macros, qu'elles soient signées ou non, "
+"sont désactivées."
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"N~iveau de sécurité élevé.\n"
+"Seules les macros signées provenant de sources de confiance peuvent être "
+"exécutées. Les macros non signées sont désactivées."
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"Niveau de sécurité ~moyen.\n"
+"Une confirmation est demandée avant l'exécution de macros provenant de "
+"sources non sécurisées."
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"Niveau de sécurité fai~ble (déconseillé).\n"
+"Toutes les macros sont exécutées sans confirmation. N'utilisez ce paramètre "
+"que si vous êtes certain que tous les documents peuvent être ouverts en "
+"toute sécurité."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Certificats de confiance"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Émis pour\tÉmis par\tDate d'expiration"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "Ajouter..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Afficher..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Emplacements de fichiers de confiance"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+msgid ""
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr ""
+"Les macros de document sont toujours exécutées si elles ont été ouvertes à "
+"partir de l'un des emplacements suivants."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Ajouter..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Ce paramètre est protégé par l'administrateur"
 
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 msgid "General"
@@ -186,130 +273,43 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "Le certificat n'a pas pu être validé."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr ""
-"Sélectionnez le certificat que vous souhaitez utiliser pour la signature"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Le document contient des macros de document signées par :"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Émis pour\tÉmis par\tDate d'expiration"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Le document contient des macros de document."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Afficher le certificat..."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Afficher les signatures..."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "Sélection d'un certificat"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Niveau de sécurité"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Sources de confiance"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Réinitialiser"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Sécurité des macros"
-
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
 msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
 msgstr ""
-"Niveau de sécurité très éle~vé.\n"
-"Seules les macros provenant d'emplacements de fichier de confiance peuvent "
-"être exécutées. Toutes les autres macros, qu'elles soient signées ou non, "
-"sont désactivées."
+"Les macros peuvent contenir des virus. Les désactiver est toujours sûr. Si "
+"vous le faites, vous pouvez perdre certaines fonctionnalités fournies dans "
+"le document."
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"N~iveau de sécurité élevé.\n"
-"Seules les macros signées provenant de sources de confiance peuvent être "
-"exécutées. Les macros non signées sont désactivées."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Toujours faire confiance aux macros de cette source"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"Niveau de sécurité ~moyen.\n"
-"Une confirmation est demandée avant l'exécution de macros provenant de "
-"sources non sécurisées."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Activer les macros"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"Niveau de sécurité fai~ble (déconseillé).\n"
-"Toutes les macros sont exécutées sans confirmation. N'utilisez ce paramètre "
-"que si vous êtes certain que tous les documents peuvent être ouverts en "
-"toute sécurité."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Désactiver les macros"
 
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Certificats de confiance"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Émis pour\tÉmis par\tDate d'expiration"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "Ajouter..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Afficher..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
-msgid "Remove"
-msgstr "Supprimer"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Emplacements de fichiers de confiance"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr ""
-"Les macros de document sont toujours exécutées si elles ont été ouvertes à "
-"partir de l'un des emplacements suivants."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Ajouter..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Supprimer"
-
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Ce paramètre est protégé par l'administrateur"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Avertissement de sécurité"
 
 #: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
 msgid "The following have signed the document content:"

@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+reportdesign%2Fsourc"
 "e%2Fui%2Fdlg.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-04 15:38+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-01-08 17:30+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,73 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1546968648.000000\n"
+
+#: PageNumber.src%23RID_PAGENUMBERS.FL_FORMAT.fixedline.text
+msgctxt "PageNumber.src#RID_PAGENUMBERS.FL_FORMAT.fixedline.text"
+msgid "Format"
+msgstr "Format"
+
+#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_N.radiobutton.text
+msgid "Page N"
+msgstr "Seite N"
+
+#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_N_OF_M.radiobutton.text
+msgid "Page N of M"
+msgstr "Seite N von M"
+
+#: PageNumber.src%23RID_PAGENUMBERS.FL_POSITION.fixedline.text
+msgctxt "PageNumber.src#RID_PAGENUMBERS.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Position"
+
+#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_TOPPAGE.radiobutton.text
+msgid "Top of Page (Header)"
+msgstr "Oben (Seitenkopf)"
+
+#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_BOTTOMPAGE.radiobutton.text
+msgid "Bottom of Page (Footer)"
+msgstr "Unten (Seitenfuß)"
+
+#: PageNumber.src%23RID_PAGENUMBERS.FL_MISC.fixedline.text
+msgid "General"
+msgstr "Allgemein"
+
+#: PageNumber.src%23RID_PAGENUMBERS.FL_ALIGNMENT.fixedtext.text
+msgid "Alignment:"
+msgstr "Ausrichtung:"
+
+#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.1.stringlist.text
+msgid "Left"
+msgstr "Links"
+
+#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.2.stringlist.text
+msgid "Center"
+msgstr "Mitte"
+
+#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.3.stringlist.text
+msgid "Right"
+msgstr "Rechts"
+
+#: PageNumber.src%23RID_PAGENUMBERS.CB_SHOWNUMBERONFIRSTPAGE.checkbox.text
+msgid "Show Number on First Page"
+msgstr "Nummer auf erster Seite anzeigen"
+
+#: PageNumber.src%23RID_PAGENUMBERS.PB_HELP.helpbutton.text
+msgctxt "PageNumber.src#RID_PAGENUMBERS.PB_HELP.helpbutton.text"
+msgid "~Help"
+msgstr "~Hilfe"
+
+#: PageNumber.src%23RID_PAGENUMBERS.modaldialog.text
+msgid "Page Numbers"
+msgstr "Seitennummern"
+
+#: PageNumber.src%23STR_RPT_PN_PAGE.string.text
+msgid "\"Page \" & #PAGENUMBER#"
+msgstr "\"Seite \" & #PAGENUMBER#"
+
+#: PageNumber.src%23STR_RPT_PN_PAGE_OF.string.text
+msgid " & \" of \" & #PAGECOUNT#"
+msgstr " & \" von \" & #PAGECOUNT#"
 
 #: GroupsSorting.src%23RID_GROUPS_SORTING.FL_SEPARATOR2.fixedline.text
 msgctxt "GroupsSorting.src#RID_GROUPS_SORTING.FL_SEPARATOR2.fixedline.text"
@@ -201,116 +268,6 @@ msgstr ""
 "Wählen Sie aufsteigende oder absteigende Sortierung. Aufsteigend bedeuted A "
 "bis Z bzw. 0 bis 9"
 
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text"
-msgid "Page"
-msgstr "Seite"
-
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_BACKGROUND.pageitem.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_BACKGROUND.pageitem.text"
-msgid "Background"
-msgstr "Hintergrund"
-
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.pushbutton.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.pushbutton.text"
-msgid "Return"
-msgstr "Zurück"
-
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.string.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.string.text"
-msgid "Page"
-msgstr "Seite"
-
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.2.string.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.2.string.text"
-msgid "Background"
-msgstr "Hintergrund"
-
-#: dlgpage.src%23RID_PAGEDIALOG_PAGE.tabdialog.text
-msgid "Page Setup"
-msgstr "Seiteneinstellungen"
-
-#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.1.pushbutton.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_BACKGROUND.1.pushbutton.text"
-msgid "Return"
-msgstr "Zurück"
-
-#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.1.string.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_BACKGROUND.1.string.text"
-msgid "Background"
-msgstr "Hintergrund"
-
-#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.tabdialog.text
-msgid "Section Setup"
-msgstr "Bereichseinstellungen"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_CHAR.pageitem.text
-msgid "Font"
-msgstr "Schrift"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_EFFECTS.pageitem.text
-msgid "Font Effects"
-msgstr "Schrifteffekt"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_POSITION.pageitem.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.RID_PAGE_POSITION.pageitem.text"
-msgid "Position"
-msgstr "Position"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_TWOLN.pageitem.text
-msgid "Asian Layout"
-msgstr "Asiatisches Layout"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_BACKGROUND.pageitem.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.RID_PAGE_BACKGROUND.pageitem.text"
-msgid "Background"
-msgstr "Hintergrund"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_ALIGNMENT.pageitem.text
-msgid "Alignment"
-msgstr "Ausrichtung"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.pushbutton.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.pushbutton.text"
-msgid "Return"
-msgstr "Zurück"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.string.text
-msgid "Character"
-msgstr "Zeichen"
-
-#: dlgpage.src%23RID_PAGEDIALOG_CHAR.tabdialog.text
-msgid "Character Settings"
-msgstr "Zeicheneinstellungen"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Linie"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE_DEF.pageitem.text
-msgid "Line Styles"
-msgstr "Linienstil"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINEEND_DEF.pageitem.text
-msgid "Arrow Styles"
-msgstr "Linienendenstil"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.pushbutton.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.pushbutton.text"
-msgid "Return"
-msgstr "Zurück"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.string.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.string.text"
-msgid "Line"
-msgstr "Linie"
-
-#: dlgpage.src%23RID_PAGEDIALOG_LINE.tabdialog.text
-msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.tabdialog.text"
-msgid "Line"
-msgstr "Linie"
-
 #: CondFormat.src%23WIN_CONDITION.LB_COND_TYPE.1.stringlist.text
 msgid "Field Value Is"
 msgstr "Feldwert ist"
@@ -478,69 +435,112 @@ msgstr "Neue Funktion"
 msgid "Properties..."
 msgstr "Eigenschaften …"
 
-#: PageNumber.src%23RID_PAGENUMBERS.FL_FORMAT.fixedline.text
-msgctxt "PageNumber.src#RID_PAGENUMBERS.FL_FORMAT.fixedline.text"
-msgid "Format"
-msgstr "Format"
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text"
+msgid "Page"
+msgstr "Seite"
 
-#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_N.radiobutton.text
-msgid "Page N"
-msgstr "Seite N"
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_BACKGROUND.pageitem.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.RID_SVXPAGE_BACKGROUND.pageitem.text"
+msgid "Background"
+msgstr "Hintergrund"
 
-#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_N_OF_M.radiobutton.text
-msgid "Page N of M"
-msgstr "Seite N von M"
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.pushbutton.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.pushbutton.text"
+msgid "Return"
+msgstr "Zurück"
 
-#: PageNumber.src%23RID_PAGENUMBERS.FL_POSITION.fixedline.text
-msgctxt "PageNumber.src#RID_PAGENUMBERS.FL_POSITION.fixedline.text"
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.1.string.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.1.string.text"
+msgid "Page"
+msgstr "Seite"
+
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.2.string.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_PAGE.2.string.text"
+msgid "Background"
+msgstr "Hintergrund"
+
+#: dlgpage.src%23RID_PAGEDIALOG_PAGE.tabdialog.text
+msgid "Page Setup"
+msgstr "Seiteneinstellungen"
+
+#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.1.pushbutton.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_BACKGROUND.1.pushbutton.text"
+msgid "Return"
+msgstr "Zurück"
+
+#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.1.string.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_BACKGROUND.1.string.text"
+msgid "Background"
+msgstr "Hintergrund"
+
+#: dlgpage.src%23RID_PAGEDIALOG_BACKGROUND.tabdialog.text
+msgid "Section Setup"
+msgstr "Bereichseinstellungen"
+
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_CHAR.pageitem.text
+msgid "Font"
+msgstr "Schrift"
+
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_EFFECTS.pageitem.text
+msgid "Font Effects"
+msgstr "Schrifteffekt"
+
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_POSITION.pageitem.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.RID_PAGE_POSITION.pageitem.text"
 msgid "Position"
 msgstr "Position"
 
-#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_TOPPAGE.radiobutton.text
-msgid "Top of Page (Header)"
-msgstr "Oben (Seitenkopf)"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_TWOLN.pageitem.text
+msgid "Asian Layout"
+msgstr "Asiatisches Layout"
 
-#: PageNumber.src%23RID_PAGENUMBERS.RB_PAGE_BOTTOMPAGE.radiobutton.text
-msgid "Bottom of Page (Footer)"
-msgstr "Unten (Seitenfuß)"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_BACKGROUND.pageitem.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.RID_PAGE_BACKGROUND.pageitem.text"
+msgid "Background"
+msgstr "Hintergrund"
 
-#: PageNumber.src%23RID_PAGENUMBERS.FL_MISC.fixedline.text
-msgid "General"
-msgstr "Allgemein"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.RID_PAGE_ALIGNMENT.pageitem.text
+msgid "Alignment"
+msgstr "Ausrichtung"
 
-#: PageNumber.src%23RID_PAGENUMBERS.FL_ALIGNMENT.fixedtext.text
-msgid "Alignment:"
-msgstr "Ausrichtung:"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.pushbutton.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_CHAR.1.pushbutton.text"
+msgid "Return"
+msgstr "Zurück"
 
-#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.1.stringlist.text
-msgid "Left"
-msgstr "Links"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.1.string.text
+msgid "Character"
+msgstr "Zeichen"
 
-#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.2.stringlist.text
-msgid "Center"
-msgstr "Mitte"
+#: dlgpage.src%23RID_PAGEDIALOG_CHAR.tabdialog.text
+msgid "Character Settings"
+msgstr "Zeicheneinstellungen"
 
-#: PageNumber.src%23RID_PAGENUMBERS.LST_ALIGNMENT.3.stringlist.text
-msgid "Right"
-msgstr "Rechts"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Linie"
 
-#: PageNumber.src%23RID_PAGENUMBERS.CB_SHOWNUMBERONFIRSTPAGE.checkbox.text
-msgid "Show Number on First Page"
-msgstr "Nummer auf erster Seite anzeigen"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINE_DEF.pageitem.text
+msgid "Line Styles"
+msgstr "Linienstil"
 
-#: PageNumber.src%23RID_PAGENUMBERS.PB_HELP.helpbutton.text
-msgctxt "PageNumber.src#RID_PAGENUMBERS.PB_HELP.helpbutton.text"
-msgid "~Help"
-msgstr "~Hilfe"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.RID_SVXPAGE_LINEEND_DEF.pageitem.text
+msgid "Arrow Styles"
+msgstr "Linienendenstil"
 
-#: PageNumber.src%23RID_PAGENUMBERS.modaldialog.text
-msgid "Page Numbers"
-msgstr "Seitennummern"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.pushbutton.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.pushbutton.text"
+msgid "Return"
+msgstr "Zurück"
 
-#: PageNumber.src%23STR_RPT_PN_PAGE.string.text
-msgid "\"Page \" & #PAGENUMBER#"
-msgstr "\"Seite \" & #PAGENUMBER#"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.1.string.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.1.string.text"
+msgid "Line"
+msgstr "Linie"
 
-#: PageNumber.src%23STR_RPT_PN_PAGE_OF.string.text
-msgid " & \" of \" & #PAGECOUNT#"
-msgstr " & \" von \" & #PAGECOUNT#"
+#: dlgpage.src%23RID_PAGEDIALOG_LINE.tabdialog.text
+msgctxt "dlgpage.src#RID_PAGEDIALOG_LINE.tabdialog.text"
+msgid "Line"
+msgstr "Linie"

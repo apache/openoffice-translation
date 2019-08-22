@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+swext%2Fmediawiki%2F"
 "help.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-04 15:38+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-02-02 11:56+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,72 +19,240 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1549108603.000000\n"
 
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "MediaWiki Optionen"
+#: wikiformats.xhp%23tit.help.text
+msgctxt "wikiformats.xhp#tit.help.text"
+msgid "MediaWiki Formats"
+msgstr "MediaWiki-Formate"
 
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "MediaWiki Optionen"
+#: wikiformats.xhp%23hd_id3743095.help.text
+msgctxt "wikiformats.xhp#hd_id3743095.help.text"
+msgid "MediaWiki Formats"
+msgstr "MediaWiki-Formate"
 
-#: wikisettings.xhp%23par_id1188390.help.text
+#: wikiformats.xhp%23par_id8654133.help.text
 msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
+"The following list gives an overview of the text formats that the "
+"@WIKIEXTENSIONPRODUCTNAME@ can upload to the Wiki server."
 msgstr ""
-"Sie können MediaWiki-Server hinzufügen, bearbeiten oder löschen. Öffnen Sie "
-"den Dialog über <item type=\"menuitem\">Extras - Einstellungen - Internet - "
-"MediaWiki</item>. Alternativ können Sie <item type=\"menuitem\">Extras - "
-"Extension Manager</item> wählen, dort den @WIKIEXTENSIONPRODUCTNAME@ wählen "
-"und auf die Schaltfläche Optionen klicken."
+"Die folgende Liste gibt einen Überblick über die Textformate, die der "
+"@WIKIEXTENSIONPRODUCTNAME@ auf einem Wiki-Server bereitstellen kann."
 
-#: wikisettings.xhp%23par_id300607.help.text
+#: wikiformats.xhp%23par_id5630664.help.text
 msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
+"The OpenDocument format used by Writer and the WikiMedia format are quite "
+"different. Only a subset of all features can be transformed from one format "
+"to the other."
 msgstr ""
-"<ahelp hid=\".\">Klicken Sie auf Hinzufügen, um einen neuen Wiki-Server "
-"hinzuzufügen.<br/>Wählen Sie einen Eintrag und klicken dann auf Bearbeiten, "
-"um die Kontoeinstellungen zu bearbeiten.<br/>Wählen Sie einen Eintrag und "
-"klicken Sie auf Entfernen, um einen Eintrag aus der Liste zu löschen.</ahelp>"
+"Das OpenDocument-Format, welches von Writer benutzt wird, und das MediaWiki-"
+"Format sind recht unterschiedlich. Nur ein Teil der Formatierungen und "
+"Funktionen kann von einem in das andere Format überführt werden."
 
-#: wikisettings.xhp%23par_id9786065.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Öffnet den MediaWiki-Dialog, um einen "
-"neuen Eintrag in die Liste einzufügen.</ahelp>"
+#: wikiformats.xhp%23hd_id7178868.help.text
+msgid "Headings"
+msgstr "Überschriften"
 
-#: wikisettings.xhp%23par_id3386333.help.text
+#: wikiformats.xhp%23par_id508133.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
+"Apply a heading paragraph style to the headings in your Writer document. The "
+"Wiki will show the heading styles of the same outline level, formatted as "
+"defined by the Wiki engine."
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Öffnet den MediaWiki-Dialog, um den "
-"gewählten Eintrag zu bearbeiten.</ahelp>"
+"Weisen Sie den Überschriften in Writer entsprechende Überschriften-"
+"Absatzvorlagen zu. Im Wiki werden dann Überschriften der entsprechenden "
+"Gliederungsebene dargestellt. Die Formatierung erfolgt wie im WIki-System "
+"eingestellt."
 
-#: wikisettings.xhp%23par_id7285073.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Entfernt den gewählten Eintrag von "
-"der Liste.</ahelp>"
+#: wikiformats.xhp%23hd_id7217627.help.text
+msgid "Hyperlinks"
+msgstr "Hyperlinks"
 
-#: wikisettings.xhp%23par_id1029084.help.text
+#: wikiformats.xhp%23par_id3735465.help.text
 msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
+"Native OpenDocument hyperlinks are transformed into \"external\" Wiki links. "
+"Therefore, the built-in linking facility of OpenDocument should only be used "
+"to create links that point to other sites outside the Wiki web. For creating "
+"Wiki links that point to other subjects of the same Wiki domain, use Wiki "
+"links."
 msgstr ""
-"Wenn Sie auf Hinzufügen oder Bearbeiten klicken, wird der <link href=\""
-"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>-Dialog geöffnet."
+"OpenDocument-Hyperlinks werden in \"externe\" Wiki-Links umgewandelt. "
+"Deshalb sollten Links innerhalb von OpenDocument-Dateien nur verwendet "
+"werden, um auf Seiten außerhalb des Wiki-Servers zu verweisen. Um Wiki-Links "
+"zu erzeugen, die auf andere Seiten im gleichen Wiki verweisen, verwenden Sie "
+"Wiki-Links."
+
+#: wikiformats.xhp%23hd_id941190.help.text
+msgid "Lists"
+msgstr "Listen"
+
+#: wikiformats.xhp%23par_id8942838.help.text
+msgid ""
+"Lists can reliably be exported when the whole list uses a consistent list "
+"style. Use the Numbering or Bullets icon to generate a list in Writer. If "
+"you need a list without numbering or bullets, use Format - Bullets and "
+"Numbering to define and apply the respective list style."
+msgstr ""
+"Listen können dann korrekt exportiert werden, wenn die komplette Liste eine "
+"einheitliche Listenvorlage verwendet. Benutzen Sie die Schaltfläche \""
+"Nummerierung\" oder \"Aufzählungsliste\", um eine Liste in Writer zu "
+"erzeugen. Wenn Sie eine Liste ohne Nummerierung oder Aufzählungszeichen "
+"benötigen, wählen Sie Format - Nummerierung und Aufzählungszeichen, um die "
+"gewünschte Listenvorlage zuzuweisen."
+
+#: wikiformats.xhp%23hd_id7026886.help.text
+msgid "Paragraphs"
+msgstr "Absätze"
+
+#: wikiformats.xhp%23hd_id4436475.help.text
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: wikiformats.xhp%23par_id376598.help.text
+msgid ""
+"Explicit text alignment should not be used in Wiki articles. Nevertheless, "
+"text alignment is supported for left, centered, and right alignment of text."
+msgstr ""
+"Explizite Textausrichtung sollte in Wikis nicht benutzt werden. Trotzdem "
+"werden die Ausrichtungen Links, Zentriert und Rechts unterstützt."
+
+#: wikiformats.xhp%23hd_id7486190.help.text
+msgid "Pre-formatted text"
+msgstr "Vorformatierter Text"
+
+#: wikiformats.xhp%23par_id1459395.help.text
+msgid ""
+"A paragraph style with a fixed-width font is transformed as pre-formatted "
+"text. Pre-formatted text is shown on the Wiki with a border around the text."
+msgstr ""
+"Eine Absatzvorlage mit nicht-proportionaler Schrift wird zu vorformatiertem "
+"Text konvertiert. Vorformatierter Text wird im Wiki mit einem Rahmen "
+"dargestellt."
+
+#: wikiformats.xhp%23hd_id4834131.help.text
+msgid "Character styles"
+msgstr "Zeichenformate"
+
+#: wikiformats.xhp%23par_id6397595.help.text
+msgid ""
+"Character styles modify the appearance of parts of a paragraph. The "
+"transformation supports bold, italics, bold/italics, subscript and "
+"superscript. All fixed width fonts are transformed into the Wiki typewriter "
+"style."
+msgstr ""
+"Zeichenformate ändern das Aussehen von Teilbereichen eines Absatzes. Die "
+"Konvertierung unterstützt Fett, Kursiv, Fett/Kursiv, Tiefgestellt und "
+"Hochgestellt. Alle nicht-proportionalen Schriften werden im Wiki in den "
+"Schreibmaschinenstil umgewandelt."
+
+#: wikiformats.xhp%23hd_id5152745.help.text
+msgid "Footnotes"
+msgstr "Fußnoten"
+
+#: wikiformats.xhp%23par_id5238196.help.text
+msgid ""
+"Note: The transformation uses the new style of footnotes with <ref> and "
+"<references> tags that requires the Cite.php extension to be installed into "
+"MediaWiki. If those tags occur as plain text in the transformation result, "
+"ask the Wiki administrator to install this extension."
+msgstr ""
+"Hinweis: Die Konvertierung benutzt die neue Art von Fußnoten mit <ref> und "
+"<references> Tags, welche voraussetzt, dass die Cite.php-Extension im "
+"MediaWiki-Server installiert ist. Falls diese Tags als Text im Ergebnis der "
+"Konvertierung zu sehen sind, fragen Sie den Wiki-Administrator, ob diese "
+"Extension installiert werden kann."
+
+#: wikiformats.xhp%23hd_id9405499.help.text
+msgid "Images"
+msgstr "Grafiken"
+
+#: wikiformats.xhp%23par_id3541673.help.text
+msgid ""
+"Images cannot be exported by a transformation producing a single file of "
+"Wiki text. However, if the image is already uploaded to the target Wiki "
+"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
+"image tag that includes the image. Image captions are also supported."
+msgstr ""
+"Grafiken können von einer Konvertierung, die nur eine einzelne Wiki-"
+"Textdatei erzeugt nicht exportiert werden. Falls aber die Grafik bereits auf "
+"das Ziel-Wiki hochgeladen wurde (z. B. WikiMedia Commons), erzeugt die "
+"Konvertierung ein korrektes Grafik-Tag, um die Grafik einzubinden. "
+"Beschriftungen werden ebenfalls unterstützt."
+
+#: wikiformats.xhp%23hd_id2162236.help.text
+msgid "Tables"
+msgstr "Tabellen"
+
+#: wikiformats.xhp%23par_id3037202.help.text
+msgid ""
+"Simple tables are supported well. Table headers are translated into "
+"corresponding Wiki style table headers. However, custom formatting of table "
+"borders, column sizes and background colors is ignored."
+msgstr ""
+"Einfache Tabellen werden gut unterstützt. Tabellenköpfe werden in "
+"entsprechende Wiki-Format Tabellenköpfe konvertiert. Allerdings werden "
+"weiterreichende Formatierungen von Tabellenrändern, Spaltenbreiten und "
+"Hintergrundfarben ignoriert."
+
+#: wikiformats.xhp%23hd_id2954496.help.text
+msgid "Joined Cells"
+msgstr "Verbundene Zellen"
+
+#: wikiformats.xhp%23par_id8253730.help.text
+msgid ""
+"OpenDocument and especially OpenOffice.org represent tables that have joined "
+"cells that span rows as tables with nested tables. In contrast, the wiki "
+"model of table is to declare column and row spans for such joined cells. "
+msgstr ""
+"OpenDocument, insbesondere OpenOffice.org, stellen Tabellen mit verbundenen "
+"Zellen als ineinander geschachtelte Tabellen dar. Im Gegensatz dazu sieht "
+"das WIki-Modell hier vor, Spalten- bzw. Zeilenzusammenfassungen für solche "
+"Zellen zu definieren. "
+
+#: wikiformats.xhp%23par_id8163090.help.text
+msgid ""
+"If only columns of the same row are joined, the result of the transformation "
+"resembles the source document very well."
+msgstr ""
+"Sofern nur Zellen innerhalb der gleichen Zeile verbunden werden, entspricht "
+"das Konvertierungsergebnis weitgehend dem Original."
+
+#: wikiformats.xhp%23hd_id425122.help.text
+msgid "Borders"
+msgstr "Umrandung"
+
+#: wikiformats.xhp%23par_id1831110.help.text
+msgid ""
+"Irrespective of custom table styles for border and background, a table is "
+"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
+"engine with simple borders and bold header."
+msgstr ""
+"Unabhängig von eigenen Formatierungen für Tabellenrand und -hintergrund, "
+"wird eine Tabelle immer als <emph>prettytable</emph> exportiert. Die "
+"Darstellung im Wiki erfolgt mit einfachem Rand und fettem Tabellenkopf."
+
+#: wikiformats.xhp%23hd_id6255073.help.text
+msgid "Charset and special characters"
+msgstr "Zeichensatz und Sonderzeichen"
+
+#: wikiformats.xhp%23par_id8216193.help.text
+msgid ""
+"The charset of the transformation result is fixed to UTF-8. Depending on "
+"your system, this might not be the default charset. This might cause \""
+"special characters\" to look broken when viewed with default settings. "
+"However, you can switch your editor to UTF-8 encoding to fix this. If your "
+"editor does not support switching the encoding, you can display the result "
+"of the transformation in the Firefox browser and switch the encoding to UTF-"
+"8 there. Now, you can cut and paste the transformation result to your "
+"program of choice."
+msgstr ""
+"Der Zeichensatz des Konvertierungsergebnisses ist auf UTF-8 festgelegt. In "
+"Abhängigkeit von Ihrem System ist das evtl. nicht der Standardzeichensatz. "
+"Das kann dazu führen, dass Sonderzeichen falsch dargestellt werden, wenn sie "
+"mit Standardeinstellungen angezeigt werden. Sie können aber Ihren Editor auf "
+"UTF-8 umstellen, um das Problem zu beheben. Falls Ihr Editor keine "
+"Zeichensatzumschaltung unterstützt, können Sie das Ergebnis der "
+"Konvertierung in Firefox anzeigen und dort den Zeichensatz auf UTF-8 "
+"stellen. Jetzt können Sie das Konvertierungsergebnis kopieren und in die "
+"Anwendung Ihrer Wahl einfügen."
 
 #: wikisend.xhp%23tit.help.text
 msgctxt "wikisend.xhp#tit.help.text"
@@ -155,87 +323,6 @@ msgstr ""
 "<emph>Im Webbrowser anzeigen</emph>: <ahelp hid=\".\">Aktivieren Sie dieses "
 "Markierfeld, um den Webbrowser Ihres Systems zu öffnen und die "
 "bereitgestellte Wiki-Seite anzuzeigen.</ahelp>"
-
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp%23par_id4571672.help.text
-msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
-msgstr ""
-"Benutzen Sie den MediaWiki-Dialog, um Einstellungen für Ihre MediaWIki-"
-"Konten hinzuzufügen oder zu ändern."
-
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie die URL eines MediaWiki-"
-"Servers an. Diese beginnt mit https://</ahelp>"
-
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie Ihren Nutzernamen für den "
-"MediaWiki-Server ein. Bei anonymen Zugriff lassen Sie das Feld leer.</ahelp>"
-
-#: wikiaccount.xhp%23par_id1113010.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie Ihr Passwort für den "
-"MediaWiki-Server ein. Bei anonymen Zugriff lassen Sie das Feld leer.</ahelp>"
-
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Aktivieren, um das Passwort dauerhaft "
-"zu speichern. Das Master-Passwort muss gesetzt sein, siehe <item type=\""
-"menuitem\">Extras - Einstellungen - %PRODUCTNAME - Sicherheit</item>.</ahelp>"
-
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"Geben Sie die Internet-Adresse des Wiki-Servers in der Form "
-"https://wiki.openoffice.org/wiki/DE ein oder kopieren Sie die URL aus dem "
-"Webbrowser."
-
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"Sofern das Wiki anonymen Zugriff gestattet, können Sie die Textfelder für "
-"die Kontoinformationen frei lassen. Anderenfalls geben Sie Nutzername und "
-"Passwort ein."
-
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"Wenn Sie das Master-Passwort im Register Sicherheit unter Extras - "
-"Einstellungen - %PRODUCTNAME aktiviert haben, kann die Software das Passwort "
-"speichern und automatisch Ihre Kontodaten einfügen, wenn nötig. Aktivieren "
-"Sie das Markierfeld \"Passwort sichern\", um Ihr Passwort zu speichern."
 
 #: wiki.xhp%23tit.help.text
 msgctxt "wiki.xhp#tit.help.text"
@@ -558,237 +645,150 @@ msgstr ""
 msgid "Click Send."
 msgstr "Klicken Sie auf Senden."
 
-#: wikiformats.xhp%23tit.help.text
-msgctxt "wikiformats.xhp#tit.help.text"
-msgid "MediaWiki Formats"
-msgstr "MediaWiki-Formate"
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "MediaWiki Optionen"
 
-#: wikiformats.xhp%23hd_id3743095.help.text
-msgctxt "wikiformats.xhp#hd_id3743095.help.text"
-msgid "MediaWiki Formats"
-msgstr "MediaWiki-Formate"
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "MediaWiki Optionen"
 
-#: wikiformats.xhp%23par_id8654133.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
 msgid ""
-"The following list gives an overview of the text formats that the "
-"@WIKIEXTENSIONPRODUCTNAME@ can upload to the Wiki server."
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
 msgstr ""
-"Die folgende Liste gibt einen Überblick über die Textformate, die der "
-"@WIKIEXTENSIONPRODUCTNAME@ auf einem Wiki-Server bereitstellen kann."
+"Sie können MediaWiki-Server hinzufügen, bearbeiten oder löschen. Öffnen Sie "
+"den Dialog über <item type=\"menuitem\">Extras - Einstellungen - Internet - "
+"MediaWiki</item>. Alternativ können Sie <item type=\"menuitem\">Extras - "
+"Extension Manager</item> wählen, dort den @WIKIEXTENSIONPRODUCTNAME@ wählen "
+"und auf die Schaltfläche Optionen klicken."
 
-#: wikiformats.xhp%23par_id5630664.help.text
+#: wikisettings.xhp%23par_id300607.help.text
 msgid ""
-"The OpenDocument format used by Writer and the WikiMedia format are quite "
-"different. Only a subset of all features can be transformed from one format "
-"to the other."
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
 msgstr ""
-"Das OpenDocument-Format, welches von Writer benutzt wird, und das MediaWiki-"
-"Format sind recht unterschiedlich. Nur ein Teil der Formatierungen und "
-"Funktionen kann von einem in das andere Format überführt werden."
+"<ahelp hid=\".\">Klicken Sie auf Hinzufügen, um einen neuen Wiki-Server "
+"hinzuzufügen.<br/>Wählen Sie einen Eintrag und klicken dann auf Bearbeiten, "
+"um die Kontoeinstellungen zu bearbeiten.<br/>Wählen Sie einen Eintrag und "
+"klicken Sie auf Entfernen, um einen Eintrag aus der Liste zu löschen.</ahelp>"
 
-#: wikiformats.xhp%23hd_id7178868.help.text
-msgid "Headings"
-msgstr "Überschriften"
-
-#: wikiformats.xhp%23par_id508133.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
 msgid ""
-"Apply a heading paragraph style to the headings in your Writer document. The "
-"Wiki will show the heading styles of the same outline level, formatted as "
-"defined by the Wiki engine."
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
 msgstr ""
-"Weisen Sie den Überschriften in Writer entsprechende Überschriften-"
-"Absatzvorlagen zu. Im Wiki werden dann Überschriften der entsprechenden "
-"Gliederungsebene dargestellt. Die Formatierung erfolgt wie im WIki-System "
-"eingestellt."
+"<ahelp hid=\".\" visibility=\"hidden\">Öffnet den MediaWiki-Dialog, um einen "
+"neuen Eintrag in die Liste einzufügen.</ahelp>"
 
-#: wikiformats.xhp%23hd_id7217627.help.text
-msgid "Hyperlinks"
-msgstr "Hyperlinks"
-
-#: wikiformats.xhp%23par_id3735465.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
 msgid ""
-"Native OpenDocument hyperlinks are transformed into \"external\" Wiki links. "
-"Therefore, the built-in linking facility of OpenDocument should only be used "
-"to create links that point to other sites outside the Wiki web. For creating "
-"Wiki links that point to other subjects of the same Wiki domain, use Wiki "
-"links."
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
 msgstr ""
-"OpenDocument-Hyperlinks werden in \"externe\" Wiki-Links umgewandelt. "
-"Deshalb sollten Links innerhalb von OpenDocument-Dateien nur verwendet "
-"werden, um auf Seiten außerhalb des Wiki-Servers zu verweisen. Um Wiki-Links "
-"zu erzeugen, die auf andere Seiten im gleichen Wiki verweisen, verwenden Sie "
-"Wiki-Links."
+"<ahelp hid=\".\" visibility=\"hidden\">Öffnet den MediaWiki-Dialog, um den "
+"gewählten Eintrag zu bearbeiten.</ahelp>"
 
-#: wikiformats.xhp%23hd_id941190.help.text
-msgid "Lists"
-msgstr "Listen"
-
-#: wikiformats.xhp%23par_id8942838.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
 msgid ""
-"Lists can reliably be exported when the whole list uses a consistent list "
-"style. Use the Numbering or Bullets icon to generate a list in Writer. If "
-"you need a list without numbering or bullets, use Format - Bullets and "
-"Numbering to define and apply the respective list style."
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
 msgstr ""
-"Listen können dann korrekt exportiert werden, wenn die komplette Liste eine "
-"einheitliche Listenvorlage verwendet. Benutzen Sie die Schaltfläche \""
-"Nummerierung\" oder \"Aufzählungsliste\", um eine Liste in Writer zu "
-"erzeugen. Wenn Sie eine Liste ohne Nummerierung oder Aufzählungszeichen "
-"benötigen, wählen Sie Format - Nummerierung und Aufzählungszeichen, um die "
-"gewünschte Listenvorlage zuzuweisen."
+"<ahelp hid=\".\" visibility=\"hidden\">Entfernt den gewählten Eintrag von "
+"der Liste.</ahelp>"
 
-#: wikiformats.xhp%23hd_id7026886.help.text
-msgid "Paragraphs"
-msgstr "Absätze"
-
-#: wikiformats.xhp%23hd_id4436475.help.text
-msgid "Alignment"
-msgstr "Ausrichtung"
-
-#: wikiformats.xhp%23par_id376598.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
 msgid ""
-"Explicit text alignment should not be used in Wiki articles. Nevertheless, "
-"text alignment is supported for left, centered, and right alignment of text."
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
 msgstr ""
-"Explizite Textausrichtung sollte in Wikis nicht benutzt werden. Trotzdem "
-"werden die Ausrichtungen Links, Zentriert und Rechts unterstützt."
+"Wenn Sie auf Hinzufügen oder Bearbeiten klicken, wird der <link href=\""
+"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>-Dialog geöffnet."
 
-#: wikiformats.xhp%23hd_id7486190.help.text
-msgid "Pre-formatted text"
-msgstr "Vorformatierter Text"
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
 
-#: wikiformats.xhp%23par_id1459395.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: wikiaccount.xhp%23par_id4571672.help.text
 msgid ""
-"A paragraph style with a fixed-width font is transformed as pre-formatted "
-"text. Pre-formatted text is shown on the Wiki with a border around the text."
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
 msgstr ""
-"Eine Absatzvorlage mit nicht-proportionaler Schrift wird zu vorformatiertem "
-"Text konvertiert. Vorformatierter Text wird im Wiki mit einem Rahmen "
-"dargestellt."
+"Benutzen Sie den MediaWiki-Dialog, um Einstellungen für Ihre MediaWIki-"
+"Konten hinzuzufügen oder zu ändern."
 
-#: wikiformats.xhp%23hd_id4834131.help.text
-msgid "Character styles"
-msgstr "Zeichenformate"
-
-#: wikiformats.xhp%23par_id6397595.help.text
+#: wikiaccount.xhp%23par_id7631458.help.text
 msgid ""
-"Character styles modify the appearance of parts of a paragraph. The "
-"transformation supports bold, italics, bold/italics, subscript and "
-"superscript. All fixed width fonts are transformed into the Wiki typewriter "
-"style."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with http://</ahelp>"
 msgstr ""
-"Zeichenformate ändern das Aussehen von Teilbereichen eines Absatzes. Die "
-"Konvertierung unterstützt Fett, Kursiv, Fett/Kursiv, Tiefgestellt und "
-"Hochgestellt. Alle nicht-proportionalen Schriften werden im Wiki in den "
-"Schreibmaschinenstil umgewandelt."
+"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie die URL eines MediaWiki-"
+"Servers an. Diese beginnt mit https://</ahelp>"
 
-#: wikiformats.xhp%23hd_id5152745.help.text
-msgid "Footnotes"
-msgstr "Fußnoten"
-
-#: wikiformats.xhp%23par_id5238196.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
 msgid ""
-"Note: The transformation uses the new style of footnotes with <ref> and "
-"<references> tags that requires the Cite.php extension to be installed into "
-"MediaWiki. If those tags occur as plain text in the transformation result, "
-"ask the Wiki administrator to install this extension."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"Hinweis: Die Konvertierung benutzt die neue Art von Fußnoten mit <ref> und "
-"<references> Tags, welche voraussetzt, dass die Cite.php-Extension im "
-"MediaWiki-Server installiert ist. Falls diese Tags als Text im Ergebnis der "
-"Konvertierung zu sehen sind, fragen Sie den Wiki-Administrator, ob diese "
-"Extension installiert werden kann."
+"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie Ihren Nutzernamen für den "
+"MediaWiki-Server ein. Bei anonymen Zugriff lassen Sie das Feld leer.</ahelp>"
 
-#: wikiformats.xhp%23hd_id9405499.help.text
-msgid "Images"
-msgstr "Grafiken"
-
-#: wikiformats.xhp%23par_id3541673.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
 msgid ""
-"Images cannot be exported by a transformation producing a single file of "
-"Wiki text. However, if the image is already uploaded to the target Wiki "
-"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
-"image tag that includes the image. Image captions are also supported."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"Grafiken können von einer Konvertierung, die nur eine einzelne Wiki-"
-"Textdatei erzeugt nicht exportiert werden. Falls aber die Grafik bereits auf "
-"das Ziel-Wiki hochgeladen wurde (z. B. WikiMedia Commons), erzeugt die "
-"Konvertierung ein korrektes Grafik-Tag, um die Grafik einzubinden. "
-"Beschriftungen werden ebenfalls unterstützt."
+"<ahelp hid=\".\" visibility=\"hidden\">Geben Sie Ihr Passwort für den "
+"MediaWiki-Server ein. Bei anonymen Zugriff lassen Sie das Feld leer.</ahelp>"
 
-#: wikiformats.xhp%23hd_id2162236.help.text
-msgid "Tables"
-msgstr "Tabellen"
-
-#: wikiformats.xhp%23par_id3037202.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
 msgid ""
-"Simple tables are supported well. Table headers are translated into "
-"corresponding Wiki style table headers. However, custom formatting of table "
-"borders, column sizes and background colors is ignored."
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
 msgstr ""
-"Einfache Tabellen werden gut unterstützt. Tabellenköpfe werden in "
-"entsprechende Wiki-Format Tabellenköpfe konvertiert. Allerdings werden "
-"weiterreichende Formatierungen von Tabellenrändern, Spaltenbreiten und "
-"Hintergrundfarben ignoriert."
+"<ahelp hid=\".\" visibility=\"hidden\">Aktivieren, um das Passwort dauerhaft "
+"zu speichern. Das Master-Passwort muss gesetzt sein, siehe <item type=\""
+"menuitem\">Extras - Einstellungen - %PRODUCTNAME - Sicherheit</item>.</ahelp>"
 
-#: wikiformats.xhp%23hd_id2954496.help.text
-msgid "Joined Cells"
-msgstr "Verbundene Zellen"
-
-#: wikiformats.xhp%23par_id8253730.help.text
+#: wikiaccount.xhp%23par_id3112582.help.text
 msgid ""
-"OpenDocument and especially OpenOffice.org represent tables that have joined "
-"cells that span rows as tables with nested tables. In contrast, the wiki "
-"model of table is to declare column and row spans for such joined cells. "
+"Enter the Internet address of a Wiki server in a format like "
+"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
 msgstr ""
-"OpenDocument, insbesondere OpenOffice.org, stellen Tabellen mit verbundenen "
-"Zellen als ineinander geschachtelte Tabellen dar. Im Gegensatz dazu sieht "
-"das WIki-Modell hier vor, Spalten- bzw. Zeilenzusammenfassungen für solche "
-"Zellen zu definieren. "
+"Geben Sie die Internet-Adresse des Wiki-Servers in der Form "
+"https://wiki.openoffice.org/wiki/DE ein oder kopieren Sie die URL aus dem "
+"Webbrowser."
 
-#: wikiformats.xhp%23par_id8163090.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
 msgid ""
-"If only columns of the same row are joined, the result of the transformation "
-"resembles the source document very well."
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
 msgstr ""
-"Sofern nur Zellen innerhalb der gleichen Zeile verbunden werden, entspricht "
-"das Konvertierungsergebnis weitgehend dem Original."
+"Sofern das Wiki anonymen Zugriff gestattet, können Sie die Textfelder für "
+"die Kontoinformationen frei lassen. Anderenfalls geben Sie Nutzername und "
+"Passwort ein."
 
-#: wikiformats.xhp%23hd_id425122.help.text
-msgid "Borders"
-msgstr "Umrandung"
-
-#: wikiformats.xhp%23par_id1831110.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
 msgid ""
-"Irrespective of custom table styles for border and background, a table is "
-"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
-"engine with simple borders and bold header."
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
 msgstr ""
-"Unabhängig von eigenen Formatierungen für Tabellenrand und -hintergrund, "
-"wird eine Tabelle immer als <emph>prettytable</emph> exportiert. Die "
-"Darstellung im Wiki erfolgt mit einfachem Rand und fettem Tabellenkopf."
-
-#: wikiformats.xhp%23hd_id6255073.help.text
-msgid "Charset and special characters"
-msgstr "Zeichensatz und Sonderzeichen"
-
-#: wikiformats.xhp%23par_id8216193.help.text
-msgid ""
-"The charset of the transformation result is fixed to UTF-8. Depending on "
-"your system, this might not be the default charset. This might cause \""
-"special characters\" to look broken when viewed with default settings. "
-"However, you can switch your editor to UTF-8 encoding to fix this. If your "
-"editor does not support switching the encoding, you can display the result "
-"of the transformation in the Firefox browser and switch the encoding to UTF-"
-"8 there. Now, you can cut and paste the transformation result to your "
-"program of choice."
-msgstr ""
-"Der Zeichensatz des Konvertierungsergebnisses ist auf UTF-8 festgelegt. In "
-"Abhängigkeit von Ihrem System ist das evtl. nicht der Standardzeichensatz. "
-"Das kann dazu führen, dass Sonderzeichen falsch dargestellt werden, wenn sie "
-"mit Standardeinstellungen angezeigt werden. Sie können aber Ihren Editor auf "
-"UTF-8 umstellen, um das Problem zu beheben. Falls Ihr Editor keine "
-"Zeichensatzumschaltung unterstützt, können Sie das Ergebnis der "
-"Konvertierung in Firefox anzeigen und dort den Zeichensatz auf UTF-8 "
-"stellen. Jetzt können Sie das Konvertierungsergebnis kopieren und in die "
-"Anwendung Ihrer Wahl einfügen."
+"Wenn Sie das Master-Passwort im Register Sicherheit unter Extras - "
+"Einstellungen - %PRODUCTNAME aktiviert haben, kann die Software das Passwort "
+"speichern und automatisch Ihre Kontodaten einfügen, wenn nötig. Aktivieren "
+"Sie das Markierfeld \"Passwort sichern\", um Ihr Passwort zu speichern."

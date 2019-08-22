@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+dbaccess%2Fsource%2F"
 "ui%2Fquerydesign.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-04 15:37+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2014-10-30 17:19+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,88 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.FL_JOIN.fixedline.text
+msgid "Options"
+msgstr "Optionen"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.FT_LISTBOXTITLE.fixedtext.text
+msgid "~Type"
+msgstr "~Typ"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.1.stringlist.text
+msgid "Inner join"
+msgstr "Innerer Verbund"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.2.stringlist.text
+msgid "Left join"
+msgstr "Linker Verbund"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.3.stringlist.text
+msgid "Right join"
+msgstr "Rechter Verbund"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.4.stringlist.text
+msgid "Full (outer) join"
+msgstr "Voller (äußerer) Verbund"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.5.stringlist.text
+msgid "Cross join"
+msgstr "Kreuzverbund"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.CB_NATURAL.checkbox.text
+msgid "Natural"
+msgstr "Natürlich"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "beteiligte Tabellen"
+
+#: querydlg.src%23DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "beteiligte Felder"
+
+#: querydlg.src%23DLG_QRY_JOIN.modaldialog.text
+msgid "Join Properties"
+msgstr "Verbundeigenschaften"
+
+#: querydlg.src%23STR_JOIN_TYPE_HINT.string.text
+msgid "Please note that some databases may not support this join type."
+msgstr ""
+"Bitte beachten Sie, dass einige Datenbanken eventuell diese Art der "
+"Verknüpfung nicht unterstützen."
+
+#: querydlg.src%23STR_QUERY_INNER_JOIN.string.text
+msgid ""
+"Includes only records for which the contents of the related fields of both "
+"tables are identical."
+msgstr ""
+"Beinhaltet nur die Datensätze, bei denen die Inhalte der verknüpften Felder "
+"beider Tabellen gleich sind."
+
+#: querydlg.src%23STR_QUERY_LEFTRIGHT_JOIN.string.text
+msgid ""
+"Contains ALL records from table '%1' but only records from table '%2' where "
+"the values in the related fields are matching."
+msgstr ""
+"Beinhaltet ALLE Datensätze aus '%1' und nur die Datensätze aus '%2', bei "
+"denen die Inhalte der verknüpften Felder beider Tabellen gleich sind."
+
+#: querydlg.src%23STR_QUERY_FULL_JOIN.string.text
+msgid "Contains ALL records from '%1' and from '%2'."
+msgstr "Beinhaltet ALLE Datensätze aus '%1' und aus '%2'."
+
+#: querydlg.src%23STR_QUERY_CROSS_JOIN.string.text
+msgid "Contains the cartesian product of ALL records from '%1' and from '%2'."
+msgstr "Beinhaltet das kartesische Produkt aller Datensätze aus '%1' und '%2'."
+
+#: querydlg.src%23STR_QUERY_NATURAL_JOIN.string.text
+msgid ""
+"Contains only one column for each pair of equally-named columns from '%1' "
+"and from '%2'."
+msgstr ""
+"Beinhaltet nur eine Spalte für jedes Paar gleichbenannter Spalten aus '%1' "
+"und '%2'."
 
 #: query.src%23STR_QUERY_UNDO_TABWINSHOW.string.text
 msgid "Add Table Window"
@@ -272,85 +354,3 @@ msgid ""
 msgstr ""
 "Sowohl der Parameter ActiveConnection als auch DataSourceName fehlen oder "
 "sind falsch - der Abfrage-Entwurf kann nicht initialisiert werden."
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.FL_JOIN.fixedline.text
-msgid "Options"
-msgstr "Optionen"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.FT_LISTBOXTITLE.fixedtext.text
-msgid "~Type"
-msgstr "~Typ"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.1.stringlist.text
-msgid "Inner join"
-msgstr "Innerer Verbund"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.2.stringlist.text
-msgid "Left join"
-msgstr "Linker Verbund"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.3.stringlist.text
-msgid "Right join"
-msgstr "Rechter Verbund"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.4.stringlist.text
-msgid "Full (outer) join"
-msgstr "Voller (äußerer) Verbund"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.LB_JOINTYPE.5.stringlist.text
-msgid "Cross join"
-msgstr "Kreuzverbund"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.CB_NATURAL.checkbox.text
-msgid "Natural"
-msgstr "Natürlich"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "beteiligte Tabellen"
-
-#: querydlg.src%23DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "beteiligte Felder"
-
-#: querydlg.src%23DLG_QRY_JOIN.modaldialog.text
-msgid "Join Properties"
-msgstr "Verbundeigenschaften"
-
-#: querydlg.src%23STR_JOIN_TYPE_HINT.string.text
-msgid "Please note that some databases may not support this join type."
-msgstr ""
-"Bitte beachten Sie, dass einige Datenbanken eventuell diese Art der "
-"Verknüpfung nicht unterstützen."
-
-#: querydlg.src%23STR_QUERY_INNER_JOIN.string.text
-msgid ""
-"Includes only records for which the contents of the related fields of both "
-"tables are identical."
-msgstr ""
-"Beinhaltet nur die Datensätze, bei denen die Inhalte der verknüpften Felder "
-"beider Tabellen gleich sind."
-
-#: querydlg.src%23STR_QUERY_LEFTRIGHT_JOIN.string.text
-msgid ""
-"Contains ALL records from table '%1' but only records from table '%2' where "
-"the values in the related fields are matching."
-msgstr ""
-"Beinhaltet ALLE Datensätze aus '%1' und nur die Datensätze aus '%2', bei "
-"denen die Inhalte der verknüpften Felder beider Tabellen gleich sind."
-
-#: querydlg.src%23STR_QUERY_FULL_JOIN.string.text
-msgid "Contains ALL records from '%1' and from '%2'."
-msgstr "Beinhaltet ALLE Datensätze aus '%1' und aus '%2'."
-
-#: querydlg.src%23STR_QUERY_CROSS_JOIN.string.text
-msgid "Contains the cartesian product of ALL records from '%1' and from '%2'."
-msgstr "Beinhaltet das kartesische Produkt aller Datensätze aus '%1' und '%2'."
-
-#: querydlg.src%23STR_QUERY_NATURAL_JOIN.string.text
-msgid ""
-"Contains only one column for each pair of equally-named columns from '%1' "
-"and from '%2'."
-msgstr ""
-"Beinhaltet nur eine Spalte für jedes Paar gleichbenannter Spalten aus '%1' "
-"und '%2'."

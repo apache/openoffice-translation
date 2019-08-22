@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+chart2%2Fsource%2Fco"
 "ntroller%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-04 15:37+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-01-31 00:44+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,415 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1548895489.000000\n"
 
-#: tp_Wizard_TitlesAndObjects.src%23TP_WIZARD_TITLEANDOBJECTS.FT_TITLEDESCRIPTION.fixedtext.text
-msgid "Choose titles, legend, and grid settings"
-msgstr "Wählen Sie Titel, Legenden- und Gittereinstellungen"
+#: Strings_AdditionalControls.src%23STR_3DSCHEME_SIMPLE.string.text
+msgid "Simple"
+msgstr "Einfach"
 
-#: tp_Wizard_TitlesAndObjects.src%23TP_WIZARD_TITLEANDOBJECTS.FL_GRIDS.fixedline.text
-msgid "Display grids"
-msgstr "Gitter anzeigen"
+#: Strings_AdditionalControls.src%23STR_3DSCHEME_REALISTIC.string.text
+msgid "Realistic"
+msgstr "Realistisch"
+
+#: Strings_AdditionalControls.src%23STR_3DSCHEME_CUSTOM.string.text
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: Strings_AdditionalControls.src%23STR_BAR_GEOMETRY.string.text
+msgid "Shape"
+msgstr "Form"
+
+#: Strings_AdditionalControls.src%23STR_NUMBER_OF_LINES.string.text
+msgid "~Number of lines"
+msgstr "Anzahl an ~Linien"
+
+#: Strings_AdditionalControls.src%23STR_TEXT_SEPARATOR.string.text
+msgid "Separator"
+msgstr "Trenner"
+
+#: dlg_DataSource.src%23DLG_DATA_SOURCE.tabdialog.text
+msgid "Data Ranges"
+msgstr "Datenbereiche"
+
+#: tp_TitleRotation.src%23TP_ALIGNMENT.BTN_TXTSTACKED.tristatebox.text
+msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.BTN_TXTSTACKED.tristatebox.text"
+msgid "Ve~rtically stacked"
+msgstr "~Senkrecht gestapelt"
+
+#: tp_TitleRotation.src%23TP_ALIGNMENT.FT_DEGREES.fixedtext.text
+msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FT_DEGREES.fixedtext.text"
+msgid "~Degrees"
+msgstr "Gra~d"
+
+#: tp_TitleRotation.src%23TP_ALIGNMENT.FL_ALIGN.fixedline.text
+msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FL_ALIGN.fixedline.text"
+msgid "Text orientation"
+msgstr "Schreibrichtung"
+
+#: tp_TitleRotation.src%23TP_ALIGNMENT.FT_TEXTDIR.fixedtext.text
+msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FT_TEXTDIR.fixedtext.text"
+msgid "Te~xt direction"
+msgstr "Schreib~richtung"
+
+#: Strings_ChartTypes.src%23STR_TYPE_COLUMN.string.text
+msgid "Column"
+msgstr "Säulen"
+
+#: Strings_ChartTypes.src%23STR_TYPE_BAR.string.text
+msgid "Bar"
+msgstr "Balken"
+
+#: Strings_ChartTypes.src%23STR_TYPE_AREA.string.text
+msgctxt "Strings_ChartTypes.src#STR_TYPE_AREA.string.text"
+msgid "Area"
+msgstr "Fläche"
+
+#: Strings_ChartTypes.src%23STR_TYPE_PIE.string.text
+msgid "Pie"
+msgstr "Kreis"
+
+#: Strings_ChartTypes.src%23STR_PIE_EXPLODED.string.text
+msgid "Exploded Pie Chart"
+msgstr "Explodiertes Kreisdiagramm"
+
+#: Strings_ChartTypes.src%23STR_DONUT_EXPLODED.string.text
+msgid "Exploded Donut Chart"
+msgstr "Explodiertes Ringdiagramm"
+
+#: Strings_ChartTypes.src%23STR_DONUT.string.text
+msgid "Donut"
+msgstr "Ringe"
+
+#: Strings_ChartTypes.src%23STR_TYPE_LINE.string.text
+msgctxt "Strings_ChartTypes.src#STR_TYPE_LINE.string.text"
+msgid "Line"
+msgstr "Linien"
+
+#: Strings_ChartTypes.src%23STR_TYPE_XY.string.text
+msgid "XY (Scatter)"
+msgstr "XY (Streudiagramm)"
+
+#: Strings_ChartTypes.src%23STR_POINTS_AND_LINES.string.text
+msgid "Points and Lines"
+msgstr "Punkte und Linien"
+
+#: Strings_ChartTypes.src%23STR_POINTS_ONLY.string.text
+msgid "Points Only"
+msgstr "Nur Punkte"
+
+#: Strings_ChartTypes.src%23STR_LINES_ONLY.string.text
+msgid "Lines Only"
+msgstr "Nur Linien"
+
+#: Strings_ChartTypes.src%23STR_LINES_3D.string.text
+msgid "3D Lines"
+msgstr "3D-Linien"
+
+#: Strings_ChartTypes.src%23STR_TYPE_COMBI_COLUMN_LINE.string.text
+msgid "Column and Line"
+msgstr "Säulen und Linien"
+
+#: Strings_ChartTypes.src%23STR_LINE_COLUMN.string.text
+msgid "Columns and Lines"
+msgstr "Säulen und Linien"
+
+#: Strings_ChartTypes.src%23STR_LINE_STACKEDCOLUMN.string.text
+msgid "Stacked Columns and Lines"
+msgstr "Gestapelte Säulen und Linien"
+
+#: Strings_ChartTypes.src%23STR_TYPE_NET.string.text
+msgid "Net"
+msgstr "Netz"
+
+#: Strings_ChartTypes.src%23STR_TYPE_STOCK.string.text
+msgid "Stock"
+msgstr "Kurs"
+
+#: Strings_ChartTypes.src%23STR_STOCK_1.string.text
+msgid "Stock Chart 1"
+msgstr "Kursdiagramm 1"
+
+#: Strings_ChartTypes.src%23STR_STOCK_2.string.text
+msgid "Stock Chart 2"
+msgstr "Kursdiagramm 2"
+
+#: Strings_ChartTypes.src%23STR_STOCK_3.string.text
+msgid "Stock Chart 3"
+msgstr "Kursdiagramm 3"
+
+#: Strings_ChartTypes.src%23STR_STOCK_4.string.text
+msgid "Stock Chart 4"
+msgstr "Kursdiagramm 4"
+
+#: Strings_ChartTypes.src%23STR_NORMAL.string.text
+msgid "Normal"
+msgstr "Normal"
+
+#: Strings_ChartTypes.src%23STR_STACKED.string.text
+msgid "Stacked"
+msgstr "Gestapelt"
+
+#: Strings_ChartTypes.src%23STR_PERCENT.string.text
+msgid "Percent Stacked"
+msgstr "Prozentual gestapelt"
+
+#: Strings_ChartTypes.src%23STR_DEEP.string.text
+msgctxt "Strings_ChartTypes.src#STR_DEEP.string.text"
+msgid "Deep"
+msgstr "Tief"
+
+#: Strings_ChartTypes.src%23STR_FILLED.string.text
+msgid "Filled"
+msgstr "Ausgefüllt"
+
+#: Strings_ChartTypes.src%23STR_TYPE_BUBBLE.string.text
+msgid "Bubble"
+msgstr "Blasen"
+
+#: Strings_ChartTypes.src%23STR_BUBBLE_1.string.text
+msgid "Bubble Chart"
+msgstr "Blasendiagramm"
+
+#: dlg_View3D.src%23DLG_3D_VIEW.tabdialog.text
+msgid "3D View"
+msgstr "3D-Ansicht"
+
+#: tp_Location.src%23TP_LOCATION.FL_TABLE.fixedline.text
+msgid "Place chart"
+msgstr "Positioniere Diagramm"
+
+#: tp_Location.src%23TP_LOCATION.FT_TABLE.fixedtext.text
+msgid "~Insert in sheet"
+msgstr "~Einfügen in Tabelle"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.1.fixedline.text
+msgid "Align data series to"
+msgstr "Datenreihe ausrichten an"
+
+# Hier ist "ausrichten an" gemeint
+#: tp_SeriesToAxis.src%23TP_OPTIONS.RBT_OPT_AXIS_1.radiobutton.text
+msgid "Primary Y axis"
+msgstr "Primärer Y-Achse"
+
+# Hier ist "ausrichten an:" gemeint
+#: tp_SeriesToAxis.src%23TP_OPTIONS.RBT_OPT_AXIS_2.radiobutton.text
+msgid "Secondary Y axis"
+msgstr "Sekundärer Y-Achse"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.GB_BAR.fixedline.text
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_OVERLAP.fixedtext.text
+msgid "~Overlap"
+msgstr "Übe~rlappung"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_GAP.fixedtext.text
+msgid "~Spacing"
+msgstr "~Abstand"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_CONNECTOR.checkbox.text
+msgid "Connection lines"
+msgstr "Verbindungslinien"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_BARS_SIDE_BY_SIDE.checkbox.text
+msgid "Show ~bars side by side"
+msgstr "~Balken nebeneinander darstellen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.FL_PLOT_OPTIONS.fixedline.text
+msgctxt "tp_SeriesToAxis.src#TP_OPTIONS.FL_PLOT_OPTIONS.fixedline.text"
+msgid "Plot options"
+msgstr "Darstellungsoptionen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_MISSING_VALUES.fixedtext.text
+msgid "Plot missing values"
+msgstr "Fehlende Werte darstellen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_DONT_PAINT.radiobutton.text
+msgid "~Leave gap"
+msgstr "~Lücke lassen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_ASSUME_ZERO.radiobutton.text
+msgid "~Assume zero"
+msgstr "~Null annehmen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_CONTINUE_LINE.radiobutton.text
+msgid "~Continue line"
+msgstr "Linie ~fortsetzen"
+
+#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_INCLUDE_HIDDEN_CELLS.checkbox.text
+msgctxt "tp_SeriesToAxis.src#TP_OPTIONS.CB_INCLUDE_HIDDEN_CELLS.checkbox.text"
+msgid "Include ~values from hidden cells"
+msgstr "~Werte ausgeblendeter Zellen einbeziehen"
+
+#: tp_3D_SceneGeometry.src%23CUSTOMUNITTEXT_DEGREE.%23define.text
+msgid " degrees"
+msgstr " Grad"
+
+#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.CBX_RIGHT_ANGLED_AXES.checkbox.text
+msgid "~Right-angled axes"
+msgstr "~Rechtwinklige Achsen"
+
+#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_X_ROTATION.fixedtext.text
+msgid "~X rotation"
+msgstr "~X Rotation"
+
+#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_Y_ROTATION.fixedtext.text
+msgid "~Y rotation"
+msgstr "~Y Rotation"
+
+#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_Z_ROTATION.fixedtext.text
+msgid "~Z rotation"
+msgstr "~Z Rotation"
+
+#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.CBX_PERSPECTIVE.checkbox.text
+msgid "~Perspective"
+msgstr "~Perspektive"
+
+#: res_BarGeometry.src%23LB_BAR_GEOMETRY.1.stringlist.text
+msgid "Box"
+msgstr "Quader"
+
+#: res_BarGeometry.src%23LB_BAR_GEOMETRY.2.stringlist.text
+msgid "Cylinder"
+msgstr "Zylinder"
+
+#: res_BarGeometry.src%23LB_BAR_GEOMETRY.3.stringlist.text
+msgid "Cone"
+msgstr "Kegel"
+
+#: res_BarGeometry.src%23LB_BAR_GEOMETRY.4.stringlist.text
+msgid "Pyramid"
+msgstr "Pyramiden"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.FT_CHARTTYPE.fixedtext.text
+msgid "Choose a chart type"
+msgstr "Bitte wählen Sie einen Diagrammtyp"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.CB_X_AXIS_CATEGORIES.checkbox.text
+msgid "X axis with Categories"
+msgstr "X-Achse mit Kategorien"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.CB_3D_LOOK.checkbox.text
+msgid "~3D Look"
+msgstr "~3D-Darstellung"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.CB_STACKED.checkbox.text
+msgid "~Stack series"
+msgstr "~Datenreihen stapeln"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Y.radiobutton.text
+msgid "On top"
+msgstr "Übereinander"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Y_PERCENT.radiobutton.text
+msgid "Percent"
+msgstr "Prozentual"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Z.radiobutton.text
+msgctxt "tp_ChartType.src#TP_CHARTTYPE.RB_STACK_Z.radiobutton.text"
+msgid "Deep"
+msgstr "Hintereinander"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.CB_SPLINES.checkbox.text
+msgid "S~mooth lines"
+msgstr "Ku~rvenglättung"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.PB_SPLINE_DIALOG.pushbutton.text
+msgid "Properties..."
+msgstr "Eigenschaften …"
+
+#: tp_ChartType.src%23TP_CHARTTYPE.CB_XVALUE_SORTING.checkbox.text
+msgid "~Sort by X values"
+msgstr "~Nach X-Werten sortieren"
+
+#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.RB_SPLINES_CUBIC.radiobutton.text
+msgid "Cubic spline"
+msgstr "Kubischer Spline"
+
+#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.RB_SPLINES_B.radiobutton.text
+msgid "B-Spline"
+msgstr "B-Spline"
+
+#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.FT_SPLINE_RESOLUTION.fixedtext.text
+msgid "~Resolution"
+msgstr "~Auflösung"
+
+#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.FT_SPLINE_ORDER.fixedtext.text
+msgid "~Degree of polynomials"
+msgstr "~Grad der Polynome"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_ROW.toolboxitem.text
+msgid "Insert Row"
+msgstr "Zeile einfügen"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_COL.toolboxitem.text
+msgid "Insert Series"
+msgstr "Datenreihe einfügen"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_TEXT_COL.toolboxitem.text
+msgid "Insert Text Column"
+msgstr "Textspalte einfügen"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_DELETE_ROW.toolboxitem.text
+msgid "Delete Row"
+msgstr "Zeile löschen"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_DELETE_COL.toolboxitem.text
+msgid "Delete Series"
+msgstr "Datenreihe löschen"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_SWAP_COL.toolboxitem.text
+msgid "Move Series Right"
+msgstr "Datenreihen nach rechts verschieben"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_SWAP_ROW.toolboxitem.text
+msgid "Move Row Down"
+msgstr "Zeile nach unten verschieben"
+
+#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.modaldialog.text
+msgid "Data Table"
+msgstr "Datentabelle"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.FT_CAPTION_FOR_WIZARD.fixedtext.text
+msgid "Choose a data range"
+msgstr "Wählen Sie den Datenbereich"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.FT_RANGE.fixedtext.text
+msgid "~Data range"
+msgstr "~Datenbereich"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.RB_DATAROWS.radiobutton.text
+msgid "Data series in ~rows"
+msgstr "Datenreihen in ~Zeilen"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.RB_DATACOLS.radiobutton.text
+msgid "Data series in ~columns"
+msgstr "Datenreihen in ~Spalten"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.CB_FIRST_ROW_ASLABELS.checkbox.text
+msgid "~First row as label"
+msgstr "~Erste Zeile als Beschriftung"
+
+#: tp_RangeChooser.src%23TP_RANGECHOOSER.CB_FIRST_COLUMN_ASLABELS.checkbox.text
+msgid "F~irst column as label"
+msgstr "E~rste Spalte als Beschriftung"
+
+#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "dlg_ShapeFont.src#DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Schrift"
+
+#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "dlg_ShapeFont.src#DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Schrifteffekt"
+
+#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
+msgid "Font Position"
+msgstr "Schriftposition"
+
+#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.tabdialog.text
+msgid "Character"
+msgstr "Zeichen"
 
 #: dlg_ShapeParagraph.src%23DLG_SHAPE_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
 msgid "Indents & Spacing"
@@ -571,239 +973,6 @@ msgstr "Rechts-nach-links"
 msgid "Use superordinate object settings"
 msgstr "Einstellungen des übergeordneten Objekts verwenden"
 
-#: tp_3D_SceneIllumination.src%23TP_3D_SCENEILLUMINATION.FT_LIGHTSOURCE.fixedtext.text
-msgid "~Light source"
-msgstr "~Lichtquelle"
-
-#: tp_3D_SceneIllumination.src%23TP_3D_SCENEILLUMINATION.FT_AMBIENTLIGHT.fixedtext.text
-msgid "~Ambient light"
-msgstr "~Umgebungslicht"
-
-#: tp_3D_SceneIllumination.src%23STR_LIGHT_PREVIEW.string.text
-msgid "Light Preview"
-msgstr "Beleuchtung Vorschau"
-
-#: tp_TitleRotation.src%23TP_ALIGNMENT.BTN_TXTSTACKED.tristatebox.text
-msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.BTN_TXTSTACKED.tristatebox.text"
-msgid "Ve~rtically stacked"
-msgstr "~Senkrecht gestapelt"
-
-#: tp_TitleRotation.src%23TP_ALIGNMENT.FT_DEGREES.fixedtext.text
-msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FT_DEGREES.fixedtext.text"
-msgid "~Degrees"
-msgstr "Gra~d"
-
-#: tp_TitleRotation.src%23TP_ALIGNMENT.FL_ALIGN.fixedline.text
-msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FL_ALIGN.fixedline.text"
-msgid "Text orientation"
-msgstr "Schreibrichtung"
-
-#: tp_TitleRotation.src%23TP_ALIGNMENT.FT_TEXTDIR.fixedtext.text
-msgctxt "tp_TitleRotation.src#TP_ALIGNMENT.FT_TEXTDIR.fixedtext.text"
-msgid "Te~xt direction"
-msgstr "Schreib~richtung"
-
-#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "dlg_ShapeFont.src#DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Schrift"
-
-#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "dlg_ShapeFont.src#DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "Schrifteffekt"
-
-#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
-msgid "Font Position"
-msgstr "Schriftposition"
-
-#: dlg_ShapeFont.src%23DLG_SHAPE_FONT.tabdialog.text
-msgid "Character"
-msgstr "Zeichen"
-
-#: Strings_Scale.src%23STR_INVALID_NUMBER.string.text
-msgid "Numbers are required. Check your input."
-msgstr "Es werden Zahlenwerte benötigt. Bitte überprüfen Sie die Eingabe."
-
-#: Strings_Scale.src%23STR_STEP_GT_ZERO.string.text
-msgid "The major interval requires a positive number. Check your input."
-msgstr ""
-"Das Hauptintervall benötigt einen positiven Zahlenwert. Bitte überprüfen Sie "
-"die Eingabe."
-
-#: Strings_Scale.src%23STR_BAD_LOGARITHM.string.text
-msgid "The logarithmic scale requires positive numbers. Check your input."
-msgstr ""
-"Für die logarithmische Darstellung werden positive Zahlenwerte benötigt. "
-"Bitte überprüfen Sie die Eingabe."
-
-#: Strings_Scale.src%23STR_MIN_GREATER_MAX.string.text
-msgid "The minimum must be lower than the maximum. Check your input."
-msgstr ""
-"Der Mindestwert muss unter dem Höchstwert liegen. Prüfen Sie die "
-"eingegebenen Werte."
-
-#: Strings_Scale.src%23STR_INVALID_INTERVALS.string.text
-msgid ""
-"The major interval needs to be greater than the minor interval. Check your "
-"input."
-msgstr ""
-"Der Maximalwert muss über dem Minimalwert liegen. Prüfen Sie die "
-"eingegebenen Werte."
-
-#: Strings_Scale.src%23STR_INVALID_TIME_UNIT.string.text
-msgid ""
-"The major and minor interval need to be greater or equal to the resolution. "
-"Check your input."
-msgstr ""
-"Das Haupt- und Mindestintervall muss gleich oder größer sein als die "
-"Auflösung. Bitte prüfen Sie die Eingabe."
-
-#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.FT_SCHEME.fixedtext.text
-msgid "Sche~me"
-msgstr "Sche~ma"
-
-#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_SHADING.checkbox.text
-msgid "~Shading"
-msgstr "~Schattierung"
-
-#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_OBJECTLINES.checkbox.text
-msgid "~Object borders"
-msgstr "~Objektumrandungen"
-
-#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_ROUNDEDEDGE.checkbox.text
-msgid "~Rounded edges"
-msgstr "~Kantenrundung"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_SCHOW_DESCR.checkbox.text
-msgid "Sho~w labels"
-msgstr "~Beschriftung anzeigen"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_ORIENTATION.fixedline.text
-msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FL_AXIS_LABEL_ORIENTATION.fixedline.text"
-msgid "Text orientation"
-msgstr "Schreibrichtung"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.PB_AXIS_LABEL_TEXTSTACKED.tristatebox.text
-msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.PB_AXIS_LABEL_TEXTSTACKED.tristatebox.text"
-msgid "Ve~rtically stacked"
-msgstr "~Senkrecht gestapelt"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.FT_AXIS_LABEL_DEGREES.fixedtext.text
-msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FT_AXIS_LABEL_DEGREES.fixedtext.text"
-msgid "~Degrees"
-msgstr "~Grad"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_TEXTFLOW.fixedline.text
-msgid "Text flow"
-msgstr "Textfluss"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_TEXTOVERLAP.checkbox.text
-msgid "O~verlap"
-msgstr "~Überlappend"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_TEXTBREAK.checkbox.text
-msgid "~Break"
-msgstr "~Umbruch"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_ORDER.fixedline.text
-msgid "Order"
-msgstr "Anordnung"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_SIDEBYSIDE.radiobutton.text
-msgid "~Tile"
-msgstr "~Nebeneinander"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_UPDOWN.radiobutton.text
-msgid "St~agger odd"
-msgstr "~Hoch-tief versetzt"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_DOWNUP.radiobutton.text
-msgid "Stagger ~even"
-msgstr "~Tief-hoch versetzt"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_AUTOORDER.radiobutton.text
-msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.RB_AXIS_LABEL_AUTOORDER.radiobutton.text"
-msgid "A~utomatic"
-msgstr "~Automatisch"
-
-#: tp_AxisLabel.src%23TP_AXIS_LABEL.FT_AXIS_TEXTDIR.fixedtext.text
-msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FT_AXIS_TEXTDIR.fixedtext.text"
-msgid "Te~xt direction"
-msgstr "Schreib~richtung"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.FT_CHARTTYPE.fixedtext.text
-msgid "Choose a chart type"
-msgstr "Bitte wählen Sie einen Diagrammtyp"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.CB_X_AXIS_CATEGORIES.checkbox.text
-msgid "X axis with Categories"
-msgstr "X-Achse mit Kategorien"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.CB_3D_LOOK.checkbox.text
-msgid "~3D Look"
-msgstr "~3D-Darstellung"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.CB_STACKED.checkbox.text
-msgid "~Stack series"
-msgstr "~Datenreihen stapeln"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Y.radiobutton.text
-msgid "On top"
-msgstr "Übereinander"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Y_PERCENT.radiobutton.text
-msgid "Percent"
-msgstr "Prozentual"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.RB_STACK_Z.radiobutton.text
-msgctxt "tp_ChartType.src#TP_CHARTTYPE.RB_STACK_Z.radiobutton.text"
-msgid "Deep"
-msgstr "Hintereinander"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.CB_SPLINES.checkbox.text
-msgid "S~mooth lines"
-msgstr "Ku~rvenglättung"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.PB_SPLINE_DIALOG.pushbutton.text
-msgid "Properties..."
-msgstr "Eigenschaften …"
-
-#: tp_ChartType.src%23TP_CHARTTYPE.CB_XVALUE_SORTING.checkbox.text
-msgid "~Sort by X values"
-msgstr "~Nach X-Werten sortieren"
-
-#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.RB_SPLINES_CUBIC.radiobutton.text
-msgid "Cubic spline"
-msgstr "Kubischer Spline"
-
-#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.RB_SPLINES_B.radiobutton.text
-msgid "B-Spline"
-msgstr "B-Spline"
-
-#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.FT_SPLINE_RESOLUTION.fixedtext.text
-msgid "~Resolution"
-msgstr "~Auflösung"
-
-#: tp_ChartType.src%23DLG_SPLINE_PROPERTIES.FT_SPLINE_ORDER.fixedtext.text
-msgid "~Degree of polynomials"
-msgstr "~Grad der Polynome"
-
-#: tp_LegendPosition.src%23TP_LEGEND_POS.GRP_LEGEND.fixedline.text
-msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.GRP_LEGEND.fixedline.text"
-msgid "Position"
-msgstr "Anordnung"
-
-#: tp_LegendPosition.src%23TP_LEGEND_POS.FL_LEGEND_TEXTORIENT.fixedline.text
-msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.FL_LEGEND_TEXTORIENT.fixedline.text"
-msgid "Text orientation"
-msgstr "Schreibrichtung"
-
-#: tp_LegendPosition.src%23TP_LEGEND_POS.FT_LEGEND_TEXTDIR.fixedtext.text
-msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.FT_LEGEND_TEXTDIR.fixedtext.text"
-msgid "Te~xt direction"
-msgstr "Schreib~richtung"
-
 #: tp_AxisPositions.src%23TP_AXIS_POSITIONS.FL_AXIS_LINE.fixedline.text
 msgid "Axis line"
 msgstr "Achsenlinie"
@@ -925,73 +1094,20 @@ msgstr "~Hilfsgitter anzeigen"
 msgid "Mor~e..."
 msgstr "~Mehr …"
 
-#: Strings_Statistic.src%23STR_INDICATE_BOTH.string.text
-msgid "Negative and Positive"
-msgstr "Negativ und Positiv"
+#: tp_LegendPosition.src%23TP_LEGEND_POS.GRP_LEGEND.fixedline.text
+msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.GRP_LEGEND.fixedline.text"
+msgid "Position"
+msgstr "Anordnung"
 
-#: Strings_Statistic.src%23STR_INDICATE_DOWN.string.text
-msgid "Negative"
-msgstr "Negativ"
+#: tp_LegendPosition.src%23TP_LEGEND_POS.FL_LEGEND_TEXTORIENT.fixedline.text
+msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.FL_LEGEND_TEXTORIENT.fixedline.text"
+msgid "Text orientation"
+msgstr "Schreibrichtung"
 
-#: Strings_Statistic.src%23STR_INDICATE_UP.string.text
-msgid "Positive"
-msgstr "Positiv"
-
-#: Strings_Statistic.src%23STR_CONTROLTEXT_ERROR_BARS_FROM_DATA.string.text
-msgid "From Data Table"
-msgstr "Aus Datentabelle"
-
-#: Strings_Statistic.src%23STR_REGRESSION_LINEAR.string.text
-msgid "Linear (%SERIESNAME)"
-msgstr "Linear (%SERIESNAME)"
-
-#: Strings_Statistic.src%23STR_REGRESSION_LOG.string.text
-msgid "Logarithmic (%SERIESNAME)"
-msgstr "Logarithmisch (%SERIESNAME)"
-
-#: Strings_Statistic.src%23STR_REGRESSION_EXP.string.text
-msgid "Exponential (%SERIESNAME)"
-msgstr "Exponentiell (%SERIESNAME)"
-
-#: Strings_Statistic.src%23STR_REGRESSION_POWER.string.text
-msgid "Power (%SERIESNAME)"
-msgstr "Potenziell (%SERIESNAME)"
-
-#: Strings_Statistic.src%23STR_REGRESSION_MEAN.string.text
-msgid "Mean (%SERIESNAME)"
-msgstr "Mittelwert (%SERIESNAME)"
-
-#: tp_Location.src%23TP_LOCATION.FL_TABLE.fixedline.text
-msgid "Place chart"
-msgstr "Positioniere Diagramm"
-
-#: tp_Location.src%23TP_LOCATION.FT_TABLE.fixedtext.text
-msgid "~Insert in sheet"
-msgstr "~Einfügen in Tabelle"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.FT_CAPTION_FOR_WIZARD.fixedtext.text
-msgid "Choose a data range"
-msgstr "Wählen Sie den Datenbereich"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.FT_RANGE.fixedtext.text
-msgid "~Data range"
-msgstr "~Datenbereich"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.RB_DATAROWS.radiobutton.text
-msgid "Data series in ~rows"
-msgstr "Datenreihen in ~Zeilen"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.RB_DATACOLS.radiobutton.text
-msgid "Data series in ~columns"
-msgstr "Datenreihen in ~Spalten"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.CB_FIRST_ROW_ASLABELS.checkbox.text
-msgid "~First row as label"
-msgstr "~Erste Zeile als Beschriftung"
-
-#: tp_RangeChooser.src%23TP_RANGECHOOSER.CB_FIRST_COLUMN_ASLABELS.checkbox.text
-msgid "F~irst column as label"
-msgstr "E~rste Spalte als Beschriftung"
+#: tp_LegendPosition.src%23TP_LEGEND_POS.FT_LEGEND_TEXTDIR.fixedtext.text
+msgctxt "tp_LegendPosition.src#TP_LEGEND_POS.FT_LEGEND_TEXTDIR.fixedtext.text"
+msgid "Te~xt direction"
+msgstr "Schreib~richtung"
 
 #: tp_Scale.src%23STR_LIST_TIME_UNIT.1.stringlist.text
 msgid "Days"
@@ -1089,124 +1205,66 @@ msgctxt "tp_Scale.src#TP_SCALE.CBX_AUTO_ORIGIN.checkbox.text"
 msgid "Automat~ic"
 msgstr "Au~tomatisch"
 
-#: Strings_ChartTypes.src%23STR_TYPE_COLUMN.string.text
-msgid "Column"
-msgstr "Säulen"
+#: tp_PolarOptions.src%23TP_POLAROPTIONS.CB_CLOCKWISE.checkbox.text
+msgid "~Clockwise direction"
+msgstr "Im ~Uhrzeigersinn"
 
-#: Strings_ChartTypes.src%23STR_TYPE_BAR.string.text
-msgid "Bar"
-msgstr "Balken"
+#: tp_PolarOptions.src%23TP_POLAROPTIONS.FL_STARTING_ANGLE.fixedline.text
+msgid "Starting angle"
+msgstr "Startwinkel"
 
-#: Strings_ChartTypes.src%23STR_TYPE_AREA.string.text
-msgctxt "Strings_ChartTypes.src#STR_TYPE_AREA.string.text"
-msgid "Area"
-msgstr "Fläche"
+#: tp_PolarOptions.src%23TP_POLAROPTIONS.FT_ROTATION_DEGREES.fixedtext.text
+msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.FT_ROTATION_DEGREES.fixedtext.text"
+msgid "~Degrees"
+msgstr "~Grad"
 
-#: Strings_ChartTypes.src%23STR_TYPE_PIE.string.text
-msgid "Pie"
-msgstr "Kreis"
+#: tp_PolarOptions.src%23TP_POLAROPTIONS.FL_PLOT_OPTIONS_POLAR.fixedline.text
+msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.FL_PLOT_OPTIONS_POLAR.fixedline.text"
+msgid "Plot options"
+msgstr "Darstellungsoptionen"
 
-#: Strings_ChartTypes.src%23STR_PIE_EXPLODED.string.text
-msgid "Exploded Pie Chart"
-msgstr "Explodiertes Kreisdiagramm"
+#: tp_PolarOptions.src%23TP_POLAROPTIONS.CB_INCLUDE_HIDDEN_CELLS_POLAR.checkbox.text
+msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.CB_INCLUDE_HIDDEN_CELLS_POLAR.checkbox.text"
+msgid "Include ~values from hidden cells"
+msgstr "Werte ausgeblendeter Zellen einbeziehen"
 
-#: Strings_ChartTypes.src%23STR_DONUT_EXPLODED.string.text
-msgid "Exploded Donut Chart"
-msgstr "Explodiertes Ringdiagramm"
+#: Strings_Scale.src%23STR_INVALID_NUMBER.string.text
+msgid "Numbers are required. Check your input."
+msgstr "Es werden Zahlenwerte benötigt. Bitte überprüfen Sie die Eingabe."
 
-#: Strings_ChartTypes.src%23STR_DONUT.string.text
-msgid "Donut"
-msgstr "Ringe"
+#: Strings_Scale.src%23STR_STEP_GT_ZERO.string.text
+msgid "The major interval requires a positive number. Check your input."
+msgstr ""
+"Das Hauptintervall benötigt einen positiven Zahlenwert. Bitte überprüfen Sie "
+"die Eingabe."
 
-#: Strings_ChartTypes.src%23STR_TYPE_LINE.string.text
-msgctxt "Strings_ChartTypes.src#STR_TYPE_LINE.string.text"
-msgid "Line"
-msgstr "Linien"
+#: Strings_Scale.src%23STR_BAD_LOGARITHM.string.text
+msgid "The logarithmic scale requires positive numbers. Check your input."
+msgstr ""
+"Für die logarithmische Darstellung werden positive Zahlenwerte benötigt. "
+"Bitte überprüfen Sie die Eingabe."
 
-#: Strings_ChartTypes.src%23STR_TYPE_XY.string.text
-msgid "XY (Scatter)"
-msgstr "XY (Streudiagramm)"
+#: Strings_Scale.src%23STR_MIN_GREATER_MAX.string.text
+msgid "The minimum must be lower than the maximum. Check your input."
+msgstr ""
+"Der Mindestwert muss unter dem Höchstwert liegen. Prüfen Sie die "
+"eingegebenen Werte."
 
-#: Strings_ChartTypes.src%23STR_POINTS_AND_LINES.string.text
-msgid "Points and Lines"
-msgstr "Punkte und Linien"
+#: Strings_Scale.src%23STR_INVALID_INTERVALS.string.text
+msgid ""
+"The major interval needs to be greater than the minor interval. Check your "
+"input."
+msgstr ""
+"Der Maximalwert muss über dem Minimalwert liegen. Prüfen Sie die "
+"eingegebenen Werte."
 
-#: Strings_ChartTypes.src%23STR_POINTS_ONLY.string.text
-msgid "Points Only"
-msgstr "Nur Punkte"
-
-#: Strings_ChartTypes.src%23STR_LINES_ONLY.string.text
-msgid "Lines Only"
-msgstr "Nur Linien"
-
-#: Strings_ChartTypes.src%23STR_LINES_3D.string.text
-msgid "3D Lines"
-msgstr "3D-Linien"
-
-#: Strings_ChartTypes.src%23STR_TYPE_COMBI_COLUMN_LINE.string.text
-msgid "Column and Line"
-msgstr "Säulen und Linien"
-
-#: Strings_ChartTypes.src%23STR_LINE_COLUMN.string.text
-msgid "Columns and Lines"
-msgstr "Säulen und Linien"
-
-#: Strings_ChartTypes.src%23STR_LINE_STACKEDCOLUMN.string.text
-msgid "Stacked Columns and Lines"
-msgstr "Gestapelte Säulen und Linien"
-
-#: Strings_ChartTypes.src%23STR_TYPE_NET.string.text
-msgid "Net"
-msgstr "Netz"
-
-#: Strings_ChartTypes.src%23STR_TYPE_STOCK.string.text
-msgid "Stock"
-msgstr "Kurs"
-
-#: Strings_ChartTypes.src%23STR_STOCK_1.string.text
-msgid "Stock Chart 1"
-msgstr "Kursdiagramm 1"
-
-#: Strings_ChartTypes.src%23STR_STOCK_2.string.text
-msgid "Stock Chart 2"
-msgstr "Kursdiagramm 2"
-
-#: Strings_ChartTypes.src%23STR_STOCK_3.string.text
-msgid "Stock Chart 3"
-msgstr "Kursdiagramm 3"
-
-#: Strings_ChartTypes.src%23STR_STOCK_4.string.text
-msgid "Stock Chart 4"
-msgstr "Kursdiagramm 4"
-
-#: Strings_ChartTypes.src%23STR_NORMAL.string.text
-msgid "Normal"
-msgstr "Normal"
-
-#: Strings_ChartTypes.src%23STR_STACKED.string.text
-msgid "Stacked"
-msgstr "Gestapelt"
-
-#: Strings_ChartTypes.src%23STR_PERCENT.string.text
-msgid "Percent Stacked"
-msgstr "Prozentual gestapelt"
-
-#: Strings_ChartTypes.src%23STR_DEEP.string.text
-msgctxt "Strings_ChartTypes.src#STR_DEEP.string.text"
-msgid "Deep"
-msgstr "Tief"
-
-#: Strings_ChartTypes.src%23STR_FILLED.string.text
-msgid "Filled"
-msgstr "Ausgefüllt"
-
-#: Strings_ChartTypes.src%23STR_TYPE_BUBBLE.string.text
-msgid "Bubble"
-msgstr "Blasen"
-
-#: Strings_ChartTypes.src%23STR_BUBBLE_1.string.text
-msgid "Bubble Chart"
-msgstr "Blasendiagramm"
+#: Strings_Scale.src%23STR_INVALID_TIME_UNIT.string.text
+msgid ""
+"The major and minor interval need to be greater or equal to the resolution. "
+"Check your input."
+msgstr ""
+"Das Haupt- und Mindestintervall muss gleich oder größer sein als die "
+"Auflösung. Bitte prüfen Sie die Eingabe."
 
 #: tp_DataSource.src%23TP_DATA_SOURCE.FT_CAPTION_FOR_WIZARD.fixedtext.text
 msgid "Customize data ranges for individual data series"
@@ -1240,6 +1298,26 @@ msgstr "~Hinzufügen"
 msgid "~Remove"
 msgstr "~Entfernen"
 
+#: tp_Wizard_TitlesAndObjects.src%23TP_WIZARD_TITLEANDOBJECTS.FT_TITLEDESCRIPTION.fixedtext.text
+msgid "Choose titles, legend, and grid settings"
+msgstr "Wählen Sie Titel, Legenden- und Gittereinstellungen"
+
+#: tp_Wizard_TitlesAndObjects.src%23TP_WIZARD_TITLEANDOBJECTS.FL_GRIDS.fixedline.text
+msgid "Display grids"
+msgstr "Gitter anzeigen"
+
+#: tp_3D_SceneIllumination.src%23TP_3D_SCENEILLUMINATION.FT_LIGHTSOURCE.fixedtext.text
+msgid "~Light source"
+msgstr "~Lichtquelle"
+
+#: tp_3D_SceneIllumination.src%23TP_3D_SCENEILLUMINATION.FT_AMBIENTLIGHT.fixedtext.text
+msgid "~Ambient light"
+msgstr "~Umgebungslicht"
+
+#: tp_3D_SceneIllumination.src%23STR_LIGHT_PREVIEW.string.text
+msgid "Light Preview"
+msgstr "Beleuchtung Vorschau"
+
 #: res_TextSeparator.src%23LB_TEXT_SEPARATOR.1.stringlist.text
 msgid "Space"
 msgstr "Leerzeichen"
@@ -1255,6 +1333,63 @@ msgstr "Semikolon"
 #: res_TextSeparator.src%23LB_TEXT_SEPARATOR.4.stringlist.text
 msgid "New line"
 msgstr "Zeilenumbruch"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_SCHOW_DESCR.checkbox.text
+msgid "Sho~w labels"
+msgstr "~Beschriftung anzeigen"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_ORIENTATION.fixedline.text
+msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FL_AXIS_LABEL_ORIENTATION.fixedline.text"
+msgid "Text orientation"
+msgstr "Schreibrichtung"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.PB_AXIS_LABEL_TEXTSTACKED.tristatebox.text
+msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.PB_AXIS_LABEL_TEXTSTACKED.tristatebox.text"
+msgid "Ve~rtically stacked"
+msgstr "~Senkrecht gestapelt"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.FT_AXIS_LABEL_DEGREES.fixedtext.text
+msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FT_AXIS_LABEL_DEGREES.fixedtext.text"
+msgid "~Degrees"
+msgstr "~Grad"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_TEXTFLOW.fixedline.text
+msgid "Text flow"
+msgstr "Textfluss"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_TEXTOVERLAP.checkbox.text
+msgid "O~verlap"
+msgstr "~Überlappend"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.CB_AXIS_LABEL_TEXTBREAK.checkbox.text
+msgid "~Break"
+msgstr "~Umbruch"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.FL_AXIS_LABEL_ORDER.fixedline.text
+msgid "Order"
+msgstr "Anordnung"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_SIDEBYSIDE.radiobutton.text
+msgid "~Tile"
+msgstr "~Nebeneinander"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_UPDOWN.radiobutton.text
+msgid "St~agger odd"
+msgstr "~Hoch-tief versetzt"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_DOWNUP.radiobutton.text
+msgid "Stagger ~even"
+msgstr "~Tief-hoch versetzt"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.RB_AXIS_LABEL_AUTOORDER.radiobutton.text
+msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.RB_AXIS_LABEL_AUTOORDER.radiobutton.text"
+msgid "A~utomatic"
+msgstr "~Automatisch"
+
+#: tp_AxisLabel.src%23TP_AXIS_LABEL.FT_AXIS_TEXTDIR.fixedtext.text
+msgctxt "tp_AxisLabel.src#TP_AXIS_LABEL.FT_AXIS_TEXTDIR.fixedtext.text"
+msgid "Te~xt direction"
+msgstr "Schreib~richtung"
 
 #: dlg_InsertAxis_Grid.src%23DLG_AXIS_OR_GRID.FL_PRIMARY_AXIS.fixedline.text
 msgctxt "dlg_InsertAxis_Grid.src#DLG_AXIS_OR_GRID.FL_PRIMARY_AXIS.fixedline.text"
@@ -1288,192 +1423,57 @@ msgstr "Sekundäre Achsen"
 msgid "Minor grids"
 msgstr "Hilfsgitter"
 
-#: res_BarGeometry.src%23LB_BAR_GEOMETRY.1.stringlist.text
-msgid "Box"
-msgstr "Quader"
+#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.FT_SCHEME.fixedtext.text
+msgid "Sche~me"
+msgstr "Sche~ma"
 
-#: res_BarGeometry.src%23LB_BAR_GEOMETRY.2.stringlist.text
-msgid "Cylinder"
-msgstr "Zylinder"
+#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_SHADING.checkbox.text
+msgid "~Shading"
+msgstr "~Schattierung"
 
-#: res_BarGeometry.src%23LB_BAR_GEOMETRY.3.stringlist.text
-msgid "Cone"
-msgstr "Kegel"
+#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_OBJECTLINES.checkbox.text
+msgid "~Object borders"
+msgstr "~Objektumrandungen"
 
-#: res_BarGeometry.src%23LB_BAR_GEOMETRY.4.stringlist.text
-msgid "Pyramid"
-msgstr "Pyramiden"
+#: tp_3D_SceneAppearance.src%23TP_3D_SCENEAPPEARANCE.CB_ROUNDEDEDGE.checkbox.text
+msgid "~Rounded edges"
+msgstr "~Kantenrundung"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_ROW.toolboxitem.text
-msgid "Insert Row"
-msgstr "Zeile einfügen"
+#: Strings_Statistic.src%23STR_INDICATE_BOTH.string.text
+msgid "Negative and Positive"
+msgstr "Negativ und Positiv"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_COL.toolboxitem.text
-msgid "Insert Series"
-msgstr "Datenreihe einfügen"
+#: Strings_Statistic.src%23STR_INDICATE_DOWN.string.text
+msgid "Negative"
+msgstr "Negativ"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_INSERT_TEXT_COL.toolboxitem.text
-msgid "Insert Text Column"
-msgstr "Textspalte einfügen"
+#: Strings_Statistic.src%23STR_INDICATE_UP.string.text
+msgid "Positive"
+msgstr "Positiv"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_DELETE_ROW.toolboxitem.text
-msgid "Delete Row"
-msgstr "Zeile löschen"
+#: Strings_Statistic.src%23STR_CONTROLTEXT_ERROR_BARS_FROM_DATA.string.text
+msgid "From Data Table"
+msgstr "Aus Datentabelle"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_DELETE_COL.toolboxitem.text
-msgid "Delete Series"
-msgstr "Datenreihe löschen"
+#: Strings_Statistic.src%23STR_REGRESSION_LINEAR.string.text
+msgid "Linear (%SERIESNAME)"
+msgstr "Linear (%SERIESNAME)"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_SWAP_COL.toolboxitem.text
-msgid "Move Series Right"
-msgstr "Datenreihen nach rechts verschieben"
+#: Strings_Statistic.src%23STR_REGRESSION_LOG.string.text
+msgid "Logarithmic (%SERIESNAME)"
+msgstr "Logarithmisch (%SERIESNAME)"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.TBX_DATA.TBI_DATA_SWAP_ROW.toolboxitem.text
-msgid "Move Row Down"
-msgstr "Zeile nach unten verschieben"
+#: Strings_Statistic.src%23STR_REGRESSION_EXP.string.text
+msgid "Exponential (%SERIESNAME)"
+msgstr "Exponentiell (%SERIESNAME)"
 
-#: dlg_DataEditor.src%23DLG_DIAGRAM_DATA.modaldialog.text
-msgid "Data Table"
-msgstr "Datentabelle"
+#: Strings_Statistic.src%23STR_REGRESSION_POWER.string.text
+msgid "Power (%SERIESNAME)"
+msgstr "Potenziell (%SERIESNAME)"
 
-#: dlg_View3D.src%23DLG_3D_VIEW.tabdialog.text
-msgid "3D View"
-msgstr "3D-Ansicht"
-
-#: Strings_AdditionalControls.src%23STR_3DSCHEME_SIMPLE.string.text
-msgid "Simple"
-msgstr "Einfach"
-
-#: Strings_AdditionalControls.src%23STR_3DSCHEME_REALISTIC.string.text
-msgid "Realistic"
-msgstr "Realistisch"
-
-#: Strings_AdditionalControls.src%23STR_3DSCHEME_CUSTOM.string.text
-msgid "Custom"
-msgstr "Benutzerdefiniert"
-
-#: Strings_AdditionalControls.src%23STR_BAR_GEOMETRY.string.text
-msgid "Shape"
-msgstr "Form"
-
-#: Strings_AdditionalControls.src%23STR_NUMBER_OF_LINES.string.text
-msgid "~Number of lines"
-msgstr "Anzahl an ~Linien"
-
-#: Strings_AdditionalControls.src%23STR_TEXT_SEPARATOR.string.text
-msgid "Separator"
-msgstr "Trenner"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.1.fixedline.text
-msgid "Align data series to"
-msgstr "Datenreihe ausrichten an"
-
-# Hier ist "ausrichten an" gemeint
-#: tp_SeriesToAxis.src%23TP_OPTIONS.RBT_OPT_AXIS_1.radiobutton.text
-msgid "Primary Y axis"
-msgstr "Primärer Y-Achse"
-
-# Hier ist "ausrichten an:" gemeint
-#: tp_SeriesToAxis.src%23TP_OPTIONS.RBT_OPT_AXIS_2.radiobutton.text
-msgid "Secondary Y axis"
-msgstr "Sekundärer Y-Achse"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.GB_BAR.fixedline.text
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_OVERLAP.fixedtext.text
-msgid "~Overlap"
-msgstr "Übe~rlappung"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_GAP.fixedtext.text
-msgid "~Spacing"
-msgstr "~Abstand"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_CONNECTOR.checkbox.text
-msgid "Connection lines"
-msgstr "Verbindungslinien"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_BARS_SIDE_BY_SIDE.checkbox.text
-msgid "Show ~bars side by side"
-msgstr "~Balken nebeneinander darstellen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.FL_PLOT_OPTIONS.fixedline.text
-msgctxt "tp_SeriesToAxis.src#TP_OPTIONS.FL_PLOT_OPTIONS.fixedline.text"
-msgid "Plot options"
-msgstr "Darstellungsoptionen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.FT_MISSING_VALUES.fixedtext.text
-msgid "Plot missing values"
-msgstr "Fehlende Werte darstellen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_DONT_PAINT.radiobutton.text
-msgid "~Leave gap"
-msgstr "~Lücke lassen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_ASSUME_ZERO.radiobutton.text
-msgid "~Assume zero"
-msgstr "~Null annehmen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.RB_CONTINUE_LINE.radiobutton.text
-msgid "~Continue line"
-msgstr "Linie ~fortsetzen"
-
-#: tp_SeriesToAxis.src%23TP_OPTIONS.CB_INCLUDE_HIDDEN_CELLS.checkbox.text
-msgctxt "tp_SeriesToAxis.src#TP_OPTIONS.CB_INCLUDE_HIDDEN_CELLS.checkbox.text"
-msgid "Include ~values from hidden cells"
-msgstr "~Werte ausgeblendeter Zellen einbeziehen"
-
-#: dlg_DataSource.src%23DLG_DATA_SOURCE.tabdialog.text
-msgid "Data Ranges"
-msgstr "Datenbereiche"
-
-#: tp_3D_SceneGeometry.src%23CUSTOMUNITTEXT_DEGREE.%23define.text
-msgid " degrees"
-msgstr " Grad"
-
-#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.CBX_RIGHT_ANGLED_AXES.checkbox.text
-msgid "~Right-angled axes"
-msgstr "~Rechtwinklige Achsen"
-
-#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_X_ROTATION.fixedtext.text
-msgid "~X rotation"
-msgstr "~X Rotation"
-
-#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_Y_ROTATION.fixedtext.text
-msgid "~Y rotation"
-msgstr "~Y Rotation"
-
-#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.FT_Z_ROTATION.fixedtext.text
-msgid "~Z rotation"
-msgstr "~Z Rotation"
-
-#: tp_3D_SceneGeometry.src%23TP_3D_SCENEGEOMETRY.CBX_PERSPECTIVE.checkbox.text
-msgid "~Perspective"
-msgstr "~Perspektive"
-
-#: tp_PolarOptions.src%23TP_POLAROPTIONS.CB_CLOCKWISE.checkbox.text
-msgid "~Clockwise direction"
-msgstr "Im ~Uhrzeigersinn"
-
-#: tp_PolarOptions.src%23TP_POLAROPTIONS.FL_STARTING_ANGLE.fixedline.text
-msgid "Starting angle"
-msgstr "Startwinkel"
-
-#: tp_PolarOptions.src%23TP_POLAROPTIONS.FT_ROTATION_DEGREES.fixedtext.text
-msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.FT_ROTATION_DEGREES.fixedtext.text"
-msgid "~Degrees"
-msgstr "~Grad"
-
-#: tp_PolarOptions.src%23TP_POLAROPTIONS.FL_PLOT_OPTIONS_POLAR.fixedline.text
-msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.FL_PLOT_OPTIONS_POLAR.fixedline.text"
-msgid "Plot options"
-msgstr "Darstellungsoptionen"
-
-#: tp_PolarOptions.src%23TP_POLAROPTIONS.CB_INCLUDE_HIDDEN_CELLS_POLAR.checkbox.text
-msgctxt "tp_PolarOptions.src#TP_POLAROPTIONS.CB_INCLUDE_HIDDEN_CELLS_POLAR.checkbox.text"
-msgid "Include ~values from hidden cells"
-msgstr "Werte ausgeblendeter Zellen einbeziehen"
+#: Strings_Statistic.src%23STR_REGRESSION_MEAN.string.text
+msgid "Mean (%SERIESNAME)"
+msgstr "Mittelwert (%SERIESNAME)"
 
 #: res_SecondaryAxisCheckBoxes_tmpl.hrc%23SECONDARYAXISCHECKBOXES__xpos__ypos__xOffset__yOffset__.CB_X_SECONDARY.checkbox.text
 msgctxt "res_SecondaryAxisCheckBoxes_tmpl.hrc#SECONDARYAXISCHECKBOXES__xpos__ypos__xOffset__yOffset__.CB_X_SECONDARY.checkbox.text"
@@ -1488,113 +1488,6 @@ msgstr "Y-A~chse"
 #: res_SecondaryAxisCheckBoxes_tmpl.hrc%23SECONDARYAXISCHECKBOXES__xpos__ypos__xOffset__yOffset__.CB_Z_SECONDARY.checkbox.text
 msgid "Z axi~s"
 msgstr "Z-Ach~se"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_TYPE.fixedline.text
-msgid "Regression Type"
-msgstr "Regressionstyp"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_NONE.radiobutton.text
-msgctxt "res_Trendline_tmpl.hrc#RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_NONE.radiobutton.text"
-msgid "~None"
-msgstr "Kei~ne"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_LINEAR.radiobutton.text
-msgid "~Linear"
-msgstr "~Linear"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_LOGARITHMIC.radiobutton.text
-msgid "L~ogarithmic"
-msgstr "L~ogarithmisch"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_EXPONENTIAL.radiobutton.text
-msgid "E~xponential"
-msgstr "E~xponentiell"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_POWER.radiobutton.text
-msgid "~Power"
-msgstr "~Potenziell"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_EQUATION.fixedline.text
-msgctxt "res_Trendline_tmpl.hrc#RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_EQUATION.fixedline.text"
-msgid "Equation"
-msgstr "Gleichung"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.CB_SHOW_EQUATION.checkbox.text
-msgid "Show ~equation"
-msgstr "~Gleichung anzeigen"
-
-#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.CB_SHOW_CORRELATION_COEFF.checkbox.text
-msgid "Show ~coefficient of determination (R²)"
-msgstr "~Bestimmtheitsmaß (R²) anzeigen"
-
-#: res_ErrorBar_tmpl.hrc%23WORKAROUND.1.stringlist.text
-msgid "Standard Error"
-msgstr "Standardfehler"
-
-#: res_ErrorBar_tmpl.hrc%23WORKAROUND.2.stringlist.text
-msgid "Standard Deviation"
-msgstr "Standardabweichung"
-
-#: res_ErrorBar_tmpl.hrc%23WORKAROUND.3.stringlist.text
-msgid "Variance"
-msgstr "Varianz"
-
-#: res_ErrorBar_tmpl.hrc%23WORKAROUND.4.stringlist.text
-msgid "Error Margin"
-msgstr "Größter Fehler"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_ERROR.fixedline.text
-msgid "Error Category"
-msgstr "Fehlerkategorie"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NONE.radiobutton.text
-msgctxt "res_ErrorBar_tmpl.hrc#RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NONE.radiobutton.text"
-msgid "~None"
-msgstr "Kei~ne"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_CONST.radiobutton.text
-msgid "~Constant Value"
-msgstr "~Konstanter Wert"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_PERCENT.radiobutton.text
-msgid "~Percentage"
-msgstr "~Prozentual"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_RANGE.radiobutton.text
-msgid "Cell ~Range"
-msgstr "Zell~bereich"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_PARAMETERS.fixedline.text
-msgid "Parameters"
-msgstr "Parameter"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FT_POSITIVE.fixedtext.text
-msgid "P~ositive (+)"
-msgstr "P~ositiv (+)"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FT_NEGATIVE.fixedtext.text
-msgid "~Negative (-)"
-msgstr "~Negativ (-)"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.CB_SYN_POS_NEG.checkbox.text
-msgid "Same value for both"
-msgstr "Beide Seiten gleich"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_INDICATE.fixedline.text
-msgid "Error Indicator"
-msgstr "Fehlerindikator"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_BOTH.radiobutton.text
-msgid "Positive ~and Negative"
-msgstr "Positiv ~und Negativ"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_POSITIVE.radiobutton.text
-msgid "Pos~itive"
-msgstr "Pos~itiv"
-
-#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NEGATIVE.radiobutton.text
-msgid "Ne~gative"
-msgstr "Ne~gativ"
 
 #: res_LegendPosition_tmpl.hrc%23RESOURCE_LEGENDDISPLAY__xpos___ypos__.CBX_SHOWLEGEND.checkbox.text
 msgid "~Display legend"
@@ -1751,3 +1644,110 @@ msgstr "Gra~d"
 msgctxt "res_DataLabel_tmpl.hrc#RESOURCE_DATALABEL__xpos__ypos__.FT_LABEL_TEXTDIR.fixedtext.text"
 msgid "Te~xt direction"
 msgstr "Schreib~richtung"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_TYPE.fixedline.text
+msgid "Regression Type"
+msgstr "Regressionstyp"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_NONE.radiobutton.text
+msgctxt "res_Trendline_tmpl.hrc#RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_NONE.radiobutton.text"
+msgid "~None"
+msgstr "Kei~ne"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_LINEAR.radiobutton.text
+msgid "~Linear"
+msgstr "~Linear"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_LOGARITHMIC.radiobutton.text
+msgid "L~ogarithmic"
+msgstr "L~ogarithmisch"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_EXPONENTIAL.radiobutton.text
+msgid "E~xponential"
+msgstr "E~xponentiell"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.RB_POWER.radiobutton.text
+msgid "~Power"
+msgstr "~Potenziell"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_EQUATION.fixedline.text
+msgctxt "res_Trendline_tmpl.hrc#RESOURCE_TRENDLINE_availablewidth__yoffset_.FL_EQUATION.fixedline.text"
+msgid "Equation"
+msgstr "Gleichung"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.CB_SHOW_EQUATION.checkbox.text
+msgid "Show ~equation"
+msgstr "~Gleichung anzeigen"
+
+#: res_Trendline_tmpl.hrc%23RESOURCE_TRENDLINE_availablewidth__yoffset_.CB_SHOW_CORRELATION_COEFF.checkbox.text
+msgid "Show ~coefficient of determination (R²)"
+msgstr "~Bestimmtheitsmaß (R²) anzeigen"
+
+#: res_ErrorBar_tmpl.hrc%23WORKAROUND.1.stringlist.text
+msgid "Standard Error"
+msgstr "Standardfehler"
+
+#: res_ErrorBar_tmpl.hrc%23WORKAROUND.2.stringlist.text
+msgid "Standard Deviation"
+msgstr "Standardabweichung"
+
+#: res_ErrorBar_tmpl.hrc%23WORKAROUND.3.stringlist.text
+msgid "Variance"
+msgstr "Varianz"
+
+#: res_ErrorBar_tmpl.hrc%23WORKAROUND.4.stringlist.text
+msgid "Error Margin"
+msgstr "Größter Fehler"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_ERROR.fixedline.text
+msgid "Error Category"
+msgstr "Fehlerkategorie"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NONE.radiobutton.text
+msgctxt "res_ErrorBar_tmpl.hrc#RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NONE.radiobutton.text"
+msgid "~None"
+msgstr "Kei~ne"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_CONST.radiobutton.text
+msgid "~Constant Value"
+msgstr "~Konstanter Wert"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_PERCENT.radiobutton.text
+msgid "~Percentage"
+msgstr "~Prozentual"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_RANGE.radiobutton.text
+msgid "Cell ~Range"
+msgstr "Zell~bereich"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_PARAMETERS.fixedline.text
+msgid "Parameters"
+msgstr "Parameter"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FT_POSITIVE.fixedtext.text
+msgid "P~ositive (+)"
+msgstr "P~ositiv (+)"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FT_NEGATIVE.fixedtext.text
+msgid "~Negative (-)"
+msgstr "~Negativ (-)"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.CB_SYN_POS_NEG.checkbox.text
+msgid "Same value for both"
+msgstr "Beide Seiten gleich"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.FL_INDICATE.fixedline.text
+msgid "Error Indicator"
+msgstr "Fehlerindikator"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_BOTH.radiobutton.text
+msgid "Positive ~and Negative"
+msgstr "Positiv ~und Negativ"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_POSITIVE.radiobutton.text
+msgid "Pos~itive"
+msgstr "Pos~itiv"
+
+#: res_ErrorBar_tmpl.hrc%23RESOURCE_ERRORBARS_availablewidth__yoffset_.RB_NEGATIVE.radiobutton.text
+msgid "Ne~gative"
+msgstr "Ne~gativ"
