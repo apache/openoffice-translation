@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+filter%2Fsource%2Fxs"
 "ltdialog.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-08-21 17:48+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,43 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1566409734.000000\n"
 
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
+msgid "~New..."
+msgstr "Nowy..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "~Edytuj..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
+msgid "~Test XSLTs..."
+msgstr "Testuj ~XSLT..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
+msgid "~Delete..."
+msgstr "Usuń..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
+msgid "~Save as Package..."
+msgstr "~Zapisz jako pakiet..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
+msgid "~Open Package..."
+msgstr "~Otwórz pakiet"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
+msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "Zamknij"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
+msgid "XML Filter Settings"
+msgstr "Ustawienia filtrów XML"
+
+#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
+msgid "XML Filter List"
+msgstr "Lista filtrów XML"
+
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.PB_VALIDATE.pushbutton.text
 msgid "~Validate"
 msgstr "~Waliduj"
@@ -27,20 +64,6 @@ msgstr "~Waliduj"
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.workwindow.text
 msgid "XML Filter output"
 msgstr "Wyjście filtra XML"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
-msgid "General"
-msgstr "Ogólne"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
-msgid "Transformation"
-msgstr "Transformacja"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
-msgid "XML Filter: %s"
-msgstr "Filtr XML: %s"
 
 #: xmlfiltertestdialog.src%23DLG_XML_FILTER_TEST_DIALOG.FL_EXPORT.fixedline.text
 msgid "Export"
@@ -210,6 +233,49 @@ msgstr ""
 "Nie zainstalowany żadnych filtrów XML, ponieważ pakiet '%s' nie zawiera "
 "filtrów XML."
 
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
+msgid "General"
+msgstr "Ogólne"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
+msgid "Transformation"
+msgstr "Transformacja"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
+msgid "XML Filter: %s"
+msgstr "Filtr XML: %s"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
+msgid "Filter name"
+msgstr "Nazwa filtra"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
+msgid "Application"
+msgstr "Aplikacja"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
+msgid ""
+"Name of\n"
+"file type"
+msgstr ""
+"Nazwa \n"
+"typu pliku"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
+msgid "File extension"
+msgstr "Rozszerzenie pliku"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
+msgid "Comments"
+msgstr "Komentarz"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
+msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
+msgid "General"
+msgstr "Ogólne"
+
 #: xmlfiltertabpagexslt.src%23RID_XML_FILTER_TABPAGE_XSLT.FT_XML_DOCTYPE.fixedtext.text
 msgid "DocType"
 msgstr "DocType"
@@ -257,72 +323,6 @@ msgstr "Przeglądaj..."
 msgctxt "xmlfiltertabpagexslt.src#RID_XML_FILTER_TABPAGE_XSLT.tabpage.text"
 msgid "Transformation"
 msgstr "Transformacja"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
-msgid "Filter name"
-msgstr "Nazwa filtra"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
-msgid "Application"
-msgstr "Aplikacja"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
-msgid ""
-"Name of\n"
-"file type"
-msgstr ""
-"Nazwa \n"
-"typu pliku"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
-msgid "File extension"
-msgstr "Rozszerzenie pliku"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
-msgid "Comments"
-msgstr "Komentarz"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
-msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
-msgid "General"
-msgstr "Ogólne"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
-msgid "~New..."
-msgstr "Nowy..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "~Edytuj..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
-msgid "~Test XSLTs..."
-msgstr "Testuj ~XSLT..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
-msgid "~Delete..."
-msgstr "Usuń..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
-msgid "~Save as Package..."
-msgstr "~Zapisz jako pakiet..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
-msgid "~Open Package..."
-msgstr "~Otwórz pakiet"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
-msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "Zamknij"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
-msgid "XML Filter Settings"
-msgstr "Ustawienia filtrów XML"
-
-#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
-msgid "XML Filter List"
-msgstr "Lista filtrów XML"
 
 #~ msgid ""
 #~ "The name for  the user interface '%s1' is already used by the XML filter '%"

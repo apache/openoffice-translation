@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sc%2Fsource%2Fui%2Fm"
 "iscdlgs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-04-23 14:54+0000\n"
 "Last-Translator: Matthias <matthias.seidel@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,85 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1556031290.000000\n"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
+msgid "Share this spreadsheet with other users"
+msgstr "Współużytkuj ten arkusz kalkulacyjny z innymi osobami"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_WARNING.fixedtext.text
+msgid ""
+"Note: Changes to formatting attributes like fonts, colors, and number "
+"formats will not be saved and some functionalities like editing charts and "
+"drawing objects are not available in shared mode. Turn off shared mode to "
+"get exclusive access needed for those changes and functionalities."
+msgstr ""
+"Uwaga: W trybie dzielonym zmiany w atrybutach formatowania, takich jak "
+"czcionki, kolory i formaty liczb, nie są zapisywane, a niektóre funkcje, "
+"takie jak edycja wykresów i rysowanie obiektów, nie są dostępne. W celu "
+"uzyskania wyłącznego dostępu, wymaganego do korzystania z tych funkcji i "
+"wprowadzania tych zmian, należy wyłączyć tryb dzielony."
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_USERS.fixedtext.text
+msgid "Users currently accessing this spreadsheet"
+msgstr "Użytkownicy korzystający obecnie z tego arkusza"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_NAME.string.text
+msgid "Name"
+msgstr "Nazwa"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_ACCESSED.string.text
+msgid "Accessed"
+msgstr "Ostatnio używany"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_NO_USER_DATA.string.text
+msgid "No user data available."
+msgstr "Brak dostępnych danych użytkownika."
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text
+msgctxt "sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text"
+msgid "Unknown User"
+msgstr "Nieznany użytkownik"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_EXCLUSIVE_ACCESS.string.text
+msgid "(exclusive access)"
+msgstr "(wyłączny dostęp)"
+
+#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.modaldialog.text
+msgid "Share Document"
+msgstr "Współużytkuj dokument"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT.checkbox.text
+msgid "~Show changes in spreadsheet"
+msgstr "~Pokaż zmiany w arkuszu"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.FL_FILTER.fixedline.text
+msgid "Filter settings"
+msgstr "Ustawienia filtru"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_ACCEPT.checkbox.text
+msgid "Show ~accepted changes"
+msgstr "Pokaż zaak~ceptowane zmiany"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_REJECT.checkbox.text
+msgid "Show ~rejected changes"
+msgstr "Pokaż od~rzucone zmiany"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text
+msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
+msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext"
+msgid "Minimize/Maximize"
+msgstr "Pomniejsz/Powiększ"
+
+#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
+msgid "Show Changes"
+msgstr "Pokaż zmiany"
 
 #: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
 msgid ""
@@ -156,6 +232,78 @@ msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text"
 msgid "Re-type Password"
 msgstr "Wpisz hasło ponownie"
 
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Pozycja"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+msgid "B~efore current sheet"
+msgstr "Przed ~bieżącym arkuszem"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+msgid "~After current sheet"
+msgstr "P~o bieżącym arkuszu"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Sheet"
+msgstr "Arkusz"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+msgid "~New sheet"
+msgstr "~Nowy arkusz"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+msgid "N~o. of sheets"
+msgstr "~Liczba arkuszy"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgid "Na~me"
+msgstr "Naz~wa"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+msgid "~From file"
+msgstr "Z plik~u"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+msgid "~Browse..."
+msgstr "~Przeglądaj..."
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+msgid "Lin~k"
+msgstr "Łąc~z z plikiem"
+
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Sheet"
+msgstr "Wstaw arkusz"
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+msgid "URL of ~external data source"
+msgstr "Adr~es URL zewnętrznego źródła danych"
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
+msgid ""
+"(Enter the URL of the source document in the local file system or Internet "
+"here.)"
+msgstr ""
+"(Adres URL dokumentu źródłowego w lokalnym systemie plików lub w Internecie)"
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+msgid "~Available tables/ranges"
+msgstr "~Dostępne tabele/zakresy"
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+msgid "~Update every"
+msgstr "~Aktualizuj co"
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+msgid "seconds"
+msgstr "sek."
+
+#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
+msgid "External Data"
+msgstr "Zewnętrzne dane"
+
 #: acredlin.src%23RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
 msgid "Range"
 msgstr "Zakres"
@@ -271,85 +419,6 @@ msgstr "Opis"
 msgid "Sorting"
 msgstr "Sortowanie"
 
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-msgid "P~rotect this sheet and the contents of locked cells"
-msgstr "C~hroń ten arkusz oraz zawartość zablokowanych komórek"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
-msgid "~Password"
-msgstr "~Hasło"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
-msgid "~Confirm"
-msgstr "~Potwierdź"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-msgid "Options"
-msgstr "Opcje"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-msgid "Allow all users of this sheet to:"
-msgstr "Pozwól użytkownikom tego arkusza na:"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-msgid "Select locked cells"
-msgstr "Wybierz zablokowane komórki"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-msgid "Select unlocked cells"
-msgstr "Wybierz odblokowane komórki"
-
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
-msgid "Protect Sheet"
-msgstr "Chroń arkusz"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Pozycja"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-msgid "B~efore current sheet"
-msgstr "Przed ~bieżącym arkuszem"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-msgid "~After current sheet"
-msgstr "P~o bieżącym arkuszu"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Sheet"
-msgstr "Arkusz"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-msgid "~New sheet"
-msgstr "~Nowy arkusz"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-msgid "N~o. of sheets"
-msgstr "~Liczba arkuszy"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgid "Na~me"
-msgstr "Naz~wa"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-msgid "~From file"
-msgstr "Z plik~u"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-msgid "~Browse..."
-msgstr "~Przeglądaj..."
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-msgid "Lin~k"
-msgstr "Łąc~z z plikiem"
-
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Sheet"
-msgstr "Wstaw arkusz"
-
 #: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
 msgid ""
 "There are conflicting changes in this shared spreadsheet. Conflicts must be "
@@ -399,105 +468,36 @@ msgstr "Nieznany użytkownik"
 msgid "Resolve Conflicts"
 msgstr "Rozwiąż konflikty"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT.checkbox.text
-msgid "~Show changes in spreadsheet"
-msgstr "~Pokaż zmiany w arkuszu"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+msgid "P~rotect this sheet and the contents of locked cells"
+msgstr "C~hroń ten arkusz oraz zawartość zablokowanych komórek"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.FL_FILTER.fixedline.text
-msgid "Filter settings"
-msgstr "Ustawienia filtru"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
+msgid "~Password"
+msgstr "~Hasło"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_ACCEPT.checkbox.text
-msgid "Show ~accepted changes"
-msgstr "Pokaż zaak~ceptowane zmiany"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
+msgid "~Confirm"
+msgstr "~Potwierdź"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.CB_HIGHLIGHT_REJECT.checkbox.text
-msgid "Show ~rejected changes"
-msgstr "Pokaż od~rzucone zmiany"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+msgid "Options"
+msgstr "Opcje"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text
-msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.text"
-msgid "-"
-msgstr "-"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+msgid "Allow all users of this sheet to:"
+msgstr "Pozwól użytkownikom tego arkusza na:"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext
-msgctxt "highred.src#RID_SCDLG_HIGHLIGHT_CHANGES.RB_ASSIGN.imagebutton.quickhelptext"
-msgid "Minimize/Maximize"
-msgstr "Pomniejsz/Powiększ"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+msgid "Select locked cells"
+msgstr "Wybierz zablokowane komórki"
 
-#: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
-msgid "Show Changes"
-msgstr "Pokaż zmiany"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+msgid "Select unlocked cells"
+msgstr "Wybierz odblokowane komórki"
 
-#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-msgid "URL of ~external data source"
-msgstr "Adr~es URL zewnętrznego źródła danych"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-msgid ""
-"(Enter the URL of the source document in the local file system or Internet "
-"here.)"
-msgstr ""
-"(Adres URL dokumentu źródłowego w lokalnym systemie plików lub w Internecie)"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-msgid "~Available tables/ranges"
-msgstr "~Dostępne tabele/zakresy"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-msgid "~Update every"
-msgstr "~Aktualizuj co"
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-msgid "seconds"
-msgstr "sek."
-
-#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
-msgid "External Data"
-msgstr "Zewnętrzne dane"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
-msgid "Share this spreadsheet with other users"
-msgstr "Współużytkuj ten arkusz kalkulacyjny z innymi osobami"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_WARNING.fixedtext.text
-msgid ""
-"Note: Changes to formatting attributes like fonts, colors, and number "
-"formats will not be saved and some functionalities like editing charts and "
-"drawing objects are not available in shared mode. Turn off shared mode to "
-"get exclusive access needed for those changes and functionalities."
-msgstr ""
-"Uwaga: W trybie dzielonym zmiany w atrybutach formatowania, takich jak "
-"czcionki, kolory i formaty liczb, nie są zapisywane, a niektóre funkcje, "
-"takie jak edycja wykresów i rysowanie obiektów, nie są dostępne. W celu "
-"uzyskania wyłącznego dostępu, wymaganego do korzystania z tych funkcji i "
-"wprowadzania tych zmian, należy wyłączyć tryb dzielony."
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.FT_USERS.fixedtext.text
-msgid "Users currently accessing this spreadsheet"
-msgstr "Użytkownicy korzystający obecnie z tego arkusza"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_NAME.string.text
-msgid "Name"
-msgstr "Nazwa"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_TITLE_ACCESSED.string.text
-msgid "Accessed"
-msgstr "Ostatnio używany"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_NO_USER_DATA.string.text
-msgid "No user data available."
-msgstr "Brak dostępnych danych użytkownika."
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text
-msgctxt "sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.STR_UNKNOWN_USER.string.text"
-msgid "Unknown User"
-msgstr "Nieznany użytkownik"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.STR_EXCLUSIVE_ACCESS.string.text
-msgid "(exclusive access)"
-msgstr "(wyłączny dostęp)"
-
-#: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.modaldialog.text
-msgid "Share Document"
-msgstr "Współużytkuj dokument"
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
+msgid "Protect Sheet"
+msgstr "Chroń arkusz"

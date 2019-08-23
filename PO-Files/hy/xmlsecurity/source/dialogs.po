@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
 "%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-05-14 12:37+0000\n"
 "Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,47 +15,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1557837455.000000\n"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Այս փաստաթուղթը պարունակում է փաստաթղթի մակրոներ, ստորագրված․"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
+msgstr "Ընտրեք ստորագրության համար օգտագործվող հավաստագիրը"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Փաստաթուղթը պարունակում է փաստաթղթի մակրոներ։"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Issued to\tIssued by\tExpiration date"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Դիտեք ստորագրությունները․․․"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Դիտեք հավաստագիրը․․․"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "Ընտրեք հավաստագիրը"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Անվտանգության մակարդակ"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Վստահված աղբյուրներ"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Վերակարգաբերեք"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Մակրոյի անվտանգություն"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"Մակրոները կարող են վիրուսներ պարունակել։ Փաստաթղթի համար մակրոների "
-"արգելափակումը միշտ անվտանգ է։ Եթե արգելափակես մակրոները, դու կկորցնես "
-"փաստաթղթի մակրոների կողմից տրամադրված ֆունկցիոնալությունը։"
+"~Շատ բարձր։\n"
+"Կատարման համար միայն նիշքերի վստահելի վայրերի մակրոներն են թույլատրված։ "
+"Բոլոր մյուս մակրոները, անկախ այն համգամանքից ստորագրված են թե ոչ, "
+"արգելափակված են։"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Միշտ վստահեք այս աղբյուրի մակրոներին"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"Բ~արձր։\n"
+"Կատարման համար միայն վստահելի աղբյուրների մակրոներն են թույլատրված։ "
+"Չստորագրված մակրոներն արգելափակված են։"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Թույլատրեք մակրոները"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"~Միջին։\n"
+"Մինչ չվստահված աղբյուրներից մակրոների կատարումը, պահանջվում է հաստատում։"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Արգելափակեք մակրոները"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"~Ցածր (երաշխավորված չէ)։\n"
+"Բոլոր մակրոները կկատարվեն առանց հաստատման։ Օգտագործեք այս կարգաբերումը "
+"միայն, եթե վստահ ես, որ բոլոր բացվող փաստաթղթերը անվտանգ են։"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Անվտանգության զգուշացում"
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Վստահված վկայագրեր"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Issued to\tIssued by\tExpiration date"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "Ավելացնել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Դիտել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Վստահված նիշքերի տեղաբաշխումներ"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+msgid ""
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr ""
+"Փաստաթղթի մակրոները միշտ կատարվում են, եթե դրանք բացված են հետևյալ "
+"տեղաբաշխումներից որևէ մեկից։"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Ավելացնել․․․"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Այս կարգաբերումը պաշտպանված է Կառավարչի կողմից"
 
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 msgid "General"
@@ -186,127 +270,43 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "Հավաստագիրը հնարավոր չէ նույնականացնել"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr "Ընտրեք ստորագրության համար օգտագործվող հավաստագիրը"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Այս փաստաթուղթը պարունակում է փաստաթղթի մակրոներ, ստորագրված․"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Issued to\tIssued by\tExpiration date"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթի մակրոներ։"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Դիտեք հավաստագիրը․․․"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Դիտեք ստորագրությունները․․․"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "Ընտրեք հավաստագիրը"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Անվտանգության մակարդակ"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Վստահված աղբյուրներ"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Վերակարգաբերեք"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Մակրոյի անվտանգություն"
-
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
 msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
 msgstr ""
-"~Շատ բարձր։\n"
-"Կատարման համար միայն նիշքերի վստահելի վայրերի մակրոներն են թույլատրված։ "
-"Բոլոր մյուս մակրոները, անկախ այն համգամանքից ստորագրված են թե ոչ, "
-"արգելափակված են։"
+"Մակրոները կարող են վիրուսներ պարունակել։ Փաստաթղթի համար մակրոների "
+"արգելափակումը միշտ անվտանգ է։ Եթե արգելափակես մակրոները, դու կկորցնես "
+"փաստաթղթի մակրոների կողմից տրամադրված ֆունկցիոնալությունը։"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"Բ~արձր։\n"
-"Կատարման համար միայն վստահելի աղբյուրների մակրոներն են թույլատրված։ "
-"Չստորագրված մակրոներն արգելափակված են։"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Միշտ վստահեք այս աղբյուրի մակրոներին"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"~Միջին։\n"
-"Մինչ չվստահված աղբյուրներից մակրոների կատարումը, պահանջվում է հաստատում։"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Թույլատրեք մակրոները"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"~Ցածր (երաշխավորված չէ)։\n"
-"Բոլոր մակրոները կկատարվեն առանց հաստատման։ Օգտագործեք այս կարգաբերումը "
-"միայն, եթե վստահ ես, որ բոլոր բացվող փաստաթղթերը անվտանգ են։"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Արգելափակեք մակրոները"
 
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Վստահված վկայագրեր"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Issued to\tIssued by\tExpiration date"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "Ավելացնել․․․"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Դիտել․․․"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
-msgid "Remove"
-msgstr "Հեռացնել"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Վստահված նիշքերի տեղաբաշխումներ"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr ""
-"Փաստաթղթի մակրոները միշտ կատարվում են, եթե դրանք բացված են հետևյալ "
-"տեղաբաշխումներից որևէ մեկից։"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Ավելացնել․․․"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Հեռացնել"
-
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Այս կարգաբերումը պաշտպանված է Կառավարչի կողմից"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Անվտանգության զգուշացում"
 
 #: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
 msgid "The following have signed the document content:"

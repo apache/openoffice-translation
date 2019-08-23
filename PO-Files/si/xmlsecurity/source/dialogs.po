@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
 "%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2018-12-07 12:17+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,47 +15,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1544185048.000000\n"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "ලේඛනය සතු ලේඛන මැක්‍රෝවන් සන් කරන ලද්දේ:"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
+msgstr "අත්සන් කිරීම සඳහා භාවතා කිරීමට අවශ්‍ය වන සහතිකය තෝරන්න"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "ලේඛනය සතුව ලේඛන මැක්‍රෝවන් පවතී."
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "ලබන්නා\tනිකුත් කරන්නා\tකල්කුත් වන දිනය"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "අත්සන් පෙන්වන්න..."
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "සහතිකයපෙන්වන්න..."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "සහතිකය තෝරන්න"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "ආරක්ෂණ මට්ටම"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "විශ්වාසිත මූලාශ්‍ර"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "නැවත පිහිටුවන්න"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "මැක්‍රෝ ආරක්ෂණය"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"මැක්‍රෝවන් තුල වෛරස් අඩංගු විය හැක.ලේඛනයක් සඳහා මැක්‍රෝවන් අක්‍රිය කිරීම නි"
-"තරම ආරක්ෂිතය. ඔබ මැක්‍රෝවන් අක්‍රිය කල හොත් ඔබට ලේඛන මැක්‍රෝවන් මගින් සපයන "
-"පහසුකම් නොලැබෙනු ඇත. "
+"ඉතා ඉහල (~V).\n"
+"විශ්වාසිත ස්ථාන වල ඇති මැක්‍රෝවන් පමණක් ධාවනයට අවසර ඇත.සන් කර හෝ නොමැති අනෙක්"
+" සියලුම මැක්‍රෝවන්‍ නොසලකා අක්‍රිය ලෙස සලකනු ඇත."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "මෙම මූලයෙන් ලැබෙන මැක්‍රෝවන් සැමවිටම විශ්වාස කරන්න"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"ඉහල (~i).\n"
+"විශ්වාසිත මූලාශ්‍ර වලින් සන් කරන ලද මැක්‍රෝවන් පමණක් ධාවනයට අවසර ඇත. සන්නො"
+"කරන ලද මැක්‍රෝවන් අක්‍රිය වනු ඇත."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "මැක්‍රෝවන් සක්‍රිය කරන්න"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"මධ්‍යම (~M).\n"
+"විශ්වාස නොවන මූලාශ්‍ර සහිත මැක්‍රෝවන් ධාවනය කිරීමට පෙර තහවුරු කිරීම අවශ්‍යයි."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "මැක්‍රෝවන් අක්‍රිය කරන්න"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"අඩු (~L) (නිර්දේශිත නැත).\n"
+"සියළු මැක්‍රෝවන් තහවුරු කිරීමකින් තොරව ධාවනය වනු ඇත. සියළු විවෘත ලේඛන ආරක්ෂා "
+"සහිත බව ඔබට සහතික නම් පමණක් මෙම සිටුවම යොදාගන්න."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "ආරක්ෂණ අනතුරු ඇඟවීම"
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "විශ්වාසිත සහතික"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "ලබන්නා\tනිකුත් කරන්නා\tකල්කුත් වන දිනය"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "එක් කරන්න... "
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "දර්ශනය කරන්න..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "විශ්වාසිත ගොනු ස්ථාන"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+msgid ""
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr ""
+"පහත ස්ථාන වලින් එකකින් ලේඛන මැක්‍රෝවන් ධාවනය වේ නම් ඒවා නිතරම ධාවනය වනු ඇත."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "එක් කරන්න... "
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "පාලක විසින් මෙම සිටුවම් ආරක්‍ෂා‍ කර ඇත"
 
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 msgid "General"
@@ -186,125 +268,43 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "මෙම සහතිකය තහවුරු කරගත නොහැකි විය."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr "අත්සන් කිරීම සඳහා භාවතා කිරීමට අවශ්‍ය වන සහතිකය තෝරන්න"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "ලේඛනය සතු ලේඛන මැක්‍රෝවන් සන් කරන ලද්දේ:"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "ලබන්නා\tනිකුත් කරන්නා\tකල්කුත් වන දිනය"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "ලේඛනය සතුව ලේඛන මැක්‍රෝවන් පවතී."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "සහතිකයපෙන්වන්න..."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "අත්සන් පෙන්වන්න..."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "සහතිකය තෝරන්න"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "ආරක්ෂණ මට්ටම"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "විශ්වාසිත මූලාශ්‍ර"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "නැවත පිහිටුවන්න"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "මැක්‍රෝ ආරක්ෂණය"
-
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
 msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
 msgstr ""
-"ඉතා ඉහල (~V).\n"
-"විශ්වාසිත ස්ථාන වල ඇති මැක්‍රෝවන් පමණක් ධාවනයට අවසර ඇත.සන් කර හෝ නොමැති අනෙක්"
-" සියලුම මැක්‍රෝවන්‍ නොසලකා අක්‍රිය ලෙස සලකනු ඇත."
+"මැක්‍රෝවන් තුල වෛරස් අඩංගු විය හැක.ලේඛනයක් සඳහා මැක්‍රෝවන් අක්‍රිය කිරීම නි"
+"තරම ආරක්ෂිතය. ඔබ මැක්‍රෝවන් අක්‍රිය කල හොත් ඔබට ලේඛන මැක්‍රෝවන් මගින් සපයන "
+"පහසුකම් නොලැබෙනු ඇත. "
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"ඉහල (~i).\n"
-"විශ්වාසිත මූලාශ්‍ර වලින් සන් කරන ලද මැක්‍රෝවන් පමණක් ධාවනයට අවසර ඇත. සන්නො"
-"කරන ලද මැක්‍රෝවන් අක්‍රිය වනු ඇත."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "මෙම මූලයෙන් ලැබෙන මැක්‍රෝවන් සැමවිටම විශ්වාස කරන්න"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"මධ්‍යම (~M).\n"
-"විශ්වාස නොවන මූලාශ්‍ර සහිත මැක්‍රෝවන් ධාවනය කිරීමට පෙර තහවුරු කිරීම අවශ්‍යයි."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "මැක්‍රෝවන් සක්‍රිය කරන්න"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"අඩු (~L) (නිර්දේශිත නැත).\n"
-"සියළු මැක්‍රෝවන් තහවුරු කිරීමකින් තොරව ධාවනය වනු ඇත. සියළු විවෘත ලේඛන ආරක්ෂා "
-"සහිත බව ඔබට සහතික නම් පමණක් මෙම සිටුවම යොදාගන්න."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "මැක්‍රෝවන් අක්‍රිය කරන්න"
 
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "විශ්වාසිත සහතික"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "ලබන්නා\tනිකුත් කරන්නා\tකල්කුත් වන දිනය"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "එක් කරන්න... "
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "දර්ශනය කරන්න..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
-msgid "Remove"
-msgstr "ඉවත් කරන්න"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "විශ්වාසිත ගොනු ස්ථාන"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr ""
-"පහත ස්ථාන වලින් එකකින් ලේඛන මැක්‍රෝවන් ධාවනය වේ නම් ඒවා නිතරම ධාවනය වනු ඇත."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "එක් කරන්න... "
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "ඉවත් කරන්න"
-
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "පාලක විසින් මෙම සිටුවම් ආරක්‍ෂා‍ කර ඇත"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "ආරක්ෂණ අනතුරු ඇඟවීම"
 
 #: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
 msgid "The following have signed the document content:"

@@ -8,8 +8,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sd%2Fsource%2Fui%2Fd"
 "lg.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
-"PO-Revision-Date: 2019-06-22 14:10+0000\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"PO-Revision-Date: 2019-07-25 22:30+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: Russian <l10n@ru.openoffice.org>\n"
 "Language: ru\n"
@@ -21,38 +21,284 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1561212638.000000\n"
+"X-POOTLE-MTIME: 1564093809.000000\n"
 
-#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "~Удалить"
+#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
+msgid "Range"
+msgstr "Объем"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Положение"
+#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
+msgid "All ~slides"
+msgstr "~Все слайды"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
+msgid "~From:"
+msgstr "На~чать со слайда:"
+
+#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
+msgid "~Custom Slide Show"
+msgstr "Настраиваемая демонстра~ция"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
 msgid "Type"
 msgstr "Тип"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
-msgid "~Point"
-msgstr "~Точка"
+#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
+msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
+msgid "~Default"
+msgstr "~По умолчанию"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
-msgid "~Vertical"
-msgstr "~Вертикально"
+#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
+msgid "~Window"
+msgstr "О~кно"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
-msgid "Hori~zontal"
-msgstr "Горизонтально"
+#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
+msgid "A~uto"
+msgstr "Ав~томатически"
 
-#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
-msgid "New Snap Object"
-msgstr "Новая точка захвата/направляющая"
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
+msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
+msgid "-"
+msgstr "-"
+
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
+msgid "Duration of pause"
+msgstr "Длительность паузы"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
+msgid "Show ~logo"
+msgstr "~Логотип в паузах"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Параметры"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
+msgid "Change slides ~manually"
+msgstr "Смена слайда в~ручную"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
+msgid "Mouse pointer ~visible"
+msgstr "Показывать ука~затель мыши"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
+msgid "Mouse pointer as ~pen"
+msgstr "Указатель мыши в виде каранда~ша"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
+msgid "~Navigator visible"
+msgstr "Показывать ~Навигатор"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
+msgid "~Animations allowed"
+msgstr "Разрешить ~анимацию"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
+msgid "Change slides by clic~king on background"
+msgstr "Смена слайда по ~щелчку"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
+msgid "Presentation always ~on top"
+msgstr "Презентация всег~да на переднем плане"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
+msgid "Multiple displays"
+msgstr "Несколько мониторов"
+
+#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
+msgid "P~resentation display"
+msgstr "~Монитор демонстрации"
+
+#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
+msgid "Display %1 (primary)"
+msgstr "Монитор %1 (основной)"
+
+#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
+msgid "Display %1"
+msgstr "Монитор %1"
+
+#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
+msgid "All displays"
+msgstr "Все мониторы"
+
+#: present.src%23DLG_START_PRESENTATION.modaldialog.text
+msgid "Slide Show"
+msgstr "Параметры демонстрации"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
+msgid "Pointer"
+msgstr "Карандаш"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
+msgid "First Slide"
+msgstr "Первый слайд"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
+msgid "Previous Slide"
+msgstr "Предыдущий слайд"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
+msgid "Next Slide"
+msgstr "Следующий слайд"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
+msgid "Last Slide"
+msgstr "Последний слайд"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
+msgid "Drag Mode"
+msgstr "Режим перетаскивания"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
+msgid "Show Shapes"
+msgstr "Показать фигуры"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
+msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
+msgid "-"
+msgstr "-"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
+msgid "Documents"
+msgstr "Документы"
+
+#: navigatr.src%23STR_OBJECTS_TREE.string.text
+msgid "Page Tree"
+msgstr "Дерево страниц"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
+msgid "Field type"
+msgstr "Тип поля"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
+msgid "~Fixed"
+msgstr "~Фиксированное"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
+msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
+msgid "~Variable"
+msgstr "~Изменяемое"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
+msgid "~Language"
+msgstr "Язык"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
+msgid "F~ormat"
+msgstr "Формат"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
+msgid "Edit Field"
+msgstr "Правка поля"
+
+#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
+msgid "Number of ~copies"
+msgstr "Число копий"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
+msgid "Values from Selection"
+msgstr "Значения из отбора"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "~По умолчанию"
+
+#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
+msgid " degrees"
+msgstr " градусов"
+
+#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
+msgid "~Angle"
+msgstr "~Угол поворота"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
+msgid "~X axis"
+msgstr "Ось ~X"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
+msgid "~Y axis"
+msgstr "Ось ~Y"
+
+#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "~Ширина"
+
+#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
+msgid "~Height"
+msgstr "Высота"
+
+#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
+msgid "Placement"
+msgstr "Смещение"
+
+#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
+msgid "Enlargement"
+msgstr "Увеличение"
+
+#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
+msgid "Colors"
+msgstr "Цвета"
+
+#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
+msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
+msgid "~Start"
+msgstr "~Начало"
+
+#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
+msgid "~End"
+msgstr "Конец"
+
+#: copydlg.src%23DLG_COPY.modaldialog.text
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "Название"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
+msgid "~Title"
+msgstr "~Заголовок"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
+msgid "~Description"
+msgstr "Описание"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
+msgid "~Visible"
+msgstr "Види~мый"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
+msgid "~Printable"
+msgstr "~Для печати"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
+msgid "~Locked"
+msgstr "~Заблокированный"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
+msgid "Insert Layer"
+msgstr "Вставить слой"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
+msgid "Slide Pane"
+msgstr "Панель слайдов"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
+msgid "Page Pane"
+msgstr "Панель страниц"
+
+#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
+msgid "Task Pane"
+msgstr "Панель задач"
 
 #: dlgolbul.src%23TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
 msgctxt "dlgolbul.src#TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
@@ -82,6 +328,47 @@ msgstr "Настройка"
 #: dlgolbul.src%23TAB_OUTLINEBULLET.tabdialog.text
 msgid "Bullets and Numbering"
 msgstr "Маркеры и нумерация"
+
+#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
+msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
+msgid "~Select a slide design"
+msgstr "Выберите дизайн слайда"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
+msgid "~Exchange background page"
+msgstr "Замена фона страниц"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
+msgid "~Delete unused backgrounds"
+msgstr "Удалить неиспользованные фоны"
+
+#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
+msgid "~Load..."
+msgstr "~Загрузка..."
+
+#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
+msgid "Slide Design"
+msgstr "Дизайн слайда"
+
+#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
+msgid "Action at mouse click"
+msgstr "Действие по щелчку мыши"
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
+msgid "~Browse..."
+msgstr "Обзор..."
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
+msgid "~Find"
+msgstr "~Найти"
+
+#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
+msgid "Path Name"
+msgstr "Путь"
+
+#: tpaction.src%23TP_ANIMATION.tabpage.text
+msgid "Interaction"
+msgstr "Действие по щелчку мыши"
 
 #: masterlayoutdlg.src%23RID_SD_DLG_MASTER_LAYOUT.FL_PLACEHOLDERS.fixedline.text
 msgid "Placeholders"
@@ -115,6 +402,239 @@ msgstr "Номер слайда"
 msgid "Master Elements"
 msgstr "Мастер полей"
 
+#: tpoption.src%23SCALE_TEXT.%23define.text
+msgid "Scale"
+msgstr "Масштаб"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
+msgid "Display"
+msgstr "Показать"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
+msgid "~Rulers visible"
+msgstr "~Показать линейки"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
+msgid "~Guides when moving"
+msgstr "Направляющие при перемещении"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
+msgid "~All control points in Bézier editor"
+msgstr "~Все контрольные точки в редакторе Безье"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
+msgid "~Contour of each individual object"
+msgstr "Контур каждого объекта отдельно"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
+msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
+msgid "Contents"
+msgstr "Содержимое"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
+msgid "Text objects"
+msgstr "Текстовые объекты"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
+msgid "Allow quick editing"
+msgstr "Разрешить быстрое редактирование"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
+msgid "Only text area selectable"
+msgstr "Выделение только области текста"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
+msgid "New document"
+msgstr "Новый документ"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
+msgid "Start with ~wizard"
+msgstr "Создавать с помощью мастера"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
+msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Настройки"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
+msgid "Use background cache"
+msgstr "Использовать кэш фона"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
+msgid "Copy when moving"
+msgstr "Копировать при перемещении"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
+msgid "Objects always moveable"
+msgstr "Объекты всегда перемещаемы"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
+msgid "Do not distort objects in curve"
+msgstr "Не превращать объект в кривую"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
+msgid "Unit of ~measurement"
+msgstr "Единица измерения"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
+msgid "Ta~b stops"
+msgstr "Позиция табуляции"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
+msgid "Start presentation"
+msgstr "Запуск презентации"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
+msgid "Always with current page"
+msgstr "Всегда с текущего слайда"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
+msgid "With Presenter Screen"
+msgstr "С экраном ведущего"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
+msgid "Compatibility"
+msgstr "Совместимость"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
+msgid "Us~e printer metrics for document formatting"
+msgstr "Применить настройки принтера для форматирования текста"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
+msgid "Add ~spacing between paragraphs and tables (in current document)"
+msgstr "Добавить в текущем документе интервалы между абзацами"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
+msgid "Original"
+msgstr "Оригинал"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
+msgid "Equivalent to"
+msgstr "Соответствует"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
+msgid "~Drawing scale"
+msgstr "Масштаб рисунка"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
+msgid "Page ~width"
+msgstr "Ширина страницы"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
+msgid "Page ~height"
+msgstr "Высота страницы"
+
+#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
+msgid "Other"
+msgstr "Прочее"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Линия"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Область"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadow"
+msgstr "Затенение"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Прозрачность"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Шрифт"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Эффекты шрифта"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Отступы и интервалы"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "Текст"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
+msgid "Bullets"
+msgstr "Маркеры"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
+msgid "Numbering type"
+msgstr "Тип нумерации"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
+msgid "Graphics"
+msgstr "Изображения"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
+msgid "Customize"
+msgstr "Настройка"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Восточно-азиатские правила набора"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Табуляция"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
+msgid "Presentation Layout"
+msgstr "Структура презентации"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Область"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Шрифт"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Эффекты шрифта"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
+msgid "Position"
+msgstr "Положение"
+
+#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
+msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
+msgid "Return"
+msgstr "Вернуться"
+
+#: dlg_char.src%23TAB_CHAR.tabdialog.text
+msgid "Character"
+msgstr "Символы"
+
 #: inspagob.src%23DLG_INSERT_PAGES_OBJS.CBX_LINK.checkbox.text
 msgid "~Link"
 msgstr "Сс~ылка"
@@ -127,104 +647,225 @@ msgstr "Удалить неиспользу~ющиеся фоны"
 msgid "Insert Slides/Objects"
 msgstr "Вставить слайды/объекты"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
-msgid "Slide Pane"
-msgstr "Панель слайдов"
+#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
+msgid "Processing metafile:"
+msgstr "Обработка метафайла:"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
-msgid "Page Pane"
-msgstr "Панель страниц"
+#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
+msgid "Broken down metaobjects:"
+msgstr "Разъединённых метаобъектов:"
 
-#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
-msgid "Task Pane"
-msgstr "Панель задач"
+#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
+msgid "Inserted drawing objects:"
+msgstr "Внедрённые графические объекты:"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "Название"
+#: brkdlg.src%23DLG_BREAK.modaldialog.text
+msgid "Break"
+msgstr "Разбить"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
-msgid "~Title"
-msgstr "~Заголовок"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
+msgid "Contents"
+msgstr "Содержимое"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
-msgid "~Description"
-msgstr "Описание"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
+msgid "~Drawing"
+msgstr "Рис~унок"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
-msgid "~Visible"
-msgstr "Види~мый"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
+msgid "~Notes"
+msgstr "Примечания"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
-msgid "~Printable"
-msgstr "~Для печати"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
+msgid "Hando~uts"
+msgstr "Тезисы"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
-msgid "~Locked"
-msgstr "~Заблокированный"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
+msgid "Out~line"
+msgstr "Структура"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
-msgid "Insert Layer"
-msgstr "Вставить слой"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
+msgid "Quality"
+msgstr "Качество"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
-msgid "~New..."
-msgstr "С~оздать..."
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
+msgid "Default"
+msgstr "Стандарт"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "Правка..."
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
+msgid "Gra~yscale"
+msgstr "Оттенки серого"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
+msgid "Black & ~white"
+msgstr "Чёрно-белое"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
+msgid "Print"
+msgstr "Печать"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
+msgid "~Page name"
+msgstr "Имя страницы"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
+msgid "D~ate"
+msgstr "Дата"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
+msgid "Ti~me"
+msgstr "Время"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
+msgid "H~idden pages"
+msgstr "Скрытые страницы"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
+msgid "Page options"
+msgstr "Параметры страницы"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
+msgid "Default"
+msgstr "Стандарт"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
+msgid "~Fit to page"
+msgstr "Согласовать с размером страницы"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
+msgid "~Tile pages"
+msgstr "Несколько страниц на листе"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
+msgid "B~rochure"
+msgstr "~Брошюра"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
+msgid "Fr~ont"
+msgstr "Лицевая сторона"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
+msgid "Ba~ck"
+msgstr "Оборот"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
+msgid "Paper tray from printer s~ettings"
+msgstr "Подача бумаги в соответствии с параметрами принтера"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
+msgid "Options"
+msgstr "Параметры"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
+msgid "Slide"
+msgstr "Слайд"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
+msgid "Notes and Handouts"
+msgstr "Заметки и тезисы"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
+msgid "Header and Footer"
+msgstr "Колонтитулы"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
+msgid "Include on slide"
+msgstr "Вставить в слайд"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
+msgid "Header"
+msgstr "Верхний колонтитул"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
+msgid "Header text"
+msgstr "Текст верхнего колонтитула"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
+msgid "~Date and time"
+msgstr "Дата и время"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
+msgid "Fi~xed"
+msgstr "Фиксированная"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
+msgid "~Variable"
+msgstr "Сдвиг след. ячеек"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
+msgid "~Language:"
+msgstr "Язык:"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
+msgid "Footer text"
+msgstr "Текст нижнего колонтитула"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
+msgid "Slide number"
+msgstr "Номер слайда"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
+msgid "Do not show on first slide"
+msgstr "Не отображать на первом слайде"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
+msgid "Apply to All"
+msgstr "Применить ко всем"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
+msgid "Apply"
+msgstr "Применить"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
+msgid "Page number"
+msgstr "Номер страницы"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
+msgid "Include on page"
+msgstr "Отобразить на странице"
+
+#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "~Удалить"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
-msgid "Cop~y"
-msgstr "~Копировать"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Положение"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
-msgid "~Start"
-msgstr "Запустить"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+msgid "Type"
+msgstr "Тип"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
-msgid "~Close"
-msgstr "Закрыть"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
+msgid "~Point"
+msgstr "~Точка"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
-msgid "-"
-msgstr "-"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
+msgid "~Vertical"
+msgstr "~Вертикально"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
-msgid "Custom Screen Show"
-msgstr "Настраиваемая демонстрация"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
+msgid "Hori~zontal"
+msgstr "Горизонтально"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
-msgid "~Use Custom Slide Show"
-msgstr "~Использовать настраиваемую демонстрацию"
-
-#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
-msgid "Custom Slide Shows"
-msgstr "Настраиваемые демонстрации"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
-msgid "Name"
-msgstr "Название"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
-msgid "Existing slides"
-msgstr "Существующие слайды"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
-msgid "Selected slides"
-msgstr "Выбранные слайды"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
-msgid "Define Custom Slide Show"
-msgstr "Задать порядок демонстрации"
+#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
+msgid "New Snap Object"
+msgstr "Новая точка захвата/направляющая"
 
 #: animobjs.src%23FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text
 msgctxt "animobjs.src#FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text"
@@ -484,340 +1125,99 @@ msgstr "Просмотр"
 msgid "Animation"
 msgstr "Анимация"
 
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
-msgid "Slide"
-msgstr "Слайд"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
-msgid "Notes and Handouts"
-msgstr "Заметки и тезисы"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
-msgid "Header and Footer"
-msgstr "Колонтитулы"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
-msgid "Include on slide"
-msgstr "Вставить в слайд"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
-msgid "Header"
-msgstr "Верхний колонтитул"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
-msgid "Header text"
-msgstr "Текст верхнего колонтитула"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
-msgid "~Date and time"
-msgstr "Дата и время"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
-msgid "Fi~xed"
-msgstr "Фиксированная"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
-msgid "~Variable"
-msgstr "Сдвиг след. ячеек"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
-msgid "~Language:"
-msgstr "Язык:"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
-msgid "Footer"
-msgstr "Нижний колонтитул"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
-msgid "Footer text"
-msgstr "Текст нижнего колонтитула"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
-msgid "Slide number"
-msgstr "Номер слайда"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
-msgid "Do not show on first slide"
-msgstr "Не отображать на первом слайде"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
-msgid "Apply to All"
-msgstr "Применить ко всем"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
-msgid "Apply"
-msgstr "Применить"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
-msgid "Page number"
-msgstr "Номер страницы"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
-msgid "Include on page"
-msgstr "Отобразить на странице"
-
-#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
-msgid "Preview"
-msgstr "Просмотр"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Настройки"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
-msgid "Number of colors:"
-msgstr "Количество цветов:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
-msgid "Point reduction:"
-msgstr "Сокращение точек:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
-msgid "~Fill holes:"
-msgstr "~Заполнить промежутки:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
-msgid "Tile size:"
-msgstr "Размер мозаики:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
-msgid "Source picture:"
-msgstr "Исходная картинка:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
-msgid "Source picture"
-msgstr "Исходная картинка"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
-msgid "Vectorized image:"
-msgstr "Векторное изображение:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
-msgid "Vectorized image"
-msgstr "Векторное изображение"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
-msgid "Progress"
-msgstr "Выполнение"
-
-#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
-msgid "Progress"
-msgstr "Выполнение"
-
-#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
-msgid "Convert to Polygon"
-msgstr "Преобразовать в многоугольник"
-
-#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
-msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
-msgid "~Select a slide design"
-msgstr "Выберите дизайн слайда"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
-msgid "~Exchange background page"
-msgstr "Замена фона страниц"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
-msgid "~Delete unused backgrounds"
-msgstr "Удалить неиспользованные фоны"
-
-#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
-msgid "~Load..."
-msgstr "~Загрузка..."
-
-#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
-msgid "Slide Design"
-msgstr "Дизайн слайда"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
-msgid "Contents"
-msgstr "Содержимое"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
-msgid "~Drawing"
-msgstr "Рис~унок"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
-msgid "~Notes"
-msgstr "Примечания"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
-msgid "Hando~uts"
-msgstr "Тезисы"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
-msgid "Out~line"
-msgstr "Структура"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
-msgid "Quality"
-msgstr "Качество"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
-msgid "Default"
-msgstr "Стандарт"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
-msgid "Gra~yscale"
-msgstr "Оттенки серого"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
-msgid "Black & ~white"
-msgstr "Чёрно-белое"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
-msgid "Print"
-msgstr "Печать"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
-msgid "~Page name"
-msgstr "Имя страницы"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
-msgid "D~ate"
-msgstr "Дата"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
-msgid "Ti~me"
-msgstr "Время"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
-msgid "H~idden pages"
-msgstr "Скрытые страницы"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
-msgid "Page options"
-msgstr "Параметры страницы"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
-msgid "Default"
-msgstr "Стандарт"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
-msgid "~Fit to page"
-msgstr "Согласовать с размером страницы"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
-msgid "~Tile pages"
-msgstr "Несколько страниц на листе"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
-msgid "B~rochure"
-msgstr "~Брошюра"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
-msgid "Fr~ont"
-msgstr "Лицевая сторона"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
-msgid "Ba~ck"
-msgstr "Оборот"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
-msgid "Paper tray from printer s~ettings"
-msgstr "Подача бумаги в соответствии с параметрами принтера"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
-msgid "Options"
-msgstr "Параметры"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
-msgid "Pointer"
-msgstr "Карандаш"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
-msgid "First Slide"
-msgstr "Первый слайд"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
-msgid "Previous Slide"
-msgstr "Предыдущий слайд"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
-msgid "Next Slide"
-msgstr "Следующий слайд"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
-msgid "Last Slide"
-msgstr "Последний слайд"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
-msgid "Drag Mode"
-msgstr "Режим перетаскивания"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
-msgid "Show Shapes"
-msgstr "Показать фигуры"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
-msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
-msgid "-"
-msgstr "-"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
-msgid "Documents"
-msgstr "Документы"
-
-#: navigatr.src%23STR_OBJECTS_TREE.string.text
-msgid "Page Tree"
-msgstr "Дерево страниц"
-
-#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
-msgid "Action at mouse click"
-msgstr "Действие по щелчку мыши"
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
-msgid "~Browse..."
-msgstr "Обзор..."
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
-msgid "~Find"
-msgstr "~Найти"
-
-#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
-msgid "Path Name"
-msgstr "Путь"
-
-#: tpaction.src%23TP_ANIMATION.tabpage.text
-msgid "Interaction"
-msgstr "Действие по щелчку мыши"
-
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Линия"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Область"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadowing"
+msgstr "Затенение"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Прозрачность"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
 msgid "Font"
 msgstr "Шрифт"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgid "Font Effect"
 msgstr "Эффекты шрифта"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
-msgid "Position"
-msgstr "Положение"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Отступы и интервалы"
 
-#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
-msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
-msgid "Return"
-msgstr "Вернуться"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "Текст"
 
-#: dlg_char.src%23TAB_CHAR.tabdialog.text
-msgid "Character"
-msgstr "Символы"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
+msgid "Text Animation"
+msgstr "Анимация текста"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
+msgid "Dimensioning"
+msgstr "Размерная линия"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
+msgid "Connector"
+msgstr "Соединительная линия"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Восточно-азиатские правила набора"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Табуляция"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
+msgid "Back"
+msgstr "Назад"
+
+#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
+msgid "Graphics Styles"
+msgstr "Стили графических объектов"
+
+#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
+msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
+msgid "Settings"
+msgstr "Настройки"
+
+#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
+msgid "Increments"
+msgstr "Шаги"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
+msgid "Cross-fade attributes"
+msgstr "Атрибуты морфинга"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
+msgid "Same orientation"
+msgstr "Такая же ориентация"
+
+#: morphdlg.src%23DLG_MORPH.modaldialog.text
+msgid "Cross-fading"
+msgstr "Морфинг"
 
 #: dlgass.src%23DLG_ASS.CB_PREVIEW.checkbox.text
 msgid "Previe~w"
@@ -960,401 +1360,6 @@ msgstr "~Готово"
 msgid "Presentation Wizard"
 msgstr "Мастер презентаций"
 
-#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
-msgid "Number of ~copies"
-msgstr "Число копий"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
-msgid "Values from Selection"
-msgstr "Значения из отбора"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "~По умолчанию"
-
-#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
-msgid " degrees"
-msgstr " градусов"
-
-#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
-msgid "~Angle"
-msgstr "~Угол поворота"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
-msgid "~X axis"
-msgstr "Ось ~X"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
-msgid "~Y axis"
-msgstr "Ось ~Y"
-
-#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "~Ширина"
-
-#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
-msgid "~Height"
-msgstr "Высота"
-
-#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
-msgid "Placement"
-msgstr "Смещение"
-
-#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
-msgid "Enlargement"
-msgstr "Увеличение"
-
-#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
-msgid "Colors"
-msgstr "Цвета"
-
-#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
-msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
-msgid "~Start"
-msgstr "~Начало"
-
-#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
-msgid "~End"
-msgstr "Конец"
-
-#: copydlg.src%23DLG_COPY.modaldialog.text
-msgid "Duplicate"
-msgstr "Дублировать"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
-msgid "Field type"
-msgstr "Тип поля"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
-msgid "~Fixed"
-msgstr "~Фиксированное"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
-msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
-msgid "~Variable"
-msgstr "~Изменяемое"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
-msgid "~Language"
-msgstr "Язык"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
-msgid "F~ormat"
-msgstr "Формат"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
-msgid "Edit Field"
-msgstr "Правка поля"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Линия"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Область"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadowing"
-msgstr "Затенение"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Прозрачность"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Шрифт"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgid "Font Effect"
-msgstr "Эффекты шрифта"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Отступы и интервалы"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "Текст"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
-msgid "Text Animation"
-msgstr "Анимация текста"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
-msgid "Dimensioning"
-msgstr "Размерная линия"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
-msgid "Connector"
-msgstr "Соединительная линия"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Выравнивание"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Восточно-азиатские правила набора"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Табуляция"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
-msgid "Back"
-msgstr "Назад"
-
-#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
-msgid "Graphics Styles"
-msgstr "Стили графических объектов"
-
-#: tpoption.src%23SCALE_TEXT.%23define.text
-msgid "Scale"
-msgstr "Масштаб"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
-msgid "Display"
-msgstr "Показать"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
-msgid "~Rulers visible"
-msgstr "~Показать линейки"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
-msgid "~Guides when moving"
-msgstr "Направляющие при перемещении"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
-msgid "~All control points in Bézier editor"
-msgstr "~Все контрольные точки в редакторе Безье"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
-msgid "~Contour of each individual object"
-msgstr "Контур каждого объекта отдельно"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
-msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
-msgid "Contents"
-msgstr "Содержимое"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
-msgid "Text objects"
-msgstr "Текстовые объекты"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
-msgid "Allow quick editing"
-msgstr "Разрешить быстрое редактирование"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
-msgid "Only text area selectable"
-msgstr "Выделение только области текста"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
-msgid "New document"
-msgstr "Новый документ"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
-msgid "Start with ~wizard"
-msgstr "Создавать с помощью мастера"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
-msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Настройки"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
-msgid "Use background cache"
-msgstr "Использовать кэш фона"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
-msgid "Copy when moving"
-msgstr "Копировать при перемещении"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
-msgid "Objects always moveable"
-msgstr "Объекты всегда перемещаемы"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
-msgid "Do not distort objects in curve"
-msgstr "Не превращать объект в кривую"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
-msgid "Unit of ~measurement"
-msgstr "Единица измерения"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
-msgid "Ta~b stops"
-msgstr "Позиция табуляции"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
-msgid "Start presentation"
-msgstr "Запуск презентации"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
-msgid "Always with current page"
-msgstr "Всегда с текущего слайда"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
-msgid "With Presenter Screen"
-msgstr "С экраном ведущего"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
-msgid "Compatibility"
-msgstr "Совместимость"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
-msgid "Us~e printer metrics for document formatting"
-msgstr "Применить настройки принтера для форматирования текста"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
-msgid "Add ~spacing between paragraphs and tables (in current document)"
-msgstr "Добавить в текущем документе интервалы между абзацами"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
-msgid "Original"
-msgstr "Оригинал"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
-msgid "Equivalent to"
-msgstr "Соответствует"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
-msgid "~Drawing scale"
-msgstr "Масштаб рисунка"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
-msgid "Page ~width"
-msgstr "Ширина страницы"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
-msgid "Page ~height"
-msgstr "Высота страницы"
-
-#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
-msgid "Other"
-msgstr "Прочее"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
-msgid "Range"
-msgstr "Объем"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
-msgid "All ~slides"
-msgstr "~Все слайды"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
-msgid "~From:"
-msgstr "На~чать со слайда:"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
-msgid "~Custom Slide Show"
-msgstr "Настраиваемая демонстра~ция"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
-msgid "Type"
-msgstr "Тип"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
-msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
-msgid "~Default"
-msgstr "~По умолчанию"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
-msgid "~Window"
-msgstr "О~кно"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
-msgid "A~uto"
-msgstr "Ав~томатически"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
-msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
-msgid "-"
-msgstr "-"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
-msgid "Duration of pause"
-msgstr "Длительность паузы"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
-msgid "Show ~logo"
-msgstr "~Логотип в паузах"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Параметры"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
-msgid "Change slides ~manually"
-msgstr "Смена слайда в~ручную"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
-msgid "Mouse pointer ~visible"
-msgstr "Показывать ука~затель мыши"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
-msgid "Mouse pointer as ~pen"
-msgstr "Указатель мыши в виде каранда~ша"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
-msgid "~Navigator visible"
-msgstr "Показывать ~Навигатор"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
-msgid "~Animations allowed"
-msgstr "Разрешить ~анимацию"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
-msgid "Change slides by clic~king on background"
-msgstr "Смена слайда по ~щелчку"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
-msgid "Presentation always ~on top"
-msgstr "Презентация всег~да на переднем плане"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
-msgid "Multiple displays"
-msgstr "Несколько мониторов"
-
-#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
-msgid "P~resentation display"
-msgstr "~Монитор демонстрации"
-
-#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
-msgid "Display %1 (primary)"
-msgstr "Монитор %1 (основной)"
-
-#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
-msgid "Display %1"
-msgstr "Монитор %1"
-
-#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
-msgid "All displays"
-msgstr "Все мониторы"
-
-#: present.src%23DLG_START_PRESENTATION.modaldialog.text
-msgid "Slide Show"
-msgstr "Параметры демонстрации"
-
 #: paragr.src%23TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
 msgctxt "paragr.src#TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
 msgid "Indents & Spacing"
@@ -1383,27 +1388,6 @@ msgstr "Восстановить"
 #: paragr.src%23TAB_PARAGRAPH.tabdialog.text
 msgid "Paragraph"
 msgstr "Абзац"
-
-#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
-msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
-msgid "Settings"
-msgstr "Настройки"
-
-#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
-msgid "Increments"
-msgstr "Шаги"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
-msgid "Cross-fade attributes"
-msgstr "Атрибуты морфинга"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
-msgid "Same orientation"
-msgstr "Такая же ориентация"
-
-#: morphdlg.src%23DLG_MORPH.modaldialog.text
-msgid "Cross-fading"
-msgstr "Морфинг"
 
 #: dlgpage.src%23TAB_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text
 msgid "Page"
@@ -1439,104 +1423,120 @@ msgstr "после"
 msgid "Insert Slides"
 msgstr "Вставить слайд"
 
-#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
-msgid "Processing metafile:"
-msgstr "Обработка метафайла:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
+msgid "~New..."
+msgstr "С~оздать..."
 
-#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
-msgid "Broken down metaobjects:"
-msgstr "Разъединённых метаобъектов:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "Правка..."
 
-#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
-msgid "Inserted drawing objects:"
-msgstr "Внедрённые графические объекты:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+msgid "~Delete"
+msgstr "~Удалить"
 
-#: brkdlg.src%23DLG_BREAK.modaldialog.text
-msgid "Break"
-msgstr "Разбить"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
+msgid "Cop~y"
+msgstr "~Копировать"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Линия"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
+msgid "~Start"
+msgstr "Запустить"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Область"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
+msgid "~Close"
+msgstr "Закрыть"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadow"
-msgstr "Затенение"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
+msgid "-"
+msgstr "-"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Прозрачность"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
+msgid "Custom Screen Show"
+msgstr "Настраиваемая демонстрация"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Шрифт"
+#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
+msgid "~Use Custom Slide Show"
+msgstr "~Использовать настраиваемую демонстрацию"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "Эффекты шрифта"
+#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
+msgid "Custom Slide Shows"
+msgstr "Настраиваемые демонстрации"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Отступы и интервалы"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
+msgid "Name"
+msgstr "Название"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "Текст"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
+msgid "Existing slides"
+msgstr "Существующие слайды"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
-msgid "Bullets"
-msgstr "Маркеры"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
+msgid "Selected slides"
+msgstr "Выбранные слайды"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
-msgid "Numbering type"
-msgstr "Тип нумерации"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
+msgid "Define Custom Slide Show"
+msgstr "Задать порядок демонстрации"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
-msgid "Graphics"
-msgstr "Изображения"
+#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
+msgid "Preview"
+msgstr "Просмотр"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
-msgid "Customize"
-msgstr "Настройка"
+#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Настройки"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Выравнивание"
+#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
+msgid "Number of colors:"
+msgstr "Количество цветов:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Восточно-азиатские правила набора"
+#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
+msgid "Point reduction:"
+msgstr "Сокращение точек:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Табуляция"
+#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
+msgid "~Fill holes:"
+msgstr "~Заполнить промежутки:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
-msgid "Presentation Layout"
-msgstr "Структура презентации"
+#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
+msgid "Tile size:"
+msgstr "Размер мозаики:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Область"
+#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
+msgid "Source picture:"
+msgstr "Исходная картинка:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
+msgid "Source picture"
+msgstr "Исходная картинка"
+
+#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
+msgid "Vectorized image:"
+msgstr "Векторное изображение:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
+msgid "Vectorized image"
+msgstr "Векторное изображение"
+
+#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
+msgid "Progress"
+msgstr "Выполнение"
+
+#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
+msgid "Progress"
+msgstr "Выполнение"
+
+#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
+msgid "Convert to Polygon"
+msgstr "Преобразовать в многоугольник"
 
 #~ msgid "Borders"
 #~ msgstr "Обрамление"
