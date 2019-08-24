@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sd%2Fsource%2Fui%2Fd"
 "lg.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-01-25 12:39+0000\n"
 "Last-Translator: Aivaras <astepukonis@gmail.com>\n"
 "Language-Team: Aivaras Stepukonis <astepukonis@apache.org>\n"
@@ -16,40 +16,286 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1548419985.000000\n"
 
-#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "Trinti"
+#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
+msgid "Range"
+msgstr "Sritis"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Padėtis"
+#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
+msgid "All ~slides"
+msgstr "Visos skaidrės"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
+msgid "~From:"
+msgstr "Nuo:"
+
+#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
+msgid "~Custom Slide Show"
+msgstr "Pritaikytas skaidrių rodymas"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
 msgid "Type"
 msgstr "Atmaina"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
-msgid "~Point"
-msgstr "Taškas"
+#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
+msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
+msgid "~Default"
+msgstr "Numatyta"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
-msgid "~Vertical"
-msgstr "Stačia"
+#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
+msgid "~Window"
+msgstr "Langas"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
-msgid "Hori~zontal"
-msgstr "Gulsčia"
+#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
+msgid "A~uto"
+msgstr "Savaiminis"
 
-#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
-msgid "New Snap Object"
-msgstr "Naujas traukos objektas"
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
+msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
+msgid "-"
+msgstr "–"
+
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
+msgid "Duration of pause"
+msgstr "Pristabdymo trukmė"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
+msgid "Show ~logo"
+msgstr "Rodyti logotipą"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Nuostatos"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
+msgid "Change slides ~manually"
+msgstr "Keisti skaidres rankiniu būdu"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
+msgid "Mouse pointer ~visible"
+msgstr "Pelės rodyklė matoma"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
+msgid "Mouse pointer as ~pen"
+msgstr "Pelės rodyklė kaip rašiklis"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
+msgid "~Navigator visible"
+msgstr "Žvalgiklis matomas"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
+msgid "~Animations allowed"
+msgstr "Animavimas leidžiamas"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
+msgid "Change slides by clic~king on background"
+msgstr "Keisti skaidres spustelėjant fone"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
+msgid "Presentation always ~on top"
+msgstr "Pranešimas visada viršuje"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
+msgid "Multiple displays"
+msgstr "Daugialypis ekranas"
+
+#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
+msgid "P~resentation display"
+msgstr "Pranešimo ekranas"
+
+#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
+msgid "Display %1 (primary)"
+msgstr "%1 ekranas (pagrindinis)"
+
+#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
+msgid "Display %1"
+msgstr "%1 ekranas"
+
+#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
+msgid "All displays"
+msgstr "Visi ekranai"
+
+#: present.src%23DLG_START_PRESENTATION.modaldialog.text
+msgid "Slide Show"
+msgstr "Rodyti skaidres"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
+msgid "Pointer"
+msgstr "Rodyklė"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
+msgid "First Slide"
+msgstr "Pirmutinė skaidrė"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
+msgid "Previous Slide"
+msgstr "Pirmesnė skaidrė"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
+msgid "Next Slide"
+msgstr "Paskesnė skaidrė"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
+msgid "Last Slide"
+msgstr "Paskutinė skaidrė"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
+msgid "Drag Mode"
+msgstr "Vilkimo veiksena"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
+msgid "Show Shapes"
+msgstr "Rodyti pavidalus"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
+msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
+msgid "-"
+msgstr "–"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
+msgid "Documents"
+msgstr "Dokumentai"
+
+#: navigatr.src%23STR_OBJECTS_TREE.string.text
+msgid "Page Tree"
+msgstr "Puslapių medis"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
+msgid "Field type"
+msgstr "Lauko atmaina"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
+msgid "~Fixed"
+msgstr "Pastovus"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
+msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
+msgid "~Variable"
+msgstr "Kintamas"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
+msgid "~Language"
+msgstr "Kalba"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
+msgid "F~ormat"
+msgstr "Formatas"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
+msgid "Edit Field"
+msgstr "Taisyti lauką"
+
+#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
+msgid "Number of ~copies"
+msgstr "Kopijų skaičius"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
+msgid "-"
+msgstr "–"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
+msgid "Values from Selection"
+msgstr "Reikšmės iš žyminio"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "Numatyta"
+
+#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
+msgid " degrees"
+msgstr " laipsniai"
+
+#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
+msgid "~Angle"
+msgstr "Kampas"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
+msgid "~X axis"
+msgstr "X ašis"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
+msgid "~Y axis"
+msgstr "Y ašis"
+
+#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "Plotis"
+
+#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
+msgid "~Height"
+msgstr "Aukštis"
+
+#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
+msgid "Placement"
+msgstr "Padėtis"
+
+#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
+msgid "Enlargement"
+msgstr "Didinimas"
+
+#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
+msgid "Colors"
+msgstr "Spalvos"
+
+#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
+msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
+msgid "~Start"
+msgstr "Pradžia"
+
+#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
+msgid "~End"
+msgstr "Pabaiga"
+
+#: copydlg.src%23DLG_COPY.modaldialog.text
+msgid "Duplicate"
+msgstr "Kopija"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "Pavadinimas"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
+msgid "~Title"
+msgstr "Antraštė"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
+msgid "~Description"
+msgstr "Aprašas"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
+msgid "~Visible"
+msgstr "Matomas"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
+msgid "~Printable"
+msgstr "Spausdinamas"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
+msgid "~Locked"
+msgstr "Užsklęstas"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
+msgid "Insert Layer"
+msgstr "Terpti sluoksnį"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
+msgid "Slide Pane"
+msgstr "Skaidrių polangis"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
+msgid "Page Pane"
+msgstr "Puslapių polangis"
+
+#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
+msgid "Task Pane"
+msgstr "Užduočių polangis"
 
 #: dlgolbul.src%23TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
 msgctxt "dlgolbul.src#TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
@@ -79,6 +325,47 @@ msgstr "Pritaikyti"
 #: dlgolbul.src%23TAB_OUTLINEBULLET.tabdialog.text
 msgid "Bullets and Numbering"
 msgstr "Ženklinti ir numeruoti"
+
+#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
+msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
+msgid "~Select a slide design"
+msgstr "Rinktis skaidrių projektą"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
+msgid "~Exchange background page"
+msgstr "Keisti fono puslapį į kitą"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
+msgid "~Delete unused backgrounds"
+msgstr "Trinti nenaudojamus fonus"
+
+#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
+msgid "~Load..."
+msgstr "Įkelti…"
+
+#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
+msgid "Slide Design"
+msgstr "Skaidrių projektas"
+
+#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
+msgid "Action at mouse click"
+msgstr "Veiksmas spustelėjus pele"
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
+msgid "~Browse..."
+msgstr "Naršyti…"
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
+msgid "~Find"
+msgstr "Rasti"
+
+#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
+msgid "Path Name"
+msgstr "Adreso pavadinimas"
+
+#: tpaction.src%23TP_ANIMATION.tabpage.text
+msgid "Interaction"
+msgstr "Sąveika"
 
 #: masterlayoutdlg.src%23RID_SD_DLG_MASTER_LAYOUT.FL_PLACEHOLDERS.fixedline.text
 msgid "Placeholders"
@@ -112,6 +399,239 @@ msgstr "Skaidrės numeris"
 msgid "Master Elements"
 msgstr "Išeitiniai dėmenys"
 
+#: tpoption.src%23SCALE_TEXT.%23define.text
+msgid "Scale"
+msgstr "Mastelis"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
+msgid "Display"
+msgstr "Rodyti"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
+msgid "~Rulers visible"
+msgstr "Matomos liniuotės"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
+msgid "~Guides when moving"
+msgstr "Rodyti orientyrus perkeliant"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
+msgid "~All control points in Bézier editor"
+msgstr "Visi valdymo taškai Bezjė objektų rengyklėje"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
+msgid "~Contour of each individual object"
+msgstr "Kiekvieno objekto kontūras atskirai"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
+msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
+msgid "Contents"
+msgstr "Turinys"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
+msgid "Text objects"
+msgstr "Teksto objektai"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
+msgid "Allow quick editing"
+msgstr "Spartusis taisymas"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
+msgid "Only text area selectable"
+msgstr "Pasirinkimas tik teksto srityje"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
+msgid "New document"
+msgstr "Naujas dokumentas"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
+msgid "Start with ~wizard"
+msgstr "Pradėti su vedikliu"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
+msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Nuostatos"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
+msgid "Use background cache"
+msgstr "Naudoti fono podėlį"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
+msgid "Copy when moving"
+msgstr "Kopijuoti judant"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
+msgid "Objects always moveable"
+msgstr "Objektai visada pajudinami"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
+msgid "Do not distort objects in curve"
+msgstr "Nepaversti objekto kreive"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
+msgid "Unit of ~measurement"
+msgstr "Matavimo vienetas"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
+msgid "Ta~b stops"
+msgstr "Tabuliavimo žingsnis"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
+msgid "Start presentation"
+msgstr "Pradėti rodymą"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
+msgid "Always with current page"
+msgstr "Visada su esamu puslapiu"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
+msgid "With Presenter Screen"
+msgstr "Su rodytojo ekranu"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
+msgid "Compatibility"
+msgstr "Suderinimas"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
+msgid "Us~e printer metrics for document formatting"
+msgstr "Naudoti spausdinimo metrikas teksto formavimui"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
+msgid "Add ~spacing between paragraphs and tables (in current document)"
+msgstr "Daryti tarpą tarp (esamo dokumento) pastraipų ir lentelių"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
+msgid "Original"
+msgstr "Pradinis"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
+msgid "Equivalent to"
+msgstr "Tolygus:"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
+msgid "~Drawing scale"
+msgstr "Brėžinio mastelis"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
+msgid "Page ~width"
+msgstr "Puslapio plotis"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
+msgid "Page ~height"
+msgstr "Puslapio aukštis"
+
+#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
+msgid "Other"
+msgstr "Kita"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Linija"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Sritis"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadow"
+msgstr "Šešėlis"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Skaidris"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Šriftas"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Šrifto puošyba"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Įtrauka ir tarpas"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "Tekstas"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
+msgid "Bullets"
+msgstr "Ženkleliai"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
+msgid "Numbering type"
+msgstr "Numeriai"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
+msgid "Graphics"
+msgstr "Piešiniai"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
+msgid "Customize"
+msgstr "Pritaikyti"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Lygiuotė"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Azijos šriftai"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Tabuliavimo žymės"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
+msgid "Presentation Layout"
+msgstr "Pranešimo maketas"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Sritis"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Šriftas"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Šrifto puošyba"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
+msgid "Position"
+msgstr "Padėtis"
+
+#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
+msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
+msgid "Return"
+msgstr "Grįžti"
+
+#: dlg_char.src%23TAB_CHAR.tabdialog.text
+msgid "Character"
+msgstr "Rašmuo"
+
 #: inspagob.src%23DLG_INSERT_PAGES_OBJS.CBX_LINK.checkbox.text
 msgid "~Link"
 msgstr "Saitas"
@@ -124,104 +644,225 @@ msgstr "Trinti nenaudojamus fonus"
 msgid "Insert Slides/Objects"
 msgstr "Terpti skaidres arba objektus"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
-msgid "Slide Pane"
-msgstr "Skaidrių polangis"
+#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
+msgid "Processing metafile:"
+msgstr "Apdorojama meta byla:"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
-msgid "Page Pane"
-msgstr "Puslapių polangis"
+#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
+msgid "Broken down metaobjects:"
+msgstr "Perlaužti metaobjektai:"
 
-#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
-msgid "Task Pane"
-msgstr "Užduočių polangis"
+#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
+msgid "Inserted drawing objects:"
+msgstr "Įterpti braižybos objektai:"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "Pavadinimas"
+#: brkdlg.src%23DLG_BREAK.modaldialog.text
+msgid "Break"
+msgstr "Lūžis"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
-msgid "~Title"
-msgstr "Antraštė"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
+msgid "Contents"
+msgstr "Turinys"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
-msgid "~Description"
-msgstr "Aprašas"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
+msgid "~Drawing"
+msgstr "Brėžinys"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
-msgid "~Visible"
-msgstr "Matomas"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
+msgid "~Notes"
+msgstr "Prierašai"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
-msgid "~Printable"
-msgstr "Spausdinamas"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
+msgid "Hando~uts"
+msgstr "Skaitiniai"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
-msgid "~Locked"
-msgstr "Užsklęstas"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
+msgid "Out~line"
+msgstr "Metmenys"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
-msgid "Insert Layer"
-msgstr "Terpti sluoksnį"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
+msgid "Quality"
+msgstr "Kokybė"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
-msgid "~New..."
-msgstr "Naujas…"
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
+msgid "Default"
+msgstr "Numatyta"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "Taisyti…"
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
+msgid "Gra~yscale"
+msgstr "Pilkos spalvos atspalviai"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
+msgid "Black & ~white"
+msgstr "Nespalvinis"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
+msgid "Print"
+msgstr "Spausdinti"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
+msgid "~Page name"
+msgstr "Puslapio pavadinimą"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
+msgid "D~ate"
+msgstr "Datą"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
+msgid "Ti~me"
+msgstr "Laiką"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
+msgid "H~idden pages"
+msgstr "Paslėptus puslapius"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
+msgid "Page options"
+msgstr "Puslapio nuostatos"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
+msgid "Default"
+msgstr "Numatyta"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
+msgid "~Fit to page"
+msgstr "Derinti prie puslapio"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
+msgid "~Tile pages"
+msgstr "Iškloti puslapius"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
+msgid "B~rochure"
+msgstr "Brošiūra"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
+msgid "Fr~ont"
+msgstr "Viršelis"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
+msgid "Ba~ck"
+msgstr "Nugarėlė"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
+msgid "Paper tray from printer s~ettings"
+msgstr "Popieriaus dėklas pagal spausdintuvo nuostatas"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
+msgid "Options"
+msgstr "Nuostatos"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
+msgid "Slide"
+msgstr "Skaidrė"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
+msgid "Notes and Handouts"
+msgstr "Prierašai ir skaitiniai"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
+msgid "Header and Footer"
+msgstr "Puslapio antraštė ir poraštė"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
+msgid "Include on slide"
+msgstr "Įtraukti į skaidrę"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
+msgid "Header"
+msgstr "Puslapio antraštė"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
+msgid "Header text"
+msgstr "Puslapio antraštės tekstas"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
+msgid "~Date and time"
+msgstr "Data ir laikas"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
+msgid "Fi~xed"
+msgstr "Pastovus"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
+msgid "~Variable"
+msgstr "Kintamas"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
+msgid "~Language:"
+msgstr "Kalba:"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
+msgid "Footer"
+msgstr "Puslapio poraštė"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
+msgid "Footer text"
+msgstr "Puslapio poraštės tekstas"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
+msgid "Slide number"
+msgstr "Skaidrės numeris"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
+msgid "Do not show on first slide"
+msgstr "Nerodyti pirmoje skaidrėje"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
+msgid "Apply to All"
+msgstr "Taikyti visoms"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
+msgid "Apply"
+msgstr "Taikyti"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
+msgid "Page number"
+msgstr "Puslapio numeris"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
+msgid "Include on page"
+msgstr "Rodyti puslapyje"
+
+#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "Trinti"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
-msgid "Cop~y"
-msgstr "Kopijuoti"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Padėtis"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
-msgid "~Start"
-msgstr "Pradžia"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+msgid "Type"
+msgstr "Atmaina"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
-msgid "~Close"
-msgstr "Užverti"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
+msgid "~Point"
+msgstr "Taškas"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
-msgid "-"
-msgstr "–"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
+msgid "~Vertical"
+msgstr "Stačia"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
-msgid "Custom Screen Show"
-msgstr "Pritaikytas ekrano rodymas"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
+msgid "Hori~zontal"
+msgstr "Gulsčia"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
-msgid "~Use Custom Slide Show"
-msgstr "Naudoti pritaikytą skaidrių rodymą"
-
-#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
-msgid "Custom Slide Shows"
-msgstr "Pritaikytas skaidrių rodymas"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
-msgid "Name"
-msgstr "Pavadinimas"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
-msgid "Existing slides"
-msgstr "Esamos skaidrės"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
-msgid "Selected slides"
-msgstr "Pasirinktos skaidrės"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
-msgid "Define Custom Slide Show"
-msgstr "Apibrėžti pritaikytą skaidrių rodymą"
+#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
+msgid "New Snap Object"
+msgstr "Naujas traukos objektas"
 
 #: animobjs.src%23FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text
 msgctxt "animobjs.src#FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text"
@@ -481,340 +1122,99 @@ msgstr "Peržiūrėti"
 msgid "Animation"
 msgstr "Animavimas"
 
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
-msgid "Slide"
-msgstr "Skaidrė"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
-msgid "Notes and Handouts"
-msgstr "Prierašai ir skaitiniai"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
-msgid "Header and Footer"
-msgstr "Puslapio antraštė ir poraštė"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
-msgid "Include on slide"
-msgstr "Įtraukti į skaidrę"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
-msgid "Header"
-msgstr "Puslapio antraštė"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
-msgid "Header text"
-msgstr "Puslapio antraštės tekstas"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
-msgid "~Date and time"
-msgstr "Data ir laikas"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
-msgid "Fi~xed"
-msgstr "Pastovus"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
-msgid "~Variable"
-msgstr "Kintamas"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
-msgid "~Language:"
-msgstr "Kalba:"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
-msgid "Footer"
-msgstr "Puslapio poraštė"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
-msgid "Footer text"
-msgstr "Puslapio poraštės tekstas"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
-msgid "Slide number"
-msgstr "Skaidrės numeris"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
-msgid "Do not show on first slide"
-msgstr "Nerodyti pirmoje skaidrėje"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
-msgid "Apply to All"
-msgstr "Taikyti visoms"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
-msgid "Apply"
-msgstr "Taikyti"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
-msgid "Page number"
-msgstr "Puslapio numeris"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
-msgid "Include on page"
-msgstr "Rodyti puslapyje"
-
-#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
-msgid "Preview"
-msgstr "Peržiūrėti"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Nuostatos"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
-msgid "Number of colors:"
-msgstr "Spalvų skaičius:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
-msgid "Point reduction:"
-msgstr "Taško mažinimas:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
-msgid "~Fill holes:"
-msgstr "Užpildyti skyles:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
-msgid "Tile size:"
-msgstr "Klojinio dydis:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
-msgid "Source picture:"
-msgstr "Pirminis paveikslas:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
-msgid "Source picture"
-msgstr "Pirminis paveikslas"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
-msgid "Vectorized image:"
-msgstr "Vektorizuotas paveikslas:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
-msgid "Vectorized image"
-msgstr "Vektorizuotas paveikslas"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
-msgid "Progress"
-msgstr "Eiga"
-
-#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
-msgid "Progress"
-msgstr "Eiga"
-
-#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
-msgid "Convert to Polygon"
-msgstr "Keisti į daugiakampį"
-
-#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
-msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
-msgid "~Select a slide design"
-msgstr "Rinktis skaidrių projektą"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
-msgid "~Exchange background page"
-msgstr "Keisti fono puslapį į kitą"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
-msgid "~Delete unused backgrounds"
-msgstr "Trinti nenaudojamus fonus"
-
-#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
-msgid "~Load..."
-msgstr "Įkelti…"
-
-#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
-msgid "Slide Design"
-msgstr "Skaidrių projektas"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
-msgid "Contents"
-msgstr "Turinys"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
-msgid "~Drawing"
-msgstr "Brėžinys"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
-msgid "~Notes"
-msgstr "Prierašai"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
-msgid "Hando~uts"
-msgstr "Skaitiniai"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
-msgid "Out~line"
-msgstr "Metmenys"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
-msgid "Quality"
-msgstr "Kokybė"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
-msgid "Default"
-msgstr "Numatyta"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
-msgid "Gra~yscale"
-msgstr "Pilkos spalvos atspalviai"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
-msgid "Black & ~white"
-msgstr "Nespalvinis"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
-msgid "Print"
-msgstr "Spausdinti"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
-msgid "~Page name"
-msgstr "Puslapio pavadinimą"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
-msgid "D~ate"
-msgstr "Datą"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
-msgid "Ti~me"
-msgstr "Laiką"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
-msgid "H~idden pages"
-msgstr "Paslėptus puslapius"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
-msgid "Page options"
-msgstr "Puslapio nuostatos"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
-msgid "Default"
-msgstr "Numatyta"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
-msgid "~Fit to page"
-msgstr "Derinti prie puslapio"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
-msgid "~Tile pages"
-msgstr "Iškloti puslapius"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
-msgid "B~rochure"
-msgstr "Brošiūra"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
-msgid "Fr~ont"
-msgstr "Viršelis"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
-msgid "Ba~ck"
-msgstr "Nugarėlė"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
-msgid "Paper tray from printer s~ettings"
-msgstr "Popieriaus dėklas pagal spausdintuvo nuostatas"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
-msgid "Options"
-msgstr "Nuostatos"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
-msgid "Pointer"
-msgstr "Rodyklė"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
-msgid "First Slide"
-msgstr "Pirmutinė skaidrė"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
-msgid "Previous Slide"
-msgstr "Pirmesnė skaidrė"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
-msgid "Next Slide"
-msgstr "Paskesnė skaidrė"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
-msgid "Last Slide"
-msgstr "Paskutinė skaidrė"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
-msgid "Drag Mode"
-msgstr "Vilkimo veiksena"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
-msgid "Show Shapes"
-msgstr "Rodyti pavidalus"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
-msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
-msgid "-"
-msgstr "–"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
-msgid "Documents"
-msgstr "Dokumentai"
-
-#: navigatr.src%23STR_OBJECTS_TREE.string.text
-msgid "Page Tree"
-msgstr "Puslapių medis"
-
-#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
-msgid "Action at mouse click"
-msgstr "Veiksmas spustelėjus pele"
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
-msgid "~Browse..."
-msgstr "Naršyti…"
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
-msgid "~Find"
-msgstr "Rasti"
-
-#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
-msgid "Path Name"
-msgstr "Adreso pavadinimas"
-
-#: tpaction.src%23TP_ANIMATION.tabpage.text
-msgid "Interaction"
-msgstr "Sąveika"
-
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Linija"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Sritis"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadowing"
+msgstr "Šešėlis"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Skaidris"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
 msgid "Font"
 msgstr "Šriftas"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "Šrifto puošyba"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgid "Font Effect"
+msgstr "Šrifto puošmena"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
-msgid "Position"
-msgstr "Padėtis"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Įtrauka ir tarpas"
 
-#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
-msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
-msgid "Return"
-msgstr "Grįžti"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "Tekstas"
 
-#: dlg_char.src%23TAB_CHAR.tabdialog.text
-msgid "Character"
-msgstr "Rašmuo"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
+msgid "Text Animation"
+msgstr "Teksto animavimas"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
+msgid "Dimensioning"
+msgstr "Matavimas"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
+msgid "Connector"
+msgstr "Jungtis"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Lygiuotė"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Azijos šriftai"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Tabuliavimo žymės"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
+msgid "Back"
+msgstr "Atgal"
+
+#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
+msgid "Graphics Styles"
+msgstr "Piešiamieji stiliai"
+
+#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
+msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
+msgid "Settings"
+msgstr "Nuostatos"
+
+#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
+msgid "Increments"
+msgstr "Didėjimo padalos"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
+msgid "Cross-fade attributes"
+msgstr "Virsmo požymiai"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
+msgid "Same orientation"
+msgstr "Vienoda kryptis"
+
+#: morphdlg.src%23DLG_MORPH.modaldialog.text
+msgid "Cross-fading"
+msgstr "Virsmas"
 
 #: dlgass.src%23DLG_ASS.CB_PREVIEW.checkbox.text
 msgid "Previe~w"
@@ -957,401 +1357,6 @@ msgstr "Kurti"
 msgid "Presentation Wizard"
 msgstr "Pranešimo vediklis"
 
-#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
-msgid "Number of ~copies"
-msgstr "Kopijų skaičius"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
-msgid "-"
-msgstr "–"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
-msgid "Values from Selection"
-msgstr "Reikšmės iš žyminio"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "Numatyta"
-
-#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
-msgid " degrees"
-msgstr " laipsniai"
-
-#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
-msgid "~Angle"
-msgstr "Kampas"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
-msgid "~X axis"
-msgstr "X ašis"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
-msgid "~Y axis"
-msgstr "Y ašis"
-
-#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "Plotis"
-
-#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
-msgid "~Height"
-msgstr "Aukštis"
-
-#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
-msgid "Placement"
-msgstr "Padėtis"
-
-#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
-msgid "Enlargement"
-msgstr "Didinimas"
-
-#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
-msgid "Colors"
-msgstr "Spalvos"
-
-#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
-msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
-msgid "~Start"
-msgstr "Pradžia"
-
-#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
-msgid "~End"
-msgstr "Pabaiga"
-
-#: copydlg.src%23DLG_COPY.modaldialog.text
-msgid "Duplicate"
-msgstr "Kopija"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
-msgid "Field type"
-msgstr "Lauko atmaina"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
-msgid "~Fixed"
-msgstr "Pastovus"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
-msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
-msgid "~Variable"
-msgstr "Kintamas"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
-msgid "~Language"
-msgstr "Kalba"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
-msgid "F~ormat"
-msgstr "Formatas"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
-msgid "Edit Field"
-msgstr "Taisyti lauką"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Linija"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Sritis"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadowing"
-msgstr "Šešėlis"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Skaidris"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Šriftas"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgid "Font Effect"
-msgstr "Šrifto puošmena"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Įtrauka ir tarpas"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "Tekstas"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
-msgid "Text Animation"
-msgstr "Teksto animavimas"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
-msgid "Dimensioning"
-msgstr "Matavimas"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
-msgid "Connector"
-msgstr "Jungtis"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Lygiuotė"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Azijos šriftai"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Tabuliavimo žymės"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
-msgid "Back"
-msgstr "Atgal"
-
-#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
-msgid "Graphics Styles"
-msgstr "Piešiamieji stiliai"
-
-#: tpoption.src%23SCALE_TEXT.%23define.text
-msgid "Scale"
-msgstr "Mastelis"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
-msgid "Display"
-msgstr "Rodyti"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
-msgid "~Rulers visible"
-msgstr "Matomos liniuotės"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
-msgid "~Guides when moving"
-msgstr "Rodyti orientyrus perkeliant"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
-msgid "~All control points in Bézier editor"
-msgstr "Visi valdymo taškai Bezjė objektų rengyklėje"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
-msgid "~Contour of each individual object"
-msgstr "Kiekvieno objekto kontūras atskirai"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
-msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
-msgid "Contents"
-msgstr "Turinys"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
-msgid "Text objects"
-msgstr "Teksto objektai"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
-msgid "Allow quick editing"
-msgstr "Spartusis taisymas"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
-msgid "Only text area selectable"
-msgstr "Pasirinkimas tik teksto srityje"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
-msgid "New document"
-msgstr "Naujas dokumentas"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
-msgid "Start with ~wizard"
-msgstr "Pradėti su vedikliu"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
-msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Nuostatos"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
-msgid "Use background cache"
-msgstr "Naudoti fono podėlį"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
-msgid "Copy when moving"
-msgstr "Kopijuoti judant"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
-msgid "Objects always moveable"
-msgstr "Objektai visada pajudinami"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
-msgid "Do not distort objects in curve"
-msgstr "Nepaversti objekto kreive"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
-msgid "Unit of ~measurement"
-msgstr "Matavimo vienetas"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
-msgid "Ta~b stops"
-msgstr "Tabuliavimo žingsnis"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
-msgid "Start presentation"
-msgstr "Pradėti rodymą"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
-msgid "Always with current page"
-msgstr "Visada su esamu puslapiu"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
-msgid "With Presenter Screen"
-msgstr "Su rodytojo ekranu"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
-msgid "Compatibility"
-msgstr "Suderinimas"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
-msgid "Us~e printer metrics for document formatting"
-msgstr "Naudoti spausdinimo metrikas teksto formavimui"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
-msgid "Add ~spacing between paragraphs and tables (in current document)"
-msgstr "Daryti tarpą tarp (esamo dokumento) pastraipų ir lentelių"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
-msgid "Original"
-msgstr "Pradinis"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
-msgid "Equivalent to"
-msgstr "Tolygus:"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
-msgid "~Drawing scale"
-msgstr "Brėžinio mastelis"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
-msgid "Page ~width"
-msgstr "Puslapio plotis"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
-msgid "Page ~height"
-msgstr "Puslapio aukštis"
-
-#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
-msgid "Other"
-msgstr "Kita"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
-msgid "Range"
-msgstr "Sritis"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
-msgid "All ~slides"
-msgstr "Visos skaidrės"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
-msgid "~From:"
-msgstr "Nuo:"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
-msgid "~Custom Slide Show"
-msgstr "Pritaikytas skaidrių rodymas"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
-msgid "Type"
-msgstr "Atmaina"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
-msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
-msgid "~Default"
-msgstr "Numatyta"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
-msgid "~Window"
-msgstr "Langas"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
-msgid "A~uto"
-msgstr "Savaiminis"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
-msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
-msgid "-"
-msgstr "–"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
-msgid "Duration of pause"
-msgstr "Pristabdymo trukmė"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
-msgid "Show ~logo"
-msgstr "Rodyti logotipą"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Nuostatos"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
-msgid "Change slides ~manually"
-msgstr "Keisti skaidres rankiniu būdu"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
-msgid "Mouse pointer ~visible"
-msgstr "Pelės rodyklė matoma"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
-msgid "Mouse pointer as ~pen"
-msgstr "Pelės rodyklė kaip rašiklis"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
-msgid "~Navigator visible"
-msgstr "Žvalgiklis matomas"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
-msgid "~Animations allowed"
-msgstr "Animavimas leidžiamas"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
-msgid "Change slides by clic~king on background"
-msgstr "Keisti skaidres spustelėjant fone"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
-msgid "Presentation always ~on top"
-msgstr "Pranešimas visada viršuje"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
-msgid "Multiple displays"
-msgstr "Daugialypis ekranas"
-
-#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
-msgid "P~resentation display"
-msgstr "Pranešimo ekranas"
-
-#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
-msgid "Display %1 (primary)"
-msgstr "%1 ekranas (pagrindinis)"
-
-#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
-msgid "Display %1"
-msgstr "%1 ekranas"
-
-#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
-msgid "All displays"
-msgstr "Visi ekranai"
-
-#: present.src%23DLG_START_PRESENTATION.modaldialog.text
-msgid "Slide Show"
-msgstr "Rodyti skaidres"
-
 #: paragr.src%23TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
 msgctxt "paragr.src#TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
 msgid "Indents & Spacing"
@@ -1380,27 +1385,6 @@ msgstr "Grįžti"
 #: paragr.src%23TAB_PARAGRAPH.tabdialog.text
 msgid "Paragraph"
 msgstr "Pastraipa"
-
-#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
-msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
-msgid "Settings"
-msgstr "Nuostatos"
-
-#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
-msgid "Increments"
-msgstr "Didėjimo padalos"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
-msgid "Cross-fade attributes"
-msgstr "Virsmo požymiai"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
-msgid "Same orientation"
-msgstr "Vienoda kryptis"
-
-#: morphdlg.src%23DLG_MORPH.modaldialog.text
-msgid "Cross-fading"
-msgstr "Virsmas"
 
 #: dlgpage.src%23TAB_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text
 msgid "Page"
@@ -1436,101 +1420,117 @@ msgstr "Po"
 msgid "Insert Slides"
 msgstr "Terpti skaidres"
 
-#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
-msgid "Processing metafile:"
-msgstr "Apdorojama meta byla:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
+msgid "~New..."
+msgstr "Naujas…"
 
-#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
-msgid "Broken down metaobjects:"
-msgstr "Perlaužti metaobjektai:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "Taisyti…"
 
-#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
-msgid "Inserted drawing objects:"
-msgstr "Įterpti braižybos objektai:"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+msgid "~Delete"
+msgstr "Trinti"
 
-#: brkdlg.src%23DLG_BREAK.modaldialog.text
-msgid "Break"
-msgstr "Lūžis"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
+msgid "Cop~y"
+msgstr "Kopijuoti"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Linija"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
+msgid "~Start"
+msgstr "Pradžia"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Sritis"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
+msgid "~Close"
+msgstr "Užverti"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadow"
-msgstr "Šešėlis"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
+msgid "-"
+msgstr "–"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Skaidris"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
+msgid "Custom Screen Show"
+msgstr "Pritaikytas ekrano rodymas"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Šriftas"
+#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
+msgid "~Use Custom Slide Show"
+msgstr "Naudoti pritaikytą skaidrių rodymą"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "Šrifto puošyba"
+#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
+msgid "Custom Slide Shows"
+msgstr "Pritaikytas skaidrių rodymas"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Įtrauka ir tarpas"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
+msgid "Name"
+msgstr "Pavadinimas"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "Tekstas"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
+msgid "Existing slides"
+msgstr "Esamos skaidrės"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
-msgid "Bullets"
-msgstr "Ženkleliai"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
+msgid "Selected slides"
+msgstr "Pasirinktos skaidrės"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
-msgid "Numbering type"
-msgstr "Numeriai"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
+msgid "Define Custom Slide Show"
+msgstr "Apibrėžti pritaikytą skaidrių rodymą"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
-msgid "Graphics"
-msgstr "Piešiniai"
+#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
+msgid "Preview"
+msgstr "Peržiūrėti"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
-msgid "Customize"
-msgstr "Pritaikyti"
+#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Nuostatos"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Lygiuotė"
+#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
+msgid "Number of colors:"
+msgstr "Spalvų skaičius:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Azijos šriftai"
+#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
+msgid "Point reduction:"
+msgstr "Taško mažinimas:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Tabuliavimo žymės"
+#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
+msgid "~Fill holes:"
+msgstr "Užpildyti skyles:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
-msgid "Presentation Layout"
-msgstr "Pranešimo maketas"
+#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
+msgid "Tile size:"
+msgstr "Klojinio dydis:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Sritis"
+#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
+msgid "Source picture:"
+msgstr "Pirminis paveikslas:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
+msgid "Source picture"
+msgstr "Pirminis paveikslas"
+
+#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
+msgid "Vectorized image:"
+msgstr "Vektorizuotas paveikslas:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
+msgid "Vectorized image"
+msgstr "Vektorizuotas paveikslas"
+
+#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
+msgid "Progress"
+msgstr "Eiga"
+
+#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
+msgid "Progress"
+msgstr "Eiga"
+
+#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
+msgid "Convert to Polygon"
+msgstr "Keisti į daugiakampį"
