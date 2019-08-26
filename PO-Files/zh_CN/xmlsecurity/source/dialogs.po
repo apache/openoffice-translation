@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+xmlsecurity%2Fsource"
 "%2Fdialogs.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2013-06-25 15:54+0000\n"
 "Last-Translator: liushenfeng <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,45 +15,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1372175645.0\n"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "文档中含有文档宏，签署人："
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
+msgid "Select the certificate you want to use for signing"
+msgstr "选择要签署的证书"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "文档中含有文档宏。"
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "颁发给\t颁发者\t有效日期"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "查看签名..."
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
+msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "查看证书..."
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#, fuzzy
+#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
+msgid "Select Certificate"
+msgstr "选择证书"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "安全性级别"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "可靠来源"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "重设"
+
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "宏安全性"
+
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr "宏可能含有病毒。对某个文档的禁用宏操作将始终被保存。如果您禁用宏，可能会丢失文档宏提供的功能。"
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
+msgstr ""
+"很高。\n"
+"只有来自可靠文件位置的宏会被允许运行。所有其他宏，无论是否签名，都被禁用(~V)。"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "始终信任来自这个源的宏"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"高。\n"
+"只有来自可靠来源的签名宏会被允许运行。未签名的宏被禁用(~I)。"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "启用宏"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"中。\n"
+"在执行来自不可靠来源的宏之前手动确认(~M)。"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "禁用宏"
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"低（建议不要采用）。\n"
+"不经确认即执行宏。此设置仅在保证所有打开的文档都是安全文档时才能使用(~L)。"
 
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "安全警告"
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "信得过的证书"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "颁发给\t颁发者\t有效日期"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "添加..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "查看..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+msgid "Remove"
+msgstr "删除"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "可靠的文件位置"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+msgid ""
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr "如果从以下位置之一打开文档宏，则将始终执行这些宏。"
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "添加..."
+
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "删除"
+
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "管理员对此设置进行了保护"
 
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 msgid "General"
@@ -184,121 +264,41 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "无法验证证书。"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
-msgid "Select the certificate you want to use for signing"
-msgstr "选择要签署的证书"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "文档中含有文档宏，签署人："
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "颁发给\t颁发者\t有效日期"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "文档中含有文档宏。"
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text
-msgctxt "certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "查看证书..."
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "查看签名..."
 
-#: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.modaldialog.text
-msgid "Select Certificate"
-msgstr "选择证书"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "安全性级别"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "可靠来源"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "重设"
-
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "宏安全性"
-
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#, fuzzy
 msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"很高。\n"
-"只有来自可靠文件位置的宏会被允许运行。所有其他宏，无论是否签名，都被禁用(~V)。"
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr "宏可能含有病毒。对某个文档的禁用宏操作将始终被保存。如果您禁用宏，可能会丢失文档宏提供的功能。"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"高。\n"
-"只有来自可靠来源的签名宏会被允许运行。未签名的宏被禁用(~I)。"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "始终信任来自这个源的宏"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"中。\n"
-"在执行来自不可靠来源的宏之前手动确认(~M)。"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "启用宏"
 
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"低（建议不要采用）。\n"
-"不经确认即执行宏。此设置仅在保证所有打开的文档都是安全文档时才能使用(~L)。"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "禁用宏"
 
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "信得过的证书"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "颁发给\t颁发者\t有效日期"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "添加..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "查看..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
-msgid "Remove"
-msgstr "删除"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "可靠的文件位置"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr "如果从以下位置之一打开文档宏，则将始终执行这些宏。"
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "添加..."
-
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "删除"
-
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "管理员对此设置进行了保护"
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "安全警告"
 
 #: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
 msgid "The following have signed the document content:"

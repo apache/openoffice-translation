@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+filter%2Fsource%2Fxs"
 "ltdialog.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2019-07-18 12:53+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,43 @@ msgstr ""
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1563454402.000000\n"
 
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
+msgid "~New..."
+msgstr "新建(~N)..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "编辑(~E)..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
+msgid "~Test XSLTs..."
+msgstr "测试 XSL~T..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
+msgid "~Delete..."
+msgstr "删除(~D)..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
+msgid "~Save as Package..."
+msgstr "存为软件包(~S)..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
+msgid "~Open Package..."
+msgstr "打开软件包(~O)"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
+msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "关闭(~C)"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
+msgid "XML Filter Settings"
+msgstr "XML 筛选器设置"
+
+#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
+msgid "XML Filter List"
+msgstr "XML过滤器列表"
+
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.PB_VALIDATE.pushbutton.text
 msgid "~Validate"
 msgstr "验证(~V)"
@@ -26,20 +63,6 @@ msgstr "验证(~V)"
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.workwindow.text
 msgid "XML Filter output"
 msgstr "XML 筛选器输出"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
-msgid "General"
-msgstr "常规"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
-msgid "Transformation"
-msgstr "转换"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
-msgid "XML Filter: %s"
-msgstr "XML 筛选器：%s"
 
 #: xmlfiltertestdialog.src%23DLG_XML_FILTER_TEST_DIALOG.FL_EXPORT.fixedline.text
 msgid "Export"
@@ -205,6 +228,47 @@ msgid ""
 "any XML filters."
 msgstr "因为软件包 '%s' 没有包含任何的 XML 筛选器， 因此无法安装 XML 筛选器。"
 
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
+msgid "General"
+msgstr "常规"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
+msgid "Transformation"
+msgstr "转换"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
+msgid "XML Filter: %s"
+msgstr "XML 筛选器：%s"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
+msgid "Filter name"
+msgstr "筛选器名称"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
+msgid "Application"
+msgstr "应用程序"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
+msgid ""
+"Name of\n"
+"file type"
+msgstr "文件类型名称"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
+msgid "File extension"
+msgstr "文件扩展名"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
+msgid "Comments"
+msgstr "注解"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
+msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
+msgid "General"
+msgstr "常规"
+
 #: xmlfiltertabpagexslt.src%23RID_XML_FILTER_TABPAGE_XSLT.FT_XML_DOCTYPE.fixedtext.text
 msgid "DocType"
 msgstr "文件类型"
@@ -252,70 +316,6 @@ msgstr "浏览..."
 msgctxt "xmlfiltertabpagexslt.src#RID_XML_FILTER_TABPAGE_XSLT.tabpage.text"
 msgid "Transformation"
 msgstr "转换"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
-msgid "Filter name"
-msgstr "筛选器名称"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
-msgid "Application"
-msgstr "应用程序"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
-msgid ""
-"Name of\n"
-"file type"
-msgstr "文件类型名称"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
-msgid "File extension"
-msgstr "文件扩展名"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
-msgid "Comments"
-msgstr "注解"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
-msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
-msgid "General"
-msgstr "常规"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
-msgid "~New..."
-msgstr "新建(~N)..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "编辑(~E)..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
-msgid "~Test XSLTs..."
-msgstr "测试 XSL~T..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
-msgid "~Delete..."
-msgstr "删除(~D)..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
-msgid "~Save as Package..."
-msgstr "存为软件包(~S)..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
-msgid "~Open Package..."
-msgstr "打开软件包(~O)"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
-msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "关闭(~C)"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
-msgid "XML Filter Settings"
-msgstr "XML 筛选器设置"
-
-#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
-msgid "XML Filter List"
-msgstr "XML过滤器列表"
 
 #~ msgid ""
 #~ "The name for  the user interface '%s1' is already used by the XML filter '%"

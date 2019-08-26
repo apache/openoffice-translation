@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+svtools%2Fsource%2Fc"
 "ontrol.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2015-08-27 07:32+0000\n"
 "Last-Translator: Chilau <jianjia11010@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1440660770.000000\n"
 
@@ -26,6 +26,86 @@ msgstr "水平标尺"
 #: ruler.src%23STR_SVT_ACC_RULER_VERT_NAME.string.text
 msgid "Vertical Ruler"
 msgstr "垂直标尺"
+
+#: ctrltool.src%23STR_SVT_STYLE_LIGHT.string.text
+msgid "Light"
+msgstr "细"
+
+#: ctrltool.src%23STR_SVT_STYLE_LIGHT_ITALIC.string.text
+msgid "Light Italic"
+msgstr "细斜体"
+
+#: ctrltool.src%23STR_SVT_STYLE_NORMAL.string.text
+msgid "Regular"
+msgstr "标准"
+
+#: ctrltool.src%23STR_SVT_STYLE_NORMAL_ITALIC.string.text
+msgid "Italic"
+msgstr "斜体"
+
+#: ctrltool.src%23STR_SVT_STYLE_BOLD.string.text
+msgid "Bold"
+msgstr "粗体"
+
+#: ctrltool.src%23STR_SVT_STYLE_BOLD_ITALIC.string.text
+msgid "Bold Italic"
+msgstr "粗斜体"
+
+#: ctrltool.src%23STR_SVT_STYLE_BLACK.string.text
+msgid "Black"
+msgstr "黑体"
+
+#: ctrltool.src%23STR_SVT_STYLE_BLACK_ITALIC.string.text
+msgid "Black Italic"
+msgstr "黑斜体"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_BOTH.string.text
+msgid "The same font will be used on both your printer and your screen."
+msgstr "屏幕显示和打印使用同一种字体。"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_PRINTERONLY.string.text
+msgid "This is a printer font. The screen image may differ."
+msgstr "这是打印字体。屏幕显示的字体与其可能会有些偏差。"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_SCREENONLY.string.text
+msgid "This is a screen font. The printer image may differ."
+msgstr "这是屏幕字体。打印出来的字体与其可能会有一些偏差。"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_SIZENOTAVAILABLE.string.text
+msgid ""
+"This font size has not been installed. The closest available size will be "
+"used."
+msgstr "没有安装这种字体大小。使用的是现有的最接近的字体大小。"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_STYLENOTAVAILABLE.string.text
+msgid ""
+"This font style will be simulated or the closest matching style will be used."
+msgstr "生成这种字体或使用最接近的字体。"
+
+#: ctrltool.src%23STR_SVT_FONTMAP_NOTAVAILABLE.string.text
+msgid ""
+"This font has not been installed. The closest available font will be used."
+msgstr "没有安装这种字体。使用的是现有的最接近的字体。"
+
+#: filectrl.src%23STR_FILECTRL_BUTTONTEXT.string.text
+msgid "Browse..."
+msgstr "浏览..."
+
+#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVET0HOME.string.text
+msgid "Move To Home"
+msgstr "移动到首部"
+
+#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVELEFT.string.text
+msgid "Move Left"
+msgstr "左移"
+
+#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVERIGHT.string.text
+msgid "Move Right"
+msgstr "右移"
+
+#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVETOEND.string.text
+msgid "Move To End"
+msgstr "移动到结尾"
 
 #: ctrlbox.src%23STR_SVT_AUTOMATIC_COLOR.string.text
 msgid "Automatic"
@@ -131,26 +211,6 @@ msgstr "语音的(数字排列最后，按音节分组)"
 msgid "Phonetic (alphanumeric last, grouped by consonants)"
 msgstr "语音的(数字排列最后，按辅音分组)"
 
-#: filectrl.src%23STR_FILECTRL_BUTTONTEXT.string.text
-msgid "Browse..."
-msgstr "浏览..."
-
-#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVET0HOME.string.text
-msgid "Move To Home"
-msgstr "移动到首部"
-
-#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVELEFT.string.text
-msgid "Move Left"
-msgstr "左移"
-
-#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVERIGHT.string.text
-msgid "Move Right"
-msgstr "右移"
-
-#: filectrl.src%23STR_TABBAR_PUSHBUTTON_MOVETOEND.string.text
-msgid "Move To End"
-msgstr "移动到结尾"
-
 #: calendar.src%23STR_SVT_CALENDAR_DAY.string.text
 msgid "Day"
 msgstr "天"
@@ -166,63 +226,3 @@ msgstr "今天"
 #: calendar.src%23STR_SVT_CALENDAR_NONE.string.text
 msgid "None"
 msgstr "无"
-
-#: ctrltool.src%23STR_SVT_STYLE_LIGHT.string.text
-msgid "Light"
-msgstr "细"
-
-#: ctrltool.src%23STR_SVT_STYLE_LIGHT_ITALIC.string.text
-msgid "Light Italic"
-msgstr "细斜体"
-
-#: ctrltool.src%23STR_SVT_STYLE_NORMAL.string.text
-msgid "Regular"
-msgstr "标准"
-
-#: ctrltool.src%23STR_SVT_STYLE_NORMAL_ITALIC.string.text
-msgid "Italic"
-msgstr "斜体"
-
-#: ctrltool.src%23STR_SVT_STYLE_BOLD.string.text
-msgid "Bold"
-msgstr "粗体"
-
-#: ctrltool.src%23STR_SVT_STYLE_BOLD_ITALIC.string.text
-msgid "Bold Italic"
-msgstr "粗斜体"
-
-#: ctrltool.src%23STR_SVT_STYLE_BLACK.string.text
-msgid "Black"
-msgstr "黑体"
-
-#: ctrltool.src%23STR_SVT_STYLE_BLACK_ITALIC.string.text
-msgid "Black Italic"
-msgstr "黑斜体"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_BOTH.string.text
-msgid "The same font will be used on both your printer and your screen."
-msgstr "屏幕显示和打印使用同一种字体。"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_PRINTERONLY.string.text
-msgid "This is a printer font. The screen image may differ."
-msgstr "这是打印字体。屏幕显示的字体与其可能会有些偏差。"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_SCREENONLY.string.text
-msgid "This is a screen font. The printer image may differ."
-msgstr "这是屏幕字体。打印出来的字体与其可能会有一些偏差。"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_SIZENOTAVAILABLE.string.text
-msgid ""
-"This font size has not been installed. The closest available size will be "
-"used."
-msgstr "没有安装这种字体大小。使用的是现有的最接近的字体大小。"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_STYLENOTAVAILABLE.string.text
-msgid ""
-"This font style will be simulated or the closest matching style will be used."
-msgstr "生成这种字体或使用最接近的字体。"
-
-#: ctrltool.src%23STR_SVT_FONTMAP_NOTAVAILABLE.string.text
-msgid ""
-"This font has not been installed. The closest available font will be used."
-msgstr "没有安装这种字体。使用的是现有的最接近的字体。"
