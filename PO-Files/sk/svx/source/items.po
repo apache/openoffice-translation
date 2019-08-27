@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+svx%2Fsource%2Fitems"
 ".oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
-"PO-Revision-Date: 2019-06-22 14:28+0000\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -17,7 +17,157 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1561213727.000000\n"
+"X-POOTLE-MTIME: 1562509283.000000\n"
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_THESAURUS_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) executing the thesaurus."
+msgstr "Chyba pri spustení slovníka synoným ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_SPELLING_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) executing the spellcheck."
+msgstr "Chyba pri spustení kontroly pravopisu ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_HYPHENATION_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) executing the hyphenation."
+msgstr "Chyba pri spustení delenia slov ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_DICTIONARY_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) creating a dictionary."
+msgstr "Chyba pri vytváraní slovníka ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_BACKGROUND_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) setting background attribute."
+msgstr "Chyba pri nastavovaní pozadia ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_IMPORT_GRAPHIC_ERRCODE_RES_MASK.string.text
+msgid "$(ERR) loading the graphics."
+msgstr "Chyba pri načítaní obrázka ($(ERR))."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_THESAURUSNOTEXISTS_ERRCODE_RES_MASK.string.text
+msgid ""
+"No thesaurus available for the current language.\n"
+"Please check your installation and install the desired language."
+msgstr ""
+"Pre aktuálny jazyk nie je dostupný slovník synoným.\n"
+"Prosím skontrolujte svoju inštaláciu a doplňte požadovaný jazyk."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LANGUAGENOTEXISTS_ERRCODE_RES_MASK.string.text
+msgid ""
+"$(ARG1) is not supported by the spellcheck function or is not presently "
+"active.\n"
+"Please check your installation and, if necessary, install the required "
+"language module\n"
+"or activate it under 'Tools - Options - Language Settings - Writing Aids'."
+msgstr ""
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LINGUNOTEXISTS_ERRCODE_RES_MASK.string.text
+msgid "Spellcheck is not available."
+msgstr "Kontrola pravopisu nie je dostupná."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_HYPHENNOTEXISTS_ERRCODE_RES_MASK.string.text
+msgid "Hyphenation not available."
+msgstr "Delenie slov nie je k dispozícii."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTREADABLE_ERRCODE_RES_MASK.string.text
+msgid "The custom dictionary $(ARG1) cannot be read."
+msgstr "Nie je možné načítať vlastný slovník $(ARG1)."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTWRITEABLE_ERRCODE_RES_MASK.string.text
+msgid "The custom dictionary $(ARG1) cannot be created."
+msgstr "Nie je možné vytvoriť vlastný slovník $(ARG1)."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_GRAPHIC_NOTREADABLE_ERRCODE_RES_MASK.string.text
+msgid "The graphic $(ARG1) could not be found."
+msgstr "Obrázok $(ARG1). nebol nájdený."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_GRAPHIC_WRONG_FILEFORMAT_ERRCODE_RES_MASK.string.text
+msgid "An unlinked graphic could not be loaded."
+msgstr "Nie je možné načítať nepripojený obrázok."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_NOLANGUAGE_ERRCODE_RES_MASK.string.text
+msgid "A language has not been fixed for the selected term."
+msgstr "Jazyk nebol upravený pre zvolený termín."
+
+#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
+msgid ""
+"The form layer wasn't loaded as the required IO-services (stardiv.uno.io.*) "
+"could not be instantiated."
+msgstr ""
+"Vrstva formulára nebola načítaná, pretože nie je možné vytvoriť požadované "
+"IO služby (stardiv.uno.io.*)."
+
+#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_WRITE____ERRCODE_RES_MASK.string.text
+msgid ""
+"The form layer wasn't written as the required IO services (stardiv.uno.io.*) "
+"could not be instantiated."
+msgstr ""
+"Vrstva formulára nebola zapísaná, pretože nie je možné vytvoriť požadované "
+"IO služby (stardiv.uno.io.*)."
+
+#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_READWRITEFAILED___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
+msgid ""
+"An error occurred while reading the form controls. The form layer has not "
+"been loaded."
+msgstr ""
+"Nastala chyba pri načítavaní formulárových prvkov. Vrstva formulára nebola "
+"načítaná."
+
+#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_READWRITEFAILED___ERRCODE_CLASS_WRITE____ERRCODE_RES_MASK.string.text
+msgid ""
+"An error occurred while writing the form controls. The form layer has not "
+"been saved."
+msgstr ""
+"Nastala chyba pri zapisovaní formulárových prvkov. Vrstva formulára nebola "
+"uložená."
+
+#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_BULLETITEM_NOBULLET___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
+msgid ""
+"An error occurred while reading one of the bullets. Not all of the bullets "
+"were loaded."
+msgstr ""
+"Nastala chyba pri načítavaní jednej z odrážok. Nie všetky odrážky boli "
+"načítané."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_MODIFIED_VBASIC_STORAGE___ERRCODE_RES_MASK.string.text
+msgid ""
+"All changes to the Basic Code are lost. The original VBA Macro Code is saved "
+"instead."
+msgstr ""
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_VBASIC_STORAGE_EXIST___ERRCODE_RES_MASK.string.text
+msgid ""
+"The original VBA Basic Code contained in the document will not be saved."
+msgstr "Kód VBA Basic pôvodne obsiahnutý v dokumente nebude uložený."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_WRONGPASS___ERRCODE_RES_MASK.string.text
+msgid "The password is incorrect. The document cannot be opened."
+msgstr "Heslo je nesprávne. Dokument nemôže byť otvorený."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_READ_FILTER_CRYPT___ERRCODE_RES_MASK.string.text
+msgid ""
+"The encryption method used in this document is not supported. Only Microsoft "
+"Office 97/2000 compatible password encryption is supported."
+msgstr ""
+"Spôsob kódovania použitý v tomto nie je podporovaný. Podporované je len "
+"kódovnie heslom kompatibilné s Microsoft Office 97/2000."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_READ_FILTER_PPOINT___ERRCODE_RES_MASK.string.text
+msgid ""
+"The loading of password-encrypted Microsoft PowerPoint presentations is not "
+"supported."
+msgstr ""
+"Otváranie prezentácií Microsoft PowerPoint chránených heslom nie je "
+"podporované."
+
+#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_EXPORT_FILTER_CRYPT___ERRCODE_RES_MASK.string.text
+msgid ""
+"Password protection is not supported when documents are saved in a Microsoft "
+"Office format.\n"
+"Do you want to save the document without password protection?"
+msgstr ""
+"Ochrana heslom nie je podporovaná pri ukladaní súborov vo formáte Microsoft "
+"Office.\n"
+"Chcete uložiť dokument bez ochrany heslom?"
 
 #: svxitems.src%23RID_ATTR_NAMES.1.itemlist.text
 msgctxt "svxitems.src#RID_ATTR_NAMES.1.itemlist.text"
@@ -526,156 +676,6 @@ msgstr "Farba vzorky: "
 msgctxt "svxitems.src#RID_SVXITEMS_BRUSH_CHAR.string.text"
 msgid "Character background"
 msgstr "Pozadie znaku"
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_THESAURUS_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) executing the thesaurus."
-msgstr "Chyba pri spustení slovníka synoným ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_SPELLING_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) executing the spellcheck."
-msgstr "Chyba pri spustení kontroly pravopisu ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_HYPHENATION_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) executing the hyphenation."
-msgstr "Chyba pri spustení delenia slov ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_DICTIONARY_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) creating a dictionary."
-msgstr "Chyba pri vytváraní slovníka ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_BACKGROUND_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) setting background attribute."
-msgstr "Chyba pri nastavovaní pozadia ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_IMPORT_GRAPHIC_ERRCODE_RES_MASK.string.text
-msgid "$(ERR) loading the graphics."
-msgstr "Chyba pri načítaní obrázka ($(ERR))."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_THESAURUSNOTEXISTS_ERRCODE_RES_MASK.string.text
-msgid ""
-"No thesaurus available for the current language.\n"
-"Please check your installation and install the desired language."
-msgstr ""
-"Pre aktuálny jazyk nie je dostupný slovník synoným.\n"
-"Prosím skontrolujte svoju inštaláciu a doplňte požadovaný jazyk."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LANGUAGENOTEXISTS_ERRCODE_RES_MASK.string.text
-msgid ""
-"$(ARG1) is not supported by the spellcheck function or is not presently "
-"active.\n"
-"Please check your installation and, if necessary, install the required "
-"language module\n"
-"or activate it under 'Tools - Options - Language Settings - Writing Aids'."
-msgstr ""
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LINGUNOTEXISTS_ERRCODE_RES_MASK.string.text
-msgid "Spellcheck is not available."
-msgstr "Kontrola pravopisu nie je dostupná."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_HYPHENNOTEXISTS_ERRCODE_RES_MASK.string.text
-msgid "Hyphenation not available."
-msgstr "Delenie slov nie je k dispozícii."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTREADABLE_ERRCODE_RES_MASK.string.text
-msgid "The custom dictionary $(ARG1) cannot be read."
-msgstr "Nie je možné načítať vlastný slovník $(ARG1)."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTWRITEABLE_ERRCODE_RES_MASK.string.text
-msgid "The custom dictionary $(ARG1) cannot be created."
-msgstr "Nie je možné vytvoriť vlastný slovník $(ARG1)."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_GRAPHIC_NOTREADABLE_ERRCODE_RES_MASK.string.text
-msgid "The graphic $(ARG1) could not be found."
-msgstr "Obrázok $(ARG1). nebol nájdený."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_GRAPHIC_WRONG_FILEFORMAT_ERRCODE_RES_MASK.string.text
-msgid "An unlinked graphic could not be loaded."
-msgstr "Nie je možné načítať nepripojený obrázok."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_NOLANGUAGE_ERRCODE_RES_MASK.string.text
-msgid "A language has not been fixed for the selected term."
-msgstr "Jazyk nebol upravený pre zvolený termín."
-
-#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
-msgid ""
-"The form layer wasn't loaded as the required IO-services (stardiv.uno.io.*) "
-"could not be instantiated."
-msgstr ""
-"Vrstva formulára nebola načítaná, pretože nie je možné vytvoriť požadované "
-"IO služby (stardiv.uno.io.*)."
-
-#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_WRITE____ERRCODE_RES_MASK.string.text
-msgid ""
-"The form layer wasn't written as the required IO services (stardiv.uno.io.*) "
-"could not be instantiated."
-msgstr ""
-"Vrstva formulára nebola zapísaná, pretože nie je možné vytvoriť požadované "
-"IO služby (stardiv.uno.io.*)."
-
-#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_READWRITEFAILED___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
-msgid ""
-"An error occurred while reading the form controls. The form layer has not "
-"been loaded."
-msgstr ""
-"Nastala chyba pri načítavaní formulárových prvkov. Vrstva formulára nebola "
-"načítaná."
-
-#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_READWRITEFAILED___ERRCODE_CLASS_WRITE____ERRCODE_RES_MASK.string.text
-msgid ""
-"An error occurred while writing the form controls. The form layer has not "
-"been saved."
-msgstr ""
-"Nastala chyba pri zapisovaní formulárových prvkov. Vrstva formulára nebola "
-"uložená."
-
-#: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_BULLETITEM_NOBULLET___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
-msgid ""
-"An error occurred while reading one of the bullets. Not all of the bullets "
-"were loaded."
-msgstr ""
-"Nastala chyba pri načítavaní jednej z odrážok. Nie všetky odrážky boli "
-"načítané."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_MODIFIED_VBASIC_STORAGE___ERRCODE_RES_MASK.string.text
-msgid ""
-"All changes to the Basic Code are lost. The original VBA Macro Code is saved "
-"instead."
-msgstr ""
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_VBASIC_STORAGE_EXIST___ERRCODE_RES_MASK.string.text
-msgid ""
-"The original VBA Basic Code contained in the document will not be saved."
-msgstr "Kód VBA Basic pôvodne obsiahnutý v dokumente nebude uložený."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_WRONGPASS___ERRCODE_RES_MASK.string.text
-msgid "The password is incorrect. The document cannot be opened."
-msgstr "Heslo je nesprávne. Dokument nemôže byť otvorený."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_READ_FILTER_CRYPT___ERRCODE_RES_MASK.string.text
-msgid ""
-"The encryption method used in this document is not supported. Only Microsoft "
-"Office 97/2000 compatible password encryption is supported."
-msgstr ""
-"Spôsob kódovania použitý v tomto nie je podporovaný. Podporované je len "
-"kódovnie heslom kompatibilné s Microsoft Office 97/2000."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_READ_FILTER_PPOINT___ERRCODE_RES_MASK.string.text
-msgid ""
-"The loading of password-encrypted Microsoft PowerPoint presentations is not "
-"supported."
-msgstr ""
-"Otváranie prezentácií Microsoft PowerPoint chránených heslom nie je "
-"podporované."
-
-#: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_EXPORT_FILTER_CRYPT___ERRCODE_RES_MASK.string.text
-msgid ""
-"Password protection is not supported when documents are saved in a Microsoft "
-"Office format.\n"
-"Do you want to save the document without password protection?"
-msgstr ""
-"Ochrana heslom nie je podporovaná pri ukladaní súborov vo formáte Microsoft "
-"Office.\n"
-"Chcete uložiť dokument bez ochrany heslom?"
 
 #~ msgid ""
 #~ "All changes to the Basic Code are lost.The original VBA Macro Code is saved "

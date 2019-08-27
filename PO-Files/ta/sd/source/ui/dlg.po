@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sd%2Fsource%2Fui%2Fd"
 "lg.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
-"PO-Revision-Date: 2019-06-22 15:01+0000\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ta\n"
@@ -17,38 +17,284 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1561215716.000000\n"
+"X-POOTLE-MTIME: 1562509303.000000\n"
 
-#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "~Delete"
+#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
+msgid "Range"
+msgstr "வரம்பு/வீச்சு"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Position"
+#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
+msgid "All ~slides"
+msgstr "அனைத்து ~காட்சிகள்"
 
-#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
-msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
+msgid "~From:"
+msgstr "~இருந்து:"
+
+#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
+msgid "~Custom Slide Show"
+msgstr "~பழக்கக்காட்சி"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
 msgid "Type"
 msgstr "Type"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
-msgid "~Point"
-msgstr "~புள்ளி"
+#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
+msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
+msgid "~Default"
+msgstr "உள்ளிருப்பு"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
-msgid "~Vertical"
-msgstr "~நெடுக்குவசம்"
+#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
+msgid "~Window"
+msgstr "~சாளரம்"
 
-#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
-msgid "Hori~zontal"
-msgstr "கி~டைமட்டம்"
+#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
+msgid "A~uto"
+msgstr "த~ன்னியக்கம்"
 
-#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
-msgid "New Snap Object"
-msgstr "புதிய காட்சிப்பொருள்"
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
+msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
+msgid "-"
+msgstr "-"
+
+#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
+msgid "Duration of pause"
+msgstr "நிறுத்த நேரம்"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
+msgid "Show ~logo"
+msgstr " ~குறியீட்டை காட்டுக"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
+msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Options"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
+msgid "Change slides ~manually"
+msgstr "~Change slides manually"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
+msgid "Mouse pointer ~visible"
+msgstr "சுட்டி ~புலனாகா முறைமையில்"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
+msgid "Mouse pointer as ~pen"
+msgstr "சுட்டி  ~பேனா வடிவாக"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
+msgid "~Navigator visible"
+msgstr "~உலாவி புலனாக்கம்"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
+msgid "~Animations allowed"
+msgstr "~அசைவூட்டங்கள் உண்டு"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
+msgid "Change slides by clic~king on background"
+msgstr "~காட்சிகளை பின்னணியின் மூலம் மாற்றுக"
+
+#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
+msgid "Presentation always ~on top"
+msgstr "எப்போதும் ~வழங்கல் காட்சி மேலே"
+
+#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
+msgid "Multiple displays"
+msgstr "Multiple displays"
+
+#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
+msgid "P~resentation display"
+msgstr "P~resentation display"
+
+#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
+msgid "Display %1 (primary)"
+msgstr "Display %1 (primary)"
+
+#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
+msgid "Display %1"
+msgstr "Display %1"
+
+#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
+msgid "All displays"
+msgstr "All displays"
+
+#: present.src%23DLG_START_PRESENTATION.modaldialog.text
+msgid "Slide Show"
+msgstr "காட்சி "
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
+msgid "Pointer"
+msgstr "குறிப்பான்"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
+msgid "First Slide"
+msgstr "முதல் காட்சிப்படம்"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
+msgid "Previous Slide"
+msgstr "முந்தைய காட்சிப்படம்"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
+msgid "Next Slide"
+msgstr "அடுத்த காட்சிப்படம்"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
+msgid "Last Slide"
+msgstr "கடைசி காட்சிப்படம்"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
+msgid "Drag Mode"
+msgstr "இழுப்பு முறைமை"
+
+#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
+msgid "Show Shapes"
+msgstr "Show Shapes"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
+msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
+msgid "-"
+msgstr "-"
+
+#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
+msgid "Documents"
+msgstr "ஆவணங்கள்"
+
+#: navigatr.src%23STR_OBJECTS_TREE.string.text
+msgid "Page Tree"
+msgstr "பக்கம் மரம்"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
+msgid "Field type"
+msgstr "புலன் வகைகள்"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
+msgid "~Fixed"
+msgstr "~நிலைத்த"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
+msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
+msgid "~Variable"
+msgstr "~Variable"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
+msgid "~Language"
+msgstr "மொழி"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
+msgid "F~ormat"
+msgstr "வடிவமை"
+
+#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
+msgid "Edit Field"
+msgstr "புலத்தை பதிப்பிக்க"
+
+#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
+msgid "Number of ~copies"
+msgstr " ~பிரதிகளின் எண்ணிக்கை"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
+msgid "Values from Selection"
+msgstr "தேர்ந்தெடுக்கப்பட்ட மதிப்புக்கள்"
+
+#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
+msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "உள்ளிருப்பு"
+
+#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
+msgid " degrees"
+msgstr " டிகிரிகள்"
+
+#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
+msgid "~Angle"
+msgstr "~கோணம்"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
+msgid "~X axis"
+msgstr "X அச்சு"
+
+#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
+msgid "~Y axis"
+msgstr "~Y அச்சு"
+
+#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
+msgid "~Width"
+msgstr "~அகலம்"
+
+#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
+msgid "~Height"
+msgstr "~உயரம்"
+
+#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
+msgid "Placement"
+msgstr "நிலை அமைத்தல்"
+
+#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
+msgid "Enlargement"
+msgstr "பெரிதாக்குதல்"
+
+#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
+msgid "Colors"
+msgstr "வண்ணங்கள்"
+
+#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
+msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
+msgid "~Start"
+msgstr "~Start"
+
+#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
+msgid "~End"
+msgstr "~முடிவு"
+
+#: copydlg.src%23DLG_COPY.modaldialog.text
+msgid "Duplicate"
+msgstr "பிரதி"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "~பெயர்:"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
+msgid "~Title"
+msgstr "~தலைப்பு"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
+msgid "~Description"
+msgstr "~விளக்கவுரை"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
+msgid "~Visible"
+msgstr "தெரியும்"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
+msgid "~Printable"
+msgstr "~அச்சிடக்கூடியது"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
+msgid "~Locked"
+msgstr "~பூட்டப்பட்டது"
+
+#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
+msgid "Insert Layer"
+msgstr "அடுக்கைச் சேர்க்க"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
+msgid "Slide Pane"
+msgstr "Slide Pane"
+
+#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
+msgid "Page Pane"
+msgstr "Page Pane"
+
+#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
+msgid "Task Pane"
+msgstr "Task Pane"
 
 #: dlgolbul.src%23TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
 msgctxt "dlgolbul.src#TAB_OUTLINEBULLET.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
@@ -78,6 +324,47 @@ msgstr "Customize"
 #: dlgolbul.src%23TAB_OUTLINEBULLET.tabdialog.text
 msgid "Bullets and Numbering"
 msgstr "குண்டுகளும் எண்களும்..."
+
+#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
+msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
+msgid "~Select a slide design"
+msgstr "~Select a slide design"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
+msgid "~Exchange background page"
+msgstr "பக்க பின்னணியை பரிமாற்றம் செய்"
+
+#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
+msgid "~Delete unused backgrounds"
+msgstr "~தேவையில்லா பின்னணிகளை நீக்குக"
+
+#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
+msgid "~Load..."
+msgstr "~ஏற்றுக..."
+
+#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
+msgid "Slide Design"
+msgstr "காட்சி வடிவம்"
+
+#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
+msgid "Action at mouse click"
+msgstr "சுட்டி சொடுக்கிய போது செய்யப்படும் செயல்"
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
+msgid "~Browse..."
+msgstr "~உலாவுக.."
+
+#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
+msgid "~Find"
+msgstr "~தேடுக"
+
+#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
+msgid "Path Name"
+msgstr "பாதைப் பெயர்"
+
+#: tpaction.src%23TP_ANIMATION.tabpage.text
+msgid "Interaction"
+msgstr "தொடர்பு"
 
 #: masterlayoutdlg.src%23RID_SD_DLG_MASTER_LAYOUT.FL_PLACEHOLDERS.fixedline.text
 msgid "Placeholders"
@@ -111,6 +398,239 @@ msgstr "Slide number"
 msgid "Master Elements"
 msgstr "Master Elements"
 
+#: tpoption.src%23SCALE_TEXT.%23define.text
+msgid "Scale"
+msgstr "அளவு"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
+msgid "Display"
+msgstr "Display"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
+msgid "~Rulers visible"
+msgstr "~அளவுகாட்டி புலனாக்கம்"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
+msgid "~Guides when moving"
+msgstr "நகரும் போது பொருத்து"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
+msgid "~All control points in Bézier editor"
+msgstr "~ BÃ©zier பதிப்பியில் உள்ள கட்டுப்பாடு புள்ளிகள்"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
+msgid "~Contour of each individual object"
+msgstr "~ஒவ்வொரு பொருளின் வெளிக்கோடு"
+
+#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
+msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
+msgid "Contents"
+msgstr "Contents"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
+msgid "Text objects"
+msgstr "உரைப்பொருட்கள்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
+msgid "Allow quick editing"
+msgstr "விரைவுப் பதிப்பை அனுமதிக்க"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
+msgid "Only text area selectable"
+msgstr "தேர்ந்தெடுக்கப்பட வேண்டிய உரைப்பகுதி"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
+msgid "New document"
+msgstr "புதிய ஆவணம்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
+msgid "Start with ~wizard"
+msgstr "Start with ~wizard"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
+msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Settings"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
+msgid "Use background cache"
+msgstr "பின்னணி நினைவகத்தை பயன்படுத்துக"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
+msgid "Copy when moving"
+msgstr "நகர்த்தும் போது நகலெடுக்கப்படுகிறது"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
+msgid "Objects always moveable"
+msgstr "எப்போதும் நகர்த்தக்கூடிய பொருள்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
+msgid "Do not distort objects in curve"
+msgstr "வளைகோட்டுப் பொருளை விலக்காதே"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
+msgid "Unit of ~measurement"
+msgstr "அலகிடல் ~வகை"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
+msgid "Ta~b stops"
+msgstr "உ~ள் தள்ளல்கல்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
+msgid "Start presentation"
+msgstr "வழங்கலைத் தொடங்குக"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
+msgid "Always with current page"
+msgstr "எப்போதும் நடப்பு பக்கத்துடன்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
+msgid "With Presenter Screen"
+msgstr "காட்டுபவர் திரையுடன்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
+msgid "Compatibility"
+msgstr "ஒத்திசைவு வகை"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
+msgid "Us~e printer metrics for document formatting"
+msgstr "ஆவண வடிவமைத்தலுக்கு அச்சுப்பொறி அளவை பயன்படுத்து"
+
+#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
+msgid "Add ~spacing between paragraphs and tables (in current document)"
+msgstr "Add ~spacing between paragraphs in the current document"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
+msgid "Original"
+msgstr "மூலம்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
+msgid "Equivalent to"
+msgstr "ஒத்ததாக"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
+msgid "~Drawing scale"
+msgstr "~வரைதல் அளவு"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
+msgid "Page ~width"
+msgstr "பக்க ~அகலம்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
+msgid "Page ~height"
+msgstr "பக்க ~உயரம்"
+
+#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
+msgid "Other"
+msgstr "மற்றவை"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Line"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "பரப்பு"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadow"
+msgstr "நிழல்"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Transparency"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "எழுத்துரு"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "எழுத்துரு மாற்றம்"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Indents & Spacing"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "உரை"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
+msgid "Bullets"
+msgstr "குண்டுகள்"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
+msgid "Numbering type"
+msgstr "எண்ணிடல் வகை"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
+msgid "Graphics"
+msgstr "வரைகலை"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
+msgid "Customize"
+msgstr "தனிபயனாக்கு"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Alignment"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Asian Typography"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Tabs"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
+msgid "Presentation Layout"
+msgstr "வழங்கல்காட்சி அடுக்கமைப்பு"
+
+#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "பகுதி"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+msgid "Font"
+msgstr "Font"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
+msgid "Font Effects"
+msgstr "Font Effects"
+
+#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
+msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
+msgid "Position"
+msgstr "Position"
+
+#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
+msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
+msgid "Return"
+msgstr "Return"
+
+#: dlg_char.src%23TAB_CHAR.tabdialog.text
+msgid "Character"
+msgstr "எழுத்து"
+
 #: inspagob.src%23DLG_INSERT_PAGES_OBJS.CBX_LINK.checkbox.text
 msgid "~Link"
 msgstr "~இணைப்பு"
@@ -123,104 +643,225 @@ msgstr "தேவையில்லா பின்~னணிகளை நீக
 msgid "Insert Slides/Objects"
 msgstr "தலைப்புக்கள்/பொருட்களை சேர்க்க"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_IMPRESS_DOCKING_WINDOW.dockingwindow.text
-msgid "Slide Pane"
-msgstr "Slide Pane"
+#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
+msgid "Processing metafile:"
+msgstr "உயர் கோப்புச் செயலாக்கம்"
 
-#: PaneDockingWindow.src%23FLT_LEFT_PANE_DRAW_DOCKING_WINDOW.dockingwindow.text
-msgid "Page Pane"
-msgstr "Page Pane"
+#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
+msgid "Broken down metaobjects:"
+msgstr "உடைந்த உயர்க்கோப்பு கருவிகள்"
 
-#: PaneDockingWindow.src%23FLT_TOOL_PANEL_DOCKING_WINDOW.dockingwindow.text
-msgid "Task Pane"
-msgstr "Task Pane"
+#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
+msgid "Inserted drawing objects:"
+msgstr "நுழைக்கப்பட்ட வரையும் கருவிகள்"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "~பெயர்:"
+#: brkdlg.src%23DLG_BREAK.modaldialog.text
+msgid "Break"
+msgstr "முறி"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_TITLE.fixedtext.text
-msgid "~Title"
-msgstr "~தலைப்பு"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
+msgid "Contents"
+msgstr "Contents"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.FT_DESCRIPTION.fixedtext.text
-msgid "~Description"
-msgstr "~விளக்கவுரை"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
+msgid "~Drawing"
+msgstr "~ஓவியம்"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_VISIBLE.checkbox.text
-msgid "~Visible"
-msgstr "தெரியும்"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
+msgid "~Notes"
+msgstr "குறிப்புகள்"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_PRINTABLE.checkbox.text
-msgid "~Printable"
-msgstr "~அச்சிடக்கூடியது"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
+msgid "Hando~uts"
+msgstr "கை~யேடுகள்"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.CBX_LOCKED.checkbox.text
-msgid "~Locked"
-msgstr "~பூட்டப்பட்டது"
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
+msgid "Out~line"
+msgstr "~வெளிக்கோடு"
 
-#: layeroptionsdlg.src%23DLG_INSERT_LAYER.modaldialog.text
-msgid "Insert Layer"
-msgstr "அடுக்கைச் சேர்க்க"
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
+msgid "Quality"
+msgstr "தரம்"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
-msgid "~New..."
-msgstr "~புதிய ..."
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
+msgid "Default"
+msgstr "உள்ளிருப்பு"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "~பதிப்பிக்க..."
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
+msgid "Gra~yscale"
+msgstr "சாம்பல்அளவு"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
+msgid "Black & ~white"
+msgstr "கருப்பு & வெள்ளை"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
+msgid "Print"
+msgstr "அச்சிடும்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
+msgid "~Page name"
+msgstr "~பக்கப் பெயர்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
+msgid "D~ate"
+msgstr "நா~ள்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
+msgid "Ti~me"
+msgstr "கா~லம்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
+msgid "H~idden pages"
+msgstr "ம~றைக்கப்பட்ட பக்கங்கள்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
+msgid "Page options"
+msgstr "பக்க அமைவுகள்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
+msgid "Default"
+msgstr "Default"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
+msgid "~Fit to page"
+msgstr "~பக்கத்திற்கு பொருத்துக"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
+msgid "~Tile pages"
+msgstr "~தளப் பக்கங்கள்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
+msgid "B~rochure"
+msgstr "கு~றிப்பேடு"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
+msgid "Fr~ont"
+msgstr "மு~ன்பக்கம்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
+msgid "Ba~ck"
+msgstr "பின்~பக்கம்"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
+msgid "Paper tray from printer s~ettings"
+msgstr "அச்சுப்பொறி ~அமைவுகள் காகிதத் தட்டிலிருந்து"
+
+#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
+msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
+msgid "Options"
+msgstr "Options"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
+msgid "Slide"
+msgstr "காட்சி"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
+msgid "Notes and Handouts"
+msgstr "Notes and Handouts"
+
+#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
+msgid "Header and Footer"
+msgstr "Header and Footer"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
+msgid "Include on slide"
+msgstr "Include on slide"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
+msgid "Header"
+msgstr "Header"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
+msgid "Header text"
+msgstr "Header text"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
+msgid "~Date and time"
+msgstr "~Date and time"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
+msgid "Fi~xed"
+msgstr "Fi~xed"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
+msgid "~Variable"
+msgstr "~Variable"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
+msgid "~Language:"
+msgstr "~Language:"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
+msgid "Footer"
+msgstr "Footer"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
+msgid "Footer text"
+msgstr "Footer text"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
+msgid "Slide number"
+msgstr "Slide number"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
+msgid "Do not show on first slide"
+msgstr "Do not show on first slide"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
+msgid "Apply to All"
+msgstr "Apply to All"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
+msgid "Apply"
+msgstr "பயன்படுத்து"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
+msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
+msgid "Page number"
+msgstr "Page number"
+
+#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
+msgid "Include on page"
+msgstr "Include on page"
+
+#: dlgsnap.src%23DLG_SNAPLINE.BTN_DELETE.pushbutton.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.BTN_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "~Delete"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
-msgid "Cop~y"
-msgstr "நக~லெடுக்க"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_POSITION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Position"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
-msgid "~Start"
-msgstr "~Start"
+#: dlgsnap.src%23DLG_SNAPLINE.FL_DIRECTION.fixedline.text
+msgctxt "dlgsnap.src#DLG_SNAPLINE.FL_DIRECTION.fixedline.text"
+msgid "Type"
+msgstr "Type"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
-msgid "~Close"
-msgstr "மூடு"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_POINT.imageradiobutton.text
+msgid "~Point"
+msgstr "~புள்ளி"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
-msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
-msgid "-"
-msgstr "-"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_VERTICAL.imageradiobutton.text
+msgid "~Vertical"
+msgstr "~நெடுக்குவசம்"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
-msgid "Custom Screen Show"
-msgstr "வழக்கமான திரைக்காட்சி"
+#: dlgsnap.src%23DLG_SNAPLINE.RB_HORIZONTAL.imageradiobutton.text
+msgid "Hori~zontal"
+msgstr "கி~டைமட்டம்"
 
-#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
-msgid "~Use Custom Slide Show"
-msgstr "~பழக்கக் காட்சியை பயன்படுத்துக"
-
-#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
-msgid "Custom Slide Shows"
-msgstr "பழக்கக் காட்சிகள்"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
-msgid "Name"
-msgstr "பெயர்"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
-msgid "Existing slides"
-msgstr "ஏற்கனவே உள்ள படக்காட்சிகள்"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
-msgid "Selected slides"
-msgstr "தேர்ந்தெடுக்கப்பட்ட படக்காட்சிகள்"
-
-#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
-msgid "Define Custom Slide Show"
-msgstr "பழக்கக்காட்சியை வரையறுக்க"
+#: dlgsnap.src%23DLG_SNAPLINE.modaldialog.text
+msgid "New Snap Object"
+msgstr "புதிய காட்சிப்பொருள்"
 
 #: animobjs.src%23FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text
 msgctxt "animobjs.src#FLT_WIN_ANIMATION.BTN_FIRST.imagebutton.text"
@@ -480,340 +1121,99 @@ msgstr "முன்காட்சி"
 msgid "Animation"
 msgstr "அசைவூட்டம்"
 
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_SLIDE.pageitem.text
-msgid "Slide"
-msgstr "காட்சி"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.1.RID_SD_TABPAGE_HEADERFOOTER_NOTESHANDOUT.pageitem.text
-msgid "Notes and Handouts"
-msgstr "Notes and Handouts"
-
-#: headerfooterdlg.src%23RID_SD_DLG_HEADERFOOTER.tabdialog.text
-msgid "Header and Footer"
-msgstr "Header and Footer"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FL_INCLUDE_ON_PAGE.fixedline.text
-msgid "Include on slide"
-msgstr "Include on slide"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_HEADER.checkbox.text"
-msgid "Header"
-msgstr "Header"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_HEADER.fixedtext.text
-msgid "Header text"
-msgstr "Header text"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_DATETIME.checkbox.text
-msgid "~Date and time"
-msgstr "~Date and time"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_FIXED.radiobutton.text
-msgid "Fi~xed"
-msgstr "Fi~xed"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.RB_DATETIME_AUTOMATIC.radiobutton.text"
-msgid "~Variable"
-msgstr "~Variable"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_DATETIME_LANGUAGE.fixedtext.text
-msgid "~Language:"
-msgstr "~Language:"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_FOOTER.checkbox.text"
-msgid "Footer"
-msgstr "Footer"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.FT_FOOTER.fixedtext.text
-msgid "Footer text"
-msgstr "Footer text"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.CB_SLIDENUMBER.checkbox.text"
-msgid "Slide number"
-msgstr "Slide number"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.CB_NOTONTITLE.checkbox.text
-msgid "Do not show on first slide"
-msgstr "Do not show on first slide"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLYTOALL.pushbutton.text
-msgid "Apply to All"
-msgstr "Apply to All"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.BT_APPLY.pushbutton.text
-msgid "Apply"
-msgstr "பயன்படுத்து"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text
-msgctxt "headerfooterdlg.src#RID_SD_TABPAGE_HEADERFOOTER.STR_PAGE_NUMBER.string.text"
-msgid "Page number"
-msgstr "Page number"
-
-#: headerfooterdlg.src%23RID_SD_TABPAGE_HEADERFOOTER.STR_INCLUDE_ON_PAGE.string.text
-msgid "Include on page"
-msgstr "Include on page"
-
-#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
-msgid "Preview"
-msgstr "முன்காட்சி"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Settings"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
-msgid "Number of colors:"
-msgstr "வண்ணங்களின் எண்ணிக்கை:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
-msgid "Point reduction:"
-msgstr "புள்ளி குறைப்பு:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
-msgid "~Fill holes:"
-msgstr "~இடைவெளிகளை நிரப்புக:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
-msgid "Tile size:"
-msgstr "தலைப்பு அளவு:"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
-msgid "Source picture:"
-msgstr "மூலப்படம்:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
-msgid "Source picture"
-msgstr "மூலப்படம்"
-
-#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
-msgid "Vectorized image:"
-msgstr "வெக்டராக உள்ள படம்:"
-
-#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
-msgid "Vectorized image"
-msgstr "வெக்டராக உள்ள படம்"
-
-#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
-msgid "Progress"
-msgstr "முன்னேற்றம்"
-
-#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
-msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
-msgid "Progress"
-msgstr "முன்னேற்றம்"
-
-#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
-msgid "Convert to Polygon"
-msgstr "பலகோணத்திற்கு மாற்றுக"
-
-#: sdpreslt.src%23DLG_PRESLT.FT_LAYOUT.fixedtext.text
-msgctxt "sdpreslt.src#DLG_PRESLT.FT_LAYOUT.fixedtext.text"
-msgid "~Select a slide design"
-msgstr "~Select a slide design"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_MASTER_PAGE.checkbox.text
-msgid "~Exchange background page"
-msgstr "பக்க பின்னணியை பரிமாற்றம் செய்"
-
-#: sdpreslt.src%23DLG_PRESLT.CBX_CHECK_MASTERS.checkbox.text
-msgid "~Delete unused backgrounds"
-msgstr "~தேவையில்லா பின்னணிகளை நீக்குக"
-
-#: sdpreslt.src%23DLG_PRESLT.BTN_LOAD.pushbutton.text
-msgid "~Load..."
-msgstr "~ஏற்றுக..."
-
-#: sdpreslt.src%23DLG_PRESLT.modaldialog.text
-msgid "Slide Design"
-msgstr "காட்சி வடிவம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.GRP_PRINT.fixedline.text"
-msgid "Contents"
-msgstr "Contents"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DRAW.checkbox.text
-msgid "~Drawing"
-msgstr "~ஓவியம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_NOTES.checkbox.text
-msgid "~Notes"
-msgstr "குறிப்புகள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HANDOUTS.checkbox.text
-msgid "Hando~uts"
-msgstr "கை~யேடுகள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_OUTLINE.checkbox.text
-msgid "Out~line"
-msgstr "~வெளிக்கோடு"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_OUTPUT.fixedline.text
-msgid "Quality"
-msgstr "தரம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_COLOR.radiobutton.text"
-msgid "Default"
-msgstr "உள்ளிருப்பு"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_GRAYSCALE.radiobutton.text
-msgid "Gra~yscale"
-msgstr "சாம்பல்அளவு"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BLACKWHITE.radiobutton.text
-msgid "Black & ~white"
-msgstr "கருப்பு & வெள்ளை"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PRINT_EXT.fixedline.text
-msgid "Print"
-msgstr "அச்சிடும்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAGENAME.checkbox.text
-msgid "~Page name"
-msgstr "~பக்கப் பெயர்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_DATE.checkbox.text
-msgid "D~ate"
-msgstr "நா~ள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_TIME.checkbox.text
-msgid "Ti~me"
-msgstr "கா~லம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_HIDDEN_PAGES.checkbox.text
-msgid "H~idden pages"
-msgstr "ம~றைக்கப்பட்ட பக்கங்கள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.GRP_PAGE.fixedline.text
-msgid "Page options"
-msgstr "பக்க அமைவுகள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.RBT_DEFAULT.radiobutton.text"
-msgid "Default"
-msgstr "Default"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGESIZE.radiobutton.text
-msgid "~Fit to page"
-msgstr "~பக்கத்திற்கு பொருத்துக"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_PAGETILE.radiobutton.text
-msgid "~Tile pages"
-msgstr "~தளப் பக்கங்கள்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.RBT_BOOKLET.radiobutton.text
-msgid "B~rochure"
-msgstr "கு~றிப்பேடு"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_FRONT.checkbox.text
-msgid "Fr~ont"
-msgstr "மு~ன்பக்கம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_BACK.checkbox.text
-msgid "Ba~ck"
-msgstr "பின்~பக்கம்"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.CBX_PAPERBIN.checkbox.text
-msgid "Paper tray from printer s~ettings"
-msgstr "அச்சுப்பொறி ~அமைவுகள் காகிதத் தட்டிலிருந்து"
-
-#: prntopts.src%23TP_PRINT_OPTIONS.tabpage.text
-msgctxt "prntopts.src#TP_PRINT_OPTIONS.tabpage.text"
-msgid "Options"
-msgstr "Options"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PEN.toolboxitem.text
-msgid "Pointer"
-msgstr "குறிப்பான்"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_FIRST.toolboxitem.text
-msgid "First Slide"
-msgstr "முதல் காட்சிப்படம்"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_PREVIOUS.toolboxitem.text
-msgid "Previous Slide"
-msgstr "முந்தைய காட்சிப்படம்"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_NEXT.toolboxitem.text
-msgid "Next Slide"
-msgstr "அடுத்த காட்சிப்படம்"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_LAST.toolboxitem.text
-msgid "Last Slide"
-msgstr "கடைசி காட்சிப்படம்"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_DRAGTYPE.toolboxitem.text
-msgid "Drag Mode"
-msgstr "இழுப்பு முறைமை"
-
-#: navigatr.src%23FLT_NAVIGATOR.1.TBI_SHAPE_FILTER.toolboxitem.text
-msgid "Show Shapes"
-msgstr "Show Shapes"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.text
-msgctxt "navigatr.src#FLT_NAVIGATOR.LB_DOCS.listbox.text"
-msgid "-"
-msgstr "-"
-
-#: navigatr.src%23FLT_NAVIGATOR.LB_DOCS.listbox.quickhelptext
-msgid "Documents"
-msgstr "ஆவணங்கள்"
-
-#: navigatr.src%23STR_OBJECTS_TREE.string.text
-msgid "Page Tree"
-msgstr "பக்கம் மரம்"
-
-#: tpaction.src%23TP_ANIMATION.FT_ACTION.fixedtext.text
-msgid "Action at mouse click"
-msgstr "சுட்டி சொடுக்கிய போது செய்யப்படும் செயல்"
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEARCH.pushbutton.text
-msgid "~Browse..."
-msgstr "~உலாவுக.."
-
-#: tpaction.src%23TP_ANIMATION.BTN_SEEK.pushbutton.text
-msgid "~Find"
-msgstr "~தேடுக"
-
-#: tpaction.src%23TP_ANIMATION.STR_PATHNAME.string.text
-msgid "Path Name"
-msgstr "பாதைப் பெயர்"
-
-#: tpaction.src%23TP_ANIMATION.tabpage.text
-msgid "Interaction"
-msgstr "தொடர்பு"
-
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
+msgid "Line"
+msgstr "Line"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
+msgid "Area"
+msgstr "Area"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
+msgid "Shadowing"
+msgstr "நிழலமைத்தல்"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
+msgid "Transparency"
+msgstr "Transparency"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
 msgid "Font"
 msgstr "Font"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "Font Effects"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
+msgid "Font Effect"
+msgstr "எழுத்துரு மாற்றம்"
 
-#: dlg_char.src%23TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text
-msgctxt "dlg_char.src#TAB_CHAR.1.RID_SVXPAGE_CHAR_POSITION.pageitem.text"
-msgid "Position"
-msgstr "Position"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
+msgid "Indents & Spacing"
+msgstr "Indents & Spacing"
 
-#: dlg_char.src%23TAB_CHAR.1.pushbutton.text
-msgctxt "dlg_char.src#TAB_CHAR.1.pushbutton.text"
-msgid "Return"
-msgstr "Return"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
+msgid "Text"
+msgstr "உரை"
 
-#: dlg_char.src%23TAB_CHAR.tabdialog.text
-msgid "Character"
-msgstr "எழுத்து"
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
+msgid "Text Animation"
+msgstr "உரை அசைவூட்டம்"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
+msgid "Dimensioning"
+msgstr "பரிமாணங்கள்"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
+msgid "Connector"
+msgstr "இணைப்பான்"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
+msgid "Alignment"
+msgstr "Alignment"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
+msgid "Asian Typography"
+msgstr "Asian Typography"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
+msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
+msgid "Tabs"
+msgstr "Tabs"
+
+#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
+msgid "Back"
+msgstr "முன்பு"
+
+#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
+msgid "Graphics Styles"
+msgstr "வரைவியல் பாங்குகள்"
+
+#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
+msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
+msgid "Settings"
+msgstr "Settings"
+
+#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
+msgid "Increments"
+msgstr "அதிகப்படுத்துதல்"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
+msgid "Cross-fade attributes"
+msgstr "அடுக்குமறைவு கூறுகள்"
+
+#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
+msgid "Same orientation"
+msgstr "ஒத்த அமைவு"
+
+#: morphdlg.src%23DLG_MORPH.modaldialog.text
+msgid "Cross-fading"
+msgstr "அடுக்கு மறைவு"
 
 #: dlgass.src%23DLG_ASS.CB_PREVIEW.checkbox.text
 msgid "Previe~w"
@@ -956,401 +1356,6 @@ msgstr "~உருவாக்குக"
 msgid "Presentation Wizard"
 msgstr "Presentation Wizard"
 
-#: copydlg.src%23DLG_COPY.FT_COPIES.fixedtext.text
-msgid "Number of ~copies"
-msgstr " ~பிரதிகளின் எண்ணிக்கை"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_VIEWDATA.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_VIEWDATA.imagebutton.quickhelptext
-msgid "Values from Selection"
-msgstr "தேர்ந்தெடுக்கப்பட்ட மதிப்புக்கள்"
-
-#: copydlg.src%23DLG_COPY.BTN_SET_DEFAULT.pushbutton.text
-msgctxt "copydlg.src#DLG_COPY.BTN_SET_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "உள்ளிருப்பு"
-
-#: copydlg.src%23DLG_COPY.MTR_FLD_ANGLE.metricfield.text
-msgid " degrees"
-msgstr " டிகிரிகள்"
-
-#: copydlg.src%23DLG_COPY.FT_ANGLE.fixedtext.text
-msgid "~Angle"
-msgstr "~கோணம்"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_X.fixedtext.text
-msgid "~X axis"
-msgstr "X அச்சு"
-
-#: copydlg.src%23DLG_COPY.FT_MOVE_Y.fixedtext.text
-msgid "~Y axis"
-msgstr "~Y அச்சு"
-
-#: copydlg.src%23DLG_COPY.FT_WIDTH.fixedtext.text
-msgid "~Width"
-msgstr "~அகலம்"
-
-#: copydlg.src%23DLG_COPY.FT_HEIGHT.fixedtext.text
-msgid "~Height"
-msgstr "~உயரம்"
-
-#: copydlg.src%23DLG_COPY.GRP_MOVEMENT.fixedline.text
-msgid "Placement"
-msgstr "நிலை அமைத்தல்"
-
-#: copydlg.src%23DLG_COPY.GRP_ENLARGEMENT.fixedline.text
-msgid "Enlargement"
-msgstr "பெரிதாக்குதல்"
-
-#: copydlg.src%23DLG_COPY.GRP_COLOR.fixedline.text
-msgid "Colors"
-msgstr "வண்ணங்கள்"
-
-#: copydlg.src%23DLG_COPY.FT_START_COLOR.fixedtext.text
-msgctxt "copydlg.src#DLG_COPY.FT_START_COLOR.fixedtext.text"
-msgid "~Start"
-msgstr "~Start"
-
-#: copydlg.src%23DLG_COPY.FT_END_COLOR.fixedtext.text
-msgid "~End"
-msgstr "~முடிவு"
-
-#: copydlg.src%23DLG_COPY.modaldialog.text
-msgid "Duplicate"
-msgstr "பிரதி"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.GRP_TYPE.fixedline.text
-msgid "Field type"
-msgstr "புலன் வகைகள்"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_FIX.radiobutton.text
-msgid "~Fixed"
-msgstr "~நிலைத்த"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text
-msgctxt "dlgfield.src#DLG_FIELD_MODIFY.RBT_VAR.radiobutton.text"
-msgid "~Variable"
-msgstr "~Variable"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_LANGUAGE.fixedtext.text
-msgid "~Language"
-msgstr "மொழி"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.FT_FORMAT.fixedtext.text
-msgid "F~ormat"
-msgstr "வடிவமை"
-
-#: dlgfield.src%23DLG_FIELD_MODIFY.modaldialog.text
-msgid "Edit Field"
-msgstr "புலத்தை பதிப்பிக்க"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Line"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "Area"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadowing"
-msgstr "நிழலமைத்தல்"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Transparency"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "Font"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgid "Font Effect"
-msgstr "எழுத்துரு மாற்றம்"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Indents & Spacing"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "உரை"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TEXTANIMATION.pageitem.text
-msgid "Text Animation"
-msgstr "உரை அசைவூட்டம்"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_MEASURE.pageitem.text
-msgid "Dimensioning"
-msgstr "பரிமாணங்கள்"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_CONNECTION.pageitem.text
-msgid "Connector"
-msgstr "இணைப்பான்"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Alignment"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Asian Typography"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "tabtempl.src#TAB_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Tabs"
-
-#: tabtempl.src%23TAB_TEMPLATE.1.pushbutton.text
-msgid "Back"
-msgstr "முன்பு"
-
-#: tabtempl.src%23TAB_TEMPLATE.tabdialog.text
-msgid "Graphics Styles"
-msgstr "வரைவியல் பாங்குகள்"
-
-#: tpoption.src%23SCALE_TEXT.%23define.text
-msgid "Scale"
-msgstr "அளவு"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.GRP_DISPLAY.fixedline.text
-msgid "Display"
-msgstr "Display"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_RULER.checkbox.text
-msgid "~Rulers visible"
-msgstr "~அளவுகாட்டி புலனாக்கம்"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HELPLINES.checkbox.text
-msgid "~Guides when moving"
-msgstr "நகரும் போது பொருத்து"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_HANDLES_BEZIER.checkbox.text
-msgid "~All control points in Bézier editor"
-msgstr "~ BÃ©zier பதிப்பியில் உள்ள கட்டுப்பாடு புள்ளிகள்"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.CBX_MOVE_OUTLINE.checkbox.text
-msgid "~Contour of each individual object"
-msgstr "~ஒவ்வொரு பொருளின் வெளிக்கோடு"
-
-#: tpoption.src%23TP_OPTIONS_CONTENTS.tabpage.text
-msgctxt "tpoption.src#TP_OPTIONS_CONTENTS.tabpage.text"
-msgid "Contents"
-msgstr "Contents"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_TEXT.fixedline.text
-msgid "Text objects"
-msgstr "உரைப்பொருட்கள்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_QUICKEDIT.checkbox.text
-msgid "Allow quick editing"
-msgstr "விரைவுப் பதிப்பை அனுமதிக்க"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_PICKTHROUGH.checkbox.text
-msgid "Only text area selectable"
-msgstr "தேர்ந்தெடுக்கப்பட வேண்டிய உரைப்பகுதி"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_PROGRAMSTART.fixedline.text
-msgid "New document"
-msgstr "புதிய ஆவணம்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_TEMPLATE.checkbox.text
-msgid "Start with ~wizard"
-msgstr "Start with ~wizard"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text
-msgctxt "tpoption.src#TP_OPTIONS_MISC.GRP_SETTINGS.fixedline.text"
-msgid "Settings"
-msgstr "Settings"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MASTERPAGE_CACHE.checkbox.text
-msgid "Use background cache"
-msgstr "பின்னணி நினைவகத்தை பயன்படுத்துக"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_COPY.checkbox.text
-msgid "Copy when moving"
-msgstr "நகர்த்தும் போது நகலெடுக்கப்படுகிறது"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_MARKED_HIT_MOVES_ALWAYS.checkbox.text
-msgid "Objects always moveable"
-msgstr "எப்போதும் நகர்த்தக்கூடிய பொருள்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_CROOK_NO_CONTORTION.checkbox.text
-msgid "Do not distort objects in curve"
-msgstr "வளைகோட்டுப் பொருளை விலக்காதே"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_METRIC.fixedtext.text
-msgid "Unit of ~measurement"
-msgstr "அலகிடல் ~வகை"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_TABSTOP.fixedtext.text
-msgid "Ta~b stops"
-msgstr "உ~ள் தள்ளல்கல்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.GRP_START_WITH_ACTUAL_PAGE.fixedline.text
-msgid "Start presentation"
-msgstr "வழங்கலைத் தொடங்குக"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_ACTUAL_PAGE.checkbox.text
-msgid "Always with current page"
-msgstr "எப்போதும் நடப்பு பக்கத்துடன்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CBX_START_WITH_PRESENTER_SCREEN.checkbox.text
-msgid "With Presenter Screen"
-msgstr "காட்டுபவர் திரையுடன்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_COMPATIBILITY.fixedline.text
-msgid "Compatibility"
-msgstr "ஒத்திசைவு வகை"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_USE_PRINTER_METRICS.checkbox.text
-msgid "Us~e printer metrics for document formatting"
-msgstr "ஆவண வடிவமைத்தலுக்கு அச்சுப்பொறி அளவை பயன்படுத்து"
-
-#: tpoption.src%23TP_OPTIONS_MISC.CB_MERGE_PARA_DIST.checkbox.text
-msgid "Add ~spacing between paragraphs and tables (in current document)"
-msgstr "Add ~spacing between paragraphs in the current document"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_ORIGINAL.fixedtext.text
-msgid "Original"
-msgstr "மூலம்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_EQUIVALENT.fixedtext.text
-msgid "Equivalent to"
-msgstr "ஒத்ததாக"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_SCALE.fixedtext.text
-msgid "~Drawing scale"
-msgstr "~வரைதல் அளவு"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEWIDTH.fixedtext.text
-msgid "Page ~width"
-msgstr "பக்க ~அகலம்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.FT_PAGEHEIGHT.fixedtext.text
-msgid "Page ~height"
-msgstr "பக்க ~உயரம்"
-
-#: tpoption.src%23TP_OPTIONS_MISC.tabpage.text
-msgid "Other"
-msgstr "மற்றவை"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_RANGE.fixedline.text
-msgid "Range"
-msgstr "வரம்பு/வீச்சு"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_ALL.radiobutton.text
-msgid "All ~slides"
-msgstr "அனைத்து ~காட்சிகள்"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AT_DIA.radiobutton.text
-msgid "~From:"
-msgstr "~இருந்து:"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_CUSTOMSHOW.radiobutton.text
-msgid "~Custom Slide Show"
-msgstr "~பழக்கக்காட்சி"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_KIND.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_KIND.fixedline.text"
-msgid "Type"
-msgstr "Type"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text
-msgctxt "present.src#DLG_START_PRESENTATION.RBT_STANDARD.radiobutton.text"
-msgid "~Default"
-msgstr "உள்ளிருப்பு"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_WINDOW.radiobutton.text
-msgid "~Window"
-msgstr "~சாளரம்"
-
-#: present.src%23DLG_START_PRESENTATION.RBT_AUTO.radiobutton.text
-msgid "A~uto"
-msgstr "த~ன்னியக்கம்"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.text
-msgctxt "present.src#DLG_START_PRESENTATION.TMF_PAUSE.timefield.text"
-msgid "-"
-msgstr "-"
-
-#: present.src%23DLG_START_PRESENTATION.TMF_PAUSE.timefield.quickhelptext
-msgid "Duration of pause"
-msgstr "நிறுத்த நேரம்"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_AUTOLOGO.checkbox.text
-msgid "Show ~logo"
-msgstr " ~குறியீட்டை காட்டுக"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text
-msgctxt "present.src#DLG_START_PRESENTATION.GRP_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Options"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MANUEL.checkbox.text
-msgid "Change slides ~manually"
-msgstr "~Change slides manually"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_MOUSEPOINTER.checkbox.text
-msgid "Mouse pointer ~visible"
-msgstr "சுட்டி ~புலனாகா முறைமையில்"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_PEN.checkbox.text
-msgid "Mouse pointer as ~pen"
-msgstr "சுட்டி  ~பேனா வடிவாக"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_NAVIGATOR.checkbox.text
-msgid "~Navigator visible"
-msgstr "~உலாவி புலனாக்கம்"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ANIMATION_ALLOWED.checkbox.text
-msgid "~Animations allowed"
-msgstr "~அசைவூட்டங்கள் உண்டு"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_CHANGE_PAGE.checkbox.text
-msgid "Change slides by clic~king on background"
-msgstr "~காட்சிகளை பின்னணியின் மூலம் மாற்றுக"
-
-#: present.src%23DLG_START_PRESENTATION.CBX_ALWAYS_ON_TOP.checkbox.text
-msgid "Presentation always ~on top"
-msgstr "எப்போதும் ~வழங்கல் காட்சி மேலே"
-
-#: present.src%23DLG_START_PRESENTATION.GRP_MONITOR.fixedline.text
-msgid "Multiple displays"
-msgstr "Multiple displays"
-
-#: present.src%23DLG_START_PRESENTATION.FT_MONITOR.fixedtext.text
-msgid "P~resentation display"
-msgstr "P~resentation display"
-
-#: present.src%23DLG_START_PRESENTATION.STR_PRIMARY_MONITOR.string.text
-msgid "Display %1 (primary)"
-msgstr "Display %1 (primary)"
-
-#: present.src%23DLG_START_PRESENTATION.STR_MONITOR.string.text
-msgid "Display %1"
-msgstr "Display %1"
-
-#: present.src%23DLG_START_PRESENTATION.STR_ALL_MONITORS.string.text
-msgid "All displays"
-msgstr "All displays"
-
-#: present.src%23DLG_START_PRESENTATION.modaldialog.text
-msgid "Slide Show"
-msgstr "காட்சி "
-
 #: paragr.src%23TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
 msgctxt "paragr.src#TAB_PARAGRAPH.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
 msgid "Indents & Spacing"
@@ -1379,27 +1384,6 @@ msgstr "Return"
 #: paragr.src%23TAB_PARAGRAPH.tabdialog.text
 msgid "Paragraph"
 msgstr "பத்தி"
-
-#: morphdlg.src%23DLG_MORPH.GRP_PRESET.fixedline.text
-msgctxt "morphdlg.src#DLG_MORPH.GRP_PRESET.fixedline.text"
-msgid "Settings"
-msgstr "Settings"
-
-#: morphdlg.src%23DLG_MORPH.FT_STEPS.fixedtext.text
-msgid "Increments"
-msgstr "அதிகப்படுத்துதல்"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ATTRIBUTES.checkbox.text
-msgid "Cross-fade attributes"
-msgstr "அடுக்குமறைவு கூறுகள்"
-
-#: morphdlg.src%23DLG_MORPH.CBX_ORIENTATION.checkbox.text
-msgid "Same orientation"
-msgstr "ஒத்த அமைவு"
-
-#: morphdlg.src%23DLG_MORPH.modaldialog.text
-msgid "Cross-fading"
-msgstr "அடுக்கு மறைவு"
 
 #: dlgpage.src%23TAB_PAGE.1.RID_SVXPAGE_PAGE.pageitem.text
 msgid "Page"
@@ -1435,104 +1419,120 @@ msgstr "பின்பு"
 msgid "Insert Slides"
 msgstr "ஸ்லைடுகள் சொருகு"
 
-#: brkdlg.src%23DLG_BREAK.FT_OBJ_INFO.fixedtext.text
-msgid "Processing metafile:"
-msgstr "உயர் கோப்புச் செயலாக்கம்"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_NEW.pushbutton.text
+msgid "~New..."
+msgstr "~புதிய ..."
 
-#: brkdlg.src%23DLG_BREAK.FT_ACT_INFO.fixedtext.text
-msgid "Broken down metaobjects:"
-msgstr "உடைந்த உயர்க்கோப்பு கருவிகள்"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "~பதிப்பிக்க..."
 
-#: brkdlg.src%23DLG_BREAK.FT_INS_INFO.fixedtext.text
-msgid "Inserted drawing objects:"
-msgstr "நுழைக்கப்பட்ட வரையும் கருவிகள்"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_REMOVE.pushbutton.text"
+msgid "~Delete"
+msgstr "~Delete"
 
-#: brkdlg.src%23DLG_BREAK.modaldialog.text
-msgid "Break"
-msgstr "முறி"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_COPY.pushbutton.text
+msgid "Cop~y"
+msgstr "நக~லெடுக்க"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_LINE.pageitem.text"
-msgid "Line"
-msgstr "Line"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.BTN_STARTSHOW.pushbutton.text"
+msgid "~Start"
+msgstr "~Start"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "பரப்பு"
+#: custsdlg.src%23DLG_CUSTOMSHOW.BTN_OK.okbutton.text
+msgid "~Close"
+msgstr "மூடு"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_SHADOW.pageitem.text
-msgid "Shadow"
-msgstr "நிழல்"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text
+msgctxt "custsdlg.src#DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.text"
+msgid "-"
+msgstr "-"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TRANSPARENCE.pageitem.text"
-msgid "Transparency"
-msgstr "Transparency"
+#: custsdlg.src%23DLG_CUSTOMSHOW.LB_CUSTOMSHOWS.listbox.quickhelptext
+msgid "Custom Screen Show"
+msgstr "வழக்கமான திரைக்காட்சி"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_NAME.pageitem.text"
-msgid "Font"
-msgstr "எழுத்துரு"
+#: custsdlg.src%23DLG_CUSTOMSHOW.CBX_USE_CUSTOMSHOW.checkbox.text
+msgid "~Use Custom Slide Show"
+msgstr "~பழக்கக் காட்சியை பயன்படுத்துக"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_CHAR_EFFECTS.pageitem.text"
-msgid "Font Effects"
-msgstr "எழுத்துரு மாற்றம்"
+#: custsdlg.src%23DLG_CUSTOMSHOW.modaldialog.text
+msgid "Custom Slide Shows"
+msgstr "பழக்கக் காட்சிகள்"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_STD_PARAGRAPH.pageitem.text"
-msgid "Indents & Spacing"
-msgstr "Indents & Spacing"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_NAME.fixedtext.text
+msgid "Name"
+msgstr "பெயர்"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TEXTATTR.pageitem.text"
-msgid "Text"
-msgstr "உரை"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_PAGES.fixedtext.text
+msgid "Existing slides"
+msgstr "ஏற்கனவே உள்ள படக்காட்சிகள்"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BULLET.pageitem.text"
-msgid "Bullets"
-msgstr "குண்டுகள்"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.FT_CUSTOM_PAGES.fixedtext.text
+msgid "Selected slides"
+msgstr "தேர்ந்தெடுக்கப்பட்ட படக்காட்சிகள்"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_SINGLE_NUM.pageitem.text"
-msgid "Numbering type"
-msgstr "எண்ணிடல் வகை"
+#: custsdlg.src%23DLG_DEFINE_CUSTOMSHOW.modaldialog.text
+msgid "Define Custom Slide Show"
+msgstr "பழக்கக்காட்சியை வரையறுக்க"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PICK_BMP.pageitem.text"
-msgid "Graphics"
-msgstr "வரைகலை"
+#: vectdlg.src%23DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.BTN_PREVIEW.pushbutton.text"
+msgid "Preview"
+msgstr "முன்காட்சி"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_NUM_OPTIONS.pageitem.text"
-msgid "Customize"
-msgstr "தனிபயனாக்கு"
+#: vectdlg.src%23DLG_VECTORIZE.GRP_SETTINGS.fixedline.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_SETTINGS.fixedline.text"
+msgid "Settings"
+msgstr "Settings"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_ALIGN_PARAGRAPH.pageitem.text"
-msgid "Alignment"
-msgstr "Alignment"
+#: vectdlg.src%23DLG_VECTORIZE.FT_LAYERS.fixedtext.text
+msgid "Number of colors:"
+msgstr "வண்ணங்களின் எண்ணிக்கை:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_PARA_ASIAN.pageitem.text"
-msgid "Asian Typography"
-msgstr "Asian Typography"
+#: vectdlg.src%23DLG_VECTORIZE.FT_REDUCE.fixedtext.text
+msgid "Point reduction:"
+msgstr "புள்ளி குறைப்பு:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE.1.RID_SVXPAGE_TABULATOR.pageitem.text"
-msgid "Tabs"
-msgstr "Tabs"
+#: vectdlg.src%23DLG_VECTORIZE.CB_FILLHOLES.checkbox.text
+msgid "~Fill holes:"
+msgstr "~இடைவெளிகளை நிரப்புக:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE.tabdialog.text
-msgid "Presentation Layout"
-msgstr "வழங்கல்காட்சி அடுக்கமைப்பு"
+#: vectdlg.src%23DLG_VECTORIZE.FT_FILLHOLES.fixedtext.text
+msgid "Tile size:"
+msgstr "தலைப்பு அளவு:"
 
-#: prltempl.src%23TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text
-msgctxt "prltempl.src#TAB_PRES_LAYOUT_TEMPLATE_BACKGROUND.1.RID_SVXPAGE_AREA.pageitem.text"
-msgid "Area"
-msgstr "பகுதி"
+#: vectdlg.src%23DLG_VECTORIZE.FT_ORIGINAL.fixedtext.text
+msgid "Source picture:"
+msgstr "மூலப்படம்:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_BMP.control.text
+msgid "Source picture"
+msgstr "மூலப்படம்"
+
+#: vectdlg.src%23DLG_VECTORIZE.FT_VECTORIZED.fixedtext.text
+msgid "Vectorized image:"
+msgstr "வெக்டராக உள்ள படம்:"
+
+#: vectdlg.src%23DLG_VECTORIZE.CTL_WMF.control.text
+msgid "Vectorized image"
+msgstr "வெக்டராக உள்ள படம்"
+
+#: vectdlg.src%23DLG_VECTORIZE.GRP_PRGS.fixedtext.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.GRP_PRGS.fixedtext.text"
+msgid "Progress"
+msgstr "முன்னேற்றம்"
+
+#: vectdlg.src%23DLG_VECTORIZE.WND_PRGS.window.text
+msgctxt "vectdlg.src#DLG_VECTORIZE.WND_PRGS.window.text"
+msgid "Progress"
+msgstr "முன்னேற்றம்"
+
+#: vectdlg.src%23DLG_VECTORIZE.modaldialog.text
+msgid "Convert to Polygon"
+msgstr "பலகோணத்திற்கு மாற்றுக"
 
 #~ msgid "Borders"
 #~ msgstr "Borders"

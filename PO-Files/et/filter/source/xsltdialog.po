@@ -5,9 +5,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+filter%2Fsource%2Fxs"
 "ltdialog.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
-"PO-Revision-Date: 2019-07-16 18:44+0000\n"
-"Last-Translator: Taavi <taavi.kaevats@gmail.com>\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"PO-Revision-Date: 2019-07-19 15:29+0000\n"
+"Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,44 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.5.1.3\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1563302681.000000\n"
+"X-POOTLE-MTIME: 1563550193.000000\n"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
+msgid "~New..."
+msgstr "~Uus..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
+msgid "~Edit..."
+msgstr "~Redigeeri..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
+msgid "~Test XSLTs..."
+msgstr "~Testi XSLT-sid..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
+msgid "~Delete..."
+msgstr "~Kustuta..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
+msgid "~Save as Package..."
+msgstr "~Salvesta paketina..."
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
+msgid "~Open Package..."
+msgstr "~Ava pakett…"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
+msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "~Sulge"
+
+#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
+msgid "XML Filter Settings"
+msgstr "XML-filtri sätted"
+
+#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
+msgid "XML Filter List"
+msgstr "XML filtrite loend"
 
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.PB_VALIDATE.pushbutton.text
 msgid "~Validate"
@@ -26,20 +63,6 @@ msgstr "~Valideeri"
 #: xmlfileview.src%23DLG_XML_SOURCE_FILE_DIALOG.workwindow.text
 msgid "XML Filter output"
 msgstr "XML-filtri väljund"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
-msgid "General"
-msgstr "Üldine"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
-msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
-msgid "Transformation"
-msgstr "Teisendus"
-
-#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
-msgid "XML Filter: %s"
-msgstr "XML-filter: %s"
 
 #: xmlfiltertestdialog.src%23DLG_XML_FILTER_TEST_DIALOG.FL_EXPORT.fixedline.text
 msgid "Export"
@@ -213,6 +236,49 @@ msgstr ""
 "Ühegi XML-filtri paigaldamine ei õnnestunud, kuna pakett '%s' ei sisalda "
 "ühtegi XML-filtrit."
 
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_BASIC.pageitem.text"
+msgid "General"
+msgstr "Üldine"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text
+msgctxt "xmlfiltertabdialog.src#DLG_XML_FILTER_TABDIALOG.1.RID_XML_FILTER_TABPAGE_XSLT.pageitem.text"
+msgid "Transformation"
+msgstr "Teisendus"
+
+#: xmlfiltertabdialog.src%23DLG_XML_FILTER_TABDIALOG.tabdialog.text
+msgid "XML Filter: %s"
+msgstr "XML-filter: %s"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
+msgid "Filter name"
+msgstr "Filtri nimi"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
+msgid "Application"
+msgstr "Rakendus"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
+msgid ""
+"Name of\n"
+"file type"
+msgstr ""
+"Failitüübi\n"
+"nimi"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
+msgid "File extension"
+msgstr "Faililaiend"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
+msgid "Comments"
+msgstr "Kommentaarid"
+
+#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
+msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
+msgid "General"
+msgstr "Üldine"
+
 #: xmlfiltertabpagexslt.src%23RID_XML_FILTER_TABPAGE_XSLT.FT_XML_DOCTYPE.fixedtext.text
 msgid "DocType"
 msgstr "DocType"
@@ -260,72 +326,6 @@ msgstr "Lehitse..."
 msgctxt "xmlfiltertabpagexslt.src#RID_XML_FILTER_TABPAGE_XSLT.tabpage.text"
 msgid "Transformation"
 msgstr "Teisendus"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_FILTER_NAME.fixedtext.text
-msgid "Filter name"
-msgstr "Filtri nimi"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_APPLICATION.fixedtext.text
-msgid "Application"
-msgstr "Rakendus"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_INTERFACE_NAME.fixedtext.text
-msgid ""
-"Name of\n"
-"file type"
-msgstr ""
-"Failitüübi\n"
-"nimi"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_EXTENSION.fixedtext.text
-msgid "File extension"
-msgstr "Faililaiend"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.FT_XML_DESCRIPTION.fixedtext.text
-msgid "Comments"
-msgstr "Kommentaarid"
-
-#: xmlfiltertabpagebasic.src%23RID_XML_FILTER_TABPAGE_BASIC.tabpage.text
-msgctxt "xmlfiltertabpagebasic.src#RID_XML_FILTER_TABPAGE_BASIC.tabpage.text"
-msgid "General"
-msgstr "Üldine"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_NEW.pushbutton.text
-msgid "~New..."
-msgstr "~Uus..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_EDIT.pushbutton.text
-msgid "~Edit..."
-msgstr "~Redigeeri..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_TEST.pushbutton.text
-msgid "~Test XSLTs..."
-msgstr "~Testi XSLT-sid..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_DELETE.pushbutton.text
-msgid "~Delete..."
-msgstr "~Kustuta..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_SAVE.pushbutton.text
-msgid "~Save as Package..."
-msgstr "~Salvesta paketina..."
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_OPEN.pushbutton.text
-msgid "~Open Package..."
-msgstr "~Ava pakett…"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text
-msgctxt "xmlfiltersettingsdialog.src#DLG_XML_FILTER_SETTINGS_DIALOG.PB_XML_FILTER_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "~Sulge"
-
-#: xmlfiltersettingsdialog.src%23DLG_XML_FILTER_SETTINGS_DIALOG.workwindow.text
-msgid "XML Filter Settings"
-msgstr "XML-filtri sätted"
-
-#: xmlfiltersettingsdialog.src%23STR_XML_FILTER_LISTBOX.string.text
-msgid "XML Filter List"
-msgstr "XML filtrite loend"
 
 #~ msgid ""
 #~ "The name for  the user interface '%s1' is already used by the XML filter '%"
