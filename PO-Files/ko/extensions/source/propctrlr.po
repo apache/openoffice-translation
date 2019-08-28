@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+extensions%2Fsource%"
 "2Fpropctrlr.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2015-05-14 06:40+0000\n"
 "Last-Translator: Kim <classic2u@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,9 +15,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1431585605.000000\n"
+
+#: formlinkdialog.src%23RID_DLG_FORMLINKS.FT_EXPLANATION.fixedtext.text
+msgid ""
+"Sub forms can be used to display detailed data about the current record of "
+"the master form. To do this, you can specify which columns in the sub form "
+"match which columns in the master form."
+msgstr ""
+"하위 양식을 사용하여 마스터 양식의 현재 레코드에 대한 자세한 데이터를 표시할 수 있습니다. 이렇게 하려면 마스터 양식의 열과 일치하는 "
+"하위 양식의 열을 지정합니다."
+
+#: formlinkdialog.src%23RID_DLG_FORMLINKS.modaldialog.text
+msgid "Link fields"
+msgstr "링크 필드"
+
+#: formlinkdialog.src%23PB_SUGGEST.pushbutton.text
+msgid "Suggest"
+msgstr "추천"
+
+#: formlinkdialog.src%23STR_DETAIL_FORM.string.text
+msgid "Sub Form"
+msgstr "하위 양식"
+
+#: formlinkdialog.src%23STR_MASTER_FORM.string.text
+msgid "Master Form"
+msgstr "마스터 양식"
+
+#: formlinkdialog.src%23STR_ERROR_RETRIEVING_COLUMNS.string.text
+msgid "The columns of '#' could not be retrieved."
+msgstr "열 '#' 을 검색할 수 없습니다."
 
 #: newdatatype.src%23RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 msgid "Type a name for the new data type:"
@@ -27,113 +56,42 @@ msgstr "새 데이터 유형의 이름을 입력하십시오:"
 msgid "New Data Type"
 msgstr "새 데이터 유형"
 
-#: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
-msgid ""
-"Do you want to delete the data type '#type#' from the model?\n"
-"Please note that this will affect all controls which are bound to this data "
-"type."
-msgstr ""
-"데이터 형식 '#type#' 을 모델에서 삭제하시겠습니까?\n"
-"삭제하면 이 데이터 형식에 바인딩된 모든 콘트롤에 영향을 주게 됩니다."
+#: propres.src%23RID_STR_STANDARD.string.text
+msgctxt "propres.src#RID_STR_STANDARD.string.text"
+msgid "Default"
+msgstr "기본값"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_PUSHBUTTON.string.text
-msgid "Button"
-msgstr "버튼"
+#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
+msgid "General"
+msgstr "일반"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_RADIOBUTTON.string.text
-msgid "Option Button"
-msgstr "옵션 버튼"
+#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
+msgid "Data"
+msgstr "데이터"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_CHECKBOX.string.text
-msgid "Check Box"
-msgstr "확인란"
+#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
+msgid "No"
+msgstr "아니요"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FIXEDTEXT.string.text
-msgctxt "pcrmiscres.src#RID_STR_PROPTITLE_FIXEDTEXT.string.text"
-msgid "Label Field"
-msgstr "레이블 필드"
+#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
+msgid "Yes"
+msgstr "예"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_GROUPBOX.string.text
-msgid "Group Box"
-msgstr "그룹 상자"
+#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
+msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
+msgid "Help"
+msgstr "도움말"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_EDIT.string.text
-msgid "Text Box"
-msgstr "텍스트 필드"
+#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
+msgid "<Embedded-Image>"
+msgstr "<내장된 이미지>"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FORMATTED.string.text
-msgid "Formatted Field"
-msgstr "서식 지정된 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_LISTBOX.string.text
-msgid "List Box"
-msgstr "목록 상자"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_COMBOBOX.string.text
-msgid "Combo Box"
-msgstr "콤보 상자"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGEBUTTON.string.text
-msgid "Image Button"
-msgstr "이미지 버튼"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_HIDDENCONTROL.string.text
-msgid "Hidden Control"
-msgstr "숨겨진 콘트롤"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_UNKNOWNCONTROL.string.text
-msgid "Control (unknown type)"
-msgstr "콘트롤(알 수 없는 유형)"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGECONTROL.string.text
-msgid "Image Control"
-msgstr "이미지 콘트롤"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FILECONTROL.string.text
-msgid "File Selection"
-msgstr "파일 선택"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_DATEFIELD.string.text
-msgid "Date Field"
-msgstr "날짜 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_TIMEFIELD.string.text
-msgid "Time Field"
-msgstr "시간 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_NUMERICFIELD.string.text
-msgid "Numeric Field"
-msgstr "숫자 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_CURRENCYFIELD.string.text
-msgid "Currency Field"
-msgstr "통화 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_PATTERNFIELD.string.text
-msgid "Pattern Field"
-msgstr "패턴 필드"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_DBGRID.string.text
-msgid "Table Control "
-msgstr "테이블 콘트롤 "
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-msgid ""
-"These are control fields that can be used as label fields for the "
-"$control_class$ $control_name$."
-msgstr "이 필드는 $control_class$ $control_name$에 대한 레이블 필드로 사용할 수 있는 콘트롤 필드입니다."
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-msgid "~No assignment"
-msgstr "지정 없음(~N)"
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
-msgid "Label Field Selection"
-msgstr "레이블 필드 선택"
-
-#: selectlabeldialog.src%23RID_STR_FORMS.string.text
-msgid "Forms"
-msgstr "양식"
+#: propres.src%23RID_STR_TEXT_FORMAT.string.text
+msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
+msgid "Text"
+msgstr "텍스트"
 
 #: formres.src%23RID_STR_EDITMASK.string.text
 msgid "Edit mask"
@@ -1486,6 +1444,19 @@ msgstr "굵게"
 msgid "(Default)"
 msgstr "(기본값)"
 
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
+msgid "Font"
+msgstr "글꼴"
+
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "글꼴 효과"
+
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
+msgid "Character"
+msgstr "문자"
+
 #: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
 msgid "Controls"
 msgstr "콘트롤"
@@ -1506,81 +1477,110 @@ msgstr "자동 정렬"
 msgid "Tab Order"
 msgstr "탭 순서"
 
-#: propres.src%23RID_STR_STANDARD.string.text
-msgctxt "propres.src#RID_STR_STANDARD.string.text"
-msgid "Default"
-msgstr "기본값"
-
-#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
-msgid "General"
-msgstr "일반"
-
-#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
-msgid "Data"
-msgstr "데이터"
-
-#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
-msgid "No"
-msgstr "아니요"
-
-#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
-msgid "Yes"
-msgstr "예"
-
-#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
-msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
-msgid "Help"
-msgstr "도움말"
-
-#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
-msgid "<Embedded-Image>"
-msgstr "<내장된 이미지>"
-
-#: propres.src%23RID_STR_TEXT_FORMAT.string.text
-msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
-msgid "Text"
-msgstr "텍스트"
-
-#: formlinkdialog.src%23RID_DLG_FORMLINKS.FT_EXPLANATION.fixedtext.text
+#: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
 msgid ""
-"Sub forms can be used to display detailed data about the current record of "
-"the master form. To do this, you can specify which columns in the sub form "
-"match which columns in the master form."
+"Do you want to delete the data type '#type#' from the model?\n"
+"Please note that this will affect all controls which are bound to this data "
+"type."
 msgstr ""
-"하위 양식을 사용하여 마스터 양식의 현재 레코드에 대한 자세한 데이터를 표시할 수 있습니다. 이렇게 하려면 마스터 양식의 열과 일치하는 "
-"하위 양식의 열을 지정합니다."
+"데이터 형식 '#type#' 을 모델에서 삭제하시겠습니까?\n"
+"삭제하면 이 데이터 형식에 바인딩된 모든 콘트롤에 영향을 주게 됩니다."
 
-#: formlinkdialog.src%23RID_DLG_FORMLINKS.modaldialog.text
-msgid "Link fields"
-msgstr "링크 필드"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_PUSHBUTTON.string.text
+msgid "Button"
+msgstr "버튼"
 
-#: formlinkdialog.src%23PB_SUGGEST.pushbutton.text
-msgid "Suggest"
-msgstr "추천"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_RADIOBUTTON.string.text
+msgid "Option Button"
+msgstr "옵션 버튼"
 
-#: formlinkdialog.src%23STR_DETAIL_FORM.string.text
-msgid "Sub Form"
-msgstr "하위 양식"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_CHECKBOX.string.text
+msgid "Check Box"
+msgstr "확인란"
 
-#: formlinkdialog.src%23STR_MASTER_FORM.string.text
-msgid "Master Form"
-msgstr "마스터 양식"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FIXEDTEXT.string.text
+msgctxt "pcrmiscres.src#RID_STR_PROPTITLE_FIXEDTEXT.string.text"
+msgid "Label Field"
+msgstr "레이블 필드"
 
-#: formlinkdialog.src%23STR_ERROR_RETRIEVING_COLUMNS.string.text
-msgid "The columns of '#' could not be retrieved."
-msgstr "열 '#' 을 검색할 수 없습니다."
+#: pcrmiscres.src%23RID_STR_PROPTITLE_GROUPBOX.string.text
+msgid "Group Box"
+msgstr "그룹 상자"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
-msgid "Font"
-msgstr "글꼴"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_EDIT.string.text
+msgid "Text Box"
+msgstr "텍스트 필드"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "글꼴 효과"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FORMATTED.string.text
+msgid "Formatted Field"
+msgstr "서식 지정된 필드"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
-msgid "Character"
-msgstr "문자"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_LISTBOX.string.text
+msgid "List Box"
+msgstr "목록 상자"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_COMBOBOX.string.text
+msgid "Combo Box"
+msgstr "콤보 상자"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGEBUTTON.string.text
+msgid "Image Button"
+msgstr "이미지 버튼"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_HIDDENCONTROL.string.text
+msgid "Hidden Control"
+msgstr "숨겨진 콘트롤"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_UNKNOWNCONTROL.string.text
+msgid "Control (unknown type)"
+msgstr "콘트롤(알 수 없는 유형)"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGECONTROL.string.text
+msgid "Image Control"
+msgstr "이미지 콘트롤"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FILECONTROL.string.text
+msgid "File Selection"
+msgstr "파일 선택"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_DATEFIELD.string.text
+msgid "Date Field"
+msgstr "날짜 필드"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_TIMEFIELD.string.text
+msgid "Time Field"
+msgstr "시간 필드"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_NUMERICFIELD.string.text
+msgid "Numeric Field"
+msgstr "숫자 필드"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_CURRENCYFIELD.string.text
+msgid "Currency Field"
+msgstr "통화 필드"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_PATTERNFIELD.string.text
+msgid "Pattern Field"
+msgstr "패턴 필드"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_DBGRID.string.text
+msgid "Table Control "
+msgstr "테이블 콘트롤 "
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+msgid ""
+"These are control fields that can be used as label fields for the "
+"$control_class$ $control_name$."
+msgstr "이 필드는 $control_class$ $control_name$에 대한 레이블 필드로 사용할 수 있는 콘트롤 필드입니다."
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+msgid "~No assignment"
+msgstr "지정 없음(~N)"
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
+msgid "Label Field Selection"
+msgstr "레이블 필드 선택"
+
+#: selectlabeldialog.src%23RID_STR_FORMS.string.text
+msgid "Forms"
+msgstr "양식"
