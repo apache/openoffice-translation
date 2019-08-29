@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+extensions%2Fsource%"
 "2Fpropctrlr.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-07-07 07:23+0200\n"
+"POT-Creation-Date: 2019-08-21 18:38+0200\n"
 "PO-Revision-Date: 2013-06-30 14:27+0000\n"
 "Last-Translator: Christos <xstefanidis@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,9 +15,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
 "X-POOTLE-MTIME: 1372602456.0\n"
+
+#: formlinkdialog.src%23RID_DLG_FORMLINKS.FT_EXPLANATION.fixedtext.text
+msgid ""
+"Sub forms can be used to display detailed data about the current record of "
+"the master form. To do this, you can specify which columns in the sub form "
+"match which columns in the master form."
+msgstr ""
+"Μπορούν να χρησιμοποιηθούν υποφόρμες για την εμφάνιση λεπτομερών δεδομένων "
+"σχετικά με την τρέχουσα εγγραφή της κύρια φόρμας. Για να γίνει αυτό, θα "
+"πρέπει να καθορίσετε ποιες στήλες της υποφόρμας ταιριάζουν με ποιες στήλες "
+"της κύριας φόρμας."
+
+#: formlinkdialog.src%23RID_DLG_FORMLINKS.modaldialog.text
+msgid "Link fields"
+msgstr "Σύνδεση πεδίων"
+
+#: formlinkdialog.src%23PB_SUGGEST.pushbutton.text
+msgid "Suggest"
+msgstr "Πρόταση"
+
+#: formlinkdialog.src%23STR_DETAIL_FORM.string.text
+msgid "Sub Form"
+msgstr "Υποφόρμα"
+
+#: formlinkdialog.src%23STR_MASTER_FORM.string.text
+msgid "Master Form"
+msgstr "Κύρια φόρμα"
+
+#: formlinkdialog.src%23STR_ERROR_RETRIEVING_COLUMNS.string.text
+msgid "The columns of '#' could not be retrieved."
+msgstr "Οι στήλες της '#' δεν ανακτήθηκαν."
 
 #: newdatatype.src%23RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 msgid "Type a name for the new data type:"
@@ -27,116 +58,42 @@ msgstr "Δώστε ένα όνομα για το νέο τύπο δεδομέν�
 msgid "New Data Type"
 msgstr "Νέος τύπος δεδομένων"
 
-#: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
-msgid ""
-"Do you want to delete the data type '#type#' from the model?\n"
-"Please note that this will affect all controls which are bound to this data "
-"type."
-msgstr ""
-"Θέλετε να διαγράψετε τον τύπο δεδομένων '#type#' από το μοντέλο;\n"
-"Σημειώστε ότι αυτό θα επηρεάσει όλα στα στοιχεία ελέγχου που είναι "
-"συνδεδεμένα με αυτό το τύπο δεδομένων."
+#: propres.src%23RID_STR_STANDARD.string.text
+msgctxt "propres.src#RID_STR_STANDARD.string.text"
+msgid "Default"
+msgstr "Προεπιλογή"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_PUSHBUTTON.string.text
-msgid "Button"
-msgstr "Κουμπί"
+#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
+msgid "General"
+msgstr "Γενικά"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_RADIOBUTTON.string.text
-msgid "Option Button"
-msgstr "Κουμπί επιλογών"
+#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
+msgid "Data"
+msgstr "Δεδομένα"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_CHECKBOX.string.text
-msgid "Check Box"
-msgstr "Πεδίο σήμανσης"
+#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
+msgid "No"
+msgstr "Όχι"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FIXEDTEXT.string.text
-msgctxt "pcrmiscres.src#RID_STR_PROPTITLE_FIXEDTEXT.string.text"
-msgid "Label Field"
-msgstr "Πεδίο ετικέτας"
+#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
+msgid "Yes"
+msgstr "Ναι"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_GROUPBOX.string.text
-msgid "Group Box"
-msgstr "Πλαίσιο ομαδοποίησης"
+#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
+msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
+msgid "Help"
+msgstr "Βοήθεια"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_EDIT.string.text
-msgid "Text Box"
-msgstr "Πεδίο κειμένου"
+#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
+msgid "<Embedded-Image>"
+msgstr "<Embedded-Image>"
 
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FORMATTED.string.text
-msgid "Formatted Field"
-msgstr "Μορφοποιημένο πεδίο"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_LISTBOX.string.text
-msgid "List Box"
-msgstr "Πεδίο λίστας"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_COMBOBOX.string.text
-msgid "Combo Box"
-msgstr "Πεδίο συνδυασμού"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGEBUTTON.string.text
-msgid "Image Button"
-msgstr "Γραφικό πεδίο επιλογής"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_HIDDENCONTROL.string.text
-msgid "Hidden Control"
-msgstr "Κρυμμένο πεδίο ελέγχου"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_UNKNOWNCONTROL.string.text
-msgid "Control (unknown type)"
-msgstr "Πεδίο ελέγχου (άγνωστος τύπος)"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGECONTROL.string.text
-msgid "Image Control"
-msgstr "Γραφικό πεδίο ελέγχου"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_FILECONTROL.string.text
-msgid "File Selection"
-msgstr "Επιλογή αρχείου"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_DATEFIELD.string.text
-msgid "Date Field"
-msgstr "Πεδίο ημερομηνίας"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_TIMEFIELD.string.text
-msgid "Time Field"
-msgstr "Πεδίο ώρας"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_NUMERICFIELD.string.text
-msgid "Numeric Field"
-msgstr "Αριθμητικό πεδίο"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_CURRENCYFIELD.string.text
-msgid "Currency Field"
-msgstr "Πεδίο νομίσματος"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_PATTERNFIELD.string.text
-msgid "Pattern Field"
-msgstr "Πεδίο μοτίβου"
-
-#: pcrmiscres.src%23RID_STR_PROPTITLE_DBGRID.string.text
-msgid "Table Control "
-msgstr "Πεδίο ελέγχου πίνακα "
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-msgid ""
-"These are control fields that can be used as label fields for the "
-"$control_class$ $control_name$."
-msgstr ""
-"Αυτά είναι πεδία ελέγχου τα οποία μπορούν να χρησιμοποιηθούν ως πεδία "
-"επισήμανσης για το $control_class$ $control_name$."
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-msgid "~No assignment"
-msgstr "~Χωρίς ανάθεση"
-
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
-msgid "Label Field Selection"
-msgstr "Επιλογή πεδίου ετικέτας"
-
-#: selectlabeldialog.src%23RID_STR_FORMS.string.text
-msgid "Forms"
-msgstr "Φόρμες"
+#: propres.src%23RID_STR_TEXT_FORMAT.string.text
+msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
+msgid "Text"
+msgstr "Κείμενο"
 
 #: formres.src%23RID_STR_EDITMASK.string.text
 msgid "Edit mask"
@@ -1490,6 +1447,19 @@ msgstr "Έντονη"
 msgid "(Default)"
 msgstr "(Προεπιλογή)"
 
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "Εφέ γραμματοσειράς"
+
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
+msgid "Character"
+msgstr "Χαρακτήρας"
+
 #: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
 msgid "Controls"
 msgstr "Στοιχεία ελέγχου"
@@ -1510,83 +1480,113 @@ msgstr "Αυτόματη ταξινόμηση"
 msgid "Tab Order"
 msgstr "Σειρά Tab"
 
-#: propres.src%23RID_STR_STANDARD.string.text
-msgctxt "propres.src#RID_STR_STANDARD.string.text"
-msgid "Default"
-msgstr "Προεπιλογή"
-
-#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
-msgid "General"
-msgstr "Γενικά"
-
-#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
-msgid "Data"
-msgstr "Δεδομένα"
-
-#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
-msgid "No"
-msgstr "Όχι"
-
-#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
-msgid "Yes"
-msgstr "Ναι"
-
-#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
-msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
-msgid "Help"
-msgstr "Βοήθεια"
-
-#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
-msgid "<Embedded-Image>"
-msgstr "<Embedded-Image>"
-
-#: propres.src%23RID_STR_TEXT_FORMAT.string.text
-msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
-msgid "Text"
-msgstr "Κείμενο"
-
-#: formlinkdialog.src%23RID_DLG_FORMLINKS.FT_EXPLANATION.fixedtext.text
+#: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
 msgid ""
-"Sub forms can be used to display detailed data about the current record of "
-"the master form. To do this, you can specify which columns in the sub form "
-"match which columns in the master form."
+"Do you want to delete the data type '#type#' from the model?\n"
+"Please note that this will affect all controls which are bound to this data "
+"type."
 msgstr ""
-"Μπορούν να χρησιμοποιηθούν υποφόρμες για την εμφάνιση λεπτομερών δεδομένων "
-"σχετικά με την τρέχουσα εγγραφή της κύρια φόρμας. Για να γίνει αυτό, θα "
-"πρέπει να καθορίσετε ποιες στήλες της υποφόρμας ταιριάζουν με ποιες στήλες "
-"της κύριας φόρμας."
+"Θέλετε να διαγράψετε τον τύπο δεδομένων '#type#' από το μοντέλο;\n"
+"Σημειώστε ότι αυτό θα επηρεάσει όλα στα στοιχεία ελέγχου που είναι "
+"συνδεδεμένα με αυτό το τύπο δεδομένων."
 
-#: formlinkdialog.src%23RID_DLG_FORMLINKS.modaldialog.text
-msgid "Link fields"
-msgstr "Σύνδεση πεδίων"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_PUSHBUTTON.string.text
+msgid "Button"
+msgstr "Κουμπί"
 
-#: formlinkdialog.src%23PB_SUGGEST.pushbutton.text
-msgid "Suggest"
-msgstr "Πρόταση"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_RADIOBUTTON.string.text
+msgid "Option Button"
+msgstr "Κουμπί επιλογών"
 
-#: formlinkdialog.src%23STR_DETAIL_FORM.string.text
-msgid "Sub Form"
-msgstr "Υποφόρμα"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_CHECKBOX.string.text
+msgid "Check Box"
+msgstr "Πεδίο σήμανσης"
 
-#: formlinkdialog.src%23STR_MASTER_FORM.string.text
-msgid "Master Form"
-msgstr "Κύρια φόρμα"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FIXEDTEXT.string.text
+msgctxt "pcrmiscres.src#RID_STR_PROPTITLE_FIXEDTEXT.string.text"
+msgid "Label Field"
+msgstr "Πεδίο ετικέτας"
 
-#: formlinkdialog.src%23STR_ERROR_RETRIEVING_COLUMNS.string.text
-msgid "The columns of '#' could not be retrieved."
-msgstr "Οι στήλες της '#' δεν ανακτήθηκαν."
+#: pcrmiscres.src%23RID_STR_PROPTITLE_GROUPBOX.string.text
+msgid "Group Box"
+msgstr "Πλαίσιο ομαδοποίησης"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
-msgid "Font"
-msgstr "Γραμματοσειρά"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_EDIT.string.text
+msgid "Text Box"
+msgstr "Πεδίο κειμένου"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "Εφέ γραμματοσειράς"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FORMATTED.string.text
+msgid "Formatted Field"
+msgstr "Μορφοποιημένο πεδίο"
 
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
-msgid "Character"
-msgstr "Χαρακτήρας"
+#: pcrmiscres.src%23RID_STR_PROPTITLE_LISTBOX.string.text
+msgid "List Box"
+msgstr "Πεδίο λίστας"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_COMBOBOX.string.text
+msgid "Combo Box"
+msgstr "Πεδίο συνδυασμού"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGEBUTTON.string.text
+msgid "Image Button"
+msgstr "Γραφικό πεδίο επιλογής"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_HIDDENCONTROL.string.text
+msgid "Hidden Control"
+msgstr "Κρυμμένο πεδίο ελέγχου"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_UNKNOWNCONTROL.string.text
+msgid "Control (unknown type)"
+msgstr "Πεδίο ελέγχου (άγνωστος τύπος)"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_IMAGECONTROL.string.text
+msgid "Image Control"
+msgstr "Γραφικό πεδίο ελέγχου"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_FILECONTROL.string.text
+msgid "File Selection"
+msgstr "Επιλογή αρχείου"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_DATEFIELD.string.text
+msgid "Date Field"
+msgstr "Πεδίο ημερομηνίας"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_TIMEFIELD.string.text
+msgid "Time Field"
+msgstr "Πεδίο ώρας"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_NUMERICFIELD.string.text
+msgid "Numeric Field"
+msgstr "Αριθμητικό πεδίο"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_CURRENCYFIELD.string.text
+msgid "Currency Field"
+msgstr "Πεδίο νομίσματος"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_PATTERNFIELD.string.text
+msgid "Pattern Field"
+msgstr "Πεδίο μοτίβου"
+
+#: pcrmiscres.src%23RID_STR_PROPTITLE_DBGRID.string.text
+msgid "Table Control "
+msgstr "Πεδίο ελέγχου πίνακα "
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+msgid ""
+"These are control fields that can be used as label fields for the "
+"$control_class$ $control_name$."
+msgstr ""
+"Αυτά είναι πεδία ελέγχου τα οποία μπορούν να χρησιμοποιηθούν ως πεδία "
+"επισήμανσης για το $control_class$ $control_name$."
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+msgid "~No assignment"
+msgstr "~Χωρίς ανάθεση"
+
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
+msgid "Label Field Selection"
+msgstr "Επιλογή πεδίου ετικέτας"
+
+#: selectlabeldialog.src%23RID_STR_FORMS.string.text
+msgid "Forms"
+msgstr "Φόρμες"
