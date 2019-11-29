@@ -6,48 +6,52 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-11-28 12:56+0000\n"
+"Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.3.1\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1574945816.000000\n"
 
 #: 03020203.xhp%23tit.help.text
 msgid "Line Input # Statement [Runtime]"
-msgstr ""
+msgstr "Line Input # Statement [Runtime]"
 
 #: 03020203.xhp%23bm_id3153361.help.text
 msgid "<bookmark_value>Line Input statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Տողի մուտքի հայտարարություն</bookmark_value>"
 
 #: 03020203.xhp%23hd_id3153361.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input # Statement "
 "[Runtime]\">Line Input # Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input # Statement "
+"[Runtime]\">Line Input # Statement [Runtime]</link>"
 
 #: 03020203.xhp%23par_id3156280.2.help.text
 msgid "Reads strings from a sequential file into a variable."
-msgstr ""
+msgstr "Կարդում է տողերը հաջորդական նիշքից փոփոխականի մեջ:"
 
 #: 03020203.xhp%23hd_id3150447.3.help.text
 msgctxt "03020203.xhp#hd_id3150447.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03020203.xhp%23par_id3147229.4.help.text
 msgid "Line Input #FileNumber As Integer, Var As String "
-msgstr ""
+msgstr "Line Input #FileNumber As Integer, Var As String "
 
 #: 03020203.xhp%23hd_id3145173.5.help.text
 msgctxt "03020203.xhp#hd_id3145173.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03020203.xhp%23par_id3161832.6.help.text
 msgid ""
@@ -55,10 +59,13 @@ msgid ""
 "want to read. The file must have been opened in advance with the Open "
 "statement using the key word INPUT."
 msgstr ""
+"<emph>FileNumber: </emph>Նիշքի համարը, որը պարունակում է այն տվյալները, "
+"որոնք ցանկանում եք կարդալ: Նիշքը պետք է նախապես բացվեր Open հայտարարությամբ, "
+"օգտագործելով INPUT բանալի բառը:"
 
 #: 03020203.xhp%23par_id3151119.7.help.text
 msgid "<emph>var:</emph> The name of the variable that stores the result."
-msgstr ""
+msgstr "<emph>var:</emph> Արդյունքը պահող փոփոխականի անունը:"
 
 #: 03020203.xhp%23par_id3150010.8.help.text
 msgid ""
@@ -67,135 +74,141 @@ msgid ""
 "first carriage return (Asc=13) or linefeed (Asc=10). Line end marks are not "
 "included in the resulting string."
 msgstr ""
+"<emph>Line Input#</emph> հայտարարությամբ, դուք կարող եք բաց նիշքից տողերը "
+"կարդալ փոփոխականի մեջ: Տողային փոփոխականներն ընթերցվում են տող առ տող, մինչև "
+"փոխադրման առաջին վերադարձը (Asc=13), կամ գծային հոսքը (Asc=10): Տողի վերջի "
+"նշանները ներառված չեն արդյունքի շարքում:"
 
 #: 03020203.xhp%23hd_id3163711.9.help.text
 msgctxt "03020203.xhp#hd_id3163711.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03020203.xhp%23par_id3145271.10.help.text
 msgctxt "03020203.xhp#par_id3145271.10.help.text"
 msgid "Sub ExampleWorkWithAFile"
-msgstr ""
+msgstr "Sub ExampleWorkWithAFile"
 
 #: 03020203.xhp%23par_id3156444.11.help.text
 msgctxt "03020203.xhp#par_id3156444.11.help.text"
 msgid "Dim iNumber As Integer"
-msgstr ""
+msgstr "Dim iNumber As Integer"
 
 #: 03020203.xhp%23par_id3147349.12.help.text
 msgctxt "03020203.xhp#par_id3147349.12.help.text"
 msgid "Dim sLine As String"
-msgstr ""
+msgstr "Dim sLine As String"
 
 #: 03020203.xhp%23par_id3149664.13.help.text
 msgctxt "03020203.xhp#par_id3149664.13.help.text"
 msgid "Dim aFile As String"
-msgstr ""
+msgstr "Dim aFile As String"
 
 #: 03020203.xhp%23par_id3147436.36.help.text
 msgctxt "03020203.xhp#par_id3147436.36.help.text"
 msgid "Dim sMsg as String"
-msgstr ""
+msgstr "Dim sMsg as String"
 
 #: 03020203.xhp%23par_id3154730.14.help.text
 msgctxt "03020203.xhp#par_id3154730.14.help.text"
 msgid "aFile = \"c:\\data.txt\""
-msgstr ""
+msgstr "aFile = \"c:\\data.txt\""
 
 #: 03020203.xhp%23par_id3145647.16.help.text
 msgctxt "03020203.xhp#par_id3145647.16.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020203.xhp%23par_id3149959.17.help.text
 msgctxt "03020203.xhp#par_id3149959.17.help.text"
 msgid "Open aFile For Output As #iNumber"
-msgstr ""
+msgstr "Open aFile For Output As #iNumber"
 
 #: 03020203.xhp%23par_id3147124.18.help.text
 msgctxt "03020203.xhp#par_id3147124.18.help.text"
 msgid "Print #iNumber, \"This is a line of text\""
-msgstr ""
+msgstr "Print #iNumber, \"Սա տեքստից տող է\""
 
 #: 03020203.xhp%23par_id3153415.19.help.text
 msgctxt "03020203.xhp#par_id3153415.19.help.text"
 msgid "Print #iNumber, \"This is another line of text\""
-msgstr ""
+msgstr "Print #iNumber, \"Սա տեքստից մեկ այլ տող է\""
 
 #: 03020203.xhp%23par_id3146969.20.help.text
 msgctxt "03020203.xhp#par_id3146969.20.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020203.xhp%23par_id3154482.24.help.text
 msgctxt "03020203.xhp#par_id3154482.24.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020203.xhp%23par_id3150321.25.help.text
 msgctxt "03020203.xhp#par_id3150321.25.help.text"
 msgid "Open aFile For Input As iNumber"
-msgstr ""
+msgstr "Open aFile For Input As iNumber"
 
 #: 03020203.xhp%23par_id3155443.26.help.text
 msgctxt "03020203.xhp#par_id3155443.26.help.text"
 msgid "While not eof(iNumber)"
-msgstr ""
+msgstr "While not eof(iNumber)"
 
 #: 03020203.xhp%23par_id3155764.27.help.text
 msgctxt "03020203.xhp#par_id3155764.27.help.text"
 msgid "Line Input #iNumber, sLine"
-msgstr ""
+msgstr "Line Input #iNumber, sLine"
 
 #: 03020203.xhp%23par_id3156382.28.help.text
 msgctxt "03020203.xhp#par_id3156382.28.help.text"
 msgid "If sLine <>\"\" then"
-msgstr ""
+msgstr "If sLine <>\"\" then"
 
 #: 03020203.xhp%23par_id3147338.29.help.text
 msgctxt "03020203.xhp#par_id3147338.29.help.text"
 msgid "sMsg = sMsg & sLine & chr(13)"
-msgstr ""
+msgstr "sMsg = sMsg & sLine & chr(13)"
 
 #: 03020203.xhp%23par_id3147362.31.help.text
 msgctxt "03020203.xhp#par_id3147362.31.help.text"
 msgid "end if"
-msgstr ""
+msgstr "end if"
 
 #: 03020203.xhp%23par_id3155333.32.help.text
 msgctxt "03020203.xhp#par_id3155333.32.help.text"
 msgid "wend"
-msgstr ""
+msgstr "wend"
 
 #: 03020203.xhp%23par_id3153965.33.help.text
 msgctxt "03020203.xhp#par_id3153965.33.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020203.xhp%23par_id3147345.37.help.text
 msgctxt "03020203.xhp#par_id3147345.37.help.text"
 msgid "Msgbox sMsg"
-msgstr ""
+msgstr "Msgbox sMsg"
 
 #: 03020203.xhp%23par_id3149257.34.help.text
 msgctxt "03020203.xhp#par_id3149257.34.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03101100.xhp%23tit.help.text
 msgid "DefBool Statement [Runtime]"
-msgstr ""
+msgstr "DefBool Statement [Runtime]"
 
 #: 03101100.xhp%23bm_id3145759.help.text
 msgid "<bookmark_value>DefBool statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DefBool statement</bookmark_value>"
 
 #: 03101100.xhp%23hd_id3145759.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03101100.xhp\" name=\"DefBool Statement "
 "[Runtime]\">DefBool Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03101100.xhp\" name=\"DefBool Statement "
+"[Runtime]\">DefBool Statement [Runtime]</link>"
 
 #: 03101100.xhp%23par_id3153089.2.help.text
 msgid ""
@@ -203,21 +216,24 @@ msgid ""
 "statement sets the default data type for variables, according to a letter "
 "range."
 msgstr ""
+"Եթե ոչ մի տեսակի հայտարարագրման նիշ կամ հիմնաբառ չի նշվում, DefBool "
+"հայտարարությունը սահմանում է տվյալների լռակյաց տիպը փոփոխականների համար՝ "
+"տառի միջակայքի համապատասխան:"
 
 #: 03101100.xhp%23hd_id3149495.3.help.text
 msgctxt "03101100.xhp#hd_id3149495.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03101100.xhp%23par_id3150682.4.help.text
 msgctxt "03101100.xhp#par_id3150682.4.help.text"
 msgid "Defxxx Characterrange1[, Characterrange2[,...]]"
-msgstr ""
+msgstr "Defxxx Characterrange1[, Characterrange2[,...]]"
 
 #: 03101100.xhp%23hd_id3159201.5.help.text
 msgctxt "03101100.xhp#hd_id3159201.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03101100.xhp%23par_id3147226.6.help.text
 msgctxt "03101100.xhp#par_id3147226.6.help.text"
@@ -225,199 +241,215 @@ msgid ""
 "<emph>Characterrange:</emph> Letters that specify the range of variables "
 "that you want to set the default data type for."
 msgstr ""
+"<emph>Characterrange:</emph> Տառեր, որոնք նշում են այն փոփոխականների "
+"շրջանակը, որոնց համար ցանկանում եք նախնական տվյալների տեսակը սահմանել:"
 
 #: 03101100.xhp%23par_id3149178.7.help.text
 msgctxt "03101100.xhp#par_id3149178.7.help.text"
 msgid "<emph>xxx:</emph> Keyword that defines the default variable type:"
 msgstr ""
+"<emph>xxx:</emph> Բանալի բառ, որը սահմանում է լռելյայն փոփոխականի տեսակը."
 
 #: 03101100.xhp%23par_id3150669.8.help.text
 msgctxt "03101100.xhp#par_id3150669.8.help.text"
 msgid "<emph>Keyword: </emph>Default variable type"
-msgstr ""
+msgstr "<emph>Keyword: </emph>Լռելյայն փոփոխականի տեսակ"
 
 #: 03101100.xhp%23par_id3149233.9.help.text
 msgid "<emph>DefBool:</emph> Boolean"
-msgstr ""
+msgstr "<emph>DefBool:</emph> Boolean"
 
 #: 03101100.xhp%23hd_id3149762.10.help.text
 msgctxt "03101100.xhp#hd_id3149762.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03101100.xhp%23par_id3156152.12.help.text
 msgid "REM Prefix definition for variable types:"
-msgstr ""
+msgstr "REM Փոփոխականի տեսակների համար նախածանցի սահմանում."
 
 #: 03101100.xhp%23par_id3153627.13.help.text
 msgctxt "03101100.xhp#par_id3153627.13.help.text"
 msgid "DefBool b"
-msgstr ""
+msgstr "DefBool b"
 
 #: 03101100.xhp%23par_id3145610.14.help.text
 msgctxt "03101100.xhp#par_id3145610.14.help.text"
 msgid "DefDate t"
-msgstr ""
+msgstr "DefDate t"
 
 #: 03101100.xhp%23par_id3154760.15.help.text
 msgctxt "03101100.xhp#par_id3154760.15.help.text"
 msgid "DefDbL d"
-msgstr ""
+msgstr "DefDbL d"
 
 #: 03101100.xhp%23par_id3148552.16.help.text
 msgctxt "03101100.xhp#par_id3148552.16.help.text"
 msgid "DefInt i"
-msgstr ""
+msgstr "DefInt i"
 
 #: 03101100.xhp%23par_id3152812.17.help.text
 msgctxt "03101100.xhp#par_id3152812.17.help.text"
 msgid "DefLng l"
-msgstr ""
+msgstr "DefLng l"
 
 #: 03101100.xhp%23par_id3153524.18.help.text
 msgctxt "03101100.xhp#par_id3153524.18.help.text"
 msgid "DefObj o"
-msgstr ""
+msgstr "DefObj o"
 
 #: 03101100.xhp%23par_id3150541.19.help.text
 msgctxt "03101100.xhp#par_id3150541.19.help.text"
 msgid "DefVar v"
-msgstr ""
+msgstr "DefVar v"
 
 #: 03101100.xhp%23par_id3153193.21.help.text
 msgid "Sub ExampleDefBool"
-msgstr ""
+msgstr "Sub ExampleDefBool"
 
 #: 03101100.xhp%23par_id3151381.22.help.text
 msgid "bOK=TRUE REM bOK is an implicit Boolean variable"
-msgstr ""
+msgstr "bOK=TRUE REM bOK ենթադրաբար Բուլյան փոփոխական է"
 
 #: 03101100.xhp%23par_id3145421.23.help.text
 msgctxt "03101100.xhp#par_id3145421.23.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03080802.xhp%23tit.help.text
 msgid "Oct Function [Runtime]"
-msgstr ""
+msgstr "Oct Function [Runtime]"
 
 #: 03080802.xhp%23bm_id3155420.help.text
 msgid "<bookmark_value>Oct function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Oct function</bookmark_value>"
 
 #: 03080802.xhp%23hd_id3155420.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03080802.xhp\" name=\"Oct Function [Runtime]"
 "\">Oct Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03080802.xhp\" name=\"Oct Function [Runtime]"
+"\">Oct Function [Runtime]</link>"
 
 #: 03080802.xhp%23par_id3154924.2.help.text
 msgid "Returns the octal value of a number."
-msgstr ""
+msgstr "Վերադարձնում է թվի ութական արժեքը։"
 
 #: 03080802.xhp%23hd_id3148947.3.help.text
 msgctxt "03080802.xhp#hd_id3148947.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03080802.xhp%23par_id3150543.4.help.text
 msgid "Oct (Number)"
-msgstr ""
+msgstr "Oct (Թիվ)"
 
 #: 03080802.xhp%23hd_id3153360.5.help.text
 msgctxt "03080802.xhp#hd_id3153360.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք․"
 
 #: 03080802.xhp%23par_id3154138.6.help.text
 msgctxt "03080802.xhp#par_id3154138.6.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 03080802.xhp%23hd_id3156422.7.help.text
 msgctxt "03080802.xhp#hd_id3156422.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03080802.xhp%23par_id3150768.8.help.text
 msgid ""
 "<emph>Number:</emph> Any numeric expression that you want to convert to an "
 "octal value."
 msgstr ""
+"<emph>Թիվ:</emph> Ցանկացած թվային արտահայտություն, որը ցանկանում եք վերածել "
+"ութական արժեքի:"
 
 #: 03080802.xhp%23hd_id3148672.9.help.text
 msgctxt "03080802.xhp#hd_id3148672.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ։"
 
 #: 03080802.xhp%23par_id3147287.10.help.text
 msgid "Sub ExampleOkt"
-msgstr ""
+msgstr "Sub ExampleOkt"
 
 #: 03080802.xhp%23par_id3161831.11.help.text
 msgid "Msgbox Oct(255)"
-msgstr ""
+msgstr "Msgbox Oct(255)"
 
 #: 03080802.xhp%23par_id3147318.12.help.text
 msgctxt "03080802.xhp#par_id3147318.12.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03120308.xhp%23tit.help.text
 msgid "RSet Statement [Runtime]"
-msgstr ""
+msgstr "RSet Statement [Runtime]"
 
 #: 03120308.xhp%23bm_id3153345.help.text
 msgid "<bookmark_value>RSet statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>RSet statement</bookmark_value>"
 
 #: 03120308.xhp%23hd_id3153345.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03120308.xhp\" name=\"RSet Statement "
 "[Runtime]\">RSet Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03120308.xhp\" name=\"RSet Statement "
+"[Runtime]\">RSet Statement [Runtime]</link>"
 
 #: 03120308.xhp%23par_id3150503.2.help.text
 msgid ""
 "Right-aligns a string within a string variable, or copies a user-defined "
 "variable type into another."
 msgstr ""
+"Աջ հավասարեցնում է տողը տողի փոփոխականի մեջ կամ օգտագործողի կողմից սահմանված "
+"փոփոխական տիպը պատճենում է մեկ այլում:"
 
 #: 03120308.xhp%23hd_id3149234.3.help.text
 msgctxt "03120308.xhp#hd_id3149234.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03120308.xhp%23par_id3150669.4.help.text
 msgid "RSet Text As String = Text or RSet Variable1 = Variable2"
-msgstr ""
+msgstr "RSet Text As String = Text or RSet Variable1 = Variable2"
 
 #: 03120308.xhp%23hd_id3156024.5.help.text
 msgctxt "03120308.xhp#hd_id3156024.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03120308.xhp%23par_id3148552.6.help.text
 msgid "<emph>Text:</emph> Any string variable."
-msgstr ""
+msgstr "<emph>Տեքստ:</emph> Ցանկացած տողի փոփոխական:"
 
 #: 03120308.xhp%23par_id3154924.7.help.text
 msgid ""
 "<emph>Text</emph>: String that you want to right-align in the string "
 "variable."
 msgstr ""
+"<emph>Տեքստ</emph>: Տողը, որը ցանկանում եք աջ հավասարեցնել տողի փոփոխականում:"
 
 #: 03120308.xhp%23par_id3149456.8.help.text
 msgid ""
 "<emph>Variable1:</emph> User-defined variable that is the target for the "
 "copied variable."
 msgstr ""
+"<emph>Variable1:</emph> Օգտագործողի կողմից սահմանված փոփոխական, որը "
+"պատճենված փոփոխականի համար թիրախ է:"
 
 #: 03120308.xhp%23par_id3153381.9.help.text
 msgid ""
 "<emph>Variable2:</emph> User-defined variable that you want to copy to "
 "another variable."
 msgstr ""
+"<emph>Variable2:</emph> Օգտագործողի կողմից սահմանված փոփոխական, որը դուք "
+"ցանկանում եք պատճենել մեկ այլ փոփոխականում:"
 
 #: 03120308.xhp%23par_id3154140.10.help.text
 msgid ""
@@ -428,353 +460,376 @@ msgid ""
 "are truncated, and only the remaining characters are right-aligned within "
 "the string variable."
 msgstr ""
+"Եթե տողը տողի փոփոխականից կարճ է, <emph> RSet </emph> հավասարեցնում է տողը, "
+"տողի փոփոխականում դեպի աջ: Տողի փոփոխականի ցանկացած մնացյալ նիշերը "
+"փոխարինվում են բացատներով: Եթե տողը տողային փոփոխականից ավելի երկար է, "
+"փոփոխականի երկարությունը գերազանցող նիշերը կրճատվում են, և միայն մնացած "
+"նիշերն են ձախ հավասարեցվում տողի փոփոխականի ներսում:"
 
 #: 03120308.xhp%23par_id3149202.11.help.text
 msgid ""
 "You can also use the <emph>RSet statement</emph> to assign variables of one "
 "user-defined type to another."
 msgstr ""
+"Կարող եք նաև օգտագործել <emph>RSet statement</emph> մեկ օգտագործողի "
+"սահմանված փոփոխականներին ըեսակը մյուսին վերագրելու համար:"
 
 #: 03120308.xhp%23par_id3151042.12.help.text
 msgid ""
 "The following example uses the <emph>RSet</emph> and <emph>LSet</emph> "
 "statements to modify the left and right alignment of a string."
 msgstr ""
+"Հետևյալ օրինակում օգտագործվում են <emph>RSet</emph> և <emph>LSet</emph> "
+"հայտարարությունները, տողի ձախ և աջ հավասարեցումը փոփոխելու համար:"
 
 #: 03120308.xhp%23hd_id3154909.13.help.text
 msgctxt "03120308.xhp#hd_id3154909.13.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03120308.xhp%23par_id3154218.14.help.text
 msgctxt "03120308.xhp#par_id3154218.14.help.text"
 msgid "Sub ExampleRLSet"
-msgstr ""
+msgstr "Sub ExampleRLSet"
 
 #: 03120308.xhp%23par_id3147288.15.help.text
 msgid "Dim sVar as string"
-msgstr ""
+msgstr "Dim sVar as string"
 
 #: 03120308.xhp%23par_id3153367.16.help.text
 msgid "Dim sExpr as string"
-msgstr ""
+msgstr "Dim sExpr as string"
 
 #: 03120308.xhp%23par_id3153952.18.help.text
 msgctxt "03120308.xhp#par_id3153952.18.help.text"
 msgid "sVar = String(40,\"*\")"
-msgstr ""
+msgstr "sVar = String(40,\"*\")"
 
 #: 03120308.xhp%23par_id3154013.19.help.text
 msgctxt "03120308.xhp#par_id3154013.19.help.text"
 msgid "sExpr = \"SBX\""
-msgstr ""
+msgstr "sExpr = \"SBX\""
 
 #: 03120308.xhp%23par_id3155856.20.help.text
 msgid "REM Right-align \"SBX\" in a 40-character string"
-msgstr ""
+msgstr "REM Աջ հավասարեցրու \"SBX\" -ը 40-նիշանի տողում"
 
 #: 03120308.xhp%23par_id3152577.21.help.text
 msgctxt "03120308.xhp#par_id3152577.21.help.text"
 msgid "REM Replace asterisks with spaces"
-msgstr ""
+msgstr "REM Փոխարինեք աստղանիշերը բացատներով"
 
 #: 03120308.xhp%23par_id3149260.22.help.text
 msgctxt "03120308.xhp#par_id3149260.22.help.text"
 msgid "RSet sVar = sExpr"
-msgstr ""
+msgstr "RSet sVar = sExpr"
 
 #: 03120308.xhp%23par_id3156444.23.help.text
 msgctxt "03120308.xhp#par_id3156444.23.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120308.xhp%23par_id3148575.25.help.text
 msgctxt "03120308.xhp#par_id3148575.25.help.text"
 msgid "sVar = String(5,\"*\")"
-msgstr ""
+msgstr "sVar = String(5,\"*\")"
 
 #: 03120308.xhp%23par_id3153140.26.help.text
 msgctxt "03120308.xhp#par_id3153140.26.help.text"
 msgid "sExpr = \"123457896\""
-msgstr ""
+msgstr "sExpr = \"123457896\""
 
 #: 03120308.xhp%23par_id3153144.27.help.text
 msgctxt "03120308.xhp#par_id3153144.27.help.text"
 msgid "RSet sVar = sExpr"
-msgstr ""
+msgstr "RSet sVar = sExpr"
 
 #: 03120308.xhp%23par_id3150116.28.help.text
 msgctxt "03120308.xhp#par_id3150116.28.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120308.xhp%23par_id3154491.30.help.text
 msgctxt "03120308.xhp#par_id3154491.30.help.text"
 msgid "sVar = String(40,\"*\")"
-msgstr ""
+msgstr "sVar = String(40,\"*\")"
 
 #: 03120308.xhp%23par_id3149412.31.help.text
 msgctxt "03120308.xhp#par_id3149412.31.help.text"
 msgid "sExpr = \"SBX\""
-msgstr ""
+msgstr "sExpr = \"SBX\""
 
 #: 03120308.xhp%23par_id3145801.32.help.text
 msgid "REM Left-align \"SBX\" in a 40-character string"
-msgstr ""
+msgstr "REM Ձախ հավասարեցրու \"SBX\" -ը 40-նիշանի տողում"
 
 #: 03120308.xhp%23par_id3145646.33.help.text
 msgctxt "03120308.xhp#par_id3145646.33.help.text"
 msgid "LSet sVar = sExpr"
-msgstr ""
+msgstr "LSet sVar = sExpr"
 
 #: 03120308.xhp%23par_id3154511.34.help.text
 msgctxt "03120308.xhp#par_id3154511.34.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120308.xhp%23par_id3153839.36.help.text
 msgctxt "03120308.xhp#par_id3153839.36.help.text"
 msgid "sVar = String(5,\"*\")"
-msgstr ""
+msgstr "sVar = String(5,\"*\")"
 
 #: 03120308.xhp%23par_id3149122.37.help.text
 msgctxt "03120308.xhp#par_id3149122.37.help.text"
 msgid "sExpr = \"123456789\""
-msgstr ""
+msgstr "sExpr = \"123456789\""
 
 #: 03120308.xhp%23par_id3150330.38.help.text
 msgctxt "03120308.xhp#par_id3150330.38.help.text"
 msgid "LSet sVar = sExpr"
-msgstr ""
+msgstr "LSet sVar = sExpr"
 
 #: 03120308.xhp%23par_id3154480.39.help.text
 msgctxt "03120308.xhp#par_id3154480.39.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120308.xhp%23par_id3148914.40.help.text
 msgctxt "03120308.xhp#par_id3148914.40.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03070600.xhp%23tit.help.text
 msgid "Mod-Operator [Runtime]"
-msgstr ""
+msgstr "Mod-Operator [Runtime]"
 
 #: 03070600.xhp%23bm_id3150669.help.text
 msgid "<bookmark_value>MOD  operator (mathematical)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>MOD  operator (mathematical)</bookmark_value>"
 
 #: 03070600.xhp%23hd_id3150669.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03070600.xhp\" name=\"Mod-Operator [Runtime]"
 "\">Mod Operator [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03070600.xhp\" name=\"Mod-Operator [Runtime]"
+"\">Mod Operator [Runtime]</link>"
 
 #: 03070600.xhp%23par_id3148686.2.help.text
 msgid "Returns the integer remainder of a division."
-msgstr ""
+msgstr "Վերադարձնում է բաժանման ամբողջը։"
 
 #: 03070600.xhp%23hd_id3146795.3.help.text
 msgctxt "03070600.xhp#hd_id3146795.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03070600.xhp%23par_id3147560.4.help.text
 msgid "Result = Expression1 MOD Expression2"
-msgstr ""
+msgstr "Result = Expression1 MOD Expression2"
 
 #: 03070600.xhp%23hd_id3149657.5.help.text
 msgctxt "03070600.xhp#hd_id3149657.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեքը."
 
 #: 03070600.xhp%23par_id3153380.6.help.text
 msgctxt "03070600.xhp#par_id3153380.6.help.text"
 msgid "Integer"
-msgstr ""
+msgstr "Ամբողջ"
 
 #: 03070600.xhp%23hd_id3154365.7.help.text
 msgctxt "03070600.xhp#hd_id3154365.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03070600.xhp%23par_id3145172.8.help.text
 msgid ""
 "<emph>Result:</emph> Any numeric variable that contains the result of the "
 "MOD operation."
 msgstr ""
+"<emph>Արդյունքt:</emph> Ցանկացած թվային փոփոխական, որը պարունակում է MOD "
+"գործողության արդյունքը:"
 
 #: 03070600.xhp%23par_id3151042.9.help.text
 msgid ""
 "<emph>Expression1, Expression2:</emph> Any numeric expressions that you want "
 "to divide."
 msgstr ""
+"<emph>Expression1, Expression2:</emph> Ցանկացած թվային արտահայտություններ, "
+"որոնք ուզում եք բաժանել:"
 
 #: 03070600.xhp%23hd_id3147287.10.help.text
 msgctxt "03070600.xhp#hd_id3147287.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03070600.xhp%23par_id3153770.11.help.text
 msgid "sub ExampleMod"
-msgstr ""
+msgstr "sub ExampleMod"
 
 #: 03070600.xhp%23par_id3161832.12.help.text
 msgid "print 10 mod 2.5 REM returns 0"
-msgstr ""
+msgstr "print 10 mod 2.5 REM returns 0"
 
 #: 03070600.xhp%23par_id3146922.13.help.text
 msgid "print 10 / 2.5 REM returns 4"
-msgstr ""
+msgstr "print 10 / 2.5 REM returns 4"
 
 #: 03070600.xhp%23par_id3145273.14.help.text
 msgid "print 10 mod 5 REM returns 0"
-msgstr ""
+msgstr "print 10 mod 5 REM returns 0"
 
 #: 03070600.xhp%23par_id3150011.15.help.text
 msgid "print 10 / 5 REM returns 2"
-msgstr ""
+msgstr "print 10 / 5 REM returns 2"
 
 #: 03070600.xhp%23par_id3149483.16.help.text
 msgid "print 5 mod 10 REM returns 5"
-msgstr ""
+msgstr "print 5 mod 10 REM returns 5"
 
 #: 03070600.xhp%23par_id3151114.17.help.text
 msgid "print 5 / 10 REM returns 0.5"
-msgstr ""
+msgstr "print 5 / 10 REM returns 0.5"
 
 #: 03070600.xhp%23par_id3154013.18.help.text
 msgctxt "03070600.xhp#par_id3154013.18.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03104500.xhp%23tit.help.text
 msgid "IsUnoStruct Function [Runtime]"
-msgstr ""
+msgstr "IsUnoStruct Function [Runtime]"
 
 #: 03104500.xhp%23bm_id3146117.help.text
 msgid "<bookmark_value>IsUnoStruct function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>IsUnoStruct function</bookmark_value>"
 
 #: 03104500.xhp%23hd_id3146117.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03104500.xhp\" name=\"IsUnoStruct Function "
 "[Runtime]\">IsUnoStruct Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03104500.xhp\" name=\"IsUnoStruct Function "
+"[Runtime]\">IsUnoStruct Function [Runtime]</link>"
 
 #: 03104500.xhp%23par_id3146957.2.help.text
 msgid "Returns True if the given object is a Uno struct."
-msgstr ""
+msgstr "Վերադարձնում է True եթե տրված օբյեկտը ունի Uno struct."
 
 #: 03104500.xhp%23hd_id3148538.3.help.text
 msgctxt "03104500.xhp#hd_id3148538.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03104500.xhp%23par_id3155341.4.help.text
 msgid "IsUnoStruct( Uno type )"
-msgstr ""
+msgstr "IsUnoStruct( Uno type )"
 
 #: 03104500.xhp%23hd_id3148473.5.help.text
 msgctxt "03104500.xhp#hd_id3148473.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձի արժեք։"
 
 #: 03104500.xhp%23par_id3145315.6.help.text
 msgctxt "03104500.xhp#par_id3145315.6.help.text"
 msgid "Bool"
-msgstr ""
+msgstr "Bool"
 
 #: 03104500.xhp%23hd_id3145609.7.help.text
 msgctxt "03104500.xhp#hd_id3145609.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03104500.xhp%23par_id3148947.8.help.text
 msgid "Uno type : A UnoObject"
-msgstr ""
+msgstr "Uno type : A UnoObject"
 
 #: 03104500.xhp%23hd_id3156343.9.help.text
 msgctxt "03104500.xhp#hd_id3156343.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03104500.xhp%23par_idN10632.help.text
 msgctxt "03104500.xhp#par_idN10632.help.text"
 msgid "Sub Main"
-msgstr ""
+msgstr "Sub Main"
 
 #: 03104500.xhp%23par_idN10635.help.text
 msgid "Dim bIsStruct"
-msgstr ""
+msgstr "Dim bIsStruct"
 
 #: 03104500.xhp%23par_idN10638.help.text
 msgid "' Instantiate a service"
-msgstr ""
+msgstr "' Հրահանգեք ծառայություն"
 
 #: 03104500.xhp%23par_idN1063B.help.text
 msgid "Dim oSimpleFileAccess"
-msgstr ""
+msgstr "Dim oSimpleFileAccess"
 
 #: 03104500.xhp%23par_idN1063E.help.text
 msgid ""
 "oSimpleFileAccess = CreateUnoService( \"com.sun.star.ucb.SimpleFileAccess\" )"
 msgstr ""
+"oSimpleFileAccess = CreateUnoService( \"com.sun.star.ucb.SimpleFileAccess\" )"
 
 #: 03104500.xhp%23par_idN10641.help.text
 msgid "bIsStruct = IsUnoStruct( oSimpleFileAccess )"
-msgstr ""
+msgstr "bIsStruct = IsUnoStruct( oSimpleFileAccess )"
 
 #: 03104500.xhp%23par_idN10644.help.text
 msgid ""
 "MsgBox bIsStruct ' Displays False because oSimpleFileAccess is NO struct"
 msgstr ""
+"MsgBox bIsStruct ' Displays False because oSimpleFileAccess is NO struct"
 
 #: 03104500.xhp%23par_idN10649.help.text
 msgid "' Instantiate a Property struct"
-msgstr ""
+msgstr "' Instantiate a Property struct"
 
 #: 03104500.xhp%23par_idN1064D.help.text
 msgid "Dim aProperty As New com.sun.star.beans.Property"
-msgstr ""
+msgstr "Dim aProperty As New com.sun.star.beans.Property"
 
 #: 03104500.xhp%23par_idN10650.help.text
 msgid "bIsStruct = IsUnoStruct( aProperty )"
-msgstr ""
+msgstr "bIsStruct = IsUnoStruct( aProperty )"
 
 #: 03104500.xhp%23par_idN10653.help.text
 msgid "MsgBox bIsStruct ' Displays True because aProperty is a struct"
-msgstr ""
+msgstr "MsgBox bIsStruct ' Displays True because aProperty is a struct"
 
 #: 03104500.xhp%23par_idN10658.help.text
 msgid "bIsStruct = IsUnoStruct( 42 )"
-msgstr ""
+msgstr "bIsStruct = IsUnoStruct( 42 )"
 
 #: 03104500.xhp%23par_idN1065B.help.text
 msgid "MsgBox bIsStruct ' Displays False because 42 is NO struct"
-msgstr ""
+msgstr "MsgBox bIsStruct ' Displays False because 42 is NO struct"
 
 #: 03104500.xhp%23par_idN10660.help.text
 msgctxt "03104500.xhp#par_idN10660.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03110100.xhp%23tit.help.text
 msgid "Comparison Operators [Runtime]"
-msgstr ""
+msgstr "Comparison Operators [Runtime]"
 
 #: 03110100.xhp%23bm_id3150682.help.text
 msgid ""
 "<bookmark_value>comparison operators;%PRODUCTNAME "
 "Basic</bookmark_value><bookmark_value>operators;comparisons</bookmark_value>"
 msgstr ""
+"<bookmark_value>comparison operators;%PRODUCTNAME "
+"Basic</bookmark_value><bookmark_value>operators;comparisons</bookmark_value>"
 
 #: 03110100.xhp%23hd_id3150682.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03110100.xhp\" name=\"Comparison Operators "
 "[Runtime]\">Comparison Operators [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03110100.xhp\" name=\"Comparison Operators "
+"[Runtime]\">Comparison Operators [Runtime]</link>"
 
 #: 03110100.xhp%23par_id3156042.2.help.text
 msgid ""
@@ -782,123 +837,130 @@ msgid ""
 "Boolean expression that determines if the comparison is True (-1) or False "
 "(0)."
 msgstr ""
+"Համեմատության օպերատորները համեմատում են երկու արտահայտություն: Արդյունքը "
+"վերադարձվում է որպես Բուլյան արտահայտություն, որը որոշում է, թե արդյոք "
+"համեմատությունը ճշմարիտ է (-1) կամ կեղծ (0):"
 
 #: 03110100.xhp%23hd_id3147291.3.help.text
 msgctxt "03110100.xhp#hd_id3147291.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03110100.xhp%23par_id3149177.4.help.text
 msgid "Result = Expression1 { = | < | > | <= | >= } Expression2"
-msgstr ""
+msgstr "Result = Expression1 { = | < | > | <= | >= } Expression2"
 
 #: 03110100.xhp%23hd_id3145316.5.help.text
 msgctxt "03110100.xhp#hd_id3145316.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03110100.xhp%23par_id3147573.6.help.text
 msgid ""
 "<emph>Result:</emph> Boolean expression that specifies the result of the "
 "comparison (True, or False)"
 msgstr ""
+"<emph>Արդյունքt:</emph> Բուլյան արտահայտություն, որը բնութագրում է "
+"համեմատության արդյունքը (Ճշմարիտ կամ Սխալ)"
 
 #: 03110100.xhp%23par_id3148686.7.help.text
 msgid ""
 "<emph>Expression1, Expression2:</emph> Any numeric values or strings that "
 "you want to compare."
 msgstr ""
+"<emph>Expression1, Expression2:</emph> Ցանկացած թվային արժեքներ կամ տողեր, "
+"որոնք ուզում եք համեմատել:"
 
 #: 03110100.xhp%23hd_id3147531.8.help.text
 msgid "Comparison operators"
-msgstr ""
+msgstr "Համեմատության օպերատորներ"
 
 #: 03110100.xhp%23par_id3147265.9.help.text
 msgid "= : Equal to"
-msgstr ""
+msgstr "= : Հավասար է"
 
 #: 03110100.xhp%23par_id3154924.10.help.text
 msgid "< : Less than"
-msgstr ""
+msgstr "< : Փոքր է քան"
 
 #: 03110100.xhp%23par_id3146795.11.help.text
 msgid "> : Greater than"
-msgstr ""
+msgstr "> : Մեծ է քան"
 
 #: 03110100.xhp%23par_id3150541.12.help.text
 msgid "<= : Less than or equal to"
-msgstr ""
+msgstr "<= : Փոքր է քան կամ հավասար է"
 
 #: 03110100.xhp%23par_id3150400.13.help.text
 msgid ">= : Greater than or equal to"
-msgstr ""
+msgstr ">= : Մեծ է քան կամ հավասար է"
 
 #: 03110100.xhp%23par_id3148797.14.help.text
 msgid "<> : Not equal to"
-msgstr ""
+msgstr "<> : Հավասար չէ"
 
 #: 03110100.xhp%23hd_id3154686.15.help.text
 msgctxt "03110100.xhp#hd_id3154686.15.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03110100.xhp%23par_id3153969.16.help.text
 msgid "Sub ExampleUnequal"
-msgstr ""
+msgstr "Sub ExampleUnequal"
 
 #: 03110100.xhp%23par_id3159151.17.help.text
 msgid "DIM sFile As String"
-msgstr ""
+msgstr "DIM sFile As String"
 
 #: 03110100.xhp%23par_id3154909.18.help.text
 msgid "DIM sRoot As String REM ' Root directory for file in and output"
-msgstr ""
+msgstr "DIM sRoot As String REM ' Արմատ գրացուցակ նիշքի մուտքի և ելքի համար"
 
 #: 03110100.xhp%23par_id3150767.19.help.text
 msgid "sRoot = \"c:\\\""
-msgstr ""
+msgstr "sRoot = \"c:\\\""
 
 #: 03110100.xhp%23par_id3154125.20.help.text
 msgid "sFile = Dir$( sRoot ,22)"
-msgstr ""
+msgstr "sFile = Dir$( sRoot ,22)"
 
 #: 03110100.xhp%23par_id3150440.21.help.text
 msgctxt "03110100.xhp#par_id3150440.21.help.text"
 msgid "If sFile <> \"\" Then"
-msgstr ""
+msgstr "If sFile <> \"\" Then"
 
 #: 03110100.xhp%23par_id3147288.22.help.text
 msgctxt "03110100.xhp#par_id3147288.22.help.text"
 msgid "Do"
-msgstr ""
+msgstr "Do"
 
 #: 03110100.xhp%23par_id3150010.23.help.text
 msgid "Msgbox sFile"
-msgstr ""
+msgstr "Msgbox sFile"
 
 #: 03110100.xhp%23par_id3153727.24.help.text
 msgctxt "03110100.xhp#par_id3153727.24.help.text"
 msgid "sFile = Dir$"
-msgstr ""
+msgstr "sFile = Dir$"
 
 #: 03110100.xhp%23par_id3149664.25.help.text
 msgctxt "03110100.xhp#par_id3149664.25.help.text"
 msgid "Loop Until sFile = \"\""
-msgstr ""
+msgstr "Loop Until sFile = \"\""
 
 #: 03110100.xhp%23par_id3146986.26.help.text
 msgctxt "03110100.xhp#par_id3146986.26.help.text"
 msgid "End If"
-msgstr ""
+msgstr "End If"
 
 #: 03110100.xhp%23par_id3153952.27.help.text
 msgctxt "03110100.xhp#par_id3153952.27.help.text"
 msgid "End sub"
-msgstr ""
+msgstr "End sub"
 
 #: 01040000.xhp%23tit.help.text
 msgid "Event-Driven Macros"
-msgstr ""
+msgstr "Իրադարձությունների վրա հիմնված մակրոներ"
 
 #: 01040000.xhp%23bm_id3154581.help.text
 msgid ""
@@ -907,16 +969,25 @@ msgid ""
 "         <bookmark_value>assigning macros to events</bookmark_value>         "
 "<bookmark_value>events; assigning macros</bookmark_value>"
 msgstr ""
+"<bookmark_value>ջնջել; իրադարձությունների մակրո "
+"առաջադրանքներ</bookmark_value>         <bookmark_value>մակրոներ; "
+"իրադարձություններին նշանակելը</bookmark_value>         <bookmark_value>"
+"մակրոներ նշանակում իրադարձություններին</bookmark_value>         "
+"<bookmark_value>իրադարձություններ; մակրոների նշանակում</bookmark_value>"
 
 #: 01040000.xhp%23hd_id3147348.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/01040000.xhp\" name=\"Event-Driven Macros\""
 ">Event-Driven Macros</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/01040000.xhp\" name=\"Իրադարձությունների վրա "
+"հիմնված մակրոներ\">Իրադարձությունների վրա հիմնված մակրոներ</link>"
 
 #: 01040000.xhp%23par_id3146120.2.help.text
 msgid "This section describes how to assign Basic programs to program events."
 msgstr ""
+"Այս բաժնում նկարագրվում է, թե ինչպես Basic ծրագրերը նշանակել ծրագրային "
+"իրադարձություններին:"
 
 #: 01040000.xhp%23par_id3149263.4.help.text
 msgid ""
@@ -924,55 +995,63 @@ msgid ""
 "by assigning the desired macro to the event. The following table provides an "
 "overview of program events and at what point an assigned macro is executed."
 msgstr ""
+"Կարող եք ավտոմատ կատարել մակրոն, երբ որոշակի ծրագրային իրադարձություն է տեղի "
+"ունենում` իրադարձությանը ցանկալի մակրո հանձնելով: Հետևյալ աղյուսակում "
+"ներկայացված է ծրագրի իրադարձությունների ամփոփ նկարագիրը, և թե որ պահին է "
+"իրականացվում նշանակված մակրոն:"
 
 #: 01040000.xhp%23par_id3148455.5.help.text
 msgctxt "01040000.xhp#par_id3148455.5.help.text"
 msgid "Event"
-msgstr ""
+msgstr "Իրադարձություն"
 
 #: 01040000.xhp%23par_id3145799.6.help.text
 msgid "An assigned macro is executed..."
-msgstr ""
+msgstr "Նշանակված մակրոն կատարվում է ..."
 
 #: 01040000.xhp%23par_id3149379.7.help.text
 msgid "Program Start"
-msgstr ""
+msgstr "Ծրագրի սկիզբ"
 
 #: 01040000.xhp%23par_id3150715.8.help.text
 msgid "... after a $[officename] application is started."
-msgstr ""
+msgstr "... $[officename] հետո կիրառությունը կսկսվի։"
 
 #: 01040000.xhp%23par_id3146914.9.help.text
 msgid "Program End"
-msgstr ""
+msgstr "Ծրագրի վերջ"
 
 #: 01040000.xhp%23par_id3153765.10.help.text
 msgid "...before a $[officename] application is terminated."
-msgstr ""
+msgstr "...մինչև $[officename] կիրառությունը կասեցված է։"
 
 #: 01040000.xhp%23par_id3145150.11.help.text
 msgid "Create Document"
-msgstr ""
+msgstr "Ստեղծել Փաստաթուղթ"
 
 #: 01040000.xhp%23par_id3163808.12.help.text
 msgid ""
 "...after a new document is created with <emph>File - New</emph> or with the "
 "<emph>New</emph> icon."
 msgstr ""
+"...նոր փաստաթղթի ստեղծումից հետո, <emph>Նիշք - Նոր</emph> կամ "
+"<emph>Նոր</emph> պատկերակի միջոցով։"
 
 #: 01040000.xhp%23par_id3145790.13.help.text
 msgid "Open Document"
-msgstr ""
+msgstr "Բացել փաստաթուղթը"
 
 #: 01040000.xhp%23par_id3154572.14.help.text
 msgid ""
 "...after a document is opened with <emph>File - Open</emph> or with the "
 "<emph>Open</emph> icon."
 msgstr ""
+"...փաստաթուղթը բացելուց հետո <emph>Նիշք - Բացել</emph> կամ <emph>Բացել</emph>"
+" պատկերակով:"
 
 #: 01040000.xhp%23par_id3153266.15.help.text
 msgid "Save Document As"
-msgstr ""
+msgstr "Պահպանել փասթաթուղթը որպես"
 
 #: 01040000.xhp%23par_id3150208.16.help.text
 msgid ""
@@ -980,10 +1059,13 @@ msgid ""
 "As</emph>, or with <emph>File - Save</emph> or the <emph>Save</emph> icon, "
 "if a document name has not yet been specified)."
 msgstr ""
+"...նախքան փաստաթուղթը պահվում է նշված անվան տակ (<emph>Նիշք - Հիշել "
+"որպես</emph>) կամ <emph>Նիշք - Հիշել</emph> կամ <emph>Հիշել</emph> "
+"պատկերակով, եթե փաստաթղթի անվանումը դեռ չի նշվել):"
 
 #: 01040000.xhp%23par_id3158215.43.help.text
 msgid "Document has been saved as"
-msgstr ""
+msgstr "Փաստաթուղթը պահպանված է որպես"
 
 #: 01040000.xhp%23par_id3150980.44.help.text
 msgid ""
@@ -991,10 +1073,13 @@ msgid ""
 "Save As</emph>, or with <emph>File - Save</emph> or with the "
 "<emph>Save</emph> icon, if a document name has not yet been specified)."
 msgstr ""
+"... փաստաթուղթը պահպանելուց հետո նշված անվան տակ (<emph>Նիշք - Հիշել "
+"որպես</emph>) կամ <emph>Նիշք - Հիշել</emph> կամ <emph>Հիշել</emph> պատկերակի "
+"միջոցով, եթե փաստաթղթի անվանումը դեռ հստակեցված չէ):"
 
 #: 01040000.xhp%23par_id3150519.17.help.text
 msgid "Save Document"
-msgstr ""
+msgstr "Պահպանել փասթաթուղթը"
 
 #: 01040000.xhp%23par_id3155529.18.help.text
 msgid ""
@@ -1002,10 +1087,12 @@ msgid ""
 "<emph>Save</emph> icon, provided that a document name has already been "
 "specified."
 msgstr ""
+"...նախքան փաստաթուղթը հիշելը <emph>Նիշք - Հիշել</emph> կամ <emph>Հիշել</emph>"
+" պատկերակով, պայմանով, որ փաստաթղթի անվանումը արդեն նշված է:"
 
 #: 01040000.xhp%23par_id3149404.45.help.text
 msgid "Document has been saved"
-msgstr ""
+msgstr "Փաստաթուղթը հիշված է"
 
 #: 01040000.xhp%23par_id3151332.46.help.text
 msgid ""
@@ -1013,129 +1100,147 @@ msgid ""
 "<emph>Save</emph> icon, provided that a document name has already been "
 "specified."
 msgstr ""
+"...փաստաթուղթը հիշելուց հետո <emph>Նիշք - Հիշել</emph> կամ <emph>Հիշել</emph>"
+" պատկերակով, պայմանով, որ փաստաթղթի անվանումը արդեն նշված է:"
 
 #: 01040000.xhp%23par_id3159171.19.help.text
 msgid "Document is closing"
-msgstr ""
+msgstr "Փաստաթուղթը փակվում է"
 
 #: 01040000.xhp%23par_id3146868.20.help.text
 msgid "...before a document is closed."
-msgstr ""
+msgstr "...նախքան փաստաթուղթը կփակվի:"
 
 #: 01040000.xhp%23par_id3159097.47.help.text
 msgid "Document closed"
-msgstr ""
+msgstr "Փաստաթուղթը փակվեց"
 
 #: 01040000.xhp%23par_id3148606.48.help.text
 msgid ""
 "...after a document was closed. Note that the \"Save Document\" event may "
 "also occur when the document is saved before closing."
 msgstr ""
+"...փաստաթուղթը փակվելուց հետո: Նկատի ունեցեք, որ «Փաստաթուղթը հիշել» "
+"իրադարձությունը կարող է տեղի ունենալ նաև այն ժամանակ, երբ փաստաթուղթը "
+"հիշվում է մինչ փակելը:"
 
 #: 01040000.xhp%23par_id3144772.21.help.text
 msgid "Activate Document"
-msgstr ""
+msgstr "Ակտիվացնել փաստաթուղթը"
 
 #: 01040000.xhp%23par_id3149442.22.help.text
 msgid "...after a document is brought to the foreground."
-msgstr ""
+msgstr "...փաստաթուղթը առաջնապլան բերելուց հետո:"
 
 #: 01040000.xhp%23par_id3150888.23.help.text
 msgid "Deactivate Document"
-msgstr ""
+msgstr "Ապաակտիվացնել փաստաթուղթը"
 
 #: 01040000.xhp%23par_id3154060.24.help.text
 msgid "...after another document is brought to the foreground."
-msgstr ""
+msgstr "...մեկ այլ փաստաթուղթ առաջնապլան բերելուց հետո:"
 
 #: 01040000.xhp%23par_id3152384.25.help.text
 msgid "Print Document"
-msgstr ""
+msgstr "Տպել փաստաթուղթը"
 
 #: 01040000.xhp%23par_id3152873.26.help.text
 msgid ""
 "...after the <emph>Print</emph> dialog is closed, but before the actual "
 "print process begins."
 msgstr ""
+"...<emph>Տպել</emph> երկխոսությունը փակելուց հետո, բայց նախքան տպագրության "
+"իրական գործընթացի սկսելը:"
 
 #: 01040000.xhp%23par_id3159227.49.help.text
 msgid "JavaScript run-time error"
-msgstr ""
+msgstr "JavaScript կատարման սխալ"
 
 #: 01040000.xhp%23par_id3145362.50.help.text
 msgid "...when a JavaScript run-time error occurs."
-msgstr ""
+msgstr "...երբ JavaScript կատարման սխալ է հանդիպում։"
 
 #: 01040000.xhp%23par_id3154767.27.help.text
 msgid "Print Mail Merge"
-msgstr ""
+msgstr "Նամակի ձուլման տպում"
 
 #: 01040000.xhp%23par_id3153555.28.help.text
 msgid ""
 "...after the <emph>Print</emph> dialog is closed, but before the actual "
 "print process begins. This event occurs for each copy printed."
 msgstr ""
+"...<emph>Տպել</emph> երկխոսությունը փակելուց հետո, բայց նախքան տպելու իրական "
+"գործընթացը սկսելը: Այս իրադարձությունը տեղի է ունենում յուրաքանչյուր տպված "
+"օրինակի համար:"
 
 #: 01040000.xhp%23par_id3156366.51.help.text
 msgid "Change of the page count"
-msgstr ""
+msgstr "Էջի հաշվարկի փոփոխություն"
 
 #: 01040000.xhp%23par_id3154627.52.help.text
 msgid "...when the page count changes."
-msgstr ""
+msgstr "...երբ Էջի հաշվարկը փոփոխվում է։"
 
 #: 01040000.xhp%23par_id3154737.53.help.text
 msgid "Message received"
-msgstr ""
+msgstr "Հաղորդագրությունը ստացված է"
 
 #: 01040000.xhp%23par_id3150952.54.help.text
 msgid "...if a message was received."
-msgstr ""
+msgstr "...եթե հաղորդագրությունը ստացված է։"
 
 #: 01040000.xhp%23hd_id3153299.30.help.text
 msgid "Assigning a Macro to an Event"
-msgstr ""
+msgstr "Մակրոյի նշանակում իրադարձությանը"
 
 #: 01040000.xhp%23par_id3147244.31.help.text
 msgctxt "01040000.xhp#par_id3147244.31.help.text"
 msgid ""
 "Choose <emph>Tools - Customize</emph> and click the <emph>Events</emph> tab."
 msgstr ""
+"Ընտրեք <emph>Գործիքներ - Անհատականացրեք</emph> և բացեք "
+"<emph>Իրադարձություններ</emph> ներդիրը:"
 
 #: 01040000.xhp%23par_id3146098.55.help.text
 msgid ""
 "Select whether you want the assignment to be globally valid or just valid in "
 "the current document in the <emph>Save In</emph> listbox."
 msgstr ""
+"Ընտրեք, արդյոք ցանկանում եք, որ առաջադրանքը ամբողջությամբ վավեր լինի, թե "
+"պարզապես վավեր է ընթացիկ փաստաթղթում <emph>Հիշել այստեղ</emph> ցուցակային "
+"վանդակում:"
 
 #: 01040000.xhp%23par_id3150431.32.help.text
 msgid "Select the event from the <emph>Event</emph> list."
-msgstr ""
+msgstr "Ընտրեք իրադարձությունը <emph>Իրադարձություն</emph> ցուցակից:"
 
 #: 01040000.xhp%23par_id3148742.33.help.text
 msgid ""
 "Click <emph>Macro</emph> and select the macro to be assigned to the selected "
 "event."
 msgstr ""
+"Սեղմեք <emph>Մակրո</emph> և նշեք ընտրված իրադարձությանը նշանակվող մակրոն:"
 
 #: 01040000.xhp%23par_id3146321.35.help.text
 msgid "Click <emph>OK</emph> to assign the macro."
-msgstr ""
+msgstr "Սեղմեք <emph>ԼԱՎ</emph> նշանակելու համար մակրո։"
 
 #: 01040000.xhp%23par_id3147414.56.help.text
 msgctxt "01040000.xhp#par_id3147414.56.help.text"
 msgid "Click <emph>OK</emph> to close the dialog."
-msgstr ""
+msgstr "Սեղմեք <emph>ԼԱՎ</emph> երկխոսությունը փակելու համար։"
 
 #: 01040000.xhp%23hd_id3154581.36.help.text
 msgid "Removing the Assignment of a Macro to an Event"
-msgstr ""
+msgstr "Մակրոյի նշանակման հեռացումը Իրադարձություն։"
 
 #: 01040000.xhp%23par_id3146883.57.help.text
 msgctxt "01040000.xhp#par_id3146883.57.help.text"
 msgid ""
 "Choose <emph>Tools - Customize</emph> and click the <emph>Events</emph> tab."
 msgstr ""
+"Ընտրեք <emph>Գործիքներ - Անհատականացրեք</emph> և սեղմեք "
+"<emph>Իրադարձություններ</emph> ներդիրը:"
 
 #: 01040000.xhp%23par_id3155909.58.help.text
 msgid ""
@@ -1143,35 +1248,42 @@ msgid ""
 "is just valid in the current document by selecting the option in the <emph>"
 "Save In</emph> listbox."
 msgstr ""
+"Ընտրեք, արդյոք ցանկանում եք հեռացնել համընդգրկուն հանձնարարությունը կամ "
+"հանձնարարությունը, որը վավեր է ընթացիկ փաստաթղթում <emph>Հիշել այստեղ</emph> "
+"ցուցատուփից ընտրելով ընտրանքը:"
 
 #: 01040000.xhp%23par_id3159129.59.help.text
 msgid ""
 "Select the event that contains the assignment to be removed from the "
 "<emph>Event</emph> list."
 msgstr ""
+"Ընտրեք այն իրադարձությունը, որը պարունակում է հանձնարարություն, որը պետք է "
+"հեռացվի <emph>Իրադարձություն</emph> ցուցակից:"
 
 #: 01040000.xhp%23par_id3149143.37.help.text
 msgid "Click <emph>Remove</emph>."
-msgstr ""
+msgstr "Սեղմեք <emph>Հեռացնել</emph>."
 
 #: 01040000.xhp%23par_id3149351.60.help.text
 msgctxt "01040000.xhp#par_id3149351.60.help.text"
 msgid "Click <emph>OK</emph> to close the dialog."
-msgstr ""
+msgstr "Սեղմեք <emph>ԼԱՎ</emph> երկխոսությունը փակելու համար։"
 
 #: 03103500.xhp%23tit.help.text
 msgid "Static Statement [Runtime]"
-msgstr ""
+msgstr "Ստատիկ հայտարարություն [Runtime]"
 
 #: 03103500.xhp%23bm_id3149798.help.text
 msgid "<bookmark_value>Static statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Ստատիկ հայտարարություն</bookmark_value>"
 
 #: 03103500.xhp%23hd_id3149798.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03103500.xhp\" name=\"Static Statement "
 "[Runtime]\">Static Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03103500.xhp\" name=\"Static Statement "
+"[Runtime]\">Static Statement [Runtime]</link>"
 
 #: 03103500.xhp%23par_id3153311.2.help.text
 msgid ""
@@ -1180,151 +1292,167 @@ msgid ""
 "after exiting the subroutine or function. Dim statement conventions are also "
 "valid."
 msgstr ""
+"Հայտարարում է փոփոխականը կամ զանգվածը ենթածրագրի կամ գործառույթի շրջանակի "
+"ընթացակարգի մակարդակում, որպեսզի ենթծրագրից կամ գործառույթից դուրս գալուց "
+"հետո փոփոխականի կամ զանգվածի արժեքները պահպանվեն: Dim հայտարարության "
+"կոնվենցիաները նույնպես վավեր են:"
 
 #: 03103500.xhp%23par_id3147264.3.help.text
 msgid ""
 "The <emph>Static statement</emph> cannot be used to define variable arrays. "
 "Arrays must be specified according to a fixed size."
 msgstr ""
+"<emph>Ստատիկ հայտարարությունը</emph> հնարավոր չէ օգտագործել փոփոխական "
+"զանգվածները սահմանելու համար: Զանգվածները պետք է նշվեն ըստ հաստատուն չափի:"
 
 #: 03103500.xhp%23hd_id3149657.4.help.text
 msgctxt "03103500.xhp#hd_id3149657.4.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03103500.xhp%23par_id3150400.5.help.text
 msgid ""
 "Static VarName[(start To end)] [As VarType], VarName2[(start To end)] [As "
 "VarType], ..."
 msgstr ""
+"Static VarName[(start To end)] [As VarType], VarName2[(start To end)] [As "
+"VarType], ..."
 
 #: 03103500.xhp%23hd_id3148452.6.help.text
 msgctxt "03103500.xhp#hd_id3148452.6.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03103500.xhp%23par_id3156214.7.help.text
 msgid "Sub ExampleStatic"
-msgstr ""
+msgstr "Sub ExampleStatic"
 
 #: 03103500.xhp%23par_id1940061.help.text
 msgid "Dim iCount as Integer, iResult as Integer"
-msgstr ""
+msgstr "Dim iCount as Integer, iResult as Integer"
 
 #: 03103500.xhp%23par_id878627.help.text
 msgid "For iCount = 0 to 2"
-msgstr ""
+msgstr "For iCount = 0 to 2"
 
 #: 03103500.xhp%23par_id7914059.help.text
 msgid "iResult = InitVar()"
-msgstr ""
+msgstr "iResult = InitVar()"
 
 #: 03103500.xhp%23par_id299691.help.text
 msgctxt "03103500.xhp#par_id299691.help.text"
 msgid "Next iCount"
-msgstr ""
+msgstr "Next iCount"
 
 #: 03103500.xhp%23par_id3150870.11.help.text
 msgid "MsgBox iResult,0,\"The answer is\""
-msgstr ""
+msgstr "MsgBox iResult,0,\"Պատասխանն է\""
 
 #: 03103500.xhp%23par_id3153771.13.help.text
 msgctxt "03103500.xhp#par_id3153771.13.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03103500.xhp%23par_id3151115.15.help.text
 msgid "REM Function for initialization of the static variable"
-msgstr ""
+msgstr "REM Ստատիկ փոփոխականի սկզբնականացման գործառույթ"
 
 #: 03103500.xhp%23par_id3148618.16.help.text
 msgid "Function InitVar() As Integer"
-msgstr ""
+msgstr "Function InitVar() As Integer"
 
 #: 03103500.xhp%23par_id3154217.8.help.text
 msgid "Static iInit As Integer"
-msgstr ""
+msgstr "Static iInit As Integer"
 
 #: 03103500.xhp%23par_id1057161.help.text
 msgid ""
 "Const iMinimum as Integer = 40 REM minimum return value of this function"
 msgstr ""
+"Const iMinimum as Integer = 40 REM այս գործառույթի վերադարձի նվազագույն "
+"արժեքը"
 
 #: 03103500.xhp%23par_id580462.help.text
 msgid "if iInit = 0 then REM check if initialized"
-msgstr ""
+msgstr "if iInit = 0 then REM check if initialized"
 
 #: 03103500.xhp%23par_id7382732.help.text
 msgid "iInit = iMinimum"
-msgstr ""
+msgstr "iInit = iMinimum"
 
 #: 03103500.xhp%23par_id5779900.help.text
 msgid "else"
-msgstr ""
+msgstr "else"
 
 #: 03103500.xhp%23par_id3151041.10.help.text
 msgid "iInit = iInit + 1"
-msgstr ""
+msgstr "iInit = iInit + 1"
 
 #: 03103500.xhp%23par_id5754264.help.text
 msgctxt "03103500.xhp#par_id5754264.help.text"
 msgid "end if"
-msgstr ""
+msgstr "end if"
 
 #: 03103500.xhp%23par_id6529435.help.text
 msgid "InitVar = iInit"
-msgstr ""
+msgstr "InitVar = iInit"
 
 #: 03103500.xhp%23par_id3150487.18.help.text
 msgctxt "03103500.xhp#par_id3150487.18.help.text"
 msgid "End Function"
-msgstr ""
+msgstr "End Function"
 
 #: 03102600.xhp%23tit.help.text
 msgid "IsNull Function [Runtime]"
-msgstr ""
+msgstr "IsNull Function [Runtime]"
 
 #: 03102600.xhp%23bm_id3155555.help.text
 msgid ""
 "<bookmark_value>IsNull function</bookmark_value><bookmark_value>Null "
 "value</bookmark_value>"
 msgstr ""
+"<bookmark_value>IsNull function</bookmark_value><bookmark_value>Null "
+"value</bookmark_value>"
 
 #: 03102600.xhp%23hd_id3155555.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03102600.xhp\" name=\"IsNull Function "
 "[Runtime]\">IsNull Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03102600.xhp\" name=\"IsNull Function "
+"[Runtime]\">IsNull Function [Runtime]</link>"
 
 #: 03102600.xhp%23par_id3146957.2.help.text
 msgid ""
 "Tests if a Variant contains the special Null value, indicating that the "
 "variable does not contain data."
 msgstr ""
+"Փորձարկում է, արդյոք Variant -ը պարունակում է հատուկ Null արժեքը, նշելով, որ "
+"փոփոխականը չի պարունակում տվյալներ:"
 
 #: 03102600.xhp%23hd_id3150670.3.help.text
 msgctxt "03102600.xhp#hd_id3150670.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03102600.xhp%23par_id3150984.4.help.text
 msgid "IsNull (Var)"
-msgstr ""
+msgstr "IsNull (Var)"
 
 #: 03102600.xhp%23hd_id3149514.5.help.text
 msgctxt "03102600.xhp#hd_id3149514.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձի արժեք։"
 
 #: 03102600.xhp%23par_id3145609.6.help.text
 msgctxt "03102600.xhp#par_id3145609.6.help.text"
 msgid "Bool"
-msgstr ""
+msgstr "Bool"
 
 #: 03102600.xhp%23hd_id3149669.7.help.text
 msgctxt "03102600.xhp#hd_id3149669.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03102600.xhp%23par_id3159414.8.help.text
 msgid ""
@@ -1332,84 +1460,98 @@ msgid ""
 "True if the Variant contains the Null value, or False if the Variant does "
 "not contain the Null value."
 msgstr ""
+"<emph>Var:</emph> Ցանկացած փոփոխական, որը ցանկանում ես փորձարկել։ Այս "
+"գործառույթը վերադառնում է Ճիշտ, եթե Variant -ը պարունակում է Null արժեքը կամ "
+"Կեղծ, եթե Variant -ը չի պարունակում Null արժեքը:"
 
 #: 03102600.xhp%23par_idN1062A.help.text
 msgid ""
 "<emph>Null</emph> - This value is used for a variant data sub type without "
 "valid contents."
 msgstr ""
+"<emph>Null</emph> - Այս արժեքն օգտագործվում է տարբերակային տվյալների "
+"ենթատեսակի համար, առանց վավեր պարունակության:"
 
 #: 03102600.xhp%23hd_id3153381.9.help.text
 msgctxt "03102600.xhp#hd_id3153381.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03102600.xhp%23par_id3154140.10.help.text
 msgid "Sub ExampleIsNull"
-msgstr ""
+msgstr "Sub ExampleIsNull"
 
 #: 03102600.xhp%23par_id3145172.11.help.text
 msgid "Dim vVar As Variant"
-msgstr ""
+msgstr "Dim vVar As Variant"
 
 #: 03102600.xhp%23par_id3144760.12.help.text
 msgid "msgbox IsNull(vVar)"
-msgstr ""
+msgstr "msgbox IsNull(vVar)"
 
 #: 03102600.xhp%23par_id3153970.13.help.text
 msgctxt "03102600.xhp#par_id3153970.13.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03060300.xhp%23tit.help.text
 msgid "Imp-Operator [Runtime]"
-msgstr ""
+msgstr "Imp-Operator [Runtime]"
 
 #: 03060300.xhp%23bm_id3156024.help.text
 msgid "<bookmark_value>Imp operator (logical)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Imp operator (logical)</bookmark_value>"
 
 #: 03060300.xhp%23hd_id3156024.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03060300.xhp\" name=\"Imp-Operator [Runtime]"
 "\">Imp Operator [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03060300.xhp\" name=\"Imp-Operator [Runtime]"
+"\">Imp Operator [Runtime]</link>"
 
 #: 03060300.xhp%23par_id3148947.2.help.text
 msgid "Performs a logical implication on two expressions."
-msgstr ""
+msgstr "Երկու արտահայտությունների վրա իրականացնում է տրամաբանական առնչությունը։"
 
 #: 03060300.xhp%23hd_id3148664.3.help.text
 msgctxt "03060300.xhp#hd_id3148664.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03060300.xhp%23par_id3149656.4.help.text
 msgid "Result = Expression1 Imp Expression2"
-msgstr ""
+msgstr "Result = Expression1 Imp Expression2"
 
 #: 03060300.xhp%23hd_id3151212.5.help.text
 msgctxt "03060300.xhp#hd_id3151212.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03060300.xhp%23par_id3154910.6.help.text
 msgid ""
 "<emph>Result:</emph> Any numeric variable that contains the result of the "
 "implication."
 msgstr ""
+"<emph>Result:</emph> Ցանկացած թվային փոփոխական, որը պարունակում է հետևանքի "
+"արդյունքը:"
 
 #: 03060300.xhp%23par_id3156281.7.help.text
 msgid ""
 "<emph>Expression1, Expression2:</emph> Any expressions that you want to "
 "evaluate with the Imp operator."
 msgstr ""
+"<emph>Expression1, Expression2:</emph> Կամայական արտահայտություններ, որոնք "
+"ցանկանում եք գնահատել Imp օպերատորի օգնությմաբ։"
 
 #: 03060300.xhp%23par_id3150440.8.help.text
 msgid ""
 "If you use the Imp operator in Boolean expressions, False is only returned "
 "if the first expression evaluates to True and the second expression to False."
 msgstr ""
+"Եթե օգտագործում եք Imp օպերատորը Բուլյան արտահայտություններում, Կեղծը "
+"վերադարձվում է միայն այն դեպքում, երբ առաջին արտահայտությունը գնահատում է "
+"որպես Ճիշտ, իսկ երկրորդ արտահայտությունը՝ Կեղծ:"
 
 #: 03060300.xhp%23par_id3163710.9.help.text
 msgid ""
@@ -1417,71 +1559,78 @@ msgid ""
 "result if the corresponding bit is set in the first expression and the "
 "corresponding bit is deleted in the second expression."
 msgstr ""
+"Եթե բիթային արտահայտություններում օգտագործում եք Imp օպերատորը, ապա "
+"արդյունքից բիթը ջնջվում է, եթե համապատասխան բիթը տեղադրված է առաջին "
+"արտահայտության մեջ, և համապատասխան բիթը ջնջված է երկրորդ արտահայտությունում։"
 
 #: 03060300.xhp%23hd_id3147318.10.help.text
 msgctxt "03060300.xhp#hd_id3147318.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03060300.xhp%23par_id3155854.11.help.text
 msgid "Sub ExampleImp"
-msgstr ""
+msgstr "Sub ExampleImp"
 
 #: 03060300.xhp%23par_id3145272.12.help.text
 msgctxt "03060300.xhp#par_id3145272.12.help.text"
 msgid "Dim A as Variant, B as Variant, C as Variant, D as Variant"
-msgstr ""
+msgstr "Dim A as Variant, B as Variant, C as Variant, D as Variant"
 
 #: 03060300.xhp%23par_id3159156.13.help.text
 msgctxt "03060300.xhp#par_id3159156.13.help.text"
 msgid "Dim vOut as Variant"
-msgstr ""
+msgstr "Dim vOut as Variant"
 
 #: 03060300.xhp%23par_id3151116.14.help.text
 msgctxt "03060300.xhp#par_id3151116.14.help.text"
 msgid "A = 10: B = 8: C = 6: D = Null"
-msgstr ""
+msgstr "A = 10: B = 8: C = 6: D = Null"
 
 #: 03060300.xhp%23par_id3145750.15.help.text
 msgid "vOut = A > B Imp B > C REM returns -1"
-msgstr ""
+msgstr "vOut = A > B Imp B > C REM returns -1"
 
 #: 03060300.xhp%23par_id3156441.16.help.text
 msgid "vOut = B > A Imp B > C REM returns -1"
-msgstr ""
+msgstr "vOut = B > A Imp B > C REM returns -1"
 
 #: 03060300.xhp%23par_id3152596.17.help.text
 msgid "vOut = A > B Imp B > D REM returns 0"
-msgstr ""
+msgstr "vOut = A > B Imp B > D REM returns 0"
 
 #: 03060300.xhp%23par_id3154942.18.help.text
 msgid "vOut = (B > D Imp B > A) REM returns -1"
-msgstr ""
+msgstr "vOut = (B > D Imp B > A) REM returns -1"
 
 #: 03060300.xhp%23par_id3154492.19.help.text
 msgid "vOut = B Imp A REM returns -1"
-msgstr ""
+msgstr "vOut = B Imp A REM returns -1"
 
 #: 03060300.xhp%23par_id3147394.20.help.text
 msgctxt "03060300.xhp#par_id3147394.20.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03132200.xhp%23tit.help.text
 msgid "ThisComponent Statement [Runtime]"
-msgstr ""
+msgstr "ThisComponent Statement [Runtime]"
 
 #: 03132200.xhp%23bm_id3155342.help.text
 msgid ""
 "<bookmark_value>ThisComponent property</bookmark_value><bookmark_value>compon"
 "ents;addressing</bookmark_value>"
 msgstr ""
+"<bookmark_value>ThisComponent property</bookmark_value><bookmark_value>compon"
+"ents;addressing</bookmark_value>"
 
 #: 03132200.xhp%23hd_id3155342.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent [Runtime]"
 "\">ThisComponent [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent [Runtime]"
+"\">ThisComponent [Runtime]</link>"
 
 #: 03132200.xhp%23par_id3154923.2.help.text
 msgid ""
@@ -1490,349 +1639,372 @@ msgid ""
 "the Basic belongs to. The type of object accessed by ThisComponent depends "
 "on the document type."
 msgstr ""
+"Դիմում է ակտիվ բաղադրիչին, որպեսզի դրա հատկությունները հնարավոր լինի կարդալ "
+"և սահմանվել: ThisComponent օգտագործվում է Basic փաստաթղթից, որում այն "
+"ներկայացնում է այն փաստաթուղթը, որին պատկանում է Basic -ը: ThisComponent -ի "
+"կողմից հասանելի օբյեկտի տեսակը կախված է փաստաթղթի տեսակից:"
 
 #: 03132200.xhp%23hd_id3154346.3.help.text
 msgctxt "03132200.xhp#hd_id3154346.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03132200.xhp%23par_id3151056.4.help.text
 msgid "ThisComponent"
-msgstr ""
+msgstr "ThisComponent"
 
 #: 03132200.xhp%23hd_id3154940.5.help.text
 msgctxt "03132200.xhp#hd_id3154940.5.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03132200.xhp%23par_id3151211.6.help.text
 msgctxt "03132200.xhp#par_id3151211.6.help.text"
 msgid "Sub Main"
-msgstr ""
+msgstr "Sub Main"
 
 #: 03132200.xhp%23par_id3154123.7.help.text
 msgid " REM updates the \"Table of Contents\" in a text doc"
-msgstr ""
+msgstr " REM թարմացնում է \"Բովանդակության աղյուսակը\" տեքստային փաստաթղթում"
 
 #: 03132200.xhp%23par_id3151381.8.help.text
 msgid " Dim allindexes, index As Object"
-msgstr ""
+msgstr " Dim allindexes, index As Object"
 
 #: 03132200.xhp%23par_id3150769.9.help.text
 msgid " allindexes = ThisComponent.getDocumentIndexes()"
-msgstr ""
+msgstr " allindexes = ThisComponent.getDocumentIndexes()"
 
 #: 03132200.xhp%23par_id3153194.10.help.text
 msgid " index = allindexes.getByName(\"Table of Contents1\")"
-msgstr ""
+msgstr " index = allindexes.getByName(\"Table of Contents1\")"
 
 #: 03132200.xhp%23par_id3156422.11.help.text
 msgid " REM use the default name for Table of Contents and a 1"
-msgstr ""
+msgstr " REM օգտագործեք լռելյայն անունը բովանդակության աղյուսակի և 1 -ի համար"
 
 #: 03132200.xhp%23par_id3153368.12.help.text
 msgid " index.update()"
-msgstr ""
+msgstr " index.update()"
 
 #: 03132200.xhp%23par_id3161832.13.help.text
 msgctxt "03132200.xhp#par_id3161832.13.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03080202.xhp%23tit.help.text
 msgid "Log Function [Runtime]"
-msgstr ""
+msgstr "Log Function [Runtime]"
 
 #: 03080202.xhp%23bm_id3149416.help.text
 msgid "<bookmark_value>Log function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Log function</bookmark_value>"
 
 #: 03080202.xhp%23hd_id3149416.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03080202.xhp\" name=\"Log Function [Runtime]"
 "\">Log Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03080202.xhp\" name=\"Log Function [Runtime]"
+"\">Log Function [Runtime]</link>"
 
 #: 03080202.xhp%23par_id3145066.2.help.text
 msgid "Returns the natural logarithm of a number."
-msgstr ""
+msgstr "Վերադարձնում է թվի բնական լոգարիթմը։"
 
 #: 03080202.xhp%23hd_id3159414.3.help.text
 msgctxt "03080202.xhp#hd_id3159414.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03080202.xhp%23par_id3154760.4.help.text
 msgid "Log (Number)"
-msgstr ""
+msgstr "Log (թիվ)"
 
 #: 03080202.xhp%23hd_id3149457.5.help.text
 msgctxt "03080202.xhp#hd_id3149457.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք"
 
 #: 03080202.xhp%23par_id3150791.6.help.text
 msgctxt "03080202.xhp#par_id3150791.6.help.text"
 msgid "Double"
-msgstr ""
+msgstr "Կրկնապատկել"
 
 #: 03080202.xhp%23hd_id3151211.7.help.text
 msgctxt "03080202.xhp#hd_id3151211.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03080202.xhp%23par_id3151041.8.help.text
 msgid ""
 "<emph>Number:</emph> Any numeric expression that you want to calculate the "
 "natural logarithm for."
 msgstr ""
+"<emph>Number:</emph> Ցանկացած թվային արտահայտություն, որի համար ցանկանում եք "
+"հաշվարկել բնական լոգարիթմը:"
 
 #: 03080202.xhp%23par_id3150869.9.help.text
 msgid ""
 "The natural logarithm is the logarithm to the base e. Base e is a constant "
 "with an approximate value of 2.718282..."
 msgstr ""
+"Բնական լոգարիթմը դա e հիմքով լոգարիթմն է: e հիմքը հաստատուն է, հետևյալ "
+"մոտավոր արժեքով՝ 2.718282..."
 
 #: 03080202.xhp%23par_id3153968.10.help.text
 msgid ""
 "You can calculate logarithms to any base (n) for any number (x) by dividing "
 "the natural logarithm of x by the natural logarithm of n, as follows:"
 msgstr ""
+"Դուք կարող եք լոգարիթմները հաշվարկել ցանկացած (n) հիմքով, ցանկացած (x) թվի "
+"համար՝ բաժանելով x -ի բնական լոգարիթմը n- ի բնական լոգարիթմի վրա, հետևյալ "
+"կերպ."
 
 #: 03080202.xhp%23par_id3145420.11.help.text
 msgid "Log n(x) = Log(x) / Log(n)"
-msgstr ""
+msgstr "Log n(x) = Log(x) / Log(n)"
 
 #: 03080202.xhp%23hd_id3155131.12.help.text
 msgctxt "03080202.xhp#hd_id3155131.12.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03080202.xhp%23par_id3152463.13.help.text
 msgctxt "03080202.xhp#par_id3152463.13.help.text"
 msgid "Sub ExampleLogExp"
-msgstr ""
+msgstr "Sub ExampleLogExp"
 
 #: 03080202.xhp%23par_id3145750.14.help.text
 msgid "Dim a as Double"
-msgstr ""
+msgstr "Dim a as Double"
 
 #: 03080202.xhp%23par_id3151116.15.help.text
 msgid "Dim const b1=12.345e12"
-msgstr ""
+msgstr "Dim const b1=12.345e12"
 
 #: 03080202.xhp%23par_id3146985.16.help.text
 msgid "Dim const b2=1.345e34"
-msgstr ""
+msgstr "Dim const b2=1.345e34"
 
 #: 03080202.xhp%23par_id3148616.17.help.text
 msgid "a=Exp( Log(b1)+Log(b2) )"
-msgstr ""
+msgstr "a=Exp( Log(b1)+Log(b2) )"
 
 #: 03080202.xhp%23par_id3149262.18.help.text
 msgid ""
 "MsgBox \"\" & a & chr(13) & (b1*b2) ,0,\"Multiplication by logarithm "
 "function\""
 msgstr ""
+"MsgBox \"\" & a & chr(13) & (b1*b2) ,0,\"Multiplication by logarithm "
+"function\""
 
 #: 03080202.xhp%23par_id3155411.19.help.text
 msgctxt "03080202.xhp#par_id3155411.19.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03020303.xhp%23tit.help.text
 msgid "Lof Function [Runtime]"
-msgstr ""
+msgstr "Lof Function [Runtime]"
 
 #: 03020303.xhp%23bm_id3156024.help.text
 msgid "<bookmark_value>Lof function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Lof function</bookmark_value>"
 
 #: 03020303.xhp%23hd_id3156024.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020303.xhp\" name=\"Lof Function [Runtime]"
 "\">Lof Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03020303.xhp\" name=\"Lof Function [Runtime]"
+"\">Lof Function [Runtime]</link>"
 
 #: 03020303.xhp%23par_id3146794.2.help.text
 msgid "Returns the size of an open file in bytes."
-msgstr ""
+msgstr "Վերադարձնում է բացված նիշքի չափը բայթերով։"
 
 #: 03020303.xhp%23hd_id3153380.3.help.text
 msgctxt "03020303.xhp#hd_id3153380.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03020303.xhp%23par_id3150359.4.help.text
 msgid "Lof (FileNumber)"
-msgstr ""
+msgstr "Lof (FileNumber)"
 
 #: 03020303.xhp%23hd_id3154141.5.help.text
 msgctxt "03020303.xhp#hd_id3154141.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձի արժեք։"
 
 #: 03020303.xhp%23par_id3147230.6.help.text
 msgctxt "03020303.xhp#par_id3147230.6.help.text"
 msgid "Long"
-msgstr ""
+msgstr "Երկար"
 
 #: 03020303.xhp%23hd_id3156281.7.help.text
 msgctxt "03020303.xhp#hd_id3156281.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03020303.xhp%23par_id3150869.8.help.text
 msgid ""
 "<emph>FileNumber:</emph> Any numeric expression that contains the file "
 "number that is specified in the Open statement."
 msgstr ""
+"<emph>FileNumber:</emph> Ցանկացած թվային արտահայտություն, որը պարունակում է "
+"նիշքի համարը, որը նշված է Բացել հայտարարությունում:"
 
 #: 03020303.xhp%23par_id3147349.9.help.text
 msgid ""
 "To obtain the length of a file that is not open, use the <emph>FileLen</emph>"
 " function."
 msgstr ""
+"Չբացված նիշքի երկարությունը ստանալու համար օգտագործեք <emph>FileLen</emph> "
+"գործառույթը:"
 
 #: 03020303.xhp%23hd_id3155415.10.help.text
 msgctxt "03020303.xhp#hd_id3155415.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03020303.xhp%23par_id3151074.11.help.text
 msgctxt "03020303.xhp#par_id3151074.11.help.text"
 msgid "Sub ExampleRandomAccess"
-msgstr ""
+msgstr "Sub ExampleRandomAccess"
 
 #: 03020303.xhp%23par_id3145251.12.help.text
 msgctxt "03020303.xhp#par_id3145251.12.help.text"
 msgid "Dim iNumber As Integer"
-msgstr ""
+msgstr "Dim iNumber As Integer"
 
 #: 03020303.xhp%23par_id3154730.13.help.text
 msgid "Dim sText As Variant REM must be a Variant"
-msgstr ""
+msgstr "Dim sText As Variant REM must be a Variant"
 
 #: 03020303.xhp%23par_id3145646.14.help.text
 msgctxt "03020303.xhp#par_id3145646.14.help.text"
 msgid "Dim aFile As String"
-msgstr ""
+msgstr "Dim aFile As String"
 
 #: 03020303.xhp%23par_id3153157.15.help.text
 msgctxt "03020303.xhp#par_id3153157.15.help.text"
 msgid "aFile = \"c:\\data.txt\""
-msgstr ""
+msgstr "aFile = \"c:\\data.txt\""
 
 #: 03020303.xhp%23par_id3149403.17.help.text
 msgctxt "03020303.xhp#par_id3149403.17.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020303.xhp%23par_id3149121.18.help.text
 msgctxt "03020303.xhp#par_id3149121.18.help.text"
 msgid "Open aFile For Random As #iNumber Len=32"
-msgstr ""
+msgstr "Open aFile For Random As #iNumber Len=32"
 
 #: 03020303.xhp%23par_id3156276.19.help.text
 msgid "Seek #iNumber,1 REM Position at start"
-msgstr ""
+msgstr "Seek #iNumber,1 REM Դիրքը սկզբից"
 
 #: 03020303.xhp%23par_id3148405.20.help.text
 msgid "Put #iNumber,, \"This is the first line of text\" REM Fill with text"
-msgstr ""
+msgstr "Put #iNumber,, \"Սա տեքստի առաջին տողն է\" REM Նիշքը տեքստով"
 
 #: 03020303.xhp%23par_id3154756.21.help.text
 msgctxt "03020303.xhp#par_id3154756.21.help.text"
 msgid "Put #iNumber,, \"This is the second line of text\""
-msgstr ""
+msgstr "Put #iNumber,, \"Սա տեքստի երկրորդ տողն է\""
 
 #: 03020303.xhp%23par_id3145643.22.help.text
 msgctxt "03020303.xhp#par_id3145643.22.help.text"
 msgid "Put #iNumber,, \"This is the third line of text\""
-msgstr ""
+msgstr "Put #iNumber,, \"Սա տեքստի երրորդ տողն է\""
 
 #: 03020303.xhp%23par_id3156383.23.help.text
 msgctxt "03020303.xhp#par_id3156383.23.help.text"
 msgid "Seek #iNumber,2"
-msgstr ""
+msgstr "Seek #iNumber,2"
 
 #: 03020303.xhp%23par_id3155333.24.help.text
 msgctxt "03020303.xhp#par_id3155333.24.help.text"
 msgid "Get #iNumber,,sText"
-msgstr ""
+msgstr "Get #iNumber,,sText"
 
 #: 03020303.xhp%23par_id3149255.25.help.text
 msgctxt "03020303.xhp#par_id3149255.25.help.text"
 msgid "Print sText"
-msgstr ""
+msgstr "Print sText"
 
 #: 03020303.xhp%23par_id3154702.26.help.text
 msgctxt "03020303.xhp#par_id3154702.26.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020303.xhp%23par_id3153965.28.help.text
 msgctxt "03020303.xhp#par_id3153965.28.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020303.xhp%23par_id3163807.29.help.text
 msgctxt "03020303.xhp#par_id3163807.29.help.text"
 msgid "Open aFile For Random As #iNumber Len=32"
-msgstr ""
+msgstr "Open aFile For Random As #iNumber Len=32"
 
 #: 03020303.xhp%23par_id3155607.30.help.text
 msgctxt "03020303.xhp#par_id3155607.30.help.text"
 msgid "Get #iNumber,2,sText"
-msgstr ""
+msgstr "Get #iNumber,2,sText"
 
 #: 03020303.xhp%23par_id3150299.31.help.text
 msgid "Put #iNumber,,\"This is a new line of text\""
-msgstr ""
+msgstr "Put #iNumber,,\"Սա տեքստի նոր տողն է\""
 
 #: 03020303.xhp%23par_id3147002.32.help.text
 msgctxt "03020303.xhp#par_id3147002.32.help.text"
 msgid "Get #iNumber,1,sText"
-msgstr ""
+msgstr "Get #iNumber,1,sText"
 
 #: 03020303.xhp%23par_id3149036.33.help.text
 msgctxt "03020303.xhp#par_id3149036.33.help.text"
 msgid "Get #iNumber,2,sText"
-msgstr ""
+msgstr "Get #iNumber,2,sText"
 
 #: 03020303.xhp%23par_id3166425.34.help.text
 msgctxt "03020303.xhp#par_id3166425.34.help.text"
 msgid "Put #iNumber,20,\"This is the text in record 20\""
-msgstr ""
+msgstr "Put #iNumber,20,\"Սա տեքստ է 20 -րդ գրառման մեջ\""
 
 #: 03020303.xhp%23par_id3149817.35.help.text
 msgctxt "03020303.xhp#par_id3149817.35.help.text"
 msgid "Print Lof(#iNumber)"
-msgstr ""
+msgstr "Print Lof(#iNumber)"
 
 #: 03020303.xhp%23par_id3146811.36.help.text
 msgctxt "03020303.xhp#par_id3146811.36.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020303.xhp%23par_id3154200.38.help.text
 msgctxt "03020303.xhp#par_id3154200.38.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03030205.xhp%23tit.help.text
 msgid "TimeSerial Function [Runtime]"
-msgstr ""
+msgstr "TimeSerial Function [Runtime]"
 
 #: 03030205.xhp%23bm_id3143271.help.text
 msgid "<bookmark_value>TimeSerial function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TimeSerial function</bookmark_value>"
 
 #: 03030205.xhp%23hd_id3143271.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03030205.xhp\" name=\"TimeSerial Function "
 "[Runtime]\">TimeSerial Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03030205.xhp\" name=\"TimeSerial Function "
+"[Runtime]\">TimeSerial Function [Runtime]</link>"
 
 #: 03030205.xhp%23par_id3156344.2.help.text
 msgid ""
@@ -1840,36 +2012,41 @@ msgid ""
 "parameters that are passed as numeric value. You can then use this value to "
 "calculate the difference between times."
 msgstr ""
+"Հաշվում է շարունակական ժամանակային արժեքը նշված ժամի, րոպեի և երկրորդ "
+"պարամետրերի համար, որոնք փոխանցվում են որպես թվային արժեք: Դրանից հետո կարող "
+"եք օգտագործել այս արժեքը `ժամերի միջև տարբերությունը հաշվարկելու համար:"
 
 #: 03030205.xhp%23hd_id3146794.4.help.text
 msgctxt "03030205.xhp#hd_id3146794.4.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03030205.xhp%23par_id3150792.5.help.text
 msgid "TimeSerial (hour, minute, second)"
-msgstr ""
+msgstr "TimeSerial (ժամ, րոպե, վայրկյան)"
 
 #: 03030205.xhp%23hd_id3148797.6.help.text
 msgctxt "03030205.xhp#hd_id3148797.6.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձի արժեք։"
 
 #: 03030205.xhp%23par_id3154908.7.help.text
 msgctxt "03030205.xhp#par_id3154908.7.help.text"
 msgid "Date"
-msgstr ""
+msgstr "Ամսաթիվ"
 
 #: 03030205.xhp%23hd_id3154124.8.help.text
 msgctxt "03030205.xhp#hd_id3154124.8.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03030205.xhp%23par_id3153193.9.help.text
 msgid ""
 "<emph>hour:</emph> Any integer expression that indicates the hour of the "
 "time that is used to determine the serial time value. Valid values: 0-23."
 msgstr ""
+"<emph>hour:</emph> Ցանկացած ամբողջ արտահայտություն, որը ցույց է տալիս "
+"շարունակական ժամանակի արժեքը որոշելիս օգտագործվող ժամը: Վավեր արժեքներ՝ 0-23:"
 
 #: 03030205.xhp%23par_id3159252.10.help.text
 msgid ""
@@ -1878,6 +2055,11 @@ msgid ""
 "between 0 and 59. However, you can also use values that lie outside of this "
 "range, where the number of minutes influence the hour value."
 msgstr ""
+"<emph>minute:</emph> Ցանկացած ամբողջական արտահայտություն, որը ցույց է տալիս "
+"այն ժամանակի րոպեն, որն օգտագործվում է շարունակական ժամանակի արժեքը որոշելու "
+"համար: Ընդհանուր առմամբ, օգտագործեք արժեքները 0-ից 59-ի սահմաններում: "
+"Այնուամենայնիվ, դուք կարող եք նաև օգտագործել այս արժեքի սահմաններից դուրս "
+"գտնվող արժեքներ, երբ րոպեների քանակը ազդում է ժամի արժեքի վրա:"
 
 #: 03030205.xhp%23par_id3161831.11.help.text
 msgid ""
@@ -1886,32 +2068,41 @@ msgid ""
 "use values between 0 and 59. However, you can also use values that lie "
 "outside of this range, where the number seconds influences the minute value."
 msgstr ""
+"<emph>second:</emph> Ցանկացած ամբողջական արտահայտություն, որը ցույց է տալիս "
+"ժամանակի վայրկյանը, որն օգտագործվում է շարունակական ժամանակի արժեքը որոշելու "
+"համար: Ընդհանուր առմամբ, դուք կարող եք օգտագործել արժեքներ 0-ից 59-ի "
+"սահմաններում: Այնուամենայնիվ, դուք կարող եք օգտագործել նաև արժեքներ, որոնք "
+"ընկած են այս տիրույթի սահմաններից դուրս, երբ վայրկյանները ազդում են րոպեի "
+"արժեքի վրա:"
 
 #: 03030205.xhp%23par_id3155854.12.help.text
 msgid "<emph>Examples:</emph>"
-msgstr ""
+msgstr "<emph>Օրինակներ:</emph>"
 
 #: 03030205.xhp%23par_id3153952.13.help.text
 msgid "12, -5, 45 corresponds to 11, 55, 45"
-msgstr ""
+msgstr "12, -5, 45 համապատասխանում է 11, 55, 45"
 
 #: 03030205.xhp%23par_id3147349.14.help.text
 msgid "12, 61, 45 corresponds to 13, 2, 45"
-msgstr ""
+msgstr "12, 61, 45 համապատասխանում է 13, 2, 45"
 
 #: 03030205.xhp%23par_id3147426.15.help.text
 msgid "12, 20, -2 corresponds to 12, 19, 58"
-msgstr ""
+msgstr "12, 20, -2 համապատասխանում է 12, 19, 58"
 
 #: 03030205.xhp%23par_id3153365.16.help.text
 msgid "12, 20, 63 corresponds to 12, 21, 4"
-msgstr ""
+msgstr "12, 20, 63 համապատասխանում է 12, 21, 4"
 
 #: 03030205.xhp%23par_id3146985.17.help.text
 msgid ""
 "You can use the TimeSerial function to convert any time into a single value "
 "that you can use to calculate time differences."
 msgstr ""
+"Կարող եք օգտագործել TimeSerial գործառույթը, ցանկացած ժամ վերածելու մեկ "
+"արժեքի, որը կարող եք օգտագործել ժամանակային տարբերությունները հաշվարկելու "
+"համար:"
 
 #: 03030205.xhp%23par_id3155308.18.help.text
 msgid ""
@@ -1922,6 +2113,12 @@ msgid ""
 "calculate with values returned by the TimeSerial function, but you cannot "
 "evaluate them."
 msgstr ""
+"TimeSerial գործառույթը վերադարձնում է Variant -ի տեսակը VarType 7-ով "
+"(Ամսաթիվ): Այս արժեքը պահվում է ներսում որպես երկակի ճշգրտության թիվ 0 և "
+"0.9999999999 միջև: Ի տարբերություն DateSerial կամ DateValue ֆունկցիայի, "
+"որտեղ շարունակական ամսաթվերի արժեքները հաշվարկվում են որպես օրեր, որոշված "
+"ամսաթվին համեմատ, կարող եք հաշվարկել TimeSerial գործառույթով վերադարձված "
+"արժեքներով, բայց դուք չեք կարող դրանք գնահատել:"
 
 #: 03030205.xhp%23par_id3149482.19.help.text
 msgid ""
@@ -1929,75 +2126,83 @@ msgid ""
 "the time. For the TimeSerial function, however, you can pass the individual "
 "parameters (hour, minute, second) as separate numeric expressions."
 msgstr ""
+"TimeValue գործառույթում կարող եք փոխանցել տողը, որպես ժամը պարունակող "
+"պարամետր: TimeSerial գործառույթի համար, այնուամենայնիվ, կարող եք փոխանցել "
+"անհատական պարամետրերը (ժամ, րոպե, վայրկյան), որպես առանձին թվային "
+"արտահայտություններ:"
 
 #: 03030205.xhp%23hd_id3154790.20.help.text
 msgctxt "03030205.xhp#hd_id3154790.20.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03030205.xhp%23par_id3145252.21.help.text
 msgid "Sub ExampleTimeSerial"
-msgstr ""
+msgstr "Sub ExampleTimeSerial"
 
 #: 03030205.xhp%23par_id3153157.22.help.text
 msgid "Dim dDate As Double, sDate As String"
-msgstr ""
+msgstr "Dim dDate As Double, sDate As String"
 
 #: 03030205.xhp%23par_id3156286.23.help.text
 msgid "dDate = TimeSerial(8,30,15)"
-msgstr ""
+msgstr "dDate = TimeSerial(8,30,15)"
 
 #: 03030205.xhp%23par_id3148456.24.help.text
 msgid "sDate = TimeSerial(8,30,15)"
-msgstr ""
+msgstr "sDate = TimeSerial(8,30,15)"
 
 #: 03030205.xhp%23par_id3155600.25.help.text
 msgid "MsgBox dDate,64,\"Time as a number\""
-msgstr ""
+msgstr "MsgBox dDate,64,\"Ժամը որպես թիվ\""
 
 #: 03030205.xhp%23par_id3153417.26.help.text
 msgid "MsgBox sDate,64,\"Formatted time\""
-msgstr ""
+msgstr "MsgBox sDate,64,\"Ձևավորված ժամանակ\""
 
 #: 03030205.xhp%23par_id3153836.27.help.text
 msgctxt "03030205.xhp#par_id3153836.27.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03101120.xhp%23tit.help.text
 msgid "DefErr Statement [Runtime]"
-msgstr ""
+msgstr "DefErr Statement [Runtime]"
 
 #: 03101120.xhp%23bm_id8177739.help.text
 msgid "<bookmark_value>DefErr statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DefErr statement</bookmark_value>"
 
 #: 03101120.xhp%23par_idN1057D.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03101120.xhp\">DefErr Statement "
 "[Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03101120.xhp\">DefErr Statement "
+"[Runtime]</link>"
 
 #: 03101120.xhp%23par_idN1058D.help.text
 msgid ""
 "If no type-declaration character or keyword is specified, the DefErr "
 "statement sets the default variable type, according to a letter range."
 msgstr ""
+"Եթե տեսակի հայտարարագրման որևէ նիշ կամ հիմնաբառ չի նշվում, DefErr "
+"հայտարարությունը սահմանում է լռելյայն փոփոխականի տեսակը ըստ տառի միջակայքի:"
 
 #: 03101120.xhp%23par_idN10590.help.text
 msgctxt "03101120.xhp#par_idN10590.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03101120.xhp%23par_idN10594.help.text
 msgctxt "03101120.xhp#par_idN10594.help.text"
 msgid "Defxxx Characterrange1[, Characterrange2[,...]]"
-msgstr ""
+msgstr "Defxxx Characterrange1[, Characterrange2[,...]]"
 
 #: 03101120.xhp%23par_idN10597.help.text
 msgctxt "03101120.xhp#par_idN10597.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03101120.xhp%23par_idN1059B.help.text
 msgctxt "03101120.xhp#par_idN1059B.help.text"
@@ -2005,102 +2210,109 @@ msgid ""
 "<emph>Characterrange:</emph> Letters that specify the range of variables "
 "that you want to set a default data type for."
 msgstr ""
+"<emph>Characterrange:</emph> Տառեր, որոնք նշում են այն փոփոխականների "
+"շրջանակը, որոնց համար ցանկանում եք տեղադրել նախնական տվյալների տեսակը:"
 
 #: 03101120.xhp%23par_idN105A2.help.text
 msgctxt "03101120.xhp#par_idN105A2.help.text"
 msgid "<emph>xxx:</emph> Keyword that defines the default variable type:"
 msgstr ""
+"<emph>xxx:</emph> Բանալի բառ, որը սահմանում է լռելյայն փոփոխականի տեսակը․"
 
 #: 03101120.xhp%23par_idN105A9.help.text
 msgctxt "03101120.xhp#par_idN105A9.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr ""
+msgstr "<emph>Keyword:</emph> Լռելյայն փոփոխականի տեսակ"
 
 #: 03101120.xhp%23par_idN105B0.help.text
 msgid "<emph>DefErr:</emph> Error"
-msgstr ""
+msgstr "<emph>DefErr:</emph> Սխալ"
 
 #: 03101120.xhp%23par_idN105B7.help.text
 msgctxt "03101120.xhp#par_idN105B7.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03101120.xhp%23par_idN105BB.help.text
 msgctxt "03101120.xhp#par_idN105BB.help.text"
 msgid "REM Prefix definitions for variable types:"
-msgstr ""
+msgstr "REM Նախածանցի սահմանումները փոփոխական տեսակների համար․"
 
 #: 03101120.xhp%23par_idN105BE.help.text
 msgctxt "03101120.xhp#par_idN105BE.help.text"
 msgid "DefBool b"
-msgstr ""
+msgstr "DefBool b"
 
 #: 03101120.xhp%23par_idN105C1.help.text
 msgctxt "03101120.xhp#par_idN105C1.help.text"
 msgid "DefDate t"
-msgstr ""
+msgstr "DefDate t"
 
 #: 03101120.xhp%23par_idN105C4.help.text
 msgctxt "03101120.xhp#par_idN105C4.help.text"
 msgid "DefDbL d"
-msgstr ""
+msgstr "DefDbL d"
 
 #: 03101120.xhp%23par_idN105C7.help.text
 msgctxt "03101120.xhp#par_idN105C7.help.text"
 msgid "DefInt i"
-msgstr ""
+msgstr "DefInt i"
 
 #: 03101120.xhp%23par_idN105CA.help.text
 msgctxt "03101120.xhp#par_idN105CA.help.text"
 msgid "DefLng l"
-msgstr ""
+msgstr "DefLng l"
 
 #: 03101120.xhp%23par_idN105CD.help.text
 msgctxt "03101120.xhp#par_idN105CD.help.text"
 msgid "DefObj o"
-msgstr ""
+msgstr "DefObj o"
 
 #: 03101120.xhp%23par_idN105D0.help.text
 msgctxt "03101120.xhp#par_idN105D0.help.text"
 msgid "DefVar v"
-msgstr ""
+msgstr "DefVar v"
 
 #: 03101120.xhp%23par_idN105D3.help.text
 msgid "DefErr e"
-msgstr ""
+msgstr "DefErr e"
 
 #: 03101120.xhp%23par_idN105D6.help.text
 msgid "Sub ExampleDefErr"
-msgstr ""
+msgstr "Sub ExampleDefErr"
 
 #: 03101120.xhp%23par_idN105D9.help.text
 msgid "eErr=Error REM eErr is an implicit error variable"
-msgstr ""
+msgstr "eErr=Error REM eErr is an implicit error variable"
 
 #: 03101120.xhp%23par_idN105DC.help.text
 msgctxt "03101120.xhp#par_idN105DC.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03132300.xhp%23tit.help.text
 msgid "CreateUnoValue Function [Runtime]"
-msgstr ""
+msgstr "CreateUnoValue Function [Runtime]"
 
 #: 03132300.xhp%23bm_id3150682.help.text
 msgid "<bookmark_value>CreateUnoValue function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CreateUnoValue function</bookmark_value>"
 
 #: 03132300.xhp%23hd_id3150682.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03132300.xhp\" name=\"CreateUnoValue "
 "Function [Runtime]\">CreateUnoValue Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03132300.xhp\" name=\"CreateUnoValue "
+"Function [Runtime]\">CreateUnoValue Function [Runtime]</link>"
 
 #: 03132300.xhp%23par_id3147291.2.help.text
 msgid ""
 "Returns an object that represents a strictly typed value referring to the "
 "Uno type system. "
 msgstr ""
+"Վերադարձնում է օբյեկտը, որը ներկայացնում է խիստ մուտքագրված արժեք, որը "
+"վերաբերում է Uno տիպի համակարգին:"
 
 #: 03132300.xhp%23par_id3143267.3.help.text
 msgid ""
@@ -2108,6 +2320,9 @@ msgid ""
 "when passed to Uno. The type must be specified by its fully qualified Uno "
 "type name."
 msgstr ""
+"Այս օբյեկտը ավտոմատ կերպով վերածվում է համապատասխան տիպի որևէ մեկի, երբ "
+"անցնում է Uno -ին: Տեսակը պետք է նշվի իր լիովին որակավորված Uno տեսակի "
+"անունով:"
 
 #: 03132300.xhp%23par_id3153626.4.help.text
 msgid ""
