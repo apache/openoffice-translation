@@ -6,8 +6,8 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-01-28 19:43+0000\n"
-"Last-Translator: Mechtilde <mechtilde@apache.org>\n"
+"PO-Revision-Date: 2019-12-06 14:17+0000\n"
+"Last-Translator: Mechtilde Stehmann <mechtilde@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -15,9 +15,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.5.1.3\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1548704624.000000\n"
+"X-POOTLE-MTIME: 1575641859.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -2488,11 +2488,11 @@ msgid ""
 "reference A and applying the dimensions, shape and size, of reference R.  "
 "Does not accept constant values as reference parameters."
 msgstr ""
-"Se Referência A for omitida, calcula a média dos valores de células no "
-"intervalo de referência R que cumpram o Critério C. Se Referência A for "
-"definido, calcula a média dos valores de células num intervalo construído "
+" Se a referência A for omitida, calcula a média dos valores de células no "
+"intervalo de referência R que cumpram o Critério C. Se a referência A for "
+"definida, calcula a média dos valores de células num intervalo construído "
 "usando a célula superior esquerda de Referência A e aplicando as dimensões, "
-"forma e tamanho de Referência R. Não aceita valores constantes como "
+"forma e tamanho da referência R. Não aceita valores constantes como "
 "parâmetros de referência."
 
 #: 04060184.xhp%23par_id3145139K1.help.text
@@ -5005,7 +5005,6 @@ msgstr ""
 "desta página."
 
 #: 04060107.xhp%23hd_id3156162.17.help.text
-#, fuzzy
 msgctxt "04060107.xhp#hd_id3156162.17.help.text"
 msgid "Example"
 msgstr "Exemplo"
@@ -7704,6 +7703,10 @@ msgid ""
 "type to be shown in the data source.</ahelp> You can choose from four source "
 "types: \"Table\", \"Query\" and \"SQL\" or SQL (Native)."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_OBJTYPE\">Seleccione o tipo de "
+"origem a ser apresentado na origem dos dados.</ahelp> É possível escolher "
+"entre quatro tipos de origem: \"Tabela\", \"Consulta\", \"SQL\" ou \"SQL "
+"(Nativo)\"."
 
 #: 12090101.xhp%23hd_id3145364.7.help.text
 msgid "Data source"
@@ -10855,6 +10858,8 @@ msgid ""
 "<variable id=\"logischtext\">This category contains the <emph>Logical</emph> "
 "functions.</variable>"
 msgstr ""
+"<variable id=\"logischtext\">Esta categoria contém as funções "
+"<emph>Lógicas</emph>. </variable>"
 
 #: 04060105.xhp%23bm_id3147505.help.text
 msgid "<bookmark_value>AND function</bookmark_value>"
@@ -11292,6 +11297,9 @@ msgid ""
 "if the result of this addition is 1;FALSE is returned if the result of this "
 "addition is 0."
 msgstr ""
+"<emph>Valor1; Valor2 ...Valor30</emph> são adicionados em modulo 2. É "
+"devolvido VERDADEIRO se o resultado desta adição for 1; é devolvido FALSO se "
+"o resultado desta adição for 0."
 
 #: 04060105.xhp%23hd_id3153228K.help.text
 msgctxt "04060105.xhp#hd_id3153228K.help.text"
@@ -11303,13 +11311,14 @@ msgid ""
 "<item type=\"input\">=XOR(12<11;13>22;10)</item> returns TRUE since this "
 "converts to (1+0+10) mod 2 = 0"
 msgstr ""
+"<item type=\"input\">=XOU(12<11;13>22;10)</item> devolve VERDADEIRO dado que "
+"é convertido para (1+0+10) mod 2 = 0"
 
 #: 04060105.xhp%23par_id3158412K.help.text
-#, fuzzy
 msgid "<item type=\"input\">=XOR(FALSE;TRUE)</item> returns TRUE."
 msgstr ""
-"            <item type=\"input\">=OU.EXCLUSIVO(FALSO;VERDADEIRO)</item> "
-"devolve VERDADEIRO."
+"<item type=\"input\">=OU.EXCLUSIVO(FALSO;VERDADEIRO)</item> devolve "
+"VERDADEIRO."
 
 #: 12030200.xhp%23tit.help.text
 msgctxt "12030200.xhp#tit.help.text"
@@ -14267,15 +14276,15 @@ msgstr "Por exemplo, considere a seguinte tabela:"
 
 #: 12080500.xhp%23par_id3154123.11.help.text
 msgid "January"
-msgstr "janeiro"
+msgstr "Janeiro"
 
 #: 12080500.xhp%23par_id3154011.12.help.text
 msgid "February"
-msgstr "fevereiro"
+msgstr "Fevereiro"
 
 #: 12080500.xhp%23par_id3152460.13.help.text
 msgid "March"
-msgstr "março"
+msgstr "Março"
 
 #: 12080500.xhp%23par_id3146119.14.help.text
 msgid "1st Quarter"
@@ -14283,15 +14292,15 @@ msgstr "1º Trimestre"
 
 #: 12080500.xhp%23par_id3155854.15.help.text
 msgid "April"
-msgstr "abril"
+msgstr "Abril"
 
 #: 12080500.xhp%23par_id3148575.16.help.text
 msgid "May"
-msgstr "maio"
+msgstr "Maio"
 
 #: 12080500.xhp%23par_id3145271.17.help.text
 msgid "June"
-msgstr "junho"
+msgstr "Junho"
 
 #: 12080500.xhp%23par_id3145648.18.help.text
 msgid "2nd Quarter"
@@ -20038,8 +20047,8 @@ msgid ""
 "on. "
 msgstr ""
 "Soma o valor de células no intervalo R que cumprem o critério C1 no "
-"intervalo de referência R1 e o critério C2 no intervalo de referência R2 e "
-"assim por diante."
+"intervalo de referência R1 e o critério C2 no intervalo de referência R2, e "
+"assim por diante. "
 
 #: 04060106.xhp%23par_id3152062K.help.text
 msgid ""
@@ -30433,7 +30442,7 @@ msgid ""
 "xhp\">NETWORKDAYS</link></variable>"
 msgstr ""
 "<variable id=\"networkdays\"><link href=\"text/scalc/01/func_networkdays."
-"xhp\\\">DIAS.TRABALHO.TOTAL</link></variable>"
+"xhp\">DIAS.TRABALHO.TOTAL</link></variable>"
 
 #: func_networkdays.xhp%23par_id3153788.241.help.text
 msgid ""
@@ -32033,6 +32042,9 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_TYP\">Returns the type of value, where 1 = number, 2 = "
 "text, 4 = Boolean value, 8 = formula, 16 = error value, 64 = array.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TYP\">Devolve o tipo de valor, onde 1 = número, 2 = "
+"texto, 4 = valor Booleano, 8 = fórmula, 16 = valor errado, 64 = "
+"matriz.</ahelp>"
 
 #: 04060104.xhp%23hd_id3149992.138.help.text
 msgctxt "04060104.xhp#hd_id3149992.138.help.text"
@@ -32047,6 +32059,8 @@ msgstr "TIPO(Valor)"
 msgid ""
 "<emph>Value</emph> is a specific value for which the data type is determined."
 msgstr ""
+"<emph>Valor</emph> é um valor específico para o qual é determinado o tipo de "
+"dados."
 
 #: 04060104.xhp%23hd_id3154363.141.help.text
 msgid "Example (see example table above)"
@@ -34402,8 +34416,7 @@ msgstr "1"
 #: 04060109.xhp%23par_id3154380.190.help.text
 msgid "Data are always interpreted in the standard format for US English"
 msgstr ""
-"Os dados são sempre interpretados segundo o formato padrão para inglês "
-"americano."
+"Os dados são sempre interpretados segundo o formato padrão para Inglês EUA"
 
 #: 04060109.xhp%23par_id3150279.191.help.text
 msgctxt "04060109.xhp#par_id3150279.191.help.text"
@@ -41079,8 +41092,8 @@ msgid ""
 "What is the nominal interest per year for an effective interest rate of 13.5%"
 " if twelve payments are made per year."
 msgstr ""
-"Qual é o juro nominal por ano de uma taxa de juro efetiva de 13,5% se forem "
-"efetuados doze pagamentos por ano?"
+"Calcula qual é o juro nominal por ano de uma taxa de juro efetiva de 13,5% "
+"se forem efetuados doze pagamentos por ano."
 
 #: 04060119.xhp%23par_id3154831.319.help.text
 msgid ""
