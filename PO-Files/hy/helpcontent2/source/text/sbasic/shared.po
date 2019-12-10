@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-12-08 18:17+0000\n"
+"PO-Revision-Date: 2019-12-09 18:56+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1575829052.000000\n"
+"X-POOTLE-MTIME: 1575917782.000000\n"
 
 #: 03020203.xhp%23tit.help.text
 msgid "Line Input # Statement [Runtime]"
@@ -7786,44 +7786,55 @@ msgid ""
 "Aligns a string to the left of a string variable, or copies a variable of a "
 "user-defined type to another variable of a different user-defined type."
 msgstr ""
+"Հավասարեցնում է տողը ըստ տողի փոփոխականի ձախի, կամ պատճենում է օգտագործողի "
+"կողմից սահմանված տիպի փոփոխականը մեկ այլ փոփոխականի ՝ օգտագործողի կողմից "
+"սահմանված այլ տիպի:"
 
 #: 03120304.xhp%23hd_id3145317.3.help.text
 msgctxt "03120304.xhp#hd_id3145317.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03120304.xhp%23par_id3150984.4.help.text
 msgid "LSet Var As String = Text or LSet Var1 = Var2"
-msgstr ""
+msgstr "LSet Var As String = Text or LSet Var1 = Var2"
 
 #: 03120304.xhp%23hd_id3143271.5.help.text
 msgctxt "03120304.xhp#hd_id3143271.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր։"
 
 #: 03120304.xhp%23par_id3145610.6.help.text
 msgid ""
 "<emph>Var:</emph> Any String variable that contains the string that you want "
 "align to the left."
 msgstr ""
+"<emph>Var:</emph> Ցանկացած տողային փոփոխական, որը պարունակում է տողը, որը "
+"ցանկանում եք հավասարեցնել դեպի ձախ:"
 
 #: 03120304.xhp%23par_id3154346.7.help.text
 msgid ""
 "<emph>Text:</emph> String that you want to align to the left of the string "
 "variable."
 msgstr ""
+"<emph>Տեքստ:</emph> Տող, որը ցանկանում ես հավասարեցնել ըստ տողի փոփոխականի "
+"ձախի։"
 
 #: 03120304.xhp%23par_id3151054.8.help.text
 msgid ""
 "<emph>Var1:</emph> Name of the user-defined type variable that you want to "
 "copy to."
 msgstr ""
+"<emph>Var1:</emph> Օգտագործողի կողմից սահմանված փոփոխականի տիպի անվանումը, "
+"որը ցանկանում եք պատճենել:"
 
 #: 03120304.xhp%23par_id3153361.9.help.text
 msgid ""
 "<emph>Var2:</emph> Name of the user-defined type variable that you want to "
 "copy from."
 msgstr ""
+"<emph>Var2:</emph> Օգտագործողի կողմից սահմանված փոփոխականի տիպի անվանումը, "
+"որից ուզում եք պատճենել:"
 
 #: 03120304.xhp%23par_id3154686.10.help.text
 msgid ""
@@ -7834,143 +7845,153 @@ msgid ""
 "variable are copied. With the <emph>LSet</emph> statement, you can also copy "
 "a user-defined type variable to another variable of the same type."
 msgstr ""
+"Եթե տողը տողային փոփոխականից կարճ է, <emph>LSet</emph> ձախ հավասարեցնում է "
+"տողը տողային փոփոխականի ներսում։ Տողային փոփոխականի ցանկացած մնացած դիրքերը "
+"փոխարինվում են բացատներով: Եթե տողը ավելի երկար է քան տողային փոփոխականը, "
+"ապա պատճենվում են միայն տողային փոփոխականի երկարության մեծությամբ ձախագույն "
+"նիշերը: <emph>LSet</emph> հայտարարությամբ դուք կարող եք նաև պատճենել օգտվողի "
+"կողմից սահմանված փոփոխականի տիպը, նույն տեսակի մեկ այլ փոփոխականում:"
 
 #: 03120304.xhp%23hd_id3156282.11.help.text
 msgctxt "03120304.xhp#hd_id3156282.11.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ։"
 
 #: 03120304.xhp%23par_id3153193.12.help.text
 msgctxt "03120304.xhp#par_id3153193.12.help.text"
 msgid "Sub ExampleRLSet"
-msgstr ""
+msgstr "Sub ExampleRLSet"
 
 #: 03120304.xhp%23par_id3150768.13.help.text
 msgctxt "03120304.xhp#par_id3150768.13.help.text"
 msgid "Dim sVar As String"
-msgstr ""
+msgstr "Dim sVar As String"
 
 #: 03120304.xhp%23par_id3150447.14.help.text
 msgid "Dim sExpr As String"
-msgstr ""
+msgstr "Dim sExpr As String"
 
 #: 03120304.xhp%23par_id3149561.16.help.text
 msgctxt "03120304.xhp#par_id3149561.16.help.text"
 msgid "sVar = String(40,\"*\")"
-msgstr ""
+msgstr "sVar = String(40,\"*\")"
 
 #: 03120304.xhp%23par_id3153768.17.help.text
 msgctxt "03120304.xhp#par_id3153768.17.help.text"
 msgid "sExpr = \"SBX\""
-msgstr ""
+msgstr "sExpr = \"SBX\""
 
 #: 03120304.xhp%23par_id3152940.18.help.text
 msgid "REM Align \"SBX\" within the 40-character reference string"
-msgstr ""
+msgstr "REM Հավասարեցրեք \"SBX\" -ը 40 նիշանոց հղման տողի շրջանակներում"
 
 #: 03120304.xhp%23par_id3148647.19.help.text
 msgctxt "03120304.xhp#par_id3148647.19.help.text"
 msgid "REM Replace asterisks with spaces"
-msgstr ""
+msgstr "REM Աստղանիշները փոխարինեք բացատներով"
 
 #: 03120304.xhp%23par_id3146119.20.help.text
 msgctxt "03120304.xhp#par_id3146119.20.help.text"
 msgid "RSet sVar = sExpr"
-msgstr ""
+msgstr "RSet sVar = sExpr"
 
 #: 03120304.xhp%23par_id3153365.21.help.text
 msgctxt "03120304.xhp#par_id3153365.21.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120304.xhp%23par_id3149260.23.help.text
 msgctxt "03120304.xhp#par_id3149260.23.help.text"
 msgid "sVar = String(5,\"*\")"
-msgstr ""
+msgstr "sVar = String(5,\"*\")"
 
 #: 03120304.xhp%23par_id3147436.24.help.text
 msgctxt "03120304.xhp#par_id3147436.24.help.text"
 msgid "sExpr = \"123457896\""
-msgstr ""
+msgstr "sExpr = \"123457896\""
 
 #: 03120304.xhp%23par_id3146923.25.help.text
 msgctxt "03120304.xhp#par_id3146923.25.help.text"
 msgid "RSet sVar = sExpr"
-msgstr ""
+msgstr "RSet sVar = sExpr"
 
 #: 03120304.xhp%23par_id3151114.26.help.text
 msgctxt "03120304.xhp#par_id3151114.26.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120304.xhp%23par_id3155855.28.help.text
 msgctxt "03120304.xhp#par_id3155855.28.help.text"
 msgid "sVar = String(40,\"*\")"
-msgstr ""
+msgstr "sVar = String(40,\"*\")"
 
 #: 03120304.xhp%23par_id3145253.29.help.text
 msgctxt "03120304.xhp#par_id3145253.29.help.text"
 msgid "sExpr = \"SBX\""
-msgstr ""
+msgstr "sExpr = \"SBX\""
 
 #: 03120304.xhp%23par_id3151075.30.help.text
 msgid "REM Left-align \"SBX\" within the 40-character reference string"
-msgstr ""
+msgstr "REM Ձախ հավասարեցված \"SBX\" -ը 40 նիշանոց հղման տողում"
 
 #: 03120304.xhp%23par_id3147126.31.help.text
 msgctxt "03120304.xhp#par_id3147126.31.help.text"
 msgid "LSet sVar = sExpr"
-msgstr ""
+msgstr "LSet sVar = sExpr"
 
 #: 03120304.xhp%23par_id3154792.32.help.text
 msgctxt "03120304.xhp#par_id3154792.32.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120304.xhp%23par_id3154942.34.help.text
 msgctxt "03120304.xhp#par_id3154942.34.help.text"
 msgid "sVar = String(5,\"*\")"
-msgstr ""
+msgstr "sVar = String(5,\"*\")"
 
 #: 03120304.xhp%23par_id3155603.35.help.text
 msgctxt "03120304.xhp#par_id3155603.35.help.text"
 msgid "sExpr = \"123456789\""
-msgstr ""
+msgstr "sExpr = \"123456789\""
 
 #: 03120304.xhp%23par_id3150716.36.help.text
 msgctxt "03120304.xhp#par_id3150716.36.help.text"
 msgid "LSet sVar = sExpr"
-msgstr ""
+msgstr "LSet sVar = sExpr"
 
 #: 03120304.xhp%23par_id3146969.37.help.text
 msgctxt "03120304.xhp#par_id3146969.37.help.text"
 msgid "Print \">\"; sVar; \"<\""
-msgstr ""
+msgstr "Print \">\"; sVar; \"<\""
 
 #: 03120304.xhp%23par_id3150749.38.help.text
 msgctxt "03120304.xhp#par_id3150749.38.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03080102.xhp%23tit.help.text
 msgid "Cos Function [Runtime]"
-msgstr ""
+msgstr "Cos Function [Runtime]"
 
 #: 03080102.xhp%23bm_id3154923.help.text
 msgid "<bookmark_value>Cos function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Cos գործառույթ</bookmark_value>"
 
 #: 03080102.xhp%23hd_id3154923.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03080102.xhp\" name=\"Cos Function [Runtime]"
 "\">Cos Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03080102.xhp\" name=\"Cos գործառույթ "
+"[Runtime]\">Cos գործառույթ [Runtime]</link>"
 
 #: 03080102.xhp%23par_id3159413.2.help.text
 msgid ""
 "Calculates the cosine of an angle. The angle is specified in radians. The "
 "result lies between -1 and 1."
 msgstr ""
+"Հաշվում է անկյան կոսինուսը։ Անկյունը սահմանված է ռադիաններով։ Արդյունքը "
+"ընկած է -1 և 1 միջակայքում։."
 
 #: 03080102.xhp%23par_id3150358.3.help.text
 msgid ""
@@ -7978,133 +7999,151 @@ msgid ""
 "of the side that is adjacent to the angle, divided by the length of the "
 "hypotenuse in a right-angled triangle."
 msgstr ""
+"Օգտագործելով Ալֆա անկյունը, Cos գործառույթը հաշվարկում է անկյունին հարող "
+"կողմի երկարության հարաբերակցությունը, որը բաժանվում է աջ անկյունային "
+"եռանկյունու մեջ գտնվող հիպոթենուսի երկարությամբ:"
 
 #: 03080102.xhp%23par_id3154141.4.help.text
 msgid "Cos(Alpha) = Adjacent/Hypotenuse"
-msgstr ""
+msgstr "Cos(Alpha) = Adjacent/Hypotenuse"
 
 #: 03080102.xhp%23hd_id3154125.5.help.text
 msgctxt "03080102.xhp#hd_id3154125.5.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03080102.xhp%23par_id3145172.6.help.text
 msgid "Cos (Number)"
-msgstr ""
+msgstr "Cos (թիվ)"
 
 #: 03080102.xhp%23hd_id3156214.7.help.text
 msgctxt "03080102.xhp#hd_id3156214.7.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք"
 
 #: 03080102.xhp%23par_id3150449.8.help.text
 msgctxt "03080102.xhp#par_id3150449.8.help.text"
 msgid "Double"
-msgstr ""
+msgstr "Կրկնապատկել"
 
 #: 03080102.xhp%23hd_id3153969.9.help.text
 msgctxt "03080102.xhp#hd_id3153969.9.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր։"
 
 #: 03080102.xhp%23par_id3153770.10.help.text
 msgid ""
 "<emph>Number:</emph> Numeric expression that specifies an angle in radians "
 "that you want to calculate the cosine for."
 msgstr ""
+"<emph>Թիվ:</emph> Թվային արտահայտություն, որը բնութագրում է անկյունը "
+"ռադիաններով, որի համար ուզում եք հաշվարկել կոսինուսը:"
 
 #: 03080102.xhp%23par_id3145749.11.help.text
 msgid ""
 "To convert degrees to radians, multiply degrees by pi/180. To convert "
 "radians to degrees, multiply radians by 180/pi."
 msgstr ""
+"Աստիճանները ռադիանների վերափոխելու համար բազմապատկեք աստիճանը pi/180 -ով: "
+"Ռադիանները աստիճանների վերածելու համար բազմապատկեք ռադիանները 180/p i-ով:"
 
 #: 03080102.xhp%23par_id3149664.12.help.text
 msgctxt "03080102.xhp#par_id3149664.12.help.text"
 msgid "degree=(radian*180)/pi"
-msgstr ""
+msgstr "աստիճանը=(ռադիան*180)/pi"
 
 #: 03080102.xhp%23par_id3146985.13.help.text
 msgctxt "03080102.xhp#par_id3146985.13.help.text"
 msgid "radian=(degree*pi)/180"
-msgstr ""
+msgstr "ռադիանը=(աստիճան*pi)/180"
 
 #: 03080102.xhp%23par_id3152885.14.help.text
 msgid "Pi is here the fixed circle constant with the rounded value 3.14159..."
-msgstr ""
+msgstr "Pi -ն հաստատուն է, կլորացված արժեքով 3.14159 ..."
 
 #: 03080102.xhp%23hd_id3153951.15.help.text
 msgctxt "03080102.xhp#hd_id3153951.15.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ։"
 
 #: 03080102.xhp%23par_id3155855.16.help.text
 msgid ""
 "REM The following example allows for a right-angled triangle the input of"
 msgstr ""
+"REM Հետևյալ օրինակը հնարավորություն է տալիս աջ ուղղանկյուն եռանկյան համար "
+"մուտքագրել"
 
 #: 03080102.xhp%23par_id3149484.17.help.text
 msgid ""
 "REM secant and angle (in degrees) and calculates the length of the "
 "hypotenuse:"
 msgstr ""
+"REM սեկանտ և անկյուն (աստիճաններով) և հաշվում է հիպոտենուսի երկարությունը․"
 
 #: 03080102.xhp%23par_id3147428.18.help.text
 msgid "Sub ExampleCosinus"
-msgstr ""
+msgstr "Sub ExampleCosinus"
 
 #: 03080102.xhp%23par_id3150010.19.help.text
 msgid "REM rounded Pi = 3.14159"
-msgstr ""
+msgstr "REM rounded Pi = 3.14159"
 
 #: 03080102.xhp%23par_id3149959.20.help.text
 msgid "Dim d1 as Double, dAngle as Double"
-msgstr ""
+msgstr "Dim d1 as Double, dAngle as Double"
 
 #: 03080102.xhp%23par_id3144764.21.help.text
 msgid ""
 "d1 = InputBox$ (\"\"Enter the length of the adjacent side: \",\"Adjacent\")"
 msgstr ""
+"d1 = InputBox$ (\"\"Enter the length of the adjacent side: \",\"Adjacent\")"
 
 #: 03080102.xhp%23par_id3154491.22.help.text
 msgid "dAngle = InputBox$ (\"Enter the angle Alpha (in degrees): \",\"Alpha\")"
 msgstr ""
+"dAngle = InputBox$ (\"Մուտք արեք ալֆա անկյունը (աստիճաններով): \",\"Alpha\")"
 
 #: 03080102.xhp%23par_id3151074.23.help.text
 msgid ""
 "Print \"The length of the hypothenuse is\"; (d1 / cos (dAngle * Pi / 180))"
-msgstr ""
+msgstr "Print \"Հիպոտենուսի երկարությունն է\"; (d1 / cos (dAngle * Pi / 180))"
 
 #: 03080102.xhp%23par_id3149583.24.help.text
 msgctxt "03080102.xhp#par_id3149583.24.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03030300.xhp%23tit.help.text
 msgid "System Date and Time"
-msgstr ""
+msgstr "Համակարգային ամսաթիվ և ժամ"
 
 #: 03030300.xhp%23hd_id3154923.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03030300.xhp\" name=\"System Date and Time\">"
 "System Date and Time</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03030300.xhp\" name=\"Համակարգային ամսաթիվ և "
+"ժամ\">Համակարգային ամսաթիվ և ժամ</link>"
 
 #: 03030300.xhp%23par_id3149457.2.help.text
 msgid ""
 "The following functions and statements set or return the system date and "
 "time."
 msgstr ""
+"Հետևյալ գործառույթներն ու հայտարարությունները սահմանում կամ վերադարձնում են "
+"համակարգի ամսաթիվը և ժամը:"
 
 #: 03050500.xhp%23tit.help.text
 msgid "On Error GoTo ... Resume Statement [Runtime]"
-msgstr ""
+msgstr "On Error GoTo ... Resume Statement [Runtime]"
 
 #: 03050500.xhp%23bm_id3146795.help.text
 msgid ""
 "<bookmark_value>Resume Next parameter</bookmark_value><bookmark_value>On "
 "Error GoTo ... Resume statement</bookmark_value>"
 msgstr ""
+"<bookmark_value>Resume Next parameter</bookmark_value><bookmark_value>On "
+"Error GoTo ... Resume statement</bookmark_value>"
 
 #: 03050500.xhp%23hd_id3146795.1.help.text
 msgid ""
@@ -8112,43 +8151,52 @@ msgid ""
 "Resume Statement [Runtime]\">On Error GoTo ... Resume Statement "
 "[Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03050500.xhp\" name=\"On Error GoTo ... "
+"Resume Statement [Runtime]\">On Error GoTo ... Resume Statement "
+"[Runtime]</link>"
 
 #: 03050500.xhp%23par_id3150358.2.help.text
 msgid ""
 "Enables an error-handling routine after an error occurs, or resumes program "
 "execution."
 msgstr ""
+"Սխալի հանդիպումից հետո միացնում է սխալների մշակման ենթածրագիրը, կամ "
+"վերսկսվում է ծրագրի կատարումը:"
 
 #: 03050500.xhp%23hd_id3151212.3.help.text
 msgctxt "03050500.xhp#hd_id3151212.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03050500.xhp%23par_id3145173.4.help.text
 msgid "On {[Local] Error GoTo Labelname | GoTo 0 | Resume Next}"
-msgstr ""
+msgstr "On {[Local] Error GoTo Labelname | GoTo 0 | Resume Next}"
 
 #: 03050500.xhp%23hd_id3154125.5.help.text
 msgctxt "03050500.xhp#hd_id3154125.5.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր։"
 
 #: 03050500.xhp%23par_id3150869.7.help.text
 msgid ""
 "<emph>GoTo Labelname:</emph> If an error occurs, enables the error-handling "
 "routine that starts at the line \"Labelname\"."
 msgstr ""
+"<emph>GoTo Labelname:</emph> Եթե սխալ է առաջացել, միանում է սխալի մշակման "
+"ենթածրագիրը, որը սկսվում է \"Labelname\" տողից։"
 
 #: 03050500.xhp%23par_id3150439.8.help.text
 msgid ""
 "<emph>Resume Next:</emph> If an error occurs, program execution continues "
 "with the statement that follows the statement in which the error occurred."
 msgstr ""
+"<emph>Resume Next:</emph> Եթե սխալ է առաջացել, ծրագրի կատարումը շարունակվում "
+"է այն հայտարարությամբ, որը հետևում է հրահանգին, որում տեղի է ունեցել սխալը:"
 
 #: 03050500.xhp%23par_id3149482.9.help.text
 msgid ""
 "<emph>GoTo 0:</emph> Disables the error handler in the current procedure."
-msgstr ""
+msgstr "<emph>GoTo 0:</emph> Անջատում է սխալի մշակումը ընթացիկ ընթացակարգում:"
 
 #: 03050500.xhp%23par_id3149483.9.help.text
 msgid ""
@@ -8159,6 +8207,13 @@ msgid ""
 "handling is canceled automatically, and any previous global setting is "
 "restored."
 msgstr ""
+"<emph>Local:</emph> \"On error\" բովանդակությամբ համընդգրկուն է, և "
+"շարունակում է ակտիվ մնալ այնքան ժամանակ, մինչև չեղյալ հայտարարվի մեկ այլ \""
+"On Local error\" հայտարարությամբ: \"On Local error\" -ը տեղային է այն "
+"ենթածրագրին, որը կանչում է իրեն: Տեղային սխալների գործածումը վերացնում է "
+"նախորդ գլոբալ կարգավորումը: Երբ կանչվող ենթածրագիրը դուրս է գալիս, տեղային "
+"սխալի բեռնումը ինքնաբերաբար վերացվում է, և ցանկացած նախորդ գլոբալ "
+"կարգաբերում վերականգնվում է:"
 
 #: 03050500.xhp%23par_id3148619.10.help.text
 msgid ""
