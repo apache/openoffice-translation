@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsmath%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:15+0200\n"
-"PO-Revision-Date: 2019-12-07 17:02+0000\n"
+"PO-Revision-Date: 2019-12-10 00:32+0000\n"
 "Last-Translator: Pedro Lino <pedro.lino@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1575738138.000000\n"
+"X-POOTLE-MTIME: 1575937934.000000\n"
 
 #: 05050000.xhp%23tit.help.text
 msgid "Text Mode"
@@ -554,7 +554,7 @@ msgstr ""
 
 #: 03090400.xhp%23par_id3149320.19.help.text
 msgid "nth Root"
-msgstr "Raiz n"
+msgstr "Raiz grau n"
 
 #: 03090400.xhp%23par_id3155578.42.help.text
 msgid ""
@@ -1877,7 +1877,7 @@ msgid ""
 "a}over{b+c}</emph>"
 msgstr ""
 "alinhar números e denominadores como, por exemplo, <emph>{alignl "
-"a}over{b+c}</emph>,"
+"a}over{b+c}</emph>"
 
 #: 03090700.xhp%23par_id3148812.50.help.text
 msgid ""
@@ -1885,7 +1885,7 @@ msgid ""
 "k}</emph>"
 msgstr ""
 "construir binómios ou pilhas, como por exemplo <emph>binom{2*n}{alignr "
-"k}</emph>,"
+"k}</emph>"
 
 #: 03090700.xhp%23par_id3154360.51.help.text
 msgid ""
@@ -7384,7 +7384,6 @@ msgstr ""
 "{}</emph> em vez de <emph>underline Q</emph>."
 
 #: 06020000.xhp%23tit.help.text
-#, fuzzy
 msgid "Import formula"
 msgstr "Importar fórmula"
 
@@ -7395,11 +7394,11 @@ msgstr ""
 
 #: 06020000.xhp%23bm_id3154660.help.text
 msgid "<bookmark_value>MathML; import from file</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>MathML; importar de ficheiro</bookmark_value>"
 
 #: 06020000.xhp%23hd_id3154659.help.text
 msgid "Import Formula from File"
-msgstr ""
+msgstr "Importar Fõrmula de Ficheiro"
 
 #: 06020000.xhp%23par_id3150251.help.text
 msgid ""
@@ -7407,6 +7406,9 @@ msgid ""
 "visibility=\"visible\">This command opens a dialog for importing a "
 "formula.</ahelp></variable>"
 msgstr ""
+"<variable id=\"formelimportierentext\"><ahelp hid=\".uno:ImportFormula\" "
+"visibility=\"visible\">Este comando abre uma caixa de diálogo para importar "
+"uma fórmula.</ahelp></variable>"
 
 #: 06020000.xhp%23par_id3153916.help.text
 msgid ""
@@ -7431,18 +7433,27 @@ msgid ""
 "the language MathML see its <link href=\"http://www.w3.org/TR/#tr_MathML\""
 ">specification</link>."
 msgstr ""
+"Também pode importar arquivos MathML criados por outras aplicações. O "
+"ficheiro MathML deve conter um elemento <item type=\"code\">matemático</item>"
+" com um atributo <item type=\"code\">xmlns</item> com o valor \""
+"http://www.w3.org/1998/Math/MathML\". As línguas MathML e StarMath não são "
+"totalmente compatíveis, portanto, deve rever o resultado da importação. Para "
+"obter detalhes sobre a linguagem MathML veja a sua <link href=\""
+"http://www.w3.org/TR/#tr_MathML\"> especificação</link>."
 
 #: 06020000.xhp%23bm_id3154661.help.text
 msgid "<bookmark_value>MathML; import via clipboard</bookmark_value>"
 msgstr ""
+"<bookmark_value>MathML; importação através da Área de "
+"transferência</bookmark_value>"
 
 #: 06020000.xhp%23bm_id3154662.help.text
 msgid "<bookmark_value>importing; MathML</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>importação; MathML</bookmark_value>"
 
 #: 06020000.xhp%23hd_id3154661.help.text
 msgid "Import MathML from Clipboard"
-msgstr ""
+msgstr "Importar MathML da Área de transferência"
 
 #: 06020000.xhp%23par_id3150252.help.text
 msgid ""
@@ -7451,10 +7462,14 @@ msgid ""
 "MathML clipboard content to StarMath and inserts it at the current cursor "
 "position.</ahelp></variable>"
 msgstr ""
+"<variable id=\"mathmlimportierentext\"><ahelp hid=\".uno:"
+"ImportMathMLClipboard\" visibility=\"visible\">Este comando transforma o "
+"conteúdo da Área de transferência MathML para StarMath e insere-o na posição "
+"actual do cursor.</ahelp></variable>"
 
 #: 06020000.xhp%23par_id3153918.help.text
 msgid "If the transformation fails, nothing is inserted."
-msgstr ""
+msgstr "Se a transformação falhar, nada será inserido."
 
 #: 06020000.xhp%23par_id3153919.help.text
 msgid ""
@@ -7462,6 +7477,10 @@ msgid ""
 "Math formula to clipboard, insert it using the command <link href=\"text/"
 "shared/01/02060000.xhp\" name=\"Paste\">Paste</link> under <emph>Edit</emph>."
 msgstr ""
+"Este comando lida apenas com conteúdo MathML. Se copiou uma fórmula de "
+"Matemática %PRODUCTNAME para Área de transferência, insira-a usando o "
+"comando <link href=\"text/shared/01/02060000.xhp\" name=\"Paste\""
+">Colar</link> do menu <emph>Editar.</emph>"
 
 #: 03091507.xhp%23tit.help.text
 msgid "Others"
@@ -10181,7 +10200,7 @@ msgstr ""
 
 #: 03091504.xhp%23par_id3165402.22.help.text
 msgid "n-th root of x"
-msgstr "Raiz n de x"
+msgstr "Raiz grau n de x"
 
 #: 03091504.xhp%23par_id3151502.help.text
 msgid ""
@@ -10238,7 +10257,7 @@ msgstr ""
 
 #: 03091504.xhp%23par_id3151476.132.help.text
 msgid "n-th power of x"
-msgstr "Potência n de x"
+msgstr "Potência grau n de x"
 
 #: 03091504.xhp%23par_id3151796.help.text
 msgid ""
