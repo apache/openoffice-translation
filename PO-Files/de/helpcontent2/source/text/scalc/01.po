@@ -6,8 +6,8 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2019-10-15 00:21+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2019-12-13 12:19+0000\n"
+"Last-Translator: Mechtilde Stehmann <mechtilde@apache.org>\n"
 "Language-Team: LANGUAGE <dev-de@openoffice.apache.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1571098879.000000\n"
+"X-POOTLE-MTIME: 1576239549.000000\n"
 
 #: 12030000.xhp%23tit.help.text
 msgctxt "12030000.xhp#tit.help.text"
@@ -2642,7 +2642,7 @@ msgid ""
 "located in Sheet1."
 msgstr ""
 "<item type=\"input\">=ZELLE(\"FILENAME\";D2)</item> GIBT "
-"'Datei:///X:/dr/own.sxc'#$Tabelle1 zurück, wenn die Formel im aktuellen "
+"'file:///X:/dr/own.sxc'#$Tabelle1 zurück, wenn die Formel im aktuellen "
 "Dokument X:\\dr\\own.sxc in Tabelle1 enthalten ist."
 
 #: 04060104.xhp%23par_id3155144.181.help.text
@@ -10664,10 +10664,10 @@ msgstr ""
 "Calc unterstützt inline Matrizen/Vektoren in Formeln. Eine inline Matrix "
 "wird in geschwungenen Klammern '{' und '}' eingeschlossen. Elemente können "
 "entweder eine Zahl (einschließlich negativer), eine logische Konstante ("
-"WAHR, FALSCH), oder eine Zeichenkette sein. Variable Ausdrucke sind nicht "
-"erlaubt . Matrizen können eine oder mehrere Zeilen und eine oder mehrere "
+"WAHR, FALSCH), oder eine Zeichenkette sein. Variable Ausdrücke sind nicht "
+"erlaubt. Matrizen können eine oder mehrere Zeilen und eine oder mehrere "
 "Spalten enthalten. Alle Zeilen müssen dieselbe Anzahl von Elementen "
-"enthalten, alle Spalten dieselbe Anzahl von Elementen. "
+"enthalten, alle Spalten müssen ebenfalls dieselbe Anzahl von Elementen haben."
 
 #: 04060107.xhp%23par_id936613.help.text
 msgid ""
@@ -10925,7 +10925,7 @@ msgstr "1"
 #: 04060107.xhp%23par_idN10D86.help.text
 msgctxt "04060107.xhp#par_idN10D86.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\"}"
+msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\")}"
 
 #: 04060107.xhp%23par_idN10D8C.help.text
 msgctxt "04060107.xhp#par_idN10D8C.help.text"
@@ -10945,7 +10945,7 @@ msgstr "0"
 #: 04060107.xhp%23par_idN10DA1.help.text
 msgctxt "04060107.xhp#par_idN10DA1.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\"}"
+msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\")}  "
 
 #: 04060107.xhp%23par_idN10DA7.help.text
 msgid "no"
@@ -10964,7 +10964,7 @@ msgstr "1"
 #: 04060107.xhp%23par_idN10DBC.help.text
 msgctxt "04060107.xhp#par_idN10DBC.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\"}"
+msgstr "{=WENN(A1:A3>0;\"ja\";\"nein\")}  "
 
 #: 04060107.xhp%23par_idN10DC2.help.text
 msgctxt "04060107.xhp#par_idN10DC2.help.text"
