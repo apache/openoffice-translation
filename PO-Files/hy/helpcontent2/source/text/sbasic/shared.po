@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-12-17 18:17+0000\n"
+"PO-Revision-Date: 2019-12-24 12:47+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1576606629.000000\n"
+"X-POOTLE-MTIME: 1577191638.000000\n"
 
 #: 03020203.xhp%23tit.help.text
 msgid "Line Input # Statement [Runtime]"
@@ -10924,10 +10924,12 @@ msgid ""
 "If you rest the mouse over a predefined variable in the Editor at run-time, "
 "the content of the variable is displayed in a pop-up box."
 msgstr ""
+"Եթե Խմբագրիչում գործառնական ժամանակում մկնիկը պահեք նախանշված փոփոխականի "
+"վրա, փոփոխականի բովանդակությունը ցուցադրվում է բացվող պատուհանում:"
 
 #: 01030300.xhp%23hd_id3148618.20.help.text
 msgid "The Call Stack Window"
-msgstr ""
+msgstr "The Call Stack Window"
 
 #: 01030300.xhp%23par_id3154491.21.help.text
 msgid ""
@@ -10936,52 +10938,58 @@ msgid ""
 "procedures and functions called which other procedures and functions at the "
 "current point in the source code."
 msgstr ""
+"<ahelp hid=\"HID_BASICIDE_STACKWINDOW_LIST\">Տրամադրում է ընթացակարգերի և "
+"գործառույթների կանչի աստիճանակարգված ակնարկը:</ahelp> Դուք կարող եք որոշել, "
+"թե որ ընթացակարգերն ու գործառույթներն են կանչված, սկզբնական կոդի ներկայիս "
+"կետում այլ ընթացակարգերի և գործառույթների հետ:"
 
 #: 01030300.xhp%23hd_id3150594.24.help.text
 msgid "List of Run-Time Errors"
-msgstr ""
+msgstr "Կատարման ընթացքի սխալների ցուցակ"
 
 #: 03020408.xhp%23tit.help.text
 msgid "FileLen-Function [Runtime]"
-msgstr ""
+msgstr "FileLen-Function [Runtime]"
 
 #: 03020408.xhp%23bm_id3153126.help.text
 msgid "<bookmark_value>FileLen function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FileLen function</bookmark_value>"
 
 #: 03020408.xhp%23hd_id3153126.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020408.xhp\" name=\"FileLen-Function "
 "[Runtime]\">FileLen Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03020408.xhp\" name=\"FileLen-Function "
+"[Runtime]\">FileLen Function [Runtime]</link>"
 
 #: 03020408.xhp%23par_id3145068.2.help.text
 msgid "Returns the length of a file in bytes."
-msgstr ""
+msgstr "Վերադարձնում է նիշքի երկարությունը բայթերով:"
 
 #: 03020408.xhp%23hd_id3159414.3.help.text
 msgctxt "03020408.xhp#hd_id3159414.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03020408.xhp%23par_id3149656.4.help.text
 msgid "FileLen (Text As String)"
-msgstr ""
+msgstr "FileLen (Text As String)"
 
 #: 03020408.xhp%23hd_id3148798.5.help.text
 msgctxt "03020408.xhp#hd_id3148798.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03020408.xhp%23par_id3156282.6.help.text
 msgctxt "03020408.xhp#par_id3156282.6.help.text"
 msgid "Long"
-msgstr ""
+msgstr "Երկար"
 
 #: 03020408.xhp%23hd_id3150768.7.help.text
 msgctxt "03020408.xhp#hd_id3150768.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03020408.xhp%23par_id3153193.8.help.text
 msgctxt "03020408.xhp#par_id3153193.8.help.text"
@@ -10990,6 +10998,10 @@ msgid ""
 "specification. You can also use <link href=\"text/sbasic/shared/00000002."
 "xhp\" name=\"URL notation\">URL notation</link>."
 msgstr ""
+"<emph>Տեքստ:</emph> Ցանկացած տողային արտահայտություն, որը պարունակում է "
+"միանշանակ նիշքի բնութագրում: Կարող եք նաև օգտագործել <link href=\""
+"text/sbasic/shared/00000002.xhp\" name=\"URL նշանագրություն\">URL "
+"նշանագրություն</link>."
 
 #: 03020408.xhp%23par_id3150439.9.help.text
 msgid ""
@@ -10997,66 +11009,72 @@ msgid ""
 "called for an open file, it returns the file length before it was opened. To "
 "determine the current file length of an open file, use the Lof function."
 msgstr ""
+"Այս գործառույթը որոշում է նիշքի երկարությունը: Եթե FileLen գործառույթը "
+"կանչված է բաց նիշքի համար, այն վերադարձնում է նիշքի երկարությունը նախքան այն "
+"բացելը: Բաց նիշքի ընթացիկ երկարությունը որոշելու համար օգտագործեք Lof "
+"գործառույթը:"
 
 #: 03020408.xhp%23hd_id3163710.10.help.text
 msgctxt "03020408.xhp#hd_id3163710.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03020408.xhp%23par_id3159154.11.help.text
 msgid "Sub ExampleFileLen"
-msgstr ""
+msgstr "Sub ExampleFileLen"
 
 #: 03020408.xhp%23par_id3145271.12.help.text
 msgid "msgbox FileLen(\"C:\\autoexec.bat\")"
-msgstr ""
+msgstr "msgbox FileLen(\"C:\\autoexec.bat\")"
 
 #: 03020408.xhp%23par_id3145749.13.help.text
 msgctxt "03020408.xhp#par_id3145749.13.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03100500.xhp%23tit.help.text
 msgid "CInt Function [Runtime]"
-msgstr ""
+msgstr "CInt Function [Runtime]"
 
 #: 03100500.xhp%23bm_id3149346.help.text
 msgid "<bookmark_value>CInt function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CInt function</bookmark_value>"
 
 #: 03100500.xhp%23hd_id3149346.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03100500.xhp\" name=\"CInt Function [Runtime]"
 "\">CInt Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03100500.xhp\" name=\"CInt Function [Runtime]"
+"\">CInt Function [Runtime]</link>"
 
 #: 03100500.xhp%23par_id3155419.2.help.text
 msgid "Converts any string or numeric expression to an integer."
-msgstr ""
+msgstr "Ցանկացած տողը կամ թվային արտահայտությունը վերածում է ամբողջ թվի:"
 
 #: 03100500.xhp%23hd_id3147573.3.help.text
 msgctxt "03100500.xhp#hd_id3147573.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03100500.xhp%23par_id3154142.4.help.text
 msgid "CInt (Expression)"
-msgstr ""
+msgstr "CInt (Expression)"
 
 #: 03100500.xhp%23hd_id3147531.5.help.text
 msgctxt "03100500.xhp#hd_id3147531.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արտահայտություն։"
 
 #: 03100500.xhp%23par_id3147560.6.help.text
 msgctxt "03100500.xhp#par_id3147560.6.help.text"
 msgid "Integer"
-msgstr ""
+msgstr "Ամբողջ թիվ"
 
 #: 03100500.xhp%23hd_id3145069.7.help.text
 msgctxt "03100500.xhp#hd_id3145069.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03100500.xhp%23par_id3159414.8.help.text
 msgid ""
@@ -11066,6 +11084,12 @@ msgid ""
 "expression, the number must be entered as normal text (\"123.5\") using the "
 "default number format of your operating system."
 msgstr ""
+"<emph>Արտահայտություն:</emph> Ցանկացած թվային արտահայտություն, որը ցանկանում "
+"եք փոխարկել: Եթե <emph>Արտահայտությունը</emph> գերազանցում է -32768 և 32767 "
+"արժեքի տիրույթը, $[officename] Basic -ը զեկուցում է քարտահոսքի սխալի մասին։ "
+"Տողային արտահայտությունը փոխարկելու համար, թիվը հարկ է մուտք անել որպես "
+"նորմալ տեքստ (\"123.5\"), օգտագործելով ձեր օպերացիոն համակարգում կանխադրված "
+"լռակյաց ձևաչափը:"
 
 #: 03100500.xhp%23par_id3150358.9.help.text
 msgctxt "03100500.xhp#par_id3150358.9.help.text"
@@ -11073,49 +11097,52 @@ msgid ""
 "This function always rounds the fractional part of a number to the nearest "
 "integer."
 msgstr ""
+"Այս գործառույթը միշտ կլորացնում է թվի կոտորակային մասը դեպի մոտակա ամբողջ "
+"թիվ:"
 
 #: 03100500.xhp%23hd_id3145419.10.help.text
 msgctxt "03100500.xhp#hd_id3145419.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03100500.xhp%23par_id3150448.11.help.text
 msgctxt "03100500.xhp#par_id3150448.11.help.text"
 msgid "Sub ExampleCountryConvert"
-msgstr ""
+msgstr "Sub ExampleCountryConvert"
 
 #: 03100500.xhp%23par_id3156423.12.help.text
 msgctxt "03100500.xhp#par_id3156423.12.help.text"
 msgid "Msgbox CDbl(1234.5678)"
-msgstr ""
+msgstr "Msgbox CDbl(1234.5678)"
 
 #: 03100500.xhp%23par_id3150869.13.help.text
 msgctxt "03100500.xhp#par_id3150869.13.help.text"
 msgid "Msgbox CInt(1234.5678)"
-msgstr ""
+msgstr "Msgbox CInt(1234.5678)"
 
 #: 03100500.xhp%23par_id3153768.14.help.text
 msgctxt "03100500.xhp#par_id3153768.14.help.text"
 msgid "Msgbox CLng(1234.5678)"
-msgstr ""
+msgstr "Msgbox CLng(1234.5678)"
 
 #: 03100500.xhp%23par_id3145786.15.help.text
 msgctxt "03100500.xhp#par_id3145786.15.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 05060700.xhp%23tit.help.text
 msgid "Macro"
-msgstr ""
+msgstr "Մակրո"
 
 #: 05060700.xhp%23bm_id3153894.help.text
 msgid "<bookmark_value>events;linked to objects</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>events;linked to objects</bookmark_value>"
 
 #: 05060700.xhp%23hd_id3153894.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/05060700.xhp\" name=\"Macro\">Macro</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/05060700.xhp\" name=\"Macro\">Macro</link>"
 
 #: 05060700.xhp%23par_id3153748.2.help.text
 msgid ""
