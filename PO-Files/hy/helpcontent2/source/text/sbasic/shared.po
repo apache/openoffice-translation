@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-12-29 17:05+0000\n"
+"PO-Revision-Date: 2019-12-30 11:00+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1577639134.000000\n"
+"X-POOTLE-MTIME: 1577703631.000000\n"
 
 #: 03020203.xhp%23tit.help.text
 msgid "Line Input # Statement [Runtime]"
@@ -18056,50 +18056,63 @@ msgid ""
 "input is returned as the function return value. If you close the dialog with "
 "Cancel, <emph>InputBox</emph> returns a zero-length string (\"\")."
 msgstr ""
+"<emph>InputBox</emph> հայտարարությունը երկխոսության միջոցով տեքստը "
+"մուտքագրելու հարմար մեթոդ է: Հաստատեք մուտքը կտտացնելով ԼԱՎ կամ սեղմելով "
+"Վերադարձ: Մուտքագրումը վերադարձվում է որպես գործառույթի վերադարձի արժեք: Եթե "
+"փակեք երկխոսությունը Չեղարկել օգնությամբ, <emph>InputBox</emph> -ը "
+"վերադարձնում է զրոյական երկարության տող (\"\"):"
 
 #: 03010201.xhp%23hd_id3152347.4.help.text
 msgctxt "03010201.xhp#hd_id3152347.4.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03010201.xhp%23par_id3159201.5.help.text
 msgid ""
 "InputBox (Msg As String[, Title As String[, Default As String[, x_pos As "
 "Integer, y_pos As Integer]]]]) "
 msgstr ""
+"InputBox (Msg As String[, Title As String[, Default As String[, x_pos As "
+"Integer, y_pos As Integer]]]]) "
 
 #: 03010201.xhp%23hd_id3150713.6.help.text
 msgctxt "03010201.xhp#hd_id3150713.6.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03010201.xhp%23par_id3145090.7.help.text
 msgctxt "03010201.xhp#par_id3145090.7.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 03010201.xhp%23hd_id3149346.8.help.text
 msgctxt "03010201.xhp#hd_id3149346.8.help.text"
 msgid "Parameter:"
-msgstr ""
+msgstr "Պարամետր։"
 
 #: 03010201.xhp%23par_id3153311.9.help.text
 msgid ""
 "<emph>Msg</emph>: String expression displayed as the message in the dialog "
 "box."
 msgstr ""
+"<emph>Msg</emph>: Տողային արտահայտությունը ցուցադրվում է երկխոսության "
+"վանդակում որպես հաղորդագրություն:"
 
 #: 03010201.xhp%23par_id3145315.10.help.text
 msgid ""
 "<emph>Title</emph>: String expression displayed in the title bar of the "
 "dialog box."
 msgstr ""
+"<emph>Վերնագիր</emph>: Տողային արտահայտությունը ցուցադրվում է երկխոսության "
+"վանդակի վերնագրի տողում:"
 
 #: 03010201.xhp%23par_id3154307.11.help.text
 msgid ""
 "<emph>Default</emph>: String expression displayed in the text box as default "
 "if no other input is given."
 msgstr ""
+"<emph>Լռելյայնt</emph>: Տողային արտահայտությունը ցուցադրվում է տեքստի "
+"վանդակում, որպես լռելյայն, եթե այլ մուտք չկա:"
 
 #: 03010201.xhp%23par_id3147573.12.help.text
 msgid ""
@@ -18107,6 +18120,9 @@ msgid ""
 "position of the dialog. The position is an absolute coordinate and does not "
 "refer to the window of the office application."
 msgstr ""
+"<emph>x_pos</emph>: Ամբողջ թվային արտահայտություն, որը հստակեցնում է "
+"երկխոսության հորիզոնական դիրքը: Դիրքը բացարձակ կոորդինատ է և չի վերաբերում "
+"գրասենյակային կիրառության պատուհանին:"
 
 #: 03010201.xhp%23par_id3156024.13.help.text
 msgid ""
@@ -18114,6 +18130,9 @@ msgid ""
 "of the dialog. The position is an absolute coordinate and does not refer to "
 "the window of the office application."
 msgstr ""
+"<emph>y_pos</emph>: Ամբողջ թվային արտահայտություն, որը սահմանում է "
+"երկխոսության ուղղահայաց դիրքը: Դիրքը բացարձակ կոորդինատ է և չի վերաբերում "
+"գրասենյակային կիրառության պատուհանին:"
 
 #: 03010201.xhp%23par_id3153897.14.help.text
 msgid ""
@@ -18121,43 +18140,48 @@ msgid ""
 "centered on the screen. The position is specified in <link href=\"text/"
 "sbasic/shared/00000002.xhp#twips\" name=\"twips\">twips</link>."
 msgstr ""
+"Եթե <emph>x_pos</emph> և <emph>y_pos</emph> բացակայում են, երկխոսությունը "
+"բերված է պաստառի կենտրոն: Դիրքը նշված է <link href=\""
+"text/sbasic/shared/00000002.xhp#twips\" name=\"twips\">twips</link>."
 
 #: 03010201.xhp%23hd_id3149456.15.help.text
 msgctxt "03010201.xhp#hd_id3149456.15.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03010201.xhp%23par_id3153379.16.help.text
 msgid "Sub ExampleInputBox"
-msgstr ""
+msgstr "Sub ExampleInputBox"
 
 #: 03010201.xhp%23par_id3149656.17.help.text
 msgctxt "03010201.xhp#par_id3149656.17.help.text"
 msgid "Dim sText As String"
-msgstr ""
+msgstr "Dim sText As String"
 
 #: 03010201.xhp%23par_id3154367.18.help.text
 msgid "sText = InputBox (\"Please enter a phrase:\",\"Dear User\")"
-msgstr ""
+msgstr "sText = InputBox (\"Մուտք արեք արտահայտություն:\",\"Սիրելի օգտատեր\")"
 
 #: 03010201.xhp%23par_id3151042.19.help.text
 msgid "MsgBox ( sText , 64, \"Confirmation of phrase\")"
-msgstr ""
+msgstr "MsgBox ( sText , 64, \"Արտահայտության հաստատում\")"
 
 #: 03010201.xhp%23par_id3150768.20.help.text
 msgctxt "03010201.xhp#par_id3150768.20.help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #: 03100000.xhp%23tit.help.text
 msgid "Variables"
-msgstr ""
+msgstr "Փոփոխականներ"
 
 #: 03100000.xhp%23hd_id3149669.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03100000.xhp\" name=\"Variables\""
 ">Variables</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03100000.xhp\" name=\"Փոփոխականներ\""
+">Փոփոխականներ</link>"
 
 #: 03100000.xhp%23par_id3147265.2.help.text
 msgid ""
@@ -18165,234 +18189,252 @@ msgid ""
 "can use these functions to declare or define variables, convert variables "
 "from one type to another, or determine the variable type."
 msgstr ""
+"Հետևյալ հայտարարությունները և գործառույթները փոփոխականների հետ աշխատելու "
+"համար են: Դուք կարող եք օգտագործել այս գործառույթները փոփոխականները "
+"հայտարարելու կամ սահմանելու, փոփոխականները մեկ տիպից մյուսը վերափոխելու, կամ "
+"փոփոխականի տեսակը որոշելու համար:"
 
 #: 03120302.xhp%23tit.help.text
 msgid "LCase Function [Runtime]"
-msgstr ""
+msgstr "LCase Function [Runtime]"
 
 #: 03120302.xhp%23bm_id3152363.help.text
 msgid "<bookmark_value>LCase function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LCase function</bookmark_value>"
 
 #: 03120302.xhp%23hd_id3152363.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03120302.xhp\" name=\"LCase Function "
 "[Runtime]\">LCase Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03120302.xhp\" name=\"LCase Function "
+"[Runtime]\">LCase Function [Runtime]</link>"
 
 #: 03120302.xhp%23par_id3145609.2.help.text
 msgid "Converts all uppercase letters in a string to lowercase."
-msgstr ""
+msgstr "Տողում առկա բոլոր մեծատառերը վերածում է փոքրատառերի:"
 
 #: 03120302.xhp%23par_id3154347.3.help.text
 msgid ""
 "See also: <link href=\"text/sbasic/shared/03120310.xhp\" name=\"UCase\""
 ">UCase</link> Function"
 msgstr ""
+"Տես նաև: <link href=\"text/sbasic/shared/03120310.xhp\" name=\"UCase\""
+">UCase</link> Function"
 
 #: 03120302.xhp%23hd_id3149456.4.help.text
 msgctxt "03120302.xhp#hd_id3149456.4.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03120302.xhp%23par_id3150791.5.help.text
 msgid "LCase (Text As String)"
-msgstr ""
+msgstr "LCase (Text As String)"
 
 #: 03120302.xhp%23hd_id3154940.6.help.text
 msgctxt "03120302.xhp#hd_id3154940.6.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03120302.xhp%23par_id3144760.7.help.text
 msgctxt "03120302.xhp#par_id3144760.7.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 03120302.xhp%23hd_id3151043.8.help.text
 msgctxt "03120302.xhp#hd_id3151043.8.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03120302.xhp%23par_id3153193.9.help.text
 msgctxt "03120302.xhp#par_id3153193.9.help.text"
 msgid "<emph>Text:</emph> Any string expression that you want to convert."
 msgstr ""
+"<emph>Տեքստ:</emph> Ցանկացած տողային արտահայտություն, որը ցանկանում եք "
+"փոխարկել:"
 
 #: 03120302.xhp%23hd_id3148451.10.help.text
 msgctxt "03120302.xhp#hd_id3148451.10.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03120302.xhp%23par_id3149203.11.help.text
 msgctxt "03120302.xhp#par_id3149203.11.help.text"
 msgid "Sub ExampleLUCase"
-msgstr ""
+msgstr "Sub ExampleLUCase"
 
 #: 03120302.xhp%23par_id3150440.12.help.text
 msgctxt "03120302.xhp#par_id3150440.12.help.text"
 msgid "Dim sVar As String"
-msgstr ""
+msgstr "Dim sVar As String"
 
 #: 03120302.xhp%23par_id3153367.13.help.text
 msgctxt "03120302.xhp#par_id3153367.13.help.text"
 msgid "sVar = \"Las Vegas\""
-msgstr ""
+msgstr "sVar = \"Las Vegas\""
 
 #: 03120302.xhp%23par_id3146121.14.help.text
 msgid "Print LCase(sVar) REM Returns \"las vegas\""
-msgstr ""
+msgstr "Print LCase(sVar) REM Returns \"las vegas\""
 
 #: 03120302.xhp%23par_id3146986.15.help.text
 msgid "Print UCase(sVar) REM Returns \"LAS VEGAS\""
-msgstr ""
+msgstr "Print UCase(sVar) REM Returns \"LAS VEGAS\""
 
 #: 03120302.xhp%23par_id3153575.16.help.text
 msgctxt "03120302.xhp#par_id3153575.16.help.text"
 msgid "end Sub"
-msgstr ""
+msgstr "end Sub"
 
 #: 03120313.xhp%23tit.help.text
 msgid "ConvertFromURL Function [Runtime]"
-msgstr ""
+msgstr "ConvertFromURL Function [Runtime]"
 
 #: 03120313.xhp%23bm_id3153894.help.text
 msgid "<bookmark_value>ConvertFromURL function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ConvertFromURL function</bookmark_value>"
 
 #: 03120313.xhp%23hd_id3153894.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03120313.xhp\" name=\"ConvertFromURL "
 "Function [Runtime]\">ConvertFromURL Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03120313.xhp\" name=\"ConvertFromURL "
+"Function [Runtime]\">ConvertFromURL Function [Runtime]</link>"
 
 #: 03120313.xhp%23par_id3147226.2.help.text
 msgid "Converts a file URL to a system file name."
-msgstr ""
+msgstr "Ձևափոխում է նիշքի URL-ը համակարգի նիշքի անվան։"
 
 #: 03120313.xhp%23hd_id3143267.3.help.text
 msgctxt "03120313.xhp#hd_id3143267.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03120313.xhp%23par_id3154142.4.help.text
 msgid "ConvertFromURL(filename)"
-msgstr ""
+msgstr "ConvertFromURL(filename)"
 
 #: 03120313.xhp%23hd_id3159157.5.help.text
 msgctxt "03120313.xhp#hd_id3159157.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03120313.xhp%23par_id3150669.6.help.text
 msgctxt "03120313.xhp#par_id3150669.6.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 03120313.xhp%23hd_id3143270.7.help.text
 msgctxt "03120313.xhp#hd_id3143270.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03120313.xhp%23par_id3156023.8.help.text
 msgid "<emph>Filename:</emph> A file name as a string."
-msgstr ""
+msgstr "<emph>Filename:</emph> Նիշքի անունը որպես տող։"
 
 #: 03120313.xhp%23hd_id3154760.9.help.text
 msgctxt "03120313.xhp#hd_id3154760.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03120313.xhp%23par_id3148664.10.help.text
 msgctxt "03120313.xhp#par_id3148664.10.help.text"
 msgid "systemFile$ = \"c:\\folder\\mytext.txt\""
-msgstr ""
+msgstr "systemFile$ = \"c:\\folder\\mytext.txt\""
 
 #: 03120313.xhp%23par_id3150541.11.help.text
 msgctxt "03120313.xhp#par_id3150541.11.help.text"
 msgid "url$ = ConvertToURL( systemFile$ )"
-msgstr ""
+msgstr "url$ = ConvertToURL( systemFile$ )"
 
 #: 03120313.xhp%23par_id3150792.12.help.text
 msgctxt "03120313.xhp#par_id3150792.12.help.text"
 msgid "print url$"
-msgstr ""
+msgstr "print url$"
 
 #: 03120313.xhp%23par_id3154367.13.help.text
 msgctxt "03120313.xhp#par_id3154367.13.help.text"
 msgid "systemFileAgain$ = ConvertFromURL( url$ )"
-msgstr ""
+msgstr "systemFileAgain$ = ConvertFromURL( url$ )"
 
 #: 03120313.xhp%23par_id3153194.14.help.text
 msgctxt "03120313.xhp#par_id3153194.14.help.text"
 msgid "print systemFileAgain$"
-msgstr ""
+msgstr "print systemFileAgain$"
 
 #: 03030108.xhp%23tit.help.text
 msgid "CDateFromIso Function [Runtime]"
-msgstr ""
+msgstr "CDateFromIso Function [Runtime]"
 
 #: 03030108.xhp%23bm_id3153127.help.text
 msgid "<bookmark_value>CdateFromIso function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CdateFromIso function</bookmark_value>"
 
 #: 03030108.xhp%23hd_id3153127.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03030108.xhp\" name=\"CDateFromIso Function "
 "[Runtime]\">CDateFromIso Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03030108.xhp\" name=\"CDateFromIso Function "
+"[Runtime]\">CDateFromIso Function [Runtime]</link>"
 
 #: 03030108.xhp%23par_id3148550.2.help.text
 msgid ""
 "Returns the internal date number from a string that contains a date in ISO "
 "format."
 msgstr ""
+"Ներքին ամսաթիվը վերադարձնում է շարքից, որը պարունակում է ամսաթիվ ISO "
+"ձևաչափով:"
 
 #: 03030108.xhp%23hd_id3148947.3.help.text
 msgctxt "03030108.xhp#hd_id3148947.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03030108.xhp%23par_id3150400.4.help.text
 msgid "CDateFromIso(String)"
-msgstr ""
+msgstr "CDateFromIso(String)"
 
 #: 03030108.xhp%23hd_id3154367.5.help.text
 msgctxt "03030108.xhp#hd_id3154367.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03030108.xhp%23par_id3156212.6.help.text
 msgid "Internal date number"
-msgstr ""
+msgstr "Ներքին ամսաթվի համարը"
 
 #: 03030108.xhp%23hd_id3125864.7.help.text
 msgctxt "03030108.xhp#hd_id3125864.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03030108.xhp%23par_id3154685.8.help.text
 msgid ""
 "<emph>String:</emph> A string that contains a date in ISO format. The year "
 "may have two or four digits."
 msgstr ""
+"<emph>Տող:</emph> Տող, որը պարունակում է ամսաթիվը ISO ձևաչափով: Տարին կարող "
+"է ունենալ երկու կամ չորս թվանշան:"
 
 #: 03030108.xhp%23hd_id3150439.9.help.text
 msgctxt "03030108.xhp#hd_id3150439.9.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03030108.xhp%23par_id3147318.10.help.text
 msgid "dateval = CDateFromIso(\"20021231\")"
-msgstr ""
+msgstr "dateval = CDateFromIso(\"20021231\")"
 
 #: 03030108.xhp%23par_id3146921.11.help.text
 msgid "returns 12/31/2002 in the date format of your system"
-msgstr ""
+msgstr "վերադարձնում է 12/31/2002-ը ձեր համակարգի ամսաթվային ձևաչափով"
 
 #: 01030000.xhp%23tit.help.text
 msgid "Integrated Development Environment (IDE)"
-msgstr ""
+msgstr "Նախագծման Ինտեգրված Միջավայր (IDE)"
 
 #: 01030000.xhp%23bm_id3145090.help.text
 msgid ""
@@ -18400,68 +18442,82 @@ msgid ""
 "Environment</bookmark_value><bookmark_value>IDE;Integrated Development "
 "Environment</bookmark_value>"
 msgstr ""
+"<bookmark_value>Basic IDE;Integrated Development "
+"Environment</bookmark_value><bookmark_value>IDE;Integrated Development "
+"Environment</bookmark_value>"
 
 #: 01030000.xhp%23hd_id3145090.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/01030000.xhp\" name=\"Integrated Development "
 "Environment (IDE)\">Integrated Development Environment (IDE)</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/01030000.xhp\" name=\"Integrated Development "
+"Environment (IDE)\">Integrated Development Environment (IDE)</link>"
 
 #: 01030000.xhp%23par_id3146795.2.help.text
 msgid ""
 "This section describes the Integrated Development Environment for "
 "$[officename] Basic."
 msgstr ""
+"Այս բաժինը նկարագրում է Զարգացման Համապարփակ Միջավայրը $[officename] Basic -"
+"ի համար:"
 
 #: 03030204.xhp%23tit.help.text
 msgid "Second Function [Runtime]"
-msgstr ""
+msgstr "Second Function [Runtime]"
 
 #: 03030204.xhp%23bm_id3153346.help.text
 msgid "<bookmark_value>Second function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Second function</bookmark_value>"
 
 #: 03030204.xhp%23hd_id3153346.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03030204.xhp\" name=\"Second Function "
 "[Runtime]\">Second Function [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03030204.xhp\" name=\"Second Function "
+"[Runtime]\">Second Function [Runtime]</link>"
 
 #: 03030204.xhp%23par_id3156023.2.help.text
 msgid ""
 "Returns an integer that represents the seconds of the serial time number "
 "that is generated by the TimeSerial or the TimeValue function."
 msgstr ""
+"Վերադարձնում է ամբողջ թիվ, որը ներկայացնում է ժամանակի հաջորդական համարի "
+"վայրկյանները, որոնք գեներացվում են TimeSerial- ի կամ TimeValue գործառույթի "
+"միջոցով:"
 
 #: 03030204.xhp%23hd_id3147264.3.help.text
 msgctxt "03030204.xhp#hd_id3147264.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03030204.xhp%23par_id3146795.4.help.text
 msgid "Second (Number)"
-msgstr ""
+msgstr "Վայրկյան (Թիվ)"
 
 #: 03030204.xhp%23hd_id3150792.5.help.text
 msgctxt "03030204.xhp#hd_id3150792.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03030204.xhp%23par_id3154140.6.help.text
 msgctxt "03030204.xhp#par_id3154140.6.help.text"
 msgid "Integer"
-msgstr ""
+msgstr "Ամբողջ թիվ"
 
 #: 03030204.xhp%23hd_id3156280.7.help.text
 msgctxt "03030204.xhp#hd_id3156280.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03030204.xhp%23par_id3154124.8.help.text
 msgid ""
 "<emph>Number:</emph> Numeric expression that contains the serial time number "
 "that is used to calculate the number of seconds."
 msgstr ""
+"<emph>Թիվ:</emph> Թվային արտահայտություն, որը պարունակում է ժամանակի "
+"հաջորդական համարը, որն օգտագործվում է վայրկյանների քանակը հաշվարկելու համար:"
 
 #: 03030204.xhp%23par_id3125864.9.help.text
 msgid ""
@@ -18470,82 +18526,93 @@ msgid ""
 "<emph>TimeSerial</emph> or <emph>TimeValue </emph>functions. For example, "
 "the expression:"
 msgstr ""
+"Այս գործառույթը հակառակն է <emph>TimeSerial</emph> գործառույթին: Այն "
+"վերադարձնում է ժամանակի հաջորդական արժեքի այն վայրկյանները, որոնք "
+"գեներացվում են <emph>TimeSerial</emph> կամ <emph>TimeValue</emph> "
+"գործառույթներով: Օրինակ ՝ արտահայտությունը."
 
 #: 03030204.xhp%23par_id3153951.10.help.text
 msgid "Print Second(TimeSerial(12,30,41))"
-msgstr ""
+msgstr "Print Second(TimeSerial(12,30,41))"
 
 #: 03030204.xhp%23par_id3151117.11.help.text
 msgid "returns the value 41."
-msgstr ""
+msgstr "returns the value 41."
 
 #: 03030204.xhp%23hd_id3147426.12.help.text
 msgctxt "03030204.xhp#hd_id3147426.12.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03030204.xhp%23par_id3154012.13.help.text
 msgid "Sub ExampleSecond"
-msgstr ""
+msgstr "Sub ExampleSecond"
 
 #: 03030204.xhp%23par_id3156441.14.help.text
 msgid "MsgBox \"The exact second of the current time is \"& Second( Now )"
-msgstr ""
+msgstr "MsgBox \"Ընթացիկ ժամանակի ճշգրիտ վայրկյանն է \"& Second( Now )"
 
 #: 03030204.xhp%23par_id3151112.15.help.text
 msgctxt "03030204.xhp#par_id3151112.15.help.text"
 msgid "End sub"
-msgstr ""
+msgstr "End sub"
 
 #: 03020403.xhp%23tit.help.text
 msgid "CurDir Function [Runtime]"
-msgstr ""
+msgstr "CurDir Function [Runtime]"
 
 #: 03020403.xhp%23bm_id3153126.help.text
 msgid "<bookmark_value>CurDir function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CurDir function</bookmark_value>"
 
 #: 03020403.xhp%23hd_id3153126.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020403.xhp\">CurDir Function "
 "[Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03020403.xhp\">CurDir Function "
+"[Runtime]</link>"
 
 #: 03020403.xhp%23par_id3156343.2.help.text
 msgid ""
 "Returns a variant string that represents the current path of the specified "
 "drive."
 msgstr ""
+"Վերադարձնում է տարբերակի տողը, որը ներկայացնում է նշված սկավառակի ընթացիկ "
+"ուղին:"
 
 #: 03020403.xhp%23hd_id3149457.3.help.text
 msgctxt "03020403.xhp#hd_id3149457.3.help.text"
 msgid "Syntax:"
-msgstr ""
+msgstr "Շարահյուսություն։"
 
 #: 03020403.xhp%23par_id3153381.4.help.text
 msgid "CurDir [(Text As String)]"
-msgstr ""
+msgstr "CurDir [(Text As String)]"
 
 #: 03020403.xhp%23hd_id3154366.5.help.text
 msgctxt "03020403.xhp#hd_id3154366.5.help.text"
 msgid "Return value:"
-msgstr ""
+msgstr "Վերադարձվող արժեք։"
 
 #: 03020403.xhp%23par_id3156281.6.help.text
 msgctxt "03020403.xhp#par_id3156281.6.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 03020403.xhp%23hd_id3156423.7.help.text
 msgctxt "03020403.xhp#hd_id3156423.7.help.text"
 msgid "Parameters:"
-msgstr ""
+msgstr "Պարամետրեր․"
 
 #: 03020403.xhp%23par_id3153193.8.help.text
 msgid ""
 "<emph>Text:</emph> Any string expression that specifies an existing drive ("
 "for example, \"C\" for the first partition of the first hard drive)."
 msgstr ""
+"<emph>Տեքստ:</emph> Ցանկացած տողային արտահայտություն, որը բնութագրում է "
+"գոյություն ունեցող սկավառակը (օրինակ ՝ \"C\" առաջին կոշտ սկավառակի առաջին "
+"բաժանման համար):"
 
 #: 03020403.xhp%23par_id3155133.9.help.text
 msgid ""
@@ -18555,63 +18622,68 @@ msgid ""
 "not exist, or if the drive letter occurs after the letter defined in the "
 "CONFIG.SYS with the Lastdrive statement."
 msgstr ""
+"Եթե ոչ մի սկավառակ նշված չէ, կամ եթե շարժիչը զրոյական երկարության տող է (\"\""
+"), CurDir -ը վերադարձնում է ընթացիկ սկավառակի ուղին: $[officename] Basic "
+"հայտնում է սխալի մասին, եթե սկավառակի նկարագրության շարահյուսությունը ճիշտ "
+"չէ, սկավառակը գոյություն չունի, կամ եթե սկավառակի տառը հայտնվում է "
+"CONFIG.SYS -ում սահմանված տառից հետո, Lastdrive հայտարարությամբ:"
 
 #: 03020403.xhp%23par_id3150010.10.help.text
 msgid "This function is not case-sensitive."
-msgstr ""
+msgstr "Այս գործառույթը ընտրությանը զգայուն չէ:"
 
 #: 03020403.xhp%23hd_id3155411.11.help.text
 msgctxt "03020403.xhp#hd_id3155411.11.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 03020403.xhp%23par_id3151113.12.help.text
 msgid "Sub ExampleCurDir"
-msgstr ""
+msgstr "Sub ExampleCurDir"
 
 #: 03020403.xhp%23par_id3155306.13.help.text
 msgctxt "03020403.xhp#par_id3155306.13.help.text"
 msgid "Dim sDir1 as String , sDir2 as String"
-msgstr ""
+msgstr "Dim sDir1 as String , sDir2 as String"
 
 #: 03020403.xhp%23par_id3156444.14.help.text
 msgctxt "03020403.xhp#par_id3156444.14.help.text"
 msgid "sDir1 = \"c:\\Test\""
-msgstr ""
+msgstr "sDir1 = \"c:\\Test\""
 
 #: 03020403.xhp%23par_id3147318.15.help.text
 msgctxt "03020403.xhp#par_id3147318.15.help.text"
 msgid "sDir2 = \"d:\\private\""
-msgstr ""
+msgstr "sDir2 = \"d:\\private\""
 
 #: 03020403.xhp%23par_id3154013.16.help.text
 msgctxt "03020403.xhp#par_id3154013.16.help.text"
 msgid "ChDir( sDir1 )"
-msgstr ""
+msgstr "ChDir( sDir1 )"
 
 #: 03020403.xhp%23par_id3153877.17.help.text
 msgctxt "03020403.xhp#par_id3153877.17.help.text"
 msgid "msgbox CurDir"
-msgstr ""
+msgstr "msgbox CurDir"
 
 #: 03020403.xhp%23par_id3144764.18.help.text
 msgctxt "03020403.xhp#par_id3144764.18.help.text"
 msgid "ChDir( sDir2 )"
-msgstr ""
+msgstr "ChDir( sDir2 )"
 
 #: 03020403.xhp%23par_id3147125.19.help.text
 msgctxt "03020403.xhp#par_id3147125.19.help.text"
 msgid "msgbox CurDir"
-msgstr ""
+msgstr "msgbox CurDir"
 
 #: 03020403.xhp%23par_id3149581.20.help.text
 msgctxt "03020403.xhp#par_id3149581.20.help.text"
 msgid "end sub"
-msgstr ""
+msgstr "end sub"
 
 #: 03070200.xhp%23tit.help.text
 msgid "\"*\" Operator [Runtime]"
-msgstr ""
+msgstr "\"*\" Operator [Runtime]"
 
 #: 03070200.xhp%23bm_id3147573.help.text
 msgid "<bookmark_value>\"*\" operator (mathematical)</bookmark_value>"
