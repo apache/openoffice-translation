@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2019-12-29 11:37+0000\n"
+"PO-Revision-Date: 2020-01-04 14:27+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1577619463.000000\n"
+"X-POOTLE-MTIME: 1578148048.000000\n"
 
 #: 03104300.xhp%23tit.help.text
 msgid "DimArray Function [Runtime]"
@@ -137,6 +137,9 @@ msgid ""
 "that the text on a line is comments. This symbol can be inserted directly to "
 "the right of the program code, followed by a comment."
 msgstr ""
+"Bir satırdaki metnin açıklama olduğunu belirtmek için Rem anahtar kelimesi "
+"yerine tek tırnak işaretini kullanabilirsiniz. Bu sembol doğrudan program "
+"kodunun sağına eklenebilir, ardından bir açıklama takip eder."
 
 #: 03090407.xhp%23par_id6187017.help.text
 msgid ""
@@ -145,6 +148,10 @@ msgid ""
 "continue comment lines, you must enter \"Option Compatible\" in the same "
 "Basic module."
 msgstr ""
+"Bir sonraki satırdaki mantıksal satırı devam ettirmek için bir satırın son "
+"iki karakteri olarak altı çizili karakter _ ardından bir boşluk "
+"kullanabilirsiniz. Açıklama satırlarına devam etmek için aynı Basic "
+"modülünde \"Seçenek Uyumluluğu\"nu girmek zorundasınız."
 
 #: 03090407.xhp%23hd_id3150012.8.help.text
 msgctxt "03090407.xhp#hd_id3150012.8.help.text"
@@ -153,52 +160,53 @@ msgstr "Örnek:"
 
 #: 03090407.xhp%23par_id3152939.9.help.text
 msgid "Sub ExampleMid"
-msgstr ""
+msgstr "Sub ExampleMid"
 
 #: 03090407.xhp%23par_id3153142.10.help.text
-#, fuzzy
 msgid "DIM sVar As String"
-msgstr "DIM a As String"
+msgstr "DIM sVar As String"
 
 #: 03090407.xhp%23par_id3145365.11.help.text
 msgctxt "03090407.xhp#par_id3145365.11.help.text"
 msgid "sVar = \"Las Vegas\""
-msgstr ""
+msgstr "sVar = \"Istanbul\""
 
 #: 03090407.xhp%23par_id3146984.12.help.text
 msgid "Print Mid(sVar,3,5) REM Returns \"s Veg\""
-msgstr ""
+msgstr "Print Mid(sVar,3,5) REM Returns \"s Veg\""
 
 #: 03090407.xhp%23par_id3153140.13.help.text
 msgid "REM Nothing occurs here"
-msgstr ""
+msgstr "REM Burada hiçbir şey olmuyor"
 
 #: 03090407.xhp%23par_id3152596.14.help.text
-#, fuzzy
 msgctxt "03090407.xhp#par_id3152596.14.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03020104.xhp%23tit.help.text
 msgid "Reset Statement [Runtime]"
-msgstr "Reset Deyimi [Runtime]"
+msgstr "Reset İfadesi [Çalışm Zamanı]"
 
 #: 03020104.xhp%23bm_id3154141.help.text
 msgid "<bookmark_value>Reset statement</bookmark_value>"
-msgstr "<bookmark_value>Reset deyimi</bookmark_value>"
+msgstr "<bookmark_value>Reset ifadesi</bookmark_value>"
 
 #: 03020104.xhp%23hd_id3154141.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020104.xhp\">Reset Statement "
 "[Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03020104.xhp\">Reset Deyimi [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03020104.xhp\">Reset İfadesi [Çalışma "
+"Zamanı]</link>"
 
 #: 03020104.xhp%23par_id3156423.2.help.text
 msgid ""
 "Closes all open files and writes the contents of all file buffers to the "
 "harddisk."
 msgstr ""
+"Tüm açık dosyaları kapatır ve tüm dosya arabelleklerinin içeriğini sabit "
+"diske yazar."
 
 #: 03020104.xhp%23hd_id3154124.3.help.text
 msgctxt "03020104.xhp#hd_id3154124.3.help.text"
@@ -218,12 +226,12 @@ msgstr "Örnek:"
 #: 03020104.xhp%23par_id3151113.37.help.text
 msgctxt "03020104.xhp#par_id3151113.37.help.text"
 msgid "Sub ExampleReset"
-msgstr ""
+msgstr "Sub ExampleReset"
 
 #: 03020104.xhp%23par_id3148575.38.help.text
 msgctxt "03020104.xhp#par_id3148575.38.help.text"
 msgid "On Error Goto ErrorHandler"
-msgstr ""
+msgstr "On Error Goto ErrorHandler"
 
 #: 03020104.xhp%23par_id3153093.39.help.text
 msgctxt "03020104.xhp#par_id3153093.39.help.text"
@@ -233,99 +241,96 @@ msgstr "Dim iNumber As Integer"
 #: 03020104.xhp%23par_id3150011.40.help.text
 msgctxt "03020104.xhp#par_id3150011.40.help.text"
 msgid "Dim iCount As Integer"
-msgstr "Dim iSayim As Integer"
+msgstr "Dim iCount As Integer"
 
 #: 03020104.xhp%23par_id3153363.41.help.text
-#, fuzzy
 msgctxt "03020104.xhp#par_id3153363.41.help.text"
 msgid "Dim sLine As String"
-msgstr "Dim Değişken as String"
+msgstr "Dim sLine As String"
 
 #: 03020104.xhp%23par_id3154320.42.help.text
-#, fuzzy
 msgctxt "03020104.xhp#par_id3154320.42.help.text"
 msgid "Dim aFile As String"
-msgstr "Dim Değişken as String"
+msgstr "Dim aFile As String"
 
 #: 03020104.xhp%23par_id3163712.43.help.text
 msgctxt "03020104.xhp#par_id3163712.43.help.text"
 msgid "aFile = \"c:\\data.txt\""
-msgstr ""
+msgstr "aFile = \"c:\\data.txt\""
 
 #: 03020104.xhp%23par_id3146121.45.help.text
 msgctxt "03020104.xhp#par_id3146121.45.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020104.xhp%23par_id3154491.46.help.text
 msgctxt "03020104.xhp#par_id3154491.46.help.text"
 msgid "Open aFile For Output As #iNumber"
-msgstr ""
+msgstr "Open aFile For Output As #iNumber"
 
 #: 03020104.xhp%23par_id3148455.47.help.text
 msgid "Print #iNumber, \"This is a new line of text\""
-msgstr ""
+msgstr "Print #iNumber, \"Bu, metnin yeni bir satırıdır\""
 
 #: 03020104.xhp%23par_id3145646.48.help.text
 msgctxt "03020104.xhp#par_id3145646.48.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020104.xhp%23par_id3149410.50.help.text
 msgctxt "03020104.xhp#par_id3149410.50.help.text"
 msgid "iNumber = Freefile"
-msgstr ""
+msgstr "iNumber = Freefile"
 
 #: 03020104.xhp%23par_id3147126.51.help.text
 msgctxt "03020104.xhp#par_id3147126.51.help.text"
 msgid "Open aFile For Input As iNumber"
-msgstr ""
+msgstr "Open aFile For Input As iNumber"
 
 #: 03020104.xhp%23par_id3154510.52.help.text
 msgctxt "03020104.xhp#par_id3154510.52.help.text"
 msgid "For iCount = 1 to 5"
-msgstr "For iSayim = 1 to 5"
+msgstr "For iCount = 1 to 5"
 
 #: 03020104.xhp%23par_id3146971.53.help.text
 msgctxt "03020104.xhp#par_id3146971.53.help.text"
 msgid "Line Input #iNumber, sLine"
-msgstr ""
+msgstr "Line Input #iNumber, sLine"
 
 #: 03020104.xhp%23par_id3156277.54.help.text
 msgctxt "03020104.xhp#par_id3156277.54.help.text"
 msgid "If sLine <>\"\" then"
-msgstr ""
+msgstr "If sLine <>\"\" then"
 
 #: 03020104.xhp%23par_id3153707.55.help.text
 msgctxt "03020104.xhp#par_id3153707.55.help.text"
 msgid "rem"
-msgstr ""
+msgstr "rem"
 
 #: 03020104.xhp%23par_id3150322.56.help.text
 msgctxt "03020104.xhp#par_id3150322.56.help.text"
 msgid "end if"
-msgstr ""
+msgstr "end if"
 
 #: 03020104.xhp%23par_id3148405.57.help.text
-#, fuzzy
 msgctxt "03020104.xhp#par_id3148405.57.help.text"
 msgid "Next iCount"
-msgstr "Next iSayim"
+msgstr "Next iCount"
 
 #: 03020104.xhp%23par_id3153711.58.help.text
 msgctxt "03020104.xhp#par_id3153711.58.help.text"
 msgid "Close #iNumber"
-msgstr ""
+msgstr "Close #iNumber"
 
 #: 03020104.xhp%23par_id3156382.59.help.text
 msgctxt "03020104.xhp#par_id3156382.59.help.text"
 msgid "Exit Sub"
-msgstr ""
+msgstr "Exit Sub"
 
 #: 03020104.xhp%23par_id3159264.60.help.text
 msgctxt "03020104.xhp#par_id3159264.60.help.text"
 msgid "ErrorHandler:"
-msgstr ""
+msgstr "Hata İşleyici:"
 
 #: 03020104.xhp%23par_id3145147.61.help.text
 msgctxt "03020104.xhp#par_id3145147.61.help.text"
@@ -344,18 +349,19 @@ msgstr "End Sub"
 
 #: 03101110.xhp%23tit.help.text
 msgid "DefCur Statement [Runtime]"
-msgstr "DefCur Deyimi [Runtime]"
+msgstr "DefCur İfadesi [Çalışma Zamanı]"
 
 #: 03101110.xhp%23bm_id9555345.help.text
 msgid "<bookmark_value>DefCur statement</bookmark_value>"
-msgstr "<bookmark_value>DefCur deyimi</bookmark_value>"
+msgstr "<bookmark_value>DefCur ifadesi</bookmark_value>"
 
 #: 03101110.xhp%23par_idN1057D.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03101110.xhp\">DefCur Statement "
 "[Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03101110.xhp\">DefCur Deyimi [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03101110.xhp\">DefCur İfadesi [Çalışma "
+"Zamanı]</link>"
 
 #: 03101110.xhp%23par_idN1058D.help.text
 msgid ""
