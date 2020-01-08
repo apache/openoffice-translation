@@ -6,16 +6,17 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fshared%2Fguide.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-12-31 19:01+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-01-07 06:28+0000\n"
+"Last-Translator: Iskander Idris <ioromoapps@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: om\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1578378480.000000\n"
 
 #: linestyle_define.xhp%23tit.help.text
 msgid "Defining Line Styles"
@@ -2235,8 +2236,8 @@ msgid ""
 "program/soffice {parameter} </caseinline></switchinline>"
 msgstr ""
 "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\"
-"soffice.exe {ulaagaa} </caseinline><caseinline select=\"UNIX\">{install}/"
-"program/soffice {ulaagaa} </caseinline></switchinline>"
+"soffice.exe {parameter} </caseinline><caseinline select=\"UNIX\""
+">{install}/program/soffice {parameter} </caseinline></switchinline>"
 
 #: start_parameters.xhp%23par_id3153360.8.help.text
 msgid ""
@@ -2244,7 +2245,7 @@ msgid ""
 "$[officename] software (for example, <emph>C:\\Program Files\\Office</emph>, "
 "or <emph>~/office</emph>)"
 msgstr ""
-"<emph>{ijaari}</emph> xurree ijaarsaa kee kan mosajjii $[officename]tiin "
+"<emph>{install}</emph> xurree ijaarsaa kee kan mosajjii $[officename]tiin "
 "bakka buusi (fakkeenyaaf, <emph>C:\\Program Files\\Office</emph>, or "
 "<emph>~/office</emph>)"
 
@@ -2253,8 +2254,8 @@ msgid ""
 "Where required, replace <emph>{parameter}</emph> with one or more of the "
 "following command line parameters."
 msgstr ""
-"Yoo barbaachise, <emph>{ulaagaa}</emph> ulagaalee sarara ajajaa tokkoon ykn "
-"tokkoo ol ta'aniin baka buusi."
+"Yoo barbaachise, <emph>{parameter}</emph> ulagaalee sarara ajajaa tokkoon "
+"ykn tokkoo ol ta'aniin baka buusi."
 
 #: start_parameters.xhp%23hd_id3145171.10.help.text
 msgid "Valid Command Line Parameters"
@@ -2341,15 +2342,15 @@ msgstr "Galmee HTML duwwaatiin eegala."
 
 #: start_parameters.xhp%23par_id3149403.help.text
 msgid "-show {filename.odp}"
-msgstr "-show {maqaafaayilii.odp}"
+msgstr "-Agarsiisi {filename.odp}"
 
 #: start_parameters.xhp%23par_id3153838.80.help.text
 msgid ""
 "Starts with the Impress file <emph>{filename.odp}</emph> and starts the "
 "presentation. Enters edit mode after the presentation."
 msgstr ""
-"Faayilii Toleessaa <emph>{maqaafaayilii.odp}</emph>tiin jalqabee booda "
-"dhiheessa jalqaba. Dhiheessaa booda haalata gulaalliitti seena."
+"Faayilii Toleessaa <emph>{filename.odp}</emph>tiin jalqabee booda dhiheessa "
+"jalqaba. Dhiheessaa booda haalata gulaalliitti seena."
 
 #: start_parameters.xhp%23par_id3156276.13.help.text
 msgid "-minimized"
@@ -2436,7 +2437,7 @@ msgstr "Kaasaa Ariitii Dhaamsa."
 
 #: start_parameters.xhp%23par_id3152479.30.help.text
 msgid "-accept={UNO string}"
-msgstr "-accept={Diraa UNO}"
+msgstr "-Hayama={UNO string}"
 
 #: start_parameters.xhp%23par_id3147130.31.help.text
 msgid ""
@@ -2473,15 +2474,15 @@ msgstr ""
 
 #: start_parameters.xhp%23par_id3159238.36.help.text
 msgid "-p {filename1} {filename2} ..."
-msgstr "-p {maqaafaayilii1} {maqaafaayilii2} ..."
+msgstr "-p {filename1} {filename2} ..."
 
 #: start_parameters.xhp%23par_id3163666.37.help.text
 msgid ""
 "Prints the files <emph>{filename1} {filename2} ...</emph> to the default "
 "printer and ends. The splash screen does not appear."
 msgstr ""
-"Faayiloota <emph>{maqaafaayilii1} {maqaafaayilii2} ...</emph> maxxansaa "
-"durtiitiin maxansee xumura. Argiin splashii hin mul'atu."
+"Faayiloota <emph>{filename1} {filename2} ...</emph> maxxansaa durtiitiin "
+"maxansee xumura. Argiin splashii hin mul'atu."
 
 #: start_parameters.xhp%23par_id3150828.49.help.text
 msgctxt "start_parameters.xhp#par_id3150828.49.help.text"
@@ -2494,15 +2495,15 @@ msgstr ""
 
 #: start_parameters.xhp%23par_id3150883.38.help.text
 msgid "-pt {Printername} {filename1} {filename2} ..."
-msgstr "-pt {Maqaamaxansaa} {maqaafaayilii1} {maqaafaayilii2} ..."
+msgstr "-pt {Printername} {filename1} {filename2} ..."
 
 #: start_parameters.xhp%23par_id3155081.50.help.text
 msgid ""
 "Prints the files <emph>{filename1} {filename2} ...</emph> to the printer "
 "<emph>{Printername}</emph> and ends. The splash screen does not appear."
 msgstr ""
-"Faayiloota <emph>{maqaafaayilii1} {maqaafaayilii2} ...</emph> gara maxansaa "
-"<emph>{Maqaamaxansaa}</emph>tti maxansa. Argiin splashii hin mul'atu."
+"Faayiloota <emph>{filename1} {filename2} ...</emph> gara maxansaa "
+"<emph>{Printername}</emph>tti maxansa. Argiin splashii hin mul'atu."
 
 #: start_parameters.xhp%23par_id3153655.51.help.text
 msgctxt "start_parameters.xhp#par_id3153655.51.help.text"
@@ -2515,31 +2516,29 @@ msgstr ""
 
 #: start_parameters.xhp%23par_id3154372.39.help.text
 msgid "-o {filename}"
-msgstr "-o {maqaafaayilii}"
+msgstr "-o {filename}"
 
 #: start_parameters.xhp%23par_id3150309.40.help.text
 msgid "Opens <emph>{filename}</emph> for editing, even if it is a template."
-msgstr "Gulaaluuf <emph>{maqaafaayilii}</emph> bana, qajoojii ta'u illee."
+msgstr "Gulaaluuf <emph>{filename}</emph> bana, qajoojii ta'u illee."
 
 #: start_parameters.xhp%23par_id3151182.54.help.text
 msgid "-view {filename}"
-msgstr "-view {maqaafaayilii}"
+msgstr "-view {filename}"
 
 #: start_parameters.xhp%23par_id3145268.55.help.text
 msgid ""
 "Creates a temporary copy of <emph>{filename}</emph> and opens it read-only."
 msgstr ""
-"Garagalcha ammaafii <emph>{maqaafaayilii}</emph> uumee dubbisuu-qofaatiin "
-"bana."
+"Garagalcha ammaafii <emph>{filename}</emph> uumee dubbisuu-qofaatiin bana."
 
 #: start_parameters.xhp%23par_id3166421.41.help.text
 msgid "-n {filename}"
-msgstr "-n {maqaafaayilii}"
+msgstr "-n {filename}"
 
 #: start_parameters.xhp%23par_id3154259.42.help.text
 msgid "Creates a new document using <emph>{filename}</emph> as a template."
-msgstr ""
-"<emph>{maqaafaayilii}</emph> fayyadamuun galmee haaraa akka qajojiitti uuma."
+msgstr "<emph>{filename}</emph> fayyadamuun galmee haaraa akka qajojiitti uuma."
 
 #: start_parameters.xhp%23par_id3155126.43.help.text
 msgid "-nologo"
@@ -2572,7 +2571,7 @@ msgstr ""
 
 #: start_parameters.xhp%23par_id3153915.45.help.text
 msgid "-display {display}"
-msgstr "-display {agarsiisa}"
+msgstr "-display {display}"
 
 #: start_parameters.xhp%23par_id3146786.46.help.text
 msgid ""
@@ -2581,7 +2580,7 @@ msgid ""
 "start script for the $[officename] software on UNIX based platforms."
 msgstr ""
 "Jijjiiramaa qeeyyaa <emph>AGARSIISA </emph> kan hujeffannoowwan bu'uura UNIX "
-"gara gatii <emph>{agarsiisa }</emph>tti qindeessa. Ulaagaan kuni barruu "
+"gara gatii <emph>{display}</emph> tti qindeessa. Ulaagaan kuni barruu "
 "eegalaa mosajjii $[officename] hujeffannoowwan bu'uura UNIX irratti qofaa "
 "deegarama."
 
