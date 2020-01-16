@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-01-13 19:17+0000\n"
+"PO-Revision-Date: 2020-01-15 19:57+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1578943025.000000\n"
+"X-POOTLE-MTIME: 1579118261.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -5563,6 +5563,11 @@ msgid ""
 "With more than one set of variables the straight line is of the form <item "
 "type=\"literal\">y = a + b1x1 + b2x2 ... + bnxn</item>."
 msgstr ""
+"LINEST -ը գտնում է ուղիղ գիծը <item type=\"literal\">y = a + bx</item> որը "
+"լավագույնս համապատասխանում է տվյալներին, օգտագործելով գծային ռեգրեսիա («"
+"նվազագույն քառակուսիների» մեթոդը): Մեկից ավելի փոփոխականների առկայության "
+"դեպքում, ուղիղ գծի ձևն է <item type=\"literal\">y = a + b1x1 + b2x2 ... + "
+"bnxn</item>։"
 
 #: 04060107.xhp%23par_id3154448.70.help.text
 msgid ""
@@ -5571,12 +5576,19 @@ msgid ""
 "<emph>linearType</emph> defaults to TRUE (the line is not forced through the "
 "origin)."
 msgstr ""
+" եթե<emph>linearType</emph> ԿԵՂԾ է, գտնված ուղիղ գիծը ստիպված է անցնել "
+"ծագման միջոցով (a հաստատունը զրո է, y = bx): Եթե բացակայում է, "
+"<emph>linearType</emph> կանխադրված է որպես ՃԻՇՏ (տողը չի պարտադրվում ծագման "
+"միջոցով):"
 
 #: 04060107.xhp%23par_id3154142.71.help.text
 msgid ""
 "if<emph>stats</emph> is omitted or FALSE only the top line of the statistics "
 "table is returned. If TRUE the entire table is returned."
 msgstr ""
+"եթե<emph>stats</emph> բաց է թողնված կամ Կեղծ է, միայն վիճակագրության "
+"աղյուսակի վերին գիծն է վերադարձվում: Եթե Ճշմարիտ է, ամբողջ աղյուսակն է "
+"վերադարձվում:"
 
 #: 04060107.xhp%23par_id0811200804502261.help.text
 msgid ""
@@ -5585,21 +5597,26 @@ msgid ""
 "caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</defaultinl"
 "ine></switchinline>+Shift+Return rather than just Return)."
 msgstr ""
+"LINEST -ը վերադարձնում է վիճակագրության աղյուսակը (զանգվածը) ինչպես ներքևում "
+"է, և պետք է մուտքագրվի որպես զանգվածի բանաձև (օրինակ ՝ օգտագործելով <"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><d"
+"efaultinline>Ctrl</defaultinline></switchinline>+Shift+Return քան թե "
+"պարզապես Վերադառնալ)։"
 
 #: 04060107.xhp%23par_idN11416.help.text
 msgctxt "04060107.xhp#par_idN11416.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060107.xhp%23par_idN116C6.help.text
 msgctxt "04060107.xhp#par_idN116C6.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23hd_id3154162.72.help.text
 msgctxt "04060107.xhp#hd_id3154162.72.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060107.xhp%23par_id3154176.73.help.text
 msgid ""
@@ -5608,6 +5625,10 @@ msgid ""
 "Select <emph>data_Y</emph>. If you want, you can enter other parameters. "
 "Select <emph>Array</emph> and click <emph>OK</emph>."
 msgstr ""
+"Այս գործառույթը վերադարձնում է զանգվածը և մշակում է այնպես, ինչպես զանգվածի "
+"մյուս գործառույթները: Պատասխանների համար ընտրեք տիրույթը, ապա գործառույթը: "
+"Ընտրեք <emph>data_Y</emph>։ Եթե ցանկանում եք, կարող եք մուտքագրել այլ "
+"պարամետրեր: Ընտրեք <emph>Զանգված</emph> և սեղմեք <emph>ԼԱՎ</emph>։"
 
 #: 04060107.xhp%23par_id3155468.74.help.text
 msgid ""
@@ -5616,263 +5637,266 @@ msgid ""
 "axis. If <emph>stats</emph> does not equal 0, other results are to be "
 "displayed."
 msgstr ""
+"Համակարգի կողմից վերադարձված արդյունքները (եթե <emph>stats</emph> = 0), "
+"առնվազն ցույց կտան ռեգրեսիայի գծի թեքությունը և դրա հատումը Y առանցքի հետ: "
+"Եթե <emph>stats</emph> -ը հավասար չէ 0, պետք է ցուցադրվեն այլ արդյունքներ:"
 
 #: 04060107.xhp%23hd_id3155491.75.help.text
 msgid "Other LINEST Results:"
-msgstr ""
+msgstr "Այլ LINEST արդյունքներ:"
 
 #: 04060107.xhp%23par_id3159291.76.help.text
 msgid "Examine the following examples:"
-msgstr ""
+msgstr "Քննեք հետևյալ օրինակները."
 
 #: 04060107.xhp%23par_id3157922.77.help.text
 msgctxt "04060107.xhp#par_id3157922.77.help.text"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: 04060107.xhp%23par_id3157945.78.help.text
 msgctxt "04060107.xhp#par_id3157945.78.help.text"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: 04060107.xhp%23par_id3152486.79.help.text
 msgctxt "04060107.xhp#par_id3152486.79.help.text"
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: 04060107.xhp%23par_id3152509.80.help.text
 msgctxt "04060107.xhp#par_id3152509.80.help.text"
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: 04060107.xhp%23par_id3152532.81.help.text
 msgctxt "04060107.xhp#par_id3152532.81.help.text"
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: 04060107.xhp%23par_id3153431.82.help.text
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: 04060107.xhp%23par_id3153454.83.help.text
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: 04060107.xhp%23par_id3154995.84.help.text
 msgctxt "04060107.xhp#par_id3154995.84.help.text"
 msgid "<emph>1</emph>"
-msgstr ""
+msgstr "<emph>1</emph>"
 
 #: 04060107.xhp%23par_id3155021.85.help.text
 msgid "<item type=\"input\">x1</item>"
-msgstr ""
+msgstr "<item type=\"input\">x1</item>"
 
 #: 04060107.xhp%23par_id3155044.86.help.text
 msgid "<item type=\"input\">x2</item>"
-msgstr ""
+msgstr "<item type=\"input\">x2</item>"
 
 #: 04060107.xhp%23par_id3163734.87.help.text
 msgid "<item type=\"input\">y</item>"
-msgstr ""
+msgstr "<item type=\"input\">y</item>"
 
 #: 04060107.xhp%23par_id3163766.88.help.text
 msgid "<item type=\"input\">LIN</item><item type=\"input\">EST value</item>"
-msgstr ""
+msgstr "<item type=\"input\">LIN</item><item type=\"input\">EST արժեք</item>"
 
 #: 04060107.xhp%23par_id3145686.89.help.text
 msgctxt "04060107.xhp#par_id3145686.89.help.text"
 msgid "<emph>2</emph>"
-msgstr ""
+msgstr "<emph>2</emph>"
 
 #: 04060107.xhp%23par_id3145713.90.help.text
 msgctxt "04060107.xhp#par_id3145713.90.help.text"
 msgid "<item type=\"input\">4</item>"
-msgstr ""
+msgstr "<item type=\"input\">4</item>"
 
 #: 04060107.xhp%23par_id3145736.91.help.text
 msgctxt "04060107.xhp#par_id3145736.91.help.text"
 msgid "<item type=\"input\">7</item>"
-msgstr ""
+msgstr "<item type=\"input\">7</item>"
 
 #: 04060107.xhp%23par_id3159427.92.help.text
 msgid "<item type=\"input\">100</item>"
-msgstr ""
+msgstr "<item type=\"input\">100</item>"
 
 #: 04060107.xhp%23par_id3159460.93.help.text
 msgid "<item type=\"input\">4,17</item>"
-msgstr ""
+msgstr "<item type=\"input\">4,17</item>"
 
 #: 04060107.xhp%23par_id3159483.94.help.text
 msgid "-<item type=\"input\">3,48</item>"
-msgstr ""
+msgstr "-<item type=\"input\">3,48</item>"
 
 #: 04060107.xhp%23par_id3152381.95.help.text
 msgid "<item type=\"input\">82,33</item>"
-msgstr ""
+msgstr "<item type=\"input\">82,33</item>"
 
 #: 04060107.xhp%23par_id3152408.96.help.text
 msgctxt "04060107.xhp#par_id3152408.96.help.text"
 msgid "<emph>3</emph>"
-msgstr ""
+msgstr "<emph>3</emph>"
 
 #: 04060107.xhp%23par_id3152435.97.help.text
 msgctxt "04060107.xhp#par_id3152435.97.help.text"
 msgid "<item type=\"input\">5</item>"
-msgstr ""
+msgstr "<item type=\"input\">5</item>"
 
 #: 04060107.xhp%23par_id3152458.98.help.text
 msgctxt "04060107.xhp#par_id3152458.98.help.text"
 msgid "<item type=\"input\">9</item>"
-msgstr ""
+msgstr "<item type=\"input\">9</item>"
 
 #: 04060107.xhp%23par_id3155652.99.help.text
 msgid "<item type=\"input\">105</item>"
-msgstr ""
+msgstr "<item type=\"input\">105</item>"
 
 #: 04060107.xhp%23par_id3155684.100.help.text
 msgid "<item type=\"input\">5,46</item>"
-msgstr ""
+msgstr "<item type=\"input\">5,46</item>"
 
 #: 04060107.xhp%23par_id3155707.101.help.text
 msgid "<item type=\"input\">10,96</item>"
-msgstr ""
+msgstr "<item type=\"input\">10,96</item>"
 
 #: 04060107.xhp%23par_id3155730.102.help.text
 msgid "<item type=\"input\">9,35</item>"
-msgstr ""
+msgstr "<item type=\"input\">9,35</item>"
 
 #: 04060107.xhp%23par_id3159506.103.help.text
 msgctxt "04060107.xhp#par_id3159506.103.help.text"
 msgid "<emph>4</emph>"
-msgstr ""
+msgstr "<emph>4</emph>"
 
 #: 04060107.xhp%23par_id3159533.104.help.text
 msgctxt "04060107.xhp#par_id3159533.104.help.text"
 msgid "<item type=\"input\">6</item>"
-msgstr ""
+msgstr "<item type=\"input\">6</item>"
 
 #: 04060107.xhp%23par_id3159556.105.help.text
 msgctxt "04060107.xhp#par_id3159556.105.help.text"
 msgid "<item type=\"input\">11</item>"
-msgstr ""
+msgstr "<item type=\"input\">11</item>"
 
 #: 04060107.xhp%23par_id3159579.106.help.text
 msgid "<item type=\"input\">104</item>"
-msgstr ""
+msgstr "<item type=\"input\">104</item>"
 
 #: 04060107.xhp%23par_id3159611.107.help.text
 msgid "<item type=\"input\">0,87</item>"
-msgstr ""
+msgstr "<item type=\"input\">0,87</item>"
 
 #: 04060107.xhp%23par_id3152606.108.help.text
 msgid "<item type=\"input\">5,06</item>"
-msgstr ""
+msgstr "<item type=\"input\">5,06</item>"
 
 #: 04060107.xhp%23par_id3152629.109.help.text
 msgctxt "04060107.xhp#par_id3152629.109.help.text"
 msgid "<item type=\"input\">#NA</item>"
-msgstr ""
+msgstr "<item type=\"input\">#NA</item>"
 
 #: 04060107.xhp%23par_id3152655.110.help.text
 msgctxt "04060107.xhp#par_id3152655.110.help.text"
 msgid "<emph>5</emph>"
-msgstr ""
+msgstr "<emph>5</emph>"
 
 #: 04060107.xhp%23par_id3152682.111.help.text
 msgctxt "04060107.xhp#par_id3152682.111.help.text"
 msgid "<item type=\"input\">7</item>"
-msgstr ""
+msgstr "<item type=\"input\">7</item>"
 
 #: 04060107.xhp%23par_id3152705.112.help.text
 msgctxt "04060107.xhp#par_id3152705.112.help.text"
 msgid "<item type=\"input\">12</item>"
-msgstr ""
+msgstr "<item type=\"input\">12</item>"
 
 #: 04060107.xhp%23par_id3152728.113.help.text
 msgid "<item type=\"input\">108</item>"
-msgstr ""
+msgstr "<item type=\"input\">108</item>"
 
 #: 04060107.xhp%23par_id3144352.114.help.text
 msgid "<item type=\"input\">13,21</item>"
-msgstr ""
+msgstr "<item type=\"input\">13,21</item>"
 
 #: 04060107.xhp%23par_id3144375.115.help.text
 msgctxt "04060107.xhp#par_id3144375.115.help.text"
 msgid "<item type=\"input\">4</item>"
-msgstr ""
+msgstr "<item type=\"input\">4</item>"
 
 #: 04060107.xhp%23par_id3144398.116.help.text
 msgctxt "04060107.xhp#par_id3144398.116.help.text"
 msgid "<item type=\"input\">#NA</item>"
-msgstr ""
+msgstr "<item type=\"input\">#NA</item>"
 
 #: 04060107.xhp%23par_id3144425.117.help.text
 msgctxt "04060107.xhp#par_id3144425.117.help.text"
 msgid "<emph>6</emph>"
-msgstr ""
+msgstr "<emph>6</emph>"
 
 #: 04060107.xhp%23par_id3144452.118.help.text
 msgctxt "04060107.xhp#par_id3144452.118.help.text"
 msgid "<item type=\"input\">8</item>"
-msgstr ""
+msgstr "<item type=\"input\">8</item>"
 
 #: 04060107.xhp%23par_id3144475.119.help.text
 msgid "<item type=\"input\">15</item>"
-msgstr ""
+msgstr "<item type=\"input\">15</item>"
 
 #: 04060107.xhp%23par_id3144498.120.help.text
 msgid "<item type=\"input\">111</item>"
-msgstr ""
+msgstr "<item type=\"input\">111</item>"
 
 #: 04060107.xhp%23par_id3158233.121.help.text
 msgid "<item type=\"input\">675,45</item>"
-msgstr ""
+msgstr "<item type=\"input\">675,45</item>"
 
 #: 04060107.xhp%23par_id3158256.122.help.text
 msgid "<item type=\"input\">102,26</item>"
-msgstr ""
+msgstr "<item type=\"input\">102,26</item>"
 
 #: 04060107.xhp%23par_id3158279.123.help.text
 msgctxt "04060107.xhp#par_id3158279.123.help.text"
 msgid "<item type=\"input\">#NA</item>"
-msgstr ""
+msgstr "<item type=\"input\">#NA</item>"
 
 #: 04060107.xhp%23par_id3158306.124.help.text
 msgctxt "04060107.xhp#par_id3158306.124.help.text"
 msgid "<emph>7</emph>"
-msgstr ""
+msgstr "<emph>7</emph>"
 
 #: 04060107.xhp%23par_id3158333.125.help.text
 msgctxt "04060107.xhp#par_id3158333.125.help.text"
 msgid "<item type=\"input\">9</item>"
-msgstr ""
+msgstr "<item type=\"input\">9</item>"
 
 #: 04060107.xhp%23par_id3158356.126.help.text
 msgctxt "04060107.xhp#par_id3158356.126.help.text"
 msgid "<item type=\"input\">17</item>"
-msgstr ""
+msgstr "<item type=\"input\">17</item>"
 
 #: 04060107.xhp%23par_id3158379.127.help.text
 msgid "<item type=\"input\">120</item>"
-msgstr ""
+msgstr "<item type=\"input\">120</item>"
 
 #: 04060107.xhp%23par_id3144560.128.help.text
 msgctxt "04060107.xhp#par_id3144560.128.help.text"
 msgid "<emph>8</emph>"
-msgstr ""
+msgstr "<emph>8</emph>"
 
 #: 04060107.xhp%23par_id3144586.129.help.text
 msgctxt "04060107.xhp#par_id3144586.129.help.text"
 msgid "<item type=\"input\">10</item>"
-msgstr ""
+msgstr "<item type=\"input\">10</item>"
 
 #: 04060107.xhp%23par_id3144609.130.help.text
 msgid "<item type=\"input\">19</item>"
-msgstr ""
+msgstr "<item type=\"input\">19</item>"
 
 #: 04060107.xhp%23par_id3144632.131.help.text
 msgid "<item type=\"input\">133</item>"
-msgstr ""
+msgstr "<item type=\"input\">133</item>"
 
 #: 04060107.xhp%23par_id3144687.132.help.text
 msgid ""
@@ -5884,34 +5908,45 @@ msgid ""
 "select the following values in the spreadsheet (or enter them using the "
 "keyboard):"
 msgstr ""
+"A սյունակը պարունակում է մի քանի X1 արժեքներ, B սյունակը՝ մի քանի X2 "
+"արժեքներ և C սյունակը` Y արժեքներ: Դուք արդեն մուտքագրել եք այս արժեքները "
+"աղյուսակում: Այժմ աղյուսակում տեղադրեցիք E2:G6 և ակտիվացրեք <emph>Գրծառույթի "
+"հրաշագործը</emph>: Որպեսզի LINEST գործառույթը աշխատի, պետք է նշեիք "
+"<emph>Զանգված</emph> ընտրավանդակը <emph>Գործառույթի հրաշագործ</emph> -ում: "
+"Հաջորդը, աղյուսակում ընտրեք հետևյալ արժեքները (կամ ստեղնաշարի միջոցով "
+"մուտքագրեք դրանք)."
 
 #: 04060107.xhp%23par_id3158020.133.help.text
 msgid "<emph>data_Y</emph> is C2:C8"
-msgstr ""
+msgstr "<emph>data_Y</emph> C2:C8 է"
 
 #: 04060107.xhp%23par_id3158039.134.help.text
 msgid "<emph>data_X</emph> is A2:B8"
-msgstr ""
+msgstr "<emph>data_X</emph> A2:B8 է"
 
 #: 04060107.xhp%23par_id3158058.135.help.text
 msgid "<emph>linearType</emph> and <emph>stats</emph> are both set to 1."
-msgstr ""
+msgstr "<emph>linearType</emph> և <emph>stats</emph> երկուսն էլ դրված են 1-ի:"
 
 #: 04060107.xhp%23par_id3158084.136.help.text
 msgid ""
 "As soon as you click <emph>OK</emph>, $[officename] Calc will fill the above "
 "example with the LINEST values as shown in the example."
 msgstr ""
+"Հենց կտտացրեք <emph>ԼԱՎ</emph>, $[officename] Calc -ը կլրացնի վերը նշված "
+"օրինակը LINEST արժեքներով, ինչպես ցույց է տրված օրինակում:"
 
 #: 04060107.xhp%23par_id3158106.137.help.text
 msgid ""
 "The formula in the <emph>Formula</emph> Bar corresponds to each cell of the "
 "LINEST array <item type=\"input\">{=LINEST(C2:C8;A2:B8;1;1)}</item>"
 msgstr ""
+"Բանաձևը <emph>Formula</emph> վահանակում համապատասխանում է LINEST զանգվածի <"
+"item type=\"input\">{=LINEST(C2:C8;A2:B8;1;1)}</item> յուրաքանչյուր բջջին"
 
 #: 04060107.xhp%23par_id3158128.138.help.text
 msgid "<emph>This represents the calculated LINEST values:</emph>"
-msgstr ""
+msgstr "<emph>Սա ներկայացնում է հաշվարկված LINEST արժեքները.</emph>"
 
 #: 04060107.xhp%23bm_id3158146.help.text
 msgid ""
@@ -5919,6 +5954,9 @@ msgid ""
 "lines</bookmark_value><bookmark_value>regression lines;LINEST "
 "function</bookmark_value>"
 msgstr ""
+"<bookmark_value>slopes, տե՛ս նաև ռեգրեսիայի "
+"գծերը</bookmark_value><bookmark_value>regression lines;LINEST "
+"function</bookmark_value>"
 
 #: 04060107.xhp%23par_id3158146.139.help.text
 msgid ""
@@ -5926,92 +5964,98 @@ msgid ""
 "The values are given in reverse order; that is, the slope for x2 in E2 and "
 "the slope for x1 in F2."
 msgstr ""
+"E2 և F2: m թեքությունը ռեգրեսիայի գծի y=b+m*x x1 և x2 արժեքների համար։ "
+"Արժեքները տրված են հակադարձ կարգով. այսինքն, E2 -ում x2 -ի թեքությունը և F2 -"
+"ում x1 -ի թեքությունը:"
 
 #: 04060107.xhp%23par_id3158184.140.help.text
 msgid "G2: Intersection b with the y axis."
-msgstr ""
+msgstr "G2: b -ի հատումը y առանցքին։"
 
 #: 04060107.xhp%23bm_id3158204.help.text
 msgid "<bookmark_value>standard errors;array functions</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>standard errors;array functions</bookmark_value>"
 
 #: 04060107.xhp%23par_id3158204.141.help.text
 msgid "E3 and F3: The standard error of the slope value."
-msgstr ""
+msgstr "E3 և F3: Թեքության արժեքի ստանդարտ սխալը:"
 
 #: 04060107.xhp%23par_id3145845.142.help.text
 msgid "G3: The standard error of the intercept"
-msgstr ""
+msgstr "G3: Խաչման ստանդարտ սխալը:"
 
 #: 04060107.xhp%23bm_id3145859.help.text
 msgid "<bookmark_value>RSQ calculations</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>RSQ հաշվարկներ</bookmark_value>"
 
 #: 04060107.xhp%23par_id3145859.143.help.text
 msgid "E4: RSQ"
-msgstr ""
+msgstr "E4: RSQ"
 
 #: 04060107.xhp%23par_id3145880.144.help.text
 msgid "F4: The standard error of the regression calculated for the Y value."
-msgstr ""
+msgstr "F4: Y արժեքի համար հաշվարկված ռեգրեսիայի ստանդարտ սխալը:"
 
 #: 04060107.xhp%23par_id3145894.145.help.text
 msgid "E5: The F value from the variance analysis."
-msgstr ""
+msgstr "E5: Դիսպերսիոն վերլուծությունից F արժեքը:"
 
 #: 04060107.xhp%23par_id3145915.146.help.text
 msgid "F5: The degrees of freedom from the variance analysis."
-msgstr ""
+msgstr "F5: Դիսպերսիոն վերլուծությունից ազատության աստիճանները:"
 
 #: 04060107.xhp%23par_id3145937.147.help.text
 msgid ""
 "E6: The sum of the squared deviation of the estimated Y values from their "
 "linear mean."
 msgstr ""
+"E6: Հաշվարկված Y արժեքների քառակուսի շեղման գումարն իրենց գծային միջինից:"
 
 #: 04060107.xhp%23par_id3145952.148.help.text
 msgid ""
 "F6: The sum of the squared deviation of the estimated Y value from the given "
 "Y values."
-msgstr ""
+msgstr "F6: Գնահատված Y արժեքի քառակուսի շեղման գումարը տրված Y արժեքներից:"
 
 #: 04060107.xhp%23par_idN11B04.help.text
 msgctxt "04060107.xhp#par_idN11B04.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23bm_id1596728.help.text
 msgid "<bookmark_value>LOGEST function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LOGEST function</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3146009.150.help.text
 msgid "LOGEST"
-msgstr ""
+msgstr "LOGEST"
 
 #: 04060107.xhp%23par_id3146037.151.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_RKP\">This function calculates the adjustment of the "
 "entered data as an exponential regression curve (y=b*m^x).</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_RKP\">Այս գործառույթը հաշվարկում է մուտքագրված "
+"տվյալների ճշգրտումը որպես էքսպոնենցիոնալ ռեգրեսիայի կոր (y=b*m^x)։</ahelp>"
 
 #: 04060107.xhp%23hd_id3146056.152.help.text
 msgctxt "04060107.xhp#hd_id3146056.152.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3163123.153.help.text
 msgid "LOGEST(DataY; DataX; FunctionType; Stats)"
-msgstr ""
+msgstr "LOGEST(DataY; DataX; FunctionType; Stats)"
 
 #: 04060107.xhp%23par_id3163137.154.help.text
 msgctxt "04060107.xhp#par_id3163137.154.help.text"
 msgid "<emph>DataY</emph> represents the Y Data array."
-msgstr ""
+msgstr "<emph>DataY</emph> ներկայացնում է Y տվյալների զանգվածը:"
 
 #: 04060107.xhp%23par_id3163155.155.help.text
 msgctxt "04060107.xhp#par_id3163155.155.help.text"
 msgid "<emph>DataX</emph> (optional) represents the X Data array."
-msgstr ""
+msgstr "<emph>DataX</emph> (կամընտրական) ներկայացնում է X տվյալների զանգվածը:"
 
 #: 04060107.xhp%23par_id3163174.156.help.text
 msgid ""
@@ -6019,31 +6063,36 @@ msgid ""
 "form y = m^x will be calculated. Otherwise, y = b*m^x functions will be "
 "calculated."
 msgstr ""
+"<emph>FunctionType</emph> (կամընտրական)։ Եթե Function_Type = 0, "
+"գործառույթները y = m^x ձևում կհաշվարկվեն։ Հակառակ դեպքում, y = b*m^x "
+"գործառույթները կհաշվարկվեն։"
 
 #: 04060107.xhp%23par_id3163196.157.help.text
 msgid ""
 "<emph>Stats</emph> (optional). If Stats=0, only the regression coefficient "
 "is calculated."
 msgstr ""
+"<emph>Stats</emph> (կամընտրական)։ Եթե Stats=0, հաշվարկվում է միայն "
+"ռեգրեսիայի գործակիցը:"
 
 #: 04060107.xhp%23par_idN118F7.help.text
 msgctxt "04060107.xhp#par_idN118F7.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060107.xhp%23par_idN11BC3.help.text
 msgctxt "04060107.xhp#par_idN11BC3.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23hd_id3163216.158.help.text
 msgctxt "04060107.xhp#hd_id3163216.158.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060107.xhp%23par_id3163230.159.help.text
 msgid "See LINEST. However, no square sum will be returned."
-msgstr ""
+msgstr "Տես LINEST։ Այնուամենայնիվ, քառակուսու գումարը չի վերադարձվի:"
 
 #: 04060107.xhp%23bm_id3163286.help.text
 msgid ""
@@ -6051,317 +6100,353 @@ msgid ""
 "products</bookmark_value><bookmark_value>dot "
 "products</bookmark_value><bookmark_value>inner products</bookmark_value>"
 msgstr ""
+"<bookmark_value>SUMPRODUCT function</bookmark_value><bookmark_value>scalar "
+"products</bookmark_value><bookmark_value>dot "
+"products</bookmark_value><bookmark_value>inner products</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3163286.161.help.text
 msgid "SUMPRODUCT"
-msgstr ""
+msgstr "SUMPRODUCT"
 
 #: 04060107.xhp%23par_id3163314.162.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SUMMENPRODUKT\">Multiplies corresponding elements in "
 "the given arrays, and returns the sum of those products.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SUMMENPRODUKT\">Տրված զանգվածներում բազմապատկում է "
+"համապատասխան տարրերը և վերադարձնում գումարը:</ahelp>"
 
 #: 04060107.xhp%23hd_id3163334.163.help.text
 msgctxt "04060107.xhp#hd_id3163334.163.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3163347.164.help.text
 msgid "SUMPRODUCT(Array1; Array2...Array30)"
-msgstr ""
+msgstr "SUMPRODUCT(Array1; Array2...Array30)"
 
 #: 04060107.xhp%23par_id3163362.165.help.text
 msgid ""
 "<emph>Array1, Array2...Array30</emph> represent arrays whose corresponding "
 "elements are to be multiplied."
 msgstr ""
+"<emph>Array1, Array2...Array30</emph> ներկայացնում են զանգվածներ, որոնց "
+"համապատասխան տարրերը պետք է բազմապատկվեն:"
 
 #: 04060107.xhp%23par_idN11B19.help.text
 msgid ""
 "At least one array must be part of the argument list. If only one array is "
 "given, all array elements are summed."
 msgstr ""
+"Առնվազն մեկ զանգվածը պետք է լինի փաստարկների ցանկի մի մասը: Եթե տրված է "
+"միայն մեկ զանգված, ապա զանգվածի բոլոր տարրերն գումարվում են:"
 
 #: 04060107.xhp%23par_idN11B1C.help.text
 msgctxt "04060107.xhp#par_idN11B1C.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060107.xhp%23par_idN11B2F.help.text
 msgctxt "04060107.xhp#par_idN11B2F.help.text"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: 04060107.xhp%23par_idN11B35.help.text
 msgctxt "04060107.xhp#par_idN11B35.help.text"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: 04060107.xhp%23par_idN11B3B.help.text
 msgctxt "04060107.xhp#par_idN11B3B.help.text"
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: 04060107.xhp%23par_idN11B41.help.text
 msgctxt "04060107.xhp#par_idN11B41.help.text"
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: 04060107.xhp%23par_idN11B48.help.text
 msgctxt "04060107.xhp#par_idN11B48.help.text"
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: 04060107.xhp%23par_idN11B4E.help.text
 msgctxt "04060107.xhp#par_idN11B4E.help.text"
 msgid "<item type=\"input\">2</item>"
-msgstr ""
+msgstr "<item type=\"input\">2</item>"
 
 #: 04060107.xhp%23par_idN11B54.help.text
 msgctxt "04060107.xhp#par_idN11B54.help.text"
 msgid "<item type=\"input\">3</item>"
-msgstr ""
+msgstr "<item type=\"input\">3</item>"
 
 #: 04060107.xhp%23par_idN11B5A.help.text
 msgctxt "04060107.xhp#par_idN11B5A.help.text"
 msgid "<item type=\"input\">4</item>"
-msgstr ""
+msgstr "<item type=\"input\">4</item>"
 
 #: 04060107.xhp%23par_idN11B60.help.text
 msgctxt "04060107.xhp#par_idN11B60.help.text"
 msgid "<item type=\"input\">5</item>"
-msgstr ""
+msgstr "<item type=\"input\">5</item>"
 
 #: 04060107.xhp%23par_idN11B67.help.text
 msgctxt "04060107.xhp#par_idN11B67.help.text"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: 04060107.xhp%23par_idN11B6D.help.text
 msgctxt "04060107.xhp#par_idN11B6D.help.text"
 msgid "<item type=\"input\">6</item>"
-msgstr ""
+msgstr "<item type=\"input\">6</item>"
 
 #: 04060107.xhp%23par_idN11B73.help.text
 msgctxt "04060107.xhp#par_idN11B73.help.text"
 msgid "<item type=\"input\">7</item>"
-msgstr ""
+msgstr "<item type=\"input\">7</item>"
 
 #: 04060107.xhp%23par_idN11B79.help.text
 msgctxt "04060107.xhp#par_idN11B79.help.text"
 msgid "<item type=\"input\">8</item>"
-msgstr ""
+msgstr "<item type=\"input\">8</item>"
 
 #: 04060107.xhp%23par_idN11B7F.help.text
 msgctxt "04060107.xhp#par_idN11B7F.help.text"
 msgid "<item type=\"input\">9</item>"
-msgstr ""
+msgstr "<item type=\"input\">9</item>"
 
 #: 04060107.xhp%23par_idN11B86.help.text
 msgctxt "04060107.xhp#par_idN11B86.help.text"
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: 04060107.xhp%23par_idN11B8C.help.text
 msgctxt "04060107.xhp#par_idN11B8C.help.text"
 msgid "<item type=\"input\">10</item>"
-msgstr ""
+msgstr "<item type=\"input\">10</item>"
 
 #: 04060107.xhp%23par_idN11B92.help.text
 msgctxt "04060107.xhp#par_idN11B92.help.text"
 msgid "<item type=\"input\">11</item>"
-msgstr ""
+msgstr "<item type=\"input\">11</item>"
 
 #: 04060107.xhp%23par_idN11B98.help.text
 msgctxt "04060107.xhp#par_idN11B98.help.text"
 msgid "<item type=\"input\">12</item>"
-msgstr ""
+msgstr "<item type=\"input\">12</item>"
 
 #: 04060107.xhp%23par_idN11B9E.help.text
 msgid "<item type=\"input\">13</item>"
-msgstr ""
+msgstr "<item type=\"input\">13</item>"
 
 #: 04060107.xhp%23par_idN11BA1.help.text
 msgid "<item type=\"input\">=SUMPRODUCT(A1:B3;C1:D3)</item> returns 397."
 msgstr ""
+"<item type=\"input\">=SUMPRODUCT(A1:B3;C1:D3)</item> վերադարձնում է 397."
 
 #: 04060107.xhp%23par_idN11BA4.help.text
 msgid "Calculation: A1*C1 + B1*D1 + A2*C2 + B2*D2 + A3*C3 + B3*D3"
-msgstr ""
+msgstr "Հաշվարկ: A1*C1 + B1*D1 + A2*C2 + B2*D2 + A3*C3 + B3*D3"
 
 #: 04060107.xhp%23par_idN11BA7.help.text
 msgid "You can use SUMPRODUCT to calculate the scalar product of two vectors."
 msgstr ""
+"Երկու վեկտորների մասշտաբային արտադրանքը հաշվարկելու համար կարող եք "
+"օգտագործել SUMPRODUCT -ը:"
 
 #: 04060107.xhp%23par_idN11BBC.help.text
 msgid ""
 "SUMPRODUCT returns a single number, it is not necessary to enter the "
 "function as an array function."
 msgstr ""
+"SUMPRODUCT- ը վերադարձնում է մեկ թիվ, չկա անհրաժեշտություն գործառույթը "
+"մուտքագրել որպես զանգվածի գործառույթ:"
 
 #: 04060107.xhp%23par_idN11C91.help.text
 msgctxt "04060107.xhp#par_idN11C91.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23bm_id3144842.help.text
 msgid "<bookmark_value>SUMX2MY2 function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SUMX2MY2 function</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3144842.169.help.text
 msgid "SUMX2MY2"
-msgstr ""
+msgstr "SUMX2MY2"
 
 #: 04060107.xhp%23par_id3144871.170.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SUMMEX2MY2\">Returns the sum of the difference of "
 "squares of corresponding values in two arrays.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SUMMEX2MY2\">Վերադարձնում է համապատասխան արժեքների "
+"քառակուսիների տարբերության գումարը երկու զանգվածով:</ahelp>"
 
 #: 04060107.xhp%23hd_id3144889.171.help.text
 msgctxt "04060107.xhp#hd_id3144889.171.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3144903.172.help.text
 msgid "SUMX2MY2(ArrayX; ArrayY)"
-msgstr ""
+msgstr "SUMX2MY2(ArrayX; ArrayY)"
 
 #: 04060107.xhp%23par_id3144916.173.help.text
 msgid ""
 "<emph>ArrayX</emph> represents the first array whose elements are to be "
 "squared and added."
 msgstr ""
+"<emph>ArrayX</emph> ներկայացնում է առաջին զանգվածը, որի տարրերը պետք է "
+"քառակուսի բարձրացվեն և ավելացվեն:"
 
 #: 04060107.xhp%23par_id3144936.174.help.text
 msgid ""
 "<emph>ArrayY</emph> represents the second array whose elements are to be "
 "squared and subtracted."
 msgstr ""
+"<emph>ArrayY</emph> ներկայացնում է երկրորդ զանգվածը, որի տարրերը պետք է "
+"քառակուսի բարձրացվեն և հանվեն:"
 
 #: 04060107.xhp%23par_idN11D6B.help.text
 msgctxt "04060107.xhp#par_idN11D6B.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23bm_id3145026.help.text
 msgid "<bookmark_value>SUMX2PY2 function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SUMX2PY2 function</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3145026.178.help.text
 msgid "SUMX2PY2"
-msgstr ""
+msgstr "SUMX2PY2"
 
 #: 04060107.xhp%23par_id3145055.179.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SUMMEX2PY2\">Returns the sum of the sum of squares of "
 "corresponding values in two arrays.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SUMMEX2PY2\">Վերադարձնում է համապատասխան արժեքների "
+"քառակուսիների գումարի գումարը երկու զանգվածով:</ahelp>"
 
 #: 04060107.xhp%23hd_id3163390.180.help.text
 msgctxt "04060107.xhp#hd_id3163390.180.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3163404.181.help.text
 msgid "SUMX2PY2(ArrayX; ArrayY)"
-msgstr ""
+msgstr "SUMX2PY2(ArrayX; ArrayY)"
 
 #: 04060107.xhp%23par_id3163417.182.help.text
 msgid ""
 "<emph>ArrayX</emph> represents the first array whose arguments are to be "
 "squared and added."
 msgstr ""
+"<emph>ArrayX</emph> Ներկայացնում է առաջին զանգվածը, որի փաստարկները պետք է "
+"քառակուսի բարձրացվեն և գումարվեն։"
 
 #: 04060107.xhp%23par_id3163437.183.help.text
 msgid ""
 "<emph>ArrayY</emph> represents the second array, whose elements are to be "
 "squared and added."
 msgstr ""
+"<emph>ArrayY</emph> ներկայացնում է երկրորդ զանգվածը, որի տարրերը պետք է "
+"քառակուսի բարձրացվեն և գումարվեն:"
 
 #: 04060107.xhp%23par_idN11E45.help.text
 msgctxt "04060107.xhp#par_idN11E45.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23bm_id3163527.help.text
 msgid "<bookmark_value>SUMXMY2 function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SUMXMY2 function</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3163527.187.help.text
 msgid "SUMXMY2"
-msgstr ""
+msgstr "SUMXMY2"
 
 #: 04060107.xhp%23par_id3163556.188.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SUMMEXMY2\">Adds the squares of the variance between "
 "corresponding values in two arrays.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SUMMEXMY2\">Ավելացնում է երկու զանգվածների "
+"համապատասխան արժեքների միջև եղած քառակուսիների դիսպերսիան:</ahelp>"
 
 #: 04060107.xhp%23hd_id3163574.189.help.text
 msgctxt "04060107.xhp#hd_id3163574.189.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3163588.190.help.text
 msgid "SUMXMY2(ArrayX; ArrayY)"
-msgstr ""
+msgstr "SUMXMY2(ArrayX; ArrayY)"
 
 #: 04060107.xhp%23par_id3163601.191.help.text
 msgid ""
 "<emph>ArrayX</emph> represents the first array whose elements are to be "
 "subtracted and squared."
 msgstr ""
+"<emph>ArrayX</emph> ներկայացնում է առաջին զանգվածը, որի տարրերը պետք է "
+"հանվեն և քառակուսի բարձրացվեն:"
 
 #: 04060107.xhp%23par_id3163621.192.help.text
 msgid ""
 "<emph>ArrayY</emph> represents the second array, whose elements are to be "
 "subtracted and squared."
 msgstr ""
+"<emph>ArrayY</emph> ներկայացնում է երկրորդ զանգվածը, որի տարրերը պետք է "
+"հանվեն և քառակուսի բարձրացվեն:"
 
 #: 04060107.xhp%23par_idN11F1F.help.text
 msgctxt "04060107.xhp#par_idN11F1F.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23bm_id3166062.help.text
 msgid "<bookmark_value>TREND function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TREND function</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3166062.196.help.text
 msgid "TREND"
-msgstr ""
+msgstr "TREND"
 
 #: 04060107.xhp%23par_id3166091.197.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_TREND\">Returns values along a linear trend.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TREND\">Վերադարձնում է արժեքները գծային միտման "
+"երկայնքով:</ahelp>"
 
 #: 04060107.xhp%23hd_id3166109.198.help.text
 msgctxt "04060107.xhp#hd_id3166109.198.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3166122.199.help.text
 msgid "TREND(DataY; DataX; NewDataX; LinearType)"
-msgstr ""
+msgstr "TREND(DataY; DataX; NewDataX; LinearType)"
 
 #: 04060107.xhp%23par_id3166137.200.help.text
 msgctxt "04060107.xhp#par_id3166137.200.help.text"
 msgid "<emph>DataY</emph> represents the Y Data array."
-msgstr ""
+msgstr "<emph>DataY</emph> ներկայացնում է տվյալների Y զանգվածը:"
 
 #: 04060107.xhp%23par_id3166156.201.help.text
 msgctxt "04060107.xhp#par_id3166156.201.help.text"
 msgid "<emph>DataX</emph> (optional) represents the X Data array."
-msgstr ""
+msgstr "<emph>DataX</emph> (կամընտրական) ներկայացնում է տվյալների X զանգվածը:"
 
 #: 04060107.xhp%23par_id3166176.202.help.text
 msgid ""
 "<emph>NewDataX</emph> (optional) represents the array of the X data, which "
 "are used for recalculating values."
 msgstr ""
+"<emph>NewDataX</emph> (կամընտրական) ներկայացնում է տվյալների X զանգվածը, "
+"որոնք օգտագործված են արժեքների վերահաշվարկման համար։"
 
 #: 04060107.xhp%23par_id3166196.203.help.text
 msgid ""
@@ -6369,21 +6454,24 @@ msgid ""
 "calculated through the zero point. Otherwise, offset lines will also be "
 "calculated. The default is LinearType <> 0."
 msgstr ""
+"<emph>LinearType</emph>(Կամընտրական)։ Եթե LinearType = 0, ապա տողերը "
+"կհաշվարկվեն զրոյական կետով: Հակառակ դեպքում հաշվարկվելու են նաև շեղումով "
+"գծերը: Լռելյայն է LinearType <> 0։"
 
 #: 04060107.xhp%23par_idN11D2F.help.text
 msgctxt "04060107.xhp#par_idN11D2F.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060107.xhp%23par_idN12019.help.text
 msgctxt "04060107.xhp#par_idN12019.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23hd_id3166231.204.help.text
 msgctxt "04060107.xhp#hd_id3166231.204.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060107.xhp%23par_id3166245.205.help.text
 msgid ""
@@ -6392,47 +6480,57 @@ msgid ""
 "<emph>Array</emph> field. click <emph>OK</emph>. The trend data calculated "
 "from the output data is displayed."
 msgstr ""
+"Ընտրեք փռված թերթիկի միջակայքը, որում կհայտնվեն միտումային տվյալները: Ընտրեք "
+"գործառույթը: Մուտքագրեք ելքային տվյալները, կամ ընտրեք այն մկնիկով: Նշեք "
+"<emph>Զանգված </emph> դաշտը: Կտտացրեք <emph>ԼԱՎ</emph>: Ցուցադրվում են "
+"ելքային տվյալներից հաշվարկված միտումային տվյալները:"
 
 #: 04060107.xhp%23bm_id3166317.help.text
 msgid ""
 "<bookmark_value>GROWTH function</bookmark_value><bookmark_value>exponential "
 "trends in arrays</bookmark_value>"
 msgstr ""
+"<bookmark_value>GROWTH function</bookmark_value><bookmark_value>էքսպոնենցիալ "
+"միտումներ զանգվածներում</bookmark_value>"
 
 #: 04060107.xhp%23hd_id3166317.207.help.text
 msgid "GROWTH"
-msgstr ""
+msgstr "GROWTH"
 
 #: 04060107.xhp%23par_id3166346.208.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_VARIATION\">Calculates the points of an exponential "
 "trend in an array.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VARIATION\">Հաշվում է զանգվածում էքսպոնենցիալ միտման "
+"կետերը:</ahelp>"
 
 #: 04060107.xhp%23hd_id3166364.209.help.text
 msgctxt "04060107.xhp#hd_id3166364.209.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060107.xhp%23par_id3166377.210.help.text
 msgid "GROWTH(DataY; DataX; NewDataX; FunctionType)"
-msgstr ""
+msgstr "GROWTH(DataY; DataX; NewDataX; FunctionType)"
 
 #: 04060107.xhp%23par_id3166392.211.help.text
 msgctxt "04060107.xhp#par_id3166392.211.help.text"
 msgid "<emph>DataY</emph> represents the Y Data array."
-msgstr ""
+msgstr "<emph>DataY</emph> ներկայացնում է տվյալների Y զանգվածը:"
 
 #: 04060107.xhp%23par_id3166411.212.help.text
 msgctxt "04060107.xhp#par_id3166411.212.help.text"
 msgid "<emph>DataX</emph> (optional) represents the X Data array."
-msgstr ""
+msgstr "<emph>DataX</emph> (կամընտրական) ներկայացնում է տվյալների X զանգվածը։"
 
 #: 04060107.xhp%23par_id3173797.213.help.text
 msgid ""
 "<emph>NewDataX</emph> (optional) represents the X data array, in which the "
 "values are recalculated."
 msgstr ""
+"<emph>NewDataX</emph> (կամընտրական) ներկայացնում է տվյալների X զանգվածը, "
+"որում արժեքները վերահաշվարկվում են:"
 
 #: 04060107.xhp%23par_id3173817.214.help.text
 msgid ""
@@ -6440,21 +6538,24 @@ msgid ""
 "form y = m^x will be calculated. Otherwise, y = b*m^x functions will be "
 "calculated."
 msgstr ""
+"<emph>FunctionType</emph>(կամընտրական)։ Եթե FunctionType = 0, գործառույթները "
+"y = m^x ձևում կհաշվարկվեն։ Հակառակ դեպքում, y = b*m^x գործառույթները "
+"կհաշվարկվեն:"
 
 #: 04060107.xhp%23par_idN11DFD.help.text
 msgctxt "04060107.xhp#par_idN11DFD.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060107.xhp%23par_idN12113.help.text
 msgctxt "04060107.xhp#par_idN12113.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#moreontop\"/>"
 
 #: 04060107.xhp%23hd_id3173839.215.help.text
 msgctxt "04060107.xhp#hd_id3173839.215.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060107.xhp%23par_id3173852.216.help.text
 msgid ""
@@ -6463,11 +6564,15 @@ msgid ""
 "select the function. Select DataY. Enter any other parameters, mark "
 "<emph>Array</emph> and click <emph>OK</emph>."
 msgstr ""
+"Այս գործառույթը վերադարձնում է զանգվածը և մշակվում է ինչպես զանգվածի այլ "
+"գործառույթները: Ընտրեք միջակայքը, որտեղ ցանկանում եք, որ պատասխանները "
+"հայտնվեն և ընտրեք գործառույթը: Ընտրեք DataY: Մուտքագրեք ցանկացած այլ "
+"պարամետրներ, նշեք <emph>Զանգված</emph> և կտտացրեք <emph>ԼԱՎ</emph>:"
 
 #: 05070500.xhp%23tit.help.text
 msgctxt "05070500.xhp#tit.help.text"
 msgid "Sheet"
-msgstr ""
+msgstr "Թերթիկ"
 
 #: 05070500.xhp%23bm_id3150542.help.text
 msgid ""
@@ -6475,10 +6580,13 @@ msgid ""
 "printing</bookmark_value><bookmark_value>printing; page "
 "order</bookmark_value>"
 msgstr ""
+"<bookmark_value>pages; order when "
+"printing</bookmark_value><bookmark_value>printing; page "
+"order</bookmark_value>"
 
 #: 05070500.xhp%23hd_id3156329.1.help.text
 msgid "<link href=\"text/scalc/01/05070500.xhp\" name=\"Sheet\">Sheet</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/05070500.xhp\" name=\"Թերթիկ\">Թերթիկ</link>"
 
 #: 05070500.xhp%23par_id3151384.2.help.text
 msgid ""
@@ -6486,29 +6594,34 @@ msgid ""
 "printout of all sheets with the current Page Style. Additionally, you can "
 "set the print order, the first page number, and the page scale.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SCPAGE_TABLE\">Որոշում է այն բոլոր տարրերը, որոնք "
+"ընդգրկվելու են բոլոր թերթիկների տպման մեջ համաձայն ընթացիկ Էջի Ոճի: Բացի "
+"այդ, կարող եք սահմանել տպման կարգը, առաջին էջի համարը և էջի սանդղակը:</ahelp>"
 
 #: 05070500.xhp%23hd_id3150542.3.help.text
 msgctxt "05070500.xhp#hd_id3150542.3.help.text"
 msgid "Print"
-msgstr ""
+msgstr "Տպել"
 
 #: 05070500.xhp%23par_id3125863.4.help.text
 msgid "Defines which elements of the spreadsheet are to be printed."
-msgstr ""
+msgstr "Սահմանում է, թե փռված թերթիկի որ տարրերն են տպվելու:"
 
 #: 05070500.xhp%23hd_id3151041.5.help.text
 msgid "Column and row headers"
-msgstr ""
+msgstr "Սյունակի և տողի գլխավերնագրերը"
 
 #: 05070500.xhp%23par_id3147228.6.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_HEADER\">Specifies whether you "
 "want the column and row headers to be printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_HEADER\">Նշում է, արդյոք "
+"ցանկանում եք, որ սյունակի և տողի գլխավերնագրերը տպվեն:</ahelp>"
 
 #: 05070500.xhp%23hd_id3150439.7.help.text
 msgid "Grid"
-msgstr ""
+msgstr "Ցանց"
 
 #: 05070500.xhp%23par_id3147436.8.help.text
 msgid ""
@@ -6520,11 +6633,18 @@ msgid ""
 "href=\"text/shared/optionen/01060100.xhp\" name=\"View\""
 "><emph>View</emph></link> - <emph>Grid lines</emph>."
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_GRID\">Տպում է անհատական "
+"բջիջների սահմանները, որպես ցանց:</ahelp> Պաստառին դիտման համար, կատարեք "
+"ընտրությունը <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%"
+"PRODUCTNAME - Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - %PRODUCTNAME Calc</emph> - <link "
+"href=\"text/shared/optionen/01060100.xhp\" name=\"Դիտել\""
+"><emph>Դիտել</emph></link> - <emph>Ցանցի տողերը</emph> այստեղից։"
 
 #: 05070500.xhp%23hd_id3145750.9.help.text
 msgctxt "05070500.xhp#hd_id3145750.9.help.text"
 msgid "Comments"
-msgstr ""
+msgstr "Մեկնաբանություններ"
 
 #: 05070500.xhp%23par_id3150010.10.help.text
 msgid ""
@@ -6532,10 +6652,13 @@ msgid ""
 "defined in your spreadsheet.</ahelp> They will be printed on a separate "
 "page, along with the corresponding cell reference."
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_NOTES\">Տպում է ձեր փռված "
+"թերթիկում նշված մեկնաբանությունները:</ahelp> Դրանք կտպվեն առանձին էջում, "
+"բջջի համապատասխան հղման հետ միասին:"
 
 #: 05070500.xhp%23hd_id3154944.11.help.text
 msgid "Objects/graphics"
-msgstr ""
+msgstr "Օբեկտներ/գրաֆիկներ"
 
 #: 05070500.xhp%23par_id3149581.12.help.text
 msgid ""
@@ -6543,105 +6666,125 @@ msgid ""
 "inserted objects (if printable) and graphics with the printed "
 "document.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_OBJECTS\">Ներառում է տեղադրված "
+"բոլոր առարկաները (եթե տպելի են) և գրաֆիկները տպած փաստաթղթով:</ahelp>"
 
 #: 05070500.xhp%23hd_id3149377.13.help.text
 msgid "Charts"
-msgstr ""
+msgstr "Գծապատկերներ"
 
 #: 05070500.xhp%23par_id3148455.14.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_CHARTS\">Prints the charts "
 "that have been inserted into your spreadsheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_CHARTS\">Տպում է փռված "
+"թերթիկում տեղադրված գծապատկերները:</ahelp>"
 
 #: 05070500.xhp%23hd_id3153418.15.help.text
 msgid "Drawing Objects"
-msgstr ""
+msgstr "Նկարելու օբյեկտներ"
 
 #: 05070500.xhp%23par_id3149122.16.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_DRAWINGS\">Includes all "
 "drawing objects in the printed document.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_DRAWINGS\">Ներառում է տպած "
+"փաստաթղթի նկարչության բոլոր առարկաները:</ahelp>"
 
 #: 05070500.xhp%23hd_id3150330.17.help.text
 msgctxt "05070500.xhp#hd_id3150330.17.help.text"
 msgid "Formulas"
-msgstr ""
+msgstr "Բանաձևեր"
 
 #: 05070500.xhp%23par_id3153715.18.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_FORMULAS\">Prints the formulas "
 "contained in the cells, instead of the results.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_FORMULAS\">Արդյունքների "
+"փոխարեն տպում է բջիջներում պարունակվող բանաձևերը:</ahelp>"
 
 #: 05070500.xhp%23hd_id3156385.19.help.text
 msgid "Zero Values"
-msgstr ""
+msgstr "Զրո արժեքներ"
 
 #: 05070500.xhp%23par_id3149258.20.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_NULLVALS\">Specifies that "
 "cells with a zero value are printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_NULLVALS\">Նշում է, որ զրո "
+"արժեք ունեցող բջիջները տպվում են:</ahelp>"
 
 #: 05070500.xhp%23hd_id3154022.21.help.text
 msgid "Page Order"
-msgstr ""
+msgstr "Էջերի հերթականություն"
 
 #: 05070500.xhp%23par_id3166423.22.help.text
 msgid ""
 "Defines the order in which data in a sheet is numbered and printed when it "
 "does not fit on one printed page."
 msgstr ""
+"Սահմանում է թերթիկի տվյալների համարակալման և տպման կարգը, երբ դրանք չեն "
+"տեղավորվում մեկ տպագիր էջում:"
 
 #: 05070500.xhp%23hd_id3152580.23.help.text
 msgid "Top to bottom, then right"
-msgstr ""
+msgstr "Վերևից ներքև, ապա աջ"
 
 #: 05070500.xhp%23par_id3150205.24.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCPAGE_TABLE:BTN_TOPDOWN\">Prints vertically "
 "from the left column to the bottom of the sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCPAGE_TABLE:BTN_TOPDOWN\">Տպվում է "
+"ուղղահայաց, ձախ սյունակից դեպի թերթիկի ներքևի մասը:</ahelp>"
 
 #: 05070500.xhp%23hd_id3150786.25.help.text
 msgid "Left to right, then down"
-msgstr ""
+msgstr "Ձախից աջ, ապա ներքև"
 
 #: 05070500.xhp%23par_id3154657.26.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCPAGE_TABLE:BTN_LEFTRIGHT\">Prints "
 "horizontally from the top row of the sheet to the right column.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCPAGE_TABLE:BTN_LEFTRIGHT\">Տպվում է "
+"հորիզոնական, թերթի վերին տողից դեպի աջ սյունակ:</ahelp>"
 
 #: 05070500.xhp%23hd_id3150887.27.help.text
 msgid "First page number"
-msgstr ""
+msgstr "Առաջին էջի համարը"
 
 #: 05070500.xhp%23par_id3155378.28.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_PAGENO\">Select this option if "
 "you want the first page to start with a number other than 1.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_TABLE:BTN_PAGENO\">Ընտրեք այս տարբերակը, "
+"եթե ցանկանում եք, որ առաջին էջը սկսվի 1-ից այլ թվով:</ahelp>"
 
 #: 05070500.xhp%23par_id3145389.35.help.text
 msgid ""
 "<ahelp hid=\"SC:NUMERICFIELD:RID_SCPAGE_TABLE:ED_PAGENO\">Enter the number "
 "of the first page.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:NUMERICFIELD:RID_SCPAGE_TABLE:ED_PAGENO\">Մուտքագրեք առաջին "
+"էջի համարը:</ahelp>"
 
 #: 05070500.xhp%23hd_id3146978.29.help.text
 msgid "Scale"
-msgstr ""
+msgstr "Մասշտաբ"
 
 #: 05070500.xhp%23par_id3149408.30.help.text
 msgid "Defines a page scale for the printed spreadsheet."
-msgstr ""
+msgstr "Տպած փռված թերթիկի համար սահմանում է էջի սանդղակը:"
 
 #: 05070500.xhp%23par_idN1096D.help.text
 msgid "Scaling mode"
-msgstr ""
+msgstr "Սանդղակավորման ռեժիմ"
 
 #: 05070500.xhp%23par_idN10971.help.text
 msgid ""
@@ -6649,18 +6792,21 @@ msgid ""
 "mode from the list box. Appropriate controls will be shown at the side of "
 "the list box.</ahelp>"
 msgstr ""
+"<ahelp hid=\"sc:ListBox:RID_SCPAGE_TABLE:LB_SCALEMODE\">Ընտրեք մասշտաբի "
+"ռեժիմը ցուցակի վանդակից: Համապատասխան ստուգումները կցուցադրվեն ցուցակի "
+"վանդակի կողքին:</ahelp>"
 
 #: 05070500.xhp%23hd_id3155089.31.help.text
 msgid "Reduce/enlarge printout"
-msgstr ""
+msgstr "Կրճատել/ընդլայնել տպումը"
 
 #: 05070500.xhp%23par_id3159171.32.help.text
 msgid "Specifies a scaling factor to scale all printed pages."
-msgstr ""
+msgstr "Նշում է մասշտաբի գործոնը, բոլոր տպած էջերը սանդղակավորելու համար:"
 
 #: 05070500.xhp%23par_idN1099A.help.text
 msgid "Scaling factor"
-msgstr ""
+msgstr "Սանդղակավորման գործոն"
 
 #: 05070500.xhp%23par_id3152899.36.help.text
 msgid ""
@@ -6668,56 +6814,71 @@ msgid ""
 "hidden\">Enter a scaling factor. Factors less than 100 reduce the pages, "
 "higher factors enlarge the pages.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_METRICFIELD_RID_SCPAGE_TABLE_ED_SCALEALL\" visibility=\""
+"hidden\">Մուտքագրեք մասշտաբի գործոնը: 100-ից պակաս գործոնները կրճատում են "
+"էջերը, ավելի բարձր գործոնները ընդլայնում են էջերը:</ahelp>"
 
 #: 05070500.xhp%23par_idN109B2.help.text
 msgid "Fit print range(s) to width/height"
-msgstr ""
+msgstr "Հարմարեցրեք տպման միջակայք(եր)ը ըստի լայնության/ բարձրության"
 
 #: 05070500.xhp%23par_idN109B5.help.text
 msgid ""
 "Specifies the maximum number of pages horizontally (width) and vertically "
 "(height) on which every sheet with the current Page Style is to be printed. "
 msgstr ""
+"Նշում է էջերի առավելագույն քանակը հորիզոնականով (լայնքով) և ուղղահայացով "
+"(բարձրություն), որոնց վրա պետք է տպվի յուրաքանչյուր թերթ համաձայն ներկայիս "
+"Էջի Ոճի: "
 
 #: 05070500.xhp%23par_idN109BB.help.text
 msgid ""
 "The print ranges are always scaled proportionally, so the resulting number "
 "of pages may be less than specified."
 msgstr ""
+"Տպելու միջակայքերը միշտ չափվում են համամասնորեն, ուստի էջերի արդյունարար "
+"թիվը կարող է պակաս լինել, քան նշված է:"
 
 #: 05070500.xhp%23par_idN109BF.help.text
 msgid ""
 "You may clear one of the boxes, then the unspecified dimension will use as "
 "many pages as necessary."
 msgstr ""
+"Կարող եք մաքրել վանդակներիցց մեկը, ապա չճշտված չափը կօգտագործի այնքան էջ, "
+"որքան անհրաժեշտ է:"
 
 #: 05070500.xhp%23par_idN109C3.help.text
 msgid "If you clear both boxes, this will result in a scaling factor of 100%."
-msgstr ""
+msgstr "Եթե մաքրեք երկու վանդակներն էլ, դա կհանգեցնի մասշտաբի 100% գործոնի:"
 
 #: 05070500.xhp%23par_idN109CE.help.text
 msgid "Width in pages"
-msgstr ""
+msgstr "Լայնությունը էջերով"
 
 #: 05070500.xhp%23par_idN109D1.help.text
 msgid ""
 "<ahelp hid=\"sc:NumericField:RID_SCPAGE_TABLE:ED_SCALEPAGEWIDTH\">Enter the "
 "maximum number of pages to be printed horizontally across.</ahelp>"
 msgstr ""
+"<ahelp hid=\"sc:NumericField:RID_SCPAGE_TABLE:ED_SCALEPAGEWIDTH\">Մուտքագրեք "
+"առավելագույն թվով էջերը, որոնք պետք է տպվեն հորիզոնականով:</ahelp>"
 
 #: 05070500.xhp%23par_idN109E8.help.text
 msgid "Height in pages"
-msgstr ""
+msgstr "Բարձրությունը էջերով"
 
 #: 05070500.xhp%23par_idN109EB.help.text
 msgid ""
 "<ahelp hid=\"sc:NumericField:RID_SCPAGE_TABLE:ED_SCALEPAGEHEIGHT\">Enter the "
 "maximum number of pages to be printed vertically stacked.</ahelp>"
 msgstr ""
+"<ahelp hid=\"sc:NumericField:RID_SCPAGE_TABLE:ED_SCALEPAGEHEIGHT\">"
+"Մուտքագրեք էջերի առավելագույն քանակը, որոնք պետք է տպվեն ուղղահայացորեն "
+"դասավորված:</ahelp>"
 
 #: 05070500.xhp%23hd_id3148868.33.help.text
 msgid "Fit print range(s) on number of pages"
-msgstr ""
+msgstr "Տեղադրեք տպելու միջակայք(ներ)ը էջերի քանակի վրա"
 
 #: 05070500.xhp%23par_id3145074.34.help.text
 msgid ""
@@ -6725,30 +6886,37 @@ msgid ""
 "Page Style is to be printed. The scale will be reduced as necessary to fit "
 "the defined number of pages."
 msgstr ""
+"Նշվում է այն էջերի առավելագույն քանակը, որոնց վրա պետք է տպվի ներկայիս Էջի "
+"Ոճով յուրաքանչյուր թերթ: Սանդղակը կրճատվելու է ըստ անհրաժեշտության, էջերի "
+"սահմանված թիվը տեղավորելու համար:"
 
 #: 05070500.xhp%23par_idN10A26.help.text
 msgid "Number of pages"
-msgstr ""
+msgstr "Էջերի քանակ"
 
 #: 05070500.xhp%23par_id3144507.37.help.text
 msgid ""
 "<ahelp hid=\"SC:NUMERICFIELD:RID_SCPAGE_TABLE:ED_SCALEPAGENUM\">Enter the "
 "maximum number of pages to be printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:NUMERICFIELD:RID_SCPAGE_TABLE:ED_SCALEPAGENUM\">Մուտքագրեք "
+"էջերի առավելագույն քանակը, որոնք պետք է տպվեն:</ahelp>"
 
 #: func_day.xhp%23tit.help.text
 msgid "DAY "
-msgstr ""
+msgstr "DAY "
 
 #: func_day.xhp%23bm_id3147317.help.text
 msgid "<bookmark_value>DAY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DAY function</bookmark_value>"
 
 #: func_day.xhp%23hd_id3147317.106.help.text
 msgid ""
 "<variable id=\"day\"><link href=\"text/scalc/01/func_day.xhp\""
 ">DAY</link></variable>"
 msgstr ""
+"<variable id=\"day\"><link href=\"text/scalc/01/func_day.xhp\""
+">DAY</link></variable>"
 
 #: func_day.xhp%23par_id3147584.107.help.text
 msgid ""
@@ -6756,90 +6924,106 @@ msgid ""
 "day is returned as an integer between 1 and 31. You can also enter a "
 "negative date/time value."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TAG\">Վերադարձնում է տրված ամսաթվի արժեքի օրը:</ahelp> "
+"Օրը վերադարձվում է որպես ամբողջ թիվ 1-ի և 31-ի միջև: Կարող եք մուտքագրել նաև "
+"բացասական ամսաթվի/ժամի արժեքը:"
 
 #: func_day.xhp%23hd_id3150487.108.help.text
 msgctxt "func_day.xhp#hd_id3150487.108.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_day.xhp%23par_id3149430.109.help.text
 msgid "DAY(Number)"
-msgstr ""
+msgstr "DAY(Թիվ)"
 
 #: func_day.xhp%23par_id3149443.110.help.text
 msgid ""
 "<emph>Number</emph>, as a time value, is a decimal, for which the day is to "
 "be returned."
 msgstr ""
+"<emph>Թիվ</emph>, որպես ժամանակային արժեք տասնորդական է, որի համար պետք է "
+"վերադարձվի օրը:"
 
 #: func_day.xhp%23hd_id3163809.111.help.text
 msgid "Examples "
-msgstr ""
+msgstr "Օրինակներ"
 
 #: func_day.xhp%23par_id3151200.112.help.text
 msgid ""
 "DAY(1) returns 31 (since $[officename] starts counting at zero from December "
 "30, 1899)"
 msgstr ""
+"DAY(1) վերադարձնում է 31 ($[officename] սկսում է հաշվել զրոյից դեկտեմբեր 30, "
+"1899 սկսած)"
 
 #: func_day.xhp%23par_id3154130.113.help.text
 msgid "DAY(NOW()) returns the current day."
-msgstr ""
+msgstr "DAY(NOW()) վերադարձնում է ընթացիկ օրը:"
 
 #: func_day.xhp%23par_id3159190.114.help.text
 msgid ""
 "=DAY(C4) returns 5 if you enter 1901-08-05 in cell C4 (the date value might "
 "get formatted differently after you press Enter)."
 msgstr ""
+"=DAY(C4) վերադարձնում է 5, եթե մուտք ես արել 1901-08-05 C4 բջիջում (ամսաթվի "
+"արժեքը կարող է տարբեր կերպ ձևափոխվել Enter սեղմելուց հետո):"
 
 #: 12040500.xhp%23tit.help.text
 msgid "Hide AutoFilter"
-msgstr ""
+msgstr "Թաքցրու AutoFilter"
 
 #: 12040500.xhp%23bm_id3150276.help.text
 msgid "<bookmark_value>database ranges; hiding AutoFilter</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>database ranges; hiding AutoFilter</bookmark_value>"
 
 #: 12040500.xhp%23hd_id3150276.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12040500.xhp\" name=\"Hide AutoFilter\">Hide "
 "AutoFilter</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12040500.xhp\" name=\"Թաքցրու AutoFilter\">"
+"Թաքցրու AutoFilter</link>"
 
 #: 12040500.xhp%23par_id3156326.2.help.text
 msgid ""
 "<ahelp hid=\".uno:DataFilterHideAutoFilter\" visibility=\"visible\">Hides "
 "the AutoFilter buttons in the selected cell range.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DataFilterHideAutoFilter\" visibility=\"visible\">Թաքցնում "
+"է AutoFilter կոճակները ընտրված բջջային միջակայքում:</ahelp>"
 
 #: 05080100.xhp%23tit.help.text
 msgid "Define"
-msgstr ""
+msgstr "Սահմանել"
 
 #: 05080100.xhp%23hd_id3145673.1.help.text
 msgid "<link href=\"text/scalc/01/05080100.xhp\" name=\"Define\">Define</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05080100.xhp\" name=\"Սահմանել\">Սահմանել</link>"
 
 #: 05080100.xhp%23par_id3153896.2.help.text
 msgid ""
 "<ahelp hid=\".uno:DefinePrintArea\">Defines an active cell or selected cell "
 "area as the print range.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DefinePrintArea\">Սահմանում է ակտիվ բջիջը կամ ընտրված "
+"բջջային տարածքը որպես տպելու միջակայք:</ahelp>"
 
 #: 12070100.xhp%23tit.help.text
 msgctxt "12070100.xhp#tit.help.text"
 msgid "Consolidate by"
-msgstr ""
+msgstr "Համախմբվել է"
 
 #: 12070100.xhp%23hd_id3151210.1.help.text
 msgctxt "12070100.xhp#hd_id3151210.1.help.text"
 msgid "Consolidate by"
-msgstr ""
+msgstr "Համախմբվել է"
 
 #: 12070100.xhp%23hd_id3125864.2.help.text
 msgctxt "12070100.xhp#hd_id3125864.2.help.text"
 msgid "Consolidate by"
-msgstr ""
+msgstr "Համախմբվել է"
 
 #: 12070100.xhp%23par_id3154909.3.help.text
 msgid ""
@@ -6847,35 +7031,45 @@ msgid ""
 "labels. You only need to select these options if the consolidation ranges "
 "contain similar labels and the data arranged is arranged differently."
 msgstr ""
+"Օգտագործեք այս բաժինը, եթե բջջային միջակայքերը, որը ցանկանում եք համախմբել, "
+"պարունակում են պիտակներ: Ձեզ հարկավոր է ընտրել միայն այս ընտրանքները, եթե "
+"համախմբման միջակայքերը պարունակում են նման պիտակներ, և տվյալները դասավորված "
+"են այլ կերպ:"
 
 #: 12070100.xhp%23hd_id3153968.4.help.text
 msgid "Row labels"
-msgstr ""
+msgstr "Տողերի պիտակները"
 
 #: 12070100.xhp%23par_id3150441.5.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONSOLIDATE:BTN_BYROW\" visibility=\""
 "visible\">Uses the row labels to arrange the consolidated data.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONSOLIDATE:BTN_BYROW\" visibility=\""
+"visible\">Համախմբված տվյալները դասավորելու համար օգտագործում է տողերի "
+"պիտակները:</ahelp>"
 
 #: 12070100.xhp%23hd_id3146976.6.help.text
 msgid "Column labels"
-msgstr ""
+msgstr "Սյունակների պիտակներ"
 
 #: 12070100.xhp%23par_id3155411.7.help.text
 msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONSOLIDATE:BTN_BYCOL\" visibility=\""
 "visible\">Uses the column labels to arrange the consolidated data.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONSOLIDATE:BTN_BYCOL\" visibility=\""
+"visible\">Համախմբված տվյալները դասավորելու համար օգտագործում է սյունակների "
+"պիտակները:</ahelp>"
 
 #: 12070100.xhp%23hd_id3153191.12.help.text
 msgctxt "12070100.xhp#hd_id3153191.12.help.text"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #: 12070100.xhp%23hd_id3159154.8.help.text
 msgid "Link to source data"
-msgstr ""
+msgstr "Հղում աղբյուրի տվյալների վրա"
 
 #: 12070100.xhp%23par_id3146986.9.help.text
 msgid ""
@@ -6884,26 +7078,30 @@ msgid ""
 "automatically updates the results of the consolidation when the source data "
 "is changed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONSOLIDATE:BTN_REFS\" visibility=\""
+"visible\">Համախմբման միջակայքում առկա տվյալները կապում են աղբյուրի տվյալների "
+"հետ և ինքնաբերաբար թարմացնում են համախմբման արդյունքները, երբ աղբյուրի "
+"տվյալները փոխվում են:</ahelp>"
 
 #: 12070100.xhp%23hd_id3163708.10.help.text
 msgctxt "12070100.xhp#hd_id3163708.10.help.text"
 msgid "More <<"
-msgstr ""
+msgstr "Ավելին <<"
 
 #: 12070100.xhp%23par_id3151118.11.help.text
 msgctxt "12070100.xhp#par_id3151118.11.help.text"
 msgid "Hides the additional options."
-msgstr ""
+msgstr "Թաքցնում է լրացուցիչ ընտրանքները։"
 
 #: 05080300.xhp%23tit.help.text
 msgctxt "05080300.xhp#tit.help.text"
 msgid "Edit Print Ranges"
-msgstr ""
+msgstr "Խմբագրեք տպելու միջակայքերը"
 
 #: 05080300.xhp%23hd_id3153088.1.help.text
 msgctxt "05080300.xhp#hd_id3153088.1.help.text"
 msgid "Edit Print Ranges"
-msgstr ""
+msgstr "Խմբագրեք տպելու միջակայքերը"
 
 #: 05080300.xhp%23par_id3159488.2.help.text
 msgid ""
@@ -6911,21 +7109,27 @@ msgid ""
 "dialog where you can specify the print range.</ahelp></variable> You can "
 "also set the rows or columns which are to be repeated in every page."
 msgstr ""
+"<variable id=\"druckbereichetext\"><ahelp hid=\".uno:EditPrintArea\">Բացվում "
+"է երկխոսությունը, որտեղ կարող եք նշել տպելու տիրույթը։</ahelp></variable> "
+"Կարող եք նաև տեղադրել տողեր կամ սյունակներ, որոնք պետք է կրկնվեն "
+"յուրաքանչյուր էջում:"
 
 #: 05080300.xhp%23par_idN105AE.help.text
 msgid "<embedvar href=\"text/scalc/guide/printranges.xhp#printranges\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/guide/printranges.xhp#printranges\"/>"
 
 #: 05080300.xhp%23hd_id3156281.3.help.text
 msgctxt "05080300.xhp#hd_id3156281.3.help.text"
 msgid "Print range"
-msgstr ""
+msgstr "Տպելու Տիրույթ"
 
 #: 05080300.xhp%23par_id3147228.4.help.text
 msgid ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_AREAS:ED_PRINTAREA\">Allows you to modify a "
 "defined print range.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_AREAS:ED_PRINTAREA\">Թույլ է տալիս փոփոխել "
+"տպելու սահմանված միջակայքը:</ahelp>"
 
 #: 05080300.xhp%23par_id3145174.5.help.text
 msgid ""
@@ -6938,6 +7142,15 @@ msgid ""
 "given a name to a range using the <emph>Insert - Names - Define</emph> "
 "command, this name will be displayed and can be selected from the list box."
 msgstr ""
+"Ընտրեք <emph>-none-</emph> ներկայիս աղյուսակի համար տպիչի միջակայքի "
+"սահմանումը հանելու համար: Ընտրեք <emph>-entire sheet-</emph> ընթացիկ թերթը "
+"որպես տպելու միջակայք սահմանելու համար: Ընտրեք <emph>-selection-</emph> "
+"աղյուսակի ընտրված տարածքը որպես տպելու միջակայք սահմանելու համար: Ընտրելով "
+"<emph>-user-defined-</emph>, կարող եք սահմանել տպելու միջակայքը, որը արդեն "
+"սահմանել եք, օգտագործելով <emph>Ձևաչափ - Տպելու միջակայք - Սահմանել</emph> "
+"հրամանը։ Եթե անուն եք տվել միջակայքին, օգտագործելով <emph>Տեղադրեք - "
+"Անունները - Սահմանել</emph> հրամանը, այս անունը կարտածվի և կարող է ընտրվել "
+"ցուցակի վանդակից:"
 
 #: 05080300.xhp%23par_id3145272.6.help.text
 msgid ""
@@ -6945,10 +7158,13 @@ msgid ""
 "name. If the cursor is in the <emph>Print range</emph> text box, you can "
 "also select the print range in the spreadsheet with your mouse."
 msgstr ""
+"Աջ կողմի տեքստի վանդակում կարող եք մուտքագրել տպելու միջակայքը, ըստ հղման "
+"կամ ըստ անվան: Եթե կուրսորը գտնվում է <emph>Տպման միջակայք</emph> տեքստային "
+"տուփի մեջ, կարող եք նաև ընտրել փռված թերթիկի տպելու միջակայքը մկնիկով:"
 
 #: 05080300.xhp%23hd_id3149260.7.help.text
 msgid "Rows to repeat"
-msgstr ""
+msgstr "Կրկնելու համար տողեր"
 
 #: 05080300.xhp%23par_id3147426.8.help.text
 msgid ""
@@ -6958,16 +7174,24 @@ msgid ""
 "user defined-</emph>. You can also select <emph>-none-</emph> to remove a "
 "defined repeating row."
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_AREAS:ED_REPEATROW\">Ընտրեք մեկ կամ մի քանի "
+"տող, յուրաքանչյուր էջում տպելու համար: Տեքստի աջ վանդակում մուտքագրեք տողի "
+"հղումը, օրինակ՝ \"1\" կամ \"$1\" կամ \"$2:$3\":</ahelp> Ցուցակի վանդակը "
+"արտածում է <emph>-user defined-</emph>։ Կարող եք նաև ընտրել "
+"<emph>-none-</emph> հեռացնելու սահմանված կրկնվող տողը:"
 
 #: 05080300.xhp%23par_id3155418.9.help.text
 msgid ""
 "You can also define repeating rows by dragging the mouse in the spreadsheet, "
 "if the cursor is in the <emph>Rows to repeat</emph> text field in the dialog."
 msgstr ""
+"Կարող եք նաև սահմանել կրկնվող տողերը, մկնիկը աղյուսակում քաշելով, եթե "
+"կուրսորը գտնվում է <emph>Տողեր կրկնելու համար</emph> երկխոսության տեքստի "
+"դաշտում:"
 
 #: 05080300.xhp%23hd_id3149581.10.help.text
 msgid "Columns to repeat"
-msgstr ""
+msgstr "Սյունակներ կրկնելու համար"
 
 #: 05080300.xhp%23par_id3155602.11.help.text
 msgid ""
@@ -6977,6 +7201,11 @@ msgid ""
 "then displays <emph>-user defined-</emph>. You can also select "
 "<emph>-none-</emph> to remove a defined repeating column."
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_AREAS:ED_REPEATCOL\">Ընտրեք մեկ կամ մի քանի "
+"սյունակ, տպելու յուրաքանչյուր էջում: Տեքստի աջ վանդակում մուտքագրեք սյունակի "
+"հղումը, օրինակ, \"A\" կամ \"AB\" կամ \"$C:$E\".</ahelp> Ցուցակի վանդակը "
+"այնուհետև արտածում է <emph>-user defined-</emph>։ Կարող եք նաև ընտրել "
+"<emph>-none-</emph> հեռացնելու համար սահմանված կրկնող սյունակը:"
 
 #: 05080300.xhp%23par_id3150749.12.help.text
 msgid ""
@@ -6984,64 +7213,76 @@ msgid ""
 "spreadsheet, if the cursor is in the <emph>Columns to repeat</emph> text "
 "field in the dialog."
 msgstr ""
+"Կարող եք նաև սահմանել կրկնող սյունակներ, քաշելով մկնիկը փռվող թերթիկում, եթե "
+"կուրսորը գտնվում է <emph>Սյունակներ կրկնելու համար</emph> երկխոսության "
+"տեքստային դաշտում:"
 
 #: func_month.xhp%23tit.help.text
 msgid "MONTH "
-msgstr ""
+msgstr "MONTH "
 
 #: func_month.xhp%23bm_id3149936.help.text
 msgid "<bookmark_value>MONTH function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>MONTH function</bookmark_value>"
 
 #: func_month.xhp%23hd_id3149936.76.help.text
 msgid ""
 "<variable id=\"month\"><link href=\"text/scalc/01/func_month.xhp\""
 ">MONTH</link></variable>"
 msgstr ""
+"<variable id=\"month\"><link href=\"text/scalc/01/func_month.xhp\""
+">MONTH</link></variable>"
 
 #: func_month.xhp%23par_id3153538.77.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_MONAT\">Returns the month for the given date "
 "value.</ahelp> The month is returned as an integer between 1 and 12."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_MONAT\">Ամսաթիվը վերադարձնում է տվյալ ամսաթվի արժեքի "
+"համար:</ahelp> Ամիսը վերադարձվում է որպես ամբողջ թիվ 1-ի և 12-ի միջև:"
 
 #: func_month.xhp%23hd_id3149517.78.help.text
 msgctxt "func_month.xhp#hd_id3149517.78.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_month.xhp%23par_id3145602.79.help.text
 msgid "MONTH(Number)"
-msgstr ""
+msgstr "MONTH(Number)"
 
 #: func_month.xhp%23par_id3149485.80.help.text
 msgid ""
 "<emph>Number</emph>, as a time value, is a decimal for which the month is to "
 "be returned."
 msgstr ""
+"<emph>Թիվ</emph>, որպես ժամանակային արժեք, այն տասնորդական է, որի համար պետք "
+"է վերադարձվի ամիսը:"
 
 #: func_month.xhp%23hd_id3153322.81.help.text
 msgctxt "func_month.xhp#hd_id3153322.81.help.text"
 msgid "Examples"
-msgstr ""
+msgstr "Օրինակներ"
 
 #: func_month.xhp%23par_id3149244.83.help.text
 msgid "=MONTH(NOW()) returns the current month."
-msgstr ""
+msgstr "=MONTH(NOW()) վերադարձնում է ընթացիկ ամիսը։"
 
 #: func_month.xhp%23par_id3154790.84.help.text
 msgid ""
 "=MONTH(C4) returns 7 if you enter 2000-07-07 to cell C4 (that date value "
 "might get formatted differently after you press Enter)."
 msgstr ""
+"=MONTH(C4) վերադարձնում է 7 եթե մուտք անես 2000-07-07 C4 բջիջում (այդ "
+"ամսաթվերի արժեքը կարող է տարբեր կերպ ձևափոխվել, Enter սեղմելուց հետո):"
 
 #: 04070000.xhp%23tit.help.text
 msgid "Names"
-msgstr ""
+msgstr "Անուններ"
 
 #: 04070000.xhp%23hd_id3153951.1.help.text
 msgid "<link href=\"text/scalc/01/04070000.xhp\" name=\"Names\">Names</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070000.xhp\" name=\"Անուններ\">Անուններ</link>"
 
 #: 04070000.xhp%23par_id3145801.2.help.text
 msgid ""
@@ -7051,26 +7292,34 @@ msgid ""
 ">navigate</link> through the spreadsheet documents and find specific "
 "information."
 msgstr ""
+"<ahelp hid=\".\">Թույլ է տալիս անվանել ձեր աղյուսակի փաստաթղթի տարբեր "
+"հատվածները:</ahelp> Տարբեր բաժինները անվանելով, կարող եք հեշտությամբ <link "
+"href=\"text/scalc/01/02110000.xhp\" name=\"նավարկել\">նավարկել</link> փռված "
+"թերթիկի փաստաթղթերի միջով և գտնել որոշակի տեղեկատվություն:"
 
 #: 04070000.xhp%23hd_id3153878.3.help.text
 msgid "<link href=\"text/scalc/01/04070100.xhp\" name=\"Define\">Define</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070100.xhp\" name=\"Սահմանել\">Սահմանել</link>"
 
 #: 04070000.xhp%23hd_id3146969.4.help.text
 msgid "<link href=\"text/scalc/01/04070200.xhp\" name=\"Insert\">Insert</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070200.xhp\" name=\"Ներդրեք\">Ներդրեք</link>"
 
 #: 04070000.xhp%23hd_id3155764.5.help.text
 msgid "<link href=\"text/scalc/01/04070300.xhp\" name=\"Apply\">Apply</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070300.xhp\" name=\"Կիրառել\">Կիրառել</link>"
 
 #: 04070000.xhp%23hd_id3156382.6.help.text
 msgid "<link href=\"text/scalc/01/04070400.xhp\" name=\"Labels\">Labels</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070400.xhp\" name=\"Պիտակներ\">Պիտակներ</link>"
 
 #: 03080000.xhp%23tit.help.text
 msgid "Value Highlighting"
-msgstr ""
+msgstr "Արժեքի կարևորում"
 
 #: 03080000.xhp%23bm_id3151384.help.text
 msgid ""
@@ -7078,28 +7327,38 @@ msgid ""
 "lue>values;highlighting</bookmark_value><bookmark_value>highlighting; values "
 "in sheets</bookmark_value><bookmark_value>colors;values</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; value highlighting</bookmark_value><bookmark_va"
+"lue>values;highlighting</bookmark_value><bookmark_value>highlighting; values "
+"in sheets</bookmark_value><bookmark_value>colors;values</bookmark_value>"
 
 #: 03080000.xhp%23hd_id3151384.help.text
 msgid ""
 "<link href=\"text/scalc/01/03080000.xhp\" name=\"Value Highlighting\">Value "
 "Highlighting</link>"
 msgstr ""
+"<link href=\"text/scalc/01/03080000.xhp\" name=\"Արժեքի կարևորում\">Արժեքի "
+"կարևորում</link>"
 
 #: 03080000.xhp%23par_id3154366.help.text
 msgid ""
 "<ahelp hid=\".uno:ViewValueHighlighting\">Displays cell contents in "
 "different colors, depending on type.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:ViewValueHighlighting\">Ցուցադրում է բջիջի "
+"պարունակությունը տարբեր գույներով, կախված տեսակից:</ahelp>"
 
 #: 03080000.xhp%23par_id3125863.help.text
 msgid "To remove the highlighting, unmark the menu entry."
-msgstr ""
+msgstr "Կարևորումը հեռացնելու համար ապանշեգ ընտրացանկի մուտքը:"
 
 #: 03080000.xhp%23par_id3145785.help.text
 msgid ""
 "Text cells are formatted in black, formulas in green, and number cells in "
 "blue, no matter how their display is formatted."
 msgstr ""
+"Տեքստի բջիջները ձևավորվում են սև գույնով, բանաձևերը` կանաչ գույնով, իսկ "
+"թվային բջիջները` կապույտ, անկախ նրանից, թե ինչպես է ձևավորվում դրանց "
+"արտածումը:"
 
 #: 03080000.xhp%23par_id3153188.help.text
 msgid ""
@@ -7107,21 +7366,26 @@ msgid ""
 "be displayed. When you deactivate the function, the user-defined colors are "
 "displayed again."
 msgstr ""
+"Եթե այս գործառույթը ակտիվ է, գույները, որոնք դուք սահմանում եք փաստաթղթում, "
+"չեն ցուցադրվի: Գործառույթը անջատելիս օգտագործողի կողմից սահմանված գույները "
+"կրկին ցուցադրվում են:"
 
 #: 02140200.xhp%23tit.help.text
 msgctxt "02140200.xhp#tit.help.text"
 msgid "Right"
-msgstr ""
+msgstr "Աջ"
 
 #: 02140200.xhp%23hd_id3153896.1.help.text
 msgid "<link href=\"text/scalc/01/02140200.xhp\" name=\"Right\">Right</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/02140200.xhp\" name=\"Աջ\">Աջ</link>"
 
 #: 02140200.xhp%23par_id3153361.2.help.text
 msgid ""
 "<ahelp hid=\".uno:FillRight\" visibility=\"visible\">Fills a selected range "
 "of at least two columns with the contents of the left most cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:FillRight\" visibility=\"visible\">Լցնում է առնվազն երկու "
+"սյունակի ընտրված միջակայքը, ամենաձախ բջջի պարունակությամբ:</ahelp>"
 
 #: 02140200.xhp%23par_id3154684.3.help.text
 msgid ""
@@ -7129,10 +7393,14 @@ msgid ""
 "are copied to all the other selected cells. If you have selected several "
 "rows, each of the far left cells is copied into those cells to the right."
 msgstr ""
+"Եթե ընտրվում է ընդամենը մեկ տողի միջակայք, ապա հեռավոր ձախ բջիջի "
+"պարունակությունը պատճենվում է մնացած բոլոր ընտրված բջիջների վրա: Եթե ընտրել "
+"եք մի քանի տող, ապա ամենաձախ բջիջներից յուրաքանչյուրը պատճենվում է այդ "
+"բջիջներում դեպի աջ:"
 
 #: solver.xhp%23tit.help.text
 msgid "Solver"
-msgstr ""
+msgstr "Լուծիչ"
 
 #: solver.xhp%23bm_id7654652.help.text
 msgid ""
@@ -7140,18 +7408,26 @@ msgid ""
 "operations;solver</bookmark_value><bookmark_value>back-"
 "solving</bookmark_value><bookmark_value>solver</bookmark_value>"
 msgstr ""
+"<bookmark_value>goal seeking;solver</bookmark_value><bookmark_value>what if "
+"operations;solver</bookmark_value><bookmark_value>back-"
+"solving</bookmark_value><bookmark_value>solver</bookmark_value>"
 
 #: solver.xhp%23hd_id9216284.help.text
 msgid ""
 "<variable id=\"solver\"><link href=\"text/scalc/01/solver.xhp\""
 ">Solver</link></variable>"
 msgstr ""
+"<variable id=\"solver\"><link href=\"text/scalc/01/solver.xhp\""
+">Լուծիչ</link></variable>"
 
 #: solver.xhp%23par_id9210486.help.text
 msgid ""
 "<ahelp hid=\".\">Opens the Solver dialog. A solver allows to solve equations "
 "with multiple unknown variables by goal seeking methods.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Բացում է Լուծիչի երկխոսությունը։ Լուծողը թույլ է տալիս "
+"լուծել բազմաթիվ անհայտ փոփոխականներով հավասարումներ, նպատակների որոնման "
+"մեթոդներով:</ahelp>"
 
 #: solver.xhp%23par_id8538773.help.text
 msgid ""
@@ -7159,52 +7435,68 @@ msgid ""
 "the target cell. This field takes the address of the cell whose value is to "
 "be optimized.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք կամ կտտացրեք թիրախային "
+"բջիջի բջջային տեղեկանքը: Այս դաշտը վերցնում է բջիջի հասցեն, որի արժեքն "
+"օպտիմիզացնելն է:</ahelp>"
 
 #: solver.xhp%23par_id7564012.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Try to solve the equation for a "
 "maximum value of the target cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Փորձեք լուծել հավասարումը թիրախային "
+"բջիջի առավելագույն արժեքի համար:</ahelp>"
 
 #: solver.xhp%23par_id1186254.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Try to solve the equation for a "
 "minimum value of the target cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">TՓորձեք լուծել հավասարումը թիրախային "
+"բջիջի նվազագույն արժեքի համար:</ahelp>"
 
 #: solver.xhp%23par_id7432477.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Try to solve the equation to approach "
 "a given value of the target cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Փորձեք լուծել հավասարումը, որպեսզի "
+"մոտենաք նպատակային բջջի տվյալ արժեքին:</ahelp>"
 
 #: solver.xhp%23par_id7141026.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Enter the value or a cell "
 "reference.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք արժեքը կամ բջիջի "
+"հղումը:</ahelp>"
 
 #: solver.xhp%23par_id8531449.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Enter the cell range that can be "
 "changed.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք բջջային միջակայքը, որը "
+"կարող է փոխվել:</ahelp>"
 
 #: solver.xhp%23par_id9183935.help.text
 msgid "<ahelp hid=\".\" visibility=\"hidden\">Enter a cell reference.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք բջիջի հղումը:</ahelp>"
 
 #: solver.xhp%23par_id946684.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Select an operator from the "
 "list.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Ցանկից ընտրեք օպերատորին:</ahelp>"
 
 #: solver.xhp%23par_id9607226.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Enter a value or a cell "
 "reference.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք արժեքը կամ բջիջի "
+"հղումը:</ahelp>"
 
 #: solver.xhp%23par_id1939451.help.text
 msgid ""
@@ -7212,17 +7504,24 @@ msgid ""
 "dialog. You can click or select cells in the sheet. You can enter a cell "
 "reference manually in the input box.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Կտտացրեք՝ երկխոսությունը նեղացնելու "
+"կամ վերականգնելու համար: Կարող եք սեղմել կամ ընտրել բջիջները թերթում: "
+"Մուտքագրման վանդակում կարող եք ձեռքով մուտքագրել բջիջի հղումը:</ahelp>"
 
 #: solver.xhp%23par_id9038972.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Click to remove the row from the "
 "list. Any rows from below this row move up.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Կտտացրեք՝ տողը ցուցակից հանելու համար:"
+" Այս տողից ներքև ցանկացած տող բարձրանում է վեր:</ahelp>"
 
 #: solver.xhp%23par_id2423780.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Opens the Options dialog.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Բացվում է Ընտրանքների "
+"երկխոսությունը:</ahelp>"
 
 #: solver.xhp%23par_id2569658.help.text
 msgid ""
@@ -7230,10 +7529,13 @@ msgid ""
 "current settings. The dialog settings are retained until you close the "
 "current document.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Կտտացրեք ընթացիկ պարամետրերով "
+"հավասարումը լուծելու համար: Երկխոսության պարամետրերը պահպանվում են, մինչև "
+"չփակեք ընթացիկ փաստաթուղթը:</ahelp>"
 
 #: solver.xhp%23par_id5474410.help.text
 msgid "To solve equations with the solver"
-msgstr ""
+msgstr "Լուծողի հետ հավասարումները լուծել"
 
 #: solver.xhp%23par_id2216559.help.text
 msgid ""
@@ -7242,12 +7544,18 @@ msgid ""
 "also named the \"objective\". You can choose whether the value in the target "
 "cell should be a maximum, a minimum, or approaching a given value."
 msgstr ""
+"Լուծող գործընթացի նպատակն է գտնել հավասարման այն փոփոխական արժեքները, որոնք "
+"հանգեցնում են օպտիմիզացված արժեքի <emph>թիրախ բջիջ</emph>, որը նույնպես "
+"անվանվել է \"օբյեկտիվ\": Կարող եք ընտրել, արդյոք թիրախային բջիջի արժեքը պետք "
+"է լինի առավելագույն, նվազագույն, կամ մոտենալ տվյալ արժեքին:"
 
 #: solver.xhp%23par_id7869502.help.text
 msgid ""
 "The initial variable values are inserted in a rectangular cell range that "
 "you enter in the <emph>By changing cells</emph> box. "
 msgstr ""
+"Նախնական փոփոխական արժեքները տեղադրվում են ուղղանկյուն բջջային տիրույթում, "
+"որը մուտքագրում եք <emph>Բջիջները փոխելու միջոցով</emph> վանդակում։"
 
 #: solver.xhp%23par_id9852900.help.text
 msgid ""
@@ -7258,31 +7566,40 @@ msgid ""
 "integers (values without decimals), or binary values (where only 0 and 1 are "
 "allowed)."
 msgstr ""
+"Կարող եք սահմանել սահմանափակումների մի շարք պայմաններ, որոնք "
+"սահմանափակումներ են առաջացնում որոշ բջիջների համար: Օրինակ, կարող եք "
+"սահմանափակում դնել, որ փոփոխականներից կամ բջիջներից մեկը չպետք է լինի ավելի "
+"մեծ, քան մյուս փոփոխականը, կամ ոչ ավելի, քան տվյալ արժեքից: Կարող եք "
+"սահմանել նաև այն սահմանափակումները, որ մեկ կամ մի քանի փոփոխական պետք է "
+"լինեն ամբողջ թվեր (արժեքներ առանց տասնորդական մասերի) կամ երկուական արժեքներ "
+"(որտեղ թույլատրվում է ընդամենը 0 և 1):"
 
 #: solver.xhp%23par_id5323953.help.text
 msgid "The default solver engine supports only linear equations."
-msgstr ""
+msgstr "Լռելյայն լուծող շարժիչը օժանդակում է միայն գծային հավասարումներին:"
 
 #: 12090101.xhp%23tit.help.text
 msgctxt "12090101.xhp#tit.help.text"
 msgid "Select Data Source"
-msgstr ""
+msgstr "Ընտրեք տվյալների աղբյուրը"
 
 #: 12090101.xhp%23hd_id3143268.1.help.text
 msgctxt "12090101.xhp#hd_id3143268.1.help.text"
 msgid "Select Data Source"
-msgstr ""
+msgstr "Ընտրեք տվյալների աղբյուրը"
 
 #: 12090101.xhp%23par_id3148552.2.help.text
 msgid ""
 "Select the database and the table or query containing the data that you want "
 "to use."
 msgstr ""
+"Ընտրեք տվյալների շտեմարանը և աղյուսակը, կամ հարցումը, որը պարունակում է այն "
+"տվյալները, որոնք ցանկանում եք օգտագործել:"
 
 #: 12090101.xhp%23hd_id3154140.3.help.text
 msgctxt "12090101.xhp#hd_id3154140.3.help.text"
 msgid "Selection"
-msgstr ""
+msgstr "Ընտրություն"
 
 #: 12090101.xhp%23par_id3125863.4.help.text
 msgid ""
@@ -7293,21 +7610,30 @@ msgid ""
 "Options</defaultinline></switchinline> - %PRODUCTNAME Base - "
 "Databases</emph>."
 msgstr ""
+"<ahelp hid=\".\">Կարող եք ընտրել միայն տվյալների այն շտեմարանները, որոնք "
+"գրանցված են %PRODUCTNAME։</ahelp> Տվյալների աղբյուրը գրանցելու համար, ընտրեք "
+"<emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - %PRODUCTNAME Base - "
+"Շտեմարաններ</emph>։"
 
 #: 12090101.xhp%23hd_id3151041.5.help.text
 msgid "Database"
-msgstr ""
+msgstr "Շտեմարան"
 
 #: 12090101.xhp%23par_id3156424.6.help.text
 msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_DATABASE\">Select the database "
 "that contains the data source that you want to use.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_DATABASE\">Ընտրեք այն "
+"շտեմարանը, որը պարունակում է տվյալների աղբյուրը, որը դուք ցանկանում եք "
+"օգտագործել:</ahelp>"
 
 #: 12090101.xhp%23hd_id3147428.9.help.text
 msgctxt "12090101.xhp#hd_id3147428.9.help.text"
 msgid "Type"
-msgstr ""
+msgstr "Տեսակ"
 
 #: 12090101.xhp%23par_id3150010.10.help.text
 msgid ""
@@ -7315,16 +7641,21 @@ msgid ""
 "type to be shown in the data source.</ahelp> You can choose from four source "
 "types: \"Table\", \"Query\" and \"SQL\" or SQL (Native)."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_OBJTYPE\">Ընտրեք աղբյուրի "
+"տեսակը, որը պետք է ցուցադրվի տվյալների աղբյուրում:</ahelp> Կարող եք ընտրել "
+"աղբյուրի չորս տեսակներից՝ «Աղյուսակ», «Հարցում» և «SQL» կամ SQL (բնիկ):"
 
 #: 12090101.xhp%23hd_id3145364.7.help.text
 msgid "Data source"
-msgstr ""
+msgstr "Տվյալի աղբյուր"
 
 #: 12090101.xhp%23par_id3149260.8.help.text
 msgid ""
 "<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DAPIDATA:CB_OBJECT\">Select the data "
 "source that you want to use.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DAPIDATA:CB_OBJECT\">Ընտրեք տվյալների "
+"աղբյուրը, որը ցանկանում եք օգտագործել:</ahelp>"
 
 #: 12090101.xhp%23par_id3147348.11.help.text
 msgctxt "12090101.xhp#par_id3147348.11.help.text"
@@ -7332,10 +7663,12 @@ msgid ""
 "<link href=\"text/scalc/01/12090102.xhp\" name=\"Pivot table dialog\">Pivot "
 "table dialog</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12090102.xhp\" name=\"Առանցքային աղյուսակի "
+"երկխոսություն\">Առանցքային աղյուսակի երկխոսություն</link>"
 
 #: 05100000.xhp%23tit.help.text
 msgid "Styles and Formatting"
-msgstr ""
+msgstr "Ոճեր և ձևավորում"
 
 #: 05100000.xhp%23bm_id3150447.help.text
 msgid ""
@@ -7346,6 +7679,12 @@ msgid ""
 "Formatting window</bookmark_value>         <bookmark_value>paint can for "
 "applying styles</bookmark_value>"
 msgstr ""
+"<bookmark_value>Stylist, see Styles and Formatting window</bookmark_value>"
+"         <bookmark_value>Styles and Formatting window</bookmark_value>"
+"         <bookmark_value>formats; Styles and Formatting "
+"window</bookmark_value>         <bookmark_value>formatting; Styles and "
+"Formatting window</bookmark_value>         <bookmark_value>paint can for "
+"applying styles</bookmark_value>"
 
 #: 05100000.xhp%23hd_id3150447.1.help.text
 msgid ""
