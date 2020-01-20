@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-08-26 11:29+0000\n"
 "Last-Translator: Matthias <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.5.1.3\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1566818968.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "Pro~bar configuración..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Correo electrónico de Combinar correspondencia"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -229,34 +225,37 @@ msgstr "Errores"
 msgid "~Stop"
 msgstr "~Detener"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Probar configuración de la cuenta"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Tarea"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Estado"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Establecer conexión de red"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Buscar servidor de correo saliente"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Correcto"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Error"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -267,28 +266,43 @@ msgstr ""
 "Compruebe la configuración del sistema y la de %PRODUCTNAME. Compruebe el "
 "nombre del servidor, el puerto y la configuración de conexión segura"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Autenticación del servidor"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Probar configuración de la cuenta"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "El servidor de correo saliente (SMTP) requiere au~tenticación"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr ""
 "El servidor de correo saliente (SMTP) requiere una autenticación "
 "~independiente"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Servidor de correo saliente:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Nombre de usuario"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Contraseña"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -298,41 +312,45 @@ msgstr ""
 "servidor de correo ~entrante. Defina la configuración del servidor de correo "
 "entrante."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Servidor de correo entrante:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "Nombre del ~servidor"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "P~uerto"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Tipo"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "Nombre de us~uario"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "Cont~raseña"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Autenticación del servidor"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1171,9 +1189,3 @@ msgstr "Pá~ginas"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "~Selección"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Correo electrónico de Combinar correspondencia"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"

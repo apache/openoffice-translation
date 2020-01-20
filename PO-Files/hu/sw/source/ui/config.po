@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-09-26 10:11+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1569492691.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "~Beállítások tesztelése..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Körlevél e-mailben"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -227,34 +223,37 @@ msgstr "Hibák"
 msgid "~Stop"
 msgstr "Megá~llítás"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Postafiók beállításainak ellenőrzése"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Feladat"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Állapot"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Hálózati kapcsolat létrehozása"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "A kimenő levélkiszolgáló keresése"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Sikeres"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Sikertelen"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -266,26 +265,41 @@ msgstr ""
 "Gondosan nézze át a következő beállításokat: kiszolgálónév, portszám és a "
 "biztonságos kapcsolatok beállításai"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Kiszolgáló hitelesítése"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Postafiók beállításainak ellenőrzése"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "A kimenő levelek kiszolgálója (SMTP) ~hitelesítést igényel"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "A kimenő levelek kiszolgálója (SMTP) ~külön hitelesítést igényel"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Kimenő levelek kiszolgálója:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Felhasználói név"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Jelszó"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -295,41 +309,45 @@ msgstr ""
 "levelek kiszolgálója. Töltse ki a bejövő levelek kiszolgálójának "
 "beállításait."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Beérkező levelek kiszolgálója:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "Kiszolgáló ~neve"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "P~ort"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Típus"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "~Felhasználói név"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "~Jelszó"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Kiszolgáló hitelesítése"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1161,84 +1179,3 @@ msgstr "Ol~dalak"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "~Kijelölés"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Körlevél e-mailben"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"
-
-#~ msgid ""
-#~ "Specifies whether to include colors and objects that are inserted to the "
-#~ "background of the page (Format - Page - Background) in the printed document."
-#~ msgstr ""
-#~ "Megadja, hogy a színek és a háttérben lévő objektumok (Formátum - Oldal - "
-#~ "Háttér) megjelenjenek-e a nyomtatott dokumentumban."
-
-#~ msgid ""
-#~ "Specifies whether the graphics and drawing or OLE objects of your text "
-#~ "document are printed"
-#~ msgstr ""
-#~ "Megadja, hogy a szöveges dokumentumban található képek és grafikus vagy OLE-"
-#~ "objektumok kinyomtatásra kerüljenek-e."
-
-#~ msgid "Enable this option to print text that is marked as hidden."
-#~ msgstr "Engedélyezze ezt a beállítást a rejtett szövegek nyomtatásához."
-
-#~ msgid ""
-#~ "Enable this option to print text placeholders. Disable this option to leave "
-#~ "the text placeholders blank in the printout."
-#~ msgstr ""
-#~ "A jelölőnégyzet bejelölésével engedélyezheti a szöveg helykitöltőinek "
-#~ "nyomtatását. Ha a nyomtatáson a helykitöltőket üresen kívánja hagyni, vegye "
-#~ "le a jelölés a négyzetről."
-
-#~ msgid ""
-#~ "Specifies whether the form control fields of the text document are printed"
-#~ msgstr "Megadja, hogy a dokumentum és űrlap-vezérlőelemei kinyomtatódjanak-e."
-
-#~ msgid "Specifies whether to always print text in black."
-#~ msgstr "Megadja, hogy a nyomtatott szöveg mindig fekete színnel jelenjen-e meg."
-
-#~ msgid ""
-#~ "If this option is enabled automatically inserted blank pages are printed. "
-#~ "This is best if you are printing double-sided. For example, in a book, a "
-#~ "\\\"chapter\\\" paragraph style has been set to always start with an odd "
-#~ "numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME "
-#~ "inserts an even numbered blank page. This option controls whether to print "
-#~ "that even numbered page or not"
-#~ msgstr ""
-#~ "Ha be van kapcsolva, az automatikusan beszúrt üres oldalak ki lesznek "
-#~ "nyomtatva. Ez a legjobb, ha kétoldalas anyagot nyomtat. Például: Egy "
-#~ "könyvben a „fejezet” bekezdésstílus arra van beállítva, hogy mindig páratlan "
-#~ "számú oldalon kezdődjön. Az előző fejezet páratlan oldalon ért véget. Az %"
-#~ "PRODUCTNAME beszúr egy üres, páros oldalt. Ez a beállítás szabályozza, hogy "
-#~ "a nyomtatásba bekerüljön-e ez a páros oldal."
-
-#~ msgid ""
-#~ "For printers with multiple trays this option specifies whether the paper "
-#~ "tray used is specified by the system settings of the printer."
-#~ msgstr ""
-#~ "Olyan nyomtatóknál, amelyeknek több tálcája van, ez a beállítási lehetőség "
-#~ "megadja, hogy a használt papírtálca a nyomtató rendszerbeállításától "
-#~ "függjön-e."
-
-#~ msgid "Specify where to print comments (if any)."
-#~ msgstr "Megadja, hogy hol legyenek a megjegyzések kinyomtatva (ha vannak)."
-
-#~ msgid "Specify which pages to include in the output"
-#~ msgstr "Megadja, hogy mely oldalak legyenek benne a kimenetben."
-
-#~ msgid "Select the Brochure option to print the document in brochure format."
-#~ msgstr ""
-#~ "Jelölje be a „Brosúra” lehetőséget a dokumentum brosúra formátumban való "
-#~ "nyomtatásához."
-
-#~ msgid "Print the whole document."
-#~ msgstr "Kinyomtatja az egész dokumentumot."
-
-#~ msgid "Print a range of pages of the document."
-#~ msgstr "Kinyomtatja a dokumentum megadott részét."
-
-#~ msgid "Print only the selected parts of the document"
-#~ msgstr "Csak a dokumentum kijelölt részeit nyomtatja ki."

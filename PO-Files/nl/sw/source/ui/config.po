@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2019-12-17 13:44+0000\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
+"PO-Revision-Date: 2020-01-19 13:51+0000\n"
 "Last-Translator: Dick Groskamp <digro@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1576590256.000000\n"
+"X-POOTLE-MTIME: 1579441911.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,7 +211,7 @@ msgid "Test S~ettings..."
 msgstr "Instellingen t~esten..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Standaardbrief e-mail"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -226,34 +226,37 @@ msgstr "Fouten"
 msgid "~Stop"
 msgstr "~Stoppen"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Accountinstellingen testen"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Taak"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Status"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Netwerkverbinding maken"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Server voor uitgaande e-mail zoeken"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Geslaagd"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Mislukt"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -265,26 +268,41 @@ msgstr ""
 "Controleer de servernaam, de poort en de instellingen voor beveiligde "
 "verbindingen"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Serververificatie"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Accountinstellingen testen"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "De server voor ui~tgaande e-mail (SMTP) vereist verificatie"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "De ~server voor uitgaande e-mail (SMTP) vereist aparte verificatie"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Server voor uitgaande e-mail:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Gebruikersnaam"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Wachtwoord"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -294,41 +312,45 @@ msgstr ""
 "voor inkomende e-mail. Voer de instellingen voor de server voor inkomende e-"
 "mail in."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Server voor inkomende e-mail:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "~Servernaam"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "P~oort"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Type"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "Gebruik~ersnaam"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "W~achtwoord"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Serververificatie"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"

@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2020-01-08 18:54+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1578509668.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "~Prófa stillingar..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Tölvupóstfang póstsameiningar"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -227,34 +223,37 @@ msgstr "Villur"
 msgid "~Stop"
 msgstr "~Stöðva"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Prófa reikningsstillingar"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Verk"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Staða"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Koma á nettengingu"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Finna póstsendimiðlara"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Tókst"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Mistókst"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -265,26 +264,41 @@ msgstr ""
 "bæði í stýrikerfinu og í %PRODUCTNAME. Athugaðu nafn miðlarans, gáttirnar og "
 "stillingar fyrir öruggar tengingar"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Auðkenni miðlara"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Prófa reikningsstillingar"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "Pós~tsendimiðlarinn (SMTP) krefst auðkenningar"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "Pó~stsendimiðlarinn (SMTP) krefst sérstakrar auðkenningar"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Þjónn fyrir útsendan póst:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Notandanafn"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Lykilorð"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -293,41 +307,45 @@ msgstr ""
 "Póstsendimiðlarinn notar sömu auðkenningu og póstmóttökumiðlarinn. Settu ~"
 "inn stillingar fyrir póstmóttökumiðlarann."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Þjónn fyrir aðsendan póst:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "~Nafn miðlara"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "Gá~tt"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Tegund"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "~Notandanafn"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "~Lykilorð"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Auðkenni miðlara"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1154,82 +1172,3 @@ msgstr "~Síður"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "~Val"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Tölvupóstfang póstsameiningar"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"
-
-#~ msgid ""
-#~ "Specifies whether to include colors and objects that are inserted to the "
-#~ "background of the page (Format - Page - Background) in the printed document."
-#~ msgstr ""
-#~ "Tilgreinir hvort litir og hlutir sem settir hafa verið í bakgrunn síðunnar "
-#~ "(Sníða - Síða - Bakgrunnur) séu hafðir með í útprentun."
-
-#~ msgid ""
-#~ "Specifies whether the graphics and drawing or OLE objects of your text "
-#~ "document are printed"
-#~ msgstr ""
-#~ "Tilgreinir hvort myndirnar og teikningar eða OLE-hlutir í textaskjalinu séu "
-#~ "hafðir með í útprentun"
-
-#~ msgid "Enable this option to print text that is marked as hidden."
-#~ msgstr "Virkjaðu þennan valkost til að prenta texta sem er merktur sem falinn."
-
-#~ msgid ""
-#~ "Enable this option to print text placeholders. Disable this option to leave "
-#~ "the text placeholders blank in the printout."
-#~ msgstr ""
-#~ "Virkjaðu þennan valkost til að prenta textastaðgengla. Taktu þetta af til að "
-#~ "textastaðgenglar prentist út tómir."
-
-#~ msgid ""
-#~ "Specifies whether the form control fields of the text document are printed"
-#~ msgstr "Tilgreinir hvort eyðublaðastýringar á textaskjali verða prentaðar"
-
-#~ msgid "Specifies whether to always print text in black."
-#~ msgstr "Tilgreinir hvort alltaf eigi að prenta texta með svörtum lit."
-
-#~ msgid ""
-#~ "If this option is enabled automatically inserted blank pages are printed. "
-#~ "This is best if you are printing double-sided. For example, in a book, a "
-#~ "\\\"chapter\\\" paragraph style has been set to always start with an odd "
-#~ "numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME "
-#~ "inserts an even numbered blank page. This option controls whether to print "
-#~ "that even numbered page or not"
-#~ msgstr ""
-#~ "Ef þessi möguleiki er virkur, eru sjálfvirkt innsettar auðar síður "
-#~ "prentaðar. Þetta er best ef þú ert að prenta á báðar hliðar blaðsíðna. Til "
-#~ "dæmis, ef verið er að vinna með bók mætti búa til málsgreinastíl með heitinu "
-#~ "\\\"kafli\\\" og er hann þá stilltur þannig að hann byrji alltaf á síðu með "
-#~ "oddatölu. Ef kaflinn á undan endar á blaðsíðu með oddatölu mun %PRODUCTNAME "
-#~ "setja inn auða síðu með jöfnu blaðsíðunúmeri. Þessi möguleiki stýrir hvort "
-#~ "prenta eigi slíka síðu eða ekki"
-
-#~ msgid ""
-#~ "For printers with multiple trays this option specifies whether the paper "
-#~ "tray used is specified by the system settings of the printer."
-#~ msgstr ""
-#~ "Fyrir prentara sem eru með marga pappírsbakka þá skilgreinir þessi valkostur "
-#~ "hvort pappírsbakkinn sem er notaður er skilgreindur af kerfisstillingum "
-#~ "prentarans."
-
-#~ msgid "Specify where to print comments (if any)."
-#~ msgstr "Tilgreindu hvar eigi að prenta athugasemdir (ef einhverjar)."
-
-#~ msgid "Specify which pages to include in the output"
-#~ msgstr "Tilgreindu hvaða síður eigi að hafa með í útprentun"
-
-#~ msgid "Select the Brochure option to print the document in brochure format."
-#~ msgstr "Veldu möguleikann 'Bæklingur' til að prenta skjalið á bæklingsformi."
-
-#~ msgid "Print the whole document."
-#~ msgstr "Prenta allt skjalið."
-
-#~ msgid "Print a range of pages of the document."
-#~ msgstr "Prenta síðuröð úr skjalinu."
-
-#~ msgid "Print only the selected parts of the document"
-#~ msgstr "Prenta einungis valda hluta skjalsins"

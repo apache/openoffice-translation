@@ -5,20 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-07-11 19:03+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1562871793.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -212,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "Preizkusi nastavitv~e ..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Spajanje e-pošte"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -228,34 +223,37 @@ msgstr "Napake"
 msgid "~Stop"
 msgstr "~Ustavi"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Preveri nastavitve računa"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Opravilo"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Stanje"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Vzpostavljanje mrežne povezave"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Iskanje strežnika odhodne pošte"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Uspešno"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Neuspešno"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -266,26 +264,41 @@ msgstr ""
 "Preverite sistemske nastavitve in nastavitve v %PRODUCTNAME. Preverite ime "
 "strežnika, vrata in nastavitve varne povezave"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Overitev strežnika"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Preveri nastavitve računa"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "Strežnik odhodne pošte (SMTP) zahteva overi~tev"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "Strežnik odhodne pošte (SMTP) zahteva ~ločeno overitev"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Strežnik odhodne pošte:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Uporabniško ime"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Geslo"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -294,41 +307,45 @@ msgstr ""
 "Strežnik za odhodno pošto uporablja enako overitev kot strežnik za ~dohodno "
 "pošto. Vnesite nastavitve strežnika za dohodno pošto."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Strežnik dohodne pošte:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "~Ime strežnika"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "Vr~ata"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Vrsta"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "~Uporabniško ime"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "Ges~lo"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Overitev strežnika"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1158,9 +1175,3 @@ msgstr "Stra~ni"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "I~zbor"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Spajanje e-pošte"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"

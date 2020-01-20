@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-07-09 00:04+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1562630662.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,7 +208,7 @@ msgid "Test S~ettings..."
 msgstr "設定をテスト(~E)..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "差し込み印刷電子メール"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -226,34 +223,37 @@ msgstr "エラー"
 msgid "~Stop"
 msgstr "中止(~S)"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "アカウントの設定をテスト"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "タスク"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "ステータス"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "ネットワーク接続の確立"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "送信メールサーバーを検出"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "成功"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "失敗"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -263,67 +263,86 @@ msgstr ""
 "%PRODUCTNAME は送信メールサーバーに接続できませんでした。システム設定と %PRODUCTNAME "
 "の設定をチェックしてください。サーバー名、ポート、接続の保護の設定をチェックします。"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "サーバー認証"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "アカウントの設定をテスト"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "送信メールサーバー (SM~TP) で認証が必要"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "送信メールサーバー (~SMTP) で別の認証が必要"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "送信メールサーバー:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "ユーザー名(~U)"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "パスワード(~P)"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
 "server. Enter the settings of the incoming mail server."
 msgstr "送信メールサーバーでは、受信メールサーバーと同じ認証方式が使用されます。受信メールサーバーの設定を入力してください(~I)。"
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "受信メールサーバー:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "サーバー名(~N)"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "ポート(~O)"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "タイプ"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "ユーザー名(~E)"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "パスワード(~W)"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "サーバー認証"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1149,70 +1168,3 @@ msgstr "ページ(~G)"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "選択した部分(~S)"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "差し込み印刷電子メール"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"
-
-#~ msgid ""
-#~ "Specifies whether to include colors and objects that are inserted to the "
-#~ "background of the page (Format - Page - Background) in the printed document."
-#~ msgstr "ページの背景に指定された色やオブジェクト(書式 - ページ - 背景)を印刷するかどうかを指定します。"
-
-#~ msgid ""
-#~ "Specifies whether the graphics and drawing or OLE objects of your text "
-#~ "document are printed"
-#~ msgstr "図と描画図形またはOLEオブジェクトを印刷するかどうかを指定します。"
-
-#~ msgid "Enable this option to print text that is marked as hidden."
-#~ msgstr "隠しテキストも印刷するときはこのオプションをオンにします。"
-
-#~ msgid ""
-#~ "Enable this option to print text placeholders. Disable this option to leave "
-#~ "the text placeholders blank in the printout."
-#~ msgstr ""
-#~ "テキストのプレースホルダを印刷するときはこのオプションをオンにします。テキストのプレースホルダを空白にして印刷するときはこのオプションをオフにします。"
-
-#~ msgid ""
-#~ "Specifies whether the form control fields of the text document are printed"
-#~ msgstr "ドキュメントのフォームコントロールフィールドを印刷するかどうかを指定します。"
-
-#~ msgid "Specifies whether to always print text in black."
-#~ msgstr "文字をすべて黒で印刷するかどうかを指定します。"
-
-#~ msgid ""
-#~ "If this option is enabled automatically inserted blank pages are printed. "
-#~ "This is best if you are printing double-sided. For example, in a book, a "
-#~ "\\\"chapter\\\" paragraph style has been set to always start with an odd "
-#~ "numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME "
-#~ "inserts an even numbered blank page. This option controls whether to print "
-#~ "that even numbered page or not"
-#~ msgstr ""
-#~ "このオプションが有効化されていると、自動的に挿入された空白ページも印刷されます。これは両面印刷するときに便利です。もし段落スタイルの\\\"章\\\"を使って常"
-#~ "に奇数ページから章が始まるように設定していると、%PRODUCTNAME "
-#~ "では前の章が奇数ページで終わっている場合、偶数番号の空白ページが自動的に挿入されます。このオプションではその空白ページを印刷するかどうかを指定します。"
-
-#~ msgid ""
-#~ "For printers with multiple trays this option specifies whether the paper "
-#~ "tray used is specified by the system settings of the printer."
-#~ msgstr "このオプションは、用紙トレイが 2 つ以上あるプリンタで、システム設定されている用紙トレイを使うかどうかを指定します。"
-
-#~ msgid "Specify where to print comments (if any)."
-#~ msgstr "注釈の印刷位置を指定 (注釈がある場合)"
-
-#~ msgid "Specify which pages to include in the output"
-#~ msgstr "左ページまたは右ページを印刷する"
-
-#~ msgid "Select the Brochure option to print the document in brochure format."
-#~ msgstr "パンフレット形式でドキュメントを印刷するときに「パンフレット」オプションをオンにします。"
-
-#~ msgid "Print the whole document."
-#~ msgstr "ドキュメント全体を印刷します。"
-
-#~ msgid "Print a range of pages of the document."
-#~ msgstr "指定範囲を印刷します。"
-
-#~ msgid "Print only the selected parts of the document"
-#~ msgstr "選択されている部分のみを印刷します。"

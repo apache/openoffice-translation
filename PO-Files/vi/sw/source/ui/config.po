@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-07-07 14:22+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1562509330.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "Thử thiết ~lập..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Thư điện tử trộn thư"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -227,34 +223,37 @@ msgstr "Lỗi"
 msgid "~Stop"
 msgstr "~Dừng"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Thử thiết lập tài khoản"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Tác vụ"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Trạng thái"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Thành lập kết nối mạng"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Tìm máy phục vụ gửi thư"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Thành công"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Thất bại"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -265,26 +264,41 @@ msgstr ""
 "lập hệ thống và thiết lập trong %PRODUCTNAME. Kiểm tra tên máy phục vụ, "
 "cổng, và thiết lập kết nối bảo mật"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Xác thực máy phục vụ"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Thử thiết lập tài khoản"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "Máy phục vụ gửi ~thư (SMTP) yêu cầu xác thực"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "Máy phục vụ gửi thư (~SMTP) yêu cầu xác thực riêng"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Máy phục vụ gửi thư :"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "Tên ~người dùng"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Mật khẩu"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -293,42 +307,46 @@ msgstr ""
 "Máy phục vụ gử~i thư dùng cùng thiết lập xác thực với máy phục vụ nhận thư. "
 "Hãy nhập thiết lập của máy phục vụ nhận thư."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Máy phục vụ nhận thư :"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "Tê~n máy phục vụ"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "Cổn~g"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Kiểu"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 #, fuzzy
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "~Tên người dùng"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "Mật khẩ~u"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Xác thực máy phục vụ"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1157,75 +1175,3 @@ msgstr "Trang"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "~Phần chọn"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Thư điện tử trộn thư"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP3"
-
-#~ msgid ""
-#~ "Specifies whether to include colors and objects that are inserted to the "
-#~ "background of the page (Format - Page - Background) in the printed document."
-#~ msgstr ""
-#~ "Chỉ định chứa hay không màu và đối tượng sẽ đuợc chèn vào nền của trang "
-#~ "(Định dạng - Trang - Nền) trong tài liệu được in."
-
-#~ msgid ""
-#~ "Specifies whether the graphics and drawing or OLE objects of your text "
-#~ "document are printed"
-#~ msgstr "Chỉ định in hay không có đối tượng đồ họa, vẽ hay OLE"
-
-#~ msgid "Enable this option to print text that is marked as hidden."
-#~ msgstr "Bật lựa chọn in văn bản ẩn"
-
-#~ msgid ""
-#~ "Enable this option to print text placeholders. Disable this option to leave "
-#~ "the text placeholders blank in the printout."
-#~ msgstr "Bật tùy chọn in văn bản giữ chỗ. Tắt nếu không muốn in văn bản giữ chỗ."
-
-#~ msgid ""
-#~ "Specifies whether the form control fields of the text document are printed"
-#~ msgstr ""
-#~ "Chỉ định in hay không các trường của điều khiển form của tài liệu văn bản"
-
-#~ msgid "Specifies whether to always print text in black."
-#~ msgstr "Chỉ định luôn in văn bản màu đen."
-
-#~ msgid ""
-#~ "If this option is enabled automatically inserted blank pages are printed. "
-#~ "This is best if you are printing double-sided. For example, in a book, a "
-#~ "\\\"chapter\\\" paragraph style has been set to always start with an odd "
-#~ "numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME "
-#~ "inserts an even numbered blank page. This option controls whether to print "
-#~ "that even numbered page or not"
-#~ msgstr ""
-#~ "Nếu bật tùy chọn này, trang trắng sẽ luôn được in. Nên chọn chức năng này "
-#~ "nếu in hai mặt. Ví dụ, trong một cuốn sách, kiểu \\\"chapter\\\" luôn được chỉ "
-#~ "định là bắt đầu của một trang lẻ. Nếu trang trước kết thúc bằng trang lẻ, %"
-#~ "PRODUCTNAME sẽ chèn một trang trắng chẵn. Tùy chọn này sẽ điều khiển việc in "
-#~ "trang chẵn đó."
-
-#~ msgid ""
-#~ "For printers with multiple trays this option specifies whether the paper "
-#~ "tray used is specified by the system settings of the printer."
-#~ msgstr "Chỉ định khay với máy in có nhiều khay."
-
-#~ msgid "Specify where to print comments (if any)."
-#~ msgstr "Chỉ định in bình luận hay không (nếu có)."
-
-#~ msgid "Specify which pages to include in the output"
-#~ msgstr "Chỉ định trang sẽ chứa đầu ra"
-
-#~ msgid "Select the Brochure option to print the document in brochure format."
-#~ msgstr ""
-#~ "Chỉ định tùy chọn Trang quảng cáo sẽ in tài liệu ở định dạng Trang quảng cáo"
-
-#~ msgid "Print the whole document."
-#~ msgstr "In mọi tài liệu"
-
-#~ msgid "Print a range of pages of the document."
-#~ msgstr "In một khoảng của trang trong tài liệu"
-
-#~ msgid "Print only the selected parts of the document"
-#~ msgstr "Chỉ in phần đã chọn của tài liệu"

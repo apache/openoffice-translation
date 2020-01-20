@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-01-18 17:40+0000\n"
+"PO-Revision-Date: 2020-01-19 18:15+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579369229.000000\n"
+"X-POOTLE-MTIME: 1579457713.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -12751,17 +12751,21 @@ msgid ""
 "            <emph>Price</emph> is the price of the security per 100 currency "
 "units of par value."
 msgstr ""
+"            <emph>Գին</emph> արժեթղթի նոմինալ գինն է, արժութային 100 միավորի "
+"համար:"
 
 #: 04060103.xhp%23par_id3147253.386.help.text
 msgid ""
 "            <emph>Redemption</emph> is the redemption value of the security "
 "per 100 currency units of par value."
 msgstr ""
+"            <emph>Ետգնում</emph> արժեկտրոնի մարման արժեքն է, արժեքի 100 "
+"արժութային միավորի համար:"
 
 #: 04060103.xhp%23hd_id3151174.387.help.text
 msgctxt "04060103.xhp#hd_id3151174.387.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3155902.388.help.text
 msgid ""
@@ -12769,12 +12773,17 @@ msgid ""
 "price (purchase price) is 97, the redemption value is 100. Using daily "
 "balance calculation (basis 3) how high is the settlement (discount)?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերված 2001-01-25; մարման ժամկետը 2001-11-15։ Գինը (ձեռք "
+"բերման գինը) 97 է, մարման արժեքը` 100: Օրական հաշվեկշռի հաշվարկը (հիմք 3) "
+"օգտագործելով, որքա՞ն բարձր է տեղադրումը (զեղչը):"
 
 #: 04060103.xhp%23par_id3152797.389.help.text
 msgid ""
 "            <item type=\"input\">=DISC(\"2001-01-25\";\"2001-11-15\""
 ";97;100;3)</item> returns about 0.0372 or 3.72 per cent."
 msgstr ""
+"            <item type=\"input\">=DISC(\"2001-01-25\";\"2001-11-15\""
+";97;100;3)</item> վերադարձնում է մոտավորապես 0.0372 կամ 3.72 տոկոս։"
 
 #: 04060103.xhp%23bm_id3154695.help.text
 msgid ""
@@ -12782,32 +12791,38 @@ msgid ""
 "<bookmark_value>Microsoft Excel functions</bookmark_value>         "
 "<bookmark_value>durations;fixed interest securities</bookmark_value>"
 msgstr ""
+"<bookmark_value>DURATION_ADD function</bookmark_value>         "
+"<bookmark_value>Microsoft Excel functions</bookmark_value>         "
+"<bookmark_value>durations;fixed interest securities</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3154695.402.help.text
 msgid "DURATION_ADD"
-msgstr ""
+msgstr "DURATION_ADD"
 
 #: 04060103.xhp%23par_id3145768.403.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_DURATION\">Calculates the duration of a fixed "
 "interest security in years.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_DURATION\">Հաշվում է տարիների ընթացքում սևեռված "
+"տոկոսադրույքի անվտանգության տևողությունը:</ahelp>"
 
 #: 04060103.xhp%23hd_id3153904.404.help.text
 msgctxt "04060103.xhp#hd_id3153904.404.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3153373.405.help.text
 msgid ""
 "DURATION_ADD(\"Settlement\"; \"Maturity\"; Coupon; Yield; Frequency; Basis)"
 msgstr ""
+"DURATION_ADD(\"Settlement\"; \"Maturity\"; Coupon; Yield; Frequency; Basis)"
 
 #: 04060103.xhp%23par_id3155397.406.help.text
 msgctxt "04060103.xhp#par_id3155397.406.help.text"
 msgid ""
 "            <emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "            <emph>Հաշվարկը </emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060103.xhp%23par_id3148558.407.help.text
 msgctxt "04060103.xhp#par_id3148558.407.help.text"
@@ -12815,16 +12830,22 @@ msgid ""
 "            <emph>Maturity</emph> is the date on which the security matures "
 "(expires)."
 msgstr ""
+"            <emph>Հասունությունy</emph> այն ամսաթիվն է, որի ընթացքում "
+"հասունանում է արժեթուղթը (լրանում է):"
 
 #: 04060103.xhp%23par_id3153096.408.help.text
 msgid ""
 "            <emph>Coupon</emph> is the annual coupon interest rate (nominal "
 "rate of interest)"
 msgstr ""
+"            <emph>Կտրոն</emph> տարեկան արժեկտրոնային տոկոսադրույքն է ("
+"անվանական տոկոսադրույքը)"
 
 #: 04060103.xhp%23par_id3154594.409.help.text
 msgid "            <emph>Yield</emph> is the annual yield of the security."
 msgstr ""
+"            <emph>Եկամտաբերություն</emph> արժեթղթի տարեկան եկամտաբերությունն "
+"է:"
 
 #: 04060103.xhp%23par_id3149906.410.help.text
 msgctxt "04060103.xhp#par_id3149906.410.help.text"
@@ -12832,11 +12853,13 @@ msgid ""
 "            <emph>Frequency</emph> is the number of interest payments per "
 "year (1, 2 or 4)."
 msgstr ""
+"            <emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճարների "
+"քանակն է (1, 2 կամ 4):"
 
 #: 04060103.xhp%23hd_id3146995.411.help.text
 msgctxt "04060103.xhp#hd_id3146995.411.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3148834.412.help.text
 msgid ""
@@ -12845,12 +12868,18 @@ msgid ""
 "yearly (frequency is 2). Using daily balance interest calculation (basis 3) "
 "how long is the duration?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերված 2001-01-01; մարման ժամկետը 2006-01-01 թվականն է: "
+"Կտրոնի տոկոսադրույքը 8% է: Եկամտաբերությունը 9.0% է: Տոկոսները վճարվում են "
+"ըստ կիսամյակի (հաճախականությունն է 2): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկ (հիմք 3), որքա՞ն է տևողությունը:"
 
 #: 04060103.xhp%23par_id3154902.413.help.text
 msgid ""
 "            <item type=\"input\">=DURATION_ADD(\"2001-01-01\";\"2006-01-01\""
 ";0.08;0.09;2;3)</item>         "
 msgstr ""
+"            <item type=\"input\">=DURATION_ADD(\"2001-01-01\";\"2006-01-01\""
+";0.08;0.09;2;3)</item>         "
 
 #: 04060103.xhp%23bm_id3159147.help.text
 msgid ""
@@ -12859,16 +12888,22 @@ msgid ""
 "         <bookmark_value>net annual interest rates</bookmark_value>         "
 "<bookmark_value>EFFECTIVE function</bookmark_value>"
 msgstr ""
+"<bookmark_value>annual net interest rates</bookmark_value>         "
+"<bookmark_value>calculating; annual net interest rates</bookmark_value>"
+"         <bookmark_value>net annual interest rates</bookmark_value>         "
+"<bookmark_value>EFFECTIVE function</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3159147.88.help.text
 msgid "EFFECTIVE"
-msgstr ""
+msgstr "EFFECTIVE"
 
 #: 04060103.xhp%23par_id3154204.89.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_EFFEKTIV\">Returns the net annual interest rate for a "
 "nominal interest rate.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_EFFEKTIV\">Վերադարձնում է անվանական տոկոսադրույքի "
+"տարեկան զուտ տոկոսադրույքը:</ahelp>"
 
 #: 04060103.xhp%23par_id3145417.90.help.text
 msgid ""
@@ -12877,52 +12912,66 @@ msgid ""
 "made. In other words, interest is often paid in installments (for example, "
 "monthly or quarterly) before the end of the calculation period."
 msgstr ""
+"Անվանական տոկոսադրույքը վերաբերում է հաշվարկման ժամանակաշրջանի ավարտին "
+"մարվող տոկոսների չափին: Կատարված վճարումների քանակով ավելանում են "
+"արդյունավետ տոկոսադրույքները: Այլ կերպ ասած, տոկոսադրույքը հաճախ վճարվում է "
+"ապառիկ մասով (օրինակ, ամսական կամ եռամսյակային) մինչև հաշվարկման "
+"ժամանակաշրջանի ավարտը:"
 
 #: 04060103.xhp%23hd_id3150510.91.help.text
 msgctxt "04060103.xhp#hd_id3150510.91.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3148805.92.help.text
 msgid "EFFECTIVE(Nom; P)"
-msgstr ""
+msgstr "EFFECTIVE(Nom; P)"
 
 #: 04060103.xhp%23par_id3149768.93.help.text
 msgid "            <emph>Nom</emph> is the nominal interest."
-msgstr ""
+msgstr "            <emph>Nom</emph> անվանական հետաքրքրությունն է:"
 
 #: 04060103.xhp%23par_id3149334.94.help.text
 msgid ""
 "            <emph>P</emph> is the number of interest payment periods per "
 "year."
 msgstr ""
+"            <emph>P</emph> տարեկան տոկոսադրույքների վճարման "
+"ժամանակաշրջանների քանակն է:"
 
 #: 04060103.xhp%23hd_id3154223.95.help.text
 msgctxt "04060103.xhp#hd_id3154223.95.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3144499.96.help.text
 msgid ""
 "If the annual nominal interest rate is 9.75% and four interest calculation "
 "periods are defined, what is the actual interest rate (effective rate)?"
 msgstr ""
+"Եթե տարեկան անվանական տոկոսադրույքը 9,75% է և սահմանված են տոկոսների "
+"հաշվարկման չորս ժամանակահատվածներ, ո՞րն է իրական տոկոսադրույքը (արդյունավետ "
+"տոկոսադրույքը):"
 
 #: 04060103.xhp%23par_id3150772.97.help.text
 msgid ""
 "            <item type=\"input\">=EFFECTIVE(9.75%;4)</item> = 10.11% The "
 "annual effective rate is therefore 10.11%."
 msgstr ""
+"            <item type=\"input\">=EFFECTIVE(9.75%;4)</item> = 10.11% "
+"Հետևաբար տարեկան արդյունավետ դրույքաչափն է 10.11%։"
 
 #: 04060103.xhp%23bm_id3147241.help.text
 msgid ""
 "<bookmark_value>effective interest rates</bookmark_value>         "
 "<bookmark_value>EFFECT_ADD function</bookmark_value>"
 msgstr ""
+"<bookmark_value>effective interest rates</bookmark_value>         "
+"<bookmark_value>EFFECT_ADD function</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3147241.414.help.text
 msgid "EFFECT_ADD"
-msgstr ""
+msgstr "EFFECT_ADD"
 
 #: 04060103.xhp%23par_id3147524.415.help.text
 msgid ""
@@ -12930,42 +12979,49 @@ msgid ""
 "interest on the basis of the nominal interest rate and the number of "
 "interest payments per annum.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_EFFECT\">Հաշվում է տարեկան արդյունավետ "
+"տոկոսադրույքը `ելնելով անվանական տոկոսադրույքից և տարեկան տոկոսադրույքների "
+"վճարների քանակից:</ahelp>"
 
 #: 04060103.xhp%23hd_id3155364.416.help.text
 msgctxt "04060103.xhp#hd_id3155364.416.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3155118.417.help.text
 msgid "EFFECT_ADD(NominalRate; NPerY)"
-msgstr ""
+msgstr "EFFECT_ADD(NominalRate; NPerY)"
 
 #: 04060103.xhp%23par_id3148907.418.help.text
 msgid ""
 "            <emph>NominalRate</emph> is the annual nominal rate of interest."
-msgstr ""
+msgstr "            <emph>NominalRate</emph> տարեկան անվանական տոկոսադրույքն է:"
 
 #: 04060103.xhp%23par_id3154274.419.help.text
 msgid ""
 "            <emph>NPerY </emph>is the number of interest payments per year."
-msgstr ""
+msgstr "            <emph>NPerY </emph>տարեկան տոկոսադրույքների վճարն է:"
 
 #: 04060103.xhp%23hd_id3149156.420.help.text
 msgctxt "04060103.xhp#hd_id3149156.420.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3158426.421.help.text
 msgid ""
 "What is the effective annual rate of interest for a 5.25% nominal rate and "
 "quarterly payment."
 msgstr ""
+"Որն է արդյունավետ տոկոսադրույքը 5.25% անվանական տոկոսադրույքով և "
+"եռամսյակային վճարման համար:"
 
 #: 04060103.xhp%23par_id3148927.422.help.text
 msgid ""
 "            <item type=\"input\">=EFFECT_ADD(0.0525;4)</item> returns "
 "0.053543 or 5.3543%."
 msgstr ""
+"            <item type=\"input\">=EFFECT_ADD(0.0525;4)</item> վերադարձնում է "
+"0.053543 կամ 5.3543%։"
 
 #: 04060103.xhp%23bm_id3149998.help.text
 msgid ""
@@ -12975,16 +13031,23 @@ msgid ""
 ";arithmetic-degressive</bookmark_value>         <bookmark_value>DDB "
 "function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating; arithmetic-degressive "
+"depreciations</bookmark_value>         <bookmark_value>arithmetic-degressive "
+"depreciations</bookmark_value>         <bookmark_value>depreciations"
+";arithmetic-degressive</bookmark_value>         <bookmark_value>DDB "
+"function</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3149998.99.help.text
 msgid "DDB"
-msgstr ""
+msgstr "DDB"
 
 #: 04060103.xhp%23par_id3159190.100.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_GDA\">Returns the depreciation of an asset for a "
 "specified period using the arithmetic-declining method.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_GDA\">Վերադարձնում է ակտիվի մաշվածությունը որոշակի "
+"ժամանակահատվածի համար, թվաբանական նվազման մեթոդով:</ahelp>"
 
 #: 04060103.xhp%23par_id3152361.101.help.text
 msgid ""
@@ -12994,48 +13057,63 @@ msgid ""
 "shortly after purchase (for example, vehicles, computers). Please note that "
 "the book value will never reach zero under this calculation type."
 msgstr ""
+"Արժեզրկման այս ձևը օգտագործեք, եթե պահանջվում է ավելի բարձր նախնական "
+"արժեզրկման արժեք, ի տարբերություն գծային մաշվածության: Արժեզրկման արժեքը "
+"նվազում է յուրաքանչյուր ժամանակաշրջանի հետ և սովորաբար օգտագործվում է այն "
+"ակտիվների համար, որոնց արժեքի կորուստն ավելի բարձր է գնումից անմիջապես հետո "
+"(օրինակ՝ տրանսպորտային միջոցներ, համակարգիչներ): Խնդրում ենք նկատի ունենալ, "
+"որ հաշվարկի այս արժեքի համաձայն գրքի արժեքը երբեք չի հասնի զրոյի:"
 
 #: 04060103.xhp%23hd_id3156038.102.help.text
 msgctxt "04060103.xhp#hd_id3156038.102.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3166452.103.help.text
 msgid "DDB(Cost; Salvage; Life; Period; Factor)"
-msgstr ""
+msgstr "DDB(Cost; Salvage; Life; Period; Factor)"
 
 #: 04060103.xhp%23par_id3153237.104.help.text
 msgid "            <emph>Cost</emph> fixes the initial cost of an asset."
-msgstr ""
+msgstr "            <emph>Արժեք</emph> ամրագրում է ակտիվի սկզբնական արժեքը:"
 
 #: 04060103.xhp%23par_id3149787.105.help.text
 msgid ""
 "            <emph>Salvage</emph> fixes the value of an asset at the end of "
 "its life."
 msgstr ""
+"            <emph>Փրկությունը</emph> ամրագրում է ակտիվի արժեքը իր կյանքի "
+"վերջում:"
 
 #: 04060103.xhp%23par_id3152945.106.help.text
 msgid ""
 "            <emph>Life</emph> is the number of periods (for example, years "
 "or months) defining how long the asset is to be used."
 msgstr ""
+"            <emph>Կյանք</emph> այն ժամանակաշրջանների քանակն է (օրինակ՝ "
+"տարիներ կամ ամիսներ), որը սահմանում է, թե որքան ժամանակ է օգտագործվում "
+"ակտիվը:"
 
 #: 04060103.xhp%23par_id3149736.107.help.text
 msgid ""
 "            <emph>Period</emph> states the period for which the value is to "
 "be calculated."
 msgstr ""
+"            <emph>Ժամանակահատված</emph> նշում է այն ժամանակահատվածը, որի "
+"համար պետք է հաշվարկվի արժեքը:"
 
 #: 04060103.xhp%23par_id3150243.108.help.text
 msgid ""
 "            <emph>Factor</emph> (optional) is the factor by which "
 "depreciation decreases. If a value is not entered, the default is factor 2."
 msgstr ""
+"            <emph>Գործոն</emph> (կամընտրական) այն գործոնն է, որով "
+"արժեզրկումը նվազում է: Եթե արժեքը մուտքագրված չէ, լռելյայն գործոնը 2-ն է:"
 
 #: 04060103.xhp%23hd_id3159274.109.help.text
 msgctxt "04060103.xhp#hd_id3159274.109.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3152882.110.help.text
 msgid ""
@@ -13043,6 +13121,9 @@ msgid ""
 "depreciated monthly over 5 years. The value at the end of the depreciation "
 "is to be 1 currency unit. The factor is 2."
 msgstr ""
+"75,000 արժութային միավորի սկզբնական արժեք ունեցող համակարգչային համակարգը "
+"պետք է արժեզրկվի ամսական ավելի քան 5 տարվա ընթացքում: Արժեզրկման վերջում "
+"արժեքը պետք է լինի 1 արժութային միավոր: Գործոնը 2 է:"
 
 #: 04060103.xhp%23par_id3154106.111.help.text
 msgid ""
@@ -13050,6 +13131,9 @@ msgid ""
 "currency units. Therefore, the double-declining depreciation in the twelfth "
 "month after purchase is 1,721.81 currency units."
 msgstr ""
+"            <item type=\"input\">=DDB(75000;1;60;12;2) </item>= 1,721.81 "
+"արժութային միավոր: Հետևաբար, գնման պահից տասներկուերորդ ամսում կրկնակի "
+"անկման արժեզրկումը կազմում է 1,721.81 արժութային միավոր:"
 
 #: 04060103.xhp%23bm_id3149962.help.text
 msgid ""
@@ -13059,16 +13143,23 @@ msgid ""
 ";geometric-degressive</bookmark_value>         <bookmark_value>DB "
 "function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating; geometric-degressive "
+"depreciations</bookmark_value>         <bookmark_value>geometric-degressive "
+"depreciations</bookmark_value>         <bookmark_value>depreciations"
+";geometric-degressive</bookmark_value>         <bookmark_value>DB "
+"function</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3149962.113.help.text
 msgid "DB"
-msgstr ""
+msgstr "DB"
 
 #: 04060103.xhp%23par_id3148989.114.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_GDA2\">Returns the depreciation of an asset for a "
 "specified period using the double-declining balance method.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_GDA2\">Վերադարձնում է ակտիվի արժեզրկումը որոշակի "
+"ժամանակահատվածի համար, օգտագործելով կրկնակի անկման մնացորդի մեթոդը:</ahelp>"
 
 #: 04060103.xhp%23par_id3156213.115.help.text
 msgid ""
@@ -13077,38 +13168,47 @@ msgid ""
 "depreciation). The depreciation value is reduced with every depreciation "
 "period by the depreciation already deducted from the initial cost."
 msgstr ""
+"Արժեզրկման այս ձևն օգտագործվում է, եթե ցանկանում եք արժեզրկման սկզբում "
+"ստանալ ավելի բարձր արժեզրկման արժեք (ի տարբերություն գծային արժեզրկման): "
+"Արժեզրկման արժեքը յուրաքանչյուր արժեզրկման ժամանակաշրջանի հետ իջնում է այն "
+"արժեզրկման հետ, որն արդեն հանվում է սկզբնական արժեքից:"
 
 #: 04060103.xhp%23hd_id3149807.116.help.text
 msgctxt "04060103.xhp#hd_id3149807.116.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3153349.117.help.text
 msgid "DB(Cost; Salvage; Life; Period; Month)"
-msgstr ""
+msgstr "DB(Cost; Salvage; Life; Period; Month)"
 
 #: 04060103.xhp%23par_id3148462.118.help.text
 msgctxt "04060103.xhp#par_id3148462.118.help.text"
 msgid "            <emph>Cost</emph> is the initial cost of an asset."
-msgstr ""
+msgstr "            <emph>Արժեք</emph> ակտիվի սկզբնական արժեքն է:"
 
 #: 04060103.xhp%23par_id3148658.119.help.text
 msgid ""
 "            <emph>Salvage</emph> is the value of an asset at the end of the "
 "depreciation."
-msgstr ""
+msgstr "            <emph>Փրկություն</emph> արժեզրկման վերջում ակտիվի արժեքն է:"
 
 #: 04060103.xhp%23par_id3145371.120.help.text
 msgid ""
 "            <emph>Life</emph> defines the period over which an asset is "
 "depreciated."
 msgstr ""
+"            <emph>Կյանք</emph> սահմանում է այն ժամանակահատվածը, որի "
+"ընթացքում ակտիվը արժեզրկվում է:"
 
 #: 04060103.xhp%23par_id3154608.121.help.text
 msgid ""
 "            <emph>Period</emph> is the length of each period. The length "
 "must be entered in the same date unit as the depreciation period."
 msgstr ""
+"            <emph>Ժամանակահատված</emph> յուրաքանչյուր ժամանակահատվածի "
+"երկարությունն է: Երկարությունը պետք է մուտքագրվի նույն ամսաթվային միավորով, "
+"ինչպես մաշվածության ժամանակահատվածը:"
 
 #: 04060103.xhp%23par_id3150829.122.help.text
 msgid ""
@@ -13116,11 +13216,13 @@ msgid ""
 "the first year of depreciation. If an entry is not defined, 12 is used as "
 "the default."
 msgstr ""
+"            <emph>Ամիս</emph> (կամընտրական) նշում է արժեզրկման առաջին տարվա "
+"ամիսների քանակը: Եթե մուտքը սահմանված չէ, 12-ը օգտագործվում է որպես լռելյայն:"
 
 #: 04060103.xhp%23hd_id3151130.123.help.text
 msgctxt "04060103.xhp#hd_id3151130.123.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3156147.124.help.text
 msgid ""
@@ -13128,18 +13230,24 @@ msgid ""
 "depreciated over a three year period. The salvage value is to be 1,000 "
 "currency units. One period is 30 days."
 msgstr ""
+"25,000 արժութային միավորի նախնական արժեք ունեցող համակարգչային համակարգը "
+"պետք է արժեզրկվի երեք տարվա ընթացքում: Փրկության արժեքը պետք է լինի 1000 "
+"արժութային միավոր: Մեկ ժամանակահատվածը 30 օր է:"
 
 #: 04060103.xhp%23par_id3149513.125.help.text
 msgid ""
 "            <item type=\"input\">=DB(25000;1000;36;1;6)</item> = 1,075.00 "
 "currency units"
 msgstr ""
+"            <item type=\"input\">=DB(25000;1000;36;1;6)</item> = 1,075.00 "
+"արժութային միավոր"
 
 #: 04060103.xhp%23par_id3159242.126.help.text
 msgid ""
 "The fixed-declining depreciation of the computer system is 1,075.00 currency "
 "units."
 msgstr ""
+"Համակարգչային համակարգի կայուն անկումը կազմում է 1.075.00 արժութային միավոր:"
 
 #: 04060103.xhp%23bm_id3153948.help.text
 msgid ""
@@ -13148,10 +13256,14 @@ msgid ""
 "payments</bookmark_value>         <bookmark_value>internal rates of return;"
 "regular payments</bookmark_value>"
 msgstr ""
+"<bookmark_value>IRR function</bookmark_value>         "
+"<bookmark_value>calculating;internal rates of return, regular "
+"payments</bookmark_value>         <bookmark_value>internal rates of return;"
+"regular payments</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3153948.128.help.text
 msgid "IRR"
-msgstr ""
+msgstr "IRR"
 
 #: 04060103.xhp%23par_id3143282.129.help.text
 msgid ""
@@ -13160,20 +13272,25 @@ msgid ""
 "intervals, at least one value must be negative (payments), and at least one "
 "value must be positive (income)."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_IKV\">Հաշվում է ներդրման համար վերադարձի ներքին "
+"դրույքաչափը:</ahelp> Արժեքները ներկայացնում են կանխիկ հոսքի արժեքներ "
+"պարբերական ընդմիջումներով, առնվազն մեկ արժեք պետք է լինի բացասական "
+"(վճարումներ) և առնվազն մեկ արժեք պետք է լինի դրական (եկամուտ):"
 
 #: 04060103.xhp%23hd_id3150599.130.help.text
 msgctxt "04060103.xhp#hd_id3150599.130.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3155427.131.help.text
 msgid "IRR(Values; Guess)"
-msgstr ""
+msgstr "IRR(Values; Guess)"
 
 #: 04060103.xhp%23par_id3144758.132.help.text
 msgid ""
 "            <emph>Values</emph> represents an array containing the values."
 msgstr ""
+"            <emph>Արժեքներ</emph> ներկայացնում է արժեքներ պարունակող զանգված:"
 
 #: 04060103.xhp%23par_id3149233.133.help.text
 msgid ""
@@ -13182,11 +13299,15 @@ msgid ""
 "can provide only few values, you should provide an initial guess to enable "
 "the iteration."
 msgstr ""
+"            <emph>Գուշակիր</emph> (կամընտրական) գնահատված արժեքն է: "
+"Վերադարձի ներքին փոխարժեքը հաշվարկելու համար օգտագործվում է իտերատիվ մեթոդը: "
+"Եթե կարող եք տրամադրել ընդամենը մի քանի արժեքներ, ապա պետք է նախնական "
+"գուշակություն անեք, այն հնարավոր դարձնելու համար:"
 
 #: 04060103.xhp%23hd_id3151258.134.help.text
 msgctxt "04060103.xhp#hd_id3151258.134.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3150630.135.help.text
 msgid ""
@@ -13195,6 +13316,10 @@ msgid ""
 ">7600</item> and A4=<item type=\"input\">1000</item>, the formula <item type="
 "\"input\">=IRR(A1:A4)</item> gives a result of 11,33%."
 msgstr ""
+"Ենթադրելով, որ բջիջների պարունակությունն է A1=<item type=\"input\""
+">-10000</item>, A2=<item type=\"input\">3500</item>, A3=<item type=\"input\""
+">7600</item> and A4=<item type=\"input\">1000</item>, բանաձևը <item type=\""
+"input\">=IRR(A1:A4)</item> տալիս է այս արդյունքը 11,33%։"
 
 #: 04060103.xhp%23bm_id3151012.help.text
 msgid ""
@@ -13203,50 +13328,60 @@ msgid ""
 "unchanged amortization installments</bookmark_value>         <bookmark_value>"
 "ISPMT function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating; interests for unchanged amortization "
+"installments</bookmark_value>         <bookmark_value>interests for "
+"unchanged amortization installments</bookmark_value>         <bookmark_value>"
+"ISPMT function</bookmark_value>"
 
 #: 04060103.xhp%23hd_id3151012.314.help.text
 msgid "ISPMT"
-msgstr ""
+msgstr "ISPMT"
 
 #: 04060103.xhp%23par_id3148693.315.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ISPMT\">Calculates the level of interest for unchanged "
 "amortization installments.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISPMT\">Հաշվում է հետաքրքրության մակարդակը "
+"ամորտիզացիայի անփոփոխ մասշտաբի նկատմամբ:</ahelp>"
 
 #: 04060103.xhp%23hd_id3154661.316.help.text
 msgctxt "04060103.xhp#hd_id3154661.316.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060103.xhp%23par_id3146070.317.help.text
 msgid "ISPMT(Rate; Period; TotalPeriods; Invest)"
-msgstr ""
+msgstr "ISPMT(Rate; Period; TotalPeriods; Invest)"
 
 #: 04060103.xhp%23par_id3148672.318.help.text
 msgid "            <emph>Rate</emph> sets the periodic interest rate."
-msgstr ""
+msgstr "            <emph>Դրույք</emph> սահմանում է պարբերական տոկոսադրույքը:"
 
 #: 04060103.xhp%23par_id3145777.319.help.text
 msgid ""
 "            <emph>Period</emph> is the number of installments for "
 "calculation of interest."
 msgstr ""
+"            <emph>Ժամանակաշրջան</emph> տոկոսագումարի հաշվարկման համար "
+"վճարների քանակն է:"
 
 #: 04060103.xhp%23par_id3153678.320.help.text
 msgid ""
 "            <emph>TotalPeriods</emph> is the total number of installment "
 "periods."
 msgstr ""
+"            <emph>TotalPeriods</emph> տեղադրման ժամանակահատվածների ընդհանուր "
+"թիվն է:"
 
 #: 04060103.xhp%23par_id3159390.321.help.text
 msgid "            <emph>Invest</emph> is the amount of the investment."
-msgstr ""
+msgstr "            <emph>Ներդնել</emph> ներդրման գումարն է:"
 
 #: 04060103.xhp%23hd_id3156162.322.help.text
 msgctxt "04060103.xhp#hd_id3156162.322.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060103.xhp%23par_id3149558.323.help.text
 msgid ""
@@ -13254,6 +13389,9 @@ msgid ""
 "monthly installments, at a yearly interest rate of 12% the level of interest "
 "after 1.5 years is required."
 msgstr ""
+"120,000 արժութային միավորի համար, երկու տարի ժամկետով և ամսական ապառիկ վարկի "
+"համար, տարեկան 12% տոկոսադրույքով, տոկոսադրույքի մակարդակից պահանջվում է 1.5 "
+"տարի անց:"
 
 #: 04060103.xhp%23par_id3150949.324.help.text
 msgid ""
@@ -13261,23 +13399,30 @@ msgid ""
 "currency units. The monthly interest after 1.5 years amounts to 300 currency "
 "units."
 msgstr ""
+"            <item type=\"input\">=ISPMT(1%;18;24;120000)</item> = -300 "
+"արժութային միավոր: 1,5 տարուց հետո ամսական տոկոսադրույքը կազմում է 300 "
+"արժութային միավոր:"
 
 #: 04060103.xhp%23par_id3146812.426.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060119.xhp\" name=\"Forward to Financial "
 "Functions Part Two\">Financial Functions Part Two</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060119.xhp\" name=\"Ուղարկիր դեպի Ֆինանսական "
+"գործառույթներ Մաս երկրորդ\">Ֆինանսական գործառույթներ Մաս երկրորդ</link>"
 
 #: 04060103.xhp%23par_id3154411.427.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060118.xhp\" name=\"Forward to Financial "
 "Functions Part Three\">Financial Functions Part Three</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060118.xhp\" name=\"Ուղարկիր դեպի Ֆինանսական "
+"գործառույթներ Մաս երրորդ\">Ֆինանսական գործառույթներ Մաս երրորդ</link>"
 
 #: 05030400.xhp%23tit.help.text
 msgctxt "05030400.xhp#tit.help.text"
 msgid "Show"
-msgstr ""
+msgstr "Ցույց տալ"
 
 #: 05030400.xhp%23bm_id3147264.help.text
 msgid ""
@@ -13285,16 +13430,22 @@ msgid ""
 "columns</bookmark_value><bookmark_value>showing; "
 "columns</bookmark_value><bookmark_value>showing; rows</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; showing "
+"columns</bookmark_value><bookmark_value>showing; "
+"columns</bookmark_value><bookmark_value>showing; rows</bookmark_value>"
 
 #: 05030400.xhp%23hd_id3147264.1.help.text
 msgid "<link href=\"text/scalc/01/05030400.xhp\" name=\"Show\">Show</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05030400.xhp\" name=\"Ցույց տալ\">Ցույց տալ</link>"
 
 #: 05030400.xhp%23par_id3150447.2.help.text
 msgid ""
 "<ahelp hid=\".uno:ShowColumn\">Choose this command to show previously hidden "
 "rows or columns.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:ShowColumn\">Ընտրեք այս հրամանը, ցույց տալու համար "
+"նախկինում թաքնված տողերը կամ սյունակները:</ahelp>"
 
 #: 05030400.xhp%23par_id3155131.3.help.text
 msgid ""
@@ -13302,28 +13453,38 @@ msgid ""
 "hidden elements, then choose <emph>Format - Row - Show</emph> or <emph>"
 "Format - Column - Show</emph>."
 msgstr ""
+"Սյունակ կամ տող ցույց տալու համար ընտրեք թաքնված տարրեր պարունակող տողերի "
+"կամ սյունակների շրջանակը, ապա ընտրեք <emph>Ձևաչափ - Տող - Ցուցադրել</emph> "
+"կամ <emph>Ձևաչափ - Սյունակ - Ցուցադրել</emph>:"
 
 #: 05030400.xhp%23par_id3145748.4.help.text
 msgid ""
 "To show all hidden cells, first click in the field in the upper left corner. "
 "This selects all cells of the table."
 msgstr ""
+"Բոլոր թաքնված բջիջները ցուցադրելու համար նախ կտտացրեք դաշտի վերին ձախ "
+"անկյունում: Սա ընտրում է աղյուսակի բոլոր բջիջները:"
 
 #: 04090000.xhp%23tit.help.text
 msgid "Link to External Data"
-msgstr ""
+msgstr "Հղիր Արտաքին Տվյալներին"
 
 #: 04090000.xhp%23par_id3153192.2.help.text
 msgid ""
 "<ahelp hid=\"SC_PUSHBUTTON_RID_SCDLG_LINKAREA_BTN_BROWSE\" visibility=\""
 "hidden\">Locate the file containing the data you want to insert.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_PUSHBUTTON_RID_SCDLG_LINKAREA_BTN_BROWSE\" visibility=\""
+"hidden\">Գտեք այն նիշքը, որը պարունակում է այն տվյալները, որոնք ցանկանում եք "
+"տեղադրել:</ahelp>"
 
 #: 04090000.xhp%23hd_id3145785.3.help.text
 msgid ""
 "<link href=\"text/scalc/01/04090000.xhp\" name=\"External Data\">Link to "
 "External Data</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04090000.xhp\" name=\"External Data\">Հղիր "
+"Արտաքին Տվյալներին</link>"
 
 #: 04090000.xhp%23par_id3149262.4.help.text
 msgid ""
@@ -13331,30 +13492,38 @@ msgid ""
 "or Excel file into the current sheet as a link. The data must be located "
 "within a named range.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:InsertExternalDataSourc\">Տեղադրում է տվյալները որպես "
+"հղում HTML, Calc, կամ Excel նիշքից։ Տվյալները պետք է տեղակայված լինեն նշված "
+"սահմաններում:</ahelp>"
 
 #: 04090000.xhp%23hd_id3146984.5.help.text
 msgid "URL of external data source."
-msgstr ""
+msgstr "Արտաքին տվյալի աղբյուրի URL-ը"
 
 #: 04090000.xhp%23par_id3145366.6.help.text
 msgid ""
 "<ahelp hid=\"HID_SCDLG_LINKAREAURL\">Enter the URL or the file name that "
 "contains the data that you want to insert, and then press Enter.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SCDLG_LINKAREAURL\">Մուտքագրեք URL կամ նիշքի անունը, որը "
+"պարունակում է այն տվյալները, որոնք ցանկանում եք տեղադրել, այնուհետև սեղմեք "
+"Enter:</ahelp>"
 
 #: 04090000.xhp%23hd_id3145251.7.help.text
 msgid "Available tables/ranges"
-msgstr ""
+msgstr "Հասանելի աղյուսակներ/միջակայքեր"
 
 #: 04090000.xhp%23par_id3147397.8.help.text
 msgid ""
 "<ahelp hid=\"SC_MULTILISTBOX_RID_SCDLG_LINKAREA_LB_RANGES\">Select the table "
 "or the data range that you want to insert.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_MULTILISTBOX_RID_SCDLG_LINKAREA_LB_RANGES\">Ընտրեք աղյուսակը "
+"կամ տվյալների շրջանակը, որը ցանկանում եք տեղադրել:</ahelp>"
 
 #: 04090000.xhp%23hd_id3154492.9.help.text
 msgid "Update every"
-msgstr ""
+msgstr "Թարմացնել ամենը"
 
 #: 04090000.xhp%23par_id3154017.10.help.text
 msgid ""
@@ -13362,11 +13531,14 @@ msgid ""
 "of seconds to wait before the external data are reloaded into the current "
 "document.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_NUMERICFIELD_RID_SCDLG_LINKAREA_NF_DELAY\">Մուտքագրեք այն "
+"վայրկյանների քանակը, որ պետք է սպասել նախքան արտաքին տվյալները "
+"կվերաբեռնավորվեն ընթացիկ փաստաթղթում:</ahelp>"
 
 #: 05040200.xhp%23tit.help.text
 msgctxt "05040200.xhp#tit.help.text"
 msgid "Optimal Column Width"
-msgstr ""
+msgstr "Սյունակի լավագույն լայնքը"
 
 #: 05040200.xhp%23bm_id3155628.help.text
 msgid ""
@@ -13374,11 +13546,14 @@ msgid ""
 "widths</bookmark_value><bookmark_value>columns; optimal "
 "widths</bookmark_value><bookmark_value>optimal column widths</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; optimal column "
+"widths</bookmark_value><bookmark_value>columns; optimal "
+"widths</bookmark_value><bookmark_value>optimal column widths</bookmark_value>"
 
 #: 05040200.xhp%23hd_id3155628.1.help.text
 msgctxt "05040200.xhp#hd_id3155628.1.help.text"
 msgid "Optimal Column Width"
-msgstr ""
+msgstr "Սյունակի լավագույն լայնքը"
 
 #: 05040200.xhp%23par_id3145068.2.help.text
 msgid ""
@@ -13388,11 +13563,17 @@ msgid ""
 "can choose from the available <link href=\"text/shared/00/00000003.xhp#"
 "metrik\" name=\"measurement units\">measurement units</link>."
 msgstr ""
+"<variable id=\"optitext\"><ahelp hid=\".uno:SetOptimalColumnWidthDi\">"
+"Սահմանում է ընտրված սյունակների համար սյունակի լավագույն "
+"լայնքը:</ahelp></variable> Սյունակի լավագույն լայնքը կախված է սյունակի "
+"ամենաերկար մուտքից: Կարող եք ընտրել մատչելի <link href=\""
+"text/shared/00/00000003.xhp#metrik\" name=\"չափման միավորներ\">չափման "
+"միավորներ</link> -ից։"
 
 #: 05040200.xhp%23hd_id3150767.3.help.text
 msgctxt "05040200.xhp#hd_id3150767.3.help.text"
 msgid "Add"
-msgstr ""
+msgstr "Ավելացնել"
 
 #: 05040200.xhp%23par_id3150449.4.help.text
 msgid ""
@@ -13400,11 +13581,14 @@ msgid ""
 "spacing between the longest entry in a column and the vertical column "
 "borders.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:METRICFIELD:RID_SCDLG_COL_OPT:ED_VALUE\">Սահմանում է "
+"լրացուցիչ տարածություն սյունակի ամենաերկար մուտքի և ուղղահայաց սյունակի "
+"սահմանների միջև:</ahelp>"
 
 #: 05040200.xhp%23hd_id3145785.5.help.text
 msgctxt "05040200.xhp#hd_id3145785.5.help.text"
 msgid "Default value"
-msgstr ""
+msgstr "Լռակյաց արժեք"
 
 #: 05040200.xhp%23par_id3146120.6.help.text
 msgid ""
@@ -13412,16 +13596,19 @@ msgid ""
 "column width in order to display the entire contents of the column.</ahelp> "
 "The additional spacing for the optimal column width is preset to 0.1 in."
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_COL_OPT:BTN_DEFVAL\">Սահմանում է սյունակի "
+"լավագույն լայնքը, սյունակի ամբողջ բովանդակությունը ցուցադրելու համար:</ahelp>"
+" Սյունակի լավագույն լայնքի լրացուցիչ բացատը նախադրված է որպես 0․1:"
 
 #: 06040000.xhp%23tit.help.text
 msgctxt "06040000.xhp#tit.help.text"
 msgid "Goal Seek"
-msgstr ""
+msgstr "Նպատակի որոնում"
 
 #: 06040000.xhp%23hd_id3155629.1.help.text
 msgctxt "06040000.xhp#hd_id3155629.1.help.text"
 msgid "Goal Seek"
-msgstr ""
+msgstr "Նպատակի որոնում"
 
 #: 06040000.xhp%23par_id3145119.2.help.text
 msgid ""
@@ -13430,18 +13617,23 @@ msgid ""
 "After a successful search, a dialog with the results opens, allowing you to "
 "apply the result and the target value directly to the cell."
 msgstr ""
+"<variable id=\"zielwertsuchetext\"><ahelp hid=\".uno:GoalSeekDialog\">"
+"Բացվում է երկխոսություն, որտեղ կարող եք լուծել փոփոխականով "
+"հավասարումը:</ahelp></variable> Հաջող որոնումից հետո բացվում է երկխոսություն "
+"արդյունքների հետ, որը թույլ է տալիս ուղղակիորեն կիրառել արդյունքը և "
+"նպատակային արժեքը բջիջի վրա:"
 
 #: 06040000.xhp%23hd_id3149656.3.help.text
 msgid "Default"
-msgstr ""
+msgstr "Լռելյայն"
 
 #: 06040000.xhp%23par_id3151211.4.help.text
 msgid "In this section, you can define the variables in your formula."
-msgstr ""
+msgstr "Այս բաժնում կարող եք ձեր բանաձևում սահմանել փոփոխականները:"
 
 #: 06040000.xhp%23hd_id3150869.5.help.text
 msgid "Formula cell"
-msgstr ""
+msgstr "Բանաձևի բջիջ"
 
 #: 06040000.xhp%23par_id3153194.6.help.text
 msgid ""
@@ -13450,20 +13642,26 @@ msgid ""
 "current cell reference.</ahelp> Click another cell in the sheet to apply its "
 "reference to the text box."
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_SOLVER:ED_FORMULACELL\">Բանաձևի բջիջում "
+"մուտքագրեք բջիջի հղումը, որը պարունակում է բանաձև: Այն պարունակում է բջջի "
+"ընթացիկ հղումը:</ahelp> Կտտացրեք թերթիկի մեկ այլ բջիջ, հղումը տեքստի "
+"վանդակում կիրառելու համար:"
 
 #: 06040000.xhp%23hd_id3154685.7.help.text
 msgid "Target value"
-msgstr ""
+msgstr "Թիրախային արժեք"
 
 #: 06040000.xhp%23par_id3146984.8.help.text
 msgid ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_SOLVER:ED_TARGETVAL\">Specifies the value you "
 "want to achieve as a new result.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_SOLVER:ED_TARGETVAL\">Նշում է այն արժեքը, "
+"որին ցանկանում եք հասնել որպես նոր արդյունք:</ahelp>"
 
 #: 06040000.xhp%23hd_id3150012.9.help.text
 msgid "Variable cell"
-msgstr ""
+msgstr "Փոփոխական բջիջ"
 
 #: 06040000.xhp%23par_id3147427.10.help.text
 msgid ""
@@ -13471,11 +13669,14 @@ msgid ""
 "for the cell that contains the value you want to adjust in order to reach "
 "the target.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_SOLVER:ED_VARCELL\">Նշում է այն բջիջի հղումը, "
+"որն իր մեջ պարունակում է այն արժեքը, որը ցանկանում եք հարմարեցնել նպատակին "
+"հասնելու համար:</ahelp>"
 
 #: 04060102.xhp%23tit.help.text
 msgctxt "04060102.xhp#tit.help.text"
 msgid "Date & Time Functions"
-msgstr ""
+msgstr "Ամսաթվի և ժամանակի գործառույթներ"
 
 #: 04060102.xhp%23bm_id3154536.help.text
 msgid ""
@@ -13484,17 +13685,23 @@ msgid ""
 "time</bookmark_value><bookmark_value>Function Wizard; date & "
 "time</bookmark_value>"
 msgstr ""
+"<bookmark_value>date and time "
+"functions</bookmark_value><bookmark_value>functions; date & "
+"time</bookmark_value><bookmark_value>Function Wizard; date & "
+"time</bookmark_value>"
 
 #: 04060102.xhp%23hd_id3154536.1.help.text
 msgctxt "04060102.xhp#hd_id3154536.1.help.text"
 msgid "Date & Time Functions"
-msgstr ""
+msgstr "Ամսաթվի և ժամանակի գործառույթներ"
 
 #: 04060102.xhp%23par_id3153973.2.help.text
 msgid ""
 "<variable id=\"datumzeittext\">These spreadsheet functions are used for "
 "inserting and editing dates and times. </variable>"
 msgstr ""
+"<variable id=\"datumzeittext\">Փռված թերթիկի այս գործառույթներն օգտագործվում "
+"են ամսաթվերի և ժամերի տեղադրման և խմբագրման համար: </variable>"
 
 #: 04060102.xhp%23par_idN10600.help.text
 msgid ""
@@ -13505,6 +13712,13 @@ msgid ""
 "standard ISO 8601, while WEEKNUM_ADD returns the same week number as "
 "Microsoft Excel."
 msgstr ""
+"Գործառույթները, որոնց անունները ավարտվում են _ADD -ով, վերադարձնում են նույն "
+"արդյունքները, ինչ համապատասխան Microsoft Excel գործառույթները: Միջազգային "
+"ստանդարտներին համապատասխան արդյունքներ ստանալու համար օգտագործեք "
+"գործառույթներն առանց _ADD -ի: Օրինակ, WEEKNUM ֆունկցիան հաշվարկում է տվյալ "
+"ամսաթվի շաբաթվա թիվը, հիմնվելով ISO 8601 միջազգային ստանդարտի վրա, մինչդեռ "
+"WEEKNUM_ADD -ը վերադարձնում է նույն շաբաթվա համարը, ինչ որ Microsoft Excel "
+"-ը:"
 
 #: 04060102.xhp%23par_id3150437.170.help.text
 msgid ""
@@ -13519,48 +13733,60 @@ msgid ""
 "Format Cells</emph>. The <emph>Numbers</emph> tab page contains the "
 "functions for defining the number format."
 msgstr ""
+"$[officename] ներքին կարգավորում է ամսաթվի/ժամանակի արժեքը որպես թվային "
+"արժեք: Եթե համարակալման \"Թիվ\" ձևաչափը նշանակեք ամսաթվին կամ ժամին, ապա այն "
+"վերածվում է թվի: Օրինակ, 01/01/2000 12:00 PM -ը, փոխարկվում է 36526.5: "
+"Տասնորդական կետին նախորդող արժեքը համապատասխանում է ամսաթվին. տասնորդական "
+"կետին հաջորդող արժեքը համապատասխանում է ժամանակին: Եթե չեք ցանկանում տեսնել "
+"թվային ամսաթվի կամ ժամանակի ներկայացման այս տեսակը, համապատասխանաբար փոխեք "
+"թվի ձևաչափը (ամսաթիվը կամ ժամը): Դա անելու համար ընտրեք բջիջը, որը "
+"պարունակում է ամսաթվի կամ ժամանակի արժեքը, կանչեք դրա համատեքստային "
+"ընտրացանկը և ընտրեք <emph>Ձևաչափի բջիջները</emph>: <emph>Թվեր</emph> էջի "
+"ներդիրը պարունակում է թվի ձևաչափը սահմանելու գործառույթները:"
 
 #: 04060102.xhp%23hd_id2408825.help.text
 msgid "Date base for day zero"
-msgstr ""
+msgstr "Ամսաթվի հիմքը զրո օրվա համար"
 
 #: 04060102.xhp%23par_id9988402.help.text
 msgid ""
 "Dates are calculated as offsets from a starting day zero. You can set the "
 "day zero to be one of the following:"
 msgstr ""
+"Ամսաթվերը հաշվարկվում են որպես շեղումներ մեկնարկային օրվա զրոյից: Զրո օրը "
+"կարող եք սահմանել հետևյալներից."
 
 #: 04060102.xhp%23par_id6401257.help.text
 msgid "Date base"
-msgstr ""
+msgstr "Ամսաթվի հիմք"
 
 #: 04060102.xhp%23par_id5841242.help.text
 msgid "Use"
-msgstr ""
+msgstr "Օգտագործել"
 
 #: 04060102.xhp%23par_id6794030.help.text
 msgid "'12/30/1899'"
-msgstr ""
+msgstr "'12/30/1899'"
 
 #: 04060102.xhp%23par_id7096774.help.text
 msgid "(default)"
-msgstr ""
+msgstr "(լռելյայն)"
 
 #: 04060102.xhp%23par_id5699942.help.text
 msgid "'01/01/1900'"
-msgstr ""
+msgstr "'01/01/1900'"
 
 #: 04060102.xhp%23par_id6420484.help.text
 msgid "(used in former StarCalc 1.0)"
-msgstr ""
+msgstr "(օգտագործում է նախորդ StarCalc 1.0 ձևաչափը)"
 
 #: 04060102.xhp%23par_id6986602.help.text
 msgid "'01/01/1904'"
-msgstr ""
+msgstr "'01/01/1904'"
 
 #: 04060102.xhp%23par_id616779.help.text
 msgid "(used in Apple software)"
-msgstr ""
+msgstr "(օգտագործվում է Apple ծրագարաշարում)"
 
 #: 04060102.xhp%23par_id791039.help.text
 msgid ""
@@ -13569,6 +13795,10 @@ msgid ""
 "Options</defaultinline></switchinline> - %PRODUCTNAME Calc - Calculate</emph>"
 " to select the date base."
 msgstr ""
+"Choose <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%"
+"PRODUCTNAME - Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - %PRODUCTNAME Calc - Հաշվել</emph>"
+" ամսաթվի հենքը ընտրելու համար:"
 
 #: 04060102.xhp%23par_id1953489.help.text
 msgid ""
@@ -13576,10 +13806,14 @@ msgid ""
 "spreadsheets, both spreadsheet documents must be set to the same date base. "
 "If date bases differ, the displayed date values will change!"
 msgstr ""
+"Երբ պատճենեք և վերագրեք ամսաթվերի արժեքները պարունակող բջիջները տարբեր փռված "
+"թերթիկների միջև, երկու աղյուսակների փաստաթղթերը պետք է կարգաբերվեն նույն "
+"ամսաթվի հենքին: Եթե ամսաթվերի հենքերը տարբերվեն, ցուցադրված ամսաթվերի "
+"արժեքները կփոխվեն:"
 
 #: 04060102.xhp%23hd_id757469.help.text
 msgid "Two digits years"
-msgstr ""
+msgstr "Երկնիշ տարիներ"
 
 #: 04060102.xhp%23par_id3149720.183.help.text
 msgid ""
@@ -13590,6 +13824,13 @@ msgid ""
 "two-digit information applies. Note that changes made here have an effect on "
 "some of the following functions."
 msgstr ""
+"<emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - $[officename] - Ընդհանուր</emph> "
+"-ում գտնում ես տարածքը <emph>Տարի (երկու նիշ)</emph>։ Սա սահմանում է այն "
+"ժամանակահատվածը, որի համար կիրառվում են երկնիշ տեղեկատվություն: Նկատի "
+"ունեցեք, որ այստեղ կատարված փոփոխությունները ազդեցություն են ունենում "
+"հետևյալ գործառույթներից մի քանիսի վրա:"
 
 #: 04060102.xhp%23par_id3150654.185.help.text
 msgid ""
@@ -13599,107 +13840,112 @@ msgid ""
 "keep dates from being interpreted as parts of formulas, place them in "
 "quotation marks, for example, \"07/20/54\"."
 msgstr ""
+"Ամսաթվերը մուտքագրելիս, որպես ամսաթվերի բաժանիչ օգտագործվող թեք գծերը և "
+"գծիկները կարող են մեկնաբանվել որպես թվաբանական օպերատորներ: Հետևաբար, այս "
+"ձևաչափով մուտքագրված ամսաթվերը միշտ չէ, որ ճանաչվում են որպես ամսաթվեր և "
+"հանգեցնում են սխալ հաշվարկների: Որպեսզի ամսաթվերը մեկնաբանվեն որպես "
+"բանաձևերի մասեր, դրանք տեղադրեք չակերտների մեջ, օրինակ՝ \"07/20/54\":"
 
 #: 04060102.xhp%23par_idN1067A.help.text
 msgid "Functions"
-msgstr ""
+msgstr "Գործառույթներ"
 
 #: 04060102.xhp%23par_idN10683.help.text
 msgid "<embedvar href=\"text/scalc/01/func_workday.xhp#workday\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_workday.xhp#workday\"/>"
 
 #: 04060102.xhp%23par_id5189062.help.text
 msgid "<embedvar href=\"text/scalc/01/func_yearfrac.xhp#yearfrac\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_yearfrac.xhp#yearfrac\"/>"
 
 #: 04060102.xhp%23par_id6854457.help.text
 msgid "<embedvar href=\"text/scalc/01/func_date.xhp#date\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_date.xhp#date\"/>"
 
 #: 04060102.xhp%23par_id3372295.help.text
 msgid "<embedvar href=\"text/scalc/01/func_datevalue.xhp#datevalue\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_datevalue.xhp#datevalue\"/>"
 
 #: 04060102.xhp%23par_id5684377.help.text
 msgid "<embedvar href=\"text/scalc/01/func_edate.xhp#edate\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_edate.xhp#edate\"/>"
 
 #: 04060102.xhp%23par_id7576525.help.text
 msgid "<embedvar href=\"text/scalc/01/func_today.xhp#today\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_today.xhp#today\"/>"
 
 #: 04060102.xhp%23par_id641193.help.text
 msgid "<embedvar href=\"text/scalc/01/func_year.xhp#year\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_year.xhp#year\"/>"
 
 #: 04060102.xhp%23par_id6501968.help.text
 msgid "<embedvar href=\"text/scalc/01/func_now.xhp#now\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_now.xhp#now\"/>"
 
 #: 04060102.xhp%23par_id3886532.help.text
 msgid "<embedvar href=\"text/scalc/01/func_weeknum.xhp#weeknum\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_weeknum.xhp#weeknum\"/>"
 
 #: 04060102.xhp%23par_id614947.help.text
 msgid "<embedvar href=\"text/scalc/01/func_weeknumadd.xhp#weeknumadd\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_weeknumadd.xhp#weeknumadd\"/>"
 
 #: 04060102.xhp%23par_id3953062.help.text
 msgid "<embedvar href=\"text/scalc/01/func_minute.xhp#minute\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_minute.xhp#minute\"/>"
 
 #: 04060102.xhp%23par_id2579729.help.text
 msgid "<embedvar href=\"text/scalc/01/func_month.xhp#month\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_month.xhp#month\"/>"
 
 #: 04060102.xhp%23par_id1346781.help.text
 msgid "<embedvar href=\"text/scalc/01/func_eomonth.xhp#eomonth\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_eomonth.xhp#eomonth\"/>"
 
 #: 04060102.xhp%23par_id8951384.help.text
 msgid "<embedvar href=\"text/scalc/01/func_networkdays.xhp#networkdays\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_networkdays.xhp#networkdays\"/>"
 
 #: 04060102.xhp%23par_id1074251.help.text
 msgid "<embedvar href=\"text/scalc/01/func_eastersunday.xhp#eastersunday\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_eastersunday.xhp#eastersunday\"/>"
 
 #: 04060102.xhp%23par_id372325.help.text
 msgid "<embedvar href=\"text/scalc/01/func_second.xhp#second\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_second.xhp#second\"/>"
 
 #: 04060102.xhp%23par_id224005.help.text
 msgid "<embedvar href=\"text/scalc/01/func_hour.xhp#hour\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_hour.xhp#hour\"/>"
 
 #: 04060102.xhp%23par_id5375835.help.text
 msgid "<embedvar href=\"text/scalc/01/func_day.xhp#day\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_day.xhp#day\"/>"
 
 #: 04060102.xhp%23par_id1208838.help.text
 msgid "<embedvar href=\"text/scalc/01/func_days.xhp#days\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_days.xhp#days\"/>"
 
 #: 04060102.xhp%23par_id7679982.help.text
 msgid "<embedvar href=\"text/scalc/01/func_days360.xhp#days360\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_days360.xhp#days360\"/>"
 
 #: 04060102.xhp%23par_id9172643.help.text
 msgid "<embedvar href=\"text/scalc/01/func_weekday.xhp#weekday\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_weekday.xhp#weekday\"/>"
 
 #: 04060102.xhp%23par_id2354503.help.text
 msgid "<embedvar href=\"text/scalc/01/func_time.xhp#time\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_time.xhp#time\"/>"
 
 #: 04060102.xhp%23par_id7765434.help.text
 msgid "<embedvar href=\"text/scalc/01/func_timevalue.xhp#timevalue\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_timevalue.xhp#timevalue\"/>"
 
 #: 02190200.xhp%23tit.help.text
 msgctxt "02190200.xhp#tit.help.text"
 msgid "Column Break"
-msgstr ""
+msgstr "Սյունակի ընդհատում"
 
 #: 02190200.xhp%23bm_id3151384.help.text
 msgid ""
@@ -13708,18 +13954,26 @@ msgid ""
 "breaks</bookmark_value><bookmark_value>column "
 "breaks;deleting</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets;deleting column "
+"breaks</bookmark_value><bookmark_value>deleting;manual column "
+"breaks</bookmark_value><bookmark_value>column "
+"breaks;deleting</bookmark_value>"
 
 #: 02190200.xhp%23hd_id3151384.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/02190200.xhp\" name=\"Column Break\">Column "
 "Break</link>"
 msgstr ""
+"<link href=\"text/scalc/01/02190200.xhp\" name=\"Սյունակի ընդհատում\">"
+"Սյունակի ընդհատում</link>"
 
 #: 02190200.xhp%23par_id3154124.2.help.text
 msgid ""
 "<ahelp hid=\".uno:DeleteColumnbreak\">Removes a manual column break to the "
 "left of the active cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeleteColumnbreak\">Հեռացնում է ձեռքով դրված սյունակի "
+"ընդհատումը ակտիվ բջիջի ձախից:</ahelp>"
 
 #: 02190200.xhp%23par_id3145173.3.help.text
 msgid ""
@@ -13727,20 +13981,26 @@ msgid ""
 "by a vertical line and choose <emph>Edit - Delete Manual Break - Column "
 "Break</emph>. The manual column break is removed."
 msgstr ""
+"Ուղղահայաց գծի վրա նշված սյունակի կոտրվածքի աջ մասում տեղադրեք կուրսորը և "
+"ընտրեք <emph>Խմբագրել - Ջնջել ձեռքով ընդհատումը - Սյունակի ընդհատում</emph>: "
+"Ձեռքով սյունակի ընդհատումը հեռացվում է:"
 
 #: 07080000.xhp%23tit.help.text
 msgid "Split"
-msgstr ""
+msgstr "Բաժանել"
 
 #: 07080000.xhp%23hd_id3163800.1.help.text
 msgid "<link href=\"text/scalc/01/07080000.xhp\" name=\"Split\">Split</link>"
 msgstr ""
+"<link href=\"text/scalc/01/07080000.xhp\" name=\"Բաժանել\">Բաժանել</link>"
 
 #: 07080000.xhp%23par_id3150084.2.help.text
 msgid ""
 "<ahelp hid=\".uno:SplitWindow\" visibility=\"visible\">Divides the current "
 "window at the top left corner of the active cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:SplitWindow\" visibility=\"visible\">Բաժանում է ընթացիկ "
+"պատուհանը, որը գտնվում է ակտիվ բջիջի վերին ձախ անկյունում:</ahelp>"
 
 #: 07080000.xhp%23par_id3154910.3.help.text
 msgid ""
@@ -13749,6 +14009,11 @@ msgid ""
 "scrollbar or directly to the right of the horizontal scrollbar into the "
 "window. A thick black line will show where the window is split."
 msgstr ""
+"Պատուհանը հորիզոնական կամ ուղղահայաց բաժանելու համար կարող եք նաև օգտագործել "
+"մկնիկը: Դա անելու համար ձգեք հաստ սև գիծը, որը գտնվում է ուղղակիորեն "
+"ուղղահայաց պտտվող տողի վերևում, կամ ուղղակիորեն դեպի հորիզոնական պտտվող տողի "
+"աջ կողմում, դեպի պատուհանը: Հաստ սև գիծը ցույց կտա, թե որտեղ է պատուհանը "
+"բաժանվում:"
 
 #: 07080000.xhp%23par_id3149263.4.help.text
 msgid ""
@@ -13756,11 +14021,14 @@ msgid ""
 "link href=\"text/scalc/01/07090000.xhp\" name=\"fixed window sections\">"
 "fixed window sections</link> are not scrollable."
 msgstr ""
+"Բաժանվված պատուհանը յուրաքանչյուր մասնակի բաժնում ունի իր պտտվող տողեր. ի "
+"տարբերություն, <link href=\"text/scalc/01/07090000.xhp\" name=\"սևեռված "
+"հատվածներ պատուհանների\">սևեռված հատվածներ պատուհանների</link> պտտվող չեն։"
 
 #: 04070200.xhp%23tit.help.text
 msgctxt "04070200.xhp#tit.help.text"
 msgid "Insert Name"
-msgstr ""
+msgstr "Ներդրեք անուն"
 
 #: 04070200.xhp%23bm_id3153195.help.text
 msgid ""
@@ -13768,26 +14036,32 @@ msgid ""
 "ranges</bookmark_value><bookmark_value>inserting; cell "
 "ranges</bookmark_value>"
 msgstr ""
+"<bookmark_value>cell ranges; inserting named "
+"ranges</bookmark_value><bookmark_value>inserting; cell "
+"ranges</bookmark_value>"
 
 #: 04070200.xhp%23hd_id3153195.1.help.text
 msgctxt "04070200.xhp#hd_id3153195.1.help.text"
 msgid "Insert Name"
-msgstr ""
+msgstr "Ներդրեք անուն"
 
 #: 04070200.xhp%23par_id3150011.2.help.text
 msgid ""
 "<variable id=\"nameneinfuegentext\"><ahelp hid=\".uno:InsertName\">Inserts a "
 "defined named cell range at the current cursor's position.</ahelp></variable>"
 msgstr ""
+"<variable id=\"nameneinfuegentext\"><ahelp hid=\".uno:InsertName\">Ներդնում "
+"է սահմանված անվանված բջջային տիրույթը կուրսորի ընթացիկ "
+"դիրքում:</ahelp></variable>"
 
 #: 04070200.xhp%23par_id3149412.7.help.text
 msgid ""
 "You can only insert a cell area after having defined a name for the area."
-msgstr ""
+msgstr "Դուք կարող եք տեղադրել բջջային տարածք միայն տարածքը անվանելուց հետո:"
 
 #: 04070200.xhp%23hd_id3153160.3.help.text
 msgid "Insert name "
-msgstr ""
+msgstr "Տեղադրեք անուն"
 
 #: 04070200.xhp%23par_id3154944.4.help.text
 msgid ""
@@ -13795,10 +14069,13 @@ msgid ""
 "defined cell areas. Double-click an entry to insert the named area into the "
 "active sheet at the current cursor position.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_NAMES_PASTE:LB_ENTRYLIST\">Թվարկում է "
+"բոլոր սահմանված բջջային տարածքները: Կրկնակի սեղմեք մուտքին, անվանական "
+"տարածքը ակտիվ թերթիկի կուրսորի ընթացիկ դիրքում տեղադրելու համար:</ahelp>"
 
 #: 04070200.xhp%23hd_id3153418.5.help.text
 msgid "Insert All"
-msgstr ""
+msgstr "Տեղադրեք բոլորը"
 
 #: 04070200.xhp%23par_id3155066.6.help.text
 msgid ""
@@ -13806,36 +14083,45 @@ msgid ""
 "all named areas and the corresponding cell references at the current cursor "
 "position.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:PUSHBUTTON:RID_SCDLG_NAMES_PASTE:BTN_ADD\">Կուրսորի ընթացիկ "
+"դիրքում տեղադրում է նշված բոլոր անվանումների ցանկը և համապատասխան բջջային "
+"հղումները:</ahelp>"
 
 #: 06030500.xhp%23tit.help.text
 msgid "Remove All Traces"
-msgstr ""
+msgstr "Հեռացնում է բոլոր հետքերը"
 
 #: 06030500.xhp%23bm_id3153088.help.text
 msgid "<bookmark_value>cells; removing traces</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>cells; removing traces</bookmark_value>"
 
 #: 06030500.xhp%23hd_id3153088.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06030500.xhp\" name=\"Remove All Traces\">Remove "
 "All Traces</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06030500.xhp\" name=\"Հեռացրեք բոլոր հետքերը\">"
+"Հեռացրեք բոլոր հետքերը</link>"
 
 #: 06030500.xhp%23par_id3151246.2.help.text
 msgid ""
 "<ahelp hid=\".uno:ClearArrows\" visibility=\"visible\">Removes all tracer "
 "arrows from the spreadsheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:ClearArrows\" visibility=\"visible\">Հեռացնում է հետագծման "
+"բոլոր սլաքները փռված թերթիկից:</ahelp>"
 
 #: 06060000.xhp%23tit.help.text
 msgid "Protect Document"
-msgstr ""
+msgstr "Պաշտպանեք փաստաթուղթը"
 
 #: 06060000.xhp%23hd_id3148946.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06060000.xhp\" name=\"Protect Document\">Protect "
 "Document</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06060000.xhp\" name=\"Պաշտպանեք փաստաթուղթը\">"
+"Պաշտպանեք փաստաթուղթը</link>"
 
 #: 06060000.xhp%23par_id3153362.2.help.text
 msgid ""
@@ -13844,106 +14130,118 @@ msgid ""
 "define a password. If a password is defined, removal of the protection is "
 "only possible if the user enters the correct password."
 msgstr ""
+"<emph> Պաշտպանեք փաստաթուղթը </emph>հրամանը կանխում է փաստաթղթերի կամ "
+"փաստաթղթերի թերթերի բջիջներում փոփոխություններ կատարելը: Որպես տարբերակ, "
+"կարող եք սահմանել գաղտնաբառ: Եթե գաղտնաբառ է սահմանված, ապա պաշտպանության "
+"հեռացումը հնարավոր է միայն այն դեպքում, երբ օգտագործողը մուտքագրում է ճիշտ "
+"գաղտնաբառը:"
 
 #: 06060000.xhp%23hd_id3147228.3.help.text
 msgid "<link href=\"text/scalc/01/06060100.xhp\" name=\"Sheets\">Sheets</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/06060100.xhp\" name=\"Թերթեր\">Թերթեր</link>"
 
 #: 06060000.xhp%23hd_id3153768.4.help.text
 msgid ""
 "<link href=\"text/scalc/01/06060200.xhp\" name=\"Documents\">Documents</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06060200.xhp\" name=\"Փաստաթղթեր\""
+">Փաստաթղթեր</link>"
 
 #: 06060000.xhp%23par_idN10622.help.text
 msgid "<embedvar href=\"text/scalc/guide/cell_protect.xhp#cell_protect\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/guide/cell_protect.xhp#cell_protect\"/>"
 
 #: 12080500.xhp%23tit.help.text
 msgid "AutoOutline"
-msgstr ""
+msgstr "AutoOutline"
 
 #: 12080500.xhp%23hd_id3150275.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12080500.xhp\" name=\"AutoOutline\""
 ">AutoOutline</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080500.xhp\" name=\"AutoOutline\""
+">AutoOutline</link>"
 
 #: 12080500.xhp%23par_id3145069.2.help.text
 msgid ""
 "<ahelp hid=\".uno:AutoOutline\">If the selected cell range contains formulas "
 "or references, $[officename] automatically outlines the selection.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:AutoOutline\">Եթե ընտրված բջջային միջակայքը պարունակում է "
+"բանաձևեր կամ հղումներ, $[officename] -ը ինքնաբերաբար ուրվագծում է "
+"ընտրությունը:</ahelp>"
 
 #: 12080500.xhp%23par_id3148798.10.help.text
 msgid "For example, consider the following table:"
-msgstr ""
+msgstr "Օրինակ, հաշվի առեք հետևյալ աղյուսակը."
 
 #: 12080500.xhp%23par_id3154123.11.help.text
 msgid "January"
-msgstr ""
+msgstr "Հունվար"
 
 #: 12080500.xhp%23par_id3154011.12.help.text
 msgid "February"
-msgstr ""
+msgstr "Փետրվար"
 
 #: 12080500.xhp%23par_id3152460.13.help.text
 msgid "March"
-msgstr ""
+msgstr "Մարտ"
 
 #: 12080500.xhp%23par_id3146119.14.help.text
 msgid "1st Quarter"
-msgstr ""
+msgstr "1ին քառորդ"
 
 #: 12080500.xhp%23par_id3155854.15.help.text
 msgid "April"
-msgstr ""
+msgstr "Ապրիլ"
 
 #: 12080500.xhp%23par_id3148575.16.help.text
 msgid "May"
-msgstr ""
+msgstr "Մայիս"
 
 #: 12080500.xhp%23par_id3145271.17.help.text
 msgid "June"
-msgstr ""
+msgstr "Հունիս"
 
 #: 12080500.xhp%23par_id3145648.18.help.text
 msgid "2nd Quarter"
-msgstr ""
+msgstr "2րդ քառորդ"
 
 #: 12080500.xhp%23par_id3153876.19.help.text
 msgctxt "12080500.xhp#par_id3153876.19.help.text"
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: 12080500.xhp%23par_id3145251.20.help.text
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #: 12080500.xhp%23par_id3149400.21.help.text
 msgid "130"
-msgstr ""
+msgstr "130"
 
 #: 12080500.xhp%23par_id3150328.22.help.text
 msgid "350"
-msgstr ""
+msgstr "350"
 
 #: 12080500.xhp%23par_id3155443.23.help.text
 msgctxt "12080500.xhp#par_id3155443.23.help.text"
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: 12080500.xhp%23par_id3153713.24.help.text
 msgctxt "12080500.xhp#par_id3153713.24.help.text"
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: 12080500.xhp%23par_id3156385.25.help.text
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: 12080500.xhp%23par_id3145230.26.help.text
 msgid "400"
-msgstr ""
+msgstr "400"
 
 #: 12080500.xhp%23par_id3147363.27.help.text
 msgid ""
@@ -13951,6 +14249,10 @@ msgid ""
 "three cells to their left. If you apply the <emph>AutoOutline</emph> "
 "command, the table is grouped into two quarters."
 msgstr ""
+"1-ին և 2-րդ եռամսյակների համար նախատեսված բջիջներից յուրաքանչյուրը "
+"պարունակում են գումարի բանաձևը իրենցից ձախ գտնվող երեք բջիջների համար: Եթե "
+"կիրառեք <emph>AutoOutline</emph> հրամանը, աղյուսակը խմբավորված է երկու "
+"քառորդի:"
 
 #: 12080500.xhp%23par_id3146918.9.help.text
 msgid ""
@@ -13958,53 +14260,69 @@ msgid ""
 "scalc/01/12080600.xhp\" name=\"Data - Group and Outline - Remove\">Data - "
 "Group and Outline - Remove</link>."
 msgstr ""
+"Ուրվագիծը հեռացնելու համար ընտրեք աղյուսակը, ապա ընտրեք <link href=\""
+"text/scalc/01/12080600.xhp\" name=\"Տվյալ - Խումբ և ուրվագիծ - Հեռացնել\">"
+"Տվյալ - Խումբ և ուրվագիծ - Հեռացնել</link>։"
 
 #: 05080000.xhp%23tit.help.text
 msgid "Print Ranges"
-msgstr ""
+msgstr "Տպել Տիրույթները"
 
 #: 05080000.xhp%23hd_id3154013.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/05080000.xhp\" name=\"Print Ranges\">Print "
 "Ranges</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05080000.xhp\" name=\"Տպել Տիրույթները\">Տպել "
+"Տիրույթները</link>"
 
 #: 05080000.xhp%23par_id3155855.2.help.text
 msgid ""
 "<ahelp hid=\".\">Manages print ranges. Only cells within the print ranges "
 "will be printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Կառավարում է տպելու տիրույթները։ Տպվելու են միայն տպման "
+"միջակայքում գտնվող բջիջները:</ahelp>"
 
 #: 05080000.xhp%23par_id3146119.4.help.text
 msgid ""
 "If you do not define any print range manually, Calc assigns an automatic "
 "print range to include all the cells that are not empty."
 msgstr ""
+"Եթե ձեռքով չեք սահմանում տպման որևէ միջակայք, ապա Calc -ը նշանակում է տպման "
+"ավտոմատ տիրույթ՝ ներառելու բոլոր բջիջները, որոնք դատարկ չեն:"
 
 #: 05080000.xhp%23hd_id3154729.3.help.text
 msgid "<link href=\"text/scalc/01/05080300.xhp\" name=\"Edit\">Edit</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05080300.xhp\" name=\"Խմբագրել\">Խմբագրելt</link>"
 
 #: 12090000.xhp%23tit.help.text
 msgctxt "12090000.xhp#tit.help.text"
 msgid "Pivot Table"
-msgstr ""
+msgstr "Առանցքային աղյուսակ"
 
 #: 12090000.xhp%23hd_id3150275.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12090000.xhp\" name=\"Pivot Table\">Pivot "
 "Table</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12090000.xhp\" name=\"Առանցքային աղյուսակ\">"
+"Առանցքային աղյուսակ</link>"
 
 #: 12090000.xhp%23par_id3153562.2.help.text
 msgid ""
 "A pivot table provides a summary of large amounts of data. You can then "
 "rearrange the pivot table to view different summaries of the data."
 msgstr ""
+"Առանցքային աղյուսակը ներկայացնում է մեծ քանակությամբ տվյալների ամփոփ "
+"նկարագրությունը: Այնուհետև կարող եք վերափոխել առանցքային աղյուսակը, դիտելու "
+"համար տվյալների տարբեր ամփոփումները:"
 
 #: 12090000.xhp%23hd_id3155923.3.help.text
 msgid "<link href=\"text/scalc/01/12090100.xhp\" name=\"Create\">Create</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12090100.xhp\" name=\"Ստեղծել\">Ստեղծել</link>"
 
 #: 12090000.xhp%23par_idN105FB.help.text
 msgctxt "12090000.xhp#par_idN105FB.help.text"
@@ -14012,20 +14330,24 @@ msgid ""
 "<link href=\"text/scalc/01/12090102.xhp\" name=\"Pivot table dialog\">Pivot "
 "table dialog</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12090102.xhp\" name=\"Առանցքային աղյուսակի "
+"երկխոսություն\">Առանցքային աղյուսակի երկխոսություն</link>"
 
 #: 12080200.xhp%23tit.help.text
 msgid "Show Details"
-msgstr ""
+msgstr "Ցուցադրել Մանրամասները"
 
 #: 12080200.xhp%23bm_id3153561.help.text
 msgid "<bookmark_value>tables; showing details</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>tables; showing details</bookmark_value>"
 
 #: 12080200.xhp%23hd_id3153561.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12080200.xhp\" name=\"Show Details\">Show "
 "Details</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080200.xhp\" name=\"Ցուցադրել մանրամասները\">"
+"Ցուցադրել մանրամասները</link>"
 
 #: 12080200.xhp%23par_id3153822.2.help.text
 msgid ""
@@ -14034,6 +14356,10 @@ msgid ""
 "rows or columns, select the outlined table, and then choose this "
 "command.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:ShowDetail\">Ցույց է տալիս խմբավորած տողի կամ սյունակի "
+"մանրամասները, որոնք պարունակում են կուրսորը: Բոլոր խմբավորված տողերի կամ "
+"սյունակների մանրամասները ցույց տալու համար ընտրեք ուրվագծված աղյուսակը, ապա "
+"ընտրեք այս հրամանը:</ahelp>"
 
 #: 12080200.xhp%23par_id3155922.3.help.text
 msgid ""
@@ -14041,103 +14367,123 @@ msgid ""
 "text/scalc/01/12080100.xhp\" name=\"Hide Details\"><emph>Hide "
 "Details</emph></link>."
 msgstr ""
+"Ընտրված խումբը թաքցնելու համար ընտրեք <emph>Տվյալ -ՈՒրվագիծ – </emph><link "
+"href=\"text/scalc/01/12080100.xhp\" name=\"Թաքցրու մանրամասները\"><emph>"
+"Թաքցրու մանրամասները</emph></link>։"
 
 #: 12080200.xhp%23par_id6036561.help.text
 msgid ""
 "<link href=\"text/scalc/01/12080700.xhp\">Show Details command in pivot "
 "tables</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080700.xhp\">Ցույց տալ Մանրամասների հրամանը "
+"առանցքային աղյուսակներում</link>"
 
 #: 05080400.xhp%23tit.help.text
 msgctxt "05080400.xhp#tit.help.text"
 msgid "Add"
-msgstr ""
+msgstr "Ավելացնել"
 
 #: 05080400.xhp%23hd_id3149457.1.help.text
 msgid "<link href=\"text/scalc/01/05080400.xhp\" name=\"Add\">Add</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05080400.xhp\" name=\"Ավելացնել\">Ավելացնել</link>"
 
 #: 05080400.xhp%23par_id3156423.2.help.text
 msgid ""
 "<ahelp hid=\".uno:AddPrintArea\">Adds the current selection to the defined "
 "print areas.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:AddPrintArea\">Ավելացնում է ընթացիկ ընտրությունը տպելու "
+"սահմանված տիրույթներում:</ahelp>"
 
 #: func_datevalue.xhp%23tit.help.text
 msgid "DATEVALUE "
-msgstr ""
+msgstr "DATEVALUE "
 
 #: func_datevalue.xhp%23bm_id3145621.help.text
 msgid "<bookmark_value>DATEVALUE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DATEVALUE function</bookmark_value>"
 
 #: func_datevalue.xhp%23hd_id3145621.18.help.text
 msgid ""
 "<variable id=\"datevalue\"><link href=\"text/scalc/01/func_datevalue.xhp\""
 ">DATEVALUE</link></variable>"
 msgstr ""
+"<variable id=\"datevalue\"><link href=\"text/scalc/01/func_datevalue.xhp\""
+">DATEVALUE</link></variable>"
 
 #: func_datevalue.xhp%23par_id3145087.19.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_DATWERT\">Returns the internal date number for text in "
 "quotes.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DATWERT\">Տեքստի համար վերադարձնում է ներքին ամսաթիվը "
+"չակերտներում:</ahelp>"
 
 #: func_datevalue.xhp%23par_id3149281.20.help.text
 msgid ""
 "The internal date number is returned as a number. The number is determined "
 "by the date system that is used by $[officename] to calculate dates."
 msgstr ""
+"Ներքին ամսաթիվը վերադարձվում է որպես թիվ: Թիվը որոշվում է ըստ ամսաթվերի "
+"համակարգի, որը օգտագործում է $[officename] կողմից ամսաթվերը հաշվելու համար:"
 
 #: func_datevalue.xhp%23par_id0119200903491982.help.text
 msgid ""
 "If the text string also includes a time value, DATEVALUE only returns the "
 "integer part of the conversion."
 msgstr ""
+"Եթե տեքստի տողը պարունակում է նաև ժամանակի արժեքը, ապա DATEVALUE "
+"վերադարձնում է միայն փոխարկման ամբողջ թվային մասը:"
 
 #: func_datevalue.xhp%23hd_id3156294.21.help.text
 msgctxt "func_datevalue.xhp#hd_id3156294.21.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_datevalue.xhp%23par_id3149268.22.help.text
 msgid "DATEVALUE(\"Text\")"
-msgstr ""
+msgstr "DATEVALUE(\"Text\")"
 
 #: func_datevalue.xhp%23par_id3154819.23.help.text
 msgid ""
 "         <emph>Text</emph> is a valid date expression and must be entered "
 "with quotation marks."
 msgstr ""
+"         <emph>Տեքստ</emph> ամսաթվի վավեր արտահայտություն է և պետք է "
+"մուտքագրվի չակերտներով:"
 
 #: func_datevalue.xhp%23hd_id3156309.24.help.text
 msgctxt "func_datevalue.xhp#hd_id3156309.24.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: func_datevalue.xhp%23par_id3155841.25.help.text
 msgid "         <emph>=DATEVALUE(\"1954-07-20\")</emph> yields 19925."
-msgstr ""
+msgstr "         <emph>=DATEVALUE(\"1954-07-20\")</emph> բերում է 19925։"
 
 #: 02210000.xhp%23tit.help.text
 msgctxt "02210000.xhp#tit.help.text"
 msgid "Selecting Sheets"
-msgstr ""
+msgstr "Թերթիկների ընտրություն"
 
 #: 02210000.xhp%23hd_id3156023.5.help.text
 msgctxt "02210000.xhp#hd_id3156023.5.help.text"
 msgid "Selecting Sheets"
-msgstr ""
+msgstr "Թերթիկների ընտրություն"
 
 #: 02210000.xhp%23par_id3147265.1.help.text
 msgid ""
 "<variable id=\"tabellenauswaehlen\"><ahelp hid=\".uno:SelectTables\" "
 "visibility=\"visible\">Selects multiple sheets.</ahelp></variable>"
 msgstr ""
+"<variable id=\"tabellenauswaehlen\"><ahelp hid=\".uno:SelectTables\" "
+"visibility=\"visible\">Ընտրում է մի քանի թերթ:</ahelp></variable>"
 
 #: 02210000.xhp%23hd_id3125863.2.help.text
 msgid "Selected Sheets"
-msgstr ""
+msgstr "Ընտրված թերթեր"
 
 #: 02210000.xhp%23par_id3153969.3.help.text
 msgid ""
@@ -14147,91 +14493,114 @@ msgid ""
 "(Mac: Command) while pressing the arrow keys and then press Spacebar. To "
 "select a range of sheets, hold down Shift and press the arrow keys. </ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SELECTTABLES\" visibility=\"visible\">Թվարկում է թերթերը "
+"ընթացիկ փաստաթղթում: Թերթիկը ընտրելու համար սեղմեք վեր կամ ներքև սլաքների "
+"ստեղները, ցանկի թերթիկ տեղափոխվելու համար: Թերթիկը ընտրության մեջ "
+"ավելացնելու համար, սեղմած պահեք Ctrl (Mac: Command), մինչ սեղմելով սլաքների "
+"ստեղները, սեղմեք Բացատի ստեղնը։ Թերթիկների միջակայքը ընտրելու համար, սեղմած "
+"պահեք Shift-ը և սեղմեք սլաքների ստեղները: </ahelp>"
 
 #: 05020600.xhp%23tit.help.text
 msgid "Cell Protection"
-msgstr ""
+msgstr "Բջիջի պաշտպանություն"
 
 #: 05020600.xhp%23hd_id3145119.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/05020600.xhp\" name=\"Cell Protection\">Cell "
 "Protection</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05020600.xhp\" name=\"Բջիջի պաշտպանություն\">"
+"Բջիջի պաշտպանություն</link>"
 
 #: 05020600.xhp%23par_id3150398.2.help.text
 msgid ""
 "<ahelp hid=\"HID_SCPAGE_PROTECTION\">Defines protection options for selected "
 "cells.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SCPAGE_PROTECTION\">Սահմանում է ընտրված բջիջների "
+"պաշտպանության տարբերակները:</ahelp>"
 
 #: 05020600.xhp%23hd_id3150447.3.help.text
 msgid "Protection"
-msgstr ""
+msgstr "Պաշտպանություն"
 
 #: 05020600.xhp%23hd_id3125864.9.help.text
 msgid "Hide all"
-msgstr ""
+msgstr "Թաքցնել բոլորը"
 
 #: 05020600.xhp%23par_id3153768.10.help.text
 msgid ""
 "<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_ALL\">Hides "
 "formulas and contents of the selected cells.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_ALL\">Թաքցնում է "
+"ընտրված բջիջների բանաձևերը և պարունակությունը:</ahelp>"
 
 #: 05020600.xhp%23hd_id3153190.5.help.text
 msgid "Protected"
-msgstr ""
+msgstr "Պաշտպանված է"
 
 #: 05020600.xhp%23par_id3151119.6.help.text
 msgid ""
 "<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_PROTECTED\">Prevents "
 "the selected cells from being modified.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_PROTECTED\">Կանխում է "
+"ընտրված բջիջների փոփոխումը:</ahelp>"
 
 #: 05020600.xhp%23par_id3156283.15.help.text
 msgid ""
 "This cell protection only takes effect if you also protect the sheet (<emph>"
 "Tools - Protect Document - Sheet</emph>)."
 msgstr ""
+"Այս բջիջի պաշտպանությունն ուժի մեջ է մտնում միայն այն դեպքում, եթե "
+"պաշտպանում եք նաև թերթիկը (<emph>Գործիքներ - Պաշտպանեք փաստաթուղթը - "
+"Թերթիկ)</emph>)։"
 
 #: 05020600.xhp%23hd_id3149377.7.help.text
 msgid "Hide formula"
-msgstr ""
+msgstr "Թաքցրեք բանաձևը"
 
 #: 05020600.xhp%23par_id3154510.8.help.text
 msgid ""
 "<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_FORMULAR\">Hides "
 "formulas in the selected cells.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_FORMULAR\">"
+"Թաքցնում է բանաձևերը ընտրված բջիջներում:</ahelp>"
 
 #: 05020600.xhp%23hd_id3155602.11.help.text
 msgctxt "05020600.xhp#hd_id3155602.11.help.text"
 msgid "Print"
-msgstr ""
+msgstr "Տպել"
 
 #: 05020600.xhp%23par_id3153836.12.help.text
 msgid "Defines print options for the sheet."
-msgstr ""
+msgstr "Թերթիկի համար սահմանում է տպելու տարբերակները։"
 
 #: 05020600.xhp%23hd_id3155065.13.help.text
 msgid "Hide when printing"
-msgstr ""
+msgstr "Թաքցրու երբ տպում է"
 
 #: 05020600.xhp%23par_id3155443.14.help.text
 msgid ""
 "<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_PRINT\">Keeps the "
 "selected cells from being printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:TRISTATEBOX:RID_SCPAGE_PROTECTION:BTN_HIDE_PRINT\">Ընտրված "
+"բջիջները պահպանում է տպելուց:</ahelp>"
 
 #: 03100000.xhp%23tit.help.text
 msgid "Page Break Preview"
-msgstr ""
+msgstr "Էջի ընդհատման նախադիտում"
 
 #: 03100000.xhp%23hd_id3151384.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/03100000.xhp\" name=\"Page Break Preview\">Page "
 "Break Preview</link>"
 msgstr ""
+"<link href=\"text/scalc/01/03100000.xhp\" name=\"Էջի ընդհատման նախադիտում\">"
+"Էջի ընդհատման նախադիտում</link>"
 
 #: 03100000.xhp%23par_id3150792.2.help.text
 msgid ""
@@ -14239,203 +14608,232 @@ msgid ""
 "in the sheet. Choose <emph>View - Normal</emph> to switch this mode "
 "off.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:PagebreakMode\">Ցուցադրում է էջի ընդհատումները և թերթիկում "
+"տպում է միջակայքերը: Այս ռեժիմն անջատելու համար ընտրեք <emph>Դիտել - "
+"Նորմալ</emph>:</ahelp>"
 
 #: 03100000.xhp%23par_id3153877.13.help.text
 msgid ""
 "The context menu of the page break preview contains functions for editing "
 "page breaks, including the following options:"
 msgstr ""
+"Էջի ընդմիջման նախադիտման ենթատեքստային ցանկը պարունակում է էջերի "
+"ընդմիջումների խմբագրման գործառույթները, ներառյալ հետևյալ ընտրանքները."
 
 #: 03100000.xhp%23hd_id3154731.14.help.text
 msgid "Delete All Manual Breaks"
-msgstr ""
+msgstr "Ջնջել ձեռքի բոլոր ընդհատումները"
 
 #: 03100000.xhp%23par_id3149400.15.help.text
 msgid ""
 "<ahelp hid=\".uno:DeleteAllBreaks\">Deletes all manual breaks in the current "
 "sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeleteAllBreaks\">Ջնջում է ընթացիկ թերթում առկա ձեռքի "
+"բոլոր ընդմիջումները:</ahelp>"
 
 #: 03100000.xhp%23hd_id3155067.18.help.text
 msgid "Add Print Range"
-msgstr ""
+msgstr "Ավելացրու տպելու տիրույթը"
 
 #: 03100000.xhp%23par_id3155764.19.help.text
 msgid "Adds the selected cells to print ranges."
-msgstr ""
+msgstr "Ընտրված բջիջները ավելացնում է տպելու միջակայքերին:"
 
 #: 06990000.xhp%23tit.help.text
 msgid "Cell Contents"
-msgstr ""
+msgstr "Բջիջի Բովանդակություն"
 
 #: 06990000.xhp%23hd_id3153087.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06990000.xhp\" name=\"Cell Contents\">Cell "
 "Contents</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06990000.xhp\" name=\"Բջիջի Բովանդակություն\">"
+"Բջիջի Բովանդակություն</link>"
 
 #: 06990000.xhp%23par_id3145674.2.help.text
 msgid ""
 "Opens a submenu with commands to calculate tables and activate AutoInput."
 msgstr ""
+"Բացվում է ենթացանկը, աղյուսակները հաշվելու և ինքնամուտքը ակտիվացնելու "
+"հրամաններով:"
 
 #: 05080200.xhp%23tit.help.text
 msgctxt "05080200.xhp#tit.help.text"
 msgid "Remove"
-msgstr ""
+msgstr "Հեռացնել"
 
 #: 05080200.xhp%23hd_id3153562.1.help.text
 msgid "<link href=\"text/scalc/01/05080200.xhp\" name=\"Remove\">Remove</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05080200.xhp\" name=\"Հեռացնել\">Հեռացնել</link>"
 
 #: 05080200.xhp%23par_id3148550.2.help.text
 msgid ""
 "<ahelp hid=\".uno:DeletePrintArea\">Removes the defined print area.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeletePrintArea\">Հեռացնում է տպելու սահմանված "
+"տարածքը:</ahelp>"
 
 #: 04050100.xhp%23tit.help.text
 msgid "Sheet from file"
-msgstr ""
+msgstr "Թերթիկը նիշքից"
 
 #: 04050100.xhp%23par_idN105C1.help.text
 msgid "<link href=\"text/scalc/01/04050100.xhp\">Sheet from file</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04050100.xhp\">Թերթիկը նիշքից</link>"
 
 #: 04050100.xhp%23par_idN105D1.help.text
 msgid ""
 "<ahelp hid=\"26275\">Inserts a sheet from a different spreadsheet "
 "file.</ahelp>"
 msgstr ""
+"<ahelp hid=\"26275\">Տեղադրում է թերթիկը փռված թերթերի տարբեր "
+"նիշքերից:</ahelp>"
 
 #: 04050100.xhp%23par_idN105F7.help.text
 msgid ""
 "Use the <link href=\"text/shared/01/01020000.xhp\">File - Open</link> dialog "
 "to locate the spreadsheet."
 msgstr ""
+"Use the <link href=\"text/shared/01/01020000.xhp\">Նիշք - Բացել</link> "
+"երկխոսություն`աղյուսակը գտնելու համար:"
 
 #: 04050100.xhp%23par_idN10609.help.text
 msgid ""
 "In the <link href=\"text/scalc/01/04050000.xhp\">Insert Sheet</link> dialog, "
 "select the sheet that you want to insert."
 msgstr ""
+"In the <link href=\"text/scalc/01/04050000.xhp\">Տեղադրեք թերթիկը</link> "
+"երկխոսություն, ընտրեք թերթը, որը ցանկանում եք տեղադրել:"
 
 #: 12090400.xhp%23tit.help.text
 msgctxt "12090400.xhp#tit.help.text"
 msgid "Grouping"
-msgstr ""
+msgstr "Խմբավորում"
 
 #: 12090400.xhp%23par_idN1054D.help.text
 msgctxt "12090400.xhp#par_idN1054D.help.text"
 msgid "Grouping"
-msgstr ""
+msgstr "Խմբավորում"
 
 #: 12090400.xhp%23par_idN10551.help.text
 msgid ""
 "Grouping pivot tables displays the <emph>Grouping</emph> dialog for either "
 "values or dates."
 msgstr ""
+"Առանցքային աղյուսակների խմբավորումը արտածում է <emph>Խմբավորում</emph> "
+"երկխոսությունը, կամ արժեքների և կամ ամսաթվերի համար:"
 
 #: 12090400.xhp%23par_idN10568.help.text
 msgctxt "12090400.xhp#par_idN10568.help.text"
 msgid "Start"
-msgstr ""
+msgstr "Սկսել"
 
 #: 12090400.xhp%23par_idN1056C.help.text
 msgid "Specifies the start of the grouping."
-msgstr ""
+msgstr "Նշում է խմբավորման սկիզբը:"
 
 #: 12090400.xhp%23par_idN1056F.help.text
 msgctxt "12090400.xhp#par_idN1056F.help.text"
 msgid "Automatically"
-msgstr ""
+msgstr "Ավտոմատ կերպով"
 
 #: 12090400.xhp%23par_idN10573.help.text
 msgid "Specifies whether to start grouping at the smallest value."
-msgstr ""
+msgstr "Նշում է արդյոք սկսել խմբավորումը ամենափոքր արժեքով:"
 
 #: 12090400.xhp%23par_idN10576.help.text
 msgctxt "12090400.xhp#par_idN10576.help.text"
 msgid "Manually at"
-msgstr ""
+msgstr "Ձեռքով"
 
 #: 12090400.xhp%23par_idN1057A.help.text
 msgid "Specifies whether to enter the start value for grouping yourself."
-msgstr ""
+msgstr "Նշում է արդյոք մուտքագրել սկսելու ամսաթիվը քո կողմից խմբավորման համար:"
 
 #: 12090400.xhp%23par_idN1057D.help.text
 msgctxt "12090400.xhp#par_idN1057D.help.text"
 msgid "End"
-msgstr ""
+msgstr "Վերջ"
 
 #: 12090400.xhp%23par_idN10581.help.text
 msgid "Specifies the end of the grouping."
-msgstr ""
+msgstr "Նշում է խմբավորման ավարտը:"
 
 #: 12090400.xhp%23par_idN10584.help.text
 msgctxt "12090400.xhp#par_idN10584.help.text"
 msgid "Automatically"
-msgstr ""
+msgstr "Ավտոմատ կերպով"
 
 #: 12090400.xhp%23par_idN10588.help.text
 msgid "Specifies whether to end grouping at the largest value."
-msgstr ""
+msgstr "Նշում է, արդյոք ավարտել խմբավորումը ամենամեծ արժեքով:"
 
 #: 12090400.xhp%23par_idN1058B.help.text
 msgctxt "12090400.xhp#par_idN1058B.help.text"
 msgid "Manually at"
-msgstr ""
+msgstr "Ձեռքով"
 
 #: 12090400.xhp%23par_idN1058F.help.text
 msgid "Specifies whether to enter the end value for grouping yourself."
-msgstr ""
+msgstr "Նշում է, արդյոք մուտքագրել ավարտի ամսաթիվը քո կողմից խմբավորման համար:"
 
 #: 12090400.xhp%23par_idN10592.help.text
 msgctxt "12090400.xhp#par_idN10592.help.text"
 msgid "Group by"
-msgstr ""
+msgstr "Խմբավորել ըստ"
 
 #: 12090400.xhp%23par_idN10596.help.text
 msgid "Specifies the value range by which every group's limits are calculated."
 msgstr ""
+"Նշում է արժեքի միջակայքը, որով հաշվարկվում են յուրաքանչյուր խմբի սահմանները:"
 
 #: 12090400.xhp%23par_idN10599.help.text
 msgid "Number of days"
-msgstr ""
+msgstr "Օրերի թիվը"
 
 #: 12090400.xhp%23par_idN1059D.help.text
 msgid ""
 "In the case of grouping date values, specifies the number of days to group "
 "by."
 msgstr ""
+"Ամսաթվի արժեքները խմբավորելու դեպքում, նշվում է խմբավորման օրերի քանակը ըստ:"
 
 #: 12090400.xhp%23par_idN105A0.help.text
 msgid "Intervals"
-msgstr ""
+msgstr "Միջակայքեր"
 
 #: 12090400.xhp%23par_idN105A4.help.text
 msgid ""
 "In the case of grouping date values, specifies the intervals to group by."
 msgstr ""
+"Ամսաթվի արժեքները խմբավորելու դեպքում, նշում է ըստ խմբերի ժամանակահատվածները:"
 
 #: 12090400.xhp%23par_idN105B2.help.text
 msgid ""
 "<embedvar href=\"text/scalc/guide/datapilot_grouping.xhp#datapilot_grouping\""
 "/>"
 msgstr ""
+"<embedvar href=\"text/scalc/guide/datapilot_grouping.xhp#datapilot_grouping\""
+"/>"
 
 #: 12100000.xhp%23tit.help.text
 msgid "Refresh Range"
-msgstr ""
+msgstr "Թարմացրու միջակայքը"
 
 #: 12100000.xhp%23bm_id3153662.help.text
 msgid "<bookmark_value>database ranges; refreshing</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>database ranges; refreshing</bookmark_value>"
 
 #: 12100000.xhp%23hd_id3153662.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12100000.xhp\" name=\"Refresh Range\">Refresh "
 "Range</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12100000.xhp\" name=\"Թարմացրու միջակայքը\">"
+"Թարմացրու միջակայքը</link>"
 
 #: 12100000.xhp%23par_id3153088.2.help.text
 msgid ""
@@ -14444,11 +14842,16 @@ msgid ""
 "external database. The data in the sheet is updated to match the data in the "
 "external database.</ahelp></variable>"
 msgstr ""
+"<variable id=\"aktualisieren\"><ahelp hid=\".uno:DataAreaRefresh\" "
+"visibility=\"visible\">Թարմացնում է տվյալների շտեմարանը, որը ներդրվել է "
+"տվյալների արտաքին շտեմարանից։ Թերթիկի տվյալները թարմացվել են, տվյալների "
+"արտաքին շտեմարանում առկա տվյալներին համապատասխանելու "
+"համար:</ahelp></variable>"
 
 #: 12090106.xhp%23tit.help.text
 msgctxt "12090106.xhp#tit.help.text"
 msgid "Data Field Options"
-msgstr ""
+msgstr "Տվյալի դաշտի տարբերակներ"
 
 #: 12090106.xhp%23bm_id711386.help.text
 msgid ""
@@ -14458,33 +14861,42 @@ msgid ""
 "table</bookmark_value><bookmark_value>data field options for pivot "
 "table</bookmark_value>"
 msgstr ""
+"<bookmark_value>hiding;data fields, from calculations in pivot "
+"table</bookmark_value><bookmark_value>display options in pivot "
+"table</bookmark_value><bookmark_value>sorting;options in pivot "
+"table</bookmark_value><bookmark_value>data field options for pivot "
+"table</bookmark_value>"
 
 #: 12090106.xhp%23par_idN10542.help.text
 msgctxt "12090106.xhp#par_idN10542.help.text"
 msgid "Data Field Options"
-msgstr ""
+msgstr "Տվյալի դաշտի տարբերակներ"
 
 #: 12090106.xhp%23par_idN10546.help.text
 msgid ""
 "You can specify additional options for column, row, and page data fields in "
 "the <link href=\"text/scalc/01/12090105.xhp\">pivot table</link>."
 msgstr ""
+"Կարող եք նշել սյունակի, տողի և էջի տվյալների դաշտերի լրացուցիչ ընտրանքները <"
+"link href=\"text/scalc/01/12090105.xhp\">առանցքային աղյուսակում</link>։"
 
 #: 12090106.xhp%23par_idN10557.help.text
 msgctxt "12090106.xhp#par_idN10557.help.text"
 msgid "Sort by"
-msgstr ""
+msgstr "Տեսակավորել ըստ"
 
 #: 12090106.xhp%23par_idN1055B.help.text
 msgid ""
 "<ahelp hid=\"1495387653\">Select the data field that you want to sort "
 "columns or rows by.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495387653\">Ընտրեք տվյալների դաշտը, որով ցանկանում եք "
+"տեսակավորել սյունակները կամ տողերը ըստ:</ahelp>"
 
 #: 12090106.xhp%23par_idN1055E.help.text
 msgctxt "12090106.xhp#par_idN1055E.help.text"
 msgid "Ascending"
-msgstr ""
+msgstr "Աճող"
 
 #: 12090106.xhp%23par_idN10562.help.text
 msgid ""
@@ -14493,11 +14905,16 @@ msgid ""
 "opened, the items are sorted by name. If a data field was selected, the "
 "items are sorted by the resultant value of the selected data field.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495384580\">Տեսակավորում են արժեքները ամենափոքրից մինչև "
+"առավելագույնը: Եթե ընտրված դաշտը այն է, որի համար բացվեց երկխոսությունը, "
+"նյութերը տեսակավորվում են ըստ անվան: Եթե ընտրվել է տվյալների դաշտը, ապա "
+"տարրերը տեսակավորվում են ըստ ընտրված տվյալների դաշտի արդյունքային "
+"արժեքի:</ahelp>"
 
 #: 12090106.xhp%23par_idN10565.help.text
 msgctxt "12090106.xhp#par_idN10565.help.text"
 msgid "Descending"
-msgstr ""
+msgstr "Նվազող"
 
 #: 12090106.xhp%23par_idN10569.help.text
 msgid ""
@@ -14506,106 +14923,131 @@ msgid ""
 "was opened, the items are sorted by name. If a data field was selected, the "
 "items are sorted by the resultant value of the selected data field.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495384581\">Տեսակավորում են ամենաբարձր արժեքից մինչև "
+"նվազագույնը: Եթե ընտրված դաշտը այն է, որի համար բացվել է երկխոսությունը, "
+"տարրերը տեսակավորվում են ըստ անվան: Եթե ընտրվել է տվյալների դաշտը, ապա "
+"տարրերը տեսակավորվում են ըստ տվյալի ընտրված դաշտի արդյունքային "
+"արժեքի.</ahelp>"
 
 #: 12090106.xhp%23par_idN1056C.help.text
 msgid "Manual"
-msgstr ""
+msgstr "Ձեռքով"
 
 #: 12090106.xhp%23par_idN10570.help.text
 msgid "<ahelp hid=\"1495384582\">Sorts values alphabetically.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495384582\">Արժեքները տեսակավորում է ըստ այբբենական "
+"կարգի:</ahelp>"
 
 #: 12090106.xhp%23par_idN10585.help.text
 msgid "Display options"
-msgstr ""
+msgstr "Արտածման ընտրանքները"
 
 #: 12090106.xhp%23par_idN10589.help.text
 msgid ""
 "You can specify the display options for all row fields except for the last, "
 "innermost row field."
 msgstr ""
+"Կարող եք ցուցադրել տողի բոլոր դաշտերը, բացառությամբ վերջին, ամենախոր տողի "
+"դաշտի:"
 
 #: 12090106.xhp%23par_idN1058C.help.text
 msgctxt "12090106.xhp#par_idN1058C.help.text"
 msgid "Layout"
-msgstr ""
+msgstr "Դասավորություն"
 
 #: 12090106.xhp%23par_idN10590.help.text
 msgid ""
 "<ahelp hid=\"1495387654\">Select the layout mode for the field in the list "
 "box.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495387654\">Ցանկի վանդակում ընտրեք դաշտի դասավորության "
+"ռեժիմը:</ahelp>"
 
 #: 12090106.xhp%23par_idN10593.help.text
 msgid "Empty line after each item"
-msgstr ""
+msgstr "Ամեն նյութից առաջ դատարկ տող"
 
 #: 12090106.xhp%23par_idN10597.help.text
 msgid ""
 "<ahelp hid=\"1495385090\">Adds an empty row after the data for each item in "
 "the pivot table.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495385090\">Առանցքային աղյուսակի յուրաքանչյուր տարրից հետո, "
+"տվյալների համար ավելացվում է դատարկ տող:</ahelp>"
 
 #: 12090106.xhp%23par_idN1059A.help.text
 msgid "Show automatically"
-msgstr ""
+msgstr "Ցուցադրել ավտոմատ կերպով"
 
 #: 12090106.xhp%23par_idN1059E.help.text
 msgid "Displays the top or bottom nn items when you sort by a specified field."
 msgstr ""
+"Ցուցադրում է վերևի կամ ներքևի nn կետերը, երբ տեսակավորվում եք ըստ նշված "
+"դաշտի:"
 
 #: 12090106.xhp%23par_idN105A1.help.text
 msgctxt "12090106.xhp#par_idN105A1.help.text"
 msgid "Show"
-msgstr ""
+msgstr "Ցույց տալ"
 
 #: 12090106.xhp%23par_idN105A5.help.text
 msgid "<ahelp hid=\"1495385091\">Turns on the automatic show feature.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495385091\">Միացնում է ավտոմատ ցուցադրման "
+"հնարավորությունը:</ahelp>"
 
 #: 12090106.xhp%23par_idN105A8.help.text
 msgid "items"
-msgstr ""
+msgstr "նյութեր"
 
 #: 12090106.xhp%23par_idN105AC.help.text
 msgid ""
 "<ahelp hid=\"1495390209\">Enter the maximum number of items that you want to "
 "show automatically.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495390209\">Մուտքագրեք նյութերի այն առավելագույն քանակը, որը "
+"ցանկանում եք ինքնաբերաբար ցուցադրել:</ahelp>"
 
 #: 12090106.xhp%23par_idN105AF.help.text
 msgid "From"
-msgstr ""
+msgstr "ից"
 
 #: 12090106.xhp%23par_idN105B3.help.text
 msgid ""
 "<ahelp hid=\"1495387655\">Shows the top or bottom items in the specified "
 "sort order.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495387655\">Ցույց է տալիս վերևի կամ ներքևի կետերը, "
+"տեսակավորման որոշված կարգով:</ahelp>"
 
 #: 12090106.xhp%23par_idN105B6.help.text
 msgid "Using field"
-msgstr ""
+msgstr "Դաշտի օգտագործում"
 
 #: 12090106.xhp%23par_idN105BA.help.text
 msgid ""
 "<ahelp hid=\"1495387656\">Select the data field that you want to sort the "
 "data by.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495387656\">Ընտրեք տվյալների դաշտը, ըստ որի ցանկանում եք "
+"տեսակավորել տվյալները:</ahelp>"
 
 #: 12090106.xhp%23par_idN105BD.help.text
 msgid "Hide items"
-msgstr ""
+msgstr "Թաքցնել կետերը"
 
 #: 12090106.xhp%23par_idN105C1.help.text
 msgid ""
 "<ahelp hid=\"59010\">Select the items that you want to hide from the "
 "calculations.</ahelp>"
 msgstr ""
+"<ahelp hid=\"59010\">Ընտրեք այն կետերը, որոնք ցանկանում եք թաքցնել "
+"հաշվարկներից:</ahelp>"
 
 #: 12090106.xhp%23par_idN105C4.help.text
 msgid "Hierarchy"
-msgstr ""
+msgstr "Հիերարխիա"
 
 #: 12090106.xhp%23par_idN105C8.help.text
 msgid ""
@@ -14613,20 +15055,25 @@ msgid ""
 "pivot table must be based on an external source data that contains data "
 "hierarchies.</ahelp>"
 msgstr ""
+"<ahelp hid=\"1495387657\">Ընտրեք այն հիերարխիան, որը ցանկանում եք օգտագործել:"
+" Առանցքային աղյուսակը պետք է հիմնված լինի արտաքին աղբյուրի տվյալների վրա, "
+"որոնք պարունակում են տվյալների հիերարխիա:</ahelp>"
 
 #: func_timevalue.xhp%23tit.help.text
 msgid "TIMEVALUE "
-msgstr ""
+msgstr "TIMEVALUE "
 
 #: func_timevalue.xhp%23bm_id3146755.help.text
 msgid "<bookmark_value>TIMEVALUE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TIMEVALUE function</bookmark_value>"
 
 #: func_timevalue.xhp%23hd_id3146755.160.help.text
 msgid ""
 "<variable id=\"timevalue\"><link href=\"text/scalc/01/func_timevalue.xhp\""
 ">TIMEVALUE</link></variable>"
 msgstr ""
+"<variable id=\"timevalue\"><link href=\"text/scalc/01/func_timevalue.xhp\""
+">TIMEVALUE</link></variable>"
 
 #: func_timevalue.xhp%23par_id3148502.161.help.text
 msgid ""
@@ -14634,55 +15081,68 @@ msgid ""
 "from a text enclosed by quotes and which may show a possible time entry "
 "format.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZEITWERT\">TIMEVALUE վերադարձնում է ներքին ժամանակի "
+"թիվը չակերտներում ներառված տեքստից, և որը կարող է ցույց տալ ժամանակի մուտքի "
+"հնարավոր ձևաչափը:</ahelp>"
 
 #: func_timevalue.xhp%23par_id3150794.162.help.text
 msgid ""
 "The internal number indicated as a decimal is the result of the date system "
 "used under $[officename] to calculate date entries."
 msgstr ""
+"Որպես տասնորդական նշված ներքին թիվը արդյունք է այն ամսաթվերի համակարգի, որն "
+"օգտագործվում է $[officename] ներքո, ամսաթվի մուտքերը հաշվելու համար:"
 
 #: func_timevalue.xhp%23par_id011920090347118.help.text
 msgid ""
 "If the text string also includes a year, month, or day, TIMEVALUE only "
 "returns the fractional part of the conversion."
 msgstr ""
+"Եթե տեքստի տողը ներառում է նաև տարի, ամիս կամ օր, ապա TIMEVALUE միայն "
+"վերադարձնում է ձևափոխման կոտորակային մասը:"
 
 #: func_timevalue.xhp%23hd_id3150810.163.help.text
 msgctxt "func_timevalue.xhp#hd_id3150810.163.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_timevalue.xhp%23par_id3150823.164.help.text
 msgid "TIMEVALUE(\"Text\")"
-msgstr ""
+msgstr "TIMEVALUE(\"Text\")"
 
 #: func_timevalue.xhp%23par_id3152556.165.help.text
 msgid ""
 "         <emph>Text</emph> is a valid time expression and must be entered in "
 "quotation marks."
 msgstr ""
+"         <emph>Տեքստ</emph> ժամանակի վավեր արտահայտություն է և պետք է "
+"մուտքագրվի չակերտների մեջ:"
 
 #: func_timevalue.xhp%23hd_id3146815.166.help.text
 msgctxt "func_timevalue.xhp#hd_id3146815.166.help.text"
 msgid "Examples"
-msgstr ""
+msgstr "Օրինակներ"
 
 #: func_timevalue.xhp%23par_id3146829.167.help.text
 msgid ""
 "         <item type=\"input\">=TIMEVALUE(\"4PM\")</item> returns 0.67. When "
 "formatting in time format HH:MM:SS, you then get 16:00:00."
 msgstr ""
+"         <item type=\"input\">=TIMEVALUE(\"4PM\")</item> վերադարձնում է 0.67։"
+" Երբ ձևաչափում եք Ժամանակի ԺԺ:ՐՐ:ՎՎ ձևաչափով, ստանում եք 16:00:00։"
 
 #: func_timevalue.xhp%23par_id3153632.168.help.text
 msgid ""
 "         <item type=\"input\">=TIMEVALUE(\"24:00\")</item> returns 1. If you "
 "use the HH:MM:SS time format, the value is 00:00:00."
 msgstr ""
+"         <item type=\"input\">=TIMEVALUE(\"24:00\")</item> վերադարձնում է 1։ "
+"Եթե օգտագործում եք ժամանակի ԺԺ:ՐՐ:ՎՎ ձևաչափը, արժեքն է 00:00:00․"
 
 #: 04060112.xhp%23tit.help.text
 msgctxt "04060112.xhp#tit.help.text"
 msgid "Add-in for Programming in $[officename] Calc"
-msgstr ""
+msgstr "Add-in for Programming in $[officename] Calc"
 
 #: 04060112.xhp%23bm_id3151076.help.text
 msgid ""
@@ -14692,11 +15152,16 @@ msgid ""
 "in DLL</bookmark_value><bookmark_value>add-ins; for "
 "programming</bookmark_value>"
 msgstr ""
+"<bookmark_value>programming; add-ins</bookmark_value><bookmark_value>shared "
+"libraries; programming</bookmark_value><bookmark_value>external DLL "
+"functions</bookmark_value><bookmark_value>functions; $[officename] Calc add-"
+"in DLL</bookmark_value><bookmark_value>add-ins; for "
+"programming</bookmark_value>"
 
 #: 04060112.xhp%23hd_id3151076.1.help.text
 msgctxt "04060112.xhp#hd_id3151076.1.help.text"
 msgid "Add-in for Programming in $[officename] Calc"
-msgstr ""
+msgstr "Add-in for Programming in $[officename] Calc"
 
 #: 04060112.xhp%23par_id3147001.220.help.text
 msgid ""
@@ -14706,6 +15171,12 @@ msgid ""
 "should use the new <link href=\"text/shared/guide/integratinguno.xhp\" name="
 "\"API functions\">API functions</link>."
 msgstr ""
+"Calc -ի միջոցով հավելումների երկարացման մեթոդը, որը նկարագրված է հետևյալում "
+"հնացած է: Միջերեսները դեռ վավեր են և աջակցվում են, գոյություն ունեցող "
+"լրացումների հետ համատեղելիությունն ապահովելու համար, բայց նոր լրացումներ "
+"ծրագրավորելու համար պետք է օգտագործել <link href=\""
+"text/shared/guide/integratinguno.xhp\" name=\"API functions\">API "
+"functions</link>։"
 
 #: 04060112.xhp%23par_id3150361.2.help.text
 msgid ""
@@ -14718,6 +15189,14 @@ msgid ""
 "</caseinline><defaultinline>external DLL</defaultinline></switchinline> so "
 "that the Add-In can be successfully attached."
 msgstr ""
+"$[officename] Calc -ը կարող է ընդլայնվել հավելումներով, որոնք ծրագրավորման "
+"արտաքին մոդուլներ են, և ապահովում են լրացուցիչ գործառույթներ աղյուսակների "
+"հետ աշխատելու համար: Դրանք թվարկված են <emph>Add-In</emph> դասի <emph>"
+"Function Wizard</emph> ում։ Եթե ցանկանում եք ինքներդ ծրագրավորել հավելումը, "
+"կարող եք այստեղից իմանալ, թե որ գործառույթները պետք է արտահանվեն <"
+"switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library "
+"</caseinline><defaultinline>external DLL</defaultinline></switchinline>, "
+"այնպես, որ հավելումը հաջողությամբ կցվի:"
 
 #: 04060112.xhp%23par_id3149211.3.help.text
 msgid ""
@@ -14731,10 +15210,19 @@ msgid ""
 "you to program your own Add-In for <emph>Function Wizard</emph> of "
 "$[officename] Calc."
 msgstr ""
+"$[officename] որոնում է Add-in թղթապանակը, սահմանված կազմաձևումում հարմար <"
+"switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library "
+"</caseinline><defaultinline>DLL</defaultinline></switchinline>։ $[officename]"
+" կողմից ճանաչվելու համար, <switchinline select=\"sys\"><caseinline select=\""
+"UNIX\">shared library "
+"</caseinline><defaultinline>DLL</defaultinline></switchinline>- ը պետք է "
+"ունենա որոշակի հատկություններ, ինչպես բացատրված է հետևյալում: Այս "
+"տեղեկատվությունը թույլ է տալիս ծրագրել ձեր սեփական հավելումը $[officename] "
+"Calc -ի <emph>Գործառույթի հրաշագործ</emph> համար։"
 
 #: 04060112.xhp%23hd_id3146981.4.help.text
 msgid "The Add-In Concept"
-msgstr ""
+msgstr "Add-In տեսլական"
 
 #: 04060112.xhp%23par_id3156292.5.help.text
 msgid ""
@@ -14744,12 +15232,19 @@ msgid ""
 "passing. The exact naming and calling conventions vary for different "
 "platforms."
 msgstr ""
+"Յուրաքանչյուր Add-In գրադարան ապահովում է մի քանի գործառույթներ: Որոշ "
+"գործառույթներ օգտագործվում են վարչական նպատակներով: Դուք կարող եք ընտրել "
+"գրեթե ցանկացած անուն ձեր սեփական գործառույթների համար: Այնուամենայնիվ, դրանք "
+"պետք է հետևեն նաև որոշակի կանոնների, պարամետրերի փոխանցման վերաբերյալ: "
+"Անվանման և կանչի ճշգրիտ համաձայնագրերը տարբեր հարթակների համար տարբեր են:"
 
 #: 04060112.xhp%23hd_id3152890.6.help.text
 msgid ""
 "Functions of <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared "
 "Library </caseinline><defaultinline>AddIn DLL</defaultinline></switchinline>"
 msgstr ""
+"Functions of <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared "
+"Library </caseinline><defaultinline>AddIn DLL</defaultinline></switchinline>"
 
 #: 04060112.xhp%23par_id3148837.7.help.text
 msgid ""
@@ -14764,6 +15259,17 @@ msgid ""
 ">String Array</link>, and <link href=\"text/scalc/01/04060112.xhp\" name=\""
 "Cell Array\">Cell Array</link> are supported."
 msgstr ""
+"Որպես նվազագույն,կառավարչական <link href=\"text/scalc/01/04060112.xhp\" name="
+"\"GetFunctionCount\">GetFunctionCount</link> and <link href=\""
+"text/scalc/01/04060112.xhp\" name=\"GetFunctionData\">GetFunctionData</link> "
+"գործառույթները պետք է առկա լինեն։ Օգտագործելով դրանք, գործառույթները, ինչպես "
+"նաև պարամետրերի տեսակները և վերադարձման արժեքները կարող են որոշվել: Որպես "
+"վերադարձման արժեքներ, Double և String տեսակներն են աջակցվում: Որպես "
+"պարամետր, լրացուցիչ բջջային տարածքներն են <link href=\""
+"text/scalc/01/04060112.xhp\" name=\"Կրկնակի զանգված\">Կրկնակի զանգված</link>"
+", <link href=\"text/scalc/01/04060112.xhp\" name=\"Տողի զանգված\">Տողի "
+"զանգված</link>, և <link href=\"text/scalc/01/04060112.xhp\" name=\"Բջիջի "
+"զանգված\">Բջիջի զանգված</link> աջակցվում։"
 
 #: 04060112.xhp%23par_id3148604.8.help.text
 msgid ""
@@ -14771,6 +15277,9 @@ msgid ""
 "is basically possible. However, this is not supported in $[officename] Calc "
 "because it does not make sense within spreadsheets."
 msgstr ""
+"Պարամետրերը փոխանցվում են հղումների օգտագործմամբ: Հետևաբար, այդ արժեքների "
+"փոփոխությունն ըստ էության հնարավոր է: Այնուամենայնիվ, սա չի ապահովվում "
+"$[officename] Calc -ով, քանի որ իմաստ չունի փռված թերթիկներում:"
 
 #: 04060112.xhp%23par_id3150112.9.help.text
 msgid ""
@@ -14779,6 +15288,11 @@ msgid ""
 "about count and type of parameters, internal and external function names and "
 "an administrative number."
 msgstr ""
+"Գրադարանները կարող են վերաբեռնվել ժամանակի ընթացքում, և դրանց "
+"բովանդակությունը կարելի է վերլուծել վարչական գործառույթների միջոցով: "
+"Յուրաքանչյուր գործառույթի համար հասանելի տեղեկատվություն կա պարամետրերի "
+"հաշվարկի և տեսակի, ներքին և արտաքին գործառույթների անունների և վարչական "
+"համարի վերաբերյալ:"
 
 #: 04060112.xhp%23par_id3155269.10.help.text
 msgid ""
@@ -14786,10 +15300,14 @@ msgid ""
 "Real time functions (asynchronous functions) are also possible; however, "
 "they are not explained in detail because of their complexity."
 msgstr ""
+"Գործառույթները կոչվում են համաժամանակ և անմիջապես վերադարձնում են դրանց "
+"արդյունքները: Հնարավոր են նաև ժամանակի իրական գործառույթները (ասինխրոն "
+"գործառույթներ). Այնուամենայնիվ, դրանք մանրամասն չեն բացատրվում իրենց "
+"բարդության պատճառով:"
 
 #: 04060112.xhp%23hd_id3145077.11.help.text
 msgid "General information about the interface"
-msgstr ""
+msgstr "Այս միջերեսի մասին ընդհանուր տեղեկատվություն"
 
 #: 04060112.xhp%23par_id3146776.12.help.text
 msgid ""
@@ -14797,84 +15315,88 @@ msgid ""
 "$[officename] Calc is 16: one return value and a maximum of 15 function "
 "input parameters."
 msgstr ""
+"$[officename] Calc -ին կցված Add-In գործառույթի պարամետրերի մեծագույն քանակը "
+"16 է․ վերադարձի մեկ արժեք և ամենաշատը 15 գործառույթի մուտքի պարամետրեր։"
 
 #: 04060112.xhp%23par_id3149899.13.help.text
 msgid "The data types are defined as follows:"
-msgstr ""
+msgstr "Տվյալների տեսակները սահմանված են այսպես․"
 
 #: 04060112.xhp%23par_id3151302.14.help.text
 msgid "<emph>Data types</emph>"
-msgstr ""
+msgstr "<emph>Տվյալների տեսակներ</emph>"
 
 #: 04060112.xhp%23par_id3143222.15.help.text
 msgid "<emph>Definition</emph>"
-msgstr ""
+msgstr "<emph>Սահմանում</emph>"
 
 #: 04060112.xhp%23par_id3149384.16.help.text
 msgid "CALLTYPE"
-msgstr ""
+msgstr "CALLTYPE"
 
 #: 04060112.xhp%23par_id3146963.17.help.text
 msgid "Under Windows: FAR PASCAL (_far _pascal)"
-msgstr ""
+msgstr "Under Windows: FAR PASCAL (_far _pascal)"
 
 #: 04060112.xhp%23par_id3153809.18.help.text
 msgid "Other: default (operating system specific default)"
-msgstr ""
+msgstr "Այլ՝ լռելյայն (գործառնական համակարգի հատուկ լռելյայն)"
 
 #: 04060112.xhp%23par_id3154734.19.help.text
 msgid "USHORT"
-msgstr ""
+msgstr "USHORT"
 
 #: 04060112.xhp%23par_id3155760.20.help.text
 msgid "2 Byte unsigned Integer"
-msgstr ""
+msgstr "2 բայթանի առանց նշանի ամբողջ"
 
 #: 04060112.xhp%23par_id3145320.21.help.text
 msgid "DOUBLE"
-msgstr ""
+msgstr "DOUBLE"
 
 #: 04060112.xhp%23par_id3150956.22.help.text
 msgid "8 byte platform-dependent format"
-msgstr ""
+msgstr "8 բայթանի հարթակից կախված ձևաչափ"
 
 #: 04060112.xhp%23par_id3146097.23.help.text
 msgid "Paramtype"
-msgstr ""
+msgstr "Paramtype"
 
 #: 04060112.xhp%23par_id3150432.24.help.text
 msgid "Platform-dependent like int"
-msgstr ""
+msgstr "Platform-dependent like int"
 
 #: 04060112.xhp%23par_id3153955.25.help.text
 msgid "PTR_DOUBLE =0 pointer to a double"
-msgstr ""
+msgstr "PTR_DOUBLE =0 pointer to a double"
 
 #: 04060112.xhp%23par_id3159262.26.help.text
 msgid "PTR_STRING =1 pointer to a zero-terminated string"
-msgstr ""
+msgstr "PTR_STRING =1 pointer to a zero-terminated string"
 
 #: 04060112.xhp%23par_id3148747.27.help.text
 msgid "PTR_DOUBLE_ARR =2 pointer to a double array"
-msgstr ""
+msgstr "PTR_DOUBLE_ARR =2 ցուցիչ դեպի երկակի զանգված"
 
 #: 04060112.xhp%23par_id3147406.28.help.text
 msgid "PTR_STRING_ARR =3 pointer to a string array"
-msgstr ""
+msgstr "PTR_STRING_ARR =3 ցուցիչ դեպի տողի զանգված"
 
 #: 04060112.xhp%23par_id3151392.29.help.text
 msgid "PTR_CELL_ARR =4 pointer to a cell array"
-msgstr ""
+msgstr "PTR_CELL_ARR =4 ցուցիչ դեպի բջիջի զանգված"
 
 #: 04060112.xhp%23par_id3153028.30.help.text
 msgid "NONE =5"
-msgstr ""
+msgstr "NONE =5"
 
 #: 04060112.xhp%23hd_id3156396.31.help.text
 msgid ""
 "<switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library "
 "</caseinline><defaultinline>DLL</defaultinline></switchinline> functions"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library "
+"</caseinline><defaultinline>DLL</defaultinline></switchinline> functions"
 
 #: 04060112.xhp%23par_id3153019.32.help.text
 msgid ""
@@ -14883,6 +15405,9 @@ msgid ""
 "Library </caseinline><defaultinline>external "
 "DLL</defaultinline></switchinline>."
 msgstr ""
+"Հետևյալում կգտնեք այն գործառույթների նկարագրությունները, որոնք կանչվում են <"
+"switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library "
+"</caseinline><defaultinline>external DLL</defaultinline></switchinline>։"
 
 #: 04060112.xhp%23par_id3150038.33.help.text
 msgid ""
@@ -14890,10 +15415,13 @@ msgid ""
 "Library </caseinline><defaultinline>DLL</defaultinline></switchinline> "
 "functions, the following applies:"
 msgstr ""
+"Բոլոր <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared "
+"Library </caseinline><defaultinline>DLL</defaultinline></switchinline>"
+"գործառույթների համար, կիրառելի է հետևյալը:"
 
 #: 04060112.xhp%23par_id3157876.34.help.text
 msgid "void CALLTYPE fn(out, in1, in2, ...)"
-msgstr ""
+msgstr "void CALLTYPE fn(out, in1, in2, ...)"
 
 #: 04060112.xhp%23par_id3147616.35.help.text
 msgid "Output: Resulting value"

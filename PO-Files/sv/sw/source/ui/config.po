@@ -5,19 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sw%2Fsource%2Fui%2Fc"
 "onfig.oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2019-08-21 18:38+0200\n"
+"POT-Creation-Date: 2020-01-17 14:38+0200\n"
 "PO-Revision-Date: 2019-08-25 16:10+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1566749429.000000\n"
 
 #: redlopt.src%23TP_REDLINE_OPT.FL_TE.fixedline.text
 msgid "Text display"
@@ -211,8 +208,7 @@ msgid "Test S~ettings..."
 msgstr "T~estinställningar..."
 
 #: mailconfigpage.src%23TP_MAILCONFIG.tabpage.text
-#, fuzzy
-msgid "Mail Merge e-mail"
+msgid "Mail Merge E-mail"
 msgstr "Kopplad utskrift med e-post"
 
 #: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.FI_INFO.fixedtext.text
@@ -227,34 +223,37 @@ msgstr "Fel"
 msgid "~Stop"
 msgstr "~Stopp"
 
-#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
-msgid "Test Account Settings"
-msgstr "Testa kontoinställningar"
-
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_TASK.string.text
 #: mailconfigpage.src%23ST_TASK.string.text
 msgid "Task"
 msgstr "Uppgift"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_STATUS.string.text
 #: mailconfigpage.src%23ST_STATUS.string.text
 msgid "Status"
 msgstr "Status"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ESTABLISH.string.text
 #: mailconfigpage.src%23ST_ESTABLISH.string.text
 msgid "Establish network connection"
 msgstr "Upprätta nätverksanslutning"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FINDSERVER.string.text
 #: mailconfigpage.src%23ST_FINDSERVER.string.text
 msgid "Find outgoing mail server"
 msgstr "Hitta utgående e-postserver"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_COMPLETED.string.text
 #: mailconfigpage.src%23ST_COMPLETED.string.text
 msgid "Successful"
 msgstr "Lyckad"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_FAILED.string.text
 #: mailconfigpage.src%23ST_FAILED.string.text
 msgid "Failed"
 msgstr "Misslyckades"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.ST_ERROR_SERVER.string.text
 #: mailconfigpage.src%23ST_ERROR_SERVER.string.text
 msgid ""
 "%PRODUCTNAME could not connect to the outgoing mail server. Check your "
@@ -265,26 +264,41 @@ msgstr ""
 "systeminställningarna och inställningarna i %PRODUCTNAME. Kontrollera "
 "inställningarna för servernamn, port och säkra anslutningar"
 
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
+msgid "Server Authentication"
+msgstr "Serverautentisering"
+
+#: mailconfigpage.src%23DLG_MM_TESTACCOUNTSETTINGS.modaldialog.text
+msgid "Test Account Settings"
+msgstr "Testa kontoinställningar"
+
+#: mailconfigpage.src%23CB_AUTHENTICATION.checkbox.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.CB_AUTHENTICATION.checkbox.text
 msgid "The outgoing mail server (SMTP) requires au~thentication"
 msgstr "Utgående e-postserver (SMTP) måste au~tentiseras"
 
+#: mailconfigpage.src%23RB_SEP_AUTHENTICATION.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SEP_AUTHENTICATION.radiobutton.text
 msgid "The outgoing mail server (SMTP) requires ~separate authentication"
 msgstr "Utgående e-postserver (SMTP) kräver ~separat autentisering"
 
+#: mailconfigpage.src%23FT_OUTGOINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTGOINGSERVER.fixedtext.text
 msgid "Outgoing mail server:"
 msgstr "Utgående e-postserver:"
 
+#: mailconfigpage.src%23FT_USERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_USERNAME.fixedtext.text
 msgid "~User name"
 msgstr "~Användarnamn"
 
+#: mailconfigpage.src%23FT_OUTPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_OUTPASSWORD.fixedtext.text
 msgid "~Password"
 msgstr "~Lösenord"
 
+#: mailconfigpage.src%23RB_SMTPAFTERPOP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_SMPTAFTERPOP.radiobutton.text
 msgid ""
 "The outgoing mail server uses the same authentication as the ~incoming mail "
@@ -293,41 +307,45 @@ msgstr ""
 "Utgående e-postserver använder samma autentisering som ~inkommande e-"
 "postserver. Ange inställningar för inkommande e-postserver."
 
+#: mailconfigpage.src%23FT_INCOMINGSERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INCOMINGSERVER.fixedtext.text
 msgid "Incoming mail server:"
 msgstr "Inkommande e-postserver:"
 
+#: mailconfigpage.src%23FT_SERVER.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_SERVER.fixedtext.text
 msgid "Server ~name"
 msgstr "Server~namn"
 
+#: mailconfigpage.src%23FT_PORT.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PORT.fixedtext.text
 msgid "P~ort"
 msgstr "P~ort"
 
+#: mailconfigpage.src%23FT_PROTOCOL.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_PROTOCOL.fixedtext.text
 msgid "Type"
 msgstr "Typ"
 
+#: mailconfigpage.src%23RB_POP3.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_POP3.radiobutton.text
 msgid "~POP3"
 msgstr "~POP3"
 
+#: mailconfigpage.src%23RB_IMAP.radiobutton.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.RB_IMAP.radiobutton.text
 msgid "~IMAP"
 msgstr "~IMAP"
 
+#: mailconfigpage.src%23FT_INUSERNAME.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INUSERNAME.fixedtext.text
 msgid "Us~er name"
 msgstr "Använ~darnamn"
 
+#: mailconfigpage.src%23FT_INPASSWORD.fixedtext.text
 #: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.FT_INPASSWORD.fixedtext.text
 msgid "Pass~word"
 msgstr "Lösen~ord"
-
-#: mailconfigpage.src%23DLG_MM_SERVERAUTHENTICATION.modaldialog.text
-msgid "Server Authentication"
-msgstr "Serverautentisering"
 
 #: optload.src%23TP_OPTLOAD_PAGE.FL_UPDATE.fixedline.text
 msgid "Update"
@@ -1158,86 +1176,3 @@ msgstr "Si~dor"
 #: optdlg.src%23STR_PRINTOPTUI.30.itemlist.text
 msgid "~Selection"
 msgstr "~Markering"
-
-#~ msgid "Mail Merge E-mail"
-#~ msgstr "Kopplad utskrift med e-post"
-
-#~ msgid "~POP 3"
-#~ msgstr "~POP 3"
-
-#~ msgid ""
-#~ "Specifies whether to include colors and objects that are inserted to the "
-#~ "background of the page (Format - Page - Background) in the printed "
-#~ "document."
-#~ msgstr ""
-#~ "Anger om färger och objekt som infogats i sidbakgrunden (Format – Sida – "
-#~ "Bakgrund) ska tas med när dokumentet skrivs ut."
-
-#~ msgid ""
-#~ "Specifies whether the graphics and drawing or OLE objects of your text "
-#~ "document are printed"
-#~ msgstr ""
-#~ "Anger om grafik och ritobjekt eller OLE-objekt i textdokumentet ska "
-#~ "skrivas ut"
-
-#~ msgid "Enable this option to print text that is marked as hidden."
-#~ msgstr ""
-#~ "Aktivera det här alternativet om du vill att dold text ska skrivas ut."
-
-#~ msgid ""
-#~ "Enable this option to print text placeholders. Disable this option to "
-#~ "leave the text placeholders blank in the printout."
-#~ msgstr ""
-#~ "Aktivera det här alternativet om du vill att platshållare för text ska "
-#~ "skrivas ut. Inaktivera alternativet om du vill att platshållarna för text "
-#~ "ska vara tomma i utskriften."
-
-#~ msgid ""
-#~ "Specifies whether the form control fields of the text document are printed"
-#~ msgstr "Anger om textdokumentets formulärkontrollfält ska skrivas ut"
-
-#~ msgid "Specifies whether to always print text in black."
-#~ msgstr "Anger om text alltid ska skrivas ut i svart."
-
-#~ msgid ""
-#~ "If this option is enabled automatically inserted blank pages are printed. "
-#~ "This is best if you are printing double-sided. For example, in a book, a "
-#~ "\\\"chapter\\\" paragraph style has been set to always start with an odd "
-#~ "numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME "
-#~ "inserts an even numbered blank page. This option controls whether to "
-#~ "print that even numbered page or not"
-#~ msgstr ""
-#~ "Om det här alternativet är aktiverat skrivs automatiskt infogade tomma "
-#~ "sidor ut. Det här är bäst om du gör en dubbelsidig utskrift. I en bok kan "
-#~ "till exempel styckeformatmallen \\\"kapitel\\\" vara inställd för att "
-#~ "alltid börja med ett udda sidnummer. Om föregående kapitel slutar på en "
-#~ "udda sida infogar %PRODUCTNAME en tom sida med jämnt sidnummer. Det här "
-#~ "alternativet anger om den tomma sidan med jämnt sidnummer ska skrivas ut "
-#~ "eller inte"
-
-#~ msgid ""
-#~ "For printers with multiple trays this option specifies whether the paper "
-#~ "tray used is specified by the system settings of the printer."
-#~ msgstr ""
-#~ "För skrivare med flera pappersmagasin anger det här alternativet om det "
-#~ "pappersmagasin som ska användas anges i skrivarens systeminställningar."
-
-#~ msgid "Specify where to print comments (if any)."
-#~ msgstr "Ange var eventuella kommentarer ska skrivas ut."
-
-#~ msgid "Specify which pages to include in the output"
-#~ msgstr "Ange vilka sidor som ska ingå i utdata"
-
-#~ msgid "Select the Brochure option to print the document in brochure format."
-#~ msgstr ""
-#~ "Välj alternativet Broschyr om du vill skriva ut dokumentet i "
-#~ "broschyrformat."
-
-#~ msgid "Print the whole document."
-#~ msgstr "Skriv ut hela dokumentet."
-
-#~ msgid "Print a range of pages of the document."
-#~ msgstr "Skriv ut ett sidintervall av dokumentet."
-
-#~ msgid "Print only the selected parts of the document"
-#~ msgstr "Skriv bara ut de markerade delarna av dokumentet"
