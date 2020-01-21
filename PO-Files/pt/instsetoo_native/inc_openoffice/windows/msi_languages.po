@@ -7,8 +7,8 @@ msgstr ""
 "nc_openoffice%2Fwindows%2Fmsi_languages.oo&component=l10n&form_name="
 "enter_issue\n"
 "POT-Creation-Date: 2020-01-17 14:38+0200\n"
-"PO-Revision-Date: 2020-01-19 21:38+0000\n"
-"Last-Translator: Matthias Seidel <matthias.seidel@hamburg.de>\n"
+"PO-Revision-Date: 2020-01-20 22:55+0000\n"
+"Last-Translator: Pedro Lino <pedro.lino@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579469915.000000\n"
+"X-POOTLE-MTIME: 1579560925.000000\n"
 
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
 msgid "Installation database"
@@ -149,7 +149,7 @@ msgstr "A preparar a remoção de versões anteriores desta aplicação"
 
 #: Error.ulf%23OOO_ERROR_23.LngText.text
 msgid "{[ProductName] }Setup completed successfully."
-msgstr "{[ProductName] } foi instalado correctamente."
+msgstr "Instalação de {[ProductName] } terminada com sucesso."
 
 #: Error.ulf%23OOO_ERROR_24.LngText.text
 msgid "{[ProductName] }Setup failed."
@@ -168,6 +168,8 @@ msgid ""
 "Cannot create the file [3]. A directory with this name already exists. "
 "Cancel the installation and try installing to a different location."
 msgstr ""
+"Não foi possível criar o ficheiro [3]. Já existe uma pasta com este nome. "
+"Cancele a instalação e tente instalar numa localização diferente."
 
 #: Error.ulf%23OOO_ERROR_27.LngText.text
 msgid "Please insert the disk: [2]"
@@ -179,23 +181,31 @@ msgid ""
 "installation cannot continue.  Log on as an administrator or contact your "
 "system administrator."
 msgstr ""
+"O instalador não tem privilégios suficientes para aceder a esta pasta: [2]. "
+"A instalação não pode continuar.  Inicie sessão como administrador ou "
+"contacte o administrador do sistema."
 
 #: Error.ulf%23OOO_ERROR_29.LngText.text
 msgid ""
 "Error writing to file [2]. Verify that you have access to that directory."
 msgstr ""
+"Erro ao escrever no ficheiro [2]. Verifique se tem acesso à pasta pretendida."
 
 #: Error.ulf%23OOO_ERROR_30.LngText.text
 msgid ""
 "Error reading from file [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
+"Erro ao ler o ficheiro [2]. Verifique se o ficheiro existe e se lhe pode "
+"aceder."
 
 #: Error.ulf%23OOO_ERROR_31.LngText.text
 msgid ""
 "Another application has exclusive access to the file [2]. Please shut down "
 "all other applications, then click Retry."
 msgstr ""
+"Já existe uma aplicação com acesso exclusivo ao ficheiro [2]. Encerre todas "
+"as outras aplicações e, em seguida, clique em Tentar novamente."
 
 #: Error.ulf%23OOO_ERROR_32.LngText.text
 msgid ""
@@ -218,28 +228,37 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
+"Erro ao ler o ficheiro: [3]. {{ Erro de sistema [2].}} Verifique se o "
+"ficheiro existe e se lhe pode aceder."
 
 #: Error.ulf%23OOO_ERROR_35.LngText.text
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that directory."
 msgstr ""
+"Erro ao escrever no ficheiro: [3]. {{ Erro de sistema [2].}} Verifique se "
+"tem acesso à pasta pretendida."
 
 #: Error.ulf%23OOO_ERROR_36.LngText.text
 msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
 msgstr ""
+"Ficheiro origem não encontrado{{(ficheiro .CAB)}}: [2]. Verifique se o "
+"ficheiro existe e se lhe pode aceder."
 
 #: Error.ulf%23OOO_ERROR_37.LngText.text
 msgid ""
 "Cannot create the directory [2]. A file with this name already exists. "
 "Please rename or remove the file and click Retry, or click Cancel to exit."
 msgstr ""
+"Não foi possível criar a pasta [2]. Já existe um ficheiro com este nome. "
+"Mude o nome do ficheiro ou remova-o e clique em Tentar novamente ou "
+"Cancelar, para sair."
 
 #: Error.ulf%23OOO_ERROR_38.LngText.text
 msgid "The volume [2] is currently unavailable. Please select another."
-msgstr ""
+msgstr "O volume [2] não está disponível de momento. Escolha outro volume."
 
 #: Error.ulf%23OOO_ERROR_39.LngText.text
 msgid "The specified path [2] is unavailable."
@@ -306,54 +325,74 @@ msgid ""
 "means, and can no longer be modified by this patch.  For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
+"Erro ao aplicar a correcção ao ficheiro [2]. Provavelmente, foi actualizado "
+"por outro meio e já não pode ser modificado por esta correcção.  Para mais "
+"informações, contacte o fornecedor das correcções. {{Erro de sistema: [3]}}"
 
 #: Error.ulf%23OOO_ERROR_54.LngText.text
 msgid ""
 "Could not create key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível criar a chave [2]. {{ Erro de sistema [3].}} Verifique se "
+"tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_55.LngText.text
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível abrir a chave [2]. {{ Erro de sistema [3].}} Verifique se "
+"tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_56.LngText.text
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível eliminar o valor [2] da chave [3]. {{ Erro de sistema [4].}}"
+" Verifique se tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_57.LngText.text
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível eliminar a chave [2]. {{ Erro de sistema [3].}} Verifique "
+"se tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_58.LngText.text
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível ler o valor [2] da chave [3]. {{ Erro de sistema [4].}} "
+"Verifique se tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_59.LngText.text
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível escrever o valor [2] na chave [3]. {{ Erro de sistema [4].}}"
+" Verifique se tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_60.LngText.text
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível obter nomes de valor para a chave [2]. {{ Erro de sistema "
+"[3].}} Verifique se tem acesso a essa chave ou contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_61.LngText.text
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"Não foi possível obter nomes de sub-chave para a chave [2]. {{ Erro de "
+"sistema [3].}} Verifique se tem acesso a essa chave ou contacte o suporte "
+"técnico."
 
 #: Error.ulf%23OOO_ERROR_62.LngText.text
 msgid ""
@@ -361,6 +400,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
+"Não foi possível ler as informações de segurança referentes à chave [2]. {{ "
+"Erro de sistema [3].}} Verifique se tem acesso a essa chave ou contacte o "
+"suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_63.LngText.text
 msgid ""
@@ -392,18 +434,26 @@ msgid ""
 "will need to run that installation again before using that product. Your "
 "current installation will now continue."
 msgstr ""
+"O utilizador [2] já iniciou uma instalação do produto [3]. O referido "
+"utilizador terá de voltar a executar a instalação antes de utilizar esse "
+"produto. A sua instalação actual irá prosseguir."
 
 #: Error.ulf%23OOO_ERROR_67.LngText.text
 msgid ""
 "User [2] has previously initiated an installation for product [3]. That user "
 "will need to run that installation again before using that product."
 msgstr ""
+"O utilizador [2] já iniciou uma instalação do produto [3]. O referido "
+"utilizador terá de voltar a executar a instalação antes de utilizar esse "
+"produto."
 
 #: Error.ulf%23OOO_ERROR_68.LngText.text
 msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
 "[4] KB. Free some disk space and retry."
 msgstr ""
+"Sem espaço em disco -- Volume: '[2]'; espaço necessário: [3] KB; espaço "
+"disponível: [4] KB. Liberte espaço em disco e tente novamente."
 
 #: Error.ulf%23OOO_ERROR_69.LngText.text
 msgid "Are you sure you want to cancel?"
@@ -414,12 +464,16 @@ msgid ""
 "The file [2][3] is being held in use {by the following process: Name: [4], "
 "ID: [5], Window Title: [6]}. Close that application and retry."
 msgstr ""
+"O ficheiro [2][3] está a ser utilizado {pelo seguinte processo: Nome: [4], "
+"ID: [5], Título da janela: [6]}. Feche essa aplicação e tente novamente."
 
 #: Error.ulf%23OOO_ERROR_71.LngText.text
 msgid ""
 "The product [2] is already installed, preventing the installation of this "
 "product. The two products are incompatible."
 msgstr ""
+"O produto [2] já está instalado, impedindo a instalação deste produto. Os "
+"dois produtos são incompatíveis."
 
 #: Error.ulf%23OOO_ERROR_72.LngText.text
 msgid ""
@@ -428,6 +482,10 @@ msgid ""
 "quit, Retry to check available disk space again, or Ignore to continue "
 "without rollback."
 msgstr ""
+"Sem espaço em disco -- Volume: [2]; espaço necessário: [3] KB; espaço "
+"disponível: [4] KB. Se a reversão estiver inactiva, terá espaço suficiente. "
+"Clique em Cancelar para sair, em Tentar novamente para verificar o espaço "
+"disponível ou Ignorar para continuar sem reversão."
 
 #: Error.ulf%23OOO_ERROR_73.LngText.text
 msgid "Could not access network location [2]."
@@ -451,13 +509,16 @@ msgstr ""
 
 #: Error.ulf%23OOO_ERROR_76.LngText.text
 msgid "The key [2] is not valid. Verify that you entered the correct key."
-msgstr ""
+msgstr "A chave [2] não é válida. Verifique se introduziu a chave correcta."
 
 #: Error.ulf%23OOO_ERROR_77.LngText.text
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to restart later."
 msgstr ""
+"O instalador tem de reiniciar o sistema para que a configuração de [2] possa "
+"continuar. Clique em Sim para reiniciar agora ou em Não para reiniciar mais "
+"tarde."
 
 #: Error.ulf%23OOO_ERROR_78.LngText.text
 msgid ""
@@ -473,6 +534,9 @@ msgid ""
 "An installation for [2] is currently suspended.  You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
+"Actualmente, uma instalação de [2] está suspensa.  Tem de anular as "
+"alterações efectuadas por essa instalação para continuar. Pretende anular "
+"essas alterações?"
 
 #: Error.ulf%23OOO_ERROR_80.LngText.text
 msgid ""
@@ -480,12 +544,17 @@ msgid ""
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
 msgstr ""
+"Já está em curso uma instalação deste produto. Tem de anular as alterações "
+"efectuadas por essa instalação para continuar. Pretende anular essas "
+"alterações?"
 
 #: Error.ulf%23OOO_ERROR_81.LngText.text
 msgid ""
 "No valid source could be found for product [2]. The Windows Installer cannot "
 "continue."
 msgstr ""
+"Não foi encontrada uma origem válida para o produto [2]. O instalador "
+"Windows não pode continuar."
 
 #: Error.ulf%23OOO_ERROR_82.LngText.text
 msgid "Installation operation completed successfully."
@@ -513,28 +582,37 @@ msgid ""
 "make sure enough disk space is available, and click Retry, or Cancel to end "
 "the installation."
 msgstr ""
+"Ocorreu um erro ao escrever as informações de instalação no disco. "
+"Certifique-se de que possui de espaço suficiente e clique em Tentar "
+"novamente ou em Cancelar para terminar a instalação."
 
 #: Error.ulf%23OOO_ERROR_87.LngText.text
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
+"Um ou mais ficheiros necessários para restaurar o computador para o estado "
+"anterior não foram encontrados. Não é possível executar o restauro."
 
 #: Error.ulf%23OOO_ERROR_88.LngText.text
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
+"[2] não consegue instalar um ou mais dos produtos necessários. Contacte o "
+"grupo do suporte técnico. {{Erro de sistema: [3].}}"
 
 #: Error.ulf%23OOO_ERROR_89.LngText.text
 msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group. {{System Error [3].}}"
 msgstr ""
+"Não é possível remover a versão anterior de [2].  Contacte o grupo de "
+"suporte técnico. {{Erro de sistema [3].}}"
 
 #: Error.ulf%23OOO_ERROR_90.LngText.text
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr ""
+msgstr "O caminho [2] não é válido. Especifique um caminho válido."
 
 #: Error.ulf%23OOO_ERROR_91.LngText.text
 msgctxt "Error.ulf#OOO_ERROR_91.LngText.text"
@@ -562,7 +640,7 @@ msgstr ""
 #: Error.ulf%23OOO_ERROR_94.LngText.text
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
-msgstr ""
+msgstr "A pasta [2] não existe. Introduza o caminho para uma pasta existente."
 
 #: Error.ulf%23OOO_ERROR_95.LngText.text
 msgid "You have insufficient privileges to read this folder."
@@ -597,11 +675,14 @@ msgstr ""
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
+"Falha ao registar o módulo [2]. HRESULT [3]. Contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_101.LngText.text
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
 msgstr ""
+"Falha ao anular o registo do módulo [2]. HRESULT [3]. Contacte o suporte "
+"técnico."
 
 #: Error.ulf%23OOO_ERROR_102.LngText.text
 msgid ""
@@ -615,6 +696,8 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
+"Não foi possível registar o tipo de letra [2]. Verifique se tem permissão "
+"para instalar tipos de letra e se o sistema suporta este tipo de letra."
 
 #: Error.ulf%23OOO_ERROR_104.LngText.text
 msgid ""
@@ -644,24 +727,33 @@ msgstr ""
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
 msgstr ""
+"Não foi possível registar a biblioteca de tipos para o ficheiro [2]. "
+"Contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_108.LngText.text
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
+"Não foi possível anular o registo da biblioteca de tipos para o ficheiro [2]"
+". Contacte o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_109.LngText.text
 msgid ""
 "Could not update the INI file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
+"Não foi possível actualizar o ficheiro INI [2][3]. Verifique se o ficheiro "
+"existe e se lhe pode aceder."
 
 #: Error.ulf%23OOO_ERROR_110.LngText.text
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
+"Não foi possível agendar a operação de substituição do ficheiro [3] pelo "
+"ficheiro [2] na reinicialização. Verifique se tem permissão de escrita do "
+"ficheiro [3]."
 
 #: Error.ulf%23OOO_ERROR_111.LngText.text
 msgid ""
@@ -708,30 +800,40 @@ msgid ""
 "Service [2] ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
+"Falha ao iniciar o serviço [2] ([3]). Verifique se tem privilégios "
+"suficientes para iniciar serviços de sistema."
 
 #: Error.ulf%23OOO_ERROR_117.LngText.text
 msgid ""
 "Service [2] ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
+"Não foi possível parar o serviço [2] ([3]). Verifique se tem privilégios "
+"suficientes para parar serviços de sistema."
 
 #: Error.ulf%23OOO_ERROR_118.LngText.text
 msgid ""
 "Service [2] ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
+"Não foi possível eliminar o serviço [2] ([3]). Verifique se tem privilégios "
+"suficientes para remover serviços de sistema."
 
 #: Error.ulf%23OOO_ERROR_119.LngText.text
 msgid ""
 "Service [2] ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
+"Não foi possível instalar o serviço [2] ([3]). Verifique se tem privilégios "
+"suficientes para instalar serviços de sistema."
 
 #: Error.ulf%23OOO_ERROR_120.LngText.text
 msgid ""
 "Could not update environment variable [2]. Verify that you have sufficient "
 "privileges to modify environment variables."
 msgstr ""
+"Não foi possível actualizar a variável de ambiente [2]. Verifique se tem "
+"privilégios suficientes para modificar variáveis de ambiente."
 
 #: Error.ulf%23OOO_ERROR_121.LngText.text
 msgid ""
@@ -739,12 +841,18 @@ msgid ""
 "users of the machine. Log on as an administrator and then retry this "
 "installation."
 msgstr ""
+"Não tem privilégios suficientes para executar esta instalação para todos os "
+"utilizadores da máquina. Inicie sessão como administrador e repita esta "
+"instalação."
 
 #: Error.ulf%23OOO_ERROR_122.LngText.text
 msgid ""
 "Could not set file security for file [3]. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
+"Não foi possível definir a protecção do ficheiro [3]. Erro: [2]. Verifique "
+"se tem privilégios suficientes para modificar as autorizações de segurança "
+"para este ficheiro."
 
 #: Error.ulf%23OOO_ERROR_123.LngText.text
 msgid ""
@@ -752,18 +860,25 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
+"Os serviços de componentes (COM+ 1.0) não estão instalados neste computador. "
+"Esta instalação requer os serviços de componentes para poder ser completada "
+"com sucesso. Os serviços de componentes estão disponíveis no Windows 2000."
 
 #: Error.ulf%23OOO_ERROR_124.LngText.text
 msgid ""
 "Error registering COM+ application. Contact your support personnel for more "
 "information."
 msgstr ""
+"Erro ao registar a aplicação COM+. Para mais informações, contacte o suporte "
+"técnico."
 
 #: Error.ulf%23OOO_ERROR_125.LngText.text
 msgid ""
 "Error unregistering COM+ application. Contact your support personnel for "
 "more information."
 msgstr ""
+"Erro ao anular o registo da aplicação COM+. Para mais informações, contacte "
+"o suporte técnico."
 
 #: Error.ulf%23OOO_ERROR_126.LngText.text
 msgid "The description for service '[2]' ([3]) could not be changed."
@@ -776,6 +891,10 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"O instalador Windows não pode actualizar o ficheiro de sistema [2] porque o "
+"ficheiro está protegido pelo Windows. Poderá ter de actualizar o sistema "
+"operativo para que este programa funcione correctamente. {{Versão do pacote: "
+"[3], Versão protegida do OS: [4]}}"
 
 #: Error.ulf%23OOO_ERROR_128.LngText.text
 msgid ""
@@ -1781,6 +1900,8 @@ msgid ""
 "Are you sure you want to quit the %PRODUCTNAME %PRODUCTVERSION Installation "
 "Preparation?"
 msgstr ""
+"Tem a certeza que deseja sair da preparação da instalação do %PRODUCTNAME "
+"%PRODUCTVERSION?"
 
 #: Control.ulf%23OOO_CONTROL_3.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_3.LngText.text"
@@ -2269,9 +2390,9 @@ msgid ""
 "by members of the Apache OpenOffice community. For credits please see: "
 "https://www.openoffice.org/welcome/credits.html"
 msgstr ""
-"Este programa é baseado no projeto 'Apache OpenOffice', que é apoiado por "
+"Este programa é baseado no projecto 'Apache OpenOffice', que é apoiado por "
 "membros da Comunidade Apache OpenOffice. Para ler os créditos consulte: "
-"https://www.OpenOffice.org/Welcome/Credits.html"
+"https://www.openoffice.org/welcome/credits.html"
 
 #: Control.ulf%23OOO_CONTROL_125.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_125.LngText.text"

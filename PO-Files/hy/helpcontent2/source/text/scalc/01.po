@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-01-19 18:15+0000\n"
+"PO-Revision-Date: 2020-01-20 18:19+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579457713.000000\n"
+"X-POOTLE-MTIME: 1579544351.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -15425,7 +15425,7 @@ msgstr "void CALLTYPE fn(out, in1, in2, ...)"
 
 #: 04060112.xhp%23par_id3147616.35.help.text
 msgid "Output: Resulting value"
-msgstr ""
+msgstr "Ելք։ Արդյունքի արժեք"
 
 #: 04060112.xhp%23par_id3159119.36.help.text
 msgid ""
@@ -15433,10 +15433,14 @@ msgid ""
 "where the <link href=\"text/scalc/01/04060112.xhp\" name=\"Cell area\">Cell "
 "area</link> is an array of types double array, string array, or cell array."
 msgstr ""
+"Մուտք։ Ցանկացած քանակի տեսակներ (double&, char*, double*, char**, բջջի "
+"տիրույթ), որում <link href=\"text/scalc/01/04060112.xhp\" name=\"Բջջի "
+"տիրույթ\">Բջջի տիրույթ</link> կրկնակի զանգվածի, տողային զանգվածի կամ բջջային "
+"զանգվածի տեսակ է:"
 
 #: 04060112.xhp%23hd_id3150653.37.help.text
 msgid "GetFunctionCount()"
-msgstr ""
+msgstr "GetFunctionCount()"
 
 #: 04060112.xhp%23par_id3152981.38.help.text
 msgid ""
@@ -15447,24 +15451,31 @@ msgid ""
 "scalc/01/04060112.xhp\" name=\"GetParameterDescription\""
 ">GetParameterDescription</link> functions later."
 msgstr ""
+"Վերադարձնում է գործառույթների քանակը `առանց հղման պարամետրի կառավարման "
+"գործառույթների: Յուրաքանչյուր գործառույթ ունի յուրահատուկ թիվ 0 և nCount-1 "
+"միջև: Այս թիվը հետագայում անհրաժեշտ կլինի <link href=\""
+"text/scalc/01/04060112.xhp\" name=\"GetFunctionData\">GetFunctionData</link> "
+"and <link href=\"text/scalc/01/04060112.xhp\" name=\""
+"GetParameterDescription\">GetParameterDescription</link> գործառույթների "
+"համար։."
 
 #: 04060112.xhp%23par_id3150742.39.help.text
 msgctxt "04060112.xhp#par_id3150742.39.help.text"
 msgid "<emph>Syntax</emph>"
-msgstr ""
+msgstr "<emph>Շարահյուսություն</emph>"
 
 #: 04060112.xhp%23par_id3148728.40.help.text
 msgid "void CALLTYPE GetFunctionCount(USHORT& nCount)"
-msgstr ""
+msgstr "void CALLTYPE GetFunctionCount(USHORT& nCount)"
 
 #: 04060112.xhp%23par_id3154677.41.help.text
 msgctxt "04060112.xhp#par_id3154677.41.help.text"
 msgid "<emph>Parameter</emph>"
-msgstr ""
+msgstr "<emph>Պարամետր</emph>"
 
 #: 04060112.xhp%23par_id3146940.42.help.text
 msgid "USHORT &nCount:"
-msgstr ""
+msgstr "USHORT &nCount:"
 
 #: 04060112.xhp%23par_id3149893.43.help.text
 msgid ""
@@ -15472,43 +15483,48 @@ msgid ""
 "Add-In functions. For example: If the Add-In provides 5 functions for "
 "$[officename] Calc, then nCount=5."
 msgstr ""
+"Ելք. Հղում դեպի փոփոխականին, որը ենթադրաբար պետք է պարունակի Add-In "
+"գործառույթների քանակը: Օրինակ, եթե հավելումը $[officename] Calc -ի համար "
+"տրամադրում է 5 գործառույթ, ապա nCount=5:"
 
 #: 04060112.xhp%23hd_id3147476.44.help.text
 msgid "GetFunctionData()"
-msgstr ""
+msgstr "GetFunctionData()"
 
 #: 04060112.xhp%23par_id3154841.45.help.text
 msgid "Determines all the important information about an Add-In function."
-msgstr ""
+msgstr "Որոշում է Add-In գործառույթի վերաբերյալ ողջ կարևոր տեղեկատվությունը:"
 
 #: 04060112.xhp%23par_id3148888.46.help.text
 msgctxt "04060112.xhp#par_id3148888.46.help.text"
 msgid "<emph>Syntax</emph>"
-msgstr ""
+msgstr "<emph>Շարահյուսություն</emph>"
 
 #: 04060112.xhp%23par_id3148434.47.help.text
 msgid ""
 "void CALLTYPE GetFunctionData(USHORT& nNo, char* pFuncName, USHORT& "
 "nParamCount, Paramtype* peType, char* pInternalName)"
 msgstr ""
+"void CALLTYPE GetFunctionData(USHORT& nNo, char* pFuncName, USHORT& "
+"nParamCount, Paramtype* peType, char* pInternalName)"
 
 #: 04060112.xhp%23par_id3149253.48.help.text
 msgctxt "04060112.xhp#par_id3149253.48.help.text"
 msgid "<emph>Parameter</emph>"
-msgstr ""
+msgstr "<emph>Պարամետր</emph>"
 
 #: 04060112.xhp%23par_id3149686.49.help.text
 msgctxt "04060112.xhp#par_id3149686.49.help.text"
 msgid "USHORT& nNo:"
-msgstr ""
+msgstr "USHORT& nNo:"
 
 #: 04060112.xhp%23par_id3149949.50.help.text
 msgid "Input: Function number between 0 and nCount-1, inclusively."
-msgstr ""
+msgstr "Մուտք. Գործառույթի համարը 0-ից մինչև nCount-1 -ը ներառյալ:"
 
 #: 04060112.xhp%23par_id3149546.51.help.text
 msgid "char* pFuncName:"
-msgstr ""
+msgstr "char* pFuncName:"
 
 #: 04060112.xhp%23par_id3148579.52.help.text
 msgid ""
@@ -15517,46 +15533,59 @@ msgid ""
 "</caseinline><defaultinline>DLL</defaultinline></switchinline>. This name "
 "does not determine the name used in the <emph>Function Wizard</emph>."
 msgstr ""
+"Ելք: Գործառույթի անվանումը, ինչպես տեսնում է ծրագրավորողը, ինչպես այն նշված "
+"է <switchinline select=\"sys\"><caseinline select=\"UNIX\">Համատեղ "
+"գրադարանում </caseinline><defaultinline>DLL</defaultinline></switchinline>։ "
+"Այս անունը չի որոշում այն անունը, որը օգտագործված է <emph>Գործառույթի "
+"Հրաշագործում</emph>։"
 
 #: 04060112.xhp%23par_id3153935.53.help.text
 msgid "USHORT& nParamCount:"
-msgstr ""
+msgstr "USHORT& nParamCount:"
 
 #: 04060112.xhp%23par_id3150142.54.help.text
 msgid ""
 "Output: Number of parameters in AddIn function. This number must be greater "
 "than 0, because there is always a result value; the maximum value is 16."
 msgstr ""
+"Ելք. Պարամետրերի քանակը AddIn գործառույթում: Այս թիվը պետք է լինի 0-ից մեծ, "
+"քանի որ միշտ կա արդյունքի արժեք; առավելագույն արժեքը 16 է:"
 
 #: 04060112.xhp%23par_id3145143.55.help.text
 msgid "Paramtype* peType:"
-msgstr ""
+msgstr "Paramtype* peType:"
 
 #: 04060112.xhp%23par_id3148750.56.help.text
 msgid ""
 "Output: Pointer to an array of exactly 16 variables of type Paramtype. The "
 "first nParamCount entries are filled with the suitable type of parameter."
 msgstr ""
+"Ելք. Ցուցանշեք որևէ զանգվածի Paramtype տեսակի ճշգրտորեն 16 փոփոխականներով։ "
+"Առաջին nParamCount մուտքերը լրացվում են պարամետրի համապատասխան տիպով:"
 
 #: 04060112.xhp%23par_id3153078.57.help.text
 msgid "char* pInternalName:"
-msgstr ""
+msgstr "char* pInternalName:"
 
 #: 04060112.xhp%23par_id3155261.58.help.text
 msgid ""
 "Output: Function name as seen by the user, as it appears in the <emph>"
 "Function Wizard</emph>. May contain umlauts."
 msgstr ""
+"Ելք: Գործառույթի անվանումը օգտվողի տեսանկյունից, ինչպես այն երևում է <emph>"
+"Գործառույթի հրաշագործ</emph> ում: Կարող է պարունակել ումլաուտներ։"
 
 #: 04060112.xhp%23par_id3153327.59.help.text
 msgid ""
 "The pFuncName and pInternalName parameters are char arrays, which are "
 "implemented with size 256 in $[officename] Calc."
 msgstr ""
+"pFuncName և pInternalName պարամետրերը char զանգվածներ են, որոնք իրականացվում "
+"են 256 չափսով,  $[officename] Calc ում։"
 
 #: 04060112.xhp%23hd_id3148567.60.help.text
 msgid "GetParameterDescription()"
-msgstr ""
+msgstr "GetParameterDescription()"
 
 #: 04060112.xhp%23par_id3153000.61.help.text
 msgid ""
@@ -15564,35 +15593,41 @@ msgid ""
 "an option, this function can be used to show a function and parameter "
 "description in the <emph>Function Wizard</emph>."
 msgstr ""
+"Տրամադրում է Add-In գործառույթի և դրա պարամետրերի համառոտ նկարագրությունը: "
+"Որպես տարբերակ, այս գործառույթը կարող է օգտագործվել <emph>Գործառույթի "
+"հրաշագործում</emph> գործառույթի և պարամետրերի նկարագրությունը ցույց տալու "
+"համար:"
 
 #: 04060112.xhp%23par_id3154501.62.help.text
 msgctxt "04060112.xhp#par_id3154501.62.help.text"
 msgid "<emph>Syntax</emph>"
-msgstr ""
+msgstr "<emph>Շարահյուսություն</emph>"
 
 #: 04060112.xhp%23par_id3153564.63.help.text
 msgid ""
 "void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* "
 "pName, char* pDesc)"
 msgstr ""
+"void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* "
+"pName, char* pDesc)"
 
 #: 04060112.xhp%23par_id3157995.64.help.text
 msgctxt "04060112.xhp#par_id3157995.64.help.text"
 msgid "<emph>Parameter</emph>"
-msgstr ""
+msgstr "<emph>Պարամետր</emph>"
 
 #: 04060112.xhp%23par_id3155925.65.help.text
 msgctxt "04060112.xhp#par_id3155925.65.help.text"
 msgid "USHORT& nNo:"
-msgstr ""
+msgstr "USHORT& nNo:"
 
 #: 04060112.xhp%23par_id3149883.66.help.text
 msgid "Input: Number of the function in the library; between 0 and nCount-1."
-msgstr ""
+msgstr "Մուտք։ Գործառույթի համարը գրադարանում․ 0-ի և nCount-1 միջև։"
 
 #: 04060112.xhp%23par_id3154326.67.help.text
 msgid "USHORT& nParam:"
-msgstr ""
+msgstr "USHORT& nParam:"
 
 #: 04060112.xhp%23par_id3159139.68.help.text
 msgid ""
@@ -15600,10 +15635,13 @@ msgid ""
 "parameters start at 1. If nParam is 0, the description itself is supposed to "
 "be provided in pDesc; in this case, pName does not have any meaning."
 msgstr ""
+"Մուտք. Ցույց է տալիս, թե որ պարամետրերի համար է նկարագրությունը արված. "
+"պարամետրերը սկսվում են 1-ից։ Եթե nParam- ը 0 է, նկարագրությունն ինքնին "
+"ենթադրվում է կատարել pDesc -ում․ այս դեպքում pName -ը իմաստ չունի:"
 
 #: 04060112.xhp%23par_id3147374.69.help.text
 msgid "char* pName:"
-msgstr ""
+msgstr "char* pName:"
 
 #: 04060112.xhp%23par_id3145245.70.help.text
 msgid ""
@@ -15611,10 +15649,13 @@ msgid ""
 " or \"String\" or \"Date\", and so on. Implemented in $[officename] Calc as "
 "char[256]."
 msgstr ""
+"Ելք. Վերցնում է պարամետրի անունը կամ տեսակը, օրինակ, \"Համար\", կամ \"Տող\", "
+"կամ \"Ամսաթիվ\" բառը և այլն: Իրականացվել է  $[officename] Calc -ում, որպես "
+"char[256]:"
 
 #: 04060112.xhp%23par_id3151020.71.help.text
 msgid "char* pDesc:"
-msgstr ""
+msgstr "char* pDesc:"
 
 #: 04060112.xhp%23par_id3148389.72.help.text
 msgid ""
@@ -15622,6 +15663,8 @@ msgid ""
 "which the universe is to be calculated.\" Implemented in $[officename] Calc "
 "as char[256]."
 msgstr ""
+"Ելք։ Վերցնում է պարամետրի նկարագրությունը, օրինակ, \"Արժեքը, որի վրա պետք է "
+"հաշվարկվի տիեզերքը\": Իրականացվել է $[officename] Calc -ում, որպես char[256]:"
 
 #: 04060112.xhp%23par_id3145303.73.help.text
 msgid ""
@@ -15629,10 +15672,14 @@ msgid ""
 "256. Please note that the space available in the <emph>Function Wizard</emph>"
 " is limited and that the 256 characters cannot be fully used."
 msgstr ""
+"pName և pDesc char զանգվածներ են. իրականացվել է $[officename] Calc -ում, 256 "
+"չափսով: Խնդրում ենք նկատի ունենալ, որ <emph>Գործառույթի հրաշագործում</emph> "
+"առկա տարածքը սահմանափակ է, և որ 256 նիշը հնարավոր չէ օգտագործել "
+"ամբողջությամբ:"
 
 #: 04060112.xhp%23hd_id3148874.76.help.text
 msgid "Cell areas"
-msgstr ""
+msgstr "Բջիջների տիրույթներ"
 
 #: 04060112.xhp%23par_id3150265.77.help.text
 msgid ""
@@ -15641,41 +15688,48 @@ msgid ""
 "$[officename] Calc distinguishes between three different arrays, depending "
 "on the data type."
 msgstr ""
+"Հետևյալ աղյուսակները պարունակում են տեղեկատվություն այն մասին, որ տվյալների "
+"կառուցվածքները պետք է տրամադրվեն արտաքին ծրագրի մոդուլով, որպեսզի փոխանցվեն "
+"բջիջների տարածքները։ $[officename] Calc -ը կախված տվյալների տեսակից, "
+"տարբերակում է երեք տարբեր զանգվածներ:"
 
 #: 04060112.xhp%23hd_id3156060.78.help.text
 msgid "Double Array"
-msgstr ""
+msgstr "Կրկնակի զանգված"
 
 #: 04060112.xhp%23par_id3149540.79.help.text
 msgid ""
 "As a parameter, a cell area with values of the Number/Double type can be "
 "passed. A double array in $[officename] Calc is defined as follows:"
 msgstr ""
+"Որպես պարամետր կարելի է փոխանցնել Number/Double տեսակի արժեքներով բջջային "
+"տարածքը: $[officename] Calc -ում գտնվող կրկնակի զանգվածը սահմանվում է "
+"հետևյալ կերպ."
 
 #: 04060112.xhp%23par_id3149388.80.help.text
 msgctxt "04060112.xhp#par_id3149388.80.help.text"
 msgid "<emph>Offset</emph>"
-msgstr ""
+msgstr "<emph>Շեղում</emph>"
 
 #: 04060112.xhp%23par_id3154636.81.help.text
 msgctxt "04060112.xhp#par_id3154636.81.help.text"
 msgid "<emph>Name</emph>"
-msgstr ""
+msgstr "<emph>Անուն</emph>"
 
 #: 04060112.xhp%23par_id3153228.82.help.text
 msgctxt "04060112.xhp#par_id3153228.82.help.text"
 msgid "<emph>Description</emph>"
-msgstr ""
+msgstr "<emph>Նկարագրություն</emph>"
 
 #: 04060112.xhp%23par_id3150685.83.help.text
 msgctxt "04060112.xhp#par_id3150685.83.help.text"
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: 04060112.xhp%23par_id3154869.84.help.text
 msgctxt "04060112.xhp#par_id3154869.84.help.text"
 msgid "Col1"
-msgstr ""
+msgstr "Col1"
 
 #: 04060112.xhp%23par_id3147541.85.help.text
 msgctxt "04060112.xhp#par_id3147541.85.help.text"
@@ -15683,32 +15737,35 @@ msgid ""
 "Column number in the upper-left corner of the cell area. Numbering starts at "
 "0."
 msgstr ""
+"Բջջային տարածքի վերին ձախ անկյունում սյունակի համարը: Համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3149783.86.help.text
 msgctxt "04060112.xhp#par_id3149783.86.help.text"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: 04060112.xhp%23par_id3155986.87.help.text
 msgctxt "04060112.xhp#par_id3155986.87.help.text"
 msgid "Row1"
-msgstr ""
+msgstr "Row1"
 
 #: 04060112.xhp%23par_id3147483.88.help.text
 msgctxt "04060112.xhp#par_id3147483.88.help.text"
 msgid ""
 "Row number in the upper-left corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջի տարածքի վերին ձախ անկյունում տողի համարը. համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3153721.89.help.text
 msgctxt "04060112.xhp#par_id3153721.89.help.text"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: 04060112.xhp%23par_id3154317.90.help.text
 msgctxt "04060112.xhp#par_id3154317.90.help.text"
 msgid "Tab1"
-msgstr ""
+msgstr "Tab1"
 
 #: 04060112.xhp%23par_id3149820.91.help.text
 msgctxt "04060112.xhp#par_id3149820.91.help.text"
@@ -15716,16 +15773,18 @@ msgid ""
 "Table number in the upper-left corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի վերին ձախ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3163820.92.help.text
 msgctxt "04060112.xhp#par_id3163820.92.help.text"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: 04060112.xhp%23par_id3149710.93.help.text
 msgctxt "04060112.xhp#par_id3149710.93.help.text"
 msgid "Col2"
-msgstr ""
+msgstr "Col2"
 
 #: 04060112.xhp%23par_id3154819.94.help.text
 msgctxt "04060112.xhp#par_id3154819.94.help.text"
@@ -15733,32 +15792,36 @@ msgid ""
 "Column number in the lower-right corner of the cell area. Numbering starts "
 "at 0."
 msgstr ""
+"Բջջային տարածքի ստորին աջ անկյունում սյունակի համարը: Համարումը սկսվում է "
+"0-ից:"
 
 #: 04060112.xhp%23par_id3145083.95.help.text
 msgctxt "04060112.xhp#par_id3145083.95.help.text"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: 04060112.xhp%23par_id3156310.96.help.text
 msgctxt "04060112.xhp#par_id3156310.96.help.text"
 msgid "Row2"
-msgstr ""
+msgstr "Row2"
 
 #: 04060112.xhp%23par_id3150968.97.help.text
 msgctxt "04060112.xhp#par_id3150968.97.help.text"
 msgid ""
 "Row number in the lower-right corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջային տարածքի ստորին աջ անկյունում տողի համարը. համարակալումը սկսվում է "
+"0-ից:"
 
 #: 04060112.xhp%23par_id3156133.98.help.text
 msgctxt "04060112.xhp#par_id3156133.98.help.text"
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: 04060112.xhp%23par_id3153218.99.help.text
 msgctxt "04060112.xhp#par_id3153218.99.help.text"
 msgid "Tab2"
-msgstr ""
+msgstr "Tab2"
 
 #: 04060112.xhp%23par_id3147086.100.help.text
 msgctxt "04060112.xhp#par_id3147086.100.help.text"
@@ -15766,77 +15829,79 @@ msgid ""
 "Table number in the lower-right corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի ստորին աջ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3151270.101.help.text
 msgctxt "04060112.xhp#par_id3151270.101.help.text"
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: 04060112.xhp%23par_id3152934.102.help.text
 msgctxt "04060112.xhp#par_id3152934.102.help.text"
 msgid "Count"
-msgstr ""
+msgstr "Հաշիվ"
 
 #: 04060112.xhp%23par_id3145202.103.help.text
 msgctxt "04060112.xhp#par_id3145202.103.help.text"
 msgid ""
 "Number of the following elements. Empty cells are not counted or passed."
-msgstr ""
+msgstr "Հետևյալ տարրերի քանակը: Դատարկ բջիջները չեն հաշվարկվում կամ փոխանցնում:"
 
 #: 04060112.xhp%23par_id3150879.104.help.text
 msgctxt "04060112.xhp#par_id3150879.104.help.text"
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: 04060112.xhp%23par_id3156002.105.help.text
 msgctxt "04060112.xhp#par_id3156002.105.help.text"
 msgid "Col"
-msgstr ""
+msgstr "Col"
 
 #: 04060112.xhp%23par_id3147276.106.help.text
 msgctxt "04060112.xhp#par_id3147276.106.help.text"
 msgid "Column number of the element. Numbering starts at 0."
-msgstr ""
+msgstr "Տարրի սյունակի համարը: Համարակալումն սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3151295.107.help.text
 msgctxt "04060112.xhp#par_id3151295.107.help.text"
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: 04060112.xhp%23par_id3150261.108.help.text
 msgctxt "04060112.xhp#par_id3150261.108.help.text"
 msgid "Row"
-msgstr ""
+msgstr "Տող"
 
 #: 04060112.xhp%23par_id3155851.109.help.text
 msgctxt "04060112.xhp#par_id3155851.109.help.text"
 msgid "Row number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի տողի քանակը; համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3153150.110.help.text
 msgctxt "04060112.xhp#par_id3153150.110.help.text"
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: 04060112.xhp%23par_id3153758.111.help.text
 msgctxt "04060112.xhp#par_id3153758.111.help.text"
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: 04060112.xhp%23par_id3150154.112.help.text
 msgctxt "04060112.xhp#par_id3150154.112.help.text"
 msgid "Table number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի աղյուսակի համարը; համարակալումը սկսվում է 0-ից։"
 
 #: 04060112.xhp%23par_id3149289.113.help.text
 msgctxt "04060112.xhp#par_id3149289.113.help.text"
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: 04060112.xhp%23par_id3156010.114.help.text
 msgctxt "04060112.xhp#par_id3156010.114.help.text"
 msgid "Error"
-msgstr ""
+msgstr "Սխալ"
 
 #: 04060112.xhp%23par_id3159181.115.help.text
 msgctxt "04060112.xhp#par_id3159181.115.help.text"
@@ -15844,69 +15909,74 @@ msgid ""
 "Error number, where the value 0 is defined as \"no error.\" If the element "
 "comes from a formula cell the error value is determined by the formula."
 msgstr ""
+"Սխալի համարը, որտեղ 0 արժեքը սահմանվում է որպես «սխալ չկա»: Եթե տարրը գալիս "
+"է բանաձևի բջիջից, սխալի արժեքը որոշվում է բանաձևով:"
 
 #: 04060112.xhp%23par_id3147493.116.help.text
 msgctxt "04060112.xhp#par_id3147493.116.help.text"
 msgid "22"
-msgstr ""
+msgstr "22"
 
 #: 04060112.xhp%23par_id3149200.117.help.text
 msgctxt "04060112.xhp#par_id3149200.117.help.text"
 msgid "Value"
-msgstr ""
+msgstr "Արժեք"
 
 #: 04060112.xhp%23par_id3151174.118.help.text
 msgid "8 byte IEEE variable of type double/floating point"
-msgstr ""
+msgstr "8 բայթանի IEEE փոփոխական, կրկնակի/սահող ստորակետով տեսակով"
 
 #: 04060112.xhp%23par_id3154688.119.help.text
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: 04060112.xhp%23par_id3159337.120.help.text
 msgctxt "04060112.xhp#par_id3159337.120.help.text"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: 04060112.xhp%23par_id3155388.121.help.text
 msgctxt "04060112.xhp#par_id3155388.121.help.text"
 msgid "Next element"
-msgstr ""
+msgstr "Հաջորդ տարրը"
 
 #: 04060112.xhp%23hd_id3154935.122.help.text
 msgid "String Array"
-msgstr ""
+msgstr "Տողի զանգված"
 
 #: 04060112.xhp%23par_id3153105.123.help.text
 msgid ""
 "A cell area, which contains values of data type Text and is passed as a "
 "string array. A string array in $[officename] Calc is defined as follows:"
 msgstr ""
+"Բջջային տարածք, որն պարունակում է Text տվյալների տեսակ և փոխանցվում է որպես "
+"տողային զանգված: $[officename] Calc -ում տողային զանգվածը սահմանված է "
+"հետևյալ կերպ."
 
 #: 04060112.xhp%23par_id3149908.124.help.text
 msgctxt "04060112.xhp#par_id3149908.124.help.text"
 msgid "<emph>Offset</emph>"
-msgstr ""
+msgstr "<emph>Շեղում</emph>"
 
 #: 04060112.xhp%23par_id3159165.125.help.text
 msgctxt "04060112.xhp#par_id3159165.125.help.text"
 msgid "<emph>Name</emph>"
-msgstr ""
+msgstr "<emph>Անուն</emph>"
 
 #: 04060112.xhp%23par_id3159150.126.help.text
 msgctxt "04060112.xhp#par_id3159150.126.help.text"
 msgid "<emph>Description</emph>"
-msgstr ""
+msgstr "<emph>Նկարագրություն</emph>"
 
 #: 04060112.xhp%23par_id3149769.127.help.text
 msgctxt "04060112.xhp#par_id3149769.127.help.text"
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: 04060112.xhp%23par_id3150509.128.help.text
 msgctxt "04060112.xhp#par_id3150509.128.help.text"
 msgid "Col1"
-msgstr ""
+msgstr "Col1"
 
 #: 04060112.xhp%23par_id3148447.129.help.text
 msgctxt "04060112.xhp#par_id3148447.129.help.text"
@@ -15914,32 +15984,36 @@ msgid ""
 "Column number in the upper-left corner of the cell area. Numbering starts at "
 "0."
 msgstr ""
+"Բջջային տարածքի վերին ձախ անկյունում սյունակի համարը: Համարակալումն սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3145418.130.help.text
 msgctxt "04060112.xhp#par_id3145418.130.help.text"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: 04060112.xhp%23par_id3147512.131.help.text
 msgctxt "04060112.xhp#par_id3147512.131.help.text"
 msgid "Row1"
-msgstr ""
+msgstr "Row1"
 
 #: 04060112.xhp%23par_id3147235.132.help.text
 msgctxt "04060112.xhp#par_id3147235.132.help.text"
 msgid ""
 "Row number in the upper-left corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջային տիրույթի վերին ձախ անկյունում տողի համարը. համարակալումը սկսվում է "
+"0-ից:"
 
 #: 04060112.xhp%23par_id3155362.133.help.text
 msgctxt "04060112.xhp#par_id3155362.133.help.text"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: 04060112.xhp%23par_id3151051.134.help.text
 msgctxt "04060112.xhp#par_id3151051.134.help.text"
 msgid "Tab1"
-msgstr ""
+msgstr "Tab1"
 
 #: 04060112.xhp%23par_id3148923.135.help.text
 msgctxt "04060112.xhp#par_id3148923.135.help.text"
@@ -15947,16 +16021,18 @@ msgid ""
 "Table number in the upper-left corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի վերին ձախ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3149158.136.help.text
 msgctxt "04060112.xhp#par_id3149158.136.help.text"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: 04060112.xhp%23par_id3166437.137.help.text
 msgctxt "04060112.xhp#par_id3166437.137.help.text"
 msgid "Col2"
-msgstr ""
+msgstr "Col2"
 
 #: 04060112.xhp%23par_id3149788.138.help.text
 msgctxt "04060112.xhp#par_id3149788.138.help.text"
@@ -15964,32 +16040,35 @@ msgid ""
 "Column number in the lower-right corner of the cell area. Numbering starts "
 "at 0."
 msgstr ""
+"Բջջային տարածքի ստորին աջ անկյունում սյունակի համարը: Համարակալումն սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3166450.139.help.text
 msgctxt "04060112.xhp#par_id3166450.139.help.text"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: 04060112.xhp%23par_id3152877.140.help.text
 msgctxt "04060112.xhp#par_id3152877.140.help.text"
 msgid "Row2"
-msgstr ""
+msgstr "Row2"
 
 #: 04060112.xhp%23par_id3152949.141.help.text
 msgctxt "04060112.xhp#par_id3152949.141.help.text"
 msgid ""
 "Row number in the lower-right corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջի տիրույթի ստորին աջ անկյունում տողի համարը. համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3159270.142.help.text
 msgctxt "04060112.xhp#par_id3159270.142.help.text"
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: 04060112.xhp%23par_id3154107.143.help.text
 msgctxt "04060112.xhp#par_id3154107.143.help.text"
 msgid "Tab2"
-msgstr ""
+msgstr "Tab2"
 
 #: 04060112.xhp%23par_id3153747.144.help.text
 msgctxt "04060112.xhp#par_id3153747.144.help.text"
@@ -15997,77 +16076,79 @@ msgid ""
 "Table number in the lower-right corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի ստորին աջ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3149924.145.help.text
 msgctxt "04060112.xhp#par_id3149924.145.help.text"
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: 04060112.xhp%23par_id3154858.146.help.text
 msgctxt "04060112.xhp#par_id3154858.146.help.text"
 msgid "Count"
-msgstr ""
+msgstr "Հաշիվ"
 
 #: 04060112.xhp%23par_id3148621.147.help.text
 msgctxt "04060112.xhp#par_id3148621.147.help.text"
 msgid ""
 "Number of the following elements. Empty cells are not counted or passed."
-msgstr ""
+msgstr "Հետևյալ տարրերի քանակը: Դատարկ բջիջները չեն հաշվարկվում կամ փոխամցվում:"
 
 #: 04060112.xhp%23par_id3148467.148.help.text
 msgctxt "04060112.xhp#par_id3148467.148.help.text"
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: 04060112.xhp%23par_id3151126.149.help.text
 msgctxt "04060112.xhp#par_id3151126.149.help.text"
 msgid "Col"
-msgstr ""
+msgstr "Սյուն"
 
 #: 04060112.xhp%23par_id3154334.150.help.text
 msgctxt "04060112.xhp#par_id3154334.150.help.text"
 msgid "Column number of the element. Numbering starts at 0."
-msgstr ""
+msgstr "Տարրի սյունակի համարը: Համարակալումն սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3149416.151.help.text
 msgctxt "04060112.xhp#par_id3149416.151.help.text"
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: 04060112.xhp%23par_id3150631.152.help.text
 msgctxt "04060112.xhp#par_id3150631.152.help.text"
 msgid "Row"
-msgstr ""
+msgstr "Տող"
 
 #: 04060112.xhp%23par_id3150424.153.help.text
 msgctxt "04060112.xhp#par_id3150424.153.help.text"
 msgid "Row number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի տողի համարը; համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3154797.154.help.text
 msgctxt "04060112.xhp#par_id3154797.154.help.text"
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: 04060112.xhp%23par_id3143274.155.help.text
 msgctxt "04060112.xhp#par_id3143274.155.help.text"
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: 04060112.xhp%23par_id3149513.156.help.text
 msgctxt "04060112.xhp#par_id3149513.156.help.text"
 msgid "Table number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի աղյուսակի համարը; համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3145306.157.help.text
 msgctxt "04060112.xhp#par_id3145306.157.help.text"
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: 04060112.xhp%23par_id3153948.158.help.text
 msgctxt "04060112.xhp#par_id3153948.158.help.text"
 msgid "Error"
-msgstr ""
+msgstr "Սխալ"
 
 #: 04060112.xhp%23par_id3153534.159.help.text
 msgctxt "04060112.xhp#par_id3153534.159.help.text"
@@ -16075,15 +16156,17 @@ msgid ""
 "Error number, where the value 0 is defined as \"no error.\" If the element "
 "comes from a formula cell the error value is determined by the formula."
 msgstr ""
+"Սխալի համարը, որտեղ 0 արժեքը սահմանվում է որպես «սխալ չկա»: Եթե տարրը գալիս "
+"է բանաձևի բջիջից, սխալի արժեքը որոշվում է բանաձևով:"
 
 #: 04060112.xhp%23par_id3153311.160.help.text
 msgctxt "04060112.xhp#par_id3153311.160.help.text"
 msgid "22"
-msgstr ""
+msgstr "22"
 
 #: 04060112.xhp%23par_id3148695.161.help.text
 msgid "Len"
-msgstr ""
+msgstr "Len"
 
 #: 04060112.xhp%23par_id3152769.162.help.text
 msgid ""
@@ -16092,69 +16175,76 @@ msgid ""
 "to the string so that an even value is achieved. Therefore, Len is "
 "calculated using ((StrLen+2)&~1)."
 msgstr ""
+"Հետևյալ տողի երկարությունը, ներառյալ փակող զրոյական բայթը: Եթե "
+"երկարությունը, ներառյալ փակող զրոյական բայթը հավասար է կենտ արժեքի, ապա "
+"երկրորդ զրոյական բայթը ավելացվում է տողին, որպեսզի ստացվի զույգ արժեք: "
+"Հետևաբար, Len -ը հաշվարկվում է օգտագործելով ((StrLen+2)&~1):"
 
 #: 04060112.xhp%23par_id3153772.163.help.text
 msgctxt "04060112.xhp#par_id3153772.163.help.text"
 msgid "24"
-msgstr ""
+msgstr "24"
 
 #: 04060112.xhp%23par_id3153702.164.help.text
 msgctxt "04060112.xhp#par_id3153702.164.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 04060112.xhp%23par_id3154474.165.help.text
 msgid "String with closing zero byte"
-msgstr ""
+msgstr "Տող՝ փակող զրո բայթով"
 
 #: 04060112.xhp%23par_id3156269.166.help.text
 msgid "24+Len"
-msgstr ""
+msgstr "24+Len"
 
 #: 04060112.xhp%23par_id3154825.167.help.text
 msgctxt "04060112.xhp#par_id3154825.167.help.text"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: 04060112.xhp%23par_id3147097.168.help.text
 msgctxt "04060112.xhp#par_id3147097.168.help.text"
 msgid "Next element"
-msgstr ""
+msgstr "Հաջորդ տարրը"
 
 #: 04060112.xhp%23hd_id3159091.169.help.text
 msgid "Cell Array"
-msgstr ""
+msgstr "Բջջի զանգված"
 
 #: 04060112.xhp%23par_id3156140.170.help.text
 msgid ""
 "Cell arrays are used to call cell areas containing text as well as numbers. "
 "A cell array in $[officename] Calc is defined as follows:"
 msgstr ""
+"Բջջային զանգվածները օգտագործվում են բջջային տարածքները կանչելու համար, որոնք "
+"պարունակում են ինչպես տեքստ, այնպես էլ թվեր: Բջջային զանգվածը $[officename] "
+"Calc -ում սահմանվում է հետևյալ կերպ."
 
 #: 04060112.xhp%23par_id3154664.171.help.text
 msgctxt "04060112.xhp#par_id3154664.171.help.text"
 msgid "<emph>Offset</emph>"
-msgstr ""
+msgstr "<emph>Շեղում</emph>"
 
 #: 04060112.xhp%23par_id3154566.172.help.text
 msgctxt "04060112.xhp#par_id3154566.172.help.text"
 msgid "<emph>Name</emph>"
-msgstr ""
+msgstr "<emph>Անուն</emph>"
 
 #: 04060112.xhp%23par_id3146073.173.help.text
 msgctxt "04060112.xhp#par_id3146073.173.help.text"
 msgid "<emph>Description</emph>"
-msgstr ""
+msgstr "<emph>Նկարագրություն</emph>"
 
 #: 04060112.xhp%23par_id3154117.174.help.text
 msgctxt "04060112.xhp#par_id3154117.174.help.text"
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: 04060112.xhp%23par_id3150988.175.help.text
 msgctxt "04060112.xhp#par_id3150988.175.help.text"
 msgid "Col1"
-msgstr ""
+msgstr "Col1"
 
 #: 04060112.xhp%23par_id3146783.176.help.text
 msgctxt "04060112.xhp#par_id3146783.176.help.text"
@@ -16162,32 +16252,36 @@ msgid ""
 "Column number in the upper-left corner of the cell area. Numbering starts at "
 "0."
 msgstr ""
+"Բջջային տարածքի վերին ձախ անկյունում սյունակի համարը: Համարակալումն սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3153666.177.help.text
 msgctxt "04060112.xhp#par_id3153666.177.help.text"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: 04060112.xhp%23par_id3149560.178.help.text
 msgctxt "04060112.xhp#par_id3149560.178.help.text"
 msgid "Row1"
-msgstr ""
+msgstr "Row1"
 
 #: 04060112.xhp%23par_id3156156.179.help.text
 msgctxt "04060112.xhp#par_id3156156.179.help.text"
 msgid ""
 "Row number in the upper-left corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջային տարածքի վերին ձախ անկյունում տողի համարը. համարակալումը սկսվում է "
+"0-ից:"
 
 #: 04060112.xhp%23par_id3150408.180.help.text
 msgctxt "04060112.xhp#par_id3150408.180.help.text"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: 04060112.xhp%23par_id3150593.181.help.text
 msgctxt "04060112.xhp#par_id3150593.181.help.text"
 msgid "Tab1"
-msgstr ""
+msgstr "Tab1"
 
 #: 04060112.xhp%23par_id3150357.182.help.text
 msgctxt "04060112.xhp#par_id3150357.182.help.text"
@@ -16195,16 +16289,18 @@ msgid ""
 "Table number in the upper-left corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի վերին ձախ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3146912.183.help.text
 msgctxt "04060112.xhp#par_id3146912.183.help.text"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: 04060112.xhp%23par_id3153352.184.help.text
 msgctxt "04060112.xhp#par_id3153352.184.help.text"
 msgid "Col2"
-msgstr ""
+msgstr "Col2"
 
 #: 04060112.xhp%23par_id3155893.185.help.text
 msgctxt "04060112.xhp#par_id3155893.185.help.text"
@@ -16212,32 +16308,36 @@ msgid ""
 "Column number in the lower-right corner of the cell area. Numbering starts "
 "at 0."
 msgstr ""
+"Բջջային տարածքի ստորին աջ անկյունում սյունակի համարը: Համարակալումն սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3150827.186.help.text
 msgctxt "04060112.xhp#par_id3150827.186.help.text"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: 04060112.xhp%23par_id3148406.187.help.text
 msgctxt "04060112.xhp#par_id3148406.187.help.text"
 msgid "Row2"
-msgstr ""
+msgstr "Row2"
 
 #: 04060112.xhp%23par_id3150673.188.help.text
 msgctxt "04060112.xhp#par_id3150673.188.help.text"
 msgid ""
 "Row number in the lower-right corner of the cell area; numbering starts at 0."
 msgstr ""
+"Բջջային տիրույթի ստորին աջ անկյունում շարքի համարը. համարակալումը սկսվում է "
+"0-ից:"
 
 #: 04060112.xhp%23par_id3155864.189.help.text
 msgctxt "04060112.xhp#par_id3155864.189.help.text"
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: 04060112.xhp%23par_id3153197.190.help.text
 msgctxt "04060112.xhp#par_id3153197.190.help.text"
 msgid "Tab2"
-msgstr ""
+msgstr "Tab2"
 
 #: 04060112.xhp%23par_id3149329.191.help.text
 msgctxt "04060112.xhp#par_id3149329.191.help.text"
@@ -16245,77 +16345,79 @@ msgid ""
 "Table number in the lower-right corner of the cell area; numbering starts at "
 "0."
 msgstr ""
+"Աղյուսակի համարը բջջային տարածքի ստորին աջ անկյունում; համարակալումը սկսվում "
+"է 0-ից:"
 
 #: 04060112.xhp%23par_id3147360.192.help.text
 msgctxt "04060112.xhp#par_id3147360.192.help.text"
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: 04060112.xhp%23par_id3154520.193.help.text
 msgctxt "04060112.xhp#par_id3154520.193.help.text"
 msgid "Count"
-msgstr ""
+msgstr "Հաշիվ"
 
 #: 04060112.xhp%23par_id3150647.194.help.text
 msgctxt "04060112.xhp#par_id3150647.194.help.text"
 msgid ""
 "Number of the following elements. Empty cells are not counted or passed."
-msgstr ""
+msgstr "Հետևյալ տարրերի քանակը: Դատարկ բջիջները չեն հաշվարկվում կամ փոխանցվում։"
 
 #: 04060112.xhp%23par_id3149747.195.help.text
 msgctxt "04060112.xhp#par_id3149747.195.help.text"
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: 04060112.xhp%23par_id3147579.196.help.text
 msgctxt "04060112.xhp#par_id3147579.196.help.text"
 msgid "Col"
-msgstr ""
+msgstr "Սյուն"
 
 #: 04060112.xhp%23par_id3154188.197.help.text
 msgctxt "04060112.xhp#par_id3154188.197.help.text"
 msgid "Column number of the element. Numbering starts at 0."
-msgstr ""
+msgstr "Տարրի սյունակի համարը: Համարակալումն սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3159209.198.help.text
 msgctxt "04060112.xhp#par_id3159209.198.help.text"
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: 04060112.xhp%23par_id3153265.199.help.text
 msgctxt "04060112.xhp#par_id3153265.199.help.text"
 msgid "Row"
-msgstr ""
+msgstr "Տող"
 
 #: 04060112.xhp%23par_id3150095.200.help.text
 msgctxt "04060112.xhp#par_id3150095.200.help.text"
 msgid "Row number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի տողի համարը; համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3151276.201.help.text
 msgctxt "04060112.xhp#par_id3151276.201.help.text"
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: 04060112.xhp%23par_id3149177.202.help.text
 msgctxt "04060112.xhp#par_id3149177.202.help.text"
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: 04060112.xhp%23par_id3146925.203.help.text
 msgctxt "04060112.xhp#par_id3146925.203.help.text"
 msgid "Table number of the element; numbering starts at 0."
-msgstr ""
+msgstr "Տարրի աղյուսակի համարը; համարակալումը սկսվում է 0-ից:"
 
 #: 04060112.xhp%23par_id3150488.204.help.text
 msgctxt "04060112.xhp#par_id3150488.204.help.text"
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: 04060112.xhp%23par_id3149441.205.help.text
 msgctxt "04060112.xhp#par_id3149441.205.help.text"
 msgid "Error"
-msgstr ""
+msgstr "Սխալ"
 
 #: 04060112.xhp%23par_id3156048.206.help.text
 msgctxt "04060112.xhp#par_id3156048.206.help.text"
@@ -16323,33 +16425,35 @@ msgid ""
 "Error number, where the value 0 is defined as \"no error.\" If the element "
 "comes from a formula cell the error value is determined by the formula."
 msgstr ""
+"Սխալի համարը, որտեղ 0 արժեքը սահմանվում է որպես «սխալ չկա»: Եթե տարրը գալիս "
+"է բանաձևի բջիջից, սխալի արժեքը որոշվում է բանաձևով:"
 
 #: 04060112.xhp%23par_id3163813.207.help.text
 msgctxt "04060112.xhp#par_id3163813.207.help.text"
 msgid "22"
-msgstr ""
+msgstr "22"
 
 #: 04060112.xhp%23par_id3159102.208.help.text
 msgctxt "04060112.xhp#par_id3159102.208.help.text"
 msgid "Type"
-msgstr ""
+msgstr "Տեսակ"
 
 #: 04060112.xhp%23par_id3149581.209.help.text
 msgid "Type of cell content, 0 == Double, 1 == String"
-msgstr ""
+msgstr "Type of cell content, 0 == Double, 1 == String"
 
 #: 04060112.xhp%23par_id3155182.210.help.text
 msgctxt "04060112.xhp#par_id3155182.210.help.text"
 msgid "24"
-msgstr ""
+msgstr "24"
 
 #: 04060112.xhp%23par_id3153291.211.help.text
 msgid "Value or Len"
-msgstr ""
+msgstr "Արժեք կամ լայնք"
 
 #: 04060112.xhp%23par_id3148560.212.help.text
 msgid "If type == 0: 8 byte IEEE variable of type double/floating point"
-msgstr ""
+msgstr "If type == 0: 8 byte IEEE variable of type double/floating point"
 
 #: 04060112.xhp%23par_id3148901.213.help.text
 msgid ""
@@ -16358,58 +16462,65 @@ msgid ""
 "byte is added to the string so that an even value is achieved. Therefore, "
 "Len is calculated using ((StrLen+2)&~1)."
 msgstr ""
+"Եթե type == 1: Հետևյալ տողի երկարությունը, ներառյալ փակող զրոյական բայթը: "
+"Եթե երկարությունը, ներառյալ փակող զրոյական բայթը հավասար է կենտ արժեքի, ապա "
+"երկրորդ զրոյական բայթը ավելացվում է տողին, որպեսզի ստացվի զույգ արժեք: "
+"Հետևաբար, Len -ը հաշվարկվում է օգտագործելով ((StrLen+2)&~1)։"
 
 #: 04060112.xhp%23par_id3145215.214.help.text
 msgid "26 if type==1"
-msgstr ""
+msgstr "26 if type==1"
 
 #: 04060112.xhp%23par_id3155143.215.help.text
 msgctxt "04060112.xhp#par_id3155143.215.help.text"
 msgid "String"
-msgstr ""
+msgstr "Տող"
 
 #: 04060112.xhp%23par_id3149298.216.help.text
 msgid "If type == 1: String with closing zero byte"
-msgstr ""
+msgstr "If type == 1: String with closing zero byte"
 
 #: 04060112.xhp%23par_id3151322.217.help.text
 msgid "32 or 26+Len"
-msgstr ""
+msgstr "32 կամ 26+Len"
 
 #: 04060112.xhp%23par_id3163722.218.help.text
 msgctxt "04060112.xhp#par_id3163722.218.help.text"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: 04060112.xhp%23par_id3151059.219.help.text
 msgctxt "04060112.xhp#par_id3151059.219.help.text"
 msgid "Next element"
-msgstr ""
+msgstr "Հաջորդ տարրը"
 
 #: 12010000.xhp%23tit.help.text
 msgctxt "12010000.xhp#tit.help.text"
 msgid "Define Database Range"
-msgstr ""
+msgstr "Սահմանեք շտեմարանի տիրույթը"
 
 #: 12010000.xhp%23hd_id3157909.1.help.text
 msgctxt "12010000.xhp#hd_id3157909.1.help.text"
 msgid "Define Database Range"
-msgstr ""
+msgstr "Սահմանեք շտեմարանի տիրույթը"
 
 #: 12010000.xhp%23par_id3155922.2.help.text
 msgid ""
 "<variable id=\"bereichtext\"><ahelp hid=\".uno:DefineDBName\">Defines a "
 "database range based on the selected cells in your sheet.</ahelp></variable>"
 msgstr ""
+"<variable id=\"bereichtext\"><ahelp hid=\".uno:DefineDBName\">Սահմանում է "
+"տվյալների շտեմարանի տիրույթը, որը հիմնված է ձեր թերթիկում ընտրված բջիջների "
+"վրա:</ahelp></variable>"
 
 #: 12010000.xhp%23par_id3149456.5.help.text
 msgid "You can only select a rectangular cell range."
-msgstr ""
+msgstr "Կարող եք միայն ընտրել ուղղանկյուն բջջային տիրույթ:"
 
 #: 12010000.xhp%23hd_id3156422.3.help.text
 msgctxt "12010000.xhp#hd_id3156422.3.help.text"
 msgid "Name"
-msgstr ""
+msgstr "Անուն"
 
 #: 12010000.xhp%23par_id3150770.4.help.text
 msgid ""
