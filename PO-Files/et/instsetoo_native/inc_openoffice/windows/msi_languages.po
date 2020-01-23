@@ -7,8 +7,8 @@ msgstr ""
 "nc_openoffice%2Fwindows%2Fmsi_languages.oo&component=l10n&form_name="
 "enter_issue\n"
 "POT-Creation-Date: 2020-01-17 14:38+0200\n"
-"PO-Revision-Date: 2020-01-19 16:38+0000\n"
-"Last-Translator: Matthias Seidel <matthias.seidel@hamburg.de>\n"
+"PO-Revision-Date: 2020-01-22 17:27+0000\n"
+"Last-Translator: Taavi Kaevats <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579451902.000000\n"
+"X-POOTLE-MTIME: 1579714024.000000\n"
 
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
 msgid "Installation database"
@@ -485,6 +485,10 @@ msgid ""
 "quit, Retry to check available disk space again, or Ignore to continue "
 "without rollback."
 msgstr ""
+"Kettaruum on otsas -- Andmeruum: [2]; vajalik ruum: [3] KB; saadaolev ruum: "
+"[4] KB.  Kui taastamisvõimalus oleks välja lülitatud, siis ruumi jätkuks. "
+"Klõpsa \"Loobu\" lõpetamiseks, \"Proovi uuesti\" kettaruumi veelkordseks "
+"kontrollimiseks või \"Ignoreeri\" jätkamiseks ilma taastamisvõimaluseta."
 
 #: Error.ulf%23OOO_ERROR_73.LngText.text
 msgid "Could not access network location [2]."
@@ -513,6 +517,9 @@ msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to restart later."
 msgstr ""
+"Paigaldusprogramm peab enne, kui [2] häälestamist saab jätkata, masina "
+"taaskäivitama. Koheseks taaskäivitamiseks klõpsa Jah, hilisemaks "
+"taaskäivitamiseks Ei."
 
 #: Error.ulf%23OOO_ERROR_78.LngText.text
 msgid ""
@@ -527,6 +534,9 @@ msgid ""
 "An installation for [2] is currently suspended.  You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
+"Üks [2] paigaldamine on parasjagu peatatud. Jätkamiseks tuleb selle "
+"paigaldamise poolt tehtud muudatused tühistada. Soovid sa neid muudatusi "
+"tühistada?"
 
 #: Error.ulf%23OOO_ERROR_80.LngText.text
 msgid ""
@@ -534,6 +544,9 @@ msgid ""
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
 msgstr ""
+"Toote eelmine paigaldamine käib parajasti. Jätkamiseks tuleb selle "
+"paigaldamise poolt tehtud muudatused tühistada. Soovid sa neid muudatusi "
+"tühistada?"
 
 #: Error.ulf%23OOO_ERROR_81.LngText.text
 msgid ""
@@ -578,22 +591,28 @@ msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
 msgstr ""
+"Üht või mitut faili, mida vajatakse arvuti esialgse seisundi taastamiseks, "
+"ei leitud. Taastamine ei ole võimalik."
 
 #: Error.ulf%23OOO_ERROR_88.LngText.text
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
 msgstr ""
+"[2] ei suuda paigaldada üht vajalikest toodetest. Võta ühendust tehnilise "
+"toega. {{Süsteemne viga: [3].}}"
 
 #: Error.ulf%23OOO_ERROR_89.LngText.text
 msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group. {{System Error [3].}}"
 msgstr ""
+"[2] vanemat versiooni ei suudetud eemaldada. Võta ühendust tehnilise toega. "
+"{{Süsteemne viga [3].}}"
 
 #: Error.ulf%23OOO_ERROR_90.LngText.text
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr ""
+msgstr "Asukoht [2] ei ole sobiv. Palun vali sobiv asukoht."
 
 #: Error.ulf%23OOO_ERROR_91.LngText.text
 msgctxt "Error.ulf#OOO_ERROR_91.LngText.text"
@@ -620,7 +639,7 @@ msgstr ""
 #: Error.ulf%23OOO_ERROR_94.LngText.text
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
-msgstr ""
+msgstr "Kausta [2] pole olemas. Palun sisesta olemasoleva kausta asukoht."
 
 #: Error.ulf%23OOO_ERROR_95.LngText.text
 msgid "You have insufficient privileges to read this folder."
@@ -655,11 +674,15 @@ msgstr ""
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
 msgstr ""
+"Mooduli [2] registreerimine nurjus. HRESULT [3]. Võta ühendust tehnilise "
+"toega."
 
 #: Error.ulf%23OOO_ERROR_101.LngText.text
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
 msgstr ""
+"Mooduli [2] eemaldamine registrist nurjus. HRESULT [3]. Võta ühendust "
+"tehnilise toega."
 
 #: Error.ulf%23OOO_ERROR_102.LngText.text
 msgid ""
@@ -671,6 +694,8 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
+"Fonti [2] ei suudetud registreerida. Kontrolli, kas sul on piisavalt õigusi "
+"fontide paigaldamiseks ja kas süsteem toetab seda fonti."
 
 #: Error.ulf%23OOO_ERROR_104.LngText.text
 msgid ""
@@ -700,24 +725,32 @@ msgstr ""
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
 msgstr ""
+"Faili [2] tüübi teeki ei suudetud registreerida. Võta ühendust tehnilise "
+"toega."
 
 #: Error.ulf%23OOO_ERROR_108.LngText.text
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
+"Faili [2] tüübi teeki ei suudetud registrist eemaldada. Võta ühendust "
+"tehnilise toega."
 
 #: Error.ulf%23OOO_ERROR_109.LngText.text
 msgid ""
 "Could not update the INI file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
+"INI-faili [2][3] ei õnnestunud muuta. Kontrolli, kas fail on olemas ja kas "
+"sul on sellele juurdepääs."
 
 #: Error.ulf%23OOO_ERROR_110.LngText.text
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
+"Faili [2] asendamist failiga [3] ei suudetud taaskäivitamise toimingute "
+"hulka lisada. Kontrolli, kas sul on faili [3] kirjutamisõigus."
 
 #: Error.ulf%23OOO_ERROR_111.LngText.text
 msgid ""
@@ -764,30 +797,40 @@ msgid ""
 "Service [2] ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
+"Teenust [2] ([3]) ei suudetud käivitada. Kontrolli, kas sul on piisavalt "
+"õigusi süsteemsete teenuste käivitamiseks."
 
 #: Error.ulf%23OOO_ERROR_117.LngText.text
 msgid ""
 "Service [2] ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
+"Teenust [2] ([3]) ei suudetud peatada. Kontrolli, kas sul on piisavalt "
+"õigusi süsteemsete teenuste peatamiseks."
 
 #: Error.ulf%23OOO_ERROR_118.LngText.text
 msgid ""
 "Service [2] ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
+"Teenust [2] ([3]) ei suudetud eemaldada. Kontrolli, kas sul on piisavalt "
+"õigusi süsteemsete teenuste eemaldamiseks."
 
 #: Error.ulf%23OOO_ERROR_119.LngText.text
 msgid ""
 "Service [2] ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
+"Teenust [2] ([3]) ei suudetud paigaldada. Kontrolli, kas sul on piisavalt "
+"õigusi süsteemsete teenuste paigaldamiseks."
 
 #: Error.ulf%23OOO_ERROR_120.LngText.text
 msgid ""
 "Could not update environment variable [2]. Verify that you have sufficient "
 "privileges to modify environment variables."
 msgstr ""
+"Süsteemset muutujat [2] ei suudetud uuendada. Kontrolli, kas sul on "
+"piisavalt õigusi süsteemsete muutujate redigeerimiseks."
 
 #: Error.ulf%23OOO_ERROR_121.LngText.text
 msgid ""
@@ -795,12 +838,16 @@ msgid ""
 "users of the machine. Log on as an administrator and then retry this "
 "installation."
 msgstr ""
+"Sul ei ole piisavalt õigusi, et viia läbi toote paigaldamine kõigi selle "
+"masina kasutajate jaoks. Logi sisse administraatorina ja proovi uuesti."
 
 #: Error.ulf%23OOO_ERROR_122.LngText.text
 msgid ""
 "Could not set file security for file [3]. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
+"Viga faili [3] turvasätete määramisel. Viga: [2]. Kontrolli, kas sul on "
+"piisavalt õigusi faili turvasätete muutmiseks."
 
 #: Error.ulf%23OOO_ERROR_123.LngText.text
 msgid ""
@@ -808,18 +855,25 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
+"Komponenditeenused (COM+ 1.0) ei ole arvutisse paigaldatud. "
+"Paigaldusprogramm vajab töö edukaks kulgemiseks komponenditeenuseid. "
+"Komponenditeenused on saadaval koos Windows 2000-ga."
 
 #: Error.ulf%23OOO_ERROR_124.LngText.text
 msgid ""
 "Error registering COM+ application. Contact your support personnel for more "
 "information."
 msgstr ""
+"Viga COM+ rakenduse registreerimisel. Rohkema teabe saamiseks võta ühendust "
+"tehnilise toega."
 
 #: Error.ulf%23OOO_ERROR_125.LngText.text
 msgid ""
 "Error unregistering COM+ application. Contact your support personnel for "
 "more information."
 msgstr ""
+"Viga COM+ rakenduse registrist eemaldamisel. Rohkema teabe saamiseks võta "
+"ühendust tehnilise toega."
 
 #: Error.ulf%23OOO_ERROR_126.LngText.text
 msgid "The description for service '[2]' ([3]) could not be changed."
@@ -832,6 +886,10 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"Windowsi paigaldusteenus ei suutnud muuta süsteemifaili [2], sest fail on "
+"Windowsi poolt kaitstud. Võimalik, et programmi häireteta tööks on vaja "
+"uuendada operatsioonisüsteemi. {{Paketi versioon: [3], OS kaitstud versioon: "
+"[4]}}"
 
 #: Error.ulf%23OOO_ERROR_128.LngText.text
 msgid ""
@@ -1817,6 +1875,8 @@ msgid ""
 "Are you sure you want to quit the %PRODUCTNAME %PRODUCTVERSION Installation "
 "Preparation?"
 msgstr ""
+"Kas sa tõesti tahad lõpetada %PRODUCTNAME %PRODUCTVERSION paigaldamise "
+"ettevalmistamise"
 
 #: Control.ulf%23OOO_CONTROL_3.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_3.LngText.text"
