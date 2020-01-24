@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-05-30 09:29+0000\n"
+"PO-Revision-Date: 2020-01-23 20:19+0000\n"
 "Last-Translator: Taavi Kaevats <taavi.kaevats@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1559208556.000000\n"
+"X-POOTLE-MTIME: 1579810757.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -1133,9 +1133,8 @@ msgid "BETADIST"
 msgstr "BETADIST"
 
 #: 04060181.xhp%23par_id3150880.65.help.text
-#, fuzzy
 msgid "<ahelp hid=\"HID_FUNC_BETAVERT\">Returns the beta function.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_TVERT\">Tagastab t-jaotuse.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_BETAVERT\">Tagastab beetafunktsiooni.</ahelp>"
 
 #: 04060181.xhp%23hd_id3150762.66.help.text
 msgctxt "04060181.xhp#hd_id3150762.66.help.text"
@@ -3266,7 +3265,7 @@ msgstr ""
 "funktsioone, mida on võimalik dokumenti lisada.</ahelp></variable> <emph>"
 "Funktsioonide loendi</emph> aken meenutab <link href=\""
 "text/scalc/01/04060000.xhp\" name=\"Funktsiooninõustaja\""
-">Funktsiooninõustaja</link> kaarti <emph>Funktsioonid</emph>. Funktsioonid "
+">funktsiooninõustaja</link> kaarti <emph>funktsioonid</emph>. Funktsioonid "
 "lisatakse koos kohahoidjatega, mis tuleb asendada argumentide väärtustega."
 
 #: 04080000.xhp%23par_id3152576.3.help.text
@@ -4123,7 +4122,7 @@ msgstr "Kaherealine massiiv, mille kummaski reas on kolm väärtust."
 
 #: 04060107.xhp%23par_id5262916.help.text
 msgid "={0;1;2|FALSE;TRUE;\"two\"}"
-msgstr "={0;1;2|VÄÄR;TÕENEE;\"kaks\"}"
+msgstr "={0;1;2|VÄÄR;TÕENE;\"kaks\"}"
 
 #: 04060107.xhp%23par_id1623889.help.text
 msgid "A mixed data array."
@@ -4293,8 +4292,9 @@ msgid ""
 "formula is applied to each cell in the range A1:A3 and the result is copied "
 "to the corresponding cell."
 msgstr ""
-"Järgnevas näites rakendatakse valemi {=IF(A1:A3>0;\"jah\";\"ei\")} võrdlust >"
-"0 igale vahemiku A1:A3 lahtrile ja tulemus kopeeritakse vastavasse lahtrisse."
+"Järgnevas näites rakendatakse valemi {=KUI(A1:A3>0;\"jah\";\"ei\")} võrdlust "
+">0 igale vahemiku A1:A3 lahtrile ja tulemus kopeeritakse vastavasse "
+"lahtrisse."
 
 #: 04060107.xhp%23par_idN10D65.help.text
 msgctxt "04060107.xhp#par_idN10D65.help.text"
@@ -4324,7 +4324,7 @@ msgstr "1"
 #: 04060107.xhp%23par_idN10D86.help.text
 msgctxt "04060107.xhp#par_idN10D86.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=IF(A1:A3>0;\"jah\";\"ei\")}"
+msgstr "{=KUI(A1:A3>0;\"jah\";\"ei\")}"
 
 #: 04060107.xhp%23par_idN10D8C.help.text
 msgctxt "04060107.xhp#par_idN10D8C.help.text"
@@ -4344,7 +4344,7 @@ msgstr "0"
 #: 04060107.xhp%23par_idN10DA1.help.text
 msgctxt "04060107.xhp#par_idN10DA1.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=IF(A1:A3>0;\"jah\";\"ei\")}"
+msgstr "{=KUI(A1:A3>0;\"jah\";\"ei\")}"
 
 #: 04060107.xhp%23par_idN10DA7.help.text
 msgid "no"
@@ -4363,7 +4363,7 @@ msgstr "1"
 #: 04060107.xhp%23par_idN10DBC.help.text
 msgctxt "04060107.xhp#par_idN10DBC.help.text"
 msgid "{=IF(A1:A3>0;\"yes\";\"no\")}"
-msgstr "{=IF(A1:A3>0;\"jah\";\"ei\")}"
+msgstr "{=KUI(A1:A3>0;\"jah\";\"ei\")}"
 
 #: 04060107.xhp%23par_idN10DC2.help.text
 msgctxt "04060107.xhp#par_idN10DC2.help.text"
@@ -7355,9 +7355,8 @@ msgid "<link href=\"text/scalc/01/02140500.xhp\" name=\"Sheet\">Sheet</link>"
 msgstr "<link href=\"text/scalc/01/02140500.xhp\" name=\"Sheet\">Leht</link>"
 
 #: 02140000.xhp%23hd_id3155111.8.help.text
-#, fuzzy
 msgid "<link href=\"text/scalc/01/02140600.xhp\" name=\"Rows\">Series</link>"
-msgstr "<link href=\"text/scalc/01/02140100.xhp\" name=\"Down\">Alla</link>"
+msgstr "<link href=\"text/scalc/01/02140600.xhp\" name=\"Read\">Jadad</link>"
 
 #: 02140000.xhp%23par_id3152994.3.help.text
 msgid "<emph>Filling cells using context menus:</emph>"
@@ -13197,10 +13196,8 @@ msgid ""
 msgstr ""
 
 #: 12090000.xhp%23hd_id3155923.3.help.text
-#, fuzzy
 msgid "<link href=\"text/scalc/01/12090100.xhp\" name=\"Create\">Create</link>"
-msgstr ""
-"<link href=\"text/scalc/01/07090000.xhp\" name=\"Külmuta\">Külmuta</link>"
+msgstr "<link href=\"text/scalc/01/12090100.xhp\" name=\"Loo\">Loo</link>"
 
 #: 12090000.xhp%23par_idN105FB.help.text
 msgctxt "12090000.xhp#par_idN105FB.help.text"
@@ -21076,7 +21073,7 @@ msgid ""
 "<emph>Schedule</emph> is a series of interest rates, for example, as a range "
 "H3:H5 or as a (List) (see example)."
 msgstr ""
-"<emph>Graafik</emph> on intressimäärade jada, näiteks H3:H5 või {Loend} ("
+"<emph>Graafik</emph> on intressimäärade jada, näiteks ala H3:H5 või (Loend) ("
 "vaata näidet)."
 
 #: 04060118.xhp%23hd_id3147288.57.help.text
@@ -21235,10 +21232,11 @@ msgstr ""
 "<link href=\"text/scalc/01/02170000.xhp\" name=\"Kustuta\">Kustuta</link>"
 
 #: 02200000.xhp%23hd_id3163733308.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/shared/01/06140500.xhp\" name=\"Events\">Events</link>"
-msgstr "<link href=\"text/shared/01/05020100.xhp\" name=\"Font\">Font</link>"
+msgstr ""
+"<link href=\"text/shared/01/06140500.xhp\" name=\"Sündmused\""
+">Sündmused</link>"
 
 #: 06080000.xhp%23tit.help.text
 msgid "Recalculate"
@@ -27592,9 +27590,8 @@ msgid ""
 msgstr ""
 
 #: 12090105.xhp%23par_idN1076A.help.text
-#, fuzzy
 msgid "% Difference from"
-msgstr "Erinevus väärtusest"
+msgstr "% Erinevus väärtusest"
 
 #: 12090105.xhp%23par_idN10770.help.text
 msgid ""
@@ -29505,14 +29502,15 @@ msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";Sheet3.D2)</item> returns "
 "$Sheet3.$D$2."
 msgstr ""
-"<item type=\"input\">=CELL(\"ADDRESS\";Leht3.D2)</item> tagastab $Leht3.$D$2."
+"<item type=\"input\">=LAHTER(\"AADRESS\";Leht3.D2)</item> tagastab "
+"$Leht3.$D$2."
 
 #: 04060104.xhp%23par_id3150245.177.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.sxc'#$Sheet1.D2)</item> "
 "returns 'file:///X:/dr/test.sxc'#$Sheet1.$D$2."
 msgstr ""
-"<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.sxc'#$Leht1.D2)</item> "
+"<item type=\"input\">=CELL(\"AADRESS\";'X:\\dr\\test.sxc'#$Leht1.D2)</item> "
 "tagastab 'file:///X:/dr/test.sxc'#$Leht1.$D$2."
 
 #: 04060104.xhp%23par_id3146811.178.help.text
@@ -29531,7 +29529,7 @@ msgid ""
 msgstr ""
 "<item type=\"input\">=CELL(\"FILENAME\";D2)</item> tagastab "
 "'file:///X:/dr/own.sxc'#$Leht1, kui valem aktiivses dokumendis X:\\dr\\"
-"own.sxc asus lehel Leht1."
+"own.sxc asub lehel Leht1."
 
 #: 04060104.xhp%23par_id3155144.181.help.text
 msgid ""
