@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-01-24 16:41+0000\n"
+"PO-Revision-Date: 2020-01-25 17:07+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579884112.000000\n"
+"X-POOTLE-MTIME: 1579972022.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -21768,6 +21768,10 @@ msgid ""
 "depreciation is 7,500 currency units. The depreciation period is 3 years. "
 "The depreciation from the 10th to the 20th period is calculated."
 msgstr ""
+"Որն է անկման հաշվեկշռի երկկողմանի արժեզրկումը ժամանակահատվածի համար, եթե "
+"նախնական արժեքը 35,000 արժութային միավոր է, իսկ արժեզրկման վերջում արժեքը "
+"7.500 արժութային միավոր է: Արժեզրկման ժամանակահատվածը 3 տարի է: Արժեզրկումը "
+"հաշվարկվում է 10-ից 20-րդ ժամանակահատվածի համար:"
 
 #: 04060118.xhp%23par_id3155991.235.help.text
 msgid ""
@@ -21775,6 +21779,9 @@ msgid ""
 "units. The depreciation during the period between the 10th and the 20th "
 "period is 8,603.80 currency units."
 msgstr ""
+"<item type=\"input\">=VDB(35000;7500;36;10;20;2)</item> = 8603.80 արժութային "
+"միավոր։ Արժեզրկումը 10-րդ և 20-րդ ժամանակահատվածի միջև ընկած "
+"ժամանակահատվածում կազմում է 8,603․80 արժութային միավոր:"
 
 #: 04060118.xhp%23bm_id3147485.help.text
 msgid ""
@@ -21782,10 +21789,14 @@ msgid ""
 "payments</bookmark_value><bookmark_value>internal rates of return;irregular "
 "payments</bookmark_value><bookmark_value>XIRR function</bookmark_value>"
 msgstr ""
+"<bookmark_value>հաշվարկ;վերադարձի ներքին դրույքաչափեր, անկանոն "
+"վճարումներ</bookmark_value><bookmark_value>վերադարձի ներքին դրույքաչափեր;"
+"անկանոն վճարումներ</bookmark_value><bookmark_value>XIRR "
+"function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3147485.193.help.text
 msgid "XIRR"
-msgstr ""
+msgstr "XIRR"
 
 #: 04060118.xhp%23par_id3145614.194.help.text
 msgid ""
@@ -21793,19 +21804,23 @@ msgid ""
 "a list of payments which take place on different dates.</ahelp> The "
 "calculation is based on a 365 days per year basis, ignoring leap years."
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_XIRR\">Հաշվարկում է վերադարձի ներքին տոկոսադրույքը "
+"տարբեր ամսաթվերով տեղի ունեցող վճարումների ցուցակի համար:</ahelp> Հաշվարկը "
+"հիմնված է տարվա 365 օրվա վրա, անտեսելով նահանջ տարիները:"
 
 #: 04060118.xhp%23par_idN10E62.help.text
 msgid "If the payments take place at regular intervals, use the IRR function."
 msgstr ""
+"Եթե վճարումները տեղի են ունենում պարբերաբար, օգտագործեք IRR գործառույթը:"
 
 #: 04060118.xhp%23hd_id3146149.195.help.text
 msgctxt "04060118.xhp#hd_id3146149.195.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3149826.196.help.text
 msgid "XIRR(Values; Dates; Guess)"
-msgstr ""
+msgstr "XIRR(Values; Dates; Guess)"
 
 #: 04060118.xhp%23par_id3163821.197.help.text
 msgid ""
@@ -21815,122 +21830,129 @@ msgid ""
 "be in any order. The series of values must contain at least one negative and "
 "one positive value (receipts and deposits)."
 msgstr ""
+"<emph>Արժեքները</emph> և <emph>Ամսաթվերը</emph> վերաբերում է մի շարք "
+"վճարումների և հարակից ամսաթվերի արժեքների շարքին: Ամսաթվերի առաջին զույգը "
+"սահմանում է վճարման պլանի սկիզբը: Բոլոր մյուս ամսաթվերի արժեքները պետք է "
+"լինեն ավելի ուշ, բայց դրանք չպետք է լինեն որևէ կարգով: Արժեքների շարքը պետք "
+"է պարունակի առնվազն մեկ բացասական և մեկ դրական արժեք (մուտքեր և ավանդներ):"
 
 #: 04060118.xhp%23par_id3149708.198.help.text
 msgid ""
 "<emph>Guess</emph> (optional) is a guess that can be input for the internal "
 "rate of return. The default is 10%."
 msgstr ""
+"<emph>Ենթադրություն</emph> (կամընտրական) ենթադրություն է, որը կարող է մուտք "
+"անել վերադարձի ներքին փոխարժեքի համար: Լռելյայնը 10% է:"
 
 #: 04060118.xhp%23hd_id3145085.199.help.text
 msgctxt "04060118.xhp#hd_id3145085.199.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3149273.200.help.text
 msgid ""
 "Calculation of the internal rate of return for the following five payments:"
-msgstr ""
+msgstr "Վերադարձի ներքին փոխարժեքի հաշվարկը հետևյալ հինգ վճարումների համար."
 
 #: 04060118.xhp%23par_id3155838.305.help.text
 msgctxt "04060118.xhp#par_id3155838.305.help.text"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: 04060118.xhp%23par_id3152934.306.help.text
 msgctxt "04060118.xhp#par_id3152934.306.help.text"
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: 04060118.xhp%23par_id3154638.307.help.text
 msgctxt "04060118.xhp#par_id3154638.307.help.text"
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: 04060118.xhp%23par_id3147083.308.help.text
 msgctxt "04060118.xhp#par_id3147083.308.help.text"
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: 04060118.xhp%23par_id3151187.309.help.text
 msgid "2001-01-01"
-msgstr ""
+msgstr "2001-01-01"
 
 #: 04060118.xhp%23par_id3145212.201.help.text
 msgid "-<item type=\"input\">10000</item>"
-msgstr ""
+msgstr "-<item type=\"input\">10000</item>"
 
 #: 04060118.xhp%23par_id3146856.202.help.text
 msgid "<item type=\"input\">Received</item>"
-msgstr ""
+msgstr "<item type=\"input\">Ստացված</item>"
 
 #: 04060118.xhp%23par_id3153277.310.help.text
 msgctxt "04060118.xhp#par_id3153277.310.help.text"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: 04060118.xhp%23par_id3154052.203.help.text
 msgid "2001-01-02"
-msgstr ""
+msgstr "2001-01-02"
 
 #: 04060118.xhp%23par_id3151297.204.help.text
 msgid "<item type=\"input\">2000</item>"
-msgstr ""
+msgstr "<item type=\"input\">2000</item>"
 
 #: 04060118.xhp%23par_id3149985.205.help.text
 msgid "<item type=\"input\">Deposited</item>"
-msgstr ""
+msgstr "<item type=\"input\">Ավանդադրված</item>"
 
 #: 04060118.xhp%23par_id3154744.311.help.text
 msgctxt "04060118.xhp#par_id3154744.311.help.text"
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: 04060118.xhp%23par_id3153151.206.help.text
 msgid "2001-03-15"
-msgstr ""
+msgstr "2001-03-15"
 
 #: 04060118.xhp%23par_id3145657.207.help.text
 msgid "2500"
-msgstr ""
+msgstr "2500"
 
 #: 04060118.xhp%23par_id3155101.312.help.text
 msgctxt "04060118.xhp#par_id3155101.312.help.text"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: 04060118.xhp%23par_id3146894.208.help.text
 msgid "2001-05-12"
-msgstr ""
+msgstr "2001-05-12"
 
 #: 04060118.xhp%23par_id3143231.209.help.text
 msgid "5000"
-msgstr ""
+msgstr "5000"
 
 #: 04060118.xhp%23par_id3156012.313.help.text
 msgctxt "04060118.xhp#par_id3156012.313.help.text"
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: 04060118.xhp%23par_id3149758.210.help.text
 msgid "2001-08-10"
-msgstr ""
+msgstr "2001-08-10"
 
 #: 04060118.xhp%23par_id3147495.211.help.text
 msgid "1000"
-msgstr ""
+msgstr "1000"
 
 #: 04060118.xhp%23par_id3152793.212.help.text
 msgid "=XIRR(B1:B5; A1:A5; 0.1) returns 0.1828."
-msgstr ""
+msgstr "=XIRR(B1:B5; A1:A5; 0.1) վերադարձնում է 0.1828։"
 
 #: 04060118.xhp%23bm_id3149198.help.text
 msgid "<bookmark_value>XNPV function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>XNPV function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3149198.213.help.text
 msgid "XNPV"
-msgstr ""
+msgstr "XNPV"
 
 #: 04060118.xhp%23par_id3153904.214.help.text
 msgid ""
@@ -21938,23 +21960,28 @@ msgid ""
 "value)for a list of payments which take place on different dates.</ahelp> "
 "The calculation is based on a 365 days per year basis, ignoring leap years."
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_XNPV\">Հաշվում է կապիտալի արժեքը (զուտ ներկա "
+"արժեքը) տարբեր ամսաթվերի ընթացքում կատարվող վճարումների ցուցակի "
+"համար:</ahelp> Հաշվարկը հիմնված է տարվա 365 օրվա վրա, անտեսելով նահանջ "
+"տարիները:"
 
 #: 04060118.xhp%23par_idN11138.help.text
 msgid "If the payments take place at regular intervals, use the NPV function."
 msgstr ""
+"Եթե վճարումները տեղի են ունենում պարբերաբար, օգտագործեք NPV գործառույթը:"
 
 #: 04060118.xhp%23hd_id3155323.215.help.text
 msgctxt "04060118.xhp#hd_id3155323.215.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3150117.216.help.text
 msgid "XNPV(Rate; Values; Dates)"
-msgstr ""
+msgstr "XNPV(Rate; Values; Dates)"
 
 #: 04060118.xhp%23par_id3153100.217.help.text
 msgid "<emph>Rate</emph> is the internal rate of return for the payments."
-msgstr ""
+msgstr "<emph>Դրույք</emph> վճարների վերադարձի ներքին տոկոսադրույքն է:"
 
 #: 04060118.xhp%23par_id3155395.218.help.text
 msgid ""
@@ -21964,52 +21991,66 @@ msgid ""
 "be in any order. The series of values must contain at least one negative and "
 "one positive value (receipts and deposits)"
 msgstr ""
+"<emph>Արժեքներ</emph> և <emph>Ամսաթվցեր</emph> վերաբերում է մի շարք "
+"վճարումների և հարակից ամսաթվերի արժեքների շարքին: Ամսաթվերի առաջին զույգը "
+"սահմանում է վճարման պլանի սկիզբը: Բոլոր մյուս ամսաթվերի արժեքները պետք է "
+"լինեն ավելի ուշ, բայց դրանք չպետք է լինեն որևէ կարգով: Արժեքների շարքը պետք "
+"է պարունակի առնվազն մեկ բացասական և մեկ դրական արժեք (մուտքեր և ավանդներ)"
 
 #: 04060118.xhp%23hd_id3148832.219.help.text
 msgctxt "04060118.xhp#hd_id3148832.219.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3150525.220.help.text
 msgid ""
 "Calculation of the net present value for the above-mentioned five payments "
 "for a notional internal rate of return of 6%."
 msgstr ""
+"Վերոնշյալ հինգ վճարումների համար զուտ ներկայիս արժեքի հաշվարկը ներքին "
+"վերադարձի կանխատեսելի 6% -ի համար:"
 
 #: 04060118.xhp%23par_id3149910.221.help.text
 msgid "<item type=\"input\">=XNPV(0.06;B1:B5;A1:A5)</item> returns 323.02."
 msgstr ""
+"<item type=\"input\">=XNPV(0.06;B1:B5;A1:A5)</item> վերադարձնում է 323.02։"
 
 #: 04060118.xhp%23bm_id3148822.help.text
 msgid ""
 "<bookmark_value>calculating;rates of return</bookmark_value><bookmark_value>"
 "RRI function</bookmark_value>"
 msgstr ""
+"<bookmark_value>հաշվարկը;վերադարձի տեմպերը</bookmark_value><bookmark_value>"
+"RRI function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3148822.237.help.text
 msgid "RRI"
-msgstr ""
+msgstr "RRI"
 
 #: 04060118.xhp%23par_id3154293.238.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZGZ\">Calculates the interest rate resulting from the "
 "profit (return) of an investment.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZGZ\">Հաշվում է ներդրման շահույթի (վերադարձման) "
+"արդյունքում առաջացած տոկոսադրույքը:</ahelp>"
 
 #: 04060118.xhp%23hd_id3148444.239.help.text
 msgctxt "04060118.xhp#hd_id3148444.239.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3148804.240.help.text
 msgid "RRI(P; PV; FV)"
-msgstr ""
+msgstr "RRI(P; PV; FV)"
 
 #: 04060118.xhp%23par_id3154901.241.help.text
 msgid ""
 "<emph>P</emph> is the number of periods needed for calculating the interest "
 "rate."
 msgstr ""
+"<emph>P</emph> տոկոսադրույքը հաշվարկելու համար անհրաժեշտ ժամանակաշրջանների "
+"քանակն է:"
 
 #: 04060118.xhp%23par_id3159149.242.help.text
 msgctxt "04060118.xhp#par_id3159149.242.help.text"
@@ -22019,16 +22060,20 @@ msgid ""
 "deposit value a positive value must be entered; the deposit must not be 0 or "
 "<0."
 msgstr ""
+"<emph>PV</emph> ներկա (ընթացիկ) արժեքն է: Դրամարկղի արժեքը կանխիկի ավանդն է "
+"կամ նպաստի ներկայիս դրամական արժեքը: Որպես ավանդի արժեք պետք է մուտքագրվի "
+"դրական արժեք. ավանդը չպետք է լինի 0 կամ <0:"
 
 #: 04060118.xhp%23par_id3149771.243.help.text
 msgid ""
 "<emph>FV</emph> determines what is desired as the cash value of the deposit."
 msgstr ""
+"<emph>FV</emph> որոշում է, թե ինչն է ցանկալի, որպես ավանդի կանխիկի արժեք:"
 
 #: 04060118.xhp%23hd_id3148941.244.help.text
 msgctxt "04060118.xhp#hd_id3148941.244.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3154212.245.help.text
 msgid ""
@@ -22036,16 +22081,21 @@ msgid ""
 "interest rate of the return is to be calculated if the future value is "
 "10,000 currency units."
 msgstr ""
+"Չորս ժամանակաշրջանի (տարիների) և 7.500 արժութային միավորի կանխիկ արժեքի "
+"դեպքում վերադարձի տոկոսադրույքը պետք է հաշվարկվի, եթե ապագա արժեքը կազմում է "
+"10,000 արժութային միավոր:"
 
 #: 04060118.xhp%23par_id3150775.246.help.text
 msgid "<item type=\"input\">=RRI(4;7500;10000)</item> = 7.46 %"
-msgstr ""
+msgstr "<item type=\"input\">=RRI(4;7500;10000)</item> = 7.46 %"
 
 #: 04060118.xhp%23par_id3145413.247.help.text
 msgid ""
 "The interest rate must be 7.46 % so that 7,500 currency units will become "
 "10,000 currency units."
 msgstr ""
+"Տոկոսադրույքը պետք է լինի 7.46%, որպեսզի 7,500 արժութային միավորը դառնա "
+"10,000 արժութային միավոր:"
 
 #: 04060118.xhp%23bm_id3154267.help.text
 msgid ""
@@ -22053,68 +22103,84 @@ msgid ""
 "rates</bookmark_value><bookmark_value>constant interest "
 "rates</bookmark_value><bookmark_value>RATE function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating;constant interest "
+"rates</bookmark_value><bookmark_value>constant interest "
+"rates</bookmark_value><bookmark_value>RATE function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3154267.249.help.text
 msgid "RATE"
-msgstr ""
+msgstr "RATE"
 
 #: 04060118.xhp%23par_id3151052.250.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZINS\">Returns the constant interest rate per period "
 "of an annuity.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZINS\">Վերադարձնում է վճարման ժամանակաշրջանի մշտական "
+"տոկոսադրույքը:</ahelp>"
 
 #: 04060118.xhp%23hd_id3154272.251.help.text
 msgctxt "04060118.xhp#hd_id3154272.251.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3158423.252.help.text
 msgid "RATE(NPer; Pmt; PV; FV; Type; Guess)"
-msgstr ""
+msgstr "RATE(NPer; Pmt; PV; FV; Type; Guess)"
 
 #: 04060118.xhp%23par_id3148910.253.help.text
 msgid ""
 "<emph>NPer</emph> is the total number of periods, during which payments are "
 "made (payment period)."
 msgstr ""
+"<emph>NPer</emph> այն ժամանակահատվածների ընդհանուր թիվն է, որի ընթացքում "
+"կատարվում են վճարումները (վճարման ժամանակաշրջանը):"
 
 #: 04060118.xhp%23par_id3148925.254.help.text
 msgid ""
 "<emph>Pmt</emph> is the constant payment (annuity) paid during each period."
 msgstr ""
+"<emph>Pmt</emph> յուրաքանչյուր ժամանակահատվածում վճարվող մշտական վճար "
+"(անուիտետ) է:"
 
 #: 04060118.xhp%23par_id3149160.255.help.text
 msgid "<emph>PV</emph> is the cash value in the sequence of payments."
 msgstr ""
+"<emph>PV</emph> վճարումների հաջորդականության մեջ գտնվող կանխիկ արժեքն է:"
 
 #: 04060118.xhp%23par_id3166456.256.help.text
 msgid ""
 "<emph>FV</emph> (optional) is the future value, which is reached at the end "
 "of the periodic payments."
 msgstr ""
+"<emph>FV</emph> (կամընտրական) ապագա արժեքն է, որը կստանաք պարբերական "
+"վճարումների ավարտին:"
 
 #: 04060118.xhp%23par_id3153243.257.help.text
 msgid ""
 "<emph>Type</emph> (optional) is the due date of the periodic payment, either "
 "at the beginning or at the end of a period."
 msgstr ""
+"<emph>Տեսակ</emph> (կամընտրական) պարբերական վճարման ժամկետն է` "
+"ժամանակաշրջանի սկզբին կամ վերջում:"
 
 #: 04060118.xhp%23par_id3146949.258.help.text
 msgid ""
 "<emph>Guess</emph> (optional) determines the estimated value of the interest "
 "with iterative calculation."
 msgstr ""
+"<emph>Ենթադրել</emph> (կամընտրական) կրկնվող հաշվարկով որոշում է տոկոսի "
+"գնահատված արժեքը:"
 
 #: 04060118.xhp%23par_idN10E2A.help.text
 msgctxt "04060118.xhp#par_idN10E2A.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060118.xhp%23hd_id3149791.259.help.text
 msgctxt "04060118.xhp#hd_id3149791.259.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3150706.260.help.text
 msgid ""
@@ -22122,20 +22188,25 @@ msgid ""
 "currency units are paid regularly and the present cash value is 900 currency "
 "units."
 msgstr ""
+"Որն է 3 ժամանակահատվածների համար վճարման հաստատուն տոկոսադրույքը, եթե "
+"պարբերաբար վճարվում են 10 արժութային միավոր, իսկ ներկա կանխիկ արժեքը ՝ 900 "
+"արժութային միավոր է:"
 
 #: 04060118.xhp%23par_id3155586.261.help.text
 msgid ""
 "<item type=\"input\">=RATE(3;10;900)</item> = -121% The interest rate is "
 "therefore 121%."
 msgstr ""
+"<item type=\"input\">=RATE(3;10;900)</item> = -121% Հետևաբար տոկոսադրույքն է "
+"121%։"
 
 #: 04060118.xhp%23bm_id3149106.help.text
 msgid "<bookmark_value>INTRATE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>INTRATE function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3149106.60.help.text
 msgid "INTRATE"
-msgstr ""
+msgstr "INTRATE"
 
 #: 04060118.xhp%23par_id3149918.61.help.text
 msgid ""
@@ -22143,37 +22214,41 @@ msgid ""
 "results when a security (or other item) is purchased at an investment value "
 "and sold at a redemption value. No interest is paid.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_INTRATE\">Հաշվարկում է տարեկան տոկոսադրույքը, որը "
+"կայանում է այն դեպքում, երբ արժեթուղթը (կամ այլ ապրանք) գնվում է "
+"ներդրումային արժեքով և վաճառվում է մարման արժեքով: Ոչ մի տոկոս չի "
+"վճարվում:</ahelp>"
 
 #: 04060118.xhp%23hd_id3149974.62.help.text
 msgctxt "04060118.xhp#hd_id3149974.62.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3149800.63.help.text
 msgid "INTRATE(Settlement; Maturity; Investment; Redemption; Basis)"
-msgstr ""
+msgstr "INTRATE(Settlement; Maturity; Investment; Redemption; Basis)"
 
 #: 04060118.xhp%23par_id3148618.64.help.text
 msgctxt "04060118.xhp#par_id3148618.64.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3148988.65.help.text
 msgid "<emph>Maturity</emph> is the date on which the security is sold."
-msgstr ""
+msgstr "<emph>Մարում</emph> արժեթղթի վաճառքի ամսաթիվն է։"
 
 #: 04060118.xhp%23par_id3154604.66.help.text
 msgid "<emph>Investment</emph> is the purchase price."
-msgstr ""
+msgstr "<emph>Ներդրում</emph> ձեռք բերման գինն է։"
 
 #: 04060118.xhp%23par_id3154337.67.help.text
 msgid "<emph>Redemption</emph> is the selling price."
-msgstr ""
+msgstr "<emph>Գնման արժեք</emph> վաճառքի գինն է։"
 
 #: 04060118.xhp%23hd_id3145380.68.help.text
 msgctxt "04060118.xhp#hd_id3145380.68.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3149426.69.help.text
 msgid ""
@@ -22181,56 +22256,67 @@ msgid ""
 "2 million. The basis is daily balance calculation (basis = 3). What is the "
 "average annual level of interest?"
 msgstr ""
+"1990-01-15-ին նկարը գնվել է 1 միլիոնով, իսկ 2002-05-05-ին վաճառվում է 2 "
+"միլիոնով: Հիմքը օրեկան հաշվեկշռի հաշվարկն է (հիմք = 3): Ո՞րն է տարեկան միջին "
+"տոկոսադրույքը:"
 
 #: 04060118.xhp%23par_id3151125.70.help.text
 msgid ""
 "=INTRATE(\"1990-01-15\"; \"2002-05-05\"; 1000000; 2000000; 3) returns 8.12%."
 msgstr ""
+"=INTRATE(\"1990-01-15\"; \"2002-05-05\"; 1000000; 2000000; 3) վերադարձնում է "
+"8.12%։"
 
 #: 04060118.xhp%23bm_id3148654.help.text
 msgid "<bookmark_value>COUPNCD function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>COUPNCD function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3148654.163.help.text
 msgid "COUPNCD"
-msgstr ""
+msgstr "COUPNCD"
 
 #: 04060118.xhp%23par_id3149927.164.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_COUPNCD\">Returns the date of the first interest "
 "date after the settlement date. Format the result as a date.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPNCD\">Վերադարձնում է առաջին տոկոսադրույքի "
+"ամսաթիվը, հաշվարկման օրվա ավարտից հետո: Ձևավորել արդյունքը որպես "
+"ամսաթվ:</ahelp>"
 
 #: 04060118.xhp%23hd_id3153317.165.help.text
 msgctxt "04060118.xhp#hd_id3153317.165.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3150423.166.help.text
 msgid "COUPNCD(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPNCD(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3150628.167.help.text
 msgctxt "04060118.xhp#par_id3150628.167.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> Արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3153536.168.help.text
 msgctxt "04060118.xhp#par_id3153536.168.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարում</emph> այն ամսաթիվն է, որի ընթացքում հասունանում է արժեթուղթը ("
+"լրանում է):"
 
 #: 04060118.xhp%23par_id3145313.169.help.text
 msgctxt "04060118.xhp#par_id3145313.169.help.text"
 msgid ""
 "<emph>Frequency</emph> is number of interest payments per year (1, 2 or 4)."
 msgstr ""
+"<emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճար է (1, 2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3155424.170.help.text
 msgctxt "04060118.xhp#hd_id3155424.170.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3154794.171.help.text
 msgid ""
@@ -22238,55 +22324,64 @@ msgid ""
 "Interest is paid half-yearly (frequency is 2). Using daily balance interest "
 "calculation (basis 3) when is the next interest date?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերվել 2001-01-25, հմարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախությունը 2 է): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկը (հիմք 3), ե՞րբ է հաջորդ տոկոսադրույքի ամսաթիվը:"
 
 #: 04060118.xhp%23par_id3159251.172.help.text
 msgid "=COUPNCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 2001-05-15."
 msgstr ""
+"=COUPNCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 2001-05-15։"
 
 #: 04060118.xhp%23bm_id3143281.help.text
 msgid "<bookmark_value>COUPDAYS function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>COUPDAYS function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3143281.143.help.text
 msgid "COUPDAYS"
-msgstr ""
+msgstr "COUPDAYS"
 
 #: 04060118.xhp%23par_id3149488.144.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_COUPDAYS\">Returns the number of days in the "
 "current interest period in which the settlement date falls.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPDAYS\">Վերադարձնում է ընթացիկ տոկոսային "
+"ժամանակահատվածում օրերի քանակը, որում ընկնում է կարգավորման ամսաթիվը:</ahelp>"
 
 #: 04060118.xhp%23hd_id3148685.145.help.text
 msgctxt "04060118.xhp#hd_id3148685.145.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3149585.146.help.text
 msgid "COUPDAYS(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPDAYS(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3152767.147.help.text
 msgctxt "04060118.xhp#par_id3152767.147.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3151250.148.help.text
 msgctxt "04060118.xhp#par_id3151250.148.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարել</emph> այն ամսաթիվն է, երբ հասունանում է արժեթղթի ժամկետը ("
+"լրանում է):"
 
 #: 04060118.xhp%23par_id3146126.149.help.text
 msgctxt "04060118.xhp#par_id3146126.149.help.text"
 msgid ""
 "<emph>Frequency</emph> is number of interest payments per year (1, 2 or 4)."
 msgstr ""
+"<emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճարն է (1, 2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3153705.150.help.text
 msgctxt "04060118.xhp#hd_id3153705.150.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3147530.151.help.text
 msgid ""
@@ -22295,54 +22390,63 @@ msgid ""
 "calculation (basis 3) how many days are there in the interest period in "
 "which the settlement date falls?"
 msgstr ""
+"Արժեթուղթը ձեռք բերվել 2001-01-25, մարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախությունը 2 է): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկը (հիմք 3), քանի՞ օր է մնացել տոկոսադրույքի "
+"ժամանակահատվածում, որում ընկնում է հաշվարկային ամսաթիվը:"
 
 #: 04060118.xhp%23par_id3156338.152.help.text
 msgid "=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 181."
-msgstr ""
+msgstr "=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 181։"
 
 #: 04060118.xhp%23bm_id3154832.help.text
 msgid "<bookmark_value>COUPDAYSNC function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>COUPDAYSNC function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3154832.153.help.text
 msgid "COUPDAYSNC"
-msgstr ""
+msgstr "COUPDAYSNC"
 
 #: 04060118.xhp%23par_id3147100.154.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_COUPDAYSNC\">Returns the number of days from the "
 "settlement date until the next interest date.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPDAYSNC\">Վերադարձնում է կարգավորման օրվանից "
+"մինչև հաջորդ տոկոսադրույքի ամսաթիվը օրերի քանակը:</ahelp>"
 
 #: 04060118.xhp%23hd_id3151312.155.help.text
 msgctxt "04060118.xhp#hd_id3151312.155.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3155121.156.help.text
 msgid "COUPDAYSNC(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPDAYSNC(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3158440.157.help.text
 msgctxt "04060118.xhp#par_id3158440.157.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի ձեռք բերման ամսաթիվն է։"
 
 #: 04060118.xhp%23par_id3146075.158.help.text
 msgctxt "04060118.xhp#par_id3146075.158.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարել</emph> այն ամսաթիվն է, երբ հասնում է արժեթղթի մարման ժամկետը ("
+"լրանում է):"
 
 #: 04060118.xhp%23par_id3154620.159.help.text
 msgid ""
 "<emph>Frequency </emph>is number of interest payments per year (1, 2 or 4)."
 msgstr ""
+"<emph>Հաճախականություն </emph>տարեկան տոկոսադրույքների վճար է (1, 2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3155604.160.help.text
 msgctxt "04060118.xhp#hd_id3155604.160.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3148671.161.help.text
 msgid ""
@@ -22351,10 +22455,14 @@ msgid ""
 "calculation (basis 3) how many days are there until the next interest "
 "payment?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերվում 2001-01-25, մարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախությունը 2 է): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկը (հիմք 3), քանի՞ օր է մնացել մինչև հաջորդ տոկոսների "
+"վճարումը:"
 
 #: 04060118.xhp%23par_id3156158.162.help.text
 msgid "=COUPDAYSNC(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 110."
-msgstr ""
+msgstr "=COUPDAYSNC(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 110։"
 
 #: 04060118.xhp%23bm_id3150408.help.text
 msgid ""
@@ -22363,10 +22471,14 @@ msgid ""
 "date</bookmark_value><bookmark_value>securities;first interest payment until "
 "settlement date</bookmark_value>"
 msgstr ""
+"<bookmark_value>COUPDAYBS function</bookmark_value><bookmark_value>durations;"
+"first interest payment until settlement "
+"date</bookmark_value><bookmark_value>securities;first interest payment until "
+"settlement date</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3150408.133.help.text
 msgid "COUPDAYBS"
-msgstr ""
+msgstr "COUPDAYBS"
 
 #: 04060118.xhp%23par_id3146795.134.help.text
 msgid ""
@@ -22374,26 +22486,30 @@ msgid ""
 "first day of interest payment on a security until the settlement "
 "date.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPDAYBS\">Վերադարձնում է արժեթղթերի տոկոսների "
+"օրերի քանակը, վճարման առաջին օրվանից մինչև մարման ամսաթիվը:</ahelp>"
 
 #: 04060118.xhp%23hd_id3156142.135.help.text
 msgctxt "04060118.xhp#hd_id3156142.135.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3159083.136.help.text
 msgid "COUPDAYBS(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPDAYBS(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3146907.137.help.text
 msgctxt "04060118.xhp#par_id3146907.137.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3159390.138.help.text
 msgctxt "04060118.xhp#par_id3159390.138.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարել</emph> այն ամսաթիվն է, երբ հասնում է արժեթղթի ժամկետը (լրանում "
+"է):"
 
 #: 04060118.xhp%23par_id3154414.139.help.text
 msgctxt "04060118.xhp#par_id3154414.139.help.text"
@@ -22401,11 +22517,12 @@ msgid ""
 "<emph>Frequency</emph> is the number of interest payments per year (1, 2 or "
 "4)."
 msgstr ""
+"<emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճարն է (1, 2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3153880.140.help.text
 msgctxt "04060118.xhp#hd_id3153880.140.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3150592.141.help.text
 msgid ""
@@ -22413,46 +22530,55 @@ msgid ""
 "Interest is paid half-yearly (frequency is 2). Using daily balance interest "
 "calculation (basis 3) how many days is this?"
 msgstr ""
+"Արժեթուղթը ձեռք բերվում 2001-01-25, մարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախությունը 2 է): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկը (հիմք 3), քանի՞ օր է մինչ վճարումը:"
 
 #: 04060118.xhp%23par_id3151103.142.help.text
 msgid "=COUPDAYBS(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 71."
-msgstr ""
+msgstr "=COUPDAYBS(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 71։"
 
 #: 04060118.xhp%23bm_id3152957.help.text
 msgid ""
 "<bookmark_value>COUPPCD function</bookmark_value><bookmark_value>dates;"
 "interest date prior to settlement date</bookmark_value>"
 msgstr ""
+"<bookmark_value>COUPPCD function</bookmark_value><bookmark_value>dates;"
+"interest date prior to settlement date</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3152957.183.help.text
 msgid "COUPPCD"
-msgstr ""
+msgstr "COUPPCD"
 
 #: 04060118.xhp%23par_id3153678.184.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_COUPPCD\">Returns the date of the interest date "
 "prior to the settlement date. Format the result as a date.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPPCD\">Վերադարձնում է տոկոսադրույքի ամսաթիվը "
+"մինչ մարման օրը: Ձևավորել արդյունքը որպես ամսաթվ:</ahelp>"
 
 #: 04060118.xhp%23hd_id3156269.185.help.text
 msgctxt "04060118.xhp#hd_id3156269.185.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3153790.186.help.text
 msgid "COUPPCD(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPPCD(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3150989.187.help.text
 msgctxt "04060118.xhp#par_id3150989.187.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3154667.188.help.text
 msgctxt "04060118.xhp#par_id3154667.188.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարում</emph> այն ամսաթիվն է, երբ հասնում է արժեթղթի մարման ժամկետը ("
+"լրանում է):"
 
 #: 04060118.xhp%23par_id3154569.189.help.text
 msgctxt "04060118.xhp#par_id3154569.189.help.text"
@@ -22460,11 +22586,13 @@ msgid ""
 "<emph>Frequency</emph> is the number of interest payments per year (1, 2 or "
 "4)."
 msgstr ""
+"<emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճարների քանակն է (1, "
+"2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3150826.190.help.text
 msgctxt "04060118.xhp#hd_id3150826.190.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3148968.191.help.text
 msgid ""
@@ -22472,46 +22600,56 @@ msgid ""
 "Interest is paid half-yearly (frequency is 2). Using daily balance interest "
 "calculation (basis 3) what was the interest date prior to purchase?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերվում 2001-01-25, մարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախականությունը 2): Օգտագործելով ամենօրյա մնացորդի "
+"տոկոսների հաշվարկը (հիմք 3) ո՞րն էր տոկոսադրույքի ամսաթիվը մինչ գնումը:"
 
 #: 04060118.xhp%23par_id3149992.192.help.text
 msgid "=COUPPCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 2000-15-11."
 msgstr ""
+"=COUPPCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 2000-15-11։"
 
 #: 04060118.xhp%23bm_id3150673.help.text
 msgid ""
 "<bookmark_value>COUPNUM function</bookmark_value><bookmark_value>number of "
 "coupons</bookmark_value>"
 msgstr ""
+"<bookmark_value>COUPNUM function</bookmark_value><bookmark_value>number of "
+"coupons</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3150673.173.help.text
 msgid "COUPNUM"
-msgstr ""
+msgstr "COUPNUM"
 
 #: 04060118.xhp%23par_id3154350.174.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_COUPNUM\">Returns the number of coupons (interest "
 "payments) between the settlement date and the maturity date.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_COUPNUM\">Վերադարձնում է կտրոնների քանակը ("
+"տոկոսների վճարումներ) հաշվարկային օրվա և մարման ժամկետի միջև:</ahelp>"
 
 #: 04060118.xhp%23hd_id3148400.175.help.text
 msgctxt "04060118.xhp#hd_id3148400.175.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3153200.176.help.text
 msgid "COUPNUM(Settlement; Maturity; Frequency; Basis)"
-msgstr ""
+msgstr "COUPNUM(Settlement; Maturity; Frequency; Basis)"
 
 #: 04060118.xhp%23par_id3159406.177.help.text
 msgctxt "04060118.xhp#par_id3159406.177.help.text"
 msgid "<emph>Settlement</emph> is the date of purchase of the security."
-msgstr ""
+msgstr "<emph>Համաձայնագիր</emph> արժեթղթի գնման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_id3155864.178.help.text
 msgctxt "04060118.xhp#par_id3155864.178.help.text"
 msgid ""
 "<emph>Maturity</emph> is the date on which the security matures (expires)."
 msgstr ""
+"<emph>Մարում</emph> այն ամսաթիվն է, երբ հասնում է արժեթղթի մարման ժամկետը ("
+"լրանում է):"
 
 #: 04060118.xhp%23par_id3154720.179.help.text
 msgctxt "04060118.xhp#par_id3154720.179.help.text"
@@ -22519,11 +22657,13 @@ msgid ""
 "<emph>Frequency</emph> is the number of interest payments per year (1, 2 or "
 "4)."
 msgstr ""
+"<emph>Հաճախականություն</emph> տարեկան տոկոսադրույքների վճարների քանակն է (1, "
+"2 կամ 4):"
 
 #: 04060118.xhp%23hd_id3149319.180.help.text
 msgctxt "04060118.xhp#hd_id3149319.180.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3152460.181.help.text
 msgid ""
@@ -22531,40 +22671,47 @@ msgid ""
 "Interest is paid half-yearly (frequency is 2). Using daily balance interest "
 "calculation (basis 3) how many interest dates are there?"
 msgstr ""
+"Արժեթուղթը ձեռք է բերվում 2001-01-25, մարման ամսաթիվը 2001-11-15։ Տոկոսները "
+"վճարվում են կիսամյակով (հաճախությունը 2 է): Օգտագործելով ամենօրյա հաշվեկշռի "
+"տոկոսների հաշվարկը (հիմք 3), քանի՞ տոկոսավճարի ամսաթիվ կա:"
 
 #: 04060118.xhp%23par_id3150640.182.help.text
 msgid "=COUPNUM(\"2001-01-25\"; \"2001-11-15\"; 2; 3) returns 2."
-msgstr ""
+msgstr "=COUPNUM(\"2001-01-25\"; \"2001-11-15\"; 2; 3) վերադարձնում է 2։"
 
 #: 04060118.xhp%23bm_id3149339.help.text
 msgid ""
 "<bookmark_value>IPMT function</bookmark_value><bookmark_value>periodic "
 "amortizement rates</bookmark_value>"
 msgstr ""
+"<bookmark_value>IPMT function</bookmark_value><bookmark_value>periodic "
+"amortizement rates</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3149339.263.help.text
 msgid "IPMT"
-msgstr ""
+msgstr "IPMT"
 
 #: 04060118.xhp%23par_id3154522.264.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZINSZ\">Calculates the periodic amortizement for an "
 "investment with regular payments and a constant interest rate.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZINSZ\">Հաշվում է ներդրումների պարբերական "
+"ամորտիզացիան, կանոնավոր վճարներով և կայուն տոկոսադրույքով:</ahelp>"
 
 #: 04060118.xhp%23hd_id3153266.265.help.text
 msgctxt "04060118.xhp#hd_id3153266.265.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3151283.266.help.text
 msgid "IPMT(Rate; Period; NPer; PV; FV; Type)"
-msgstr ""
+msgstr "IPMT(Rate; Period; NPer; PV; FV; Type)"
 
 #: 04060118.xhp%23par_id3147313.267.help.text
 msgctxt "04060118.xhp#par_id3147313.267.help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr ""
+msgstr "<emph>Դրույք</emph> պարբերական տոկոսադրույքն է:"
 
 #: 04060118.xhp%23par_id3145158.268.help.text
 msgid ""
@@ -22572,31 +22719,38 @@ msgid ""
 "calculated. Period=NPER if compound interest for the last period is "
 "calculated."
 msgstr ""
+"<emph>Ժամանակահատված</emph> այն ժամանակահատվածն է, որի համար հաշվարկվում է "
+"բարդ տոկոսադրույքը: Ժամանակահատվածը=NPER, եթե վերջին ժամանակահատվածի համար "
+"բարդ տոկոս է հաշվարկվում:"
 
 #: 04060118.xhp%23par_id3147577.269.help.text
 msgid ""
 "<emph>NPer</emph> is the total number of periods, during which annuity is "
 "paid."
 msgstr ""
+"<emph>NPer</emph> այն ժամանակաշրջանների ընդհանուր թիվն է, որի ընթացքում "
+"վճարվում է անուիտետը:"
 
 #: 04060118.xhp%23par_id3156211.270.help.text
 msgid "<emph>PV</emph> is the present cash value in sequence of payments."
-msgstr ""
+msgstr "<emph>PV</emph> վճարումների հերթականության ներկա դրամական արժեքն է:"
 
 #: 04060118.xhp%23par_id3151213.271.help.text
 msgid ""
 "<emph>FV</emph> (optional) is the desired value (future value) at the end of "
 "the periods."
 msgstr ""
+"<emph>FV</emph> (կամընտրական) ցանկալի արժեք է (ապագա արժեք) "
+"ժամանակաշրջանների վերջում:"
 
 #: 04060118.xhp%23par_id3154195.272.help.text
 msgid "<emph>Type</emph> is the due date for the periodic payments."
-msgstr ""
+msgstr "<emph>Տեսակ</emph> պարբերական վճարումների համար սահմանված ժամկետն է:"
 
 #: 04060118.xhp%23hd_id3150102.273.help.text
 msgctxt "04060118.xhp#hd_id3150102.273.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3149438.274.help.text
 msgid ""
@@ -22604,6 +22758,9 @@ msgid ""
 "interest rate is 5% and the cash value is 15,000 currency units? The "
 "periodic payment is seven years."
 msgstr ""
+"Ո՞րն է տոկոսադրույքը հինգերորդ ժամանակահատվածում (տարվա ընթացքում), եթե "
+"հաստատուն տոկոսադրույքը 5% է, իսկ կանխիկի արժեքը 15,000 արժութային միավոր: "
+"Պարբերաբար վճարումը յոթ տարի է:"
 
 #: 04060118.xhp%23par_id3150496.275.help.text
 msgid ""
@@ -22611,6 +22768,9 @@ msgid ""
 "The compound interest during the fifth period (year) is 352.97 currency "
 "units."
 msgstr ""
+"<item type=\"input\">=IPMT(5%;5;7;15000)</item> = -352.97 արժութային միավոր։ "
+"Հինգերորդ ժամանակահատվածում (տարում) բարդ տոկոսադրույքը կազմում է 352.97 "
+"արժութային միավոր:"
 
 #: 04060118.xhp%23bm_id3151205.help.text
 msgid ""
@@ -22618,10 +22778,13 @@ msgid ""
 "future values;constant interest rates</bookmark_value><bookmark_value>FV "
 "function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating;future values</bookmark_value><bookmark_value>"
+"future values;constant interest rates</bookmark_value><bookmark_value>FV "
+"function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3151205.277.help.text
 msgid "FV"
-msgstr ""
+msgstr "FV"
 
 #: 04060118.xhp%23par_id3154140.278.help.text
 msgid ""
@@ -22629,49 +22792,56 @@ msgid ""
 "on periodic, constant payments and a constant interest rate (Future "
 "Value).</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZW\">Վերադարձնում է ներդրման հետագա արժեքը, հիմնվելով "
+"պարբերական, անընդհատ վճարումների և կայուն տոկոսադրույքի վրա (ապագա "
+"արժեք):</ahelp>"
 
 #: 04060118.xhp%23hd_id3155178.279.help.text
 msgctxt "04060118.xhp#hd_id3155178.279.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3145215.280.help.text
 msgid "FV(Rate; NPer; Pmt; PV; Type)"
-msgstr ""
+msgstr "FV(Rate; NPer; Pmt; PV; Type)"
 
 #: 04060118.xhp%23par_id3155136.281.help.text
 msgctxt "04060118.xhp#par_id3155136.281.help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr ""
+msgstr "<emph>Դրույք</emph> պարբերական տոկոսադրույքն է:"
 
 #: 04060118.xhp%23par_id3156029.282.help.text
 msgid "<emph>NPer</emph> is the total number of periods (payment period)."
 msgstr ""
+"<emph>NPer</emph> ժամանակահատվածների ընդհանուր քանակն է (վճարման "
+"ժամանակահատվածը):"
 
 #: 04060118.xhp%23par_id3151322.283.help.text
 msgid "<emph>Pmt</emph> is the annuity paid regularly per period."
-msgstr ""
+msgstr "<emph>Pmt</emph> պարբերաբար վճարվող կանոնավոր անուիտետն է:"
 
 #: 04060118.xhp%23par_id3145256.284.help.text
 msgid ""
 "<emph>PV</emph> (optional) is the (present) cash value of an investment."
-msgstr ""
+msgstr "<emph>PV</emph> (կամընտրական) ներդրման (ներկա) դրամական արժեքն է:"
 
 #: 04060118.xhp%23par_id3150999.285.help.text
 msgid ""
 "<emph>Type</emph> (optional) defines whether the payment is due at the "
 "beginning or the end of a period."
 msgstr ""
+"<emph>Տեսակ</emph> (կամընտրական) սահմանում է, արդյոք վճարումը պայմանավորված "
+"է ժամանակաշրջանի սկզբում կամ ավարտին:"
 
 #: 04060118.xhp%23par_idN114D8.help.text
 msgctxt "04060118.xhp#par_idN114D8.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060118.xhp%23hd_id3146800.286.help.text
 msgctxt "04060118.xhp#hd_id3146800.286.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3146813.287.help.text
 msgid ""
@@ -22679,22 +22849,29 @@ msgid ""
 "the payment period is two years, with a periodic payment of 750 currency "
 "units. The investment has a present value of 2,500 currency units."
 msgstr ""
+"Ինչ արժեք է ներդրման ավարտին, եթե տոկոսադրույքը կազմում է 4%, իսկ վճարման "
+"ժամկետը երկու տարի է, ընդ որում,պարբերաբար վճարվում է 750 արժութային միավոր: "
+"Ներդրումն ունի ներկայումս 2500 արժութային միավոր:"
 
 #: 04060118.xhp%23par_id3149302.288.help.text
 msgid ""
 "<item type=\"input\">=FV(4%;2;750;2500) </item>= -4234.00 currency units. "
 "The value at the end of the investment is 4234.00 currency units."
 msgstr ""
+"<item type=\"input\">=FV(4%;2;750;2500) </item>= -4234.00 արժութային միավոր։ "
+"Ներդրման ավարտին արժեքը 4234.00 արժութային միավոր է:"
 
 #: 04060118.xhp%23bm_id3155912.help.text
 msgid ""
 "<bookmark_value>FVSCHEDULE function</bookmark_value><bookmark_value>future "
 "values;varying interest rates</bookmark_value>"
 msgstr ""
+"<bookmark_value>FVSCHEDULE function</bookmark_value><bookmark_value>future "
+"values;varying interest rates</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3155912.51.help.text
 msgid "FVSCHEDULE"
-msgstr ""
+msgstr "FVSCHEDULE"
 
 #: 04060118.xhp%23par_id3163726.52.help.text
 msgid ""
@@ -22702,42 +22879,50 @@ msgid ""
 "the starting capital for a series of periodically varying interest "
 "rates.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_FVSCHEDULE\">Հաշվում է մեկնարկային կապիտալի "
+"կուտակված արժեքը պարբերաբար փոփոխվող տոկոսադրույքների համար:</ahelp>"
 
 #: 04060118.xhp%23hd_id3149571.53.help.text
 msgctxt "04060118.xhp#hd_id3149571.53.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3148891.54.help.text
 msgid "FVSCHEDULE(Principal; Schedule)"
-msgstr ""
+msgstr "FVSCHEDULE(Principal; Schedule)"
 
 #: 04060118.xhp%23par_id3148904.55.help.text
 msgid "<emph>Principal</emph> is the starting capital."
-msgstr ""
+msgstr "<emph>Հիմնական կապիտալ</emph> սկզբնական կապիտալն է։"
 
 #: 04060118.xhp%23par_id3148562.56.help.text
 msgid ""
 "<emph>Schedule</emph> is a series of interest rates, for example, as a range "
 "H3:H5 or as a (List) (see example)."
 msgstr ""
+"<emph>Ժամանակացույց</emph> տոկոսադրույքների մի շարք է, օրինակ, որպես H3:H5 "
+"միջակայք, կամ որպես (ցուցակ) (տես օրինակը):"
 
 #: 04060118.xhp%23hd_id3147288.57.help.text
 msgctxt "04060118.xhp#hd_id3147288.57.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3148638.58.help.text
 msgid ""
 "1000 currency units have been invested in for three years. The interest "
 "rates were 3%, 4% and 5% per annum. What is the value after three years?"
 msgstr ""
+"Երեք տարվա ընթացքում ներդրվել է 1000 արժութային միավոր: Տոկոսադրույքները "
+"կազմում էին տարեկան 3%, 4% և 5%: Ո՞րն է արժեքը երեք տարի անց:"
 
 #: 04060118.xhp%23par_id3156358.59.help.text
 msgid ""
 "<item type=\"input\">=FVSCHEDULE(1000;{0.03;0.04;0.05})</item> returns "
 "1124.76."
 msgstr ""
+"<item type=\"input\">=FVSCHEDULE(1000;{0.03;0.04;0.05})</item> վերադարձնում "
+"է 1124.76։"
 
 #: 04060118.xhp%23bm_id3156435.help.text
 msgid ""
@@ -22746,62 +22931,75 @@ msgid ""
 "of</bookmark_value><bookmark_value>number of payment "
 "periods</bookmark_value><bookmark_value>NPER function</bookmark_value>"
 msgstr ""
+"<bookmark_value>calculating;number of payment "
+"periods</bookmark_value><bookmark_value>payment periods;number "
+"of</bookmark_value><bookmark_value>number of payment "
+"periods</bookmark_value><bookmark_value>NPER function</bookmark_value>"
 
 #: 04060118.xhp%23hd_id3156435.290.help.text
 msgid "NPER"
-msgstr ""
+msgstr "NPER"
 
 #: 04060118.xhp%23par_id3152363.291.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZZR\">Returns the number of periods for an investment "
 "based on periodic, constant payments and a constant interest rate.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZZR\">Վերադարձնում է ներդրումների համար նախատեսված "
+"ժամանակահատվածների քանակը, հիմնված պարբերական, անընդհատ վճարումների և կայուն "
+"տոկոսադրույքի վրա:</ahelp>"
 
 #: 04060118.xhp%23hd_id3147216.292.help.text
 msgctxt "04060118.xhp#hd_id3147216.292.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060118.xhp%23par_id3155934.293.help.text
 msgid "NPER(Rate; Pmt; PV; FV; Type)"
-msgstr ""
+msgstr "NPER(Rate; Pmt; PV; FV; Type)"
 
 #: 04060118.xhp%23par_id3155946.294.help.text
 msgctxt "04060118.xhp#par_id3155946.294.help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr ""
+msgstr "<emph>Դրույք</emph> պարբերական տոկոսադրույքն է:"
 
 #: 04060118.xhp%23par_id3149042.295.help.text
 msgid "<emph>Pmt</emph> is the constant annuity paid in each period."
 msgstr ""
+"<emph>Pmt</emph> յուրաքանչյուր ժամանակահատվածում վճարվող մշտական անուիտետն է:"
 
 #: 04060118.xhp%23par_id3153134.296.help.text
 msgctxt "04060118.xhp#par_id3153134.296.help.text"
 msgid ""
 "<emph>PV</emph> is the present value (cash value) in a sequence of payments."
 msgstr ""
+"<emph>PV</emph> վճարումների հերթականության ներկա արժեքն է (կանխիկի արժեքը):"
 
 #: 04060118.xhp%23par_id3154398.297.help.text
 msgid ""
 "<emph>FV</emph> (optional) is the future value, which is reached at the end "
 "of the last period."
 msgstr ""
+"<emph>FV</emph> (կամընտրական) ապագա արժեքն է, որը հասնում է վերջին շրջանի "
+"վերջում:"
 
 #: 04060118.xhp%23par_id3145127.298.help.text
 msgid ""
 "<emph>Type</emph> (optional) is the due date of the payment at the beginning "
 "or at the end of the period."
 msgstr ""
+"<emph>Տեսակ</emph> (կամընտրական) ժամանակաշրջանի սկզբում կամ վերջում վճարման "
+"կատարման ամսաթիվն է:"
 
 #: 04060118.xhp%23par_idN1166C.help.text
 msgctxt "04060118.xhp#par_idN1166C.help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #: 04060118.xhp%23hd_id3155795.299.help.text
 msgctxt "04060118.xhp#hd_id3155795.299.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060118.xhp%23par_id3147378.300.help.text
 msgid ""
@@ -22809,12 +23007,17 @@ msgid ""
 "interest rate of 6%, a periodic payment of 153.75 currency units and a "
 "present cash value of 2.600 currency units."
 msgstr ""
+"Վճարման քանի ժամանակահատված է ընդգրկում 6% պարբերական տոկոսադրույքը, "
+"պարբերական վճարը` 153.75 արժութային միավոր և ներկայիս կանխիկ արժեքը` 2.600 "
+"արժութային միավոր:"
 
 #: 04060118.xhp%23par_id3156171.301.help.text
 msgid ""
 "<item type=\"input\">=NPER(6%;153.75;2600)</item> = -12,02. The payment "
 "period covers 12.02 periods."
 msgstr ""
+"<item type=\"input\">=NPER(6%;153.75;2600)</item> = -12,02։ Վճարման ժամկետն "
+"ընդգրկում է 12.02 ժամանակահատված։"
 
 #: 04060118.xhp%23par_id3150309.314.help.text
 msgctxt "04060118.xhp#par_id3150309.314.help.text"
@@ -22822,47 +23025,57 @@ msgid ""
 "<link href=\"text/scalc/01/04060103.xhp\" name=\"Back to Financial Functions "
 "Part One\">Back to Financial Functions Part One</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060103.xhp\" name=\"Վերադառնալ ֆինանսական "
+"գործառույթներ Մաս Առաջին\">Վերադառնալ ֆինանսական գործառույթներ Մաս "
+"Առաջին</link>"
 
 #: 04060118.xhp%23par_id3153163.315.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060119.xhp\" name=\"Back to Financial Functions "
 "Part Two\">Back to Financial Functions Part Two</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060119.xhp\" name=\"Վերադառնալ ֆինանսական "
+"գործառույթներ Մաս Երկրորդ\">Վերադառնալ ֆինանսական գործառույթներ Մաս "
+"Երկրորդ</link>"
 
 #: 02200000.xhp%23tit.help.text
 msgctxt "02200000.xhp#tit.help.text"
 msgid "Sheet"
-msgstr ""
+msgstr "Թերթ"
 
 #: 02200000.xhp%23hd_id3146794.1.help.text
 msgid "<link href=\"text/scalc/01/02200000.xhp\" name=\"Sheet\">Sheet</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/02200000.xhp\" name=\"Թերթ\">Թերթ</link>"
 
 #: 02200000.xhp%23par_id3149456.2.help.text
 msgid "<ahelp hid=\".\">Edit commands for entire sheets.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Խմբագրեք հրամաններ ամբողջ թերթերի համար:</ahelp>"
 
 #: 02200000.xhp%23hd_id3150792.3.help.text
 msgid ""
 "<link href=\"text/scalc/01/02180000.xhp\" name=\"Move/Copy\">Move/Copy</link>"
 msgstr ""
+"<link href=\"text/scalc/01/02180000.xhp\" name=\"Տեղափոխել/Պատճենել\""
+">Տեղափոխել/Պատճենել</link>"
 
 #: 02200000.xhp%23hd_id3153968.4.help.text
 msgid "<link href=\"text/scalc/01/02210000.xhp\" name=\"Select\">Select</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/02210000.xhp\" name=\"Ընտրել\">Ընտրել</link>"
 
 #: 02200000.xhp%23hd_id3163708.5.help.text
 msgid "<link href=\"text/scalc/01/02170000.xhp\" name=\"Delete\">Delete</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/02170000.xhp\" name=\"Ջնջել\">Ջնջել</link>"
 
 #: 02200000.xhp%23hd_id3163733308.help.text
 msgid ""
 "<link href=\"text/shared/01/06140500.xhp\" name=\"Events\">Events</link>"
 msgstr ""
+"<link href=\"text/shared/01/06140500.xhp\" name=\"Իրադարձություններ\""
+">Իրադարձություններ</link>"
 
 #: 06080000.xhp%23tit.help.text
 msgid "Recalculate"
-msgstr ""
+msgstr "Վերհաշվարկ"
 
 #: 06080000.xhp%23bm_id3157909.help.text
 msgid ""
@@ -22871,12 +23084,18 @@ msgid ""
 "manually</bookmark_value><bookmark_value>cell contents; "
 "recalculating</bookmark_value>"
 msgstr ""
+"<bookmark_value>recalculating;all formulas in "
+"sheets</bookmark_value><bookmark_value>formulas; recalculating "
+"manually</bookmark_value><bookmark_value>cell contents; "
+"recalculating</bookmark_value>"
 
 #: 06080000.xhp%23hd_id3157909.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06080000.xhp\" name=\"Recalculate\""
 ">Recalculate</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06080000.xhp\" name=\"Վերահաշվարկել\""
+">Վերահաշվարկել</link>"
 
 #: 06080000.xhp%23par_id3154758.2.help.text
 msgid ""
@@ -22884,6 +23103,9 @@ msgid ""
 "AutoCalculate is enabled, the Recalculate command applies only to formulas "
 "like RAND or NOW.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:Calculate\">Վերահաշվարկում է բոլոր փոխված բանաձևերը: Եթե "
+"AutoCalculate -ը միացված է, Վերահաշվարկի հրամանը կիրառվում է միայն այն "
+"բանաձևերի վրա, ինչպիսիք են RAND կամ NOW:</ahelp>"
 
 #: 06080000.xhp%23par_id315475899.help.text
 msgid ""
@@ -22892,12 +23114,18 @@ msgid ""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9 "
 "to recalculate all formulas in the document."
 msgstr ""
+"Սեղմեք F9 վերահաշվարկելու համար։ Սեղմեք Shift+<switchinline select=\"sys\"><"
+"caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9 "
+"փաստաթղթում առկա բանաձևերը վերահաշվարկելու համար։"
 
 #: 06080000.xhp%23par_id3150793.5.help.text
 msgid ""
 "After the document has been recalculated, the display is refreshed. All "
 "charts are also refreshed."
 msgstr ""
+"Փաստաթղթի վերահաշվարկից հետո պաստառը թարմացվում է: Բոլոր գծապատկերները "
+"նույնպես թարմացվում են:"
 
 #: 06080000.xhp%23par_id315475855.help.text
 msgid ""
@@ -22907,20 +23135,27 @@ msgid ""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9 "
 "to recalculate all formulas, including the Add-In functions."
 msgstr ""
+"Add-In գործառույթները, ինչպիսիք են RANDBETWEEN ներկայումս չեն կարող "
+"պատասխանել Վերահաշվարկի հրամանին կամ F9. Սեղմեք Shift+<switchinline select=\""
+"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9 "
+"վերահաշվարկելու համար բոլոր բանաձևերը, ներառյալ Add-In գործառույթները:"
 
 #: func_now.xhp%23tit.help.text
 msgid "NOW"
-msgstr ""
+msgstr "NOW"
 
 #: func_now.xhp%23bm_id3150521.help.text
 msgid "<bookmark_value>NOW function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>NOW function</bookmark_value>"
 
 #: func_now.xhp%23hd_id3150521.47.help.text
 msgid ""
 "<variable id=\"now\"><link href=\"text/scalc/01/func_now.xhp\""
 ">NOW</link></variable>"
 msgstr ""
+"<variable id=\"now\"><link href=\"text/scalc/01/func_now.xhp\""
+">NOW</link></variable>"
 
 #: func_now.xhp%23par_id3148829.48.help.text
 msgid ""
@@ -22928,35 +23163,40 @@ msgid ""
 "time.</ahelp> The value is updated when you recalculate the document or each "
 "time a cell value is modified."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_JETZT\">Վերադարձնում է համակարգչային համակարգի "
+"ամսաթիվը և ժամը:</ahelp> Արժեքը թարմացվում է, երբ վերահաշվարկում եք "
+"փաստաթուղթը կամ ամեն անգամ երբ բջջային արժեքը փոփոխվում է:"
 
 #: func_now.xhp%23hd_id3146988.49.help.text
 msgctxt "func_now.xhp#hd_id3146988.49.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_now.xhp%23par_id3154897.50.help.text
 msgid "NOW()"
-msgstr ""
+msgstr "NOW()"
 
 #: func_now.xhp%23par_id4598529.help.text
 msgid "NOW is a function without arguments."
-msgstr ""
+msgstr "NOW գործառույթ է առանց փաստարկների։"
 
 #: func_now.xhp%23hd_id3154205.51.help.text
 msgctxt "func_now.xhp#hd_id3154205.51.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: func_now.xhp%23par_id3150774.52.help.text
 msgid ""
 "<item type=\"input\">=NOW()-A1</item> returns the difference between the "
 "date in A1 and now. Format the result as a number."
 msgstr ""
+"<item type=\"input\">=NOW()-A1</item> վերադարձնում է ամսաթվի տարբերությունը "
+"A1 -ում և այժմ: Ստեղծեք արդյունքը որպես թիվ:"
 
 #: 02160000.xhp%23tit.help.text
 msgctxt "02160000.xhp#tit.help.text"
 msgid "Delete Cells"
-msgstr ""
+msgstr "Ջնջել նիշքերը"
 
 #: 02160000.xhp%23bm_id3153726.help.text
 msgid ""
@@ -22967,11 +23207,16 @@ msgid ""
 "cells</bookmark_value><bookmark_value>deleting;cells/rows/"
 "columns</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; deleting "
+"cells</bookmark_value><bookmark_value>columns; "
+"deleting</bookmark_value><bookmark_value>rows; "
+"deleting</bookmark_value><bookmark_value>spreadsheets; deleting cells</bookma"
+"rk_value><bookmark_value>deleting;cells/rows/columns</bookmark_value>"
 
 #: 02160000.xhp%23hd_id3153726.1.help.text
 msgctxt "02160000.xhp#hd_id3153726.1.help.text"
 msgid "Delete Cells"
-msgstr ""
+msgstr "Ջնջել նիշքերը"
 
 #: 02160000.xhp%23par_id3154490.2.help.text
 msgid ""
@@ -22981,67 +23226,84 @@ msgid ""
 "that the selected delete option is stored and reloaded when the dialog is "
 "next called."
 msgstr ""
+"<variable id=\"zellenloeschentext\"><ahelp hid=\".uno:DeleteCell\">Լիովին "
+"ջնջում է ընտրված բջիջները, սյունակները կամ տողերը: Ստորին բջիջները կամ աջ "
+"կողմում գտնվող ջնջված բջիջները կլցնեն տարածությունը:</ahelp></variable> "
+"Նկատի ունեցեք, որ ընտրված ջնջման տարբերակը պահվում և վերաբեռնվում է, երբ "
+"հաջորդիվ կանչվում է երկխոսությունը:"
 
 #: 02160000.xhp%23hd_id3149121.3.help.text
 msgctxt "02160000.xhp#hd_id3149121.3.help.text"
 msgid "Selection"
-msgstr ""
+msgstr "Ընտրություն"
 
 #: 02160000.xhp%23par_id3150751.4.help.text
 msgid ""
 "This area contains options for specifying how sheets are displayed after "
 "deleting cells."
 msgstr ""
+"Այս տարածքը պարունակում է ընտրանքներ, նշելու, թե ինչպես են ցուցադրվում "
+"թերթերը բջիջները ջնջելուց հետո:"
 
 #: 02160000.xhp%23hd_id3155767.5.help.text
 msgid "Shift cells up"
-msgstr ""
+msgstr "Շեղեք բջիջները վեր"
 
 #: 02160000.xhp%23par_id3153714.6.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_DELCELL:BTN_CELLSUP\">Fills the space "
 "produced by the deleted cells with the cells underneath it.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_DELCELL:BTN_CELLSUP\">Ջնջված բջիջների "
+"կողմից տարածքը լրացվում է դրա տակ գտնվող բջիջներով:</ahelp>"
 
 #: 02160000.xhp%23hd_id3156382.7.help.text
 msgid "Shift cells left"
-msgstr ""
+msgstr "Շեղեք բջիջները ձախ"
 
 #: 02160000.xhp%23par_id3154702.8.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_DELCELL:BTN_CELLSLEFT\">Fills the "
 "resulting space by the cells to the right of the deleted cells.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_DELCELL:BTN_CELLSLEFT\">Լցնում է "
+"արդյունարար տարածքը ջնջված բջիջների աջ կողմի բջիջներով։</ahelp>"
 
 #: 02160000.xhp%23hd_id3146918.9.help.text
 msgid "Delete entire row(s)"
-msgstr ""
+msgstr "Ջնջել ամբողջ տող(եր)ը"
 
 #: 02160000.xhp%23par_id3148487.10.help.text
 msgid ""
 "<ahelp hid=\".uno:DeleteRows\">After selecting at least one cell, deletes "
 "the entire row from the sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeleteRows\">Առնվազն մեկ բջիջ ընտրելուց հետո թերթից "
+"ջնջվում է ամբողջ տողը:</ahelp>"
 
 #: 02160000.xhp%23hd_id3155114.11.help.text
 msgid "Delete entire column(s)"
-msgstr ""
+msgstr "Ջնջել ամբողջ սյունակ(ներ)ը"
 
 #: 02160000.xhp%23par_id3150086.12.help.text
 msgid ""
 "<ahelp hid=\".uno:DeleteColumns\">After selecting at least one cell, deletes "
 "the entire column from the sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeleteColumns\">Առնվազն մեկ բջիջ ընտրելուց հետո թերթից "
+"ջնջում է ամբողջ սյունակը:</ahelp>"
 
 #: 02160000.xhp%23par_id3166424.help.text
 msgid ""
 "<link href=\"text/scalc/01/02150000.xhp\" name=\"Deleting Contents\">"
 "Deleting Contents</link>"
 msgstr ""
+"<link href=\"text/scalc/01/02150000.xhp\" name=\"Բովանդակության ջնջում\">"
+"Բովանդակության ջնջում</link>"
 
 #: 06030900.xhp%23tit.help.text
 msgid "Refresh Traces"
-msgstr ""
+msgstr "Թարմացնել հետքերը"
 
 #: 06030900.xhp%23bm_id3152349.help.text
 msgid ""
@@ -23049,78 +23311,95 @@ msgid ""
 "traces</bookmark_value><bookmark_value>traces; "
 "refreshing</bookmark_value><bookmark_value>updating;traces</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; refreshing "
+"traces</bookmark_value><bookmark_value>traces; "
+"refreshing</bookmark_value><bookmark_value>updating;traces</bookmark_value>"
 
 #: 06030900.xhp%23hd_id3152349.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06030900.xhp\" name=\"Refresh Traces\">Refresh "
 "Traces</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06030900.xhp\" name=\"Թարմացրեք հետքերը\">"
+"Թարմացրեք հետքերը</link>"
 
 #: 06030900.xhp%23par_id3148947.2.help.text
 msgid ""
 "<ahelp hid=\".uno:RefreshArrows\">Redraws all traces in the sheet. Formulas "
 "modified when traces are redrawn are taken into account.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:RefreshArrows\">Վերափոխում է թերթի բոլոր հետքերը: Հաշվի են "
+"առնվում հետքերը վերափոխելիս փոփոխված բանաձևերը:</ahelp>"
 
 #: 06030900.xhp%23par_id3148798.3.help.text
 msgid ""
 "Detective arrows in the document are updated under the following "
 "circumstances:"
-msgstr ""
+msgstr "Փաստաթղթում դետեկտիվ սլաքները թարմացվում են հետևյալ հանգամանքներում."
 
 #: 06030900.xhp%23par_id3153192.4.help.text
 msgid "Starting <emph>Tools - Detective - Update Refresh Traces</emph>"
-msgstr ""
+msgstr "Սկսում է <emph>Գործիքներ - Դետեկտիվ - Թարմացրեք հետքերը</emph>"
 
 #: 06030900.xhp%23par_id3151041.5.help.text
 msgid ""
 "If <emph>Tools - Detective - Update Automatically</emph> is turned on, every "
 "time formulas are changed in the document."
 msgstr ""
+"Եթե <emph>Գործիքներ - Դետեկտիվ - Ավտոմատ թարմացվում է </emph> միացված է, "
+"փաստաթղթում ամեն անգամ բանաձևերի փոփոխվում են։"
 
 #: format_graphic.xhp%23tit.help.text
 msgid "Graphic"
-msgstr ""
+msgstr "Գրաֆիկա "
 
 #: format_graphic.xhp%23par_idN10548.help.text
 msgid "<link href=\"text/scalc/01/format_graphic.xhp\">Graphic</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/format_graphic.xhp\">Գրաֆիկա </link>"
 
 #: format_graphic.xhp%23par_idN10558.help.text
 msgid ""
 "<ahelp hid=\".\">Opens a submenu to edit the properties of the selected "
 "object.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Բացում է ենթաընտրացանկ, ընտրված օբյեկտի հատկությունները "
+"խմբագրելու համար:</ahelp>"
 
 #: format_graphic.xhp%23par_id1650440.help.text
 msgid ""
 "<link href=\"text/shared/01/05990000.xhp\">Define Text Attributes</link>"
 msgstr ""
+"<link href=\"text/shared/01/05990000.xhp\">Սահմանեք տեքստի "
+"հատկությունները</link>"
 
 #: format_graphic.xhp%23par_id363475.help.text
 msgid ""
 "Sets the layout and anchoring properties for text in the selected drawing or "
 "text object."
 msgstr ""
+"Ընտրված գծապատկերում կամ տեքստի օբյեկտում տեքստի դասավորության և խարիսխի "
+"հատկությունների կարգաբերում։"
 
 #: format_graphic.xhp%23par_id9746696.help.text
 msgid "Points"
-msgstr ""
+msgstr "Կետեր"
 
 #: format_graphic.xhp%23par_id2480544.help.text
 msgid ""
 "<ahelp hid=\".\">Switches <emph>Edit Points</emph> mode for an inserted "
 "freeform line on and off.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Անջատիչներ <emph>Խմբագրեք կետերը</emph> ռեժիմ, ներդրված "
+"ազատ ձևի գծի միացման և անջատման համար:</ahelp>"
 
 #: 05030000.xhp%23tit.help.text
 msgctxt "05030000.xhp#tit.help.text"
 msgid "Row"
-msgstr ""
+msgstr "Տող"
 
 #: 05030000.xhp%23hd_id3147228.1.help.text
 msgid "<link href=\"text/scalc/01/05030000.xhp\" name=\"Row\">Row</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/05030000.xhp\" name=\"Տող\">Տող</link>"
 
 #: 05030000.xhp%23par_id3154685.2.help.text
 msgid ""
