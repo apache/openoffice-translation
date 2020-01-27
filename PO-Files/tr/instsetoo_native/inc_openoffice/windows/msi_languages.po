@@ -7,7 +7,7 @@ msgstr ""
 "nc_openoffice%2Fwindows%2Fmsi_languages.oo&component=l10n&form_name="
 "enter_issue\n"
 "POT-Creation-Date: 2020-01-17 14:38+0200\n"
-"PO-Revision-Date: 2020-01-25 21:29+0000\n"
+"PO-Revision-Date: 2020-01-26 20:02+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1579987742.000000\n"
+"X-POOTLE-MTIME: 1580068951.000000\n"
 
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
 msgid "Installation database"
@@ -74,7 +74,7 @@ msgstr "Bilgi [1]."
 
 #: Error.ulf%23OOO_ERROR_5.LngText.text
 msgid "Internal Error [1]. [2]{, [3]}{, [4]}"
-msgstr "Dahili Hata [1]. [2]{, [3]}{, [4]}"
+msgstr "İç Hata [1]. [2]{, [3]}{, [4]}"
 
 #: Error.ulf%23OOO_ERROR_6.LngText.text
 msgid "{{Disk full: }}"
@@ -94,7 +94,7 @@ msgstr "{[2]}{, [3]}{, [4]}"
 
 #: Error.ulf%23OOO_ERROR_10.LngText.text
 msgid "Message type: [1], Argument: [2]"
-msgstr "Mesaj türü: [1], Bağımsız Değişken: [2]"
+msgstr "İleti türü: [1], Bağımsız Değişken: [2]"
 
 #: Error.ulf%23OOO_ERROR_11.LngText.text
 msgid "=== Logging started: [Date]  [Time] ==="
@@ -158,8 +158,8 @@ msgid ""
 "Error reading from file: [2]. {{ System error [3].}}  Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Şu dosyadan okunurken hata: [2]. {{ Sistem hatası [3].}}  Dosyanın mevcut "
-"olduğunu ve erişebildiğinizi doğrulayın."
+"Şu dosyadan okunurken hata oldu: [2]. {{ Sistem hatası [3].}}  Dosyanın "
+"mevcut olduğunu ve erişebildiğinizi doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_26.LngText.text
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 msgid ""
 "Error writing to file [2]. Verify that you have access to that directory."
 msgstr ""
-"[2] dosyasına yazarken bir hata oldu. Bu dizine erişime sahip olduğunuzu "
+"[2] dosyasına yazarken hata oldu. Bu dizine erişime sahip olduğunuzu "
 "doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_30.LngText.text
@@ -194,8 +194,8 @@ msgid ""
 "Error reading from file [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
-"[2] dosyasından okurken bir hata oldu. Dosyanın var olduğunu ve "
-"erişebildiğinizi doğrulayın."
+"[2] dosyasından okurken hata oldu. Dosyanın var olduğunu ve erişebildiğinizi "
+"doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_31.LngText.text
 msgid ""
@@ -226,7 +226,7 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
-"Şu dosyadan okunurken hata: [3]. {{ Sistem hatası [2].}} Dosyanın var "
+"Şu dosyadan okunurken hata oldu: [3]. {{ Sistem hatası [2].}} Dosyanın var "
 "olduğunu ve dosyaya erişebildiğinizi doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_35.LngText.text
@@ -234,7 +234,7 @@ msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that directory."
 msgstr ""
-"Şu dosyaya yazılırken hata: [3]. {{ Sistem hatası [2].}} Dosyanın var "
+"Şu dosyaya yazılırken hata oldu: [3]. {{ Sistem hatası [2].}} Dosyanın var "
 "olduğunu ve dosyaya erişebildiğinizi doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_36.LngText.text
@@ -311,7 +311,7 @@ msgstr "[2] geçerli bir kısa dosya adı değil."
 
 #: Error.ulf%23OOO_ERROR_51.LngText.text
 msgid "Error getting file security: [3] GetLastError: [2]"
-msgstr "Dosya güvenliği alınırken hata: [3] AlınanSonHata: [2]"
+msgstr "Dosya güvenliği sağlanırken hata oldu: [3] AlınanSonHata: [2]"
 
 #: Error.ulf%23OOO_ERROR_52.LngText.text
 msgid "Invalid Drive: [2]"
@@ -323,54 +323,78 @@ msgid ""
 "means, and can no longer be modified by this patch.  For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
+"[2] dosyasına yama uygulanırken hata oldu. Muhtemelen başka yollarla "
+"güncelleştirildi ve artık bu yama tarafından değiştirilemez.  Daha fazla "
+"bilgi için yama satıcınıza başvurun. {{Sistem Hatası: [3]}}"
 
 #: Error.ulf%23OOO_ERROR_54.LngText.text
 msgid ""
 "Could not create key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[2] anahtarı oluşturamadı. {{ Sistem hatası [3].}} Bu anahtara yeterli "
+"erişime sahip olduğunuzu doğrulayın ya da destek personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_55.LngText.text
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[2] anahtarı açılamadı. {{ Sistem hatası [3].}} Bu anahtara yeterli erişime "
+"sahip olduğunuzu doğrulayın ya da destek personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_56.LngText.text
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[3] anahtarından [2] değeri silinemedi. {{ Sistem hatası [4].}} Bu anahtara "
+"yeterli erişime sahip olduğunuzu doğrulayın ya da destek personelinize "
+"başvurun."
 
 #: Error.ulf%23OOO_ERROR_57.LngText.text
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[2] anahtarı silinemedi. {{ Sistem hatası [3].}} Bu anahtara yeterli erişime "
+"sahip olduğunuzu doğrulayın ya da destek personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_58.LngText.text
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[3] anahtarından [2] değeri okunamadı. {{ Sistem hatası [4].}} Bu anahtara "
+"yeterli erişime sahip olduğunuzu doğrulayın ya da destek personelinize "
+"başvurun."
 
 #: Error.ulf%23OOO_ERROR_59.LngText.text
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[3] anahtarına [2] değeri yazılamadı. {{ Sistem hatası [4].}} Bu anahtara "
+"yeterli erişime sahip olduğunuzu doğrulayın ya da destek personelinize "
+"başvurun."
 
 #: Error.ulf%23OOO_ERROR_60.LngText.text
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[2] anahtarı için değer adları alınamadı. {{ Sistem hatası [3].}} Bu "
+"anahtara yeterli erişime sahip olduğunuzu doğrulayın ya da destek "
+"personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_61.LngText.text
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"[2] anahtarı için alt anahtar adları alınamadı. {{ Sistem hatası [3].}} Bu "
+"anahtara yeterli erişime sahip olduğunuzu doğrulayın ya da destek "
+"personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_62.LngText.text
 msgid ""
@@ -378,6 +402,9 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
+"[2] anahtarı için güvenlik bilgileri okunamadı. {{ Sistem hatası [3].}} Bu "
+"anahtara yeterli erişime sahip olduğunuzu doğrulayın ya da destek "
+"personelinize başvurun."
 
 #: Error.ulf%23OOO_ERROR_63.LngText.text
 msgid ""
