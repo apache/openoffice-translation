@@ -7,7 +7,7 @@ msgstr ""
 "nc_openoffice%2Fwindows%2Fmsi_languages.oo&component=l10n&form_name="
 "enter_issue\n"
 "POT-Creation-Date: 2020-01-17 14:38+0200\n"
-"PO-Revision-Date: 2020-01-30 19:06+0000\n"
+"PO-Revision-Date: 2020-01-31 20:26+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1580411192.000000\n"
+"X-POOTLE-MTIME: 1580502402.000000\n"
 
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
 msgid "Installation database"
@@ -700,6 +700,9 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
+"[2] yazı tipi kaydı yapılamadı. Yazı tiplerini yüklemek için yeterli "
+"izinlere sahip olduğunuzu ve sistemin bu yazı tipini desteklediğini "
+"doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_104.LngText.text
 msgid ""
@@ -729,24 +732,32 @@ msgstr ""
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
 msgstr ""
+"[2] dosyası için tür kütüphanesi kaydı yapılamadı. Destek personelinizle "
+"iletişime geçin."
 
 #: Error.ulf%23OOO_ERROR_108.LngText.text
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
 msgstr ""
+"[2] dosyası için tür kütüphanesi kaydı kaldırılamadı. Destek personelinizle "
+"iletişime geçin."
 
 #: Error.ulf%23OOO_ERROR_109.LngText.text
 msgid ""
 "Could not update the INI file [2][3]. Verify that the file exists and that "
 "you can access it."
 msgstr ""
+"[2][3] INI dosyası güncellenemedi. Dosyanın var olduğunu ve dosyaya "
+"erişebileceğinizi doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_110.LngText.text
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
+"Yeniden başlatmada [3] dosyasını değiştirmek için [2] dosyası zamanlanamadı. "
+"[3] dosyasına yazma izinlerinizin olduğunu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_111.LngText.text
 msgid ""
@@ -793,30 +804,40 @@ msgid ""
 "Service [2] ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
 msgstr ""
+"[2] hizmetini ([3]) başlatma başarısız oldu. Sistem hizmetlerini başlatmak "
+"için yeterli yetkilere sahip olduğunuzu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_117.LngText.text
 msgid ""
 "Service [2] ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
 msgstr ""
+"[2] hizmeti ([3]) durdurulamadı. Sistem hizmetlerini durdurmak için yeterli "
+"yetkilere sahip olduğunuzu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_118.LngText.text
 msgid ""
 "Service [2] ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
 msgstr ""
+"[2] hizmeti ([3]) silinemedi. Sistem hizmetlerini kaldırmak için yeterli "
+"yetkilere sahip olduğunuzu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_119.LngText.text
 msgid ""
 "Service [2] ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
 msgstr ""
+"[2] hizmeti ([3]) yüklenemedi. Sistem hizmetlerini yüklemek için yeterli "
+"yetkilere sahip olduğunuzu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_120.LngText.text
 msgid ""
 "Could not update environment variable [2]. Verify that you have sufficient "
 "privileges to modify environment variables."
 msgstr ""
+"[2] ortam değişkeni güncellenemedi. Ortam değişkenlerini değiştirmek için "
+"yeterli yetkilere sahip olduğunuzu doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_121.LngText.text
 msgid ""
@@ -824,12 +845,18 @@ msgid ""
 "users of the machine. Log on as an administrator and then retry this "
 "installation."
 msgstr ""
+"Makinenin tüm kullanıcıları için bu kurulumu tamamlamada yeterli yetkilere "
+"sahip değilsiniz. Yönetici olarak oturum açın ve ardından bu kurulumu "
+"yeniden deneyin."
 
 #: Error.ulf%23OOO_ERROR_122.LngText.text
 msgid ""
 "Could not set file security for file [3]. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
+"[3] dosyası için dosya güvenliği ayarlanamadı. Hata: [2]. Bu dosyanın "
+"güvenlik izinlerini değiştirmek için yeterli yetkilere sahip olduğunuzu "
+"doğrulayın."
 
 #: Error.ulf%23OOO_ERROR_123.LngText.text
 msgid ""
@@ -837,18 +864,25 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
+"Bileşen Hizmetleri (COM+ 1.0) bu bilgisayarda yüklü değil. Bu kurulumun "
+"başarılı olarak tamamlanması için Bileşen Hizmetleri gerekir. Bileşen "
+"Hizmetleri Windows 2000'de mevcuttur."
 
 #: Error.ulf%23OOO_ERROR_124.LngText.text
 msgid ""
 "Error registering COM+ application. Contact your support personnel for more "
 "information."
 msgstr ""
+"COM+ uygulaması kaydı yapılırken hata oldu. Daha fazla bilgi için destek "
+"personelinizle iletişime geçin."
 
 #: Error.ulf%23OOO_ERROR_125.LngText.text
 msgid ""
 "Error unregistering COM+ application. Contact your support personnel for "
 "more information."
 msgstr ""
+"COM+ uygulaması kaydı kaldırılırken hata oldu. Daha fazla bilgi için destek "
+"personelinizle iletişime geçin."
 
 #: Error.ulf%23OOO_ERROR_126.LngText.text
 msgid "The description for service '[2]' ([3]) could not be changed."
@@ -861,6 +895,10 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"Windows Yükleyici hizmeti, dosya Windows tarafından korunduğundan [2] sistem "
+"dosyasını güncelleyemiyor. Bu programın düzgün bir şekilde çalışması için "
+"işletim sisteminizi güncellemeniz gerekebilir. {{Paket sürümü: [3], İS "
+"Korumalı sürümü: [4]}}"
 
 #: Error.ulf%23OOO_ERROR_128.LngText.text
 msgid ""
@@ -1848,6 +1886,8 @@ msgid ""
 "Are you sure you want to quit the %PRODUCTNAME %PRODUCTVERSION Installation "
 "Preparation?"
 msgstr ""
+"%PRODUCTNAME %PRODUCTVERSION Kurulum Hazırlığından çıkmak istediğinize emin "
+"misiniz?"
 
 #: Control.ulf%23OOO_CONTROL_3.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_3.LngText.text"
