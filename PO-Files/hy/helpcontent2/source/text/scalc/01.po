@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-01 12:54+0000\n"
+"PO-Revision-Date: 2020-02-02 11:21+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1580561680.000000\n"
+"X-POOTLE-MTIME: 1580642510.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -29419,10 +29419,13 @@ msgid ""
 "age at Joe's birthday party (scroll up, please), enter the following formula "
 "in B16:"
 msgstr ""
+"Ջոեի ծննդյան երեկույթի ընթացքում նույն տարիքի բոլոր երեխաների քաշի ստանդարտ "
+"շեղումը գտնելու համար (ոլորեք վերև, խնդրում ենք), B16- ում մուտքագրեք "
+"հետևյալ բանաձևը."
 
 #: 04060101.xhp%23par_id3148411.159.help.text
 msgid "<item type=\"input\">=DSTDEVP(A1:E10;\"Weight\";A13:E14)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=DSTDEVP(A1:E10;\"Քաշ\";A13:E14)</item>"
 
 #: 04060101.xhp%23par_id3143271.160.help.text
 msgid ""
@@ -29430,6 +29433,9 @@ msgid ""
 "one after the other. The result is the standard deviation of the weight for "
 "all same-aged children whose weight was checked."
 msgstr ""
+"14 -րդ տողում, Տարիքի ներքո, մուտքագրեք <item type=\"input\">7, 8, 9,</item> "
+"և այպես շարունակ, մեկը մյուսի հետևից։ Արդյունքը քաշի ստանդարտ շեղումն է "
+"բոլոր նույն տարիքի երեխաների համար, որոնց քաշը ստուգվել է:"
 
 #: 04060101.xhp%23bm_id3154794.help.text
 msgid ""
@@ -29437,10 +29443,13 @@ msgid ""
 "<bookmark_value>calculating;sums in Calc databases</bookmark_value>         "
 "<bookmark_value>sums;cells in Calc databases</bookmark_value>"
 msgstr ""
+"<bookmark_value>DSUM function</bookmark_value>         "
+"<bookmark_value>calculating;sums in Calc databases</bookmark_value>         "
+"<bookmark_value>sums;cells in Calc databases</bookmark_value>"
 
 #: 04060101.xhp%23hd_id3154794.161.help.text
 msgid "DSUM"
-msgstr ""
+msgstr "DSUM"
 
 #: 04060101.xhp%23par_id3149591.162.help.text
 msgid ""
@@ -29448,20 +29457,23 @@ msgid ""
 "database field in all rows (records) that match the specified search "
 "criteria.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM վերադարձնում է տվյալների շտեմարանի "
+"բոլոր բջիջների գումարը բոլոր տողերում (գրառումներում), որոնք համապատասխանում "
+"են որոնման նշված չափանիշներին:</ahelp>"
 
 #: 04060101.xhp%23hd_id3146128.163.help.text
 msgctxt "04060101.xhp#hd_id3146128.163.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060101.xhp%23par_id3150989.164.help.text
 msgid "DSUM(Database; DatabaseField; SearchCriteria)"
-msgstr ""
+msgstr "DSUM(Database; DatabaseField; SearchCriteria)"
 
 #: 04060101.xhp%23hd_id3159079.165.help.text
 msgctxt "04060101.xhp#hd_id3159079.165.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060101.xhp%23par_id3152766.166.help.text
 msgid ""
@@ -29469,11 +29481,16 @@ msgid ""
 "Joe's birthday party (scroll up, please) who are in second grade, enter the "
 "following formula in B16:"
 msgstr ""
+"Ջոեի ծննդյան երեկույթին երկրորդ դասարանի բոլոր երեխաների դպրոցին համակցված "
+"հեռավորությունը դեպի դպրոց գտնելու համար (շարժվել վերև, խնդրում եմ), B16 -"
+"ում մուտքագրեք հետևյալ բանաձևը."
 
 #: 04060101.xhp%23par_id3151312.167.help.text
 msgid ""
 "<item type=\"input\">=DSUM(A1:E10;\"Distance to School\";A13:E14)</item>"
 msgstr ""
+"<item type=\"input\">=DSUM(A1:E10;\"Հեռավորությունը դեպի դպրոց\""
+";A13:E14)</item>"
 
 #: 04060101.xhp%23par_id3150596.168.help.text
 msgid ""
@@ -29481,16 +29498,21 @@ msgid ""
 "the distances to school of all the children who are in second grade is "
 "displayed."
 msgstr ""
+"Մուտքագրեք <item type=\"input\">2</item> տող 14 -ում, Դասարանի ներքո։ "
+"Ցուցադրվում է երկրորդ դասարանցի բոլոր երեխաների համար դեպի դպրոց "
+"հեռավորությունների գումարը (1950):"
 
 #: 04060101.xhp%23bm_id3155614.help.text
 msgid ""
 "<bookmark_value>DVAR function</bookmark_value>         "
 "<bookmark_value>variances;based on samples</bookmark_value>"
 msgstr ""
+"<bookmark_value>DVAR function</bookmark_value>         "
+"<bookmark_value>variances;based on samples</bookmark_value>"
 
 #: 04060101.xhp%23hd_id3155614.170.help.text
 msgid "DVAR"
-msgstr ""
+msgstr "DVAR"
 
 #: 04060101.xhp%23par_id3154418.171.help.text
 msgid ""
@@ -29500,30 +29522,37 @@ msgid ""
 "data. A representative result cannot be obtained from a sample population of "
 "less than one thousand."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR -ը վերադարձնում է շտեմարանի դաշտի "
+"բոլոր բջիջների դիսպերսիան ըստ բոլոր փնտրումների, որոնք համապատասխանում են "
+"որոնման նշված չափանիշներին:</ahelp> Բերված օրինակի գրառումները վերաբերվում "
+"են որպես տվյալների նմուշներ։ Ներկայացուցչական արդյունքը հնարավոր չէ ձեռք "
+"բերել հազարից պակաս բնակչության դեպքում:"
 
 #: 04060101.xhp%23hd_id3154825.172.help.text
 msgctxt "04060101.xhp#hd_id3154825.172.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060101.xhp%23par_id3156138.173.help.text
 msgid "DVAR(Database; DatabaseField; SearchCriteria)"
-msgstr ""
+msgstr "DVAR(Database; DatabaseField; SearchCriteria)"
 
 #: 04060101.xhp%23hd_id3151257.174.help.text
 msgctxt "04060101.xhp#hd_id3151257.174.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060101.xhp%23par_id3153701.175.help.text
 msgid ""
 "To find the variance of the weight of all children of the same age of the "
 "above example (scroll up, please), enter the following formula in B16:"
 msgstr ""
+"Վերոնշյալ օրինակում նույն տարիքի բոլոր երեխաների քաշի դիսպերսիան գտնելու "
+"համար (ոլորեք վերև, խնդրում ենք), B16-ում մուտքագրեք հետևյալ բանաձևը."
 
 #: 04060101.xhp%23par_id3153676.176.help.text
 msgid "<item type=\"input\">=DVAR(A1:E10;\"Weight\";A13:E14)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=DVAR(A1:E10;\"Քաշ\";A13:E14)</item>"
 
 #: 04060101.xhp%23par_id3153798.177.help.text
 msgid ""
@@ -29531,16 +29560,21 @@ msgid ""
 "one after the other. You will see as a result the variance of the weight "
 "values for all children of this age."
 msgstr ""
+"14-րդ տողում, Տարիքի ներքո, մուտքահգրեք <item type=\"input\">7, 8, 9,</item> "
+"և այսպես, մեկը մյուսի հետևից։ Որպես արդյունք կտեսնեք քաշի արժեքների "
+"դիսպերսիան այս տարիքի բոլոր երեխաների համար:"
 
 #: 04060101.xhp%23bm_id3153880.help.text
 msgid ""
 "<bookmark_value>DVARP function</bookmark_value>         "
 "<bookmark_value>variances;based on populations</bookmark_value>"
 msgstr ""
+"<bookmark_value>DVARP function</bookmark_value>         "
+"<bookmark_value>variances;based on populations</bookmark_value>"
 
 #: 04060101.xhp%23hd_id3153880.178.help.text
 msgid "DVARP"
-msgstr ""
+msgstr "DVARP"
 
 #: 04060101.xhp%23par_id3155119.179.help.text
 msgid ""
@@ -29549,30 +29583,37 @@ msgid ""
 "search criteria.</ahelp> The records are from the example are treated as an "
 "entire population."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DBVARIANZEN\">DVARP - հաշվում է շտեմարանի դաշտի բոլոր "
+"բջջային արժեքների դիսպերսիան բոլոր փնտրումներում, որոնք համապատասխանում են "
+"որոնման նշված չափանիշներին:</ahelp> Օրինակի գրառումները ընկալվում են որպես "
+"ամբողջ ընտրանք:"
 
 #: 04060101.xhp%23hd_id3145774.180.help.text
 msgctxt "04060101.xhp#hd_id3145774.180.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060101.xhp%23par_id3153776.181.help.text
 msgid "DVARP(Database; DatabaseField; SearchCriteria)"
-msgstr ""
+msgstr "DVARP(Database; DatabaseField; SearchCriteria)"
 
 #: 04060101.xhp%23hd_id3151110.182.help.text
 msgctxt "04060101.xhp#hd_id3151110.182.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060101.xhp%23par_id3147099.183.help.text
 msgid ""
 "To find the variance of the weight for all children of the same age at Joe's "
 "birthday party (scroll up, please), enter the following formula in B16:"
 msgstr ""
+"Ջոեի ծննդյան երեկույթի ընթացքում նույն տարիքի բոլոր երեխաների քաշի "
+"դիսպերսիան գտնելու համար (պտտվելով վեր, խնդրում եմ), B16- ում մուտքագրեք "
+"հետևյալ բանաձևը."
 
 #: 04060101.xhp%23par_id3147322.184.help.text
 msgid "<item type=\"input\">=DVARP(A1:E10;\"Weight\";A13:E14)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=DVARP(A1:E10;\"Քաշ\";A13:E14)</item>"
 
 #: 04060101.xhp%23par_id3146902.185.help.text
 msgid ""
@@ -29580,10 +29621,13 @@ msgid ""
 "one after the other. The variance of the weight values for all children of "
 "this age attending Joe's birthday party appears."
 msgstr ""
+"14-րդ տողում, Տարիքի ներքո, մուտքագրեք <item type=\"input\">7, 8, 9,</item> "
+"և այսպես, մեկը մյուսի հետևից։ Ջոյի ծննդյան երեկույթին մասնակցող այս տարիքի "
+"բոլոր երեխաների համար քաշի արժեքների դիսպերսիան հայտնվում է:"
 
 #: 12080000.xhp%23tit.help.text
 msgid "Group and Outline"
-msgstr ""
+msgstr "Խումբ և ուրվագիծ"
 
 #: 12080000.xhp%23bm_id3152350.help.text
 msgid ""
@@ -29592,43 +29636,54 @@ msgid ""
 "details</bookmark_value><bookmark_value>showing; sheet "
 "details</bookmark_value><bookmark_value>grouping;cells</bookmark_value>"
 msgstr ""
+"<bookmark_value>sheets; outlines</bookmark_value><bookmark_value>outlines; "
+"sheets</bookmark_value><bookmark_value>hiding; sheet "
+"details</bookmark_value><bookmark_value>showing; sheet "
+"details</bookmark_value><bookmark_value>grouping;cells</bookmark_value>"
 
 #: 12080000.xhp%23hd_id3152350.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12080000.xhp\" name=\"Group and Outline\">Group "
 "and Outline</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080000.xhp\" name=\"Խումբ և ուրվագիծ\">Խումբ և "
+"ուրվագիծ</link>"
 
 #: 12080000.xhp%23par_id3150793.2.help.text
 msgid ""
 "You can create an outline of your data and group rows and columns together "
 "so that you can collapse and expand the groups with a single click."
 msgstr ""
+"Կարող եք ստեղծել տվյալների ուրվագծերը և միասին խմբավորելի շարքերը և "
+"սյունակները այնպես, որ կարողանաք սեղմել և ընդլայնել խմբերը մեկ սեղմումով:"
 
 #: 12080000.xhp%23hd_id3147229.3.help.text
 msgctxt "12080000.xhp#hd_id3147229.3.help.text"
 msgid "<link href=\"text/scalc/01/12080300.xhp\" name=\"Group\">Group</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080300.xhp\" name=\"Խմբավորել\">Խմբավորել</link>"
 
 #: 12080000.xhp%23hd_id3153188.4.help.text
 msgctxt "12080000.xhp#hd_id3153188.4.help.text"
 msgid ""
 "<link href=\"text/scalc/01/12080400.xhp\" name=\"Ungroup\">Ungroup</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080400.xhp\" name=\"Ապախմբավորել\""
+">Ապախմբավորել</link>"
 
 #: 12090105.xhp%23tit.help.text
 msgctxt "12090105.xhp#tit.help.text"
 msgid "Data field"
-msgstr ""
+msgstr "Տվյալի դաշտ"
 
 #: 12090105.xhp%23bm_id7292397.help.text
 msgid "<bookmark_value>calculating;pivot table</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>calculating;pivot table</bookmark_value>"
 
 #: 12090105.xhp%23hd_id3150871.1.help.text
 msgctxt "12090105.xhp#hd_id3150871.1.help.text"
 msgid "Data field"
-msgstr ""
+msgstr "Տվյալի դաշտ"
 
 #: 12090105.xhp%23par_id3154124.16.help.text
 msgid ""
