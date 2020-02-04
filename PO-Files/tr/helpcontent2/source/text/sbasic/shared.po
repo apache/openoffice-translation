@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2020-02-01 09:25+0000\n"
+"PO-Revision-Date: 2020-02-03 21:11+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1580549133.000000\n"
+"X-POOTLE-MTIME: 1580764277.000000\n"
 
 #: 03104300.xhp%23tit.help.text
 msgid "DimArray Function [Runtime]"
@@ -539,16 +539,16 @@ msgstr "Parametreler:"
 
 #: 03090409.xhp%23par_id3150792.10.help.text
 msgid "<emph>Name:</emph> Name of the subroutine."
-msgstr ""
+msgstr "<emph>Name:</emph> Alt yordamın adı."
 
 #: 03090409.xhp%23par_id3154138.11.help.text
 msgid ""
 "<emph>VarName:</emph> Parameter that you want to pass to the subroutine."
-msgstr ""
+msgstr "<emph>VarName:</emph> Alt yordama geçmek istediğiniz parametre."
 
 #: 03090409.xhp%23par_id3154908.12.help.text
 msgid "<emph>Type:</emph> Type-declaration key word."
-msgstr ""
+msgstr "<emph>Type:</emph> Tür bildirme anahtar kelimesi."
 
 #: 03090409.xhp%23hd_id3153770.16.help.text
 msgctxt "03090409.xhp#hd_id3153770.16.help.text"
@@ -558,39 +558,40 @@ msgstr "Örnek:"
 #: 03090409.xhp%23par_id3151113.17.help.text
 msgctxt "03090409.xhp#par_id3151113.17.help.text"
 msgid "Sub Example"
-msgstr ""
+msgstr "Sub Örneği"
 
 #: 03090409.xhp%23par_idN1063F.help.text
 msgid "REM some statements"
-msgstr ""
+msgstr "REM bazı ifadeler"
 
 #: 03090409.xhp%23par_id3154319.19.help.text
-#, fuzzy
 msgctxt "03090409.xhp#par_id3154319.19.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03020409.xhp%23tit.help.text
 msgid "GetAttr Function [Runtime]"
-msgstr "GetAttr Fonksiyonu [Runtime]"
+msgstr "GetAttr İşlevi [Çalışma Zamanı]"
 
 #: 03020409.xhp%23bm_id3150984.help.text
 msgid "<bookmark_value>GetAttr function</bookmark_value>"
-msgstr "<bookmark_value>GetAttr Fonksiyonu</bookmark_value>"
+msgstr "<bookmark_value>GetAttr işlevi</bookmark_value>"
 
 #: 03020409.xhp%23hd_id3150984.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03020409.xhp\" name=\"GetAttr Function "
 "[Runtime]\">GetAttr Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03020409.xhp\" name=\"GetAttr Function "
-"[Runtime]\">GetAttr Fonksiyonu [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03020409.xhp\" name=\"GetAttr İşlevi ["
+"Çalışma Zamanı]\">GetAttr İşlevi [Çalışma Zamanı]</link>"
 
 #: 03020409.xhp%23par_id3154347.2.help.text
 msgid ""
 "Returns a bit pattern that identifies the file type or the name of a volume "
 "or a directory."
 msgstr ""
+"Dosya türünü veya bir birimin veya dizinin adını tanımlayan bir bit deseni "
+"döndürür."
 
 #: 03020409.xhp%23hd_id3149457.3.help.text
 msgctxt "03020409.xhp#hd_id3149457.3.help.text"
@@ -598,9 +599,8 @@ msgid "Syntax:"
 msgstr "Sözdizimi:"
 
 #: 03020409.xhp%23par_id3150359.4.help.text
-#, fuzzy
 msgid "GetAttr (Text As String)"
-msgstr "DIM a As String"
+msgstr "GetAttr (Text As String)"
 
 #: 03020409.xhp%23hd_id3151211.5.help.text
 msgctxt "03020409.xhp#hd_id3151211.5.help.text"
@@ -624,12 +624,18 @@ msgid ""
 "specification. You can also use <link href=\"text/sbasic/shared/00000002."
 "xhp\" name=\"URL notation\">URL notation</link>."
 msgstr ""
+"<emph>Text:</emph> Kesin bir dosya belirtimi içeren herhangi bir dizgi "
+"ifadesi. Ayrıca <link href=\"text/sbasic/shared/00000002.xhp\" name=\"URL "
+"gösterimi\">URL gösterimini</link> de kullanabilirsiniz."
 
 #: 03020409.xhp%23par_id3161831.9.help.text
 msgid ""
 "This function determines the attributes for a specified file and returns the "
 "bit pattern that can help you to identify the following file attributes:"
 msgstr ""
+"Bu işlev, belirtilen bir dosyanın özniteliklerini belirler ve aşağıdaki "
+"dosya özniteliklerini tanımlamanıza yardımcı olabilecek bit desenini "
+"döndürür:"
 
 #: 03020409.xhp%23hd_id3145364.10.help.text
 msgctxt "03020409.xhp#hd_id3145364.10.help.text"
@@ -639,32 +645,34 @@ msgstr "Değer"
 #: 03020409.xhp%23par_id3147349.11.help.text
 msgctxt "03020409.xhp#par_id3147349.11.help.text"
 msgid "0 : Normal files."
-msgstr ""
+msgstr "0 : Normal dosyalar."
 
 #: 03020409.xhp%23par_id3147434.12.help.text
 msgctxt "03020409.xhp#par_id3147434.12.help.text"
 msgid "1 : Read-only files."
-msgstr ""
+msgstr "1 : Salt okunur dosyalar."
 
 #: 03020409.xhp%23par_id3159154.15.help.text
 msgid "8 : Returns the name of the volume"
-msgstr ""
+msgstr "8 : Birimin adını döndürür"
 
 #: 03020409.xhp%23par_id3145271.16.help.text
 msgctxt "03020409.xhp#par_id3145271.16.help.text"
 msgid "16 : Returns the name of the directory only."
-msgstr ""
+msgstr "16 : Sadece dizinin adını döndürür."
 
 #: 03020409.xhp%23par_id3153953.17.help.text
 msgctxt "03020409.xhp#par_id3153953.17.help.text"
 msgid "32 : File was changed since last backup (Archive bit)."
-msgstr ""
+msgstr "32 : Son yedeklemeden bu yana dosya değiştirildi (Arşiv biti)."
 
 #: 03020409.xhp%23par_id3156444.18.help.text
 msgid ""
 "If you want to know if a bit of the attribute byte is set, use the following "
 "query method:"
 msgstr ""
+"Eğer öznitelik bayt'ının bir bit'inin ayarlanıp ayarlanmadığını öğrenmek "
+"istiyorsanız, aşağıdaki sorgu yöntemini kullanın:"
 
 #: 03020409.xhp%23hd_id3153094.19.help.text
 msgctxt "03020409.xhp#hd_id3153094.19.help.text"
@@ -674,17 +682,17 @@ msgstr "Örnek:"
 #: 03020409.xhp%23par_id3154491.20.help.text
 msgctxt "03020409.xhp#par_id3154491.20.help.text"
 msgid "Sub ExampleSetGetAttr"
-msgstr ""
+msgstr "Sub ExampleSetGetAttr"
 
 #: 03020409.xhp%23par_id3155415.21.help.text
 msgctxt "03020409.xhp#par_id3155415.21.help.text"
 msgid "On Error Goto ErrorHandler REM Define target for error-handler"
-msgstr ""
+msgstr "On Error Goto ErrorHandler REM Define target for error-handler"
 
 #: 03020409.xhp%23par_id3154944.22.help.text
 msgctxt "03020409.xhp#par_id3154944.22.help.text"
 msgid "If Dir(\"C:\\test\",16)=\"\" Then MkDir \"C:\\test\""
-msgstr ""
+msgstr "If Dir(\"C:\\test\",16)=\"\" Then MkDir \"C:\\test\""
 
 #: 03020409.xhp%23par_id3151075.23.help.text
 msgctxt "03020409.xhp#par_id3151075.23.help.text"
@@ -692,72 +700,73 @@ msgid ""
 "If Dir(\"C:\\test\\autoexec.sav\")=\"\" THEN Filecopy \"c:\\autoexec.bat\", "
 "\"c:\\test\\autoexec.sav\""
 msgstr ""
+"If Dir(\"C:\\test\\autoexec.sav\")=\"\" THEN Filecopy \"c:\\autoexec.bat\", "
+"\"c:\\test\\autoexec.sav\""
 
 #: 03020409.xhp%23par_id3149959.24.help.text
 msgctxt "03020409.xhp#par_id3149959.24.help.text"
 msgid "SetAttr \"c:\\test\\autoexec.sav\" ,0"
-msgstr ""
+msgstr "SetAttr \"c:\\test\\autoexec.sav\" ,0"
 
 #: 03020409.xhp%23par_id3153418.25.help.text
 msgctxt "03020409.xhp#par_id3153418.25.help.text"
 msgid "Filecopy \"c:\\autoexec.bat\", \"c:\\test\\autoexec.sav\""
-msgstr ""
+msgstr "Filecopy \"c:\\autoexec.bat\", \"c:\\test\\autoexec.sav\""
 
 #: 03020409.xhp%23par_id3149122.26.help.text
 msgctxt "03020409.xhp#par_id3149122.26.help.text"
 msgid "SetAttr \"c:\\test\\autoexec.sav\" ,1"
-msgstr ""
+msgstr "SetAttr \"c:\\test\\autoexec.sav\" ,1"
 
 #: 03020409.xhp%23par_id3154480.27.help.text
 msgctxt "03020409.xhp#par_id3154480.27.help.text"
 msgid "print GetAttr( \"c:\\test\\autoexec.sav\" )"
-msgstr ""
+msgstr "print GetAttr( \"c:\\test\\autoexec.sav\" )"
 
 #: 03020409.xhp%23par_id3150753.28.help.text
 msgctxt "03020409.xhp#par_id3150753.28.help.text"
 msgid "end"
-msgstr "son"
+msgstr "end"
 
 #: 03020409.xhp%23par_id3150323.29.help.text
 msgctxt "03020409.xhp#par_id3150323.29.help.text"
 msgid "ErrorHandler:"
-msgstr ""
+msgstr "Hata İşleyicisi:"
 
 #: 03020409.xhp%23par_id3154754.30.help.text
 msgctxt "03020409.xhp#par_id3154754.30.help.text"
 msgid "Print Error"
-msgstr ""
+msgstr "Print Error"
 
 #: 03020409.xhp%23par_id3155764.31.help.text
 msgctxt "03020409.xhp#par_id3155764.31.help.text"
 msgid "end"
-msgstr "son"
+msgstr "end"
 
 #: 03020409.xhp%23par_id3156382.32.help.text
-#, fuzzy
 msgctxt "03020409.xhp#par_id3156382.32.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03080301.xhp%23tit.help.text
 msgid "Randomize Statement [Runtime]"
-msgstr "Randomize Deyimi [Runtime]"
+msgstr "Randomize İfadesi [Çalışma Zamanı]"
 
 #: 03080301.xhp%23bm_id3150616.help.text
 msgid "<bookmark_value>Randomize statement</bookmark_value>"
-msgstr "<bookmark_value>Randomize deyimi</bookmark_value>"
+msgstr "<bookmark_value>Randomize ifadesi</bookmark_value>"
 
 #: 03080301.xhp%23hd_id3150616.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03080301.xhp\" name=\"Randomize Statement "
 "[Runtime]\">Randomize Statement [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03080301.xhp\" name=\"Randomize Statement "
-"[Runtime]\">Randomize Deyimi [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03080301.xhp\" name=\"Randomize İfadesi ["
+"Çalışma Zamanı]\">Randomize İfadesi [Çalışma Zamanı]</link>"
 
 #: 03080301.xhp%23par_id3145090.2.help.text
 msgid "Initializes the random-number generator."
-msgstr ""
+msgstr "Rasgele sayı üretecini başlatır."
 
 #: 03080301.xhp%23hd_id3147573.3.help.text
 msgctxt "03080301.xhp#hd_id3147573.3.help.text"
@@ -766,7 +775,7 @@ msgstr "Sözdizimi:"
 
 #: 03080301.xhp%23par_id3145315.4.help.text
 msgid "Randomize [Number]"
-msgstr ""
+msgstr "Randomize [Number]"
 
 #: 03080301.xhp%23hd_id3152456.5.help.text
 msgctxt "03080301.xhp#hd_id3152456.5.help.text"
@@ -778,6 +787,8 @@ msgid ""
 "<emph>Number:</emph> Any integer value that initializes the random-number "
 "generator."
 msgstr ""
+"<emph>Number:</emph> Rasgele sayı üretecini başlatan herhangi bir tamsayı "
+"değeri."
 
 #: 03080301.xhp%23hd_id3149655.7.help.text
 msgctxt "03080301.xhp#hd_id3149655.7.help.text"
@@ -786,81 +797,79 @@ msgstr "Örnek:"
 
 #: 03080301.xhp%23par_id3151211.8.help.text
 msgid "Sub ExampleRandomize"
-msgstr ""
+msgstr "Sub ExampleRandomize"
 
 #: 03080301.xhp%23par_id3147229.9.help.text
 msgid "Dim iVar As Integer, sText As String"
-msgstr ""
+msgstr "Dim iVar As Integer, sText As String"
 
 #: 03080301.xhp%23par_id3150870.10.help.text
 msgid "Dim iSpectral(10) As Integer"
-msgstr ""
+msgstr "Dim iSpectral(10) As Integer"
 
 #: 03080301.xhp%23par_id3148673.12.help.text
 msgid "Randomize 2^14-1"
-msgstr ""
+msgstr "Randomize 2^14-1"
 
 #: 03080301.xhp%23par_id3156423.13.help.text
 msgid "For iCount = 1 To 1000"
-msgstr "For iSayim = 1 To 1000"
+msgstr "For iCount = 1 To 1000"
 
 #: 03080301.xhp%23par_id3147288.14.help.text
 msgid "iVar = Int((10 * Rnd) ) REM Range from 0 to 9"
-msgstr ""
+msgstr "iVar = Int((10 * Rnd) ) REM Range from 0 to 9"
 
 #: 03080301.xhp%23par_id3155132.15.help.text
 msgid "iSpectral(iVar) = iSpectral(iVar) +1"
-msgstr ""
+msgstr "iSpectral(iVar) = iSpectral(iVar) +1"
 
 #: 03080301.xhp%23par_id3153143.16.help.text
 msgctxt "03080301.xhp#par_id3153143.16.help.text"
 msgid "Next iCount"
-msgstr "Next iSayim"
+msgstr "Next iCount"
 
 #: 03080301.xhp%23par_id3154011.18.help.text
 msgid "sText = \" | \""
-msgstr ""
+msgstr "sText = \" | \""
 
 #: 03080301.xhp%23par_id3151114.19.help.text
-#, fuzzy
 msgctxt "03080301.xhp#par_id3151114.19.help.text"
 msgid "For iCount = 0 To 9"
-msgstr "For iSayim = 0 to 9"
+msgstr "For iCount = 0 To 9"
 
 #: 03080301.xhp%23par_id3145748.20.help.text
 msgid "sText = sText & iSpectral(iCount) & \" | \""
-msgstr "sText = sText & iSpectral(iSayim) & \" | \""
+msgstr "sText = sText & iSpectral(iCount) & \" | \""
 
 #: 03080301.xhp%23par_id3146921.21.help.text
 msgctxt "03080301.xhp#par_id3146921.21.help.text"
 msgid "Next iCount"
-msgstr "Next iSayim"
+msgstr "Next iCount"
 
 #: 03080301.xhp%23par_id3148617.22.help.text
 msgid "MsgBox sText,0,\"Spectral Distribution\""
 msgstr "MsgBox sText,0,\"Spectral Distribution\""
 
 #: 03080301.xhp%23par_id3152941.23.help.text
-#, fuzzy
 msgctxt "03080301.xhp#par_id3152941.23.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03102101.xhp%23tit.help.text
 msgid "ReDim Statement [Runtime]"
-msgstr "ReDim Deyimi [Runtime]"
+msgstr "ReDim İfadesi [Çalışma Zamanı]"
 
 #: 03102101.xhp%23bm_id3150398.help.text
 msgid "<bookmark_value>ReDim statement</bookmark_value>"
-msgstr "<bookmark_value>ReDim deyimi</bookmark_value>"
+msgstr "<bookmark_value>ReDim ifadesi</bookmark_value>"
 
 #: 03102101.xhp%23hd_id3150398.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03102101.xhp\" name=\"ReDim Statement "
 "[Runtime]\">ReDim Statement [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03102101.xhp\" name=\"ReDim Statement "
-"[Runtime]\">ReDim Deyimi [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03102101.xhp\" name=\"ReDim İfadesi [Çalışma "
+"Zamanı]\">ReDim İfadesi [Çalışma Zamanı]</link>"
 
 #: 03102101.xhp%23par_id3154685.2.help.text
 msgctxt "03102101.xhp#par_id3154685.2.help.text"
@@ -3285,12 +3294,10 @@ msgid "Loops"
 msgstr ""
 
 #: 03090200.xhp%23hd_id3153990.1.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/sbasic/shared/03090200.xhp\" name=\"Loops\">Loops</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/01010210.xhp\" name=\"Basics\""
-">Temeller</link>"
+"<link href=\"text/sbasic/shared/03090200.xhp\" name=\"Loops\">Döngüler</link>"
 
 #: 03090200.xhp%23par_id3147226.2.help.text
 msgid "The following statements execute loops."
@@ -4862,8 +4869,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03010102.xhp\" name=\"MsgBox Function "
 "[Runtime]\">MsgBox Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03010102.xhp\" name=\"MsgBox Fonksiyon "
-"[Çalışırken]\">MsgBox Fonksiyon [Çalışırken]</link>"
+"<link href=\"text/sbasic/shared/03010102.xhp\" name=\"MsgBox Function "
+"[Runtime]\">MsgBox Fonksiyon [Çalışırken]</link>"
 
 #: 03010102.xhp%23par_id3145171.2.help.text
 msgid "Displays a dialog box containing a message and returns a value."
@@ -14711,9 +14718,8 @@ msgid "end sub"
 msgstr "End Sub"
 
 #: 03120102.xhp%23par_idN10668.help.text
-#, fuzzy
 msgid "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
-msgstr "<link href=\"text/sbasic/shared/01050100.xhp\">İzleme Penceresi</link>"
+msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
 
 #: 03104000.xhp%23tit.help.text
 msgid "IsMissing function [Runtime]"
@@ -18107,11 +18113,11 @@ msgid "Jumps"
 msgstr ""
 
 #: 03090300.xhp%23hd_id3151262.1.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/sbasic/shared/03090300.xhp\" name=\"Jumps\">Jumps</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/05060700.xhp\" name=\"Macro\">Makro</link>"
+"<link href=\"text/sbasic/shared/03090300.xhp\" name=\"Atlamalar\""
+">Atlamalar</link>"
 
 #: 03090300.xhp%23par_id3148983.2.help.text
 msgid "The following statements execute jumps."
@@ -19298,9 +19304,8 @@ msgid "End Sub"
 msgstr "End Sub"
 
 #: 03120101.xhp%23par_idN1067B.help.text
-#, fuzzy
 msgid "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
-msgstr "<link href=\"text/sbasic/shared/01050100.xhp\">İzleme Penceresi</link>"
+msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
 
 #: 03101400.xhp%23tit.help.text
 msgid "DefDbl Statement [Runtime]"
@@ -22035,8 +22040,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03101700.xhp\" name=\"DefObj Statement "
 "[Runtime]\">DefObj Statement [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03101700.xhp\" name=\"DefObj İfadesi ["
-"Çalışma Zamanı]\">DefObj İfadesi [Çalışma Zamanı]</link>"
+"<link href=\"text/sbasic/shared/03101700.xhp\" name=\"DefObj Statement "
+"[Runtime]\">DefObj İfadesi [Çalışma Zamanı]</link>  "
 
 #: 03101700.xhp%23par_id3147573.2.help.text
 msgctxt "03101700.xhp#par_id3147573.2.help.text"
@@ -22147,8 +22152,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent [Runtime]"
 "\">ThisComponent [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent [Çalışma "
-"Zamanı]\">ThisComponent [Çalışma Zamanı]</link>"
+"<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent [Runtime]"
+"\">ThisComponent [Çalışma Zamanı]</link>"
 
 #: 03132200.xhp%23par_id3154923.2.help.text
 msgid ""
@@ -23888,10 +23893,7 @@ msgstr ""
 
 #: 03120301.xhp%23par_id3148993.42.help.text
 msgid "MsgBox Format(6328.2, \"##,##0.00\")"
-msgstr ""
-"MsgBox Format(6328.2, \"##,##0.00\")<comment>Çevirmenler: 6328.2 ondalığın "
-"şekline dokunmayınız, ve  \"##,##0.00\" değiştirmeyiniz çünkü BASIC tüm "
-"yerellerde ABD notasyonu kullanmaktadır.</comment>"
+msgstr "MsgBox Format(6328.2, \"##,##0.00\")"
 
 #: 03120301.xhp%23par_idN107A2.help.text
 msgid ""
