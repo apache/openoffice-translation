@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-05 13:08+0000\n"
+"PO-Revision-Date: 2020-02-06 12:28+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1580908082.000000\n"
+"X-POOTLE-MTIME: 1580992114.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -31335,23 +31335,29 @@ msgid ""
 "<emph>Value</emph> is any value or expression where a test is performed to "
 "determine whether it is a text or numbers or a Boolean value."
 msgstr ""
+"<emph>Արժեք</emph> ցանկացած արժեք կամ արտահայտություն է, երբ թեստ է "
+"կատարվում, որոշելու համար, թե դա տեքստ է, թիվ, կամ Բուլյան արժեք:"
 
 #: 04060104.xhp%23hd_id3150525.73.help.text
 msgctxt "04060104.xhp#hd_id3150525.73.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3149906.74.help.text
 msgid ""
 "<item type=\"input\">=ISNONTEXT(D2)</item> returns FALSE if cell D2 contains "
 "the text <item type=\"input\">abcdef</item>."
 msgstr ""
+"<item type=\"input\">=ISNONTEXT(D2)</item> վերադարձնում է FALSE եթե D2 բջիջը "
+"պարունակում է <item type=\"input\">abcdef</item> տեքստը։"
 
 #: 04060104.xhp%23par_id3150777.75.help.text
 msgid ""
 "<item type=\"input\">=ISNONTEXT(D9)</item> returns TRUE if cell D9 contains "
 "the number <item type=\"input\">8</item>."
 msgstr ""
+"<item type=\"input\">=ISNONTEXT(D9)</item> վերադարձնում է TRUE եթե D9 բջիջը "
+"պարունակում է <item type=\"input\">8</item> թիվը։"
 
 #: 04060104.xhp%23bm_id3159148.help.text
 msgid ""
@@ -31359,10 +31365,13 @@ msgid ""
 "contents</bookmark_value><bookmark_value>empty cells; "
 "recognizing</bookmark_value>"
 msgstr ""
+"<bookmark_value>ISBLANK function</bookmark_value><bookmark_value>blank cell "
+"contents</bookmark_value><bookmark_value>empty cells; "
+"recognizing</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3159148.77.help.text
 msgid "ISBLANK"
-msgstr ""
+msgstr "ISBLANK"
 
 #: 04060104.xhp%23par_id3148800.78.help.text
 msgid ""
@@ -31370,28 +31379,32 @@ msgid ""
 "blank.</ahelp> This function is used to determine if the content of a cell "
 "is empty. A cell with a formula inside is not empty. "
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISTLEER\">Վերադարձնում է TRUE եթե բջջի հղումը դատարկ "
+"է։</ahelp> Այս գործառույթն օգտագործվում է որոշելու համար, թե արդյոք բջջի "
+"պարունակությունը դատարկ է: Ներսում բանաձև ունեցող բջիջը դատարկ չէ: "
 
 #: 04060104.xhp%23hd_id3159162.79.help.text
 msgctxt "04060104.xhp#hd_id3159162.79.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3158406.80.help.text
 msgid "ISBLANK(Value)"
-msgstr ""
+msgstr "ISBLANK(Value)"
 
 #: 04060104.xhp%23par_id3154212.81.help.text
 msgid "<emph>Value</emph> is the content to be tested."
-msgstr ""
+msgstr "<emph>Արժեք</emph> փորձարկման ենթակա բովանդակությունն է։"
 
 #: 04060104.xhp%23hd_id3147508.82.help.text
 msgctxt "04060104.xhp#hd_id3147508.82.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3147234.83.help.text
 msgid "<item type=\"input\">=ISBLANK(D2)</item> returns FALSE as a result."
 msgstr ""
+"<item type=\"input\">=ISBLANK(D2)</item> որպես արդյունք վերադարձնում է FALSE։"
 
 #: 04060104.xhp%23bm_id3155356.help.text
 msgid ""
@@ -31399,262 +31412,303 @@ msgid ""
 "formats;logical</bookmark_value><bookmark_value>logical number "
 "formats</bookmark_value>"
 msgstr ""
+"<bookmark_value>ISLOGICAL function</bookmark_value><bookmark_value>թվային "
+"ձևաչափեր;տրամաբանական</bookmark_value><bookmark_value>տրամաբանական թվային "
+"ձևաչափեր</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3155356.85.help.text
 msgid "ISLOGICAL"
-msgstr ""
+msgstr "ISLOGICAL"
 
 #: 04060104.xhp%23par_id3148926.86.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ISTLOG\">Tests for a logical value (TRUE or "
 "FALSE).</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISTLOG\">Փորձարկում է (TRUE կամ FALSE) տրամաբանական "
+"արժեքի համար։</ahelp>"
 
 #: 04060104.xhp%23par_id3541062.help.text
 msgctxt "04060104.xhp#par_id3541062.help.text"
 msgid "If an error occurs, the function returns FALSE."
-msgstr ""
+msgstr "Եթե հանդիպում է սխալ, գործառույթը վերադարձնում է FALSE"
 
 #: 04060104.xhp%23hd_id3149162.87.help.text
 msgctxt "04060104.xhp#hd_id3149162.87.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3148918.88.help.text
 msgid "ISLOGICAL(Value)"
-msgstr ""
+msgstr "ISLOGICAL(Value)"
 
 #: 04060104.xhp%23par_id3146946.89.help.text
 msgid ""
 "Returns TRUE if <emph>Value</emph> is a logical value (TRUE or FALSE), and "
 "returns FALSE otherwise."
 msgstr ""
+"Վերադարձնում է TRUE եթե <emph>Արժեքը</emph> տրամաբանական արժեք է (TRUE կամ "
+"FALSE), հակառակ դեպքում վերադարձնում է FALSE։"
 
 #: 04060104.xhp%23hd_id3150709.90.help.text
 msgctxt "04060104.xhp#hd_id3150709.90.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3166442.91.help.text
 msgid ""
 "<item type=\"input\">=ISLOGICAL(99)</item> returns FALSE, because 99 is a "
 "number, not a logical value."
 msgstr ""
+"<item type=\"input\">=ISLOGICAL(99)</item> վերադարձնում է FALSE, քանի որ 99 "
+"դա թիվ է, և ոչ տրամաբանական արժեք։"
 
 #: 04060104.xhp%23par_id3556016.help.text
 msgid ""
 "<item type=\"input\">=ISLOGICAL(ISNA(D4))</item> returns TRUE whatever the "
 "contents of cell D4, because ISNA() returns a logical value."
 msgstr ""
+"<item type=\"input\">=ISLOGICAL(ISNA(D4))</item> վերադարձնում է TRUE անկախ "
+"D4 բջջի պարունակությունից, քանի որ ISNA() վերադարձնում է տրամաբանական արժեք:"
 
 #: 04060104.xhp%23bm_id3153685.help.text
 msgid ""
 "<bookmark_value>ISNA function</bookmark_value><bookmark_value>#N/A "
 "error;recognizing</bookmark_value>"
 msgstr ""
+"<bookmark_value>ISNA function</bookmark_value><bookmark_value>#N/A "
+"սխալ;ճանաչում</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3153685.93.help.text
 msgid "ISNA"
-msgstr ""
+msgstr "ISNA"
 
 #: 04060104.xhp%23par_id3149105.94.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ISTNV\">Returns TRUE if a cell contains the #N/A ("
 "value not available) error value.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISTNV\">Վերադարձնում է TRUE, եթե բջիջը պարունակում է "
+"#N/A (արժեքը մատչելի չէ) սխալի արժեքը:</ahelp>"
 
 #: 04060104.xhp%23par_id6018860.help.text
 msgctxt "04060104.xhp#par_id6018860.help.text"
 msgid "If an error occurs, the function returns FALSE."
-msgstr ""
+msgstr "Եթե սխալ է առաջացել, գործառույթը վերադարձնում է FALSE:"
 
 #: 04060104.xhp%23hd_id3152947.95.help.text
 msgctxt "04060104.xhp#hd_id3152947.95.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3153748.96.help.text
 msgid "ISNA(Value)"
-msgstr ""
+msgstr "ISNA(Value)"
 
 #: 04060104.xhp%23par_id3152884.97.help.text
 msgid "<emph>Value</emph> is the value or expression to be tested."
-msgstr ""
+msgstr "<emph>Արժեք</emph> փորձարկվող արժեք կամ արտահայտություն է:"
 
 #: 04060104.xhp%23hd_id3149964.98.help.text
 msgctxt "04060104.xhp#hd_id3149964.98.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3154852.99.help.text
 msgid "<item type=\"input\">=ISNA(D3)</item> returns FALSE as a result."
-msgstr ""
+msgstr "<item type=\"input\">=ISNA(D3)</item> արդյունքում վերադարձնում է FALSE:"
 
 #: 04060104.xhp%23bm_id3149426.help.text
 msgid ""
 "<bookmark_value>ISTEXT function</bookmark_value><bookmark_value>cell "
 "contents;text</bookmark_value>"
 msgstr ""
+"<bookmark_value>ISTEXT function</bookmark_value><bookmark_value>բջջի "
+"պարունակություն;տեքստ</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3149426.101.help.text
 msgid "ISTEXT"
-msgstr ""
+msgstr "ISTEXT"
 
 #: 04060104.xhp%23par_id3145368.102.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ISTTEXT\">Returns TRUE if the cell contents refer to "
 "text.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISTTEXT\">Վերադարձնում է TRUE, եթե բջջի "
+"բովանդակությունը վերաբերվում է տեքստին:</ahelp>"
 
 #: 04060104.xhp%23par_id6779686.help.text
 msgctxt "04060104.xhp#par_id6779686.help.text"
 msgid "If an error occurs, the function returns FALSE."
-msgstr ""
+msgstr "Եթե սխալ է առաջացել, գործառույթը վերադարձնում է FALSE:"
 
 #: 04060104.xhp%23hd_id3154332.103.help.text
 msgctxt "04060104.xhp#hd_id3154332.103.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3148649.104.help.text
 msgid "ISTEXT(Value)"
-msgstr ""
+msgstr "ISTEXT(Value)"
 
 #: 04060104.xhp%23par_id3150417.105.help.text
 msgid ""
 "<emph>Value</emph> is a value, number, Boolean value, or an error value to "
 "be tested."
 msgstr ""
+"<emph>Արժեք</emph> փորձարկման ենթակա արժեք է, թիվ է, Բուլյան արժեք է կամ "
+"սխալի արժեք է:"
 
 #: 04060104.xhp%23hd_id3149239.106.help.text
 msgctxt "04060104.xhp#hd_id3149239.106.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3144756.107.help.text
 msgid ""
 "<item type=\"input\">=ISTEXT(D9)</item> returns TRUE if cell D9 contains the "
 "text <item type=\"input\">abcdef</item>."
 msgstr ""
+"<item type=\"input\">=ISTEXT(D9)</item> վերադարձնում է TRUE եթե D9 բջիջը "
+"պարունակում է <item type=\"input\">abcdef</item> տեքստը։"
 
 #: 04060104.xhp%23par_id3148416.108.help.text
 msgid ""
 "<item type=\"input\">=ISTEXT(C3)</item> returns FALSE if cell C3 contains "
 "the number <item type=\"input\">3</item>."
 msgstr ""
+"<item type=\"input\">=ISTEXT(C3)</item> վերադարձնում է FALSE եթե C3 բջիջը "
+"պարունակում է <item type=\"input\">3</item> թիվը։"
 
 #: 04060104.xhp%23bm_id3153939.help.text
 msgid "<bookmark_value>ISODD_ADD function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ISODD_ADD function</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3153939.236.help.text
 msgid "ISODD_ADD"
-msgstr ""
+msgstr "ISODD_ADD"
 
 #: 04060104.xhp%23par_id3153538.237.help.text
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_ISODD\">Returns TRUE (1) if the number does not "
 "return a whole number when divided by 2.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_AAI_FUNC_ISODD\">Վերադարձնում է TRUE (1) եթե թիվը չի "
+"վերադարձնում ամբողջ թիվ, երբ բաժանվում է 2-ով:</ahelp>"
 
 #: 04060104.xhp%23hd_id3145601.238.help.text
 msgctxt "04060104.xhp#hd_id3145601.238.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3149485.239.help.text
 msgid "ISODD_ADD(Number)"
-msgstr ""
+msgstr "ISODD_ADD(Number)"
 
 #: 04060104.xhp%23par_id3153315.240.help.text
 msgctxt "04060104.xhp#par_id3153315.240.help.text"
 msgid "<emph>Number</emph> is the number to be tested."
-msgstr ""
+msgstr "<emph>Թիվ</emph> փորձարկման ենթակա թիվն է։"
 
 #: 04060104.xhp%23hd_id3143274.241.help.text
 msgctxt "04060104.xhp#hd_id3143274.241.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3154793.242.help.text
 msgid "<item type=\"input\">=ISODD_ADD(5)</item> returns 1."
-msgstr ""
+msgstr "<item type=\"input\">=ISODD_ADD(5)</item> վերադարձնում է 1։"
 
 #: 04060104.xhp%23bm_id3148688.help.text
 msgid ""
 "<bookmark_value>ISNUMBER function</bookmark_value><bookmark_value>cell "
 "contents;numbers</bookmark_value>"
 msgstr ""
+"<bookmark_value>ISNUMBER function</bookmark_value><bookmark_value>cell "
+"contents;numbers</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3148688.110.help.text
 msgid "ISNUMBER"
-msgstr ""
+msgstr "ISNUMBER"
 
 #: 04060104.xhp%23par_id3154618.111.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ISTZAHL\">Returns TRUE if the value refers to a "
 "number.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ISTZAHL\">Վերադարձնում է TRUE եթե արժեքը վերաբերում է "
+"թվին:</ahelp>"
 
 #: 04060104.xhp%23hd_id3152769.112.help.text
 msgctxt "04060104.xhp#hd_id3152769.112.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3150595.113.help.text
 msgid "ISNUMBER(Value)"
-msgstr ""
+msgstr "ISNUMBER(Value)"
 
 #: 04060104.xhp%23par_id3150351.114.help.text
 msgid ""
 "<emph>Value</emph> is any expression to be tested to determine whether it is "
 "a number or text."
 msgstr ""
+"<emph>Արժեք</emph> ցանկացած արտահայտություն է, որը պետք է փորձարկվի որոշելու "
+"համար, թիվ է թե տեքստ:"
 
 #: 04060104.xhp%23hd_id3146793.115.help.text
 msgctxt "04060104.xhp#hd_id3146793.115.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3155614.116.help.text
 msgid ""
 "<item type=\"input\">=ISNUMBER(C3)</item> returns TRUE if the cell C3 "
 "contains the number <item type=\"input\">4</item>."
 msgstr ""
+"<item type=\"input\">=ISNUMBER(C3)</item> վերադարձնում է TRUE եթե C3 բջիջը "
+"պարունակում է <item type=\"input\">4</item> թիվը։"
 
 #: 04060104.xhp%23par_id3154417.117.help.text
 msgid ""
 "<item type=\"input\">=ISNUMBER(C2)</item> returns FALSE if the cell C2 "
 "contains the text <item type=\"input\">abcdef</item>."
 msgstr ""
+"<item type=\"input\">=ISNUMBER(C2)</item> վերադարձնում է FALSE եթե C2 բջիջը "
+"պարունակում է <item type=\"input\">abcdef</item> տեքստը։"
 
 #: 04060104.xhp%23bm_id3153694.help.text
 msgid "<bookmark_value>N function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>N function</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3153694.119.help.text
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: 04060104.xhp%23par_id3150405.120.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_N\">Returns the numeric value of the given parameter. "
 "Returns 0 if parameter is text, FALSE or #NA.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_N\">Վերադարձնում է տվյալ պարամետրի թվային արժեքը: "
+"Վերադարձնում է 0, եթե պարամետրը տեքստ է, FALSE կամ #NA:</ahelp>"
 
 #: 04060104.xhp%23par_id9115573.help.text
 msgid ""
 "If an error occurs, other than #NA, the function returns the error value."
 msgstr ""
+"Եթե սխալ է առաջացել, տարբերվող #NA- ից, գործառույթը վերադարձնում է սխալի "
+"արժեքը:"
 
 #: 04060104.xhp%23hd_id3145774.121.help.text
 msgctxt "04060104.xhp#hd_id3145774.121.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3153883.122.help.text
 msgid "N(Value)"
-msgstr ""
+msgstr "N(Value)"
 
 #: 04060104.xhp%23par_id3151101.123.help.text
 msgid ""
@@ -31662,106 +31716,116 @@ msgid ""
 "returns the numeric value if it can. It returns the logical values TRUE and "
 "FALSE as 1 and 0 respectively. It returns text and errors as 0."
 msgstr ""
+"<emph>Արժեք</emph> պարամետր է, որը պետք է վերածվի թվի: Եթե կարող է, N() "
+"վերադարձնում է թվային արժեքը: Այն վերադարձնում է տրամաբանական TRUE և FALSE "
+"արժեքները, համապատասխանաբար որպես 1 և 0: Այն վերադարձնում է տեքստը և "
+"սխալները որպես 0:"
 
 #: 04060104.xhp%23hd_id3147097.124.help.text
 msgctxt "04060104.xhp#hd_id3147097.124.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3154117.125.help.text
 msgid "<item type=\"input\">=N(123)</item> returns 123"
-msgstr ""
+msgstr "<item type=\"input\">=N(123)</item> վերադարձնում է 123"
 
 #: 04060104.xhp%23par_id2337717.help.text
 msgid "<item type=\"input\">=N(TRUE)</item> returns 1"
-msgstr ""
+msgstr "<item type=\"input\">=N(TRUE)</item> վերադարձնում է 1"
 
 #: 04060104.xhp%23par_id3153781.126.help.text
 msgid "<item type=\"input\">=N(FALSE)</item> returns 0"
-msgstr ""
+msgstr "<item type=\"input\">=N(FALSE)</item> վերադարձնում է 0"
 
 #: 04060104.xhp%23par_id3154670.243.help.text
 msgid "<item type=\"input\">=N(\"abc\")</item> returns 0"
-msgstr ""
+msgstr "<item type=\"input\">=N(\"abc\")</item> վերադարձնում է 0"
 
 #: 04060104.xhp%23par_id3519089.help.text
 msgid "=N(1/0) returns #DIV/0!"
-msgstr ""
+msgstr "=N(1/0) վերադարձնում է #DIV/0!"
 
 #: 04060104.xhp%23bm_id3156275.help.text
 msgid ""
 "<bookmark_value>NA function</bookmark_value><bookmark_value>#N/A error;"
 "assigning to a cell</bookmark_value>"
 msgstr ""
+"<bookmark_value>NA function</bookmark_value><bookmark_value>#N/A սխալ;"
+"նշանակել բջջին</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3156275.129.help.text
 msgid "NA"
-msgstr ""
+msgstr "NA"
 
 #: 04060104.xhp%23par_id3156161.130.help.text
 msgid "<ahelp hid=\"HID_FUNC_NV\">Returns the error value #N/A.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_NV\">Վերադարձնում է սխալի արժեքը #N/A։</ahelp>"
 
 #: 04060104.xhp%23hd_id3147532.131.help.text
 msgctxt "04060104.xhp#hd_id3147532.131.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3149563.132.help.text
 msgid "NA()"
-msgstr ""
+msgstr "NA()"
 
 #: 04060104.xhp%23hd_id3155128.133.help.text
 msgctxt "04060104.xhp#hd_id3155128.133.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060104.xhp%23par_id3154481.134.help.text
 msgid ""
 "<item type=\"input\">=NA()</item> converts the contents of the cell into #N/"
 "A."
 msgstr ""
+"<item type=\"input\">=NA()</item> բջիջի պարունակությունը վերածում է #N/A:"
 
 #: 04060104.xhp%23bm_id3151255.help.text
 msgid "<bookmark_value>TYPE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TYPE function</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3151255.136.help.text
 msgctxt "04060104.xhp#hd_id3151255.136.help.text"
 msgid "TYPE"
-msgstr ""
+msgstr "TYPE"
 
 #: 04060104.xhp%23par_id3155900.137.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_TYP\">Returns the type of value, where 1 = number, 2 = "
 "text, 4 = Boolean value, 8 = formula, 16 = error value, 64 = array.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TYP\">Վերադարձնում է արժեքի տեսակը, որտեղ 1 = թիվ է, 2 "
+"= տեքստ է, 4 = Բուլյան արժեք է, 8 = բանաձև է, 16 = սխալի արժեք է, 64 = "
+"զանգված է:</ahelp>"
 
 #: 04060104.xhp%23hd_id3149992.138.help.text
 msgctxt "04060104.xhp#hd_id3149992.138.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3148400.139.help.text
 msgid "TYPE(Value)"
-msgstr ""
+msgstr "TYPE(Value)"
 
 #: 04060104.xhp%23par_id3150830.140.help.text
 msgid ""
 "<emph>Value</emph> is a specific value for which the data type is determined."
-msgstr ""
+msgstr "<emph>Արժեք</emph> հատուկ արժեք է, որի համար որոշվում է տվյալի տեսակը:"
 
 #: 04060104.xhp%23hd_id3154363.141.help.text
 msgid "Example (see example table above)"
-msgstr ""
+msgstr "Օրինակ (տե՛ս վերևի աղյուսակի օրինակը)"
 
 #: 04060104.xhp%23par_id3153357.142.help.text
 msgid "<item type=\"input\">=TYPE(C2)</item> returns 2 as a result."
-msgstr ""
+msgstr "<item type=\"input\">=TYPE(C2)</item> որպես արդյունք վերադարձնում է 2։"
 
 #: 04060104.xhp%23par_id3148980.143.help.text
 msgid "<item type=\"input\">=TYPE(D9)</item> returns 1 as a result."
-msgstr ""
+msgstr "<item type=\"input\">=TYPE(D9)</item> որպես արդյունք վերադարձնում է 1։"
 
 #: 04060104.xhp%23bm_id3155509.help.text
 msgid ""
@@ -31769,25 +31833,30 @@ msgid ""
 "information</bookmark_value><bookmark_value>information on "
 "cells</bookmark_value>"
 msgstr ""
+"<bookmark_value>CELL function</bookmark_value><bookmark_value>cell "
+"information</bookmark_value><bookmark_value>information on "
+"cells</bookmark_value>"
 
 #: 04060104.xhp%23hd_id3155509.154.help.text
 msgid "CELL"
-msgstr ""
+msgstr "CELL"
 
 #: 04060104.xhp%23par_id3153196.155.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZELLE\">Returns information on address, formatting or "
 "contents of a cell.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZELLE\">Վերադարձնում է բջիջի հասցեն, ձևաչափումը կամ "
+"բովանդակությունը:</ahelp>"
 
 #: 04060104.xhp%23hd_id3149323.156.help.text
 msgctxt "04060104.xhp#hd_id3149323.156.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060104.xhp%23par_id3147355.157.help.text
 msgid "CELL(\"InfoType\"; Reference)"
-msgstr ""
+msgstr "CELL(\"InfoType\"; Հղում)"
 
 #: 04060104.xhp%23par_id3154716.158.help.text
 msgid ""
@@ -31795,85 +31864,92 @@ msgid ""
 "information. The character string is always in English. Upper or lower case "
 "is optional."
 msgstr ""
+"<emph>InfoType</emph> նիշերի տող է, որը սահմանում է տեղեկատվության տեսակը: "
+"Նիշերի տողը միշտ անգլերեն է: Վերին կամ ստորին դեպքը պարտադիր չէ:"
 
 #: 04060104.xhp%23par_id3150636.165.help.text
 msgid "InfoType"
-msgstr ""
+msgstr "InfoType"
 
 #: 04060104.xhp%23par_id3149344.166.help.text
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստը"
 
 #: 04060104.xhp%23par_id3153266.167.help.text
 msgid "COL"
-msgstr ""
+msgstr "COL"
 
 #: 04060104.xhp%23par_id3156204.168.help.text
 msgid "Returns the number of the referenced column."
-msgstr ""
+msgstr "Վերադարձնում է հղված սյունակի համարը:"
 
 #: 04060104.xhp%23par_id3150094.162.help.text
 msgid "<item type=\"input\">=CELL(\"COL\";D2)</item> returns 4."
-msgstr ""
+msgstr "<item type=\"input\">=CELL(\"COL\";D2)</item> վերադարձնում է 4։"
 
 #: 04060104.xhp%23par_id3151276.169.help.text
 msgctxt "04060104.xhp#par_id3151276.169.help.text"
 msgid "ROW"
-msgstr ""
+msgstr "ROW"
 
 #: 04060104.xhp%23par_id3147583.170.help.text
 msgid "Returns the number of the referenced row."
-msgstr ""
+msgstr "Վերադարձնում է հղված տողի համարը:"
 
 #: 04060104.xhp%23par_id3151222.163.help.text
 msgid "<item type=\"input\">=CELL(\"ROW\";D2)</item> returns 2."
-msgstr ""
+msgstr "<item type=\"input\">=CELL(\"ROW\";D2)</item> վերադարձնում է 2։"
 
 #: 04060104.xhp%23par_id3159217.171.help.text
 msgctxt "04060104.xhp#par_id3159217.171.help.text"
 msgid "SHEET"
-msgstr ""
+msgstr "SHEET"
 
 #: 04060104.xhp%23par_id3151201.172.help.text
 msgid "Returns the number of the referenced sheet."
-msgstr ""
+msgstr "Վերադարձնում է հղվող թերթի համարը:"
 
 #: 04060104.xhp%23par_id3149169.164.help.text
 msgid "<item type=\"input\">=CELL(\"Sheet\";Sheet3.D2)</item> returns 3."
 msgstr ""
+"<item type=\"input\">=CELL(\"Sheet\";Sheet3.D2)</item> վերադարձնում է 3։"
 
 #: 04060104.xhp%23par_id3149431.173.help.text
 msgctxt "04060104.xhp#par_id3149431.173.help.text"
 msgid "ADDRESS"
-msgstr ""
+msgstr "ADDRESS"
 
 #: 04060104.xhp%23par_id3156054.174.help.text
 msgid "Returns the absolute address of the referenced cell."
-msgstr ""
+msgstr "Վերադարձնում է հղվող բջջի բացարձակ հասցեն:"
 
 #: 04060104.xhp%23par_id3154136.175.help.text
 msgid "<item type=\"input\">=CELL(\"ADDRESS\";D2)</item> returns $D$2."
-msgstr ""
+msgstr "<item type=\"input\">=CELL(\"ADDRESS\";D2)</item> վերադարձնում է $D$2։"
 
 #: 04060104.xhp%23par_id3159198.176.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";Sheet3.D2)</item> returns "
 "$Sheet3.$D$2."
 msgstr ""
+"<item type=\"input\">=CELL(\"ADDRESS\";Sheet3.D2)</item> վերադարձնում է "
+"$Sheet3.$D$2։"
 
 #: 04060104.xhp%23par_id3150245.177.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.sxc'#$Sheet1.D2)</item> "
 "returns 'file:///X:/dr/test.sxc'#$Sheet1.$D$2."
 msgstr ""
+"<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.sxc'#$Sheet1.D2)</item> "
+"վերադարձնում է 'file:///X:/dr/test.sxc'#$Sheet1.$D$2։"
 
 #: 04060104.xhp%23par_id3146811.178.help.text
 msgid "FILENAME"
-msgstr ""
+msgstr "FILENAME"
 
 #: 04060104.xhp%23par_id3151328.179.help.text
 msgid "Returns the file name and the sheet number of the referenced cell."
-msgstr ""
+msgstr "Վերադարձնում է նիշքի անունը և հղվող բջջի թերթիկի համարը:"
 
 #: 04060104.xhp%23par_id3148896.180.help.text
 msgid ""
@@ -31881,136 +31957,147 @@ msgid ""
 "own.sxc'#$Sheet1, if the formula in the current document X:\\dr\\own.sxc is "
 "located in Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";D2)</item> վերադարձնում է "
+"'file:///X:/dr/own.sxc'#$Sheet1, եթե ընթացիկ փաստաթղթի բանաձևը X:\\dr\\"
+"own.sxc տեղակայված է Sheet1 -ում։"
 
 #: 04060104.xhp%23par_id3155144.181.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.sxc'#$Sheet1.D2)</item>"
 " returns 'file:///X:/dr/test.sxc'#$Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.sxc'#$Sheet1.D2)</item>"
+" վերադարձնում է 'file:///X:/dr/test.sxc'#$Sheet1։"
 
 #: 04060104.xhp%23par_id3151381.182.help.text
 msgid "COORD"
-msgstr ""
+msgstr "COORD"
 
 #: 04060104.xhp%23par_id3151004.183.help.text
 msgid "Returns the complete cell address in Lotus(TM) notation."
-msgstr ""
+msgstr "Վերադարձնում է բջջի ամբողջական հասցեն Lotus(TM) նշագրման մեջ:"
 
 #: 04060104.xhp%23par_id3159104.184.help.text
 msgid "<item type=\"input\">=CELL(\"COORD\"; D2)</item> returns $A:$D$2."
 msgstr ""
+"<item type=\"input\">=CELL(\"COORD\"; D2)</item> վերադարձնում է $A:$D$2։"
 
 #: 04060104.xhp%23par_id3163720.185.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"COORD\"; Sheet3.D2)</item> returns $C:$D$2."
 msgstr ""
+"<item type=\"input\">=CELL(\"COORD\"; Sheet3.D2)</item> վերադարձնում է "
+"$C:$D$2"
 
 #: 04060104.xhp%23par_id3155910.186.help.text
 msgid "CONTENTS"
-msgstr ""
+msgstr "CONTENTS"
 
 #: 04060104.xhp%23par_id3156041.187.help.text
 msgid "Returns the contents of the referenced cell, without any formatting."
 msgstr ""
+"Վերադարձնում է հղում կատարված բջիջի պարունակությունը առանց որևէ ձևաչափման:"
 
 #: 04060104.xhp%23par_id3151069.188.help.text
 msgctxt "04060104.xhp#par_id3151069.188.help.text"
 msgid "TYPE"
-msgstr ""
+msgstr "TYPE"
 
 #: 04060104.xhp%23par_id3155344.189.help.text
 msgid "Returns the type of cell contents."
-msgstr ""
+msgstr "Վերադարձնում է բջջի բովանդակության տեսակը:"
 
 #: 04060104.xhp%23par_id3145217.190.help.text
 msgid "b = blank. empty cell"
-msgstr ""
+msgstr "b = դատարկ։ դատարկ բջիջ"
 
 #: 04060104.xhp%23par_id3155176.191.help.text
 msgid "l = label. Text, result of a formula as text"
-msgstr ""
+msgstr "l = պիտակ։ Տեքստ, բանաձևը որպես տեքստ արդյունքը"
 
 #: 04060104.xhp%23par_id3147280.192.help.text
 msgid "v = value. Value, result of a formula as a number"
-msgstr ""
+msgstr "v = արժեք։ Արժեք, բանաձևը որպես թիվ արդյունքը"
 
 #: 04060104.xhp%23par_id3156348.193.help.text
 msgid "WIDTH"
-msgstr ""
+msgstr "WIDTH"
 
 #: 04060104.xhp%23par_id3154920.194.help.text
 msgid ""
 "Returns the width of the referenced column. The unit is the number of zeros "
 "(0) that fit into the column in the default text and the default size."
 msgstr ""
+"Վերադարձնում է հղված սյունակի լայնությունը: Չափման միավորը զրոների (0) "
+"քանակն է, որոնք տեղավորվում են լռելյայն տեքստի և լռելյայն չափի սյունակում:"
 
 #: 04060104.xhp%23par_id3152355.195.help.text
 msgid "PREFIX"
-msgstr ""
+msgstr "PREFIX"
 
 #: 04060104.xhp%23par_id3154230.196.help.text
 msgid "Returns the alignment of the referenced cell."
-msgstr ""
+msgstr "Վերադարձնում է հղված բջիջի հավասարեցումը:"
 
 #: 04060104.xhp%23par_id3155946.197.help.text
 msgid "' = align left or left-justified"
-msgstr ""
+msgstr "' = հավասարեցնել ձախ կամ ձախ-հիմնավորված"
 
 #: 04060104.xhp%23par_id3147220.198.help.text
 msgid "\" = align right"
-msgstr ""
+msgstr "\" = հավասարեցնել աջ"
 
 #: 04060104.xhp%23par_id3149038.199.help.text
 msgid "^ = centered"
-msgstr ""
+msgstr "^ = կենտրոն հավասարեցված"
 
 #: 04060104.xhp%23par_id3153129.200.help.text
 msgid "\\ = repeating (currently inactive)"
-msgstr ""
+msgstr "\\ = կրկնող (ներկայումս ոչ ակտիվ)"
 
 #: 04060104.xhp%23par_id3154406.201.help.text
 msgid "PROTECT"
-msgstr ""
+msgstr "PROTECT"
 
 #: 04060104.xhp%23par_id3145127.202.help.text
 msgid "Returns the status of the cell protection for the cell."
-msgstr ""
+msgstr "Վերադարձնում է բջջի համար բջջային պաշտպանության կարգավիճակը:"
 
 #: 04060104.xhp%23par_id3155794.203.help.text
 msgid "1 = cell is protected"
-msgstr ""
+msgstr "1 = բջիջը պաշտպանված է"
 
 #: 04060104.xhp%23par_id3155072.204.help.text
 msgid "0 = cell is not protected"
-msgstr ""
+msgstr "0 = բջիջը պաշտպանված չէ"
 
 #: 04060104.xhp%23par_id3156178.205.help.text
 msgid "FORMAT"
-msgstr ""
+msgstr "FORMAT"
 
 #: 04060104.xhp%23par_id3150220.206.help.text
 msgid "Returns a character string that indicates the number format."
-msgstr ""
+msgstr "Վերադարձնում է նիշերի շարքը, որը ցույց է տալիս թվի ձևաչափը:"
 
 #: 04060104.xhp%23par_id3153824.207.help.text
 msgid ", = number with thousands separator"
-msgstr ""
+msgstr ", = թիվը հազարավորի բաժանարարով"
 
 #: 04060104.xhp%23par_id3153837.208.help.text
 msgid "F = number without thousands separator"
-msgstr ""
+msgstr "F = թիվը առանց հազարավորի բաժանարարի"
 
 #: 04060104.xhp%23par_id3150318.209.help.text
 msgid "C = currency format"
-msgstr ""
+msgstr "C = արտարժույթի ձևաչափ"
 
 #: 04060104.xhp%23par_id3153168.210.help.text
 msgid "S = exponential representation, for example, 1.234+E56"
-msgstr ""
+msgstr "S = էքսպոնենտալ ներկայացվածություն, օրինակ, 1.234+E56"
 
 #: 04060104.xhp%23par_id3153515.211.help.text
 msgid "P = percentage"
-msgstr ""
+msgstr "P = տոկոս"
 
 #: 04060104.xhp%23par_id3154375.212.help.text
 msgid ""
@@ -32018,73 +32105,80 @@ msgid ""
 "separator is given as a number. Example: the number format #,##0.0 returns "
 ",1 and the number format 00.000% returns P3"
 msgstr ""
+"Վերոնշյալ ձևաչափերում տասնորդական տարանջատումից հետո տասնորդական դիրքերի "
+"քանակը տրվում է որպես թիվ: Օրինակ՝ թվի #,##0.0 ձևաչափը վերադարձնում է ,1 և "
+"թվի 00.000% ձևաչափը վերադարձնում է P3"
 
 #: 04060104.xhp%23par_id3150575.213.help.text
 msgid "D1 = MMM-D-YY, MM-D-YY and similar formats"
-msgstr ""
+msgstr "D1 = ԱԱԱ-Օ-ՏՏ, ԱԱ-Օ-ՏՏ և նման ձևաչափեր։"
 
 #: 04060104.xhp%23par_id3150589.214.help.text
 msgid "D2 = DD-MM"
-msgstr ""
+msgstr "D2 = ՕՕ-ԱԱ"
 
 #: 04060104.xhp%23par_id3151034.215.help.text
 msgid "D3 = MM-YY"
-msgstr ""
+msgstr "D3 = ԱԱ-ՏՏ"
 
 #: 04060104.xhp%23par_id3156371.216.help.text
 msgid "D4 = DD-MM-YYYY HH:MM:SS"
-msgstr ""
+msgstr "D4 = ՕՕ-ԱԱ-ՏՏՏՏ ԺԺ:ՐՐ:ՎՎ"
 
 #: 04060104.xhp%23par_id3157881.217.help.text
 msgid "D5 = MM-DD"
-msgstr ""
+msgstr "D5 = MM-DD"
 
 #: 04060104.xhp%23par_id3157894.218.help.text
 msgid "D6 = HH:MM:SS AM/PM"
-msgstr ""
+msgstr "D6 = HH:MM:SS AM/PM"
 
 #: 04060104.xhp%23par_id3154068.219.help.text
 msgid "D7 = HH:MM AM/PM"
-msgstr ""
+msgstr "D7 = HH:MM AM/PM"
 
 #: 04060104.xhp%23par_id3150286.220.help.text
 msgid "D8 = HH:MM:SS"
-msgstr ""
+msgstr "D8 = HH:MM:SS"
 
 #: 04060104.xhp%23par_id3145756.221.help.text
 msgid "D9 = HH:MM"
-msgstr ""
+msgstr "D9 = HH:MM"
 
 #: 04060104.xhp%23par_id3145768.222.help.text
 msgid "G = All other formats"
-msgstr ""
+msgstr "G = Բոլոր մնացյալ ձևաչափերը"
 
 #: 04060104.xhp%23par_id3153375.223.help.text
 msgid "- (Minus) at the end = negative numbers are formatted in color"
-msgstr ""
+msgstr "- (մինուս) վերջում = բացասական թվերը ձևափոխվում են գույներով"
 
 #: 04060104.xhp%23par_id3155545.224.help.text
 msgid ""
 "() (brackets) at the end = there is an opening bracket in the format code"
-msgstr ""
+msgstr "() (փակագծեր) վերջում = Ձևաչափի կոդում կա բացմվող փակագիծ"
 
 #: 04060104.xhp%23par_id3154594.225.help.text
 msgid "COLOR"
-msgstr ""
+msgstr "COLOR"
 
 #: 04060104.xhp%23par_id3152922.226.help.text
 msgid ""
 "Returns 1, if negative values have been formatted in color, otherwise 0."
 msgstr ""
+"Վերադարձնում է 1, եթե բացասական արժեքները ձևափոխվել են գույներով, հակառակ "
+"դեպքում` 0:"
 
 #: 04060104.xhp%23par_id3145563.227.help.text
 msgid "PARENTHESES"
-msgstr ""
+msgstr "PARENTHESES"
 
 #: 04060104.xhp%23par_id3156072.228.help.text
 msgid ""
 "Returns 1 if the format code contains an opening bracket (, otherwise 0."
 msgstr ""
+"Վերադարձնում է 1, եթե ձևաչափի կոդը պարունակում է բացվող փակագիծ (, այլապես՝ "
+"0:"
 
 #: 04060104.xhp%23par_id3156090.159.help.text
 msgid ""
@@ -32094,20 +32188,25 @@ msgid ""
 "uses the position of the cell in which this formula is located. Microsoft "
 "Excel uses the reference of the cell in which the cursor is positioned."
 msgstr ""
+"<emph>Հղում</emph> (ընտրանքների ցուցակը) հետազոտվող բջջի դիրքն է: Եթե "
+"<emph>Հղում</emph> միջակայք է, բջիջը շարժվում է միջակայքի վերևի ձախ կողմ: "
+"Եթե <emph>Հղում</emph> բացակա է, $[officename] Calc -ը օգտագործում է այն "
+"բջջի դիրքը, որում գտնվում է այս բանաձևը: Microsoft Excel-ը օգտագործում է այն "
+"բջջային հղումը, որում տեղադրվում է կուրսորը:"
 
 #: 04050000.xhp%23tit.help.text
 msgctxt "04050000.xhp#tit.help.text"
 msgid "Insert Sheet"
-msgstr ""
+msgstr "Ներդրեք թերթը"
 
 #: 04050000.xhp%23bm_id4522232.help.text
 msgid "<bookmark_value>sheets;creating</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>թերթեր;ստեղծել</bookmark_value>"
 
 #: 04050000.xhp%23hd_id3155629.1.help.text
 msgctxt "04050000.xhp#hd_id3155629.1.help.text"
 msgid "Insert Sheet"
-msgstr ""
+msgstr "Ներդրեք թերթը"
 
 #: 04050000.xhp%23par_id3147264.2.help.text
 msgid ""
@@ -32115,49 +32214,58 @@ msgid ""
 "options to be used to insert a new sheet.</ahelp> You can create a new "
 "sheet, or insert an existing sheet from a file.</variable>"
 msgstr ""
+"<variable id=\"tabelleeinfuegentext\"><ahelp hid=\".uno:Insert\">Սահմանում է "
+"նոր թերթ տեղադրելու համար օգտագործվող ընտրանքները:</ahelp> Կարող եք ստեղծել "
+"նոր թերթ, կամ գոյություն ունեցող թերթ տեղադրել նիշքից:</variable>"
 
 #: 04050000.xhp%23hd_id3154684.19.help.text
 msgid "Position"
-msgstr ""
+msgstr "Դիրք"
 
 #: 04050000.xhp%23par_id3156281.20.help.text
 msgid "Specifies where the new sheet is to be inserted into your document."
-msgstr ""
+msgstr "Նշում է, թե ձեր փաստաթղթում որտեղ է տեղադրվելու նոր թերթը:"
 
 #: 04050000.xhp%23hd_id3154123.21.help.text
 msgid "Before current sheet"
-msgstr ""
+msgstr "Ընթացիկ թերթից առաջ"
 
 #: 04050000.xhp%23par_id3145787.22.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_INSERT_TABLE:RB_BEFORE\">Inserts a new "
 "sheet directly before the current sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_INSERT_TABLE:RB_BEFORE\">Նոր թերթը "
+"տեղադրում է ընթացիկ թերթից անմիջապես առաջ:</ahelp>"
 
 #: 04050000.xhp%23hd_id3155414.23.help.text
 msgid "After current sheet"
-msgstr ""
+msgstr "Ընթացիկ թերթից հետո"
 
 #: 04050000.xhp%23par_id3145271.24.help.text
 msgid ""
 "<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_INSERT_TABLE:RB_BEHIND\">Inserts a new "
 "sheet directly after the current sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:RADIOBUTTON:RID_SCDLG_INSERT_TABLE:RB_BEHIND\">Նոր թերթիկը "
+"տեղադրում է ուղղակիորեն ընթացիկ թերթից հետո:</ahelp>"
 
 #: 04050000.xhp%23hd_id3147428.25.help.text
 msgctxt "04050000.xhp#hd_id3147428.25.help.text"
 msgid "Sheet"
-msgstr ""
+msgstr "Թերթ"
 
 #: 04050000.xhp%23par_id3154012.26.help.text
 msgid ""
 "Specifies whether a new sheet or an existing sheet is inserted into the "
 "document."
 msgstr ""
+"Նշվում է արդյոք նոր թերթ կամ գոյություն ունեցող թերթ է տեղադրված է "
+"փաստաթղթում:"
 
 #: 04050000.xhp%23hd_id3147350.3.help.text
 msgid "New sheet"
-msgstr ""
+msgstr "Նոր թերթ"
 
 #: 04050000.xhp%23par_id3149262.4.help.text
 msgid ""
@@ -32165,52 +32273,63 @@ msgid ""
 "sheet. Enter a sheet name in the <emph>Name</emph> field. Allowed characters "
 "are letters, numbers, spaces, and the underline character.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_RADIOBUTTON_RID_SCDLG_INSERT_TABLE_RB_NEW\">Ստեղծում է նոր "
+"թերթ: Մուտքագրեք թերթիկի անունը <emph>Անուն</emph> դաշտում: Թույլատրված "
+"նիշերը են՝ տառերը, թվերը, բացատները և ընդգծման նիշը:</ahelp>"
 
 #: 04050000.xhp%23hd_id3155418.27.help.text
 msgid "No. of sheets"
-msgstr ""
+msgstr "Թերթերի քանակը"
 
 #: 04050000.xhp%23par_id3148457.28.help.text
 msgid ""
 "<ahelp hid=\"SC:NUMERICFIELD:RID_SCDLG_INSERT_TABLE:NF_COUNT\">Specifies the "
 "number of sheets to be created.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:NUMERICFIELD:RID_SCDLG_INSERT_TABLE:NF_COUNT\">Նշում է "
+"ստեղծվելիք թերթերի քանակը:</ahelp>"
 
 #: 04050000.xhp%23hd_id3149379.7.help.text
 msgctxt "04050000.xhp#hd_id3149379.7.help.text"
 msgid "Name"
-msgstr ""
+msgstr "Անուն"
 
 #: 04050000.xhp%23par_id3150718.8.help.text
 msgid ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_INSERT_TABLE:ED_TABNAME\">Specifies the name "
 "of the new sheet.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_INSERT_TABLE:ED_TABNAME\">Նշում է նոր թերթի "
+"անունը:</ahelp>"
 
 #: 04050000.xhp%23hd_id3155066.9.help.text
 msgid "From File"
-msgstr ""
+msgstr "Նիշքից"
 
 #: 04050000.xhp%23par_id3153714.10.help.text
 msgid ""
 "<ahelp hid=\"SC_RADIOBUTTON_RID_SCDLG_INSERT_TABLE_RB_FROMFILE\">Inserts a "
 "sheet from an existing file into the current document.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_RADIOBUTTON_RID_SCDLG_INSERT_TABLE_RB_FROMFILE\">Առկա նիշքից "
+"թերթը տեղադրում է ընթացիկ փաստաթղթում:</ahelp>"
 
 #: 04050000.xhp%23hd_id3149020.15.help.text
 msgctxt "04050000.xhp#hd_id3149020.15.help.text"
 msgid "Browse"
-msgstr ""
+msgstr "Դիտել"
 
 #: 04050000.xhp%23par_id3159267.16.help.text
 msgid ""
 "<ahelp hid=\"SC:PUSHBUTTON:RID_SCDLG_INSERT_TABLE:BTN_BROWSE\">Opens a "
 "dialog for selecting a file.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:PUSHBUTTON:RID_SCDLG_INSERT_TABLE:BTN_BROWSE\">Նիշքը "
+"ընտրելու համար երկխոսություն է բացվում:</ahelp>"
 
 #: 04050000.xhp%23hd_id3149255.29.help.text
 msgid "Available Sheets"
-msgstr ""
+msgstr "Հասանելի թերթերը"
 
 #: 04050000.xhp%23par_id3155336.30.help.text
 msgid ""
@@ -32219,10 +32338,14 @@ msgid ""
 "contained in it are displayed in the list box. The file path is displayed "
 "below this box. Select the sheet to be inserted from the list box.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:MULTILISTBOX:RID_SCDLG_INSERT_TABLE:LB_TABLES\">Եթե ընտրել "
+"եք նիշքը օգտագործելով <emph>Թերթել </emph> կոճակը, դրանում պարունակվող "
+"թերթերը արտածվում են ցուցակային վանդակում: Նիշքի ուղին արտածվում է այս "
+"վանդակի ներքո: Ընտրեք թերթը, որը պետք է տեղադրվի ցուցակային վանդակից:</ahelp>"
 
 #: 04050000.xhp%23hd_id3145791.17.help.text
 msgid "Link"
-msgstr ""
+msgstr "Կապել"
 
 #: 04050000.xhp%23par_id3152580.18.help.text
 msgid ""
@@ -32230,16 +32353,19 @@ msgid ""
 "the sheet as a link instead as a copy. The links can be updated to show the "
 "current contents.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC_CHECKBOX_RID_SCDLG_INSERT_TABLE_CB_LINK\">Ընտրեք թերթը որպես "
+"հղում և ոչ թե պատճեն տեղադրելու համար: Հղումները կարող են թարմացվել ներկայիս "
+"բովանդակությունը ցույց տալու համար:</ahelp>"
 
 #: 05120000.xhp%23tit.help.text
 msgctxt "05120000.xhp#tit.help.text"
 msgid "Conditional Formatting"
-msgstr ""
+msgstr "Պայմանական ձևավորում"
 
 #: 05120000.xhp%23hd_id3155132.1.help.text
 msgctxt "05120000.xhp#hd_id3155132.1.help.text"
 msgid "Conditional Formatting"
-msgstr ""
+msgstr "Պայմանական ձևավորում"
 
 #: 05120000.xhp%23par_id3163710.2.help.text
 msgid ""
@@ -32253,6 +32379,15 @@ msgid ""
 "2 is evaluated, and its defined style used. If this style does not match, "
 "condition 3 is evaluated."
 msgstr ""
+"<variable id=\"bedingtetext\"><ahelp hid=\".uno:ConditionalFormatDialog\">"
+"Ընտրեք <emph>Պայմանական ձևաչափում</emph>որոշելու ձևաչափի ոճերը, կախված "
+"որոշակի պայմաններից:</ahelp></variable> Եթե ոճը արդեն նշանակվել է բջջին, այն "
+"մնում է անփոփոխ: Այստեղ մուտքագրված ոճը հետո գնահատվում է: Կարող եք "
+"մուտքագրել երեք պայման, որոնք հարցում են կատարում բջջային արժեքների կամ "
+"բանաձևերի պարունակությանը: Պայմանները գնահատվում են 1-ից մինչև 3։ Եթե պայման "
+"1-ը համապատասխանում է պայմանին, կօգտագործվի սահմանված ոճը: Հակառակ դեպքում "
+"գնահատվում է պայման 2-ը, և օգտագործվում է դրա սահմանված ոճը: Եթե այս ոճը չի "
+"համընկնում, 3-րդ պայմանն է գնահատվում:"
 
 #: 05120000.xhp%23par_id2414014.help.text
 msgid ""
@@ -32260,14 +32395,17 @@ msgid ""
 "- Cell Contents - AutoCalculate (you see a check mark next to the command "
 "when AutoCalculate is enabled)."
 msgstr ""
+"Պայմանական ձևաչափումը կիրառելու համար AutoCalculate -ը պետք է միացված լինի: "
+"Ընտրեք Գործիքներ - Բջջի բովանդակություն - Ինքնահաշվարկ (AutoCalculate- ի "
+"միացման դեպքում հրամանի կողքին ստուգման նշան եք տեսնում):"
 
 #: 05120000.xhp%23bm_id3153189.help.text
 msgid "<bookmark_value>conditional formatting; conditions</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>conditional formatting; conditions</bookmark_value>"
 
 #: 05120000.xhp%23hd_id3153189.18.help.text
 msgid "Condition 1/2/3"
-msgstr ""
+msgstr "Condition 1/2/3"
 
 #: 05120000.xhp%23par_id3149413.4.help.text
 msgid ""
@@ -32275,10 +32413,13 @@ msgid ""
 "corresponding to each condition and enter the corresponding "
 "condition.</ahelp> To close the dialog, click <emph>OK</emph>."
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_CONDFORMAT:CBX_COND3\">Նշեք յուրաքանչյուր "
+"պայմանին համապատասխան վանդակները և մուտքագրեք համապատասխան պայմանը:</ahelp> "
+"Երկխոսությունը փակելու համար, սեղմեք <emph>ԼԱՎ</emph>։"
 
 #: 05120000.xhp%23hd_id3147394.5.help.text
 msgid "Cell Value / Formula"
-msgstr ""
+msgstr "Բջջի արժեք / Բանաձև"
 
 #: 05120000.xhp%23par_id3155602.6.help.text
 msgid ""
@@ -32289,30 +32430,40 @@ msgid ""
 "If the condition is \"Formula is\", enter a cell reference. If the cell "
 "reference is a value other than zero, the condition matches."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONDFORMAT:LB_COND3_1\">Նշում է, թե արդյոք "
+"պայմանական ձևաչափումը կախված է բջջային արժեքից կամ բանաձևից:</ahelp> Եթե "
+"ընտրեք բանաձևը որպես հղում, <emph>Բջջային արժեքի պայմանը</emph> վանդակն է "
+"արտածվում <emph>Բջջի արժեք/բանաձև</emph> դաշտից աջ։ Եթե պայմանն է «Բանաձևն է»"
+", մուտքագրեք բջջային հղումը: Եթե բջջային հղումը այլ է քան զրոն, պայմանը "
+"համընկնում է:"
 
 #: 05120000.xhp%23hd_id3153709.7.help.text
 msgid "Cell Value Condition"
-msgstr ""
+msgstr "Բջջի արժեքի պայման"
 
 #: 05120000.xhp%23par_id3153764.8.help.text
 msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONDFORMAT:LB_COND3_2\">Choose a condition "
 "for the format to be applied to the selected cells.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONDFORMAT:LB_COND3_2\">Ընտրեք պայմանը, "
+"որպեսզի ձևաչափը կիրառվի ընտրված բջիջների համար:</ahelp>"
 
 #: 05120000.xhp%23hd_id3156384.9.help.text
 msgid "Cell Style"
-msgstr ""
+msgstr "Բջջի ոճ"
 
 #: 05120000.xhp%23par_id3145228.10.help.text
 msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONDFORMAT:LB_COND3_TEMPLATE\">Choose the "
 "style to be applied if the specified condition matches.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONDFORMAT:LB_COND3_TEMPLATE\">Ընտրեք "
+"կիրառման ոճը, եթե նշված պայմանը համապատասխանում է:</ahelp>"
 
 #: 05120000.xhp%23hd_id0509200913175331.help.text
 msgid "New Style"
-msgstr ""
+msgstr "Նոր ոճ"
 
 #: 05120000.xhp%23par_id0509200913175368.help.text
 msgid ""
@@ -32320,10 +32471,13 @@ msgid ""
 "click New Style to open the Organizer tab page of the Cell Style dialog. "
 "Define a new style there and click OK.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Եթե դեռևս չեք սահմանել օգտագործման ոճը, կարող եք սեղմել նոր "
+"Ոճ, բացելու համար Բջջի ոճի երկխոսության Կազմակերպիչ էջանիշը։ Այնտեղ սահմանեք "
+"նոր ոճը և սեղմեք ԼԱՎ։</ahelp>"
 
 #: 05120000.xhp%23hd_id3146316.11.help.text
 msgid "Parameter field"
-msgstr ""
+msgstr "Պարամետրի դաշտ"
 
 #: 05120000.xhp%23par_id3155114.12.help.text
 msgid ""
@@ -32333,24 +32487,34 @@ msgid ""
 "selected a condition that requires two parameters. You can also enter "
 "formulas containing relative references."
 msgstr ""
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_CONDFORMAT:EDT_COND3_2\" visibility=\"hidden\""
+">Մուտքագրեք հղում, արժեք կամ բանաձև:</ahelp> Պարամետրերի դաշտում կամ էլ "
+"պարամետրային երկու դաշտերում, եթե ընտրել եք մի պայման, որը պահանջում է երկու "
+"պարամետր, մուտքագրեք հղում, արժեք կամ բանաձև: Կարող եք մուտքագրել նաև "
+"հարաբերական հղումներ պարունակող բանաձևեր:"
 
 #: 05120000.xhp%23par_id3145257.13.help.text
 msgid ""
 "Once the parameters have been defined, the condition is complete. It may "
 "appear as:"
 msgstr ""
+"Պարամետրերը սահմանելուց հետո պայմանն ավարտված է: Այն կարող է հայտնվել որպես."
 
 #: 05120000.xhp%23par_id3150784.14.help.text
 msgid ""
 "Cell value is equal 0: Cell style Null value (You must have already defined "
 "a cell style with this name before assigning it to a condition)."
 msgstr ""
+"Բջջի արժեքը հավասար է 0. Բջջի Null ոճի արժեքը (նախքան այն պայմանին "
+"վերագրելը, պետք է որ ունենաք այս անունով սահմանված բջջային ոճ):"
 
 #: 05120000.xhp%23par_id3150365.15.help.text
 msgid ""
 "Cell value is between $B$20 and $B$21: Cell style Result (The corresponding "
 "value limits must already exist in cells B20 and B21)."
 msgstr ""
+"Բջջի արժեքն է $B$20 և $B$21 միջակայքում: Բջջի ոճի արդյունք (Համապատասխան "
+"արժեքի սահմանները պետք է առկա լինեն B20 և B21 բջիջներում)։"
 
 #: 05120000.xhp%23par_id3152992.16.help.text
 msgid ""
@@ -32358,17 +32522,22 @@ msgid ""
 "formatted with the Result style if the sum of the contents in cells A1 to A5 "
 "is equal to 10)."
 msgstr ""
+"բանաձևն է SUM($A$1:$A$5)=10: Բջջի ոճի Արդյունքt (Ընտրված բջիջները ձևափոխվում "
+"են Արդյունքների ոճով, եթե A1-ից մինչև A5 բջիջներում բովանդակության գումարը "
+"հավասար է 10-ի)։"
 
 #: 05120000.xhp%23par_idN107E1.help.text
 msgid ""
 "            <embedvar href=\"text/scalc/guide/cellstyle_conditional.xhp#"
 "cellstyle_conditional\"/>         "
 msgstr ""
+"            <embedvar href=\"text/scalc/guide/cellstyle_conditional.xhp#"
+"cellstyle_conditional\"/>         "
 
 #: 05020000.xhp%23tit.help.text
 msgctxt "05020000.xhp#tit.help.text"
 msgid "Format Cells"
-msgstr ""
+msgstr "Ձևավորեք բջիջները"
 
 #: 05020000.xhp%23bm_id3148663.help.text
 msgid ""
@@ -32376,11 +32545,14 @@ msgid ""
 "lls</bookmark_value><bookmark_value>formatting;cells</bookmark_value><bookmar"
 "k_value>cells;formatting dialog</bookmark_value>"
 msgstr ""
+"<bookmark_value>cell attributes</bookmark_value><bookmark_value>attributes;ce"
+"lls</bookmark_value><bookmark_value>formatting;cells</bookmark_value><bookmar"
+"k_value>cells;formatting dialog</bookmark_value>"
 
 #: 05020000.xhp%23hd_id3148663.1.help.text
 msgctxt "05020000.xhp#hd_id3148663.1.help.text"
 msgid "Format Cells"
-msgstr ""
+msgstr "Ձևավորեք բջիջները"
 
 #: 05020000.xhp%23par_id3150448.2.help.text
 msgid ""
@@ -32388,19 +32560,24 @@ msgid ""
 "Allows you to specify a variety of formatting options and to apply "
 "attributes to the selected cells.</ahelp></variable>"
 msgstr ""
+"<variable id=\"zellattributetext\"><ahelp hid=\".uno:FormatCellDialog\">"
+"Թույլ է տալիս նշել ձևաչափման ընտրանքների տարբերակներ և կիրառել հատկանիշներ "
+"ընտրված բջիջների վրա:</ahelp></variable>"
 
 #: 05020000.xhp%23hd_id3145785.3.help.text
 msgid ""
 "<link href=\"text/shared/01/05020300.xhp\" name=\"Numbers\">Numbers</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/01/05020300.xhp\" name=\"Թվեր\">Թվեր</link>"
 
 #: 05020000.xhp%23hd_id3146119.4.help.text
 msgid "<link href=\"text/shared/01/05020100.xhp\" name=\"Font\">Font</link>"
 msgstr ""
+"<link href=\"text/shared/01/05020100.xhp\" name=\"Տառատեսակ\""
+">Տառատեսակ</link>"
 
 #: 02170000.xhp%23tit.help.text
 msgid "Delete Sheet"
-msgstr ""
+msgstr "Ջնջել թերթը"
 
 #: 02170000.xhp%23bm_id3156424.help.text
 msgid ""
@@ -32409,57 +32586,67 @@ msgid ""
 "deleting</bookmark_value><bookmark_value>deleting; "
 "spreadsheets</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; "
+"deleting</bookmark_value><bookmark_value>sheets; "
+"deleting</bookmark_value><bookmark_value>deleting; "
+"spreadsheets</bookmark_value>"
 
 #: 02170000.xhp%23hd_id3156424.1.help.text
 msgid " Delete Sheet"
-msgstr ""
+msgstr "Ջնջել թերթը"
 
 #: 02170000.xhp%23par_id3153193.2.help.text
 msgid ""
 "<variable id=\"tabelleloeschentext\"><ahelp hid=\".uno:Remove\">Deletes the "
 "current sheet after query confirmation.</ahelp></variable>"
 msgstr ""
+"<variable id=\"tabelleloeschentext\"><ahelp hid=\".uno:Remove\">Ջնջում է "
+"ընթացիկ թերթը հարցման հաստատումից հետո:</ahelp></variable>"
 
 #: 02170000.xhp%23par_id3145801.7.help.text
 msgid ""
 "You cannot delete a sheet while <emph>Edit - Changes - Record</emph> is "
 "activated."
 msgstr ""
+"Չեք կարող ջնջել թերթը, քանի դեռ <emph>Խմբագրել - Փոփոխություններ - "
+"Գրառում</emph> ակտիվ է։"
 
 #: 02170000.xhp%23hd_id3147124.3.help.text
 msgid "Yes"
-msgstr ""
+msgstr "Այո"
 
 #: 02170000.xhp%23par_id3154943.4.help.text
 msgid "Deletes the current sheet."
-msgstr ""
+msgstr "Ջնջում է ընթացիկ թերթը։"
 
 #: 02170000.xhp%23hd_id3149412.5.help.text
 msgid "No"
-msgstr ""
+msgstr "Ոչ"
 
 #: 02170000.xhp%23par_id3154510.6.help.text
 msgid "Cancels the dialog. No delete is performed."
-msgstr ""
+msgstr "Չեղարկում է երկխոսությունը: Ջնջում չի կատարվում:"
 
 #: 12090300.xhp%23tit.help.text
 msgctxt "12090300.xhp#tit.help.text"
 msgid "Delete"
-msgstr ""
+msgstr "Ջնջել"
 
 #: 12090300.xhp%23hd_id3150276.1.help.text
 msgid "<link href=\"text/scalc/01/12090300.xhp\" name=\"Delete\">Delete</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/12090300.xhp\" name=\"Ջնջել\">Ջնջել</link>"
 
 #: 12090300.xhp%23par_id3159400.2.help.text
 msgid ""
 "<ahelp hid=\".uno:DeletePivotTable\" visibility=\"visible\">Deletes the "
 "selected pivot table.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:DeletePivotTable\" visibility=\"visible\">Ջնջում է ընտրված "
+"առանցքային աղյուսակը:</ahelp>"
 
 #: 04060182.xhp%23tit.help.text
 msgid "Statistical Functions Part Two"
-msgstr ""
+msgstr "Վիճակագրական գործառույթներ Մաս երկրորդ"
 
 #: 04060182.xhp%23hd_id3154372.1.help.text
 msgid ""
@@ -32467,16 +32654,21 @@ msgid ""
 "Statistical Functions Part Two\">Statistical Functions Part "
 "Two</link></variable>"
 msgstr ""
+"<variable id=\"fh\"><link href=\"text/scalc/01/04060182.xhp\" name=\""
+"SՎիճակագրական գործառույթներ Մաս երկրորդ\">Վիճակագրական գործառույթներ Մաս "
+"երկրորդ</link></variable>"
 
 #: 04060182.xhp%23bm_id3145388.help.text
 msgid ""
 "<bookmark_value>FINV function</bookmark_value>         <bookmark_value>"
 "inverse F probability distribution</bookmark_value>"
 msgstr ""
+"<bookmark_value>FINV function</bookmark_value>         <bookmark_value>"
+"հակադարձ F հավանականության բաշխումը</bookmark_value>"
 
 #: 04060182.xhp%23hd_id3145388.2.help.text
 msgid "FINV"
-msgstr ""
+msgstr "FINV"
 
 #: 04060182.xhp%23par_id3155089.3.help.text
 msgid ""
@@ -32484,88 +32676,103 @@ msgid ""
 "distribution.</ahelp> The F distribution is used for F tests in order to set "
 "the relation between two differing data sets."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_FINV\">Վերադարձնում է F հավանականային բաշխման "
+"հակադարձը։</ahelp> F բաշխումը օգտագործվում է F թեստերի համար, երկու տարբեր "
+"տվյալների հավաքածուների միջև կապը սահմանելու համար:"
 
 #: 04060182.xhp%23hd_id3153816.4.help.text
 msgctxt "04060182.xhp#hd_id3153816.4.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060182.xhp%23par_id3153068.5.help.text
 msgid "FINV(Number; DegreesFreedom1; DegreesFreedom2)"
-msgstr ""
+msgstr "FINV(Number; DegreesFreedom1; DegreesFreedom2)"
 
 #: 04060182.xhp%23par_id3146866.6.help.text
 msgid ""
 "            <emph>Number</emph> is probability value for which the inverse F "
 "distribution is to be calculated."
 msgstr ""
+"            <emph>Թիվ</emph> հավանականության արժեքն է, որի համար պետք է "
+"հաշվարկվի հակադարձ F բաշխումը:"
 
 #: 04060182.xhp%23par_id3153914.7.help.text
 msgid ""
 "            <emph>DegreesFreedom1</emph> is the number of degrees of freedom "
 "in the numerator of the F distribution."
 msgstr ""
+"            <emph>DegreesFreedom1</emph> F բաշխման համարիչում ազատության "
+"աստիճանների թիվն է:"
 
 #: 04060182.xhp%23par_id3148607.8.help.text
 msgid ""
 "            <emph>DegreesFreedom2</emph> is the number of degrees of freedom "
 "in the denominator of the F distribution."
 msgstr ""
+"            <emph>DegreesFreedom2</emph> F բաշխման հայտարարում ազատության "
+"աստիճանների թիվն է:"
 
 #: 04060182.xhp%23hd_id3156021.9.help.text
 msgctxt "04060182.xhp#hd_id3156021.9.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060182.xhp%23par_id3145073.10.help.text
 msgid "            <item type=\"input\">=FINV(0.5;5;10)</item> yields 0.93."
 msgstr ""
+"            <item type=\"input\">=FINV(0.5;5;10)</item> վերադարձնում է 0.93։"
 
 #: 04060182.xhp%23bm_id3150888.help.text
 msgid "<bookmark_value>FISHER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FISHER function</bookmark_value>"
 
 #: 04060182.xhp%23hd_id3150888.12.help.text
 msgid "FISHER"
-msgstr ""
+msgstr "FISHER"
 
 #: 04060182.xhp%23par_id3155384.13.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_FISHER\">Returns the Fisher transformation for x and "
 "creates a function close to a normal distribution.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_FISHER\">X-ի համար վերադարձնում է Ֆիշերի վերափոխումը և "
+"ստեղծում է նորմալ բաշխմանը մոտ գործառույթ:</ahelp>"
 
 #: 04060182.xhp%23hd_id3149898.14.help.text
 msgctxt "04060182.xhp#hd_id3149898.14.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060182.xhp%23par_id3143220.15.help.text
 msgid "FISHER(Number)"
-msgstr ""
+msgstr "FISHER(Number)"
 
 #: 04060182.xhp%23par_id3159228.16.help.text
 msgid "            <emph>Number</emph> is the value to be transformed."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> այն արժեքն է, որը պետք է փոխակերպվի:"
 
 #: 04060182.xhp%23hd_id3154763.17.help.text
 msgctxt "04060182.xhp#hd_id3154763.17.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060182.xhp%23par_id3149383.18.help.text
 msgid "            <item type=\"input\">=FISHER(0.5)</item> yields 0.55."
 msgstr ""
+"            <item type=\"input\">=FISHER(0.5)</item> վերադարձնում է 0.55։"
 
 #: 04060182.xhp%23bm_id3155758.help.text
 msgid ""
 "<bookmark_value>FISHERINV function</bookmark_value>         <bookmark_value>"
 "inverse of Fisher transformation</bookmark_value>"
 msgstr ""
+"<bookmark_value>FISHERINV function</bookmark_value>         <bookmark_value>"
+"inverse of Fisher transformation</bookmark_value>"
 
 #: 04060182.xhp%23hd_id3155758.20.help.text
 msgid "FISHERINV"
-msgstr ""
+msgstr "FISHERINV"
 
 #: 04060182.xhp%23par_id3154734.21.help.text
 msgid ""
@@ -32573,64 +32780,69 @@ msgid ""
 "transformation for x and creates a function close to a normal "
 "distribution.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_FISHERINV\">X-ի համար վերադարձնում է Ֆիշերի "
+"փոխակերպման հակադարձումը և ստեղծում է նորմալ բաշխմանը մոտ գործառույթ:</ahelp>"
 
 #: 04060182.xhp%23hd_id3155755.22.help.text
 msgctxt "04060182.xhp#hd_id3155755.22.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060182.xhp%23par_id3146108.23.help.text
 msgid "FISHERINV(Number)"
-msgstr ""
+msgstr "FISHERINV(Number)"
 
 #: 04060182.xhp%23par_id3145115.24.help.text
 msgid ""
 "            <emph>Number</emph> is the value that is to undergo reverse-"
 "transformation."
 msgstr ""
+"            <emph>Թիվ</emph> այն արժեքն է, որը պետք է ենթարկվի հակադարձ "
+"փոխակերպման:"
 
 #: 04060182.xhp%23hd_id3155744.25.help.text
 msgctxt "04060182.xhp#hd_id3155744.25.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060182.xhp%23par_id3150432.26.help.text
 msgid "            <item type=\"input\">=FISHERINV(0.5)</item> yields 0.46."
 msgstr ""
+"            <item type=\"input\">=FISHERINV(0.5)</item> վերադարձնում է 0.46։"
 
 #: 04060182.xhp%23bm_id3151390.help.text
 msgid "<bookmark_value>FTEST function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FTEST function</bookmark_value>"
 
 #: 04060182.xhp%23hd_id3151390.28.help.text
 msgid "FTEST"
-msgstr ""
+msgstr "FTEST"
 
 #: 04060182.xhp%23par_id3150534.29.help.text
 msgid "<ahelp hid=\"HID_FUNC_FTEST\">Returns the result of an F test.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FTEST\">Վերադարձնում է F թեստի արդյունքը։</ahelp>"
 
 #: 04060182.xhp%23hd_id3166466.30.help.text
 msgctxt "04060182.xhp#hd_id3166466.30.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060182.xhp%23par_id3153024.31.help.text
 msgid "FTEST(Data1; Data2)"
-msgstr ""
+msgstr "FTEST(Data1; Data2)"
 
 #: 04060182.xhp%23par_id3150032.32.help.text
 msgid "            <emph>Data1</emph> is the first record array."
-msgstr ""
+msgstr "            <emph>Data1</emph> գրառումների առաջին զանգվածն է"
 
 #: 04060182.xhp%23par_id3153018.33.help.text
 msgid "            <emph>Data2</emph> is the second record array."
-msgstr ""
+msgstr "            <emph>Data2</emph> գրառումների երկրորդ զանգվածն է"
 
 #: 04060182.xhp%23hd_id3153123.34.help.text
 msgctxt "04060182.xhp#hd_id3153123.34.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060182.xhp%23par_id3159126.35.help.text
 msgid ""
