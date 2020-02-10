@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-08 13:15+0000\n"
+"PO-Revision-Date: 2020-02-09 18:32+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1581167734.000000\n"
+"X-POOTLE-MTIME: 1581273156.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -34516,6 +34516,8 @@ msgid ""
 "            <emph>Reference</emph> is the reference to a cell or cell area "
 "whose first column number is to be found."
 msgstr ""
+"            <emph>Հղում</emph> հղում է բջջին կամ բջջային տարածքին, որի "
+"առաջին սյունակի համարը պետք է որոշել:"
 
 #: 04060109.xhp%23par_id3155837.194.help.text
 msgid ""
@@ -34523,23 +34525,30 @@ msgid ""
 "formula is entered is found. <item type=\"productname\">%PRODUCTNAME</item> "
 "Calc automatically sets the reference to the current cell."
 msgstr ""
+"Եթե որևէ հղում մուտքագրված չէ, ապա գտնվում է բջջի այն սյունակի համարը, որում "
+"մուտքագրված է բանաձևը: <item type=\"productname\">%PRODUCTNAME</item> Calc-y "
+"ինքնասահմանում է հղումը ընթացիկ բջիջին:"
 
 #: 04060109.xhp%23hd_id3152932.75.help.text
 msgctxt "04060109.xhp#hd_id3152932.75.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3147571.76.help.text
 msgid ""
 "            <item type=\"input\">=COLUMN(A1)</item> equals 1. Column A is "
 "the first column in the table."
 msgstr ""
+"            <item type=\"input\">=COLUMN(A1)</item> հավասար է 1-ի։ Աղյուսակի "
+"առաջին սյունակը A-ն է։"
 
 #: 04060109.xhp%23par_id3147079.77.help.text
 msgid ""
 "            <item type=\"input\">=COLUMN(C3:E3)</item> equals 3. Column C is "
 "the third column in the table."
 msgstr ""
+"            <item type=\"input\">=COLUMN(C3:E3)</item> հավասար է 3-ի։ "
+"Աղյուսակի երրորդ սյունակը C-ն է։"
 
 #: 04060109.xhp%23par_id3146861.195.help.text
 msgid ""
@@ -34548,6 +34557,10 @@ msgid ""
 "used as an array formula. (In this case, the first value of the array is "
 "always used as the result.)"
 msgstr ""
+"            <item type=\"input\">=COLUMN(D3:G10)</item> վերադարձնում է 4, "
+"քանի որ D սյունակը աղյուսակի չորրորդ սյունն է, և COLUMN գործառույթը չի "
+"օգտագործվում որպես զանգվածի բանաձև: (Այս դեպքում զանգվածի առաջին արժեքը միշտ "
+"օգտագործվում է որպես արդյունք:)"
 
 #: 04060109.xhp%23par_id3156320.196.help.text
 msgid ""
@@ -34557,80 +34570,101 @@ msgid ""
 "areas have only one column number, it does not make a difference whether or "
 "not the formula is used as an array formula."
 msgstr ""
+"            <item type=\"input\">{=COLUMN(B2:B7)}</item> և <item type=\""
+"input\">=COLUMN(B2:B7)</item> երկուսն էլ վերադարձնում են 2, քանի որ հղումը "
+"պարունակում է միայն B սյունակ, որպես աղյուսակի երկրորդ սյուն: Քանի որ մեկ-"
+"սյունակային տարածքները ունեն սյունակի միայն մեկ համար, նշանակություն չունի "
+"թե արդյոք բանաձևն օգտագործվում է որպես զանգվածային բանաձև:"
 
 #: 04060109.xhp%23par_id3150872.197.help.text
 msgid ""
 "            <item type=\"input\">=COLUMN()</item> returns 3 if the formula "
 "was entered in column C."
 msgstr ""
+"            <item type=\"input\">=COLUMN()</item> վերադարձնում է 3-ը, եթե "
+"բանաձևը մուտքագրվել է C սյունակում:"
 
 #: 04060109.xhp%23par_id3153277.198.help.text
 msgid ""
 "            <item type=\"input\">{=COLUMN(Rabbit)}</item> returns the single-"
 "row array (3, 4) if \"Rabbit\" is the named area (C1:D3)."
 msgstr ""
+"            <item type=\"input\">{=COLUMN(Rabbit)}</item> վերադարձնում է մեկ "
+"տողանի (3, 4) զանգվածը, եթե «Ճագարը» (C1:D3) անվանական տարածք է:"
 
 #: 04060109.xhp%23bm_id3154643.help.text
 msgid "<bookmark_value>COLUMNS function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>COLUMNS function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3154643.79.help.text
 msgid "COLUMNS"
-msgstr ""
+msgstr "COLUMNS"
 
 #: 04060109.xhp%23par_id3151182.80.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SPALTEN\">Returns the number of columns in the given "
 "reference.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SPALTEN\">Վերադարձնում է սյունակների քանակը տվյալ "
+"հղումում։</ahelp>"
 
 #: 04060109.xhp%23hd_id3149141.81.help.text
 msgctxt "04060109.xhp#hd_id3149141.81.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3154047.82.help.text
 msgid "COLUMNS(Array)"
-msgstr ""
+msgstr "COLUMNS(Array)"
 
 #: 04060109.xhp%23par_id3154745.83.help.text
 msgid ""
 "            <emph>Array</emph> is the reference to a cell range whose total "
 "number of columns is to be found. The argument can also be a single cell."
 msgstr ""
+"            <emph>Զանգված</emph> հղում է բջջային տիրույթին, որի սյունակների "
+"ընդհանուր քանակը պետք է գտնել: Փաստարկը կարող է նաև լինել մեկ բջիջ:"
 
 #: 04060109.xhp%23hd_id3153622.84.help.text
 msgctxt "04060109.xhp#hd_id3153622.84.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3149577.200.help.text
 msgid ""
 "            <item type=\"input\">=COLUMNS(B5)</item> returns 1 because a "
 "cell only contains one column."
 msgstr ""
+"            <item type=\"input\">=COLUMNS(B5)</item> վերադարձնում է 1, քանի "
+"որ բջիջը պարունակում է միայն մեկ սյունակ:"
 
 #: 04060109.xhp%23par_id3145649.85.help.text
 msgid ""
 "            <item type=\"input\">=COLUMNS(A1:C5)</item> equals 3. The "
 "reference comprises three columns."
 msgstr ""
+"            <item type=\"input\">=COLUMNS(A1:C5)</item> հավասար է 3-ի։ "
+"Հղումը համեմատում է երեք սյունակները։"
 
 #: 04060109.xhp%23par_id3155846.201.help.text
 msgid ""
 "            <item type=\"input\">=COLUMNS(Rabbit)</item> returns 2 if <item "
 "type=\"literal\">Rabbit</item> is the named range (C1:D3)."
 msgstr ""
+"            <item type=\"input\">=COLUMNS(Rabbit)</item> վերադարձնում է 2, "
+"եթե <item type=\"literal\">Ճագարը</item> (C1:D3) անվանական տիրույթ է։"
 
 #: 04060109.xhp%23bm_id3153152.help.text
 msgid ""
 "<bookmark_value>vertical search function</bookmark_value>         "
 "<bookmark_value>VLOOKUP function</bookmark_value>"
 msgstr ""
+"<bookmark_value>vertical search function</bookmark_value>         "
+"<bookmark_value>VLOOKUP function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3153152.87.help.text
 msgid "VLOOKUP"
-msgstr ""
+msgstr "VLOOKUP"
 
 #: 04060109.xhp%23par_id3149984.88.help.text
 msgid ""
@@ -34647,33 +34681,51 @@ msgid ""
 "<emph>Error: Value Not Available</emph> will be the result. Thus with a "
 "value of zero the data does not need to be sorted in ascending order."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SVERWEIS\">Ուղղահայաց որոնում ըստ աջ կողմում գտնվող "
+"հարակից բջիջների հղման:</ahelp> Այս գործառույթը ստուգում է, արդյոք հատուկ "
+"արժեքը պարունակվում է զանգվածի առաջին սյունակում: Այնուհետև գործառույթը "
+"վերադարձնում է արժեքը նույն անունով սյունակի նույն շարքում <item type=\""
+"literal\">Index</item>. Եթե <item type=\"literal\">SortOrder</item> "
+"պարամետրը բաց է թողված կամ դրված է որպես TRUE կամ մեկ, ենթադրվում է, որ "
+"տվյալները տեսակավորված են աճման կարգով: Այս դեպքում, եթե ճշգրիտ <item type=\""
+"literal\">SearchCriterion</item> չի գտնված, վերջին արժեքը, որը չափանիշից "
+"փոքր է, կվերադարձվի: Եթե <item type=\"literal\">SortOrder</item> դրված է "
+"որպես FALSE կամ զրո, պետք է գտնվի ճշգրիտ համընկնում, հակառակ դեպքում "
+"արդյունքը կլինի <emph>Սխալ․ արժեքը մատչելի չէ</emph>: Այսպիսով, զրոյական "
+"արժեքով տվյալները աճման կարգով տեսակավորելու կարիք չկա:"
 
 #: 04060109.xhp%23hd_id3146898.89.help.text
 msgctxt "04060109.xhp#hd_id3146898.89.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3150156.90.help.text
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortOrder)"
-msgstr ""
+msgstr "=VLOOKUP(SearchCriterion; Array; Index; SortOrder)"
 
 #: 04060109.xhp%23par_id3149289.91.help.text
 msgid ""
 "            <emph>SearchCriterion</emph> is the value searched for in the "
 "first column of the array."
 msgstr ""
+"            <emph>SearchCriterion</emph> զանգվածի առաջին սյունակում որոնված "
+"արժեքն է:"
 
 #: 04060109.xhp%23par_id3153884.92.help.text
 msgid ""
 "            <emph>Array</emph> is the reference, which is to comprise at "
 "least two columns."
 msgstr ""
+"            <emph>Զանգված</emph> հղումն է, որը պետք է ունենա առնվազն երկու "
+"սյուն:"
 
 #: 04060109.xhp%23par_id3156005.93.help.text
 msgid ""
 "            <emph>Index</emph> is the number of the column in the array that "
 "contains the value to be returned. The first column has the number 1."
 msgstr ""
+"            <emph>Ցուցիչ</emph> զանգվածի սյունակի թիվն է, որը պարունակում է "
+"վերադարձվող արժեքը: Առաջին սյունակի համարը 1 է։"
 
 #: 04060109.xhp%23par_id3151208.94.help.text
 msgid ""
@@ -34686,11 +34738,20 @@ msgid ""
 "lists, the search value must be matched exactly. Otherwise the function will "
 "return this message: <emph>Error: Value Not Available</emph>."
 msgstr ""
+"            <emph>SortOrder</emph> կամընտրական պարամետր է, որը ցույց է "
+"տալիս, թե արդյոք զանգվածի առաջին սյունը տեսակավորված է աճման կարգով: "
+"Մուտքագրեք FALSE Բուլյան արժեքը կամ զրո, եթե առաջին սյունակը դասավորված չէ "
+"աճման կարգով: Տեսակավորված սյուները կարելի է շատ ավելի արագ որոնել, և "
+"գործառույթը միշտ վերադարձնում է արժեք, նույնիսկ եթե որոնման արժեքը ճշգրտորեն "
+"չի համընկնում, եթե այն դասավորված է ցուցակի ամենացածր և բարձրագույն "
+"արժեքների միջև: Չտեսակավորված ցուցակներում որոնման արժեքը պետք է ճշգրտորեն "
+"համընկնի: Հակառակ դեպքում գործառույթը կվերադարձնի այս հաղորդագրությունը. "
+"<emph>Սխալ․ արժեքը հասանելի չէ</emph>։"
 
 #: 04060109.xhp%23hd_id3147487.95.help.text
 msgctxt "04060109.xhp#hd_id3147487.95.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3154129.96.help.text
 msgid ""
@@ -34702,14 +34763,21 @@ msgid ""
 "column D are sorted in ascending order; thus, the optional <item type=\""
 "literal\">SortOrder</item> parameter is not necessary."
 msgstr ""
+"A1 բջիջում ցանկանում եք մուտքագրել ճաշատեսակի համարը, իսկ ճաշատեսակի անունը "
+"որպես տեքստ անմիջապես կհայտնվի հարևան բջիջում (B1): Անվան և համարի "
+"համապատասխանությունը պարունակվում է D1:E100 զանգվածում: D1-ը պարունակում է <"
+"item type=\"input\">100</item>, E1-ը պարունակում է <item type=\"input\">"
+"բանջարեղենի ապուր</item>, և այլն, ընտրացանկի 100 կետերի համար: D սյունակում "
+"նշված համարները դասավորված են աճման կարգով. այսպիսով <item type=\"literal\""
+">SortOrder</item> կամընտրական պարամետրը պարտադիր չէ:"
 
 #: 04060109.xhp%23par_id3145663.97.help.text
 msgid "Enter the following formula in B1:"
-msgstr ""
+msgstr "Մուտք արեք հետևյալ բանաձևը B1-ում:"
 
 #: 04060109.xhp%23par_id3151172.98.help.text
 msgid "            <item type=\"input\">=VLOOKUP(A1;D1:E100;2)</item>         "
-msgstr ""
+msgstr "            <item type=\"input\">=VLOOKUP(A1;D1:E100;2)</item>         "
 
 #: 04060109.xhp%23par_id3149200.99.help.text
 msgid ""
@@ -34719,17 +34787,24 @@ msgid ""
 "FALSE as the last parameter in the formula so that an error message is "
 "generated when a nonexistent number is entered."
 msgstr ""
+"Հենց A1 B1- ում մի թիվ մուտքագրեք, ցույց կտա համապատասխան տեքստը, որը "
+"պարունակվում է D1:E100 հղման երկրորդ սյունակում: Գոյություն չունեցող համարը "
+"մուտքագրելիս, կարտածվի տեքստը հաջորդ նվազող համարը: Դա կանխելու համար "
+"մուտքագրեք FALSE -ը որպես բանաձևի վերջին պարամետր, որպեսզի սխալի "
+"հաղորդագրություն ստեղծվի, երբ գոյություն չունեցող թիվ է մուտքագրվում:"
 
 #: 04060109.xhp%23bm_id3153905.help.text
 msgid ""
 "<bookmark_value>sheet numbers; looking up</bookmark_value>         "
 "<bookmark_value>SHEET function</bookmark_value>"
 msgstr ""
+"<bookmark_value>sheet numbers; looking up</bookmark_value>         "
+"<bookmark_value>SHEET function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3153905.215.help.text
 msgctxt "04060109.xhp#hd_id3153905.215.help.text"
 msgid "SHEET"
-msgstr ""
+msgstr "SHEET"
 
 #: 04060109.xhp%23par_id3150309.216.help.text
 msgid ""
@@ -34738,42 +34813,51 @@ msgid ""
 "parameters, the result is the sheet number of the spreadsheet containing the "
 "formula."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TABELLE\">Վերադարձնում է հղման թերթի համարը, կամ թերթի "
+"անունը ներկայացնող տողը:</ahelp> Եթե պարամետրեր չեք մուտքագրում, որպես "
+"արդյունք ստանում եք բանաձևը պարունակող փռված թերթի թերթիկի համարը:"
 
 #: 04060109.xhp%23hd_id3148564.217.help.text
 msgctxt "04060109.xhp#hd_id3148564.217.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3153095.218.help.text
 msgid "SHEET(Reference)"
-msgstr ""
+msgstr "SHEET(Reference)"
 
 #: 04060109.xhp%23par_id3154588.219.help.text
 msgid ""
 "            <emph>Reference</emph> is optional and is the reference to a "
 "cell, an area, or a sheet name string."
 msgstr ""
+"            <emph>Հղում</emph> կամընտրական է և հղում է բջիջին, տարածքին կամ "
+"թերթի անվան տողին:"
 
 #: 04060109.xhp%23hd_id3155399.220.help.text
 msgctxt "04060109.xhp#hd_id3155399.220.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3146988.221.help.text
 msgid ""
 "            <item type=\"input\">=SHEET(Sheet2.A1)</item> returns 2 if "
 "Sheet2 is the second sheet in the spreadsheet document."
 msgstr ""
+"            <item type=\"input\">=SHEET(Sheet2.A1)</item> վերադարձնում է 2, "
+"եթե Sheet2 -ը փռված թերթի փաստաթղթի երկրորդ թերթն է:"
 
 #: 04060109.xhp%23bm_id3148829.help.text
 msgid ""
 "<bookmark_value>number of sheets; function</bookmark_value>         "
 "<bookmark_value>SHEETS function</bookmark_value>"
 msgstr ""
+"<bookmark_value>number of sheets; function</bookmark_value>         "
+"<bookmark_value>SHEETS function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3148829.222.help.text
 msgid "SHEETS"
-msgstr ""
+msgstr "SHEETS"
 
 #: 04060109.xhp%23par_id3148820.223.help.text
 msgid ""
@@ -34781,40 +34865,48 @@ msgid ""
 "reference.</ahelp> If you do not enter any parameters, it returns the number "
 "of sheets in the current document."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TABELLEN\">Որոշում է թերթիկների քանակը հղման "
+"մեջ:</ahelp> Եթե պարամետրերը տրված չեն, այն վերադարձնում է ընթացիկ "
+"փաստաթղթում թերթերի քանակը:"
 
 #: 04060109.xhp%23hd_id3154220.224.help.text
 msgctxt "04060109.xhp#hd_id3154220.224.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3150777.225.help.text
 msgid "SHEETS(Reference)"
-msgstr ""
+msgstr "SHEETS(Reference)"
 
 #: 04060109.xhp%23par_id3153060.226.help.text
 msgid ""
 "            <emph>Reference</emph> is the reference to a sheet or an area. "
 "This parameter is optional."
 msgstr ""
+"            <emph>Հղում</emph> թերթիկին կամ տարածքին հղումն է: Այս պարամետրը "
+"կամընտրական է:"
 
 #: 04060109.xhp%23hd_id3149766.227.help.text
 msgctxt "04060109.xhp#hd_id3149766.227.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3150507.228.help.text
 msgid ""
 "            <item type=\"input\">=SHEETS(Sheet1.A1:Sheet3.G12)</item> "
 "returns 3 if Sheet1, Sheet2, and Sheet3 exist in the sequence indicated."
 msgstr ""
+"            <item type=\"input\">=SHEETS(Sheet1.A1:Sheet3.G12)</item> "
+"վերադարձնում է 3, եթե Sheet1, Sheet2, և Sheet3 առկա են նշված "
+"հաջորդականության մեջ:"
 
 #: 04060109.xhp%23bm_id3158407.help.text
 msgid "<bookmark_value>MATCH function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>MATCH function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3158407.101.help.text
 msgid "MATCH"
-msgstr ""
+msgstr "MATCH"
 
 #: 04060109.xhp%23par_id3154896.102.help.text
 msgid ""
@@ -34822,27 +34914,34 @@ msgid ""
 "in an array that matches a specified value.</ahelp> The function returns the "
 "position of the value found in the lookup_array as a number."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VERGLEICH\">Վերադարձնում է տարրի հարաբերական դիրքը "
+"զանգվածում, որը համապատասխանում է նշված արժեքին:</ahelp> Գործառույթը "
+"վերադարձնում է lookup_array -ում հայտնաբերված արժեքի դիրքը որպես թիվ:"
 
 #: 04060109.xhp%23hd_id3153834.103.help.text
 msgctxt "04060109.xhp#hd_id3153834.103.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3159152.104.help.text
 msgid "MATCH(SearchCriterion; LookupArray; Type)"
-msgstr ""
+msgstr "MATCH(SearchCriterion; LookupArray; Type)"
 
 #: 04060109.xhp%23par_id3149336.105.help.text
 msgid ""
 "            <emph>SearchCriterion</emph> is the value which is to be "
 "searched for in the single-row or single-column array."
 msgstr ""
+"            <emph>SearchCriterion</emph> այն արժեքն է, որը պետք է փնտրել մեկ "
+"տողային կամ մեկ սյունակային զանգվածում:"
 
 #: 04060109.xhp%23par_id3159167.106.help.text
 msgid ""
 "            <emph>LookupArray</emph> is the reference searched. A lookup "
 "array can be a single row or column, or part of a single row or column."
 msgstr ""
+"            <emph>LookupArray</emph> որոնման համար հղում է: Որոնման զանգվածը "
+"կարող է լինել մեկ տող կամ սյունակ, կամ մեկ տողի կամ սյունակի մի մաս:"
 
 #: 04060109.xhp%23par_id3147239.107.help.text
 msgid ""
@@ -34852,6 +34951,11 @@ msgid ""
 "assumed that the column in sorted in descending order. This corresponds to "
 "the same function in Microsoft Excel."
 msgstr ""
+"            <emph>Տեսակ</emph> կարող է ունենալ 1, 0, կամ -1 արժեքները։ Եթե "
+"Type = 1 կամ եթե այս կամայական պարամետրը բացակայում է, ենթադրվում է, որ "
+"որոնման զանգվածի առաջին սյունը դասավորված է աճման կարգով: Եթե Type = -1 "
+"ենթադրվում է, որ սյունակը տեսակավորված է նվազման կարգով: Սա համապատասխանում "
+"է նույն գործառույթին Microsoft Excel-ում:"
 
 #: 04060109.xhp%23par_id3154265.231.help.text
 msgid ""
@@ -34859,6 +34963,10 @@ msgid ""
 "more than once, the function returns the index of the first matching value. "
 "Only if Type = 0 can you search for regular expressions."
 msgstr ""
+"Եթե Type = 0, միայն ճշգրիտ համընկնումներն են հայտնաբերվում: Եթե որոնման "
+"չափանիշը գտնվել է մեկից ավելի անգամ, ապա գործառույթը վերադարձնում է առաջին "
+"համապատասխանող արժեքի ցուցանիշը: Միայն եթե Type = 0 կարող եք որոնել "
+"կանոնավոր արտահայտություններ:"
 
 #: 04060109.xhp%23par_id3147528.232.help.text
 msgid ""
@@ -34867,11 +34975,15 @@ msgid ""
 "even when the search array is not sorted. For Type = -1, the first value "
 "that is larger or equal is returned."
 msgstr ""
+"Եթե Type = 1 կամ երրորդ պարամետրը բացակայում է, վերադարձվում է վերջին արժեքի "
+"ցուցիչը, որը փոքր է կամ հավասար է որոնման չափանիշին: Սա վերաբերվում է "
+"նույնիսկ այն դեպքին, երբ որոնման զանգվածը տեսակավորված չէ: Type = -1 համար "
+"վերադարձվում է մեծ կամ հավասար առաջին արժեքը:"
 
 #: 04060109.xhp%23hd_id3155119.108.help.text
 msgctxt "04060109.xhp#hd_id3155119.108.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3155343.109.help.text
 msgid ""
@@ -34881,41 +34993,52 @@ msgid ""
 "returned. If a higher value is found during the search in the column, the "
 "number of the previous row is returned."
 msgstr ""
+"            <item type=\"input\">=MATCH(200;D1:D100)</item> որոնում է D1:"
+"D100 տարածքը, որը տեսակավորված է ըստ D սյունակի, ըստ 200 արժեքի: Հենց այս "
+"արժեքը հասնի, վերադարձվում է այն տողի համարը, որում այն գտնվել է: Եթե "
+"սյունակում որոնման ընթացքում ավելի մեծ արժեք է գտնվում, նախորդ տողի համարն է "
+"վերադարձվում:"
 
 #: 04060109.xhp%23bm_id3158430.help.text
 msgid "<bookmark_value>OFFSET function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>OFFSET function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3158430.111.help.text
 msgid "OFFSET"
-msgstr ""
+msgstr "OFFSET"
 
 #: 04060109.xhp%23par_id3149167.112.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_VERSCHIEBUNG\">Returns the value of a cell offset by a "
 "certain number of rows and columns from a given reference point.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VERSCHIEBUNG\">Վերադարձնում է բջջի շեղման արժեքը ըստ "
+"որոշակի թվով տողերի և սյունակների` տվյալ հղման կետից:</ahelp>"
 
 #: 04060109.xhp%23hd_id3146952.113.help.text
 msgctxt "04060109.xhp#hd_id3146952.113.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3159194.114.help.text
 msgid "OFFSET(Reference; Rows; Columns; Height; Width)"
-msgstr ""
+msgstr "OFFSET(Reference; Rows; Columns; Height; Width)"
 
 #: 04060109.xhp%23par_id3152360.115.help.text
 msgid ""
 "            <emph>Reference</emph> is the reference from which the function "
 "searches for the new reference."
 msgstr ""
+"            <emph>Հղում</emph> այն հղումն է, որից գործառույթը որոնում է նոր "
+"հղում:"
 
 #: 04060109.xhp%23par_id3156032.116.help.text
 msgid ""
 "            <emph>Rows</emph> is the number of rows by which the reference "
 "was corrected up (negative value) or down."
 msgstr ""
+"            <emph>Տողեր</emph> այն տողերի քանակն է, որոնց միջոցով հղումը "
+"շտկվել է վեր (բացասական արժեք) կամ ներքև:"
 
 #: 04060109.xhp%23par_id3166458.117.help.text
 msgid ""
@@ -34923,41 +35046,52 @@ msgid ""
 "which the reference was corrected to the left (negative value) or to the "
 "right."
 msgstr ""
+"            <emph>Սյունակներ</emph> (կամընտրական) սյունակների քանակն է, որով "
+"հղումը ճշգրտվել է դեպի ձախ (բացասական արժեք) կամ դեպի աջ:"
 
 #: 04060109.xhp%23par_id3150708.118.help.text
 msgid ""
 "            <emph>Height</emph> (optional) is the vertical height for an "
 "area that starts at the new reference position."
 msgstr ""
+"            <emph>Բարձրություն</emph> (կամընտրական) հղման նոր դիրքում սկսվող "
+"տարածքի համար ուղղահայաց բարձրությունն է:"
 
 #: 04060109.xhp%23par_id3147278.119.help.text
 msgid ""
 "            <emph>Width</emph> (optional) is the horizontal width for an "
 "area that starts at the new reference position."
 msgstr ""
+"            <emph>Լայնք</emph> (կամընտրական) հղման նոր դիրքում սկսվող "
+"տարածքի համար հորիզոնական լայնքն է:"
 
 #: 04060109.xhp%23par_id8662373.help.text
 msgid ""
 "Arguments <emph>Rows</emph> and <emph>Columns</emph> must not lead to zero "
 "or negative start row or column."
 msgstr ""
+"<emph>Տողեր</emph> և <emph>Սյունակներ</emph> փաստարկները չպետք է հանգեցնեն "
+"զրոյական կամ բացասական մեկնարկային տողի կամ սյունակի:"
 
 #: 04060109.xhp%23par_id9051484.help.text
 msgid ""
 "Arguments <emph>Height</emph> and <emph>Width</emph> must not lead to zero "
 "or negative count of rows or columns."
 msgstr ""
+"<emph>Բարձրություն</emph> և <emph>Լայնություն</emph> փաստարկները չպետք է "
+"հանգեցնեն զրոյական կամ բացասական մեկնարկային տողի կամ սյունակի:"
 
 #: 04060109.xhp%23par_idN1104B.help.text
 msgctxt "04060109.xhp#par_idN1104B.help.text"
 msgid ""
 "            <embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>         "
 msgstr ""
+"            <embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>         "
 
 #: 04060109.xhp%23hd_id3155586.120.help.text
 msgctxt "04060109.xhp#hd_id3155586.120.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3149744.121.help.text
 msgid ""
@@ -34965,24 +35099,34 @@ msgid ""
 "cell C3 (A1 moved by two rows and two columns down). If C3 contains the "
 "value <item type=\"input\">100</item> this function returns the value 100."
 msgstr ""
+"            <item type=\"input\">=OFFSET(A1;2;2)</item> վերադարձնում է C3 "
+"բջջի արժեքը (A1 տեղափոխվել է երկուտող և երկու սյունակ ներքև)։ Եթե C3 "
+"պարունակում է <item type=\"input\">100</item> արժեքը, այս գործառույթը "
+"վերադարձնում է 100 արժեքը։"
 
 #: 04060109.xhp%23par_id7439802.help.text
 msgid ""
 "            <item type=\"input\">=OFFSET(B2:C3;1;1)</item> returns a "
 "reference to B2:C3 moved down by 1 row and one column to the right (C3:D4)."
 msgstr ""
+"            <item type=\"input\">=OFFSET(B2:C3;1;1)</item> վերադարձնում է B2:"
+"C3 հղումը ներքև իջեցված 1 տողով և մեկ սյունակ դեպի աջ (C3:D4)։"
 
 #: 04060109.xhp%23par_id3009430.help.text
 msgid ""
 "            <item type=\"input\">=OFFSET(B2:C3;-1;-1)</item> returns a "
 "reference to B2:C3 moved up by 1 row and one column to the left (A1:B2)."
 msgstr ""
+"            <item type=\"input\">=OFFSET(B2:C3;-1;-1)</item> վերադարձնում է "
+"B2:C3 հղումը բարձրացված վեր 1 տողով և մեկ սյունակ դեպի ձախ (A1:B2)։"
 
 #: 04060109.xhp%23par_id2629169.help.text
 msgid ""
 "            <item type=\"input\">=OFFSET(B2:C3;0;0;3;4)</item> returns a "
 "reference to B2:C3 resized to 3 rows and 4 columns (B2:E4)."
 msgstr ""
+"            <item type=\"input\">=OFFSET(B2:C3;0;0;3;4)</item> վերադարձնում "
+"է B2:C3 հղումը չափափոխվել է 3 շարքի և 4 սյունակի (B2:E4):"
 
 #: 04060109.xhp%23par_id6668599.help.text
 msgid ""
@@ -34990,6 +35134,9 @@ msgid ""
 "reference to B2:C3 moved down by one row resized to 3 rows and 4 columns "
 "(B2:E4)."
 msgstr ""
+"            <item type=\"input\">=OFFSET(B2:C3;1;0;3;4)</item> վերադարձնում "
+"է հղումը B2:C3, որը տեղափոխվել է մեկ տող ներքև, և վերափոխվել է 3 տողի և 4 "
+"սյունակի (B2: E4):"
 
 #: 04060109.xhp%23par_id3153739.122.help.text
 msgid ""
@@ -34997,14 +35144,17 @@ msgid ""
 "the total of the area that starts in cell C3 and has a height of 5 rows and "
 "a width of 6 columns (area=C3:H7)."
 msgstr ""
+"            <item type=\"input\">=SUM(OFFSET(A1;2;2;5;6))</item> որոշում է "
+"այն տարածքի ընդհանուրը, որը սկսվում է C3 բջիջում և ունի 5 տողի բարձրություն "
+"և 6 սյունակի լայնություն (տարածք=C3:H7):"
 
 #: 04060109.xhp%23bm_id3159273.help.text
 msgid "<bookmark_value>LOOKUP function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LOOKUP function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3159273.123.help.text
 msgid "LOOKUP"
-msgstr ""
+msgstr "LOOKUP"
 
 #: 04060109.xhp%23par_id3153389.124.help.text
 msgid ""
@@ -35017,33 +35167,46 @@ msgid ""
 "be adjacent. Additionally, the search vector for the LOOKUP must be sorted "
 "ascending, otherwise the search will not return any usable results."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VERWEIS\">Վերադարձնում է բջիջի պարունակությունը կամ "
+"մեկ շարքի կամ մեկ սյունակի միջակայքից:</ahelp> Ընտրովի, նշանակված արժեքը ("
+"նույն ցուցիչի) վերադարձվում է այլ սյունակում և շարքում: Հակառակ <link href=\""
+"text/scalc/01/04060109.xhp\" name=\"VLOOKUP\">VLOOKUP</link> and <link href="
+"\"text/scalc/01/04060109.xhp\" name=\"HLOOKUP\">HLOOKUP</link>, որոնման և "
+"արդյունքի վեկտորը կարող է լինել տարբեր դիրքերում. դրանք պարտադիր չէ հարակից "
+"լինեն: Բացի այդ, LOOKUP -ի որոնման վեկտորը պետք է դասակարգվի ըստ աճման, "
+"հակառակ դեպքում որոնումը չի վերադարձնի որևէ օգտավետ արդյունք:"
 
 #: 04060109.xhp%23par_id4484084.help.text
 msgid ""
 "If LOOKUP cannot find the search criterion, it matches the largest value in "
 "the search vector that is less than or equal to the search criterion."
 msgstr ""
+"Եթե LOOKUP-ը չի կարող գտնել որոնման չափանիշը, այն համապատասխանում է որոնման "
+"վեկտորի ամենամեծ արժեքին, որը պակաս կամ հավասար է որոնման չափանիշին:"
 
 #: 04060109.xhp%23hd_id3152947.125.help.text
 msgctxt "04060109.xhp#hd_id3152947.125.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3154104.126.help.text
 msgid "LOOKUP(SearchCriterion; SearchVector; ResultVector)"
-msgstr ""
+msgstr "LOOKUP(SearchCriterion; SearchVector; ResultVector)"
 
 #: 04060109.xhp%23par_id3150646.127.help.text
 msgid ""
 "            <emph>SearchCriterion</emph> is the value to be searched for; "
 "entered either directly or as a reference."
 msgstr ""
+"            <emph>SearchCriterion</emph> որոնման արժեքն է. մուտքագրված է կամ "
+"ուղղակիորեն կամ որպես հղում:"
 
 #: 04060109.xhp%23par_id3154854.128.help.text
 msgid ""
 "            <emph>SearchVector</emph> is the single-row or single-column "
 "area to be searched."
 msgstr ""
+"            <emph>SearchVector</emph> փնտրվում է մեկ տողով կամ մեկ սյունով:"
 
 #: 04060109.xhp%23par_id3149925.129.help.text
 msgid ""
@@ -35052,11 +35215,14 @@ msgid ""
 "of the result vector with the same index as the instance found in the search "
 "vector."
 msgstr ""
+"            <emph>ResultVector</emph> մեկ այլ մեկ տողանի կամ մեկ սյունակով "
+"միջակայք է, որից վերցվում է գործառույթի արդյունքը: Արդյունքը վեկտորի բջջի "
+"արդյունքն է նույն ցուցիչով, ինչպիսին է որոնման վեկտորում գտնված նմուշը:"
 
 #: 04060109.xhp%23hd_id3148624.130.help.text
 msgctxt "04060109.xhp#hd_id3148624.130.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3149809.131.help.text
 msgid ""
@@ -35066,14 +35232,19 @@ msgid ""
 "in this range. Then, the contents of the 12th cell are returned as the value "
 "of the function (in the result vector)."
 msgstr ""
+"            <item type=\"input\">=LOOKUP(A1;D1:D100;F1:F100)</item> որոնում "
+"է համապատասխան բջիջը D1:D100 տիրույթում, A1-ում մուտքագրված թվի համար: "
+"Գտնված օրինակի համար, որոշված է ցուցիչը, օրինակ՝ այս միջակայքի 12-րդ բջիջը: "
+"Այնուհետև, 12-րդ բջիջի պարունակությունը վերադարձվում է որպես գործառույթի "
+"արժեք (արդյունքի վեկտորի մեջ):"
 
 #: 04060109.xhp%23bm_id3149425.help.text
 msgid "<bookmark_value>STYLE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>STYLE function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3149425.133.help.text
 msgid "STYLE"
-msgstr ""
+msgstr "STYLE"
 
 #: 04060109.xhp%23par_id3150826.134.help.text
 msgid ""
@@ -35086,21 +35257,31 @@ msgid ""
 "the cell if the value is greater than 3, otherwise the style \"green\" is "
 "applied. Both cell formats have to be defined beforehand."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VORLAGE\">Կիրառում է ոճը բջջի վրա, որը պարունակում է "
+"բանաձև:</ahelp> Սահմանված ժամանակից հետո կարող է կիրառվել մեկ այլ ոճ: Այս "
+"գործառույթը միշտ վերադարձնում է 0 արժեքը՝ թույլ տալով այն ավելացնել այլ "
+"գործառույթ, առանց փոխելու արժեքը: CURRENT գործառույթի հետ մեկտեղ բջջի վրա "
+"կարող եք կիրառել գույնը անկախ արժեքից: Օրինակ՝ =...+STYLE(IF(CURRENT()>3;\""
+"red\";\"green\")) կիրառում է «կարմիր» ոճը բջջի վրա, եթե արժեքը մեծ է 3-ից, "
+"հակառակ դեպքում «կանաչ» ոճն է կիրառվում: Երկու բջջային ձևաչափերը պետք է "
+"նախապես սահմանվեն:"
 
 #: 04060109.xhp%23hd_id3145373.135.help.text
 msgctxt "04060109.xhp#hd_id3145373.135.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3149302.136.help.text
 msgid "STYLE(\"Style\"; Time; \"Style2\")"
-msgstr ""
+msgstr "STYLE(\"Style\"; Time; \"Style2\")"
 
 #: 04060109.xhp%23par_id3150596.137.help.text
 msgid ""
 "            <emph>Style</emph> is the name of a cell style assigned to the "
 "cell. Style names must be entered in quotation marks."
 msgstr ""
+"            <emph>Ոճ</emph> բջջին հատկացված բջջային ոճի անունն է: Ոճային "
+"անունները պետք է ներառվեն չակերտներում:"
 
 #: 04060109.xhp%23par_id3156149.138.help.text
 msgid ""
@@ -35108,6 +35289,9 @@ msgid ""
 "parameter is missing the style will not be changed after a certain amount of "
 "time has passed."
 msgstr ""
+"            <emph>Ժամանակ</emph> կամընտրական՝ վայրկյաններով ժամանակային "
+"տիրույթ: Եթե այս պարամետրը բացակայում է, որոշակի ժամանակ անցնելուց հետո ոճը "
+"չի փոխվի:"
 
 #: 04060109.xhp%23par_id3149520.139.help.text
 msgid ""
@@ -35115,17 +35299,21 @@ msgid ""
 "assigned to the cell after a certain amount of time has passed. If this "
 "parameter is missing \"Default\" is assumed."
 msgstr ""
+"            <emph>Style2</emph> որոշակի ժամանակ անցնելուց հետո բջջին "
+"հատկացված բջջային ոճի կամընտրանքային անունն է: Եթե այս պարամետրը բացակայում "
+"է, ենթադրվում է \"Լռակյաց\":"
 
 #: 04060109.xhp%23par_idN111CA.help.text
 msgctxt "04060109.xhp#par_idN111CA.help.text"
 msgid ""
 "            <embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>         "
 msgstr ""
+"            <embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>         "
 
 #: 04060109.xhp%23hd_id3159254.140.help.text
 msgctxt "04060109.xhp#hd_id3159254.140.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3151374.141.help.text
 msgid ""
@@ -35134,6 +35322,10 @@ msgid ""
 "recalculated or loaded, then the Default format is assigned. Both cell "
 "formats have to be defined beforehand."
 msgstr ""
+"            <item type=\"input\">=STYLE(\"Անտեսանելի\";60;\"Լռելյայն\""
+")</item> փաստաթուղթը վերահաշվարկվելուց կամ բեռնվելուց 60 վայրկյան հետո "
+"թափանցիկ ձևաչափով ձևավորում է բջիջը, այնուհետև նշանակվում է Լռելյայն ձևաչափը:"
+" Երկու բջջային ձևաչափերը պետք է նախապես սահմանվեն:"
 
 #: 04060109.xhp%23par_id8056886.help.text
 msgid ""
@@ -35141,56 +35333,67 @@ msgid ""
 "appended to a string. This can be avoided using T() as in the following "
 "example "
 msgstr ""
+"Քանի որ STYLE() վերադարձման զրո թվային արժեք ունի, վերադարձման այս արժեքը "
+"հավելվում է տողին: Դա հնարավոր է խուսափել օգտագործելով T() ինչպես հետևյալ "
+"օրինակում"
 
 #: 04060109.xhp%23par_id3668935.help.text
 msgid ""
 "            <item type=\"input\">=\"Text\"&T(STYLE(\"myStyle\"))</item>"
 "         "
 msgstr ""
+"            <item type=\"input\">=\"Text\"&T(STYLE(\"myStyle\"))</item>"
+"         "
 
 #: 04060109.xhp%23par_id3042085.help.text
 msgid "See also CURRENT() for another example."
-msgstr ""
+msgstr "Տես նաև CURRENT() որպես մեկ այլ օրինակ։"
 
 #: 04060109.xhp%23bm_id3150430.help.text
 msgid "<bookmark_value>CHOOSE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CHOOSE function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3150430.142.help.text
 msgid "CHOOSE"
-msgstr ""
+msgstr "CHOOSE"
 
 #: 04060109.xhp%23par_id3143270.143.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_WAHL\">Uses an index to return a value from a list of "
 "up to 30 values.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WAHL\">Օգտագործում է ցուցիչը մինչև 30 արժեքների "
+"ցուցակից արժեքը վերադարձնելու համար:</ahelp>"
 
 #: 04060109.xhp%23hd_id3153533.144.help.text
 msgctxt "04060109.xhp#hd_id3153533.144.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3155425.145.help.text
 msgid "CHOOSE(Index; Value1; ...; Value30)"
-msgstr ""
+msgstr "CHOOSE(Index; Value1; ...; Value30)"
 
 #: 04060109.xhp%23par_id3144755.146.help.text
 msgid ""
 "            <emph>Index</emph> is a reference or number between 1 and 30 "
 "indicating which value is to be taken from the list."
 msgstr ""
+"            <emph>Ցուցիչ</emph> 1-ի և 30-ի միջև հղում կամ թիվ է, որը ցույց է "
+"տալիս, թե որ արժեքը պետք է վերցվի ցուցակից:"
 
 #: 04060109.xhp%23par_id3149939.147.help.text
 msgid ""
 "            <emph>Value1...Value30</emph> is the list of values entered as a "
 "reference to a cell or as individual values."
 msgstr ""
+"            <emph>Value1...Value30</emph> արժեքների ցանկն է, որոնք "
+"մուտքագրվել են որպես հղում բջիջում կամ որպես անհատական արժեքներ:"
 
 #: 04060109.xhp%23hd_id3151253.148.help.text
 msgctxt "04060109.xhp#hd_id3151253.148.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3150625.149.help.text
 msgid ""
@@ -35198,14 +35401,17 @@ msgid ""
 "\"Tomorrow\")</item>, for example, returns the contents of cell B2 for A1 = "
 "2; for A1 = 4, the function returns the text \"Today\"."
 msgstr ""
+"            <item type=\"input\">=CHOOSE(A1;B1;B2;B3;\"Այսօր\";\"Երեկ\";\""
+"Վաղը\")</item>, օրինակի համար, վերադարձնում է B2 բջջի պարունակությունը A1 = "
+"2 համար; A1 = 4 համար գործառույթը վերադարձնում է \"Այսօր\" տեքստը։"
 
 #: 04060109.xhp%23bm_id3151001.help.text
 msgid "<bookmark_value>HLOOKUP function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>HLOOKUP function</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3151001.151.help.text
 msgid "HLOOKUP"
-msgstr ""
+msgstr "HLOOKUP"
 
 #: 04060109.xhp%23par_id3148688.152.help.text
 msgid ""
@@ -35215,30 +35421,36 @@ msgid ""
 "value in a row of the array, named in the <emph>Index</emph>, in the same "
 "column."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WVERWEIS\">Որոնում են արժեք և հղում ընտրված տարածքից "
+"ներքև գտնվող բջիջների համար:</ahelp> Այս գործառույթը հավաստում է, արդյոք "
+"զանգվածի առաջին տողը պարունակում է որոշակի արժեք: Գործառույթը վերադարձնում է "
+"զանգվածի տողի արժեքը, անվանված <emph>ցուցիչ</emph> -ում, նույն սյունակում:"
 
 #: 04060109.xhp%23hd_id3154661.153.help.text
 msgctxt "04060109.xhp#hd_id3154661.153.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3146070.154.help.text
 msgid "HLOOKUP(SearchCriteria; Array; Index; Sorted)"
-msgstr ""
+msgstr "HLOOKUP(SearchCriteria; Array; Index; Sorted)"
 
 #: 04060109.xhp%23par_id3148672.155.help.text
 msgid ""
 "See also:<link href=\"text/scalc/01/04060109.xhp\" name=\"VLOOKUP\""
 ">VLOOKUP</link> (columns and rows are exchanged)"
 msgstr ""
+"Տե՛ս նաև:<link href=\"text/scalc/01/04060109.xhp\" name=\"VLOOKUP\""
+">VLOOKUP</link> (սյունակները և տողերը փոխանակված են)"
 
 #: 04060109.xhp%23bm_id3147321.help.text
 msgid "<bookmark_value>ROW function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ROW գործառույթ</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3147321.157.help.text
 msgctxt "04060109.xhp#hd_id3147321.157.help.text"
 msgid "ROW"
-msgstr ""
+msgstr "ROW"
 
 #: 04060109.xhp%23par_id3154564.203.help.text
 msgid ""
@@ -35252,21 +35464,30 @@ msgid ""
 "in an array formula, only the row number of the first range cell will be "
 "returned."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZEILE\">Վերադարձնում է բջջի հղման տողի համարը։</ahelp> "
+"Եթե հղումը բջիջ է, այն վերադարձնում է բջջի տողի համարը: Եթե հղումը բջջային "
+"միջակայք է, այն վերադարձնում է համապատասխան տողի համարները մեկ սյունակում <"
+"link href=\"text/scalc/01/04060107.xhp#wasmatrix\" name=\"Զանգված\""
+">Զնգված</link> եթե բանաձևը մուտքագրված է <link href=\""
+"text/scalc/01/04060107.xhp#somatrixformel\" name=\"որպես զանգվածի բանաձև\">"
+"որպես զանգվածի բանաձև</link>։ Եթե ROW գործառույթի միջակայքի հղումով չի "
+"օգտագործվում զանգվածի բանաձևում, կվերադարձվի միայն առաջին տիրույթի բջջի տողի "
+"համարը:"
 
 #: 04060109.xhp%23hd_id3158439.159.help.text
 msgctxt "04060109.xhp#hd_id3158439.159.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3154916.160.help.text
 msgid "ROW(Reference)"
-msgstr ""
+msgstr "ROW(Reference)"
 
 #: 04060109.xhp%23par_id3156336.161.help.text
 msgid ""
 "            <emph>Reference</emph> is a cell, an area, or the name of an "
 "area."
-msgstr ""
+msgstr "            <emph>Հղում</emph> բջիջ է, տիրույթ է, կամ տիրույթի անուն է։"
 
 #: 04060109.xhp%23par_id3151109.204.help.text
 msgid ""
