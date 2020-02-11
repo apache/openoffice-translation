@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-09 18:32+0000\n"
+"PO-Revision-Date: 2020-02-10 18:01+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1581273156.000000\n"
+"X-POOTLE-MTIME: 1581357674.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -35496,17 +35496,22 @@ msgid ""
 ">%PRODUCTNAME</item> Calc automatically sets the reference to the current "
 "cell."
 msgstr ""
+"Եթե հղումը չեք նշում, կգտնվի բջջի այն տողի համարը, որում մուտքագրված է "
+"բանաձևը: <item type=\"productname\">%PRODUCTNAME</item> Calc ինքնաստեղծում է "
+"հղումը ընթացիկ բջջին:"
 
 #: 04060109.xhp%23hd_id3155609.162.help.text
 msgctxt "04060109.xhp#hd_id3155609.162.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3154830.205.help.text
 msgid ""
 "            <item type=\"input\">=ROW(B3)</item> returns 3 because the "
 "reference refers to the third row in the table."
 msgstr ""
+"            <item type=\"input\">=ROW(B3)</item> վերադարձնում է 3, քանի որ "
+"հղումը վերաբերում է աղյուսակի երրորդ տողին:"
 
 #: 04060109.xhp%23par_id3147094.206.help.text
 msgid ""
@@ -35514,6 +35519,9 @@ msgid ""
 "column array (5, 6, 7, 8) because the reference specified contains rows 5 "
 "through 8."
 msgstr ""
+"            <item type=\"input\">{=ROW(D5:D8)}</item> վերադարձնում է մեկ-"
+"սյունականի զանգվածը (5, 6, 7, 8), քանի որ նշված հղումը պարունակում է 5-ից 8-"
+"րդ տողերը։"
 
 #: 04060109.xhp%23par_id3153701.207.help.text
 msgid ""
@@ -35521,6 +35529,9 @@ msgid ""
 "ROW function is not used as array formula and only the number of the first "
 "row of the reference is returned."
 msgstr ""
+"            <item type=\"input\">=ROW(D5:D8)</item> վերադառնում է 5, քանի որ "
+"ROW գործառույթը չի օգտագործվում որպես զանգվածի բանաձև և վերադարձվում է միայն "
+"հղման առաջին տողի համարը:"
 
 #: 04060109.xhp%23par_id3150996.208.help.text
 msgid ""
@@ -35530,88 +35541,111 @@ msgid ""
 "row number it does not make any difference whether or not the formula is "
 "used as an array formula.)"
 msgstr ""
+"            <item type=\"input\">{=ROW(A1:E1)}</item> և <item type=\"input\""
+">=ROW(A1:E1)</item> երկուսն էլ վերադարձնում են 1, քանի որ հղումը պարունակում "
+"է միայն տող 1-ը, որպես աղյուսակի առաջին տող: (Քանի որ մեկ տողանի տարածքները "
+"միայն մեկ տողի համար ունեն, որևէ նշանակություն չունի, թե արդյոք բանաձևն "
+"օգտագործվում է որպես զանգվածի բանաձև թե ոչ):"
 
 #: 04060109.xhp%23par_id3153671.209.help.text
 msgid ""
 "            <item type=\"input\">=ROW()</item> returns 3 if the formula was "
 "entered in row 3."
 msgstr ""
+"            <item type=\"input\">=ROW()</item> վերադարձնում է 3, եթե բանաձևը "
+"մուտքագրվել է 3-րդ տողում:"
 
 #: 04060109.xhp%23par_id3153790.210.help.text
 msgid ""
 "            <item type=\"input\">{=ROW(Rabbit)}</item> returns the single-"
 "column array (1, 2, 3) if \"Rabbit\" is the named area (C1:D3)."
 msgstr ""
+"            <item type=\"input\">{=ROW(Rabbit)}</item> վերադարձնում է մեկ "
+"սյունականի զանգվածը (1, 2, 3), եթե \"Rabbit\" անվանումը նշված տարածքն է "
+"(C1:D3):"
 
 #: 04060109.xhp%23bm_id3145772.help.text
 msgid "<bookmark_value>ROWS function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ROWS գործառույթ</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3145772.166.help.text
 msgid "ROWS"
-msgstr ""
+msgstr "ROWS"
 
 #: 04060109.xhp%23par_id3148971.167.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ZEILEN\">Returns the number of rows in a reference or "
 "array.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZEILEN\">Վերադարձնում է տողերի քանակը հղման կամ "
+"զանգվածի մեջ:</ahelp>"
 
 #: 04060109.xhp%23hd_id3156051.168.help.text
 msgctxt "04060109.xhp#hd_id3156051.168.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id3154357.169.help.text
 msgid "ROWS(Array)"
-msgstr ""
+msgstr "ROWS(Array)"
 
 #: 04060109.xhp%23par_id3155942.170.help.text
 msgid ""
 "            <emph>Array</emph> is the reference or named area whose total "
 "number of rows is to be determined."
 msgstr ""
+"            <emph>Զանգված</emph> այն հղումը կամ անվանված տարածքն է, որի "
+"տողերի ընդհանուր քանակը պետք է որոշվի:"
 
 #: 04060109.xhp%23hd_id3155869.171.help.text
 msgctxt "04060109.xhp#hd_id3155869.171.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_id3154725.212.help.text
 msgid ""
 "            <item type=\"input\">=Rows(B5)</item> returns 1 because a cell "
 "only contains one row."
 msgstr ""
+"            <item type=\"input\">=Rows(B5)</item> վերադարձնում է 1, քանի որ "
+"բջիջը պարունակում է միայն մեկ տող:"
 
 #: 04060109.xhp%23par_id3150102.172.help.text
 msgid "            <item type=\"input\">=ROWS(A10:B12)</item> returns 3."
 msgstr ""
+"            <item type=\"input\">=ROWS(A10:B12)</item> վերադարձնում է 3։"
 
 #: 04060109.xhp%23par_id3155143.213.help.text
 msgid ""
 "            <item type=\"input\">=ROWS(Rabbit)</item> returns 3 if \"Rabbit\""
 " is the named area (C1:D3)."
 msgstr ""
+"            <item type=\"input\">=ROWS(Rabbit)</item> վերադարձնում է 3, եթե "
+"\"Rabbit\" անվանված տարածք է (C1:D3)։"
 
 #: 04060109.xhp%23bm_id9959410.help.text
 msgid "<bookmark_value>HYPERLINK function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>HYPERLINK գործառույթ</bookmark_value>"
 
 #: 04060109.xhp%23par_idN11798.help.text
 msgid "HYPERLINK"
-msgstr ""
+msgstr "HYPERLINK"
 
 #: 04060109.xhp%23par_idN117F1.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_HYPERLINK\">When you click a cell that contains the "
 "HYPERLINK function, the hyperlink opens.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_HYPERLINK\">Երբ կտտացնում եք HYPERLINK գործառույթը "
+"պարունակող բջիջը, բացվում է գերհղումը:</ahelp>"
 
 #: 04060109.xhp%23par_idN11800.help.text
 msgid ""
 "If you use the optional <emph>CellText</emph> parameter, the formula locates "
 "the URL, and then displays the text or number."
 msgstr ""
+"If you use the optional <emph>CellText</emph> պարամետր, բանաձևը տեղադրում է "
+"URL-ն, այնուհետև ցուցադրում է տեքստը կամ թիվը:"
 
 #: 04060109.xhp%23par_idN11803.help.text
 msgid ""
@@ -35619,15 +35653,18 @@ msgid ""
 "enter the Edit mode, move the cursor in front of the hyperlink, press Shift+"
 "F10, and then choose <emph>Open Hyperlink</emph>."
 msgstr ""
+"Ստեղնաշարով գերերհղված բջիջը բացելու համար, ընտրեք բջիջը, սեղմեք F2-ը՝ "
+"Խմբագրել ռեժիմը մուտք գործելու համար, կուրսորը տեղափոխեք գերհղման դիմաց, "
+"սեղմեք Shift+F10 և այնուհետև ընտրեք <emph>Բացել Գերհղումը</emph>:"
 
 #: 04060109.xhp%23par_idN1180A.help.text
 msgctxt "04060109.xhp#par_idN1180A.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_idN1180E.help.text
 msgid "HYPERLINK(\"URL\") or HYPERLINK(\"URL\"; \"CellText\")"
-msgstr ""
+msgstr "HYPERLINK(\"URL\") or HYPERLINK(\"URL\"; \"CellText\")"
 
 #: 04060109.xhp%23par_idN11811.help.text
 msgid ""
@@ -35637,15 +35674,19 @@ msgid ""
 "parameter is not specified, the <emph>URL</emph> is displayed in the cell "
 "text and will be returned as the result."
 msgstr ""
+"            <emph>URL</emph> հատկորոշում է կապի թիրախը: Կամընտրական "
+"<emph>CellText</emph> պարամետրը տեքստ է կամ թիվ, որը ցուցադրվում է բջիջում և "
+"կվերադարձվի որպես արդյունք: Եթե <emph>CellText</emph> պարամետրը հատկորոշված "
+"չէ, <emph>URL</emph> արտածվում է բջջի տեքստում և կվերադարձվի որպես արդյունք:"
 
 #: 04060109.xhp%23par_id0907200912224576.help.text
 msgid "The number 0 is returned for empty cells and matrix elements."
-msgstr ""
+msgstr "Մատրիցային տարրերի և դատարկ բջիջների համար վերադարձվում է 0:"
 
 #: 04060109.xhp%23par_idN11823.help.text
 msgctxt "04060109.xhp#par_idN11823.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060109.xhp%23par_idN11827.help.text
 msgid ""
@@ -35653,6 +35694,9 @@ msgid ""
 ")</item> displays the text \"http://www.example.org\" in the cell and "
 "executes the hyperlink http://www.example.org when clicked."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK(\"http://www.example.org\""
+")</item> արտածում է \"http://www.example.org\" բջջի տեքստը, և կատարում է "
+"http://www.example.org գերհղումը, երբ կտտացնում եք։"
 
 #: 04060109.xhp%23par_idN1182A.help.text
 msgid ""
@@ -35660,12 +35704,17 @@ msgid ""
 "Click here\")</item> displays the text \"Click here\" in the cell and "
 "executes the hyperlink http://www.example.org when clicked."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK(\"http://www.example.org\";\""
+"Կտտացրեք այստեղ\")</item> արտածում է \"Կտտացրեք այստեղ\" տեքստը, և կատարում "
+"է գերհղումը http://www.example.org երբ կտտացնում եք։"
 
 #: 04060109.xhp%23par_id0907200912224534.help.text
 msgid ""
 "=HYPERLINK(\"http://www.example.org\";12345) displays the number 12345 and "
 "executes the hyperlink http://www.example.org when clicked."
 msgstr ""
+"=HYPERLINK(\"http://www.example.org\";12345) արտածում է 12345 թիվը, և "
+"կատարում է գերկապը http://www.example.org երբ կտտացնում եք։"
 
 #: 04060109.xhp%23par_idN1182D.help.text
 msgid ""
@@ -35674,6 +35723,10 @@ msgid ""
 "adds http://www.example.org to the URL of the hyperlink cell and returns the "
 "same text which is used as formula result."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK($B4)</item> որում B4 բջիջը "
+"պարունակում է <item type=\"input\">http://www.example.org</item>։ "
+"Գործառույթը ավելացնում է http://www.example.org գերհղման բջջի URL-ին և "
+"վերադարձնում է նույն տեքստը, որն օգտագործվում է որպես բանաձևի արդյունք:"
 
 #: 04060109.xhp%23par_idN11830.help.text
 msgid ""
@@ -35681,6 +35734,9 @@ msgid ""
 "example.org\"</item> displays the text Click example.org in the cell and "
 "executes the hyperlink http://www.example.org when clicked."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK(\"http://www.\";\"Սեղմեք \") & \""
+"example.org\"</item> արտածում է բջիջում Սեղմեք example.org տեքստը, և "
+"կատարում է http://www.example.org գերհղումը երբ կտտացնում եք։"
 
 #: 04060109.xhp%23par_id8859523.help.text
 msgid ""
@@ -35688,6 +35744,9 @@ msgid ""
 ")</item> displays the text Go to top and jumps to cell Sheet1.A1 in this "
 "document."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK(\"#Sheet1.A1\";\"Գնհ վեր\""
+")</item> արտածում է Գնա վեր տեքստը, և այս փաստաթղթում ցատկում է Sheet1.A1 "
+"բջջին։"
 
 #: 04060109.xhp%23par_id2958769.help.text
 msgid ""
@@ -35696,14 +35755,18 @@ msgid ""
 "Writer bookmark, loads the specified text document and jumps to bookmark \""
 "Specification\"."
 msgstr ""
+"            <item type=\"input\">=HYPERLINK(\"file:///C:/writer.odt#"
+"Specification\";\"Գնա Writer էջանիշին\")</item>արտածում է Գնա Writer "
+"էջանիշին, բեռնում է սահմանված տեքստային փաստաթուղթը, և ցատկում է \""
+"Հատկավորում\" էջանիշին։"
 
 #: 04060109.xhp%23bm_id7682424.help.text
 msgid "<bookmark_value>GETPIVOTDATA function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>GETPIVOTDATA գործառույթ</bookmark_value>"
 
 #: 04060109.xhp%23hd_id3747062.help.text
 msgid "GETPIVOTDATA"
-msgstr ""
+msgstr "GETPIVOTDATA"
 
 #: 04060109.xhp%23par_id3593859.help.text
 msgid ""
@@ -35711,23 +35774,27 @@ msgid ""
 "pivot table. The value is addressed using field and item names, so it "
 "remains valid if the layout of the pivot table changes.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">GETPIVOTDATA գործառույթն առանցքային աղյուսակից վերադարձնում "
+"է արդյունքի արժեքը: Արժեքը հասցեագրվում է՝ օգտագործելով դաշտի և կետերի "
+"անունները, ուստի այն մնում է վավեր, եթե առանցքային աղյուսակի դասավորությունը "
+"փոխվում է:</ahelp>"
 
 #: 04060109.xhp%23hd_id9741508.help.text
 msgctxt "04060109.xhp#hd_id9741508.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060109.xhp%23par_id909451.help.text
 msgid "Two different syntax definitions can be used:"
-msgstr ""
+msgstr "Կարող են օգտագործվել երկու տարբեր շարահյուսական սահմանումներ."
 
 #: 04060109.xhp%23par_id1665089.help.text
 msgid "GETPIVOTDATA(TargetField; pivot table; [ Field 1; Item 1; ... ])"
-msgstr ""
+msgstr "GETPIVOTDATA(TargetField; pivot table; [ Field 1; Item 1; ... ])"
 
 #: 04060109.xhp%23par_id4997100.help.text
 msgid "GETPIVOTDATA(pivot table; Constraints)"
-msgstr ""
+msgstr "GETPIVOTDATA(pivot table; Constraints)"
 
 #: 04060109.xhp%23par_id1672109.help.text
 msgid ""
@@ -35735,10 +35802,14 @@ msgid ""
 "the first parameter is a cell or cell range reference. The first syntax is "
 "assumed in all other cases. The Function Wizard shows the first syntax."
 msgstr ""
+"Ենթադրվում է երկրորդ շարահյուսությունը, եթե տրված են ճիշտ երկու պարամետր, "
+"որոնցից առաջինը բջիջ կամ բջջային միջակայքի հղում է: Առաջին շարահյուսությունն "
+"է ենթադրվում մնացած բոլոր դեպքերում: Wizard գործառույթը ցույց է տալիս առաջին "
+"շարահյուսությունը:"
 
 #: 04060109.xhp%23hd_id9464094.help.text
 msgid "First Syntax"
-msgstr ""
+msgstr "Առաջին շարահյուսություն"
 
 #: 04060109.xhp%23par_id9302346.help.text
 msgid ""
@@ -35746,6 +35817,10 @@ msgid ""
 "pivot table's data fields. The string can be the name of the source column, "
 "or the data field name as shown in the table (like \"Sum - Sales\")."
 msgstr ""
+"            <emph>TargetField</emph> տող է, որն ընտրում է առանցքային "
+"աղյուսակի տվյալների դաշտերից մեկը: Տողը կարող է լինել աղբյուրի սյունակի "
+"անվանումը կամ տվյալների դաշտի անվանումը, ինչպես ցույց է տրված աղյուսակում ("
+"ինչպես \"Sum - Sales\")։"
 
 #: 04060109.xhp%23par_id8296151.help.text
 msgid ""
@@ -35754,6 +35829,10 @@ msgid ""
 "cell range contains several pivot tables, the table that was created last is "
 "used."
 msgstr ""
+"            <emph>pivot table</emph> հղում է բջջին կամ բջջային տիրույթին, "
+"որը տեղակայված է առանցքային աղյուսակում կամ պարունակում է առանցքային "
+"աղյուսակ: Եթե բջջային միջակայքը պարունակում է մի քանի առանցքային "
+"աղյուսակներ, օգտագործվում է վերջին անգամ ստեղծած աղյուսակը:"
 
 #: 04060109.xhp%23par_id4809411.help.text
 msgid ""
@@ -35762,6 +35841,10 @@ msgid ""
 "satisfy. <emph>Field n</emph> is the name of a field from the pivot table. "
 "<emph>Item n</emph> is the name of an item from that field."
 msgstr ""
+"Եթե չեն տրված <emph>Field n / Item n</emph> զույգեր, վերադարձվում է "
+"հանրագումարը: Հակառակ դեպքում, յուրաքանչյուր զույգ ավելացնում է "
+"սահմանափակում, որ արդյունքը պետք է բավարարի: <emph>Field n</emph> առանցքային "
+"աղյուսակից դաշտի անունն է: <emph>Item n</emph> -ը տվյալ դաշտի կետի անունն է:"
 
 #: 04060109.xhp%23par_id6454969.help.text
 msgid ""
@@ -35771,6 +35854,12 @@ msgid ""
 "without a subtotal for them, an error is returned. These conditions apply to "
 "results that are included in the pivot table."
 msgstr ""
+"Եթե առանցքային աղյուսակը պարունակում է միայն մեկ արդյունքի արժեք, որը "
+"բավարարում է բոլոր սահմանափակումներին, կամ ենթահանրագումարային արդյունք է, "
+"որն ամփոփում է բոլոր համապատասխանող արժեքները, այդ արդյունքը վերադարձվում է: "
+"Եթե չկա համընկնող արդյունք, կամ առկա են մի քանիսը առանց դրանց համար "
+"ենթահանրագումարի, սխալ է վերադարձվում: Այս պայմանները կիրառվում են "
+"առանցքային աղյուսակում ընդգրկված արդյունքների համար:"
 
 #: 04060109.xhp%23par_id79042.help.text
 msgid ""
@@ -35778,6 +35867,9 @@ msgid ""
 "table, they are ignored. The order of the Field/Item pairs is not "
 "significant. Field and item names are not case-sensitive."
 msgstr ""
+"Եթե աղբյուրի տվյալները պարունակում են գրառումներ, որոնք թաքնված են "
+"առանցքային աղյուսակի կարգաբերումներով, դրանք անտեսվում են: Դաշտ/նյութի "
+"զույգերի կարգը որոշող չէ: Դաշտի և նյութերի անունները զգայուն չեն դեպքին:"
 
 #: 04060109.xhp%23par_id7928708.help.text
 msgid ""
@@ -35788,6 +35880,13 @@ msgid ""
 "area of the pivot table layout dialog. From each page field, an item (value) "
 "can be selected, which means only that item is included in the calculation."
 msgstr ""
+"Եթե էջի դաշտի համար որևէ սահմանափակում չկա, դաշտի ընտրված արժեքը ենթադրաբար "
+"օգտագործվում է: Եթե էջի դաշտի համար սահմանափակում է տրված, այն պետք է "
+"համապատասխանի դաշտի ընտրված արժեքին կամ վերադարձվում է սխալ: Էջի դաշտերը "
+"առանցքային աղյուսակի վերևի ձախ մասում գտնվող դաշտերն են, որոնք բաշխված են "
+"առանցքային աղյուսակի դասավորության երկխոսության «Էջի դաշտեր» տարածքի վրա: "
+"Յուրաքանչյուր էջի դաշտից կարող է ընտրվել մի տարր (արժեք), ինչը նշանակում է, "
+"որ հաշվարկում ընդգրկված է միայն այդ նյութը:"
 
 #: 04060109.xhp%23par_id3864253.help.text
 msgid ""
@@ -35795,16 +35894,22 @@ msgid ""
 "\"auto\" (except when specified in the constraint, see <item type=\"literal\""
 ">Second Syntax</item> below)."
 msgstr ""
+"Առանցքային աղյուսակից ենթահանրագումարայինն արժեքներն օգտագործվում են միայն "
+"այն դեպքում, երբ դրանք օգտագործում են \"auto\" գործառույթը (բացառությամբ այն "
+"դեպքերի, երբ սահմանափակումում նշված է, տե՛ս ստորև <item type=\"literal\">"
+"Երկրորդ շարահյուսություն</item>:"
 
 #: 04060109.xhp%23hd_id3144016.help.text
 msgid "Second Syntax"
-msgstr ""
+msgstr "Երկրորդ շարահյուսություն"
 
 #: 04060109.xhp%23par_id9937131.help.text
 msgid ""
 "            <emph>pivot table</emph> has the same meaning as in the first "
 "syntax."
 msgstr ""
+"            <emph>առանցքային աղյուսակ</emph> ունի նույն իմաստը, ինչ առաջին "
+"շարահյուսության մեջ:"
 
 #: 04060109.xhp%23par_id5616626.help.text
 msgid ""
@@ -35812,6 +35917,10 @@ msgid ""
 "be quoted (single quotes). The whole string must be enclosed in quotes ("
 "double quotes), unless you reference the string from another cell."
 msgstr ""
+"            <emph>Սահմանափակումներ</emph> բացատներով առանձնացված ցուցակ է: "
+"Մուտքերը կարելի է դնել չակերտներում (մեկ չակերտ): Ամբողջ տողը պետք է "
+"ներառված լինի չակերտներում (կրկնակի չակերտ), քանի դեռ մեկ այլ բջջից տողի "
+"հղում չեք նշել:"
 
 #: 04060109.xhp%23par_id4076357.help.text
 msgid ""
@@ -35819,6 +35928,9 @@ msgid ""
 "left out if the pivot table contains only one data field, otherwise it must "
 "be present."
 msgstr ""
+"Մուտքերից մեկը կարող է լինել տվյալների դաշտի անունը: Տվյալների դաշտի անունը "
+"հնարավոր է բաց թողնել, եթե առանցքային աղյուսակը պարունակում է միայն "
+"տվյալների մեկ դաշտ, հակառակ դեպքում այն պետք է ներկա լինի:"
 
 #: 04060109.xhp%23par_id8231757.help.text
 msgid ""
@@ -35827,6 +35939,10 @@ msgid ""
 "item type=\"literal\">Item</item> if the item name is unique within all "
 "fields that are used in the pivot table."
 msgstr ""
+"Մյուս գրառումներից յուրաքանչյուրը նշում է ձևի սահմանափակում <item type=\""
+"literal\">Field[Item]</item> (տառային նիշերով [ և ]), կամ միայն <item type=\""
+"literal\">Նյութ</item> եթե նյութի անվանումը եզակի է առանցքային աղյուսակում "
+"օգտագործվող բոլոր դաշտերում:"
 
 #: 04060109.xhp%23par_id3168736.help.text
 msgid ""
@@ -35836,11 +35952,17 @@ msgid ""
 "Product, Count (Numbers only), StDev (Sample), StDevP (Population), Var "
 "(Sample), and VarP (Population), case-insensitive."
 msgstr ""
+"գործառույթի անվանումը կարող է ավելացվել <emph>Field[Item;Function]</emph> "
+"ձևով, ինչը կհանգեցնի, որ սահմանափակումը համապատասխանի միայն այդ գործառույթն "
+"օգտագործող ենթահանրագումարի արժեքներին: Հնարավոր գործառույթների անվանումներն "
+"են ՝ Sum, Count, Average, Max, Min, Product, Count (միայն թվեր), StDev "
+"(նմուշ), StDevP (ընտրանք), Var (նմուշ), և VarP (ընտրանք), ընտրության դեպքին "
+"անտարբեր։"
 
 #: 04060110.xhp%23tit.help.text
 msgctxt "04060110.xhp#tit.help.text"
 msgid "Text Functions"
-msgstr ""
+msgstr "Տեքստային գործառույթներ"
 
 #: 04060110.xhp%23bm_id3145389.help.text
 msgid ""
@@ -35848,72 +35970,85 @@ msgid ""
 "<bookmark_value>functions; text functions</bookmark_value>      "
 "<bookmark_value>Function Wizard;text</bookmark_value>"
 msgstr ""
+"<bookmark_value>text in cells; functions</bookmark_value>      "
+"<bookmark_value>functions; text functions</bookmark_value>      "
+"<bookmark_value>Function Wizard;text</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3145389.1.help.text
 msgctxt "04060110.xhp#hd_id3145389.1.help.text"
 msgid "Text Functions"
-msgstr ""
+msgstr "Տեքստային գործառույթներ"
 
 #: 04060110.xhp%23par_id3152986.2.help.text
 msgid ""
 "<variable id=\"texttext\">This section contains descriptions of the "
 "<emph>Text</emph> functions.</variable>"
 msgstr ""
+"<variable id=\"texttext\">Այս բաժինը պարունակում է <emph>Տեքստ</emph> "
+"գործառույթները։</variable>"
 
 #: 04060110.xhp%23bm_id3149384.help.text
 msgid "<bookmark_value>ARABIC function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ARABIC գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149384.239.help.text
 msgid "ARABIC"
-msgstr ""
+msgstr "ARABIC"
 
 #: 04060110.xhp%23par_id3153558.240.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_ARABISCH\">Calculates the value of a Roman number. The "
 "value range must be between 0 and 3999.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ARABISCH\">Հաշվում է հռոմեական թվի արժեքը: Արժեքի "
+"միջակայքը պետք է լինի 0-ից 3999-ի սահմաններում:</ahelp>"
 
 #: 04060110.xhp%23hd_id3153011.241.help.text
 msgctxt "04060110.xhp#hd_id3153011.241.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3155523.242.help.text
 msgid "ARABIC(\"Text\")"
-msgstr ""
+msgstr "ARABIC(\"Text\")"
 
 #: 04060110.xhp%23par_id3151193.243.help.text
 msgid ""
 "            <emph>Text</emph> is the text that represents a Roman number."
 msgstr ""
+"            <emph>Տեքստ</emph> այն տեքստն է, որը ներկայացնում է հռոմեական "
+"թիվը:"
 
 #: 04060110.xhp%23hd_id3155758.244.help.text
 msgctxt "04060110.xhp#hd_id3155758.244.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3154621.245.help.text
 msgid "            <item type=\"input\">=ARABIC(\"MXIV\")</item> returns 1014"
 msgstr ""
+"            <item type=\"input\">=ARABIC(\"MXIV\")</item> վերադարձնում է 1014"
 
 #: 04060110.xhp%23par_id3147553.246.help.text
 msgid "            <item type=\"input\">=ARABIC(\"MMII\")</item> returns 2002"
 msgstr ""
+"            <item type=\"input\">=ARABIC(\"MMII\")</item> վերադարձնում է 2002"
 
 #: 04060110.xhp%23bm_id8796349.help.text
 msgid "<bookmark_value>ASC function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ASC գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id7723929.help.text
 msgid "ASC"
-msgstr ""
+msgstr "ASC"
 
 #: 04060110.xhp%23par_id8455153.help.text
 msgid ""
 "<ahelp hid=\".\">The ASC function converts full-width to half-width ASCII "
 "and katakana characters. Returns a text string.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">ASC գործառույթը ամբողջ լայնությունը վերածում է կես "
+"լայնության ASCII և կատականա նիշերի: Վերադարձնում է տեքստային տողը:</ahelp>"
 
 #: 04060110.xhp%23par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
@@ -35922,15 +36057,18 @@ msgid ""
 "JIS_and_ASC_functions\">JIS and ASC Spreadsheet Functions</link> for a "
 "conversion table."
 msgstr ""
+"Տե՛ս <link href=\"https://wiki.openoffice.org/wiki/Calc/Features/"
+"JIS_and_ASC_functions\">JIS and ASC Spreadsheet Functions</link> ձևափոխման "
+"աղյուսակի համար"
 
 #: 04060110.xhp%23hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id1993774.help.text
 msgid "ASC(\"Text\")"
-msgstr ""
+msgstr "ASC(\"Text\")"
 
 #: 04060110.xhp%23par_id2949919.help.text
 msgctxt "04060110.xhp#par_id2949919.help.text"
@@ -35938,31 +36076,33 @@ msgid ""
 "            <emph>Text</emph> is the text that contains characters to be "
 "converted."
 msgstr ""
+"            <emph>Տեքստ</emph> տեքստ է, որը պարունակում է վերափոխվելու նիշեր:"
 
 #: 04060110.xhp%23par_id2355113.help.text
 msgid "See also JIS function."
-msgstr ""
+msgstr "Տե՛ս նաև JIS գործառույթը։"
 
 #: 04060110.xhp%23bm_id9323709.help.text
 msgid "<bookmark_value>BAHTTEXT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BAHTTEXT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id6695455.help.text
 msgid "BAHTTEXT"
-msgstr ""
+msgstr "BAHTTEXT"
 
 #: 04060110.xhp%23par_id354014.help.text
 msgid "Converts a number to Thai text, including the Thai currency names."
 msgstr ""
+"Ձևափոխում է թիվը Թաի տեքստի, ներառյալ Թաիլանդի արժույթների անվանումները:"
 
 #: 04060110.xhp%23hd_id9942014.help.text
 msgctxt "04060110.xhp#hd_id9942014.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id8780785.help.text
 msgid "BAHTTEXT(Number)"
-msgstr ""
+msgstr "BAHTTEXT(Number)"
 
 #: 04060110.xhp%23par_id1539353.help.text
 msgid ""
@@ -35970,25 +36110,29 @@ msgid ""
 "integral part of the number, and \"Satang\" is appended to the decimal part "
 "of the number."
 msgstr ""
+"            <emph>Թիվ</emph> ցանկացած թիվ է։ \"Baht\" -ը հավելած է թվի "
+"ամբողջ մասին, իսկ \"Satang\" -ը հավելած է թվի տասնորդական մասին:"
 
 #: 04060110.xhp%23hd_id9694814.help.text
 msgctxt "04060110.xhp#hd_id9694814.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3289284.help.text
 msgid ""
 "            <item type=\"input\">=BAHTTEXT(12.65)</item> returns a string in "
 "Thai characters with the meaning of \"Twelve Baht and sixty five Satang\"."
 msgstr ""
+"            <item type=\"input\">=BAHTTEXT(12.65)</item> Վերադարձնում է "
+"թայերեն նիշերի տողի տեսքով \"Տասներկու բահ և վաթսունհինգ սատանգ\":"
 
 #: 04060110.xhp%23bm_id3153072.help.text
 msgid "<bookmark_value>BASE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BASE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3153072.213.help.text
 msgid "BASE"
-msgstr ""
+msgstr "BASE"
 
 #: 04060110.xhp%23par_id3153289.214.help.text
 msgid ""
@@ -35997,20 +36141,24 @@ msgid ""
 "zahlensystem\" name=\"numbering system\">numbering system</link>.</ahelp> "
 "The digits 0-9 and the letters A-Z are used."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_BASIS\">Նշված հիմքով դրական ամբողջ թիվը այստեղից <link "
+"href=\"text/shared/00/00000005.xhp#zahlensystem\" name=\"numbering system\">"
+"numbering system</link> վերածում է տեքստի։</ahelp> Օգտագործվում են 0-9 թվերը "
+"և A-Z տառերը։"
 
 #: 04060110.xhp%23hd_id3146097.215.help.text
 msgctxt "04060110.xhp#hd_id3146097.215.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3155743.216.help.text
 msgid "BASE(Number; Radix; [MinimumLength])"
-msgstr ""
+msgstr "BASE(Number; Radix; [MinimumLength])"
 
 #: 04060110.xhp%23par_id3151339.217.help.text
 msgid ""
 "            <emph>Number</emph> is the positive integer to be converted."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> ձևափոխման ենթակա դրական ամբողջ թիվ է։"
 
 #: 04060110.xhp%23par_id3159262.218.help.text
 msgctxt "04060110.xhp#par_id3159262.218.help.text"
@@ -36018,6 +36166,8 @@ msgid ""
 "            <emph>Radix</emph> indicates the base of the number system. It "
 "may be any positive integer between 2 and 36."
 msgstr ""
+"            <emph>Radix</emph> նշում է թվային համակարգի հիմքը։ Այն կարող է "
+"լինել ցանկացած դրական ամբողջ թիվ 2-ի և 36-ի միջև:"
 
 #: 04060110.xhp%23par_id3148746.219.help.text
 msgid ""
@@ -36026,49 +36176,58 @@ msgid ""
 "shorter than the indicated minimum length, zeros are added to the left of "
 "the string."
 msgstr ""
+"            <emph>MinimumLength</emph> (կամընտրական) որոշում է նիշերի "
+"հաջորդականության նվազագույն երկարությունը, որը ստեղծվել է: Եթե տեքստը կարճ "
+"է, քան նշված նվազագույն երկարությունը, զրոները ավելացվում են տողի ձախ մասում:"
 
 #: 04060110.xhp%23hd_id3146323.220.help.text
 msgctxt "04060110.xhp#hd_id3146323.220.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23bm_id3156399.help.text
 msgid "<bookmark_value>decimal system; converting to</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>տասնորդական համակարգ; ձևափոխություն</bookmark_value>"
 
 #: 04060110.xhp%23par_id3156399.221.help.text
 msgid ""
 "            <item type=\"input\">=BASE(17;10;4)</item> returns 0017 in the "
 "decimal system."
 msgstr ""
+"            <item type=\"input\">=BASE(17;10;4)</item> վերադարձնում է 0017 "
+"տասնորդական համակարգում:"
 
 #: 04060110.xhp%23bm_id3157871.help.text
 msgid "<bookmark_value>binary system; converting to</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>երկուական համակարգ; ձևափոխություն</bookmark_value>"
 
 #: 04060110.xhp%23par_id3157871.222.help.text
 msgid ""
 "            <item type=\"input\">=BASE(17;2)</item> returns 10001 in the "
 "binary system."
 msgstr ""
+"            <item type=\"input\">=BASE(17;2)</item> վերադարձնում է 10001 "
+"երկուական համակարգում։"
 
 #: 04060110.xhp%23bm_id3145226.help.text
 msgid "<bookmark_value>hexadecimal system; converting to</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>տասնվեցական համակարգ; ձևափոխություն</bookmark_value>"
 
 #: 04060110.xhp%23par_id3145226.223.help.text
 msgid ""
 "            <item type=\"input\">=BASE(255;16;4)</item> returns 00FF in the "
 "hexadecimal system."
 msgstr ""
+"            <item type=\"input\">=BASE(255;16;4)</item> վերադարձնում է 00FF "
+"տասնվեցական համակարգում։"
 
 #: 04060110.xhp%23bm_id3149321.help.text
 msgid "<bookmark_value>CHAR function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CHAR գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149321.201.help.text
 msgid "CHAR"
-msgstr ""
+msgstr "CHAR"
 
 #: 04060110.xhp%23par_id3149150.202.help.text
 msgid ""
@@ -36076,159 +36235,183 @@ msgid ""
 "to the current code table.</ahelp> The number can be a two-digit or three-"
 "digit integer number."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZEICHEN\">Կոդավորման ընթացիկ աղյուսակի համաձայն "
+"ձևափոխում է թիվը նիշի:</ahelp> Թիվը կարող է լինել երկնիշ կամ եռանիշ ամբողջ "
+"թիվ:"
 
 #: 04060110.xhp%23hd_id3149945.203.help.text
 msgctxt "04060110.xhp#hd_id3149945.203.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3145634.204.help.text
 msgid "CHAR(Number)"
-msgstr ""
+msgstr "CHAR(Number)"
 
 #: 04060110.xhp%23par_id3155906.205.help.text
 msgid ""
 "            <emph>Number</emph> is a number between 1 and 255 representing "
 "the code value for the character."
 msgstr ""
+"            <emph>Թիվ</emph> 1-ից 255 միջակայքում թիվ է, որը ներկայացնում է "
+"նիշի կոդի արժեքը:"
 
 #: 04060110.xhp%23hd_id3152982.207.help.text
 msgctxt "04060110.xhp#hd_id3152982.207.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3149890.208.help.text
 msgid ""
 "            <item type=\"input\">=CHAR(100)</item> returns the character d."
 msgstr ""
+"            <item type=\"input\">=CHAR(100)</item> վերադարձնում է d նիշը։"
 
 #: 04060110.xhp%23par_id0907200910283297.help.text
 msgid ""
 "=\"abc\" & CHAR(10) & \"def\" inserts a newline character into the string."
-msgstr ""
+msgstr "=\"abc\" & CHAR(10) & \"def\" տողում ներդնում է նոր տողի նիշը:"
 
 #: 04060110.xhp%23bm_id3149009.help.text
 msgid "<bookmark_value>CLEAN function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CLEAN գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149009.132.help.text
 msgid "CLEAN"
-msgstr ""
+msgstr "CLEAN"
 
 #: 04060110.xhp%23par_id3150482.133.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_SAEUBERN\">All non-printing characters are removed "
 "from the string.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SAEUBERN\">Բոլոր չտպվող նիշերը հեռացված են "
+"տողից։</ahelp>"
 
 #: 04060110.xhp%23hd_id3146880.134.help.text
 msgctxt "04060110.xhp#hd_id3146880.134.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3147472.135.help.text
 msgid "CLEAN(\"Text\")"
-msgstr ""
+msgstr "CLEAN(\"Text\")"
 
 #: 04060110.xhp%23par_id3150695.136.help.text
 msgid ""
 "            <emph>Text</emph> refers to the text from which to remove all "
 "non-printable characters."
 msgstr ""
+"            <emph>Տեքստ</emph> վերաբերում է այն տեքստին, որից հեռացվելու են "
+"բոլոր ոչ տպվող նիշերը:"
 
 #: 04060110.xhp%23bm_id3155498.help.text
 msgid "<bookmark_value>CODE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CODE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3155498.3.help.text
 msgid "CODE"
-msgstr ""
+msgstr "CODE"
 
 #: 04060110.xhp%23par_id3152770.4.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_CODE\">Returns a numeric code for the first character "
 "in a text string.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_CODE\">Վերադարձնում է նիշային տողի առաջին նիշի թվային "
+"կոդը:</ahelp>"
 
 #: 04060110.xhp%23hd_id3155830.5.help.text
 msgctxt "04060110.xhp#hd_id3155830.5.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3149188.6.help.text
 msgid "CODE(\"Text\")"
-msgstr ""
+msgstr "CODE(\"Text\")"
 
 #: 04060110.xhp%23par_id3154383.7.help.text
 msgid ""
 "            <emph>Text</emph> is the text for which the code of the first "
 "character is to be found."
 msgstr ""
+"            <emph>Տեքստ</emph> այն տեքստն է, որի համար պետք է գտնվի առաջին "
+"նիշի կոդը։"
 
 #: 04060110.xhp%23hd_id3154394.8.help.text
 msgctxt "04060110.xhp#hd_id3154394.8.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3159209.9.help.text
 msgid ""
 "            <item type=\"input\">=CODE(\"Hieronymus\")</item> returns 72, <"
 "item type=\"input\">=CODE(\"hieroglyphic\")</item> returns 104."
 msgstr ""
+"            <item type=\"input\">=CODE(\"Hieronymus\")</item> վերադարձնում է "
+"72, <item type=\"input\">=CODE(\"hieroglyphic\")</item> վերադարձնում է 104։"
 
 #: 04060110.xhp%23par_id3150280.211.help.text
 msgid ""
 "The code used here does not refer to ASCII, but to the code table currently "
 "loaded."
 msgstr ""
+"Այստեղ օգտագործված կոդը չի վերաբերում ASCII-ին, այլ ներկայումս բեռնված "
+"կոդային աղյուսակին:"
 
 #: 04060110.xhp%23bm_id3149688.help.text
 msgid "<bookmark_value>CONCATENATE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CONCATENATE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149688.167.help.text
 msgid "CONCATENATE"
-msgstr ""
+msgstr "CONCATENATE"
 
 #: 04060110.xhp%23par_id3154524.168.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combines several text strings into one "
 "string.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_VERKETTEN\">Մի քանի տեքստային տողերը միացնում են "
+"մեկում:</ahelp>"
 
 #: 04060110.xhp%23hd_id3149542.169.help.text
 msgctxt "04060110.xhp#hd_id3149542.169.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3155954.170.help.text
 msgid "CONCATENATE(\"Text1\"; ...; \"Text30\")"
-msgstr ""
+msgstr "CONCATENATE(\"Text1\"; ...; \"Text30\")"
 
 #: 04060110.xhp%23par_id3146847.171.help.text
 msgid ""
 "            <emph>Text 1; Text 2; ...</emph> represent up to 30 text "
 "passages which are to be combined into one string."
 msgstr ""
+"            <emph>Text 1; Text 2; ...</emph> ներկայացնում են մինչև 30 "
+"տեքստային հատվածներ, որոնք պետք է միավորվեն մեկ տողում:"
 
 #: 04060110.xhp%23hd_id3153110.172.help.text
 msgctxt "04060110.xhp#hd_id3153110.172.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3150008.173.help.text
 msgid ""
 "            <item type=\"input\">=CONCATENATE(\"Good \";\"Morning \";\"Mrs. "
 "\";\"Doe\")</item> returns: Good Morning Mrs. Doe."
 msgstr ""
+"            <item type=\"input\">=CONCATENATE(\"Բարի \";\"առավոտ \";\"պրն \";"
+"\"Դոե\")</item> վերադարձնում է: Բարի առավոտ պրն Դոե։"
 
 #: 04060110.xhp%23bm_id3145166.help.text
 msgid "<bookmark_value>DECIMAL function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DECIMAL գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3145166.225.help.text
 msgid "DECIMAL"
-msgstr ""
+msgstr "DECIMAL"
 
 #: 04060110.xhp%23par_id3156361.226.help.text
 msgid ""
@@ -36238,6 +36421,11 @@ msgid ""
 "The radix must be in the range 2 to 36. Spaces and tabs are ignored. The "
 "<emph>Text</emph> field is not case-sensitive."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DEZIMAL\">Ձևափոխում է նիշերով տեքստը այստեղից <link "
+"href=\"text/shared/00/00000005.xhp#zahlensystem\" name=\"number system\">"
+"number system</link> տրված radix հիմքով դրական ամբողջի։</ahelp> radix -ը "
+"պետք է լինի 2 մինչև 36 տիրույթում։ Բացատները և տաբերը անտեսվում են։ Այս "
+"<emph>Տեքստ</emph> դաշտը ընտրությանը անզգա է։"
 
 #: 04060110.xhp%23par_id3157994.227.help.text
 msgid ""
@@ -36245,15 +36433,18 @@ msgid ""
 "disregarded. If the radix is 2, an appended b or B is disregarded. Other "
 "characters that do not belong to the number system generate an error."
 msgstr ""
+"Եթե radix -ը 16 է, առաջատար x կամ X կամ 0x կամ 0X, և հավելած h կամ H- ը, "
+"անտեսվում է: Եթե radix -ը 2 է, հավելած b կամ B- ն անտեսվում է: Այլ նիշերը, "
+"որոնք չեն պատկանում թվային համակարգին, սխալ են առաջացնում:"
 
 #: 04060110.xhp%23hd_id3150014.228.help.text
 msgctxt "04060110.xhp#hd_id3150014.228.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154328.229.help.text
 msgid "DECIMAL(\"Text\"; Radix)"
-msgstr ""
+msgstr "DECIMAL(\"Text\"; Radix)"
 
 #: 04060110.xhp%23par_id3150128.230.help.text
 msgid ""
@@ -36261,6 +36452,9 @@ msgid ""
 "between a hexadecimal number, such as A1 and the reference to cell A1, you "
 "must place the number in quotation marks, for example, \"A1\" or \"FACE\"."
 msgstr ""
+"            <emph>Տեքստ</emph> փոխակերպվող տեքստն է: Տարբերելու համար "
+"տասնվեցական թիվը, ինչպիսին է A1- ը և A1 բջջի հղումը, դուք պետք է թիվը "
+"տեղադրեք չակերտների մեջ, օրինակ ՝ \"A1\" կամ \"FACE\":"
 
 #: 04060110.xhp%23par_id3145241.231.help.text
 msgctxt "04060110.xhp#par_id3145241.231.help.text"
@@ -36268,32 +36462,40 @@ msgid ""
 "            <emph>Radix</emph> indicates the base of the number system. It "
 "may be any positive integer between 2 and 36."
 msgstr ""
+"            <emph>Radix</emph> ցույց է տալիս թվային համակարգի հիմքը: Դա "
+"կարող է լինել ցանկացած դրական ամբողջ թիվ 2-ի և 36-ի միջև:"
 
 #: 04060110.xhp%23hd_id3156062.232.help.text
 msgctxt "04060110.xhp#hd_id3156062.232.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3145355.233.help.text
 msgid "            <item type=\"input\">=DECIMAL(\"17\";10)</item> returns 17."
 msgstr ""
+"            <item type=\"input\">=DECIMAL(\"17\";10)</item> վերադարձնում է "
+"17։"
 
 #: 04060110.xhp%23par_id3155622.234.help.text
 msgid ""
 "            <item type=\"input\">=DECIMAL(\"FACE\";16)</item> returns 64206."
 msgstr ""
+"            <item type=\"input\">=DECIMAL(\"FACE\";16)</item> վերադարձնում է "
+"64206։"
 
 #: 04060110.xhp%23par_id3151015.235.help.text
 msgid "            <item type=\"input\">=DECIMAL(\"0101\";2)</item> returns 5."
 msgstr ""
+"            <item type=\"input\">=DECIMAL(\"0101\";2)</item> վերադարձնում է "
+"5։"
 
 #: 04060110.xhp%23bm_id3148402.help.text
 msgid "<bookmark_value>DOLLAR function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DOLLAR գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3148402.11.help.text
 msgid "DOLLAR"
-msgstr ""
+msgstr "DOLLAR"
 
 #: 04060110.xhp%23par_id3153049.12.help.text
 msgid ""
@@ -36304,39 +36506,50 @@ msgid ""
 "literal\">Decimals</item> field. If no value is specified, all numbers in "
 "currency format will be displayed with two decimal places. "
 msgstr ""
+"<ahelp hid=\"HID_FUNC_DM\">Վերափոխում է թիվը արժույթի ձևաչափով գումարի, "
+"կլորացված սահմանված տասնորդական չափի:</ahelp> Այս <item type=\"literal\""
+">Արժեք</item> դաշտում մուտքագրեք թիվը, որը պետք է փոխարկվի արժույթով: Ըստ "
+"ցանկության, կարող եք մուտքագրել տասնորդական տեղերի քանակը <item type=\""
+"literal\">Տասնորդականներ</item> դաշտում։ Եթե որևէ արժեք նշված չէ, արժույթի "
+"ձևաչափով բոլոր թվերը կարտածվեն տասնորդական երկու դիրքով: "
 
 #: 04060110.xhp%23par_id3151280.263.help.text
 msgid "You set the currency format in your system settings."
-msgstr ""
+msgstr "Դուք սահմանում եք արժույթի ձևաչափը ձեր համակարգի կարգաբերումներում:"
 
 #: 04060110.xhp%23hd_id3150569.13.help.text
 msgctxt "04060110.xhp#hd_id3150569.13.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154188.14.help.text
 msgid "DOLLAR(Value; Decimals)"
-msgstr ""
+msgstr "DOLLAR(Value; Decimals)"
 
 #: 04060110.xhp%23par_id3145299.15.help.text
 msgid ""
 "            <emph>Value</emph> is a number, a reference to a cell containing "
 "a number, or a formula which returns a number."
 msgstr ""
+"            <emph>Արժեք</emph> թիվ է, հղում է թիվը պարունակող բջջին կամ "
+"բանաձև է, որը վերադարձնում է թիվը:"
 
 #: 04060110.xhp%23par_id3145629.16.help.text
 msgid ""
 "            <emph>Decimals</emph> is the optional number of decimal places."
 msgstr ""
+"            <emph>Տասնորդականներ</emph>տասնորդական դիրքերի կամընտրական թիվն "
+"է:"
 
 #: 04060110.xhp%23hd_id3149030.17.help.text
 msgctxt "04060110.xhp#hd_id3149030.17.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3153546.18.help.text
 msgid "            <item type=\"input\">=DOLLAR(255)</item> returns $255.00."
 msgstr ""
+"            <item type=\"input\">=DOLLAR(255)</item> վերադարձնում է $255.00։"
 
 #: 04060110.xhp%23par_id3154635.19.help.text
 msgid ""
@@ -36345,56 +36558,68 @@ msgid ""
 "optionen/01140000.xhp\" name=\"current locale setting\">current locale "
 "setting</link>."
 msgstr ""
+"            <item type=\"input\">=DOLLAR(367.456;2)</item> վերադարձնում է "
+"$367.46։ Օգտագործեք տասնորդական տարանջատիչը, որը համապատասխանում է <link "
+"href=\"text/shared/optionen/01140000.xhp\" name=\"ընթացիկ տեղայինի "
+"կարգաբերում\">ընթացիկ տեղայինի կարգաբերում</link>։"
 
 #: 04060110.xhp%23bm_id3150685.help.text
 msgid "<bookmark_value>EXACT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>EXACT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3150685.78.help.text
 msgid "EXACT"
-msgstr ""
+msgstr "EXACT"
 
 #: 04060110.xhp%23par_id3158413.79.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_IDENTISCH\">Compares two text strings and returns TRUE "
 "if they are identical.</ahelp> This function is case-sensitive."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_IDENTISCH\">Համեմատում է տեքստային երկու տողերը և "
+"վերադարձնում է TRUE, եթե դրանք նույնական են:</ahelp> Այս գործառույթը զգայուն "
+"է ընտրությանը:"
 
 #: 04060110.xhp%23hd_id3152817.80.help.text
 msgctxt "04060110.xhp#hd_id3152817.80.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3148594.81.help.text
 msgid "EXACT(\"Text1\"; \"Text2\")"
-msgstr ""
+msgstr "EXACT(\"Text1\"; \"Text2\")"
 
 #: 04060110.xhp%23par_id3153224.82.help.text
 msgid "            <emph>Text1</emph> refers to the first text to compare."
 msgstr ""
+"            <emph>Text1</emph> վերաբերում է համեմատման ենթակա առաջին տեքստին:"
 
 #: 04060110.xhp%23par_id3148637.83.help.text
 msgid "            <emph>Text2</emph> is the second text to compare."
 msgstr ""
+"            <emph>Text2</emph> վերաբերում է համեմատման ենթակա երկրորդ "
+"տեքստին:"
 
 #: 04060110.xhp%23hd_id3149777.84.help.text
 msgctxt "04060110.xhp#hd_id3149777.84.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3156263.85.help.text
 msgid ""
 "            <item type=\"input\">=EXACT(\"microsystems\";\"Microsystems\""
 ")</item> returns FALSE."
 msgstr ""
+"            <item type=\"input\">=EXACT(\"microsystems\";\"Microsystems\""
+")</item> վերադարձնում է FALSE։"
 
 #: 04060110.xhp%23bm_id3152589.help.text
 msgid "<bookmark_value>FIND function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FIND գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3152589.44.help.text
 msgid "FIND"
-msgstr ""
+msgstr "FIND"
 
 #: 04060110.xhp%23par_id3146149.45.help.text
 msgid ""
@@ -36403,72 +36628,85 @@ msgid ""
 "term can be a number or any string of characters. The search is case-"
 "sensitive."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_FINDEN\">Տեքստային տող է փնտրում մեկ այլ "
+"տողում:</ahelp> Կարող եք նաև սահմանել, թե որտեղ պետք է սկսել որոնումը: "
+"Որոնման տերմինը կարող է լինել թիվ կամ ցանկացած բնույթի նիշերի տող: Որոնումը "
+"ընտրությանը զգայուն է:"
 
 #: 04060110.xhp%23hd_id3083284.46.help.text
 msgctxt "04060110.xhp#hd_id3083284.46.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3083452.47.help.text
 msgid "FIND(\"FindText\"; \"Text\"; Position)"
-msgstr ""
+msgstr "FIND(\"FindText\"; \"Text\"; Position)"
 
 #: 04060110.xhp%23par_id3150608.48.help.text
 msgid "            <emph>FindText</emph> refers to the text to be found."
-msgstr ""
+msgstr "            <emph>FindText</emph> վերաբերում է փնտրվող տեքստին:"
 
 #: 04060110.xhp%23par_id3152374.49.help.text
 msgid "            <emph>Text</emph> is the text where the search takes place."
 msgstr ""
+"            <emph>Տեքստ</emph> այն տեքստն է, որտեղ կատարվում է որոնումը:"
 
 #: 04060110.xhp%23par_id3152475.50.help.text
 msgid ""
 "            <emph>Position</emph> (optional) is the position in the text "
 "from which the search starts."
 msgstr ""
+"            <emph>Դիրք</emph> (կամընտրական) այն դիրքն է տեքստում, որից "
+"սկսվում է որոնումը:"
 
 #: 04060110.xhp%23hd_id3154812.51.help.text
 msgctxt "04060110.xhp#hd_id3154812.51.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3156375.52.help.text
 msgid ""
 "            <item type=\"input\">=FIND(76;998877665544)</item> returns 6."
 msgstr ""
+"            <item type=\"input\">=FIND(76;998877665544)</item> վերադարձնում "
+"է 6։"
 
 #: 04060110.xhp%23bm_id3149268.help.text
 msgid "<bookmark_value>FIXED function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FIXED գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149268.34.help.text
 msgid "FIXED"
-msgstr ""
+msgstr "FIXED"
 
 #: 04060110.xhp%23par_id3155833.35.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_FEST\">Returns a number as text with a specified "
 "number of decimal places and optional thousands separators.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_FEST\">Վերադարձնում է թիվը որպես տեքստ, տասնորդական "
+"դիրքերի որոշված քանակով և հազարականների կամընտրական տարանջատիչներով:</ahelp>"
 
 #: 04060110.xhp%23hd_id3152470.36.help.text
 msgctxt "04060110.xhp#hd_id3152470.36.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3147567.37.help.text
 msgid "FIXED(Number; Decimals; NoThousandsSeparators)"
-msgstr ""
+msgstr "FIXED(Number; Decimals; NoThousandsSeparators)"
 
 #: 04060110.xhp%23par_id3151272.38.help.text
 msgid "            <emph>Number</emph> refers to the number to be formatted."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> վերաբերում է ձևափոխման ենթակա թվին:"
 
 #: 04060110.xhp%23par_id3156322.39.help.text
 msgid ""
 "            <emph>Decimals</emph> refers to the number of decimal places to "
 "be displayed."
 msgstr ""
+"            <emph>Տասնորդականներ</emph> վերաբերում է արտածվող տասնորդական "
+"դիրքերի քանակին:"
 
 #: 04060110.xhp%23par_id3150877.40.help.text
 msgid ""
@@ -36479,37 +36717,49 @@ msgid ""
 "text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current "
 "locale setting</link> are displayed."
 msgstr ""
+"            <emph>NoThousandsSeparators</emph> (կամընտրական) որոշում է, թե "
+"օգտագործվում է հազարականի բաժանարարը: Եթե պարամետրը մի թիվ է, որը հավասար չէ "
+"0-ի, ապա հազարականի բաժանարարը ճնշվում է: Եթե պարամետրը հավասար է 0-ի, կամ "
+"եթե այն ընդհանրապես բացակայում է, հազարականի բաժանարարները <link href=\""
+"text/shared/optionen/01140000.xhp\" name=\"ընթացիկ տեղայինի կարգաբերում\">"
+"ընթացիկ տեղայինի կարգաբերում</link> արտածվում են:"
 
 #: 04060110.xhp%23hd_id3149040.41.help.text
 msgctxt "04060110.xhp#hd_id3149040.41.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3145208.42.help.text
 msgid ""
 "            <item type=\"input\">=FIXED(1234567.89;3)</item> returns "
 "1,234,567.890 as a text string. "
 msgstr ""
+"            <item type=\"input\">=FIXED(1234567.89;3)</item> վերադարձնում է "
+"1,234,567.890 որպես տեքստային տող։ "
 
 #: 04060110.xhp%23par_id5282143.help.text
 msgid ""
 "            <item type=\"input\">=FIXED(1234567.89;3;1)</item> returns "
 "1234567.890 as a text string."
 msgstr ""
+"            <item type=\"input\">=FIXED(1234567.89;3;1)</item> վերադարձնում "
+"է 1234567.890 որպես տեքստային տող։"
 
 #: 04060110.xhp%23bm_id7319864.help.text
 msgid "<bookmark_value>JIS function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>JIS գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3666188.help.text
 msgid "JIS"
-msgstr ""
+msgstr "JIS"
 
 #: 04060110.xhp%23par_id964384.help.text
 msgid ""
 "<ahelp hid=\".\">The JIS function converts half-width to full-width ASCII "
 "and katakana characters. Returns a text string.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">JIS գործառույթը կես լայնությունը վերածում է ամբողջ "
+"լայնության ASCII և կատականա նիշերով: Վերադարձնում է տեքստի տողը:</ahelp>"
 
 #: 04060110.xhp%23par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
@@ -36518,15 +36768,18 @@ msgid ""
 "JIS_and_ASC_functions\">JIS and ASC Spreadsheet Functions</link> for a "
 "conversion table."
 msgstr ""
+"Տե՛ս <link href=\"https://wiki.openoffice.org/wiki/Calc/Features/"
+"JIS_and_ASC_functions\">JIS and ASC Spreadsheet Functions</link> ձևափոխման "
+"աղյուսակի համար։"
 
 #: 04060110.xhp%23hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id2504654.help.text
 msgid "JIS(\"Text\")"
-msgstr ""
+msgstr "JIS(\"Text\")"
 
 #: 04060110.xhp%23par_id5292519.help.text
 msgctxt "04060110.xhp#par_id5292519.help.text"
@@ -36534,39 +36787,44 @@ msgid ""
 "            <emph>Text</emph> is the text that contains characters to be "
 "converted."
 msgstr ""
+"            <emph>Տեքստ</emph> տեքստն է, որը պարունակում է ձևափոխման նիշերը։"
 
 #: 04060110.xhp%23par_id3984496.help.text
 msgid "See also ASC function."
-msgstr ""
+msgstr "Տե՛ս նաև ASC գործառույթը։"
 
 #: 04060110.xhp%23bm_id3147083.help.text
 msgid "<bookmark_value>LEFT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LEFT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3147083.95.help.text
 msgid "LEFT"
-msgstr ""
+msgstr "LEFT"
 
 #: 04060110.xhp%23par_id3153622.96.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_LINKS\">Returns the first character or characters of a "
 "text.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_LINKS\">Վերադարձնում է տեքստի առաջին նիշը կամ "
+"նիշերը:</ahelp>"
 
 #: 04060110.xhp%23hd_id3156116.97.help.text
 msgctxt "04060110.xhp#hd_id3156116.97.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3146786.98.help.text
 msgid "LEFT(\"Text\"; Number)"
-msgstr ""
+msgstr "LEFT(\"Text\"; Number)"
 
 #: 04060110.xhp%23par_id3147274.99.help.text
 msgid ""
 "            <emph>Text</emph> is the text where the initial partial words "
 "are to be determined."
 msgstr ""
+"            <emph>Տեքստ</emph> տեքստն է, որում պետք է որոշվեն նախնական "
+"մասնակի բառերը:"
 
 #: 04060110.xhp%23par_id3153152.100.help.text
 msgid ""
@@ -36574,193 +36832,216 @@ msgid ""
 "characters for the start text. If this parameter is not defined, one "
 "character is returned."
 msgstr ""
+"            <emph>Թիվ</emph> (կամընտրական) սահմանում է սկզբնական տեքստի "
+"նիշերի քանակը: Եթե այս պարամետրը սահմանված չէ, վերադարձվում է մեկ նիշ:"
 
 #: 04060110.xhp%23hd_id3150260.101.help.text
 msgctxt "04060110.xhp#hd_id3150260.101.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3149141.102.help.text
 msgid ""
 "            <item type=\"input\">=LEFT(\"output\";3)</item> returns “out”."
 msgstr ""
+"            <item type=\"input\">=LEFT(\"output\";3)</item> վերադարձնում է "
+"“out”։"
 
 #: 04060110.xhp%23bm_id3156110.help.text
 msgid "<bookmark_value>LEN function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LEN գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3156110.104.help.text
 msgid "LEN"
-msgstr ""
+msgstr "LEN"
 
 #: 04060110.xhp%23par_id3150147.105.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_LAENGE\">Returns the length of a string including "
 "spaces.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_LAENGE\">Վերադարձնում է տողի երկարությունը, ներառյալ "
+"բացատները:</ahelp>"
 
 #: 04060110.xhp%23hd_id3155108.106.help.text
 msgctxt "04060110.xhp#hd_id3155108.106.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154063.107.help.text
 msgid "LEN(\"Text\")"
-msgstr ""
+msgstr "LEN(\"Text\")"
 
 #: 04060110.xhp%23par_id3146894.108.help.text
 msgid ""
 "            <emph>Text</emph> is the text whose length is to be determined."
 msgstr ""
+"            <emph>Տեքստ</emph> այն տեքստն է, որի երկարությունը պետք է որոշվի:"
 
 #: 04060110.xhp%23hd_id3153884.109.help.text
 msgctxt "04060110.xhp#hd_id3153884.109.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3156008.110.help.text
 msgid ""
 "            <item type=\"input\">=LEN(\"Good Afternoon\")</item> returns 14."
 msgstr ""
+"            <item type=\"input\">=LEN(\"Good Afternoon\")</item> "
+"վերադարձնում է 14։"
 
 #: 04060110.xhp%23par_id3154300.111.help.text
 msgid "            <item type=\"input\">=LEN(12345.67)</item> returns 8."
 msgstr ""
+"            <item type=\"input\">=LEN(12345.67)</item> վերադարձնում է 8։"
 
 #: 04060110.xhp%23bm_id3153983.help.text
 msgid "<bookmark_value>LOWER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LOWER գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3153983.87.help.text
 msgid "LOWER"
-msgstr ""
+msgstr "LOWER"
 
 #: 04060110.xhp%23par_id3152791.88.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_KLEIN\">Converts all uppercase letters in a text "
 "string to lowercase.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_KLEIN\">Ձևափոխում է տեքստի բոլոր մեծատառերը "
+"փոքրատառերի։</ahelp>"
 
 #: 04060110.xhp%23hd_id3155902.89.help.text
 msgctxt "04060110.xhp#hd_id3155902.89.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3150121.90.help.text
 msgid "LOWER(\"Text\")"
-msgstr ""
+msgstr "LOWER(\"Text\")"
 
 #: 04060110.xhp%23par_id3153910.91.help.text
 msgctxt "04060110.xhp#par_id3153910.91.help.text"
 msgid "            <emph>Text</emph> refers to the text to be converted."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> վերաբերում է վերափոխվող տեքստին:"
 
 #: 04060110.xhp%23hd_id3159343.92.help.text
 msgctxt "04060110.xhp#hd_id3159343.92.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3155329.93.help.text
 msgid "            <item type=\"input\">=LOWER(\"Sun\")</item> returns sun."
 msgstr ""
+"            <item type=\"input\">=LOWER(\"Արև\")</item> վերադարձնում է արև։"
 
 #: 04060110.xhp%23bm_id3154589.help.text
 msgid "<bookmark_value>MID function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>MID գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3154589.148.help.text
 msgid "MID"
-msgstr ""
+msgstr "MID"
 
 #: 04060110.xhp%23par_id3154938.149.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_TEIL\">Returns a text string of a text. The parameters "
 "specify the starting position and the number of characters.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TEIL\">Վերադարձնում է տեքստի տողի մի տողը: Պարամետրերը "
+"նշում են մեկնարկային դիրքը և նիշերի քանակը:</ahelp>"
 
 #: 04060110.xhp%23hd_id3148829.150.help.text
 msgctxt "04060110.xhp#hd_id3148829.150.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3150526.151.help.text
 msgid "MID(\"Text\"; Start; Number)"
-msgstr ""
+msgstr "MID(\"Text\"; Start; Number)"
 
 #: 04060110.xhp%23par_id3148820.152.help.text
 msgid ""
 "            <emph>Text</emph> is the text containing the characters to "
 "extract."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> տեքստի նիշերն են ենթակա դուրս բերման:"
 
 #: 04060110.xhp%23par_id3150774.153.help.text
 msgid ""
 "            <emph>Start</emph> is the position of the first character in the "
 "text to extract."
 msgstr ""
+"            <emph>Սկիզբ</emph> տեքստում դուրս բերման ենթակա առաջին նիշի "
+"դիրքն է:"
 
 #: 04060110.xhp%23par_id3153063.154.help.text
 msgid ""
 "            <emph>Number</emph> specifies the number of characters in the "
 "part of the text."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> նշում է տեքստի մասի նիշերի քանակը:"
 
 #: 04060110.xhp%23hd_id3150509.155.help.text
 msgctxt "04060110.xhp#hd_id3150509.155.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3158407.156.help.text
 msgid ""
 "            <item type=\"input\">=MID(\"office\";2;2)</item> returns ff."
 msgstr ""
+"            <item type=\"input\">=MID(\"office\";2;2)</item> վերադարձնում է "
+"ff։"
 
 #: 04060110.xhp%23bm_id3159143.help.text
 msgid "<bookmark_value>PROPER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>PROPER գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3159143.70.help.text
 msgid "PROPER"
-msgstr ""
+msgstr "PROPER"
 
 #: 04060110.xhp%23par_id3149768.71.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_GROSS2\">Capitalizes the first letter in all words of "
 "a text string.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_GROSS2\">Դարձնում է մեծատառ տեքստային տողի բոլոր "
+"բառերի առաջին տառը:</ahelp>"
 
 #: 04060110.xhp%23hd_id3153573.72.help.text
 msgctxt "04060110.xhp#hd_id3153573.72.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154260.73.help.text
 msgid "PROPER(\"Text\")"
-msgstr ""
+msgstr "PROPER(\"Text\")"
 
 #: 04060110.xhp%23par_id3147509.74.help.text
 msgctxt "04060110.xhp#par_id3147509.74.help.text"
 msgid "            <emph>Text</emph> refers to the text to be converted."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> վերաբերում է ձևափոխվող տեքստին:"
 
 #: 04060110.xhp%23hd_id3147529.75.help.text
 msgctxt "04060110.xhp#hd_id3147529.75.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3155364.76.help.text
 msgid ""
 "            <item type=\"input\">=PROPER(\"open office\")</item> returns "
 "Open Office."
 msgstr ""
+"            <item type=\"input\">=PROPER(\"open office\")</item> "
+"վերադարձնում է Open Office։"
 
 #: 04060110.xhp%23bm_id3149171.help.text
 msgid "<bookmark_value>REPLACE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>REPLACE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149171.22.help.text
 msgid "REPLACE"
-msgstr ""
+msgstr "REPLACE"
 
 #: 04060110.xhp%23par_id3148925.23.help.text
 msgid ""
