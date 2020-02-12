@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-10 18:01+0000\n"
+"PO-Revision-Date: 2020-02-11 18:35+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1581357674.000000\n"
+"X-POOTLE-MTIME: 1581446149.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -37053,6 +37053,13 @@ msgid ""
 "need to convert it back to a number using the <link href=\"text/scalc/01/"
 "04060110.xhp\" name=\"VALUE\">VALUE</link> function."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ERSETZEN\">Տեքստի տողի մի մասը փոխարինում է այլ տեքստի "
+"տողով:</ahelp> Այս գործառույթը կարող է օգտագործվել ինչպես նիշերի, այնպես էլ "
+"թվերի փոխարինման համար (որոնք ինքնաբերաբար վերածվում են տեքստի): Գործառույթի "
+"արդյունքը միշտ ցուցադրվում է որպես տեքստ: Եթե մտադիր եք հետագա հաշվարկները "
+"կատարել տեքստով փոխարինված թվով, ապա ձեզ հարկավոր է այն հետ վերափոխել թվի, "
+"օգտագործելով <link href=\"text/scalc/01/04060110.xhp\" name=\"VALUE\""
+">VALUE</link> գործառույթը։"
 
 #: 04060110.xhp%23par_id3158426.24.help.text
 msgid ""
@@ -37060,44 +37067,53 @@ msgid ""
 "not want it to be interpreted as a number and automatically converted to "
 "text."
 msgstr ""
+"Ցանկացած թվեր պարունակող տեքստը պետք է ներառված լինեն չակերտներում, եթե չես "
+"ուզում, որ այն մեկնաբանվի որպես թիվ և ինքնաբերաբար վերածվի տեքստի:"
 
 #: 04060110.xhp%23hd_id3149159.25.help.text
 msgctxt "04060110.xhp#hd_id3149159.25.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3147286.26.help.text
 msgid "REPLACE(\"Text\"; Position; Length; \"NewText\")"
-msgstr ""
+msgstr "REPLACE(\"Text\"; Position; Length; \"NewText\")"
 
 #: 04060110.xhp%23par_id3149797.27.help.text
 msgid ""
 "            <emph>Text</emph> refers to text of which a part will be "
 "replaced."
 msgstr ""
+"            <emph>Տեքստ</emph> վերաբերում է տեքստին, որի մի մասը կփոխարինվի:"
 
 #: 04060110.xhp%23par_id3166451.28.help.text
 msgid ""
 "            <emph>Position</emph> refers to the position within the text "
 "where the replacement will begin."
 msgstr ""
+"            <emph>Դիրք</emph> վերաբերում է տեքստում գտնվող այն դիրքին, որտեղ "
+"կսկսվի փոխարինումը:"
 
 #: 04060110.xhp%23par_id3156040.29.help.text
 msgid ""
 "            <emph>Length</emph> is the number of characters in "
 "<emph>Text</emph> to be replaced."
 msgstr ""
+"            <emph>Լայնք</emph> Փոխարինման ենթակա նիշերի թիվն է "
+"<emph>Տեքստ</emph> -ում։"
 
 #: 04060110.xhp%23par_id3159188.30.help.text
 msgid ""
 "            <emph>NewText</emph> refers to the text which replaces "
 "<emph>Text</emph>."
 msgstr ""
+"            <emph>NewText</emph> վերաբերում է այն տեքստին, որը փոխարինում է "
+"<emph>Տեքստ</emph> -ը։"
 
 #: 04060110.xhp%23hd_id3146958.31.help.text
 msgctxt "04060110.xhp#hd_id3146958.31.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3154096.32.help.text
 msgid ""
@@ -37105,104 +37121,115 @@ msgid ""
 "returns \"444234567\". One character at position 1 is replaced by the "
 "complete <item type=\"literal\">NewText</item>."
 msgstr ""
+"            <item type=\"input\">=REPLACE(\"1234567\";1;1;\"444\")</item> "
+"վերադարձնում է \"444234567\"։ 1-ին դիրքում մեկ նիշ փոխարինվում է ամբողջական <"
+"item type=\"literal\">NewText</item> -ով:"
 
 #: 04060110.xhp%23bm_id3149741.help.text
 msgid "<bookmark_value>REPT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>REPT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149741.193.help.text
 msgid "REPT"
-msgstr ""
+msgstr "REPT"
 
 #: 04060110.xhp%23par_id3153748.194.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_WIEDERHOLEN\">Repeats a character string by the given "
 "<emph>number</emph> of copies.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WIEDERHOLEN\">Կրկնում է նիշերի տողը տրված "
+"<emph>քանակի</emph> պատճեններով։</ahelp>"
 
 #: 04060110.xhp%23hd_id3152884.195.help.text
 msgctxt "04060110.xhp#hd_id3152884.195.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3150494.196.help.text
 msgid "REPT(\"Text\"; Number)"
-msgstr ""
+msgstr "REPT(\"Text\"; Number)"
 
 #: 04060110.xhp%23par_id3154859.197.help.text
 msgid "            <emph>Text</emph> is the text to be repeated."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> կրկնվող տեքստն է։"
 
 #: 04060110.xhp%23par_id3150638.198.help.text
 msgid "            <emph>Number</emph> is the number of repetitions."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> կրկնությունների քանակն է։"
 
 #: 04060110.xhp%23par_id3149922.212.help.text
 msgid "The result can be a maximum of 255 characters."
-msgstr ""
+msgstr "Արդյունքը կարող է լինել մեծագույնը 255 նիշ։"
 
 #: 04060110.xhp%23hd_id3156213.199.help.text
 msgctxt "04060110.xhp#hd_id3156213.199.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3148626.200.help.text
 msgid ""
 "            <item type=\"input\">=REPT(\"Good morning\";2)</item> returns "
 "Good morningGood morning."
 msgstr ""
+"            <item type=\"input\">=REPT(\"Good morning\";2)</item> "
+"վերադարձնում է Good morningGood morning։"
 
 #: 04060110.xhp%23bm_id3149805.help.text
 msgid "<bookmark_value>RIGHT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>RIGHT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3149805.113.help.text
 msgid "RIGHT"
-msgstr ""
+msgstr "RIGHT"
 
 #: 04060110.xhp%23par_id3145375.114.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_RECHTS\">Returns the last character or characters of a "
 "text.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_RECHTS\">Վերադարձնում է վերջին նիշը կամ տեքստի "
+"նիշերը:</ahelp>"
 
 #: 04060110.xhp%23hd_id3150837.115.help.text
 msgctxt "04060110.xhp#hd_id3150837.115.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154344.116.help.text
 msgid "RIGHT(\"Text\"; Number)"
-msgstr ""
+msgstr "RIGHT(\"Text\"; Number)"
 
 #: 04060110.xhp%23par_id3149426.117.help.text
 msgid ""
 "            <emph>Text</emph> is the text of which the right part is to be "
 "determined."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> տեքստն է, որի աջ մասը պետք է որոշվի:"
 
 #: 04060110.xhp%23par_id3153350.118.help.text
 msgid ""
 "            <emph>Number</emph> (optional) is the number of characters from "
 "the right part of the text."
 msgstr ""
+"            <emph>Թիվ</emph> (կամընտրական) տեքստի աջ մասից նիշերի քանակն է:"
 
 #: 04060110.xhp%23hd_id3148661.119.help.text
 msgctxt "04060110.xhp#hd_id3148661.119.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3151132.120.help.text
 msgid "            <item type=\"input\">=RIGHT(\"Sun\";2)</item> returns un."
 msgstr ""
+"            <item type=\"input\">=RIGHT(\"Sun\";2)</item> վերադարձնում է un։"
 
 #: 04060110.xhp%23bm_id3153534.help.text
 msgid "<bookmark_value>ROMAN function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ROMAN գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3153534.248.help.text
 msgid "ROMAN"
-msgstr ""
+msgstr "ROMAN"
 
 #: 04060110.xhp%23par_id3151256.249.help.text
 msgid ""
@@ -37210,21 +37237,26 @@ msgid ""
 "value range must be between 0 and 3999, the modes can be integers from 0 to "
 "4.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ROEMISCH\">Թիվը վերածում է հռոմեական թվանշանի: Արժեքի "
+"միջակայքը պետք է լինի 0-ից 3999, ռեժիմները կարող են լինել ամբողջական թվեր 0-"
+"ից 4-ի սահմաններում:</ahelp>"
 
 #: 04060110.xhp%23hd_id3149299.250.help.text
 msgctxt "04060110.xhp#hd_id3149299.250.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3150593.251.help.text
 msgid "ROMAN(Number; Mode)"
-msgstr ""
+msgstr "ROMAN(Number; Mode)"
 
 #: 04060110.xhp%23par_id3156139.252.help.text
 msgid ""
 "            <emph>Number</emph> is the number that is to be converted into a "
 "Roman numeral."
 msgstr ""
+"            <emph>Թիվ</emph> այն թիվն է, որը պետք է վերածվի հռոմեական "
+"թվանշանի։"
 
 #: 04060110.xhp%23par_id3153318.253.help.text
 msgid ""
@@ -37232,43 +37264,51 @@ msgid ""
 "simplification. The higher the value, the greater is the simplification of "
 "the Roman number."
 msgstr ""
+"            <emph>Ռեժիմ</emph> (կամընտրական) ցույց է տալիս պարզեցման "
+"աստիճանը: Որքան բարձր է արժեքը, այնքան ավելի մեծ է հռոմեական թվանշանի "
+"պարզեցումը:"
 
 #: 04060110.xhp%23hd_id3145306.254.help.text
 msgctxt "04060110.xhp#hd_id3145306.254.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3151371.255.help.text
 msgid "            <item type=\"input\">=ROMAN(999)</item> returns CMXCIX"
 msgstr ""
+"            <item type=\"input\">=ROMAN(999)</item> վերադարձնում է CMXCIX"
 
 #: 04060110.xhp%23par_id3153938.256.help.text
 msgid "            <item type=\"input\">=ROMAN(999;0)</item> returns CMXCIX"
 msgstr ""
+"            <item type=\"input\">=ROMAN(999;0)</item> վերադարձնում է CMXCIX"
 
 #: 04060110.xhp%23par_id3148412.257.help.text
 msgid "            <item type=\"input\">=ROMAN (999;1)</item> returns LMVLIV"
 msgstr ""
+"            <item type=\"input\">=ROMAN (999;1)</item> վերադարձնում է LMVLIV"
 
 #: 04060110.xhp%23par_id3155421.258.help.text
 msgid "            <item type=\"input\">=ROMAN(999;2)</item> returns XMIX"
 msgstr ""
+"            <item type=\"input\">=ROMAN(999;2)</item> վերադարձնում է XMIX"
 
 #: 04060110.xhp%23par_id3149235.259.help.text
 msgid "            <item type=\"input\">=ROMAN(999;3)</item> returns VMIV"
 msgstr ""
+"            <item type=\"input\">=ROMAN(999;3)</item> վերադարձնում է VMIV"
 
 #: 04060110.xhp%23par_id3150624.260.help.text
 msgid "            <item type=\"input\">=ROMAN(999;4)</item> returns IM"
-msgstr ""
+msgstr "            <item type=\"input\">=ROMAN(999;4)</item> վերադարձնում է IM"
 
 #: 04060110.xhp%23bm_id3151005.help.text
 msgid "<bookmark_value>SEARCH function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SEARCH գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3151005.122.help.text
 msgid "SEARCH"
-msgstr ""
+msgstr "SEARCH"
 
 #: 04060110.xhp%23par_id3148692.123.help.text
 msgid ""
@@ -37277,81 +37317,97 @@ msgid ""
 "option. The search text can be a number or any sequence of characters. The "
 "search is not case-sensitive."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_SUCHEN\">Նիշերի տողից վերադարձնում է տեքստային հատվածի "
+"դիրքը: </ahelp> Կարող եք որոնման սկիզբը դնել որպես տարբերակ: Որոնման տեքստը "
+"կարող է լինել թիվ կամ նիշերի ցանկացած հաջորդականություն: Որոնումը դեպքի "
+"ընտրությանը զգայուն չէ։"
 
 #: 04060110.xhp%23hd_id3152964.124.help.text
 msgctxt "04060110.xhp#hd_id3152964.124.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3154671.125.help.text
 msgid "SEARCH(\"FindText\"; \"Text\"; Position)"
-msgstr ""
+msgstr "SEARCH(\"FindText\"; \"Text\"; Position)"
 
 #: 04060110.xhp%23par_id3146080.126.help.text
 msgid "            <emph>FindText</emph> is the text to be searched for."
-msgstr ""
+msgstr "            <emph>FindText</emph> փնտրման տեքստ է։"
 
 #: 04060110.xhp%23par_id3154111.127.help.text
 msgid ""
 "            <emph>Text</emph> is the text where the search will take place."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> տեստն է, որում կկատարվի որոնումը։"
 
 #: 04060110.xhp%23par_id3149559.128.help.text
 msgid ""
 "            <emph>Position</emph> (optional) is the position in the text "
 "where the search is to start."
 msgstr ""
+"            <emph>Դիրք</emph> (կամընտրական) տեքստի այն դիրքն է, որտեղից պետք "
+"է սկսվի որոնումը:"
 
 #: 04060110.xhp%23hd_id3147322.129.help.text
 msgctxt "04060110.xhp#hd_id3147322.129.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3154564.130.help.text
 msgid ""
 "            <item type=\"input\">=SEARCH(54;998877665544)</item> returns 10."
 msgstr ""
+"            <item type=\"input\">=SEARCH(54;998877665544)</item> "
+"վերադարձնում է 10։"
 
 #: 04060110.xhp%23bm_id3154830.help.text
 msgid "<bookmark_value>SUBSTITUTE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SUBSTITUTE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3154830.174.help.text
 msgid "SUBSTITUTE"
-msgstr ""
+msgstr "SUBSTITUTE"
 
 #: 04060110.xhp%23par_id3153698.175.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_WECHSELN\">Substitutes new text for old text in a "
 "string.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WECHSELN\">Տողում հին տեքստի փոխարինում է "
+"նորով։</ahelp>"
 
 #: 04060110.xhp%23hd_id3150994.176.help.text
 msgctxt "04060110.xhp#hd_id3150994.176.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3147582.177.help.text
 msgid "SUBSTITUTE(\"Text\"; \"SearchText\"; \"NewText\"; Occurrence)"
-msgstr ""
+msgstr "SUBSTITUTE(\"Text\"; \"SearchText\"; \"NewText\"; Occurrence)"
 
 #: 04060110.xhp%23par_id3153675.178.help.text
 msgid ""
 "            <emph>Text</emph> is the text in which text segments are to be "
 "exchanged."
 msgstr ""
+"            <emph>Տեքստ</emph> այն տեքստն է, որում պետք է փոխանակվեն "
+"տեքստային հատվածները:"
 
 #: 04060110.xhp%23par_id3156155.179.help.text
 msgid ""
 "            <emph>SearchText </emph>is the text segment that is to be "
 "replaced (a number of times)."
 msgstr ""
+"            <emph>SearchText </emph>տեքստի հատվածն է, որը պետք է փոխարինվի ("
+"մի քանի անգամ):"
 
 #: 04060110.xhp%23par_id3145779.180.help.text
 msgid ""
 "            <emph>NewText</emph> is the text that is to replace the text "
 "segment."
 msgstr ""
+"            <emph>NewText</emph> այն տեքստն է, որը փոխարինելու է տեքստի "
+"հատվածը:"
 
 #: 04060110.xhp%23par_id3150348.181.help.text
 msgid ""
@@ -37359,95 +37415,112 @@ msgid ""
 "the search text is to be replaced. If this parameter is missing the search "
 "text is replaced throughout."
 msgstr ""
+"            <emph>Պատահումներ</emph> (կամընտրական) ցույց է տալիս, թե որոնման "
+"տեքստի որ դեպքը պետք է փոխարինվի: Եթե այս պարամետրը բացակայում է, որոնման "
+"տեքստը ամբողջությամբ փոխարինվում է:"
 
 #: 04060110.xhp%23hd_id3150946.182.help.text
 msgctxt "04060110.xhp#hd_id3150946.182.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3150412.183.help.text
 msgid ""
 "            <item type=\"input\">=SUBSTITUTE(\"123123123\";\"3\";\"abc\""
 ")</item> returns 12abc12abc12abc."
 msgstr ""
+"            <item type=\"input\">=SUBSTITUTE(\"123123123\";\"3\";\"abc\""
+")</item> վերադարձնում է 12abc12abc12abc։"
 
 #: 04060110.xhp%23par_id3154915.238.help.text
 msgid ""
 "            <item type=\"input\">=SUBSTITUTE(\"123123123\";\"3\";\"abc\""
 ";2)</item> returns 12312abc123."
 msgstr ""
+"            <item type=\"input\">=SUBSTITUTE(\"123123123\";\"3\";\"abc\""
+";2)</item> վերադարձնում է 12312abc123։"
 
 #: 04060110.xhp%23bm_id3148977.help.text
 msgid "<bookmark_value>T function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>T գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3148977.140.help.text
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: 04060110.xhp%23par_id3154359.141.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_T\">This function returns the target text, or a blank "
 "text string if the target is not text.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_T\">Այս գործառույթը վերադարձնում է թիրախային տեքստը "
+"կամ տեքստի դատարկ տողը, եթե թիրախը տեքստ չէ:</ahelp>"
 
 #: 04060110.xhp%23hd_id3155858.142.help.text
 msgctxt "04060110.xhp#hd_id3155858.142.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3155871.143.help.text
 msgid "T(Value)"
-msgstr ""
+msgstr "T(Value)"
 
 #: 04060110.xhp%23par_id3154726.144.help.text
 msgid ""
 "If <emph>Value</emph> is a text string or refers to a text string, T returns "
 "that text string; otherwise it returns a blank text string."
 msgstr ""
+"Եթե <emph>Արժեքը</emph> տեքստի տող է կամ հղում է տեքստի տողին, T -ն "
+"վերադարձնում է տեքստի տողը. հակառակ դեպքում այն վերադարձնում է տեքստի դատարկ "
+"տողը:"
 
 #: 04060110.xhp%23hd_id3155544.145.help.text
 msgctxt "04060110.xhp#hd_id3155544.145.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3151062.146.help.text
 msgid ""
 "            <item type=\"input\">=T(12345)</item> returns an empty string. "
 msgstr ""
+"            <item type=\"input\">=T(12345)</item> վերադարձնում է դատարկ տող։ "
 
 #: 04060110.xhp%23par_id4650105.help.text
 msgid ""
 "            <item type=\"input\">=T(\"12345\")</item> returns the string "
 "12345."
 msgstr ""
+"            <item type=\"input\">=T(\"12345\")</item> վերադարձնում է 12345 "
+"տողը։"
 
 #: 04060110.xhp%23bm_id3147132.help.text
 msgid "<bookmark_value>TEXT function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TEXT գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3147132.158.help.text
 msgid "TEXT"
-msgstr ""
+msgstr "TEXT"
 
 #: 04060110.xhp%23par_id3147213.159.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_TEXT\">Converts a number into text according to a "
 "given format.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_TEXT\">Թիվը վերածում է տեքստի համաձայն տրված "
+"ձևաչափի:</ahelp>"
 
 #: 04060110.xhp%23hd_id3153129.160.help.text
 msgctxt "04060110.xhp#hd_id3153129.160.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3147377.161.help.text
 msgid "TEXT(Number; Format)"
-msgstr ""
+msgstr "TEXT(Number; Format)"
 
 #: 04060110.xhp%23par_id3147389.162.help.text
 msgid "            <emph>Number</emph> is the numerical value to be converted."
-msgstr ""
+msgstr "            <emph>Թիվ</emph> Ձևափոխման ենթակա թվային արժեքն է։"
 
 #: 04060110.xhp%23par_id3156167.163.help.text
 msgid ""
@@ -37455,216 +37528,243 @@ msgid ""
 "decimal and thousands separators according to the language set in the cell "
 "format."
 msgstr ""
+"            <emph>Ձևաչափ</emph> այն տեքստն է, որը սահմանում է ձևաչափը: "
+"Օգտագործեք տասնորդական և հազարերորդական տարանջատիչները, համաձայն բջջային "
+"ձևաչափում կարգաբերված լեզվի:"
 
 #: 04060110.xhp%23hd_id1243629.help.text
 msgctxt "04060110.xhp#hd_id1243629.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id9044770.help.text
 msgid ""
 "            <item type=\"input\">=TEXT(12.34567;\"###.##\")</item> returns "
 "the text 12.35"
 msgstr ""
+"            <item type=\"input\">=TEXT(12.34567;\"###.##\")</item> "
+"վերադարձնում է 12.35 տեքստը"
 
 #: 04060110.xhp%23par_id3674123.help.text
 msgid ""
 "            <item type=\"input\">=TEXT(12.34567;\"000.00\")</item> returns "
 "the text 012.35"
 msgstr ""
+"            <item type=\"input\">=TEXT(12.34567;\"000.00\")</item> "
+"վերադարձնում է 012.35 տեքստը"
 
 #: 04060110.xhp%23bm_id3151039.help.text
 msgid "<bookmark_value>TRIM function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TRIM գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3151039.54.help.text
 msgid "TRIM"
-msgstr ""
+msgstr "TRIM"
 
 #: 04060110.xhp%23par_id3157888.55.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_GLAETTEN\">Removes spaces from a string, leaving only "
 "a single space character between words.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_GLAETTEN\">Հեռացնում է բացատները տողից, բառերի միջև "
+"թողնելով միայն մեկական բացատ։</ahelp>"
 
 #: 04060110.xhp%23hd_id3152913.56.help.text
 msgctxt "04060110.xhp#hd_id3152913.56.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3151349.57.help.text
 msgid "TRIM(\"Text\")"
-msgstr ""
+msgstr "TRIM(\"Text\")"
 
 #: 04060110.xhp%23par_id3151362.58.help.text
 msgid ""
 "            <emph>Text</emph> refers to text in which spaces are removed."
 msgstr ""
+"            <emph>Տեքստ</emph> վերաբերում է տեքստին, որում բացատները հանված "
+"են:"
 
 #: 04060110.xhp%23hd_id3146838.59.help.text
 msgctxt "04060110.xhp#hd_id3146838.59.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3156074.60.help.text
 msgid "            <item type=\"input\">=TRIM(\"hello\")</item> returns hello."
 msgstr ""
+"            <item type=\"input\">=TRIM(\"hello\")</item> վերադարձնում է "
+"hello։"
 
 #: 04060110.xhp%23bm_id0907200904030935.help.text
 msgid "<bookmark_value>UNICHAR function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>UNICHAR գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id0907200904022525.help.text
 msgid "UNICHAR"
-msgstr ""
+msgstr "UNICHAR"
 
 #: 04060110.xhp%23par_id0907200904022538.help.text
 msgid ""
 "<ahelp hid=\".\">Converts a code number into a Unicode character or "
 "letter.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Կոդի համարը վերածում է ՅՈՒՆԻԿՈԴ նիշի կամ տառի:</ahelp>"
 
 #: 04060110.xhp%23hd_id0907200904123753.help.text
 msgctxt "04060110.xhp#hd_id0907200904123753.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id0907200904123753.help.text
 msgid "UNICHAR(number)"
-msgstr ""
+msgstr "UNICHAR(number)"
 
 #: 04060110.xhp%23hd_id0907200904123720.help.text
 msgctxt "04060110.xhp#hd_id0907200904123720.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id090720090412378.help.text
 msgid "=UNICHAR(169) returns the Copyright character <emph>©</emph>."
-msgstr ""
+msgstr "=UNICHAR(169) վերադարձնում է Հեղինակային իրավունքի նիշը <emph>©</emph>."
 
 #: 04060110.xhp%23bm_id0907200904033543.help.text
 msgid "<bookmark_value>UNICODE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>UNICODE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id0907200904022588.help.text
 msgid "UNICODE"
-msgstr ""
+msgstr "UNICODE"
 
 #: 04060110.xhp%23par_id0907200904022594.help.text
 msgid ""
 "<ahelp hid=\".\">Returns the numeric code for the first Unicode character in "
 "a text string.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Վերադարձնում է տեքստային տողի առաջին ՅՈՒՆԻԿՈԴ նիշի թվային "
+"կոդը:</ahelp>"
 
 #: 04060110.xhp%23hd_id0907200904123874.help.text
 msgctxt "04060110.xhp#hd_id0907200904123874.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id0907200904123846.help.text
 msgid "UNICODE(\"Text\")"
-msgstr ""
+msgstr "UNICODE(\"Text\")"
 
 #: 04060110.xhp%23hd_id0907200904123899.help.text
 msgctxt "04060110.xhp#hd_id0907200904123899.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id0907200904123919.help.text
 msgid ""
 "=UNICODE(\"©\") returns the Unicode number 169 for the Copyright character."
 msgstr ""
+"=UNICODE(\"©\") Հեղինակային իրավունքի նիշի համար վերադարձնում է Յունիկոդային "
+"169 թիվը։"
 
 #: 04060110.xhp%23bm_id3145178.help.text
 msgid "<bookmark_value>UPPER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>UPPER գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3145178.62.help.text
 msgid "UPPER"
-msgstr ""
+msgstr "UPPER"
 
 #: 04060110.xhp%23par_id3162905.63.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_GROSS\">Converts the string specified in the "
 "<emph>text</emph> field to uppercase.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_GROSS\"><emph>տեքստ</emph> դաշտում նշված տողը վերածում "
+"է մեծատառի:</ahelp>"
 
 #: 04060110.xhp%23hd_id3148526.64.help.text
 msgctxt "04060110.xhp#hd_id3148526.64.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3148539.65.help.text
 msgid "UPPER(\"Text\")"
-msgstr ""
+msgstr "UPPER(\"Text\")"
 
 #: 04060110.xhp%23par_id3148496.66.help.text
 msgid ""
 "            <emph>Text</emph> refers to the lower case letters you want to "
 "convert to upper case."
 msgstr ""
+"            <emph>Տեքստ</emph> վերաբերում է փոքրատառերին, որոնք ցանկանում եք "
+"վերածել մեծատառերի:"
 
 #: 04060110.xhp%23hd_id3148516.67.help.text
 msgctxt "04060110.xhp#hd_id3148516.67.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3146757.68.help.text
 msgid ""
 "            <item type=\"input\">=UPPER(\"Good Morning\")</item> returns "
 "GOOD MORNING."
 msgstr ""
+"            <item type=\"input\">=UPPER(\"Good Morning\")</item> "
+"վերադարձնում է GOOD MORNING."
 
 #: 04060110.xhp%23bm_id3150802.help.text
 msgid "<bookmark_value>VALUE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>VALUE գործառույթ</bookmark_value>"
 
 #: 04060110.xhp%23hd_id3150802.185.help.text
 msgid "VALUE"
-msgstr ""
+msgstr "VALUE"
 
 #: 04060110.xhp%23par_id3152551.186.help.text
 msgid ""
 "<ahelp hid=\"HID_FUNC_WERT\">Converts a text string into a number.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WERT\">տեքստային տողը ձևափոխում է թվայինի։</ahelp>"
 
 #: 04060110.xhp%23hd_id3152568.187.help.text
 msgctxt "04060110.xhp#hd_id3152568.187.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: 04060110.xhp%23par_id3153638.188.help.text
 msgid "VALUE(\"Text\")"
-msgstr ""
+msgstr "VALUE(\"Text\")"
 
 #: 04060110.xhp%23par_id3153651.189.help.text
 msgid "            <emph>Text</emph> is the text to be converted to a number."
-msgstr ""
+msgstr "            <emph>Տեքստ</emph> թվային ձևափոխման տեքստն է։"
 
 #: 04060110.xhp%23hd_id3144719.190.help.text
 msgctxt "04060110.xhp#hd_id3144719.190.help.text"
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 04060110.xhp%23par_id3144733.191.help.text
 msgid "            <item type=\"input\">=VALUE(\"4321\")</item> returns 4321."
 msgstr ""
+"            <item type=\"input\">=VALUE(\"4321\")</item> վերադարձնում է 4321։"
 
 #: solver_options.xhp%23tit.help.text
 msgctxt "solver_options.xhp#tit.help.text"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #: solver_options.xhp%23hd_id2794274.help.text
 msgctxt "solver_options.xhp#hd_id2794274.help.text"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #: solver_options.xhp%23par_id6776940.help.text
 msgid ""
 "The Options dialog for the <link href=\"text/scalc/01/solver.xhp\""
 ">Solver</link> is used to set some options."
 msgstr ""
+"Ընտրանքների երկխոսությունը <link href=\"text/scalc/01/solver.xhp\""
+">Լուծող</link> համար, օգտագործվում է որոշ ընտրանքներ սահմանելու համար:"
 
 #: solver_options.xhp%23par_id393993.help.text
 msgid ""
@@ -37672,11 +37772,15 @@ msgid ""
 "is disabled if only one solver engine is installed. Solver engines can be "
 "installed as extensions.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Ընտրեք Լուծողի շարժիչը։ Ցանկի վանդակը "
+"անջատված է, եթե տեղադրված է միայն մեկ լուծիչ շարժիչ: Լուծիչ շարժիչները կարող "
+"են տեղադրվել որպես ընդարձակումներ:</ahelp>"
 
 #: solver_options.xhp%23par_id5871761.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Configure the current solver.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Կարգաբերեք ընթացիկ լուծիչը։</ahelp>"
 
 #: solver_options.xhp%23par_id6531266.help.text
 msgid ""
@@ -37684,15 +37788,21 @@ msgid ""
 "listbox allows to edit a value, you can click the Edit button. A dialog "
 "opens where you can change the value.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Եթե Կարգավորումների ցուցակի վանդակում "
+"ընթացիկ մուտքը թույլ է տալիս խմբագրել մի արժեք, կարող եք սեղմել Խմբագրել "
+"կոճակը: Բացվում է երկխոսություն, որտեղ կարող եք փոխել արժեքը:</ahelp>"
 
 #: solver_options.xhp%23par_id3912778.help.text
 msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Enter or change the value.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Մուտքագրեք կամ փոխեք արժեքը։</ahelp>"
 
 #: solver_options.xhp%23par_id3163853.help.text
 msgid "Use the Options dialog to configure the current solver engine."
 msgstr ""
+"Ընթացիկ լուծիչ շարժիչը կարգաբերելու համար օգտագործեք Ընտրանքներ "
+"երկխոսությունը:"
 
 #: solver_options.xhp%23par_id121158.help.text
 msgid ""
@@ -37700,12 +37810,17 @@ msgid ""
 " Extension Manager and browse to the Extensions web site to search for "
 "extensions."
 msgstr ""
+"Եթե առկա է, կարող եք տեղադրել ավելի շատ լուծիչ շարժիչներ որպես ընդարձակման "
+"միջոցներ: Բաց Գործիքներ - Ընդարձակման կառավարիչ և թերթեք Ընդարձակման վեբ "
+"կայքը, ընդարձակումները որոնելու համար:"
 
 #: solver_options.xhp%23par_id3806878.help.text
 msgid ""
 "Select the solver engine to use and to configure from the listbox. The "
 "listbox is disabled if onle one solver engine is installed."
 msgstr ""
+"Ընտրեք լուծիչ շարժիչը ցուցատուփից օգտագործելու և կազմաձևելու համար: Ցանկի "
+"վանդակը անջատված է, եթե տեղադրվում է մեկ լուծիչ շարժիչ:"
 
 #: solver_options.xhp%23par_id130619.help.text
 msgid ""
@@ -37714,26 +37829,34 @@ msgid ""
 "Edit button is enabled. Click Edit to open a dialog where you can change the "
 "value."
 msgstr ""
+"Կարգավորումներ վանդակում ստուգեք բոլոր պարամետրերը, որոնք ցանկանում եք "
+"օգտագործել ընթացիկ նպատակի որոնման համար: Եթե ներկայիս տարբերակը առաջարկում "
+"է տարբեր արժեքներ, ապա միացրեք Խմբագրել կոճակը: Կտտացրեք Խմբագրել՝ "
+"երկխոսություն բացելու համար, որտեղ կարող եք փոխել արժեքը:"
 
 #: solver_options.xhp%23par_id9999694.help.text
 msgid ""
 "Click OK to accept the changes and to go back to the <link href=\"text/scalc/"
 "01/solver.xhp\">Solver</link> dialog."
 msgstr ""
+"Սեղմեք ԼԱՎ ընդունելու փոփոխությունները և վերադառնալու դեպի <link href=\""
+"text/scalc/01/solver.xhp\">Լուծիչ</link> երկխոսություն։"
 
 #: func_weekday.xhp%23tit.help.text
 msgid "WEEKDAY "
-msgstr ""
+msgstr "WEEKDAY "
 
 #: func_weekday.xhp%23bm_id3154925.help.text
 msgid "<bookmark_value>WEEKDAY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>WEEKDAY գործառույթ</bookmark_value>"
 
 #: func_weekday.xhp%23hd_id3154925.136.help.text
 msgid ""
 "<variable id=\"weekday\"><link href=\"text/scalc/01/func_weekday.xhp\""
 ">WEEKDAY</link></variable>"
 msgstr ""
+"<variable id=\"weekday\"><link href=\"text/scalc/01/func_weekday.xhp\""
+">WEEKDAY</link></variable>"
 
 #: func_weekday.xhp%23par_id3154228.137.help.text
 msgid ""
@@ -37742,21 +37865,28 @@ msgid ""
 "7 (Saturday) if no type or type=1 is specified. If type=2, numbering begins "
 "at Monday=1; and if type=3 numbering begins at Monday=0."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_WOCHENTAG\">Տված ամսաթվի արժեքի համար վերադարձնում է "
+"շաբաթվա օրը:</ahelp> Օրը վերադարձվում է որպես ամբողջ 1-ի (կիրակի) և 7-ի "
+"(շաբաթ) միջև, եթե նշված չէ որևէ տիպ կամ սահմանված է type=1: Եթե տիպը=2, ապա "
+"համարակալումը սկսվում է երկուշաբթիից=1; իսկ եթե տեսակը=3 համարակալումը "
+"սկսվում է երկուշաբթիից=0:"
 
 #: func_weekday.xhp%23hd_id3147217.138.help.text
 msgctxt "func_weekday.xhp#hd_id3147217.138.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_weekday.xhp%23par_id3149033.139.help.text
 msgid "WEEKDAY(Number; Type)"
-msgstr ""
+msgstr "WEEKDAY(Number; Type)"
 
 #: func_weekday.xhp%23par_id3149046.140.help.text
 msgid ""
 "<emph>Number</emph>, as a date value, is a decimal for which the weekday is "
 "to be returned."
 msgstr ""
+"<emph>Թիվ</emph>, որպես ամսաթվի արժեք այն տասնորդական է, որի համար պետք է "
+"վերադարձվի շաբաթվա օրը:"
 
 #: func_weekday.xhp%23par_id3154394.141.help.text
 msgid ""
