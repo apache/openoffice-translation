@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-11 18:35+0000\n"
+"PO-Revision-Date: 2020-02-12 18:04+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1581446149.000000\n"
+"X-POOTLE-MTIME: 1581530661.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -37895,6 +37895,11 @@ msgid ""
 "Type parameter is missing). For Type=2, the weekdays are counted starting "
 "from Monday=1. For Type=3, the weekdays are counted starting from Monday=0."
 msgstr ""
+"<emph>Տեսակ</emph> որոշում է հաշվարկի տեսակը: Type=1՝ աշխատանքային օրերը "
+"հաշվարկվում են սկսած կիրակի օրվանից (սա կանխադրված է նույնիսկ այն դեպքում, "
+"երբ Type պարամետրը բացակայում է): Type=2՝ աշխատանքային օրերը հաշվարկվում են "
+"սկսած երկուշաբթի=1 -ից: Type=3՝ շխատանքային օրերը հաշվարկվում են սկսած "
+"երկուշաբթի=0:"
 
 #: func_weekday.xhp%23par_id3156188.142.help.text
 msgid ""
@@ -37904,11 +37909,16 @@ msgid ""
 "Options</defaultinline></switchinline> - %PRODUCTNAME Calc - "
 "Calculate</emph>."
 msgstr ""
+"Այս արժեքները վերաբերվում են միայն ստանդարտ այն ամսաթվին, որը ընտրում եք "
+"<emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - %PRODUCTNAME Calc - "
+"Հաշվարկել</emph> ներքո։"
 
 #: func_weekday.xhp%23hd_id3153836.143.help.text
 msgctxt "func_weekday.xhp#hd_id3153836.143.help.text"
 msgid "Examples"
-msgstr ""
+msgstr "Օրինակներ"
 
 #: func_weekday.xhp%23par_id3150317.144.help.text
 msgid ""
@@ -37916,6 +37926,10 @@ msgid ""
 "the standard count is used. The standard count starts with Sunday as day "
 "number 1. June 14, 2000 was a Wednesday and therefore day number 4)."
 msgstr ""
+"=WEEKDAY(\"2000-06-14\") վերադարձնում է 4 (Type պարամետրը բացակայում է, "
+"ուստի օգտագործվում է ստանդարտ հաշվարկ: Ստանդարտ հաշվարկը սկսվում է կիրակի "
+"օրվանից, որպես օր 1։ 2000 թ. հունիսի 14-ը չորեքշաբթի էր և, հետևաբար, օրվա "
+"համարն է 4):"
 
 #: func_weekday.xhp%23par_id3153174.145.help.text
 msgid ""
@@ -37923,6 +37937,9 @@ msgid ""
 "Monday is day number 1. July 24, 1996 was a Wednesday and therefore day "
 "number 3)."
 msgstr ""
+"=WEEKDAY(\"1996-07-24\";2) վերադարձնում է 3 (Type պարամետրը 2 է, հետևաբար "
+"երկուշաբթին օր 1-ն է։ 1996 թ. հուլիսի 24-ը չորեքշաբթի էր և, հետևաբար, օրվա "
+"համարն է 3):"
 
 #: func_weekday.xhp%23par_id3153525.146.help.text
 msgid ""
@@ -37930,10 +37947,13 @@ msgid ""
 "Sunday is day number 1. July 24, 1996 was a Wednesday and therefore day "
 "number 4)."
 msgstr ""
+"=WEEKDAY(\"1996-07-24\";1) վերադարձնում է 4 (Type պարամետրը 1 է, հետևաբար "
+"կիրակին օր 1-ն է։ 1996-ի հուլիսի 24-ը չորեքշաբթի էր, հետևաբար օրվա համարն է "
+"4):"
 
 #: func_weekday.xhp%23par_id3150575.147.help.text
 msgid "=WEEKDAY(NOW()) returns the number of the current day."
-msgstr ""
+msgstr "=WEEKDAY(NOW()) վերադարձնում է ընթացիկ օրվա համարը։"
 
 #: func_weekday.xhp%23par_id3150588.171.help.text
 msgid ""
@@ -37941,18 +37961,21 @@ msgid ""
 "the IF and WEEKDAY functions as follows: <br/>IF(WEEKDAY(A1;2)<6;\"Business "
 "day\";\"Weekend\")"
 msgstr ""
+"Գործառույթ ստանալու համար, որը նշում է, թե արդյոք A1 -ը աշխատանքային օր է, "
+"օգտագործեք IF և WEEKDAY գործառույթները, ինչպես նշված է։ "
+"<br/>IF(WEEKDAY(A1;2)<6;\"Աշխատանքային օր\";\"Հանգստյան օր\")"
 
 #: text2columns.xhp%23tit.help.text
 msgid "Text to Columns"
-msgstr ""
+msgstr "Տեքստը սյունակների"
 
 #: text2columns.xhp%23bm_id8004394.help.text
 msgid "<bookmark_value>text to columns</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>տեքստը սյունակների</bookmark_value>"
 
 #: text2columns.xhp%23hd_id2300180.help.text
 msgid "<link href=\"text/scalc/01/text2columns.xhp\">Text to Columns</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/text2columns.xhp\">Տեքստը սյունակների</link>"
 
 #: text2columns.xhp%23par_id655232.help.text
 msgid ""
@@ -37960,16 +37983,21 @@ msgid ""
 "enter settings to expand the contents of selected cells to multiple cells. "
 "</variable>"
 msgstr ""
+"<variable id=\"text2columns\">Բացում է Տեքստը սյունակների երկխոսությունը, "
+"որտեղ մուտքագրում եք պարամետրերը, ընտրված բջիջների պարունակությունը բազմաթիվ "
+"բջիջների վրա ընդլայնելու համար: </variable>"
 
 #: text2columns.xhp%23hd_id9599597.help.text
 msgid "To expand cell contents to multiple cells"
-msgstr ""
+msgstr "Բջջի բովանդակությունը բազմակի բջիջներում ընդլայնելու համար"
 
 #: text2columns.xhp%23par_id2021546.help.text
 msgid ""
 "You can expand cells that contain comma separated values (CSV) into multiple "
 "cells in the same row. "
 msgstr ""
+"Կարող եք ընդլայնել բջիջները, որոնք պարունակում են ստորակետով առանձնացված "
+"արժեքներ (CSV) նույն շարքի բազմաթիվ բջիջներում: "
 
 #: text2columns.xhp%23par_id2623981.help.text
 msgid ""
@@ -37977,30 +38005,37 @@ msgid ""
 "literal\">1,2,3,4</item>, and cell A2 contains the text <item type=\""
 "literal\">A,B,C,D</item>. "
 msgstr ""
+"Օրինակ, A1 բջիջը պարունակում է ստորակետով առանձնացված արժեքներ <item type=\""
+"literal\">1,2,3,4</item>, իսկ A2 բջիջը պարունակում է <item type=\"literal\""
+">A,B,C,D</item> տեքստը: "
 
 #: text2columns.xhp%23par_id7242042.help.text
 msgid "Select the cell or cells that you want to expand."
-msgstr ""
+msgstr "Ընտրեք բջիջը կամ բջիջները, որոնք ցանկանում եք ընդլայնել:"
 
 #: text2columns.xhp%23par_id6999420.help.text
 msgid "Choose <emph>Data - Text to Columns</emph>."
-msgstr ""
+msgstr "Ընտրեք <emph>Տվյալներ - Տեքստը սյունակների</emph>."
 
 #: text2columns.xhp%23par_id6334116.help.text
 msgid "You see the Text to Columns dialog."
-msgstr ""
+msgstr "Տեսնում եք Տեքստից սյունակներ երկխոսությունը։"
 
 #: text2columns.xhp%23par_id9276406.help.text
 msgid ""
 "Select the separator options. The preview shows how the current cell "
 "contents will be transformed into multiple cells."
 msgstr ""
+" Ընտրեք բաժանարարի ընտրանքները: Նախադիտումը ցույց է տալիս, թե ինչպես է բջջի "
+"ընթացիկ պարունակությունը վերափոխվելու բազմաթիվ բջիջներում:"
 
 #: text2columns.xhp%23par_id8523819.help.text
 msgid ""
 "You can select a fixed width and then click the ruler on the preview to set "
 "cell breakup positions."
 msgstr ""
+"Կարող եք ընտրել սևեռված լայնություն, այնուհետև կտտացրեք նախադիտման քանոնի "
+"վրա, բջիջների կոտրման դիրքերը կարգավորելու համար:"
 
 #: text2columns.xhp%23par_id1517380.help.text
 msgid ""
@@ -38008,6 +38043,9 @@ msgid ""
 "breaking points. The separator characters are removed from the resulting "
 "cell contents."
 msgstr ""
+"Կարող եք ընտրել կամ մուտքագրել բաժանարարի նիշը, խախտման կետերի դիրքերը "
+"որոշելու համար: Բաժանարարի նիշերը հեռացվում են արդյունքի բջջային "
+"պարունակությունից:"
 
 #: text2columns.xhp%23par_id7110812.help.text
 msgid ""
@@ -38015,10 +38053,13 @@ msgid ""
 "A2 will be expanded to four columns each. A1 contains 1, B1 contains 2, and "
 "so on."
 msgstr ""
+"Օրինակում ընտրում եք ստորակետը որպես սահմանազերծող նիշ: A1 և A2 բջիջները "
+"ընդարձակվելու են յուրաքանչյուրը չորս սյունով: A1-ը պարունակում է 1, B1 "
+"պարունակում է 2 և այլն:"
 
 #: 05030300.xhp%23tit.help.text
 msgid "Hide"
-msgstr ""
+msgstr "Թաքցնել"
 
 #: 05030300.xhp%23bm_id3147265.help.text
 msgid ""
@@ -38029,22 +38070,33 @@ msgid ""
 "ark_value>sheets;hiding</bookmark_value><bookmark_value>columns;hiding</bookm"
 "ark_value><bookmark_value>rows;hiding</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; hiding "
+"functions</bookmark_value><bookmark_value>hiding; "
+"rows</bookmark_value><bookmark_value>hiding; "
+"columns</bookmark_value><bookmark_value>hiding; sheets</bookmark_value><bookm"
+"ark_value>sheets;hiding</bookmark_value><bookmark_value>columns;hiding</bookm"
+"ark_value><bookmark_value>rows;hiding</bookmark_value>"
 
 #: 05030300.xhp%23hd_id3147265.1.help.text
 msgid "<link href=\"text/scalc/01/05030300.xhp\" name=\"Hide\">Hide</link>"
 msgstr ""
+"<link href=\"text/scalc/01/05030300.xhp\" name=\"Թաքցնել\">Թաքցնել</link>"
 
 #: 05030300.xhp%23par_id3156281.2.help.text
 msgid ""
 "<ahelp hid=\".uno:Hide\">Hides selected rows, columns or individual "
 "sheets.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:Hide\">Թաքցնում է ընտրված տողերը, սյունակները կամ առանձին "
+"թերթերը:</ahelp>"
 
 #: 05030300.xhp%23par_id3148645.3.help.text
 msgid ""
 "Select the rows or columns that you want to hide, and then choose <emph>"
 "Format - Row - Hide </emph>or<emph> Format - Column - Hide</emph>."
 msgstr ""
+"Ընտրեք տողերը կամ սյունակները, որոնք ցանկանում եք թաքցնել, ապա ընտրեք <emph>"
+"Ձևաչափ - Տող - Թաքցնել </emph>կամ<emph> Ձևաչափ - Սյունակ - Թաքցնել</emph>։"
 
 #: 05030300.xhp%23par_id3147427.6.help.text
 msgid ""
@@ -38053,16 +38105,22 @@ msgid ""
 "occur within a <link href=\"text/scalc/01/05080000.xhp\" name=\"print range\""
 ">print range</link>."
 msgstr ""
+"Կարող եք թաքցնել թերթիկը, ընտրելով թերթիկի ներդիրը, ապա ընտրելով <emph>"
+"Ձևաչափ - Թերթ - Թաքցնել</emph>։ Թաքնված թերթերը չեն տպվում, քանի դեռ դրանք "
+"տեղի չեն ունենում <link href=\"text/scalc/01/05080000.xhp\" name=\"տպելու "
+"տիրույթ\">տպելու տիրույթ</link> -ում։"
 
 #: 05030300.xhp%23par_id3153157.5.help.text
 msgid ""
 "A break in the row or column header indicates whether the row or column is "
 "hidden."
 msgstr ""
+"Տողի կամ սյունակի վերնագրի ընդմիջումը ցույց է տալիս, արդյոք շարքը կամ "
+"սյունակը թաքնված են:"
 
 #: 05030300.xhp%23par_id3145251.4.help.text
 msgid "To display hidden rows, columns or sheets"
-msgstr ""
+msgstr "Թաքնված շարքերը, սյունակները կամ թերթերը ցուցադրելու համար"
 
 #: 05030300.xhp%23par_id8337046.help.text
 msgid ""
@@ -38070,6 +38128,9 @@ msgid ""
 "in the corner above row 1 and beside column A. For sheets, this step is not "
 "necessary."
 msgstr ""
+"Ընտրեք այն տիրույթը, որը ներառում է թաքնված օբյեկտները: Կարող եք օգտագործել "
+"նաև տող 1-ի վերևում և A սյունակի կողքի անկյան վանդակը: Թերթերի համար այս "
+"քայլը անհրաժեշտ չէ:"
 
 #: 05030300.xhp%23par_id5532090.help.text
 msgid ""
@@ -38077,11 +38138,15 @@ msgid ""
 " Show\">Format - Row/Column - Show</link> or <link href=\"text/scalc/01/"
 "05050300.xhp\" name=\"Format - Sheet - Show\">Format - Sheet - Show</link>."
 msgstr ""
+"Ընտրեք <link href=\"text/scalc/01/05030400.xhp\" name=\"Ձևաչափ - Տող/Սյունակ "
+"- Ցույց տալ\">Ձևաչափ - Տող/Սյունակ - Ցույց տալ</link> կամ <link href=\""
+"text/scalc/01/05050300.xhp\" name=\"Ձևաչափ - Թերթ - Ցույց տալ\">Ձևաչափ - "
+"Թերթ - Ցույց տալ</link>։"
 
 #: 04060100.xhp%23tit.help.text
 msgctxt "04060100.xhp#tit.help.text"
 msgid "Functions by Category"
-msgstr ""
+msgstr "Գործառույթներն ըստ դասերի"
 
 #: 04060100.xhp%23bm_id3148575.help.text
 msgid ""
@@ -38089,17 +38154,22 @@ msgid ""
 "<bookmark_value>categories of functions</bookmark_value>      "
 "<bookmark_value>list of functions</bookmark_value>"
 msgstr ""
+"<bookmark_value>functions;listed by category</bookmark_value>      "
+"<bookmark_value>categories of functions</bookmark_value>      "
+"<bookmark_value>list of functions</bookmark_value>"
 
 #: 04060100.xhp%23hd_id3154944.16.help.text
 msgctxt "04060100.xhp#hd_id3154944.16.help.text"
 msgid "Functions by Category"
-msgstr ""
+msgstr "Գործառույթներն ըստ դասերի"
 
 #: 04060100.xhp%23par_id3149378.2.help.text
 msgid ""
 "This section describes the functions of $[officename] Calc. The various "
 "functions are divided into categories in the Function Wizard."
 msgstr ""
+"Այս բաժինը նկարագրում է $[officename] Calc -ի գործառույթները: Տարբեր "
+"գործառույթները բաժանված են դասերի Wizard գործառույթում:"
 
 #: 04060100.xhp%23par_id0120200910234570.help.text
 msgid ""
@@ -38107,69 +38177,91 @@ msgid ""
 "functions in the <link href=\"https://wiki.openoffice.org/wiki/Documentation/"
 "How_Tos/Calc:_Functions_listed_by_category\">OpenOffice.org Wiki</link>."
 msgstr ""
+"Կարող եք գտնել մանրամասն բացատրություններ, նկարազարդումներ և Calc "
+"գործառույթների օրինակներ <link href=\""
+"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
+"_Functions_listed_by_category\">OpenOffice.org Wiki</link>."
 
 #: 04060100.xhp%23hd_id3146972.3.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060101.xhp\" name=\"Շտեմարան\">Շտեմարան</link>"
 
 #: 04060100.xhp%23hd_id3155443.4.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060102.xhp\" name=\"Date & Time\">Date & "
 "Time</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060102.xhp\" name=\"Ամսաթիվ & Ժամ\">Ամսաթիվ & "
+"Ժամ</link>"
 
 #: 04060100.xhp%23hd_id3147339.5.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060103.xhp\" name=\"Financial\">Financial</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060103.xhp\" name=\"Ֆինանսական\""
+">Ֆինանսական</link>"
 
 #: 04060100.xhp%23hd_id3153963.6.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060104.xhp\" name=\"Information\""
 ">Information</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060104.xhp\" name=\"Տեղեկատվություն\""
+">Տեղեկատվություն</link>"
 
 #: 04060100.xhp%23hd_id3146316.7.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060105.xhp\" name=\"Logical\">Logical</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060105.xhp\" name=\"Տրամաբանական\""
+">Տրամաբանական</link>"
 
 #: 04060100.xhp%23hd_id3148485.8.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060106.xhp\" name=\"Mathematical\""
 ">Mathematical</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060106.xhp\" name=\"Մաթեմատիկական\""
+">Մաթեմատիկական</link>"
 
 #: 04060100.xhp%23hd_id3150363.9.help.text
 msgid "<link href=\"text/scalc/01/04060107.xhp\" name=\"Matrix\">Array</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060107.xhp\" name=\"Matrix\">Զանգված</link>"
 
 #: 04060100.xhp%23hd_id3150208.10.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060108.xhp\" name=\"Statistical\""
 ">Statistical</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060108.xhp\" name=\"Վիճակագրական\""
+">Վիճակագրական</link>"
 
 #: 04060100.xhp%23hd_id3166428.11.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060109.xhp\" name=\"Spreadsheet\""
 ">Spreadsheet</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04060109.xhp\" name=\"Փռված թերթիկ\">Փռված "
+"թերթիկ</link>"
 
 #: 04060100.xhp%23hd_id3145585.12.help.text
 msgid "<link href=\"text/scalc/01/04060110.xhp\" name=\"Text\">Text</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060110.xhp\" name=\"Տեքստ\">Տեքստ</link>"
 
 #: 04060100.xhp%23hd_id3156449.13.help.text
 msgid "<link href=\"text/scalc/01/04060111.xhp\" name=\"Add-in\">Add-in</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060111.xhp\" name=\"Add-in\">Add-in</link>"
 
 #: 04060100.xhp%23par_id3150715.14.help.text
 msgid ""
 "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</link>"
 " are also available."
 msgstr ""
+"<link href=\"text/scalc/01/04060199.xhp\" name=\"Օպերատորներ\""
+">Օպերատորներ</link> ևս մատչելի են."
 
 #: 04060100.xhp%23par_id0902200809540918.help.text
 msgid ""
@@ -38177,10 +38269,14 @@ msgid ""
 "Documentation/How_Tos/Calc:_Functions_listed_by_category\">Calc functions in "
 "the OpenOffice.org Wiki</link></variable>"
 msgstr ""
+"<variable id=\"drking\"><link href=\""
+"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
+"_Functions_listed_by_category\">Calc գործառույթները OpenOffice.org "
+"վիկիում</link></variable>"
 
 #: 06130000.xhp%23tit.help.text
 msgid "AutoInput"
-msgstr ""
+msgstr "Ինքնամուտք"
 
 #: 06130000.xhp%23bm_id2486037.help.text
 msgid ""
@@ -38188,11 +38284,16 @@ msgid ""
 "function</bookmark_value><bookmark_value>capital letters;AutoInput "
 "function</bookmark_value>"
 msgstr ""
+"<bookmark_value>entering entries with AutoInput "
+"function</bookmark_value><bookmark_value>capital letters;AutoInput "
+"function</bookmark_value>"
 
 #: 06130000.xhp%23hd_id3148492.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06130000.xhp\" name=\"AutoInput\">AutoInput</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06130000.xhp\" name=\"Ինքնամուտք\""
+">Ինքնամուտք</link>"
 
 #: 06130000.xhp%23par_id3150793.2.help.text
 msgid ""
@@ -38201,28 +38302,39 @@ msgid ""
 "column.</ahelp> The column is scanned up to a maximum of 2000 cells or 200 "
 "different strings."
 msgstr ""
+"<ahelp hid=\".uno:AutoComplete\">Միացնում և անջատում է AutoInput "
+"գործառույթը, որն ինքնաբերաբար լրացնում է գրառումները, հիմնվելով նույն "
+"սյունակի այլ մուտքերի վրա:</ahelp> Սյունակը սկանավորվում է առավելագույնը "
+"2000 բջիջ կամ 200 տարբեր տող:"
 
 #: 06130000.xhp%23par_id3156422.8.help.text
 msgid "The completion text is highlighted."
-msgstr ""
+msgstr "Ավարտված տեքստը գունավորվում է:"
 
 #: 06130000.xhp%23par_idN1065D.help.text
 msgid ""
 "To accept the completion, press <item type=\"keycode\">Enter</item> or a "
 "cursor key."
 msgstr ""
+"Ավարտը ընդունելու համար սեղմեք <item type=\"keycode\">Մուտք</item> կամ "
+"կուրսորի ստեղնը:"
 
 #: 06130000.xhp%23par_idN10665.help.text
 msgid ""
 "To append text or to edit the completion, press <item type=\"keycode\""
 ">F2</item>."
 msgstr ""
+"Տեքստը կցելու, կամ տեղադրումը փոփոխելու համար սեղմեք <item type=\"keycode\""
+">F2</item>."
 
 #: 06130000.xhp%23par_idN1066D.help.text
 msgid ""
 "To view more completions, press <item type=\"keycode\">Tab</item> to scroll "
 "forward, or <item type=\"keycode\">Shift+Tab</item> to scroll backward."
 msgstr ""
+"Ավելի տեղադրումները դիտելու համար, սեղմեք <item type=\"keycode\">Tab</item> "
+"առաջ գլորվելու համար, կամ <item type=\"keycode\">Shift+Tab</item> հետ "
+"գլորվելու համար։"
 
 #: 06130000.xhp%23par_idN10679.help.text
 msgid ""
@@ -38230,6 +38342,9 @@ msgid ""
 "press <switchinline select=\"sys\"><caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+D."
 msgstr ""
+"Ընթացիկ սյունակի համար Ինքնամուտք տեքստի բոլոր մատչելի նյութերի ցուցակը "
+"տեսնելու համար սեղմեք <switchinline select=\"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+D."
 
 #: 06130000.xhp%23par_id3150439.3.help.text
 msgid ""
@@ -38238,6 +38353,11 @@ msgid ""
 "Wizard</emph>, from all defined range names, from all database range names, "
 "and from the content of all label ranges."
 msgstr ""
+"Երբ մուտքագրվում են բանաձևեր, օգտագործելով նախորդ մուտքերի համընկնող նիշերը, "
+"կհայտնվի Օգնության հուշումը, թվարկելով <emph>Wizard գործառույթից</emph> "
+"գործածված վերջին տաս գործառույթները՝ սահմանված միջակայքերի բոլոր անուններից, "
+"շտեմարանների բոլոր տիրույթների անուններից և պիտակների բոլոր միջակայքերի "
+"բովանդակությունից:"
 
 #: 06130000.xhp%23par_id3153363.5.help.text
 msgid ""
@@ -38245,14 +38365,18 @@ msgid ""
 "a cell, you cannot enter \"total\" in another cell of the same column "
 "without first deactivating AutoInput."
 msgstr ""
+"Ինքնամուտքը զգայուն է դեպքի ընտրությանը: Եթե, օրինակ, բջիջում գրել եք \""
+"Ընդամենը\", դուք չեք կարող \"ընդամենը\" մուտքագրել նույն սյունակի մեկ այլ "
+"բջիջում առանց սկզբնապես անջատելով Ինքնամուտքը։"
 
 #: 07090000.xhp%23tit.help.text
 msgid "Freeze"
-msgstr ""
+msgstr "Սառեցնել"
 
 #: 07090000.xhp%23hd_id3150517.1.help.text
 msgid "<link href=\"text/scalc/01/07090000.xhp\" name=\"Freeze\">Freeze</link>"
 msgstr ""
+"<link href=\"text/scalc/01/07090000.xhp\" name=\"Սառեցնել\">Սառեցնել</link>"
 
 #: 07090000.xhp%23par_id3156289.2.help.text
 msgid ""
@@ -38260,20 +38384,24 @@ msgid ""
 "the top left corner of the active cell and the area to the top left is no "
 "longer scrollable.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:FreezePanes\" visibility=\"visible\">Բաժանում է ակտիվ բջջի "
+"վերին ձախ անկյունի թերթը, իսկ տարածքը վերին ձախից այլևս պտտվող չէ:</ahelp>"
 
 #: 12080100.xhp%23tit.help.text
 msgid "Hide Details"
-msgstr ""
+msgstr "Թաքցրու մանրամասները"
 
 #: 12080100.xhp%23bm_id3155628.help.text
 msgid "<bookmark_value>sheets; hiding details</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>թերթեր; թաքցնել մանրամասները</bookmark_value>"
 
 #: 12080100.xhp%23hd_id3155628.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/12080100.xhp\" name=\"Hide Details\">Hide "
 "Details</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12080100.xhp\" name=\"Թաքցրու մանրամասները\">"
+"Թաքցրու մանրամասները</link>"
 
 #: 12080100.xhp%23par_id3154515.2.help.text
 msgid ""
@@ -38282,6 +38410,10 @@ msgid ""
 "grouped rows or columns, select the outlined table, and then choose this "
 "command.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:HideDetail\" visibility=\"visible\">Թաքցնում է կուրսորը "
+"պարունակող խմբավորված տողի կամ սյունակի մանրամասները: Բոլոր խմբավորված "
+"տողերը կամ սյուները թաքցնելու համար ընտրեք ուրվագծված աղյուսակը, ապա ընտրեք "
+"այս հրամանը:</ahelp>"
 
 #: 12080100.xhp%23par_id3153252.3.help.text
 msgid ""
@@ -38289,10 +38421,14 @@ msgid ""
 "Data -Outline –</emph> <link href=\"text/scalc/01/12080200.xhp\" name=\"Show "
 "Details\"><emph>Show Details</emph></link>."
 msgstr ""
+"Բոլոր թաքնված խմբերը ցուցադրելու համար ընտրեք ուրվագծված աղյուսակը, ապա "
+"ընտրեք <emph>Տվյալներ -Ուրվագիծ –</emph> <link href=\"text/scalc/01/12080200."
+"xhp\" name=\"Ցույց տալ մանրամասները\"><emph>Ցույց տալ "
+"մանրամասները</emph></link>."
 
 #: 06030000.xhp%23tit.help.text
 msgid "Detective"
-msgstr ""
+msgstr "Գործակալ"
 
 #: 06030000.xhp%23bm_id3151245.help.text
 msgid ""
@@ -38302,11 +38438,17 @@ msgid ""
 "<bookmark_value>Formula Auditing,see Detective</bookmark_value>         "
 "<bookmark_value>Detective</bookmark_value>"
 msgstr ""
+"<bookmark_value>cell links search</bookmark_value>         "
+"<bookmark_value>searching; links in cells</bookmark_value>         "
+"<bookmark_value>traces;precedents and dependents</bookmark_value>         "
+"<bookmark_value>Formula Auditing,see Detective</bookmark_value>         "
+"<bookmark_value>Detective</bookmark_value>"
 
 #: 06030000.xhp%23hd_id3151245.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/06030000.xhp\" name=\"Detective\">Detective</link>"
 msgstr ""
+"<link href=\"text/scalc/01/06030000.xhp\" name=\"Գործակալ\">Գործակալ</link>"
 
 #: 06030000.xhp%23par_id3151211.2.help.text
 msgid ""
@@ -38314,6 +38456,9 @@ msgid ""
 "can trace the dependencies from the current formula cell to the cells in the "
 "spreadsheet."
 msgstr ""
+"Այս հրամանն ակտիվացնում է աղյուսակի գործակալին: Գործակալի օգնությամբ կարող "
+"եք հետևել կախվածություններին՝ ընթացիկ բանաձևի բջջից մինչև փռված թերթի "
+"բջիջները:"
 
 #: 06030000.xhp%23par_id3150447.3.help.text
 msgid ""
@@ -38321,11 +38466,14 @@ msgid ""
 "trace. The mouse cursor will change its shape. Double-click the trace with "
 "this cursor to select the referenced cell at the end of the trace. "
 msgstr ""
+"Հետքը սահմանելուց հետո, մկնիկի կուրսորով կարող եք մատնանշել հետքy: Մկնիկի "
+"կուրսորը կփոխի իր ձևը: Կրկնակի կտտացրեք հետքը, որպեսզի ընտրեք հետքի վերջում "
+"նշված հղված բջիջը:"
 
 #: 02180000.xhp%23tit.help.text
 msgctxt "02180000.xhp#tit.help.text"
 msgid "Move or Copy a Sheet"
-msgstr ""
+msgstr "Տեղափոխեք կամ պատճենեք թերթիկը"
 
 #: 02180000.xhp%23bm_id3153360.help.text
 msgid ""
@@ -38335,11 +38483,16 @@ msgid ""
 "spreadsheets</bookmark_value><bookmark_value>copying; "
 "spreadsheets</bookmark_value>"
 msgstr ""
+"<bookmark_value>spreadsheets; "
+"moving</bookmark_value><bookmark_value>spreadsheets; "
+"copying</bookmark_value><bookmark_value>moving; "
+"spreadsheets</bookmark_value><bookmark_value>copying; "
+"spreadsheets</bookmark_value>"
 
 #: 02180000.xhp%23hd_id3153360.1.help.text
 msgctxt "02180000.xhp#hd_id3153360.1.help.text"
 msgid "Move or Copy a Sheet"
-msgstr ""
+msgstr "Տեղափոխեք կամ պատճենեք թերթիկ"
 
 #: 02180000.xhp%23par_id3154686.2.help.text
 msgid ""
@@ -38347,6 +38500,9 @@ msgid ""
 "Moves or copies a sheet to a new location in the document or to a different "
 "document.</ahelp></variable>"
 msgstr ""
+"<variable id=\"tabelleverschiebenkopierentext\"><ahelp hid=\".uno:Move\">"
+"Տեղափոխում կամ պատճենում է թերթը փաստաթղթի մեջ նոր վայրում, կամ այլ "
+"փաստաթղթում:</ahelp></variable>"
 
 #: 02180000.xhp%23par_id2282479.help.text
 msgid ""
@@ -38355,10 +38511,15 @@ msgid ""
 "documents must be set to the same date base. If date bases differ, the "
 "displayed date values will change!"
 msgstr ""
+"Երբ պատճենեք և հետ դնեք բջիջները, որոնք պարունակում են <link href=\""
+"text/scalc/01/04060102.xhp\">ամսաթվի արժեքներ</link> տարբեր աղյուսակների "
+"միջև, աղյուսակային երկու փաստաթղթերը պետք է կարգաբերվեն ըստ նույն ամսաթվային "
+"հիմքի: Եթե ամսաթվերի հիմքերը տարբերվեն, ցուցադրված ամսաթվերի արժեքները "
+"կփոխվեն:"
 
 #: 02180000.xhp%23hd_id3163710.3.help.text
 msgid "To Document"
-msgstr ""
+msgstr "Դեպի փաստաթուղթ"
 
 #: 02180000.xhp%23par_id3148645.4.help.text
 msgid ""
@@ -38367,10 +38528,14 @@ msgid ""
 "document</emph> if you want to create a new location for the sheet to be "
 "moved or copied."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_MOVETAB:LB_DEST\">Ցույց է տալիս, թե ուր է "
+"պետք տեղափոխել կամ պատճենել ընթացիկ թերթը:</ahelp> Ընտրեք <emph>նորր "
+"փաստաթուղթ</emph> եթե ցանկանում եք ստեղծել նոր տեղաբաշխում, որպեսզի թերթը "
+"տեղափոխվի կամ պատճենվի:"
 
 #: 02180000.xhp%23hd_id3154012.5.help.text
 msgid "Insert Before"
-msgstr ""
+msgstr "Ներդրեք մինչ"
 
 #: 02180000.xhp%23par_id3145366.6.help.text
 msgid ""
@@ -38378,10 +38543,14 @@ msgid ""
 "moved or copied in front of the selected sheet.</ahelp> The <emph>move to "
 "end position</emph> option places the current sheet at the end."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_MOVETAB:LB_INSERT\">Ընթացիկ թերթիկը "
+"տեղափոխվում կամ պատճենվում է ընտրված թերթի դիմաց:</ahelp> Այս <emph>"
+"տեղափոխումը դեպի վերջին դիրքը</emph> ընտրանքը տեղադրում է ընթացիկ թերթը "
+"վերջում։"
 
 #: 02180000.xhp%23hd_id3153726.7.help.text
 msgid "Copy"
-msgstr ""
+msgstr "Պատճենել"
 
 #: 02180000.xhp%23par_id3144764.8.help.text
 msgid ""
@@ -38389,20 +38558,25 @@ msgid ""
 "sheet is to be copied. If the option is unmarked, the sheet is moved.</ahelp>"
 " Moving sheets is the default."
 msgstr ""
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_MOVETAB:BTN_COPY\">Նշում է, որ թերթը պետք "
+"է պատճենվի: Եթե ընտրանքն ապանշված է, թերթը տեղափոխվում է:</ahelp> Թերթերի "
+"տեղաշարժումը լռելյայն են:"
 
 #: func_time.xhp%23tit.help.text
 msgid "TIME "
-msgstr ""
+msgstr "TIME "
 
 #: func_time.xhp%23bm_id3154073.help.text
 msgid "<bookmark_value>TIME function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TIME գործառույթ</bookmark_value>"
 
 #: func_time.xhp%23hd_id3154073.149.help.text
 msgid ""
 "<variable id=\"time\"><link href=\"text/scalc/01/func_time.xhp\""
 ">TIME</link></variable>"
 msgstr ""
+"<variable id=\"time\"><link href=\"text/scalc/01/func_time.xhp\""
+">TIME</link></variable>"
 
 #: func_time.xhp%23par_id3145762.150.help.text
 msgid ""
@@ -38410,54 +38584,58 @@ msgid ""
 "for hours, minutes and seconds.</ahelp> This function can be used to convert "
 "a time based on these three elements to a decimal time value."
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZEIT\">TIME -ը վերադարձնում է ընթացիկ ժամանակի արժեքը "
+"ժամերի, րոպեների և վայրկյանների արժեքներից։</ahelp> Այս գործառույթը կարող է "
+"օգտագործվել այս երեք տարրերի հիման վրա վերափոխելու ժամանակը տասնորդական "
+"ժամանակի արժեքի:"
 
 #: func_time.xhp%23hd_id3155550.151.help.text
 msgctxt "func_time.xhp#hd_id3155550.151.help.text"
 msgid "Syntax"
-msgstr ""
+msgstr "Շարահյուսություն"
 
 #: func_time.xhp%23par_id3154584.152.help.text
 msgid "TIME(Hour; Minute; Second)"
-msgstr ""
+msgstr "TIME(Hour; Minute; Second)"
 
 #: func_time.xhp%23par_id3152904.153.help.text
 msgid "Use an integer to set the <emph>Hour</emph>."
-msgstr ""
+msgstr "Օգտագործեք ամբողջը կարգաբերելու <emph>Ժամը</emph>."
 
 #: func_time.xhp%23par_id3151346.154.help.text
 msgid "Use an integer to set the <emph>Minute</emph>."
-msgstr ""
+msgstr "Օգտագործեք ամբողջը կարգաբերելու <emph>րոպեն</emph>."
 
 #: func_time.xhp%23par_id3151366.155.help.text
 msgid "Use an integer to set the <emph>Second</emph>."
-msgstr ""
+msgstr "Օգտագործեք ամբողջը կարգաբերելու <emph>վայրկյանը</emph>."
 
 #: func_time.xhp%23hd_id3145577.156.help.text
 msgctxt "func_time.xhp#hd_id3145577.156.help.text"
 msgid "Examples"
-msgstr ""
+msgstr "Օրինակներ"
 
 #: func_time.xhp%23par_id3156076.157.help.text
 msgid "<item type=\"input\">=TIME(0;0;0)</item> returns 00:00:00"
-msgstr ""
+msgstr "<item type=\"input\">=TIME(0;0;0)</item> վերադարձնում է 00:00:00"
 
 #: func_time.xhp%23par_id3156090.158.help.text
 msgid "<item type=\"input\">=TIME(4;20;4)</item> returns 04:20:04"
-msgstr ""
+msgstr "<item type=\"input\">=TIME(4;20;4)</item> վերադարձնում է 04:20:04"
 
 #: 12020000.xhp%23tit.help.text
 msgctxt "12020000.xhp#tit.help.text"
 msgid "Select Database Range"
-msgstr ""
+msgstr "Ընտրեք շտեմարանի միջակայքը"
 
 #: 12020000.xhp%23bm_id3145068.help.text
 msgid "<bookmark_value>databases; selecting (Calc)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>databases; selecting (Calc)</bookmark_value>"
 
 #: 12020000.xhp%23hd_id3145068.1.help.text
 msgctxt "12020000.xhp#hd_id3145068.1.help.text"
 msgid "Select Database Range"
-msgstr ""
+msgstr "Ընտրեք շտեմարանի տիրույթը"
 
 #: 12020000.xhp%23par_id3149655.2.help.text
 msgid ""
@@ -38466,10 +38644,14 @@ msgid ""
 "xhp\" name=\"Data - Define Range\">Data - Define "
 "Range</link>.</ahelp></variable>"
 msgstr ""
+"<variable id=\"bereichwaehlen\"><ahelp hid=\".uno:SelectDB\">Ընտրում է "
+"շտեմարանի տիրույթը, որը սահմանել եք <link href=\"text/scalc/01/12010000.xhp\""
+" name=\"Տվյալներ - Սահմանել տիրույթը\">Տվյալներ - Սահմանել տիրույթը</link> "
+"ներքո.</ahelp></variable>"
 
 #: 12020000.xhp%23hd_id3153192.3.help.text
 msgid "Ranges"
-msgstr ""
+msgstr "Տիրույթներ"
 
 #: 12020000.xhp%23par_id3154684.4.help.text
 msgid ""
@@ -38477,10 +38659,13 @@ msgid ""
 "select a database range, click its name, and then click "
 "<emph>OK</emph>.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SC_SELENTRY_LIST\">Թվարկում է առկա տվյալների շտեմարանի "
+"միջակայքերը: Տվյալների շտեմարանի միջակայքը ընտրելու համար, կտտացրեք դրա "
+"անունը և կտտացրեք <emph>ԼԱՎ</emph>.</ahelp>"
 
 #: 02110000.xhp%23tit.help.text
 msgid "Navigator"
-msgstr ""
+msgstr "Նավավար"
 
 #: 02110000.xhp%23bm_id3150791.help.text
 msgid ""
@@ -38490,11 +38675,17 @@ msgid ""
 "names</bookmark_value><bookmark_value>scenarios;displaying "
 "names</bookmark_value>"
 msgstr ""
+"<bookmark_value>Navigator;for "
+"sheets</bookmark_value><bookmark_value>navigating;in "
+"spreadsheets</bookmark_value><bookmark_value>displaying; scenario "
+"names</bookmark_value><bookmark_value>scenarios;displaying "
+"names</bookmark_value>"
 
 #: 02110000.xhp%23hd_id3150791.1.help.text
 msgid ""
 "<link href=\"text/scalc/01/02110000.xhp\" name=\"Navigator\">Navigator</link>"
 msgstr ""
+"<link href=\"text/scalc/01/02110000.xhp\" name=\"Նավավար\">Նավավար</link>"
 
 #: 02110000.xhp%23par_id3156422.2.help.text
 msgid ""
@@ -38502,15 +38693,18 @@ msgid ""
 "Navigator.</ahelp> The Navigator is a <link href=\"text/shared/00/"
 "00000005.xhp#andocken\" name=\"dockable window\">dockable window</link>."
 msgstr ""
+"<ahelp hid=\".uno:Navigator\">Ակտիվացնում կամ ապաակտիվացնում է "
+"Նավավարը։</ahelp> Նավավարն է <link href=\"text/shared/00/00000005.xhp#"
+"andocken\" name=\"dockable window\">dockable window</link>."
 
 #: 02110000.xhp%23par_id3145271.40.help.text
 msgid "Choose <emph>View - Navigator</emph> to display the Navigator."
-msgstr ""
+msgstr "Ընտրեք <emph>Դիտել - Նավավար</emph> Նավավարը արտածելու համար։"
 
 #: 02110000.xhp%23hd_id3159155.4.help.text
 msgctxt "02110000.xhp#hd_id3159155.4.help.text"
 msgid "Column"
-msgstr ""
+msgstr "Սյունակ"
 
 #: 02110000.xhp%23par_id3146984.5.help.text
 msgid ""
