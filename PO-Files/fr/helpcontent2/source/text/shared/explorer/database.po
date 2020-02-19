@@ -7,7 +7,7 @@ msgstr ""
 "e%2Ftext%2Fshared%2Fexplorer%2Fdatabase.oo&component=l10n&form_name="
 "enter_issue\n"
 "POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2019-08-31 05:19+0000\n"
+"PO-Revision-Date: 2020-02-18 20:54+0000\n"
 "Last-Translator: Cyril Beaussier <oooforum@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1567228793.000000\n"
+"X-POOTLE-MTIME: 1582059297.000000\n"
 
 #: menufile.xhp%23tit.help.text
 msgid "File"
@@ -3780,7 +3780,7 @@ msgid ""
 "item.no=orders.ANR}"
 msgstr ""
 "Exemple : select Article.* from {oj Article LEFT OUTER JOIN Commandes ON "
-"NoArticle=Commandes.NOA}"
+"Article.Num=Commandes.Num}"
 
 #: 02010100.xhp%23hd_id3153674.109.help.text
 msgid "Querying text fields"
@@ -5250,7 +5250,7 @@ msgid ""
 "creation and deletion of relationships is not placed in an intermediate "
 "memory by $[officename], but is forwarded directly to the external database."
 msgstr ""
-"Si vous utilisez $[officename] comme le frontal d'une base de données "
+"Si vous utilisez $[officename] comme frontal d'une base de données "
 "relationnelles, cette application ne place pas dans une mémoire "
 "intermédiaire la création et la suppression des relations, mais les "
 "transfère directement vers la base de données externe."
@@ -6186,11 +6186,10 @@ msgid ""
 "Adabas directory for more details. The Adabas database must be installed in "
 "a separate directory from $[officename]."
 msgstr ""
-"La taille de la base de données Adabas que vous avez peut-être installée "
-"avec $[officename] est limitée à 100 Mo et à un maximum de trois "
-"utilisateurs par réseau. Pour plus d'informations, reportez-vous au fichier "
-"\"License.txt\" dans le répertoire Adabas. La base de données Adabas doit "
-"être installée dans un répertoire distinct de $[officename]."
+"La taille de la base de données Adabas est limitée à 100 Mo et à un maximum "
+"de trois utilisateurs par réseau. Pour plus d'informations, reportez-vous au "
+"fichier \"License.txt\" dans le répertoire Adabas. La base de données Adabas "
+"doit être installée dans un répertoire distinct de $[officename]."
 
 #: 30000000.xhp%23par_id3154749.97.help.text
 msgid ""
@@ -6974,7 +6973,7 @@ msgid ""
 msgstr ""
 "Voir <link href=\"http://wiki.services.openoffice.org/wiki/Database/FR/"
 "Database\">les pages du Wiki à propos de Base</link> pour obtenir de l'aide "
-"concernant les fonctions dans un rapport."
+"concernant les fonctionnalités d'un rapport. "
 
 #: rep_navigator.xhp%23hd_id311593.help.text
 msgid "To calculate a sum for each client"
@@ -7012,8 +7011,8 @@ msgid ""
 "Change the name to e.g. CostCalc and the formula to [CostCalc] + [enter your "
 "cost column name]."
 msgstr ""
-"Changez le nom pour, par exemple, CoûtCalc et la formule pour [CoûtCalc] + ["
-"saisissez le nom de la colonne coût]."
+"Changez le nom pour, par exemple, TarifCalc et la formule pour [TarifCalc] + "
+"[saisissez le nom de la colonne tarif]."
 
 #: rep_navigator.xhp%23par_id1565904.help.text
 msgid "In the initial value enter 0."
@@ -7024,7 +7023,7 @@ msgid ""
 "Now you can insert a text field and bind it to your [CostCalc] (appears in "
 "the data field list box)."
 msgstr ""
-"Vous pouvez maintenant insérer un champ de texte et le lier à [CoûtCalc] ("
+"Vous pouvez maintenant insérer un champ de texte et le lier à [TarifCalc] ("
 "qui apparaît dans la liste de la boîte de dialogue des champs de données)."
 
 #: rep_navigator.xhp%23par_id9256874.help.text
@@ -7045,7 +7044,7 @@ msgstr ""
 
 #: rep_navigator.xhp%23par_id1754509.help.text
 msgid "[SumCost] + IF(ISBLANK([field]);0;[field])"
-msgstr "[SommeCoût] + SI(ESTVIDE([champ]);0;[champ])"
+msgstr "[SommeTarif] + SI(ESTVIDE([champ]);0;[champ])"
 
 #: rep_navigator.xhp%23par_id8122196.help.text
 msgid ""
@@ -9278,7 +9277,7 @@ msgstr ""
 "Une fois terminé, cliquez sur l'icône Exécuter le rapport <image id=\""
 "Graphic2\" src=\"res/commandimagelist/sc_executereport.png\" width=\"0."
 "1665inch\" height=\"0.1665inch\"><alt id=\"alt_\">icône</alt></image> pour "
-"créer un nouveau rapport. "
+"créer un nouveau rapport."
 
 #: rep_main.xhp%23par_id12512.help.text
 msgid ""
@@ -12292,8 +12291,7 @@ msgstr ""
 
 #: dabawiz01.xhp%23par_id8584246.help.text
 msgid "<link href=\"http://hsqldb.org/\">External web page about HSQL</link>."
-msgstr ""
-"<link href=\"http://hsqldb.org/ \">Page web externe à propos de HSQL</link>."
+msgstr "<link href=\"http://hsqldb.org/ \">Page web externe sur HSQL</link>."
 
 #: dabawiz01.xhp%23par_idN105F9.help.text
 msgid "Open an existing database file"
