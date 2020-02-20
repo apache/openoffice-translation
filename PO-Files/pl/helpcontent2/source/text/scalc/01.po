@@ -6,8 +6,8 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-18 23:57+0000\n"
-"Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
+"PO-Revision-Date: 2020-02-19 22:22+0000\n"
+"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1582070250.000000\n"
+"X-POOTLE-MTIME: 1582150963.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -2464,7 +2464,6 @@ msgid ""
 msgstr ""
 
 #: 04060184.xhp%23hd_id3153326K1.159.help.text
-#, fuzzy
 msgctxt "04060184.xhp#hd_id3153326K1.159.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -2517,7 +2516,6 @@ msgid ""
 msgstr ""
 
 #: 04060184.xhp%23hd_id3153326K2.159.help.text
-#, fuzzy
 msgctxt "04060184.xhp#hd_id3153326K2.159.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -2603,7 +2601,7 @@ msgstr "Przykład"
 
 #: 04060184.xhp%23par_id3153733.49.help.text
 msgid "<item type=\"input\">=MODE(A1:A50)</item>"
-msgstr "=WYST.NAJCZĘŚCIEJ(A1:A50)"
+msgstr "<item type=\"input\">=WYST.NAJCZĘŚCIEJ(A1:A50)</item>"
 
 #: 04060184.xhp%23bm_id3149879.help.text
 msgid ""
@@ -4493,7 +4491,7 @@ msgid ""
 "of elements, all columns must consist of the same number of elements. "
 msgstr ""
 "Program Calc obsługuje wewnętrzne stałe macierzowe/tablicowe w formułach. "
-"Wewnętrzna tablica znajduje się w nawiasach klamrowych „{” i „}”. Elementy "
+"Wewnętrzna tablica znajduje się w nawiasach klamrowych '{' i '}'. Elementy "
 "mogą być liczbami (w tym liczbami ujemnymi), stałymi logicznymi (PRAWDA, "
 "FAŁSZ) lub ciągami literałów. Wyrażenia nie będące stałymi nie są dozwolone. "
 "Tablice mogą być wprowadzane w jednym lub kilku wierszach oraz w jednej lub "
@@ -4728,7 +4726,7 @@ msgid ""
 "formula is applied to each cell in the range A1:A3 and the result is copied "
 "to the corresponding cell."
 msgstr ""
-"W poniższym przykładzie zapis \">0\" w formule {=JEŻELI(A1:A3>0;\"tak\";\""
+"W poniższym przykładzie zapis test >0 w formule {=JEŻELI(A1:A3>0;\"tak\";\""
 "nie\")} dotyczy każdej komórki w zakresie A1:A3, a wynik jest kopiowany do "
 "odpowiedniej komórki."
 
@@ -11206,7 +11204,6 @@ msgstr ""
 "formuły, funkcja zwraca wartość błędu #WARTOŚĆ"
 
 #: 04060105.xhp%23hd_id3155517K.22.help.text
-#, fuzzy
 msgctxt "04060105.xhp#hd_id3155517K.22.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -19908,7 +19905,6 @@ msgid ""
 msgstr ""
 
 #: 04060106.xhp%23hd_id3152015K.help.text
-#, fuzzy
 msgctxt "04060106.xhp#hd_id3152015K.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -21038,7 +21034,6 @@ msgid ""
 msgstr ""
 
 #: 04060106.xhp%23hd_id3164953K.help.text
-#, fuzzy
 msgctxt "04060106.xhp#hd_id3164953K.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -22033,7 +22028,7 @@ msgstr ""
 #: 04060118.xhp%23hd_id3148444.239.help.text
 msgctxt "04060118.xhp#hd_id3148444.239.help.text"
 msgid "Syntax"
-msgstr "Składnia:"
+msgstr "Składnia"
 
 #: 04060118.xhp%23par_id3148804.240.help.text
 msgid "RRI(P; PV; FV)"
@@ -22811,8 +22806,8 @@ msgid ""
 "<item type=\"input\">=FV(4%;2;750;2500) </item>= -4234.00 currency units. "
 "The value at the end of the investment is 4234.00 currency units."
 msgstr ""
-"FV(4%;2;750;2500) = -4234,00 jednostek walutowych. Końcowa wartość "
-"inwestycji wynosi 4234,00 jednostek walutowych."
+"<item type=\"input\">FV(4%;2;750;2500) </item> = -4234,00 jednostek "
+"walutowych. Końcowa wartość inwestycji wynosi 4234,00 jednostek walutowych."
 
 #: 04060118.xhp%23bm_id3155912.help.text
 msgid ""
@@ -22872,7 +22867,9 @@ msgstr ""
 msgid ""
 "<item type=\"input\">=FVSCHEDULE(1000;{0.03;0.04;0.05})</item> returns "
 "1124.76."
-msgstr "=FVSCHEDULE(1000; {0,03; 0,04; 0,05}) zwraca wartość 1124,76."
+msgstr ""
+"<item type=\"input\">=FVSCHEDULE(1000;{0,03;0,04;0,05})</item> zwraca "
+"wartość 1124,76."
 
 #: 04060118.xhp%23bm_id3156435.help.text
 msgid ""
@@ -24021,7 +24018,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3159118.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3159118.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24066,7 +24062,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3159119.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3159119.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24110,7 +24105,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3159117.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3159117.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24154,7 +24148,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3159120.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3159120.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24508,7 +24501,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3149821.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3149821.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24552,7 +24544,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3149823.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3149823.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24635,7 +24626,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3149824.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3149824.help.text"
 msgid "Syntax"
 msgstr "Składnia"
@@ -24791,7 +24781,6 @@ msgstr ""
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp%23hd_id3159121.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3159121.help.text"
 msgid "Syntax"
 msgstr "Składnia"
