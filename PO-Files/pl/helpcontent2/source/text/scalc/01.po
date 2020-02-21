@@ -6,8 +6,8 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2F01.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-02-19 22:22+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2020-02-20 23:20+0000\n"
+"Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1582150963.000000\n"
+"X-POOTLE-MTIME: 1582240818.000000\n"
 
 #: func_eomonth.xhp%23tit.help.text
 msgid "EOMONTH"
@@ -158,9 +158,7 @@ msgid ""
 "in the sheet will also be refreshed."
 msgstr ""
 "Wszystkie komórki są obliczane ponownie po modyfikacji komórki arkusza. "
-"Odświeżone zostaną także wszystkie wykresy na arkuszu. Jeśli funkcja <emph>"
-"Oblicz automatycznie</emph> nie jest włączona, funkcja <emph>Oblicz "
-"ponownie</emph> uruchamiana za pomocą klawisza F9 nie jest dostępna."
+"Odświeżone zostaną także wszystkie wykresy w arkuszu."
 
 #: 04070100.xhp%23tit.help.text
 msgctxt "04070100.xhp#tit.help.text"
@@ -449,7 +447,7 @@ msgstr "Jaka data była miesiąc przed 31.3.2001?"
 
 #: func_edate.xhp%23par_id3155999.221.help.text
 msgid "<item type=\"input\">=EDATE(3.31.2001;-1)</item> returns 2.28.2001."
-msgstr "=EDATE(\"31.3.2001\";-1) zwraca 28.02.2001."
+msgstr "<item type=\"input\">=EDATE(\"31.3.2001\";-1)</item> zwraca 28.02.2001."
 
 #: 06060100.xhp%23tit.help.text
 msgctxt "06060100.xhp#tit.help.text"
@@ -991,8 +989,8 @@ msgctxt "04060181.xhp#par_id3149953.19.help.text"
 msgid ""
 "The entries 2, 4, 6 and eight in the Value 1-4 fields are to be counted."
 msgstr ""
-"Należy zliczyć wpisy <emph>2, 4, 6</emph> i <emph>osiem</emph> podane jako "
-"argumenty w polach <emph>wartości 1 - 4</emph>."
+"Należy zliczyć wpisy 2, 4, 6 i osiem podane jako argumenty w polach wartości "
+"1 - 4."
 
 #: 04060181.xhp%23par_id3154558.20.help.text
 msgid ""
@@ -1054,8 +1052,8 @@ msgctxt "04060181.xhp#par_id3154508.28.help.text"
 msgid ""
 "The entries 2, 4, 6 and eight in the Value 1-4 fields are to be counted."
 msgstr ""
-"Należy zliczyć wpisy <emph>2, 4, 6</emph> i <emph>osiem</emph> podane jako "
-"argumenty w polach <emph>wartości 1 - 4</emph>."
+"Należy zliczyć wpisy 2, 4, 6 i osiem podane jako argumenty w polach Wartości "
+"1 - 4."
 
 #: 04060181.xhp%23par_id3158000.29.help.text
 msgid ""
@@ -2179,16 +2177,17 @@ msgid ""
 "for an odd number: <item type=\"input\">=MEDIAN(1;5;9;20;21)</item> returns "
 "9 as the median value."
 msgstr ""
-"dla liczby nieparzystej: =MEDIANA(1; 5; 9; 20; 21) zwraca wartość mediany "
-"równą 9."
+"dla liczby nieparzystej:<item type=\"input\"> =MEDIANA(1;5;9;20;21)</item> "
+"zwraca wartość mediany równą 9."
 
 #: 04060184.xhp%23par_id3149126.165.help.text
 msgid ""
 "for an even number: <item type=\"input\">=MEDIAN(1;5;9;20)</item> returns "
 "the average of the two middle values 5 and 9, thus 7."
 msgstr ""
-"dla liczby parzystej: =MEDIANA(1; 5; 9; 20) zwraca średnią dwóch liczb "
-"znajdujących się w środku zbioru: 5 i 9, zatem wartość równą 7."
+"dla liczby parzystej: <item type=\"input\">=MEDIANA(1; 5; 9; 20)</item> "
+"zwraca średnią dwóch liczb znajdujących się w środku zbioru: 5 i 9, zatem "
+"wartość równą 7."
 
 #: 04060184.xhp%23bm_id3154541.help.text
 msgid "<bookmark_value>MIN function</bookmark_value>"
@@ -2402,7 +2401,7 @@ msgstr "Przykład"
 
 #: 04060184.xhp%23par_id3151232.41.help.text
 msgid "<item type=\"input\">=AVERAGE(A1:A50)</item>"
-msgstr "=ŚREDNIA(A1:A50)"
+msgstr "<item type=\"input\">=ŚREDNIA(A1:A50)</item>"
 
 #: 04060184.xhp%23bm_id3148754.help.text
 msgid "<bookmark_value>AVERAGEA function</bookmark_value>"
@@ -2445,7 +2444,7 @@ msgstr "Przykład"
 
 #: 04060184.xhp%23par_id3150864.163.help.text
 msgid "<item type=\"input\">=AVERAGEA(A1:A50)</item>"
-msgstr "=ŚREDNIA.A(A1:A50)"
+msgstr "<item type=\"input\">=ŚREDNIA.A(A1:A50)</item>"
 
 #: 04060184.xhp%23bm_id3148754K1.help.text
 #, fuzzy
@@ -2965,9 +2964,9 @@ msgid ""
 msgstr ""
 "<ahelp hid=\"HID_FUNC_QUANTIL\">Zwraca percentyl alfa wartości w "
 "macierzy.</ahelp> Percentyl zwraca wartość skali dla serii danych od "
-"wartości najmniejszej (alfa=0) do największej (alfa=1). Dla parametru "
-"<emph>alfa</emph> = 25% percentyl oznacza pierwszy kwartyl; <emph>alfa</emph>"
-" = 50% oznacza funkcję MEDIANA."
+"wartości najmniejszej (Alfa=0) do największej (Alfa=1). Dla parametru <item "
+"type=\"literal\">Alfa</item> = 25% percentyl oznacza pierwszy kwartyl; <item "
+"type=\"literal\">Alfa</item> = 50% oznacza funkcję MEDIANA."
 
 #: 04060184.xhp%23hd_id3150531.114.help.text
 msgctxt "04060184.xhp#hd_id3150531.114.help.text"
@@ -3447,15 +3446,15 @@ msgstr "Przykłady"
 
 #: func_year.xhp%23par_id3145668.43.help.text
 msgid "<item type=\"input\">=YEAR(1)</item> returns 1899"
-msgstr "Rok (1) zwraca wartość 1899"
+msgstr "<item type=\"input\">=ROK(1)</item> zwraca wartość 1899"
 
 #: func_year.xhp%23par_id3151168.44.help.text
 msgid "<item type=\"input\">=YEAR(2)</item> returns 1900"
-msgstr "ROK (2) zwraca wartość 1900"
+msgstr "<item type=\"input\">=ROK (2)</item> zwraca wartość 1900"
 
 #: func_year.xhp%23par_id3150115.45.help.text
 msgid "<item type=\"input\">=YEAR(33333.33)</item> returns 1991"
-msgstr "ROK (33333,33) zwraca wartość 1991"
+msgstr "<item type=\"input\">=ROK (33333,33)</item> zwraca wartość 1991"
 
 #: func_weeknumadd.xhp%23tit.help.text
 msgid "WEEKNUM_ADD "
@@ -3479,7 +3478,7 @@ msgid ""
 "calendar week for a date.</ahelp>"
 msgstr ""
 "<ahelp hid=\"HID_AAI_FUNC_WEEKNUM\">Wartość zwracana oznacza numer tygodnia "
-"kalendarzowego dla typu <emph>Data</emph>.</ahelp>"
+"kalendarzowego dla daty.</ahelp>"
 
 #: func_weeknumadd.xhp%23par_idN105DD.help.text
 msgid ""
@@ -3526,7 +3525,8 @@ msgstr "W którym tygodniu przypada data 12.24.2001?"
 
 #: func_weeknumadd.xhp%23par_id3149914.230.help.text
 msgid "<item type=\"input\">=WEEKNUM_ADD(24.12.2001;1)</item> returns 52."
-msgstr "=WEEKNUM_ADD(\"24.12.2001\";1) zwraca wartość 52."
+msgstr ""
+"<item type=\"input\">=WEEKNUM_ADD(\"24.12.2001\";1)</item> zwraca wartość 52."
 
 #: func_weeknum.xhp%23tit.help.text
 msgid "WEEKNUM"
@@ -4363,9 +4363,9 @@ msgstr ""
 "Podczas zmiany operatorów porównania w formule macierzowej puste komórki "
 "podlegają tym samym zasadom, co w przypadku pojedynczych porównań, czyli "
 "mogą być reprezentowane przez liczbę 0 lub ciąg pusty. W związku z tym obie "
-"formuły macierzowe: {=A1:A2=\"\"} i {=A1:A2=0} zwracają 1-kolumnową i 2-"
-"wierszową macierz z komórkami zawierającymi wartość PRAWDA, jeśli komórki A1 "
-"i A2 są puste."
+"formuły macierzowe: <item type=\"input\">{=A1:A2=\"\"}</item> i <item type=\""
+"input\">{=A1:A2=0} </item> zwracają 1-kolumnową i 2-wierszową macierz z "
+"komórkami zawierającymi wartość PRAWDA, jeśli komórki A1 i A2 są puste."
 
 #: 04060107.xhp%23hd_id3150713.281.help.text
 msgid "When do you use array formulas?"
@@ -22839,7 +22839,7 @@ msgstr "FVSCHEDULE(kapitał; stopy_procentowe)"
 
 #: 04060118.xhp%23par_id3148904.55.help.text
 msgid "<emph>Principal</emph> is the starting capital."
-msgstr "Kapitał: kapitał początkowy."
+msgstr "<emph>Kapitał:</emph> kapitał początkowy."
 
 #: 04060118.xhp%23par_id3148562.56.help.text
 msgid ""
@@ -23008,11 +23008,10 @@ msgid "<link href=\"text/scalc/01/02170000.xhp\" name=\"Delete\">Delete</link>"
 msgstr "<link href=\"text/scalc/01/02170000.xhp\" name=\"Usuń\">Usuń</link>"
 
 #: 02200000.xhp%23hd_id3163733308.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/shared/01/06140500.xhp\" name=\"Events\">Events</link>"
 msgstr ""
-"<link href=\"text/shared/01/05020100.xhp\" name=\"Czcionka\">Czcionka</link>"
+"<link href=\"text/shared/01/06140500.xhp\" name=\"Czcionka\">Czcionka</link>"
 
 #: 06080000.xhp%23tit.help.text
 msgid "Recalculate"
