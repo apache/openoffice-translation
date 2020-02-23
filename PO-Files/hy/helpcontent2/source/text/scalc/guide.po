@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2Fguide.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2019-06-22 11:17+0000\n"
+"PO-Revision-Date: 2020-02-22 07:01+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1561202223.000000\n"
+"X-POOTLE-MTIME: 1582354879.000000\n"
 
 #: cellreferences.xhp%23tit.help.text
 msgid "Referencing a Cell in Another Document"
-msgstr ""
+msgstr "Հղում այլ փաստաթղթի բջջին"
 
 #: cellreferences.xhp%23bm_id3147436.help.text
 msgid ""
@@ -31,6 +31,11 @@ msgid ""
 "document</bookmark_value>      "
 "<bookmark_value>documents;references</bookmark_value>"
 msgstr ""
+"<bookmark_value>sheet references</bookmark_value>      "
+"<bookmark_value>references; to cells in other "
+"sheets/documents</bookmark_value>      <bookmark_value>cells; operating in "
+"another document</bookmark_value>      "
+"<bookmark_value>documents;references</bookmark_value>"
 
 #: cellreferences.xhp%23hd_id3147436.9.help.text
 msgid ""
@@ -38,38 +43,44 @@ msgid ""
 "xhp\" name=\"Referencing Other Sheets\">Referencing Other "
 "Sheets</link></variable>"
 msgstr ""
+"<variable id=\"cellreferences\"><link href=\"text/scalc/guide/cellreferences."
+"xhp\" name=\"Հղում այլ թերթերի\"></link></variable>"
 
 #: cellreferences.xhp%23par_id9663075.help.text
 msgid "In a sheet cell you can show a reference to a cell in another sheet."
-msgstr ""
+msgstr "Թերթիկի բջիջում կարող եք ցույց տալ հղում մեկ այլ թերթի բջջին:"
 
 #: cellreferences.xhp%23par_id1879329.help.text
 msgid ""
 "In the same way, a reference can also be made to a cell from another "
 "document provided that this document has already been saved as a file."
 msgstr ""
+"Նույն ձևով, հղումը կարող է կատարվել նաև մեկ այլ փաստաթղթի բջջին, պայմանով, "
+"որ այս փաստաթուղթը արդեն պահպանվել է որպես նիշք:"
 
 #: cellreferences.xhp%23hd_id7122409.help.text
 msgid "To Reference a Cell in the Same Document"
-msgstr ""
+msgstr "Հղում տալ բջջին նույն փաստաթղթում"
 
 #: cellreferences.xhp%23par_id2078005.help.text
 msgid "Open a new, empty spreadsheet."
-msgstr ""
+msgstr "Բացեք նոր, դատարկ փռված թերթիկ։"
 
 #: cellreferences.xhp%23par_id4943693.help.text
 msgid "By way of example, enter the following formula in cell A1 of Sheet1:"
-msgstr ""
+msgstr "Օրինակի համար, Sheet1 -ի A1 բջիջում մուտքագրեք հետևյալ բանաձևը."
 
 #: cellreferences.xhp%23par_id9064302.help.text
 msgid "               <item type=\"literal\">=Sheet2.A1</item>            "
-msgstr ""
+msgstr "               <item type=\"literal\">=Sheet2.A1</item>            "
 
 #: cellreferences.xhp%23par_id7609790.help.text
 msgid ""
 "Click the <emph>Sheet 2</emph> tab at the bottom of the spreadsheet. Set the "
 "cursor in cell A1 there and enter text or a number."
 msgstr ""
+"Սեղմեք <emph>Sheet 2</emph> ներդիրը փռված թերթի վերջում: Տեղադրեք կուրսորը "
+"A1 բջիջում և մուտքագրեք տեքստ կամ թիվ:"
 
 #: cellreferences.xhp%23par_id809961.help.text
 msgid ""
@@ -77,15 +88,19 @@ msgid ""
 "there. If the contents of Sheet2.A1 change, then the contents of Sheet1.A1 "
 "also change."
 msgstr ""
+"Եթե վերադառնաք Sheet1 -ին, A1 բջիջում կտեսնեք նույն բովանդակությունը: Եթե "
+"Sheet2.A1 բովանդակությունը փոխվում է, ապա Sheet1.A1 բովանդակությունը "
+"նույնպես փոխվում է:"
 
 #: cellreferences.xhp%23hd_id9209570.help.text
 msgid "To Reference a Cell in Another Document"
-msgstr ""
+msgstr "Հղում տալ բջիջին այլ փաստաթղթում"
 
 #: cellreferences.xhp%23par_id5949278.help.text
 msgid ""
 "Choose <emph>File - Open</emph>, to load an existing spreadsheet document."
 msgstr ""
+"Ընտրեք <emph>Նիշք - Բացել</emph>, առկա աղյուսակի փաստաթուղթը բեռնելու համար:"
 
 #: cellreferences.xhp%23par_id8001953.help.text
 msgid ""
@@ -93,18 +108,25 @@ msgid ""
 "cursor in the cell where you want to insert the external data and enter an "
 "equals sign to indicate that you want to begin a formula."
 msgstr ""
+"Ընտրեք <emph>Նիշք - Նոր</emph>, նոր աղյուսակի փաստաթուղթ բացելու համար: "
+"Կուրսորը տեղադրեք այն բջիջում, որտեղ ցանկանում եք ներդնել արտաքին տվյալները "
+"և մուտքագրեք հավասարի նշանը՝ նշելու, որ բանաձևի սկիզբն է:"
 
 #: cellreferences.xhp%23par_id8571123.help.text
 msgid ""
 "Now switch to the document you have just loaded. Click the cell with the "
 "data that you want to insert in the new document."
 msgstr ""
+"Այժմ անցեք այն փաստաթղթին, որը նոր եք բեռնավորել: Կտտացրեք բջիջը այն "
+"տվյալների հետ, որոնք ցանկանում եք տեղադրել նոր փաստաթղթում:"
 
 #: cellreferences.xhp%23par_id8261665.help.text
 msgid ""
 "Switch back to the new spreadsheet. In the input line you will now see how "
 "$[officename] Calc has added the reference to the formula for you. "
 msgstr ""
+"Վերադարձեք նոր աղյուսակին: Մուտքագրման տողում այժմ կտեսնեք, թե ինչպես է "
+"$[officename] Calc -ն ավելացրել հղումը բանաձևին։ "
 
 #: cellreferences.xhp%23par_id5888241.help.text
 msgid ""
@@ -112,10 +134,13 @@ msgid ""
 "document in single inverted commas, then a hash #, then the name of the "
 "sheet of the other document, followed by a point and the name of the cell."
 msgstr ""
+"Հղումը մեկ այլ փաստաթղթի բջջին պարունակում է մյուս փաստաթղթի անվանումը մեկ "
+"հակադարձված ստորակետերով, ապա` hash #, ապա մյուս փաստաթղթի թերթի անվանումը, "
+"որին հաջորդում է կետ և բջջի անունը:"
 
 #: cellreferences.xhp%23par_id7697683.help.text
 msgid "Confirm the formula by clicking the green check mark."
-msgstr ""
+msgstr "Հաստատեք բանաձևը, կտտացնելով կանաչ ստուգման նշանը:"
 
 #: cellreferences.xhp%23par_id7099826.help.text
 msgid ""
@@ -124,6 +149,10 @@ msgid ""
 "references in the adjacent cells. As a result, the sheet name is preceded "
 "with a \"$\" sign to designate it as an absolute reference."
 msgstr ""
+"Եթե վանդակը քաշեք ակտիվ բջիջի ստորին աջ անկյուն` բջիջների մի տիրույթ "
+"ընտրելու համար, $[officename] -ը ինքնաբերաբար տեղադրում է համապատասխան "
+"հղումները հարակից բջիջներում: Արդյունքում, թերթի անվանը նախորդում է \"$\" "
+"նշանը` այն որպես բացարձակ հղում նշելու համար:"
 
 #: cellreferences.xhp%23par_id674459.help.text
 msgid ""
@@ -132,10 +161,13 @@ msgid ""
 " name=\"URL\">URL</link>. This means that you can also enter a URL from the "
 "Internet."
 msgstr ""
+"Եթե ուսումնասիրեք այս բանաձևի մյուս փաստաթղթի անուն, կնկատեք, որ այն գրված է "
+"որպես a <link href=\"text/shared/00/00000002.xhp#url\" name=\"URL\""
+">URL</link>։ Սա նշանակում է, որ համացանցից կարող եք նաև URL մուտքագրել:"
 
 #: mark_cells.xhp%23tit.help.text
 msgid "Selecting Multiple Cells"
-msgstr ""
+msgstr "Բազմակի բջիջների ընտրություն"
 
 #: mark_cells.xhp%23bm_id3153361.help.text
 msgid ""
@@ -146,35 +178,46 @@ msgid ""
 "modes in spreadsheets</bookmark_value>      <bookmark_value>tables; "
 "selecting ranges</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; selecting</bookmark_value>      <bookmark_value>"
+"marking cells</bookmark_value>      "
+"<bookmark_value>selecting;cells</bookmark_value>      <bookmark_value>"
+"multiple cells selection</bookmark_value>      <bookmark_value>selection "
+"modes in spreadsheets</bookmark_value>      <bookmark_value>tables; "
+"selecting ranges</bookmark_value>"
 
 #: mark_cells.xhp%23hd_id3153361.1.help.text
 msgid ""
 "<variable id=\"mark_cells\"><link href=\"text/scalc/guide/mark_cells.xhp\" "
 "name=\"Selecting Multiple Cells\">Selecting Multiple Cells</link></variable>"
 msgstr ""
+"<variable id=\"mark_cells\"><link href=\"text/scalc/guide/mark_cells.xhp\" "
+"name=\"Բազմակի բջիջների ընտրություն\">Բազմակի բջիջների "
+"ընտրություն</link></variable>"
 
 #: mark_cells.xhp%23hd_id3145272.2.help.text
 msgid "Select a rectangular range"
-msgstr ""
+msgstr "Ընտրեք ուղղանկյուն տիրույթ"
 
 #: mark_cells.xhp%23par_id3149261.3.help.text
 msgid ""
 "With the mouse button pressed, drag from one corner to the diagonally "
 "opposed corner of the range."
 msgstr ""
+"Մկնիկի կոճակը սեղմած, մի անկյունից քաշեք անկյունագծով դեպի միջակայքի հակառակ "
+"կողմը:"
 
 #: mark_cells.xhp%23hd_id3151119.4.help.text
 msgid "Mark a single cell"
-msgstr ""
+msgstr "Նշեք մեկ բջիջը"
 
 #: mark_cells.xhp%23par_id3146975.19.help.text
 msgctxt "mark_cells.xhp#par_id3146975.19.help.text"
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Կատարեք հետևյալներից մեկը"
 
 #: mark_cells.xhp%23par_id3163710.20.help.text
 msgid "Click, then Shift-click the cell."
-msgstr ""
+msgstr "Սեղմեք, ապա Shift-սեղմեք բջիջը։"
 
 #: mark_cells.xhp%23par_id3149959.5.help.text
 msgid ""
@@ -182,15 +225,18 @@ msgid ""
 "mouse button, and then drag back to the first cell. Release the mouse "
 "button. You can now move the individual cell by drag and drop."
 msgstr ""
+"Մկնիկի կոճակը սեղմելով, քաշեք միջակայքը երկու բջիջների միջով, բաց մի թողեք "
+"մկնիկի կոճակը և ապա նորից հետ քաշեք դեպի առաջին բջիջ: Ազատեք մկնիկի կոճակը: "
+"Այժմ կարող եք տեղափոխել առանձին բջիջը, քաշելով և թողնելով:"
 
 #: mark_cells.xhp%23hd_id3154942.6.help.text
 msgid "Select various dispersed cells"
-msgstr ""
+msgstr "Ընտրեք տարբեր ցրված բջիջները"
 
 #: mark_cells.xhp%23par_id1001200901072060.help.text
 msgctxt "mark_cells.xhp#par_id1001200901072060.help.text"
 msgid "Do one of the following:"
-msgstr ""
+msgstr "Կատարիր հետևյալներից մեկը"
 
 #: mark_cells.xhp%23par_id3156284.7.help.text
 msgid ""
@@ -199,53 +245,65 @@ msgid ""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>, "
 "click each of the additional cells."
 msgstr ""
+"Նշեք առնվազն մեկ բջիջ։ Ապա, մինչ սեղմել եք <switchinline select=\"sys\"><"
+"caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>, "
+"կտտացրեք լրացուցիչ բջիջներից յուրաքանչյուրը։"
 
 #: mark_cells.xhp%23par_id1001200901072023.help.text
 msgid ""
 "Click the STD / EXT / ADD area in the status bar until it shows ADD. Now "
 "click all cells that you want to select."
 msgstr ""
+"Սեղմեք STD / EXT / ADD տարածքը կարգավիճակի տողում, մինչև այն ցույց կտա ADD: "
+"Այժմ կտտացրեք բոլոր բջիջները, որոնք ցանկանում եք ընտրել:"
 
 #: mark_cells.xhp%23hd_id3146971.8.help.text
 msgid "Switch marking mode"
-msgstr ""
+msgstr "Անցեք նշելու վիճակին"
 
 #: mark_cells.xhp%23par_id3155064.9.help.text
 msgid ""
 "On the status bar, click the box with the legend STD / EXT / ADD to switch "
 "the marking mode:"
 msgstr ""
+"Վիճակի տողում, նշելու ռեժիմը միացնելու համար կտտացրեք STD / EXT / ADD "
+"լեգենդով վանդակը ."
 
 #: mark_cells.xhp%23par_id3159264.10.help.text
 msgid "Field contents"
-msgstr ""
+msgstr "Դաշտի պարունակությունը"
 
 #: mark_cells.xhp%23par_id3155337.11.help.text
 msgid "Effect of clicking the mouse"
-msgstr ""
+msgstr "Մկնիկը սեղմելու արդյունքը"
 
 #: mark_cells.xhp%23par_id3149568.12.help.text
 msgid "STD"
-msgstr ""
+msgstr "STD"
 
 #: mark_cells.xhp%23par_id3148486.13.help.text
 msgid ""
 "A mouse click selects the cell you have clicked on. Unmarks all marked cells."
 msgstr ""
+"Մկնիկի սեղմումով ընտրվում է ձեր կտտացրած բջիջը: Ապանշում են բոլոր նշված "
+"բջիջները:"
 
 #: mark_cells.xhp%23par_id3150090.14.help.text
 msgid "EXT"
-msgstr ""
+msgstr "EXT"
 
 #: mark_cells.xhp%23par_id3150305.15.help.text
 msgid ""
 "A mouse click marks a rectangular range from the current cell to the cell "
 "you clicked. Alternatively, Shift-click a cell."
 msgstr ""
+"Մկնիկի սեղմումով նշվում է ուղղանկյուն միջակայք` ընթացիկ բջիջից մինչև ձեր "
+"կտտացրած բջիջը: Այլընտրանքորեն, Shift-կտտացրեք բջիջը:"
 
 #: mark_cells.xhp%23par_id3145587.16.help.text
 msgid "ADD"
-msgstr ""
+msgstr "ADD"
 
 #: mark_cells.xhp%23par_id3154368.17.help.text
 msgid ""
@@ -255,15 +313,21 @@ msgid ""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>-"
 "click the cells."
 msgstr ""
+"Բջիջում մկնիկի սեղմումը ավելացնում է այն արդեն նշված բջիջներին: Նշված "
+"բջիջում մկնիկի կտտոցը ապանշում է այն: Որպես այլընտրանք, <switchinline select="
+"\"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>"
+"սեղմեք բջիջները։"
 
 #: mark_cells.xhp%23par_id3154487.18.help.text
 msgid ""
 "<link href=\"text/scalc/main0208.xhp\" name=\"Status bar\">Status bar</link>"
 msgstr ""
+"<link href=\"text/scalc/main0208.xhp\" name=\"Վիճակի տող\">Վիճակի տող</link>"
 
 #: value_with_name.xhp%23tit.help.text
 msgid "Naming Cells"
-msgstr ""
+msgstr "Բջիջներին անվանում տալ"
 
 #: value_with_name.xhp%23bm_id3147434.help.text
 msgid ""
@@ -280,62 +344,87 @@ msgid ""
 "names</bookmark_value>      <bookmark_value>allowed cell "
 "names</bookmark_value>      <bookmark_value>renaming;cells</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; defining names</bookmark_value>      "
+"<bookmark_value>names; defining for cells</bookmark_value>      "
+"<bookmark_value>values; defining names</bookmark_value>      <bookmark_value>"
+"constants definition</bookmark_value>      <bookmark_value>variables; "
+"defining names</bookmark_value>      <bookmark_value>cell ranges; defining "
+"names</bookmark_value>      <bookmark_value>defining;names for cell "
+"ranges</bookmark_value>      <bookmark_value>formulas; defining "
+"names</bookmark_value>      <bookmark_value>addressing; by defined "
+"names</bookmark_value>      <bookmark_value>cell names; "
+"defining/addressing</bookmark_value>      <bookmark_value>references; by "
+"defined names</bookmark_value>      <bookmark_value>allowed cell "
+"names</bookmark_value>      <bookmark_value>renaming;cells</bookmark_value>"
 
 #: value_with_name.xhp%23hd_id3147434.1.help.text
 msgid ""
 "<variable id=\"value_with_name\"><link href=\"text/scalc/guide/"
 "value_with_name.xhp\" name=\"Naming Cells\">Naming Cells</link></variable>"
 msgstr ""
+"<variable id=\"value_with_name\"><link href=\""
+"text/scalc/guide/value_with_name.xhp\" name=\"Բջիջներին անվանումներ տալ\">"
+"Բջիջներին անվանումներ տալ</link></variable>"
 
 #: value_with_name.xhp%23hd_id4391918.help.text
 msgid "Allowed names"
-msgstr ""
+msgstr "Թույլատրված անուններ"
 
 #: value_with_name.xhp%23par_id2129581.help.text
 msgid ""
 "Names in Calc can contain letters, numeric characters, and some special "
 "characters. Names must start with a letter or an underline character."
 msgstr ""
+"Անունները Calc -ում կարող են պարունակել տառեր, թվային նիշեր և որոշ հատուկ "
+"նիշեր: Անունները պետք է սկսվեն տառով, կամ ընդգծման նիշով:"
 
 #: value_with_name.xhp%23par_id1120029.help.text
 msgid "Allowed special characters:"
-msgstr ""
+msgstr "Թույլատրված հատուկ նիշեր․"
 
 #: value_with_name.xhp%23par_id3362224.help.text
 msgid "underline (_) "
-msgstr ""
+msgstr "ընդգծել (_) "
 
 #: value_with_name.xhp%23par_id4891506.help.text
 msgid "period (.) - allowed within a name, but not as first or last character"
-msgstr ""
+msgstr "կետ (.) - թույլատրվում է անվան մեջ, բայց ոչ որպես առաջին կամ վերջին նիշ"
 
 #: value_with_name.xhp%23par_id2816553.help.text
 msgid ""
 "blank ( ) - allowed within a name, but not as first or last character, and "
 "not for a cell range"
 msgstr ""
+"բացատ( ) - թույլատրվում է անվան մեջ, բայց ոչ որպես առաջին կամ վերջին նիշ, և "
+"ոչ բջջային միջակայքում"
 
 #: value_with_name.xhp%23par_id328989.help.text
 msgid ""
 "Names must not be the same as cell references. For example, the name A1 is "
 "invalid because A1 is a cell reference to the top left cell."
 msgstr ""
+"Անունները չպետք է լինեն նույնը, ինչ բջջային հղումները: Օրինակ՝ A1 անունը "
+"անվավեր է, քանի որ A1 -ը բջջային հղում է վերին ձախ բջջին:"
 
 #: value_with_name.xhp%23par_id32898987.help.text
 msgid ""
 "Names must not start with the letter R followed by a number. See the ADDRESS "
 "function for more information."
 msgstr ""
+"Անունները չպետք է սկսվեն R տառով, որին հաջորդում է թիվ: Տեսեք ADDRESS "
+"գործառույթը լրացուցիչ տեղեկությունների համար:"
 
 #: value_with_name.xhp%23par_id4769737.help.text
 msgid ""
 "Names for cell ranges must not include blanks. Blanks are allowed within "
 "names for single cells, sheets and documents."
 msgstr ""
+"Բջջային միջակայքի անունները չպետք է ներառեն բացատներ: Բացատները թույլատրված "
+"են միայնակ բջիջների, թերթերի և փաստաթղթերի համար:"
 
 #: value_with_name.xhp%23hd_id1226233.help.text
 msgid "Naming cells and formulas"
-msgstr ""
+msgstr "Բջիջներին և բանաձևերին անուններ տալը"
 
 #: value_with_name.xhp%23par_id5489364.help.text
 msgid ""
@@ -346,6 +435,12 @@ msgid ""
 "correctly assigns the ranges identified by name. Range names must not "
 "contain any spaces."
 msgstr ""
+"Բանաձևերում բջիջներին և բջիջների միջակայքերին հղումներ տալու լավ միջոց է "
+"միջակայքերին անուններ տալը: Օրինակ, կարող եք անուն տալ A1:B2 "
+"<emph>Սկիզբ</emph> տիրույթին: Դրանից հետո կարող եք գրել այնպիսի բանաձև, "
+"ինչպիսին է \"=SUM(Start)\": Նույնիսկ տողեր կամ սյուներ տեղադրելուց կամ "
+"ջնջելուց հետո, $[officename] դեռևս ճշտորեն նշանակում է միջակայքերը ըստ նշված "
+"անվան: Տիրույթների անվանումները չպետք է պարունակեն բացատներ։"
 
 #: value_with_name.xhp%23par_id953398.help.text
 msgid ""
@@ -353,18 +448,26 @@ msgid ""
 "write \"= Amount * Tax_rate\" instead of \"= A5 * B12\". In this case, you "
 "would name cell A5 \"Amount\" and cell B12 \"Tax_rate.\""
 msgstr ""
+"Օրինակ, շատ ավելի հեշտ է կարդալ վաճառքի հարկի մասին բանաձևը, եթե կարողանաք "
+"գրել \"= Amount * Tax_rate\" \"= A5 * B12\" փոխարեն։ Այս դեպքում, դու "
+"կանվանես A5 բջիջը որպես \"Amount\" և B12 բջիջը՝ \"Tax_rate\""
 
 #: value_with_name.xhp%23par_id4889675.help.text
 msgid ""
 "Use the <emph>Define Names</emph> dialog to define names for formulas or "
 "parts of formulas you need more often. In order to specify range names,"
 msgstr ""
+"Օգտագործեք <emph>Սահմանեք անունները</emph> երկխոսությունը, բանաձևերի կամ այլ "
+"բանաձևերի մասերի անունները սահմանելու համար, որոնք ձեզ ավելի հաճախ են "
+"անհրաժեշտ: Միջակայքի անվանումները նշելու համար,"
 
 #: value_with_name.xhp%23par_id3153954.3.help.text
 msgid ""
 "Select a cell or range of cells, then choose <emph>Insert - Names - "
 "Define</emph>. The <emph>Define Names</emph> dialog appears."
 msgstr ""
+"Ընտրեք բջիջը կամ բջիջների միջակայքը, ապա ընտրեք <emph>Տեղադրեք - Անուններ - "
+"Սահմանեք</emph>։ Կհայտնվի <emph>Սահմանեք անունները</emph> երկխոսությունը։"
 
 #: value_with_name.xhp%23par_id3156283.4.help.text
 msgid ""
@@ -372,38 +475,49 @@ msgid ""
 "<emph>Add</emph>. The newly defined name appears in the list below. Click OK "
 "to close the dialog."
 msgstr ""
+"Մուտքագրեք ընտրված տիրույթի անունը <emph>Անուն</emph> դաշտում։ Սեղմեք "
+"<emph>Ավելացնել</emph>։ Նոր սահմանված անունը հայտնվում է ստորև ներկայացված "
+"ցանկում: Կտտացրեք ԼԱՎ՝ երկխոսությունը փակելու համար:"
 
 #: value_with_name.xhp%23par_id5774101.help.text
 msgid ""
 "You can also name other cell ranges in this dialog by entering the name in "
 "the field and then selecting the respective cells."
 msgstr ""
+"Կարող եք նաև այս երկխոսության մեջ նշել բջջային այլ միջակայքեր՝ դաշտում "
+"անունը մուտքագրելով և այնուհետև ընտրելով համապատասխան բջիջները:"
 
 #: value_with_name.xhp%23par_id3154942.5.help.text
 msgid ""
 "If you type the name in a formula, after the first few characters entered "
 "you will see the entire name as a tip."
 msgstr ""
+"Եթե անունը մուտքագրեք բանաձևում, առաջին մի քանի նիշը մուտքագրելուց հետո "
+"կտեսնեք ամբողջ անունը որպես հուշում:"
 
 #: value_with_name.xhp%23par_id3154510.6.help.text
 msgid "Press the Enter key in order to accept the name from the tip."
-msgstr ""
+msgstr "Սեղմեք Enter ստեղնը, որպեսզի անունն ընդունեք հուշումից:"
 
 #: value_with_name.xhp%23par_id3150749.7.help.text
 msgid ""
 "If more than one name starts with the same characters, you can scroll "
 "through all the names using the Tab key."
 msgstr ""
+"Եթե մեկից ավելի անուններ սկսվում են նույն նիշերով, ապա կարող եք պտտվել բոլոր "
+"անուններով` օգտագործելով Tab ստեղնը:"
 
 #: value_with_name.xhp%23par_id3153711.8.help.text
 msgid ""
 "<link href=\"text/scalc/01/04070100.xhp\" name=\"Insert - Names - Define\">"
 "Insert - Names - Define</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04070100.xhp\" name=\"Տեղադրեք - Անուններ - "
+"Սահմանեք\">Տեղադրեք - Անուններ - Սահմանեք</link>"
 
 #: cellcopy.xhp%23tit.help.text
 msgid "Only Copy Visible Cells"
-msgstr ""
+msgstr "Պատճենեք միայն տեսանելի բջիջները"
 
 #: cellcopy.xhp%23bm_id3150440.help.text
 msgid ""
@@ -417,49 +531,71 @@ msgid ""
 "<bookmark_value>filters;copying visible cells only</bookmark_value>      "
 "<bookmark_value>hidden cells</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; copying/deleting/formatting/moving</bookmark_value>"
+"      <bookmark_value>rows;visible and invisible</bookmark_value>      "
+"<bookmark_value>copying; visible cells only</bookmark_value>      "
+"<bookmark_value>formatting;visible cells only</bookmark_value>      "
+"<bookmark_value>moving;visible cells only</bookmark_value>      "
+"<bookmark_value>deleting;visible cells only</bookmark_value>      "
+"<bookmark_value>invisible cells</bookmark_value>      "
+"<bookmark_value>filters;copying visible cells only</bookmark_value>      "
+"<bookmark_value>hidden cells</bookmark_value>"
 
 #: cellcopy.xhp%23hd_id3150440.1.help.text
 msgid ""
 "<variable id=\"cellcopy\"><link href=\"text/scalc/guide/cellcopy.xhp\" name="
 "\"Only Copy Visible Cells\">Only Copy Visible Cells</link></variable>"
 msgstr ""
+"<variable id=\"cellcopy\"><link href=\"text/scalc/guide/cellcopy.xhp\" name="
+"\"Պատճենեք միայն տեսանելի բջիջները\">Պատճենեք միայն տեսանելի "
+"բջիջները</link></variable>"
 
 #: cellcopy.xhp%23par_id3148577.2.help.text
 msgid ""
 "Assume you have hidden a few rows in a cell range. Now you want to copy, "
 "delete, or format only the remaining visible rows."
 msgstr ""
+"Ենթադրենք, դուք մի քանի տող եք թաքցրել բջջային շարքում: Այժմ ցանկանում եք "
+"պատճենել, ջնջել կամ ձևափոխել միայն մնացած տեսանելի տողերը:"
 
 #: cellcopy.xhp%23par_id3154729.3.help.text
 msgid ""
 "$[officename] behavior depends on how the cells were made invisible, by a "
 "filter or manually."
 msgstr ""
+"$[officename] վարքագիծը կախված է նրանից, թե ինչպես են բջիջները անտեսանելի "
+"դարձել՝ զտիչով կամ ձեռքով:"
 
 #: cellcopy.xhp%23par_id3155603.4.help.text
 msgid "Method and Action"
-msgstr ""
+msgstr "Մեթոդ և գործողություն"
 
 #: cellcopy.xhp%23par_id3150751.5.help.text
 msgctxt "cellcopy.xhp#par_id3150751.5.help.text"
 msgid "Result"
-msgstr ""
+msgstr "Արդյունք"
 
 #: cellcopy.xhp%23par_id3149018.6.help.text
 msgid ""
 "Cells were filtered by AutoFilters, standard filters or advanced filters."
 msgstr ""
+"Բջիջները զտվել են ըստ AutoFilters, ստանդարտ զտիչներով կամ ընդլայնված "
+"զտիչներով։"
 
 #: cellcopy.xhp%23par_id3150044.7.help.text
 msgctxt "cellcopy.xhp#par_id3150044.7.help.text"
 msgid "Copy, delete, move, or format a selection of currently visible cells."
 msgstr ""
+"Պատճենեք, ջնջեք, տեղափոխեք կամ ձևափոխեք ներկայումս տեսանելի բջիջների "
+"ընտրությունը:"
 
 #: cellcopy.xhp%23par_id3146918.8.help.text
 msgid ""
 "Only the visible cells of the selection are copied, deleted, moved, or "
 "formatted."
 msgstr ""
+"Միայն ընտրության տեսանելի բջիջներն են պատճենվում, ջնջվում, տեղափոխվում կամ "
+"ձևափոխվում:"
 
 #: cellcopy.xhp%23par_id3166427.12.help.text
 msgid ""
@@ -467,21 +603,28 @@ msgid ""
 "the row or column headers, or through an <link href=\"text/scalc/01/12080000."
 "xhp\" name=\"outline\">outline</link>."
 msgstr ""
+"Բջիջները թաքցվել են, օգտագործելով <emph>Թաքցնել</emph> հրամանը տողի կամ "
+"սյունակի վերնագրերի համատեքստի ընտրացանկում կամ <link href=\""
+"text/scalc/01/12080000.xhp\" name=\"outline\">outline</link> միջոցով։"
 
 #: cellcopy.xhp%23par_id3152990.13.help.text
 msgctxt "cellcopy.xhp#par_id3152990.13.help.text"
 msgid "Copy, delete, move, or format a selection of currently visible cells."
 msgstr ""
+"Պատճենել, ջնջել, տեղափոխել կամ ձևափոխել ներկայումս տեսանելի բջիջների "
+"ընտրությունը:"
 
 #: cellcopy.xhp%23par_id3154371.14.help.text
 msgid ""
 "All cells of the selection, including the hidden cells, are copied, deleted, "
 "moved, or formatted."
 msgstr ""
+"Ընտրության բոլոր բջիջները, ներառյալ թաքնված բջիջները, պատճենվում, ջնջվում, "
+"տեղափոխվում կամ ձևափոխվում են:"
 
 #: printranges.xhp%23tit.help.text
 msgid "Using Print Ranges on a Spreadsheet"
-msgstr ""
+msgstr "Փռված թերթիկում Տպելու Միջակայքերի օգտագործումը։"
 
 #: printranges.xhp%23bm_id14648.help.text
 msgid ""
@@ -496,6 +639,16 @@ msgid ""
 "ranges</bookmark_value><bookmark_value>extending print "
 "ranges</bookmark_value><bookmark_value>deleting;print ranges</bookmark_value>"
 msgstr ""
+"<bookmark_value>exporting;cells</bookmark_value><bookmark_value>printing; "
+"cells</bookmark_value><bookmark_value>ranges;print "
+"ranges</bookmark_value><bookmark_value>PDF export of print "
+"ranges</bookmark_value><bookmark_value>cell ranges; "
+"printing</bookmark_value><bookmark_value>cells; print "
+"ranges</bookmark_value><bookmark_value>print "
+"ranges</bookmark_value><bookmark_value>clearing, see also "
+"deleting/removing</bookmark_value><bookmark_value>defining;print "
+"ranges</bookmark_value><bookmark_value>extending print "
+"ranges</bookmark_value><bookmark_value>deleting;print ranges</bookmark_value>"
 
 #: printranges.xhp%23par_idN108D7.help.text
 msgid ""
