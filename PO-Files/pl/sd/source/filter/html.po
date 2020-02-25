@@ -6,8 +6,8 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sd%2Fsource%2Ffilter"
 "%2Fhtml.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2020-01-17 14:38+0200\n"
-"PO-Revision-Date: 2020-02-18 23:01+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2020-02-24 05:46+0000\n"
+"Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1582066864.000000\n"
+"X-POOTLE-MTIME: 1582523187.000000\n"
 
 #: pubdlg.src%23DLG_PUBLISHING.PAGE1_TITEL.fixedline.text
 msgid "Assign design"
@@ -48,6 +48,9 @@ msgstr "Rodzaj publikacji"
 msgid "Standard H~TML format"
 msgstr "Standardowy format H~TML"
 
+# page 2 of HTML export dialog (AOO Draw/Impress):
+# position of French & English "~" is OK, if so: 
+# Polish version: "~HTML standardowy z ramkami"
 #: pubdlg.src%23DLG_PUBLISHING.PAGE2_FRAMES.radiobutton.text
 msgid "Standard HTML with ~frames"
 msgstr "HTML standardowy z ramkami"
@@ -134,21 +137,25 @@ msgstr "Zapisz grafiki"
 msgid "~PNG"
 msgstr "~PNG"
 
+# removed part of description in "GIF - Graphics Interchange Format". It is present neither in English, French nor German UI.
 #: pubdlg.src%23DLG_PUBLISHING.PAGE3_GIF.radiobutton.text
 msgid "~GIF"
-msgstr "GIF - Graphics Interchange Format"
+msgstr "~GIF"
 
+# 1. removed part of description in "JPG - Skompresowany format pliku". It is present neither in English, French nor German UI
+# 2. No accelerator visible on screen in Polish
 #: pubdlg.src%23DLG_PUBLISHING.PAGE3_JPG.radiobutton.text
 msgid "~JPG"
-msgstr "JPG - Skompresowany format pliku"
+msgstr "JPG"
 
 #: pubdlg.src%23DLG_PUBLISHING.PAGE3_QUALITY_TXT.fixedtext.text
 msgid "Quality"
 msgstr "Kompresja:"
 
+# Removed typo in "Rozdzieloczość ekranu"
 #: pubdlg.src%23DLG_PUBLISHING.PAGE3_TITEL_2.fixedline.text
 msgid "Monitor resolution"
-msgstr "Rozdzieloczość ekranu"
+msgstr "Rozdzielczość ekranu"
 
 #: pubdlg.src%23DLG_PUBLISHING.PAGE3_RESOLUTION_1.radiobutton.text
 msgid "Low resolution (~640x480 pixels)"
