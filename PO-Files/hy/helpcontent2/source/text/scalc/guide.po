@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2Fguide.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-03-28 18:01+0000\n"
+"PO-Revision-Date: 2020-03-29 16:00+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1585418508.000000\n"
+"X-POOTLE-MTIME: 1585497636.000000\n"
 
 #: cellreferences.xhp%23tit.help.text
 msgid "Referencing a Cell in Another Document"
@@ -8445,16 +8445,20 @@ msgid ""
 "If you want to calculate time differences, for example, the time between 23:"
 "30 and 01:10 in the same night, use the following formula:"
 msgstr ""
+"Եթե ցանկանում եք հաշվարկել ժամանակի տարբերությունները, օրինակ՝ նույն գիշերվա "
+"23:30-ից 01:10-ն ընկած ժամանակահատվածը, օգտագործեք հետևյալ բանաձևը."
 
 #: calc_timevalues.xhp%23par_id3159153.55.help.text
 msgid "=(B2<A2)+B2-A2"
-msgstr ""
+msgstr "=(B2<A2)+B2-A2"
 
 #: calc_timevalues.xhp%23par_id3152598.56.help.text
 msgid ""
 "The later time is B2 and the earlier time is A2. The result of the example "
 "is 01:40 or 1 hour and 40 minutes."
 msgstr ""
+"Ավելի ուշ ժամանակը B2 է, իսկ ավելի վաղ ժամանակը` A2: Օրինակի արդյունքը 01:40 "
+"կամ 1 ժամ 40 րոպե է:"
 
 #: calc_timevalues.xhp%23par_id3145271.57.help.text
 msgid ""
@@ -8463,10 +8467,14 @@ msgid ""
 "0 or 24 hours. The result returned by the formula is automatically issued in "
 "time format due to the sequence of the operands."
 msgstr ""
+"Բանաձևում 24-ժամյա օրվա արժեքը 1 է, իսկ մեկ ժամն ունի 1/24 արժեք: "
+"Փակագծերում տրամաբանական արժեքը 0 կամ 1 է, համապատասխան 0 կամ 24 ժամ: "
+"Բանաձևով վերադարձված արդյունքը ավտոմատ կերպով տրվում է ժամանակի ձևաչափով`"
+"օպերանդների հաջորդականության պատճառով:"
 
 #: integer_leading_zero.xhp%23tit.help.text
 msgid "Entering a Number with Leading Zeros"
-msgstr ""
+msgstr "Առաջատար զրոներով թվի մուտքագրում"
 
 #: integer_leading_zero.xhp%23bm_id3147560.help.text
 msgid ""
@@ -8479,6 +8487,14 @@ msgid ""
 "numbers</bookmark_value>      <bookmark_value>converting;text with leading "
 "zeros, into numbers</bookmark_value>"
 msgstr ""
+"<bookmark_value>zero values; entering leading zeros</bookmark_value>      "
+"<bookmark_value>numbers; with leading zeros</bookmark_value>      "
+"<bookmark_value>leading zeros</bookmark_value>      <bookmark_value>integers "
+"with leading zeros</bookmark_value>      <bookmark_value>cells; changing "
+"text/number formats</bookmark_value>      <bookmark_value>formats; changing "
+"text/number</bookmark_value>      <bookmark_value>text in cells; changing to "
+"numbers</bookmark_value>      <bookmark_value>converting;text with leading "
+"zeros, into numbers</bookmark_value>"
 
 #: integer_leading_zero.xhp%23hd_id3147560.67.help.text
 msgid ""
@@ -8486,10 +8502,13 @@ msgid ""
 "integer_leading_zero.xhp\" name=\"Entering a Number with Leading Zeros\">"
 "Entering a Number with Leading Zeros</link></variable>"
 msgstr ""
+"<variable id=\"integer_leading_zero\"><link href=\""
+"text/scalc/guide/integer_leading_zero.xhp\" name=\"Առաջատար զրոներով թվի "
+"մուտքագրում\">Առաջատար զրոներով թվի մուտքագրում</link></variable>"
 
 #: integer_leading_zero.xhp%23par_id3153194.55.help.text
 msgid "There are various ways to enter integers starting with a zero:"
-msgstr ""
+msgstr "Զրոյով սկսվող ամբողջները մուտքագրելու տարբեր եղանակներ կան։"
 
 #: integer_leading_zero.xhp%23par_id3146119.56.help.text
 msgid ""
@@ -8499,6 +8518,10 @@ msgid ""
 "text. Because it is in text format, however, you cannot calculate with this "
 "number."
 msgstr ""
+"Մուտքագրեք թիվը որպես տեքստ: Ամենահեշտ ձևը թիվը մուտքագրելն է սկզբում "
+"ապաթարցով (օրինակ՝ <item type=\"input\">'0987</item>): Ապաթարցը չի հայտնվի "
+"բջջում, և թիվը ձևափոխվելու է տեքստի: Քանի որ այն տեքստի ձևաչափով է, "
+"այնուամենայնիվ, չեք կարող հաշվարկներ կատարել այս թվով։"
 
 #: integer_leading_zero.xhp%23par_id3154013.57.help.text
 msgid ""
@@ -8508,6 +8531,11 @@ msgid ""
 "as \"always put a zero first and then the integer, having at least three "
 "places, and filled with zeros at the left if less than three digits\"."
 msgstr ""
+"Ձևաչափեք բջիջը թվային ձևաչափով, ինչպիսին է <item type=\"input\">\\"
+"0000</item>: Այս ձևաչափը կարող է նշանակվել <emph>Ձևաչափ - Բջիջներ - "
+"Թվեր</emph> ներդիրի <emph>Ձևաչափիր կոդը</emph> դաշտում, և սահմանում է բջջի "
+"արտածումը որպես «սկզբում միշտ տեղադրել զրո, ապա ամբողջը, ունենալով առնվազն "
+"երեք տեղ, իսկ ձախով լցված զրոներով, եթե երեք թվանշանից պակաս է»:"
 
 #: integer_leading_zero.xhp%23par_id3153158.58.help.text
 msgid ""
@@ -8515,44 +8543,52 @@ msgid ""
 "format (for example, text \"000123\" becomes number \"123\"), do the "
 "following:"
 msgstr ""
+"Եթե ցանկանում եք թվային ձևաչափը կիրառել տեքստային ձևաչափով թվերի սյունակի "
+"վրա (օրինակ՝ «000123» տեքստը դառնում է «123» թիվ), կատարեք հետևյալը."
 
 #: integer_leading_zero.xhp%23par_id3149377.59.help.text
 msgid ""
 "Select the column in which the digits are found in text format. Set the cell "
 "format in that column as \"Number\"."
 msgstr ""
+"Ընտրեք սյունակը, որում կան թվանշաններ տեքստային ձևաչափով: Սահմանեք բջջային "
+"ձևաչափը այդ սյունակում որպես «Թիվ»:"
 
 #: integer_leading_zero.xhp%23par_id3154944.60.help.text
 msgid "Choose <emph>Edit - Find & Replace</emph>               "
-msgstr ""
+msgstr "Ընտրեք <emph>Խմբագրել - Գտնել & Փոխել</emph>               "
 
 #: integer_leading_zero.xhp%23par_id3154510.61.help.text
 msgid ""
 "In the <emph>Search for</emph> box, enter <item type=\"input\">^[0-9]</item>"
 "               "
 msgstr ""
+"<emph>Փնտրել համար</emph> վանդակում, մուտքագրեք <item type=\"input\""
+">^[0-9]</item>               "
 
 #: integer_leading_zero.xhp%23par_id3155068.62.help.text
 msgid ""
 "In the <emph>Replace with</emph> box, enter <item type=\"input\">&</item>"
 "               "
 msgstr ""
+"<emph>Փոխարինել սրանով</emph> վանդակում, մուտքագրեք <item type=\"input\""
+">&</item>               "
 
 #: integer_leading_zero.xhp%23par_id3149018.63.help.text
 msgid "Check <emph>Regular expressions</emph>               "
-msgstr ""
+msgstr "Ընտրեք <emph>Կանոնավոր արտահայտություններ</emph>               "
 
 #: integer_leading_zero.xhp%23par_id3156382.64.help.text
 msgid "Check <emph>Current selection only</emph>               "
-msgstr ""
+msgstr "Ընտրեք <emph>Միայն ընթացիկ ընտրությունը </emph>               "
 
 #: integer_leading_zero.xhp%23par_id3146916.65.help.text
 msgid "Click <emph>Replace All</emph>               "
-msgstr ""
+msgstr "Սեղմեք <emph>Փոխարինել բոլորը</emph>               "
 
 #: calc_date.xhp%23tit.help.text
 msgid "Calculating With Dates and Times"
-msgstr ""
+msgstr "Հաշվարկներ ամսաթվերի և ժամերի հետ"
 
 #: calc_date.xhp%23bm_id3146120.help.text
 msgid ""
@@ -8561,6 +8597,10 @@ msgid ""
 "formats</bookmark_value>      <bookmark_value>current date and time "
 "values</bookmark_value>"
 msgstr ""
+"<bookmark_value>dates; in cells</bookmark_value>      <bookmark_value>times; "
+"in cells</bookmark_value>      <bookmark_value>cells;date and time "
+"formats</bookmark_value>      <bookmark_value>current date and time "
+"values</bookmark_value>"
 
 #: calc_date.xhp%23hd_id3146120.11.help.text
 msgid ""
@@ -8568,6 +8608,9 @@ msgid ""
 "name=\"Calculating With Dates and Times\">Calculating With Dates and "
 "Times</link></variable>"
 msgstr ""
+"<variable id=\"calc_date\"><link href=\"text/scalc/guide/calc_date.xhp\" "
+"name=\"Հաշվարկներ ամսաթվերի և ժամերի հետ\">Հաշվարկներ ամսաթվերի և ժամերի "
+"հետ</link></variable>"
 
 #: calc_date.xhp%23par_id3154320.12.help.text
 msgid ""
@@ -8575,16 +8618,21 @@ msgid ""
 "time values. As an example, to find out exactly how old you are in seconds "
 "or hours, follow the following steps:"
 msgstr ""
+"$[officename] Calc -ում, կարող եք կատարել հաշվարկներ ընթացիկ ամսաթվի և "
+"ժամանակի արժեքներով: Որպես օրինակ, որպեսզի պարզեք, թե քանի տարեկան եք "
+"վայրկյաններով կամ ժամերով, հետևեք հետևյալ քայլերին."
 
 #: calc_date.xhp%23par_id3150750.13.help.text
 msgid "In a spreadsheet, enter your birthday in cell A1."
-msgstr ""
+msgstr "Փռված թերթիկի A1 բջիջում մուտքագրեք ձեր ծննդյան օրը։"
 
 #: calc_date.xhp%23par_id3145642.14.help.text
 msgid ""
 "Enter the following formula in cell A3: <item type=\"literal\""
 ">=NOW()-A1</item>            "
 msgstr ""
+"A3 բջիջում մուտքագրեք հետևյալ բանաձևը <item type=\"literal\">=NOW()-A1</item>"
+"            "
 
 #: calc_date.xhp%23par_id3149020.52.help.text
 msgid ""
@@ -8592,12 +8640,17 @@ msgid ""
 "result in date format. Since the result should show the difference between "
 "two dates as a number of days, you must format cell A3 as a number."
 msgstr ""
+" <item type=\"keycode\">Enter</item> -ը սեղմելուց հետո, կտեսնեք արդյունքը "
+"ամսաթվերի ձևաչափով: Քանի որ արդյունքը պետք է ցույց տա երկու ամսաթվերի "
+"տարբերությունը որպես օրերի քանակ, պետք է ձևավորեք A3 բջիջը որպես թիվ:"
 
 #: calc_date.xhp%23par_id3155335.53.help.text
 msgid ""
 "Place the cursor in cell A3, right-click to open a context menu and choose "
 "<emph>Format Cells</emph>."
 msgstr ""
+"Տեղադրեք կուրսորը A3 բջիջում, աջ կտտացրեք համատեքստային ընտրացանկը բացելու "
+"համար և ընտրեք <emph>Ձևաչափեք բջիջները</emph>:"
 
 #: calc_date.xhp%23par_id3147343.54.help.text
 msgid ""
@@ -8608,12 +8661,18 @@ msgid ""
 "To display the result as a number, set the number format to \"-1,234\" and "
 "close the dialog with the <item type=\"menuitem\">OK</item> button."
 msgstr ""
+"Հայտնվում է <item type=\"menuitem\">Ձևաչափեք բջիջները</item> երկխոսությունը։ "
+"<item type=\"menuitem\">Թվեր</item> ներդիրում, \"Թվեր\" դասը կհայտնվի արդեն "
+"ընդգծված: Ձևաչափը դրված է \"Ընդհանուր\", ինչը հնարավորություն է տալիս "
+"ամսաթվի գրառումները պարունակող հաշվարկի արդյունքը ցուցադրվելու որպես ամսաթվ: "
+"Արդյունքը որպես թիվ ցուցադրելու համար թվի ձևաչափը սահմանեք \"-1,234\", և "
+"փակեք երկխոսությունը  <item type=\"menuitem\">ԼԱՎ</item> կոճակով:"
 
 #: calc_date.xhp%23par_id3147001.15.help.text
 msgid ""
 "The number of days between today's date and the specified date is displayed "
 "in cell A3."
-msgstr ""
+msgstr "Այսօրվա և նշված ամսաթվի միջև եղած օրերի քանակը ցուցադրվում է A3 բջջում:"
 
 #: calc_date.xhp%23par_id3150304.16.help.text
 msgid ""
@@ -8622,6 +8681,10 @@ msgid ""
 "seconds. Press the <item type=\"keycode\">Enter</item> key after each "
 "formula."
 msgstr ""
+"Փորձեք մի քանի լրացուցիչ բանաձևերով. A4-ում մուտքագրեք =A3*24 ժամերը "
+"հաշվելու համար, A5-ում մուտքագրեք =A4*60 րոպեների համար, իսկ A6-ում "
+"մուտքագրեք =A5*60 վայրկյանների համար: Յուրաքանչյուր բանաձևից հետո սեղմեք <"
+"item type=\"keycode\">Enter</item> ստեղնը:"
 
 #: calc_date.xhp%23par_id3149207.17.help.text
 msgid ""
@@ -8634,10 +8697,19 @@ msgid ""
 "not apply to the function NOW. This ensures that your computer is not solely "
 "occupied with updating the sheet."
 msgstr ""
+"Ձեր ծննդյան ամսաթվից սկսած ժամանակը հաշվարկվելու և ցուցադրվելու է տարբեր "
+"ստորաբաժանումներում: Արժեքները հաշվարկվում են այն ճշգրիտ պահի համար, երբ "
+"մուտքագրել եք վերջին բանաձևը և սեղմել <item type=\"keycode\">Enter</item> "
+"ստեղնը: Այս արժեքը ինքնաբերաբար չի թարմացվում, չնայած \"Now\" -ն "
+"շարունակաբար փոփոխվում է: <emph>Գործիքներ</emph> ընտրացանկում, ընտրացանկի "
+"<emph>Բջջային պարունակություն - Ինքնահաշվարկ</emph> ընտրացանկի տարրը "
+"սովորաբար ակտիվ է. այնուամենայնիվ, ավտոմատ հաշվարկը չի տարածվում Now "
+"գործառույթի վրա: Սա ապահովում է, որ ձեր համակարգիչը բացառապես զբաղված չէ "
+"թերթը թարմացնելով:"
 
 #: matrixformula.xhp%23tit.help.text
 msgid "Entering Matrix Formulas"
-msgstr ""
+msgstr "Մատրիցային բանաձևերի մուտք"
 
 #: matrixformula.xhp%23bm_id3153969.help.text
 msgid ""
@@ -8646,6 +8718,10 @@ msgid ""
 "formulas</bookmark_value><bookmark_value>inserting;matrix "
 "formulas</bookmark_value>"
 msgstr ""
+"<bookmark_value>matrices; entering matrix "
+"formulas</bookmark_value><bookmark_value>formulas; matrix "
+"formulas</bookmark_value><bookmark_value>inserting;matrix "
+"formulas</bookmark_value>"
 
 #: matrixformula.xhp%23hd_id3153969.13.help.text
 msgid ""
@@ -8653,45 +8729,55 @@ msgid ""
 "xhp\" name=\"Entering Matrix Formulas\">Entering Matrix "
 "Formulas</link></variable>"
 msgstr ""
+"<variable id=\"matrixformula\"><link href=\"text/scalc/guide/matrixformula."
+"xhp\" name=\"Մատրիցային բանաձևերի մուտք\">Մատրիցային բանաձևերի "
+"մուտք</link></variable>"
 
 #: matrixformula.xhp%23par_id3153144.14.help.text
 msgid ""
 "The following is an example of how you can enter a matrix formula, without "
 "going into the details of matrix functions."
 msgstr ""
+"Հետևյալը օրինակ է, թե ինչպես կարող եք մատրիցային բանաձև մուտքագրել՝ առանց "
+"մատրիցային գործառույթների մանրամասների մեջ մտնելու:"
 
 #: matrixformula.xhp%23par_id3153188.15.help.text
 msgid ""
 "Assume you have entered 10 numbers in Columns A and B (A1:A10 and B1:B10), "
 "and would like to calculate the sum of each row in Column C."
 msgstr ""
+"Ենթադրենք, որ A և B սյունակներում մուտքագրել եք 10 հատ թի (A1: A10 և B1: B10)"
+" և կցանկանայիք հաշվարկել յուրաքանչյուր տողի գումարը C սյունակում:"
 
 #: matrixformula.xhp%23par_id3154321.16.help.text
 msgid ""
 "Using the mouse, select the range C1:C10, in which the results are to be "
 "displayed."
 msgstr ""
+"Օգտագործելով մկնիկը, ընտրեք C1:C10 միջակայքը, որում պետք է ցուցադրվեն "
+"արդյունքները:"
 
 #: matrixformula.xhp%23par_id3149260.17.help.text
 msgid "Press F2, or click in the input line of the Formula bar."
-msgstr ""
+msgstr "Սեղմեք F2-ը կամ կտտացրեք Բանաձևի սանդղակի մուտքային տողում:"
 
 #: matrixformula.xhp%23par_id3154944.18.help.text
 msgid "Enter an equal sign (=)."
-msgstr ""
+msgstr "Մուտք արեք հավասարի նշանը (=)։"
 
 #: matrixformula.xhp%23par_id3145252.19.help.text
 msgid ""
 "Select the range A1:A10, which contains the first values for the sum formula."
 msgstr ""
+"Ընտրեք A1:A10 տիրույթը, որը պարունակում է գումարի բանաձևի առաջին արժեքները:"
 
 #: matrixformula.xhp%23par_id3144767.20.help.text
 msgid "Press the (+) key from the numerical keypad."
-msgstr ""
+msgstr "Սեղմեք (+) ստեղնը թվային ստեղնաշարից:"
 
 #: matrixformula.xhp%23par_id3154018.21.help.text
 msgid "Select the numbers in the second column in cells B1:B10."
-msgstr ""
+msgstr "Ընտրեք B1:B10 բջիջների երկրորդ սյունակում նշված համարները:"
 
 #: matrixformula.xhp%23par_id3150716.22.help.text
 msgid ""
@@ -8699,6 +8785,9 @@ msgid ""
 "sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>Ctrl</def"
 "aultinline></switchinline>+Enter."
 msgstr ""
+"Ավարտեք մուտքագրումը մատրիցային ստեղնային համադրությամբ. Shift+<switchinline "
+"select=\"sys\"><caseinline select=\"MAC\">Command</caseinline><defaultinline>"
+"Ctrl</defaultinline></switchinline>+Enter."
 
 #: matrixformula.xhp%23par_id3145640.23.help.text
 msgid ""
@@ -8706,10 +8795,13 @@ msgid ""
 "deleting rows or columns. It is, however, possible to edit any formatting, "
 "such as the cell background."
 msgstr ""
+"Մատրիցայի տարածքը ինքնապաշտպանված է փոփոխություններից, ինչպիսիք են տողերը "
+"կամ սյունակները ջնջելը: Այնուամենայնիվ, հնարավոր է խմբագրել ցանկացած "
+"ձևաչափումը, ինչպիսին է ասենք բջջային հետնամասը:"
 
 #: csv_files.xhp%23tit.help.text
 msgid " Importing and Exporting CSV Files "
-msgstr ""
+msgstr " CSV նիշքերի ներմուծում և արտահանում "
 
 #: csv_files.xhp%23bm_id892361.help.text
 msgid ""
@@ -8725,12 +8817,25 @@ msgid ""
 "spreadsheets</bookmark_value><bookmark_value>opening;text csv "
 "files</bookmark_value><bookmark_value>saving;as text csv</bookmark_value>"
 msgstr ""
+"<bookmark_value>number series import</bookmark_value><bookmark_value>data "
+"series import</bookmark_value><bookmark_value>exporting; tables as "
+"text</bookmark_value><bookmark_value>importing; tables as "
+"text</bookmark_value><bookmark_value>delimited values and "
+"files</bookmark_value><bookmark_value>comma separated files and "
+"values</bookmark_value><bookmark_value>text file import and "
+"export</bookmark_value><bookmark_value>csv files;importing and "
+"exporting</bookmark_value><bookmark_value>tables; importing/exporting as "
+"text</bookmark_value><bookmark_value>text documents; importing to "
+"spreadsheets</bookmark_value><bookmark_value>opening;text csv "
+"files</bookmark_value><bookmark_value>saving;as text csv</bookmark_value>"
 
 #: csv_files.xhp%23par_idN10862.help.text
 msgid ""
 "<variable id=\"csv_files\"><link href=\"text/scalc/guide/csv_files.xhp\">"
 "Opening and Saving Text CSV Files</link></variable>"
 msgstr ""
+"<variable id=\"csv_files\"><link href=\"text/scalc/guide/csv_files.xhp\">"
+"Տեքսստային CSV նիշքերի բացում և պահպանում</link></variable>"
 
 #: csv_files.xhp%23par_idN10880.help.text
 msgid ""
@@ -8741,57 +8846,73 @@ msgid ""
 "usually separated by a comma. However, you can use other characters to "
 "delimit a field, such as a tabulator character."
 msgstr ""
+"Ստորակետով առանձնացված արժեքները (CSV) տեքստային նիշքի ձևաչափ է, որը կարող "
+"եք օգտագործել ծրագրերի միջև տվյալների շտեմարանը կամ տվյալների աղյուսակը "
+"փոխանակելու համար: Տեքստային CSV նիշքի յուրաքանչյուր տող ներկայացնում է "
+"տվյալների շտեմարանում գրառումը կամ տող փռված թերթիկում: Տվյալների շտեմարանի "
+"գրառման կամ աղյուսակի տողի յուրաքանչյուր բջիջ սովորաբար բաժանվում է "
+"ստորակետով: Այնուամենայնիվ, կարող եք օգտագործել այլ նիշ դաշտը սահմանազատելու "
+"համար, ինչպիսին է տաբուլյացիայի նշանը:"
 
 #: csv_files.xhp%23par_idN10886.help.text
 msgid ""
 "If the field or cell contains a comma, the field or cell <emph>must</emph> "
 "be enclosed by single quotes (') or double quotes (\")."
 msgstr ""
+"Եթե դաշտը կամ բջիջը պարունակում է ստորակետ, դաշտը կամ բջիջը <emph>պետք "
+"է</emph> ներառված լինի միայնակ չակերտի (') կամ կրկնակի չակերտի (\") մեջ:"
 
 #: csv_files.xhp%23par_idN10890.help.text
 msgid "To Open a Text CSV File in Calc"
-msgstr ""
+msgstr "Text CSV նիշքը բացել Calc -ում"
 
 #: csv_files.xhp%23par_idN10897.help.text
 msgid "Choose <item type=\"menuitem\">File - Open</item>."
-msgstr ""
+msgstr "Ընտրեք <item type=\"menuitem\">Նիշք - Բացել</item>։"
 
 #: csv_files.xhp%23par_idN1089F.help.text
 msgid "Locate the CSV file that you want to open."
-msgstr ""
+msgstr "Տեղորոշեք CSV նիշքը, որը ցանկանում եք բացել։"
 
 #: csv_files.xhp%23par_idN108A2.help.text
 msgid "If the file has a *.csv extension, select the file."
-msgstr ""
+msgstr "Եթե նիշքը ունի *.csv ընդլայնում, ընտրեք նիշքը։"
 
 #: csv_files.xhp%23par_idN108A5.help.text
 msgid ""
 "If the CSV file has another extension, select the file, and then select \""
 "Text CSV\" in the <item type=\"menuitem\">File type</item> box"
 msgstr ""
+"Եթե CSV նիշքը ունի այլ ընդլայնում, ընտրեք նիշքը, և ապա <item type=\""
+"menuitem\">Նիշքի տեսակ</item> վանդակում ընտրեք \"Text CSV\""
 
 #: csv_files.xhp%23par_idN1082D.help.text
 msgid "Click <item type=\"menuitem\">Open</item>."
-msgstr ""
+msgstr "Սեղմեք <item type=\"menuitem\">Բացել</item>։"
 
 #: csv_files.xhp%23par_idN10834.help.text
 msgid "The <item type=\"menuitem\">Text Import</item> dialog opens."
 msgstr ""
+"Բացվում է <item type=\"menuitem\">Տեքստի ներմուծում</item> երկխոսությունը։"
 
 #: csv_files.xhp%23par_idN108B1.help.text
 msgid "Specify the options to divide the text in the file into columns."
-msgstr ""
+msgstr "Նշեք նիշքում տեքստը սյուների բաժանելու տարբերակները:"
 
 #: csv_files.xhp%23par_idN108BB.help.text
 msgid ""
 "You can preview the layout of the imported data at the bottom of the <item "
 "type=\"menuitem\">Text Import</item> dialog. "
 msgstr ""
+"Կարող եք նախադիտել ներմուծված տվյալների դասավորությունը <item type=\""
+"menuitem\">Տեքստի ներմուծում</item> երկխոսության ներքևում:"
 
 #: csv_files.xhp%23par_id8444166.help.text
 msgid ""
 "Right-click a column in the preview to set the format or to hide the column."
 msgstr ""
+"Ձևաչափը տեղադրելու կամ սյունակը թաքցնելու համար նախադիտման ընթացքում աջ "
+"սեղմեք սյունակին:"
 
 #: csv_files.xhp%23par_idN108E2.help.text
 msgid ""
@@ -8799,15 +8920,18 @@ msgid ""
 "delimiter in the file. In case of an unlisted delimiter, type the character "
 "into the input box."
 msgstr ""
+"Ընտրեք տեքստի սահմանազերծման վանդակը, որը համապատասխանում է նիշքում "
+"օգտագործված որպես տեքստի սահմանազատիչ օգտագործվող նիշին: Չթվարկված "
+"սահմանազատիչի դեպքում նիշը մուտքագրեք մուտքային վանդակում:"
 
 #: csv_files.xhp%23par_idN108C5.help.text
 msgctxt "csv_files.xhp#par_idN108C5.help.text"
 msgid "Click <item type=\"menuitem\">OK</item>."
-msgstr ""
+msgstr "Սեղմեք <item type=\"menuitem\">ԼԱՎ</item>։"
 
 #: csv_files.xhp%23par_idN108FA.help.text
 msgid "To Save a Sheet as a Text CSV File"
-msgstr ""
+msgstr "Թերթիկը որպես Text CSV նիշք հիշելու համար"
 
 #: csv_files.xhp%23par_idN106FC.help.text
 msgid ""
@@ -8815,52 +8939,60 @@ msgid ""
 "sheet is saved. All other information, including formulas and formatting, is "
 "lost."
 msgstr ""
+"Երբ փռված թերթկը CSV ձևաչափով եք արտահանում, պահպանվում են միայն ընթացիկ "
+"թերթի տվյալները: Մնացած բոլոր տեղեկությունները, ներառյալ բանաձևերը և "
+"ձևաչափումը, կորչում են:"
 
 #: csv_files.xhp%23par_idN10901.help.text
 msgid "Open the Calc sheet that you want to save as a Text CSV file."
-msgstr ""
+msgstr "Բացեք Calc թերթիկը, որը ցանկանում եք պահել որպես Text CSV նիշք:"
 
 #: csv_files.xhp%23par_idN107AF.help.text
 msgid "Only the current sheet can be exported."
-msgstr ""
+msgstr "Միայն ընթացիկ թերթը կարող է արտահանվել:"
 
 #: csv_files.xhp%23par_idN10905.help.text
 msgid "Choose <item type=\"menuitem\">File - Save as</item>."
-msgstr ""
+msgstr "Ընտրեք <item type=\"menuitem\">Նիշք - Հիշել որպես</item>։"
 
 #: csv_files.xhp%23par_idN10915.help.text
 msgid ""
 "In the <item type=\"menuitem\">File name</item> box, enter a name for the "
 "file."
 msgstr ""
+"<item type=\"menuitem\">Նիշքի անուն</item> վանդակում, նիշքի համար մուտքագրեք "
+"անուն։"
 
 #: csv_files.xhp%23par_idN1090D.help.text
 msgid ""
 "In the <item type=\"menuitem\">File type</item> box, select \"Text CSV\"."
 msgstr ""
+"<item type=\"menuitem\">Նիշքի տեսակ</item> վանդակում, ընտրեք \"Text CSV\"։"
 
 #: csv_files.xhp%23par_idN107DD.help.text
 msgid "(Optional) Set the field options for the Text CSV file."
-msgstr ""
+msgstr "(Լրացուցիչ) Սահմանեք դաշտի ընտրանքները Text CSV նիշքի համար:"
 
 #: csv_files.xhp%23par_idN1091C.help.text
 msgid "Select <item type=\"menuitem\">Edit filter settings</item>."
-msgstr ""
+msgstr "Ընտրեք <item type=\"menuitem\">Խմբագրեք զտիչի կարգաբերումները</item>։"
 
 #: csv_files.xhp%23par_idN107ED.help.text
 msgid ""
 "In the <item type=\"menuitem\">Export of text files</item> dialog, select "
 "the options that you want."
 msgstr ""
+"<item type=\"menuitem\">Տեքստային նիշքերի արտահանում</item> "
+"երկխոսությունոիւմ, ընտրեք ձեր ուզած ընտրանքները:"
 
 #: csv_files.xhp%23par_idN107F4.help.text
 msgctxt "csv_files.xhp#par_idN107F4.help.text"
 msgid "Click <item type=\"menuitem\">OK</item>."
-msgstr ""
+msgstr "Սեղմեք <item type=\"menuitem\">ԼԱՎ</item>։"
 
 #: csv_files.xhp%23par_idN107FC.help.text
 msgid "Click <item type=\"menuitem\">Save</item>."
-msgstr ""
+msgstr "Սեղմեք <item type=\"menuitem\">Հիշել</item>։"
 
 #: csv_files.xhp%23par_id3153487.20.help.text
 msgctxt "csv_files.xhp#par_id3153487.20.help.text"
@@ -8870,6 +9002,11 @@ msgid ""
 "Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/"
 "01060100.xhp\" name=\"Spreadsheet - View\">%PRODUCTNAME Calc - View</link>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - <link href=\""
+"text/shared/optionen/01060100.xhp\" name=\"Փռված թերթիկ - Դիտում\">%"
+"PRODUCTNAME Calc - Դիտում</link>"
 
 #: csv_files.xhp%23par_id3153008.21.help.text
 msgctxt "csv_files.xhp#par_id3153008.21.help.text"
@@ -8877,6 +9014,8 @@ msgid ""
 "<link href=\"text/shared/00/00000207.xhp\" name=\"Export text files\">Export "
 "text files</link>"
 msgstr ""
+"<link href=\"text/shared/00/00000207.xhp\" name=\"Արտահանեք տեքստային "
+"նիշքերը\">Արտահանեք տեքստային նիշքերը</link>"
 
 #: csv_files.xhp%23par_id3155595.22.help.text
 msgctxt "csv_files.xhp#par_id3155595.22.help.text"
@@ -8884,10 +9023,12 @@ msgid ""
 "<link href=\"text/shared/00/00000208.xhp\" name=\"Import text files\">Import "
 "text files</link>"
 msgstr ""
+"<link href=\"text/shared/00/00000208.xhp\" name=\"Ներմուծեք տեքստային "
+"նիշքերը\">Ներմուծեք տեքստային նիշքերը</link>"
 
 #: table_cellmerge.xhp%23tit.help.text
 msgid "Merging and Splitting Cells"
-msgstr ""
+msgstr "Բջիջների ձուլում և բաժանում"
 
 #: table_cellmerge.xhp%23bm_id3147240.help.text
 msgid ""
@@ -8896,6 +9037,10 @@ msgid ""
 "cell merges</bookmark_value>      <bookmark_value>unmerging "
 "cells</bookmark_value>      <bookmark_value>merging;cells</bookmark_value>"
 msgstr ""
+"<bookmark_value>cells; merging/unmerging</bookmark_value>      "
+"<bookmark_value>tables; merging cells</bookmark_value>      <bookmark_value>"
+"cell merges</bookmark_value>      <bookmark_value>unmerging "
+"cells</bookmark_value>      <bookmark_value>merging;cells</bookmark_value>"
 
 #: table_cellmerge.xhp%23hd_id8005005.help.text
 msgid ""
@@ -8903,6 +9048,9 @@ msgid ""
 "table_cellmerge.xhp\" name=\"Merging and Unmerging Cells\">Merging and "
 "Unmerging Cells</link></variable>"
 msgstr ""
+"<variable id=\"table_cellmerge\"><link href=\""
+"text/scalc/guide/table_cellmerge.xhp\" name=\"Բջիջների միավորում և "
+"ապամիավորում\">Բջիջների միավորում և ապամիավորում</link></variable>"
 
 #: table_cellmerge.xhp%23par_id8049867.help.text
 msgid ""
@@ -8910,6 +9058,9 @@ msgid ""
 "Conversely, you can take a large cell that has been created by merging "
 "single cells, and divide it back into individual cells."
 msgstr ""
+"Կարող եք ընտրել հարակից բջիջները, ապա դրանք միավորել մեկ բջիջի մեջ: "
+"Ընդհակառակը, դուք կարող եք վերցնել մի մեծ բջիջ, որը ստեղծվել է բջիջների "
+"միաձուլման միջոցով և այն նորից բաժանել առանձին բջիջների:"
 
 #: table_cellmerge.xhp%23par_id0509200913480176.help.text
 msgid ""
@@ -8917,36 +9068,39 @@ msgid ""
 "range gets unmerged first, then the copied cells are pasted in. If the "
 "copied cells are merged cells, they retain their merge state."
 msgstr ""
+"Երբ բջիջները պատճենում եք միավորված բջիջներ պարունակող թիրախային "
+"միջակայքում, նախ թիրախային միջակայքը դառնում է ապամիավորված, ապա պատճենված "
+"բջիջները տեղադրվում են ներս:"
 
 #: table_cellmerge.xhp%23hd_id235602.help.text
 msgid "Merging Cells"
-msgstr ""
+msgstr "Բջիջների միավորում"
 
 #: table_cellmerge.xhp%23par_id1272927.help.text
 msgid "Select the adjacent cells."
-msgstr ""
+msgstr "Ընտրեք հարակից բջիջները:"
 
 #: table_cellmerge.xhp%23par_id6424146.help.text
 msgctxt "table_cellmerge.xhp#par_id6424146.help.text"
 msgid "Choose <emph>Format - Merge Cells</emph>."
-msgstr ""
+msgstr "Ընտրեք <emph>Ձևաչափ - Միավորեք բջիջները</emph>։"
 
 #: table_cellmerge.xhp%23hd_id451368.help.text
 msgid "Canceling the merging of cells"
-msgstr ""
+msgstr "Բջիջների միավորման չեղարկում"
 
 #: table_cellmerge.xhp%23par_id7116611.help.text
 msgid "Place the cursor in the cell to be split."
-msgstr ""
+msgstr "Տեղադրեք կուրսորը բջիջում, որը պետք է բաժանվի:"
 
 #: table_cellmerge.xhp%23par_id9493087.help.text
 msgctxt "table_cellmerge.xhp#par_id9493087.help.text"
 msgid "Choose <emph>Format - Merge Cells</emph>."
-msgstr ""
+msgstr "Ընտրեք <emph>Ձևաչափ - Միավորեք բջիջները</emph>։"
 
 #: numbers_text.xhp%23tit.help.text
 msgid "Converting Text to Numbers"
-msgstr ""
+msgstr "Տեքստի ձևափոխում թվերի"
 
 #: numbers_text.xhp%23bm_id3145068.help.text
 msgid ""
@@ -8955,6 +9109,10 @@ msgid ""
 "date formats;conversion</bookmark_value>      <bookmark_value>converting;"
 "text, into numbers</bookmark_value>"
 msgstr ""
+"<bookmark_value>formats; text as numbers</bookmark_value>      "
+"<bookmark_value>time format conversion</bookmark_value>      <bookmark_value>"
+"date formats;conversion</bookmark_value>      <bookmark_value>converting;"
+"text, into numbers</bookmark_value>"
 
 #: numbers_text.xhp%23hd_id0908200901265171.help.text
 msgid ""
@@ -8962,6 +9120,9 @@ msgid ""
 "xhp\" name=\"Converting Text to Numbers\">Converting Text to "
 "Numbers</link></variable>"
 msgstr ""
+"<variable id=\"numbers_text\"><link href=\"text/scalc/guide/numbers_text."
+"xhp\" name=\"Տեքստի ձևափոխում թվերի\">Տեքստի ձևափոխում "
+"թվերի</link></variable>"
 
 #: numbers_text.xhp%23par_id0908200901265127.help.text
 msgid ""
@@ -8969,6 +9130,9 @@ msgid ""
 "unambiguous conversion is possible. If no conversion is possible, Calc "
 "returns a #VALUE! error."
 msgstr ""
+"Calc -ը բջիջների ներսում եթե հնարավոր լինի միանշանակ փոխարկումը տեքստը "
+"վերածում է համապատասխան թվային արժեքների: Եթե փոխարկում հնարավոր չէ, ապա "
+"Calc -ը վերադարձնում է #VALUE! սխալ։"
 
 #: numbers_text.xhp%23par_id0908200901265196.help.text
 msgid ""
@@ -8978,46 +9142,51 @@ msgid ""
 "not converted, as the text string would be locale dependent. Leading and "
 "trailing blanks are ignored."
 msgstr ""
+"Փոխարկվում են միայն ամբողջական թվերը, ներառյալ էքսպոնենտները, և ISO 8601 "
+"ամսաթվերը և ժամերը իրենց բաժանարարներով ընդլայնված ձևաչափերով: Ցանկացած այլ "
+"բան, ինչպիսիք են կոտորակային թվերը տասական բաժանարարներով կամ ամսաթվերը "
+"տարբերվող ISO 8601 -ից, չեն փոխարկվում, քանի որ տեքստի տողը կախված կլինի "
+"տեղանքից: Առաջատար և հետնամասի բացատները անտեսվում են:"
 
 #: numbers_text.xhp%23par_id0908200901265220.help.text
 msgid "The following ISO 8601 formats are converted:"
-msgstr ""
+msgstr "Փոխարկվում են հետևյալ ISO 8601 ձևաչափերը."
 
 #: numbers_text.xhp%23par_id0908200901265288.help.text
 msgid "CCYY-MM-DD"
-msgstr ""
+msgstr "CCYY-MM-DD"
 
 #: numbers_text.xhp%23par_id0908200901265267.help.text
 msgid "CCYY-MM-DDThh:mm"
-msgstr ""
+msgstr "CCYY-MM-DDThh:mm"
 
 #: numbers_text.xhp%23par_id0908200901265248.help.text
 msgid "CCYY-MM-DDThh:mm:ss"
-msgstr ""
+msgstr "CCYY-MM-DDThh:mm:ss"
 
 #: numbers_text.xhp%23par_id0908200901265374.help.text
 msgid "CCYY-MM-DDThh:mm:ss,s"
-msgstr ""
+msgstr "CCYY-MM-DDThh:mm:ss,s"
 
 #: numbers_text.xhp%23par_id0908200901265327.help.text
 msgid "CCYY-MM-DDThh:mm:ss.s"
-msgstr ""
+msgstr "CCYY-MM-DDThh:mm:ss.s"
 
 #: numbers_text.xhp%23par_id0908200901265399.help.text
 msgid "hh:mm"
-msgstr ""
+msgstr "hh:mm"
 
 #: numbers_text.xhp%23par_id0908200901265347.help.text
 msgid "hh:mm:ss"
-msgstr ""
+msgstr "hh:mm:ss"
 
 #: numbers_text.xhp%23par_id0908200901265349.help.text
 msgid "hh:mm:ss,s"
-msgstr ""
+msgstr "hh:mm:ss,s"
 
 #: numbers_text.xhp%23par_id0908200901265342.help.text
 msgid "hh:mm:ss.s"
-msgstr ""
+msgstr "hh:mm:ss.s"
 
 #: numbers_text.xhp%23par_id0908200901265491.help.text
 msgid ""
