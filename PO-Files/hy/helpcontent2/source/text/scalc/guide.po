@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fscalc%2Fguide.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-06-22 07:14+0200\n"
-"PO-Revision-Date: 2020-03-29 16:00+0000\n"
+"PO-Revision-Date: 2020-04-04 09:05+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1585497636.000000\n"
+"X-POOTLE-MTIME: 1585991141.000000\n"
 
 #: cellreferences.xhp%23tit.help.text
 msgid "Referencing a Cell in Another Document"
@@ -9193,18 +9193,25 @@ msgid ""
 "The century code CC may not be omitted. Instead of the T date and time "
 "separator, exactly one space character may be used."
 msgstr ""
+"Դարի CC կոդը չի կարող բացակայել: T ամսաթվի և ժամանակի տարանջատման փոխարեն "
+"կարող է օգտագործվել բացատի ճիշտ մեկ նիշ:"
 
 #: numbers_text.xhp%23par_id0908200901265467.help.text
 msgid ""
 "If a date is given, it must be a valid Gregorian calendar date. In this case "
 "the optional time must be in the range 00:00 to 23:59:59.99999..."
 msgstr ""
+"Եթե ամսաթիվ է տրված, ապա այն պետք է լինի Գրիգորյան օրացուցի վավեր ամսաթիվ: "
+"Այս դեպքում կամընտրական ժամը պետք է լինի 00:00-ից մինչև 23:59:59.99999... "
+"միջակայքում։"
 
 #: numbers_text.xhp%23par_id0908200901265420.help.text
 msgid ""
 "If only a time string is given, it may have an hours value of more than 24, "
 "while minutes and seconds can have a maximum value of 59."
 msgstr ""
+"Եթե միայն ժամանակի տողն է տրված, այն կարող է ունենալ 24 ժամից ավելի արժեք, "
+"իսկ րոպեներն ու վայրկյանները կարող են ունենալ առավելագույն արժեք 59:"
 
 #: numbers_text.xhp%23par_id0908200901265448.help.text
 msgid ""
@@ -9212,6 +9219,10 @@ msgid ""
 "1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 "
 "if at least one of the two cells contain a convertible string."
 msgstr ""
+"Փոխարկումը կատարվում է միայն միայնակ փաստարկների համար, ինչպես in =A1+A2, "
+"կամ =\"1E2\"+1: Բջջային միջակայքի փաստարկները չեն ազդվում, ուստի SUM(A1:A2) "
+"տարբերվում է A1+A2 -ից, եթե երկու բջիջներից առնվազն մեկը պարունակում է "
+"փոխարկելի տող:"
 
 #: numbers_text.xhp%23par_id090820090126540.help.text
 msgid ""
@@ -9221,22 +9232,30 @@ msgid ""
 "example, the localized date string \"11/22/1999\" or \"22.11.1999\" cannot "
 "be used for the automatic conversion."
 msgstr ""
+"Փոխարկվում են նաև բանաձևերի ներսի տողեր, ինչպիսիք են՝ =\"1999-11-22\"+42, "
+"որը ամսաթիվը վերադարձնում է 1999 թ.-ի նոյեմբերի 22-ից 42 օր հետո: Օրինակ, \""
+"11/22/1999\" կամ \"22.11.1999\" տեղայնացված տողը չի կարող օգտագործվել "
+"ինքնափոխարկման համար:"
 
 #: numbers_text.xhp%23hd_id1005200903485368.help.text
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: numbers_text.xhp%23par_id1005200903485359.help.text
 msgid ""
 "In A1 enter the text <item type=\"literal\">'1e2</item> (which is converted "
 "to the number 100 internally)."
 msgstr ""
+"A1 -ում մուտք արա <item type=\"literal\">'1e2</item> տեքստը (որը ներքին "
+"ձևափոխվում է 100 թվին)։"
 
 #: numbers_text.xhp%23par_id1005200903485341.help.text
 msgid ""
 "In A2 enter <item type=\"literal\">=A1+1</item> (which correctly results in "
 "101)."
 msgstr ""
+"A2 -ում մուտքագրեք <item type=\"literal\">=A1+1</item> (ինչը ճիշտ բերում է "
+"101 -ին):"
 
 #: numbers_text.xhp%23par_id0908200901265544.help.text
 msgctxt "numbers_text.xhp#par_id0908200901265544.help.text"
@@ -9244,10 +9263,12 @@ msgid ""
 "<link href=\"text/shared/01/05020300.xhp\" name=\"Format - Cells - Numbers\">"
 "Format - Cells - Numbers</link>"
 msgstr ""
+"<link href=\"text/shared/01/05020300.xhp\" name=\"Ձևաչափ - Բջիջներ - Թվեր\">"
+"Ձևաչափ - Բջիջներ - Թվեր</link>"
 
 #: filters.xhp%23tit.help.text
 msgid "Applying Filters"
-msgstr ""
+msgstr "Զտիչների կիրառում"
 
 #: filters.xhp%23bm_id3153896.help.text
 msgid ""
@@ -9255,12 +9276,17 @@ msgid ""
 "<bookmark_value>rows;removing/redisplaying with filters</bookmark_value>"
 "      <bookmark_value>removing;filters</bookmark_value>"
 msgstr ""
+"<bookmark_value>filters; applying/removing</bookmark_value>      "
+"<bookmark_value>rows;removing/redisplaying with filters</bookmark_value>"
+"      <bookmark_value>removing;filters</bookmark_value>"
 
 #: filters.xhp%23hd_id3153896.70.help.text
 msgid ""
 "<variable id=\"filters\"><link href=\"text/scalc/guide/filters.xhp\" name=\""
 "Applying Filters\">Applying Filters</link></variable>"
 msgstr ""
+"<variable id=\"filters\"><link href=\"text/scalc/guide/filters.xhp\" name=\""
+"Զտիչների կիրառում\">Զտիչների կիրառում</link></variable>"
 
 #: filters.xhp%23par_id3150869.2.help.text
 msgid ""
@@ -9268,12 +9294,17 @@ msgid ""
 "(records) of a data range. In the spreadsheets in $[officename] there are "
 "various possibilities for applying filters."
 msgstr ""
+"Զտիչները և ընդլայնված զտիչները թույլ են տալիս աշխատել տվյալների տիրույթի "
+"որոշակի զտված տողերի (գրառումների) հետ: $[officename] աղյուսակներում կան "
+"զտիչներ կիրառելու տարբեր հնարավորություններ:"
 
 #: filters.xhp%23par_id3155131.3.help.text
 msgid ""
 "One use for the <emph>AutoFilter</emph> function is to quickly restrict the "
 "display to records with identical entries in a data field."
 msgstr ""
+"<emph>AutoFilter</emph> գործառույթի համար մեկ կիրառումը արագ սահմանափակել "
+"տվյալների դաշտում նույնական մուտքերով գրառումների արտածումը:"
 
 #: filters.xhp%23par_id3146119.4.help.text
 msgid ""
@@ -9282,6 +9313,10 @@ msgid ""
 "filter to connect the conditions with either a logical AND or a logical OR "
 "operator."
 msgstr ""
+"<emph>Ստանդարտ զտիչ</emph> երկխոսության մեջ կարող եք նաև սահմանել "
+"միջակայքեր, որոնք պարունակում են արժեքներ տվյալների հատուկ դաշտերում: Կարող "
+"եք օգտագործել ստանդարտ ֆիլտրը` պայմանները տրամաբանական AND կամ տրամաբանական "
+"OR օպերատորներով իրար հետ կապելու համար:"
 
 #: filters.xhp%23par_id3150010.5.help.text
 msgid ""
@@ -9289,6 +9324,8 @@ msgid ""
 "conditions. With advanced filters you enter the conditions directly into the "
 "sheet."
 msgstr ""
+"<emph>Խորացված զտիչը</emph> թույլ է տալիս ունենալ զտման մինչև ութ պայման: "
+"Ընդլայնված զտիչներով դուք անմիջապես մուտք եք գործում թերթիկի մեջ:"
 
 #: filters.xhp%23par_id9384746.help.text
 msgid ""
@@ -9296,6 +9333,9 @@ msgid ""
 "where the filter was applied, then choose <item type=\"menuitem\">Data - "
 "Filter - Remove Filter</item>."
 msgstr ""
+"Զտիչը հեռացնելու համար, որպեսզի նորից տեսնեք բոլոր բջիջները, կտտացրեք այն "
+"տարածքում, որտեղ կիրառվել է զտիչը, այնուհետև ընտրեք <item type=\"menuitem\">"
+"Տվյալներ - Զտել - Հեռացնել զտիչը</item>:"
 
 #: filters.xhp%23par_idN10663.help.text
 msgid ""
@@ -9305,6 +9345,11 @@ msgid ""
 "action then applies only to the visible rows. The hidden rows are not "
 "affected. "
 msgstr ""
+"Երբ ընտրում եք բազմաթիվ տողեր այն տարածքից, որտեղ կիրառվել է զտիչը, այդ "
+"ընտրությունը կարող է ներառել տեսանելի տողեր և տողեր, որոնք թաքնված են զտիչի "
+"միջոցով: Եթե այնուհետև կիրառեք ձևաչափումը կամ ջնջեք ընտրված տողերը, ապա այս "
+"գործողությունը կիրառվում է միայն տեսանելի տողերի վրա: Թաքնված տողերը չեն "
+"ազդվում։ "
 
 #: filters.xhp%23par_id218817.help.text
 msgid ""
@@ -9312,10 +9357,13 @@ msgid ""
 "Format - Rows - Hide Rows</emph> command. Manually hidden rows are deleted "
 "when you delete a selection that contains them."
 msgstr ""
+"Սա հակառակն է այն տողերին, որոնք դուք ձեռքով թաքցրել եք <emph>Ձևաչափ - Տողեր "
+"- Թաքցնել տողերը</emph> հրամանով: Ձեռքով թաքցրած տողերը հեռացվում են, երբ "
+"ջնջեք ընտրություն, որը պարունակում է դրանք:"
 
 #: webquery.xhp%23tit.help.text
 msgid "Inserting External Data in Table (WebQuery)"
-msgstr ""
+msgstr "Աղյուսակում արտաքին տվյալների տեղադրում (WebQuery)"
 
 #: webquery.xhp%23bm_id3154346.help.text
 msgid ""
@@ -9328,6 +9376,14 @@ msgid ""
 "data</bookmark_value><bookmark_value>data sources; external "
 "data</bookmark_value>"
 msgstr ""
+"<bookmark_value>HTML WebQuery</bookmark_value><bookmark_value>ranges; "
+"inserting in tables</bookmark_value><bookmark_value>external data; "
+"inserting</bookmark_value><bookmark_value>tables; inserting external "
+"data</bookmark_value><bookmark_value>web pages; importing "
+"data</bookmark_value><bookmark_value>WebQuery "
+"filter</bookmark_value><bookmark_value>inserting; external "
+"data</bookmark_value><bookmark_value>data sources; external "
+"data</bookmark_value>"
 
 #: webquery.xhp%23hd_id3125863.2.help.text
 msgid ""
@@ -9335,36 +9391,46 @@ msgid ""
 "\"Inserting External Data in Table (WebQuery)\">Inserting External Data in "
 "Table (WebQuery)</link></variable>"
 msgstr ""
+"<variable id=\"webquery\"><link href=\"text/scalc/guide/webquery.xhp\" name="
+"\"Աղյուսակում արտաքին տվյալների տեղադրում (WebQuery)\">Աղյուսակում արտաքին "
+"տվյալների տեղադրում (WebQuery)</link></variable>"
 
 #: webquery.xhp%23par_id3155131.3.help.text
 msgid ""
 "With the help of the <emph>Web Page Query ($[officename] Calc)</emph> import "
 "filter, you can insert tables from HTML documents in a Calc spreadsheet."
 msgstr ""
+"<emph>Ոստայնի էջի հարցում ($[officename] Calc)</emph> ներմուծման զտիչի "
+"միջոցով կարող եք HTML փաստաթղթերից ներմուծել աղյուսակենրը Calc աղյուսակ:"
 
 #: webquery.xhp%23par_id3148575.4.help.text
 msgid ""
 "You can use the same method to insert ranges defined by name from a Calc or "
 "Microsoft Excel spreadsheet."
 msgstr ""
+"Կարող եք օգտագործել նույն մեթոդը Calc կամ Microsoft Excel աղյուսակից անունով "
+"սահմանված տողերը տեղադրելու համար:"
 
 #: webquery.xhp%23par_id3149664.5.help.text
 msgid "The following insert methods are available:"
-msgstr ""
+msgstr "Ներդրման հետևյալ մեթոդներն են հասանելի․"
 
 #: webquery.xhp%23hd_id3146976.6.help.text
 msgid "Inserting by Dialog"
-msgstr ""
+msgstr "Ներդնում՝ Երկխոսությամբ"
 
 #: webquery.xhp%23par_id3154319.7.help.text
 msgid "Set the cell cursor at the cell where the new content will be inserted."
 msgstr ""
+"Կարգաբերեք բջջի կուրսորը այն բջջում, որում կտեղադրվի նոր բովանդակությունը:"
 
 #: webquery.xhp%23par_id3145750.8.help.text
 msgid ""
 "Choose <emph>Insert - Link to External Data</emph>. This opens the <link "
 "href=\"text/scalc/01/04090000.xhp\">External Data</link> dialog."
 msgstr ""
+"Ընտրեք <emph>Ներդրեք - Հղում արտաքին տվյալներ</emph>։ Սա կբացի <link href=\""
+"text/scalc/01/04090000.xhp\">Արտաքին տվյալներ</link> երկխոսությունը։"
 
 #: webquery.xhp%23par_id3149958.9.help.text
 msgid ""
@@ -9372,17 +9438,24 @@ msgid ""
 "Enter when finished. Click the <emph>...</emph> button to open a file "
 "selection dialog."
 msgstr ""
+"Մուտքագրեք HTML փաստաթղթի URL-ը, կամ աղյուսակի անվանումը: Ավարտելուց հետո "
+"սեղմեք Enter: Կտտացրեք <emph>...</emph> կոճակը, նիշքերի ընտրության "
+"երկխոսությունը բացելու համար:"
 
 #: webquery.xhp%23par_id3149400.10.help.text
 msgid ""
 "In the large list box of the dialog, select the named ranges or tables you "
 "want to insert."
 msgstr ""
+"Երկխոսության մեծ ցուցակի վանդակում ընտրեք նշված միջակայքերը կամ "
+"աղյուսակները, որոնք ցանկանում եք տեղադրել:"
 
 #: webquery.xhp%23par_id3155064.11.help.text
 msgid ""
 "You can also specify that the ranges or tables are updated every n seconds."
 msgstr ""
+"Կարող եք նաև նշել, որ միջակայքերը կամ աղյուսակները թարմացվում են "
+"յուրաքանչյուր n վայրկյանը մեկ:"
 
 #: webquery.xhp%23par_id3155443.30.help.text
 msgid ""
@@ -9390,10 +9463,13 @@ msgid ""
 "formatting as possible is retained, while the filter intentionally does not "
 "load any images."
 msgstr ""
+"Ներմուծման զտիչը կարող է բջիջների տիրույթների համար անուններ ստեղծել "
+"ընթացքում: Հնարավորինս շատ ձևաչափումներ են պահպանվում, մինչդեռ զտիչը "
+"դիտավորյալ չի բեռնում որևէ պատկեր:"
 
 #: webquery.xhp%23hd_id3149021.12.help.text
 msgid "Inserting by Navigator"
-msgstr ""
+msgstr "Տեղադրում Նավարկիչով"
 
 #: webquery.xhp%23par_id3153965.14.help.text
 msgid ""
@@ -9401,10 +9477,13 @@ msgid ""
 "data is to be inserted (target document) and the document from which the "
 "external data derives (source document)."
 msgstr ""
+"Բացեք երկու փաստաթուղթ՝ $[officename] Calc աղյուսակը, որում պետք է "
+"մուտքագրվեն արտաքին տվյալները (թիրախային փաստաթուղթ) և այն փաստաթուղթը, որից "
+"ստացվում են արտաքին տվյալները (աղբյուրի փաստաթուղթ):"
 
 #: webquery.xhp%23par_id3150205.16.help.text
 msgid "In the target document open the Navigator."
-msgstr ""
+msgstr "Թիրախային փաստաթղթում բացեք Նավարկիչը։"
 
 #: webquery.xhp%23par_id3152990.18.help.text
 msgid ""
@@ -9412,6 +9491,9 @@ msgid ""
 "Navigator now shows the range names and database ranges or the tables "
 "contained in the source document."
 msgstr ""
+"Նավարկիչիի ստորին համակցված վանդակում ընտրեք աղբյուրի փաստաթուղթը: Նավարկիչն "
+"այժմ ցույց է տալիս տիրույթների անուններն ու տվյալների շտեմարանների "
+"միջակայքերը, կամ աղբյուրի փաստաթղթում պարունակվող աղյուսակները:"
 
 #: webquery.xhp%23par_id3148842.20.help.text
 msgid ""
@@ -9419,11 +9501,14 @@ msgid ""
 "\"img_id3152985\" src=\"sw/imglst/sc20238.png\" width=\"0.222inch\" height=\""
 "0.222inch\"><alt id=\"alt_id3152985\">Icon</alt></image>."
 msgstr ""
+"Նավարկիչում ընտրեք <emph>Տեղադրեք որպես հղում</emph> քաշելու վիճակի <image "
+"id=\"img_id3152985\" src=\"sw/imglst/sc20238.png\" width=\"0.222inch\" "
+"height=\"0.222inch\"><alt id=\"alt_id3152985\">պատկերիկը</alt></image>։"
 
 #: webquery.xhp%23par_id3157978.22.help.text
 msgid ""
 "Drag the desired external data from the Navigator into the target document."
-msgstr ""
+msgstr "Նավարկիչից ցանկալի արտաքին տվյալները քաշեք թիրախային փաստաթղթի մեջ:"
 
 #: webquery.xhp%23par_id3144768.23.help.text
 msgid ""
@@ -9432,36 +9517,47 @@ msgid ""
 "named continuously from \"HTML_table1\" onwards, and also two range names "
 "that have been created:"
 msgstr ""
+"Եթե դուք բեռնել եք HTML փաստաթուղթը <emph>Ոստայնի էջի հարցման</emph> զտիչի "
+"հետ որպես աղբյուր փաստաթուղթ, ապա Նավիգատորում կգտնեք աղյուսակները, որոնք "
+"շարունակաբար անվանված են \"HTML_table1\" -ից և այդպես, ինչպես նաև երկու "
+"միջակայքերի անուններ, որոնք ստեղծվել են․"
 
 #: webquery.xhp%23par_id3152873.24.help.text
 msgid "<item type=\"literal\">HTML_all</item> - designates the entire document"
 msgstr ""
+"<item type=\"literal\">HTML_all</item> - վերաբերվում է ամբողջական փաստաթղթին"
 
 #: webquery.xhp%23par_id3149897.25.help.text
 msgid ""
 "<item type=\"literal\">HTML_tables</item> - designates all HTML tables in "
 "the document"
 msgstr ""
+"<item type=\"literal\">HTML_tables</item> - վերաբերվում է փաստաթղթի բոլոր "
+"HTML աղյուսակներն"
 
 #: webquery.xhp%23hd_id3149126.26.help.text
 msgid "Editing the external data"
-msgstr ""
+msgstr "Արտաքին տվյալների խմբագրում"
 
 #: webquery.xhp%23par_id3159228.27.help.text
 msgid ""
 "Open <emph>Edit - Links</emph>. Here you can edit the link to the external "
 "data."
 msgstr ""
+"Բացեք <emph>Խմբագրել - Հղումներ</emph>։ Այստեղ կարող եք խմբագրել հղումը դեպի "
+"արտաքին տվյալներ:"
 
 #: webquery.xhp%23par_id3154650.28.help.text
 msgid ""
 "<link href=\"text/scalc/01/04090000.xhp\" name=\"External data dialog\">"
 "External data dialog</link>"
 msgstr ""
+"<link href=\"text/scalc/01/04090000.xhp\" name=\"Արտաքին տվյալների "
+"երկխոսություն\">Արտաքին տվյալների երկխոսություն</link>"
 
 #: note_insert.xhp%23tit.help.text
 msgid "Inserting and Editing Comments"
-msgstr ""
+msgstr "Մեկնաբանությունների տեղադրում և խմբագրում"
 
 #: note_insert.xhp%23bm_id3153968.help.text
 msgid ""
@@ -9472,6 +9568,12 @@ msgid ""
 "cells</bookmark_value>      <bookmark_value>displaying; "
 "comments</bookmark_value>"
 msgstr ""
+"<bookmark_value>comments; on cells</bookmark_value>      "
+"<bookmark_value>cells;comments</bookmark_value>      <bookmark_value>remarks "
+"on cells</bookmark_value>      <bookmark_value>formatting;comments on "
+"cells</bookmark_value>      <bookmark_value>viewing;comments on "
+"cells</bookmark_value>      <bookmark_value>displaying; "
+"comments</bookmark_value>"
 
 #: note_insert.xhp%23hd_id3153968.31.help.text
 msgid ""
@@ -9479,6 +9581,9 @@ msgid ""
 "name=\"Inserting and Editing Comments\">Inserting and Editing "
 "Comments</link></variable>"
 msgstr ""
+"<variable id=\"note_insert\"><link href=\"text/scalc/guide/note_insert.xhp\" "
+"name=\"Մեկնաբանությունների տեղադրում և խմբագրում\">Մեկնաբանությունների "
+"տեղադրում և խմբագրում</link></variable>"
 
 #: note_insert.xhp%23par_id3150440.32.help.text
 msgid ""
@@ -9487,12 +9592,19 @@ msgid ""
 "Comment</emph></link>. The comment is indicated by a small red square, the "
 "comment indicator, in the cell."
 msgstr ""
+"Կարող եք ուրաքանչյուր բջջի մեկնաբանություն նշանակել ընտրելով <link href=\""
+"text/shared/01/04050000.xhp\" name=\"Տեղադրել - Մեկնաբանություն\"><emph>"
+"Տեղադրել - Մեկնաբանություն</emph></link>։ Մեկնաբանությունը նշվում է փոքրիկ "
+"կարմիր քառակուսիով, մեկնաբանության ցուցիչն էլ բջջում։"
 
 #: note_insert.xhp%23par_id3145750.34.help.text
 msgid ""
 "The comment is visible whenever the mouse pointer is over the cell, provided "
 "you have activated <emph>Help - Tips</emph> or - <emph>Extended Tips</emph>."
 msgstr ""
+"Մեկնաբանությունը տեսանելի է, երբ մկնիկի ցուցիչը բջջի վրա է, եթե դուք "
+"ակտիվացրել եք <emph>Օգնություն - Հուշում</emph> -ը, կամ <emph>Ընդլայնված "
+"հուշումներ</emph> -ը:"
 
 #: note_insert.xhp%23par_id3148575.33.help.text
 msgid ""
@@ -9500,16 +9612,23 @@ msgid ""
 "context menu of the cell. Doing so keeps the comment visible until you "
 "deactivate the <emph>Show Comment</emph> command from the same context menu."
 msgstr ""
+"Երբ ընտրում եք բջիջը, դրա համատեքստային ընտրացանկից կարող եք ընտրել <emph>"
+"Ցույց տալ մեկնաբանությունը</emph>: Սրանով մեկնաբանությունը տեսանելի է մնում, "
+"մինչև ապաակտիվացնեք <emph> Ցույց տալ մեկնաբանությունը</emph> հրամանը նույն "
+"համատեքստի ընտրացանկից:"
 
 #: note_insert.xhp%23par_id3149958.35.help.text
 msgid ""
 "To edit a permanently visible comment, just click in it. If you delete the "
 "entire text of the comment, the comment itself is deleted."
 msgstr ""
+"Մշտապես տեսանելի մեկնաբանությունը խմբագրելու համար պարզապես սեղմեք այն: Եթե "
+"ջնջեք մեկնաբանության ամբողջ տեքստը, ապա մեկնաբանությունը ինքնին ջնջվում է:"
 
 #: note_insert.xhp%23par_idN10699.help.text
 msgid "Move or resize each comment as you like."
 msgstr ""
+"Տեղափոխեք կամ չափափոխեք յուրաքանչյուր մեկնաբանությունը, ինչպես ցանկանում եք:"
 
 #: note_insert.xhp%23par_idN1069D.help.text
 msgid ""
@@ -9517,6 +9636,9 @@ msgid ""
 "style, and text alignment. Choose the commands from the context menu of the "
 "comment."
 msgstr ""
+"Ձևավորեք յուրաքանչյուր մեկնաբանությունը, նշելով հետնամասի գույնը, "
+"թափանցիկությունը, սահմանի ոճը և տեքստի հավասարեցումը: Ընտրեք հրամաններ "
+"մեկնաբանության համատեքստի ընտրացանկից:"
 
 #: note_insert.xhp%23par_id3144764.38.help.text
 msgid ""
@@ -9526,22 +9648,31 @@ msgid ""
 "Options</defaultinline></switchinline> - %PRODUCTNAME Calc - View</emph> and "
 "mark or unmark the <emph>Comment indicator</emph> check box."
 msgstr ""
+"Մեկնաբանության ցուցիչը ցույց տալու կամ թաքցնելու համար ընտրեք <emph><"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - %PRODUCTNAME Calc - Դիտում</emph>"
+" և նշեք կամ ապանշեք <emph>Մեկնաբանության ցուցիչ</emph> ընտրավանդակը։"
 
 #: note_insert.xhp%23par_id3150715.39.help.text
 msgid ""
 "To display a help tip for a selected cell, use <emph>Data - Validity - Input "
 "Help</emph>."
 msgstr ""
+"Ընտրված բջիջում օգնության հուշումը ցուցադրելու համար օգտագործեք <emph>"
+"Տվյալներ - Վավերականություն - Մուտքագրման օգնություն</emph>:"
 
 #: note_insert.xhp%23par_id3153707.36.help.text
 msgid ""
 "<link href=\"text/shared/01/04050000.xhp\" name=\"Insert - Comment\">Insert -"
 " Comment</link>"
 msgstr ""
+"<link href=\"text/shared/01/04050000.xhp\" name=\"Տեղադրեք - "
+"Մեկնաբանություն\">Տեղադրեք - Մեկնաբանություն</link>"
 
 #: fraction_enter.xhp%23tit.help.text
 msgid "Entering Fractions "
-msgstr ""
+msgstr "Կոտորակների մուտքագրում"
 
 #: fraction_enter.xhp%23bm_id3155411.help.text
 msgid ""
@@ -9549,16 +9680,24 @@ msgid ""
 "entering fractions "
 "</bookmark_value><bookmark_value>inserting;fractions</bookmark_value>"
 msgstr ""
+"<bookmark_value>fractions; entering</bookmark_value><bookmark_value>numbers; "
+"entering fractions "
+"</bookmark_value><bookmark_value>inserting;fractions</bookmark_value>"
 
 #: fraction_enter.xhp%23hd_id3155411.41.help.text
 msgid ""
 "<variable id=\"fraction_enter\"><link href=\"text/scalc/guide/fraction_enter."
 "xhp\" name=\"Entering Fractions \">Entering Fractions </link></variable>"
 msgstr ""
+"<variable id=\"fraction_enter\"><link href=\"text/scalc/guide/fraction_enter."
+"xhp\" name=\"Կոտորակների մուտքագրում \">Կոտորակների մուտքագրում "
+"</link></variable>"
 
 #: fraction_enter.xhp%23par_id3153968.40.help.text
 msgid "You can enter a fractional number in a cell and use it for calculation:"
 msgstr ""
+"Կարող եք բջջում մուտքագրել կոտորակային թիվը և օգտագործել այն հաշվարկման "
+"համար."
 
 #: fraction_enter.xhp%23par_id3155133.42.help.text
 msgid ""
@@ -9566,6 +9705,9 @@ msgid ""
 "key. In the input line above the spreadsheet you will see the value 0.2, "
 "which is used for the calculation."
 msgstr ""
+"Մուտքագրեք բջիջում \"0 1/5\" (առանց չակերտների) և սեղմեք մուտքի ստեղնը: "
+"Աղյուսակի վերևի մուտքի տողում կտեսնեք 0.2 արժեքը, որն օգտագործվում է "
+"հաշվարկման համար:"
 
 #: fraction_enter.xhp%23par_id3145750.43.help.text
 msgid ""
@@ -9574,6 +9716,10 @@ msgid ""
 "replacement is defined in <emph>Tools - AutoCorrect Options - Options</emph> "
 "tab."
 msgstr ""
+"Եթե մուտքագրեք \"0 1/2\" AutoCorrect -ը, կբերի երեք նիշերի՝ 1, / և 2 "
+"փոխարինմանը մեկ նիշով: Նույնը վերաբերում է 1/4 -ին և 3/4 -ին: Այս "
+"փոխարինումը սահմանվում է <emph>Գործիքներ - AutoCorrect ընտրանքներ - "
+"Ընտրանքներ</emph> ներդիրում:"
 
 #: fraction_enter.xhp%23par_id3145367.44.help.text
 msgid ""
@@ -9584,10 +9730,17 @@ msgid ""
 "enter fractions such as 12/31 or 12/32 - the fractions are, however, "
 "automatically reduced, so that in the last example you would see 3/8."
 msgstr ""
+"Եթե ցանկանում եք տեսնել բազմանիշ կոտորակներ, ինչպիսին է \"1/10\", ապա "
+"բջջային ձևաչափը պետք է փոխեք բազմանիշային դիտան: Բացեք բջջի համատեքստային "
+"ընտրացանկը և ընտրեք <emph>Ձևաչափեք բջիջները: </emph>Ընտրեք \"Կոտորակ\" -ը "
+"<emph>Դաս</emph> դաշտից, այնուհետև ընտրեք \"-1234 10/81\": Դրանից հետո կարող "
+"եք մուտք գործել այնպիսի կոտորակներ, ինչպիսիք են 12/31 կամ 12/32. "
+"Կոտորակները, այնուամենայնիվ, ավտոմատ կերպով կրճատվում են, այնպես որ վերջին "
+"օրինակում կտեսնեք 3/8:"
 
 #: consolidate.xhp%23tit.help.text
 msgid "Consolidating Data"
-msgstr ""
+msgstr "Տվյալների համախմբում"
 
 #: consolidate.xhp%23bm_id3150791.help.text
 msgid ""
@@ -9598,38 +9751,54 @@ msgid ""
 " merging cell ranges</bookmark_value>      <bookmark_value>merging;data "
 "ranges</bookmark_value>"
 msgstr ""
+"<bookmark_value>consolidating data</bookmark_value>      "
+"<bookmark_value>ranges; combining</bookmark_value>      "
+"<bookmark_value>combining;cell ranges</bookmark_value>      "
+"<bookmark_value>tables; combining</bookmark_value>      <bookmark_value>data;"
+" merging cell ranges</bookmark_value>      <bookmark_value>merging;data "
+"ranges</bookmark_value>"
 
 #: consolidate.xhp%23hd_id3150791.5.help.text
 msgid ""
 "<variable id=\"consolidate\"><link href=\"text/scalc/guide/consolidate.xhp\" "
 "name=\"Consolidating Data\">Consolidating Data</link></variable>"
 msgstr ""
+"<variable id=\"consolidate\"><link href=\"text/scalc/guide/consolidate.xhp\" "
+"name=\"Տվյալների համախմբում\">Տվյալների համախմբում</link></variable>"
 
 #: consolidate.xhp%23par_id3153191.34.help.text
 msgid ""
 "During consolidation, the contents of the cells from several sheets will be "
 "combined in one place."
 msgstr ""
+"Համախմբման ընթացքում մի քանի թերթիկներից բջիջների պարունակությունը միավորված "
+"կլինի մեկ տեղում:"
 
 #: consolidate.xhp%23hd_id892056.help.text
 msgid "To Combine Cell Contents"
-msgstr ""
+msgstr "Բջջային բովանդակությունը միավորելու համար"
 
 #: consolidate.xhp%23par_id3151073.6.help.text
 msgid "Open the document that contains the cell ranges to be consolidated."
 msgstr ""
+"Բացեք այն փաստաթուղթը, որը պարունակում է համախմբման ենթակա բջջային "
+"միջակայքերը:"
 
 #: consolidate.xhp%23par_id3154513.7.help.text
 msgid ""
 "Choose <item type=\"menuitem\">Data - Consolidate</item> to open the "
 "<emph>Consolidate</emph> dialog."
 msgstr ""
+"Ընտրեք <item type=\"menuitem\">Տվյալներ - Համախմբել</item>, բացելու համար "
+"<emph>Համախմբել</emph> երկխոսությունը։"
 
 #: consolidate.xhp%23par_id3147345.8.help.text
 msgid ""
 "From the <emph>Source data area</emph> box select a source cell range to "
 "consolidate with other areas."
 msgstr ""
+"<emph>Աղբյուրի տվյալների տարածքի</emph> վանդակից ընտրեք աղբյուրի բջջային "
+"միջակայքը, այլ ոլորտների հետ համախմբվելու համար:"
 
 #: consolidate.xhp%23par_id3149209.9.help.text
 msgid ""
@@ -9637,23 +9806,32 @@ msgid ""
 "area</emph>. A blinking text cursor appears. Type a reference for the first "
 "source data range or select the range with the mouse."
 msgstr ""
+"Եթե միջակայքը չի անվանվել, կտտացրեք <emph>Աղբյուրի տվյալների տարածք</emph> -"
+"ին հաջորդող դաշտում: Հայտնվում է թարթող տեքստի կուրսորը: Մուտքագրեք հղումը "
+"առաջին աղբյուրի տվյալների տիրույթի համար կամ մկնիկով ընտրեք միջակայքը:"
 
 #: consolidate.xhp%23par_id3155529.10.help.text
 msgid ""
 "Click <emph>Add</emph> to insert the selected range in the <emph>"
 "Consolidation areas</emph> field."
 msgstr ""
+"Սեղմեք <emph>Ավելացնել</emph> ընտրված միջակայքը <emph>Համախմբման "
+"տարածքներ</emph> դաշտում տեղադրելու համար:"
 
 #: consolidate.xhp%23par_id3153816.11.help.text
 msgid ""
 "Select additional ranges and click <emph>Add</emph> after each selection."
 msgstr ""
+"Ընտրեք լրացուցիչ միջակայքեր և յուրաքանչյուր ընտրությունից հետո կտտացրեք "
+"<emph>Ավելացնել</emph>:"
 
 #: consolidate.xhp%23par_id3157983.12.help.text
 msgid ""
 "Specify where you want to display the result by selecting a target range "
 "from the <emph>Copy results to</emph> box."
 msgstr ""
+"Նշեք, թե որտեղ եք ցանկանում ցուցադրել արդյունքը` ընտրելով թիրախային "
+"միջակայքը <emph>Պատճենել արդյունքները</emph> վանդակից:"
 
 #: consolidate.xhp%23par_id3150215.13.help.text
 msgid ""
@@ -9662,6 +9840,10 @@ msgid ""
 "Alternatively, you can select the range using the mouse or position the "
 "cursor in the top left cell of the target range."
 msgstr ""
+"Եթե թիրախային միջակայքը չի նշվում, կտտացրեք <emph>Պատճենել "
+"արդյունքները</emph> և մուտքագրեք նպատակային միջակայքի հղումը: Այլապես, դուք "
+"կարող եք ընտրել մկնիկի միջակայքը կամ կուրսորը տեղադրել թիրախային միջակայքի "
+"վերին ձախ բջիջում:"
 
 #: consolidate.xhp%23par_id3153813.14.help.text
 msgid ""
@@ -9669,20 +9851,25 @@ msgid ""
 "how the values of the consolidation ranges are linked. The \"Sum\" function "
 "is the default setting."
 msgstr ""
+"Ընտրեք գործառույթը <emph>Գործառույթ</emph> վանդակից: Գործառույթը սահմանում "
+"է, թե ինչպես են կապված համախմբման միջակայքերի արժեքները:  \"Sum\" "
+"գործառույթը լռելյայն պարամետր է:"
 
 #: consolidate.xhp%23par_id3149315.15.help.text
 msgid "Click <emph>OK</emph> to consolidate the ranges."
-msgstr ""
+msgstr "Սեղմեք <emph>ԼԱՎ</emph> միջակայքերի համախմբման համար։"
 
 #: consolidate.xhp%23par_idN107DE.help.text
 msgid "Additional Settings"
-msgstr ""
+msgstr "Հավելյալ կարգաբերումներ"
 
 #: consolidate.xhp%23par_id3147250.16.help.text
 msgid ""
 "Click <emph>More</emph> in the <emph>Consolidate</emph> dialog to display "
 "additional settings:"
 msgstr ""
+"Սեղմեք <emph>Ավելին</emph> <emph>Համախմբել</emph> երկխոսությունում, "
+"լրացուցիչ կարգաբերումները ցուցադրելու համար."
 
 #: consolidate.xhp%23par_id3156400.17.help.text
 msgid ""
@@ -9691,6 +9878,10 @@ msgid ""
 "the data, any values modified in the source range are automatically updated "
 "in the target range."
 msgstr ""
+"Ընտրեք <emph>Հղել դեպի աղբյուրի տվյալներ</emph>՝ նպատակային միջակայքում "
+"արդյունքներ գեներացնող բանաձևերը տեղադրելու համար, այլ ոչ թե իրական "
+"արդյունքները: Եթե կապում եք տվյալները, աղբյուրի միջակայքում փոփոխված "
+"ցանկացած արժեքներ ավտոմատ կերպով թարմացվում են թիրախային միջակայքում:"
 
 #: consolidate.xhp%23par_id3150538.18.help.text
 msgid ""
@@ -9698,6 +9889,9 @@ msgid ""
 "consecutive rows, which are automatically ordered and then hidden from view. "
 "Only the final result, based on the selected function, is displayed."
 msgstr ""
+"Թիրախային միջակայքում համապատասխան բջջային հղումները տեղադրվում են անընդմեջ "
+"տողերում, որոնք ավտոմատ կարգավորվում են, իսկ հետո թաքցվում են տեսադաշտից: "
+"Ցուցադրվում է միայն վերջնական արդյունքը, ելնելով ընտրված գործառույթից:"
 
 #: consolidate.xhp%23par_id3149945.19.help.text
 msgid ""
@@ -9706,12 +9900,19 @@ msgid ""
 "be consolidated corresponding to the identical position of the cell in the "
 "range, but instead according to a matching row label or column label."
 msgstr ""
+"Համաձայն <emph>Համախմբվելով</emph> ներքո, ընտրեք կամ <emph>Տողի "
+"պիտակները</emph> և կամ <emph>Սյունակի պիտակները</emph>, եթե աղբյուրի "
+"տվյալների միջակայքի բջիջները չպետք է համախմբվեն նույնական դիրքի համար "
+"միջակայքում գտնվող բջիջին, բայց համապատասխան տողի կամ սյունակի պիտակներիի "
+"համաձայն:"
 
 #: consolidate.xhp%23par_id3157871.20.help.text
 msgid ""
 "To consolidate by row labels or column labels, the label must be contained "
 "in the selected source ranges."
 msgstr ""
+"Տողի պիտակների կամ սյունակի պիտակների համախմբման համար պիտակը պետք է "
+"պարունակվի ընտրված աղբյուրի միջակայքերում:"
 
 #: consolidate.xhp%23par_id3150478.21.help.text
 msgid ""
@@ -9719,6 +9920,9 @@ msgid ""
 "accurately matched. If the row or column label does not match any that exist "
 "in the target range, it will be appended as a new row or column."
 msgstr ""
+"Պիտակների տեքստը պետք է լինի նույնական, այնպես որ տողերը կամ սյուները ճշգրիտ "
+"համադրվեն: Եթե տողի կամ սյունակի պիտակը չի համընկնում թիրախային միջակայքում "
+"առկա որևէ մեկի հետ, ապա այն հավելվում է որպես նոր տող կամ սյունակ:"
 
 #: consolidate.xhp%23par_id3147468.22.help.text
 msgid ""
@@ -9726,16 +9930,21 @@ msgid ""
 "you save the document. If you later open a document in which consolidation "
 "has been defined, this data will again be available."
 msgstr ""
+"Համախմբման միջակայքից և թիրախային միջակայքից ստացված տվյալները կհիշվեն, երբ "
+"կհիշեք փաստաթուղթը: Եթե հետագայում բացեք մի փաստաթուղթ, որում սահմանվել է "
+"համախմբում, այս տվյալները նորից հասանելի կլինեն:"
 
 #: consolidate.xhp%23par_id3153039.33.help.text
 msgid ""
 "<link href=\"text/scalc/01/12070000.xhp\" name=\"Data - Consolidate\">Data - "
 "Consolidate</link>"
 msgstr ""
+"<link href=\"text/scalc/01/12070000.xhp\" name=\"Տվյալներ - Համախմբել\">"
+"Տվյալներ - Համախմբել</link>"
 
 #: finding.xhp%23tit.help.text
 msgid "Finding and Replacing in Calc"
-msgstr ""
+msgstr "Որոնում և փոխարինում Calc-ում"
 
 #: finding.xhp%23bm_id3769341.help.text
 msgid ""
@@ -9745,12 +9954,18 @@ msgid ""
 "contents</bookmark_value><bookmark_value>formatting;multiple cell "
 "texts</bookmark_value>"
 msgstr ""
+"<bookmark_value>searching, see also finding</bookmark_value><bookmark_value>f"
+"inding;formulas/values/text/objects</bookmark_value><bookmark_value>replacing"
+"; cell contents</bookmark_value><bookmark_value>formatting;multiple cell "
+"texts</bookmark_value>"
 
 #: finding.xhp%23hd_id3149204.help.text
 msgid ""
 "<variable id=\"finding\"><link href=\"text/scalc/guide/finding.xhp\">Finding "
 "and Replacing in Calc</link></variable>"
 msgstr ""
+"<variable id=\"finding\"><link href=\"text/scalc/guide/finding.xhp\">Որոնում "
+"և փոխարինում Calc-ում</link></variable>"
 
 #: finding.xhp%23par_id9363689.help.text
 msgid ""
@@ -9759,10 +9974,14 @@ msgid ""
 "cells at once, then apply another format or replace the cell content by "
 "other content."
 msgstr ""
+"Աղյուսակային փաստաթղթերում կարող եք գտնել բառեր, բանաձևեր և ոճեր: Կարող եք "
+"նավարկվել մեկ արդյունքից մյուսը, կամ կարող եք միանգամից կարևորել բոլոր "
+"համապատասխանող բջիջները, ապա կիրառել մեկ այլ ձևաչափ կամ փոխարինել բջիջների "
+"պարունակությունը այլ բովանդակությամբ:"
 
 #: finding.xhp%23hd_id3610644.help.text
 msgid "The Find & Replace dialog"
-msgstr ""
+msgstr "Որոնել և Փոխարինել երկխոսությունը"
 
 #: finding.xhp%23par_id2224494.help.text
 msgid ""
@@ -9772,39 +9991,50 @@ msgid ""
 "the result 3. You must decide whether to search for the 1 respective 2, or "
 "to search the 3."
 msgstr ""
+"Բջիջները կարող են պարունակել տեքստ կամ թվեր, որոնք մուտքագրվել են "
+"ուղղակիորեն, ինչպես տեքստային փաստաթղթում: Բայց բջիջները կարող են պարունակել "
+"նաև տեքստ կամ թվեր, որպես հաշվարկման արդյունք: Օրինակ, եթե բջիջը պարունակում "
+"է բանաձև =1+2, այն ցույց է տալիս արդյունքը 3։ Դուք պետք է որոշեք`որոնել 1-ը "
+"համապատասխան 2-ի, կամ որոնել 3-ը:"
 
 #: finding.xhp%23hd_id2423780.help.text
 msgid "To find formulas or values"
-msgstr ""
+msgstr "Բանաձևերի կամ արժեքների փնտրում"
 
 #: finding.xhp%23par_id2569658.help.text
 msgid ""
 "You can specify in the Find & Replace dialog either to find the parts of a "
 "formula or the results of a calculation."
 msgstr ""
+"Կարող եք նշել \"Որոնել և փոխարինել\" երկխոսության մեջ, կամ գտնել բանաձևի "
+"մասերը կամ հաշվարկման արդյունքները:"
 
 #: finding.xhp%23par_id6394238.help.text
 msgctxt "finding.xhp#par_id6394238.help.text"
 msgid ""
 "Choose <emph>Edit - Find & Replace</emph> to open the Find & Replace dialog."
 msgstr ""
+"Ընտրեք <emph>Խմբագրել - Որոնել և Փոխարինել</emph>, բացելու համար \"Որոնել և "
+"փոխարինել\" երկխոսությունը։"
 
 #: finding.xhp%23par_id7214270.help.text
 msgid "Click <emph>More Options</emph> to expand the dialog."
-msgstr ""
+msgstr "Սեղմեք <emph>Ավելի ընտրանքներ</emph> երկխոսությունը ընդլայնելու համար։"
 
 #: finding.xhp%23par_id2186346.help.text
 msgid ""
 "Select \"Formulas\" or \"Values\" in the <emph>Search in</emph> list box."
 msgstr ""
+"Ընտրեք \"Բանաձևեր\" կամ \"Արժեքներ\", <emph>Որոնել այստեղ</emph> ցուցակային "
+"վանդակլում։"
 
 #: finding.xhp%23par_id1331217.help.text
 msgid "With \"Formulas\" you will find all parts of the formulas. "
-msgstr ""
+msgstr "\"Բանաձևերով\" դուք կգտնեք բանաձևերի բոլոր մասերը "
 
 #: finding.xhp%23par_id393993.help.text
 msgid "With \"Values\" you will find the results of the calculations. "
-msgstr ""
+msgstr "\"Արժեքներով\" կգտնեք հաշվարկների արդյունքները: "
 
 #: finding.xhp%23par_id3163853.help.text
 msgid ""
@@ -9812,6 +10042,9 @@ msgid ""
 "be formatted as a currency, to be displayed with a currency symbol. You see "
 "the currency symbol in the cell, but you cannot search for it."
 msgstr ""
+"Բջջի պարունակությունը կարող է ձևափոխվել տարբեր ձևերով: Օրինակ, թիվը կարող է "
+"ձևափոխվել որպես արտարժույթ, որը ցուցադրվում է արտարժույթի նշանով: Դուք "
+"բջիջում տեսնում եք արտարժույթի նշանը, բայց չեք կարող որոնել այն:"
 
 #: finding.xhp%23hd_id7359233.help.text
 msgid "Finding text"
