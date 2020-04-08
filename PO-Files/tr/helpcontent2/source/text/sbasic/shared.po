@@ -6,7 +6,7 @@ msgstr ""
 "ent=ui&comment=&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsourc"
 "e%2Ftext%2Fsbasic%2Fshared.oo&component=l10n&form_name=enter_issue\n"
 "POT-Creation-Date: 2019-08-21 18:38+0200\n"
-"PO-Revision-Date: 2020-04-06 16:48+0000\n"
+"PO-Revision-Date: 2020-04-07 15:36+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1586191701.000000\n"
+"X-POOTLE-MTIME: 1586273799.000000\n"
 
 #: 03104300.xhp%23tit.help.text
 msgid "DimArray Function [Runtime]"
@@ -1061,6 +1061,12 @@ msgid ""
 "it. Within a procedure, you can declare an array using the ReDim statement "
 "with numeric expressions to define the range of the field sizes."
 msgstr ""
+"Değişken alanlar, hangi türden olursa olsun, alt yordamlarda veya işlevlerde "
+"yordam seviyesinde ReDim tarafından boyutlandırılmışlarsa değişken "
+"yapılabilir. Normalde bir dizilimin aralığını sadece bir defa "
+"ayarlayabilirsiniz ve onu değiştiremezsiniz. Bir yordam içinde, alan "
+"boyutlarının aralığını tanımlayan sayısal ifadelerle ReDim ifadesini "
+"kullanan bir dizilim bildirebilirsiniz."
 
 #: 03102101.xhp%23hd_id3148405.28.help.text
 msgctxt "03102101.xhp#hd_id3148405.28.help.text"
@@ -1069,7 +1075,7 @@ msgstr "Örnek:"
 
 #: 03102101.xhp%23par_id3154362.29.help.text
 msgid "Sub ExampleRedim"
-msgstr ""
+msgstr "Sub ExampleRedim"
 
 #: 03102101.xhp%23par_id3150042.30.help.text
 msgid "Dim iVar() As Integer, iCount As Integer"
@@ -1112,32 +1118,33 @@ msgid "Next iCount"
 msgstr "Next iSayim"
 
 #: 03102101.xhp%23par_id3149926.39.help.text
-#, fuzzy
 msgctxt "03102101.xhp#par_id3149926.39.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03080501.xhp%23tit.help.text
 msgid "Fix Function [Runtime]"
-msgstr "Fix Fonksiyonu [Runtime]"
+msgstr "Fix İşlevi [Çalışma Zamanı]"
 
 #: 03080501.xhp%23bm_id3159201.help.text
 msgid "<bookmark_value>Fix function</bookmark_value>"
-msgstr "<bookmark_value>Fix Fonksiyonu</bookmark_value>"
+msgstr "<bookmark_value>Fix işlevi</bookmark_value>"
 
 #: 03080501.xhp%23hd_id3159201.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03080501.xhp\" name=\"Fix Function [Runtime]"
 "\">Fix Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03080501.xhp\" name=\"Fix Function [Runtime]"
-"\">Fix Fonksiyonu [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03080501.xhp\" name=\"Fix İşlevi [Çalışma "
+"Zamanı]\">Fix İşlevi [Çalışma Zamanı]</link>"
 
 #: 03080501.xhp%23par_id3149346.2.help.text
 msgid ""
 "Returns the integer value of a numeric expression by removing the fractional "
 "part of the number."
 msgstr ""
+"Sayının kesirli kısmını kaldırarak sayısal ifadedenin tamsayı değerini "
+"döndürür."
 
 #: 03080501.xhp%23hd_id3155419.3.help.text
 msgctxt "03080501.xhp#hd_id3155419.3.help.text"
@@ -1146,7 +1153,7 @@ msgstr "Sözdizimi:"
 
 #: 03080501.xhp%23par_id3156152.4.help.text
 msgid "Fix (Expression)"
-msgstr ""
+msgstr "Fix (İfade)"
 
 #: 03080501.xhp%23hd_id3154923.5.help.text
 msgctxt "03080501.xhp#hd_id3154923.5.help.text"
@@ -1156,7 +1163,7 @@ msgstr "Dönen değer:"
 #: 03080501.xhp%23par_id3148947.6.help.text
 msgctxt "03080501.xhp#par_id3148947.6.help.text"
 msgid "Double"
-msgstr "İki satır"
+msgstr "Çift"
 
 #: 03080501.xhp%23hd_id3154760.7.help.text
 msgctxt "03080501.xhp#hd_id3154760.7.help.text"
@@ -1168,6 +1175,8 @@ msgid ""
 "<emph>Expression:</emph> Numeric expression that you want to return the "
 "integer value for."
 msgstr ""
+"<emph>Expression:</emph> Tamsayı değerini döndürmek istediğiniz sayısal "
+"ifade."
 
 #: 03080501.xhp%23hd_id3150447.9.help.text
 msgctxt "03080501.xhp#hd_id3150447.9.help.text"
@@ -1176,45 +1185,45 @@ msgstr "Örnek:"
 
 #: 03080501.xhp%23par_id3153193.10.help.text
 msgid "sub ExampleFix"
-msgstr ""
+msgstr "sub OrnekFix"
 
 #: 03080501.xhp%23par_id3156214.11.help.text
 msgid "Print Fix(3.14159) REM returns 3."
-msgstr ""
+msgstr "Print Fix(3.14159) REM, 3 döndürür."
 
 #: 03080501.xhp%23par_id3154217.12.help.text
 msgid "Print Fix(0) REM returns 0."
-msgstr ""
+msgstr "Print Fix(0) REM, 0 döndürür."
 
 #: 03080501.xhp%23par_id3145786.13.help.text
 msgid "Print Fix(-3.14159) REM returns -3."
-msgstr ""
+msgstr "Print Fix(-3.14159) REM, -3 döndürür."
 
 #: 03080501.xhp%23par_id3153188.14.help.text
-#, fuzzy
 msgctxt "03080501.xhp#par_id3153188.14.help.text"
 msgid "end sub"
-msgstr "End Sub"
+msgstr "end sub"
 
 #: 03120315.xhp%23tit.help.text
 msgid "Join Function [Runtime]"
-msgstr "Join Fonksiyonu [Runtime]"
+msgstr "Join İşlevi [Çalışma Zamanı]"
 
 #: 03120315.xhp%23bm_id3149416.help.text
 msgid "<bookmark_value>Join function</bookmark_value>"
-msgstr "<bookmark_value>Join Fonksiyonu</bookmark_value>"
+msgstr "<bookmark_value>Join işlevi</bookmark_value>"
 
 #: 03120315.xhp%23hd_id3149416.1.help.text
 msgid ""
 "<link href=\"text/sbasic/shared/03120315.xhp\" name=\"Join Function [Runtime]"
 "\">Join Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03120315.xhp\" name=\"Join Function [Runtime]"
-"\">Join Fonksiyonu [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03120315.xhp\" name=\"Join İşlevi [Çalışma "
+"Zamanı]\">Join İşlevi [Çalışma Zamanı]</link>"
 
 #: 03120315.xhp%23par_id3149670.2.help.text
 msgid "Returns a string from a number of substrings in a string array."
 msgstr ""
+"Bir dizgi dizilimi içindeki alt dizgilerin sayılarından bir dizgi döndürür."
 
 #: 03120315.xhp%23hd_id3159414.3.help.text
 msgctxt "03120315.xhp#hd_id3159414.3.help.text"
@@ -1223,7 +1232,7 @@ msgstr "Sözdizimi:"
 
 #: 03120315.xhp%23par_id3156344.4.help.text
 msgid "Join (Text As String Array, delimiter)"
-msgstr ""
+msgstr "Join (Text As String Array, sınırlandırıcı)"
 
 #: 03120315.xhp%23hd_id3150400.5.help.text
 msgctxt "03120315.xhp#hd_id3150400.5.help.text"
@@ -1233,7 +1242,7 @@ msgstr "Dönen değer:"
 #: 03120315.xhp%23par_id3150359.6.help.text
 msgctxt "03120315.xhp#par_id3150359.6.help.text"
 msgid "String"
-msgstr "Dizi"
+msgstr "Dizgi"
 
 #: 03120315.xhp%23hd_id3148798.7.help.text
 msgctxt "03120315.xhp#hd_id3148798.7.help.text"
@@ -1242,7 +1251,7 @@ msgstr "Parametreler:"
 
 #: 03120315.xhp%23par_id3145171.8.help.text
 msgid "<emph>Text:</emph> A string array."
-msgstr ""
+msgstr "<emph>Text:</emph> Bir dizgi dizilimi."
 
 #: 03120315.xhp%23par_id3154908.9.help.text
 msgid ""
