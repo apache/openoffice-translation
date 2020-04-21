@@ -2,23 +2,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+sfx2%2Fsource%2Fview"
-".oo&component=l10n&form_name=enter_issue\n"
-"POT-Creation-Date: 2020-01-17 14:38+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+sfx2%2Fsource%2Fview.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2020-04-21 07:26+0000\n"
 "PO-Revision-Date: 2020-01-31 20:28+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1580502492.000000\n"
 
+#: view.src#STR_NODEFPRINTER.string.text
 #: view.src%23STR_NODEFPRINTER.string.text
 msgid ""
 "No default printer found.\n"
@@ -27,6 +25,7 @@ msgstr ""
 "Bulunan varsayılan yazıcı yok.\n"
 "Lütfen bir yazıcı seçin ve tekrar deneyin."
 
+#: view.src#STR_NOSTARTPRINTER.string.text
 #: view.src%23STR_NOSTARTPRINTER.string.text
 msgid ""
 "Could not start printer.\n"
@@ -35,6 +34,7 @@ msgstr ""
 "Yazıcı çalıştırılamadı.\n"
 "Lütfen yazıcı yapılandırmanızı kontrol edin."
 
+#: view.src#STR_PRINTER_NOTAVAIL.string.text
 #: view.src%23STR_PRINTER_NOTAVAIL.string.text
 msgid ""
 "This document has been formatted for the printer $1. The specified printer "
@@ -44,38 +44,47 @@ msgstr ""
 "Bu belge $1 yazıcı için biçimlendirilmiş. Belirtilen yazıcı mevcut değil.\n"
 "$2 standart yazıcıyı kullanmak istiyor musunuz?"
 
+#: view.src#STR_PRINT_OPTIONS.string.text
 #: view.src%23STR_PRINT_OPTIONS.string.text
 msgid "Options..."
 msgstr "Seçenekler..."
 
+#: view.src#STR_PRINT_OPTIONS_TITLE.string.text
 #: view.src%23STR_PRINT_OPTIONS_TITLE.string.text
 msgid "Printer Options"
 msgstr "Yazıcı Seçenekleri"
 
+#: view.src#STR_ERROR_PRINTER_BUSY.string.text
 #: view.src%23STR_ERROR_PRINTER_BUSY.string.text
 msgid "Printer busy"
 msgstr "Yazıcı meşgul"
 
+#: view.src#STR_ERROR_PRINT.string.text
 #: view.src%23STR_ERROR_PRINT.string.text
 msgid "Error while printing"
 msgstr "Yazdırılırken hata oldu"
 
+#: view.src#STR_PRINTING.string.text
 #: view.src%23STR_PRINTING.string.text
 msgid "Printing"
 msgstr "Yazdırılıyor"
 
+#: view.src#STR_PAGE.string.text
 #: view.src%23STR_PAGE.string.text
 msgid "Page "
 msgstr "Sayfa "
 
+#: view.src#STR_ERROR_SAVE_TEMPLATE.string.text
 #: view.src%23STR_ERROR_SAVE_TEMPLATE.string.text
 msgid "Error saving template "
 msgstr "Şablon kaydedilirken hata oldu "
 
+#: view.src#STR_READONLY.string.text
 #: view.src%23STR_READONLY.string.text
 msgid " (read-only)"
 msgstr " (salt okunur)"
 
+#: view.src#STR_PRINT_NEWORI.string.text
 #: view.src%23STR_PRINT_NEWORI.string.text
 msgctxt "view.src#STR_PRINT_NEWORI.string.text"
 msgid ""
@@ -87,6 +96,7 @@ msgstr ""
 "Etkin belgedeki yeni ayarları kaydetmek ister\n"
 "misiniz?"
 
+#: view.src#STR_PRINT_NEWSIZE.string.text
 #: view.src%23STR_PRINT_NEWSIZE.string.text
 msgid ""
 "The page size has been modified.\n"
@@ -97,6 +107,7 @@ msgstr ""
 "Etkin belgedeki yeni ayarlar\n"
 "kaydedilsin mi?"
 
+#: view.src#STR_PRINT_NEWORISIZE.string.text
 #: view.src%23STR_PRINT_NEWORISIZE.string.text
 msgctxt "view.src#STR_PRINT_NEWORISIZE.string.text"
 msgid ""
@@ -108,6 +119,7 @@ msgstr ""
 "Etkin belgedeki yeni ayarları kaydetmek ister\n"
 "misiniz?"
 
+#: view.src#STR_PREVIEW_DOCINFO.string.text
 #: view.src%23STR_PREVIEW_DOCINFO.string.text
 msgid ""
 "<html><body BGCOLOR=\"#c0c0c0\"><font FACE=\"Arial\"><dl><dt><b>Title:</b><dd"
@@ -119,6 +131,7 @@ msgstr ""
 "Anahtar kelimeler:</b><dd>$(KEYWORDS)<dt><b>Açıklama:</b><dd>$(TEXT)</dl></fo"
 "nt></body></html>"
 
+#: view.src#STR_PREVIEW_NODOCINFO.string.text
 #: view.src%23STR_PREVIEW_NODOCINFO.string.text
 msgid ""
 "<HTML><BODY BGCOLOR=\"#c0c0c0\"><BR><BR><P><FONT FACE=\"Arial\"><B>No "
@@ -127,6 +140,7 @@ msgstr ""
 "<HTML><BODY BGCOLOR=\"#c0c0c0\"><BR><BR><P><FONT FACE=\"Arial\"><B>Bulunan "
 "belge özellikleri yok.</B></FONT></P></BODY></HTML>"
 
+#: view.src#MSG_CANT_CLOSE.infobox.text
 #: view.src%23MSG_CANT_CLOSE.infobox.text
 msgid ""
 "The document cannot be closed because a\n"
@@ -135,18 +149,22 @@ msgstr ""
 "Bir yazdırma işi yürütüldüğünden\n"
 "belge kapatılamaz."
 
+#: view.src#DLG_PRINTMONITOR_TEXT.#define.text
 #: view.src%23DLG_PRINTMONITOR_TEXT.%23define.text
 msgid "Print Monitor"
 msgstr "Yazdırma İzleyicisi"
 
+#: view.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
 #: view.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
 msgid "is being printed on"
 msgstr "yazdırma üzerinde"
 
+#: view.src#DLG_PRINTMONITOR.STR_FT_PREPARATION.string.text
 #: view.src%23DLG_PRINTMONITOR.STR_FT_PREPARATION.string.text
 msgid "is being prepared for printing"
 msgstr "yazdırma için hazırlanıyor"
 
+#: view.src#MSG_ERROR_SEND_MAIL.infobox.text
 #: view.src%23MSG_ERROR_SEND_MAIL.infobox.text
 msgid ""
 "An error occurred in sending the message. Possible errors could be a missing "
@@ -158,6 +176,7 @@ msgstr ""
 "Lütfen %PRODUCTNAME ayarlarını veya e-posta programı ayarlarınızı kontrol "
 "edin."
 
+#: view.src#MSG_QUERY_OPENASTEMPLATE.querybox.text
 #: view.src%23MSG_QUERY_OPENASTEMPLATE.querybox.text
 msgid ""
 "This document cannot be edited, possibly due to missing access rights. Do "
@@ -166,10 +185,12 @@ msgstr ""
 "Bu belge, muhtemelen eksik erişim haklarından dolayı düzenlenemez. Belgenin "
 "bir kopyasını düzenlemek istiyor musunuz?"
 
+#: view.src#STR_REPAIREDDOCUMENT.string.text
 #: view.src%23STR_REPAIREDDOCUMENT.string.text
 msgid " (repaired document)"
 msgstr " (onarılmış belge)"
 
+#: view.src#MSG_ERROR_NO_WEBBROWSER_FOUND.errorbox.text
 #: view.src%23MSG_ERROR_NO_WEBBROWSER_FOUND.errorbox.text
 msgid ""
 "%PRODUCTNAME could not find a web browser on your system. Please check your "
