@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?subcompon"
-"ent=ui&comment=&short_desc=Localization+issue+in+file%3A+swext%2Fmediawiki%2F"
-"src%2Fregistry%2Fdata%2Forg%2Fopenoffice%2FOffice%2FCustom.oo&component=l10n&"
-"form_name=enter_issue\n"
-"POT-Creation-Date: 2020-01-17 14:38+0200\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
+"component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
+"+swext%2Fmediawiki%2Fsrc%2Fregistry%2Fdata%2Forg%2Fopenoffice%2FOffice%2FCust"
+"om.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2020-04-21 07:26+0000\n"
 "PO-Revision-Date: 2018-12-07 06:53+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,13 +14,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.GeneralSendError.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.GeneralSendError.value.text
 msgid "The operation 'Send to MediaWiki' could not be completed successfully."
 msgstr "تعذر استكمال عملية \"الإرسال إلى MediaWiki\" بنجاح."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.NoWikiFilter.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.NoWikiFilter.value.text
 msgid ""
 "The MediaWiki export filter cannot be found. Choose 'Tools-XML Filter "
@@ -29,10 +31,12 @@ msgstr ""
 "لا يمكن العثور على عامل تصفية تصدير MediaWiki. اختر \"أدوات - إعدادات تصفية "
 "XML\" لتثبيت عامل التصفية، أو استخدم برنامج الإعداد لتثبيت المكون."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.NoConnectionToURL.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.NoConnectionToURL.value.text
 msgid "A connection to the MediaWiki system at '$ARG1' could not be created."
 msgstr "تعذر إنشاء اتصال بنظام MediaWiki عند '$ARG1'."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.WrongLogin.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.WrongLogin.value.text
 msgid ""
 "User name or password is incorrect. Please try again, or leave the fields "
@@ -41,68 +45,84 @@ msgstr ""
 "اسم المستخدم أو كلمة المرور غير صحيحة. الرجاء المحاولة مرة أخرى، أو ترك "
 "الحقول فارغة للاتصال المجهول."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.InvalidURL.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.InvalidURL.value.text
 msgid "A connection could not be created because the URL is invalid."
 msgstr "تعذر إنشاء اتصال نظرًا لكون عنوان URL غير صالح."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.NoURL.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.NoURL.value.text
 msgid "Specify a MediaWiki server by providing a URL."
 msgstr "حدد خادم MediaWiki من خلال إدخال عنوان URL."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.CancelSending.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.CancelSending.value.text
 msgid ""
 "The transfer has been interrupted. Please check the integrity of the wiki "
 "article."
 msgstr "تمت مقاطعة عملية النقل. الرجاء التحقق من تكامل مقالة wiki."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_UrlLabel.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_UrlLabel.value.text
 msgid "U~RL"
 msgstr "~عنوان URL"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_UsernameLabel.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_UsernameLabel.value.text
 msgid "~Username"
 msgstr "ا~سم المستخدم"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_PasswordLabel.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_PasswordLabel.value.text
 msgid "~Password"
 msgstr "~كلمة المرور"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendTitle.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendTitle.value.text
 msgid "Send to MediaWiki"
 msgstr "إرسال إلى MediaWiki"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_WikiArticle.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_WikiArticle.value.text
 msgid "Wiki article"
 msgstr "مقالة Wiki"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_No.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_No.value.text
 msgid "No"
 msgstr "لا"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_OK.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_OK.value.text
 msgid "OK"
 msgstr "موافق"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_Yes.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_Yes.value.text
 msgid "Yes"
 msgstr "نعم"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_AddButton.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_AddButton.value.text
 msgid "~Add..."
 msgstr "إ~ضافة..."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditButton.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditButton.value.text
 msgid "~Edit..."
 msgstr "ت~حرير..."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendButton.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendButton.value.text
 msgid "~Send"
 msgstr "إ~رسال"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_RemoveButton.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_RemoveButton.value.text
 msgid "~Remove"
 msgstr "إ~زالة"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_NewWikiPage_Label1.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_NewWikiPage_Label1.value.text
 msgid ""
 "A wiki article with the title '$ARG1' does not exist yet. Do you want to "
@@ -110,50 +130,62 @@ msgid ""
 msgstr ""
 "لا توجد بعد مقالة wiki بعنوان '$ARG1'. هل تريد إنشاء مقالة جديدة بذلك الاسم؟"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendToMediaWiki_Label1.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendToMediaWiki_Label1.value.text
 msgid "Media~Wiki Server"
 msgstr "خادم Media~Wiki"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendToMediaWiki_Label2.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendToMediaWiki_Label2.value.text
 msgid "~Title"
 msgstr "الع~نوان"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendToMediaWiki_Label3.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendToMediaWiki_Label3.value.text
 msgid "S~ummary"
 msgstr "المل~خص"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendToMediaWiki_MinorCheck.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendToMediaWiki_MinorCheck.value.text
 msgid "This is a ~minor edit"
 msgstr "يُعد ذلك ~ تحريرًا ثانويًا"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_SendToMediaWiki_BrowserCheck.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_SendToMediaWiki_BrowserCheck.value.text
 msgid "Show in web ~browser"
 msgstr "إظهار في مست~عرض ويب"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.UnknownCert.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.UnknownCert.value.text
 msgid "The certificate of the selected site is unknown."
 msgstr "شهادة الموقع المحدد غير معروفة."
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_MediaWiki_Title.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_MediaWiki_Title.value.text
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_AccountLine.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_AccountLine.value.text
 msgid "Account"
 msgstr "الحساب"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_WikiLine.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_WikiLine.value.text
 msgid "MediaWiki Server"
 msgstr "خادم MediaWiki "
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_EditSetting_SaveBox.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_EditSetting_SaveBox.value.text
 msgid "~Save password"
 msgstr "حفظ ~كلمة المرور"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_MediaWiki_Extension_String.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_MediaWiki_Extension_String.value.text
 msgid "@WIKIEXTENSIONPRODUCTNAME@"
 msgstr "@WIKIEXTENSIONPRODUCTNAME@"
 
+#: WikiExtension.xcu#.WikiExtension.Strings.Dlg_WikiPageExists_Label1.value.text
 #: WikiExtension.xcu%23.WikiExtension.Strings.Dlg_WikiPageExists_Label1.value.text
 msgid ""
 "A wiki article with the title '$ARG1' already exists.&#13;&#13;Do you want "
