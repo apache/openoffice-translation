@@ -7,15 +7,18 @@ msgstr ""
 "+instsetoo_native%2Finc_openoffice%2Fwindows%2Fmsi_languages.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2019-09-19 16:01+0000\n"
-"Last-Translator: Matthias <mseidel@apache.org>\n"
+"PO-Revision-Date: 2020-05-10 18:06+0000\n"
+"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1589133967.000000\n"
 
 #: SIS.ulf#OOO_SIS_TITLE.LngText.text
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
@@ -199,6 +202,8 @@ msgid ""
 "Cannot create the file [3]. A directory with this name already exists. "
 "Cancel the installation and try installing to a different location."
 msgstr ""
+"No es posible crear el archivo [3]. Ya hay un directorio con este nombre. "
+"Cancele la instalación e intente instalar el producto en otra ubicación."
 
 #: Error.ulf#OOO_ERROR_27.LngText.text
 #: Error.ulf%23OOO_ERROR_27.LngText.text
@@ -212,12 +217,17 @@ msgid ""
 "installation cannot continue.  Log on as an administrator or contact your "
 "system administrator."
 msgstr ""
+"El instalador carece de los privilegios necesarios para acceder a este "
+"directorio: [2]. La instalación no puede continuar. Inicie una sesión como "
+"administrador o póngase en contacto con el administrador del sistema."
 
 #: Error.ulf#OOO_ERROR_29.LngText.text
 #: Error.ulf%23OOO_ERROR_29.LngText.text
 msgid ""
 "Error writing to file [2]. Verify that you have access to that directory."
 msgstr ""
+"Se ha producido un error al escribir en el archivo [2]. Verifique que tiene "
+"derechos de acceso para ese directorio."
 
 #: Error.ulf#OOO_ERROR_30.LngText.text
 #: Error.ulf%23OOO_ERROR_30.LngText.text
@@ -225,6 +235,8 @@ msgid ""
 "Error reading from file [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
+"Se ha producido un error al leer el archivo [2]. Compruebe que el archivo "
+"existe y que es posible acceder a él."
 
 #: Error.ulf#OOO_ERROR_31.LngText.text
 #: Error.ulf%23OOO_ERROR_31.LngText.text
@@ -232,6 +244,8 @@ msgid ""
 "Another application has exclusive access to the file [2]. Please shut down "
 "all other applications, then click Retry."
 msgstr ""
+"Otra aplicación tiene acceso exclusivo al archivo [2]. Cierre todas las "
+"demás aplicaciones, y pulse Reintentar."
 
 #: Error.ulf#OOO_ERROR_32.LngText.text
 #: Error.ulf%23OOO_ERROR_32.LngText.text
@@ -239,6 +253,8 @@ msgid ""
 "There is not enough disk space to install the file [2]. Free some disk space "
 "and click Retry, or click Cancel to exit."
 msgstr ""
+"No hay espacio suficiente en el disco para instalar el archivo [2]. Libere "
+"algo de espacio y pulse Reintentar, o pulse Cancelar para salir."
 
 #: Error.ulf#OOO_ERROR_33.LngText.text
 #: Error.ulf%23OOO_ERROR_33.LngText.text
@@ -246,6 +262,8 @@ msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
 msgstr ""
+"No se ha encontrado el archivo de origen: [2]. Compruebe que el archivo "
+"existe y que puede obtener acceso a él."
 
 #: Error.ulf#OOO_ERROR_34.LngText.text
 #: Error.ulf%23OOO_ERROR_34.LngText.text
@@ -253,6 +271,8 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
+"Error al leer el archivo [3]. {{ Error del sistema [2].}} Compruebe que el "
+"archivo existe y que puede obtener acceso a él."
 
 #: Error.ulf#OOO_ERROR_35.LngText.text
 #: Error.ulf%23OOO_ERROR_35.LngText.text
@@ -260,6 +280,8 @@ msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that directory."
 msgstr ""
+"Error al escribir en el archivo [3]. {{ Error del sistema [2].}} Compruebe "
+"que dispone de acceso a ese directorio."
 
 #: Error.ulf#OOO_ERROR_36.LngText.text
 #: Error.ulf%23OOO_ERROR_36.LngText.text
@@ -274,11 +296,15 @@ msgid ""
 "Cannot create the directory [2]. A file with this name already exists. "
 "Please rename or remove the file and click Retry, or click Cancel to exit."
 msgstr ""
+"No se puede crear el directorio [2]. Ya existe un archivo con este nombre. "
+"Renombre o elimine el archivo y pulse Reintentar, o pulse Cancelar para "
+"salir."
 
 #: Error.ulf#OOO_ERROR_38.LngText.text
 #: Error.ulf%23OOO_ERROR_38.LngText.text
 msgid "The volume [2] is currently unavailable. Please select another."
 msgstr ""
+"El volumen [2] no está disponible en este momento. Seleccione otro volumen."
 
 #: Error.ulf#OOO_ERROR_39.LngText.text
 #: Error.ulf%23OOO_ERROR_39.LngText.text
@@ -372,6 +398,9 @@ msgid ""
 "Could not create key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede crear la clave [2]. {{ Error del sistema [3].}} Compruebe que "
+"dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
+"con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_55.LngText.text
 #: Error.ulf%23OOO_ERROR_55.LngText.text
@@ -379,6 +408,9 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede abrir la clave [2]. {{ Error del sistema [3].}} Compruebe que "
+"dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
+"con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_56.LngText.text
 #: Error.ulf%23OOO_ERROR_56.LngText.text
@@ -386,6 +418,9 @@ msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede eliminar el valor [2] de la clave [3]. {{Error del sistema [4].}}"
+" Compruebe que dispone de suficientes derechos de acceso a esa clave o "
+"póngase en contacto con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_57.LngText.text
 #: Error.ulf%23OOO_ERROR_57.LngText.text
@@ -393,6 +428,9 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede eliminar la clave [2]. {{Error del sistema [3].}} Compruebe que "
+"dispone de suficientes derechos de acceso a esa clave o póngase en contacto "
+"con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_58.LngText.text
 #: Error.ulf%23OOO_ERROR_58.LngText.text
@@ -400,6 +438,9 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede leer el valor [2] de la clave [3]. {{Error del sistema [4].}} "
+"Compruebe que dispone de suficientes derechos de acceso a esa clave o "
+"póngase en contacto con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_59.LngText.text
 #: Error.ulf%23OOO_ERROR_59.LngText.text
@@ -407,6 +448,9 @@ msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se puede escribir el valor [2] en la clave [3]. {{Error del sistema [4].}}"
+" Compruebe que dispone de suficientes derechos de acceso a esa clave o "
+"póngase en contacto con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_60.LngText.text
 #: Error.ulf%23OOO_ERROR_60.LngText.text
@@ -414,6 +458,9 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se pueden obtener los nombres de los valores para la clave [2]. {{Error "
+"del sistema [3].}} Compruebe que dispone de suficientes derechos de acceso a "
+"esa clave o póngase en contacto con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_61.LngText.text
 #: Error.ulf%23OOO_ERROR_61.LngText.text
@@ -421,6 +468,9 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"No se pueden obtener los nombres de las subclaves de la clave [2]. {{Error "
+"del sistema [3].}} Compruebe que dispone de suficientes derechos de acceso a "
+"esa clave o póngase en contacto con el personal de soporte técnico."
 
 #: Error.ulf#OOO_ERROR_62.LngText.text
 #: Error.ulf%23OOO_ERROR_62.LngText.text
@@ -478,6 +528,8 @@ msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
 "[4] KB. Free some disk space and retry."
 msgstr ""
+"Sin espacio en disco -- Volumen: '[2]'; espacio requerido: [3] KB; espacio "
+"disponible: [4] KB. Libere espacio en disco y vuelva a intentarlo."
 
 #: Error.ulf#OOO_ERROR_69.LngText.text
 #: Error.ulf%23OOO_ERROR_69.LngText.text
@@ -497,6 +549,8 @@ msgid ""
 "The product [2] is already installed, preventing the installation of this "
 "product. The two products are incompatible."
 msgstr ""
+"Este producto no se puede instalar porque el producto [2] ya está instalado. "
+"Estos productos son incompatibles."
 
 #: Error.ulf#OOO_ERROR_72.LngText.text
 #: Error.ulf%23OOO_ERROR_72.LngText.text
@@ -506,6 +560,10 @@ msgid ""
 "quit, Retry to check available disk space again, or Ignore to continue "
 "without rollback."
 msgstr ""
+"Sin espacio en disco -- Volumen: [2]; espacio requerido: [3] KB; espacio "
+"disponible: [4] KB. Si la restauración está desactivada, hay espacio "
+"suficiente. Pulse Cancelar para salir, Reintentar para comprobar de nuevo el "
+"espacio disponible, o Ignorar para continuar sin la restauración."
 
 #: Error.ulf#OOO_ERROR_73.LngText.text
 #: Error.ulf%23OOO_ERROR_73.LngText.text
@@ -534,6 +592,7 @@ msgstr ""
 #: Error.ulf%23OOO_ERROR_76.LngText.text
 msgid "The key [2] is not valid. Verify that you entered the correct key."
 msgstr ""
+"La clave [2] no es válida. Compruebe si la ha introducido correctamente."
 
 #: Error.ulf#OOO_ERROR_77.LngText.text
 #: Error.ulf%23OOO_ERROR_77.LngText.text
@@ -573,6 +632,8 @@ msgid ""
 "No valid source could be found for product [2]. The Windows Installer cannot "
 "continue."
 msgstr ""
+"No se ha encontrado un origen válido para el producto [2]. El instalador de "
+"Windows no puede continuar."
 
 #: Error.ulf#OOO_ERROR_82.LngText.text
 #: Error.ulf%23OOO_ERROR_82.LngText.text
