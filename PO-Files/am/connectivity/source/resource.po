@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-05-16 16:09+0000\n"
+"PO-Revision-Date: 2020-05-24 17:47+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1589645398.000000\n"
+"X-POOTLE-MTIME: 1590342468.000000\n"
 
 #: conn_shared_res.src#STR_MOZILLA_ADDRESSBOOKS.string.text
 #: conn_shared_res.src%23STR_MOZILLA_ADDRESSBOOKS.string.text
@@ -170,12 +170,12 @@ msgstr ""
 #: conn_shared_res.src#STR_ROW_CAN_NOT_SAVE.string.text
 #: conn_shared_res.src%23STR_ROW_CAN_NOT_SAVE.string.text
 msgid "The current row can not be saved."
-msgstr ""
+msgstr "የ አሁኑን ረድፍ ማስቀመጥ አይቻልም"
 
 #: conn_shared_res.src#STR_NO_HOSTNAME.string.text
 #: conn_shared_res.src%23STR_NO_HOSTNAME.string.text
 msgid "No hostname was provided."
-msgstr ""
+msgstr "የ ጋባዥ ስም አልቀረበም"
 
 #: conn_shared_res.src#STR_NO_BASEDN.string.text
 #: conn_shared_res.src%23STR_NO_BASEDN.string.text
@@ -190,7 +190,7 @@ msgstr ""
 #: conn_shared_res.src#STR_NO_CONNECTION_GIVEN.string.text
 #: conn_shared_res.src%23STR_NO_CONNECTION_GIVEN.string.text
 msgid "It doesn't exist a connection to the database."
-msgstr ""
+msgstr "ወደ ዳታቤዝ ግንኙነት ቀደም ሲል አልነበረም"
 
 #: conn_shared_res.src#STR_WRONG_PARAM_INDEX.string.text
 #: conn_shared_res.src%23STR_WRONG_PARAM_INDEX.string.text
@@ -215,7 +215,7 @@ msgstr ""
 #: conn_shared_res.src#STR_NO_ELEMENT_NAME.string.text
 #: conn_shared_res.src%23STR_NO_ELEMENT_NAME.string.text
 msgid "There is no element named '$name$'."
-msgstr ""
+msgstr "በዚህ ስም የተሰየመ አካል የለም '$name$'."
 
 #: conn_shared_res.src#STR_INVALID_BOOKMARK.string.text
 #: conn_shared_res.src%23STR_INVALID_BOOKMARK.string.text
@@ -235,12 +235,12 @@ msgstr ""
 #: conn_shared_res.src#STR_UNKNOWN_COLUMN_NAME.string.text
 #: conn_shared_res.src%23STR_UNKNOWN_COLUMN_NAME.string.text
 msgid "The column name '$columnname$' is unknown."
-msgstr ""
+msgstr "የ አምዱ ስም '$columnname$' ያልታወቀ ነው"
 
 #: conn_shared_res.src#STR_ERRORMSG_SEQUENCE.string.text
 #: conn_shared_res.src%23STR_ERRORMSG_SEQUENCE.string.text
 msgid "Function sequence error."
-msgstr ""
+msgstr "የ ተግባር ቅደም ተከተል ስህተት"
 
 #: conn_shared_res.src#STR_INVALID_INDEX.string.text
 #: conn_shared_res.src%23STR_INVALID_INDEX.string.text
@@ -285,12 +285,12 @@ msgstr ""
 #: conn_shared_res.src#STR_QUERY_TOO_COMPLEX.string.text
 #: conn_shared_res.src%23STR_QUERY_TOO_COMPLEX.string.text
 msgid "The query can not be executed. It is too complex."
-msgstr ""
+msgstr "ጥያቄውን መፈጸም አልተቻለም: በጣም ውስብስብ ነው"
 
 #: conn_shared_res.src#STR_OPERATOR_TOO_COMPLEX.string.text
 #: conn_shared_res.src%23STR_OPERATOR_TOO_COMPLEX.string.text
 msgid "The query can not be executed. The operator is too complex."
-msgstr ""
+msgstr "ጥያቄውን መፈጸም አልተቻለም: አንቀሳቃሹ በጣም ውስብስብ ነው"
 
 #: conn_shared_res.src#STR_QUERY_INVALID_LIKE_COLUMN.string.text
 #: conn_shared_res.src%23STR_QUERY_INVALID_LIKE_COLUMN.string.text
@@ -328,7 +328,7 @@ msgstr ""
 #: conn_shared_res.src#STR_INVALID_COLUMNNAME.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMNNAME.string.text
 msgid "The column name '$columnname$' is not valid."
-msgstr ""
+msgstr "የ አምዱ ስም '$columnname$' ዋጋ የለውም"
 
 #: conn_shared_res.src#STR_INVALID_COLUMN_SELECTION.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_SELECTION.string.text
@@ -343,7 +343,7 @@ msgstr ""
 #: conn_shared_res.src#STR_COULD_NOT_LOAD_FILE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_LOAD_FILE.string.text
 msgid "The file $filename$ could not be loaded."
-msgstr ""
+msgstr "ፋይሉን $filename$ መጫን አይቻልም"
 
 #: conn_shared_res.src#STR_LOAD_FILE_ERROR_MESSAGE.string.text
 #: conn_shared_res.src%23STR_LOAD_FILE_ERROR_MESSAGE.string.text
@@ -353,93 +353,96 @@ msgid ""
 "\n"
 "$error_message$"
 msgstr ""
+"ፋይሉን ለ መጫን የተደረገው ሙከራ የሚከተለውን የ ስህተት መልእክት ፈጥሯል($exception_type$):\n"
+"\n"
+"$error_message$"
 
 #: conn_shared_res.src#STR_TYPE_NOT_CONVERT.string.text
 #: conn_shared_res.src%23STR_TYPE_NOT_CONVERT.string.text
 msgid "The type could not be converted."
-msgstr ""
+msgstr "ይህን አይነት መቀየር አይቻልም"
 
 #: conn_shared_res.src#STR_INVALID_COLUMN_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_DESCRIPTOR_ERROR.string.text
 msgid "Could not append column: invalid column descriptor."
-msgstr ""
+msgstr "አምድ መጨመር አልተቻለም: ዋጋ የሌለው መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_GROUP_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_GROUP_DESCRIPTOR_ERROR.string.text
 msgid "Could not create group: invalid object descriptor."
-msgstr ""
+msgstr "ቡድን መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_INDEX_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_INDEX_DESCRIPTOR_ERROR.string.text
 msgid "Could not create index: invalid object descriptor."
-msgstr ""
+msgstr "ማውጫ መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_KEY_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_KEY_DESCRIPTOR_ERROR.string.text
 msgid "Could not create key: invalid object descriptor."
-msgstr ""
+msgstr "ቁልፍ መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_TABLE_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_TABLE_DESCRIPTOR_ERROR.string.text
 msgid "Could not create table: invalid object descriptor."
-msgstr ""
+msgstr "ሰንጠረዥ መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_USER_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_USER_DESCRIPTOR_ERROR.string.text
 msgid "Could not create user: invalid object descriptor."
-msgstr ""
+msgstr "ተጠቃሚ መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_INVALID_VIEW_DESCRIPTOR_ERROR.string.text
 #: conn_shared_res.src%23STR_INVALID_VIEW_DESCRIPTOR_ERROR.string.text
 msgid "Could not create view: invalid object descriptor."
-msgstr ""
+msgstr "መመልከቻ መፍጠር አልተቻለም: ዋጋ የሌለው የ እቃ መግለጫ"
 
 #: conn_shared_res.src#STR_VIEW_NO_COMMAND_ERROR.string.text
 #: conn_shared_res.src%23STR_VIEW_NO_COMMAND_ERROR.string.text
 msgid "Could not create view: no command object."
-msgstr ""
+msgstr "መመልከቻ መፍጠር አልተቻለም: የ ትእዛዝ እቃ የለም"
 
 #: conn_shared_res.src#STR_NO_CONNECTION.string.text
 #: conn_shared_res.src%23STR_NO_CONNECTION.string.text
 msgid ""
 "The connection could not be created. May be the necessary data provider is "
 "not installed."
-msgstr ""
+msgstr "ግንኙነቱን መፍጠር አልተቻለም: ምናልባት አስፈላጊው የ ዳታ አቅራቢ አልተገጠመ ይሆናል"
 
 #: conn_shared_res.src#STR_COULD_NOT_DELETE_INDEX.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_DELETE_INDEX.string.text
 msgid ""
 "The index could not be deleted. An unknown error while accessing the file "
 "system occurred."
-msgstr ""
+msgstr "ማውጫውን ማጥፋት አይቻልም: ፋይሉ ጋር ለመድረስ ሲሞከር ያልታወቀ ስህተት ተፈጥሯል"
 
 #: conn_shared_res.src#STR_ONL_ONE_COLUMN_PER_INDEX.string.text
 #: conn_shared_res.src%23STR_ONL_ONE_COLUMN_PER_INDEX.string.text
 msgid "The index could not be created. Only one column per index is allowed."
-msgstr ""
+msgstr "ማውጫውን መፍጠር አልተቻለም: አንድ አምድ ብቻ ነው በ ማውጫው የሚፈቀደው"
 
 #: conn_shared_res.src#STR_COULD_NOT_CREATE_INDEX_NOT_UNIQUE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_CREATE_INDEX_NOT_UNIQUE.string.text
 msgid "The index could not be created. The values are not unique."
-msgstr ""
+msgstr "ማውጫውን መፍጠር አልተቻለም: ዋጋዎቹ ልዩ አይደሉም"
 
 #: conn_shared_res.src#STR_COULD_NOT_CREATE_INDEX.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_CREATE_INDEX.string.text
 msgid "The index could not be created. An unknown error appeared."
-msgstr ""
+msgstr "ማውጫውን መፍጠር አልተቻለም: ያልታወቀ ስህተት ተፈጥሯል"
 
 #: conn_shared_res.src#STR_COULD_NOT_CREATE_INDEX_NAME.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_CREATE_INDEX_NAME.string.text
 msgid ""
 "The index could not be created. The file '$filename$' is used by an other "
 "index."
-msgstr ""
+msgstr "ማውጫውን መፍጠር አልተቻለም: ፋይሉን '$filename$' ሌላ ማውጫ እየተጠቀመበት ነው"
 
 #: conn_shared_res.src#STR_COULD_NOT_CREATE_INDEX_KEYSIZE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_CREATE_INDEX_KEYSIZE.string.text
 msgid ""
 "The index could not be created. The size of the chosen column is too big."
-msgstr ""
+msgstr "ማውጫውን መፍጠር አልተቻለም: የተመረጠው አምድ በጣም ትልቅ ነው"
 
 #: conn_shared_res.src#STR_SQL_NAME_ERROR.string.text
 #: conn_shared_res.src%23STR_SQL_NAME_ERROR.string.text
@@ -449,17 +452,17 @@ msgstr ""
 #: conn_shared_res.src#STR_COULD_NOT_DELETE_FILE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_DELETE_FILE.string.text
 msgid "The file $filename$ could not be deleted."
-msgstr ""
+msgstr "ፋይሉን $filename$ ማጥፋት አይቻልም"
 
 #: conn_shared_res.src#STR_INVALID_COLUMN_TYPE.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_TYPE.string.text
 msgid "Invalid column type for column '$columnname$'."
-msgstr ""
+msgstr "ዋጋ የሌለው የ አምድ አይነት ለ አምድ '$columnname$'"
 
 #: conn_shared_res.src#STR_INVALID_COLUMN_PRECISION.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_PRECISION.string.text
 msgid "Invalid precision for column '$columnname$'."
-msgstr ""
+msgstr "ዋጋ የሌለው ትክክለኛነት ለ አምድ '$columnname$'."
 
 #: conn_shared_res.src#STR_INVALID_PRECISION_SCALE.string.text
 #: conn_shared_res.src%23STR_INVALID_PRECISION_SCALE.string.text
@@ -533,34 +536,34 @@ msgstr ""
 #: conn_shared_res.src#STR_CANNOT_OPEN_BOOK.string.text
 #: conn_shared_res.src%23STR_CANNOT_OPEN_BOOK.string.text
 msgid "Cannot open Evolution address book."
-msgstr ""
+msgstr "የ ኢቮሊሽን አድራሻ ደብተር መክፈት አልተቻለም"
 
 #: conn_shared_res.src#STR_SORT_BY_COL_ONLY.string.text
 #: conn_shared_res.src%23STR_SORT_BY_COL_ONLY.string.text
 msgid "Can only sort by table columns."
-msgstr ""
+msgstr "መለየት የሚቻለው በ ሰንጠረዥ አምዶች ብቻ ነው"
 
 #: conn_shared_res.src#STR_QUERY_COMPLEX_COUNT.string.text
 #: conn_shared_res.src%23STR_QUERY_COMPLEX_COUNT.string.text
 msgid ""
 "The query can not be executed. It is too complex. Only \"COUNT(*)\" is "
 "supported."
-msgstr ""
+msgstr "ጥያቄውን መፈጸም አይቻልም: በጣም ውስብስብ ነው: ይህ ብቻ \"COUNT(*)\" ነው የተደገፈው"
 
 #: conn_shared_res.src#STR_QUERY_INVALID_BETWEEN.string.text
 #: conn_shared_res.src%23STR_QUERY_INVALID_BETWEEN.string.text
 msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
-msgstr ""
+msgstr "ጥያቄውን መፈጸም አይቻልም: The 'BETWEEN' arguments are not correct."
 
 #: conn_shared_res.src#STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 #: conn_shared_res.src%23STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 msgid "The query can not be executed. The function is not supported."
-msgstr ""
+msgstr "ጥያቄውን መፈጸም አይቻልም: ተግባሩ የተደገፈ አይደለም"
 
 #: conn_shared_res.src#STR_TABLE_READONLY.string.text
 #: conn_shared_res.src%23STR_TABLE_READONLY.string.text
 msgid "The table can not be changed. It is read only."
-msgstr ""
+msgstr "ሰንጠረዡን መቀየር አይቻልም: ለ ንባብ ብቻ ነው"
 
 #: conn_shared_res.src#STR_DELETE_ROW.string.text
 #: conn_shared_res.src%23STR_DELETE_ROW.string.text
@@ -668,7 +671,7 @@ msgstr ""
 #: conn_shared_res.src#STR_NO_TABLE.string.text
 #: conn_shared_res.src%23STR_NO_TABLE.string.text
 msgid "No such table!"
-msgstr ""
+msgstr "እንዲህ አይነት ሰንጠረዥ የለም!"
 
 #: conn_shared_res.src#STR_NO_MAC_OS_FOUND.string.text
 #: conn_shared_res.src%23STR_NO_MAC_OS_FOUND.string.text
@@ -773,9 +776,9 @@ msgstr ""
 #: conn_error_message.src#256___2_500___0.string.text
 #: conn_error_message.src%23256___2_500___0.string.text
 msgid "No $1$ exists."
-msgstr ""
+msgstr "አይ $1$ አልተገኘም"
 
 #: conn_error_message.src#256___2_550___0.string.text
 #: conn_error_message.src%23256___2_550___0.string.text
 msgid "Unable to display the complete table content. Please apply a filter."
-msgstr ""
+msgstr "ሙሉ የ ሰንጠረዡን ይዞታ ማሳየት አልተቻለም: እባክዎን ማጣሪያ ይጠቀሙ"
