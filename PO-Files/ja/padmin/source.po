@@ -6,15 +6,18 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+padmin%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-18 11:57+0000\n"
-"PO-Revision-Date: 2019-07-09 00:04+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2020-05-31 15:16+0000\n"
+"Last-Translator: Tsutomu Uchino <hanya.runo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1590938207.000000\n"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
@@ -60,7 +63,7 @@ msgid ""
 "Do you really want to overwrite this font file?\n"
 "   %s"
 msgstr ""
-"次のフォントファイルを上書きしますか。\n"
+"次のフォントファイルを上書きしますか?\n"
 "   %s"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_STR_OVERWRITEALL.string.text
@@ -331,7 +334,7 @@ msgstr "正しくない環境"
 #: padialog.src#RID_YOU_SURE.string.text
 #: padialog.src%23RID_YOU_SURE.string.text
 msgid "Are you sure ?"
-msgstr "これでいいですか。"
+msgstr "これでいいですか?"
 
 #: padialog.src#RID_AFMERROR_OK.string.text
 #: padialog.src%23RID_AFMERROR_OK.string.text
@@ -428,7 +431,7 @@ msgstr "ドライバの選択(~S)"
 #: padialog.src#RID_PPDIMPORT_DLG.RID_PPDIMP_TXT_DRIVER.fixedtext.text
 #: padialog.src%23RID_PPDIMPORT_DLG.RID_PPDIMP_TXT_DRIVER.fixedtext.text
 msgid "Please select the drivers to install and press \"%s\"."
-msgstr "ドライブを選択して、［%s］ボタンを押してください。"
+msgstr "ドライブを選択して、[%s]ボタンを押してください。"
 
 #: padialog.src#RID_PPDIMPORT_DLG.RID_PPDIMP_STR_LOADINGPPD.string.text
 #: padialog.src%23RID_PPDIMPORT_DLG.RID_PPDIMP_STR_LOADINGPPD.string.text
@@ -443,24 +446,24 @@ msgstr "ドライバのインストール"
 #: padialog.src#RID_QUERY_REMOVEDRIVER.string.text
 #: padialog.src%23RID_QUERY_REMOVEDRIVER.string.text
 msgid "Do you really want to remove the driver \"%s\"?"
-msgstr "本当にドライバ \"%s\" を削除してもいいですか。"
+msgstr "本当にドライバ \"%s\" を削除してもいいですか?"
 
 #: padialog.src#RID_QUERY_REMOVEPRINTER.string.text
 #: padialog.src%23RID_QUERY_REMOVEPRINTER.string.text
 msgid "Do you really want to remove this printer ?"
-msgstr "本当にこのプリンタを削除してもいいですか。"
+msgstr "本当にこのプリンタを削除してもいいですか?"
 
 #: padialog.src#RID_QUERY_REMOVEFONTFROMLIST.string.text
 #: padialog.src%23RID_QUERY_REMOVEFONTFROMLIST.string.text
 msgid "Do you really want to remove the selected fonts ?"
-msgstr "本当に選択したフォントを削除してもいいですか。"
+msgstr "本当に選択したフォントを削除してもいいですか?"
 
 #: padialog.src#RID_QUERY_DRIVERUSED.string.text
 #: padialog.src%23RID_QUERY_DRIVERUSED.string.text
 msgid ""
 "There are still printers using the driver \"%s\". Do you really want to "
 "remove it? The corresponding printers will also be removed."
-msgstr "まだドライバ \"%s\" を使用しているプリンタがあります。このドライブを削除してかまいませんか。同時にプリンタも削除されてしまいます。"
+msgstr "まだドライバ \"%s\" を使用しているプリンタがあります。このドライブを削除してかまいませんか? 同時にプリンタも削除されてしまいます。"
 
 #: padialog.src#RID_ERR_REMOVESGENPRT.string.text
 #: padialog.src%23RID_ERR_REMOVESGENPRT.string.text
@@ -476,7 +479,6 @@ msgid ""
 "%s2."
 msgstr ""
 "ドライバ \"%s1\" は削除できませんでした。ファイル\n"
-"\n"
 "%s2\n"
 "\n"
 "の削除は不可能でした。"

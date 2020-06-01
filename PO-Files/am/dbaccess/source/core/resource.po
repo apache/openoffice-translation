@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fcore%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-05-27 13:07+0000\n"
+"PO-Revision-Date: 2020-05-31 20:20+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1590584834.000000\n"
+"X-POOTLE-MTIME: 1590956454.000000\n"
 
 #: strings.src#RID_STR_TRIED_OPEN_TABLE.string.text
 #: strings.src%23RID_STR_TRIED_OPEN_TABLE.string.text
@@ -48,20 +48,22 @@ msgid ""
 "The connection to the external data source could not be established. An "
 "unknown error occurred. The driver is probably defective."
 msgstr ""
+"ለ ውስጥ ዳታ ምንጭ ግንኙነት መፍጠር አልተቻለም: ያልታወቀ ስህተት ተፈጥሯል: ምናልባት የ driver ብልሽት ሊሆን "
+"ይችላል:"
 
 #: strings.src#RID_STR_COULDNOTCONNECT_NODRIVER.string.text
 #: strings.src%23RID_STR_COULDNOTCONNECT_NODRIVER.string.text
 msgid ""
 "The connection to the external data source could not be established. No SDBC "
 "driver was found for the given URL."
-msgstr ""
+msgstr "ለ ውስጥ ዳታ ምንጭ ግንኙነት መፍጠር አልተቻለም: በተሰጠው URL የ SDBC driver አልተገኘም"
 
 #: strings.src#RID_STR_COULDNOTLOAD_MANAGER.string.text
 #: strings.src%23RID_STR_COULDNOTLOAD_MANAGER.string.text
 msgid ""
 "The connection to the external data source could not be established. The "
 "SDBC driver manager could not be loaded."
-msgstr ""
+msgstr "ለ ውስጥ ዳታ ምንጭ ግንኙነት መፍጠር አልተቻለም: የ SDBC driver አስተዳዳሪን መጫን አልተቻለም"
 
 #: strings.src#RID_STR_FORM.string.text
 #: strings.src%23RID_STR_FORM.string.text
@@ -78,7 +80,7 @@ msgstr "መግለጫ"
 msgid ""
 "The data source was not saved. Please use the interface XStorable to save "
 "the data source."
-msgstr ""
+msgstr "የ ዳታ ምንጩ አልተቀመጠም: እባክዎን ግንኙነቱን ይጠቀሙ የ XStorable የ ዳታ ምንጩን ለማስቀመጥ"
 
 #: strings.src#RID_STR_ONLY_QUERY.string.text
 #: strings.src%23RID_STR_ONLY_QUERY.string.text
@@ -86,6 +88,8 @@ msgid ""
 "The given command is not a SELECT statement.\n"
 "Only queries are allowed."
 msgstr ""
+"የተሰጠው ትእዛዝ የ SELECT አነጋገር አይደለም\n"
+"የተፈቀደው ለ ጥያቄ ብቻ ነው"
 
 #: strings.src#RID_STR_NO_VALUE_CHANGED.string.text
 #: strings.src%23RID_STR_NO_VALUE_CHANGED.string.text
@@ -97,19 +101,19 @@ msgstr "ምንም የተሻሻለ ዋጋ የለም"
 msgid ""
 "Values could not be inserted. The XRowUpdate interface is not supported by "
 "ResultSet."
-msgstr ""
+msgstr "ዋጋዎቹን ማስገባት አልተቻለም የ XRow ማሻሻያ ግንኙነት የተደገፈ አይደለም በ ውጤት ማሰናጃው"
 
 #: strings.src#RID_STR_NO_XRESULTSETUPDATE.string.text
 #: strings.src%23RID_STR_NO_XRESULTSETUPDATE.string.text
 msgid ""
 "Values could not be inserted. The XResultSetUpdate interface is not "
 "supported by ResultSet."
-msgstr ""
+msgstr "ዋጋዎቹን ማስገባት አልተቻለም የ XResultSetUpdate ግንኙነት የተደገፈ አይደለም በ ውጤት ማሰናጃው"
 
 #: strings.src#RID_STR_NO_UPDATE_MISSING_CONDITION.string.text
 #: strings.src%23RID_STR_NO_UPDATE_MISSING_CONDITION.string.text
 msgid "Values could not be modified, due to a missing condition statement."
-msgstr ""
+msgstr "ዋጋዎቹን ማሻሻል አይቻልም በ ጎደሉ ሁኔታዎች አነጋገር"
 
 #: strings.src#RID_STR_NO_COLUMN_ADD.string.text
 #: strings.src%23RID_STR_NO_COLUMN_ADD.string.text
@@ -198,26 +202,26 @@ msgstr "ረድፉ በዚህ ሁኔታ ሊጠፋ አይችልም"
 #: strings.src#RID_STR_NO_TABLE_RENAME.string.text
 #: strings.src%23RID_STR_NO_TABLE_RENAME.string.text
 msgid "The driver does not support table renaming."
-msgstr ""
+msgstr "ሰንጠረዥ እንደገና መሰየምን driver አይደግፍም"
 
 #: strings.src#RID_STR_NO_ALTER_COLUMN_DEF.string.text
 #: strings.src%23RID_STR_NO_ALTER_COLUMN_DEF.string.text
 msgid "The driver does not support the modification of column descriptions."
-msgstr ""
+msgstr "የ አምድን መግለጫዎች ማሻሻል driver አይደግፍም"
 
 #: strings.src#RID_STR_COLUMN_ALTER_BY_NAME.string.text
 #: strings.src%23RID_STR_COLUMN_ALTER_BY_NAME.string.text
 msgid ""
 "The driver does not support the modification of column descriptions by "
 "changing the name."
-msgstr ""
+msgstr "የ አምድን መግለጫዎች ማሻሻል driver አይደግፍም ስሙን በመቀየር"
 
 #: strings.src#RID_STR_COLUMN_ALTER_BY_INDEX.string.text
 #: strings.src%23RID_STR_COLUMN_ALTER_BY_INDEX.string.text
 msgid ""
 "The driver does not support the modification of column descriptions by "
 "changing the index."
-msgstr ""
+msgstr "የ አምድን መግለጫዎች ማሻሻል driver አይደግፍም ማውጫውን በመቀየር"
 
 #: strings.src#RID_STR_FILE_DOES_NOT_EXIST.string.text
 #: strings.src%23RID_STR_FILE_DOES_NOT_EXIST.string.text
@@ -241,6 +245,8 @@ msgid ""
 "existing queries. To make full use of all queries and tables, make sure they "
 "have distinct names."
 msgstr ""
+"አንዳንድ ዳታቤዝ ውስጥ ያሉ ሰንጠረዦች ስማቸው አሁን ካለው ጥያቄ ጋር ይጋጫል: በሙሉ ለመጠቀም ጥያቄዎቹን እና "
+"ሰንጠረዦቹን የተለያየ ስም እንዳላቸው ያረጋግጡ"
 
 #: strings.src#RID_STR_COMMAND_LEADING_TO_ERROR.string.text
 #: strings.src%23RID_STR_COMMAND_LEADING_TO_ERROR.string.text
@@ -249,11 +255,14 @@ msgid ""
 "\n"
 "$command$"
 msgstr ""
+"የ SQL ትእዛዝ ወደዚህ ስህተት ይመራል:\n"
+"\n"
+"$command$"
 
 #: strings.src#RID_STR_STATEMENT_WITHOUT_RESULT_SET.string.text
 #: strings.src%23RID_STR_STATEMENT_WITHOUT_RESULT_SET.string.text
 msgid "The SQL command does not describe a result set."
-msgstr ""
+msgstr "የ SQL ትእዛዝ የ ውጤት ማሰናጃ አይገልጽም"
 
 #: strings.src#RID_STR_NAME_MUST_NOT_BE_EMPTY.string.text
 #: strings.src%23RID_STR_NAME_MUST_NOT_BE_EMPTY.string.text
