@@ -7,7 +7,7 @@ msgstr ""
 "+instsetoo_native%2Finc_openoffice%2Fwindows%2Fmsi_languages.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2020-04-20 20:07+0000\n"
-"PO-Revision-Date: 2020-05-31 15:09+0000\n"
+"PO-Revision-Date: 2020-06-01 04:48+0000\n"
 "Last-Translator: Tsutomu Uchino <hanya.runo@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1590937784.000000\n"
+"X-POOTLE-MTIME: 1590986898.000000\n"
 
 #: SIS.ulf#OOO_SIS_TITLE.LngText.text
 #: SIS.ulf%23OOO_SIS_TITLE.LngText.text
@@ -197,7 +197,7 @@ msgstr ""
 msgid ""
 "Cannot create the file [3]. A directory with this name already exists. "
 "Cancel the installation and try installing to a different location."
-msgstr ""
+msgstr "ファイル [3] を作成できません。同じ名前のディレクトリがすでに存在します。インストールを取り消して、別の場所へインストールしてください。"
 
 #: Error.ulf#OOO_ERROR_27.LngText.text
 #: Error.ulf%23OOO_ERROR_27.LngText.text
@@ -211,19 +211,21 @@ msgid ""
 "installation cannot continue.  Log on as an administrator or contact your "
 "system administrator."
 msgstr ""
+"インストーラーにはディレクトリ [2] "
+"にアクセスするための十分な特権がありません。インストールを続行できません。管理者としてログオンするか、またはシステム管理者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_29.LngText.text
 #: Error.ulf%23OOO_ERROR_29.LngText.text
 msgid ""
 "Error writing to file [2]. Verify that you have access to that directory."
-msgstr ""
+msgstr "ファイル [2] への書き込みでエラーが発生しました。このディレクトリへのアクセス権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_30.LngText.text
 #: Error.ulf%23OOO_ERROR_30.LngText.text
 msgid ""
 "Error reading from file [2]. Verify that the file exists and that you can "
 "access it."
-msgstr ""
+msgstr "ファイル [2] からの読み取りでエラーが発生しました。ファイルが存在し、このファイルにアクセスできるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_31.LngText.text
 #: Error.ulf%23OOO_ERROR_31.LngText.text
@@ -231,6 +233,7 @@ msgid ""
 "Another application has exclusive access to the file [2]. Please shut down "
 "all other applications, then click Retry."
 msgstr ""
+"ほかのアプリケーションがファイル [2] を排他的に使用しています。ほかのアプリケーションをすべて終了してから、「再試行」をクリックしてください。"
 
 #: Error.ulf#OOO_ERROR_32.LngText.text
 #: Error.ulf%23OOO_ERROR_32.LngText.text
@@ -238,13 +241,15 @@ msgid ""
 "There is not enough disk space to install the file [2]. Free some disk space "
 "and click Retry, or click Cancel to exit."
 msgstr ""
+"ディスク領域が足りないため、ファイル [2] "
+"をインストールできません。ディスク領域を解放してから、「再試行」をクリックしてください。終了する場合は「キャンセル」をクリックします。"
 
 #: Error.ulf#OOO_ERROR_33.LngText.text
 #: Error.ulf%23OOO_ERROR_33.LngText.text
 msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
-msgstr ""
+msgstr "ソースファイル [2] が見つかりませんでした。ファイルが存在し、このファイルにアクセスできるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_34.LngText.text
 #: Error.ulf%23OOO_ERROR_34.LngText.text
@@ -252,13 +257,15 @@ msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
 msgstr ""
+"ファイル [3] からの読み込みに失敗しました。{{ システム エラー [2]。}} "
+"ファイルが存在するかどうか、およびこのファイルへのアクセス権があるかどうかを確認してください。"
 
 #: Error.ulf#OOO_ERROR_35.LngText.text
 #: Error.ulf%23OOO_ERROR_35.LngText.text
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that directory."
-msgstr ""
+msgstr "ファイル [3] への書き込みに失敗しました。{{ システム エラー[2]。}} このディレクトリへのアクセス権があることを確認してください。"
 
 #: Error.ulf#OOO_ERROR_36.LngText.text
 #: Error.ulf%23OOO_ERROR_36.LngText.text
@@ -266,6 +273,8 @@ msgid ""
 "Source file not found{{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
 msgstr ""
+"ソース ファイルが見つかりません。{{(cabinet)}} : [2]。 "
+"ファイルが存在するかどうか、およびこのファイルへのアクセス権があるかどうかを確認してください。"
 
 #: Error.ulf#OOO_ERROR_37.LngText.text
 #: Error.ulf%23OOO_ERROR_37.LngText.text
@@ -273,11 +282,13 @@ msgid ""
 "Cannot create the directory [2]. A file with this name already exists. "
 "Please rename or remove the file and click Retry, or click Cancel to exit."
 msgstr ""
+"ディレクトリ '[2]' を作成できません。この名前を持つファイルがすでに存在しています。ファイルの名前を変更するか、削除してから、「再試行」をクリックし"
+"てください。または「キャンセル」をクリックして、終了してください。"
 
 #: Error.ulf#OOO_ERROR_38.LngText.text
 #: Error.ulf%23OOO_ERROR_38.LngText.text
 msgid "The volume [2] is currently unavailable. Please select another."
-msgstr ""
+msgstr "ボリューム [2] は現在使用できません。別のボリュームを選択してください。"
 
 #: Error.ulf#OOO_ERROR_39.LngText.text
 #: Error.ulf%23OOO_ERROR_39.LngText.text
@@ -358,6 +369,8 @@ msgid ""
 "means, and can no longer be modified by this patch.  For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
+"ファイル [2] にパッチを適用する時にエラーが発生しました。おそらく別の方法によってアップデートされたためです。このパッチで変更することはできません。詳"
+"細は、このパッチのベンダーにお問い合わせください。 {{システム エラー : [3]}}"
 
 #: Error.ulf#OOO_ERROR_54.LngText.text
 #: Error.ulf%23OOO_ERROR_54.LngText.text
@@ -365,6 +378,8 @@ msgid ""
 "Could not create key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [2] を作成できません。{{ システム エラー [3]。}} "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_55.LngText.text
 #: Error.ulf%23OOO_ERROR_55.LngText.text
@@ -372,6 +387,8 @@ msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [2] を開くことができません。{{ システム エラー [3]。}} "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_56.LngText.text
 #: Error.ulf%23OOO_ERROR_56.LngText.text
@@ -379,6 +396,8 @@ msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [3] から 値 [2] を削除できません。{{ システム エラー [4]。}}  "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_57.LngText.text
 #: Error.ulf%23OOO_ERROR_57.LngText.text
@@ -386,6 +405,8 @@ msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [2] を削除できません。{{ システム エラー [3]。}} "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_58.LngText.text
 #: Error.ulf%23OOO_ERROR_58.LngText.text
@@ -393,6 +414,8 @@ msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [3] から 値 [2] を読み込めません。{{ システム エラー [4]。}}  "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_59.LngText.text
 #: Error.ulf%23OOO_ERROR_59.LngText.text
@@ -400,6 +423,8 @@ msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"値 [2] をキー [3] に書き込めません。{{ システム エラー [4]。}}  "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_60.LngText.text
 #: Error.ulf%23OOO_ERROR_60.LngText.text
@@ -407,6 +432,8 @@ msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [2] に対する値の名前を得ることができません。 {{ システム エラー [3]。}}  "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_61.LngText.text
 #: Error.ulf%23OOO_ERROR_61.LngText.text
@@ -414,6 +441,8 @@ msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
 msgstr ""
+"キー [2] に対するサブ キー名を得ることができません。 {{ システム エラー [3]。}}  "
+"そのキーへの十分なアクセス権を持っているかどうかを確認するか、またはサポート担当者へお問い合わせください。"
 
 #: Error.ulf#OOO_ERROR_62.LngText.text
 #: Error.ulf%23OOO_ERROR_62.LngText.text
@@ -422,6 +451,8 @@ msgid ""
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
 msgstr ""
+"キー [2] のセキュリティ情報が読み取れませんでした。{{ システムエラー [3]。}} "
+"このキーへの十分なアクセス権があるか確認してください。またはサポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_63.LngText.text
 #: Error.ulf%23OOO_ERROR_63.LngText.text
@@ -453,6 +484,8 @@ msgid ""
 "will need to run that installation again before using that product. Your "
 "current installation will now continue."
 msgstr ""
+"ユーザー [2] によって、すでに製品 [3] "
+"のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。現在のインストールはこのまま続行されます。"
 
 #: Error.ulf#OOO_ERROR_67.LngText.text
 #: Error.ulf%23OOO_ERROR_67.LngText.text
@@ -460,6 +493,8 @@ msgid ""
 "User [2] has previously initiated an installation for product [3]. That user "
 "will need to run that installation again before using that product."
 msgstr ""
+"ユーザー [2] によって、すでに製品 [3] "
+"のインストールが開始されています。この製品を使う前に、このユーザーは再度インストールを実行する必要があります。"
 
 #: Error.ulf#OOO_ERROR_68.LngText.text
 #: Error.ulf%23OOO_ERROR_68.LngText.text
@@ -467,6 +502,8 @@ msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
 "[4] KB. Free some disk space and retry."
 msgstr ""
+"ボリューム: '[2]' のディスク容量が不足しています。必要なディスク容量は [3] KB、使用可能なディスク容量は [4] KB です。 "
+"ディスク領域を一部解放して、再試行してください。"
 
 #: Error.ulf#OOO_ERROR_69.LngText.text
 #: Error.ulf%23OOO_ERROR_69.LngText.text
@@ -479,6 +516,8 @@ msgid ""
 "The file [2][3] is being held in use {by the following process: Name: [4], "
 "ID: [5], Window Title: [6]}. Close that application and retry."
 msgstr ""
+"ファイル [2][3] は次のプロセスにより使われています "
+"{プロセス名:[4]、ID:[5]、ウィンドウタイトル:[6]}。このアプリケーションを終了し、再度実行してください。"
 
 #: Error.ulf#OOO_ERROR_71.LngText.text
 #: Error.ulf%23OOO_ERROR_71.LngText.text
@@ -486,6 +525,7 @@ msgid ""
 "The product [2] is already installed, preventing the installation of this "
 "product. The two products are incompatible."
 msgstr ""
+"[2] がすでにインストールされているため、この製品はインストールできません。この 2 つの製品を同じコンピューターにインストールすることはできません。"
 
 #: Error.ulf#OOO_ERROR_72.LngText.text
 #: Error.ulf%23OOO_ERROR_72.LngText.text
@@ -495,6 +535,9 @@ msgid ""
 "quit, Retry to check available disk space again, or Ignore to continue "
 "without rollback."
 msgstr ""
+"ディスク領域が不足しています -- ボリューム:[2]; 必要な領域:[3]KB; 利用可能な領域:[4]KB。ロールバックを無効にすると、十分な領域を確"
+"保できます。終了する場合は「キャンセル」、利用可能なディスク領域を再確認する場合は「再試行」、ロールバックせずに続行する場合は「無視」をクリックしてくださ"
+"い。"
 
 #: Error.ulf#OOO_ERROR_73.LngText.text
 #: Error.ulf%23OOO_ERROR_73.LngText.text
@@ -518,7 +561,7 @@ msgstr "この製品をインストールするために必要なアプリケー
 #: Error.ulf#OOO_ERROR_76.LngText.text
 #: Error.ulf%23OOO_ERROR_76.LngText.text
 msgid "The key [2] is not valid. Verify that you entered the correct key."
-msgstr ""
+msgstr "キー [2] は有効ではありません。正しいキーを入力したか確認してください。"
 
 #: Error.ulf#OOO_ERROR_77.LngText.text
 #: Error.ulf%23OOO_ERROR_77.LngText.text
@@ -526,6 +569,8 @@ msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to restart later."
 msgstr ""
+"[2] "
+"の設定を続行する前に、システムを再起動する必要があります。すぐに再起動する場合は「はい」を、後で手動で再起動する場合は「いいえ」をクリックしてください。"
 
 #: Error.ulf#OOO_ERROR_78.LngText.text
 #: Error.ulf%23OOO_ERROR_78.LngText.text
@@ -542,6 +587,7 @@ msgid ""
 "An installation for [2] is currently suspended.  You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
 msgstr ""
+"[2] のインストールは現在中断されています。続行するには、このインストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか？"
 
 #: Error.ulf#OOO_ERROR_80.LngText.text
 #: Error.ulf%23OOO_ERROR_80.LngText.text
@@ -550,13 +596,14 @@ msgid ""
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
 msgstr ""
+"この製品のインストールは現在進行中です。続行するには、このインストールによって行われた変更を取り消す必要があります。これらの変更を取り消しますか？"
 
 #: Error.ulf#OOO_ERROR_81.LngText.text
 #: Error.ulf%23OOO_ERROR_81.LngText.text
 msgid ""
 "No valid source could be found for product [2]. The Windows Installer cannot "
 "continue."
-msgstr ""
+msgstr "製品 [2] に対する有効なソースが見つかりませんでした。Microsoft Windows インストーラーを続行できません。"
 
 #: Error.ulf#OOO_ERROR_82.LngText.text
 #: Error.ulf%23OOO_ERROR_82.LngText.text
@@ -587,32 +634,34 @@ msgid ""
 "make sure enough disk space is available, and click Retry, or Cancel to end "
 "the installation."
 msgstr ""
+"インストール情報をディスクに書き込み中にエラーが発生しました。十分なディスク領域があることを確認してから、「再試行」をクリックして続行するか、または「キャ"
+"ンセル」をクリックしてインストールを中止してください。"
 
 #: Error.ulf#OOO_ERROR_87.LngText.text
 #: Error.ulf%23OOO_ERROR_87.LngText.text
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
-msgstr ""
+msgstr "コンピューターを以前の状態に復元するために必要なファイルの一部が見つかりませんでした。復元することができません。"
 
 #: Error.ulf#OOO_ERROR_88.LngText.text
 #: Error.ulf%23OOO_ERROR_88.LngText.text
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
-msgstr ""
+msgstr "[2] で、必要な製品をインストールできません。テクニカルサポートグループに問い合わせてください。{{システムエラー:[3]。}}"
 
 #: Error.ulf#OOO_ERROR_89.LngText.text
 #: Error.ulf%23OOO_ERROR_89.LngText.text
 msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group. {{System Error [3].}}"
-msgstr ""
+msgstr "古いバージョンの [2] を削除できません。テクニカルサポートグループに連絡してください。{{システムエラー [3]。}}"
 
 #: Error.ulf#OOO_ERROR_90.LngText.text
 #: Error.ulf%23OOO_ERROR_90.LngText.text
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr ""
+msgstr "パス [2] が有効ではありません。有効なパスを指定してください。"
 
 #: Error.ulf#OOO_ERROR_91.LngText.text
 #: Error.ulf%23OOO_ERROR_91.LngText.text
@@ -642,7 +691,7 @@ msgstr ""
 #: Error.ulf%23OOO_ERROR_94.LngText.text
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
-msgstr ""
+msgstr "フォルダー [2] は存在しません。既存のフォルダーへのパスを入力してください。"
 
 #: Error.ulf#OOO_ERROR_95.LngText.text
 #: Error.ulf%23OOO_ERROR_95.LngText.text
@@ -678,13 +727,13 @@ msgstr "再起動操作のスケジュールを設定しています。ファイ
 #: Error.ulf%23OOO_ERROR_100.LngText.text
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
-msgstr ""
+msgstr "モジュール [2] で登録に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_101.LngText.text
 #: Error.ulf%23OOO_ERROR_101.LngText.text
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
-msgstr ""
+msgstr "モジュール [2] で登録の解除に失敗しました。HRESULT [3]。サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_102.LngText.text
 #: Error.ulf%23OOO_ERROR_102.LngText.text
@@ -698,6 +747,8 @@ msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
 msgstr ""
+"フォント [2] "
+"を登録できませんでした。フォントをインストールするための十分なアクセス許可があり、システムがこのフォントをサポートしているか確認してください。"
 
 #: Error.ulf#OOO_ERROR_104.LngText.text
 #: Error.ulf%23OOO_ERROR_104.LngText.text
@@ -724,21 +775,21 @@ msgstr "ショートカット [2] を削除できませんでした。ショー�
 #: Error.ulf%23OOO_ERROR_107.LngText.text
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
-msgstr ""
+msgstr "ファイル [2] のタイプライブラリを登録できませんでした。サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_108.LngText.text
 #: Error.ulf%23OOO_ERROR_108.LngText.text
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
-msgstr ""
+msgstr "ファイル [2] のタイプライブラリの登録を解除できませんでした。サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_109.LngText.text
 #: Error.ulf%23OOO_ERROR_109.LngText.text
 msgid ""
 "Could not update the INI file [2][3]. Verify that the file exists and that "
 "you can access it."
-msgstr ""
+msgstr "INI ファイル [2][3] を更新できませんでした。このファイルが存在し、このファイルにアクセスできるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_110.LngText.text
 #: Error.ulf%23OOO_ERROR_110.LngText.text
@@ -746,6 +797,8 @@ msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
 msgstr ""
+"再起動するときに、ファイル [3] を [2] で置き換えるようにスケジュールすることができませんでした。ファイル [3] "
+"への書き込みのアクセス許可があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_111.LngText.text
 #: Error.ulf%23OOO_ERROR_111.LngText.text
@@ -793,35 +846,35 @@ msgstr ""
 msgid ""
 "Service [2] ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
-msgstr ""
+msgstr "サービス [2] ([3]) が開始できませんでした。システムサービスを開始するための十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_117.LngText.text
 #: Error.ulf%23OOO_ERROR_117.LngText.text
 msgid ""
 "Service [2] ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
-msgstr ""
+msgstr "サービス [2] ([3]) を停止できませんでした。システムサービスを停止するための十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_118.LngText.text
 #: Error.ulf%23OOO_ERROR_118.LngText.text
 msgid ""
 "Service [2] ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
-msgstr ""
+msgstr "サービス [2] ([3]) を削除できませんでした。システムサービスを削除するための十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_119.LngText.text
 #: Error.ulf%23OOO_ERROR_119.LngText.text
 msgid ""
 "Service [2] ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
-msgstr ""
+msgstr "サービス [2] ([3]) をインストールできませんでした。システムサービスをインストールするための十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_120.LngText.text
 #: Error.ulf%23OOO_ERROR_120.LngText.text
 msgid ""
 "Could not update environment variable [2]. Verify that you have sufficient "
 "privileges to modify environment variables."
-msgstr ""
+msgstr "環境変数 [2] を更新できませんでした。環境変数を修正するための十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_121.LngText.text
 #: Error.ulf%23OOO_ERROR_121.LngText.text
@@ -830,6 +883,8 @@ msgid ""
 "users of the machine. Log on as an administrator and then retry this "
 "installation."
 msgstr ""
+"特権が不十分なため、このコンピューターのすべてのユーザーが使用できるようにアプリケーションをインストールすることはできません。管理者としてログオンし、再度"
+"インストールしてください。"
 
 #: Error.ulf#OOO_ERROR_122.LngText.text
 #: Error.ulf%23OOO_ERROR_122.LngText.text
@@ -837,6 +892,8 @@ msgid ""
 "Could not set file security for file [3]. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
 msgstr ""
+"ファイル [3] "
+"に対するファイルセキュリティを設定できませんでした。エラー:[2]。このファイルセキュリティのアクセス許可を変更する十分な特権があるか確認してください。"
 
 #: Error.ulf#OOO_ERROR_123.LngText.text
 #: Error.ulf%23OOO_ERROR_123.LngText.text
@@ -845,20 +902,23 @@ msgid ""
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
 msgstr ""
+"コンポーネントサービス (COM+ 1.0) "
+"がこのコンピューターにインストールされていません。このインストールを正常に完了するためには、コンポーネントサービスが必要です。コンポーネントサービスは "
+"Microsoft Windows 2000 に含まれています。"
 
 #: Error.ulf#OOO_ERROR_124.LngText.text
 #: Error.ulf%23OOO_ERROR_124.LngText.text
 msgid ""
 "Error registering COM+ application. Contact your support personnel for more "
 "information."
-msgstr ""
+msgstr "COM+ アプリケーションを登録中にエラーが発生しました。詳細については、サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_125.LngText.text
 #: Error.ulf%23OOO_ERROR_125.LngText.text
 msgid ""
 "Error unregistering COM+ application. Contact your support personnel for "
 "more information."
-msgstr ""
+msgstr "COM+ アプリケーションの登録解除中にエラーが発生しました。詳細については、サポート担当者に問い合わせてください。"
 
 #: Error.ulf#OOO_ERROR_126.LngText.text
 #: Error.ulf%23OOO_ERROR_126.LngText.text
@@ -873,6 +933,9 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"システムファイル [2] は Microsoft Windows で保護されているため、Microsoft Windows インストーラーでこのファイルを"
+"更新できませんでした。このプログラムを正しく動作させるためには、オペレーティングシステムを更新する必要があります。{{パッケージバージョン:[3]、OS "
+"保護バージョン:[4]}}"
 
 #: Error.ulf#OOO_ERROR_128.LngText.text
 #: Error.ulf%23OOO_ERROR_128.LngText.text
@@ -2046,7 +2109,7 @@ msgstr "抽出: "
 msgid ""
 "Are you sure you want to quit the %PRODUCTNAME %PRODUCTVERSION Installation "
 "Preparation?"
-msgstr ""
+msgstr "%PRODUCTNAME %PRODUCTVERSION のインストールを中止しますか?"
 
 #: Control.ulf#OOO_CONTROL_3.LngText.text
 #: Control.ulf%23OOO_CONTROL_3.LngText.text
