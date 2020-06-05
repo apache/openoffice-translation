@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sfx2%2Fsource%2Fview.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-04-26 00:21+0000\n"
+"PO-Revision-Date: 2020-06-04 15:55+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1587860510.000000\n"
+"X-POOTLE-MTIME: 1591286147.000000\n"
 
 #: view.src#STR_NODEFPRINTER.string.text
 #: view.src%23STR_NODEFPRINTER.string.text
@@ -44,6 +44,8 @@ msgid ""
 "is not available.\n"
 "Do you want to use the standard printer $2 ?"
 msgstr ""
+"ሰነዱ ለ ማተሚያው አቀራረብ ተዘጋጅቷል $1. የተመረጠው ማተሚያ አልተገኘም\n"
+"መደበኛ ማተሚያ መጠቀም ይፈልጋሉ $2 ?"
 
 #: view.src#STR_PRINT_OPTIONS.string.text
 #: view.src%23STR_PRINT_OPTIONS.string.text
@@ -93,6 +95,9 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
+"የ ገጹ መጠን እና አቅጣጫ ተሻሽሏል\n"
+"በንቁ ሰነድ ውስጥ አዲስ የተዘጋጀውን\n"
+"ማስቀመጥ ይፈልጋሉ?"
 
 #: view.src#STR_PRINT_NEWSIZE.string.text
 #: view.src%23STR_PRINT_NEWSIZE.string.text
@@ -101,6 +106,9 @@ msgid ""
 "Should the new settings be saved\n"
 "in the active document?"
 msgstr ""
+"የ ገጹ መጠን ተሻሽሏል\n"
+"በንቁ ሰነድ ውስጥ አዲስ የተዘጋጀውን\n"
+"ማስቀመጥ ይፈልጋሉ?"
 
 #: view.src#STR_PRINT_NEWORISIZE.string.text
 #: view.src%23STR_PRINT_NEWORISIZE.string.text
@@ -110,6 +118,9 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
+"የ ገጹ መጠን እና አቅጣጫ ተሻሽሏል\n"
+"በንቁ ሰነድ ውስጥ አዲስ የተዘጋጀውን\n"
+"ማስቀመጥ ይፈልጋሉ?"
 
 #: view.src#STR_PREVIEW_DOCINFO.string.text
 #: view.src%23STR_PREVIEW_DOCINFO.string.text
@@ -118,6 +129,9 @@ msgid ""
 ">$(TITEL)<dt><b>Subject:</b><dd>$(THEME)<dt><b>Keywords:</b><dd>$(KEYWORDS)<d"
 "t><b>Description:</b><dd>$(TEXT)</dl></font></body></html>"
 msgstr ""
+"<html><body BGCOLOR=\"#c0c0c0\"><font FACE=\"Arial\""
+"><dl><dt><b>አርእስት:</b><dd>$(TITEL)<dt><b>ጉዳዩ:</b><dd>$(THEME)<dt><b>ቁልፍ "
+"ቃል:</b><dd>$(KEYWORDS)<dt><b>መግለጫ:</b><dd>$(TEXT)</dl></font></body></html>"
 
 #: view.src#STR_PREVIEW_NODOCINFO.string.text
 #: view.src%23STR_PREVIEW_NODOCINFO.string.text
@@ -134,6 +148,8 @@ msgid ""
 "The document cannot be closed because a\n"
 "print job is being carried out."
 msgstr ""
+"ሰነዱን መዝጋት አልተቻለም ምክንያቱም\n"
+"የ ህትመት ስራ እየተከናወነ ነው"
 
 #: view.src#DLG_PRINTMONITOR_TEXT.#define.text
 #: view.src%23DLG_PRINTMONITOR_TEXT.%23define.text
@@ -157,13 +173,16 @@ msgid ""
 "user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your e-mail program settings."
 msgstr ""
+"መልእክቱን በ መላክ ላይ እንዳለ ስህተት ተፈጥሯል: ምናልባት ስህተቱ የተጠቃሚ መግለጫ ማጣት ወይንም የተሳሳተ ማሰናጃ "
+"ሊሆን ይችላል:\n"
+"እባክዎን ማሰናጃውን %PRODUCTNAME ይመርምሩ ወይንም የ ኢ-ሜይል ፕሮግራም ማሰናጃውን ይመርምሩ"
 
 #: view.src#MSG_QUERY_OPENASTEMPLATE.querybox.text
 #: view.src%23MSG_QUERY_OPENASTEMPLATE.querybox.text
 msgid ""
 "This document cannot be edited, possibly due to missing access rights. Do "
 "you want to edit a copy of the document?"
-msgstr ""
+msgstr "ይህን ሰነድ ማረም አይቻልም: ምክንያቱም በ ፍቃድ ማጣት ምክንያት: የ ሰነዱን ኮፒ ማረም ይፈልጋሉ?"
 
 #: view.src#STR_REPAIREDDOCUMENT.string.text
 #: view.src%23STR_REPAIREDDOCUMENT.string.text
@@ -177,3 +196,5 @@ msgid ""
 "desktop preferences or install a web browser (for example, Mozilla) in the "
 "default location requested during the browser installation."
 msgstr ""
+"%PRODUCTNAME በ እርስዎ ስርአት ውስጥ የ ዌብ መቃኛ ማግኘት አልተቻለም: እባክዎን የ ዴስክቶፕ ምርጫዎችን "
+"ይመርምሩ ወይንም የ ዌብ መቃኛ (ለምሳሌ ሞዚላ) በ ነባር ለ ዌብ መቃኛ መግጠሚያ የተጠየቀውን አካባቢ ውስጥ ይመርምሩ"
