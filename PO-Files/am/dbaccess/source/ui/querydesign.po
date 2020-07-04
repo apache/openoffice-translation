@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fquerydesign.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-05-26 17:21+0000\n"
+"PO-Revision-Date: 2020-07-03 23:44+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1590513712.000000\n"
+"X-POOTLE-MTIME: 1593819846.000000\n"
 
 #: querydlg.src#DLG_QRY_JOIN.WND_JOIN_CONTROL.FL_JOIN.fixedline.text
 #: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.FL_JOIN.fixedline.text
@@ -57,7 +57,7 @@ msgstr "መስቀልኛ አገናኝ"
 #: querydlg.src#DLG_QRY_JOIN.WND_JOIN_CONTROL.CB_NATURAL.checkbox.text
 #: querydlg.src%23DLG_QRY_JOIN.WND_JOIN_CONTROL.CB_NATURAL.checkbox.text
 msgid "Natural"
-msgstr ""
+msgstr "በ ተፈጥሮ"
 
 #: querydlg.src#DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
 #: querydlg.src%23DLG_QRY_JOIN.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
@@ -77,14 +77,14 @@ msgstr "ባህሪዎች አገናኝ"
 #: querydlg.src#STR_JOIN_TYPE_HINT.string.text
 #: querydlg.src%23STR_JOIN_TYPE_HINT.string.text
 msgid "Please note that some databases may not support this join type."
-msgstr ""
+msgstr "እባክዎን ያስታውሱ አንዳንድ ዳታቤዞች እንደዚህ አይነት አገናኞች አይደግፉም"
 
 #: querydlg.src#STR_QUERY_INNER_JOIN.string.text
 #: querydlg.src%23STR_QUERY_INNER_JOIN.string.text
 msgid ""
 "Includes only records for which the contents of the related fields of both "
 "tables are identical."
-msgstr ""
+msgstr "የ ሁለቱንም ተመሳሳይ ሰንጠረዦች መዝገቦችን ብቻ ማካተቻ ይዞታቸው ከ ሜዳዎቹ ጋር የሚዛመደውን"
 
 #: querydlg.src#STR_QUERY_LEFTRIGHT_JOIN.string.text
 #: querydlg.src%23STR_QUERY_LEFTRIGHT_JOIN.string.text
@@ -92,11 +92,13 @@ msgid ""
 "Contains ALL records from table '%1' but only records from table '%2' where "
 "the values in the related fields are matching."
 msgstr ""
+"ከ ሰንጠረዦች ውስጥ ሁሉንም መዝገቦች ይዟል '%1' ነገር ግን መዝገቦችን ብቻ ከ ሰንጠረዥ ውስጥ '%2' ዋጋቸው "
+"በተዛመደው ሜዳዎች ውስጥ የሚመሳሰለውን"
 
 #: querydlg.src#STR_QUERY_FULL_JOIN.string.text
 #: querydlg.src%23STR_QUERY_FULL_JOIN.string.text
 msgid "Contains ALL records from '%1' and from '%2'."
-msgstr ""
+msgstr "ሁሉንም መዝገቦች ይዟል ከ '%1' እና ከ '%2'."
 
 #: querydlg.src#STR_QUERY_CROSS_JOIN.string.text
 #: querydlg.src%23STR_QUERY_CROSS_JOIN.string.text
@@ -148,17 +150,17 @@ msgstr "አምድ ማንቀሳቀሻ"
 #: query.src#STR_QUERY_UNDO_TABFIELDCREATE.string.text
 #: query.src%23STR_QUERY_UNDO_TABFIELDCREATE.string.text
 msgid "Add Column"
-msgstr ""
+msgstr "አምድ መጨመሪያ"
 
 #: query.src#RID_STR_TABLE_DOESNT_EXIST.string.text
 #: query.src%23RID_STR_TABLE_DOESNT_EXIST.string.text
 msgid "Invalid expression, table '$name$' does not exist."
-msgstr ""
+msgstr "ዋጋ የሌለው አገላለጽ: ሰንጠረዥ: '$name$' አልተገኘም"
 
 #: query.src#RID_STR_FIELD_DOESNT_EXIST.string.text
 #: query.src%23RID_STR_FIELD_DOESNT_EXIST.string.text
 msgid "Invalid expression, field name '$name$' does not exist."
-msgstr ""
+msgstr "ዋጋ የሌለው አገላለጽ የ ሜዳ ስም: '$name$' አልተገኘም"
 
 #: query.src#RID_STR_TOMUCHTABLES.string.text
 #: query.src%23RID_STR_TOMUCHTABLES.string.text
@@ -166,96 +168,98 @@ msgid ""
 "The query covers #num# tables. The selected database type, however, can only "
 "process a maximum of #maxnum# table(s) per statement."
 msgstr ""
+"ጥያቄው የሚሸፍናቸው #num# ሰንጠረዦች: የተመረጠው የ ዳታቤዝ አይነት: ነገር ግን ማስኬድ የሚቻለው ከፍተኛው የ "
+"#maxnum# ሰንጠረዥ(ዦች) በ አነጋገር ውስጥ"
 
 #: query.src#STR_QUERY_UNDO_TABWINDELETE.string.text
 #: query.src%23STR_QUERY_UNDO_TABWINDELETE.string.text
 msgid "Delete Table Window"
-msgstr ""
+msgstr "የ ሰንጠረዥ መስኮት ማጥፊያ"
 
 #: query.src#STR_QUERY_UNDO_MODIFY_CELL.string.text
 #: query.src%23STR_QUERY_UNDO_MODIFY_CELL.string.text
 msgid "Edit Column Description"
-msgstr ""
+msgstr "የ አምድ መግለጫ ማረሚያ"
 
 #: query.src#STR_QUERY_UNDO_SIZE_COLUMN.string.text
 #: query.src%23STR_QUERY_UNDO_SIZE_COLUMN.string.text
 msgid "Adjust column width"
-msgstr ""
+msgstr "የ አምድ ስፋት ማስተካከያ"
 
 #: query.src#STR_QUERY_SORTTEXT.string.text
 #: query.src%23STR_QUERY_SORTTEXT.string.text
 msgid "(not sorted);ascending;descending"
-msgstr ""
+msgstr "(ያልተለየ);እየጨመረ በሚሄድ;እየቀነሰ በሚሄድ"
 
 #: query.src#STR_QUERY_FUNCTIONS.string.text
 #: query.src%23STR_QUERY_FUNCTIONS.string.text
 msgid "(no function);Group"
-msgstr ""
+msgstr "(ተግባር የለም);ቡድን"
 
 #: query.src#STR_QUERY_NOTABLE.string.text
 #: query.src%23STR_QUERY_NOTABLE.string.text
 msgid "(no table)"
-msgstr ""
+msgstr "(ሰንጠረዥ የለም)"
 
 #: query.src#STR_QRY_ORDERBY_UNRELATED.string.text
 #: query.src%23STR_QRY_ORDERBY_UNRELATED.string.text
 msgid "The database only supports sorting for visible fields."
-msgstr ""
+msgstr "የ ዳታቤዙ የሚደግፈው የሚታዩ ሜዳዎች ለ መለያ ብቻ ነው"
 
 #: query.src#RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_FUNCTION.menuitem.text
 #: query.src%23RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_FUNCTION.menuitem.text
 msgid "Functions"
-msgstr ""
+msgstr "ተግባሮች"
 
 #: query.src#RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_TABLENAME.menuitem.text
 #: query.src%23RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_TABLENAME.menuitem.text
 msgid "Table Name"
-msgstr ""
+msgstr "የ ሰንጠረዥ ስም"
 
 #: query.src#RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_ALIASNAME.menuitem.text
 #: query.src%23RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_ALIASNAME.menuitem.text
 msgid "Alias"
-msgstr ""
+msgstr "የ ሀሰት ስም"
 
 #: query.src#RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_DISTINCT.menuitem.text
 #: query.src%23RID_QUERYFUNCTION_POPUPMENU.ID_QUERY_DISTINCT.menuitem.text
 msgid "Distinct Values"
-msgstr ""
+msgstr "የተለዩ ዋጋዎች"
 
 #: query.src#STR_QUERY_HANDLETEXT.string.text
 #: query.src%23STR_QUERY_HANDLETEXT.string.text
 msgid "Field;Alias;Table;Sort;Visible;Function;Criterion;Or;Or"
-msgstr ""
+msgstr "ሜዳ;የ ሀሰትስም;ሰንጠረዥ;መለያ;የሚታይ;ተግባር;ደንብ;ወይንም;ወይንም"
 
 #: query.src#STR_QRY_TOO_MANY_COLUMNS.string.text
 #: query.src%23STR_QRY_TOO_MANY_COLUMNS.string.text
 msgid "There are too many columns."
-msgstr ""
+msgstr "ብዙ አምዶች አሉ"
 
 #: query.src#ERR_QRY_CRITERIA_ON_ASTERISK.errorbox.text
 #: query.src%23ERR_QRY_CRITERIA_ON_ASTERISK.errorbox.text
 msgid "A condition cannot be applied to field [*]"
-msgstr ""
+msgstr "ሁኔታውን ወደ ሜዳው መፈጸም አይቻልም [*]"
 
 #: query.src#STR_QRY_TOO_LONG_STATEMENT.string.text
 #: query.src%23STR_QRY_TOO_LONG_STATEMENT.string.text
 msgid "The SQL statement created is too long."
-msgstr ""
+msgstr "የ SQL የተፈጠረው አነጋገር በጣም ረጅም ነው"
 
 #: query.src#STR_QRY_TOOCOMPLEX.string.text
 #: query.src%23STR_QRY_TOOCOMPLEX.string.text
 msgid "Query is too complex"
-msgstr ""
+msgstr "ጥያቄው ውስብስብ ነው"
 
 #: query.src#STR_QRY_NOSELECT.string.text
 #: query.src%23STR_QRY_NOSELECT.string.text
 msgid "Nothing has been selected."
-msgstr ""
+msgstr "ምንም አልተመረጠም"
 
 #: query.src#STR_QRY_TOOMANYCOND.string.text
 #: query.src%23STR_QRY_TOOMANYCOND.string.text
 msgid "Too many search criteria"
-msgstr ""
+msgstr "በጣም ብዙ የ መፈለጊያ መመዘኛ"
 
 #: query.src#STR_QRY_SYNTAX.string.text
 #: query.src%23STR_QRY_SYNTAX.string.text
@@ -265,12 +269,12 @@ msgstr ""
 #: query.src#ERR_QRY_ORDERBY_ON_ASTERISK.errorbox.text
 #: query.src%23ERR_QRY_ORDERBY_ON_ASTERISK.errorbox.text
 msgid "[*] cannot be used as a sort criterion."
-msgstr ""
+msgstr "[*] እንደ መለያ መመዘኛ ሊጠቀሙበት አይችሉም"
 
 #: query.src#STR_QRY_TOO_MANY_TABLES.string.text
 #: query.src%23STR_QRY_TOO_MANY_TABLES.string.text
 msgid "There are too many tables."
-msgstr ""
+msgstr "በጣም ብዙ ሰንጠረዦች አሉ"
 
 #: query.src#STR_QRY_NATIVE.string.text
 #: query.src%23STR_QRY_NATIVE.string.text
@@ -282,12 +286,12 @@ msgstr ""
 #: query.src#ERR_QRY_AMB_FIELD.errorbox.text
 #: query.src%23ERR_QRY_AMB_FIELD.errorbox.text
 msgid "Field name not found or not unique"
-msgstr ""
+msgstr "የ ሜዳው ስም አልተገኘም ወይንም ልዩ አይደለም"
 
 #: query.src#STR_QRY_ILLEGAL_JOIN.string.text
 #: query.src%23STR_QRY_ILLEGAL_JOIN.string.text
 msgid "Join could not be processed"
-msgstr ""
+msgstr "አገናኙን መፈጸም አልተቻለም"
 
 #: query.src#STR_SVT_SQL_SYNTAX_ERROR.string.text
 #: query.src%23STR_SVT_SQL_SYNTAX_ERROR.string.text
@@ -297,22 +301,22 @@ msgstr ""
 #: query.src#STR_QUERYDESIGN_NO_VIEW_SUPPORT.string.text
 #: query.src%23STR_QUERYDESIGN_NO_VIEW_SUPPORT.string.text
 msgid "This database does not support table views."
-msgstr ""
+msgstr "ይህ ዳታቤዝ ሰንጠረዥ መመልከቻን አይደግፍም"
 
 #: query.src#STR_NO_ALTER_VIEW_SUPPORT.string.text
 #: query.src%23STR_NO_ALTER_VIEW_SUPPORT.string.text
 msgid "This database does not support altering of existing table views."
-msgstr ""
+msgstr "ይህ ዳታቤዝ ነባር የ ሰንጠረዥ መመልከቻን ማሻሻል አይደግፍም"
 
 #: query.src#STR_QUERYDESIGN_NO_VIEW_ASK.string.text
 #: query.src%23STR_QUERYDESIGN_NO_VIEW_ASK.string.text
 msgid "Do you want to create a query instead?"
-msgstr ""
+msgstr "በሱ ፋንታ ጥያቄ መፍጠር ይፈልጋሉ?"
 
 #: query.src#ERR_QRY_NOSTATEMENT.errorbox.text
 #: query.src%23ERR_QRY_NOSTATEMENT.errorbox.text
 msgid "No query could be created."
-msgstr ""
+msgstr "ጥያቄ መፍጠር አልተቻለም"
 
 #: query.src#ERR_QRY_NOCRITERIA.errorbox.text
 #: query.src%23ERR_QRY_NOCRITERIA.errorbox.text
