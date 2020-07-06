@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-07-04 16:48+0000\n"
+"PO-Revision-Date: 2020-07-05 13:43+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1593881300.000000\n"
+"X-POOTLE-MTIME: 1593956620.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -9535,6 +9535,10 @@ msgid ""
 "where the Xprinter spoolfiles are saved. For "
 "example:</caseinline></switchinline>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"UNIX\">եթե ցանկանում եք, "
+"կարող եք օգտագործել STAR_SPOOL_DIR միջավայրի փոփոխականը, որպեսզի նշեք "
+"գրացուցակը, որտեղ պահվում են Xprinter -ի փնջի նիշքերը: "
+"Օրինակ:</caseinline></switchinline>"
 
 #: 01130000.xhp#par_id3154330.48.help.text
 #: 01130000.xhp%23par_id3154330.48.help.text
@@ -9543,6 +9547,8 @@ msgid ""
 "STAR_SPOOL_DIR /usr/local/tmp (in the csh/tcsh) "
 "or</caseinline></switchinline>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"UNIX\">setenv "
+"STAR_SPOOL_DIR /usr/local/tmp (csh/tcsh -ում) կամ</caseinline></switchinline>"
 
 #: 01130000.xhp#par_id3150768.49.help.text
 #: 01130000.xhp%23par_id3150768.49.help.text
@@ -9550,6 +9556,8 @@ msgid ""
 "<switchinline select=\"sys\"><caseinline select=\"UNIX\">export "
 "STAR_SPOOL_DIR=/usr/local/tmp (in the sh/bash)</caseinline></switchinline>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"UNIX\">արտահանեք "
+"STAR_SPOOL_DIR=/usr/local/tmp (sh/bash -ում)</caseinline></switchinline>"
 
 #: 01130000.xhp#par_id3150449.50.help.text
 #: 01130000.xhp%23par_id3150449.50.help.text
@@ -9559,18 +9567,22 @@ msgid ""
 "setup program\">spadmin printer setup program</link> to specify additional "
 "printer options.</caseinline></switchinline>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"UNIX\">Կարող եք նաև "
+"օգտագործել <link href=\"text/shared/guide/spadmin.xhp\" name=\"spadmin "
+"printer setup program\">spadmin տպիչի կարգաբերման ծրագիրը</link> տպիչի "
+"լրացուցիչ ընտրանքները նշելու համար:</caseinline></switchinline>"
 
 #: 06130000.xhp#tit.help.text
 #: 06130000.xhp%23tit.help.text
 msgctxt "06130000.xhp#tit.help.text"
 msgid "Macro"
-msgstr ""
+msgstr "Մակրո"
 
 #: 06130000.xhp#hd_id3157552.1.help.text
 #: 06130000.xhp%23hd_id3157552.1.help.text
 msgctxt "06130000.xhp#hd_id3157552.1.help.text"
 msgid "Macro"
-msgstr ""
+msgstr "Մակրո"
 
 #: 06130000.xhp#par_id3148765.2.help.text
 #: 06130000.xhp%23par_id3148765.2.help.text
@@ -9578,12 +9590,14 @@ msgid ""
 "<variable id=\"makro\"><ahelp hid=\".uno:MacroDialog\">Opens a dialog to "
 "organize macros.</ahelp></variable>"
 msgstr ""
+"<variable id=\"makro\"><ahelp hid=\".uno:MacroDialog\">Բացում է "
+"երկխոսությունը՝ մակրոները կազմակերպելու համար:</ahelp></variable>"
 
 #: 06130000.xhp#par_id3154863.3.help.text
 #: 06130000.xhp%23par_id3154863.3.help.text
 msgctxt "06130000.xhp#par_id3154863.3.help.text"
 msgid "Macro name"
-msgstr ""
+msgstr "Մակրոյի անունը"
 
 #: 06130000.xhp#par_id3150040.4.help.text
 #: 06130000.xhp%23par_id3150040.4.help.text
@@ -9592,6 +9606,9 @@ msgid ""
 "name of the selected macro. To create or to change the name of a macro, "
 "enter a name here.</ahelp>"
 msgstr ""
+"<ahelp hid=\"BASCTL_EDIT_RID_MACROCHOOSER_RID_ED_MACRONAME\">Ցուցադրում է "
+"ընտրված մակրոի անունը: Մակրոի անունը ստեղծելու կամ փոխելու համար, այստեղ "
+"մուտքագրեք անունը:</ahelp>"
 
 #: 06130000.xhp#par_id3150902.6.help.text
 #: 06130000.xhp%23par_id3150902.6.help.text
@@ -9599,11 +9616,13 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Lists the macros that are contained "
 "in the module selected in the <emph>Macro from </emph>list.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Թվարկում է մակրոները, որոնք "
+"պարունակվում են մոդուլում, ընտրված <emph>Մակրոից </emph>ցուցակից։</ahelp>"
 
 #: 06130000.xhp#hd_id3153750.7.help.text
 #: 06130000.xhp%23hd_id3153750.7.help.text
 msgid "Macro from / Save macro in"
-msgstr ""
+msgstr "Մակրոից / Հիշեք մակրոն"
 
 #: 06130000.xhp#par_id3153394.8.help.text
 #: 06130000.xhp%23par_id3153394.8.help.text
