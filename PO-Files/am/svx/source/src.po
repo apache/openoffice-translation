@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+svx%2Fsource%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-07-10 18:20+0000\n"
+"PO-Revision-Date: 2020-07-11 14:44+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1594405215.000000\n"
+"X-POOTLE-MTIME: 1594478681.000000\n"
 
 #: app.src#RID_ERRBOX_MODULENOTINSTALLED.errorbox.text
 #: app.src%23RID_ERRBOX_MODULENOTINSTALLED.errorbox.text
@@ -108,7 +108,7 @@ msgstr "$(ERR) አድራሻ በ መፈለግ ላይ"
 #: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_ABORT.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_ABORT.string.text
 msgid "Abort"
-msgstr ""
+msgstr "ማቋረጫ"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_NOTEXISTS.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_NOTEXISTS.string.text
@@ -143,7 +143,7 @@ msgstr ""
 #: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_SPACE.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_SPACE.string.text
 msgid "Resource exhausted"
-msgstr ""
+msgstr "ምንጩ አክትሟል"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_CLASS_NOTSUPPORTED.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_CLASS_NOTSUPPORTED.string.text
@@ -590,6 +590,8 @@ msgid ""
 "can find an automatically generated backup copy of this file in folder "
 "$(PATH) named $(BACKUPNAME)."
 msgstr ""
+"ፋይሉን $(FILENAME) ማስቀመጥ አልተቻለም: እባክዎን የ ስርአት ማሰናጃውን ይመርምሩ: ራሱ በራሱ የመነጨ የዚህን "
+"ፋይል ኮፒ በ ፎልደር ውስጥ ያገኛሉ $(PATH) ስሙ $(BACKUPNAME)."
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_NOMOREDOCUMENTSALLOWED.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_NOMOREDOCUMENTSALLOWED.string.text
@@ -598,11 +600,13 @@ msgid ""
 "reached. You need to close one or more documents before you can open a new "
 "document."
 msgstr ""
+"በ አንድ ጊዜ ሊከፍቱት የሚችሉትን ከፍተኛው የ ሰንድ ቁጥር ላይ ደርሰዋል: አንድ ወይንም ሁለት ሰንዶችን መዝጋት "
+"አለብዎት አዲስ ሰነድ ከ መክፈትዎት በፊት:"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_CANTCREATEBACKUP.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_CANTCREATEBACKUP.string.text
 msgid "Could not create backup copy."
-msgstr ""
+msgstr "ተተኪ ኮፒ መፍጠር አልተቻለም"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_MACROS_SUPPORT_DISABLED.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_MACROS_SUPPORT_DISABLED.string.text
@@ -610,6 +614,8 @@ msgid ""
 "An attempt was made to execute a macro.\n"
 "For security reasons, macro support is disabled."
 msgstr ""
+"ማክሮ ለ ማስኬድ ሙከራ ተድርጓል\n"
+"ለ ደህንነት ምክንያት ሲባል የ ማክሮ ድጋፍ ተሰናክሏል"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_DOCUMENT_MACRO_DISABLED.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_DOCUMENT_MACRO_DISABLED.string.text
@@ -622,6 +628,12 @@ msgid ""
 "\n"
 "Therefore, some functionality may not be available."
 msgstr ""
+"ይህ ሰነድ ማክሮ ይዟል\n"
+"\n"
+"ማክሮ ምናልባት ቫይረሶች ሊይዙ ይችላሉ: ማክሮ ማስኬጃው ተሰናክሏል: ይህ ማክሮ በ ደህንነት ማሰናጃዎች ተሰናክሏል: ከ "
+"መሳሪያዎች - ምርጫዎች - %PRODUCTNAME - ደህንነት \n"
+"\n"
+"ስለዚህ አንዳንድ ተግባሮች በትክክል ላይሰሩ ይችላሉ"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_BROKENSIGNATURE.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_BROKENSIGNATURE.string.text
@@ -636,6 +648,14 @@ msgid ""
 "Execution of macros is disabled for this document.\n"
 " "
 msgstr ""
+"የ ዲጂታል ፊርማ የያዘው ሰነድ ይዞታ እና/ወይንም ማክሮ ከ አሁኑ ሰነድ ፊርማ ጋር አይመሳሰልም\n"
+"\n"
+"ይህ ውጤት የሚፈጠረው ሰነዱን ለ እርስዎ እንዲስማማ ሲቀይሩ ነው ወይንም የ ሰነዱ አካል ዳታው በሚተላለፍበት ጊዜ "
+"የተበላሸ ነው\n"
+"\n"
+"የ አሁኑን ሰነድ ይዞታ እንዳያምኑት እንመክራለን\n"
+"ለዚህ ሰነድ ማክሮ ማስኬጃ ተሰናክሏል\n"
+" "
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_INCOMPLETE_ENCRYPTION.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_INCOMPLETE_ENCRYPTION.string.text
@@ -652,32 +672,32 @@ msgstr ""
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_INVALIDLENGTH.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_INVALIDLENGTH.string.text
 msgid "Invalid data length."
-msgstr ""
+msgstr "ዋጋ የሌለው የ ዳታ እርዝመት"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_CURRENTDIR.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_CURRENTDIR.string.text
 msgid "Function not possible: path contains current directory."
-msgstr ""
+msgstr "ተግባሩን መፈጸም አይቻልም: መንገዱ የ አሁኑን ዳይሬክቶሪ ይዟል"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_NOTSAMEDEVICE.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_NOTSAMEDEVICE.string.text
 msgid "Function not possible: device (drive) not identical."
-msgstr ""
+msgstr "ተግባሩን መፈጸም አይቻልም: አካሉ (drive) ተመሳሳይ አይደለም"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_DEVICENOTREADY.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_DEVICENOTREADY.string.text
 msgid "Device (drive) not ready."
-msgstr ""
+msgstr "አካሉ (drive) ዝግጁ አይደለም"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_BADCRC.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_BADCRC.string.text
 msgid "Wrong check amount."
-msgstr ""
+msgstr "የተሳሳተ የ ምርመራ መጠን"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_IO_WRITEPROTECTED.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_IO_WRITEPROTECTED.string.text
 msgid "Function not possible: write protected."
-msgstr ""
+msgstr "ተግባሩን መፈጸም አልተቻለም: መጻፍ የተከለከለ ነው:"
 
 #: errtxt.src#RID_ERRHDL.ERRCODE_SFX_SHARED_NOPASSWORDCHANGE.string.text
 #: errtxt.src%23RID_ERRHDL.ERRCODE_SFX_SHARED_NOPASSWORDCHANGE.string.text
@@ -685,3 +705,5 @@ msgid ""
 "The password of a shared spreadsheet cannot be set or changed.\n"
 "Deactivate sharing mode first."
 msgstr ""
+"የሚካፈሉትን የሰንጠረዥ የ መግቢያ ቃል ማዘጋጀት አልተቻለም ወይንም ተቀይሯል \n"
+"በ መጀመሪያ የ መካፈያ ዘዴን ያቦዝኑ"

@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-07-10 21:20+0000\n"
+"PO-Revision-Date: 2020-07-11 18:56+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1594416021.000000\n"
+"X-POOTLE-MTIME: 1594493760.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -942,7 +942,9 @@ msgstr "GODZINA (TERAZ()) zwraca bieżącą godzinę."
 msgid ""
 "<item type=\"input\">=HOUR(C4)</item> returns 17 if the contents of C4 = <"
 "item type=\"input\">17:20:00</item>."
-msgstr "GODZINA (C4) zwraca 17, jeśli wartość komórki C4 = 17:20:00."
+msgstr ""
+"<item type=\"input\">=GODZINA(C4)</item> zwraca 17, jeśli wartość komórki C4 "
+"= <item type=\"input\">17:20:00</item>."
 
 #: func_hour.xhp#par_id3154188.105.help.text
 #: func_hour.xhp%23par_id3154188.105.help.text
@@ -1718,8 +1720,8 @@ msgid ""
 "<item type=\"input\">=INFO(\"release\")</item> returns the product release "
 "number of the %PRODUCTNAME in use."
 msgstr ""
-"=INFO(\"release\") zwraca numer wersji produktu używanego programu "
-"%PRODUCTNAME."
+"<item type=\"input\">=INFO(\"release\")</item> zwraca numer wersji produktu "
+"używanego programu %PRODUCTNAME."
 
 #: 04060104.xhp#par_id2873622.help.text
 #: 04060104.xhp%23par_id2873622.help.text
@@ -1875,12 +1877,14 @@ msgstr "Przykład"
 #: 04060104.xhp%23par_id3153179.152.help.text
 msgid ""
 "If cell A8 contains the formula <item type=\"input\">=SUM(1;2;3)</item> then"
-msgstr "Jeżeli komórka A8 zawiera formułę =SUMA(1;2;3) wówczas"
+msgstr ""
+"Jeżeli komórka A8 zawiera formułę <item type=\"input\">=SUMA(1;2;3)</item> "
+"wówczas"
 
 #: 04060104.xhp#par_id3153923.153.help.text
 #: 04060104.xhp%23par_id3153923.153.help.text
 msgid "<item type=\"input\">=FORMULA(A8)</item> returns the text =SUM(1;2;3)."
-msgstr "FORMUŁA(A8) zwraca tekst \"=SUMA(1;2;3)\" (bez cudzysłowów)."
+msgstr "<item type=\"input\">=FORMUŁA(A8)</item> zwraca tekst =SUMA(1;2;3)"
 
 #: 04060104.xhp#bm_id3155409.help.text
 #: 04060104.xhp%23bm_id3155409.help.text
@@ -1937,7 +1941,9 @@ msgstr "Przykład"
 msgid ""
 "<item type=\"input\">=ISREF(C5)</item> returns the result TRUE because C5 is "
 "a valid reference."
-msgstr "CZY.ADR(C5) zwraca PRAWDA, ponieważ C5 zawiera poprawne odwołanie."
+msgstr ""
+"<item type=\"input\">=CZY.ADR(C5)</item> zwraca PRAWDA, ponieważ C5 zawiera "
+"poprawne odwołanie."
 
 #: 04060104.xhp#par_id9728072.help.text
 #: 04060104.xhp%23par_id9728072.help.text
@@ -2689,22 +2695,22 @@ msgstr "Przykład"
 #: 04060104.xhp#par_id3154117.125.help.text
 #: 04060104.xhp%23par_id3154117.125.help.text
 msgid "<item type=\"input\">=N(123)</item> returns 123"
-msgstr "N(123) zwraca wartość 123"
+msgstr "<item type=\"input\">=L(123)</item> zwraca 123"
 
 #: 04060104.xhp#par_id2337717.help.text
 #: 04060104.xhp%23par_id2337717.help.text
 msgid "<item type=\"input\">=N(TRUE)</item> returns 1"
-msgstr "N(PRAWDA) zwraca wartość 1"
+msgstr "<item type=\"input\">=L(PRAWDA)</item> zwraca wartość 1"
 
 #: 04060104.xhp#par_id3153781.126.help.text
 #: 04060104.xhp%23par_id3153781.126.help.text
 msgid "<item type=\"input\">=N(FALSE)</item> returns 0"
-msgstr "N(FAŁSZ) zwraca wartość 0"
+msgstr "<item type=\"input\">=L(FAŁSZ)</item> zwraca wartość 0"
 
 #: 04060104.xhp#par_id3154670.243.help.text
 #: 04060104.xhp%23par_id3154670.243.help.text
 msgid "<item type=\"input\">=N(\"abc\")</item> returns 0"
-msgstr "N(\"abc\") zwraca wartość 0"
+msgstr "<item type=\"input\">=L(\"abc\")</item> zwraca wartość 0"
 
 #: 04060104.xhp#par_id3519089.help.text
 #: 04060104.xhp%23par_id3519089.help.text
@@ -2795,12 +2801,12 @@ msgstr "Przykład (zob. przykładowa tabela powyżej)"
 #: 04060104.xhp#par_id3153357.142.help.text
 #: 04060104.xhp%23par_id3153357.142.help.text
 msgid "<item type=\"input\">=TYPE(C2)</item> returns 2 as a result."
-msgstr "TYP(C2) zwraca wartość 2."
+msgstr "<item type=\"input\">=TYP(C2)</item> zwraca wartość 2."
 
 #: 04060104.xhp#par_id3148980.143.help.text
 #: 04060104.xhp%23par_id3148980.143.help.text
 msgid "<item type=\"input\">=TYPE(D9)</item> returns 1 as a result."
-msgstr "TYP(D9) zwraca wartość 1."
+msgstr "<item type=\"input\">=TYP(D9)</item> zwraca wartość 1."
 
 #: 04060104.xhp#bm_id3155509.help.text
 #: 04060104.xhp%23bm_id3155509.help.text
@@ -2868,7 +2874,7 @@ msgstr "Zwraca numer kolumny odwołania."
 #: 04060104.xhp#par_id3150094.162.help.text
 #: 04060104.xhp%23par_id3150094.162.help.text
 msgid "<item type=\"input\">=CELL(\"COL\";D2)</item> returns 4."
-msgstr "KOMÓRKA(\"COL\";D2) zwraca wartość 4."
+msgstr "<item type=\"input\">=KOMÓRKA(\"COL\";D2)</item> zwraca wartość 4."
 
 #: 04060104.xhp#par_id3151276.169.help.text
 #: 04060104.xhp%23par_id3151276.169.help.text
@@ -2884,7 +2890,7 @@ msgstr "Zwraca numer wiersza odwołania."
 #: 04060104.xhp#par_id3151222.163.help.text
 #: 04060104.xhp%23par_id3151222.163.help.text
 msgid "<item type=\"input\">=CELL(\"ROW\";D2)</item> returns 2."
-msgstr "KOMÓRKA(\"ROW\";D2) zwraca wartość 2."
+msgstr "<item type=\"input\">=KOMÓRKA(\"ROW\";D2)</item> zwraca wartość 2."
 
 #: 04060104.xhp#par_id3159217.171.help.text
 #: 04060104.xhp%23par_id3159217.171.help.text
@@ -2900,7 +2906,8 @@ msgstr "Zwraca numer arkusza odwołania."
 #: 04060104.xhp#par_id3149169.164.help.text
 #: 04060104.xhp%23par_id3149169.164.help.text
 msgid "<item type=\"input\">=CELL(\"Sheet\";Sheet3.D2)</item> returns 3."
-msgstr "KOMÓRKA(\"Sheet\";Arkusz3.D2) zwraca wartość 3."
+msgstr ""
+"<item type=\"input\">=KOMÓRKA(\"Sheet\";Arkusz3.D2)</item> zwraca wartość 3."
 
 #: 04060104.xhp#par_id3149431.173.help.text
 #: 04060104.xhp%23par_id3149431.173.help.text
@@ -2916,14 +2923,17 @@ msgstr "Zwraca bezwzględny adres komórki odwołania."
 #: 04060104.xhp#par_id3154136.175.help.text
 #: 04060104.xhp%23par_id3154136.175.help.text
 msgid "<item type=\"input\">=CELL(\"ADDRESS\";D2)</item> returns $D$2."
-msgstr "KOMÓRKA(\"ADDRESS\";D2) zwraca wartość $D$2."
+msgstr ""
+"<item type=\"input\">=KOMÓRKA(\"ADDRESS\";D2)</item> zwraca wartość $D$2."
 
 #: 04060104.xhp#par_id3159198.176.help.text
 #: 04060104.xhp%23par_id3159198.176.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";Sheet3.D2)</item> returns "
 "$Sheet3.$D$2."
-msgstr "KOMÓRKA(\"ADDRESS\";Arkusz3.D2) zwraca wartość $Arkusz3.$D$2."
+msgstr ""
+"<item type=\"input\">=KOMÓRKA(\"ADDRESS\";Sheet3.D2)</item> zwraca wartość "
+"$Sheet3.$D$2."
 
 #: 04060104.xhp#par_id3150245.177.help.text
 #: 04060104.xhp%23par_id3150245.177.help.text
@@ -2977,7 +2987,8 @@ msgstr "Zwraca pełen adres komórki zapisany w notacji Lotus(TM)."
 #: 04060104.xhp#par_id3159104.184.help.text
 #: 04060104.xhp%23par_id3159104.184.help.text
 msgid "<item type=\"input\">=CELL(\"COORD\"; D2)</item> returns $A:$D$2."
-msgstr "KOMÓRKA(\"COORD\"; D2) zwraca wartość $A:$D$2."
+msgstr ""
+"<item type=\"input\">=KOMÓRKA(\"COORD\"; D2)</item> zwraca wartość $A:$D$2."
 
 #: 04060104.xhp#par_id3163720.185.help.text
 #: 04060104.xhp%23par_id3163720.185.help.text
@@ -3828,8 +3839,8 @@ msgid ""
 "If cell A1 displays Err:518, the function <item type=\"input\""
 ">=ERRORTYPE(A1)</item> returns the number 518."
 msgstr ""
-"Jeśli w komórce A1 został wyświetlony komunikat Błąd:518, funkcja "
-"=NR.BŁĘDU(A1) zwraca liczbę 518."
+"Jeśli w komórce A1 został wyświetlony komunikat Błąd:518, funkcja <item type="
+"\"input\">=NR.BŁĘDU(A1)</item> zwraca liczbę 518."
 
 #: 04060109.xhp#bm_id3151221.help.text
 #: 04060109.xhp%23bm_id3151221.help.text
