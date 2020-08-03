@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Foptionen.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-07-31 00:12+0000\n"
+"PO-Revision-Date: 2020-08-02 17:33+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <dev-de@openoffice.apache.org>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1596154331.000000\n"
+"X-POOTLE-MTIME: 1596389596.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -3133,8 +3133,8 @@ msgid ""
 "(Writer)</bookmark_value><bookmark_value>cursor; allowing in protected areas "
 "(Writer)</bookmark_value>"
 msgstr ""
-"<bookmark_value>nichtdruckbare Zeichen "
-"(Writer)</bookmark_value><bookmark_value>Anzeigen; Nichtdruckbare Zeichen "
+"<bookmark_value>nicht druckbare Zeichen "
+"(Writer)</bookmark_value><bookmark_value>Anzeigen; Nicht druckbare Zeichen "
 "(Writer)</bookmark_value><bookmark_value>Absatzzeichen; anzeigen "
 "(Writer)</bookmark_value><bookmark_value>Zeichen; nur auf dem Bildschirm "
 "anzeigen (Writer)</bookmark_value><bookmark_value>Optionale Trennstriche "
@@ -3186,12 +3186,12 @@ msgid ""
 "<emph>Standard</emph> bar. All characters that you have selected on the "
 "<emph>Formatting Aids</emph> tab page will be displayed."
 msgstr ""
-"Hier bestimmen Sie, welche nichtdruckbare Zeichen in der Bildschirmanzeige "
+"Hier bestimmen Sie, welche nicht druckbaren Zeichen in der Bildschirmanzeige "
 "sichtbar sind. Aktivieren Sie das Symbol <link href=\""
 "text/swriter/01/03100000.xhp\" name=\"Non-printing Characters On/Off\"><emph>"
-"Nichtdruckbare Zeichen</emph></link> in der <emph>Symbolleiste "
-"Werkzeuge</emph>. Alle Zeichen, die Sie unter Formatierungshilfen markiert "
-"haben, werden angezeigt."
+"Nicht druckbare Zeichen</emph></link> in der Symbolleiste "
+"<emph>Standard</emph>. Alle Zeichen, die Sie unter "
+"<emph>Formatierungshilfen</emph> markiert haben, werden angezeigt."
 
 #: 01040600.xhp#hd_id3154140.29.help.text
 #: 01040600.xhp%23hd_id3154140.29.help.text
@@ -3318,7 +3318,7 @@ msgid ""
 "Characters</emph> is enabled.</ahelp>"
 msgstr ""
 "<ahelp hid=\"sw:CheckBox:TP_OPTSHDWCRSR:CB_CHAR_HIDDEN\">Zeigt Text mit \""
-"verstecktem\" Zeichenformat an, wenn das Symbol <emph>Nichtdruckbare "
+"verstecktem\" Zeichenformat an, wenn das Symbol <emph>Nicht druckbare "
 "Zeichen</emph> aktiviert ist.</ahelp>"
 
 #: 01040600.xhp#hd_id3149481.41.help.text
@@ -9603,13 +9603,14 @@ msgstr ""
 #: 01090100.xhp#hd_id3159234.2.help.text
 #: 01090100.xhp%23hd_id3159234.2.help.text
 msgid "Print options"
-msgstr "Druck Optionen"
+msgstr "Druckoptionen"
 
+# So steht es in der UI
 #: 01090100.xhp#hd_id3156410.4.help.text
 #: 01090100.xhp%23hd_id3156410.4.help.text
 msgctxt "01090100.xhp#hd_id3156410.4.help.text"
 msgid "Title"
-msgstr "Titel"
+msgstr "Titelzeile"
 
 #: 01090100.xhp#par_id3156347.5.help.text
 #: 01090100.xhp%23par_id3156347.5.help.text
@@ -9618,8 +9619,8 @@ msgid ""
 "whether you want the name of the document to be included in the "
 "printout.</ahelp>"
 msgstr ""
-"<ahelp hid=\"STARMATH_CHECKBOX_RID_PRINTOPTIONPAGE_CB_TITLEROW\" visibility="
-"\"visible\">Nimmt den Namen des Dokuments in den Ausdruck auf.</ahelp>"
+"<ahelp hid=\"STARMATH_CHECKBOX_RID_PRINTOPTIONPAGE_CB_TITLEROW\">Nimmt den "
+"Namen des Dokuments in den Ausdruck auf.</ahelp>"
 
 #: 01090100.xhp#hd_id3166410.6.help.text
 #: 01090100.xhp%23hd_id3166410.6.help.text
@@ -9650,9 +9651,9 @@ msgid ""
 "printout.</ahelp> <emph>Title</emph> and <emph>Formula text</emph> are only "
 "set down by a frame if the corresponding check box is active."
 msgstr ""
-"<ahelp hid=\".\" visibility=\"visible\">Der Formelbereich wird im Ausdruck "
-"dünn umrandet.</ahelp> <emph>Titel</emph> und <emph>Formeltext</emph> werden "
-"nur dann umrandet, wenn die entsprechenden Markierfelder aktiviert wurden."
+"<ahelp hid=\".\">Der Formelbereich wird im Ausdruck dünn umrandet.</ahelp> "
+"<emph>Titel</emph> und <emph>Formeltext</emph> werden nur dann umrandet, "
+"wenn die entsprechenden Markierfelder aktiviert wurden."
 
 #: 01090100.xhp#hd_id3153822.10.help.text
 #: 01090100.xhp%23hd_id3153822.10.help.text
@@ -9671,10 +9672,9 @@ msgid ""
 "Prints the formula without adjusting the current font size.</ahelp> It is "
 "possible that with large formulas a part of the command text is cut off."
 msgstr ""
-"<ahelp hid=\"STARMATH_RADIOBUTTON_RID_PRINTOPTIONPAGE_RB_ORIGINAL_SIZE\" "
-"visibility=\"visible\">Die Formel wird ohne Anpassung der aktuellen "
-"Schriftgröße gedruckt.</ahelp>  Bei großen Formeln wird unter Umständen ein "
-"Teil des Befehlstexts abgeschnitten."
+"<ahelp hid=\"STARMATH_RADIOBUTTON_RID_PRINTOPTIONPAGE_RB_ORIGINAL_SIZE\">Die "
+"Formel wird ohne Anpassung der aktuellen Schriftgröße gedruckt.</ahelp> Bei "
+"großen Formeln wird unter Umständen ein Teil des Befehlstexts abgeschnitten."
 
 #: 01090100.xhp#hd_id3153896.14.help.text
 #: 01090100.xhp%23hd_id3153896.14.help.text
@@ -9688,10 +9688,9 @@ msgid ""
 "Adjusts the formula to the page format used in the printout.</ahelp> The "
 "real size will be determined by the used paper format."
 msgstr ""
-"<ahelp hid=\"STARMATH_RADIOBUTTON_RID_PRINTOPTIONPAGE_RB_FIT_TO_PAGE\" "
-"visibility=\"visible\">Die Formel wird an das Druckseitenformat "
-"angepasst.</ahelp>  Die tatsächliche Größe ist durch das verwendete "
-"Papierformat bedingt."
+"<ahelp hid=\"STARMATH_RADIOBUTTON_RID_PRINTOPTIONPAGE_RB_FIT_TO_PAGE\">Die "
+"Formel wird an das Druckseitenformat angepasst.</ahelp> Die tatsächliche "
+"Größe ist durch das verwendete Papierformat bedingt."
 
 #: 01090100.xhp#hd_id3153381.16.help.text
 #: 01090100.xhp%23hd_id3153381.16.help.text
@@ -9732,11 +9731,10 @@ msgid ""
 "characters at the end of a line prevented the right edge of the formula from "
 "being cut off during printing."
 msgstr ""
-"<ahelp hid=\"STARMATH_CHECKBOX_RID_PRINTOPTIONPAGE_CB_IGNORE_SPACING\" "
-"visibility=\"visible\">Diese Platzhalter werden entfernt, wenn sie sich am "
-"Zeilenende befinden.</ahelp>  In früheren Versionen von $[officename] "
-"verhinderten solche Zeichen am Zeilenende, dass Formeln beim Drucken am "
-"rechten Ende abgeschnitten wurden."
+"<ahelp hid=\"STARMATH_CHECKBOX_RID_PRINTOPTIONPAGE_CB_IGNORE_SPACING\">Diese "
+"Platzhalter werden entfernt, wenn sie sich am Zeilenende befinden.</ahelp> "
+"In früheren Versionen von $[officename] verhinderten solche Zeichen am "
+"Zeilenende, dass Formeln beim Drucken am rechten Ende abgeschnitten wurden."
 
 #: 01090100.xhp#hd_id31567808.help.text
 #: 01090100.xhp%23hd_id31567808.help.text
@@ -14278,7 +14276,7 @@ msgstr ""
 #: 01020100.xhp#hd_id3151110.8.help.text
 #: 01020100.xhp%23hd_id3151110.8.help.text
 msgid "Proxy server"
-msgstr "Proxy Server"
+msgstr "Proxy-Server"
 
 #: 01020100.xhp#par_id3147275.9.help.text
 #: 01020100.xhp%23par_id3147275.9.help.text
@@ -14350,7 +14348,7 @@ msgstr ""
 #: 01020100.xhp#hd_id3148948.16.help.text
 #: 01020100.xhp%23hd_id3148948.16.help.text
 msgid "HTTP proxy"
-msgstr "Http Proxy"
+msgstr "HTTP-Proxy"
 
 #: 01020100.xhp#par_id3154923.17.help.text
 #: 01020100.xhp%23par_id3154923.17.help.text
@@ -14360,14 +14358,14 @@ msgid ""
 "\"HTTP\">HTTP</link>.</ahelp> Type the port in the right-hand field."
 msgstr ""
 "<ahelp hid=\"SVX:EDIT:RID_SVXPAGE_INET_PROXY:ED_HTTP_PROXY\">Geben Sie den "
-"Namen des Proxyservers für <link href=\"text/shared/00/00000002.xhp#http\" "
+"Namen des Proxy-Servers für <link href=\"text/shared/00/00000002.xhp#http\" "
 "name=\"HTTP\">HTTP</link> ein.</ahelp> In das Feld rechts daneben geben Sie "
 "den Port ein."
 
 #: 01020100.xhp#hd_id9971922.help.text
 #: 01020100.xhp%23hd_id9971922.help.text
 msgid "HTTPS proxy"
-msgstr "HTTPS Proxy"
+msgstr "HTTPS-Proxy"
 
 #: 01020100.xhp#par_id5319071.help.text
 #: 01020100.xhp%23par_id5319071.help.text
@@ -14381,7 +14379,7 @@ msgstr ""
 #: 01020100.xhp#hd_id3150543.33.help.text
 #: 01020100.xhp%23hd_id3150543.33.help.text
 msgid "FTP proxy"
-msgstr "Ftp Proxy"
+msgstr "FTP-Proxy"
 
 #: 01020100.xhp#par_id3154138.34.help.text
 #: 01020100.xhp%23par_id3154138.34.help.text
@@ -14391,7 +14389,7 @@ msgid ""
 "FTP\">FTP</link>.</ahelp> Type the port in the right-hand field."
 msgstr ""
 "<ahelp hid=\"SVX_EDIT_RID_SVXPAGE_INET_PROXY_ED_FTP_PROXY\">Geben Sie den "
-"Namen des Proxyservers für <link href=\"text/shared/00/00000002.xhp#ftp\" "
+"Namen des Proxy-Servers für <link href=\"text/shared/00/00000002.xhp#ftp\" "
 "name=\"FTP\">FTP</link> ein.</ahelp> In das Feld rechts daneben geben Sie "
 "den Port ein."
 
