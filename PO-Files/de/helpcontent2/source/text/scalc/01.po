@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-07 16:12+0000\n"
+"PO-Revision-Date: 2020-08-08 23:00+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <dev-de@openoffice.apache.org>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1596816770.000000\n"
+"X-POOTLE-MTIME: 1596927659.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -4210,11 +4210,11 @@ msgid ""
 "parameter is not used for an array formula, only the column number of the "
 "first cell within the area is determined."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_SPALTE\" visibility=\"visible\">Liefert die Nummer der "
-"Spalte. </ahelp> Handelt es sich bei dem Bezug um eine Zelle, dann wird die "
-"Spaltennummer der Zelle zurückgegeben; handelt es sich um einen Zellbereich, "
-"so werden die entsprechenden Spaltennummern in einer einzeiligen <link href="
-"\"text/scalc/01/04060107.xhp#wasmatrix\" name=\"Matrix\">Matrix</link> "
+"<ahelp hid=\"HID_FUNC_SPALTE\">Liefert die Nummer der Spalte.</ahelp> "
+"Handelt es sich bei dem Bezug um eine Zelle, dann wird die Spaltennummer der "
+"Zelle zurückgegeben; handelt es sich um einen Zellbereich, so werden die "
+"entsprechenden Spaltennummern in einer einzeiligen <link href=\""
+"text/scalc/01/04060107.xhp#wasmatrix\" name=\"Matrix\">Matrix</link> "
 "zurückgegeben, sofern die Formel als <link href=\"text/scalc/01/04060107.xhp#"
 "somatrixformel\" name=\"Matrixformel\">Matrixformel</link> eingegeben wurde. "
 "Wenn die Funktion SPALTE einen Bereichsbezugsparameter aufweist und nicht "
@@ -10353,13 +10353,13 @@ msgid ""
 "will be shown with a blue frame. If multiple cell ranges belong to the same "
 "area name, they are displayed with different colored frames."
 msgstr ""
-"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_NAMES:ED_NAME\" visibility=\"visible\">"
-"Geben Sie den Namen des Bereichs ein, für den Sie einen Bezug definieren "
-"möchten. Alle bereits festgelegten Bereichsnamen dieser Tabelle sind im "
-"Textfeld darunter aufgeführt.</ahelp> Wenn Sie auf einen Namen in der Liste "
-"klicken, wird der entsprechende Bezug im Dokument mit einem blauen Rahmen "
-"hervorgehoben.  Sollten mehrere Zellbereiche demselben Bereichsnamen "
-"zugeordnet sein, so werden sie in unterschiedlichen Farben umrandet."
+"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_NAMES:ED_NAME\">Geben Sie den Namen des "
+"Bereichs ein, für den Sie einen Bezug definieren möchten. Alle bereits "
+"festgelegten Bereichsnamen dieser Tabelle sind im Textfeld darunter "
+"aufgeführt.</ahelp> Wenn Sie auf einen Namen in der Liste klicken, wird der "
+"entsprechende Bezug im Dokument mit einem blauen Rahmen hervorgehoben.  "
+"Sollten mehrere Zellbereiche demselben Bereichsnamen zugeordnet sein, so "
+"werden sie in unterschiedlichen Farben umrandet."
 
 #: 04070100.xhp#hd_id3153728.9.help.text
 #: 04070100.xhp%23hd_id3153728.9.help.text
@@ -15017,9 +15017,9 @@ msgid ""
 "database range that you want to define, or select an existing name from the "
 "list.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DBNAMES:ED_NAME\" visibility=\"visible\">"
-"Geben Sie einen Namen für den zu definierenden Datenbankbereich ein oder "
-"wählen Sie einen vorhandenen Namen aus der Liste.</ahelp>"
+"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DBNAMES:ED_NAME\">Geben Sie einen Namen "
+"für den zu definierenden Datenbankbereich ein oder wählen Sie einen "
+"vorhandenen Namen aus der Liste.</ahelp>"
 
 #: 12010000.xhp#hd_id3147228.6.help.text
 #: 12010000.xhp%23hd_id3147228.6.help.text
@@ -15049,9 +15049,9 @@ msgid ""
 "cell range to the database range list, or modifies an existing database "
 "range.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:PUSHBUTTON:RID_SCDLG_DBNAMES:BTN_ADD\" visibility=\"visible\""
-">Fügt den ausgewählten Zellbereich in die Liste der Datenbankbereiche ein "
-"oder ändert einen vorhandenen Datenbankbereich.</ahelp>"
+"<ahelp hid=\"SC:PUSHBUTTON:RID_SCDLG_DBNAMES:BTN_ADD\">Fügt den ausgewählten "
+"Zellbereich in die Liste der Datenbankbereiche ein oder ändert einen "
+"vorhandenen Datenbankbereich.</ahelp>"
 
 #: 12010000.xhp#hd_id3150010.12.help.text
 #: 12010000.xhp%23hd_id3150010.12.help.text
@@ -15373,9 +15373,8 @@ msgid ""
 "selected range downward when cells are inserted.</ahelp></variable>"
 msgstr ""
 "<variable id=\"zellenuntentext\"><ahelp hid=\""
-"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_CELLSDOWN\" visibility=\"visible\">"
-"Verschiebt den Inhalt des ausgewählten Bereichs beim Einfügen von Zellen "
-"nach unten.</ahelp></variable>"
+"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_CELLSDOWN\">Verschiebt den Inhalt des "
+"ausgewählten Bereichs beim Einfügen von Zellen nach unten.</ahelp></variable>"
 
 #: 04020000.xhp#hd_id3147434.7.help.text
 #: 04020000.xhp%23hd_id3147434.7.help.text
@@ -15390,9 +15389,9 @@ msgid ""
 "selected range to the right when cells are inserted.</ahelp></variable>"
 msgstr ""
 "<variable id=\"zellenrechtstext\"><ahelp hid=\""
-"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_CELLSRIGHT\" visibility=\"visible\">"
-"Verschiebt den Inhalt des ausgewählten Bereichs beim Einfügen von Zellen "
-"nach rechts.</ahelp></variable>"
+"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_CELLSRIGHT\">Verschiebt den Inhalt des "
+"ausgewählten Bereichs beim Einfügen von Zellen nach "
+"rechts.</ahelp></variable>"
 
 #: 04020000.xhp#hd_id3153877.9.help.text
 #: 04020000.xhp%23hd_id3153877.9.help.text
@@ -15409,11 +15408,11 @@ msgid ""
 "rows are selected. The contents of the original rows are moved downward."
 msgstr ""
 "<variable id=\"zeilenganzetext\"><ahelp hid=\""
-"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_INSROWS\" visibility=\"visible\">Fügt "
-"eine ganze Zeile ein. Dabei hängt die Position der neuen Zeile von der "
-"Auswahl in der Tabelle ab.</ahelp></variable> Es werden so viele Zeilen "
-"eingefügt, wie in der Tabelle ausgewählt sind. Der Inhalt der ursprünglichen "
-"Zeilen wird nach unten verschoben."
+"SC:RADIOBUTTON:RID_SCDLG_INSCELL:BTN_INSROWS\">Fügt eine ganze Zeile ein. "
+"Dabei hängt die Position der neuen Zeile von der Auswahl in der Tabelle "
+"ab.</ahelp></variable> Es werden so viele Zeilen eingefügt, wie in der "
+"Tabelle ausgewählt sind. Der Inhalt der ursprünglichen Zeilen wird nach "
+"unten verschoben."
 
 #: 04020000.xhp#hd_id3146971.11.help.text
 #: 04020000.xhp%23hd_id3146971.11.help.text
@@ -16057,9 +16056,8 @@ msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONSOLIDATE:LB_FUNC\">Select the function "
 "that you want to use to consolidate the data.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONSOLIDATE:LB_FUNC\" visibility=\""
-"visible\">Wählen Sie die zum Konsolidieren der Daten gewünschte "
-"Funktion.</ahelp>"
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_CONSOLIDATE:LB_FUNC\">Wählen Sie die zum "
+"Konsolidieren der Daten gewünschte Funktion.</ahelp>"
 
 #: 12070000.xhp#hd_id3147127.10.help.text
 #: 12070000.xhp%23hd_id3147127.10.help.text
@@ -16072,9 +16070,8 @@ msgid ""
 "<ahelp hid=\"SC:MULTILISTBOX:RID_SCDLG_CONSOLIDATE:LB_CONSAREAS\">Displays "
 "the cell ranges that you want to consolidate.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:MULTILISTBOX:RID_SCDLG_CONSOLIDATE:LB_CONSAREAS\" visibility="
-"\"visible\">Zeigt die Zellbereiche an, die konsolidiert werden "
-"sollen.</ahelp>"
+"<ahelp hid=\"SC:MULTILISTBOX:RID_SCDLG_CONSOLIDATE:LB_CONSAREAS\">Zeigt die "
+"Zellbereiche an, die konsolidiert werden sollen.</ahelp>"
 
 #: 12070000.xhp#hd_id3147397.12.help.text
 #: 12070000.xhp%23hd_id3147397.12.help.text
@@ -16109,9 +16106,9 @@ msgid ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_CONSOLIDATE:ED_DEST_AREA\">Displays the first "
 "cell in the range where the consolidation results will be displayed.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:EDIT:RID_SCDLG_CONSOLIDATE:ED_DEST_AREA\" visibility=\""
-"visible\">Zeigt die erste Zelle des Bereichs an, an den die "
-"Konsolidierungsergebnisse ausgegeben werden.</ahelp>"
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_CONSOLIDATE:ED_DEST_AREA\">Zeigt die erste "
+"Zelle des Bereichs an, an den die Konsolidierungsergebnisse ausgegeben "
+"werden.</ahelp>"
 
 #: 12070000.xhp#hd_id3147345.17.help.text
 #: 12070000.xhp%23hd_id3147345.17.help.text
@@ -16249,8 +16246,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KGROESSTE\">Returns the Rank_c-th largest value in a "
 "data set.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KGROESSTE\" visibility=\"visible\">Berechnet den k-"
-"größten Wert einer Datengruppe.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KGROESSTE\">Berechnet den k-größten Wert einer "
+"Datengruppe.</ahelp>"
 
 #: 04060183.xhp#hd_id3152990.4.help.text
 #: 04060183.xhp%23hd_id3152990.4.help.text
@@ -16305,8 +16302,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KKLEINSTE\">Returns the Rank_c-th smallest value in a "
 "data set.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KKLEINSTE\" visibility=\"visible\">Berechnet den k-"
-"kleinsten Wert einer Datengruppe.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KKLEINSTE\">Berechnet den k-kleinsten Wert einer "
+"Datengruppe.</ahelp>"
 
 #: 04060183.xhp#hd_id3154957.13.help.text
 #: 04060183.xhp%23hd_id3154957.13.help.text
@@ -16361,8 +16358,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KONFIDENZ\">Returns the (1-alpha) confidence interval "
 "for a normal distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KONFIDENZ\" visibility=\"visible\">Berechnet ein "
-"(1-alpha) Konfidenzintervall zur Normalverteilung.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KONFIDENZ\">Berechnet ein (1-alpha) Konfidenzintervall "
+"zur Normalverteilung.</ahelp>"
 
 #: 04060183.xhp#hd_id3149315.22.help.text
 #: 04060183.xhp%23hd_id3149315.22.help.text
@@ -16421,8 +16418,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KORREL\">Returns the correlation coefficient between "
 "two data sets.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KORREL\" visibility=\"visible\">Berechnet den "
-"Korrelationskoeffizient einer zweidimensionalen Zufallsgröße.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KORREL\">Berechnet den Korrelationskoeffizient einer "
+"zweidimensionalen Zufallsgröße.</ahelp>"
 
 #: 04060183.xhp#hd_id3156397.32.help.text
 #: 04060183.xhp%23hd_id3156397.32.help.text
@@ -16480,8 +16477,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KOVAR\">Returns the covariance of the product of "
 "paired deviations.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KOVAR\" visibility=\"visible\">Berechnet die Kovarianz "
-"für alle in den Datenpunktpaaren gebildeten Produkte.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KOVAR\">Berechnet die Kovarianz für alle in den "
+"Datenpunktpaaren gebildeten Produkte.</ahelp>"
 
 #: 04060183.xhp#hd_id3149013.41.help.text
 #: 04060183.xhp%23hd_id3149013.41.help.text
@@ -16534,10 +16531,9 @@ msgid ""
 "cumulative binomial distribution is less than or equal to a criterion "
 "value.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KRITBINOM\" visibility=\"visible\">Berechnet den "
-"kleinsten Wert, für den die kumulierte Wahrscheinlichkeit der "
-"Binomialverteilung gleich oder größer als eine bestimmte "
-"Grenzwahrscheinlichkeit ist.</ahelp>"
+"<ahelp hid=\"HID_FUNC_KRITBINOM\">Berechnet den kleinsten Wert, für den die "
+"kumulierte Wahrscheinlichkeit der Binomialverteilung gleich oder größer als "
+"eine bestimmte Grenzwahrscheinlichkeit ist.</ahelp>"
 
 #: 04060183.xhp#hd_id3153930.50.help.text
 #: 04060183.xhp%23hd_id3153930.50.help.text
@@ -16595,9 +16591,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_KURT\">Returns the kurtosis of a data set (at least 4 "
 "values required).</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_KURT\" visibility=\"visible\">Errechnet die Kurtosis "
-"(Exzeß) einer Datengruppe.</ahelp> Es müssen mindestens 4 Werte eingegeben "
-"werden."
+"<ahelp hid=\"HID_FUNC_KURT\">Errechnet die Kurtosis (Exzeß) einer "
+"Datengruppe.</ahelp> Es müssen mindestens 4 Werte eingegeben werden."
 
 #: 04060183.xhp#hd_id3150334.60.help.text
 #: 04060183.xhp%23hd_id3150334.60.help.text
@@ -16650,8 +16645,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_LOGINV\">Returns the inverse of the lognormal "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_LOGINV\" visibility=\"visible\">Berechnet die "
-"Umkehrfunktion der logarithmischen Normalverteilung.</ahelp>"
+"<ahelp hid=\"HID_FUNC_LOGINV\">Berechnet die Umkehrfunktion der "
+"logarithmischen Normalverteilung.</ahelp>"
 
 #: 04060183.xhp#hd_id3151016.68.help.text
 #: 04060183.xhp%23hd_id3151016.68.help.text
@@ -16718,9 +16713,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_LOGNORMVERT\">Returns the cumulative lognormal "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_LOGNORMVERT\" visibility=\"visible\">Berechnet die "
-"Werte der Verteilungsfunktion einer lognormalverteilten "
-"Zufallsvariablen.</ahelp>"
+"<ahelp hid=\"HID_FUNC_LOGNORMVERT\">Berechnet die Werte der "
+"Verteilungsfunktion einer lognormalverteilten Zufallsvariablen.</ahelp>"
 
 #: 04060183.xhp#hd_id3150474.78.help.text
 #: 04060183.xhp%23hd_id3150474.78.help.text
@@ -18725,9 +18719,9 @@ msgid ""
 "distribution.</ahelp> The F distribution is used for F tests in order to set "
 "the relation between two differing data sets."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_FINV\" visibility=\"visible\">Berechnet die Quantile "
-"der F-Verteilung.</ahelp> Die F-Verteilung wird in F-Tests dazu verwendet, "
-"bei Streuungen zweier Datenmengen das Verhältnis zu setzen."
+"<ahelp hid=\"HID_FUNC_FINV\">Berechnet die Quantile der F-Verteilung.</ahelp>"
+" Die F-Verteilung wird in F-Tests dazu verwendet, bei Streuungen zweier "
+"Datenmengen das Verhältnis zu setzen."
 
 #: 04060182.xhp#hd_id3153816.4.help.text
 #: 04060182.xhp%23hd_id3153816.4.help.text
@@ -18794,9 +18788,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_FISHER\">Returns the Fisher transformation for x and "
 "creates a function close to a normal distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_FISHER\" visibility=\"visible\">Berechnet die Fisher-"
-"Transformation für x und erzeugt eine Funktion, die annähernd normal "
-"verteilt ist.</ahelp>"
+"<ahelp hid=\"HID_FUNC_FISHER\">Berechnet die Fisher-Transformation für x und "
+"erzeugt eine Funktion, die annähernd normal verteilt ist.</ahelp>"
 
 #: 04060182.xhp#hd_id3149898.14.help.text
 #: 04060182.xhp%23hd_id3149898.14.help.text
@@ -18846,10 +18839,9 @@ msgid ""
 "transformation for x and creates a function close to a normal "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_FISHERINV\" visibility=\"visible\">Rechnet die Fisher-"
-"Transformation für x invertiert durch und erzeugt eine Funktion, die "
-"annähernd normal verteilt ist und damit eine Schiefe von annähernd Null "
-"besitzt.</ahelp>"
+"<ahelp hid=\"HID_FUNC_FISHERINV\">Rechnet die Fisher-Transformation für x "
+"invertiert durch und erzeugt eine Funktion, die annähernd normal verteilt "
+"ist und damit eine Schiefe von annähernd Null besitzt.</ahelp>"
 
 #: 04060182.xhp#hd_id3155755.22.help.text
 #: 04060182.xhp%23hd_id3155755.22.help.text
@@ -18894,8 +18886,8 @@ msgstr "FTEST"
 #: 04060182.xhp%23par_id3150534.29.help.text
 msgid "<ahelp hid=\"HID_FUNC_FTEST\">Returns the result of an F test.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_FTEST\" visibility=\"visible\">Führt einen F-"
-"Varianztest durch und errechnet die Statistik.</ahelp>"
+"<ahelp hid=\"HID_FUNC_FTEST\">Führt einen F-Varianztest durch und errechnet "
+"die Statistik.</ahelp>"
 
 #: 04060182.xhp#hd_id3166466.30.help.text
 #: 04060182.xhp%23hd_id3166466.30.help.text
@@ -19125,8 +19117,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GAMMALN\">Returns the natural logarithm of the Gamma "
 "function: G(x).</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GAMMALN\" visibility=\"visible\">Berechnet den "
-"natürlichen Logarithmus der Gamma-Funktion, G(x).</ahelp>"
+"<ahelp hid=\"HID_FUNC_GAMMALN\">Berechnet den natürlichen Logarithmus der "
+"Gamma-Funktion, G(x).</ahelp>"
 
 #: 04060182.xhp#hd_id3152999.59.help.text
 #: 04060182.xhp%23hd_id3152999.59.help.text
@@ -19175,8 +19167,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GAMMAVERT\">Returns the values of a Gamma "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GAMMAVERT\" visibility=\"visible\">Berechnet die "
-"Wahrscheinlichkeiten einer Gamma-verteilten Zufallsvariablen.</ahelp>"
+"<ahelp hid=\"HID_FUNC_GAMMAVERT\">Berechnet die Wahrscheinlichkeiten einer "
+"Gamma-verteilten Zufallsvariablen.</ahelp>"
 
 #: 04060182.xhp#par_id0119200903333675.help.text
 #: 04060182.xhp%23par_id0119200903333675.help.text
@@ -19258,8 +19250,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GAUSS\">Returns the standard normal cumulative "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GAUSS\" visibility=\"visible\">Bestimmt den "
-"Integralwert der Standardnormalverteilung.</ahelp>"
+"<ahelp hid=\"HID_FUNC_GAUSS\">Bestimmt den Integralwert der "
+"Standardnormalverteilung.</ahelp>"
 
 #: 04060182.xhp#par_id2059694.help.text
 #: 04060182.xhp%23par_id2059694.help.text
@@ -19323,8 +19315,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GEOMITTEL\">Returns the geometric mean of a "
 "sample.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GEOMITTEL\" visibility=\"visible\">Berechnet das "
-"geometrische Mittel einer Menge positiver Zahlen.</ahelp>"
+"<ahelp hid=\"HID_FUNC_GEOMITTEL\">Berechnet das geometrische Mittel einer "
+"Menge positiver Zahlen.</ahelp>"
 
 #: 04060182.xhp#hd_id3147167.87.help.text
 #: 04060182.xhp%23hd_id3147167.87.help.text
@@ -19382,9 +19374,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GESTUTZTMITTEL\">Returns the mean of a data set "
 "without the Alpha percent of data at the margins.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GESTUTZTMITTEL\" visibility=\"visible\">Berechnet den "
-"Mittelwert einer Datengruppe, ohne die Werte an den Rändern zu "
-"berücksichtigen.</ahelp>"
+"<ahelp hid=\"HID_FUNC_GESTUTZTMITTEL\">Berechnet den Mittelwert einer "
+"Datengruppe, ohne die Werte an den Rändern zu berücksichtigen.</ahelp>"
 
 #: 04060182.xhp#hd_id3149281.96.help.text
 #: 04060182.xhp%23hd_id3149281.96.help.text
@@ -19520,8 +19511,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_HARMITTEL\">Returns the harmonic mean of a data "
 "set.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_HARMITTEL\" visibility=\"visible\">Berechnet das "
-"harmonische Mittel einer Datenmenge.</ahelp>"
+"<ahelp hid=\"HID_FUNC_HARMITTEL\">Berechnet das harmonische Mittel einer "
+"Datenmenge.</ahelp>"
 
 #: 04060182.xhp#hd_id3146900.115.help.text
 #: 04060182.xhp%23hd_id3146900.115.help.text
@@ -19578,8 +19569,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">Returns the hypergeometric "
 "distribution.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_HYPGEOMVERT\" visibility=\"visible\">Berechnet "
-"Wahrscheinlichkeiten in hypergeometrisch-verteilten Zufallsvariablen.</ahelp>"
+"<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">Berechnet Wahrscheinlichkeiten in "
+"hypergeometrisch-verteilten Zufallsvariablen.</ahelp>"
 
 #: 04060182.xhp#hd_id3154697.124.help.text
 #: 04060182.xhp%23hd_id3154697.124.help.text
@@ -19679,10 +19670,10 @@ msgid ""
 "can also modify a scenario name in the Navigator through the <emph>"
 "Properties </emph>context menu command."
 msgstr ""
-"<ahelp hid=\"HID_SC_SCENWIN_TOP\" visibility=\"visible\">Bestimmt den Namen "
-"für das Szenario. Wählen Sie einen deutlichen und einmaligen Namen, an dem "
-"Sie das Szenario leicht erkennen.</ahelp> Namen von Szenarien lassen sich "
-"auch über den Kontextmenübefehl <emph>Eigenschaften</emph> ändern."
+"<ahelp hid=\"HID_SC_SCENWIN_TOP\">Bestimmt den Namen für das Szenario. "
+"Wählen Sie einen deutlichen und einmaligen Namen, an dem Sie das Szenario "
+"leicht erkennen.</ahelp> Namen von Szenarien lassen sich auch über den "
+"Kontextmenübefehl <emph>Eigenschaften</emph> ändern."
 
 #: 06050000.xhp#hd_id3153954.14.help.text
 #: 06050000.xhp%23hd_id3153954.14.help.text
@@ -19736,13 +19727,13 @@ msgid ""
 "area, if several have been defined. You can choose any of the scenarios from "
 "this list without restrictions."
 msgstr ""
-"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_NEWSCENARIO:LB_COLOR\" visibility=\""
-"visible\">Hebt das Szenario in der Tabelle durch einen Rahmen hervor. Im "
-"Feld rechts neben dieser Option legen Sie die Farbe für diesen Rahmen "
-"fest.</ahelp> Der Rahmen umfasst eine Titelleiste mit dem Namen des letzten "
-"Szenarios. Die Schaltfläche am rechten Rand des Rahmens bietet einen "
-"Überblick über alle Szenarien in diesem Bereich. Über diese Liste lassen "
-"sich ohne Einschränkung alle Szenarien auswählen."
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_NEWSCENARIO:LB_COLOR\">Hebt das Szenario "
+"in der Tabelle durch einen Rahmen hervor. Im Feld rechts neben dieser Option "
+"legen Sie die Farbe für diesen Rahmen fest.</ahelp> Der Rahmen umfasst eine "
+"Titelleiste mit dem Namen des letzten Szenarios. Die Schaltfläche am rechten "
+"Rand des Rahmens bietet einen Überblick über alle Szenarien in diesem "
+"Bereich. Über diese Liste lassen sich ohne Einschränkung alle Szenarien "
+"auswählen."
 
 #: 06050000.xhp#hd_id3149582.20.help.text
 #: 06050000.xhp%23hd_id3149582.20.help.text
@@ -19779,9 +19770,8 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_NEWSCENARIO:CB_COPYALL\">Copies the "
 "entire sheet into an additional scenario sheet. </ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_NEWSCENARIO:CB_COPYALL\" visibility=\""
-"visible\">Kopiert die gesamte Tabelle in eine zusätzliche Szenarientabelle. "
-"</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_NEWSCENARIO:CB_COPYALL\">Kopiert die "
+"gesamte Tabelle in eine zusätzliche Szenarientabelle.</ahelp>"
 
 #: 06050000.xhp#par_idN1075A.help.text
 #: 06050000.xhp%23par_idN1075A.help.text
@@ -22108,8 +22098,8 @@ msgid ""
 "<ahelp hid=\"SC_PUSHBUTTON_RID_SCDLG_PIVOT_LAYOUT_BTN_REMOVE\">Removes the "
 "selected data field from the table layout.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC_PUSHBUTTON_RID_SCDLG_PIVOT_LAYOUT_BTN_REMOVE\" visibility=\""
-"visible\">Entfernt das ausgewählte Datenfeld aus dem Tabellenlayout.</ahelp>"
+"<ahelp hid=\"SC_PUSHBUTTON_RID_SCDLG_PIVOT_LAYOUT_BTN_REMOVE\">Entfernt das "
+"ausgewählte Datenfeld aus dem Tabellenlayout.</ahelp>"
 
 #: 12090102.xhp#hd_id3145273.26.help.text
 #: 12090102.xhp%23hd_id3145273.26.help.text
@@ -22209,8 +22199,8 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_IGNEMPTYROWS\">Ignores "
 "empty fields in the data source.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_IGNEMPTYROWS\" "
-"visibility=\"visible\">Ignoriert leere Felder in der Datenquelle.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_IGNEMPTYROWS\">Ignoriert "
+"leere Felder in der Datenquelle.</ahelp>"
 
 #: 12090102.xhp#hd_id3155114.9.help.text
 #: 12090102.xhp%23hd_id3155114.9.help.text
@@ -22239,8 +22229,8 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALCOL\">Calculates "
 "and displays the grand total of the column calculation.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALCOL\" visibility=\""
-"visible\">Berechnet das Gesamtergebnis der Spalte und zeigt es an.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALCOL\">Berechnet das "
+"Gesamtergebnis der Spalte und zeigt es an.</ahelp>"
 
 #: 12090102.xhp#hd_id3150364.16.help.text
 #: 12090102.xhp%23hd_id3150364.16.help.text
@@ -22253,8 +22243,8 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALROW\">Calculates "
 "and displays the grand total of the row calculation.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALROW\" visibility=\""
-"visible\">Berechnet das Gesamtergebnis der Zeile und zeigt es an.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCDLG_PIVOT_LAYOUT:BTN_TOTALROW\">Berechnet das "
+"Gesamtergebnis der Zeile und zeigt es an.</ahelp>"
 
 #: 12090102.xhp#par_idN10897.help.text
 #: 12090102.xhp%23par_idN10897.help.text
@@ -22389,9 +22379,9 @@ msgid ""
 "named range, or enter the cell range that contains the filter criteria that "
 "you want to use.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:EDIT:RID_SCDLG_SPEC_FILTER:ED_CRITERIA_AREA\" visibility=\""
-"visible\">Wählen Sie den benannten Bereich aus, oder geben Sie den "
-"Zellbereich, der die gewünschten Filterkriterien enthält, direkt ein.</ahelp>"
+"<ahelp hid=\"SC:EDIT:RID_SCDLG_SPEC_FILTER:ED_CRITERIA_AREA\">Wählen Sie den "
+"benannten Bereich aus, oder geben Sie den Zellbereich, der die gewünschten "
+"Filterkriterien enthält, direkt ein.</ahelp>"
 
 #: 12040300.xhp#hd_id3153188.27.help.text
 #: 12040300.xhp%23hd_id3153188.27.help.text
@@ -22805,9 +22795,9 @@ msgid ""
 "to the current code table.</ahelp> The number can be a two-digit or three-"
 "digit integer number."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_ZEICHEN\" visibility=\"visible\">Konvertiert eine Zahl "
-"gemäß der aktuellen Codetabelle in einen Buchstaben oder ein Zeichen.</ahelp>"
-" Bei der Zahl kann es sich um eine zwei- oder dreistellige Ganzzahl handeln."
+"<ahelp hid=\"HID_FUNC_ZEICHEN\">Konvertiert eine Zahl gemäß der aktuellen "
+"Codetabelle in einen Buchstaben oder ein Zeichen.</ahelp> Bei der Zahl kann "
+"es sich um eine zwei- oder dreistellige Ganzzahl handeln."
 
 #: 04060110.xhp#hd_id3149945.203.help.text
 #: 04060110.xhp%23hd_id3149945.203.help.text
@@ -22864,8 +22854,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_SAEUBERN\">All non-printing characters are removed "
 "from the string.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_SAEUBERN\" visibility=\"visible\">Aus der Zeichenkette "
-"werden alle nicht druckbaren Zeichen entfernt.</ahelp>"
+"<ahelp hid=\"HID_FUNC_SAEUBERN\">Aus der Zeichenkette werden alle nicht "
+"druckbaren Zeichen entfernt.</ahelp>"
 
 #: 04060110.xhp#hd_id3146880.134.help.text
 #: 04060110.xhp%23hd_id3146880.134.help.text
@@ -22903,9 +22893,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_CODE\">Returns a numeric code for the first character "
 "in a text string.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_CODE\" visibility=\"visible\">Hier erhalten Sie den "
-"Code des ersten Zeichen eines Textes bzw. einer Zeichenkette angezeigt. "
-"</ahelp>"
+"<ahelp hid=\"HID_FUNC_CODE\">Hier erhalten Sie den Code des ersten Zeichen "
+"eines Textes bzw. einer Zeichenkette angezeigt.</ahelp>"
 
 #: 04060110.xhp#hd_id3155830.5.help.text
 #: 04060110.xhp%23hd_id3155830.5.help.text
@@ -22967,8 +22956,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combines several text strings into one "
 "string.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_VERKETTEN\" visibility=\"visible\">Verbindet mehrere "
-"Textzeichenketten zu einer Zeichenkette.</ahelp>"
+"<ahelp hid=\"HID_FUNC_VERKETTEN\">Verbindet mehrere Textzeichenketten zu "
+"einer Zeichenkette.</ahelp>"
 
 #: 04060110.xhp#hd_id3149542.169.help.text
 #: 04060110.xhp%23hd_id3149542.169.help.text
@@ -23198,9 +23187,9 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_IDENTISCH\">Compares two text strings and returns TRUE "
 "if they are identical.</ahelp> This function is case-sensitive."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_IDENTISCH\" visibility=\"visible\">Vergleicht zwei "
-"Textzeichenketten und liefert WAHR, wenn sie identisch sind.</ahelp> Bei "
-"dieser Funktion ist die Groß-/Kleinschreibung zu beachten."
+"<ahelp hid=\"HID_FUNC_IDENTISCH\">Vergleicht zwei Textzeichenketten und "
+"liefert WAHR, wenn sie identisch sind.</ahelp> Bei dieser Funktion ist die "
+"Groß-/Kleinschreibung zu beachten."
 
 #: 04060110.xhp#hd_id3152817.80.help.text
 #: 04060110.xhp%23hd_id3152817.80.help.text
@@ -23258,11 +23247,11 @@ msgid ""
 "term can be a number or any string of characters. The search is case-"
 "sensitive."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_FINDEN\" visibility=\"visible\">Durchsucht eine "
-"Textzeichenkette nach einer anderen Zeichenkette.</ahelp> Sie können auch "
-"festlegen, wo die Suche beginnen soll. Bei dem Suchbegriff kann es sich um "
-"eine Zahl oder eine beliebige Zeichenkette handeln. Die Groß-/"
-"Kleinschreibung ist hierbei zu beachten."
+"<ahelp hid=\"HID_FUNC_FINDEN\">Durchsucht eine Textzeichenkette nach einer "
+"anderen Zeichenkette.</ahelp> Sie können auch festlegen, wo die Suche "
+"beginnen soll. Bei dem Suchbegriff kann es sich um eine Zahl oder eine "
+"beliebige Zeichenkette handeln. Die Groß-/Kleinschreibung ist hierbei zu "
+"beachten."
 
 #: 04060110.xhp#hd_id3083284.46.help.text
 #: 04060110.xhp%23hd_id3083284.46.help.text
@@ -23529,8 +23518,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_LAENGE\">Returns the length of a string including "
 "spaces.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_LAENGE\" visibility=\"visible\">Diese Funktion gibt "
-"die Länge einer Zeichenkette zurück. Leerzeichen werden mitgezählt.</ahelp>"
+"<ahelp hid=\"HID_FUNC_LAENGE\">Diese Funktion gibt die Länge einer "
+"Zeichenkette zurück. Leerzeichen werden mitgezählt.</ahelp>"
 
 #: 04060110.xhp#hd_id3155108.106.help.text
 #: 04060110.xhp%23hd_id3155108.106.help.text
@@ -23700,8 +23689,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_GROSS2\">Capitalizes the first letter in all words of "
 "a text string.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_GROSS2\" visibility=\"visible\">Setzt alle Wortanfänge "
-"einer Textzeichenkette in Großbuchstaben um.</ahelp>"
+"<ahelp hid=\"HID_FUNC_GROSS2\">Setzt alle Wortanfänge einer Textzeichenkette "
+"in Großbuchstaben um.</ahelp>"
 
 #: 04060110.xhp#hd_id3153573.72.help.text
 #: 04060110.xhp%23hd_id3153573.72.help.text
@@ -23756,15 +23745,15 @@ msgid ""
 "need to convert it back to a number using the <link href=\""
 "text/scalc/01/04060110.xhp\" name=\"VALUE\">VALUE</link> function."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_ERSETZEN\" visibility=\"visible\">Wenn Sie einen "
-"bestimmten Teil einer Zeichenkette durch eine andere Zeichenkette "
-"auswechseln möchten, können Sie hier den auszuwechselnden Text, die "
-"Position, die Länge und den Textersatz festlegen. Es können sowohl Zeichen "
-"als auch Zahlen (die automatisch in Text gewandelt werden) mit dieser "
-"Funktion ausgetauscht werden. Das Ergebnis der Funktion ist immer ein "
-"Text.</ahelp> Wollen Sie mit einer ersetzten Zahl weiterrechnen, so müssen "
-"Sie das Ergebnis mit der Funktion <link href=\"text/scalc/01/04060110.xhp\" "
-"name=\"WERT\">WERT</link> in eine Zahl zurückwandeln."
+"<ahelp hid=\"HID_FUNC_ERSETZEN\">Wenn Sie einen bestimmten Teil einer "
+"Zeichenkette durch eine andere Zeichenkette auswechseln möchten, können Sie "
+"hier den auszuwechselnden Text, die Position, die Länge und den Textersatz "
+"festlegen. Es können sowohl Zeichen als auch Zahlen (die automatisch in Text "
+"gewandelt werden) mit dieser Funktion ausgetauscht werden. Das Ergebnis der "
+"Funktion ist immer ein Text.</ahelp> Wollen Sie mit einer ersetzten Zahl "
+"weiterrechnen, so müssen Sie das Ergebnis mit der Funktion <link href=\""
+"text/scalc/01/04060110.xhp\" name=\"WERT\">WERT</link> in eine Zahl "
+"zurückwandeln."
 
 #: 04060110.xhp#par_id3158426.24.help.text
 #: 04060110.xhp%23par_id3158426.24.help.text
@@ -23972,9 +23961,9 @@ msgid ""
 "value range must be between 0 and 3999, the modes can be integers from 0 to "
 "4.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_ROEMISCH\" visibility=\"visible\">Konvertiert eine "
-"arabische in eine römische Zahl. Der Wert muss im Bereich 0 bis 3999 liegen. "
-"Als Modus kann eine Ganzzahl von 0 bis 4 angegeben werden.</ahelp>"
+"<ahelp hid=\"HID_FUNC_ROEMISCH\">Konvertiert eine arabische in eine römische "
+"Zahl. Der Wert muss im Bereich 0 bis 3999 liegen. Als Modus kann eine "
+"Ganzzahl von 0 bis 4 angegeben werden.</ahelp>"
 
 #: 04060110.xhp#hd_id3149299.250.help.text
 #: 04060110.xhp%23hd_id3149299.250.help.text
@@ -24060,11 +24049,11 @@ msgid ""
 "option. The search text can be a number or any sequence of characters. The "
 "search is not case-sensitive."
 msgstr ""
-"<ahelp hid=\"HID_FUNC_SUCHEN\" visibility=\"visible\">Gibt die Position "
-"eines Textsegments innerhalb einer Zeichenkette aus.</ahelp> Bei Belieben "
-"können Sie auch den Anfang für die Suche festlegen. Bei dem Suchbegriff kann "
-"es sich um eine Zahl oder eine beliebige Zeichenkette handeln. Die Groß-/"
-"Kleinschreibung spielt hier keine Rolle."
+"<ahelp hid=\"HID_FUNC_SUCHEN\">Gibt die Position eines Textsegments "
+"innerhalb einer Zeichenkette aus.</ahelp> Bei Belieben können Sie auch den "
+"Anfang für die Suche festlegen. Bei dem Suchbegriff kann es sich um eine "
+"Zahl oder eine beliebige Zeichenkette handeln. Die Groß-/Kleinschreibung "
+"spielt hier keine Rolle."
 
 #: 04060110.xhp#hd_id3152964.124.help.text
 #: 04060110.xhp%23hd_id3152964.124.help.text
@@ -24125,8 +24114,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_WECHSELN\">Substitutes new text for old text in a "
 "string.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_WECHSELN\" visibility=\"visible\">Tauscht in einer "
-"Zeichenkette einen alten gegen einen neuen Text aus.</ahelp>"
+"<ahelp hid=\"HID_FUNC_WECHSELN\">Tauscht in einer Zeichenkette einen alten "
+"gegen einen neuen Text aus.</ahelp>"
 
 #: 04060110.xhp#hd_id3150994.176.help.text
 #: 04060110.xhp%23hd_id3150994.176.help.text
@@ -24276,8 +24265,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_TEXT\">Converts a number into text according to a "
 "given format.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_TEXT\" visibility=\"visible\">Konvertiert eine Zahl "
-"gemäß einer Formatangabe in Text.</ahelp>"
+"<ahelp hid=\"HID_FUNC_TEXT\">Konvertiert eine Zahl gemäß einer Formatangabe "
+"in Text.</ahelp>"
 
 #: 04060110.xhp#hd_id3153129.160.help.text
 #: 04060110.xhp%23hd_id3153129.160.help.text
@@ -24532,8 +24521,8 @@ msgstr "WERT"
 msgid ""
 "<ahelp hid=\"HID_FUNC_WERT\">Converts a text string into a number.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_FUNC_WERT\" visibility=\"visible\">Konvertiert eine "
-"Textzeichenkette in eine Zahl.</ahelp>"
+"<ahelp hid=\"HID_FUNC_WERT\">Konvertiert eine Textzeichenkette in eine "
+"Zahl.</ahelp>"
 
 #: 04060110.xhp#hd_id3152568.187.help.text
 #: 04060110.xhp%23hd_id3152568.187.help.text
@@ -25144,9 +25133,8 @@ msgid ""
 "<ahelp hid=\"HID_SCPAGE_SUBT_OPTIONS\">Specify the settings for calculating "
 "and presenting subtotals.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SCPAGE_SUBT_OPTIONS\" visibility=\"visible\">Legen Sie die "
-"Einstellungen für die Berechnung und Darstellung von Teilergebnissen "
-"fest.</ahelp>"
+"<ahelp hid=\"HID_SCPAGE_SUBT_OPTIONS\">Legen Sie die Einstellungen für die "
+"Berechnung und Darstellung von Teilergebnissen fest.</ahelp>"
 
 #: 12050200.xhp#hd_id3156422.3.help.text
 #: 12050200.xhp%23hd_id3156422.3.help.text
@@ -25159,9 +25147,9 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_PAGEBREAK\">Inserts a "
 "new page after each group of subtotaled data.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_PAGEBREAK\" visibility="
-"\"visible\">Fügt nach jeder Gruppe, für die ein Teilergebnis errechnet wird, "
-"eine neue Seite ein.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_PAGEBREAK\">Fügt nach "
+"jeder Gruppe, für die ein Teilergebnis errechnet wird, eine neue Seite "
+"ein.</ahelp>"
 
 #: 12050200.xhp#hd_id3146985.5.help.text
 #: 12050200.xhp%23hd_id3146985.5.help.text
@@ -25175,9 +25163,9 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_CASE\">Recalculates "
 "subtotals when you change the case of a data label.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_CASE\" visibility=\""
-"visible\">Berechnet die Teilergebnisse neu, wenn Sie die Groß-/"
-"Kleinschreibung einer Datenbeschriftung ändern.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_CASE\">Berechnet die "
+"Teilergebnisse neu, wenn Sie die Groß-/Kleinschreibung einer "
+"Datenbeschriftung ändern.</ahelp>"
 
 #: 12050200.xhp#hd_id3151119.7.help.text
 #: 12050200.xhp%23hd_id3151119.7.help.text
@@ -25212,8 +25200,8 @@ msgid ""
 "<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_FORMATS\">Considers "
 "formatting attributes when sorting.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_FORMATS\" visibility=\""
-"visible\">Berücksichtigt beim Sortieren Formatierungsattribute.</ahelp>"
+"<ahelp hid=\"SC:CHECKBOX:RID_SCPAGE_SUBT_OPTIONS:BTN_FORMATS\">"
+"Berücksichtigt beim Sortieren Formatierungsattribute.</ahelp>"
 
 #: 12050200.xhp#hd_id3155418.13.help.text
 #: 12050200.xhp%23hd_id3155418.13.help.text
@@ -25291,9 +25279,9 @@ msgid ""
 "<ahelp hid=\"HID_SCPAGE_SUBT_GROUP1\">Specify the settings for up to three "
 "subtotal groups. Each tab has the same layout.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SCPAGE_SUBT_GROUP1\" visibility=\"visible\">Es können "
-"Einstellungen für bis zu drei Teilergebnisgruppen festgelegt werden. Die "
-"Register sind identisch aufgebaut.</ahelp>"
+"<ahelp hid=\"HID_SCPAGE_SUBT_GROUP1\">Es können Einstellungen für bis zu "
+"drei Teilergebnisgruppen festgelegt werden. Die Register sind identisch "
+"aufgebaut.</ahelp>"
 
 #: 12050100.xhp#par_id3148797.3.help.text
 #: 12050100.xhp%23par_id3148797.3.help.text
@@ -25361,10 +25349,9 @@ msgid ""
 "the subtotal calculation process. If the contents of the selected column "
 "change, the subtotals are automatically recalculated.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_SUBT_GROUP\" visibility=\"visible\">Wählen Sie die "
-"Spalte aus, von welcher der Berechnungsprozess abhängen soll. Wenn sich der "
-"Inhalt der ausgewählten Spalte ändert, werden die Teilergebnisse automatisch "
-"neu berechnet.</ahelp>"
+"<ahelp hid=\"HID_SC_SUBT_GROUP\">Wählen Sie die Spalte aus, von welcher der "
+"Berechnungsprozess abhängen soll. Wenn sich der Inhalt der ausgewählten "
+"Spalte ändert, werden die Teilergebnisse automatisch neu berechnet.</ahelp>"
 
 #: 12050100.xhp#hd_id3154943.9.help.text
 #: 12050100.xhp%23hd_id3154943.9.help.text
@@ -25377,8 +25364,8 @@ msgid ""
 "<ahelp hid=\"HID_SC_SUBT_COLS\">Select the column(s) containing the values "
 "that you want to subtotal.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_SUBT_COLS\" visibility=\"visible\">Wählen Sie die "
-"Spalten mit den zu berechnenden Werten aus.</ahelp>"
+"<ahelp hid=\"HID_SC_SUBT_COLS\">Wählen Sie die Spalte(n) mit den zu "
+"berechnenden Werten aus.</ahelp>"
 
 #: 12050100.xhp#hd_id3156283.11.help.text
 #: 12050100.xhp%23hd_id3156283.11.help.text
@@ -25391,9 +25378,8 @@ msgid ""
 "<ahelp hid=\"HID_SC_SUBT_FUNC\">Select the mathematical function that you "
 "want to use to calculate the subtotals.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_SUBT_FUNC\" visibility=\"visible\">Wählen Sie die "
-"mathematische Funktion aus, die zum Berechnen der Teilergebnisse verwendet "
-"werden soll.</ahelp>"
+"<ahelp hid=\"HID_SC_SUBT_FUNC\">Wählen Sie die mathematische Funktion aus, "
+"die zum Berechnen der Teilergebnisse verwendet werden soll.</ahelp>"
 
 #: 06030900.xhp#tit.help.text
 #: 06030900.xhp%23tit.help.text
@@ -25507,9 +25493,8 @@ msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_DATABASE\">Select the database "
 "that contains the data source that you want to use.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_DATABASE\" visibility=\""
-"visible\">Wählen Sie die Datenbank mit der gewünschten Datenquelle "
-"aus.</ahelp>"
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_DATABASE\">Wählen Sie die "
+"Datenbank mit der gewünschten Datenquelle aus.</ahelp>"
 
 #: 12090101.xhp#hd_id3147428.9.help.text
 #: 12090101.xhp%23hd_id3147428.9.help.text
@@ -25540,8 +25525,8 @@ msgid ""
 "<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DAPIDATA:CB_OBJECT\">Select the data "
 "source that you want to use.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DAPIDATA:CB_OBJECT\" visibility=\""
-"visible\">Wählen Sie die gewünschte Datenquelle.</ahelp>"
+"<ahelp hid=\"SC:COMBOBOX:RID_SCDLG_DAPIDATA:CB_OBJECT\">Wählen Sie die "
+"gewünschte Datenquelle.</ahelp>"
 
 #: 12090101.xhp#par_id3147348.11.help.text
 #: 12090101.xhp%23par_id3147348.11.help.text
@@ -25868,8 +25853,8 @@ msgid ""
 "<ahelp hid=\"HID_SCPAGE_HFED_FL\">Defines or formats a header or footer for "
 "a Page Style.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SCPAGE_HFED_FL\" visibility=\"visible\">Definiert oder "
-"formatiert Kopf- oder Fußzeilen für eine Seitenvorlage.</ahelp>"
+"<ahelp hid=\"HID_SCPAGE_HFED_FL\">Definiert oder formatiert Kopf- oder "
+"Fußzeilen für eine Seitenvorlage.</ahelp>"
 
 #: 02120100.xhp#hd_id3145748.3.help.text
 #: 02120100.xhp%23hd_id3145748.3.help.text
@@ -25882,9 +25867,8 @@ msgid ""
 "<ahelp hid=\"HID_SC_HF_FLL\">Enter the text to be displayed at the left side "
 "of the header or footer.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_FLL\" visibility=\"visible\">Hier können Sie einen "
-"Text eingeben, der am linken Rand der Kopf-/Fußzeile angezeigt werden "
-"soll.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_FLL\">Hier können Sie einen Text eingeben, der am "
+"linken Rand der Kopf-/Fußzeile angezeigt werden soll.</ahelp>"
 
 #: 02120100.xhp#hd_id3148648.5.help.text
 #: 02120100.xhp%23hd_id3148648.5.help.text
@@ -25911,9 +25895,8 @@ msgid ""
 "<ahelp hid=\"HID_SC_HF_FLR\">Enter the text to be displayed at the right "
 "side of the header or footer.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_FLR\" visibility=\"visible\">Hier können Sie einen "
-"Text eingeben, der am rechten Rand der Kopf-/Fußzeile angezeigt werden "
-"soll.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_FLR\">Hier können Sie einen Text eingeben, der am "
+"rechten Rand der Kopf-/Fußzeile angezeigt werden soll.</ahelp>"
 
 #: 02120100.xhp#par_idN10811.help.text
 #: 02120100.xhp%23par_idN10811.help.text
@@ -25944,9 +25927,9 @@ msgid ""
 "Effects\">Font Effects</link> and <link href=\"text/shared/01/05020500.xhp\" "
 "name=\"Font Position\">Font Position</link>."
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_TEXT\" visibility=\"visible\">Öffnet einen Dialog, in "
-"dem Sie neuem oder ausgewähltem Text Formate zuweisen können.</ahelp> Der "
-"Dialog <emph>Textattribute</emph> umfasst die Register <link href=\""
+"<ahelp hid=\"HID_SC_HF_TEXT\">Öffnet einen Dialog, in dem Sie neuem oder "
+"ausgewähltem Text Formate zuweisen können.</ahelp> Der Dialog "
+"<emph>Textattribute</emph> umfasst die Register <link href=\""
 "text/shared/01/05020100.xhp\" name=\"Schrift\">Schrift</link>, <link href=\""
 "text/shared/01/05020200.xhp\" name=\"Schrifteffekt\">Schrifteffekt</link> "
 "und <link href=\"text/shared/01/05020500.xhp\" name=\"Schriftposition\""
@@ -25980,13 +25963,13 @@ msgid ""
 "not be assigned (see <emph>File - Properties</emph>), the file name will be "
 "inserted instead."
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_FILE\" visibility=\"visible\">Fügt in den "
-"ausgewählten Kopf-/Fußzeilenbereich einen Platzhalter ein, der in der Kopf-/"
-"Fußzeile des Dokuments durch den tatsächlichen Dateinamen ersetzt "
-"wird.</ahelp> Klicken Sie kurz, um den Titel einzufügen. Klicken Sie lang, "
-"um entweder einen Titel, Dateinamen oder Pfadnamen aus dem Untermenü "
-"auszuwählen. Wenn kein Titel festgelegt wurde (siehe <emph>Datei - "
-"Eigenschaften</emph>), wird anstelle eines Titels der Dateiname eingefügt."
+"<ahelp hid=\"HID_SC_HF_FILE\">Fügt in den ausgewählten Kopf-/"
+"Fußzeilenbereich einen Platzhalter ein, der in der Kopf-/Fußzeile des "
+"Dokuments durch den tatsächlichen Dateinamen ersetzt wird.</ahelp> Klicken "
+"Sie kurz, um den Titel einzufügen. Klicken Sie lang, um entweder einen "
+"Titel, Dateinamen oder Pfadnamen aus dem Untermenü auszuwählen. Wenn kein "
+"Titel festgelegt wurde (siehe <emph>Datei - Eigenschaften</emph>), wird "
+"anstelle eines Titels der Dateiname eingefügt."
 
 #: 02120100.xhp#par_id3150369.help.text
 #: 02120100.xhp%23par_id3150369.help.text
@@ -26015,10 +25998,10 @@ msgid ""
 "footer area, which is replaced by the sheet name in the header/footer of the "
 "actual document.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_TABLE\" visibility=\"visible\">Hier können Sie den "
-"Platzhalter für den Tabellennamen in den gewählten Kopf-/Fußzeilenbereich "
-"einfügen. Dies ermöglicht die Wiedergabe des Tabellennamens in der Kopf-/"
-"Fußzeile des aktuellen Dokuments.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_TABLE\">Hier können Sie den Platzhalter für den "
+"Tabellennamen in den gewählten Kopf-/Fußzeilenbereich einfügen. Dies "
+"ermöglicht die Wiedergabe des Tabellennamens in der Kopf-/Fußzeile des "
+"aktuellen Dokuments.</ahelp>"
 
 #: 02120100.xhp#par_id3146870.help.text
 #: 02120100.xhp%23par_id3146870.help.text
@@ -26048,10 +26031,9 @@ msgid ""
 "footer area, which is replaced by page numbering. This allows continuous "
 "page numbering in a document.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_PAGE\" visibility=\"visible\">Fügt in den markierten "
-"Kopf-/Fußzeilenbereich einen Platzhalter ein, der durch die Seitenzahl "
-"ersetzt wird. Diese Option ermöglicht eine fortlaufende Seitennummerierung "
-"im Dokument.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_PAGE\">Fügt in den markierten Kopf-/Fußzeilenbereich "
+"einen Platzhalter ein, der durch die Seitenzahl ersetzt wird. Diese Option "
+"ermöglicht eine fortlaufende Seitennummerierung im Dokument.</ahelp>"
 
 #: 02120100.xhp#par_id3151304.help.text
 #: 02120100.xhp%23par_id3151304.help.text
@@ -26081,9 +26063,9 @@ msgid ""
 "footer area, which is replaced by the total number of pages in the "
 "document.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_PAGES\" visibility=\"visible\">Fügt in den "
-"ausgewählten Kopf-/Fußzeilenbereich einen Platzhalter ein, der durch die "
-"Gesamtanzahl der Seiten im Dokument ersetzt wird.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_PAGES\">Fügt in den ausgewählten Kopf-/"
+"Fußzeilenbereich einen Platzhalter ein, der durch die Gesamtanzahl der "
+"Seiten im Dokument ersetzt wird.</ahelp>"
 
 #: 02120100.xhp#par_id3149315.help.text
 #: 02120100.xhp%23par_id3149315.help.text
@@ -26113,10 +26095,9 @@ msgid ""
 "footer area, which is replaced by the current date which will be repeated in "
 "the header/footer on each page of the document.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_DATE\" visibility=\"visible\">Fügt in den "
-"ausgewählten Kopf-/Fußzeilenbereich einen Platzhalter ein, der durch das "
-"aktuelle Datum ersetzt und in der Kopf-/Fußzeile jeder Seite des Dokuments "
-"wiederholt wird.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_DATE\">Fügt in den ausgewählten Kopf-/"
+"Fußzeilenbereich einen Platzhalter ein, der durch das aktuelle Datum ersetzt "
+"und in der Kopf-/Fußzeile jeder Seite des Dokuments wiederholt wird.</ahelp>"
 
 #: 02120100.xhp#par_id3147299.help.text
 #: 02120100.xhp%23par_id3147299.help.text
@@ -26146,10 +26127,9 @@ msgid ""
 "footer area, which is replaced by the current time in the header/footer on "
 "each page of the document.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_SC_HF_TIME\" visibility=\"visible\">Fügt in den "
-"ausgewählten Kopf-/Fußzeilenbereich einen Platzhalter ein, der in der Kopf-/"
-"Fußzeile jeder Seite des Dokuments durch die aktuelle Uhrzeit ersetzt "
-"wird.</ahelp>"
+"<ahelp hid=\"HID_SC_HF_TIME\">Fügt in den ausgewählten Kopf-/"
+"Fußzeilenbereich einen Platzhalter ein, der in der Kopf-/Fußzeile jeder "
+"Seite des Dokuments durch die aktuelle Uhrzeit ersetzt wird.</ahelp>"
 
 #: 02120100.xhp#par_id3153122.help.text
 #: 02120100.xhp%23par_id3153122.help.text
@@ -32726,8 +32706,7 @@ msgid ""
 "<emph>Close Preview</emph> button.</ahelp>"
 msgstr ""
 "<ahelp hid=\".\" visibility=\"hidden\">Zum Verlassen der Seitenvorschau "
-"klicken Sie auf die Schaltfläche <emph>Seitenansicht "
-"schließen</emph>.</ahelp>"
+"klicken Sie auf die Schaltfläche <emph>Vorschau schließen</emph>.</ahelp>"
 
 #: 01120000.xhp#par_id3155829.help.text
 #: 01120000.xhp%23par_id3155829.help.text
@@ -32790,9 +32769,9 @@ msgid ""
 "spacing between the largest character in a row and the cell "
 "boundaries.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:METRICFIELD:RID_SCDLG_ROW_OPT:ED_VALUE\" visibility=\""
-"visible\">Richtet zwischen dem größten Zeichen der Zeile und den "
-"Zellenrändern einen zusätzlichen Abstand ein.</ahelp>"
+"<ahelp hid=\"SC:METRICFIELD:RID_SCDLG_ROW_OPT:ED_VALUE\">Richtet zwischen "
+"dem größten Zeichen der Zeile und den Zellenrändern einen zusätzlichen "
+"Abstand ein.</ahelp>"
 
 #: 05030200.xhp#hd_id3150439.5.help.text
 #: 05030200.xhp%23hd_id3150439.5.help.text
@@ -32947,9 +32926,9 @@ msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT2\">Select the column "
 "that you want to use as the secondary sort key.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT2\" visibility=\""
-"visible\">Wählen Sie die Spalte aus, die als sekundäres Sortierkriterium "
-"verwendet werden soll.</ahelp>"
+"<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT2\">Wählen Sie die "
+"Spalte aus, die als sekundäres Sortierkriterium verwendet werden "
+"soll.</ahelp>"
 
 #: 12030100.xhp#hd_id3149413.11.help.text
 #: 12030100.xhp%23hd_id3149413.11.help.text
@@ -33011,9 +32990,8 @@ msgid ""
 "<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT3\">Select the column "
 "that you want to use as the third sort key.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT3\" visibility=\""
-"visible\">Wählen Sie die Spalte aus, die als letztes Sortierkriterium "
-"verwendet werden soll.</ahelp>"
+"<ahelp hid=\"SC:LISTBOX:RID_SCPAGE_SORT_FIELDS:LB_SORT3\">Wählen Sie die "
+"Spalte aus, die als letztes Sortierkriterium verwendet werden soll.</ahelp>"
 
 #: 12030100.xhp#hd_id3163808.17.help.text
 #: 12030100.xhp%23hd_id3163808.17.help.text
@@ -45989,7 +45967,7 @@ msgid ""
 msgstr ""
 "Siehe auch die Wiki Seite über <link href=\""
 "https://wiki.openoffice.org/wiki/Documentation/How_Tos/"
-"Conditional_Counting_and_Summation\">Bedingtes Zählen und Summieren </link>."
+"Conditional_Counting_and_Summation\">Bedingtes Zählen und Summieren</link>."
 
 #: 04060101.xhp#bm_id3150882.help.text
 #: 04060101.xhp%23bm_id3150882.help.text
