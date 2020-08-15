@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-12 18:54+0000\n"
+"PO-Revision-Date: 2020-08-14 08:45+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1597258498.000000\n"
+"X-POOTLE-MTIME: 1597394713.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -5393,7 +5393,6 @@ msgstr ""
 
 #: 04060000.xhp#par_id3153124.5.help.text
 #: 04060000.xhp%23par_id3153124.5.help.text
-#, fuzzy
 msgid ""
 "To insert a scanned image, the driver for your scanner must be installed. <"
 "switchinline select=\"sys\"><caseinline select=\"UNIX\">Under UNIX systems, "
@@ -5403,9 +5402,10 @@ msgid ""
 msgstr ""
 "Wstawienie zeskanowanego obrazu wymaga zainstalowania sterownika skanera. <"
 "switchinline select=\"sys\"><caseinline select=\"UNIX\">W systemach UNIX "
-"należy zainstalować pakiet SANE, który można pobrać ze strony internetowej "
-"pod adresem http://www.mostang.com/sane/. Pakiet SANE musi używać tej samej "
-"biblioteki libc co $[officename].</caseinline></switchinline>"
+"należy zainstalować pakiet SANE, dostępny pod adresem <link href=\"http://www"
+".sane-project.org/\">http://www.sane-project.org/</link>. Pakiet SANE musi "
+"używać tej samej biblioteki libc co "
+"$[officename].</caseinline></switchinline>"
 
 #: 04060000.xhp#hd_id3154673.3.help.text
 #: 04060000.xhp%23hd_id3154673.3.help.text
@@ -5444,6 +5444,9 @@ msgid ""
 "only one object is selected in Draw or Impress, the center of the object is "
 "aligned to the vertical center of the page.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:AlignMiddle\">Wyrównuje zaznaczone obiekty do środka w "
+"pionie. Jeśli w programie Draw lub Impress zaznaczono tylko jeden obiekt, "
+"jego środek jest wyrównywany do środka strony w pionie.</ahelp>"
 
 #: gallery_files.xhp#tit.help.text
 #: gallery_files.xhp%23tit.help.text
@@ -6746,7 +6749,7 @@ msgstr ""
 #: 05100600.xhp#tit.help.text
 #: 05100600.xhp%23tit.help.text
 msgid "Center (vertical)"
-msgstr ""
+msgstr "Środek (pionowo)"
 
 #: 05100600.xhp#hd_id3149874.1.help.text
 #: 05100600.xhp%23hd_id3149874.1.help.text
@@ -6754,13 +6757,15 @@ msgid ""
 "<link href=\"text/shared/01/05100600.xhp\" name=\"Center (vertical)\">Center "
 "(vertical)</link>"
 msgstr ""
+"<link href=\"text/shared/01/05100600.xhp\" name=\"Do środka (pionowo)\">Do "
+"środka (pionowo)</link>"
 
 #: 05100600.xhp#par_id3149048.2.help.text
 #: 05100600.xhp%23par_id3149048.2.help.text
 msgid ""
 "<ahelp hid=\".\">Centers the contents of the cell between top and bottom of "
 "the cell.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Do środka od górnej i dolnej komórki.</ahelp>"
 
 #: 05100600.xhp#par_id3149525.121.help.text
 #: 05100600.xhp%23par_id3149525.121.help.text
@@ -7694,6 +7699,10 @@ msgid ""
 "objects. If only one object is selected in Draw or Impress, the top edge of "
 "the object is aligned to the upper page margin.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:AlignUp\">Wyrównuje w pionie górne krawędzie zaznaczonych "
+"obiektów. Jeżeli w programie Impress lub Draw jest zaznaczony tylko jeden "
+"obiekt, górna krawędź tego obiektu wyrównywana jest do górnego marginesu "
+"strony.</ahelp>"
 
 #: 05070400.xhp#par_id3154230.3.help.text
 #: 05070400.xhp%23par_id3154230.3.help.text
@@ -8892,6 +8901,7 @@ msgstr ""
 "które części dokumentu mają być drukowane. Następnie dokonuje się wyboru "
 "drukarki i ewentualnie zmiany jej ustawień."
 
+# En-dashes ---> hyphens
 #: 01130000.xhp#par_id2.help.text
 #: 01130000.xhp%23par_id2.help.text
 msgid ""
@@ -8899,6 +8909,9 @@ msgid ""
 "objects that are inserted to the background of the page (Format - Page - "
 "Background).</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Określa, czy w drukowanym dokumencie "
+"uwzględnić kolory i obiekty wstawione w tle strony (Format - Strona - "
+"Tło).</ahelp>"
 
 #: 01130000.xhp#par_id4.help.text
 #: 01130000.xhp%23par_id4.help.text
@@ -8913,6 +8926,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Enable this option to print text that "
 "is marked as hidden.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Wybierz tę opcję, aby drukować tekst "
+"oznaczony jako ukryty.</ahelp>"
 
 #: 01130000.xhp#par_id8.help.text
 #: 01130000.xhp%23par_id8.help.text
@@ -8921,6 +8936,9 @@ msgid ""
 "placeholders. Disable this option to leave the text placeholders blank in "
 "the printout.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Włącz tę opcję, aby drukować symbole "
+"zastępcze. Wyłącz tę opcję, aby pozostawić symbole zastępcze puste na "
+"wydruku końcowym.</ahelp>"
 
 #: 01130000.xhp#par_id10.help.text
 #: 01130000.xhp%23par_id10.help.text
@@ -8928,6 +8946,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Specifies whether the form control "
 "fields of the text document are printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Określa, czy mają być drukowane pola "
+"formantów formularza dokumentu tekstowego.</ahelp>"
 
 #: 01130000.xhp#par_id12.help.text
 #: 01130000.xhp%23par_id12.help.text
@@ -8935,6 +8955,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Specifies whether to always print "
 "text in black.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Określa, czy tekst drukować zawsze "
+"jako czarny.</ahelp>"
 
 #: 01130000.xhp#par_id14.help.text
 #: 01130000.xhp%23par_id14.help.text
