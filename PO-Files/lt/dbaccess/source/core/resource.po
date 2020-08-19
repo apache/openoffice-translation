@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fcore%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-06-13 17:42+0000\n"
+"PO-Revision-Date: 2020-08-18 12:40+0000\n"
 "Last-Translator: Aivaras Stepukonis <astepukonis@gmail.com>\n"
 "Language-Team: Aivaras Stepukonis <astepukonis@apache.org>\n"
 "Language: lt\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1592070163.000000\n"
+"X-POOTLE-MTIME: 1597754452.000000\n"
 
 #: strings.src#RID_STR_TRIED_OPEN_TABLE.string.text
 #: strings.src%23RID_STR_TRIED_OPEN_TABLE.string.text
@@ -108,7 +108,7 @@ msgstr "Reikšmės nepakeistos."
 msgid ""
 "Values could not be inserted. The XRowUpdate interface is not supported by "
 "ResultSet."
-msgstr "Reikšmių įterpti nepavyko: „XRowUpdate“ sąsajos „ResultSet“ nenumato."
+msgstr "Reikšmių įterpti nepavyko: „ResultSet“ neveikia „XRowUpdate“ sąsaja."
 
 #: strings.src#RID_STR_NO_XRESULTSETUPDATE.string.text
 #: strings.src%23RID_STR_NO_XRESULTSETUPDATE.string.text
@@ -116,7 +116,7 @@ msgid ""
 "Values could not be inserted. The XResultSetUpdate interface is not "
 "supported by ResultSet."
 msgstr ""
-"Reikšmių įterpti nepavyko: „XResultSetUpdate“ sąsajos „ResultSet“ nenumato."
+"Reikšmių įterpti nepavyko: „ResultSet“ neveikia „XResultSetUpdate“ sąsaja."
 
 #: strings.src#RID_STR_NO_UPDATE_MISSING_CONDITION.string.text
 #: strings.src%23RID_STR_NO_UPDATE_MISSING_CONDITION.string.text
@@ -126,12 +126,12 @@ msgstr "Reikšmių pakeisti nepavyko, nes nėra sąlyginio sakinio."
 #: strings.src#RID_STR_NO_COLUMN_ADD.string.text
 #: strings.src%23RID_STR_NO_COLUMN_ADD.string.text
 msgid "The adding of columns is not supported."
-msgstr "Galimybė pridėti stulpelių nenumatyta."
+msgstr "Stulpelių pridėjimas neveikia."
 
 #: strings.src#RID_STR_NO_COLUMN_DROP.string.text
 #: strings.src%23RID_STR_NO_COLUMN_DROP.string.text
 msgid "The dropping of columns is not supported."
-msgstr "Stulpelių pertempimas nenumatytas."
+msgstr "Stulpelių pertempimas neveikia."
 
 #: strings.src#RID_STR_NO_CONDITION_FOR_PK.string.text
 #: strings.src%23RID_STR_NO_CONDITION_FOR_PK.string.text
@@ -141,7 +141,7 @@ msgstr "Pirminiam raktui skirtos sąlygos WHERE sukurti nepavyko."
 #: strings.src#RID_STR_COLUMN_UNKNOWN_PROP.string.text
 #: strings.src%23RID_STR_COLUMN_UNKNOWN_PROP.string.text
 msgid "The column does not support the property '%value'."
-msgstr "Savybės „%value“ stulpelis nenumato."
+msgstr "Savybė „%value“ stulpelyje neveikia."
 
 #: strings.src#RID_STR_COLUMN_NOT_SEARCHABLE.string.text
 #: strings.src%23RID_STR_COLUMN_NOT_SEARCHABLE.string.text
@@ -171,7 +171,7 @@ msgstr "Sąsajos „XQueriesSupplier“ nėra."
 #: strings.src#RID_STR_NOT_SUPPORTED_BY_DRIVER.string.text
 #: strings.src%23RID_STR_NOT_SUPPORTED_BY_DRIVER.string.text
 msgid "The driver does not support this function."
-msgstr "Šios funkcijos tvarkyklė nenumato."
+msgstr "Ši funkcija tvarkyklėje neveikia."
 
 #: strings.src#RID_STR_NO_ABS_ZERO.string.text
 #: strings.src%23RID_STR_NO_ABS_ZERO.string.text
@@ -211,28 +211,26 @@ msgstr "Šioje būsenoje eilutės trinti negalima."
 #: strings.src#RID_STR_NO_TABLE_RENAME.string.text
 #: strings.src%23RID_STR_NO_TABLE_RENAME.string.text
 msgid "The driver does not support table renaming."
-msgstr "Galimybės pervadinti lentelės tvarkyklė nenumato."
+msgstr "Lentelių pervadinimas tvarkyklėje neveikia."
 
 #: strings.src#RID_STR_NO_ALTER_COLUMN_DEF.string.text
 #: strings.src%23RID_STR_NO_ALTER_COLUMN_DEF.string.text
 msgid "The driver does not support the modification of column descriptions."
-msgstr "Galimybės keisti stulpelių aprašus tvarkyklė nenumato."
+msgstr "Stulpelių aprašų keitimas tvarkyklėje neveikia."
 
 #: strings.src#RID_STR_COLUMN_ALTER_BY_NAME.string.text
 #: strings.src%23RID_STR_COLUMN_ALTER_BY_NAME.string.text
 msgid ""
 "The driver does not support the modification of column descriptions by "
 "changing the name."
-msgstr ""
-"Galimybės keisti stulpelių aprašus keičiant pavadinimą tvarkyklė nenumato."
+msgstr "Stulpelių aprašų keitimas, keičiant pavadinimą, tvarkyklėje neveikia."
 
 #: strings.src#RID_STR_COLUMN_ALTER_BY_INDEX.string.text
 #: strings.src%23RID_STR_COLUMN_ALTER_BY_INDEX.string.text
 msgid ""
 "The driver does not support the modification of column descriptions by "
 "changing the index."
-msgstr ""
-"Galimybės keisti stulpelių aprašus, keičiant numeravimą, tvarkyklė nenumato."
+msgstr "Stulpelių aprašų keitimas, keičiant numeravimą, tvarkyklėje neveikia."
 
 #: strings.src#RID_STR_FILE_DOES_NOT_EXIST.string.text
 #: strings.src%23RID_STR_FILE_DOES_NOT_EXIST.string.text
@@ -407,7 +405,7 @@ msgstr "Esama eilutė ištrinta, todėl žymės neturi."
 #: strings.src#RID_STR_NO_EMBEDDING.string.text
 #: strings.src%23RID_STR_NO_EMBEDDING.string.text
 msgid "Embedding of database documents is not supported."
-msgstr "Galimybė įstatyti duomenynus nenumatyta."
+msgstr "Duomenynų įstatymas neveikia."
 
 #: strings.src#RID_STR_CONNECTION_REQUEST.string.text
 #: strings.src%23RID_STR_CONNECTION_REQUEST.string.text
