@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-22 17:43+0000\n"
+"PO-Revision-Date: 2020-08-28 20:21+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1598118237.000000\n"
+"X-POOTLE-MTIME: 1598646115.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -39820,7 +39820,7 @@ msgstr "Składnia:"
 #: 04060106.xhp#par_id3152028.439.help.text
 #: 04060106.xhp%23par_id3152028.439.help.text
 msgid "SUMIF(Range; Criteria; SumRange)"
-msgstr "SUMA.JEŻELI(zakres; kryteria; zakres_sumowania)"
+msgstr "SUMA.JEŻELI(zakres; kryterium; zakres_sumowania)"
 
 #: 04060106.xhp#par_id3152043.440.help.text
 #: 04060106.xhp%23par_id3152043.440.help.text
@@ -39858,9 +39858,9 @@ msgid ""
 "SUMIF supports the reference concatenation operator (~) only in the Criteria "
 "parameter, and only if the optional SumRange parameter is not given."
 msgstr ""
-"Funkcja SUMIF obsługuje operator łączenia odwołania (~) tylko odnośnie do "
-"parametru Criteria oraz tylko gdy nie jest używany parametr opcjonalny "
-"SumRange."
+"Funkcja SUMA.JEŻELI obsługuje operator łączenia odwołania (~) tylko odnośnie "
+"do parametru Kryterium oraz tylko gdy nie jest używany parametr opcjonalny "
+"Zakres_sumowania."
 
 #: 04060106.xhp#hd_id3152110.443.help.text
 #: 04060106.xhp%23hd_id3152110.443.help.text
@@ -39970,7 +39970,6 @@ msgstr ""
 
 #: 04060106.xhp#par_id6062196K.help.text
 #: 04060106.xhp%23par_id6062196K.help.text
-#, fuzzy
 msgid ""
 "See COUNTIFS() for some more syntax examples that can be used with SUMIFS()."
 msgstr ""
@@ -41204,7 +41203,6 @@ msgstr ""
 
 #: 04060106.xhp#bm_id3164897K.help.text
 #: 04060106.xhp%23bm_id3164897K.help.text
-#, fuzzy
 msgid ""
 "<bookmark_value>COUNTIFS function</bookmark_value><bookmark_value>counting;"
 "specified cells</bookmark_value>"
@@ -41215,7 +41213,6 @@ msgstr ""
 
 #: 04060106.xhp#hd_id3164897K.help.text
 #: 04060106.xhp%23hd_id3164897K.help.text
-#, fuzzy
 msgid "COUNTIFS"
 msgstr "LICZ.JEŻELI"
 
@@ -41289,11 +41286,12 @@ msgstr ""
 
 #: 04060106.xhp#par_id3581652K.help.text
 #: 04060106.xhp%23par_id3581652K.help.text
-#, fuzzy
 msgid ""
 "<item type=\"input\">=COUNTIFS(A1:A10;2006;B1:B10;2014)</item> - this "
 "returns 2"
-msgstr "<item type=\"input\">=LICZ.JEŻELI(A1:A10;2006)</item> zwraca wartość 1."
+msgstr ""
+"<item type=\"input\">=LICZ.JEŻELI(A1:A10;2006;B1:B10;2014)</item> zwraca "
+"wartość 2"
 
 #: 04060106.xhp#par_id5169225K.help.text
 #: 04060106.xhp%23par_id5169225K.help.text
@@ -41812,12 +41810,11 @@ msgstr "Opcje pola danych"
 
 #: 12090106.xhp#par_idN10546.help.text
 #: 12090106.xhp%23par_idN10546.help.text
-#, fuzzy
 msgid ""
 "You can specify additional options for column, row, and page data fields in "
 "the <link href=\"text/scalc/01/12090105.xhp\">pivot table</link>."
 msgstr ""
-"<link href=\"text/scalc/01/12090105.xhp\">Pilot danych</link> umożliwia "
+"<link href=\"text/scalc/01/12090105.xhp\">Tabela przestawna</link> umożliwia "
 "określenie dodatkowych opcji dla pól danych kolumny, wiersza i strony."
 
 #: 12090106.xhp#par_idN10557.help.text
@@ -47861,7 +47858,6 @@ msgstr ""
 
 #: 12080700.xhp#par_id871303.help.text
 #: 12080700.xhp%23par_id871303.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\".\">Inserts a new \"drill-down\" sheet with more information "
 "about the current pivot table cell. You can also double-click a pivot table "
@@ -47870,10 +47866,10 @@ msgid ""
 "displayed in the current cell.</ahelp>"
 msgstr ""
 "<ahelp hid=\".\">Wstawia nowy arkusz niższego poziomu zawierający więcej "
-"informacji o bieżącej komórce Pilota danych. W celu wstawienia arkusza "
-"niższego poziomu można także kliknąć dwukrotnie komórkę Pilota danych. Nowy "
-"arkusz zawiera podzbiór wierszy pochodzący z pierwotnego źródła danych i "
-"stanowiący dane wynikowe wyświetlane w bieżącej komórce.</ahelp>"
+"informacji o bieżącej komórce tabeli przestawnej. W celu wstawienia arkusza "
+"niższego poziomu można także kliknąć dwukrotnie komórkę tabeli przestawnej. "
+"Nowy arkusz zawiera podzbiór wierszy pochodzący z pierwotnego źródła danych "
+"i stanowiący dane wynikowe wyświetlane w bieżącej komórce.</ahelp>"
 
 #: 12080700.xhp#par_id7132480.help.text
 #: 12080700.xhp%23par_id7132480.help.text
