@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F02.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-28 17:25+0000\n"
+"PO-Revision-Date: 2020-08-29 05:52+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1598635517.000000\n"
+"X-POOTLE-MTIME: 1598680365.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -6178,6 +6178,9 @@ msgid ""
 "However, searching without <emph>Apply field format </emph>is appropriate "
 "for larger databases with no formatting issues, because it is faster."
 msgstr ""
+"Այնուամենայնիվ, որոնումը առանց <emph>Կիրառել դաշտի ձևաչափը</emph> -ի տեղին է "
+"ավելի մեծ տվյալների շտեմարանների համար, որոնք չունեն ձևաչափման խնդիրներ, "
+"քանի որ այն ավելի արագ է:"
 
 #: 12100200.xhp#par_id3153355.118.help.text
 #: 12100200.xhp%23par_id3153355.118.help.text
@@ -6189,6 +6192,11 @@ msgid ""
 "format</emph> set to off, you will see the language-dependent default values "
 "\"TRUE\" or \"FALSE\"."
 msgstr ""
+"Եթե որոնում եք ընտրավանդակների արժեքները, և <emph>Կիրառել դաշտի "
+"ձևաչափը</emph> միացված է, ապա կստանաք \"1\" նշված վանդակների համար, \"0\" "
+"չնշված վանդակների համար, և դատարկ տող չսահմանված (եռակողմ) վանդակների համար: "
+"Եթե որոնումն իրականացվել է երբ <emph>Կիրառել դաշտի ձևաչափը</emph> անջատված "
+"է, կտեսնեք լեզվից կախված լռելյայն արժեքները՝ \"TRUE\" կամ \"FALSE\""
 
 #: 12100200.xhp#par_id3150995.119.help.text
 #: 12100200.xhp%23par_id3150995.119.help.text
@@ -6198,11 +6206,15 @@ msgid ""
 "format,</emph> you will find the contents corresponding to the standard "
 "field format."
 msgstr ""
+"Եթե օգտագործեք <emph>Կիրառել դաշտի ձևաչափը</emph>ցուցակային վանդակներում "
+"որոնելիս, կգտնես ցուցակային վանդակներում ցուցադրված տեքստը: Եթե չեք "
+"օգտագործում <emph>Կիրառել դաշտի ձևաչափը</emph> դուք կգտնեք ստանդարտ դաշտի "
+"ձևաչափին համապատասխանող բովանդակությունը:"
 
 #: 12100200.xhp#hd_id3150387.32.help.text
 #: 12100200.xhp%23hd_id3150387.32.help.text
 msgid "Match case"
-msgstr ""
+msgstr "Հաշվի առնել դեպքը"
 
 #: 12100200.xhp#par_id3159267.33.help.text
 #: 12100200.xhp%23par_id3159267.33.help.text
@@ -6210,11 +6222,13 @@ msgid ""
 "<ahelp hid=\"HID_SEARCH_CASE\">Specifies that upper and lower case are taken "
 "into consideration during the search.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_CASE\">Նշում է, որ որոնման ընթացքում հաշվի են "
+"առնվում վերին և ստորին դեպքերը:</ahelp>"
 
 #: 12100200.xhp#hd_id3145297.34.help.text
 #: 12100200.xhp%23hd_id3145297.34.help.text
 msgid "Search backwards"
-msgstr ""
+msgstr "Որոնել հետ։"
 
 #: 12100200.xhp#par_id3151249.35.help.text
 #: 12100200.xhp%23par_id3151249.35.help.text
@@ -6222,11 +6236,13 @@ msgid ""
 "<ahelp hid=\"HID_SEARCH_BACKWARD\">Specifies that the search process will "
 "run in reverse direction, from the last to the first record.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_BACKWARD\">Նշում է, որ որոնման գործընթացը կընթանա "
+"հակառակ ուղղությամբ՝ վերջինից մինչ առաջին գրառումը:</ahelp>"
 
 #: 12100200.xhp#hd_id3152484.36.help.text
 #: 12100200.xhp%23hd_id3152484.36.help.text
 msgid "From top / From bottom"
-msgstr ""
+msgstr "Սկսած վերևից / սկսած ներքևից"
 
 #: 12100200.xhp#par_id3156316.37.help.text
 #: 12100200.xhp%23par_id3156316.37.help.text
@@ -6235,11 +6251,14 @@ msgid ""
 "restarts with the first record. A backwards search restarts with the last "
 "record.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_STARTOVER\">Վերագործարկում է որոնումը: Առաջ ընթացող "
+"որոնումը վերսկսվում է առաջին գրառմամբ: Հետադարձ որոնումը վերսկսվում է վերջին "
+"գրառմամբ:</ahelp>"
 
 #: 12100200.xhp#hd_id3163724.38.help.text
 #: 12100200.xhp%23hd_id3163724.38.help.text
 msgid "Wildcard expression"
-msgstr ""
+msgstr "Վայրի քարտի արտահայտություն"
 
 #: 12100200.xhp#par_id3149255.64.help.text
 #: 12100200.xhp%23par_id3149255.64.help.text
@@ -6247,59 +6266,62 @@ msgid ""
 "<ahelp hid=\"HID_SEARCH_WILDCARD\" visibility=\"hidden\">Allows a search "
 "with a * or ? wildcard.</ahelp> You can use the following wildcards:"
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_WILDCARD\" visibility=\"hidden\">Թույլ է տալիս "
+"փնտրումը * կամ ? վայրի քարտով։</ahelp> YԿարող եք օգտագործել հետևյալ վայրի "
+"քարտերը․"
 
 #: 12100200.xhp#par_id3146317.39.help.text
 #: 12100200.xhp%23par_id3146317.39.help.text
 msgid "Wildcards"
-msgstr ""
+msgstr "Վայրի քարտեր"
 
 #: 12100200.xhp#par_id3150298.40.help.text
 #: 12100200.xhp%23par_id3150298.40.help.text
 msgctxt "12100200.xhp#par_id3150298.40.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 12100200.xhp#par_id3153919.41.help.text
 #: 12100200.xhp%23par_id3153919.41.help.text
 msgid "Example"
-msgstr ""
+msgstr "Օրինակ"
 
 #: 12100200.xhp#par_id3158411.42.help.text
 #: 12100200.xhp%23par_id3158411.42.help.text
 msgctxt "12100200.xhp#par_id3158411.42.help.text"
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: 12100200.xhp#par_id3148874.43.help.text
 #: 12100200.xhp%23par_id3148874.43.help.text
 msgid "for exactly one arbitrary character"
-msgstr ""
+msgstr "ուղիղ մեկ կամայական նիշի համար"
 
 #: 12100200.xhp#par_id3150365.44.help.text
 #: 12100200.xhp%23par_id3150365.44.help.text
 msgid "\"?loppy\" returns \"Floppy\""
-msgstr ""
+msgstr "\"?loppy\" վերադարձնում է \"Floppy\""
 
 #: 12100200.xhp#par_id3166426.65.help.text
 #: 12100200.xhp%23par_id3166426.65.help.text
 msgid "\"M?ller\" returns, for example, Miller and Moller"
-msgstr ""
+msgstr "\"M?ller\" վերադարձնում է, օրինակի համար, Miller և Moller"
 
 #: 12100200.xhp#par_id3148803.45.help.text
 #: 12100200.xhp%23par_id3148803.45.help.text
 msgctxt "12100200.xhp#par_id3148803.45.help.text"
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #: 12100200.xhp#par_id3156138.46.help.text
 #: 12100200.xhp%23par_id3156138.46.help.text
 msgid "for 0 or more arbitrary characters"
-msgstr ""
+msgstr "0 կամ ավելի կամայական նիշերի համար"
 
 #: 12100200.xhp#par_id3146135.47.help.text
 #: 12100200.xhp%23par_id3146135.47.help.text
 msgid "\"*-*\" returns \"ZIP-Drive\" and \"CD-ROM\""
-msgstr ""
+msgstr "\"*-*\" վերադարձնում է \"ZIP-Drive\" և \"CD-ROM\""
 
 #: 12100200.xhp#par_id3155582.66.help.text
 #: 12100200.xhp%23par_id3155582.66.help.text
@@ -6307,6 +6329,8 @@ msgid ""
 "\"M*er\" returns all entries starting with an \"M\" and ending in \"er\" ("
 "for example, Miller, Moller, Mather)"
 msgstr ""
+"\"M*er\" վերադարձնում է բոլոր մուտքերը, որոնք սկսվում են \"M\" և ավարտվում "
+"են \"er\" (օրինակի համար, Miller, Moller, Mather)"
 
 #: 12100200.xhp#par_id3145762.48.help.text
 #: 12100200.xhp%23par_id3145762.48.help.text
@@ -6316,11 +6340,15 @@ msgid ""
 "Wildcard expression</emph> is enabled. When the option is not enabled, the "
 "wildcard characters are processed like normal characters."
 msgstr ""
+"Եթե ցանկանում եք որոնել փաստացի նիշերը ? կամ *, նախադրիր դրանք հետադարձ գծով:"
+" \"\\?\" կամ \"\\*\"։ Այնուամենայնիվ, դա անհրաժեշտ է միայն այն ժամանակ, երբ "
+"միացված է <emph>Վայրի բնույթի նիշ արտահայտությունը</emph>: Երբ տարբերակը "
+"միացված չէ, վայրի բնույթի նիշերը մշակվում են ինչպես սովորական նիշերը:"
 
 #: 12100200.xhp#hd_id3147130.49.help.text
 #: 12100200.xhp%23hd_id3147130.49.help.text
 msgid "Regular expression"
-msgstr ""
+msgstr "Կանոնավոր արտահայտություն"
 
 #: 12100200.xhp#par_id3150982.50.help.text
 #: 12100200.xhp%23par_id3150982.50.help.text
@@ -6331,6 +6359,11 @@ msgid ""
 "text/shared/01/02100000.xhp\" name=\"Find & Replace dialog\">Find & Replace "
 "dialog</link>."
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_REGULAR\">Որոնում է կանոնավոր "
+"արտահայտություններով։</ahelp> Նույն կանոնավոր արտահայտությունները, որոնք "
+"աջակցվում են այստեղ, աջակցվում են նաև հետևյալում <item type=\"productname\""
+">%PRODUCTNAME</item> <link href=\"text/shared/01/02100000.xhp\" name=\"Գտիր "
+"և փոխարինիր երկխոսություն\">Գտիր և փոխարինիր երկխոսություն</link>."
 
 #: 12100200.xhp#par_id3154718.67.help.text
 #: 12100200.xhp%23par_id3154718.67.help.text
@@ -6339,43 +6372,47 @@ msgid ""
 "wildcard expressions. If you search with regular expressions, the following "
 "characters correspond to those used in searches with wildcards:"
 msgstr ""
+"Սովորական արտահայտություններով որոնումը ավելի շատ տարբերակներ է առաջարկում, "
+"քան վայրի բնույթի արտահայտություններով որոնումը: Եթե դուք կանոնավոր "
+"արտահայտություններով եք որոնում, հետևյալ նիշերը համապատասխանում են վայրի "
+"քարտերով որոնումներում օգտագործվողներին."
 
 #: 12100200.xhp#par_id3153705.68.help.text
 #: 12100200.xhp%23par_id3153705.68.help.text
 msgid "Search with wildcard expression"
-msgstr ""
+msgstr "Որոնեք վայրի բնույթի արտահայտությունով"
 
 #: 12100200.xhp#par_id3149209.69.help.text
 #: 12100200.xhp%23par_id3149209.69.help.text
 msgid "Search with regular expressions"
-msgstr ""
+msgstr "Որոնեք կանոնավոր արտահայտությունով"
 
 #: 12100200.xhp#par_id3151045.70.help.text
 #: 12100200.xhp%23par_id3151045.70.help.text
 msgctxt "12100200.xhp#par_id3151045.70.help.text"
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: 12100200.xhp#par_id3150384.71.help.text
 #: 12100200.xhp%23par_id3150384.71.help.text
 msgid "."
-msgstr ""
+msgstr "."
 
 #: 12100200.xhp#par_id3153793.72.help.text
 #: 12100200.xhp%23par_id3153793.72.help.text
 msgctxt "12100200.xhp#par_id3153793.72.help.text"
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #: 12100200.xhp#par_id3150428.73.help.text
 #: 12100200.xhp%23par_id3150428.73.help.text
 msgid ".*"
-msgstr ""
+msgstr ".*"
 
 #: 12100200.xhp#hd_id3150861.101.help.text
 #: 12100200.xhp%23hd_id3150861.101.help.text
 msgid "State"
-msgstr ""
+msgstr "Վիճակ"
 
 #: 12100200.xhp#par_id3154477.102.help.text
 #: 12100200.xhp%23par_id3154477.102.help.text
@@ -6384,6 +6421,9 @@ msgid ""
 "search reaches the end (or the beginning) of a table, the search is "
 "automatically continued at the other end."
 msgstr ""
+"<emph>Վիճակ</emph> տողը ցույց է տալիս որոնման արդյունքում վերադարձված "
+"գրառումները: Եթե որոնումը հասնում է աղյուսակի ավարտին (կամ սկիզբը), որոնումը "
+"ինքնաբերաբար շարունակվում է մյուս ծայրում:"
 
 #: 12100200.xhp#par_id3163720.103.help.text
 #: 12100200.xhp%23par_id3163720.103.help.text
@@ -6392,11 +6432,14 @@ msgid ""
 "some time. In this case, the status bar informs you that the records are "
 "still being counted."
 msgstr ""
+"Շատ մեծ շտեմարաններում գրառումը հակառակ որոնման կարգով գտնելը կարող է տևել "
+"որոշ ժամանակ: Այս դեպքում կարգավիճակի տողը ձեզ տեղեկացնում է, որ գրառումները "
+"դեռ հաշվարկվում են:"
 
 #: 12100200.xhp#hd_id3147389.51.help.text
 #: 12100200.xhp%23hd_id3147389.51.help.text
 msgid "Search / Cancel"
-msgstr ""
+msgstr "Փնտրել / Չեղարկել"
 
 #: 12100200.xhp#par_id3154368.52.help.text
 #: 12100200.xhp%23par_id3154368.52.help.text
@@ -6407,12 +6450,17 @@ msgid ""
 "by clicking the <emph>Search</emph> button again. You can cancel a search "
 "process by clicking the <emph>Cancel</emph> button."
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_BTN_SEARCH\" visibility=\"hidden\">Սկսում կամ "
+"չեղարկում է փնտրումը։</ahelp> Եթե որոնումը հաջողությամբ ավարտված է, "
+"աղյուսակի համապատասխան դաշտը կարևորվում է: Դուք կարող եք շարունակել որոնումը՝"
+" կրկին սեղմելով <emph>Որոնում</emph> կոճակը: Կարող եք չեղարկել որոնման "
+"գործընթացը՝ կտտացնելով <emph>Չեղարկել </emph> կոճակը:"
 
 #: 12100200.xhp#hd_id3145080.53.help.text
 #: 12100200.xhp%23hd_id3145080.53.help.text
 msgctxt "12100200.xhp#hd_id3145080.53.help.text"
 msgid "Close"
-msgstr ""
+msgstr "Փակել"
 
 #: 12100200.xhp#par_id3156166.54.help.text
 #: 12100200.xhp%23par_id3156166.54.help.text
@@ -6421,6 +6469,9 @@ msgid ""
 "last search will be saved until you quit <item type=\"productname\""
 ">%PRODUCTNAME</item>.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_SEARCH_BTN_CLOSE\">Փակում է երկխոսությունը: Վերջին որոնման "
+"պարամետրերը կպահպանվեն, մինչև դուրս գաք <item type=\"productname\""
+">%PRODUCTNAME</item>.</ahelp>"
 
 #: 12100200.xhp#par_id3151183.104.help.text
 #: 12100200.xhp%23par_id3151183.104.help.text
@@ -6429,11 +6480,14 @@ msgid ""
 "for each document. When you close the documents only the search options of "
 "the document last closed are saved."
 msgstr ""
+"Եթե մի քանի աղյուսակներ կամ ձևեր բաց են, կարող եք յուրաքանչյուր փաստաթղթի "
+"համար տարբեր որոնման տարբերակներ տեղադրել: Փաստաթղթերը փակելիս պահվում են "
+"միայն վերջին փակված փաստաթղթի որոնման ընտրանքները:"
 
 #: 01170500.xhp#tit.help.text
 #: 01170500.xhp%23tit.help.text
 msgid "Design Mode On/Off"
-msgstr ""
+msgstr "Նախագծողի վիճակը միացված/անջատված"
 
 #: 01170500.xhp#hd_id3151100.1.help.text
 #: 01170500.xhp%23hd_id3151100.1.help.text
@@ -6441,6 +6495,8 @@ msgid ""
 "<link href=\"text/shared/02/01170500.xhp\" name=\"Design Mode On/Off\">"
 "Design Mode On/Off</link>"
 msgstr ""
+"<link href=\"text/shared/02/01170500.xhp\" name=\"Նախագծողի վիճակը միացված/"
+"անջատված\">Նախագծողի վիճակը միացված/անջատված</link>"
 
 #: 01170500.xhp#par_id3150040.2.help.text
 #: 01170500.xhp%23par_id3150040.2.help.text
@@ -6451,6 +6507,11 @@ msgid ""
 "and User mode. Activate to edit the form controls, deactivate to use the "
 "form controls.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:SwitchControlDesignMode\">Փոխատեղում է նախագծողի վիճակը "
+"միացվածի կամ անջատվածի։ Այս գործառույթը օգտագործվում է արագ անցնելու <link "
+"href=\"text/shared/explorer/database/04030000.xhp\" name=\"Նախագծում\""
+">Նախագծում</link> և Օգտվողի վիճակի միջև։ Ակտիվացրեք՝ ձևի հսկիչները "
+"խմբագրելու համար, ապաակտիվացրեք՝ ձևի հսկիչներն օգտագործելու համար:</ahelp>"
 
 #: 01170500.xhp#par_id3153528.5.help.text
 #: 01170500.xhp%23par_id3153528.5.help.text
@@ -6460,6 +6521,11 @@ msgid ""
 "Open in Design Mode</emph> is activated, the document is always opened in "
 "Design mode, regardless of the state in which it is saved."
 msgstr ""
+"Նկատի առեք, <link href=\"text/shared/02/01171000.xhp\" name=\"Բացեք "
+"նախագծողի վիճակում\"><emph>Բացեք նախագծողի վիճակում</emph></link> "
+"գործառույթը։ Եթե <emph>Բացեք նախագծողի վիճակում</emph> ակտիվացված է, "
+"փաստաթուղթը միշտ բացվում է նախագծողի վիճակում, անկախ նրանից, թե որ վիճակում "
+"է այն պահպանվում:"
 
 #: 01170500.xhp#par_id3147088.3.help.text
 #: 01170500.xhp%23par_id3147088.3.help.text
@@ -6470,17 +6536,24 @@ msgid ""
 "to the database in the <link href=\"text/shared/02/01170201.xhp\" name=\""
 "Form Properties\">Form Properties</link>."
 msgstr ""
+"Եթե ձեր ձևը կապված է տվյալների շտեմարանի հետ և անջատում եք Նախագծողի վիճակը, "
+"<link href=\"text/shared/main0213.xhp\" name=\"Ձևի վահանակը\">Ձևի "
+"վահանակը</link> ցուցադրվում է փաստաթղթի պատուհանի ստորին լուսանցքում: Կարող "
+"եք խմբագրել տվյալների շտեմարանի հղումը <link href=\"text/shared/02/01170201."
+"xhp\" name=\"Ձևի հատկություններում\">Ձևի հատկություններում</link>։"
 
 #: 24100000.xhp#tit.help.text
 #: 24100000.xhp%23tit.help.text
 msgctxt "24100000.xhp#tit.help.text"
 msgid "Crop"
-msgstr ""
+msgstr "Եզրերից կտրել"
 
 #: 24100000.xhp#hd_id3154044.1.help.text
 #: 24100000.xhp%23hd_id3154044.1.help.text
 msgid "<link href=\"text/shared/02/24100000.xhp\" name=\"Crop\">Crop</link>"
 msgstr ""
+"<link href=\"text/shared/02/24100000.xhp\" name=\"Եզրերից կտրել\">Եզրերից "
+"կտրել</link>"
 
 #: 24100000.xhp#par_id3154863.2.help.text
 #: 24100000.xhp%23par_id3154863.2.help.text
@@ -6489,6 +6562,10 @@ msgid ""
 "picture. Only the display gets cropped, the inserted picture is not "
 "changed.</ahelp> A picture must be selected to enable cropping."
 msgstr ""
+"<ahelp hid=\".uno:GrafAttrCrop\">Թույլ է տալիս եզրերից կտրել տեղադրված նկարի "
+"արտածումը։ Եզրերից կտրվում է միայն արտածումը, ներդրված նկարը մնում է "
+"անփոփոխ։</ahelp> Եզրերից կտրելը թույլատրելու համար, նկարը պետք է լինի "
+"ընտրված։"
 
 #: 24100000.xhp#par_id0514200804261097.help.text
 #: 24100000.xhp%23par_id0514200804261097.help.text
@@ -6498,6 +6575,11 @@ msgid ""
 "choose <item type=\"menuitem\">Crop Picture</item>, if you want to use the <"
 "link href=\"text/shared/01/05030800.xhp\">dialog</link> for cropping."
 msgstr ""
+"Impress -ում և Draw -ում պատկերակը սեղմելիս ոչ մի երկխոսություն չի "
+"ցուցադրվում, բայց տեսնում եք ութ հատման բռնակ: Բացեք ընտրված նկարի "
+"համատեքստային ընտրացանկը և ընտրեք <item type=\"menuitem\">Եզրերից կտրեք "
+"նկարը</item>, եթե ցանկանում եք օգտագործել <link href=\""
+"text/shared/01/05030800.xhp\">երկխոսությունը</link> եզրերից կտրելու համար։"
 
 #: 24100000.xhp#par_id0514200804261043.help.text
 #: 24100000.xhp%23par_id0514200804261043.help.text
@@ -6505,6 +6587,8 @@ msgid ""
 "<ahelp hid=\".\">Drag any of the eight cropping handles to crop the "
 "picture.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Քաշեք ութ կտրող բռնակներից որևէ մեկը նկարը կտրելու "
+"համար:</ahelp>"
 
 #: 24100000.xhp#par_id0522200809440491.help.text
 #: 24100000.xhp%23par_id0522200809440491.help.text
@@ -6521,13 +6605,13 @@ msgstr ""
 #: 24100000.xhp%23par_id3154927.3.help.text
 msgctxt "24100000.xhp#par_id3154927.3.help.text"
 msgid "Crop"
-msgstr ""
+msgstr "Եզրերից կտրել"
 
 #: 12110000.xhp#tit.help.text
 #: 12110000.xhp%23tit.help.text
 msgctxt "12110000.xhp#tit.help.text"
 msgid "Form-based Filters"
-msgstr ""
+msgstr "Ձևի վրա հիմնված զտիչներ"
 
 #: 12110000.xhp#hd_id3147000.1.help.text
 #: 12110000.xhp%23hd_id3147000.1.help.text
@@ -6535,6 +6619,8 @@ msgid ""
 "<variable id=\"formfilter\"><link href=\"text/shared/02/12110000.xhp\" name"
 "=\"Form-based Filters\">Form-based Filters</link></variable>"
 msgstr ""
+"<variable id=\"formfilter\"><link href=\"text/shared/02/12110000.xhp\" name="
+"\"Ձևի վրա հիմնված զտիչներ\">Ձևի վրա հիմնված զտիչներ</link></variable>"
 
 #: 12110000.xhp#par_id3154230.2.help.text
 #: 12110000.xhp%23par_id3154230.2.help.text
@@ -6543,6 +6629,9 @@ msgid ""
 "database server to filter the visible data by specified "
 "criteria.</ahelp></variable>"
 msgstr ""
+"<variable id=\"formfiltertext\"><ahelp hid=\".uno:FormFilter\">Հուշում է "
+"տվյալների շտեմարանի կայանին տեսանելի տվյալները զտելու համար՝ նշված "
+"չափանիշներով:</ahelp></variable>"
 
 #: 12110000.xhp#par_id3152918.3.help.text
 #: 12110000.xhp%23par_id3152918.3.help.text
@@ -6553,6 +6642,12 @@ msgid ""
 "based filter. Usually a quick database server is charged with the search. "
 "Also, you can enter more complex search conditions."
 msgstr ""
+"Ի տարբերություն սովորական որոնման, որն ակտիվացված է <link href=\""
+"text/shared/02/12100200.xhp\" name=\"Գտեք գրառումը\">Գտեք գրառումը</link> "
+"պատկերիկով <emph>Ձև</emph> վահանակից, կարող եք ավելի արագ որոնել՝ "
+"օգտագործելով ձևի վրա հիմնված զտիչը: Սովորաբար որոնման համար պատասխանատու է "
+"տվյալների շտեմարանի արագ կայանը: Բացի այդ, դուք կարող եք մուտքագրել որոնման "
+"ավելի բարդ պայմաններ:"
 
 #: 12110000.xhp#par_id3153394.help.text
 #: 12110000.xhp%23par_id3153394.help.text
@@ -6561,18 +6656,21 @@ msgid ""
 "width=\"0.564cm\" height=\"0.564cm\"><alt id=\"alt_id3147226\""
 ">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3147226\" src=\"res/commandimagelist/sc_formfilter.png\" "
+"width=\"0.564cm\" height=\"0.564cm\"><alt id=\"alt_id3147226\""
+">Պատկերակ</alt></image>"
 
 #: 12110000.xhp#par_id3149751.4.help.text
 #: 12110000.xhp%23par_id3149751.4.help.text
 msgctxt "12110000.xhp#par_id3149751.4.help.text"
 msgid "Form-based Filters"
-msgstr ""
+msgstr "Ձևի վրա հիմնված զտիչներ"
 
 #: 01170203.xhp#tit.help.text
 #: 01170203.xhp%23tit.help.text
 msgctxt "01170203.xhp#tit.help.text"
 msgid "Data"
-msgstr ""
+msgstr "Տվյալներ"
 
 #: 01170203.xhp#bm_id3150040.help.text
 #: 01170203.xhp%23bm_id3150040.help.text
@@ -6582,11 +6680,16 @@ msgid ""
 "subforms</bookmark_value><bookmark_value>subforms; "
 "description</bookmark_value>"
 msgstr ""
+"<bookmark_value>forms; data</bookmark_value><bookmark_value>data; forms and "
+"subforms</bookmark_value><bookmark_value>forms; "
+"subforms</bookmark_value><bookmark_value>subforms; "
+"description</bookmark_value>"
 
 #: 01170203.xhp#hd_id3150040.1.help.text
 #: 01170203.xhp%23hd_id3150040.1.help.text
 msgid "<link href=\"text/shared/02/01170203.xhp\" name=\"Data\">Data</link>"
 msgstr ""
+"<link href=\"text/shared/02/01170203.xhp\" name=\"Տվյալներ\">Տվյալներ</link>"
 
 #: 01170203.xhp#par_id3147242.2.help.text
 #: 01170203.xhp%23par_id3147242.2.help.text
@@ -6594,6 +6697,8 @@ msgid ""
 "The<emph> Data </emph>tab page defines the form properties that refer to the "
 "database that is linked to the form."
 msgstr ""
+"<emph> Տվյալներ </emph>ներդիրի էջը սահմանում է ձևի հատկությունները, որոնք "
+"վերաբերում են այն շտեմարանին, որը կապված է ձևի հետ:"
 
 #: 01170203.xhp#par_id3149398.107.help.text
 #: 01170203.xhp%23par_id3149398.107.help.text
