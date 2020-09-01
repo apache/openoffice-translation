@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F02.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-30 05:12+0000\n"
+"PO-Revision-Date: 2020-08-31 15:53+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1598764337.000000\n"
+"X-POOTLE-MTIME: 1598889221.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -6839,6 +6839,13 @@ msgid ""
 "'Peter'. All records matching either of these two conditions will be "
 "displayed."
 msgstr ""
+"<ahelp hid=\"HID_PROP_FILTER_CRITERIA\">Ձևի մեջ մուտքագրեք տվյալների զտման "
+"համար անհրաժեշտ պայմանները: Զտիչի բնութագրերը հետևում են SQL կանոններին՝ "
+"առանց WHERE դրույթի օգտագործման:</ahelp> Օրինակ, եթե ցանկանում եք արտածել \""
+"Mike\" անունով բոլոր գրառումները, տվյալների դաշտում մուտքագրեք. Forename = "
+"'Mike': Կարող եք նաև համատեղել պայմանները. Forename = 'Mike' OR Forename = "
+"'Peter': Ցուցադրվելու են այս երկու պայմաններից ցանկացածին համապատասխանող "
+"բոլոր գրառումները:"
 
 #: 01170203.xhp#par_id3156212.83.help.text
 #: 01170203.xhp%23par_id3156212.83.help.text
@@ -6850,11 +6857,17 @@ msgid ""
 "the <link href=\"text/shared/main0213.xhp\" name=\"Form Navigation Bar\""
 "><emph>Form Navigation</emph> Bar</link>."
 msgstr ""
+"Զտիչի գործառույթը հասանելի է օգտագործողի ռեժիմում <link href=\""
+"text/shared/02/12030000.xhp\" name=\"Ինքնազտիչ\""
+"><emph>Ինքնազտիչ</emph></link> և <link href=\"text/shared/02/12090000.xhp\" "
+"name=\"Լռակյաց զտիչ\"><emph>Լռակյաց զտիչ</emph></link> պատկերակների միջոցով <"
+"link href=\"text/shared/main0213.xhp\" name=\"Ձևի նավարկման վահանակից\""
+"><emph>Ձևի նավարկման</emph> վահանակից</link>։"
 
 #: 01170203.xhp#hd_id3156005.84.help.text
 #: 01170203.xhp%23hd_id3156005.84.help.text
 msgid "Sort"
-msgstr ""
+msgstr "Դասակարգել"
 
 #: 01170203.xhp#par_id3163712.85.help.text
 #: 01170203.xhp%23par_id3163712.85.help.text
@@ -6866,6 +6879,12 @@ msgid ""
 "order and in another field in a descending order, enter Forename ASC, Name "
 "DESC (presuming Forename and Name are the names of the data fields)."
 msgstr ""
+"<ahelp hid=\"HID_PROP_SORT_CRITERIA\">Նշում է ձևում տվյալների տեսակավորման "
+"պայմանները: Տեսակավորման պայմանների ճշգրտումը հետևում է SQL կանոններին` "
+"առանց ORDER BY դրույթի օգտագործման:</ahelp> Օրինակ, եթե ցանկանում եք, որ "
+"տվյալների շտեմարանի բոլոր գրառումները տեսակավորվեն մեկ դաշտում աճման կարգով "
+"և մեկ այլ դաշտում՝ նվազման կարգով, մուտքագրեք Forename ASC, Name DESC ("
+"ենթադրաբար Forename և Name տվյալների դաշտերի անուններն են):"
 
 #: 01170203.xhp#par_id3156444.86.help.text
 #: 01170203.xhp%23par_id3156444.86.help.text
@@ -6878,11 +6897,19 @@ msgid ""
 "Descending</emph></link>, <link href=\"text/shared/02/12100100.xhp\" name=\""
 "Sort\"><emph>Sort</emph></link>."
 msgstr ""
+"Համապատասխան պատկերիկները <link href=\"text/shared/main0213.xhp\" name=\"Ձևի "
+"նավարկիչի վահանակում\"><emph>Ձևի նավարկիչի</emph> վահանակում</link> կարող են "
+"օգտագործվել Օգտվողի վիճակում, տեսակավորելու համար: <link href=\""
+"text/shared/02/12010000.xhp\" name=\"Տեսակավորել ըստ աճման\"><emph>"
+"Տեսակավորել ըստ աճման</emph></link>, <link href=\"text/shared/02/12020000."
+"xhp\" name=\"Տեսակավորել ըստ նվազման\"><emph>Տեսակավորել ըստ "
+"նվազման</emph></link>, <link href=\"text/shared/02/12100100.xhp\" name=\""
+"Տեսակավորել\"><emph>Տեսակավորել</emph></link>."
 
 #: 01170203.xhp#hd_id3148616.8.help.text
 #: 01170203.xhp%23hd_id3148616.8.help.text
 msgid "Add data only"
-msgstr ""
+msgstr "Ավելացրեք միայն տվյալներ"
 
 #: 01170203.xhp#par_id3153139.20.help.text
 #: 01170203.xhp%23par_id3153139.20.help.text
@@ -6891,6 +6918,9 @@ msgid ""
 "addition of new data (Yes) or if it allows other properties as well "
 "(No).</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_PROP_DATAENTRY\">Որոշում է, թե արդյոք ձևը թույլ է տալիս "
+"միայն նոր տվյալների ավելացում (Այո), թե արդյոք այն թույլ է տալիս նաև այլ "
+"հատկություններ (Ոչ):</ahelp>"
 
 #: 01170203.xhp#par_id3148575.21.help.text
 #: 01170203.xhp%23par_id3148575.21.help.text
@@ -6898,12 +6928,14 @@ msgid ""
 "If <emph>Add data only</emph> is set to \"Yes\", changing or deleting data "
 "is not possible."
 msgstr ""
+"Եթե <emph>Ավելացնել միայն տվյալները</emph> կարգաբերված է որպես \"Այո\", "
+"տվյալներ փոփոխելը կամ ջնջելը հնարավոր չէ:"
 
 #: 01170203.xhp#hd_id3148455.9.help.text
 #: 01170203.xhp%23hd_id3148455.9.help.text
 msgctxt "01170203.xhp#hd_id3148455.9.help.text"
 msgid "Navigation bar"
-msgstr ""
+msgstr "Նավարկման վահանակ"
 
 #: 01170203.xhp#par_id3157976.22.help.text
 #: 01170203.xhp%23par_id3157976.22.help.text
@@ -6911,6 +6943,8 @@ msgid ""
 "<ahelp hid=\"HID_PROP_NAVIGATION\">Specifies whether the navigation "
 "functions in the lower form bar can be used.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_PROP_NAVIGATION\">Նշում է, թե արդյոք ստորին մասի վահանակի "
+"ձևում եղած նավարկության գործառույթները կարող են օգտագործվել:</ahelp>"
 
 #: 01170203.xhp#par_id3149485.79.help.text
 #: 01170203.xhp%23par_id3149485.79.help.text
@@ -6920,11 +6954,16 @@ msgid ""
 "cursor is placed in the subform. A subform is linked to the parent form by a "
 "1:1 relationship, so navigation is always performed in the parent form."
 msgstr ""
+"Ենթաձևերի համար օգտագործվում է \"Ծնողական ձև\" տարբերակը: Եթե ընտրում եք այս "
+"տարբերակը ենթաձևի համար, կարող եք շարժվել օգտագործելով հիմնական ձևի "
+"գրառումները, եթե ցուցիչը տեղադրված է ենթաձևում: Ենթաձևը կապված է ծնողական "
+"ձևի հետ 1:1 հարաբերությամբ, այնպես որ նավարկումը միշտ կատարվում է ծնողի "
+"ձևում:"
 
 #: 01170203.xhp#hd_id3151051.10.help.text
 #: 01170203.xhp%23hd_id3151051.10.help.text
 msgid "Cycle"
-msgstr ""
+msgstr "Ցիկլ"
 
 #: 01170203.xhp#par_id3154944.23.help.text
 #: 01170203.xhp%23par_id3154944.23.help.text
@@ -6936,23 +6975,29 @@ msgid ""
 "the tab key again, it can have various effects. Define the key control with "
 "the following options:"
 msgstr ""
+"<ahelp hid=\"HID_PROP_CYCLE\">Որոշում է, թե ինչպես պետք է կատարվի նավարկումը՝"
+" օգտագործելով tab ստեղնը:</ahelp> Օգտագործելով tab ստեղնը, կարող եք ձևում "
+"առաջ շարժվել: Եթե միաժամանակ սեղմեք Shift ստեղնը, նավարկումը կկատարվի "
+"հակառակ ուղղությամբ: Եթե հասնում եք վերջին (կամ առաջին) դաշտին և կրկին "
+"սեղմում եք tab ստեղնը, այն կարող է ունենալ տարբեր ազդեցություններ: Սահմանեք "
+"հիմնական հսկողությունը հետևյալ ընտրանքներով."
 
 #: 01170203.xhp#par_id3166413.87.help.text
 #: 01170203.xhp%23par_id3166413.87.help.text
 msgid "Option"
-msgstr ""
+msgstr "Ընտրանք"
 
 #: 01170203.xhp#par_id3150424.88.help.text
 #: 01170203.xhp%23par_id3150424.88.help.text
 msgctxt "01170203.xhp#par_id3150424.88.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 01170203.xhp#par_id3150417.89.help.text
 #: 01170203.xhp%23par_id3150417.89.help.text
 msgctxt "01170203.xhp#par_id3150417.89.help.text"
 msgid "Default"
-msgstr ""
+msgstr "Լռելյայն"
 
 #: 01170203.xhp#par_id3157847.90.help.text
 #: 01170203.xhp%23par_id3157847.90.help.text
@@ -6963,11 +7008,16 @@ msgid ""
 "last field (see All Records). If there is no database link the next/previous "
 "form is shown (see Current Page)."
 msgstr ""
+"Այս կարգաբերումը ինքնաշխատ կերպով սահմանում է գոյություն ունեցող տվյալների "
+"շտեմարանի հղմանը հետևող ցիկլը. Եթե ձևը պարունակում է տվյալների շտեմարանի "
+"հղում, Tab ստեղնը, ըստ նախնականի, կսկսի փոփոխել հաջորդ կամ նախորդ գրառումը "
+"վերջին դաշտից դուրս գալու պահին (տե՛ս Բոլոր գրառումները): Եթե տվյալների "
+"շտեմարանի հղում չկա, ցուցադրվում է հաջորդ/նախորդ ձևը (տես Ընթացիկ էջ):"
 
 #: 01170203.xhp#par_id3153418.91.help.text
 #: 01170203.xhp%23par_id3153418.91.help.text
 msgid "All records"
-msgstr ""
+msgstr "Բոլոր գրառումները"
 
 #: 01170203.xhp#par_id3152972.92.help.text
 #: 01170203.xhp%23par_id3152972.92.help.text
@@ -6976,11 +7026,14 @@ msgid ""
 "all records. If you use the Tab key to exit from the last field of a form, "
 "the current record is changed."
 msgstr ""
+"Այս ընտրանքը վերաբերում է միայն տվյալների շտեմարանի ձևերին և օգտագործվում է "
+"բոլոր գրառումներում նավարկելու համար: Եթե օգտագործում եք Tab ստեղնը ձևի "
+"վերջին դաշտից դուրս գալու համար, ընթացիկ գրառումը փոխվում է:"
 
 #: 01170203.xhp#par_id3151020.93.help.text
 #: 01170203.xhp%23par_id3151020.93.help.text
 msgid "Active record"
-msgstr ""
+msgstr "Ակտիվ գրառում"
 
 #: 01170203.xhp#par_id3145301.94.help.text
 #: 01170203.xhp%23par_id3145301.94.help.text
@@ -6989,11 +7042,14 @@ msgid ""
 "the current record. If you use the Tab key to exit from the last field of a "
 "form, the current record is changed."
 msgstr ""
+"Այս տարբերակը վերաբերում է միայն տվյալների շտեմարանի ձևերին և օգտագործվում է "
+"ընթացիկ գրառման մեջ նավարկելու համար: Եթե օգտագործում եք Tab ստեղնը ձևի "
+"վերջին դաշտից դուրս գալու համար, ընթացիկ գրառումը փոխվում է:"
 
 #: 01170203.xhp#par_id3146913.95.help.text
 #: 01170203.xhp%23par_id3146913.95.help.text
 msgid "Current page"
-msgstr ""
+msgstr "Ընթացիկ էջ"
 
 #: 01170203.xhp#par_id3150330.96.help.text
 #: 01170203.xhp%23par_id3150330.96.help.text
@@ -7002,11 +7058,14 @@ msgid ""
 "in the next form. This is standard for HTML forms; therefore, this option is "
 "especially relevant for HTML forms."
 msgstr ""
+"Ձևաթղթի վերջին դաշտից դուրս գալուն պես կուրսորը բացվում է առաջին դաշտում "
+"հաջորդ տեսքով: Սա ստանդարտ է HTML ձևերի համար. հետևաբար, այս տարբերակը "
+"հատկապես կարևոր է HTML ձևերի համար:"
 
 #: 01170203.xhp#hd_id3155064.11.help.text
 #: 01170203.xhp%23hd_id3155064.11.help.text
 msgid "Allow additions"
-msgstr ""
+msgstr "Թույլատրել հավելումները"
 
 #: 01170203.xhp#par_id3154360.24.help.text
 #: 01170203.xhp%23par_id3154360.24.help.text
@@ -7014,11 +7073,13 @@ msgid ""
 "<ahelp hid=\"HID_PROP_ALLOW_ADDITIONS\">Determines if data can be "
 "added.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_PROP_ALLOW_ADDITIONS\">Որոշում է, թե արդյոք տվյալները կարող "
+"են ավելացվել:</ahelp>"
 
 #: 01170203.xhp#hd_id3156054.12.help.text
 #: 01170203.xhp%23hd_id3156054.12.help.text
 msgid "Allow modifications"
-msgstr ""
+msgstr "Թույլատրել ձևափոխումները"
 
 #: 01170203.xhp#par_id3156377.25.help.text
 #: 01170203.xhp%23par_id3156377.25.help.text
@@ -7026,11 +7087,13 @@ msgid ""
 "<ahelp hid=\"HID_PROP_ALLOW_EDITS\"> Determines if the data can be "
 "modified.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_PROP_ALLOW_EDITS\"> Որոշում է, արդյոք տվյալները հնարավոր է "
+"փոփոխել:</ahelp>"
 
 #: 01170203.xhp#hd_id3149019.13.help.text
 #: 01170203.xhp%23hd_id3149019.13.help.text
 msgid "Allow deletions"
-msgstr ""
+msgstr "Թույլատրել հեռացումները"
 
 #: 01170203.xhp#par_id3148995.26.help.text
 #: 01170203.xhp%23par_id3148995.26.help.text
@@ -7038,11 +7101,13 @@ msgid ""
 "<ahelp hid=\"HID_PROP_ALLOW_DELETIONS\">Determines if the data can be "
 "deleted.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_PROP_ALLOW_DELETIONS\">Որոշում է, արդյոք տվյալները հնարավոր "
+"է ջնջել:</ahelp>"
 
 #: 01170203.xhp#hd_id3153714.3.help.text
 #: 01170203.xhp%23hd_id3153714.3.help.text
 msgid "Link master fields"
-msgstr ""
+msgstr "Կապեք վարպետ դաշտերը"
 
 #: 01170203.xhp#par_id3147339.14.help.text
 #: 01170203.xhp%23par_id3147339.14.help.text
@@ -7053,6 +7118,11 @@ msgid ""
 "parent and subform.</ahelp> To enter multiple values, press Shift + Enter "
 "after each input line."
 msgstr ""
+"<ahelp hid=\"HID_PROP_MASTERFIELDS\">Եթե ստեղծեք <link href=\""
+"text/shared/02/01170203.xhp\" name=\"ենթաձև\">ենթաձև</link>, մուտքագրեք "
+"ծնողի ձևի տվյալների դաշտը, որը պատասխանատու է ծնողի և ենթաձևի միջև "
+"համաժամացման համար:</ahelp> Բազմաթիվ արժեքներ մուտքագրելու համար "
+"յուրաքանչյուր մուտքագրման տողից հետո սեղմեք Shift + Enter:"
 
 #: 01170203.xhp#par_id3149568.71.help.text
 #: 01170203.xhp%23par_id3149568.71.help.text
@@ -7067,11 +7137,21 @@ msgid ""
 "the subform refers to. Alternatively, you can enter the column name in the "
 "<emph>Link master fields</emph> box."
 msgstr ""
+"Ենթաձևը հիմնված է <link href=\"text/shared/00/00000005.xhp#sql\" name=\"SQL\""
+">SQL</link> հարցման վրա; ավելի որոշակի <link href=\""
+"text/shared/explorer/database/02010100.xhp\" name=\"Պարամետրի հարցում\">"
+"Պարամետրի հարցում</link> վրա։ Եթե դաշտի անունը մուտքագրված է <emph>Կապեք "
+"վարպետ դաշտերը</emph> վանդակում, տվյալ դաշտում պարունակվող տվյալները "
+"հիմնական ձևով ընթերցվում են փոփոխականի մեջ, որը պետք է մուտքագրեք <emph>"
+"Կապեք ստրուկ դաշտերում</emph>։ Համապատասխան SQL հայտարարության մեջ այս "
+"փոփոխականը համեմատվում է աղյուսակի տվյալների հետ, որոնց վրա հղում է կատարում "
+"ենթաձևը: Որպես այլընտրանք՝ սյունակի անունը կարող եք մուտքագրել <emph>Կապեքց "
+"վարպետ դաշտերը</emph> վանդակում:"
 
 #: 01170203.xhp#par_id3156089.72.help.text
 #: 01170203.xhp%23par_id3156089.72.help.text
 msgid "Consider the following example:"
-msgstr ""
+msgstr "Դիտարկենք հետևյալ օրինակը."
 
 #: 01170203.xhp#par_id3151017.30.help.text
 #: 01170203.xhp%23par_id3151017.30.help.text
@@ -7086,6 +7166,16 @@ msgid ""
 "Under <emph>Link slave fields</emph> enter the name of a variable which is "
 "to accept the data of the field Cust_ID, for example, x."
 msgstr ""
+"Տվյալների շտեմարանի աղյուսակը, որի վրա հիմնված է ձևաթուղթը, օրինակ, "
+"հաճախորդների շտեմարանն է (\"Customer\"), որտեղ յուրաքանչյուր հաճախորդի տրվել "
+"է եզակի համար \"Cust_ID\" անունով տվյալների դաշտում: Հաճախորդի պատվերները "
+"պահվում են տվյալների շտեմարանի մեկ այլ աղյուսակում: Այժմ դուք ցանկանում եք "
+"տեսնել յուրաքանչյուր հաճախորդի պատվերները դրանք ձևաթուղթ մուտքագրելուց հետո: "
+"Դա անելու համար պետք է ստեղծեք ենթաձև: <emph>Կապել վարպետ դաշտերը</emph> "
+"ներքո, հաճախորդի տվյալների շտեմարանից մուտքագրեք տվյալների դաշտը, որը "
+"հստակորեն ճանաչում է հաճախորդին, այսինքն՝ Cust_ID: <emph>Կապեք ստրուկի "
+"դաշտերը </emph> ներքո մուտքագրեք փոփոխականի անունը, որը պետք է ընդունի "
+"Cust_ID դաշտի տվյալները, օրինակ x."
 
 #: 01170203.xhp#par_id3151248.73.help.text
 #: 01170203.xhp%23par_id3151248.73.help.text
@@ -7097,6 +7187,13 @@ msgid ""
 "make sure that this field is not confused with the same field from the main "
 "form, the field is called Customer_Number."
 msgstr ""
+"Ենթաձևը պետք է ցույց տա պատվերների աղյուսակի համապատասխան տվյալները (\""
+"Orders\") յուրաքանչյուր հաճախորդի ID-ի համար (Customer_ID -> x): Դա հնարավոր "
+"է միայն այն դեպքում, եթե յուրաքանչյուր պատվեր յուրահատուկ կերպով "
+"հանձնարարված է մեկ հաճախորդի պատվերների աղյուսակում: Այլընտրանքորեն, կարող "
+"եք օգտագործել մեկ այլ դաշտ, որը կոչվում է Customer_ID; սակայն համոզվելու "
+"համար, որ այս դաշտը չի խառնվել հիմնական ձևի նույն դաշտի հետ, դաշտը կոչվում է "
+"Customer_Number:"
 
 #: 01170203.xhp#par_id3153537.74.help.text
 #: 01170203.xhp%23par_id3153537.74.help.text
@@ -7105,6 +7202,9 @@ msgid ""
 "from the \"Customers\" table, which can be done, for example, using the x "
 "variable with the following SQL statement:"
 msgstr ""
+"Այժմ \"Orders\" աղյուսակի Customer_Number -ը համեմատեք \"Customers\" "
+"աղյուսակի Customer_ID -ի հետ, ինչը կարելի է անել, օրինակ x փոփոխականը "
+"օգտագործելով հետևյալ SQL հայտարարության հետ."
 
 #: 01170203.xhp#par_id3155335.75.help.text
 #: 01170203.xhp%23par_id3155335.75.help.text
@@ -7112,11 +7212,13 @@ msgid ""
 "SELECT * FROM Orders WHERE Customer_Number =: x (if you want the subform to "
 "show all data from the orders table)"
 msgstr ""
+"SELECT * FROM Orders WHERE Customer_Number =: x (եթե ուզում եք, որ ենթաձևը "
+"ցույց տա բոլոր տվյալները պատվերների աղյուսակից)"
 
 #: 01170203.xhp#par_id3163727.76.help.text
 #: 01170203.xhp%23par_id3163727.76.help.text
 msgid "or:"
-msgstr ""
+msgstr "կամ:"
 
 #: 01170203.xhp#par_id3153921.77.help.text
 #: 01170203.xhp%23par_id3153921.77.help.text
@@ -7124,6 +7226,9 @@ msgid ""
 "SELECT Item FROM Orders WHERE Customer_Number =: x (if you want the subform "
 "from the orders table to show only the data contained in the \"Item\" field)"
 msgstr ""
+"SELECT Item FROM Orders WHERE Customer_Number =: x (եթե ուզում եք, որ "
+"ենթաձևը պատվերների աղյուսակից ցուցադրի միայն \"Item\" դաշտում պարունակվող "
+"տվյալները)"
 
 #: 01170203.xhp#par_id3148488.78.help.text
 #: 01170203.xhp%23par_id3148488.78.help.text
@@ -7132,11 +7237,14 @@ msgid ""
 "field, or you can create an appropriate parameter query, which can be used "
 "to create the subform."
 msgstr ""
+"SQL հայտարարությունը կամ կարող է մուտքագրվել <emph>Տվյալների աղբյուրը</emph> "
+"դաշտում, կամ կարող եք ստեղծել համապատասխան պարամետրի հարցում, որը կարող է "
+"օգտագործվել ենթաձևը ստեղծելու համար:"
 
 #: 01170203.xhp#hd_id3150648.4.help.text
 #: 01170203.xhp%23hd_id3150648.4.help.text
 msgid "Link slave fields"
-msgstr ""
+msgstr "Կապեք ստրուկ դաշտերը"
 
 #: 01170203.xhp#par_id3149923.15.help.text
 #: 01170203.xhp%23par_id3149923.15.help.text
@@ -7149,6 +7257,13 @@ msgid ""
 "in the statement. You can choose any variable name. If you want to enter "
 "multiple values, press Shift + Enter."
 msgstr ""
+"<ahelp hid=\"HID_PROP_SLAVEFIELDS\">Եթե ստեղծում եք ենթաձև, մուտքագրեք այն "
+"փոփոխականը, որտեղ հնարավոր է պահպանել ծնող ձևի հնարավոր արժեքները:</ahelp> "
+"Եթե ենթաձևը հիմնված է հարցման վրա, մուտքագրեք հարցումում ձեր կողմից "
+"սահմանված փոփոխականը: Եթե ձև եք ստեղծում <emph>Տվյալների աղբյուրը</emph> "
+"դաշտում մուտքագրված SQL հայտարարության մեջ, մուտքագրեք հայտարարության մեջ "
+"ձեր օգտագործած փոփոխականը: Կարող եք ընտրել ցանկացած փոփոխական անուն: Եթե "
+"ցանկանում եք մուտքագրել բազմաթիվ արժեքներ, սեղմեք Shift + Enter:"
 
 #: 01170203.xhp#par_id3155114.31.help.text
 #: 01170203.xhp%23par_id3155114.31.help.text
@@ -7160,11 +7275,17 @@ msgid ""
 "statement in the <emph>Data source</emph> box using this variable, the "
 "relevant values are displayed in the subform."
 msgstr ""
+"Եթե, օրինակի համար, հատկորոշել եք Customer_ID շտեմարանի դաշտը որպես ծնող "
+"դաշտ <emph>Կապեք վարպետ դաշտերը</emph> ներքո, ապա <emph>Կապեք ստրուկ "
+"դաշտերը</emph> ներքո, կարող եք սահմանել այն փոփոխականի անվանումը, որում պետք "
+"է պահվեն Customer_ID տվյալների շտեմարանի դաշտի արժեքները: Եթե այժմ այս "
+"փոփոխականն օգտագործելով <emph>Տվյալների աղբյուր</emph>> վանդակում SQL "
+"հայտարարություն որոշեք, ապա համապատասխան արժեքները ցուցադրվում են ենթաձևում:"
 
 #: 01170203.xhp#hd_id3152778.32.help.text
 #: 01170203.xhp%23hd_id3152778.32.help.text
 msgid "What is a subform?"
-msgstr ""
+msgstr "Ի՞նչ է ենթաձևը։"
 
 #: 01170203.xhp#par_id3155579.33.help.text
 #: 01170203.xhp%23par_id3155579.33.help.text
@@ -7173,6 +7294,9 @@ msgid ""
 "the data in a visually pleasant fashion and can be used to enter data or "
 "edit data."
 msgstr ""
+"Ձևերը ստեղծվում են տվյալների շտեմարանի աղյուսակի կամ տվյալների շտեմարանի "
+"հարցման հիման վրա: Դրանք տվյալները ցուցադրում են տեսողականորեն հաճելի ձևով և "
+"կարող են օգտագործվել տվյալների մուտքագրման կամ տվյալների խմբագրման համար:"
 
 #: 01170203.xhp#par_id3147094.34.help.text
 #: 01170203.xhp%23par_id3147094.34.help.text
@@ -7182,6 +7306,11 @@ msgid ""
 "should create a subform. </variable> For example, this subform can be a text "
 "box that displays the data of another database table."
 msgstr ""
+"<variable id=\"wozu\">Եթե Ձեզ անհրաժեշտ է մի ձև, որը կարող է վկայակոչվել "
+"տվյալները աղյուսակի կամ հարցման մեջ և կարող է լրացուցիչ լրացնել տվյալները "
+"այլ աղյուսակից, դուք պետք է ստեղծեք ենթաձև: </variable> Օրինակ, այս ենթաձևը "
+"կարող է լինել տեքստային վանդակ, որը ցուցադրում է տվյալների շտեմարանի մեկ այլ "
+"աղյուսակի տվյալները:"
 
 #: 01170203.xhp#par_id3157972.35.help.text
 #: 01170203.xhp%23par_id3157972.35.help.text
@@ -7191,6 +7320,10 @@ msgid ""
 "want to access more than one table from a form. Each additional table "
 "requires its own subform."
 msgstr ""
+"Ենթաձևը հիմնական ձևի լրացուցիչ բաղադրիչ է: Հիմնական ձևը կարելի է անվանել \""
+"ծնողական ձև\" կամ \"վարպետ\": Ենթաձևերը անհրաժեշտ են հենց այն պահից, երբ "
+"ցանկանում եք ձևից մուտք ունենալ ավելի քան մեկ աղյուսակի: Յուրաքանչյուր "
+"լրացուցիչ աղյուսակ պահանջում է իր սեփական ենթաձևը:"
 
 #: 01170203.xhp#par_id4807275.help.text
 #: 01170203.xhp%23par_id4807275.help.text
@@ -7199,6 +7332,9 @@ msgid ""
 "Design Mode, and open the Form Navigator. In the Form Navigator, drag a form "
 "(that will become a subform) onto any other form (that will become a master)."
 msgstr ""
+"Ձևը ստեղծելուց հետո այն կարող է վերափոխվել ենթաձևի: Դա անելու համար մտեք "
+"Դիզայնի ռեժիմ և բացեք Ձևի նավարկիչը: Ձևի նավարկիչում որևէ ձև (որը կդառնա "
+"ենթաձև) քաշեք որևէ այլ ձևի վրա (դա կդառնա վարպետ):"
 
 #: 01170203.xhp#par_id3158444.36.help.text
 #: 01170203.xhp%23par_id3158444.36.help.text
@@ -7207,6 +7343,9 @@ msgid ""
 "only sees a document in which data is entered or where existing data is "
 "displayed."
 msgstr ""
+"Ձեր փաստաթղթի օգտագործողը չի տեսնի, որ ձևն ունի ենթաձևեր: Օգտագործողը "
+"տեսնում է միայն մի փաստաթուղթ, որի մեջ մուտքագրվում են տվյալներ կամ որտեղ "
+"առկա տվյալները ցուցադրվում են:"
 
 #: 01170203.xhp#par_idN10C2A.help.text
 #: 01170203.xhp%23par_idN10C2A.help.text
@@ -7215,6 +7354,9 @@ msgid ""
 "the subform, the Link slave field can be set as a field which will be "
 "matched to the contents of the Link master field."
 msgstr ""
+"Հատկորոշեք Հղման վարպետի դաշտը տվյալների դաշտերից` վարպետի ձևով: Ենթաձևում "
+"Հղման ստրուկի դաշտը կարող է սահմանվել որպես դաշտ, որը կհամապատասխանի Հղման "
+"վարպետ դաշտի բովանդակությանը:"
 
 #: 01170203.xhp#par_idN10C2D.help.text
 #: 01170203.xhp%23par_idN10C2D.help.text
@@ -7226,17 +7368,24 @@ msgid ""
 "form. If you navigate to the next master data record within the delay limit, "
 "the subform data need not be retrieved and displayed."
 msgstr ""
+"Երբ օգտագործողը նավարկում է տվյալների միջով, ձևը միշտ ցույց է տալիս ընթացիկ "
+"տվյալների գրառումը: Եթե սահմանված են ենթաձևեր, ենթաձևերի բովանդակությունը "
+"կցուցադրվի մոտավոր 200 միլիվրկ ուշացումից հետո: Այս ուշացումը "
+"հնարավորություն է տալիս արագ թերթել վարպետ ձևի տվյալների գրառումները: Եթե "
+"ուշացման սահմանաչափում նավարկեք դեպի հաջորդ վարպետ տվյալների գրառումը, "
+"անհրաժեշտ չէ ենթաձևի տվյալները վերցնել և ցուցադրել:"
 
 #: 09070100.xhp#tit.help.text
 #: 09070100.xhp%23tit.help.text
 msgid "Internet"
-msgstr ""
+msgstr "Համացանց"
 
 #: 09070100.xhp#hd_id3151100.1.help.text
 #: 09070100.xhp%23hd_id3151100.1.help.text
 msgid ""
 "<link href=\"text/shared/02/09070100.xhp\" name=\"Internet\">Internet</link>"
 msgstr ""
+"<link href=\"text/shared/02/09070100.xhp\" name=\"Համացանց\">Համացանց</link>"
 
 #: 09070100.xhp#par_id3154230.2.help.text
 #: 09070100.xhp%23par_id3154230.2.help.text
@@ -7245,6 +7394,9 @@ msgid ""
 "text/shared/02/09070000.xhp\" name=\"Hyperlink dialog\">Hyperlink "
 "dialog</link> to edit hyperlinks with WWW or FTP addresses."
 msgstr ""
+"Օգտագործեք <emph>Համացանց</emph> էջը <link href=\"text/shared/02/09070000."
+"xhp\" name=\"Գերհղում երկխոսությունից\">Գերհղում երկխոսութունից</link> "
+"խմբագրելու WWW կամ FTP հասցեների գերհղումները։"
 
 #: 09070100.xhp#par_id3147291.3.help.text
 #: 09070100.xhp%23par_id3147291.3.help.text
@@ -7252,16 +7404,18 @@ msgid ""
 "The fields for the login name, password and anonymous user are only "
 "available for FTP addresses."
 msgstr ""
+"Մուտքի անվան, գաղտնաբառի և անանուն օգտագործողի համար նախատեսված դաշտերը "
+"հասանելի են միայն FTP հասցեների համար:"
 
 #: 09070100.xhp#hd_id3145090.4.help.text
 #: 09070100.xhp%23hd_id3145090.4.help.text
 msgid "Type of hyperlink"
-msgstr ""
+msgstr "Գերհղման տեսակ"
 
 #: 09070100.xhp#hd_id3151226.6.help.text
 #: 09070100.xhp%23hd_id3151226.6.help.text
 msgid "Web"
-msgstr ""
+msgstr "Ոստայն"
 
 #: 09070100.xhp#par_id3145071.7.help.text
 #: 09070100.xhp%23par_id3145071.7.help.text
@@ -7269,11 +7423,13 @@ msgid ""
 "<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:"
 "RB_LINKTYP_INTERNET\">Creates an http hyperlink.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:"
+"RB_LINKTYP_INTERNET\">Ստեղծում է http գերհղում։</ahelp>"
 
 #: 09070100.xhp#hd_id3153683.8.help.text
 #: 09070100.xhp%23hd_id3153683.8.help.text
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: 09070100.xhp#par_id3150693.9.help.text
 #: 09070100.xhp%23par_id3150693.9.help.text
@@ -7281,11 +7437,13 @@ msgid ""
 "<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:RB_LINKTYP_FTP\">"
 "Creates an FTP hyperlink.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:RB_LINKTYP_FTP\">"
+"Ստեղծում է FTP գերհղում։</ahelp>"
 
 #: 09070100.xhp#hd_id3149095.10.help.text
 #: 09070100.xhp%23hd_id3149095.10.help.text
 msgid "Telnet"
-msgstr ""
+msgstr "Telnet"
 
 #: 09070100.xhp#par_id3151110.11.help.text
 #: 09070100.xhp%23par_id3151110.11.help.text
@@ -7293,12 +7451,14 @@ msgid ""
 "<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:"
 "RB_LINKTYP_TELNET\">Creates a Telnet hyperlink.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:RADIOBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:"
+"RB_LINKTYP_TELNET\">Ստեղծում է Telnet գերհղում։</ahelp>"
 
 #: 09070100.xhp#hd_id3150443.12.help.text
 #: 09070100.xhp%23hd_id3150443.12.help.text
 msgctxt "09070100.xhp#hd_id3150443.12.help.text"
 msgid "Target"
-msgstr ""
+msgstr "Թիրախ"
 
 #: 09070100.xhp#par_id9887081.help.text
 #: 09070100.xhp%23par_id9887081.help.text
@@ -7308,11 +7468,14 @@ msgid ""
 "click the hyperlink. If you do not specify a target frame, the file opens in "
 "the current document or frame.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Մուտքագրեք URL-ը այն նիշքի համար, որը ցանկանում եք բացել, "
+"երբ կտտացնում եք գերհղումը: Եթե չեք նշում թիրախային շրջանակ, նիշքը բացվում է "
+"ընթացիկ փաստաթղթում կամ շրջանակում:</ahelp>"
 
 #: 09070100.xhp#hd_id3155628.13.help.text
 #: 09070100.xhp%23hd_id3155628.13.help.text
 msgid "WWW Browser"
-msgstr ""
+msgstr "WWW զննիչ"
 
 #: 09070100.xhp#par_id3153760.14.help.text
 #: 09070100.xhp%23par_id3153760.14.help.text
@@ -7321,12 +7484,15 @@ msgid ""
 "Opens a web browser, into which you can load the desired URL.</ahelp> You "
 "can then copy and paste the URL into the <emph>Target</emph> field."
 msgstr ""
+"<ahelp hid=\"SVX:IMAGEBUTTON:RID_SVXPAGE_HYPERLINK_INTERNET:BTN_BROWSE\">"
+"Բացվում է վեբ զննարկիը, որի միջոցով կարող եք բեռնել ցանկալի URL:</ahelp> "
+"Դրանից հետո կարող եք պատճենել և տեղադրել URL-ը <emph>Թիրախ</emph> դաշտում:"
 
 #: 09070100.xhp#hd_id3155421.31.help.text
 #: 09070100.xhp%23hd_id3155421.31.help.text
 msgctxt "09070100.xhp#hd_id3155421.31.help.text"
 msgid "Target in document"
-msgstr ""
+msgstr "Թիրախը փաստաթղթում"
 
 #: 09070100.xhp#par_id3147618.32.help.text
 #: 09070100.xhp%23par_id3147618.32.help.text
