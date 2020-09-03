@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-09-01 20:35+0000\n"
+"PO-Revision-Date: 2020-09-02 15:08+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1598992530.000000\n"
+"X-POOTLE-MTIME: 1599059314.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -2797,6 +2797,8 @@ msgstr "TYP(wartość)"
 msgid ""
 "<emph>Value</emph> is a specific value for which the data type is determined."
 msgstr ""
+"<emph>wartość</emph> to konkretna wartość, dla której określany jest typ "
+"danych."
 
 #: 04060104.xhp#hd_id3154363.141.help.text
 #: 04060104.xhp%23hd_id3154363.141.help.text
@@ -5635,49 +5637,44 @@ msgstr "Pierwsza składnia"
 
 #: 04060109.xhp#par_id9302346.help.text
 #: 04060109.xhp%23par_id9302346.help.text
-#, fuzzy
 msgid ""
 "            <emph>TargetField</emph> is a string that selects one of the "
 "pivot table's data fields. The string can be the name of the source column, "
 "or the data field name as shown in the table (like \"Sum - Sales\")."
 msgstr ""
-"            <emph>Pole_docelowe</emph> jest ciągiem, który wybiera jedno z "
-"pól danych tabeli Pilot_danych. Nazwa ciągu może być nazwą kolumny źródłowej "
-"lub nazwą pola danych, jak to zostało przedstawione w tabeli (np. \"Suma – "
-"Sprzedaż\")."
+"<emph>Pole docelowe</emph> jest ciągiem, który wybiera jedno z pól danych "
+"tabeli przestawnej. Ciąg może być nazwą kolumny źródłowej lub nazwą pola "
+"danych, pokazywaną w tabeli (np. \"Suma - Sprzedaż\")."
 
 #: 04060109.xhp#par_id8296151.help.text
 #: 04060109.xhp%23par_id8296151.help.text
-#, fuzzy
 msgid ""
 "            <emph>pivot table</emph> is a reference to a cell or cell range "
 "that is positioned within a pivot table or contains a pivot table. If the "
 "cell range contains several pivot tables, the table that was created last is "
 "used."
 msgstr ""
-"            <emph>Pilot_danych</emph> jest odwołaniem do komórki lub zakresu "
-"komórek umieszczonych wewnątrz tabeli Pilot_danych lub zawierających ją. "
-"Jeśli zakres komórek zawiera kilka tabel Pilot_danych, będzie wykorzystana "
+"<emph>tabela przestawna</emph> jest odwołaniem do komórki lub zakresu "
+"komórek umieszczonych wewnątrz tabeli przestawnej lub zawierających ją. "
+"Jeśli zakres komórek zawiera kilka tabel przestawnych, będzie wykorzystana "
 "tabela, która została utworzona jako ostatnia."
 
 #: 04060109.xhp#par_id4809411.help.text
 #: 04060109.xhp%23par_id4809411.help.text
-#, fuzzy
 msgid ""
 "If no <emph>Field n / Item n</emph> pairs are given, the grand total is "
 "returned. Otherwise, each pair adds a constraint that the result must "
 "satisfy. <emph>Field n</emph> is the name of a field from the pivot table. "
 "<emph>Item n</emph> is the name of an item from that field."
 msgstr ""
-"Jeśli nie zostały podane żadne pary danych <emph>Pole n / Element n</emph>, "
+"Jeśli nie została podana żadna para danych <emph>Pole n / Element n</emph>, "
 "zwracana jest suma końcowa. W przeciwnym razie każda para dodaje "
 "ograniczenie, które musi być spełnione przez wyniki. <emph>Pole n</emph> "
-"jest nazwą pola z tabeli Pilota danych. <emph>Element n</emph> jest nazwą "
+"jest nazwą pola z tabeli przestawnej. <emph>Element n</emph> jest nazwą "
 "elementu z tego pola."
 
 #: 04060109.xhp#par_id6454969.help.text
 #: 04060109.xhp%23par_id6454969.help.text
-#, fuzzy
 msgid ""
 "If the pivot table contains only a single result value that fulfills all of "
 "the constraints, or a subtotal result that summarizes all matching values, "
@@ -5685,27 +5682,25 @@ msgid ""
 "without a subtotal for them, an error is returned. These conditions apply to "
 "results that are included in the pivot table."
 msgstr ""
-"Jeśli tabela Pilota danych zawiera tylko jedną wartość wynikową, która "
-"spełnia wszystkie ograniczenia, lub wartość sumy pośredniej wszystkich "
-"zgodnych wartości, ten wynik jest zwracany. Jeśli nie ma zgodnego wyniku lub "
-"kilka z nich nie ma sumy pośredniej, zwracany jest błąd. Te warunki mają "
-"zastosowanie do wyników zawartych w tabeli Pilota danych."
+"Jeśli tabela przestawna zawiera tylko jedną wartość wynikową, która spełnia "
+"wszystkie ograniczenia, lub wartość sumy pośredniej wszystkich zgodnych "
+"wartości, ten wynik jest zwracany. Jeśli nie ma zgodnego wyniku lub kilka z "
+"nich nie ma sumy pośredniej, zwracany jest błąd. Te warunki mają "
+"zastosowanie do wyników zawartych w tabeli przestawnej."
 
 #: 04060109.xhp#par_id79042.help.text
 #: 04060109.xhp%23par_id79042.help.text
-#, fuzzy
 msgid ""
 "If the source data contains entries that are hidden by settings of the pivot "
 "table, they are ignored. The order of the Field/Item pairs is not "
 "significant. Field and item names are not case-sensitive."
 msgstr ""
-"Jeśli dane źródłowe zawierają pozycje ukryte przez ustawienia tabeli Pilota "
-"danych, są one ignorowane. Kolejność par Pole/Element nie ma znaczenia. W "
-"nazwach pól i elementów nie jest rozróżniana wielkość liter."
+"Jeśli dane źródłowe zawierają pozycje ukryte przez ustawienia tabeli "
+"przestawnej, są one ignorowane. Kolejność par Pole/Element nie ma znaczenia. "
+"W nazwach pól i elementów nie jest rozróżniana wielkość liter."
 
 #: 04060109.xhp#par_id7928708.help.text
 #: 04060109.xhp%23par_id7928708.help.text
-#, fuzzy
 msgid ""
 "If no constraint for a page field is given, the field's selected value is "
 "implicitly used. If a constraint for a page field is given, it must match "
@@ -5717,19 +5712,21 @@ msgstr ""
 "Jeśli nie zostało podane żadne ograniczenie dla pola strony, wybrana wartość "
 "pola zostanie zastosowana bezwarunkowo. Jeśli zostało podane ograniczenie "
 "dla pola strony, musi ono odpowiadać wybranej wartości pola lub zostanie "
-"zwrócony błąd."
+"zwrócony błąd. Pola strony są to pola w lewej górnej części tabeli "
+"przestawnej, wypełniane przy użyciu obszaru \"Obszar strony\" w oknie "
+"dialogowym tabeli przestawnej. Z każdego pola strony, element (wartość) "
+"można wybrać i tylko taki element jest uwzględniany w obliczeniach."
 
 #: 04060109.xhp#par_id3864253.help.text
 #: 04060109.xhp%23par_id3864253.help.text
-#, fuzzy
 msgid ""
 "Subtotal values from the pivot table are only used if they use the function "
 "\"auto\" (except when specified in the constraint, see <item type=\"literal\""
 ">Second Syntax</item> below)."
 msgstr ""
-"Wartości sum częściowych z tabeli Pilota danych są używane pod warunkiem, że "
-"wykorzystują funkcję „auto” (z wyjątkiem sytuacji, kiedy jest to określone w "
-"ograniczeniu, zobacz <item type=\"literal\">Druga składnia</item> poniżej)."
+"Wartości sum częściowych z tabeli przestawnej są używane pod warunkiem, że "
+"wykorzystują funkcję \"auto\" (z wyjątkiem sytuacji, kiedy jest to określone "
+"w ograniczeniu, zobacz <item type=\"literal\">Druga składnia</item> poniżej)."
 
 #: 04060109.xhp#hd_id3144016.help.text
 #: 04060109.xhp%23hd_id3144016.help.text
@@ -5738,13 +5735,11 @@ msgstr "Druga składnia"
 
 #: 04060109.xhp#par_id9937131.help.text
 #: 04060109.xhp%23par_id9937131.help.text
-#, fuzzy
 msgid ""
 "            <emph>pivot table</emph> has the same meaning as in the first "
 "syntax."
 msgstr ""
-"            <emph>Pilot_danych</emph> ma to samo znaczenie, co w pierwszej "
-"składni."
+"<emph>tabela przestawna</emph> ma to samo znaczenie, co w pierwszej składni."
 
 #: 04060109.xhp#par_id5616626.help.text
 #: 04060109.xhp%23par_id5616626.help.text
@@ -5770,7 +5765,6 @@ msgstr ""
 
 #: 04060109.xhp#par_id8231757.help.text
 #: 04060109.xhp%23par_id8231757.help.text
-#, fuzzy
 msgid ""
 "Each of the other entries specifies a constraint in the form <item type=\""
 "literal\">Field[Item]</item> (with literal characters [ and ]), or only <"
@@ -5778,9 +5772,9 @@ msgid ""
 "fields that are used in the pivot table."
 msgstr ""
 "Każda z tych pozycji określa ograniczenie w formie <item type=\"literal\""
-">Pole[Element]</item>. Element musi być umieszczony w nawiasach "
-"kwadratowych, o ile nazwa elementu nie jest jednoznaczna we wszystkich "
-"polach używanych w tabeli Pilota danych."
+">Pole[Element]</item>. <item type=\"literal\">Element</item> musi być "
+"umieszczony w nawiasach kwadratowych, chyba że nazwa elementu jest "
+"jednoznaczna we wszystkich polach używanych w tabeli przestawnej."
 
 #: 04060109.xhp#par_id3168736.help.text
 #: 04060109.xhp%23par_id3168736.help.text
@@ -8076,7 +8070,6 @@ msgstr "% przez wiersz"
 
 #: 12090105.xhp#par_idN1078D.help.text
 #: 12090105.xhp%23par_idN1078D.help.text
-#, fuzzy
 msgid ""
 "Each result is divided by the total result for its row in the pivot table. "
 "If there are several data fields, the total for the result's data field is "
@@ -8084,9 +8077,9 @@ msgid ""
 "total with the data field's summary function is still used. "
 msgstr ""
 "Każdy wynik jest dzielony przez sumę całkowitą dla jego wiersza w tabeli "
-"Pilota danych. W przypadku kilku pól bazowych używana jest suma pola danych "
-"wyniku. W przypadku sum częściowych ręcznie wybranych funkcji sumowania "
-"dalej będzie używana funkcja sumy całkowitej pola bazowego. "
+"przestawnej. W przypadku kilku pól danych używana jest suma pola danych "
+"wyniku. W przypadku sum częściowych dla ręcznie wybranych funkcji sumowania "
+"dalej będzie używana funkcja sumy całkowitej pola danych."
 
 #: 12090105.xhp#par_idN10794.help.text
 #: 12090105.xhp%23par_idN10794.help.text
@@ -19866,13 +19859,12 @@ msgstr ""
 
 #: 12080200.xhp#par_id6036561.help.text
 #: 12080200.xhp%23par_id6036561.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/scalc/01/12080700.xhp\">Show Details command in pivot "
 "tables</link>"
 msgstr ""
 "<link href=\"text/scalc/01/12080700.xhp\">Pokaż polecenie Szczegóły w "
-"tabelach DataPilot</link>"
+"tabelach przestawnych</link>"
 
 #: 05040000.xhp#tit.help.text
 #: 05040000.xhp%23tit.help.text
@@ -21871,17 +21863,18 @@ msgid ""
 "<ahelp hid=\".\">Opens the <emph>External Source</emph> dialog where you can "
 "select the OLAP data source for the pivot table.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Otwiera okno dialogowe <emph>Zewnętrzne źródło</emph>, w "
+"którym można wybrać źródło danych OLAP dla tabeli przestawnej.</ahelp>"
 
 #: 12090100.xhp#par_idN10670.help.text
 #: 12090100.xhp%23par_idN10670.help.text
-#, fuzzy
 msgctxt "12090100.xhp#par_idN10670.help.text"
 msgid ""
 "<link href=\"text/scalc/01/12090102.xhp\" name=\"Pivot table dialog\">Pivot "
 "table dialog</link>"
 msgstr ""
-"<link href=\"text/scalc/01/12090102.xhp\" name=\"DataPilot dialog\">Okno "
-"dialogowe Pilot danych</link>"
+"<link href=\"text/scalc/01/12090102.xhp\" name=\"Okno dialogowe tabeli "
+"przestawnej\">Okno dialogowe tabeli przestawnej</link>"
 
 #: 12090102.xhp#tit.help.text
 #: 12090102.xhp%23tit.help.text
@@ -21933,18 +21926,17 @@ msgstr "Układ"
 
 #: 12090102.xhp#par_id3150768.19.help.text
 #: 12090102.xhp%23par_id3150768.19.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"HID_SC_DPLAY_SELECT\">To define the layout of a pivot table, "
 "drag and drop data field buttons onto the <emph>Page Fields, Row Fields, "
 "Column Fields, </emph>and<emph> Data Fields </emph>areas.</ahelp> You can "
 "also use drag and drop to rearrange the data fields on a pivot table."
 msgstr ""
-"<ahelp hid=\"HID_SC_DPLAY_SELECT\">Aby zdefiniować układ tabeli Pilota "
-"danych, należy przeciągnąć przyciski pól danych na <emph>Obszar strony, "
-"Obszar wierszy, Obszar kolumn</emph> i <emph>Obszar danych</emph>.</ahelp> "
-"Funkcji przeciągania przycisków można użyć także w celu zmiany pól danych w "
-"tabeli Pilota danych."
+"<ahelp hid=\"HID_SC_DPLAY_SELECT\">Aby zdefiniować układ tabeli przestawnej, "
+"należy przeciągnąć przyciski pól danych na <emph>Obszar strony, Obszar "
+"wierszy, Obszar kolumn</emph> i <emph>Obszar danych</emph>.</ahelp> Funkcji "
+"przeciągania przycisków można użyć także w celu zmiany pól danych w tabeli "
+"przestawnej."
 
 #: 12090102.xhp#par_id3147229.20.help.text
 #: 12090102.xhp%23par_id3147229.20.help.text
@@ -22040,13 +22032,12 @@ msgstr "Wybór od"
 
 #: 12090102.xhp#par_id0509200913025615.help.text
 #: 12090102.xhp%23par_id0509200913025615.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\".\">Select the area that contains the data for the current "
 "pivot table.</ahelp>"
 msgstr ""
 "<ahelp hid=\".\">Wybiera obszar zawierający dane dla bieżącej tabeli "
-"Pilot_danych.</ahelp>"
+"przestawnej.</ahelp>"
 
 #: 12090102.xhp#hd_id3155603.4.help.text
 #: 12090102.xhp%23hd_id3155603.4.help.text
@@ -22055,13 +22046,12 @@ msgstr "Wyniki do"
 
 #: 12090102.xhp#par_id3153838.5.help.text
 #: 12090102.xhp%23par_id3153838.5.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_PIVOT_LAYOUT:ED_OUTAREA\">Select the area "
 "where you want to display the results of the pivot table.</ahelp>"
 msgstr ""
 "<ahelp hid=\"SC:EDIT:RID_SCDLG_PIVOT_LAYOUT:ED_OUTAREA\">Określa obszar, w "
-"którym są wyświetlane wyniki tabeli Pilota danych.</ahelp>"
+"którym są wyświetlane wyniki tabeli przestawnej.</ahelp>"
 
 #: 12090102.xhp#par_id3155961.6.help.text
 #: 12090102.xhp%23par_id3155961.6.help.text
@@ -25414,6 +25404,9 @@ msgid ""
 "type to be shown in the data source.</ahelp> You can choose from four source "
 "types: \"Table\", \"Query\" and \"SQL\" or SQL (Native)."
 msgstr ""
+"<ahelp hid=\"SC:LISTBOX:RID_SCDLG_DAPIDATA:LB_OBJTYPE\">Określa typ źródła "
+"wybranego źródła danych.</ahelp> Do wyboru są cztery typy źródła: \"Tabela\""
+", \"Kwerenda\" i \"SQL\" lub SQL (macierzysty)."
 
 #: 12090101.xhp#hd_id3145364.7.help.text
 #: 12090101.xhp%23hd_id3145364.7.help.text
@@ -25557,7 +25550,7 @@ msgstr ""
 #: 04050000.xhp#hd_id3147350.3.help.text
 #: 04050000.xhp%23hd_id3147350.3.help.text
 msgid "New sheet"
-msgstr ""
+msgstr "Nowy arkusz"
 
 #: 04050000.xhp#par_id3149262.4.help.text
 #: 04050000.xhp%23par_id3149262.4.help.text
@@ -26048,12 +26041,11 @@ msgstr "Grupowanie"
 
 #: 12090400.xhp#par_idN10551.help.text
 #: 12090400.xhp%23par_idN10551.help.text
-#, fuzzy
 msgid ""
 "Grouping pivot tables displays the <emph>Grouping</emph> dialog for either "
 "values or dates."
 msgstr ""
-"Grupowanie tabel Pilota danych powoduje wyświetlenie okna dialogowego "
+"Grupowanie tabel przestawnych powoduje wyświetlenie okna dialogowego "
 "<emph>Grupowanie</emph> dla wartości lub danych."
 
 #: 12090400.xhp#par_idN10568.help.text
@@ -30030,7 +30022,6 @@ msgstr "IPMT(stopa; okres; NPER; PV; FV; typ)"
 
 #: 04060118.xhp#par_id3147313.267.help.text
 #: 04060118.xhp%23par_id3147313.267.help.text
-#, fuzzy
 msgctxt "04060118.xhp#par_id3147313.267.help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
 msgstr "<emph>Stopa</emph> oznacza okresową stopę procentową."
@@ -31451,7 +31442,7 @@ msgstr "Koniec"
 
 #: 02110000.xhp#hd_id3150107.20.help.text
 msgid "Content View"
-msgstr ""
+msgstr "Widok zawartości"
 
 #: 02110000.xhp#par_id3159098.22.help.text
 msgid ""
@@ -33842,9 +33833,8 @@ msgstr ""
 
 #: 04060116.xhp#bm_id3149148.help.text
 #: 04060116.xhp%23bm_id3149148.help.text
-#, fuzzy
 msgid "<bookmark_value>IMCOSH function</bookmark_value>"
-msgstr "<bookmark_value>IMCOS, funkcja</bookmark_value>"
+msgstr "<bookmark_value>COSH.LICZBY.ZESP, funkcja</bookmark_value>"
 
 #: 04060116.xhp#hd_id3149148.help.text
 #: 04060116.xhp%23hd_id3149148.help.text
@@ -33868,9 +33858,8 @@ msgstr "Składnia"
 
 #: 04060116.xhp#par_id3147417.help.text
 #: 04060116.xhp%23par_id3147417.help.text
-#, fuzzy
 msgid "IMCOSH(\"ComplexNumber\")"
-msgstr "IMCOS(liczba_zespolona)"
+msgstr "COSH.LICZBY.ZESP(liczba_zespolona)"
 
 #: 04060116.xhp#hd_id3152982.help.text
 #: 04060116.xhp%23hd_id3152982.help.text
@@ -33880,19 +33869,17 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157903.help.text
 #: 04060116.xhp%23par_id3157903.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCOSH(\"3+4j\") </item>returns "
 "-6.58066304-7.58155274j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca wartość "
+"<item type=\"input\">=COSH.LICZBY.ZESP(\"3+4j\") </item>zwraca wartość "
 "-27,03-3,85i (po zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3149149.help.text
 #: 04060116.xhp%23bm_id3149149.help.text
-#, fuzzy
 msgid "<bookmark_value>IMCOT function</bookmark_value>"
-msgstr "<bookmark_value>IMCOS, funkcja</bookmark_value>"
+msgstr "<bookmark_value>COTAN.LICZBY.ZESP, funkcja</bookmark_value>"
 
 #: 04060116.xhp#hd_id3149149.help.text
 #: 04060116.xhp%23hd_id3149149.help.text
@@ -33901,12 +33888,11 @@ msgstr "COTAN.LICZBY.ZESP"
 
 #: 04060116.xhp#par_id3149728.help.text
 #: 04060116.xhp%23par_id3149728.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_IMCOT\">The result is the cotangent of a complex "
 "number.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_AAI_FUNC_IMCOS\">Wynikiem jest cosinus liczby "
+"<ahelp hid=\"HID_AAI_FUNC_IMCOT\">Wynikiem jest cotangens liczby "
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp#hd_id3159119.help.text
@@ -34018,13 +34004,12 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157905.help.text
 #: 04060116.xhp%23par_id3157905.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCSCH(\"3+4j\") </item>returns "
 "-1.30632891+1.51251400j (rounded). "
 msgstr ""
-"            <item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca wartość "
-"-27,03-3,85i (po zaokrągleniu)."
+"<item type=\"input\">=CSCH.LICZBY.ZESP(\"3+4j\") </item>zwraca wartość "
+"-1.30632891+1.51251400j (po zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3150024.help.text
 #: 04060116.xhp%23bm_id3150024.help.text
@@ -34395,14 +34380,13 @@ msgstr ""
 
 #: 04060116.xhp#bm_id3148430.help.text
 #: 04060116.xhp%23bm_id3148430.help.text
-#, fuzzy
 msgid "<bookmark_value>IMSEC function</bookmark_value>"
-msgstr "<bookmark_value>IMSIN, funkcja</bookmark_value>"
+msgstr "<bookmark_value>SEC.LICZBY.ZESP, funkcja</bookmark_value>"
 
 #: 04060116.xhp#hd_id3148430.help.text
 #: 04060116.xhp%23hd_id3148430.help.text
 msgid "IMSEC"
-msgstr "SEC.LICZBY.ZES"
+msgstr "SEC.LICZBY.ZESP"
 
 #: 04060116.xhp#par_id3152590.help.text
 #: 04060116.xhp%23par_id3152590.help.text
@@ -34570,20 +34554,18 @@ msgstr "IMSIN(liczba_zespolona)"
 
 #: 04060116.xhp#hd_id3150615.help.text
 #: 04060116.xhp%23hd_id3150615.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3150615.help.text"
 msgid "Example"
 msgstr "Przykład"
 
 #: 04060116.xhp#par_id3154312.help.text
 #: 04060116.xhp%23par_id3154312.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMSINH(\"3+4j\")</item> returns "
 "-6.54812004-7.61923172j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMSIN(\"3+4j\")</item> zwraca wartość 3,85+"
-"27,02j (zaokrąglone)."
+"<item type=\"input\">=SINH.LICZBY.ZESP(\"3+4j\")</item> zwraca wartość "
+"-6.54812004-7.61923172j (zaokrąglone)."
 
 #: 04060116.xhp#bm_id3163826.help.text
 #: 04060116.xhp%23bm_id3163826.help.text
@@ -34730,12 +34712,11 @@ msgstr "TAN.LICZBY.ZESP"
 
 #: 04060116.xhp#par_id3149730.help.text
 #: 04060116.xhp%23par_id3149730.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_IMTAN\">The result is the tangent of a complex "
 "number.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_AAI_FUNC_IMSIN\">Wynikiem jest sinus liczby "
+"<ahelp hid=\"HID_AAI_FUNC_IMTAN\">Wynikiem jest tangens liczby "
 "zespolonej.</ahelp>"
 
 #: 04060116.xhp#hd_id3159121.help.text
@@ -34746,26 +34727,23 @@ msgstr "Składnia"
 
 #: 04060116.xhp#par_id3147420.help.text
 #: 04060116.xhp%23par_id3147420.help.text
-#, fuzzy
 msgid "IMTAN(\"ComplexNumber\")"
-msgstr "IMLN(liczba_zespolona)"
+msgstr "TAN.LICZBY.ZESP(liczba_zespolona)"
 
 #: 04060116.xhp#hd_id3152985.help.text
 #: 04060116.xhp%23hd_id3152985.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3152985.help.text"
 msgid "Example"
 msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157906.help.text
 #: 04060116.xhp%23par_id3157906.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMTAN(\"3+4j\") </item>returns -0.00018734+"
 "0.99935599j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMLN(\"1+j\")</item> zwraca wartość 0,35+"
-"0,79j (zaokrąglone)."
+"<item type=\"input\">=TAN.LICZBY.ZESP(\"3+4j\") </item>zwraca wartość "
+"-0.00018734+0.99935599j (zaokrąglone)."
 
 #: 04060116.xhp#bm_id3154054.help.text
 #: 04060116.xhp%23bm_id3154054.help.text
@@ -35315,14 +35293,12 @@ msgstr ""
 
 #: 04060116.xhp#par_id09022809540918.help.text
 #: 04060116.xhp%23par_id09022809540918.help.text
-#, fuzzy
 msgid ""
 "<link href=\"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
 "_CONVERT_ADD_function\">Current list of CONVERT_ADD units in the "
 "OpenOffice.org Wiki.</link>"
 msgstr ""
-"<link href=\""
-"http://wiki.services.openoffice.org/wiki/Documentation/How_Tos/Calc:"
+"<link href=\"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
 "_CONVERT_ADD_function\">Bieżąca lista jednostek funkcji KONWERTUJ_ADD na "
 "stronie Wiki OpenOffice.org.</link>"
 
