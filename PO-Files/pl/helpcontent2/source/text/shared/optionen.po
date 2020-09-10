@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Foptionen.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-09-07 14:09+0000\n"
+"PO-Revision-Date: 2020-09-09 20:21+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1599487770.000000\n"
+"X-POOTLE-MTIME: 1599682911.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -2813,18 +2813,16 @@ msgstr ""
 
 #: improvement.xhp#par_id0526200903594966.help.text
 #: improvement.xhp%23par_id0526200903594966.help.text
-#, fuzzy
 msgid ""
 "The Improvement Program was initiated by the User Experience project to "
 "improve the usability of %PRODUCTNAME. The User Experience project can be "
 "found at the Apache OpenOffice website: <link href=\""
 "https://ux.openoffice.org/\">ux.openoffice.org/</link>."
 msgstr ""
-"Program doskonalenia został uruchomiony przez Projekt analizy pracy "
-"użytkownika i służy zwiększeniu przydatności produktu %PRODUCTNAME. "
-"Informacje o Projekcie analizy pracy użytkownika znajdują się na witrynie "
-"programu OpenOffice.org: <link href=\"http://ux.openoffice.org/\""
-">http://ux.openoffice.org/</link>."
+"Program doskonalenia został uruchomiony przez projekt \"Doświadczenie "
+"Użytkownika\" dla zwiększenia przydatności pakietu %PRODUCTNAME. Informacje "
+"o tym projekcie znajdują się na witrynie Apache OpenOffice: <link href=\""
+"https://ux.openoffice.org/\">ux.openoffice.org/</link>."
 
 #: improvement.xhp#par_id0526200903594946.help.text
 #: improvement.xhp%23par_id0526200903594946.help.text
@@ -4461,7 +4459,7 @@ msgid ""
 "<ahelp hid=\"HID_OPTIONS_COLOR\">Allows you to select a color from a color "
 "table, edit an existing color, or define new colors.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_OPTIONS_COLOR\">Pozwala ci wybrać kolor z tabeli kolorów, "
+"<ahelp hid=\"HID_OPTIONS_COLOR\">Pozwala wybrać kolor z tabeli kolorów, "
 "zmienić istniejący kolor oraz zdefiniować nowy.</ahelp>"
 
 #: 01010500.xhp#hd_id3150767.3.help.text
@@ -7537,7 +7535,6 @@ msgstr "W tym katalogu znajduje się Galeria."
 
 #: 01010300.xhp#par_id3151333.26.help.text
 #: 01010300.xhp%23par_id3151333.26.help.text
-#, fuzzy
 msgid "Graphics"
 msgstr "Grafiki"
 
@@ -12823,7 +12820,7 @@ msgid ""
 "Cell borders and shadows are always shown in text color when high contrast "
 "mode is active. The cell background color is ignored then."
 msgstr ""
-"Gdy wysoki kontrast zostanie włączony obramowania i cienie komórek będą w "
+"Gdy wysoki kontrast zostanie włączony, obramowania i cienie komórek będą w "
 "kolorze tekstu. Kolor tła komórki zostanie zignorowany."
 
 #: 01013000.xhp#hd_id3155132.29.help.text
@@ -13425,7 +13422,7 @@ msgstr ""
 #: 01010200.xhp#hd_id3164920.77.help.text
 #: 01010200.xhp%23hd_id3164920.77.help.text
 msgid "File encryption algorithm for ODF 1.2 format"
-msgstr ""
+msgstr "Algorytm szyfrowania plików dla formatu ODF 1.2"
 
 #: 01010200.xhp#par_id3160488.78.help.text
 #: 01010200.xhp%23par_id3160488.78.help.text
@@ -13438,6 +13435,13 @@ msgid ""
 "with older office versions. The AES-256 algorithm is more secure than "
 "blowfish."
 msgstr ""
+"<ahelp hid=\"SVX_CHECKBOX_RID_SFXPAGE_SAVE_BTN_ODFENCRYPTION\">Gdy używany "
+"jest ODF 1.2, zmienia domyślne szyfrowanie plików z Blowfish na "
+"AES-256.</ahelp> Domyślnym algorytmem szyfrowania plików jest Blowfish, ale "
+"w przypadku ODF 1.2 użytkownik może zmienić go na AES-256. Starsze "
+"zaszyfrowane dokumenty nadal można otwierać, lecz nowych zaszyfrowanych "
+"dokumentów nie można otworzyć w starszych wersjach Office. Algorytm AES-256 "
+"jest bezpieczniejszy niż Blowfish."
 
 #: 01010200.xhp#hd_id3154920.77.help.text
 #: 01010200.xhp%23hd_id3154920.77.help.text
@@ -15252,6 +15256,9 @@ msgid ""
 "document is exported as well.</ahelp> It can be read by $[officename], "
 "Netscape Navigator, and MS Internet Explorer."
 msgstr ""
+"<ahelp hid=\".\">Jeżeli zaznaczysz to pole, układ wydruku bieżącego "
+"dokumentu jest również eksportowany.</ahelp> Może być odczytany przez "
+"$[officename], Netscape Navigator i MS Internet Explorer."
 
 #: 01030500.xhp#par_id3156276.41.help.text
 #: 01030500.xhp%23par_id3156276.41.help.text
@@ -15459,11 +15466,14 @@ msgid ""
 "Green, and Blue color value in the RGB color model, using a hexadecimal "
 "format RRGGBB.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Hex\">Określa wartość koloru "
+"Czerwony, Zielony i Niebieski w modelu kolorów RGB, w formacie szesnastkowym "
+"RRGGBB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778809.3.help.text
 #: 01010501.xhp%23hd_id5566778809.3.help.text
 msgid "HSB"
-msgstr ""
+msgstr "HSB"
 
 #: 01010501.xhp#par_id5566778809.help.text
 #: 01010501.xhp%23par_id5566778809.help.text
@@ -15481,6 +15491,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Hue\">Sets the Hue in "
 "the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Hue\">Określa wartość odcienia (H) "
+"w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778811.3.help.text
 #: 01010501.xhp%23hd_id5566778811.3.help.text
@@ -15493,6 +15505,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Saturation\">Sets the "
 "Saturation in the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Saturation\">Określa wartość "
+"nasycenia (S) w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778812.3.help.text
 #: 01010501.xhp%23hd_id5566778812.3.help.text
@@ -15505,6 +15519,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Brightness\">Sets the "
 "Brightness in the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Brightness\">Określa wartość "
+"jasności (B) w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778813.3.help.text
 #: 01010501.xhp%23hd_id5566778813.3.help.text
