@@ -7,7 +7,7 @@ msgstr ""
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Fexplorer%2Fdatabase.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-09-10 07:09+0000\n"
+"PO-Revision-Date: 2020-09-14 09:14+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1599721796.000000\n"
+"X-POOTLE-MTIME: 1600074847.000000\n"
 
 #: menufile.xhp#tit.help.text
 #: menufile.xhp%23tit.help.text
@@ -9092,7 +9092,7 @@ msgid ""
 "In a database window, choose <emph>Edit - Database - Advanced Settings</emph>"
 "         "
 msgstr ""
-"W oknie bazy danych wybierz polecenie <emph>Edycja – Baza danych – "
+"W oknie bazy danych wybierz polecenie <emph>Edycja - Baza danych - "
 "Ustawienia zaawansowane</emph>         "
 
 #: dabaadvpropdat.xhp#par_id4572283.help.text
@@ -9240,9 +9240,9 @@ msgid ""
 msgstr ""
 "Niektóre bazy danych przypisują polom numery wersji, dzięki którym można "
 "śledzić zmiany wprowadzane w rekordach. Numer wersji jest polem, którego "
-"wartość jest zwiększana o jeden z każdą wprowadzoną w zawartości pola. <"
-"ahelp hid=\"HID_DSADMIN_SUPPRESS_VERSIONCL\">Wyświetla wewnętrzny numer "
-"wersji rekordu zapisany w tabeli bazy danych.</ahelp>"
+"wartość jest zwiększana o jeden z każdą zmianą zawartości pola. <ahelp hid=\""
+"HID_DSADMIN_SUPPRESS_VERSIONCL\">Wyświetla wewnętrzny numer wersji rekordu "
+"zapisany w tabeli bazy danych.</ahelp>"
 
 #: dabaadvpropdat.xhp#par_idN105FA.help.text
 #: dabaadvpropdat.xhp%23par_idN105FA.help.text
@@ -9391,6 +9391,10 @@ msgid ""
 "supports primary keys. None of those APIs has dedicated support to retrieve "
 "this information."
 msgstr ""
+"Podczas łączenia się z bazą danych przy pomocy ogólnych API takich jak ODBC, "
+"JDBC lub ADO, Base stosuje obecnie heurystyki do określenia, czy baza danych "
+"obsługuje klucze główne. Żaden z tych interfejsów API nie ma dedykowanego "
+"wsparcia dla pobierania takiej informacji."
 
 #: dabaadvpropdat.xhp#par_id66841632.help.text
 #: dabaadvpropdat.xhp%23par_id66841632.help.text
@@ -9400,6 +9404,11 @@ msgid ""
 "check box is enabled, primary key support is assumed. If the check box is "
 "disabled, no primary key support is assumed."
 msgstr ""
+"Heurystyka czasem kończy się niepowodzeniem. To trzystanowe pole wyboru "
+"domyślnie ustawione jest na stan nieokreślony, co oznacza \"stosowanie "
+"heurystyki\". Jeżeli pole jest zaznaczone, zakłada się wsparcie klucza "
+"głównego. Jeżeli pole wyboru jest wyłączone, nie zakłada się wsparcia dla "
+"klucza głównego."
 
 #: dabaadvpropdat.xhp#par_id66841633.help.text
 #: dabaadvpropdat.xhp%23par_id66841633.help.text
@@ -9408,6 +9417,9 @@ msgid ""
 "enable the check box for a database which actually does not support primary "
 "keys, you will see some errors."
 msgstr ""
+"Zauważ, iż ta opcja jest tylko dla uchylenia heurystyki. Po włączeniu pola "
+"wyboru bazy danych, która faktycznie nie obsługuje kluczy głównych, pojawi "
+"się kilka błędów."
 
 #: querywizard01.xhp#tit.help.text
 #: querywizard01.xhp%23tit.help.text
@@ -9740,6 +9752,8 @@ msgid ""
 "<bookmark_value>Report Builder</bookmark_value><bookmark_value>Apache "
 "OpenOffice Report Builder</bookmark_value>"
 msgstr ""
+"<bookmark_value>Report Builder</bookmark_value><bookmark_value>Apache "
+"OpenOffice Report Builder</bookmark_value>"
 
 #: rep_main.xhp#hd_id8773155.help.text
 #: rep_main.xhp%23hd_id8773155.help.text
