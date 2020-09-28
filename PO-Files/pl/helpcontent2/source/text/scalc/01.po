@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-09-24 17:08+0000\n"
+"PO-Revision-Date: 2020-09-27 09:52+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1600967298.000000\n"
+"X-POOTLE-MTIME: 1601200322.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -20773,7 +20773,7 @@ msgstr "Składnia"
 #: 04060184.xhp#par_id3149734K1.help.text
 #: 04060184.xhp%23par_id3149734K1.help.text
 msgid "AVERAGEIF( Reference R ; Criterion C [ ; Reference A ] )"
-msgstr ""
+msgstr "ŚREDNIA.JEŻELI(odwołanie R; kryterium C [ ; odwołanie A ])"
 
 #: 04060184.xhp#par_id3155260K1.help.text
 #: 04060184.xhp%23par_id3155260K1.help.text
@@ -20784,6 +20784,11 @@ msgid ""
 "reference A and applying the dimensions, shape and size, of reference R.  "
 "Does not accept constant values as reference parameters."
 msgstr ""
+"Jeśli odwołanie A zostało pominięte, uśrednia wartość komórek w "
+"referencyjnym zakresie R, które spełniają kryterium C. Jeśli odwołanie A "
+"zostało podane, uśrednia wartość komórek z zakresu utworzonego z lewej "
+"górnej komórki odwołania A i na podstawie wymiarów, kształtu i wielkości "
+"odwołania R. Nie przyjmuje wartości stałych jako parametrów odwołania."
 
 #: 04060184.xhp#par_id3145139K1.help.text
 #: 04060184.xhp%23par_id3145139K1.help.text
@@ -20791,6 +20796,8 @@ msgid ""
 "If no cell in range R matches the Criterion C, an Error is returned. If no "
 "Numbers are in the range to be averaged, an Error is returned."
 msgstr ""
+"Jeśli żadna komórka w zakresie R nie spełnia kryterium C, zwracany jest "
+"błąd. Jeśli w zakresie do uśrednienia nie ma liczb, zwracany jest błąd."
 
 #: 04060184.xhp#hd_id3149504K1.162.help.text
 #: 04060184.xhp%23hd_id3149504K1.162.help.text
@@ -20838,6 +20845,8 @@ msgid ""
 "AVERAGEIFS( Reference A ; Reference R1 ; Criterion C1 [ ; Reference R2 ; "
 "Criterion C2 ]... )"
 msgstr ""
+"ŚREDNIA.WARUNKÓW(odwołanie A; odwołanie R1 ; kryterium C1 [ ; odwołanie R2 ; "
+"kryterium C2 ]... )"
 
 #: 04060184.xhp#par_id3155260K2.help.text
 #: 04060184.xhp%23par_id3155260K2.help.text
@@ -20846,6 +20855,9 @@ msgid ""
 "Criterion C1 in the reference range R1 and the Criterion C2 in the reference "
 "range R2, and so on."
 msgstr ""
+"Uśrednia wartość komórek w referencyjnym zakresie A, które spełniają "
+"kryterium C1 w referencyjnym zakresie R1 oraz kryterium C2 w referencyjnym "
+"zakresie R2 i tak dalej."
 
 #: 04060184.xhp#par_id3145139K2.help.text
 #: 04060184.xhp%23par_id3145139K2.help.text
@@ -20856,6 +20868,12 @@ msgid ""
 "position in each array is the result of a Criterion match. If no numbers are "
 "in the result set to be averaged, an Error is returned."
 msgstr ""
+"Wszystkie referencyjne zakresy muszą mieć ten sam wymiar i wielkość, w "
+"przeciwnym razie zwracany jest błąd. Logiczne I jest używane pomiędzy każdą "
+"macierzą wynikową każdego wyboru; komórka referencyjnego zakresu A jest "
+"wartościowana wyłącznie wówczas, gdy ta sama pozycja w każdej macierzy jest "
+"rezultatem spełnienia kryterium. Jeśli w zbiorze wynikowym do uśrednienia "
+"nie ma liczb, zwracany jest błąd."
 
 #: 04060184.xhp#hd_id3149504K2.162.help.text
 #: 04060184.xhp%23hd_id3149504K2.162.help.text
@@ -33825,13 +33843,12 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157901.79.help.text
 #: 04060116.xhp%23par_id3157901.79.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCOS(\"3+4j\") </item>returns -27.03-"
 "3.85j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca wartość "
-"-27,03-3,85i (po zaokrągleniu)."
+"<item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca -27.03-3.85j (po "
+"zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3149148.help.text
 #: 04060116.xhp%23bm_id3149148.help.text
@@ -36484,6 +36501,9 @@ msgid ""
 "if the result of this addition is 1;FALSE is returned if the result of this "
 "addition is 0."
 msgstr ""
+"<emph>wartość_1; wartość_2 ...wartość_30</emph> są dodawane modulo 2. PRAWDA "
+"jest zwracana, jeśli wynikiem dodawania jest 1; FAŁSZ jest zwracany, jeśli "
+"wynikiem dodawania jest 0."
 
 #: 04060105.xhp#hd_id3153228K.help.text
 #: 04060105.xhp%23hd_id3153228K.help.text
@@ -39903,6 +39923,8 @@ msgid ""
 "SUMIFS( Reference R ; Reference R1 ; Criterion C1 [ ; Reference R2 ; "
 "Criterion C2 ]... )"
 msgstr ""
+"SUMA.WARUNKÓW(odwołanie R ; odwołanie R1 ; kryterium C1 [ ; odwołanie R2 ; "
+"kryterium C2 ]...)"
 
 #: 04060106.xhp#par_id3152043K.help.text
 #: 04060106.xhp%23par_id3152043K.help.text
@@ -39911,6 +39933,9 @@ msgid ""
 "reference range R1, and the Criterion C2 in the reference range R2, and so "
 "on. "
 msgstr ""
+"Sumuje wartość komórek w referencyjnym zakresie R, które spełniają kryterium "
+"C1 w referencyjnym zakresie R1 oraz kryterium C2 w referencyjnym zakresie R2 "
+"i tak dalej."
 
 #: 04060106.xhp#par_id3152062K.help.text
 #: 04060106.xhp%23par_id3152062K.help.text
@@ -39919,6 +39944,8 @@ msgid ""
 "criterion is written into the formula, it has to be surrounded by double "
 "quotes."
 msgstr ""
+"<emph>Kryterium</emph> może być pojedyńczą referencyjną komórką, liczbą lub "
+"tekstem. Jeśli kryterium jest wpisane w formule, musi być ujęte w cudzysłów."
 
 #: 04060106.xhp#par_id3152083K.help.text
 #: 04060106.xhp%23par_id3152083K.help.text
@@ -39926,6 +39953,8 @@ msgid ""
 "All <emph>Reference</emph> ranges shall have the same dimension and size, "
 "else an Error is returned."
 msgstr ""
+"Wszystkie <emph>referencyjne</emph> zakresy powinny mieć ten sam wymiar i "
+"wielkość, w przeciwnym razie zwracany jest błąd."
 
 #: 04060106.xhp#hd_id3152110K.443.help.text
 #: 04060106.xhp%23hd_id3152110K.443.help.text
@@ -39949,7 +39978,7 @@ msgid ""
 "See COUNTIFS() for some more syntax examples that can be used with SUMIFS()."
 msgstr ""
 "Aby zapoznać się z innymi przykładami składni, które mogą być wykorzystywane "
-"z funkcją SUMA.JEŻELI(), patrz funkcja LICZ.JEŻELI()."
+"z funkcją SUMA.WARUNKÓW(), patrz funkcja LICZ.WARUNKI()."
 
 #: 04060106.xhp#bm_id3152195.help.text
 #: 04060106.xhp%23bm_id3152195.help.text
@@ -41182,14 +41211,14 @@ msgid ""
 "<bookmark_value>COUNTIFS function</bookmark_value><bookmark_value>counting;"
 "specified cells</bookmark_value>"
 msgstr ""
-"<bookmark_value>LICZ.JEŻELI, "
+"<bookmark_value>LICZ.WARUNKI, "
 "funkcja</bookmark_value><bookmark_value>liczenie;określone "
 "komórki</bookmark_value>"
 
 #: 04060106.xhp#hd_id3164897K.help.text
 #: 04060106.xhp%23hd_id3164897K.help.text
 msgid "COUNTIFS"
-msgstr "LICZ.JEŻELI"
+msgstr "LICZ.WARUNKI"
 
 #: 04060106.xhp#par_id3164926K.help.text
 #: 04060106.xhp%23par_id3164926K.help.text
@@ -41211,6 +41240,8 @@ msgstr "Składnia"
 msgid ""
 "COUNTIFS( Reference R1 ; Criterion C1 [ ; Reference R2 ; Criterion C2 ]... )"
 msgstr ""
+"LICZ.WARUNKI( odwołanie R1 ; kryterium C1 [ ; odwołanie R2 ; kryterium C2 ]"
+"... )"
 
 #: 04060106.xhp#par_id3164980K.help.text
 #: 04060106.xhp%23par_id3164980K.help.text
@@ -41219,10 +41250,12 @@ msgid ""
 "C1</emph>applies. <emph>Reference R2</emph> is the  range to which the <emph>"
 "Criterion C2</emph>applies, and so on."
 msgstr ""
+"<emph>odwołanie R1</emph> jest zakresem, do którego stosuje się <emph>"
+"kryterium C1</emph>. <emph>odwołanie R2</emph> jest zakresem, do którego "
+"stosuje się <emph>kryterium C2</emph>, i tak dalej."
 
 #: 04060106.xhp#par_id3165000K.help.text
 #: 04060106.xhp%23par_id3165000K.help.text
-#, fuzzy
 msgid ""
 "All <emph>Reference </emph> ranges shall have the same dimension and size, "
 "else an Error is returned. <emph>Criteria</emph> indicates the criteria in "
@@ -41232,14 +41265,14 @@ msgid ""
 "may also indicate a cell range that contains the search criterion. If you "
 "search for literal text, enclose the text in double quotes."
 msgstr ""
-"<emph>Kryteria</emph> oznaczają kryteria wyszukiwania w postaci liczby, "
-"wyrażenia lub ciągu znaków. Kryteria określają komórki, które mają być "
-"uwzględnione w obliczeniach. Funkcja pozwala także na wprowadzenie "
-"poszukiwanego tekstu w formie wyrażenia regularnego, np. wprowadzenie ciągu "
-"\"b*\" pozwala na wyszukanie wszystkich słów rozpoczynających się na literę "
-"b. Można także wskazać zakres komórek zawierający kryteria wyszukiwania. W "
-"celu wyszukania tekstu w dokładnie podanym brzmieniu należy ująć go w "
-"cudzysłów."
+"Wszystkie <emph>referencyjne</emph> zakresy powinny mieć ten sam wymiar i "
+"wielkość, w przeciwnym razie zwracany jest błąd. <emph>Kryteria</emph> "
+"oznaczają kryteria w postaci liczby, wyrażenia lub ciągu znaków. Te kryteria "
+"określają, które komórki są liczone. Funkcja pozwala także na wprowadzenie "
+"poszukiwanego tekstu w formie wyrażenia regularnego, np. b.* dla wszystkich "
+"słów rozpoczynających się na literę b. Można także wskazać zakres komórek, "
+"który zawiera kryterium wyszukiwania. W celu wyszukania tekstu w dosłownym "
+"brzmieniu należy ująć go w cudzysłów."
 
 #: 04060106.xhp#hd_id3165037K.553.help.text
 #: 04060106.xhp%23hd_id3165037K.553.help.text
@@ -43878,14 +43911,14 @@ msgstr "Przykład"
 
 #: 04060119.xhp#par_id3154800.308.help.text
 #: 04060119.xhp%23par_id3154800.308.help.text
-#, fuzzy
 msgid ""
 "What is the net present value of periodic payments of 10, 20 and 30 currency "
 "units with a discount rate of 8.75%. At time zero the costs were paid as -40 "
 "currency units."
 msgstr ""
-"Ile wynosi wartość bieżąca netto dla płatności okresowych równych 345, 276 i "
-"-145 jednostek walutowych przy stopie dyskontowej równej 8,75%?"
+"Ile wynosi wartość bieżąca netto dla płatności okresowych równych 10, 20 i "
+"30 jednostek walutowych przy stopie dyskontowej równej 8,75%? W chwili zero, "
+"koszty wyniosły -40 jednostek walutowych."
 
 #: 04060119.xhp#par_id3143270.309.help.text
 #: 04060119.xhp%23par_id3143270.309.help.text
@@ -43894,8 +43927,9 @@ msgid ""
 "net present value is the returned value minus the initial costs of 40 "
 "currency units, therefore 9.43 currency units."
 msgstr ""
-"NPV(8,75%; 345; 276; -145) = 437,87 jednostek walutowych. Bieżąca wartość "
-"netto wynosi 437,87 jednostek walutowych."
+"<item type=\"input\">=NPV(8,75%;10;20;30)</item> = 49,43 jednostek "
+"walutowych. Bieżąca wartość netto czyli wartość zwracana minus koszty "
+"początkowe (40 jednostek walutowych) wynosi 9,43 jednostek walutowych."
 
 #: 04060119.xhp#bm_id3149484.help.text
 #: 04060119.xhp%23bm_id3149484.help.text
