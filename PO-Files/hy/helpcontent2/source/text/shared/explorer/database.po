@@ -7,7 +7,7 @@ msgstr ""
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Fexplorer%2Fdatabase.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-10-08 08:53+0000\n"
+"PO-Revision-Date: 2020-10-09 18:07+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1602147203.000000\n"
+"X-POOTLE-MTIME: 1602266867.000000\n"
 
 #: menufile.xhp#tit.help.text
 #: menufile.xhp%23tit.help.text
@@ -3195,6 +3195,10 @@ msgid ""
 "function to run in the query here.</ahelp> The functions you can run here "
 "depend on the database. "
 msgstr ""
+"<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\" visibility=\"hidden\">Ընտրեք "
+"գործառույթը՝ այստեղ հարցման մեջ գործարկելու համար:</ahelp> Այն "
+"գործառույթները, որոնք կարող եք գործարկել այստեղ, կախված են տվյալների "
+"շտեմարանից: "
 
 #: 02010100.xhp#par_id8760818.help.text
 #: 02010100.xhp%23par_id8760818.help.text
@@ -3202,57 +3206,59 @@ msgid ""
 "If you are working with the HSQL database, the list box in the "
 "<emph>Function</emph> row offers you the following options:"
 msgstr ""
+"Եթե աշխատում եք HSQL շտեմարանի հետ, <emph>Գործառույթ</emph> տողի ցուցակի "
+"վանդակը ձեզ առաջարկում է հետևյալ ընտրանքները."
 
 #: 02010100.xhp#par_id3150307.179.help.text
 #: 02010100.xhp%23par_id3150307.179.help.text
 msgid "Option"
-msgstr ""
+msgstr "Ընտրանք"
 
 #: 02010100.xhp#par_id3166430.180.help.text
 #: 02010100.xhp%23par_id3166430.180.help.text
 msgctxt "02010100.xhp#par_id3166430.180.help.text"
 msgid "SQL"
-msgstr ""
+msgstr "SQL"
 
 #: 02010100.xhp#par_id3152993.181.help.text
 #: 02010100.xhp%23par_id3152993.181.help.text
 msgid "Effect"
-msgstr ""
+msgstr "Ազդեցություն"
 
 #: 02010100.xhp#par_id3155377.162.help.text
 #: 02010100.xhp%23par_id3155377.162.help.text
 msgid "No function"
-msgstr ""
+msgstr "Չկա գործառույթ"
 
 #: 02010100.xhp#par_id3155533.163.help.text
 #: 02010100.xhp%23par_id3155533.163.help.text
 msgid "No function will be executed."
-msgstr ""
+msgstr "Չկա գործառույթը կկատարվի"
 
 #: 02010100.xhp#par_id3166420.164.help.text
 #: 02010100.xhp%23par_id3166420.164.help.text
 msgid "Average"
-msgstr ""
+msgstr "Միջին"
 
 #: 02010100.xhp#par_id3145268.183.help.text
 #: 02010100.xhp%23par_id3145268.183.help.text
 msgid "AVG"
-msgstr ""
+msgstr "AVG"
 
 #: 02010100.xhp#par_id3154486.165.help.text
 #: 02010100.xhp%23par_id3154486.165.help.text
 msgid "Calculates the arithmetic mean of a field."
-msgstr ""
+msgstr "Հաշվում է դաշտի թվաբանական միջինը:"
 
 #: 02010100.xhp#par_id3149979.166.help.text
 #: 02010100.xhp%23par_id3149979.166.help.text
 msgid "Count"
-msgstr ""
+msgstr "Count"
 
 #: 02010100.xhp#par_id3154260.184.help.text
 #: 02010100.xhp%23par_id3154260.184.help.text
 msgid "COUNT"
-msgstr ""
+msgstr "COUNT"
 
 #: 02010100.xhp#par_id3155810.167.help.text
 #: 02010100.xhp%23par_id3155810.167.help.text
@@ -3260,6 +3266,8 @@ msgid ""
 "Determines the number of records in the table. Empty fields can either be "
 "counted (a) or not (b)."
 msgstr ""
+"Որոշում է աղյուսակում գրառումների քանակը: Դատարկ դաշտերը կամ կարելի է հաշվել "
+"(a), կամ ոչ (b):"
 
 #: 02010100.xhp#par_id3151333.197.help.text
 #: 02010100.xhp%23par_id3151333.197.help.text
@@ -3267,6 +3275,8 @@ msgid ""
 "a) COUNT(*): Passing an asterisk as the argument counts all records in the "
 "table."
 msgstr ""
+"a) COUNT(*): Աստղանիշի փոխանցումը որպես փաստարկ հաշվում է աղյուսակի բոլոր "
+"գրառումները:"
 
 #: 02010100.xhp#par_id3152889.198.help.text
 #: 02010100.xhp%23par_id3152889.198.help.text
@@ -3275,61 +3285,64 @@ msgid ""
 "which the field name in question contains a value. Null values (empty fields)"
 " will not be counted."
 msgstr ""
+"b) COUNT(column): Դաշտի անունը որպես փաստարկ փոխանցելը հաշվում է միայն այն "
+"դաշտերը, որոնցում հարցականով դաշտի անունը պարունակում է արժեք: Null "
+"արժեքները (դատարկ դաշտերը) չեն հաշվվի:"
 
 #: 02010100.xhp#par_id3153067.168.help.text
 #: 02010100.xhp%23par_id3153067.168.help.text
 msgid "Maximum"
-msgstr ""
+msgstr "Առավելագույն"
 
 #: 02010100.xhp#par_id3148840.185.help.text
 #: 02010100.xhp%23par_id3148840.185.help.text
 msgid "MAX"
-msgstr ""
+msgstr "MAX"
 
 #: 02010100.xhp#par_id3159221.169.help.text
 #: 02010100.xhp%23par_id3159221.169.help.text
 msgid "Determines the highest value of a field."
-msgstr ""
+msgstr "Որոշում է դաշտի ամենաբարձր արժեքը:"
 
 #: 02010100.xhp#par_id3146866.170.help.text
 #: 02010100.xhp%23par_id3146866.170.help.text
 msgid "Minimum"
-msgstr ""
+msgstr "Նվազագույն"
 
 #: 02010100.xhp#par_id3148604.186.help.text
 #: 02010100.xhp%23par_id3148604.186.help.text
 msgid "MIN"
-msgstr ""
+msgstr "MIN"
 
 #: 02010100.xhp#par_id3157982.171.help.text
 #: 02010100.xhp%23par_id3157982.171.help.text
 msgid "Determines the lowest value of a field."
-msgstr ""
+msgstr "Որոշում է դաշտի ամենացածր արժեքը:"
 
 #: 02010100.xhp#par_id3154828.172.help.text
 #: 02010100.xhp%23par_id3154828.172.help.text
 msgid "Sum"
-msgstr ""
+msgstr "Գումար"
 
 #: 02010100.xhp#par_id3147070.187.help.text
 #: 02010100.xhp%23par_id3147070.187.help.text
 msgid "SUM"
-msgstr ""
+msgstr "SUM"
 
 #: 02010100.xhp#par_id3154536.173.help.text
 #: 02010100.xhp%23par_id3154536.173.help.text
 msgid "Calculates the sum of values of associated fields."
-msgstr ""
+msgstr "Հաշվում է կապված դաշտերի արժեքների հանրագումարը:"
 
 #: 02010100.xhp#par_id3148820.174.help.text
 #: 02010100.xhp%23par_id3148820.174.help.text
 msgid "Group"
-msgstr ""
+msgstr "Խումբ"
 
 #: 02010100.xhp#par_id3145375.188.help.text
 #: 02010100.xhp%23par_id3145375.188.help.text
 msgid "GROUP BY"
-msgstr ""
+msgstr "GROUP BY"
 
 #: 02010100.xhp#par_id3149438.175.help.text
 #: 02010100.xhp%23par_id3149438.175.help.text
@@ -3339,6 +3352,10 @@ msgid ""
 "to the GROUP BY clause. If a criterion is added, this entry appears in the "
 "SQL HAVING."
 msgstr ""
+"Խմբավորում է հարցումների տվյալները ըստ ընտրված դաշտի անվան: Գործառույթները "
+"կատարվում են ըստ նշված խմբերի: SQL -ում այս տարբերակը համապատասխանում է "
+"GROUP BY կետին: Եթե չափանիշ է ավելացվել, այս գրառումը հայտնվում է SQL HAVING "
+"-ում:"
 
 #: 02010100.xhp#par_id3156038.189.help.text
 #: 02010100.xhp%23par_id3156038.189.help.text
@@ -3346,21 +3363,24 @@ msgid ""
 "You can also enter function calls directly into the SQL statement. The "
 "syntax is:"
 msgstr ""
+"Կարող եք նաև մուտքագրել գործառույթի կանչերը անմիջապես SQL հայտարարության մեջ:"
+" Շարահյուսությունն է."
 
 #: 02010100.xhp#par_id3156340.190.help.text
 #: 02010100.xhp%23par_id3156340.190.help.text
 msgid "SELECT FUNCTION(column) FROM table."
-msgstr ""
+msgstr "SELECT FUNCTION(column) FROM table."
 
 #: 02010100.xhp#par_id3155075.191.help.text
 #: 02010100.xhp%23par_id3155075.191.help.text
 msgid "For example, the function call in SQL for calculating a sum is:"
 msgstr ""
+"Օրինակ, SQL -ում գործառույթի կանչը գումարը հաշվարկելու համար հետևյալն է."
 
 #: 02010100.xhp#par_id3154591.192.help.text
 #: 02010100.xhp%23par_id3154591.192.help.text
 msgid "SELECT SUM(\"Price\") FROM \"Article\"."
-msgstr ""
+msgstr "SELECT SUM(\"Price\") FROM \"Article\"."
 
 #: 02010100.xhp#par_id3159205.176.help.text
 #: 02010100.xhp%23par_id3159205.176.help.text
@@ -3371,6 +3391,12 @@ msgid ""
 "in the list box might be also possible. These depend on the specific "
 "database system in use and on the current state of the Base driver."
 msgstr ""
+"Բացառությամբ <emph>Խումբ</emph> գործառույթի, վերոհիշյալ գործառույթներն "
+"այսպես կոչված համախառն գործառույթներ են: Սրանք գործառույթներ են, որոնք "
+"հաշվարկում են տվյալները՝ արդյունքներից ամփոփագրեր ստեղծելու համար: Հնարավոր "
+"են նաև լրացուցիչ գործառույթներ, որոնք նշված չեն ցուցակի վանդակում: Դրանք "
+"կախված են օգտագործվող տվյալների շտեմարանի հատուկ համակարգից և Base -ի "
+"վարորդի ներկա վիճակից:"
 
 #: 02010100.xhp#par_id3148651.177.help.text
 #: 02010100.xhp%23par_id3148651.177.help.text
@@ -3378,6 +3404,8 @@ msgid ""
 "To use other functions not listed in the list box, you must enter them under "
 "<emph>Field</emph>."
 msgstr ""
+"Ցանկի վանդակում չնշված այլ գործառույթներ օգտագործելու համար անհրաժեշտ է "
+"մուտքագրել դրանք <emph>Դաշտի</emph> ներքո:"
 
 #: 02010100.xhp#par_id3155098.178.help.text
 #: 02010100.xhp%23par_id3155098.178.help.text
@@ -3386,27 +3414,30 @@ msgid ""
 "displayed in the column header, enter the desired name under "
 "<emph>Alias</emph>."
 msgstr ""
+"Գործառույթի կանչերին կարող եք նաև կեղծանուններ նշանակել: Եթե հարցումը չպետք "
+"է ցուցադրվի սյունակի վերնագրում, մուտքագրեք ցանկալի անունը "
+"<emph>Կեղծանունի</emph> ներքո:"
 
 #: 02010100.xhp#par_id3155539.199.help.text
 #: 02010100.xhp%23par_id3155539.199.help.text
 msgid "The corresponding function in an SQL statement is:"
-msgstr ""
+msgstr "SQL հայտարարության մեջ համապատասխան գործառույթն է."
 
 #: 02010100.xhp#par_id3149425.200.help.text
 #: 02010100.xhp%23par_id3149425.200.help.text
 msgid "SELECT FUNCTION() AS alias FROM table"
-msgstr ""
+msgstr "SELECT FUNCTION() AS alias FROM table"
 
 #: 02010100.xhp#par_id3144431.201.help.text
 #: 02010100.xhp%23par_id3144431.201.help.text
 msgctxt "02010100.xhp#par_id3144431.201.help.text"
 msgid "Example:"
-msgstr ""
+msgstr "Օրինակ:"
 
 #: 02010100.xhp#par_id3154614.202.help.text
 #: 02010100.xhp%23par_id3154614.202.help.text
 msgid "SELECT COUNT(*) AS count FROM \"Item\""
-msgstr ""
+msgstr "SELECT COUNT(*) AS count FROM \"Item\""
 
 #: 02010100.xhp#par_id3154610.203.help.text
 #: 02010100.xhp%23par_id3154610.203.help.text
@@ -3414,11 +3445,13 @@ msgid ""
 "If you run this function, you cannot insert any additional columns for the "
 "query other than receiving these columns as a \"Group\" function."
 msgstr ""
+"Եթե այս գործառույթն կատարում եք, չեք կարող որևէ լրացուցիչ սյունակ տեղադրել "
+"հարցման համար, բացի այդ սյունակները որպես «Խումբ» գործառույթ ստանալուց:"
 
 #: 02010100.xhp#par_id3154644.204.help.text
 #: 02010100.xhp%23par_id3154644.204.help.text
 msgid "<emph>Examples</emph>"
-msgstr ""
+msgstr "<emph>Օրինակներ</emph>"
 
 #: 02010100.xhp#par_id3151120.205.help.text
 #: 02010100.xhp%23par_id3151120.205.help.text
@@ -3428,6 +3461,10 @@ msgid ""
 "Supplier_Name\" field. In addition, both tables have a common field name \""
 "Supplier_No.\""
 msgstr ""
+"Հետևյալ օրինակում հարցումը կատարվում է երկու աղյուսակի միջոցով: \"Item\" "
+"աղյուսակ \"Item_No\" դաշտով և \"Suppliers\" աղյուսակ \"Supplier_Name\" "
+"դաշտով։ Բացի այդ, երկու աղյուսակներն էլ ունեն դաշտի ընդհանուր անուն \""
+"Supplier_No.\""
 
 #: 02010100.xhp#par_id3155144.206.help.text
 #: 02010100.xhp%23par_id3155144.206.help.text
@@ -3435,11 +3472,13 @@ msgid ""
 "The following steps are required to create a query containing all suppliers "
 "who deliver more than three items."
 msgstr ""
+"Հետևյալ քայլերը պահանջվում են հարցում ստեղծելու համար, որը պարունակում է "
+"բոլոր մատակարարներին, ովքեր առաքում են ավելի քան երեք ապրանք:"
 
 #: 02010100.xhp#par_id3153240.207.help.text
 #: 02010100.xhp%23par_id3153240.207.help.text
 msgid "Insert the \"Item\" and \"Suppliers\" tables into the query design."
-msgstr ""
+msgstr "Տեղադրեք \"Item\" և \"Suppliers\" աղյուսակները հարցման ձևավորման մեջ:"
 
 #: 02010100.xhp#par_id3148807.208.help.text
 #: 02010100.xhp%23par_id3148807.208.help.text
@@ -3447,6 +3486,8 @@ msgid ""
 "Link the \"Supplier_No\" fields of the two tables if there is not already a "
 "relation of this type."
 msgstr ""
+"Կապեք \"Supplier_No\" երկու աղյուսակների դաշտերը, եթե այս տեսակի "
+"հարաբերակցություն արդեն չկա:"
 
 #: 02010100.xhp#par_id3161652.209.help.text
 #: 02010100.xhp%23par_id3161652.209.help.text
@@ -3455,11 +3496,14 @@ msgid ""
 "<emph>Function</emph> line using the context menu and select the Count "
 "function."
 msgstr ""
+"Կրկնակի կտտացրեք \"Item_No\" դաշտը \"Item\" աղյուսակից։ Արտածեք "
+"<emph>Գործառույթ</emph> տողը օգտագործելով համատեքստային ընտրացանկը և ընտրեք "
+"Count գործառույթը:"
 
 #: 02010100.xhp#par_id3151009.210.help.text
 #: 02010100.xhp%23par_id3151009.210.help.text
 msgid "Enter >3 as a criterion and disable the Visible field."
-msgstr ""
+msgstr "Մուտքագրեք >3 որպես չափանիշ և անջատել Տեսանելի դաշտը:"
 
 #: 02010100.xhp#par_id3145601.211.help.text
 #: 02010100.xhp%23par_id3145601.211.help.text
@@ -3467,12 +3511,14 @@ msgid ""
 "Double-click the \"Supplier_Name\" field in the \"Suppliers\" table and "
 "choose the Group function."
 msgstr ""
+"Կրկնակի կտտացրեք \"Supplier_Name\" դաշտը \"Suppliers\" աղյուսակում և ընտրեք "
+"Group գործառույթը:"
 
 #: 02010100.xhp#par_id3147512.212.help.text
 #: 02010100.xhp%23par_id3147512.212.help.text
 msgctxt "02010100.xhp#par_id3147512.212.help.text"
 msgid "Run the query."
-msgstr ""
+msgstr "Կատարեք հարցումը"
 
 #: 02010100.xhp#par_id3148638.213.help.text
 #: 02010100.xhp%23par_id3148638.213.help.text
@@ -3482,16 +3528,19 @@ msgid ""
 "can obtain the average price of the item that a supplier provides with the "
 "following query:"
 msgstr ""
+"Եթե \"Item\" աղյուսակում առկա են \"price\" (ապրանքի անհատական գնի համար) և \""
+"Supplier_No\" (ապրանք մատակարարի համար) դաշտերը, ապա կարող եք ունենալ "
+"ապրանքի միջին գինը, որը տրամադրում է մատակարարը հետևյալ հարցումով."
 
 #: 02010100.xhp#par_id3153045.214.help.text
 #: 02010100.xhp%23par_id3153045.214.help.text
 msgid "Insert the \"Item\" table into the query design."
-msgstr ""
+msgstr "Տեղադրեք \"Item\" աղյուսակը հարցման ձևավորման մեջ:"
 
 #: 02010100.xhp#par_id3149802.215.help.text
 #: 02010100.xhp%23par_id3149802.215.help.text
 msgid "Double-click the \"Price\" and \"Supplier_No\" fields."
-msgstr ""
+msgstr "Կրկնակի կտտացրեք \"Price\" և \"Supplier_No\" դաշտերը։"
 
 #: 02010100.xhp#par_id3153554.216.help.text
 #: 02010100.xhp%23par_id3153554.216.help.text
@@ -3499,6 +3548,8 @@ msgid ""
 "Enable the <emph>Function</emph> line and select the Average function from "
 "the \"Price\" field."
 msgstr ""
+"Թույլատրեք <emph>Գործառույթ</emph> տողը և ընտրեք Average գործառույթը \""
+"Price\" դաշտից։"
 
 #: 02010100.xhp#par_id3155597.217.help.text
 #: 02010100.xhp%23par_id3155597.217.help.text
@@ -3506,28 +3557,30 @@ msgid ""
 "You can also enter \"Average\" in the line for the alias name (without "
 "quotation marks)."
 msgstr ""
+"Կեղծանունի անվանման տողում կարող եք նաև մուտքագրել «Միջին» (առանց "
+"չակերտների):"
 
 #: 02010100.xhp#par_id3151191.218.help.text
 #: 02010100.xhp%23par_id3151191.218.help.text
 msgid "Choose Group for the \"Supplier_No\" field."
-msgstr ""
+msgstr "\"Supplier_No\" դաշտի համար ընտրեք Group"
 
 #: 02010100.xhp#par_id3155547.219.help.text
 #: 02010100.xhp%23par_id3155547.219.help.text
 msgctxt "02010100.xhp#par_id3155547.219.help.text"
 msgid "Run the query."
-msgstr ""
+msgstr "Կատարեք հարցումը։"
 
 #: 02010100.xhp#par_id3147549.247.help.text
 #: 02010100.xhp%23par_id3147549.247.help.text
 msgid "The following context menu commands and symbols are available:"
-msgstr ""
+msgstr "Հետևյալ համատեքստային ցանկի հրամաններն ու նիշերը մատչելի են."
 
 #: 02010100.xhp#hd_id3154172.248.help.text
 #: 02010100.xhp%23hd_id3154172.248.help.text
 msgctxt "02010100.xhp#hd_id3154172.248.help.text"
 msgid "Functions"
-msgstr ""
+msgstr "Գործառույթներ"
 
 #: 02010100.xhp#par_id3150414.249.help.text
 #: 02010100.xhp%23par_id3150414.249.help.text
@@ -3535,11 +3588,13 @@ msgid ""
 "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Shows or hides a row for selection of "
 "functions.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Գործառույթների ընտրության համար ցույց "
+"է տալիս կամ թաքցնում է տողը:</ahelp>"
 
 #: 02010100.xhp#hd_id3149872.153.help.text
 #: 02010100.xhp%23hd_id3149872.153.help.text
 msgid "Table Name"
-msgstr ""
+msgstr "Աղյուսակի անուն"
 
 #: 02010100.xhp#par_id3147246.154.help.text
 #: 02010100.xhp%23par_id3147246.154.help.text
@@ -3547,11 +3602,13 @@ msgid ""
 "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Shows or hides the row for the table "
 "name.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Ցուցադրում կամ թաքցնում է աղյուսակի "
+"անվան տողը:</ahelp>"
 
 #: 02010100.xhp#hd_id3145117.155.help.text
 #: 02010100.xhp%23hd_id3145117.155.help.text
 msgid "Alias Name"
-msgstr ""
+msgstr "Կեղծանունի անուն"
 
 #: 02010100.xhp#par_id3155754.156.help.text
 #: 02010100.xhp%23par_id3155754.156.help.text
@@ -3559,11 +3616,13 @@ msgid ""
 "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Shows or hides the row for the alias "
 "name.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Կեղծանունի անվան համար ցույց է տալիս "
+"կամ թաքցնում է տողը:</ahelp>"
 
 #: 02010100.xhp#hd_id3153298.157.help.text
 #: 02010100.xhp%23hd_id3153298.157.help.text
 msgid "Distinct Values"
-msgstr ""
+msgstr "Առանձնահատուկ արժեքներ"
 
 #: 02010100.xhp#par_id3147500.158.help.text
 #: 02010100.xhp%23par_id3147500.158.help.text
@@ -3574,6 +3633,12 @@ msgid ""
 "active, you will see only one record in the query (DISTINCT). Otherwise, you "
 "will see all records corresponding to the query criteria (ALL)."
 msgstr ""
+"<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Հարցմանը կիրառում է միայն "
+"առանձնահատուկ արժեքներ:</ahelp> Սա վերաբերում է տվյալների պարունակող "
+"գրառումներին, որոնք մի քանի անգամ հայտնվում են ընտրված դաշտերում: Եթե <emph>"
+"Առանձնահատուկ արժեքներ</emph> հրամանը ակտիվ է, հարցումում կտեսնեք միայն մեկ "
+"գրառում (DISTINCT): Հակառակ դեպքում, կտեսնեք հարցման չափանիշներին "
+"համապատասխանող բոլոր գրառումները (ALL):"
 
 #: 02010100.xhp#par_id3150436.159.help.text
 #: 02010100.xhp%23par_id3150436.159.help.text
@@ -3582,6 +3647,9 @@ msgid ""
 "database, you can choose the<emph> Distinct Values</emph> command to specify "
 "in the query that the name \"Smith\" will occur only once."
 msgstr ""
+"Օրինակ, եթե ձեր հասցեների շտեմարանում մի քանի անգամ հայտնվում է \"Smith\" "
+"անունը, ապա կարող եք ընտրել <emph> Առանձնահատուկ արժեքներ</emph> հրամանը՝ "
+"հարցումում նշելու համար, որ \"Smith\" անունը կգտնվի միայն մեկ անգամ:"
 
 #: 02010100.xhp#par_id3152352.160.help.text
 #: 02010100.xhp%23par_id3152352.160.help.text
@@ -3594,16 +3662,23 @@ msgid ""
 "return the query result \"Smith in Chicago\" once and \"Smith in London\" "
 "once."
 msgstr ""
+"Մի քանի դաշտ ներգրաված հարցման համար բոլոր դաշտերի արժեքների համադրությունը "
+"պետք է եզակի լինի, որպեսզի արդյունքը կարողանա ձևավորվել հատուկ գրառումից: "
+"Օրինակ՝ ձեր հասցեագրքում մեկ անգամ ունեք \"Smith in Chicago\", և երկու անգամ՝"
+" \"Smith in London\": <emph> Առանձնահատուկ արժեքներ</emph> հրամանի միջոցով "
+"հարցումը կօգտագործի երկու դաշտերը` «ազգանուն» և «քաղաք», և մեկ անգամ "
+"կվերադարձնի հարցման արդյունքը` \"Smith in Chicago\" և մեկ անգամ \"Smith in "
+"London\":"
 
 #: 02010100.xhp#par_id3149825.161.help.text
 #: 02010100.xhp%23par_id3149825.161.help.text
 msgid "In SQL, this command corresponds to the DISTINCT predicate."
-msgstr ""
+msgstr "SQL -ում այս հրամանը համապատասխանում է DISTINCT նախդիրին:"
 
 #: 02010100.xhp#hd_id3148926.37.help.text
 #: 02010100.xhp%23hd_id3148926.37.help.text
 msgid "Formulating filter conditions"
-msgstr ""
+msgstr "Ձևակերպել զտիչի պայմանները"
 
 #: 02010100.xhp#par_id3153162.38.help.text
 #: 02010100.xhp%23par_id3153162.38.help.text
@@ -3616,38 +3691,45 @@ msgid ""
 "command directly. The following tables give an overview of the operators and "
 "commands:"
 msgstr ""
+"Զտիչի պայմանները ձեւակերպելիս ձեզ համար մատչելի են տարբեր օպերատորներ և "
+"հրամաններ: Հարաբերական օպերատորներից բացի, կան SQL հատուկ հրամաններ, որոնք "
+"հարցնում են տվյալների շտեմարանի դաշտերի բովանդակությունը: Եթե այս հրամաններն "
+"օգտագործում եք $[officename] շարահյուսության մեջ, $[officename] -ը դրանք "
+"ինքնաշխատ կերպով վերափոխում է համապատասխան SQL շարադասության: Կարող եք նաև "
+"ուղղակիորեն մուտքագրել SQL հրամանը: Հետևյալ աղյուսակները տալիս են "
+"օպերատորների և հրամանների ակնարկ."
 
 #: 02010100.xhp#par_id3149044.39.help.text
 #: 02010100.xhp%23par_id3149044.39.help.text
 msgid "Operator"
-msgstr ""
+msgstr "Օպերատոր"
 
 #: 02010100.xhp#par_id3152471.40.help.text
 #: 02010100.xhp%23par_id3152471.40.help.text
 msgctxt "02010100.xhp#par_id3152471.40.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 02010100.xhp#par_id3147407.41.help.text
 #: 02010100.xhp%23par_id3147407.41.help.text
 msgctxt "02010100.xhp#par_id3147407.41.help.text"
 msgid "Condition is satisfied if..."
-msgstr ""
+msgstr "Պայմանը բավարարված է, եթե..."
 
 #: 02010100.xhp#par_id3156161.42.help.text
 #: 02010100.xhp%23par_id3156161.42.help.text
 msgid "="
-msgstr ""
+msgstr "="
 
 #: 02010100.xhp#par_id3153026.43.help.text
 #: 02010100.xhp%23par_id3153026.43.help.text
 msgid "equal to"
-msgstr ""
+msgstr "հավասար է"
 
 #: 02010100.xhp#par_id3148895.44.help.text
 #: 02010100.xhp%23par_id3148895.44.help.text
 msgid "... the content of the field is identical to the indicated expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունը նույնական է նշված արտահայտությանը:"
 
 #: 02010100.xhp#par_id3153120.250.help.text
 #: 02010100.xhp%23par_id3153120.250.help.text
@@ -3655,126 +3737,128 @@ msgid ""
 "The operator = will not be displayed in the query fields. If you enter a "
 "value without any operator, the operator = will be automatically adopted."
 msgstr ""
+"= օպերատորը չի ցուցադրվի հարցման դաշտերում: Եթե դուք մուտքագրեք արժեք առանց "
+"որևէ օպերատորի, ապա = օպերատորը ինքնաշխատ կընդունվի:"
 
 #: 02010100.xhp#par_id3150470.45.help.text
 #: 02010100.xhp%23par_id3150470.45.help.text
 msgid "<>"
-msgstr ""
+msgstr "<>"
 
 #: 02010100.xhp#par_id3145223.46.help.text
 #: 02010100.xhp%23par_id3145223.46.help.text
 msgid "not equal to"
-msgstr ""
+msgstr "հավասար չէ"
 
 #: 02010100.xhp#par_id3145635.47.help.text
 #: 02010100.xhp%23par_id3145635.47.help.text
 msgid ""
 "... the content of the field does not correspond to the specified expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունը չի համապատասխանում նշված արտահայտությանը:"
 
 #: 02010100.xhp#par_id3153015.48.help.text
 #: 02010100.xhp%23par_id3153015.48.help.text
 msgctxt "02010100.xhp#par_id3153015.48.help.text"
 msgid ">"
-msgstr ""
+msgstr ">"
 
 #: 02010100.xhp#par_id3146815.49.help.text
 #: 02010100.xhp%23par_id3146815.49.help.text
 msgid "greater than"
-msgstr ""
+msgstr "մեծ է քան"
 
 #: 02010100.xhp#par_id3149150.50.help.text
 #: 02010100.xhp%23par_id3149150.50.help.text
 msgid "... the content of the field is greater than the specified expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունն ավելի մեծ է, քան նշված արտահայտությունը:"
 
 #: 02010100.xhp#par_id3147270.51.help.text
 #: 02010100.xhp%23par_id3147270.51.help.text
 msgctxt "02010100.xhp#par_id3147270.51.help.text"
 msgid "<"
-msgstr ""
+msgstr "<"
 
 #: 02010100.xhp#par_id3147379.52.help.text
 #: 02010100.xhp%23par_id3147379.52.help.text
 msgid "less than"
-msgstr ""
+msgstr "փոքր է քան"
 
 #: 02010100.xhp#par_id3150375.53.help.text
 #: 02010100.xhp%23par_id3150375.53.help.text
 msgid "... the content of the field is less than the specified expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունը պակաս է նշված արտահայտությունից:"
 
 #: 02010100.xhp#par_id3149787.54.help.text
 #: 02010100.xhp%23par_id3149787.54.help.text
 msgid ">="
-msgstr ""
+msgstr ">="
 
 #: 02010100.xhp#par_id3150636.55.help.text
 #: 02010100.xhp%23par_id3150636.55.help.text
 msgid "greater than or equal to"
-msgstr ""
+msgstr "մեծ է կամ հավասար"
 
 #: 02010100.xhp#par_id3154584.56.help.text
 #: 02010100.xhp%23par_id3154584.56.help.text
 msgid ""
 "... the content of the field is greater than or equal to the specified "
 "expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունը մեծ է կամ հավասար է նշված արտահայտությանը:"
 
 #: 02010100.xhp#par_id3157964.57.help.text
 #: 02010100.xhp%23par_id3157964.57.help.text
 msgid "<="
-msgstr ""
+msgstr "<="
 
 #: 02010100.xhp#par_id3154052.58.help.text
 #: 02010100.xhp%23par_id3154052.58.help.text
 msgid "less than or equal to"
-msgstr ""
+msgstr "փոքր է քան կամ հավասար"
 
 #: 02010100.xhp#par_id3157902.59.help.text
 #: 02010100.xhp%23par_id3157902.59.help.text
 msgid ""
 "... the content of the field is less than or equal to the specified "
 "expression."
-msgstr ""
+msgstr "... դաշտի բովանդակությունը փոքր է կամ հավասար նշված արտահայտությանը:"
 
 #: 02010100.xhp#par_id3154630.60.help.text
 #: 02010100.xhp%23par_id3154630.60.help.text
 msgid "$[officename] command"
-msgstr ""
+msgstr "$[officename] հրաման"
 
 #: 02010100.xhp#par_id3150484.61.help.text
 #: 02010100.xhp%23par_id3150484.61.help.text
 msgid "SQL command"
-msgstr ""
+msgstr "SQL հրաման"
 
 #: 02010100.xhp#par_id3154158.62.help.text
 #: 02010100.xhp%23par_id3154158.62.help.text
 msgctxt "02010100.xhp#par_id3154158.62.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 02010100.xhp#par_id3149433.63.help.text
 #: 02010100.xhp%23par_id3149433.63.help.text
 msgctxt "02010100.xhp#par_id3149433.63.help.text"
 msgid "Condition is satisfied if..."
-msgstr ""
+msgstr "Պայմանը բավարարված է, եթե ..."
 
 #: 02010100.xhp#par_id3154275.64.help.text
 #: 02010100.xhp%23par_id3154275.64.help.text
 msgid "IS EMPTY"
-msgstr ""
+msgstr "IS EMPTY"
 
 #: 02010100.xhp#par_id3149893.65.help.text
 #: 02010100.xhp%23par_id3149893.65.help.text
 msgctxt "02010100.xhp#par_id3149893.65.help.text"
 msgid "IS NULL"
-msgstr ""
+msgstr "IS NULL"
 
 #: 02010100.xhp#par_id3143236.66.help.text
 #: 02010100.xhp%23par_id3143236.66.help.text
 msgid "is null"
-msgstr ""
+msgstr "is null"
 
 #: 02010100.xhp#par_id3154744.67.help.text
 #: 02010100.xhp%23par_id3154744.67.help.text
@@ -3782,21 +3866,23 @@ msgid ""
 "... The field name is empty. For Yes/No fields with three states, this "
 "command automatically queries the undetermined state (neither Yes nor No)."
 msgstr ""
+"... Դաշտի անունը դատարկ է: Այո/Ոչ դաշտերի համար երեք վիճակներով այս հրամանը "
+"ինքնաշխատ կերպով հարցնում է չորոշված վիճակը (ոչ Այո, ոչ էլ Ոչ):"
 
 #: 02010100.xhp#par_id3146940.68.help.text
 #: 02010100.xhp%23par_id3146940.68.help.text
 msgid "IS NOT EMPTY"
-msgstr ""
+msgstr "IS NOT EMPTY"
 
 #: 02010100.xhp#par_id3147471.69.help.text
 #: 02010100.xhp%23par_id3147471.69.help.text
 msgid "IS NOT NULL"
-msgstr ""
+msgstr "IS NOT NULL"
 
 #: 02010100.xhp#par_id3151229.70.help.text
 #: 02010100.xhp%23par_id3151229.70.help.text
 msgid "is not empty"
-msgstr ""
+msgstr "is not empty"
 
 #: 02010100.xhp#par_id3145304.71.help.text
 #: 02010100.xhp%23par_id3145304.71.help.text
