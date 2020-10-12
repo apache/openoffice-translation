@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-10-01 17:32+0000\n"
+"PO-Revision-Date: 2020-10-11 20:50+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1601573545.000000\n"
+"X-POOTLE-MTIME: 1602449451.000000\n"
 
 #: 12030000.xhp#tit.help.text
 #: 12030000.xhp%23tit.help.text
@@ -182,10 +182,7 @@ msgid ""
 "$[officename] contains examples for the add-in interface of $[officename] "
 "Calc."
 msgstr ""
-"$[officename] zawiera przykłady dla interfejsu dodatków programu "
-"$[officename] Calc obejmujących funkcje dostępne w <emph>Kreatorze "
-"funkcji</emph> (wybierz <emph>Wstaw - Funkcja</emph>) w kategorii "
-"<emph>Dodatek</emph> wraz z kilkoma funkcjami finansowymi."
+"$[officename] zawiera przykłady dla interfejsu dodatków $[officename] Calc."
 
 #: 04060111.xhp#par_id3159267.76.help.text
 #: 04060111.xhp%23par_id3159267.76.help.text
@@ -446,7 +443,9 @@ msgstr ""
 msgid ""
 "<bookmark_value>DAYSINYEAR function</bookmark_value><bookmark_value>number "
 "of days; in a specific year</bookmark_value>"
-msgstr "<bookmark_value>DAYSINYEAR, funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>DNI.ROKU, funkcja</bookmark_value><bookmark_value>liczba dni;"
+" w danym roku</bookmark_value>"
 
 #: 04060111.xhp#hd_id3151300.43.help.text
 #: 04060111.xhp%23hd_id3151300.43.help.text
@@ -504,7 +503,9 @@ msgstr ""
 msgid ""
 "<bookmark_value>DAYSINMONTH function</bookmark_value><bookmark_value>number "
 "of days;in a specific month of a year</bookmark_value>"
-msgstr "<bookmark_value>DAYSINMONTH, funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>DNI.MIESIĄCA, funkcja</bookmark_value><bookmark_value>liczba "
+"dni; w danym miesiącu roku</bookmark_value>"
 
 #: 04060111.xhp#hd_id3154737.50.help.text
 #: 04060111.xhp%23hd_id3154737.50.help.text
@@ -617,7 +618,9 @@ msgstr ""
 msgid ""
 "<bookmark_value>WEEKSINYEAR function</bookmark_value><bookmark_value>number "
 "of weeks;in a specific year</bookmark_value>"
-msgstr "<bookmark_value>WEEKSINYEAR, funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>TYGODNIE.ROKU, funkcja</bookmark_value><bookmark_value>"
+"liczba tygodni;w danym roku</bookmark_value>"
 
 #: 04060111.xhp#hd_id3145237.64.help.text
 #: 04060111.xhp%23hd_id3145237.64.help.text
@@ -938,7 +941,7 @@ msgstr "Przykłady"
 #: func_hour.xhp#par_id3159215.103.help.text
 #: func_hour.xhp%23par_id3159215.103.help.text
 msgid "<item type=\"input\">=HOUR(NOW())</item> returns the current hour"
-msgstr "GODZINA (TERAZ()) zwraca bieżącą godzinę."
+msgstr "<item type=\"input\">=GODZINA(TERAZ())</item> zwraca bieżącą godzinę"
 
 #: func_hour.xhp#par_id3145152.104.help.text
 #: func_hour.xhp%23par_id3145152.104.help.text
@@ -1828,7 +1831,11 @@ msgid ""
 "cells;displaying formulas in other "
 "cells</bookmark_value><bookmark_value>displaying;formulas at any "
 "position</bookmark_value>"
-msgstr "<bookmark_value>FORMUŁA;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>FORMUŁA, funkcja</bookmark_value><bookmark_value>komórki "
+"formuły;wyświetlanie formuł w innych "
+"komórkach</bookmark_value><bookmark_value>wyświetlanie;formuły w dowolnym "
+"miejscu</bookmark_value>"
 
 #: 04060104.xhp#hd_id3150688.147.help.text
 #: 04060104.xhp%23hd_id3150688.147.help.text
@@ -1895,7 +1902,10 @@ msgid ""
 "<bookmark_value>ISREF function</bookmark_value><bookmark_value>references;"
 "testing cell contents</bookmark_value><bookmark_value>cell contents;testing "
 "for references</bookmark_value>"
-msgstr "<bookmark_value>CZY.ADR;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.ADR, funkcja</bookmark_value><bookmark_value>odwołania;"
+"testowanie zawartości komórki</bookmark_value><bookmark_value>zawartość "
+"komórki;testowanie odwołań</bookmark_value>"
 
 #: 04060104.xhp#hd_id3155409.37.help.text
 #: 04060104.xhp%23hd_id3155409.37.help.text
@@ -1968,8 +1978,8 @@ msgid ""
 "<item type=\"input\">=ISREF(INDIRECT(\"A6\"))</item> returns TRUE, because "
 "INDIRECT is a function that returns a reference."
 msgstr ""
-"=ISREF(INDIRECT(\"A6\")) zwraca wartość PRAWDA, ponieważ funkcja ADR.POŚR "
-"jest funkcją, która zwraca odwołanie."
+"<item type=\"input\">=CZY.ADR(ADR.POŚR(\"A6\"))</item> zwraca wartość "
+"PRAWDA, ponieważ funkcja ADR.POŚR jest funkcją, która zwraca odwołanie."
 
 #: 04060104.xhp#par_id3626819.help.text
 #: 04060104.xhp%23par_id3626819.help.text
@@ -1978,15 +1988,18 @@ msgid ""
 "FALSE, because ADDRESS is a function that returns a text, although it looks "
 "like a reference."
 msgstr ""
-"=ISREF(ADDRESS(1; 1; 2; \"Sheet2\")) zwraca wartość FAŁSZ, ponieważ ADRES "
-"jest funkcją, która zwraca tekst, mimo że wygląda jak odwołanie."
+"<item type=\"input\">=CZY.ADR(ADRES(1; 1; 2; \"Arkusz2\"))</item> zwraca "
+"wartość FAŁSZ, ponieważ ADRES jest funkcją, która zwraca tekst, choć wygląda "
+"jak odwołanie."
 
 #: 04060104.xhp#bm_id3154812.help.text
 #: 04060104.xhp%23bm_id3154812.help.text
 msgid ""
 "<bookmark_value>ISERR function</bookmark_value><bookmark_value>error "
 "codes;controlling</bookmark_value>"
-msgstr "<bookmark_value>CZY.BŁ;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.BŁĄD, funkcja</bookmark_value><bookmark_value>kody "
+"błędów;kontrolowanie</bookmark_value>"
 
 #: 04060104.xhp#hd_id3154812.45.help.text
 #: 04060104.xhp%23hd_id3154812.45.help.text
@@ -2034,8 +2047,9 @@ msgid ""
 "<item type=\"input\">=ISERR(C8)</item> where cell C8 contains <item type=\""
 "input\">=1/0</item> returns TRUE, because 1/0 is an error."
 msgstr ""
-"CZY.BŁ(C8) gdzie komórka C8 zawiera =1/0 zwraca PRAWDA, ponieważ 1/0 jest "
-"wyrażeniem błędnym."
+"<item type=\"input\">=CZY.BŁĄD(C8)</item> gdzie komórka C8 zawiera <item "
+"type=\"input\">=1/0</item> zwraca PRAWDA, ponieważ 1/0 jest wyrażeniem "
+"błędnym."
 
 #: 04060104.xhp#par_id8456984.help.text
 #: 04060104.xhp%23par_id8456984.help.text
@@ -2051,7 +2065,10 @@ msgstr ""
 msgid ""
 "<bookmark_value>ISERROR function</bookmark_value><bookmark_value>recognizing;"
 "general errors</bookmark_value>"
-msgstr "<bookmark_value>CZY.BŁĄD;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.BŁĄD, "
+"funkcja</bookmark_value><bookmark_value>rozpoznawanie;błędy "
+"ogólne</bookmark_value>"
 
 #: 04060104.xhp#hd_id3147081.53.help.text
 #: 04060104.xhp%23hd_id3147081.53.help.text
@@ -2100,8 +2117,8 @@ msgid ""
 "<item type=\"input\">=ISERROR(C8)</item> where cell C8 contains <item type=\""
 "input\">=1/0</item> returns TRUE, because 1/0 is an error."
 msgstr ""
-"CZY.BŁĄD(C8) zwraca PRAWDA, jeżeli komórka C8 zawiera =1/0, czyli wartość "
-"błędną."
+"<item type=\"input\">=CZY.BŁĄD(C8)</item> zwraca PRAWDA, jeżeli komórka C8 "
+"zawiera <item type=\"input\">=1/0</item>, czyli wartość błędną."
 
 #: 04060104.xhp#par_id1889095.help.text
 #: 04060104.xhp%23par_id1889095.help.text
@@ -2117,7 +2134,10 @@ msgid ""
 "<bookmark_value>ISFORMULA function</bookmark_value><bookmark_value>"
 "recognizing formula cells</bookmark_value><bookmark_value>formula "
 "cells;recognizing</bookmark_value>"
-msgstr "<bookmark_value>CZY.FORMUŁA;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.FORMUŁA, funkcja</bookmark_value><bookmark_value>"
+"rozpoznawanie komórek formuł</bookmark_value><bookmark_value>komórki "
+"formuł;rozpoznawanie</bookmark_value>"
 
 #: 04060104.xhp#hd_id3153618.61.help.text
 #: 04060104.xhp%23hd_id3153618.61.help.text
@@ -2164,7 +2184,9 @@ msgstr "Przykład"
 msgid ""
 "<item type=\"input\">=ISFORMULA(C4)</item> returns FALSE if the cell C4 "
 "contains the number <item type=\"input\">5</item>."
-msgstr "CZY.FORMUŁA(C4) zwraca FAŁSZ, jeżeli komórka C4 zawiera liczbę 5."
+msgstr ""
+"<item type=\"input\">=CZY.FORMUŁA(C4)</item> zwraca FAŁSZ, jeżeli komórka C4 "
+"zawiera liczbę <item type=\"input\">5</item>."
 
 #: 04060104.xhp#bm_id3149760.help.text
 #: 04060104.xhp%23bm_id3149760.help.text
@@ -2228,7 +2250,9 @@ msgstr ""
 msgid ""
 "<bookmark_value>ISNONTEXT function</bookmark_value><bookmark_value>cell "
 "contents;no text</bookmark_value>"
-msgstr "<bookmark_value>CZY.NIE.TEKST;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.NIE.TEKST, funkcja</bookmark_value><bookmark_value>"
+"zawartość komórki;bez tekstu</bookmark_value>"
 
 #: 04060104.xhp#hd_id3154692.68.help.text
 #: 04060104.xhp%23hd_id3154692.68.help.text
@@ -2281,14 +2305,17 @@ msgid ""
 "<item type=\"input\">=ISNONTEXT(D2)</item> returns FALSE if cell D2 contains "
 "the text <item type=\"input\">abcdef</item>."
 msgstr ""
-"CZY.NIE.TEKST(D2) zwraca FAŁSZ, jeżeli komórka D2 zawiera tekst \"abcdef\"."
+"<item type=\"input\">=CZY.NIE.TEKST(D2)</item> zwraca FAŁSZ, jeżeli komórka "
+"D2 zawiera tekst <item type=\"input\">abcdef</item>."
 
 #: 04060104.xhp#par_id3150777.75.help.text
 #: 04060104.xhp%23par_id3150777.75.help.text
 msgid ""
 "<item type=\"input\">=ISNONTEXT(D9)</item> returns TRUE if cell D9 contains "
 "the number <item type=\"input\">8</item>."
-msgstr "CZY.NIE.TEKST(D9) zwraca PRAWDA, jeżeli komórka D9 zawiera liczbę 8."
+msgstr ""
+"<item type=\"input\">=CZY.NIE.TEKST(D9)</item> zwraca PRAWDA, jeżeli komórka "
+"D9 zawiera liczbę <item type=\"input\">8</item>."
 
 #: 04060104.xhp#bm_id3159148.help.text
 #: 04060104.xhp%23bm_id3159148.help.text
@@ -2339,7 +2366,7 @@ msgstr "Przykład"
 #: 04060104.xhp#par_id3147234.83.help.text
 #: 04060104.xhp%23par_id3147234.83.help.text
 msgid "<item type=\"input\">=ISBLANK(D2)</item> returns FALSE as a result."
-msgstr "CZY.PUSTA(D2) zwraca FAŁSZ."
+msgstr "<item type=\"input\">=CZY.PUSTA(D2)</item> zwraca FAŁSZ."
 
 #: 04060104.xhp#bm_id3155356.help.text
 #: 04060104.xhp%23bm_id3155356.help.text
@@ -2347,7 +2374,10 @@ msgid ""
 "<bookmark_value>ISLOGICAL function</bookmark_value><bookmark_value>number "
 "formats;logical</bookmark_value><bookmark_value>logical number "
 "formats</bookmark_value>"
-msgstr "<bookmark_value>CZY.LOGICZNA;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.LOGICZNA, funkcja</bookmark_value><bookmark_value>"
+"formaty liczb;logiczne</bookmark_value><bookmark_value>logiczne formaty "
+"liczb</bookmark_value>"
 
 #: 04060104.xhp#hd_id3155356.85.help.text
 #: 04060104.xhp%23hd_id3155356.85.help.text
@@ -2401,8 +2431,8 @@ msgid ""
 "<item type=\"input\">=ISLOGICAL(99)</item> returns FALSE, because 99 is a "
 "number, not a logical value."
 msgstr ""
-"CZY.LOGICZNA(99) zwraca FAŁSZ, ponieważ 99 jest wartością numeryczną, a nie "
-"logiczną."
+"<item type=\"input\">=CZY.LOGICZNA(99)</item> zwraca FAŁSZ, ponieważ 99 jest "
+"wartością numeryczną, a nie logiczną."
 
 #: 04060104.xhp#par_id3556016.help.text
 #: 04060104.xhp%23par_id3556016.help.text
@@ -2410,15 +2440,18 @@ msgid ""
 "<item type=\"input\">=ISLOGICAL(ISNA(D4))</item> returns TRUE whatever the "
 "contents of cell D4, because ISNA() returns a logical value."
 msgstr ""
-"CZY.LOGICZNA(CZY.BRAK(D4)) zwraca wartość PRAWDA niezależnie od zawartości "
-"komórki D4, ponieważ CZY.BRAK() zwraca wartość logiczną."
+"<item type=\"input\">=CZY.LOGICZNA(CZY.BRAK(D4))</item> zwraca wartość "
+"PRAWDA niezależnie od zawartości komórki D4, ponieważ CZY.BRAK() zwraca "
+"wartość logiczną."
 
 #: 04060104.xhp#bm_id3153685.help.text
 #: 04060104.xhp%23bm_id3153685.help.text
 msgid ""
 "<bookmark_value>ISNA function</bookmark_value><bookmark_value>#N/A "
 "error;recognizing</bookmark_value>"
-msgstr "<bookmark_value>CZY.BRAK;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.BRAK, funkcja</bookmark_value><bookmark_value>błąd #NIE "
+"DOTYCZY;rozpoznawanie</bookmark_value>"
 
 #: 04060104.xhp#hd_id3153685.93.help.text
 #: 04060104.xhp%23hd_id3153685.93.help.text
@@ -2465,14 +2498,16 @@ msgstr "Przykład"
 #: 04060104.xhp#par_id3154852.99.help.text
 #: 04060104.xhp%23par_id3154852.99.help.text
 msgid "<item type=\"input\">=ISNA(D3)</item> returns FALSE as a result."
-msgstr "CZY.BRAK(D3) zwraca FAŁSZ."
+msgstr "<item type=\"input\">=CZY.BRAK(D3)</item> zwraca FAŁSZ."
 
 #: 04060104.xhp#bm_id3149426.help.text
 #: 04060104.xhp%23bm_id3149426.help.text
 msgid ""
 "<bookmark_value>ISTEXT function</bookmark_value><bookmark_value>cell "
 "contents;text</bookmark_value>"
-msgstr "<bookmark_value>CZY.TEKST;funkcja</bookmark_value>"
+msgstr ""
+"<bookmark_value>CZY.TEKST, funkcja</bookmark_value><bookmark_value>zawartość "
+"komórki;tekst</bookmark_value>"
 
 #: 04060104.xhp#hd_id3149426.101.help.text
 #: 04060104.xhp%23hd_id3149426.101.help.text
@@ -45661,11 +45696,11 @@ msgid ""
 "age. As both criteria are in the same row, they are connected by AND."
 msgstr ""
 "Aby dowiedzieć się, ile dzieci z drugiej klasy skończyło 7 lat, należy "
-"usunąć wpis >600 z komórki D14 i zamiast tego wprowadzić \"2\" w komórce B14 "
-"w kolumnie Klasa, natomiast w komórce C14 po prawej stronie należy "
-"wprowadzić \">7\". Wynikiem formuły jest liczba 2. Dwoje dzieci z drugiej "
-"klasy ukończyło 7 lat. Kryteria są połączone operatorem logicznym I, "
-"ponieważ znajdują się w tym samym wierszu."
+"usunąć wpis >600 z komórki D14 i zamiast tego wprowadzić <item type=\"input\""
+">2</item> w komórce B14 w kolumnie Klasa, natomiast w komórce C14 po prawej "
+"stronie należy wprowadzić <item type=\"input\">>7</item>. Wynikiem formuły "
+"jest liczba 2. Dwoje dzieci z drugiej klasy ukończyło 7 lat. Kryteria są "
+"połączone operatorem logicznym I, ponieważ znajdują się w tym samym wierszu."
 
 #: 04060101.xhp#bm_id3156123.help.text
 #: 04060101.xhp%23bm_id3156123.help.text
@@ -45812,9 +45847,9 @@ msgid ""
 "result 2. Frank is in second grade. Enter <item type=\"input\">\"Age\"</item>"
 " instead of \"Grade\" and you will get Frank's age."
 msgstr ""
-"W komórce A14 wprowadź imię Franek, co spowoduje wyświetlenie wyniku 2. "
-"Franek jest w drugiej klasie. Jeśli zamiast słowa \"Klasa\" zostanie wpisane "
-"słowo \"Wiek\", wynikiem funkcji będzie wiek Franka."
+"W komórce A14 wprowadź imię <item type=\"input\">Franek</item>, co spowoduje "
+"wyświetlenie wyniku 2. Franek jest w drugiej klasie. Jeśli zamiast słowa \""
+"Klasa\" zostanie wpisane słowo \"Wiek\", wynikiem funkcji będzie wiek Franka."
 
 #: 04060101.xhp#par_id3148833.112.help.text
 #: 04060101.xhp%23par_id3148833.112.help.text
