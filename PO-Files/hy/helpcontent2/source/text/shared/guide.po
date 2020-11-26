@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-11-24 17:46+0000\n"
+"PO-Revision-Date: 2020-11-25 15:48+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1606240012.000000\n"
+"X-POOTLE-MTIME: 1606319282.000000\n"
 
 #: linestyle_define.xhp#tit.help.text
 #: linestyle_define.xhp%23tit.help.text
@@ -6030,6 +6030,10 @@ msgid ""
 "select=\"WRITER\">The text cursor is a blinking block. "
 "</caseinline></switchinline>Click on the area to enable insert mode."
 msgstr ""
+"Վերագրման ընթացակարգը թույլատրված է։ <switchinline select=\"appl\"><"
+"caseinline select=\"WRITER\">Տեքստի կուրսորը թարթող վանդակ է: "
+"</caseinline></switchinline>Կտտացրեք տարածքում՝ ներդիրի ռեժիմը միացնելու "
+"համար:"
 
 #: textmode_change.xhp#par_id3154346.10.help.text
 #: textmode_change.xhp%23par_id3154346.10.help.text
@@ -6037,11 +6041,13 @@ msgid ""
 "<link href=\"text/shared/04/01010000.xhp\" name=\"Keyboard commands\">"
 "Keyboard commands</link>"
 msgstr ""
+"<link href=\"text/shared/04/01010000.xhp\" name=\"Ստեղնաշարի հրամաններ\">"
+"Ստեղնաշարի հրամաններ</link>"
 
 #: undo_formatting.xhp#tit.help.text
 #: undo_formatting.xhp%23tit.help.text
 msgid "Undoing Direct Formatting for a Document"
-msgstr ""
+msgstr "Փաստաթղթի ուղղակի ձևաչափումը հետարկելը"
 
 #: undo_formatting.xhp#bm_id6606036.help.text
 #: undo_formatting.xhp%23bm_id6606036.help.text
@@ -6052,6 +6058,11 @@ msgid ""
 "okmark_value><bookmark_value>formatting;undoing</bookmark_value><bookmark_val"
 "ue>restoring;default formatting</bookmark_value>"
 msgstr ""
+"<bookmark_value>undoing;direct formatting</bookmark_value><bookmark_value>"
+"direct formatting;undoing all</bookmark_value><bookmark_value>deleting;all "
+"direct formatting</bookmark_value><bookmark_value>text attributes;undoing</bo"
+"okmark_value><bookmark_value>formatting;undoing</bookmark_value><bookmark_val"
+"ue>restoring;default formatting</bookmark_value>"
 
 #: undo_formatting.xhp#par_idN1067F.help.text
 #: undo_formatting.xhp%23par_idN1067F.help.text
@@ -6060,34 +6071,40 @@ msgid ""
 "text/shared/guide/undo_formatting.xhp\">Undoing Direct Formatting for a "
 "Document</link></variable>"
 msgstr ""
+"<variable id=\"undo_formatting\"><link href=\""
+"text/shared/guide/undo_formatting.xhp\">Փաստաթղթի ուղղակի ձևաչափումը "
+"հետարկելը</link></variable>"
 
 #: undo_formatting.xhp#par_idN10683.help.text
 #: undo_formatting.xhp%23par_idN10683.help.text
 msgid ""
 "You can undo all formatting that has not been made by styles in a few steps."
 msgstr ""
+"Մի քանի քայլով կարող եք հետարկել բոլոր ձևաչափումները, որոնք չեն կատարվել "
+"ոճերով:"
 
 #: undo_formatting.xhp#par_idN10639.help.text
 #: undo_formatting.xhp%23par_idN10639.help.text
 msgid "Removing all Direct Formatting in a $[officename] Writer Document"
-msgstr ""
+msgstr "$[officename] Writer փաստաթղթում բոլոր ուղղակի ձևաչափումների հեռացում"
 
 #: undo_formatting.xhp#par_idN1063F.help.text
 #: undo_formatting.xhp%23par_idN1063F.help.text
 msgctxt "undo_formatting.xhp#par_idN1063F.help.text"
 msgid "Press <item type=\"keycode\">Ctrl+A</item> to select the whole text."
 msgstr ""
+"Սեղմեք <item type=\"keycode\">Ctrl+A</item> ամբողջ տեքստն ընտրելու համար:"
 
 #: undo_formatting.xhp#par_idN10643.help.text
 #: undo_formatting.xhp%23par_idN10643.help.text
 msgctxt "undo_formatting.xhp#par_idN10643.help.text"
 msgid "Choose <emph>Format - Default Formatting</emph>."
-msgstr ""
+msgstr "Ընտրեք <emph>Ձևաչափ - Լռելյայն ձևաչափում</emph>."
 
 #: undo_formatting.xhp#par_idN1064A.help.text
 #: undo_formatting.xhp%23par_idN1064A.help.text
 msgid "Removing all Direct Formatting in a $[officename] Calc Spreadsheet"
-msgstr ""
+msgstr "$[officename] Calc աղյուսակում բոլոր ուղղակի ձևաչափումների հեռացում"
 
 #: undo_formatting.xhp#par_idN10650.help.text
 #: undo_formatting.xhp%23par_idN10650.help.text
@@ -6095,50 +6112,56 @@ msgid ""
 "While pressing the Shift key click the first and then the last sheet tab to "
 "select all sheets."
 msgstr ""
+"Shift ստեղնը սեղմելիս կտտացրեք առաջին և ապա վերջին թերթիկների ներդիրին՝ "
+"բոլոր թերթերը ընտրելու համար:"
 
 #: undo_formatting.xhp#par_idN106DD.help.text
 #: undo_formatting.xhp%23par_idN106DD.help.text
 msgctxt "undo_formatting.xhp#par_idN106DD.help.text"
 msgid "Press <item type=\"keycode\">Ctrl+A</item> to select the whole text."
-msgstr ""
+msgstr "Սեղմեք <item type=\"keycode\">Ctrl+A</item> ողջ տեքստը ընտրելու համար։"
 
 #: undo_formatting.xhp#par_idN106F0.help.text
 #: undo_formatting.xhp%23par_idN106F0.help.text
 msgctxt "undo_formatting.xhp#par_idN106F0.help.text"
 msgid "Choose <emph>Format - Default Formatting</emph>."
-msgstr ""
+msgstr "Կտտացրեք <emph>Ձևաչափ - Լռելյայն ձևաչափում</emph>."
 
 #: undo_formatting.xhp#par_idN1065F.help.text
 #: undo_formatting.xhp%23par_idN1065F.help.text
 msgid "Removing all Direct Formatting in a $[officename] Presentation"
-msgstr ""
+msgstr "$[officename] Presentation -ում բոլոր ուղղակի ձևաչափումների հեռացում"
 
 #: undo_formatting.xhp#par_idN10665.help.text
 #: undo_formatting.xhp%23par_idN10665.help.text
 msgid "Click the <emph>Outline</emph> tab to open outline view."
 msgstr ""
+"Կտտացրեք <emph>Ուրվագիծ</emph> ներդիրը, ուրվագծային տեսքը բացելու համար:"
 
 #: undo_formatting.xhp#par_id3906674.help.text
 #: undo_formatting.xhp%23par_id3906674.help.text
 msgctxt "undo_formatting.xhp#par_id3906674.help.text"
 msgid "Press <item type=\"keycode\">Ctrl+A</item> to select the whole text."
 msgstr ""
+"Սեղմեք <item type=\"keycode\">Ctrl+A</item> ամբողջ տեքստի ընտրության համար։"
 
 #: undo_formatting.xhp#par_idN1075E.help.text
 #: undo_formatting.xhp%23par_idN1075E.help.text
 msgctxt "undo_formatting.xhp#par_idN1075E.help.text"
 msgid "Choose <emph>Format - Default Formatting</emph>."
-msgstr ""
+msgstr "Ընտրեք <emph>Ձևաչափ - Լռելյայն ձևաչափում</emph>."
 
 #: undo_formatting.xhp#par_idN107B0.help.text
 #: undo_formatting.xhp%23par_idN107B0.help.text
 msgid "<link href=\"text/shared/optionen/01011000.xhp\">Undo Options</link>"
 msgstr ""
+"<link href=\"text/shared/optionen/01011000.xhp\">Հետարկելու "
+"ընտրանքները</link>"
 
 #: flat_icons.xhp#tit.help.text
 #: flat_icons.xhp%23tit.help.text
 msgid "Changing Icon Views"
-msgstr ""
+msgstr "Փոխելով պատկերակների դիտումները"
 
 #: flat_icons.xhp#bm_id3145669.help.text
 #: flat_icons.xhp%23bm_id3145669.help.text
@@ -6149,6 +6172,11 @@ msgid ""
 "sizes</bookmark_value><bookmark_value>large "
 "icons</bookmark_value><bookmark_value>small icons</bookmark_value>"
 msgstr ""
+"<bookmark_value>buttons; big/small</bookmark_value><bookmark_value>views; "
+"icons</bookmark_value><bookmark_value>icon "
+"sizes</bookmark_value><bookmark_value>changing;icon "
+"sizes</bookmark_value><bookmark_value>large "
+"icons</bookmark_value><bookmark_value>small icons</bookmark_value>"
 
 #: flat_icons.xhp#hd_id3145669.3.help.text
 #: flat_icons.xhp%23hd_id3145669.3.help.text
@@ -6156,11 +6184,14 @@ msgid ""
 "<variable id=\"flat_icons\"><link href=\"text/shared/guide/flat_icons.xhp\" "
 "name=\"Changing Icon Views\">Changing Icon Size</link></variable>"
 msgstr ""
+"<variable id=\"flat_icons\"><link href=\"text/shared/guide/flat_icons.xhp\" "
+"name=\"Փոխելով պատկերակների դիտումները\">Փոխելով պատկերակների "
+"չափերը</link></variable>"
 
 #: flat_icons.xhp#par_id3155535.4.help.text
 #: flat_icons.xhp%23par_id3155535.4.help.text
 msgid "You can change the icon view between small and large icons."
-msgstr ""
+msgstr "Դուք կարող եք փոխել պատկերակի տեսքը փոքր և մեծ պատկերակների միջև:"
 
 #: flat_icons.xhp#par_id3153748.5.help.text
 #: flat_icons.xhp%23par_id3153748.5.help.text
@@ -6169,23 +6200,28 @@ msgid ""
 "PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - "
 "Options</defaultinline></switchinline> - $[officename]</emph>."
 msgstr ""
+"Ընտրեք <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%"
+"PRODUCTNAME - Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - $[officename]</emph>."
 
 #: flat_icons.xhp#par_id3163802.6.help.text
 #: flat_icons.xhp%23par_id3163802.6.help.text
 msgid ""
 "On the <emph>View</emph> tab page, select the <emph>Toolbar icon size</emph>."
 msgstr ""
+"<emph>Տեսք</emph> ներդիրի էջում, ընտրեք <emph>Գործիքադարակի պատկերակի "
+"չափը</emph>."
 
 #: flat_icons.xhp#par_id3157909.7.help.text
 #: flat_icons.xhp%23par_id3157909.7.help.text
 msgctxt "flat_icons.xhp#par_id3157909.7.help.text"
 msgid "Click <emph>OK</emph>."
-msgstr ""
+msgstr "Կտտացրեք <emph>ԼԱՎ</emph>։"
 
 #: space_hyphen.xhp#tit.help.text
 #: space_hyphen.xhp%23tit.help.text
 msgid "Inserting Protected Spaces, Hyphens and Conditional Separators"
-msgstr ""
+msgstr "Տեղադրելով պաշտպանված բացատներ, գծիկներ և պայմանական բաժանարարներ"
 
 #: space_hyphen.xhp#bm_id3155364.help.text
 #: space_hyphen.xhp%23bm_id3155364.help.text
@@ -6200,6 +6236,15 @@ msgid ""
 "k_value>protected dashes</bookmark_value><bookmark_value>exchanging, see "
 "also replacing</bookmark_value>"
 msgstr ""
+"<bookmark_value>protected "
+"spaces;inserting</bookmark_value><bookmark_value>spaces; inserting protected "
+"spaces</bookmark_value><bookmark_value>hyphens;inserting "
+"custom</bookmark_value><bookmark_value>conditional "
+"separators</bookmark_value><bookmark_value>separators; conditional</bookmark_"
+"value><bookmark_value>dashes</bookmark_value><bookmark_value>non-breaking das"
+"hes</bookmark_value><bookmark_value>replacing;dashes</bookmark_value><bookmar"
+"k_value>protected dashes</bookmark_value><bookmark_value>exchanging, see "
+"also replacing</bookmark_value>"
 
 #: space_hyphen.xhp#hd_id3155364.30.help.text
 #: space_hyphen.xhp%23hd_id3155364.30.help.text
@@ -6209,11 +6254,15 @@ msgid ""
 ">Inserting Protected Spaces, Hyphens and Conditional "
 "Separators</link></variable>"
 msgstr ""
+"<variable id=\"space_hyphen\"><link href=\"text/shared/guide/space_hyphen."
+"xhp\" name=\"Տեղադրելով պաշտպանված բացատներ, գծիկներ և պայմանական "
+"բաժանարարներ\">Տեղադրելով պաշտպանված բացատներ, գծիկներ և պայմանական "
+"բաժանարարներ</link></variable>"
 
 #: space_hyphen.xhp#hd_id3156136.61.help.text
 #: space_hyphen.xhp%23hd_id3156136.61.help.text
 msgid "Non-breaking spaces"
-msgstr ""
+msgstr "Չբաժանվող բացատներ"
 
 #: space_hyphen.xhp#par_id3147008.31.help.text
 #: space_hyphen.xhp%23par_id3147008.31.help.text
@@ -6223,16 +6272,20 @@ msgid ""
 "</caseinline><defaultinline>Ctrl key</defaultinline></switchinline> and the "
 "Shift key when you type a space between the words."
 msgstr ""
+"Որպեսզի տողի վերջում երկու բառ չբաժանվի, սեղմած պահեք <switchinline select=\""
+"sys\"><caseinline select=\"MAC\">Command ստեղնը </caseinline><defaultinline>"
+"Ctrl ստեղնը</defaultinline></switchinline> և Shift ստեղնը, երբ բառերի միջև "
+"բացատ ես մուտքագրում:"
 
 #: space_hyphen.xhp#par_id5749687.help.text
 #: space_hyphen.xhp%23par_id5749687.help.text
 msgid "In Calc, you cannot insert non-breaking spaces."
-msgstr ""
+msgstr "Calc -ում, չեք կարող չբաժանվող բացատներ տեղադրել:"
 
 #: space_hyphen.xhp#hd_id3146957.62.help.text
 #: space_hyphen.xhp%23hd_id3146957.62.help.text
 msgid "Non-breaking dash"
-msgstr ""
+msgstr "Չբաժանվող գծիկ"
 
 #: space_hyphen.xhp#par_id3148538.32.help.text
 #: space_hyphen.xhp%23par_id3148538.32.help.text
@@ -6242,11 +6295,15 @@ msgid ""
 "of the next line. To solve this problem, press Shift+Ctrl+ minus sign. In "
 "other words, hold down the Shift and Ctrl keys and press the minus key."
 msgstr ""
+"Չբաժանվող գծիկի օրինակ է ընկերության անվանումը, ինչպիսին է A-Z- ն: Ակնհայտ "
+"է, որ դուք չէիք ցանկանա, որ A-  հայտնվեր տողի վերջում, իսկ Z- ը ՝ հաջորդ "
+"տողի սկզբում: Այս խնդիրը լուծելու համար սեղմեք Shift+Ctrl+ մինուս նշանը: Այլ "
+"կերպ ասած, պահեք Shift և Ctrl ստեղները և սեղմեք մինուս ստեղնը:"
 
 #: space_hyphen.xhp#hd_id3163802.65.help.text
 #: space_hyphen.xhp%23hd_id3163802.65.help.text
 msgid "Hyphen, dash"
-msgstr ""
+msgstr "տողադարձ, գծիկ"
 
 #: space_hyphen.xhp#par_id3154749.66.help.text
 #: space_hyphen.xhp%23par_id3154749.66.help.text
@@ -6258,6 +6315,12 @@ msgid ""
 "text/shared/01/06040100.xhp\" name=\"$[officename] Help\">$[officename] "
 "Help</link>)."
 msgstr ""
+"Ավելի երկար գծեր մուտքագրելու համար կարող եք գտնել <emph>Գործիքներ - "
+"Ինքնաշտկման ընտըրանքներ</emph><emph>- Ընտրանքներ</emph> <emph>Փոխարինեք "
+"գծիկները</emph> ընտրանքի ներքո։ Այս տարբերակը որոշակի պայմաններում մեկ կամ "
+"երկու մինուս նշաններին փոխարինում է  en-dash կամ em-dash (տե՛ս <link href=\""
+"text/shared/01/06040100.xhp\" name=\"$[officename] Օգնություն\">$[officename]"
+" Help</link>)."
 
 #: space_hyphen.xhp#par_id3153561.67.help.text
 #: space_hyphen.xhp%23par_id3153561.67.help.text
@@ -6268,11 +6331,16 @@ msgid ""
 "Here you can, among other things, replace a shortcut automatically by a "
 "dash, even in another font."
 msgstr ""
+"Լրացուցիչ փոխարինումների համար տե՛ս փոխարինումների աղյուսակը <emph>Գործիքներ "
+"- Ինքնաշտկման ընտրանքներ</emph><emph>- </emph><link href=\""
+"text/shared/01/06040200.xhp\" name=\"Փոխարինել\""
+"><emph>Փոխարինել</emph></link>։ Այստեղ դուք կարող եք, ի միջի այլոց, "
+"դյուրանցումը ինքնաշխատ կերպով փոխարինել գծիկով, նույնիսկ մեկ այլ տառատեսակով:"
 
 #: space_hyphen.xhp#hd_id3153825.63.help.text
 #: space_hyphen.xhp%23hd_id3153825.63.help.text
 msgid "Definite separator"
-msgstr ""
+msgstr "Հստակ տարանջատիչ"
 
 #: space_hyphen.xhp#par_id3154306.60.help.text
 #: space_hyphen.xhp%23par_id3154306.60.help.text
@@ -6284,6 +6352,12 @@ msgid ""
 "The word is separated at this position when it is at the end of the line, "
 "even if automatic hyphenation for this paragraph is switched off."
 msgstr ""
+"Ինքնաշխատ տողադարձումը աջակցելու համար` ինքներդ բառի մեջ տարանջատիչ "
+"մուտքագրելով, օգտագործեք ստեղները <switchinline select=\"sys\"><caseinline "
+"select=\"MAC\">Command "
+"</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+մինուս նշան։ "
+"Բառն այս դիրքում բաժանվում է, երբ տողի վերջում է, նույնիսկ եթե այս "
+"պարբերության ինքնաշխատ տողադարձումն անջատված է:"
 
 #: space_hyphen.xhp#par_id3151245.64.help.text
 #: space_hyphen.xhp%23par_id3151245.64.help.text
@@ -6291,11 +6365,13 @@ msgid ""
 "<link href=\"text/shared/01/04100000.xhp\" name=\"Special characters\">"
 "Special characters</link>"
 msgstr ""
+"<link href=\"text/shared/01/04100000.xhp\" name=\"Հատուկ նիշեր\">Հատուկ "
+"նիշեր</link>"
 
 #: redlining_accept.xhp#tit.help.text
 #: redlining_accept.xhp%23tit.help.text
 msgid "Accepting or Rejecting Changes"
-msgstr ""
+msgstr "Ընդունել կամ մերժել փոփոխությունները"
 
 #: redlining_accept.xhp#bm_id3150247.help.text
 #: redlining_accept.xhp%23bm_id3150247.help.text
@@ -6304,6 +6380,9 @@ msgid ""
 "rejecting</bookmark_value><bookmark_value>review function;accepting or "
 "rejecting changes</bookmark_value>"
 msgstr ""
+"<bookmark_value>changes; accepting or "
+"rejecting</bookmark_value><bookmark_value>review function;accepting or "
+"rejecting changes</bookmark_value>"
 
 #: redlining_accept.xhp#hd_id3150247.23.help.text
 #: redlining_accept.xhp%23hd_id3150247.23.help.text
@@ -6312,6 +6391,9 @@ msgid ""
 "text/shared/guide/redlining_accept.xhp\" name=\"Accepting or Rejecting "
 "Changes\">Accepting or Rejecting Changes</link></variable>"
 msgstr ""
+"<variable id=\"redlining_accept\"><link href=\""
+"text/shared/guide/redlining_accept.xhp\" name=\"Ընդունել կամ մերժել "
+"փոփոխությունները\">Ընդունել կամ մերժել փոփոխությունները</link></variable>"
 
 #: redlining_accept.xhp#par_id1491134.help.text
 #: redlining_accept.xhp%23par_id1491134.help.text
@@ -6320,6 +6402,8 @@ msgid ""
 "The review function is available in %PRODUCTNAME for text documents and "
 "spreadsheet documents."
 msgstr ""
+"Ստուգման գործառույթը հասանելի է %PRODUCTNAME -ում `տեքստային փաստաթղթերի և "
+"աղյուսակային փաստաթղթերի համար:"
 
 #: redlining_accept.xhp#par_id1110200810120034.help.text
 #: redlining_accept.xhp%23par_id1110200810120034.help.text
@@ -6327,6 +6411,8 @@ msgid ""
 "In Writer text documents you can also accept or reject changes by choosing "
 "commands from the context menu."
 msgstr ""
+"Writer տեքստային փաստաթղթերում կարող եք նաև ընդունել կամ մերժել "
+"փոփոխությունները՝ համատեքստի ընտրացանկից հրամաններ ընտրելով:"
 
 #: redlining_accept.xhp#par_id3147571.24.help.text
 #: redlining_accept.xhp%23par_id3147571.24.help.text
@@ -6334,6 +6420,8 @@ msgid ""
 "When you edit a document in which others have made changes, you can accept "
 "or reject the changes individually or all together."
 msgstr ""
+"Երբ խմբագրում եք մի փաստաթուղթ, որում մյուսները փոփոխություններ են կատարել, "
+"կարող եք ընդունել կամ մերժել փոփոխությունները անհատապես կամ բոլորը միասին:"
 
 #: redlining_accept.xhp#par_id3147008.25.help.text
 #: redlining_accept.xhp%23par_id3147008.25.help.text
@@ -6342,6 +6430,9 @@ msgid ""
 "these into one document (see <embedvar href=\""
 "text/shared/guide/redlining_docmerge.xhp#redlining_docmerge\"/>)."
 msgstr ""
+"Եթե փաստաթղթի բազմաթիվ օրինակներ եք դրել շրջանառության մեջ, նախ դրանք "
+"միաձուլեք մեկում (տե՛ս <embedvar href=\""
+"text/shared/guide/redlining_docmerge.xhp#redlining_docmerge\"/>)."
 
 #: redlining_accept.xhp#par_id3153748.26.help.text
 #: redlining_accept.xhp%23par_id3153748.26.help.text
@@ -6349,6 +6440,9 @@ msgid ""
 "Open the document and choose <emph>Edit - Changes - Accept or Reject</emph>. "
 "The <emph>Accept or Reject Changes</emph> dialog appears."
 msgstr ""
+"Բացեք փաստաթուղթը և ընտրեք <emph>Խմբագրել - Փոփոխություններ - Ընդունել կամ "
+"մերժել</emph>: Կհայտնվի <emph>Ընդունել կամ մերժել փոփոխությունները</emph> "
+"երկխոսությունը։"
 
 #: redlining_accept.xhp#par_id3156346.27.help.text
 #: redlining_accept.xhp%23par_id3156346.27.help.text
@@ -6357,6 +6451,9 @@ msgid ""
 "displayed in the document and you can now enter your decision with one of "
 "the buttons."
 msgstr ""
+"Ընտրեք փոփոխությունը <emph>Ցուցակ</emph> էջանիշում: Փոփոխությունն ընտրվում և "
+"ցուցադրվում է փաստաթղթում, և այժմ կարող եք մուտքագրել ձեր որոշումը "
+"կոճակներից մեկի միջոցով:"
 
 #: redlining_accept.xhp#par_id3147209.28.help.text
 #: redlining_accept.xhp%23par_id3147209.28.help.text
@@ -6364,6 +6461,9 @@ msgid ""
 "If one author has modified another author's change, you will see the changes "
 "hierarchically arranged with a plus sign for opening up the hierarchy."
 msgstr ""
+"Եթե մի հեղինակ փոփոխություն է մտցրել մեկ այլ հեղինակի փոփոխության մեջ, դուք "
+"կտեսնեք փոփոխությունները, որոնք աստիճանակարգված կերպով դասավորված են "
+"հիերարխիան բացելու համար պլյուս նշանով:"
 
 #: redlining_accept.xhp#par_id3148474.29.help.text
 #: redlining_accept.xhp%23par_id3148474.29.help.text
@@ -6373,6 +6473,10 @@ msgid ""
 "certain authors, or only the changes of the last day, or that you want the "
 "list to be restricted in some other way."
 msgstr ""
+"Եթե փոփոխությունների ցանկը չափազանց երկար է, ապա երկխոսության մեջ կարող եք "
+"անցնել <emph>Զտել</emph> էջանիշին և նշել, որ ցանկանում եք տեսնել միայն "
+"որոշակի հեղինակների փոփոխությունները, կամ միայն վերջին օրվա "
+"փոփոխությունները, կամ որ ուզում եք որևէ այլ ձևով սահմանափակվի ցուցակը:"
 
 #: redlining_accept.xhp#par_id3143271.42.help.text
 #: redlining_accept.xhp%23par_id3143271.42.help.text
@@ -6384,11 +6488,18 @@ msgid ""
 "do not match the filter criterion. Green entries do match the filter but "
 "cannot be accepted or rejected."
 msgstr ""
+"Գունավոր ծածկագրով գրառումները ցուցադրում են տեղադրված զտիչի արդյունքը: Սև "
+"գույնով գրառումները կարող են ընդունվել կամ մերժվել և համապատասխանում են "
+"զտիչի չափանիշներին: Կապույտ գույներով գրառումները չեն համապատասխանում զտիչի "
+"չափանիշներին, բայց ունեն ենթագրեր, որոնք ներառված են զտիչի մեջ: Մոխրագույն "
+"գրառումները չեն կարող ընդունվել կամ մերժվել և չեն համապատասխանում զտիչի "
+"չափանիշին: Կանաչ գրառումները համապատասխանում են զտիչին, բայց չեն կարող "
+"ընդունվել կամ մերժվել:"
 
 #: navigator.xhp#tit.help.text
 #: navigator.xhp%23tit.help.text
 msgid "Navigator for Document Overview"
-msgstr ""
+msgstr "Փաստաթղթերի ակնարկի նավարկիչ"
 
 #: navigator.xhp#bm_id3147008.help.text
 #: navigator.xhp%23bm_id3147008.help.text
@@ -6397,6 +6508,9 @@ msgid ""
 "lists</bookmark_value><bookmark_value>Navigator; contents as "
 "lists</bookmark_value>"
 msgstr ""
+"<bookmark_value>documents; contents as "
+"lists</bookmark_value><bookmark_value>Navigator; contents as "
+"lists</bookmark_value>"
 
 #: navigator.xhp#hd_id3147008.4.help.text
 #: navigator.xhp%23hd_id3147008.4.help.text
@@ -6405,6 +6519,9 @@ msgid ""
 "name=\"Navigator for Document Overview\">Navigator for Document "
 "Overview</link></variable>"
 msgstr ""
+"<variable id=\"navigator\"><link href=\"text/shared/guide/navigator.xhp\" "
+"name=\"Փաստաթղթերի ակնարկի նավարկիչ\">Փաստաթղթերի ակնարկի "
+"նավարկիչ</link></variable>"
 
 #: navigator.xhp#par_id3154823.3.help.text
 #: navigator.xhp%23par_id3154823.3.help.text
@@ -6413,6 +6530,9 @@ msgid ""
 "whether titles, sheets, tables, text frames, graphics, OLE objects, "
 "sections, hyperlinks, references, indexes or comments."
 msgstr ""
+"Նավարկիչի պատուհանի ողջ պարունակությունն այստեղ անվանվում է «դասեր»՝ "
+"վերնագրեր, թերթեր, աղյուսակներ, տեքստի շրջանակներ, գրաֆիկա, OLE օբյեկտներ, "
+"բաժիններ, գերհղումներ, հղումներ, ցուցիչներ կամ մեկնաբանություններ:"
 
 #: navigator.xhp#par_id3153662.5.help.text
 #: navigator.xhp%23par_id3153662.5.help.text
@@ -6422,6 +6542,10 @@ msgid ""
 "object of this kind exists. If you rest the mouse pointer on the category "
 "name, the number of objects is displayed in an extended tip."
 msgstr ""
+"Նավարկիչը ցուցադրում է փաստաթղթում պարունակվող բոլոր տեսակի օբյեկտները: Եթե "
+"դասի կողքին հայտնվում է գումարած նշան, սա ցույց է տալիս, որ այս տեսակի գոնե "
+"մեկ առարկա գոյություն ունի: Եթե մկնիկի ցուցիչը հենեք դասի անվան վրա, "
+"օբյեկտների քանակը ցուցադրվում է ընդլայնված հուշումի մեջ:"
 
 #: navigator.xhp#par_id3146797.6.help.text
 #: navigator.xhp%23par_id3146797.6.help.text
@@ -6431,6 +6555,10 @@ msgid ""
 "Content View</emph> icon. Until you click the icon again, only the objects "
 "of this category will be displayed."
 msgstr ""
+"Բացեք դասը՝ կտտացնելով գումարած նշանին: Եթե ցանկանում եք դիտել գրառումները "
+"միայն որոշակի դասում, ընտրեք դասը և կտտացրեք <emph>Բովանդակության "
+"դիտում</emph> պատկերակին: Մինչև նորից կտտացնեք պատկերակին, կցուցադրվեն միայն "
+"այս դասի օբյեկտները:"
 
 #: navigator.xhp#par_id3166461.7.help.text
 #: navigator.xhp%23par_id3166461.7.help.text
@@ -6439,11 +6567,14 @@ msgid ""
 "free window (double click on the gray area). You can change the size of the "
 "Navigator when it is a free window."
 msgstr ""
+"Կարող եք նավարկիչը ցցել ցանկացած փաստաթղթի եզրագծին կամ այն կրկին վերածել "
+"ազատ պատուհանի (կրկնակի կտտացնելով գորշ տարածքին): Դուք կարող եք փոխել "
+"Նավարկիչի չափը, երբ այն ազատ պատուհան է:"
 
 #: doc_save.xhp#tit.help.text
 #: doc_save.xhp%23tit.help.text
 msgid "Saving Documents"
-msgstr ""
+msgstr "Փաստաթղթերի պահպանում"
 
 #: doc_save.xhp#bm_id3147226.help.text
 #: doc_save.xhp%23bm_id3147226.help.text
@@ -6457,6 +6588,14 @@ msgid ""
 "saving</bookmark_value><bookmark_value>presentations; "
 "saving</bookmark_value><bookmark_value>FTP; saving documents</bookmark_value>"
 msgstr ""
+"<bookmark_value>documents; saving</bookmark_value><bookmark_value>saving; "
+"documents</bookmark_value><bookmark_value>backups; "
+"documents</bookmark_value><bookmark_value>files; "
+"saving</bookmark_value><bookmark_value>text documents; "
+"saving</bookmark_value><bookmark_value>spreadsheets; "
+"saving</bookmark_value><bookmark_value>drawings; "
+"saving</bookmark_value><bookmark_value>presentations; "
+"saving</bookmark_value><bookmark_value>FTP; saving documents</bookmark_value>"
 
 #: doc_save.xhp#hd_id3147226.4.help.text
 #: doc_save.xhp%23hd_id3147226.4.help.text
@@ -6464,6 +6603,8 @@ msgid ""
 "<variable id=\"doc_save\"><link href=\"text/shared/guide/doc_save.xhp\" name="
 "\"Saving Documents\">Saving Documents</link></variable>"
 msgstr ""
+"<variable id=\"doc_save\"><link href=\"text/shared/guide/doc_save.xhp\" name="
+"\"Փաստաթղթերի պահպանում\">Փաստաթղթերի պահպանում</link></variable>"
 
 #: doc_save.xhp#par_id3156113.5.help.text
 #: doc_save.xhp%23par_id3156113.5.help.text
@@ -6472,6 +6613,9 @@ msgid ""
 "select=\"sys\"><caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+S."
 msgstr ""
+"Կտտացրեք <emph>Պահել</emph> պատկերակը կամ սեղմեք դյուրանցման ստեղները <"
+"switchinline select=\"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+S."
 
 #: doc_save.xhp#par_id3155450.help.text
 #: doc_save.xhp%23par_id3155450.help.text
@@ -6480,6 +6624,10 @@ msgid ""
 "0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3152349\">This icon is for "
 "tips on how to use the program more effectively.</alt></image>"
 msgstr ""
+"<image id=\"img_id3152349\" src=\"res/commandimagelist/sc_save.png\" width=\""
+"0.222inch\" height=\"0.222inch\"><alt id=\"alt_id3152349\">Այս պատկերակը "
+"հուշում է այն մասին, թե ինչպես կարելի է ավելի արդյունավետ օգտագործել "
+"ծրագիրը:</alt></image>"
 
 #: doc_save.xhp#par_id3148685.8.help.text
 #: doc_save.xhp%23par_id3148685.8.help.text
@@ -6488,6 +6636,9 @@ msgid ""
 "medium or network drive or on the Internet, overwriting any file of the same "
 "name."
 msgstr ""
+"Փաստաթուղթը պահվում է իր ուղու և անվան տակ՝ ընթացիկ տեղային տվյալների "
+"միջավայրում կամ ցանցային կրիչում կամ Ինտերնետում՝ վերանայելով համանուն "
+"ցանկացած նիշք:"
 
 #: doc_save.xhp#par_id3150984.2.help.text
 #: doc_save.xhp%23par_id3150984.2.help.text
@@ -6497,6 +6648,11 @@ msgid ""
 "in which you can enter a name, folder and drive or volume for the file. To "
 "open this dialog, choose <emph>File - Save As</emph>."
 msgstr ""
+"Երբ դուք առաջին անգամ պահում եք նոր նիշք, <link href=\""
+"text/shared/01/01070000.xhp\" name=\"Պահել որպես\">Պահել որպես</link> "
+"երկխոսությունն է բացվում, որում կարող եք նիշքի համար մուտքագրել անուն, պանակ "
+"և սկավառակ: Այս երկխոսությունը բացելու համար ընտրեք <emph>Նիշք - Պահել "
+"որպես</emph>։"
 
 #: doc_save.xhp#par_id3152472.3.help.text
 #: doc_save.xhp%23par_id3152472.3.help.text
@@ -6508,11 +6664,17 @@ msgid ""
 "text/shared/optionen/01010200.xhp\" name=\"Load/Save - General\">Load/Save - "
 "General</link></emph>."
 msgstr ""
+"Պահուստային օրինակի ինքնաշխատ ստեղծումը կարող եք սահմանել այստեղ <emph><"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - <link href=\""
+"text/shared/optionen/01010200.xhp\" name=\"Բեռնել/Պահել - Ընդհանուր\">Բեռնել/"
+"Պահել - Ընդհանուր</link></emph>։"
 
 #: doc_save.xhp#hd_id7146824.help.text
 #: doc_save.xhp%23hd_id7146824.help.text
 msgid "Automatic extension to the file name"
-msgstr ""
+msgstr "Նիշքի անվանման ինքնաշխատ ընդլայնում"
 
 #: doc_save.xhp#par_id9359111.help.text
 #: doc_save.xhp%23par_id9359111.help.text
@@ -6522,96 +6684,100 @@ msgid ""
 "file type. See the list of <link href=\"text/shared/00/00000021.xhp\">ODF "
 "extensions</link>. "
 msgstr ""
+"Երբ պահում եք նիշքը, %PRODUCTNAME միշտ նիշքի անվանմանը ընդլայնում է "
+"ավելացնում, բացառությամբ այն դեպքերի, երբ նիշքիի անունն արդեն ունի "
+"ընդլայնում, որը համապատասխանում է նիշքի տեսակին: Տեսնել ցուցակը <link href=\""
+"text/shared/00/00000021.xhp\">ODF ընդլայնումներ</link>։ "
 
 #: doc_save.xhp#par_id6709494.help.text
 #: doc_save.xhp%23par_id6709494.help.text
 msgid ""
 "Some examples for the automatic extensions are listed in the following table:"
-msgstr ""
+msgstr "Ինքնաշխատ ընդլայնման որոշ օրինակներ թվարկված են հետևյալ աղյուսակում."
 
 #: doc_save.xhp#par_id9009674.help.text
 #: doc_save.xhp%23par_id9009674.help.text
 msgid "You enter this file name"
-msgstr ""
+msgstr "Դուք մատքագրել եք նիշքի այս անունը"
 
 #: doc_save.xhp#par_id485549.help.text
 #: doc_save.xhp%23par_id485549.help.text
 msgid "You select this file type"
-msgstr ""
+msgstr "Դուք ընտրել եք նիշքի այս տեսակը"
 
 #: doc_save.xhp#par_id3987243.help.text
 #: doc_save.xhp%23par_id3987243.help.text
 msgid "File is saved with this name"
-msgstr ""
+msgstr "Նիշքը պահվել է այս անունով"
 
 #: doc_save.xhp#par_id7681814.help.text
 #: doc_save.xhp%23par_id7681814.help.text
 msgid "my file"
-msgstr ""
+msgstr "my file"
 
 #: doc_save.xhp#par_id9496749.help.text
 #: doc_save.xhp%23par_id9496749.help.text
 msgctxt "doc_save.xhp#par_id9496749.help.text"
 msgid "ODF Text"
-msgstr ""
+msgstr "ODF տեքստ"
 
 #: doc_save.xhp#par_id342417.help.text
 #: doc_save.xhp%23par_id342417.help.text
 msgctxt "doc_save.xhp#par_id342417.help.text"
 msgid "my file.odt"
-msgstr ""
+msgstr "իմ file.odt"
 
 #: doc_save.xhp#par_id5087130.help.text
 #: doc_save.xhp%23par_id5087130.help.text
 msgctxt "doc_save.xhp#par_id5087130.help.text"
 msgid "my file.odt"
-msgstr ""
+msgstr "իմ file.odt"
 
 #: doc_save.xhp#par_id7523728.help.text
 #: doc_save.xhp%23par_id7523728.help.text
 msgctxt "doc_save.xhp#par_id7523728.help.text"
 msgid "ODF Text"
-msgstr ""
+msgstr "ODF տեքստ"
 
 #: doc_save.xhp#par_id8994109.help.text
 #: doc_save.xhp%23par_id8994109.help.text
 msgctxt "doc_save.xhp#par_id8994109.help.text"
 msgid "my file.odt"
-msgstr ""
+msgstr "իմ file.odt"
 
 #: doc_save.xhp#par_id266426.help.text
 #: doc_save.xhp%23par_id266426.help.text
 msgctxt "doc_save.xhp#par_id266426.help.text"
 msgid "my file.txt"
-msgstr ""
+msgstr "իմ file.txt"
 
 #: doc_save.xhp#par_id3031098.help.text
 #: doc_save.xhp%23par_id3031098.help.text
 msgctxt "doc_save.xhp#par_id3031098.help.text"
 msgid "ODF Text"
-msgstr ""
+msgstr "ODF տեքստ"
 
 #: doc_save.xhp#par_id8276619.help.text
 #: doc_save.xhp%23par_id8276619.help.text
 msgid "my file.txt.odt"
-msgstr ""
+msgstr "իմ file.txt.odt"
 
 #: doc_save.xhp#par_id7824030.help.text
 #: doc_save.xhp%23par_id7824030.help.text
 msgctxt "doc_save.xhp#par_id7824030.help.text"
 msgid "my file.txt"
-msgstr ""
+msgstr "իմ file.txt"
 
 #: doc_save.xhp#par_id7534104.help.text
 #: doc_save.xhp%23par_id7534104.help.text
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Տեքստ (.txt)"
 
 #: doc_save.xhp#par_id209051.help.text
 #: doc_save.xhp%23par_id209051.help.text
 msgctxt "doc_save.xhp#par_id209051.help.text"
 msgid "my file.txt"
-msgstr ""
+msgstr "իմ file.txt"
 
 #: doc_save.xhp#par_id3153524.6.help.text
 #: doc_save.xhp%23par_id3153524.6.help.text
@@ -6619,6 +6785,8 @@ msgctxt "doc_save.xhp#par_id3153524.6.help.text"
 msgid ""
 "<link href=\"text/shared/01/01070000.xhp\" name=\"Save As\">Save As</link>"
 msgstr ""
+"<link href=\"text/shared/01/01070000.xhp\" name=\"Պահել որպես\">Պահել "
+"որպես</link>"
 
 #: doc_save.xhp#par_id3154140.7.help.text
 #: doc_save.xhp%23par_id3154140.7.help.text
@@ -6630,11 +6798,16 @@ msgid ""
 "text/shared/optionen/01010200.xhp\" name=\"Load/Save - General\">Load/Save - "
 "General</link>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - "
+"Նախապատվություններ</caseinline><defaultinline>Գործիքներ - "
+"Ընտրանքներ</defaultinline></switchinline> - <link href=\""
+"text/shared/optionen/01010200.xhp\" name=\"Բեռնել/Պահել - Ընդհանուր\">Բեռնել/"
+"Պահել - Ընդհանուր</link>"
 
 #: line_intext.xhp#tit.help.text
 #: line_intext.xhp%23tit.help.text
 msgid "Drawing Lines in Text"
-msgstr ""
+msgstr "Գծեր նկարելը տեքստում"
 
 #: line_intext.xhp#bm_id3143206.help.text
 #: line_intext.xhp%23bm_id3143206.help.text
@@ -6647,6 +6820,13 @@ msgid ""
 "text</bookmark_value><bookmark_value>automatic lines/borders in "
 "text</bookmark_value>"
 msgstr ""
+"<bookmark_value>arrows; drawing in text</bookmark_value><bookmark_value>"
+"indicator lines in text</bookmark_value><bookmark_value>lines; drawing in "
+"text</bookmark_value><bookmark_value>lines; removing automatic "
+"lines</bookmark_value><bookmark_value>deleting; lines in "
+"text</bookmark_value><bookmark_value>drawing lines in "
+"text</bookmark_value><bookmark_value>automatic lines/borders in "
+"text</bookmark_value>"
 
 #: line_intext.xhp#hd_id3143206.36.help.text
 #: line_intext.xhp%23hd_id3143206.36.help.text
@@ -6654,6 +6834,8 @@ msgid ""
 "<variable id=\"line_intext\"><link href=\"text/shared/guide/line_intext.xhp\""
 " name=\"Drawing Lines in Text\">Drawing Lines in Text</link></variable>"
 msgstr ""
+"<variable id=\"line_intext\"><link href=\"text/shared/guide/line_intext.xhp\""
+" name=\"Գծեր նկարելը տեքստում\">Գծեր նկարելը տեքստում</link></variable>"
 
 #: line_intext.xhp#par_id3144436.37.help.text
 #: line_intext.xhp%23par_id3144436.37.help.text
@@ -6661,6 +6843,8 @@ msgid ""
 "You can incorporate lines into your text with custom angles, width, color, "
 "and other attributes."
 msgstr ""
+"Դուք կարող եք տողեր ներառել ձեր տեքստի մեջ՝ հարմարեցված անկյուններով, "
+"լայնությամբ, գույնով և այլ հատկանիշներով:"
 
 #: line_intext.xhp#par_id3153345.39.help.text
 #: line_intext.xhp%23par_id3153345.39.help.text
@@ -6668,6 +6852,8 @@ msgid ""
 "To define the line attributes and direction, use the <emph>Line</emph> "
 "drawing object as follows:"
 msgstr ""
+"Գծի հատկությունները և ուղղությունը որոշելու համար օգտագործեք <emph>Գիծ</emph>"
+" գծագրության օբյեկտը հետևյալ կերպ."
 
 #: line_intext.xhp#par_id3156113.help.text
 #: line_intext.xhp%23par_id3156113.help.text
@@ -6676,6 +6862,9 @@ msgid ""
 "width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3166410\""
 ">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3166410\" src=\"res/commandimagelist/sc_insertdraw.png\" "
+"width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3166410\""
+">Պատկերակ</alt></image>"
 
 #: line_intext.xhp#par_id3152780.help.text
 #: line_intext.xhp%23par_id3152780.help.text
@@ -6683,12 +6872,15 @@ msgid ""
 "<image id=\"img_id3154285\" src=\"res/commandimagelist/sc_line.png\" width=\""
 "0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3154285\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3154285\" src=\"res/commandimagelist/sc_line.png\" width=\""
+"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3154285\""
+">Պատկերակ</alt></image>"
 
 #: line_intext.xhp#par_id3153254.66.help.text
 #: line_intext.xhp%23par_id3153254.66.help.text
 msgctxt "line_intext.xhp#par_id3153254.66.help.text"
 msgid "1."
-msgstr ""
+msgstr "1."
 
 #: line_intext.xhp#par_id3159400.41.help.text
 #: line_intext.xhp%23par_id3159400.41.help.text
@@ -6697,12 +6889,16 @@ msgid ""
 "the <emph>Drawing </emph>toolbar, and click the <emph>Line</emph> icon. The "
 "mouse pointer changes to a cross-hair symbol with a line beside it."
 msgstr ""
+"Ստանդարտ վահանակում կտտացրեք <emph>Ցույց տալ Draw գործառույթները </emph> "
+"պատկերակին՝ <emph>Նկարչություն </emph> գործիքագոտին բացելու համար և կտտացրեք "
+"<emph>Գիծ</emph> պատկերակին: Մկնիկի ցուցիչը փոխվում է խաչաձև նիշի, որի "
+"կողքին կա մի գիծ:"
 
 #: line_intext.xhp#par_id3156117.67.help.text
 #: line_intext.xhp%23par_id3156117.67.help.text
 msgctxt "line_intext.xhp#par_id3156117.67.help.text"
 msgid "2."
-msgstr ""
+msgstr "2."
 
 #: line_intext.xhp#par_id3152472.42.help.text
 #: line_intext.xhp%23par_id3152472.42.help.text
@@ -6712,6 +6908,10 @@ msgid ""
 "hold down the Shift key, you can draw only horizontal, vertical, and "
 "diagonal lines."
 msgstr ""
+"Ձեր փաստաթղթում կտտացրեք այնտեղ, որտեղ գիծը պետք է սկսվի: Մկնիկի կոճակը "
+"պահեք և քաշեք դեպի այն կետը, որտեղ ցանկանում եք, որ գիծն ավարտվի: Եթե դուք "
+"նույնպես պահում եք Shift ստեղնը, կարող եք գծել միայն հորիզոնական, ուղղահայաց "
+"և անկյունագծային գծեր:"
 
 #: line_intext.xhp#par_id3149294.help.text
 #: line_intext.xhp%23par_id3149294.help.text
@@ -6720,12 +6920,15 @@ msgid ""
 "width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3159413\""
 ">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3159413\" src=\"res/commandimagelist/sc_drawselect.png\" "
+"width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3159413\""
+">Պատկերակ</alt></image>"
 
 #: line_intext.xhp#par_id3151056.68.help.text
 #: line_intext.xhp%23par_id3151056.68.help.text
 msgctxt "line_intext.xhp#par_id3151056.68.help.text"
 msgid "3."
-msgstr ""
+msgstr "3."
 
 #: line_intext.xhp#par_id3153361.43.help.text
 #: line_intext.xhp%23par_id3153361.43.help.text
@@ -6734,11 +6937,15 @@ msgid ""
 "You can then draw more lines. End this function by pressing the Esc key or "
 "by clicking the <emph>Select</emph> icon from the <emph>Drawing </emph>bar."
 msgstr ""
+"Ազատեք մկնիկի կոճակը, երբ գիծը ցանկալի ուղղություն և երկարություն ունենա: "
+"Դրանից հետո կարող եք ավելի շատ գծեր գծել: Ավարտեք այս գործառույթը՝ սեղմելով "
+"Esc ստեղնը կամ սեղմելով <emph>Ընտրել</emph> պատկերակը "
+"<emph>Նկարչություն</emph> վահանակից:"
 
 #: line_intext.xhp#par_id3156422.69.help.text
 #: line_intext.xhp%23par_id3156422.69.help.text
 msgid "4."
-msgstr ""
+msgstr "4."
 
 #: line_intext.xhp#par_id3159149.44.help.text
 #: line_intext.xhp%23par_id3159149.44.help.text
@@ -6748,6 +6955,10 @@ msgid ""
 "This multiple selection enables you to assign all of them a common color, "
 "width or other attribute."
 msgstr ""
+"<emph>Ընտրել</emph> պատկերակը սեղմելուց հետո կարող եք միաժամանակ ընտրել "
+"բոլոր տողերը՝ կտտացնելով յուրաքանչյուր տող՝ միաժամանակ պահելով Shift ստեղնը: "
+"Այս բազմակի ընտրությունը հնարավորություն է տալիս բոլորին հատկացնել ընդհանուր "
+"գույն, լայնություն կամ այլ հատկանիշ:"
 
 #: line_intext.xhp#par_id3153049.38.help.text
 #: line_intext.xhp%23par_id3153049.38.help.text
@@ -6758,6 +6969,11 @@ msgid ""
 "window. If the entry for horizontal lines is not visible in the list of "
 "Paragraph Styles, select \"All Styles\" in the lower listbox."
 msgstr ""
+"Ստեղծեք հորիզոնական գիծ կիրառելով նախադրյալ պարբերության ոճը <emph>"
+"Հորիզոնական գիծ</emph>։ Կտտացրեք դատարկ պարբերության վրա և կրկնակի սեղմեք "
+"<emph>Հորիզոնական գիծ</emph> ոճը <emph>Ոճերը և ձևաչափում</emph> պատուհանում։ "
+"Եթե հորիզոնական գծերի մուտքը «Պարագրաֆների ոճերի» ցուցակում տեսանելի չէ, "
+"ներքևի ցուցակում ընտրեք «Բոլոր ոճերը»:"
 
 #: line_intext.xhp#par_id3153748.64.help.text
 #: line_intext.xhp%23par_id3153748.64.help.text
@@ -6766,11 +6982,15 @@ msgid ""
 "document by choosing <emph>Format - Paragraph - </emph><link href=\""
 "text/shared/01/05030500.xhp\" name=\"Borders\"><emph>Borders</emph></link>."
 msgstr ""
+"Կարող եք Writer տեքստի փաստաթղթում նկարել գիծ վերևում, կողքից կամ ներքևից "
+"ընտրելով <emph>Ձևաչափ - Պարբերություն - </emph><link href=\""
+"text/shared/01/05030500.xhp\" name=\"Սահմաններ\""
+"><emph>Սահմաններ</emph></link>."
 
 #: line_intext.xhp#par_idN107C6.help.text
 #: line_intext.xhp%23par_idN107C6.help.text
 msgid "Automatic lines in Writer"
-msgstr ""
+msgstr "Ինքնաշխատ գծեր Writer -ում"
 
 #: line_intext.xhp#par_idN107CC.help.text
 #: line_intext.xhp%23par_idN107CC.help.text
@@ -6779,6 +6999,9 @@ msgid ""
 "hyphen characters and press the Enter key, the characters are removed and "
 "the previous paragraph gets a line as a bottom border."
 msgstr ""
+"Եթե Writer տեքստի փաստաթղթում սկսում եք նոր տող՝ մուտքագրելով երեք կամ ավելի "
+"տողադարձի նիշեր և սեղմեք Enter ստեղնը, նիշերը հանվում են, իսկ նախորդ "
+"պարբերությունը ստանում է գիծ որպես ներքևի եզր:"
 
 #: line_intext.xhp#par_id8849452.help.text
 #: line_intext.xhp%23par_id8849452.help.text
