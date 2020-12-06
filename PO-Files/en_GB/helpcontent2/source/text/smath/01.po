@@ -6,8 +6,8 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fsmath%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-05-02 18:17+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2020-12-05 18:34+0000\n"
+"Last-Translator: Stuart Swales <sswales@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1588443446.000000\n"
+"X-POOTLE-MTIME: 1607193250.000000\n"
 
 #: 03091500.xhp#tit.help.text
 #: 03091500.xhp%23tit.help.text
@@ -1761,7 +1761,7 @@ msgid ""
 " brackets."
 msgstr ""
 "All types of brackets have the same grouping function as described for \"{}\""
-"<emph>-</emph> brackets."
+" brackets."
 
 #: 03091100.xhp#par_id3145590.9.help.text
 #: 03091100.xhp%23par_id3145590.9.help.text
@@ -1999,10 +1999,10 @@ msgid ""
 "size 12{color red{font sans{size -5 (a + {size 8 b})}}}}\"."
 msgstr ""
 "Group operations in sequence are treated as if every single operation is "
-"enclosed by braces { }. They are nested, and in every level there can be no "
-"more than one operation. Here is an example of a formula with many group "
-"operations: \"size 12 colour red font sans size -5 (a + size 8 b)\" like \"{"
-"size 12{colour red{font sans{size -5 (a + {size 8 b})}}}}\"."
+"enclosed by braces. They are nested, and in every level there can be no more "
+"than one operation. Here is an example of a formula with many group "
+"operations: \"size 12 color red font sans size -5 (a + size 8 b)\" like \"{"
+"size 12{color red{font sans{size -5 (a + {size 8 b})}}}}\"."
 
 #: 03091100.xhp#par_id3158441.38.help.text
 #: 03091100.xhp%23par_id3158441.38.help.text
@@ -2961,8 +2961,8 @@ msgid ""
 "<emph>Default</emph> button."
 msgstr ""
 "To permanently change the default size (12 pt) used in $[officename] Math, "
-"you must first set the size (for example, 11 pt) in the <emph>Base "
-"size</emph> control and then click the <emph>Default</emph> button."
+"you must first set the size (for example, 11 pt) and then click the "
+"<emph>Default</emph> button."
 
 #: 05020000.xhp#hd_id3153735.5.help.text
 #: 05020000.xhp%23hd_id3153735.5.help.text
@@ -4844,7 +4844,7 @@ msgid ""
 msgstr ""
 "<bookmark_value>selection options in "
 "formulae</bookmark_value><bookmark_value>formulae; "
-"selections</bookmark_value>"
+"selections</bookmark_value><bookmark_value>elements;in Math</bookmark_value>"
 
 #: 03090000.xhp#hd_id3155963.1.help.text
 #: 03090000.xhp%23hd_id3155963.1.help.text
@@ -4871,8 +4871,7 @@ msgid ""
 ">examples</link> show you the range of operations."
 msgstr ""
 "Some <link href=\"text/smath/01/03090900.xhp\" name=\"examples\""
-">examples</link> show you the range of operations. You can find more "
-"examples in the <emph>Samples - Formulae</emph> folder."
+">examples</link> show you the range of operations."
 
 #: 03090000.xhp#par_id3151244.6.help.text
 #: 03090000.xhp%23par_id3151244.6.help.text
@@ -8791,8 +8790,8 @@ msgid ""
 "The command <emph>liminf</emph> inserts the <emph>limit inferior</emph> with "
 "one placeholder."
 msgstr ""
-"Inserts the <emph>limes inferior</emph> with one placeholder. You can also "
-"type <emph>liminf <?></emph> directly in the <emph>Commands</emph> window."
+"The command <emph>liminf</emph> inserts the <emph>limit inferior</emph> with "
+"one placeholder."
 
 #: 03090300.xhp#par_id3154323.43.help.text
 #: 03090300.xhp%23par_id3154323.43.help.text
@@ -8800,8 +8799,8 @@ msgid ""
 "The command <emph>limsup</emph> inserts the <emph>limit superior</emph> with "
 "one placeholder."
 msgstr ""
-"Inserts the <emph>limes superior</emph> with one placeholder. You can also "
-"type <emph>limsup <?></emph> directly in the <emph>Commands</emph> window."
+"The command <emph>limsup</emph> inserts the <emph>limit superior</emph> with "
+"one placeholder."
 
 #: 03090300.xhp#par_id3146956.45.help.text
 #: 03090300.xhp%23par_id3146956.45.help.text
@@ -9563,7 +9562,9 @@ msgstr "Circle above a character"
 msgid ""
 "<bookmark_value>formulas;in color</bookmark_value><bookmark_value>colors;in "
 "formulas</bookmark_value>"
-msgstr "<bookmark_value>formulae;in colour</bookmark_value>"
+msgstr ""
+"<bookmark_value>formulae;in colour</bookmark_value><bookmark_value>colours;"
+"in formulae</bookmark_value>"
 
 #: 03091506.xhp#par_id3161843.349.help.text
 #: 03091506.xhp%23par_id3161843.349.help.text
@@ -11917,9 +11918,7 @@ msgid ""
 "<emph>overline</emph>, <emph>underline</emph> and <emph>overstrike</emph>."
 msgstr ""
 "The only attributes which grow with the length of the symbol are "
-"<emph>overline</emph>, <emph>underline</emph> and <emph>overstrike</emph>. ("
-"Also, <emph>overstrike</emph> places a horizontal line through the character "
-"and not above it.)"
+"<emph>overline</emph>, <emph>underline</emph> and <emph>overstrike</emph>."
 
 #: 03091300.xhp#par_id3151180.6.help.text
 #: 03091300.xhp%23par_id3151180.6.help.text
