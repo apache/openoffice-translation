@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Foptionen.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-12-12 15:35+0000\n"
+"PO-Revision-Date: 2020-12-13 07:17+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1607787327.000000\n"
+"X-POOTLE-MTIME: 1607843847.000000\n"
 
 #: 01110000.xhp#tit.help.text
 #: 01110000.xhp%23tit.help.text
@@ -3758,6 +3758,10 @@ msgid ""
 "words that have been marked with <emph>Ignore</emph> during spellcheck. This "
 "list is valid only for the current spellcheck. </variable>"
 msgstr ""
+"<variable id=\"ignore\"> <emph>IgnoreAllList (Բոլորը) </emph>ներառում է "
+"բոլոր բառերը, որոնք ուղղագրության ստուգման ընթացքում նշվել են "
+"<emph>Անտեսել</emph>: Այս ցուցակը վավեր է միայն ընթացիկ ուղղագրության "
+"ստուգման համար: </variable>"
 
 #: 01010400.xhp#par_id3154757.80.help.text
 #: 01010400.xhp%23par_id3154757.80.help.text
@@ -3766,12 +3770,15 @@ msgid ""
 "deleted. Only the words included as content can be deleted. This happens "
 "automatically each time that $[officename] is closed."
 msgstr ""
+"<emph>IgnoreAllList</emph> մուտքը հնարավոր չէ ընտրել և չի կարող ջնջվել: "
+"Որպես բովանդակություն պարունակվող բառերը կարող են ջնջվել: Դա տեղի է ունենում "
+"ինքնաշխատ կերպով ամեն անգամ, երբ $[officename] փակվում է:"
 
 #: 01010400.xhp#hd_id3149018.81.help.text
 #: 01010400.xhp%23hd_id3149018.81.help.text
 msgctxt "01010400.xhp#hd_id3149018.81.help.text"
 msgid "Language"
-msgstr ""
+msgstr "Լեզու"
 
 #: 01010400.xhp#par_id3154255.82.help.text
 #: 01010400.xhp%23par_id3154255.82.help.text
@@ -3779,11 +3786,13 @@ msgid ""
 "<ahelp hid=\"SVX:LISTBOX:RID_SFXDLG_EDITDICT:LB_DICTLANG\">Assigns a new "
 "language to the current custom dictionary.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:LISTBOX:RID_SFXDLG_EDITDICT:LB_DICTLANG\">Ընթացիկ անհատական "
+"բառարանին նոր լեզու է նշանակվում:</ahelp>"
 
 #: 01010400.xhp#hd_id3151189.83.help.text
 #: 01010400.xhp%23hd_id3151189.83.help.text
 msgid "Word"
-msgstr ""
+msgstr "Բառ"
 
 #: 01010400.xhp#par_id3151252.84.help.text
 #: 01010400.xhp%23par_id3151252.84.help.text
@@ -3797,11 +3806,19 @@ msgid ""
 "in the word being hyphenated, or a hyphenation suggested, where you insert "
 "the = sign."
 msgstr ""
+"<ahelp hid=\"SVX:EDIT:RID_SFXDLG_EDITDICT:ED_WORD\">Բառարանում ընդգրկելու "
+"համար կարող եք մուտքագրել նոր բառ: Ստորև ներկայացված ցուցակում կտեսնեք "
+"անհատականացված ընթացիկ բառարանի բովանդակությունը:</ahelp> Եթե այս ցուցակից "
+"բառ եք ընտրում, այն ցուցադրվում է տեքստի դաշտում: Եթե մուտքագրեք բառ վերջում "
+"= նիշով, ասենք \"Ինքնալրացում=\", բառը երբեք ինքնաշխատ կերպով չի "
+"տողադարձվում և տողադարձում չի առաջարկվում: \"Ինքնաշխատ=Ամբողջական\" "
+"մուտքագրումը հանգեցնում է այն բանին, որ բառը տողադարձվում է կամ տողադարձում "
+"է առաջարկվում, որտեղ տեղադրում եք = նշանը:"
 
 #: 01010400.xhp#hd_id3155175.85.help.text
 #: 01010400.xhp%23hd_id3155175.85.help.text
 msgid "Suggestion"
-msgstr ""
+msgstr "Առաջարկություն"
 
 #: 01010400.xhp#par_id3147323.86.help.text
 #: 01010400.xhp%23par_id3147323.86.help.text
@@ -3811,12 +3828,16 @@ msgid ""
 "the alternative suggestion for the current word in the \"Word\" text "
 "box.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:EDIT:RID_SFXDLG_EDITDICT:ED_REPLACE\">Մուտքագրման այս դաշտը "
+"մատչելի է միայն այն դեպքում, եթե դուք խմբագրում եք բացառության բառարան: "
+"Դաշտը ցույց է տալիս ընթացիկ բառի համար այլընտրանքային առաջարկը \"Բառ\" "
+"տեքստի վանդակում:</ahelp>"
 
 #: 01010400.xhp#hd_id3147361.88.help.text
 #: 01010400.xhp%23hd_id3147361.88.help.text
 msgctxt "01010400.xhp#hd_id3147361.88.help.text"
 msgid "New"
-msgstr ""
+msgstr "Նոր"
 
 #: 01010400.xhp#par_id3163808.89.help.text
 #: 01010400.xhp%23par_id3163808.89.help.text
@@ -3826,6 +3847,10 @@ msgid ""
 "The word in the <emph>Suggestion </emph>field is also added when working "
 "with exception dictionaries.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX:PUSHBUTTON:RID_SFXDLG_EDITDICT:PB_NEW_REPLACE\">Բառ է "
+"ավելացնում <emph>Բառ </emph>տեքստային դաշտում ձեր անհատականացված ընթացիկ "
+"բառարանում: <emph>Առաջարկություն </emph> դաշտում բառը ավելացվում է նաև "
+"բացառությունների բառարանների հետ աշխատելիս:</ahelp>"
 
 #: 01010400.xhp#par_id3145790.91.help.text
 #: 01010400.xhp%23par_id3145790.91.help.text
@@ -3833,6 +3858,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Removes the marked word from the "
 "current custom dictionary.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Հեռացնում է նշված բառը անհատականացված "
+"ընթացիկ բառարանից:</ahelp>"
 
 #: 01010400.xhp#par_id3151277.93.help.text
 #: 01010400.xhp%23par_id3151277.93.help.text
@@ -3840,12 +3867,14 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Deletes the selected dictionary after "
 "a confirmation, provided it is not write-protected.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Ջնջում է ընտրված բառարանը հաստատումից "
+"հետո, պայմանով, որ այն պաշտպանված չէ գրելուց:</ahelp>"
 
 #: 01010400.xhp#hd_id3149032.39.help.text
 #: 01010400.xhp%23hd_id3149032.39.help.text
 msgctxt "01010400.xhp#hd_id3149032.39.help.text"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #: 01010400.xhp#par_id3145259.40.help.text
 #: 01010400.xhp%23par_id3145259.40.help.text
@@ -3853,12 +3882,14 @@ msgid ""
 "<ahelp hid=\"HID_CLB_LINGU_OPTIONS\">Defines the options for the spellcheck "
 "and hyphenation.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_CLB_LINGU_OPTIONS\">Սահմանում է ուղղագրության և տողադարձման "
+"ընտրանքները:</ahelp>"
 
 #: 01010400.xhp#hd_id3149965.41.help.text
 #: 01010400.xhp%23hd_id3149965.41.help.text
 msgctxt "01010400.xhp#hd_id3149965.41.help.text"
 msgid "Edit"
-msgstr ""
+msgstr "Խմբագրել"
 
 #: 01010400.xhp#par_id3153231.42.help.text
 #: 01010400.xhp%23par_id3153231.42.help.text
@@ -3867,33 +3898,37 @@ msgid ""
 "want to change a value, select the entry and then click "
 "<emph>Edit</emph>.</ahelp> You will see a dialog for entering a new value."
 msgstr ""
+"<ahelp hid=\"SVX_PUSHBUTTON_RID_SFXPAGE_LINGU_PB_LINGU_OPTIONS_EDIT\">Եթե "
+"ուզում եք փոխել արժեքը, ընտրեք մուտքը և այնուհետև կտտացրեք "
+"<emph>Խմբագրել</emph>։</ahelp> Նոր արժեք մուտքագրելու համար կտեսնեք "
+"երկխոսություն:"
 
 #: 01010400.xhp#hd_id3150983.43.help.text
 #: 01010400.xhp%23hd_id3150983.43.help.text
 msgid "Check uppercase words"
-msgstr ""
+msgstr "Ստուգեք մեծատառ բառերը"
 
 #: 01010400.xhp#par_id3152582.44.help.text
 #: 01010400.xhp%23par_id3152582.44.help.text
 msgid "Specifies that capitalization is checked during spellcheck."
-msgstr ""
+msgstr "Նշում է, որ մեծատառ դարձնելը ստուգվում է ուղղագրության ընթացքում:"
 
 #: 01010400.xhp#hd_id3150826.45.help.text
 #: 01010400.xhp%23hd_id3150826.45.help.text
 msgid "Check words with numbers."
-msgstr ""
+msgstr "Ստուգիր թվերով բառերը:"
 
 #: 01010400.xhp#par_id3150208.46.help.text
 #: 01010400.xhp%23par_id3150208.46.help.text
 msgid ""
 "Specifies that words that contain numbers as well as letters are to be "
 "checked."
-msgstr ""
+msgstr "Նշում է, որ թվեր պարունակող բառերը, ինչպես նաև տառերը պետք է ստուգվեն:"
 
 #: 01010400.xhp#hd_id3147509.47.help.text
 #: 01010400.xhp%23hd_id3147509.47.help.text
 msgid "Check capitalization"
-msgstr ""
+msgstr "Ստուգել մեծատառ դարձնելը"
 
 #: 01010400.xhp#par_id3154200.48.help.text
 #: 01010400.xhp%23par_id3154200.48.help.text
@@ -3901,11 +3936,13 @@ msgid ""
 "Checks for the correct use of capitals at the start of words during "
 "spellcheck."
 msgstr ""
+"Ուղղագրության ստուգման ընթացքում բառերի սկզբում ստուգում է մեծատառերի ճիշտ "
+"օգտագործումը:"
 
 #: 01010400.xhp#hd_id3166424.49.help.text
 #: 01010400.xhp%23hd_id3166424.49.help.text
 msgid "Check special regions"
-msgstr ""
+msgstr "Ստուգեք հատուկ շրջանները"
 
 #: 01010400.xhp#par_id3150345.50.help.text
 #: 01010400.xhp%23par_id3150345.50.help.text
@@ -3913,11 +3950,13 @@ msgid ""
 "Specifies that special regions, such as drawing text, are checked during "
 "spellcheck."
 msgstr ""
+"Նշում է, որ ուղղագրության ստուգման ընթացքում ստուգվում են հատուկ շրջանները, "
+"ինչպիսիք է նկարչական տեքստը:"
 
 #: 01010400.xhp#hd_id3166429.21.help.text
 #: 01010400.xhp%23hd_id3166429.21.help.text
 msgid "Check spelling as you type"
-msgstr ""
+msgstr "Տեքստ մուտքագրելու ընթացքում ստուգել ուղղագրությունը"
 
 #: 01010400.xhp#par_id3155531.6.help.text
 #: 01010400.xhp%23par_id3155531.6.help.text
@@ -3925,6 +3964,9 @@ msgid ""
 "<variable id=\"automatisch\"><ahelp hid=\".uno:SpellOnline\">Automatically "
 "checks spelling as you type, and underlines errors.</ahelp></variable>"
 msgstr ""
+"<variable id=\"automatisch\"><ahelp hid=\".uno:SpellOnline\">Մուտքագրելիս "
+"ինքնաշխատ կերպով ստուգում է ուղղագրությունը և ընդգծում "
+"սխալները:</ahelp></variable>"
 
 #: 01010400.xhp#par_id3156291.32.help.text
 #: 01010400.xhp%23par_id3156291.32.help.text
@@ -3935,6 +3977,11 @@ msgid ""
 "word. If you make the same mistake again while editing the document, it will "
 "be marked as an error again."
 msgstr ""
+"Մուտքագրման սխալները փաստաթղթում ընդգծվում են կարմիր ընդգծմամբ: Եթե կուրսորը "
+"տեղադրեք այս եղանակով նշված բառի վրա, կարող եք բացել համատեքստային "
+"ընտրացանկը՝ ուղղումների ցուցակը ստանալու համար: Բառը փոխարինելու համար "
+"ընտրեք ուղղումը: Եթե փաստաթուղթը խմբագրելու ընթացքում կրկին կատարեք նույն "
+"սխալը, այն կրկին կնշվի որպես սխալ:"
 
 #: 01010400.xhp#par_id3153815.23.help.text
 #: 01010400.xhp%23par_id3153815.23.help.text
@@ -3947,11 +3994,18 @@ msgid ""
 "replaced and at the same time the word pair is placed in the replacement "
 "table."
 msgstr ""
+"Բառերի զույգը <link href=\"text/shared/01/06040200.xhp\" name=\"Ինքնաշտկման "
+"փոխարինման աղյուսակ\">Ինքնաշտկման փոխարինման աղյուսակ</link> տեղադրելու "
+"համար, բացեք <link href=\"text/shared/01/06040500.xhp\" name=\"Ինքնաշտկման "
+"համատեքստային ընտրացանկը\">Ինքնաշտկման համատեքստային ընտրացանկը</link>և "
+"ընտրեք <emph>Ինքնաշտկում</emph>։ Ենթանկացուցակից կատարեք ձեր ընտրությունը: "
+"Բառը փոխարինվում է, և միևնույն ժամանակ բառերի զույգը տեղադրվում է փոխարինման "
+"աղյուսակում:"
 
 #: 01010400.xhp#hd_id3150111.53.help.text
 #: 01010400.xhp%23hd_id3150111.53.help.text
 msgid "Minimal number of characters for hyphenation "
-msgstr ""
+msgstr "Նիշերի նվազագույն թիվը տողադարձման համար "
 
 #: 01010400.xhp#par_id3150316.54.help.text
 #: 01010400.xhp%23par_id3150316.54.help.text
@@ -3961,11 +4015,15 @@ msgid ""
 "\"hidden\"> Type the minimum number of characters that must come before or "
 "after the hyphen.</ahelp>"
 msgstr ""
+"Նշում է նիշերի նվազագույն քանակը, որն անհրաժեշտ է ինքնաշխատ տողադարձման "
+"համար: <ahelp hid=\"HID_LNGDLG_NUM_PREBREAK\" visibility=\"hidden\"> "
+"Մուտքագրեք նիշերի նվազագույն քանակը, որոնք պետք է լինեն տողադարձման գծիկից "
+"առաջ կամ դրանից հետո:</ahelp>"
 
 #: 01010400.xhp#hd_id3148823.11.help.text
 #: 01010400.xhp%23hd_id3148823.11.help.text
 msgid "Characters before line break"
-msgstr ""
+msgstr "Նիշեր տողի ընդմիջումից առաջ"
 
 #: 01010400.xhp#par_id3156029.12.help.text
 #: 01010400.xhp%23par_id3156029.12.help.text
@@ -3973,11 +4031,13 @@ msgid ""
 "Sets the minimum number of characters of the word to be hyphenated that must "
 "remain at the end of the line."
 msgstr ""
+"Սահմանում է տողադարձվող բառի նիշերի նվազագույն քանակը, որը պետք է մնա տողի "
+"վերջում:"
 
 #: 01010400.xhp#hd_id3154956.13.help.text
 #: 01010400.xhp%23hd_id3154956.13.help.text
 msgid "Characters after line break"
-msgstr ""
+msgstr "Նիշեր գծի ընդմիջումից հետո"
 
 #: 01010400.xhp#par_id3149439.14.help.text
 #: 01010400.xhp%23par_id3149439.14.help.text
@@ -3985,11 +4045,12 @@ msgid ""
 "Specifies the minimum number of characters of a hyphenated word required at "
 "the next line."
 msgstr ""
+"Նշում է հաջորդ տողում պահանջվող տողադարձվող բառի նիշերի նվազագույն քանակը:"
 
 #: 01010400.xhp#hd_id3156337.15.help.text
 #: 01010400.xhp%23hd_id3156337.15.help.text
 msgid "Hyphenate without inquiry"
-msgstr ""
+msgstr "Տողադարձեք առանց հարցման"
 
 #: 01010400.xhp#par_id3151130.16.help.text
 #: 01010400.xhp%23par_id3151130.16.help.text
@@ -3998,11 +4059,14 @@ msgid ""
 "field is not marked, when a word is not recognized you will be presented "
 "with a dialog for entering hyphens."
 msgstr ""
+"Հատկորոշում է, որ ձեզանից երբեք չի պահանջվի ձեռքով տողադարձում: Եթե դաշտը "
+"նշված չէ, երբ բառը չի ճանաչվում, ձեզ կներկայացվի երկխոսություն տողադարձումը "
+"մուտքագրելու համար:"
 
 #: 01010400.xhp#hd_id3155900.17.help.text
 #: 01010400.xhp%23hd_id3155900.17.help.text
 msgid "Hyphenate special regions"
-msgstr ""
+msgstr "Տողադարձեք հատուկ շրջանները"
 
 #: 01010400.xhp#par_id3155098.18.help.text
 #: 01010400.xhp%23par_id3155098.18.help.text
@@ -4010,11 +4074,13 @@ msgid ""
 "Specifies that hyphenation will also be carried out in footnotes, headers "
 "and footers."
 msgstr ""
+"Նշում է, որ տողադարձումը նույնպես իրականացվելու է տողավերջում, վերնագրերում "
+"և տողատակերում:"
 
 #: 01011000.xhp#tit.help.text
 #: 01011000.xhp%23tit.help.text
 msgid "Memory"
-msgstr ""
+msgstr "Հիշողություն"
 
 #: 01011000.xhp#bm_id3153881.help.text
 #: 01011000.xhp%23bm_id3153881.help.text
@@ -4024,6 +4090,10 @@ msgid ""
 "cache</bookmark_value><bookmark_value>cache for "
 "graphics</bookmark_value><bookmark_value>Quickstarter</bookmark_value>"
 msgstr ""
+"<bookmark_value>undoing; number of "
+"steps</bookmark_value><bookmark_value>graphics; "
+"cache</bookmark_value><bookmark_value>cache for "
+"graphics</bookmark_value><bookmark_value>Quickstarter</bookmark_value>"
 
 #: 01011000.xhp#hd_id3157909.25.help.text
 #: 01011000.xhp%23hd_id3157909.25.help.text
@@ -4031,6 +4101,8 @@ msgid ""
 "<link href=\"text/shared/optionen/01011000.xhp\" name=\"Memory\""
 ">Memory</link>"
 msgstr ""
+"<link href=\"text/shared/optionen/01011000.xhp\" name=\"Հիշողություն\""
+">Հիշողություն</link>"
 
 #: 01011000.xhp#par_id3154307.26.help.text
 #: 01011000.xhp%23par_id3154307.26.help.text
@@ -4038,21 +4110,23 @@ msgid ""
 "<ahelp hid=\".\">Defines the settings for the graphics cache and the number "
 "of steps you can undo.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Սահմանում է գրաֆիկական քեշի պարամետրերը և քայլերի քանակը, "
+"որոնք կարող եք հետարկել:</ahelp>"
 
 #: 01011000.xhp#hd_id3155390.1.help.text
 #: 01011000.xhp%23hd_id3155390.1.help.text
 msgid "Undo"
-msgstr ""
+msgstr "Ետարկել"
 
 #: 01011000.xhp#par_id3145673.2.help.text
 #: 01011000.xhp%23par_id3145673.2.help.text
 msgid "Defines the maximum number of reverse steps allowed."
-msgstr ""
+msgstr "Սահմանում է թույլատրելի հակառակ քայլերի առավելագույն քանակը:"
 
 #: 01011000.xhp#hd_id3153881.3.help.text
 #: 01011000.xhp%23hd_id3153881.3.help.text
 msgid "Number of steps"
-msgstr ""
+msgstr "Քայլերի քանակը"
 
 #: 01011000.xhp#par_id3148685.4.help.text
 #: 01011000.xhp%23par_id3148685.4.help.text
@@ -4061,11 +4135,13 @@ msgid ""
 "number of steps which can be undone by selecting a number from the "
 "list.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_ED_UNDO\">Կարող եք հետարկել "
+"այն քայլերի քանակը, որոնք հնարավոր է հետարկել՝ ցանկից ընտրելով թիվը:</ahelp>"
 
 #: 01011000.xhp#hd_id3147530.10.help.text
 #: 01011000.xhp%23hd_id3147530.10.help.text
 msgid "Graphics cache"
-msgstr ""
+msgstr "Գրաֆիկական քեշ"
 
 #: 01011000.xhp#par_id3145069.11.help.text
 #: 01011000.xhp%23par_id3145069.11.help.text
@@ -4075,11 +4151,15 @@ msgid ""
 "in the cache do not have to be re-calculated if you return to the page "
 "containing the graphic after scrolling through a document."
 msgstr ""
+"Գրաֆիկական քեշը պահպանում է ձեր համակարգչի հիմնական հիշողության մեջ "
+"փաստաթղթում պարունակվող գրաֆիկան: Սա նշանակում է, որ քեշում պահված գրաֆիկայի "
+"հատկությունները պարտադիր չէ, որ վերահաշվարկվեն, եթե փաստաթուղթում պտտվելուց "
+"հետո վերադառնաք գրաֆիկան պարունակող էջին:"
 
 #: 01011000.xhp#hd_id3154924.12.help.text
 #: 01011000.xhp%23hd_id3154924.12.help.text
 msgid "Use for $[officename] (MB)"
-msgstr ""
+msgstr "Օգտագործում $[officename] համար (ՄԲ)"
 
 #: 01011000.xhp#par_id3152813.13.help.text
 #: 01011000.xhp%23par_id3152813.13.help.text
@@ -4087,11 +4167,13 @@ msgid ""
 "<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_NF_GRAPHICCACHE\">Specifies "
 "the total cache size for all graphics.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_NF_GRAPHICCACHE\">Նշում է "
+"քեշի ընդհանուր չափը բոլոր գրաֆիկների համար:</ahelp>"
 
 #: 01011000.xhp#hd_id3150359.14.help.text
 #: 01011000.xhp%23hd_id3150359.14.help.text
 msgid "Memory per object (MB)"
-msgstr ""
+msgstr "Հիշողությունը ըստ առարկայի (ՄԲ)"
 
 #: 01011000.xhp#par_id3148797.15.help.text
 #: 01011000.xhp%23par_id3148797.15.help.text
@@ -4100,11 +4182,13 @@ msgid ""
 "Specifies that objects which are larger than the selected megabytes will not "
 "be placed in the cache.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_NF_GRAPHICOBJECTCACHE\">Նշում "
+"է, որ ընտրված մեգաբայթից մեծ առարկաները չեն տեղադրվի հիշապահեստում:</ahelp>"
 
 #: 01011000.xhp#hd_id3148920.16.help.text
 #: 01011000.xhp%23hd_id3148920.16.help.text
 msgid "Remove from memory after (hh:mm)"
-msgstr ""
+msgstr "Հեռացրեք հիշողությունից այս պահից (ժժ:րր)"
 
 #: 01011000.xhp#par_id3148674.17.help.text
 #: 01011000.xhp%23par_id3148674.17.help.text
@@ -4112,16 +4196,19 @@ msgid ""
 "<ahelp hid=\"OFFMGR_TIMEFIELD_OFA_TP_MEMORY_TF_GRAPHICOBJECTTIME\">Specifies "
 "the time that each graphic remains in the cache in hours and minutes.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_TIMEFIELD_OFA_TP_MEMORY_TF_GRAPHICOBJECTTIME\">Նշում է "
+"ժամանակը ժամերով և րոպեներով, երբ յուրաքանչյուր գրաֆիկա պահոցում է "
+"մնում:</ahelp>"
 
 #: 01011000.xhp#hd_id3156212.18.help.text
 #: 01011000.xhp%23hd_id3156212.18.help.text
 msgid "Cache for inserted objects"
-msgstr ""
+msgstr "Հիշապահոց տեղադրված առարկաների համար"
 
 #: 01011000.xhp#hd_id3147085.19.help.text
 #: 01011000.xhp%23hd_id3147085.19.help.text
 msgid "Number of objects"
-msgstr ""
+msgstr "Առարկաների քանակը"
 
 #: 01011000.xhp#par_id3153192.20.help.text
 #: 01011000.xhp%23par_id3153192.20.help.text
@@ -4129,11 +4216,13 @@ msgid ""
 "<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_NF_OLECACHE\">Choose the "
 "maximum number of OLE objects that are pooled in the cache.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_NUMERICFIELD_OFA_TP_MEMORY_NF_OLECACHE\">Ընտրեք OLE "
+"օբյեկտների առավելագույն քանակը, որոնք համակցված են պահոցում:</ahelp>"
 
 #: 01011000.xhp#hd_id3145171.21.help.text
 #: 01011000.xhp%23hd_id3145171.21.help.text
 msgid "$[officename] Quickstarter"
-msgstr ""
+msgstr "$[officename] արագ սկսող"
 
 #: 01011000.xhp#hd_id3155429.22.help.text
 #: 01011000.xhp%23hd_id3155429.22.help.text
@@ -4142,6 +4231,9 @@ msgid ""
 "during system start-up </caseinline><defaultinline>Enable systray "
 "Quickstarter</defaultinline></switchinline>"
 msgstr ""
+"<switchinline select=\"sys\"><caseinline select=\"WIN\">Համակարգի գործարկման "
+"ընթացքում բեռնեք $[officename] -ը </caseinline><defaultinline>Թույլատրել "
+"արագ գործարկման վահանակը</defaultinline></switchinline>"
 
 #: 01011000.xhp#par_id3152940.23.help.text
 #: 01011000.xhp%23par_id3152940.23.help.text
@@ -4150,16 +4242,19 @@ msgid ""
 "box if you want $[officename] to enable quickstart. This option is available "
 "if the Quickstart module has been installed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_CHECKBOX_OFA_TP_MEMORY_CB_QUICKLAUNCH\">Նշեք այս "
+"վանդակը, եթե ցանկանում եք $[officename] -ը արագ գործարկել: Այս տարբերակը "
+"հասանելի է, եթե Quickstart մոդուլը տեղադրված է:</ahelp>"
 
 #: 01150300.xhp#tit.help.text
 #: 01150300.xhp%23tit.help.text
 msgid "Complex Text Layout"
-msgstr ""
+msgstr "Բարդ տեքստի դասավորություն"
 
 #: 01150300.xhp#bm_id3148668.help.text
 #: 01150300.xhp%23bm_id3148668.help.text
 msgid "<bookmark_value>CTL; options</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CTL; ընտրանքներ</bookmark_value>"
 
 #: 01150300.xhp#hd_id3148668.3.help.text
 #: 01150300.xhp%23hd_id3148668.3.help.text
@@ -4167,6 +4262,8 @@ msgid ""
 "<link href=\"text/shared/optionen/01150300.xhp\" name=\"Complex Text Layout\""
 ">Complex Text Layout</link>"
 msgstr ""
+"<link href=\"text/shared/optionen/01150300.xhp\" name=\"Բարդ տեքստի "
+"դասավորություն\">Բարդ տեքստի դասավորություն</link>"
 
 #: 01150300.xhp#par_id3150247.4.help.text
 #: 01150300.xhp%23par_id3150247.4.help.text
@@ -4174,11 +4271,13 @@ msgid ""
 "<ahelp hid=\".\">Defines the options for documents with complex text "
 "layouts.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Սահմանում է փաստաթղթերի ընտրանքները, որոնք ունեն բարդ "
+"տեքստի դասավորություն:</ahelp>"
 
 #: 01150300.xhp#hd_id3145090.5.help.text
 #: 01150300.xhp%23hd_id3145090.5.help.text
 msgid "Sequence checking"
-msgstr ""
+msgstr "Հաջորդականության ստուգում"
 
 #: 01150300.xhp#par_id3147226.6.help.text
 #: 01150300.xhp%23par_id3147226.6.help.text
@@ -4188,11 +4287,15 @@ msgid ""
 "enabled, <item type=\"productname\">%PRODUCTNAME</item> will not allow a "
 "character next to another if this is forbidden by a rule."
 msgstr ""
+"Թաիլանդերենի նման լեզուներում կանոնները սահմանում են, որ այլ նիշերի կողքին "
+"որոշ նիշեր չեն թույլատրվում: Եթե Sequence Input Checking (SIC) միացված է, <"
+"item type=\"productname\">%PRODUCTNAME</item> -ը թույլ չի տա որևէ նիշի "
+"առկայություն մյուսի կողքին, եթե դա արգելված է կանոնով:"
 
 #: 01150300.xhp#hd_id3159234.1.help.text
 #: 01150300.xhp%23hd_id3159234.1.help.text
 msgid "Use sequence checking"
-msgstr ""
+msgstr "Օգտագործեք հաջորդականության ստուգումը"
 
 #: 01150300.xhp#par_id3157958.2.help.text
 #: 01150300.xhp%23par_id3157958.2.help.text
@@ -4200,22 +4303,26 @@ msgid ""
 "<ahelp hid=\"OFFMGR_CHECKBOX_OFA_TP_LANGUAGES_CB_SEQU_CHECK\">Enables "
 "sequence input checking for languages such as Thai.</ahelp>"
 msgstr ""
+"<ahelp hid=\"OFFMGR_CHECKBOX_OFA_TP_LANGUAGES_CB_SEQU_CHECK\">"
+"Հնարավորություն է տալիս հաջորդականության մուտքագրման ստուգում այնպիսի "
+"լեզուների համար, ինչպիսին է թայերենը:</ahelp>"
 
 #: 01150300.xhp#par_idN10691.help.text
 #: 01150300.xhp%23par_idN10691.help.text
 msgid "Restricted"
-msgstr ""
+msgstr "Սահմանափակված"
 
 #: 01150300.xhp#par_idN10695.help.text
 #: 01150300.xhp%23par_idN10695.help.text
 msgid ""
 "Prevents the use as well as the printing of illegal character combinations."
 msgstr ""
+"Կանխում է օգտագործումը, ինչպես նաև նիշերի զուգորդումների անօրինական տպումը։"
 
 #: 01150300.xhp#hd_id3166410.7.help.text
 #: 01150300.xhp%23hd_id3166410.7.help.text
 msgid "Cursor control"
-msgstr ""
+msgstr "Կուրսորի հսկիչ"
 
 #: 01150300.xhp#par_id3146797.8.help.text
 #: 01150300.xhp%23par_id3146797.8.help.text
@@ -4223,11 +4330,13 @@ msgid ""
 "Select the type of text cursor movement and text selection for mixed text "
 "(right-to-left mixed with left-to-right text direction)."
 msgstr ""
+"Ընտրեք տեքստի կուրսորի շարժման տեսակը և տեքստի ընտրությունը խառը տեքստի "
+"համար (աջից ձախ խառնված ձախից աջ տեքստի ուղղության հետ):"
 
 #: 01150300.xhp#hd_id3147653.9.help.text
 #: 01150300.xhp%23hd_id3147653.9.help.text
 msgid "Logical"
-msgstr ""
+msgstr "Տրամաբանական"
 
 #: 01150300.xhp#par_id3155342.10.help.text
 #: 01150300.xhp%23par_id3155342.10.help.text
@@ -4237,11 +4346,15 @@ msgid ""
 "current text. Pressing the Left Arrow key moves the text cursor toward the "
 "beginning of the current text.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX_RADIOBUTTON_RID_SVXPAGE_OPTIONS_CTL_RB_MOVEMENT_LOGICAL\">"
+"Աջ սլաքի ստեղնով սեղմելը տեքստի կուրսորը տեղափոխում է դեպի ընթացիկ տեքստի "
+"վերջը: Ձախ սլաքի ստեղնը սեղմելով տեքստի կուրսորը տեղափոխվում է դեպի ընթացիկ "
+"տեքստի սկիզբը:</ahelp>"
 
 #: 01150300.xhp#hd_id3145317.11.help.text
 #: 01150300.xhp%23hd_id3145317.11.help.text
 msgid "Visual"
-msgstr ""
+msgstr "Տեսողական"
 
 #: 01150300.xhp#par_id3149233.12.help.text
 #: 01150300.xhp%23par_id3149233.12.help.text
@@ -4251,16 +4364,19 @@ msgid ""
 "direction. Pressing the Left Arrow key moves the text cursor in the left-"
 "hand direction.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX_RADIOBUTTON_RID_SVXPAGE_OPTIONS_CTL_RB_MOVEMENT_VISUAL\">Աջ "
+"սլաքի ստեղնը սեղմելով տեքստի կուրսորը տեղափոխվում է աջ ուղղությամբ: Ձախ "
+"սլաքի ստեղնը սեղմելով տեքստի կուրսորը տեղափոխվում է ձախ ուղղությամբ:</ahelp>"
 
 #: 01150300.xhp#hd_id3157910.13.help.text
 #: 01150300.xhp%23hd_id3157910.13.help.text
 msgid "General options"
-msgstr ""
+msgstr "Ընդհանուր ընտրանքներ"
 
 #: 01150300.xhp#hd_id3159176.14.help.text
 #: 01150300.xhp%23hd_id3159176.14.help.text
 msgid "Numerals (in text only)"
-msgstr ""
+msgstr "Թվեր (միայն տեքստում)"
 
 #: 01150300.xhp#par_id3153254.15.help.text
 #: 01150300.xhp%23par_id3153254.15.help.text
@@ -4271,17 +4387,24 @@ msgid ""
 "contents of <item type=\"productname\">%PRODUCTNAME</item> Calc are not "
 "affected.</ahelp>"
 msgstr ""
+"<ahelp hid=\"SVX_LISTBOX_RID_SVXPAGE_OPTIONS_CTL_LB_NUMERALS\">Ընդհանուր "
+"առմամբ ընտրում է տեքստի մեջ օգտագործվող թվերի տեսակը, տեքստը առարկաներում, "
+"դաշտերում և հսկիչներում, բոլոր <item type=\"productname\">%PRODUCTNAME</item>"
+" մոդուլներում։ Միայն բջջի պարունակությունը <item type=\"productname\""
+">%PRODUCTNAME</item> Calc չեն ազդվում:</ahelp>"
 
 #: 01150300.xhp#par_id3153561.16.help.text
 #: 01150300.xhp%23par_id3153561.16.help.text
 msgid ""
 "Arabic: All numbers are shown using Arabic numerals. This is the default."
 msgstr ""
+"Արաբերեն. Բոլոր թվերը ցուցադրվում են արաբական թվանշանների միջոցով: Սա "
+"լռելյայն է:"
 
 #: 01150300.xhp#par_id3148563.17.help.text
 #: 01150300.xhp%23par_id3148563.17.help.text
 msgid "Hindi: All numbers are shown using Hindi numerals. "
-msgstr ""
+msgstr "Հինդի. Բոլոր թվերը ցուցադրվում են հինդի թվանշանների միջոցով:"
 
 #: 01150300.xhp#par_id3149295.18.help.text
 #: 01150300.xhp%23par_id3149295.18.help.text
@@ -4289,6 +4412,8 @@ msgid ""
 "System: All numbers are shown using Arabic or Hindi numerals, according to "
 "the locale settings defined by your system locale."
 msgstr ""
+"Համակարգ. Բոլոր թվերը ցուցադրվում են արաբերեն կամ հինդի թվանշաններով՝ "
+"համաձայն ձեր համակարգի տեղայինի կողմից սահմանված տեղայինի պարամետրերի:"
 
 #: 01150300.xhp#par_id3146794.19.help.text
 #: 01150300.xhp%23par_id3146794.19.help.text
@@ -4296,16 +4421,18 @@ msgid ""
 "This setting is not saved in the document but in the <item type=\""
 "productname\">%PRODUCTNAME</item> configuration."
 msgstr ""
+"Այս կարգավորումը չի պահվում փաստաթղթում, այլ <item type=\"productname\""
+">%PRODUCTNAME</item> կազմաձևում:"
 
 #: 01010500.xhp#tit.help.text
 #: 01010500.xhp%23tit.help.text
 msgid "Colors"
-msgstr ""
+msgstr "Գույներ"
 
 #: 01010500.xhp#bm_id3155132.help.text
 #: 01010500.xhp%23bm_id3155132.help.text
 msgid "<bookmark_value>colors; models</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>գույներ; մոդելներmodels</bookmark_value>"
 
 #: 01010500.xhp#hd_id3150543.1.help.text
 #: 01010500.xhp%23hd_id3150543.1.help.text
@@ -4313,6 +4440,8 @@ msgid ""
 "<link href=\"text/shared/optionen/01010500.xhp\" name=\"Colors\""
 ">Colors</link>"
 msgstr ""
+"<link href=\"text/shared/optionen/01010500.xhp\" name=\"Գույներ\""
+">Գույներ</link>"
 
 #: 01010500.xhp#par_id3153104.2.help.text
 #: 01010500.xhp%23par_id3153104.2.help.text
