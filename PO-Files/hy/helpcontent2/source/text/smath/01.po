@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fsmath%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2021-01-27 15:56+0000\n"
+"PO-Revision-Date: 2021-01-28 18:01+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1611762969.000000\n"
+"X-POOTLE-MTIME: 1611856912.000000\n"
 
 #: 03091500.xhp#tit.help.text
 #: 03091500.xhp%23tit.help.text
@@ -9255,6 +9255,12 @@ msgid ""
 "to put superscripts and subscripts in sequence, the expression can be "
 "written as follows: a_2{}^3 or a^3{}_2"
 msgstr ""
+"Ի տարբերություն բանաձևի այլ խմբագրիչների, որոնցում \"<emph>_</emph>\" և \" "
+"<emph>^</emph> \" վերաբերում է միայն հաջորդ նիշին (\"a_24\" վերաբերում է "
+"միայն \"2\"), $[officename] Math -ը վերաբերում է ամբողջ "
+"թվ(եր)ին/անուն(ներ)ին/տեքստին: Եթե ցանկանում եք վերին գրերն ու ենթագրերը "
+"դնել հաջորդականությամբ, արտահայտությունը կարող է գրվել հետևյալ կերպ. a_2{}^3 "
+"or a^3{}_2"
 
 #: 03091200.xhp#par_id3154260.15.help.text
 #: 03091200.xhp%23par_id3154260.15.help.text
@@ -9264,6 +9270,10 @@ msgid ""
 "applications, additional notations can be used, namely \"R_i{}^jk{}_l\" and "
 "\"{{R_i}^jk}_l.\""
 msgstr ""
+"Տենզորներ գրելու համար, <emph>$[officename] Math</emph> տրամադրում է մի քանի "
+"տարբերակ: Նշագրումից բացի \"R_i{}^{jk}{}_l\", այլ կիրառություններում "
+"տարածված, լրացուցիչ նշագրումներ կարող են օգտագործվել, մասնավորապես \""
+"R_i{}^jk{}_l\" և \"{{R_i}^jk}_l.\""
 
 #: 03091200.xhp#par_id3147516.16.help.text
 #: 03091200.xhp%23par_id3147516.16.help.text
@@ -9273,6 +9283,10 @@ msgid ""
 "commands have the same effect as \"sub\" and \"sup\", except that they are "
 "left of the base character. See also \"a lsub 2 lsup 3.\""
 msgstr ""
+"Վերին և ստորին գրերը բազային նիշից ձախ կարող են նաև աջ հավասարեցված լինել: "
+"Դա անելու համար օգտագործվում են \"lsub\" և \"lsup\" նոր հրամանները: Երկու "
+"հրամաններն էլ ունեն նույն ազդեցությունը, ինչ \"sub\" և \"sup\", "
+"բացառությամբ, որ դրանք բազային նիշից ձախ են: Տե՛ս նաև \"a lsub 2 lsup 3.\""
 
 #: 03091200.xhp#par_id3154276.17.help.text
 #: 03091200.xhp%23par_id3154276.17.help.text
@@ -9280,12 +9294,16 @@ msgid ""
 "The rules governing unambiguity and the necessity of using brackets remain "
 "the same. In principle, this can be achieved with <emph>{}_2^3 a</emph>."
 msgstr ""
+"Միանշանակությունը կարգավորող կանոնները և փակագծերի օգտագործման "
+"անհրաժեշտությունը մնում են նույնը: Սկզբունքորեն դրան կարելի է հասնել "
+"<emph>{}_2^3 a</emph>։"
 
 #: 03091200.xhp#par_id3152961.18.help.text
 #: 03091200.xhp%23par_id3152961.18.help.text
 msgid ""
 "The commands \"sub\" and \"sup\" are also available as \"rsub\" and \"rsup\"."
 msgstr ""
+"\"sub\" և \"sup\" հրամանները նաև հասանելի են, որպես \"rsub\" և \"rsup\"։"
 
 #: 03091200.xhp#par_id3158437.20.help.text
 #: 03091200.xhp%23par_id3158437.20.help.text
@@ -9295,6 +9313,10 @@ msgid ""
 "csup x\". Combinations of indexes and exponents together are also possible: "
 "\"abc_1^2 lsub 3 lsup 4 csub 55555 csup 66666.\""
 msgstr ""
+"Օգտագործելով \"csub\" և \"csup\" հրամանները, կարող եք գրել վերին և ներքին "
+"գրերը ուղղակի նիշից վեր կամ ներքև։ Օրինակն է, \"a csub y csup x\"։ Հնարավոր "
+"են նաև ցուցիչների և էքսպոնենտների համատեղումներ․ \"abc_1^2 lsub 3 lsup 4 "
+"csub 55555 csup 66666.\""
 
 #: 03091200.xhp#par_id3154570.21.help.text
 #: 03091200.xhp%23par_id3154570.21.help.text
@@ -9303,6 +9325,9 @@ msgid ""
 "Two examples: \"a div_2 b a<csub n b +_2 h\" and \"a toward csub f b x "
 "toward csup f y.\""
 msgstr ""
+"Վերին և ներքին գրերը կարող են կցվել մեկական և երկուական օպերատորներից "
+"շատերին։ Երկու օրինակ. \"a div_2 b a<csub n b +_2 h\" և \"a toward csub f b "
+"x toward csup f y.\""
 
 #: 03091200.xhp#par_id3155904.19.help.text
 #: 03091200.xhp%23par_id3155904.19.help.text
@@ -9310,17 +9335,19 @@ msgid ""
 "Be sure to also enter all spaces between characters when entering these "
 "examples into the <emph>Commands</emph> window."
 msgstr ""
+"Այս օրինակները <emph>Հրամաններ</emph> պատուհանում մուտքագրելիս անպայման "
+"մուտքագրեք նիշերի միջև բոլոր տարածությունները:"
 
 #: 03091505.xhp#tit.help.text
 #: 03091505.xhp%23tit.help.text
 msgctxt "03091505.xhp#tit.help.text"
 msgid "Operators"
-msgstr ""
+msgstr "Օպերատորներ"
 
 #: 03091505.xhp#bm_id3156617.help.text
 #: 03091505.xhp%23bm_id3156617.help.text
 msgid "<bookmark_value>operators;list of</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>օպերատորներ;ցուցակ</bookmark_value>"
 
 #: 03091505.xhp#hd_id1328165.help.text
 #: 03091505.xhp%23hd_id1328165.help.text
@@ -9328,24 +9355,26 @@ msgid ""
 "<variable id=\"operators\"><link href=\"text/smath/01/03091505.xhp\" name=\""
 "Operators\">Operators</link></variable>"
 msgstr ""
+"<variable id=\"operators\"><link href=\"text/smath/01/03091505.xhp\" name=\""
+"Օպերատորներ\">Օպերատորներ</link></variable>"
 
 #: 03091505.xhp#par_idN11DE4.help.text
 #: 03091505.xhp%23par_idN11DE4.help.text
 msgctxt "03091505.xhp#par_idN11DE4.help.text"
 msgid "Typed command(s)"
-msgstr ""
+msgstr "Մուտք արված հրաման(ներ)"
 
 #: 03091505.xhp#par_id3143994.484.help.text
 #: 03091505.xhp%23par_id3143994.484.help.text
 msgctxt "03091505.xhp#par_id3143994.484.help.text"
 msgid "Symbol in Elements Window"
-msgstr ""
+msgstr "Նիշ տարրերի պատուհանում"
 
 #: 03091505.xhp#par_id3144064.486.help.text
 #: 03091505.xhp%23par_id3144064.486.help.text
 msgctxt "03091505.xhp#par_id3144064.486.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 03091505.xhp#par_id3144534.help.text
 #: 03091505.xhp%23par_id3144534.help.text
@@ -9353,12 +9382,14 @@ msgid ""
 "<image id=\"img_id3144541\" src=\"starmath/res/fo21604.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3144541\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144541\" src=\"starmath/res/fo21604.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3144541\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144655.142.help.text
 #: 03091505.xhp%23par_id3144655.142.help.text
 msgctxt "03091505.xhp#par_id3144655.142.help.text"
 msgid "Coproduct"
-msgstr ""
+msgstr "Համաարտադրանք"
 
 #: 03091505.xhp#par_id3166611.help.text
 #: 03091505.xhp%23par_id3166611.help.text
@@ -9366,11 +9397,14 @@ msgid ""
 "<image id=\"img_id3166618\" src=\"starmath/res/fo21614.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3166618\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3166618\" src=\"starmath/res/fo21614.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3166618\""
+">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3166692.170.help.text
 #: 03091505.xhp%23par_id3166692.170.help.text
 msgid "Lower limit of an operator"
-msgstr ""
+msgstr "Օպերատորի ներքին սահման"
 
 #: 03091505.xhp#par_id3144681.help.text
 #: 03091505.xhp%23par_id3144681.help.text
@@ -9378,11 +9412,14 @@ msgid ""
 "<image id=\"img_id3144688\" src=\"starmath/res/fo21613.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144688\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144688\" src=\"starmath/res/fo21613.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144688\""
+">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144763.168.help.text
 #: 03091505.xhp%23par_id3144763.168.help.text
 msgid "Range from ... to"
-msgstr ""
+msgstr "Միջակայքը այստեղից ... մինչև"
 
 #: 03091505.xhp#par_id3145083.help.text
 #: 03091505.xhp%23par_id3145083.help.text
@@ -9390,11 +9427,13 @@ msgid ""
 "<image id=\"img_id3166470\" src=\"starmath/res/fo21607.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3166470\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3166470\" src=\"starmath/res/fo21607.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3166470\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3166584.158.help.text
 #: 03091505.xhp%23par_id3166584.158.help.text
 msgid "Triple integral"
-msgstr ""
+msgstr "Եռակի ինտեգրալ"
 
 #: 03091505.xhp#par_id3144936.help.text
 #: 03091505.xhp%23par_id3144936.help.text
@@ -9402,11 +9441,13 @@ msgid ""
 "<image id=\"img_id3144943\" src=\"starmath/res/fo21606.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3144943\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144943\" src=\"starmath/res/fo21606.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3144943\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3145056.156.help.text
 #: 03091505.xhp%23par_id3145056.156.help.text
 msgid "Double integral"
-msgstr ""
+msgstr "Կրկնակի ինտեգրալ"
 
 #: 03091505.xhp#par_id3144789.help.text
 #: 03091505.xhp%23par_id3144789.help.text
@@ -9414,22 +9455,24 @@ msgid ""
 "<image id=\"img_id3144796\" src=\"starmath/res/fo21605.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3144796\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144796\" src=\"starmath/res/fo21605.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3144796\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144909.154.help.text
 #: 03091505.xhp%23par_id3144909.154.help.text
 msgctxt "03091505.xhp#par_id3144909.154.help.text"
 msgid "Integral"
-msgstr ""
+msgstr "Ինտեգրալ"
 
 #: 03091505.xhp#par_id3167350.146.help.text
 #: 03091505.xhp%23par_id3167350.146.help.text
 msgid "Limes inferior"
-msgstr ""
+msgstr "Ներքին սահման"
 
 #: 03091505.xhp#par_id3167458.148.help.text
 #: 03091505.xhp%23par_id3167458.148.help.text
 msgid "Limes superior"
-msgstr ""
+msgstr "Վերին սահման"
 
 #: 03091505.xhp#par_id3166719.help.text
 #: 03091505.xhp%23par_id3166719.help.text
@@ -9437,11 +9480,13 @@ msgid ""
 "<image id=\"img_id3166725\" src=\"starmath/res/fo21609.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3166725\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3166725\" src=\"starmath/res/fo21609.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3166725\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3166839.160.help.text
 #: 03091505.xhp%23par_id3166839.160.help.text
 msgid "Curve integral"
-msgstr ""
+msgstr "Ձևավոր ինտեգրալ"
 
 #: 03091505.xhp#par_id3166866.help.text
 #: 03091505.xhp%23par_id3166866.help.text
@@ -9449,11 +9494,13 @@ msgid ""
 "<image id=\"img_id3166872\" src=\"starmath/res/fo21610.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3166872\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3166872\" src=\"starmath/res/fo21610.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3166872\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3166986.162.help.text
 #: 03091505.xhp%23par_id3166986.162.help.text
 msgid "Double curve integral"
-msgstr ""
+msgstr "Կրկնակի ձևավոր ինտեգրալ"
 
 #: 03091505.xhp#par_id3167013.help.text
 #: 03091505.xhp%23par_id3167013.help.text
@@ -9461,16 +9508,18 @@ msgid ""
 "<image id=\"img_id3167020\" src=\"starmath/res/fo21611.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3167020\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3167020\" src=\"starmath/res/fo21611.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3167020\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3167134.164.help.text
 #: 03091505.xhp%23par_id3167134.164.help.text
 msgid "Triple curve integral"
-msgstr ""
+msgstr "Եռակի ձևավոր ինտեգրալ"
 
 #: 03091505.xhp#par_id3167527.166.help.text
 #: 03091505.xhp%23par_id3167527.166.help.text
 msgid "Placeholder, user-defined operator"
-msgstr ""
+msgstr "Տեղապահ, օգտվողի սահմանած օպերատոր"
 
 #: 03091505.xhp#par_id3144387.help.text
 #: 03091505.xhp%23par_id3144387.help.text
@@ -9478,12 +9527,14 @@ msgid ""
 "<image id=\"img_id3144394\" src=\"starmath/res/fo21603.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3144394\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144394\" src=\"starmath/res/fo21603.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3144394\">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144508.140.help.text
 #: 03091505.xhp%23par_id3144508.140.help.text
 msgctxt "03091505.xhp#par_id3144508.140.help.text"
 msgid "Product"
-msgstr ""
+msgstr "Արտադրանք"
 
 #: 03091505.xhp#par_id3144240.help.text
 #: 03091505.xhp%23par_id3144240.help.text
@@ -9491,11 +9542,14 @@ msgid ""
 "<image id=\"img_id3144247\" src=\"starmath/res/fo21602.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144247\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144247\" src=\"starmath/res/fo21602.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144247\""
+">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144361.138.help.text
 #: 03091505.xhp%23par_id3144361.138.help.text
 msgid "Sum"
-msgstr ""
+msgstr "Գումար"
 
 #: 03091505.xhp#par_id3167161.help.text
 #: 03091505.xhp%23par_id3167161.help.text
@@ -9503,11 +9557,14 @@ msgid ""
 "<image id=\"img_id3167167\" src=\"starmath/res/fo21615.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167167\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3167167\" src=\"starmath/res/fo21615.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167167\""
+">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3167242.172.help.text
 #: 03091505.xhp%23par_id3167242.172.help.text
 msgid "Upper limit of an operator"
-msgstr ""
+msgstr "Օպերատորի վերին սահման"
 
 #: 03091505.xhp#par_id3144093.help.text
 #: 03091505.xhp%23par_id3144093.help.text
@@ -9515,17 +9572,20 @@ msgid ""
 "<image id=\"img_id3144100\" src=\"starmath/res/fo21601.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144100\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3144100\" src=\"starmath/res/fo21601.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3144100\""
+">Պատկերակ</alt></image>"
 
 #: 03091505.xhp#par_id3144214.144.help.text
 #: 03091505.xhp%23par_id3144214.144.help.text
 msgid "Limes"
-msgstr ""
+msgstr "Սահմաններ"
 
 #: 03090902.xhp#tit.help.text
 #: 03090902.xhp%23tit.help.text
 msgctxt "03090902.xhp#tit.help.text"
 msgid "Symbols with Indices"
-msgstr ""
+msgstr "Նիշեր ցուցիչներով"
 
 #: 03090902.xhp#hd_id3155959.1.help.text
 #: 03090902.xhp%23hd_id3155959.1.help.text
@@ -9533,6 +9593,8 @@ msgid ""
 "<link href=\"text/smath/01/03090902.xhp\" name=\"Symbols with Indices\">"
 "Symbols with Indices</link>"
 msgstr ""
+"<link href=\"text/smath/01/03090902.xhp\" name=\"Նիշեր ցուցիչներով\">Նիշեր "
+"ցուցիչներով</link>"
 
 #: 03090902.xhp#par_id3150300.2.help.text
 #: 03090902.xhp%23par_id3150300.2.help.text
@@ -9542,6 +9604,10 @@ msgid ""
 "<emph>Commands</emph> window using the clipboard and use it in your own "
 "formula."
 msgstr ""
+"Ներկայացնում ենք <emph>$[officename] Math</emph> -ում ցուցիչներով նիշեր "
+"ստեղծելու մեկ այլ օրինակ։ Այս օրինակը կարող եք պատճենել միջանկյալ "
+"հիշողության միջոցով <emph>Հրամաններ</emph> պատուհանում և օգտագործել այն ձեր "
+"սեփական բանաձևում:"
 
 #: 03090902.xhp#par_id3153912.help.text
 #: 03090902.xhp%23par_id3153912.help.text
@@ -9549,22 +9615,24 @@ msgid ""
 "<image id=\"img_id3149126\" src=\"res/helpimg/smzb2.png\" width=\"3.387cm\" "
 "height=\"2.882cm\"><alt id=\"alt_id3149126\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3149126\" src=\"res/helpimg/smzb2.png\" width=\"3.387cm\" "
+"height=\"2.882cm\"><alt id=\"alt_id3149126\">Պատկերակ</alt></image>"
 
 #: 03090902.xhp#par_id3154766.4.help.text
 #: 03090902.xhp%23par_id3154766.4.help.text
 msgid "%SIGMA_g^{{}+{}}lsup 3"
-msgstr ""
+msgstr "%SIGMA_g^{{}+{}}lsup 3"
 
 #: 03091506.xhp#tit.help.text
 #: 03091506.xhp%23tit.help.text
 msgctxt "03091506.xhp#tit.help.text"
 msgid "Attributes"
-msgstr ""
+msgstr "Հատկանիշներ"
 
 #: 03091506.xhp#bm_id3167544.help.text
 #: 03091506.xhp%23bm_id3167544.help.text
 msgid "<bookmark_value>attributes; list of</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>հատկանիշներ; ցուցակ</bookmark_value>"
 
 #: 03091506.xhp#hd_id2846156.help.text
 #: 03091506.xhp%23hd_id2846156.help.text
@@ -9572,24 +9640,26 @@ msgid ""
 "<variable id=\"attributes\"><link href=\"text/smath/01/03091506.xhp\" name=\""
 "Attributes\">Attributes</link></variable>"
 msgstr ""
+"<variable id=\"attributes\"><link href=\"text/smath/01/03091506.xhp\" name=\""
+"Հատկանիշներ\">Հատկանիշներ</link></variable>"
 
 #: 03091506.xhp#par_idN12175.help.text
 #: 03091506.xhp%23par_idN12175.help.text
 msgctxt "03091506.xhp#par_idN12175.help.text"
 msgid "Typed command(s)"
-msgstr ""
+msgstr "Մուտք արած հրաման(ներ)"
 
 #: 03091506.xhp#par_id3167610.487.help.text
 #: 03091506.xhp%23par_id3167610.487.help.text
 msgctxt "03091506.xhp#par_id3167610.487.help.text"
 msgid "Symbol in Elements Window"
-msgstr ""
+msgstr "Սիմվոլը Տարրերի պատուհանում"
 
 #: 03091506.xhp#par_id3167680.489.help.text
 #: 03091506.xhp%23par_id3167680.489.help.text
 msgctxt "03091506.xhp#par_id3167680.489.help.text"
 msgid "Meaning"
-msgstr ""
+msgstr "Իմաստ"
 
 #: 03091506.xhp#par_id3167709.help.text
 #: 03091506.xhp%23par_id3167709.help.text
@@ -9597,11 +9667,14 @@ msgid ""
 "<image id=\"img_id3167716\" src=\"starmath/res/at21701.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167716\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3167716\" src=\"starmath/res/at21701.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167716\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3167830.309.help.text
 #: 03091506.xhp%23par_id3167830.309.help.text
 msgid "Accent to top right above a character"
-msgstr ""
+msgstr "Շեշտը նիշից վեր աջ վերևում"
 
 #: 03091506.xhp#par_id3159771.help.text
 #: 03091506.xhp%23par_id3159771.help.text
@@ -9609,24 +9682,30 @@ msgid ""
 "<image id=\"img_id3159778\" src=\"starmath/res/at21705.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159778\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3159778\" src=\"starmath/res/at21705.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159778\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3159892.311.help.text
 #: 03091506.xhp%23par_id3159892.311.help.text
 msgctxt "03091506.xhp#par_id3159892.311.help.text"
 msgid "Horizontal bar above a character"
-msgstr ""
+msgstr "Հորիզոնական տող նիշից վեր"
 
 #: 03091506.xhp#par_id3161361.help.text
 msgid ""
 "<image id=\"img_id3161367\" src=\"starmath/res/at21717.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161367\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3161367\" src=\"starmath/res/at21717.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161367\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3161442.341.help.text
 #: 03091506.xhp%23par_id3161442.341.help.text
 msgctxt "03091506.xhp#par_id3161442.341.help.text"
 msgid "Bold"
-msgstr ""
+msgstr "Թավատառ"
 
 #: 03091506.xhp#par_id3168153.help.text
 #: 03091506.xhp%23par_id3168153.help.text
@@ -9634,11 +9713,13 @@ msgid ""
 "<image id=\"img_id3168160\" src=\"starmath/res/at21704.png\" width=\"0."
 "25inch\" height=\"0.25inch\"><alt id=\"alt_id3168160\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3168160\" src=\"starmath/res/at21704.png\" width=\"0."
+"25inch\" height=\"0.25inch\"><alt id=\"alt_id3168160\">վ</alt></image>"
 
 #: 03091506.xhp#par_id3168274.313.help.text
 #: 03091506.xhp%23par_id3168274.313.help.text
 msgid "Top open arc above a character"
-msgstr ""
+msgstr "Նիշից վեր վերին բաց աղեղ"
 
 #: 03091506.xhp#par_id3168006.help.text
 #: 03091506.xhp%23par_id3168006.help.text
@@ -9646,11 +9727,14 @@ msgid ""
 "<image id=\"img_id3168012\" src=\"starmath/res/at21703.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168012\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3168012\" src=\"starmath/res/at21703.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168012\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3168127.315.help.text
 #: 03091506.xhp%23par_id3168127.315.help.text
 msgid "Upside down roof"
-msgstr ""
+msgstr "Շրջված տանիք"
 
 #: 03091506.xhp#par_id3168303.help.text
 #: 03091506.xhp%23par_id3168303.help.text
@@ -9658,11 +9742,14 @@ msgid ""
 "<image id=\"img_id3168309\" src=\"starmath/res/at21709.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168309\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3168309\" src=\"starmath/res/at21709.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168309\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3168424.317.help.text
 #: 03091506.xhp%23par_id3168424.317.help.text
 msgid "Circle above a character"
-msgstr ""
+msgstr "Շրջանակ նիշի վերևում"
 
 #: 03091506.xhp#bm_id3161843.help.text
 #: 03091506.xhp%23bm_id3161843.help.text
@@ -9670,6 +9757,8 @@ msgid ""
 "<bookmark_value>formulas;in color</bookmark_value><bookmark_value>colors;in "
 "formulas</bookmark_value>"
 msgstr ""
+"<bookmark_value>բանաձևեր;գույներում</bookmark_value><bookmark_value>գույներ;բ"
+"անաձևերում</bookmark_value>"
 
 #: 03091506.xhp#par_id3161843.349.help.text
 #: 03091506.xhp%23par_id3161843.349.help.text
@@ -9680,6 +9769,12 @@ msgid ""
 "olive, lime, green, aqua, teal, blue, navy, fuchsia, purple, cyan, magenta). "
 "Then enter the characters to be changed."
 msgstr ""
+"<emph>գույն</emph> հրամանը փոխում է նիշի գույնը; նախ մուտքագրեք "
+"<emph>գույն</emph> հրամանը անմիջապես <emph>Հրամաններ</emph> պատուհանում: "
+"Դրանից հետո մուտքագրեք գույնի անվանումը (սպիտակ, արծաթագույն, մոխրագույն, "
+"սև, կարմիր, շագանակագույն, դեղին, ձիթապտղի, կրաքարի, կանաչ, ջրային, թեյի "
+"գույն, կապույտ, ծովային, ֆուչիա, մանուշակագույն, ցիան, վառ կարմիր): Դրանից "
+"հետո մուտքագրեք փոփոխման ենթակա նիշերը:"
 
 #: 03091506.xhp#par_id3161104.help.text
 #: 03091506.xhp%23par_id3161104.help.text
@@ -9687,11 +9782,14 @@ msgid ""
 "<image id=\"img_id3161111\" src=\"starmath/res/at21712.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161111\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3161111\" src=\"starmath/res/at21712.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161111\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3161225.323.help.text
 #: 03091506.xhp%23par_id3161225.323.help.text
 msgid "Three dots above a character"
-msgstr ""
+msgstr "Երեք կետ նիշից վեր"
 
 #: 03091506.xhp#par_id3160512.help.text
 #: 03091506.xhp%23par_id3160512.help.text
@@ -9699,11 +9797,14 @@ msgid ""
 "<image id=\"img_id3160519\" src=\"starmath/res/at21711.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160519\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160519\" src=\"starmath/res/at21711.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160519\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160633.321.help.text
 #: 03091506.xhp%23par_id3160633.321.help.text
 msgid "Two dots above a character"
-msgstr ""
+msgstr "Երկու կետ նիշի վերևում"
 
 #: 03091506.xhp#par_id3159919.help.text
 #: 03091506.xhp%23par_id3159919.help.text
@@ -9711,11 +9812,14 @@ msgid ""
 "<image id=\"img_id3159926\" src=\"starmath/res/at21710.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159926\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3159926\" src=\"starmath/res/at21710.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159926\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160040.319.help.text
 #: 03091506.xhp%23par_id3160040.319.help.text
 msgid "Dot above a character"
-msgstr ""
+msgstr "Կետ նիշի վերևում"
 
 #: 03091506.xhp#par_id3167857.help.text
 #: 03091506.xhp%23par_id3167857.help.text
@@ -9723,11 +9827,14 @@ msgid ""
 "<image id=\"img_id3167864\" src=\"starmath/res/at21702.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167864\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3167864\" src=\"starmath/res/at21702.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3167864\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3167978.325.help.text
 #: 03091506.xhp%23par_id3167978.325.help.text
 msgid "Accent to bottom right above a character"
-msgstr ""
+msgstr "Շեշտ ներքև աջ, նիշից վեր"
 
 #: 03091506.xhp#par_id3159622.help.text
 #: 03091506.xhp%23par_id3159622.help.text
@@ -9735,32 +9842,38 @@ msgid ""
 "<image id=\"img_id3159628\" src=\"starmath/res/at21707.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159628\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3159628\" src=\"starmath/res/at21707.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3159628\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3159743.327.help.text
 #: 03091506.xhp%23par_id3159743.327.help.text
 msgid "\"Roof\" above a character"
-msgstr ""
+msgstr "\"Տանիք\" նիշից վեր"
 
 #: 03091506.xhp#par_id3161469.help.text
 msgid ""
 "<image id=\"img_id3161476\" src=\"starmath/res/at21718.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161476\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3161476\" src=\"starmath/res/at21718.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161476\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3161550.339.help.text
 #: 03091506.xhp%23par_id3161550.339.help.text
 msgid "Italics"
-msgstr ""
+msgstr "Շեղագիր"
 
 #: 03091506.xhp#par_id3162012.367.help.text
 #: 03091506.xhp%23par_id3162012.367.help.text
 msgid "Remove the Bold attribute"
-msgstr ""
+msgstr "Հեռացրեք թավ հատկանիշը"
 
 #: 03091506.xhp#par_id3161943.365.help.text
 #: 03091506.xhp%23par_id3161943.365.help.text
 msgid "Remove the Italics attribute"
-msgstr ""
+msgstr "Հեռացրեք շեղագիր հատկանիշը"
 
 #: 03091506.xhp#par_id3160659.help.text
 #: 03091506.xhp%23par_id3160659.help.text
@@ -9768,12 +9881,15 @@ msgid ""
 "<image id=\"img_id3160666\" src=\"starmath/res/at21713.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160666\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160666\" src=\"starmath/res/at21713.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160666\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160780.335.help.text
 #: 03091506.xhp%23par_id3160780.335.help.text
 msgctxt "03091506.xhp#par_id3160780.335.help.text"
 msgid "Horizontal bar above a character"
-msgstr ""
+msgstr "Հորիզոնական տող նիշից վեր"
 
 #: 03091506.xhp#par_id3160956.help.text
 #: 03091506.xhp%23par_id3160956.help.text
@@ -9781,11 +9897,14 @@ msgid ""
 "<image id=\"img_id3160962\" src=\"starmath/res/at21715.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160962\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160962\" src=\"starmath/res/at21715.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160962\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3161077.337.help.text
 #: 03091506.xhp%23par_id3161077.337.help.text
 msgid "Horizontal bar through a character"
-msgstr ""
+msgstr "Հորիզոնական տող նիշի միջով"
 
 #: 03091506.xhp#par_id3161252.help.text
 #: 03091506.xhp%23par_id3161252.help.text
@@ -9793,11 +9912,14 @@ msgid ""
 "<image id=\"img_id3161259\" src=\"starmath/res/at21716.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161259\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3161259\" src=\"starmath/res/at21716.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3161259\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3161333.343.help.text
 #: 03091506.xhp%23par_id3161333.343.help.text
 msgid "Phantom character"
-msgstr ""
+msgstr "Թափանցիկ նիշ"
 
 #: 03091506.xhp#par_id3168599.help.text
 #: 03091506.xhp%23par_id3168599.help.text
@@ -9805,11 +9927,14 @@ msgid ""
 "<image id=\"img_id3168605\" src=\"starmath/res/at21708.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168605\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3168605\" src=\"starmath/res/at21708.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168605\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3159594.329.help.text
 #: 03091506.xhp%23par_id3159594.329.help.text
 msgid "Tilde above a character"
-msgstr ""
+msgstr "Տիլդա նիշի վերևում"
 
 #: 03091506.xhp#par_id3160808.help.text
 #: 03091506.xhp%23par_id3160808.help.text
@@ -9817,11 +9942,14 @@ msgid ""
 "<image id=\"img_id3160814\" src=\"starmath/res/at21714.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160814\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160814\" src=\"starmath/res/at21714.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160814\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160928.333.help.text
 #: 03091506.xhp%23par_id3160928.333.help.text
 msgid "Horizontal bar below a character"
-msgstr ""
+msgstr "Հորիզոնական տող նիշի ներքևում"
 
 #: 03091506.xhp#par_id3168451.help.text
 #: 03091506.xhp%23par_id3168451.help.text
@@ -9829,11 +9957,14 @@ msgid ""
 "<image id=\"img_id3168457\" src=\"starmath/res/im21106.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168457\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3168457\" src=\"starmath/res/im21106.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3168457\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3168572.331.help.text
 #: 03091506.xhp%23par_id3168572.331.help.text
 msgid "Vector arrow above a character"
-msgstr ""
+msgstr "Վեկտորային սլաք նիշի վերևում"
 
 #: 03091506.xhp#par_id3160364.help.text
 #: 03091506.xhp%23par_id3160364.help.text
@@ -9841,11 +9972,14 @@ msgid ""
 "<image id=\"img_id3160370\" src=\"starmath/res/at21722.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160370\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160370\" src=\"starmath/res/at21722.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160370\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160485.411.help.text
 #: 03091506.xhp%23par_id3160485.411.help.text
 msgid "wide roof, adjusts to the character size"
-msgstr ""
+msgstr "լայն տանիք, հարմարվում է նիշի չափին"
 
 #: 03091506.xhp#par_id3160215.help.text
 #: 03091506.xhp%23par_id3160215.help.text
@@ -9853,11 +9987,14 @@ msgid ""
 "<image id=\"img_id3160222\" src=\"starmath/res/at21723.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160222\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160222\" src=\"starmath/res/at21723.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160222\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160336.409.help.text
 #: 03091506.xhp%23par_id3160336.409.help.text
 msgid "wide tilde, adjusts to the character size"
-msgstr ""
+msgstr "լայն տիլդա, հարմարվում է նիշի չափին"
 
 #: 03091506.xhp#par_id3160067.help.text
 #: 03091506.xhp%23par_id3160067.help.text
@@ -9865,17 +10002,20 @@ msgid ""
 "<image id=\"img_id3160074\" src=\"starmath/res/at21724.png\" width=\"0."
 "3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160074\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3160074\" src=\"starmath/res/at21724.png\" width=\"0."
+"3335inch\" height=\"0.3335inch\"><alt id=\"alt_id3160074\""
+">Պատկերակ</alt></image>"
 
 #: 03091506.xhp#par_id3160188.407.help.text
 #: 03091506.xhp%23par_id3160188.407.help.text
 msgid "wide vector arrow, adjusts to the character size"
-msgstr ""
+msgstr "լայն վեկտորային սլաք, հարմարվում է նիշի չափին"
 
 #: 06010100.xhp#tit.help.text
 #: 06010100.xhp%23tit.help.text
 msgctxt "06010100.xhp#tit.help.text"
 msgid "Edit Symbols"
-msgstr ""
+msgstr "Սիմվոլների խմբագրում"
 
 #: 06010100.xhp#bm_id2123477.help.text
 #: 06010100.xhp%23bm_id2123477.help.text
@@ -9884,12 +10024,15 @@ msgid ""
 "Math</bookmark_value><bookmark_value>symbols; adding in %PRODUCTNAME "
 "Math</bookmark_value>"
 msgstr ""
+"<bookmark_value>նոր սիմվոլներ %PRODUCTNAME Math "
+"-ում</bookmark_value><bookmark_value>սիմվոլներ; ավելացնել %PRODUCTNAME Math "
+"-ում</bookmark_value>"
 
 #: 06010100.xhp#hd_id3151075.1.help.text
 #: 06010100.xhp%23hd_id3151075.1.help.text
 msgctxt "06010100.xhp#hd_id3151075.1.help.text"
 msgid "Edit Symbols"
-msgstr ""
+msgstr "Խմբագրեք սիմվոլները"
 
 #: 06010100.xhp#par_id3154513.2.help.text
 #: 06010100.xhp%23par_id3154513.2.help.text
@@ -9899,11 +10042,16 @@ msgid ""
 "notations.</ahelp> You can also define new symbol sets, assign names to "
 "symbols, or to modify existing symbol sets."
 msgstr ""
+"<ahelp hid=\"STARMATH_MODALDIALOG_RID_SYMDEFINEDIALOG\">Օգտագործեք այս "
+"երկխոսությունը նիշերի հավաքածու ավելացնելու, նիշերի խմբերը խմբագրելու կամ "
+"նիշերի նշումները փոփոխելու համար:</ahelp> Կարող եք նաև սահմանել նիշերի նոր "
+"հավաքածուներ, անուններ նշանակել նիշերին կամ փոփոխել գոյություն ունեցող "
+"նիշերի հավաքածուները:"
 
 #: 06010100.xhp#hd_id3146066.3.help.text
 #: 06010100.xhp%23hd_id3146066.3.help.text
 msgid "Old Symbol"
-msgstr ""
+msgstr "Հին սիմվոլ"
 
 #: 06010100.xhp#par_id3153965.4.help.text
 #: 06010100.xhp%23par_id3153965.4.help.text
@@ -9913,11 +10061,15 @@ msgid ""
 "that the symbol belongs to are displayed in the left preview pane at the "
 "bottom of the dialog box."
 msgstr ""
+"<ahelp hid=\"STARMATH_COMBOBOX_RID_SYMDEFINEDIALOG_1\">Ընտրեք ընթացիկ նիշի "
+"անունը:</ahelp> Նիշը, նիշի անվանումը և այն հավաքածուն, որին պատկանում է "
+"նիշը, ցուցադրվում են երկխոսության տուփի ներքևի մասում գտնվող նախադիտման ձախ "
+"պատուհանում:"
 
 #: 06010100.xhp#hd_id3154020.7.help.text
 #: 06010100.xhp%23hd_id3154020.7.help.text
 msgid "Old Symbol Set"
-msgstr ""
+msgstr "Հին սիմվոլների բազմություն"
 
 #: 06010100.xhp#par_id3150209.8.help.text
 #: 06010100.xhp%23par_id3150209.8.help.text
@@ -9926,11 +10078,14 @@ msgid ""
 "contains the name of the current symbol set. If you want, you can also "
 "select a different symbol set.</ahelp>"
 msgstr ""
+"<ahelp hid=\"STARMATH_COMBOBOX_RID_SYMDEFINEDIALOG_2\">Ցուցակային այս "
+"վանդակը պարունակում է ընթացիկ նիշերի բազմության անվանումը: Եթե ցանկանում եք, "
+"կարող եք նաև ընտրել նիշերի այլ հավաքածու:</ahelp>"
 
 #: 06010100.xhp#hd_id3145386.23.help.text
 #: 06010100.xhp%23hd_id3145386.23.help.text
 msgid "Symbol"
-msgstr ""
+msgstr "Սիմվոլ"
 
 #: 06010100.xhp#par_id3148870.25.help.text
 #: 06010100.xhp%23par_id3148870.25.help.text
@@ -9939,11 +10094,14 @@ msgid ""
 "the symbols in the current symbol set. Select a name from the list or type a "
 "name for a newly added symbol.</ahelp>"
 msgstr ""
+"<ahelp hid=\"STARMATH_COMBOBOX_RID_SYMDEFINEDIALOG_4\">Նիշերի ընթացիկ "
+"բազմությունում թվարկում է նիշերի անունները։ Ընտրեք անուն ցուցակից կամ "
+"մուտքագրեք անուն նոր ավելացված նիշի համար:</ahelp>"
 
 #: 06010100.xhp#hd_id3150215.28.help.text
 #: 06010100.xhp%23hd_id3150215.28.help.text
 msgid "Adding a New Symbol"
-msgstr ""
+msgstr "Նոր նիշի ավելացում"
 
 #: 06010100.xhp#par_id3143233.6.help.text
 #: 06010100.xhp%23par_id3143233.6.help.text
@@ -9955,11 +10113,18 @@ msgid ""
 "preview pane displays the symbol that you selected. Click <emph>Add</emph> "
 "and then <emph>OK</emph>."
 msgstr ""
+"Նիշերի հավաքածուին նիշ ավելացնելու համար <emph>Տառատեսակ</emph> վանդակում "
+"ընտրեք տառատեսակը և այնուհետև նիշերի երեսակում կտտացրեք սիմվոլի վրա: "
+"<emph>Սիմվոլ</emph> վանդակում մուտքագրեք նիշի անունը: <emph>Նշանների "
+"հավաքածու</emph> ցուցակի վանդակում ընտրեք նիշերի հավաքածու կամ մուտքագրեք "
+"նոր անուն՝ նոր նիշերի հավաքածու ստեղծելու համար: Նախադիտման աջ երեսակը "
+"ցուցադրում է ձեր ընտրած նիշը: Կտտացրեք <emph>Ավելացնել</emph> և ապա "
+"<emph>Լավ</emph>:"
 
 #: 06010100.xhp#hd_id3151389.29.help.text
 #: 06010100.xhp%23hd_id3151389.29.help.text
 msgid "Modifying the Name of a Symbol"
-msgstr ""
+msgstr "Նիշի անվան փոփոխում"
 
 #: 06010100.xhp#par_id3147296.21.help.text
 #: 06010100.xhp%23par_id3147296.21.help.text
@@ -9969,12 +10134,16 @@ msgid ""
 "box. Check whether the desired character is in the preview window before you "
 "click the <emph>Modify</emph> button. Click <emph>OK</emph>."
 msgstr ""
+"Նիշի անունը փոխելու համար, ընտրեք հին անունը <emph>Հին նիշ</emph> ցուցակի "
+"վանդակում: Դրանից հետո մուտքագրեք նոր անունը <emph>Նիշ</emph> վանդակում: "
+"Ստուգեք՝ արդյոք ցանկալի նիշը նախադիտման պատուհանում կա, մինչ կկտտացնեք "
+"<emph>Փոփոխել</emph> կոճակը: Սեղմեք <emph>Լավ</emph>:"
 
 #: 06010100.xhp#hd_id3157870.24.help.text
 #: 06010100.xhp%23hd_id3157870.24.help.text
 msgctxt "06010100.xhp#hd_id3157870.24.help.text"
 msgid "Symbol Set"
-msgstr ""
+msgstr "Նիշերի բազմություն"
 
 #: 06010100.xhp#par_id3145825.26.help.text
 #: 06010100.xhp%23par_id3145825.26.help.text
