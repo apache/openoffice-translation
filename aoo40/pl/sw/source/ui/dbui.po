@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fdbui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2020-02-19 15:04+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,280 +131,166 @@ msgstr "Tutaj wpisz treść wiadomości"
 msgid "E-Mail Message"
 msgstr "Wiadomość e-mail"
 
-#: dbui.src#DLG_DBSELECTION.modaldialog.text
-#: dbui.src%23DLG_DBSELECTION.modaldialog.text
-msgid "Database Selection"
-msgstr "Wybór bazy danych"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+msgid "Select starting document for the mail merge"
+msgstr "Wybierz dokument wyjściowy do korespondencji seryjnej"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-msgid "is being prepared for printing on"
-msgstr ": trwa przygotowywanie do druku na"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+msgid "Select the document upon which to base the mail merge document"
+msgstr ""
+"Wybierz dokument, na podstawie którego zostanie utworzona korespondencja "
+"seryjna"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-msgid "is being sent to"
-msgstr "jest przesyłane do"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+msgid "Use the current ~document"
+msgstr "~Użyj bieżącego dokumentu"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-msgid "is being saved to"
-msgstr "są zapisywane w"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+msgid "Create a ne~w document"
+msgstr "Utwórz ~nowy dokument"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
-msgid "Send-Monitor"
-msgstr "Monitor wysyłania"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+msgid "Start from ~existing document"
+msgstr "Użyj ~istniejącego dokumentu"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
-msgid "Save-Monitor"
-msgstr "monitorze zapisywania"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
+msgid "B~rowse..."
+msgstr "P~rzeglądaj..."
 
-#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
-#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
-msgid "Print monitor"
-msgstr "Monitor wydruku"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+msgid "Start from a t~emplate"
+msgstr "Użyj ~szablonu"
 
-#: dbui.src#STR_DB_EMAIL.string.text
-#: dbui.src%23STR_DB_EMAIL.string.text
-msgid "E-mail"
-msgstr "e-mail"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
+msgid "B~rowse..."
+msgstr "P~rzeglądaj..."
 
-#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
-msgid "Title"
-msgstr "Tytuł"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+msgid "Start fro~m a recently saved starting document"
+msgstr "Użyj ~jednego z ostatnio zapisanych dokumentów"
 
-#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
-msgid "First Name"
-msgstr "Imię"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+msgid "A~ddress list elements"
+msgstr "Elementy listy a~dresowej"
 
-#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
-msgid "Last Name"
-msgstr "Nazwisko"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
+msgid "~Add..."
+msgstr "Dod~aj..."
 
-#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
-msgid "Company Name"
-msgstr "Nazwa firmy"
-
-#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
-msgid "Address Line 1"
-msgstr "Linia adresu 1"
-
-#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
-msgid "Address Line 2"
-msgstr "Linia adresu 2"
-
-#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
-msgid "City"
-msgstr "Miejscowość"
-
-#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
-msgid "State"
-msgstr "Województwo"
-
-#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
-msgid "ZIP"
-msgstr "Kod pocztowy"
-
-#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
-msgid "Country"
-msgstr "Kraj"
-
-#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
-msgid "Telephone private"
-msgstr "Telefon prywatny"
-
-#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
-msgid "Telephone business"
-msgstr "Telefon służbowy"
-
-#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
-msgid "E-mail Address"
-msgstr "Adres e-mail"
-
-#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
-msgid "Gender"
-msgstr "Płeć"
-
-#: dbui.src#STR_NOTASSIGNED.string.text
-#: dbui.src%23STR_NOTASSIGNED.string.text
-msgid " not yet matched "
-msgstr " nie dostępne "
-
-#: dbui.src#STR_FILTER_ALL.string.text
-#: dbui.src%23STR_FILTER_ALL.string.text
-msgid "All files (*.*)"
-msgstr "Wszystkie pliki (*.*)"
-
-#: dbui.src#STR_FILTER_ALL_DATA.string.text
-#: dbui.src%23STR_FILTER_ALL_DATA.string.text
-msgid "Address lists(*.*)"
-msgstr "Lista adresowa(*.*)"
-
-#: dbui.src#STR_FILTER_SXB.string.text
-#: dbui.src%23STR_FILTER_SXB.string.text
-msgid "%PRODUCTNAME Base (*.odb)"
-msgstr "%PRODUCTNAME Base (*.odb)"
-
-#: dbui.src#STR_FILTER_SXC.string.text
-#: dbui.src%23STR_FILTER_SXC.string.text
-msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
-msgstr "%PRODUCTNAME Calc(*.ods;*.sxc)"
-
-#: dbui.src#STR_FILTER_DBF.string.text
-#: dbui.src%23STR_FILTER_DBF.string.text
-msgid "dBase (*.dbf)"
-msgstr "dBase (*.dbf)"
-
-#: dbui.src#STR_FILTER_XLS.string.text
-#: dbui.src%23STR_FILTER_XLS.string.text
-msgid "Microsoft Excel (*.xls)"
-msgstr "Microsoft Excel (*.xls)"
-
-#: dbui.src#STR_FILTER_TXT.string.text
-#: dbui.src%23STR_FILTER_TXT.string.text
-msgid "Plain text (*.txt)"
-msgstr "Czysty tekst (*.txt)"
-
-#: dbui.src#STR_FILTER_CSV.string.text
-#: dbui.src%23STR_FILTER_CSV.string.text
-msgid "Text Comma Separated (*.csv)"
-msgstr "Tekst rozdzielany przecinkami (*.csv)"
-
-#: dbui.src#STR_FILTER_MDB.string.text
-#: dbui.src%23STR_FILTER_MDB.string.text
-msgid "Microsoft Access (*.mdb)"
-msgstr "Microsoft Access (*.mdb)"
-
-#: dbui.src#STR_FILTER_ACCDB.string.text
-#: dbui.src%23STR_FILTER_ACCDB.string.text
-msgid "Microsoft Access 2007 (*.accdb)"
-msgstr "Microsoft Access 2007 (*.accdb)"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-msgid "Status:"
-msgstr "Stan"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-msgid "Progress:"
-msgstr "Postęp:"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-msgid "Creating documents..."
-msgstr "Utwórz nowy dokument"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-msgid "%X of %Y"
-msgstr "%X z %Y"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
-msgid "Mail Merge"
-msgstr "Korespondencja seryjna"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid "The list below shows the contents of: %1"
-msgstr "Lista poniże pokazuje zawartość: %1"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
-msgid "~Close"
-msgstr "Za~mknij"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-msgid "Mail Merge Recipients"
-msgstr "Odbiorcy korespondencji seryjnej"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-msgid "Address Information"
-msgstr "Informacje adresowe"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-msgid "~New"
-msgstr "~Nowy"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "~Usuń"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "~Znajdź"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+msgid "~Rename..."
+msgstr "~Zmień nazwę..."
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-msgid "C~ustomize..."
-msgstr "Dostos~uj..."
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-msgid "Sho~w entry number"
-msgstr "Pokaż numer wpisu"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
+msgid "Move up"
+msgstr "Przenieś w górę"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-msgid "%PRODUCTNAME Address List (.csv)"
-msgstr "Lista adresowa w programie %PRODUCTNAME (.csv)"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
-msgid "New Address List"
-msgstr "Nowa lista adresowa"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
+msgid "Move down"
+msgstr "Przenieś w dół"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-msgid "F~ind"
-msgstr "Znajdź"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+msgid "Customize Address List"
+msgstr "Dostosuj listę adresową"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-msgid "Find ~only in"
-msgstr "Szukaj tylk~o w"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+msgid "Element ~name"
+msgstr "~Nazwa elementu"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
-msgid "~Find"
-msgstr "~Znajdź"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+msgid "Rename Element"
+msgstr "Zmień nazwę elementu"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "Za~mknij"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+msgid "Add"
+msgstr "Dodaj"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
-msgid "Find Entry"
-msgstr "Znajdź wpis"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+msgid "Add Element"
+msgstr "Dodaj element"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+msgid ""
+"The file you have selected contains more than one table. Please select the "
+"table containing the address list you want to use."
+msgstr ""
+"Wybrany plik zawiera więcej niż jedną tabelę. Wybierz tabelę zawierającą "
+"listę adresową, której chcesz użyć."
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+msgid "~Preview"
+msgstr "~Podgląd"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "Nazwa"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+msgid "Type"
+msgstr "Typ"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "Tabela"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+msgid "Query"
+msgstr "Kwerenda"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+msgid "Select Table"
+msgstr "Wybierz tabelę"
 
 #: dbinsdlg.src#DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
@@ -486,6 +372,296 @@ msgstr "<brak>"
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.modaldialog.text
 msgid "Insert Database Columns"
 msgstr "Wstaw kolumny bazy danych"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+msgid "Select a document type"
+msgstr "Wybierz typ dokumentu"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+msgid "What type of document do you want to create?"
+msgstr "Jakiego typu dokument chcesz utworzyć?"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+msgid "~Letter"
+msgstr "~List"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+msgid "~E-mail message"
+msgstr "~Wiadomość e-mail"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+msgid "Letter:"
+msgstr "List:"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+msgid "E-Mail Message:"
+msgstr "Wiadomość e-mail:"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+msgid ""
+"Send letters to a group of recipients. The letters can contain an address "
+"block and a salutation. The letters can be personalized for each recipient."
+msgstr ""
+"Wyślij list do grupy odbiorców. List może zawierać adres oraz zwrot "
+"grzecznościowy. List może zostać spersonalizowany dla każdego odbiorcy."
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+msgid ""
+"Send e-mail messages to a group of recipients. The e-mail messages can "
+"contain a salutation. The e-mail messages can be personalized for each "
+"recipient."
+msgstr ""
+"Wyślij wiadomość e-mail do grupy odbiorców. Wiadomość może zawierać zwrot "
+"grzecznościowy. Wiadomość może być spersonalizowana dla każdego odbiorcy."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Preview and edit the document"
+msgstr "Podgląd i edycja dokumentu"
+
+# missing comma inserted
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+msgid ""
+"The preview of a merged document is visible now. To see the preview of "
+"another document click one of the arrows."
+msgstr ""
+"Podgląd dokumentu seryjnego jest teraz widoczny. Aby zobaczyć podgląd "
+"kolejnego dokumentu, kliknij jedną ze strzałek."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+msgid "~Recipient"
+msgstr "Odbio~rca"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+msgid "First"
+msgstr "Pierwszy"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+msgid "Next"
+msgstr "Następny"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+msgid "Last"
+msgstr "Ostatni"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+msgid "E~xclude this recipient"
+msgstr "Wyłącz tego odbiorcę"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+msgid "Edit Document"
+msgstr "Edytuj dokument"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"Write or edit your document now if you have not already done so. The changes "
+"will effect all merged documents.\n"
+"\n"
+"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
+"window so you can edit the mail merge document. After editing the document, "
+"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
+"window."
+msgstr ""
+"Jeżeli wysyłany dokument nie został dotychczas napisany lub wyedytowany, "
+"możesz to zrobić teraz. Wprowadzone zmiany będą dotyczyć wszystkich "
+"dokumentów bieżącej serii.\n"
+"\n"
+"Po kliknięciu 'Edytuj dokument...' kreator zostanie tymczasowo zredukowany "
+"do małego okna, by nie przeszkadzał w edycji dokumentu. Aby powrócić do "
+"kreatora po zakończeniu edycji, kliknij przycisk 'Powrót do kreatora "
+"korespondencji seryjnej' znajdujący się w małym oknie kreatora."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit Document..."
+msgstr "~Edytuj dokument..."
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+msgid "Address Information"
+msgstr "Informacje adresowe"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+msgid "~New"
+msgstr "~Nowy"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+msgid "~Delete"
+msgstr "~Usuń"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "~Znajdź"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+msgid "C~ustomize..."
+msgstr "Dostos~uj..."
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+msgid "Sho~w entry number"
+msgstr "Pokaż numer wpisu"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+msgid "%PRODUCTNAME Address List (.csv)"
+msgstr "Lista adresowa w programie %PRODUCTNAME (.csv)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
+msgid "New Address List"
+msgstr "Nowa lista adresowa"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+msgid "F~ind"
+msgstr "Znajdź"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+msgid "Find ~only in"
+msgstr "Szukaj tylk~o w"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
+msgid "~Find"
+msgstr "~Znajdź"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "Za~mknij"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
+msgid "Find Entry"
+msgstr "Znajdź wpis"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+msgid "The list below shows the contents of: %1"
+msgstr "Lista poniże pokazuje zawartość: %1"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
+msgid "~Close"
+msgstr "Za~mknij"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+msgid "Mail Merge Recipients"
+msgstr "Odbiorcy korespondencji seryjnej"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+msgid "Select starting document"
+msgstr "Wybierz dokument wyjściowy"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+msgid "Select document type"
+msgstr "Wybierz typ dokumentu"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
+msgid "Insert address block"
+msgstr "Wstaw adres"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+msgid "Select address list"
+msgstr "Wybierz listę adresową"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+msgid "Create salutation"
+msgstr "Utwórz zwrot grzecznościowy"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+msgid "Adjust layout"
+msgstr "Dostosuj układ"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+msgid "Edit document"
+msgstr "Edytuj dokument"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+msgid "Personalize document"
+msgstr "Personalizuj dokument"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+msgid "Save, print or send"
+msgstr "Zapisz, wydrukuj lub wyślij"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+msgid "~Finish"
+msgstr "~Zakończ"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
+msgid "Mail Merge Wizard"
+msgstr "Kreator korespondencji seryjnej"
 
 #: mmaddressblockpage.src#_ST_NONE_LIST.1.stringlist.text
 #: mmaddressblockpage.src%23_ST_NONE_LIST.1.stringlist.text
@@ -876,54 +1052,500 @@ msgstr "< brak >"
 msgid "Match Fields"
 msgstr "Dopasuj pola"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-msgid "Select a document type"
-msgstr "Wybierz typ dokumentu"
+#: mailmergechildwindow.src#WORKAROUND.#define.text
+#: mailmergechildwindow.src%23WORKAROUND.%23define.text
+msgid "Return to Mail Merge Wizard"
+msgstr "Powrót do kreatora korespondencji seryjnej"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-msgid "What type of document do you want to create?"
-msgstr "Jakiego typu dokument chcesz utworzyć?"
+#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
+#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
+msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
+msgid "Mail Merge Wizard"
+msgstr "Kreator korespondencji seryjnej"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-msgid "~Letter"
-msgstr "~List"
+#: mailmergechildwindow.src#FL_STATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
+msgid "Connection status"
+msgstr "Stan połączenia"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-msgid "~E-mail message"
-msgstr "~Wiadomość e-mail"
+#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
+#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
+msgid "The connection to the outgoing mail server has been established"
+msgstr "Ustanowione połączenie z serwerem poczty wychodzącej"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-msgid "Letter:"
-msgstr "List:"
+#: mailmergechildwindow.src#ST_SEND.string.text
+#: mailmergechildwindow.src%23ST_SEND.string.text
+msgid "Sending e-mails..."
+msgstr "Wysyłanie przesyłek e-mail..."
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-msgid "E-Mail Message:"
-msgstr "Wiadomość e-mail:"
+#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
+msgid "Transfer status"
+msgstr "Status wysyłania"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
+msgid "%1 of %2 e-mails sent"
+msgstr "wysłano %1 z %2 e-maili"
+
+#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
+#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
+msgid "Sending paused"
+msgstr "Wysyłanie zatrzymane"
+
+#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
+msgid "E-mails not sent: %1"
+msgstr "Wiadomości e-mail nie wysłane: %1"
+
+#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
+#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
+msgid "More >>"
+msgstr "Więcej >>"
+
+#: mailmergechildwindow.src#ST_LESS.string.text
+#: mailmergechildwindow.src%23ST_LESS.string.text
+msgid "<< Less"
+msgstr "<< Mniej"
+
+#: mailmergechildwindow.src#PB_STOP.pushbutton.text
+#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
+msgid "~Stop"
+msgstr "~Zatrzymaj"
+
+#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
+#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
+msgid "C~lose"
+msgstr "~Zamknij"
+
+#: mailmergechildwindow.src#ST_CONTINUE.string.text
+#: mailmergechildwindow.src%23ST_CONTINUE.string.text
+msgid "~Continue"
+msgstr "~Kontynuuj"
+
+#: mailmergechildwindow.src#.modelessdialog.text
+#: mailmergechildwindow.src%23.modelessdialog.text
+msgid "Sending E-mail messages"
+msgstr "Wysyłanie wiadomości e-mail"
+
+#: mailmergechildwindow.src#ST_TASK.string.text
+#: mailmergechildwindow.src%23ST_TASK.string.text
+msgid "Task"
+msgstr "Zadanie"
+
+#: mailmergechildwindow.src#ST_STATUS.string.text
+#: mailmergechildwindow.src%23ST_STATUS.string.text
+msgid "Status"
+msgstr "Stan"
+
+#: mailmergechildwindow.src#ST_SENDINGTO.string.text
+#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
+msgid "Sending to: %1"
+msgstr "Wysyłanie do: %1"
+
+#: mailmergechildwindow.src#ST_COMPLETED.string.text
+#: mailmergechildwindow.src%23ST_COMPLETED.string.text
+msgid "Successfully sent"
+msgstr "Wysłano poprawnie"
+
+#: mailmergechildwindow.src#ST_FAILED.string.text
+#: mailmergechildwindow.src%23ST_FAILED.string.text
+msgid "Sending failed (invalid address)"
+msgstr "Wysyłanie nie powiodło się (błędny adres)"
+
+#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
+#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
 msgid ""
-"Send letters to a group of recipients. The letters can contain an address "
-"block and a salutation. The letters can be personalized for each recipient."
+"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
+"Would you like to exit anyway?"
 msgstr ""
-"Wyślij list do grupy odbiorców. List może zawierać adres oraz zwrot "
-"grzecznościowy. List może zostać spersonalizowany dla każdego odbiorcy."
+"W skrzynce nadawczej %PRODUCTNAME wciąż znajdują się wiadomości e-mail.\n"
+"Czy zakończyć mimo to?"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+msgid "The following error occurred:"
+msgstr "Wystąpił następujący błąd:"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+msgid "Detailed information"
+msgstr "Informacja szczegółowa"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
+msgid "E-Mails could not be sent"
+msgstr "Wiadomości e-mail nie mogły zostać wysłane"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
 msgid ""
-"Send e-mail messages to a group of recipients. The e-mail messages can "
-"contain a salutation. The e-mail messages can be personalized for each "
-"recipient."
+"Select an address list. Click '%1' to select recipients from a different "
+"list. If you do not have an address list you can create one by clicking '%2'."
 msgstr ""
-"Wyślij wiadomość e-mail do grupy odbiorców. Wiadomość może zawierać zwrot "
-"grzecznościowy. Wiadomość może być spersonalizowana dla każdego odbiorcy."
+"Wybierz listę adresową. Kliknij '%1', aby wybrać odbiorców z innej listy. "
+"Jeśli nie posiadasz listy adresowej, możesz utworzyć ją teraz, klikając '%2'."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+msgid "Your recipients are currently selected from:"
+msgstr "Aktualnie odbiorcy zostali wybrani z:"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
+msgid "~Add..."
+msgstr "Dod~aj..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+msgid "~Create..."
+msgstr "~Utwórz"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+msgid "~Filter..."
+msgstr "~Filtruj..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "Edytu~j..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+msgid "Change ~Table..."
+msgstr "Zmień ~tabelę..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "Nazwa"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "Tabela"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+msgid "Connecting to data source..."
+msgstr "Łączenie ze źródłem danych..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+msgid "Select Address List"
+msgstr "Wybierz listę adresową"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+msgid "Adjust layout of address block and salutation"
+msgstr "Dostosuj układ adresu i zwrotu grzecznościowego"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+msgid "Address block position"
+msgstr "Pozycja bloku adresowego"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+msgid "Align to text body"
+msgstr "Wyrównaj do treści"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+msgid "From ~left"
+msgstr "Od ~lewej"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+msgid "~From top"
+msgstr "Od ~góry"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+msgid "Salutation position"
+msgstr "Pozycja zwrotu grzecznościowego"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
+msgid "Move"
+msgstr "Przesuń"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+msgid "~Up"
+msgstr "Do góry"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
+msgid "Move"
+msgstr "Przesuń"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+msgid "~Down"
+msgstr "W dół"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+msgid "~Zoom"
+msgstr "~Powiększenie"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+msgid "Entire page"
+msgstr "Cała strona"
+
+#: dbui.src#DLG_DBSELECTION.modaldialog.text
+#: dbui.src%23DLG_DBSELECTION.modaldialog.text
+msgid "Database Selection"
+msgstr "Wybór bazy danych"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+msgid "is being prepared for printing on"
+msgstr ": trwa przygotowywanie do druku na"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+msgid "is being sent to"
+msgstr "jest przesyłane do"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+msgid "is being saved to"
+msgstr "są zapisywane w"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
+msgid "Send-Monitor"
+msgstr "Monitor wysyłania"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
+msgid "Save-Monitor"
+msgstr "monitorze zapisywania"
+
+#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
+#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
+msgid "Print monitor"
+msgstr "Monitor wydruku"
+
+#: dbui.src#STR_DB_EMAIL.string.text
+#: dbui.src%23STR_DB_EMAIL.string.text
+msgid "E-mail"
+msgstr "e-mail"
+
+#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
+msgid "Title"
+msgstr "Tytuł"
+
+#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
+msgid "First Name"
+msgstr "Imię"
+
+#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
+msgid "Company Name"
+msgstr "Nazwa firmy"
+
+#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
+msgid "Address Line 1"
+msgstr "Linia adresu 1"
+
+#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
+msgid "Address Line 2"
+msgstr "Linia adresu 2"
+
+#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
+msgid "City"
+msgstr "Miejscowość"
+
+#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
+msgid "State"
+msgstr "Województwo"
+
+#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
+msgid "ZIP"
+msgstr "Kod pocztowy"
+
+#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
+msgid "Country"
+msgstr "Kraj"
+
+#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
+msgid "Telephone private"
+msgstr "Telefon prywatny"
+
+#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
+msgid "Telephone business"
+msgstr "Telefon służbowy"
+
+#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
+msgid "E-mail Address"
+msgstr "Adres e-mail"
+
+#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
+msgid "Gender"
+msgstr "Płeć"
+
+#: dbui.src#STR_NOTASSIGNED.string.text
+#: dbui.src%23STR_NOTASSIGNED.string.text
+msgid " not yet matched "
+msgstr " nie dostępne "
+
+#: dbui.src#STR_FILTER_ALL.string.text
+#: dbui.src%23STR_FILTER_ALL.string.text
+msgid "All files (*.*)"
+msgstr "Wszystkie pliki (*.*)"
+
+#: dbui.src#STR_FILTER_ALL_DATA.string.text
+msgid "Address lists (*.*)"
+msgstr ""
+
+#: dbui.src#STR_FILTER_SXB.string.text
+#: dbui.src%23STR_FILTER_SXB.string.text
+msgid "%PRODUCTNAME Base (*.odb)"
+msgstr "%PRODUCTNAME Base (*.odb)"
+
+#: dbui.src#STR_FILTER_SXC.string.text
+#: dbui.src%23STR_FILTER_SXC.string.text
+msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
+msgstr "%PRODUCTNAME Calc(*.ods;*.sxc)"
+
+#: dbui.src#STR_FILTER_DBF.string.text
+#: dbui.src%23STR_FILTER_DBF.string.text
+msgid "dBase (*.dbf)"
+msgstr "dBase (*.dbf)"
+
+#: dbui.src#STR_FILTER_XLS.string.text
+#: dbui.src%23STR_FILTER_XLS.string.text
+msgid "Microsoft Excel (*.xls)"
+msgstr "Microsoft Excel (*.xls)"
+
+#: dbui.src#STR_FILTER_TXT.string.text
+#: dbui.src%23STR_FILTER_TXT.string.text
+msgid "Plain text (*.txt)"
+msgstr "Czysty tekst (*.txt)"
+
+#: dbui.src#STR_FILTER_CSV.string.text
+#: dbui.src%23STR_FILTER_CSV.string.text
+msgid "Text Comma Separated (*.csv)"
+msgstr "Tekst rozdzielany przecinkami (*.csv)"
+
+#: dbui.src#STR_FILTER_MDB.string.text
+#: dbui.src%23STR_FILTER_MDB.string.text
+msgid "Microsoft Access (*.mdb)"
+msgstr "Microsoft Access (*.mdb)"
+
+#: dbui.src#STR_FILTER_ACCDB.string.text
+#: dbui.src%23STR_FILTER_ACCDB.string.text
+msgid "Microsoft Access 2007 (*.accdb)"
+msgstr "Microsoft Access 2007 (*.accdb)"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+msgid "Status:"
+msgstr "Stan"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+msgid "Progress:"
+msgstr "Postęp:"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+msgid "Creating documents..."
+msgstr "Utwórz nowy dokument"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+msgid "%X of %Y"
+msgstr "%X z %Y"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
+msgid "Mail Merge"
+msgstr "Korespondencja seryjna"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Personalize the mail merge documents"
+msgstr "Personalizuj dokumenty korespondencji seryjnej"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"You can personalize particular documents. Clicking '%1' will temporarily "
+"reduce the wizard to a small window so you can edit your document. After "
+"editing the document, return to the wizard by clicking 'Return to Mail Merge "
+"Wizard' in the small window."
+msgstr ""
+"Możesz spersonalizować poszczególne dokumenty. Po kliknięciu '%1' kreator "
+"zostanie tymczasowo zredukowany do małego okna, by nie przeszkadzał w edycji "
+"dokumentu. Aby powrócić do kreatora po zakończeniu edycji, kliknij przycisk "
+"'Powrót do kreatora korespondencji seryjnej' znajdujący się w małym oknie "
+"kreatora."
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit individual document..."
+msgstr "~Edytuj indywidualny dokument..."
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
+msgid "~Find"
+msgstr "~Znajdź"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+msgid "~Search for:"
+msgstr "~Szukaj:"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "~Znajdź"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+msgid "Whole wor~ds only"
+msgstr "Tylko całe słowa"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+msgid "Back~wards"
+msgstr "Wstecz"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+msgid "Ma~tch case"
+msgstr "Uwzględniaj wielkość liter"
 
 #: mmoutputpage.src#DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
 #: mmoutputpage.src%23DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
@@ -1170,626 +1792,3 @@ msgstr "Dokument o nazwie '%1' już istnieje. Zapisz dokument pod inną nazwą."
 #: mmoutputpage.src%23DLG_MM_SAVEWARNING.FT_FILENAME.fixedtext.text
 msgid "New document name"
 msgstr "Nowa nazwa dokumentu"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-msgid "Select starting document"
-msgstr "Wybierz dokument wyjściowy"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-msgid "Select document type"
-msgstr "Wybierz typ dokumentu"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
-msgid "Insert address block"
-msgstr "Wstaw adres"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-msgid "Select address list"
-msgstr "Wybierz listę adresową"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-msgid "Create salutation"
-msgstr "Utwórz zwrot grzecznościowy"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-msgid "Adjust layout"
-msgstr "Dostosuj układ"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-msgid "Edit document"
-msgstr "Edytuj dokument"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-msgid "Personalize document"
-msgstr "Personalizuj dokument"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-msgid "Save, print or send"
-msgstr "Zapisz, wydrukuj lub wyślij"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-msgid "~Finish"
-msgstr "~Zakończ"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
-msgid "Mail Merge Wizard"
-msgstr "Kreator korespondencji seryjnej"
-
-#: mailmergechildwindow.src#WORKAROUND.#define.text
-#: mailmergechildwindow.src%23WORKAROUND.%23define.text
-msgid "Return to Mail Merge Wizard"
-msgstr "Powrót do kreatora korespondencji seryjnej"
-
-#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
-#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
-msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
-msgid "Mail Merge Wizard"
-msgstr "Kreator korespondencji seryjnej"
-
-#: mailmergechildwindow.src#FL_STATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
-msgid "Connection status"
-msgstr "Stan połączenia"
-
-#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
-#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
-msgid "The connection to the outgoing mail server has been established"
-msgstr "Ustanowione połączenie z serwerem poczty wychodzącej"
-
-#: mailmergechildwindow.src#ST_SEND.string.text
-#: mailmergechildwindow.src%23ST_SEND.string.text
-msgid "Sending e-mails..."
-msgstr "Wysyłanie przesyłek e-mail..."
-
-#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
-msgid "Transfer status"
-msgstr "Status wysyłania"
-
-#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
-msgid "%1 of %2 e-mails sent"
-msgstr "wysłano %1 z %2 e-maili"
-
-#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
-#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
-msgid "Sending paused"
-msgstr "Wysyłanie zatrzymane"
-
-#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
-msgid "E-mails not sent: %1"
-msgstr "Wiadomości e-mail nie wysłane: %1"
-
-#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
-#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
-msgid "More >>"
-msgstr "Więcej >>"
-
-#: mailmergechildwindow.src#ST_LESS.string.text
-#: mailmergechildwindow.src%23ST_LESS.string.text
-msgid "<< Less"
-msgstr "<< Mniej"
-
-#: mailmergechildwindow.src#PB_STOP.pushbutton.text
-#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
-msgid "~Stop"
-msgstr "~Zatrzymaj"
-
-#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
-#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
-msgid "C~lose"
-msgstr "~Zamknij"
-
-#: mailmergechildwindow.src#ST_CONTINUE.string.text
-#: mailmergechildwindow.src%23ST_CONTINUE.string.text
-msgid "~Continue"
-msgstr "~Kontynuuj"
-
-#: mailmergechildwindow.src#.modelessdialog.text
-#: mailmergechildwindow.src%23.modelessdialog.text
-msgid "Sending E-mail messages"
-msgstr "Wysyłanie wiadomości e-mail"
-
-#: mailmergechildwindow.src#ST_TASK.string.text
-#: mailmergechildwindow.src%23ST_TASK.string.text
-msgid "Task"
-msgstr "Zadanie"
-
-#: mailmergechildwindow.src#ST_STATUS.string.text
-#: mailmergechildwindow.src%23ST_STATUS.string.text
-msgid "Status"
-msgstr "Stan"
-
-#: mailmergechildwindow.src#ST_SENDINGTO.string.text
-#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
-msgid "Sending to: %1"
-msgstr "Wysyłanie do: %1"
-
-#: mailmergechildwindow.src#ST_COMPLETED.string.text
-#: mailmergechildwindow.src%23ST_COMPLETED.string.text
-msgid "Successfully sent"
-msgstr "Wysłano poprawnie"
-
-#: mailmergechildwindow.src#ST_FAILED.string.text
-#: mailmergechildwindow.src%23ST_FAILED.string.text
-msgid "Sending failed (invalid address)"
-msgstr "Wysyłanie nie powiodło się (błędny adres)"
-
-#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
-#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
-msgid ""
-"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
-"Would you like to exit anyway?"
-msgstr ""
-"W skrzynce nadawczej %PRODUCTNAME wciąż znajdują się wiadomości e-mail.\n"
-"Czy zakończyć mimo to?"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-msgid "The following error occurred:"
-msgstr "Wystąpił następujący błąd:"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-msgid "Detailed information"
-msgstr "Informacja szczegółowa"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
-msgid "E-Mails could not be sent"
-msgstr "Wiadomości e-mail nie mogły zostać wysłane"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid ""
-"Select an address list. Click '%1' to select recipients from a different "
-"list. If you do not have an address list you can create one by clicking '%2'."
-msgstr ""
-"Wybierz listę adresową. Kliknij '%1', aby wybrać odbiorców z innej listy. "
-"Jeśli nie posiadasz listy adresowej, możesz utworzyć ją teraz, klikając '%2'."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-msgid "Your recipients are currently selected from:"
-msgstr "Aktualnie odbiorcy zostali wybrani z:"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
-msgid "~Add..."
-msgstr "Dod~aj..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-msgid "~Create..."
-msgstr "~Utwórz"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-msgid "~Filter..."
-msgstr "~Filtruj..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "Edytu~j..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-msgid "Change ~Table..."
-msgstr "Zmień ~tabelę..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "Nazwa"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "Tabela"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-msgid "Connecting to data source..."
-msgstr "Łączenie ze źródłem danych..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-msgid "Select Address List"
-msgstr "Wybierz listę adresową"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-msgid "A~ddress list elements"
-msgstr "Elementy listy a~dresowej"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
-msgid "~Add..."
-msgstr "Dod~aj..."
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "~Usuń"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-msgid "~Rename..."
-msgstr "~Zmień nazwę..."
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
-msgid "Move up"
-msgstr "Przenieś w górę"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
-msgid "Move down"
-msgstr "Przenieś w dół"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-msgid "Customize Address List"
-msgstr "Dostosuj listę adresową"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-msgid "Element ~name"
-msgstr "~Nazwa elementu"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-msgid "Rename Element"
-msgstr "Zmień nazwę elementu"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-msgid "Add"
-msgstr "Dodaj"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-msgid "Add Element"
-msgstr "Dodaj element"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-msgid "Adjust layout of address block and salutation"
-msgstr "Dostosuj układ adresu i zwrotu grzecznościowego"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-msgid "Address block position"
-msgstr "Pozycja bloku adresowego"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-msgid "Align to text body"
-msgstr "Wyrównaj do treści"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-msgid "From ~left"
-msgstr "Od ~lewej"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-msgid "~From top"
-msgstr "Od ~góry"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-msgid "Salutation position"
-msgstr "Pozycja zwrotu grzecznościowego"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
-msgid "Move"
-msgstr "Przesuń"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-msgid "~Up"
-msgstr "Do góry"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
-msgid "Move"
-msgstr "Przesuń"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-msgid "~Down"
-msgstr "W dół"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-msgid "~Zoom"
-msgstr "~Powiększenie"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-msgid "Entire page"
-msgstr "Cała strona"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Personalize the mail merge documents"
-msgstr "Personalizuj dokumenty korespondencji seryjnej"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"You can personalize particular documents. Clicking '%1' will temporarily "
-"reduce the wizard to a small window so you can edit your document. After "
-"editing the document, return to the wizard by clicking 'Return to Mail Merge "
-"Wizard' in the small window."
-msgstr ""
-"Możesz spersonalizować poszczególne dokumenty. Po kliknięciu '%1' kreator "
-"zostanie tymczasowo zredukowany do małego okna, by nie przeszkadzał w edycji "
-"dokumentu. Aby powrócić do kreatora po zakończeniu edycji, kliknij przycisk "
-"'Powrót do kreatora korespondencji seryjnej' znajdujący się w małym oknie "
-"kreatora."
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit individual document..."
-msgstr "~Edytuj indywidualny dokument..."
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
-msgid "~Find"
-msgstr "~Znajdź"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-msgid "~Search for:"
-msgstr "~Szukaj:"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "~Znajdź"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-msgid "Whole wor~ds only"
-msgstr "Tylko całe słowa"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-msgid "Back~wards"
-msgstr "Wstecz"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-msgid "Ma~tch case"
-msgstr "Uwzględniaj wielkość liter"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Preview and edit the document"
-msgstr "Podgląd i edycja dokumentu"
-
-# missing comma inserted
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-msgid ""
-"The preview of a merged document is visible now. To see the preview of "
-"another document click one of the arrows."
-msgstr ""
-"Podgląd dokumentu seryjnego jest teraz widoczny. Aby zobaczyć podgląd "
-"kolejnego dokumentu, kliknij jedną ze strzałek."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-msgid "~Recipient"
-msgstr "Odbio~rca"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-msgid "First"
-msgstr "Pierwszy"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-msgid "Previous"
-msgstr "Poprzedni"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-msgid "Next"
-msgstr "Następny"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-msgid "Last"
-msgstr "Ostatni"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-msgid "E~xclude this recipient"
-msgstr "Wyłącz tego odbiorcę"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-msgid "Edit Document"
-msgstr "Edytuj dokument"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"Write or edit your document now if you have not already done so. The changes "
-"will effect all merged documents.\n"
-"\n"
-"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
-"window so you can edit the mail merge document. After editing the document, "
-"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
-"window."
-msgstr ""
-"Jeżeli wysyłany dokument nie został dotychczas napisany lub wyedytowany, "
-"możesz to zrobić teraz. Wprowadzone zmiany będą dotyczyć wszystkich "
-"dokumentów bieżącej serii.\n"
-"\n"
-"Po kliknięciu 'Edytuj dokument...' kreator zostanie tymczasowo zredukowany "
-"do małego okna, by nie przeszkadzał w edycji dokumentu. Aby powrócić do "
-"kreatora po zakończeniu edycji, kliknij przycisk 'Powrót do kreatora "
-"korespondencji seryjnej' znajdujący się w małym oknie kreatora."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit Document..."
-msgstr "~Edytuj dokument..."
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-msgid ""
-"The file you have selected contains more than one table. Please select the "
-"table containing the address list you want to use."
-msgstr ""
-"Wybrany plik zawiera więcej niż jedną tabelę. Wybierz tabelę zawierającą "
-"listę adresową, której chcesz użyć."
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-msgid "~Preview"
-msgstr "~Podgląd"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "Nazwa"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-msgid "Type"
-msgstr "Typ"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "Tabela"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-msgid "Query"
-msgstr "Kwerenda"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-msgid "Select Table"
-msgstr "Wybierz tabelę"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-msgid "Select starting document for the mail merge"
-msgstr "Wybierz dokument wyjściowy do korespondencji seryjnej"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-msgid "Select the document upon which to base the mail merge document"
-msgstr ""
-"Wybierz dokument, na podstawie którego zostanie utworzona korespondencja "
-"seryjna"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-msgid "Use the current ~document"
-msgstr "~Użyj bieżącego dokumentu"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-msgid "Create a ne~w document"
-msgstr "Utwórz ~nowy dokument"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-msgid "Start from ~existing document"
-msgstr "Użyj ~istniejącego dokumentu"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
-msgid "B~rowse..."
-msgstr "P~rzeglądaj..."
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-msgid "Start from a t~emplate"
-msgstr "Użyj ~szablonu"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
-msgid "B~rowse..."
-msgstr "P~rzeglądaj..."
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-msgid "Start fro~m a recently saved starting document"
-msgstr "Użyj ~jednego z ostatnio zapisanych dokumentów"
