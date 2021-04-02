@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-27 11:08+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,15 +38,11 @@ msgstr ""
 "להעלות לשרת Wiki."
 
 #: wikiformats.xhp#par_id5630664.help.text
-#: wikiformats.xhp%23par_id5630664.help.text
 msgid ""
-"The OpenDocument format used by Writer and the WikiMedia format are quite "
+"The OpenDocument format used by Writer and the MediaWiki format are quite "
 "different. Only a subset of all features can be transformed from one format "
 "to the other."
 msgstr ""
-"פורמטים של מסמךפתוח-OpenDocument בשימוש על ידי  ווריטר-Writer ופורמט "
-"ויקימדיה הם שונים לגמרי. רק קבוצת משנה של כל התכונות נתנת להפיכה מתבנית אחת "
-"לשנייה."
 
 #: wikiformats.xhp#hd_id7178868.help.text
 #: wikiformats.xhp%23hd_id7178868.help.text
@@ -174,16 +170,12 @@ msgid "Images"
 msgstr "תמונות"
 
 #: wikiformats.xhp#par_id3541673.help.text
-#: wikiformats.xhp%23par_id3541673.help.text
 msgid ""
 "Images cannot be exported by a transformation producing a single file of "
 "Wiki text. However, if the image is already uploaded to the target Wiki "
-"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
+"domain (e.g. WikiMedia Commons), then the transformation produces a valid "
 "image tag that includes the image. Image captions are also supported."
 msgstr ""
-"לא ניתן לייצא תמונות בזמן המרה שמייצרת קובץ יחיד של טקסט Wiki. עם זאת, אם "
-"התמונה פורסמה כבר באתר ה-Wiki (למשל, WikiMedia Commons), ההמרה תייצר תג "
-"תמונה שיכיל את התמונה. קיימת תמיכה גם בכתוביות תמונה."
 
 #: wikiformats.xhp#hd_id2162236.help.text
 #: wikiformats.xhp%23hd_id2162236.help.text
@@ -207,15 +199,11 @@ msgid "Joined Cells"
 msgstr "תאים מצורפים"
 
 #: wikiformats.xhp#par_id8253730.help.text
-#: wikiformats.xhp%23par_id8253730.help.text
 msgid ""
-"OpenDocument and especially OpenOffice.org represent tables that have joined "
+"OpenDocument and especially OpenOffice represent tables that have joined "
 "cells that span rows as tables with nested tables. In contrast, the wiki "
-"model of table is to declare column and row spans for such joined cells. "
+"model of table is to declare column and row spans for such joined cells."
 msgstr ""
-"OpenDocument ובמיוחד OpenOffice.org מייצג טבלות  המכילים תאים מצורפים "
-"שמשתרעים על פני שורות כמו טבלותעם טבלאות מקוננות. לעומת זאת, המודל של ויקי "
-"שולחן הוא להכריז תוחלת עמודות ושורות לתאים הצטרפו כאלה."
 
 #: wikiformats.xhp#par_id8163090.help.text
 #: wikiformats.xhp%23par_id8163090.help.text
@@ -230,14 +218,11 @@ msgid "Borders"
 msgstr "מסגרות"
 
 #: wikiformats.xhp#par_id1831110.help.text
-#: wikiformats.xhp%23par_id1831110.help.text
 msgid ""
 "Irrespective of custom table styles for border and background, a table is "
-"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
+"always exported as <emph>\"prettytable\"</emph>, which renders in the Wiki "
 "engine with simple borders and bold header."
 msgstr ""
-"טבלה מיוצאת תמיד כ-<emph>\"prettytable\"</emph>, ללא תלות בסגנונות רקע "
-"ומסגרות שקבעת. ה-Wiki יתרגם זאת לטבלה עם מסגרות פשוטות וכותרת מודגשת."
 
 #: wikiformats.xhp#hd_id6255073.help.text
 #: wikiformats.xhp%23hd_id6255073.help.text
@@ -263,76 +248,165 @@ msgstr ""
 "ההמרה גם בדפדפן אינטרנט כמו Firefox ושם להחליף את הקידוד ל-UTF-8. כעת, ניתן "
 "לגזור ולהדביק את תוצאת ההמרה בכל תוכנה לבחירתך. "
 
-#: wikisend.xhp#tit.help.text
-#: wikisend.xhp%23tit.help.text
-msgctxt "wikisend.xhp#tit.help.text"
-msgid "Send to MediaWiki"
-msgstr "שלח ל-MediaWiki"
+#: wikiaccount.xhp#tit.help.text
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "מדיה־ויקי"
 
-#: wikisend.xhp#hd_id108340.help.text
-#: wikisend.xhp%23hd_id108340.help.text
-msgctxt "wikisend.xhp#hd_id108340.help.text"
-msgid "Send to MediaWiki"
-msgstr "שלח ל-MediaWiki"
+#: wikiaccount.xhp#hd_id960722.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "מדיה־ויקי"
 
-#: wikisend.xhp#par_id1743827.help.text
-#: wikisend.xhp%23par_id1743827.help.text
+#: wikiaccount.xhp#par_id4571672.help.text
+#: wikiaccount.xhp%23par_id4571672.help.text
 msgid ""
-"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
-"upload."
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
 msgstr ""
-"בתיבת הדיאלוג \"שלח ל-MediaWiki\", יש לציין את הגדרות הפרסום ב-Wiki שלך."
+"ניתן להשתמש בדו־שיח של מדיה־ויקי כדי להוסיף או לערוך את הגדרות החשבון "
+"במדיה־ויקי."
 
-#: wikisend.xhp#par_id664082.help.text
-#: wikisend.xhp%23par_id664082.help.text
+#: wikiaccount.xhp#par_id7631458.help.text
+#: wikiaccount.xhp%23par_id7631458.help.text
 msgid ""
-"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
-"document. Click Add to add a new server to the list.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with http://</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">יש לבחור את שרת ה-MediaWiki אליו יפורסם המסמך שלך. לחיצה על "
-"\"הוסף\" תוסיף את השרת לרשימה.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">נא להזין את כתובת שרת המדיה־ויקי "
+"המתחילה ב־http://</ahelp>"
 
-#: wikisend.xhp#par_id2794885.help.text
-#: wikisend.xhp%23par_id2794885.help.text
+#: wikiaccount.xhp#par_id7862483.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
 msgid ""
-"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
-"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
-"If you enter an existing title, your upload will overwrite the existing Wiki "
-"entry.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">יש להקליד כותרת לפריט ה-Wiki שלך. היא תופיע ככותרת בחלק "
-"העליון של הפריט. הכותרת חייבת להיות ייחודית, אם מדובר בפריט חדש. אם הכותרת "
-"אינה ייחודית, פרסום זה יחליף את הפריט הקיים ב-Wiki.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">הזן את שם המשתמש שלך על שרת המדיה־"
+"ויקי. השאר את השדה ריק להתחברות אנונימית.</ahelp>"
 
-#: wikisend.xhp#par_id2486342.help.text
-#: wikisend.xhp%23par_id2486342.help.text
+#: wikiaccount.xhp#par_id1113010.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
 msgid ""
-"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
-"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">באפשרותך להקליד סיכום קצר או הערה.</ahelp> ר' <link href=\""
-"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">הזן את הסיסמה לשרת המדיה־ויקי. השאר "
+"את השדה ריק להתחברות אנונימית.</ahelp>"
 
-#: wikisend.xhp#par_id823999.help.text
-#: wikisend.xhp%23par_id823999.help.text
+#: wikiaccount.xhp#par_id656758.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
 msgid ""
-"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
-"the uploaded page as a minor edit of the already existing page with the same "
-"title.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
 msgstr ""
-"<emph>זוהי עריכה זניחה</emph>: <ahelp hid=\".\">סימון בתיבת-סימון זו יציין "
-"את העמוד המפורסם כעריכה לא משמעותית של דף קיים בעל אותה כותרת.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">מאפשר לשמור סיסמאות בין הפעלות שונות. "
+"אפשרות סיסמת האב צריכה להיות פעילה, ראה <item type=\"menuitem\">כלים - "
+"אפשרויות - %PRODUCTNAME - אבטחה</item>.</ahelp>"
 
-#: wikisend.xhp#par_id6592913.help.text
-#: wikisend.xhp%23par_id6592913.help.text
+#: wikiaccount.xhp#par_id3112582.help.text
+#: wikiaccount.xhp%23par_id3112582.help.text
 msgid ""
-"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
-"your system web browser and show the uploaded Wiki page.</ahelp>"
+"Enter the Internet address of a Wiki server in a format like "
+"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
 msgstr ""
-"<emph>הצג בדפדפן אינטרנט</emph>: <ahelp hid=\".\">סימון זה ייפתח את דפדפן "
-"האינטרנט של המערכת שלך ויציג את דף ה-Wiki שפורסם.</ahelp>"
+"הכנס את כתובת האינטרנט של שרת Wiki כמו http://wiki.services.openoffice.org/"
+"wiki או העתק את כתובת השרת מדפדפן אינטרנט."
+
+#: wikiaccount.xhp#par_id628070.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
+msgid ""
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
+msgstr ""
+"אם ויקי מאפשר גישה אנונימית, אתה יכול להשאיר את תיבות טקסט החשבון ריקות. או "
+"להזין את שם המשתמש והסיסמה שלך."
+
+#: wikiaccount.xhp#par_id9046601.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
+msgid ""
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
+msgstr ""
+"אם הפעלת סיסמה ראשית בלשונית 'אבטחה' דרך כלים – אפשרויות – תיבת-שיח של "
+"‎%PRODUCTNAME‏, התוכנה יכולה לשמור את הסיסמה שלך, ובעת הצורך להוסיף את "
+"הנתונים באופן אוטומטי. הפעל את \"שמור סיסמה\" כדי לשמור את הסיסמה שלך."
+
+#: wikisettings.xhp#tit.help.text
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "אפשרויות MediaWiki"
+
+#: wikisettings.xhp#hd_id6425672.help.text
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "אפשרויות MediaWiki"
+
+#: wikisettings.xhp#par_id1188390.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
+msgid ""
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
+msgstr ""
+"באפשרותך להוסיף, לערוך או להסיר שרתי MediaWiki. יש לפתוח את תיבת הדיאלוג דרך "
+"התפריט <item type=\"menuitem\">כלים - אפשרויות - אינטרנט - MediaWiki‏</item>"
+". לחילופין, אפשר לבחור ב-<item type=\"menuitem\">כלים - מנהל ההרחבות</item>, "
+"לבחור את @WIKIEXTENSIONPRODUCTNAME@, וללחוץ על כפתור אפשרויות."
+
+#: wikisettings.xhp#par_id300607.help.text
+#: wikisettings.xhp%23par_id300607.help.text
+msgid ""
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\">לחיצה על \"הוסף\" תוסיף שרת Wiki חדש.<br/>כדי לערוך את "
+"הגדרות החשבון יש לסמן פריט וללחוץ על \"ערוך\".<br/>כדי להסיר פריט מהרשימה יש "
+"לסמן אותו וללחוץ על \"הסר\".</ahelp>"
+
+#: wikisettings.xhp#par_id9786065.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">פותח את תיבת הדיאלוג של MediaWiki כדי "
+"להוסיף פריט חדש לרשימה.</ahelp>"
+
+#: wikisettings.xhp#par_id3386333.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">פותח את תיבת הדיאלוג של MediaWiki כדי "
+"לערוך את הפריט שנבחר.</ahelp>"
+
+#: wikisettings.xhp#par_id7285073.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">מסיר את הפריט שנבחר מהרשימה.</ahelp>"
+
+#: wikisettings.xhp#par_id1029084.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
+msgid ""
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
+msgstr ""
+"לחיצה על \"הוסף\" או \"ערוך\" תפתח את תיבת הדיאלוג <link href=\""
+"@WIKIEXTENSIONID@/wikiaccount.xhp\">‎MediaWiki</link>."
 
 #: wiki.xhp#tit.help.text
 #: wiki.xhp%23tit.help.text
@@ -399,13 +473,10 @@ msgid "Java Runtime Environment 1.4"
 msgstr "סביבת זמן ריצה של ג'אווה 1.4"
 
 #: wiki.xhp#par_id7387615.help.text
-#: wiki.xhp%23par_id7387615.help.text
 msgid ""
-"A Wiki account on a supported <link href=\"http://www.mediawiki.org/wiki/"
+"A Wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/"
 "MediaWiki\">MediaWiki</link> server"
 msgstr ""
-"חשבון Wiki על שרת <link href=\"http://www.mediawiki.org/wiki/MediaWiki\""
-">MediaWiki</link> נתמך."
 
 #: wiki.xhp#hd_id8047120.help.text
 #: wiki.xhp%23hd_id8047120.help.text
@@ -678,162 +749,73 @@ msgstr ""
 msgid "Click Send."
 msgstr "הקש שלח"
 
-#: wikisettings.xhp#tit.help.text
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "אפשרויות MediaWiki"
+#: wikisend.xhp#tit.help.text
+#: wikisend.xhp%23tit.help.text
+msgctxt "wikisend.xhp#tit.help.text"
+msgid "Send to MediaWiki"
+msgstr "שלח ל-MediaWiki"
 
-#: wikisettings.xhp#hd_id6425672.help.text
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "אפשרויות MediaWiki"
+#: wikisend.xhp#hd_id108340.help.text
+#: wikisend.xhp%23hd_id108340.help.text
+msgctxt "wikisend.xhp#hd_id108340.help.text"
+msgid "Send to MediaWiki"
+msgstr "שלח ל-MediaWiki"
 
-#: wikisettings.xhp#par_id1188390.help.text
-#: wikisettings.xhp%23par_id1188390.help.text
+#: wikisend.xhp#par_id1743827.help.text
+#: wikisend.xhp%23par_id1743827.help.text
 msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
+"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
+"upload."
 msgstr ""
-"באפשרותך להוסיף, לערוך או להסיר שרתי MediaWiki. יש לפתוח את תיבת הדיאלוג דרך "
-"התפריט <item type=\"menuitem\">כלים - אפשרויות - אינטרנט - MediaWiki‏</item>"
-". לחילופין, אפשר לבחור ב-<item type=\"menuitem\">כלים - מנהל ההרחבות</item>, "
-"לבחור את @WIKIEXTENSIONPRODUCTNAME@, וללחוץ על כפתור אפשרויות."
+"בתיבת הדיאלוג \"שלח ל-MediaWiki\", יש לציין את הגדרות הפרסום ב-Wiki שלך."
 
-#: wikisettings.xhp#par_id300607.help.text
-#: wikisettings.xhp%23par_id300607.help.text
+#: wikisend.xhp#par_id664082.help.text
+#: wikisend.xhp%23par_id664082.help.text
 msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
+"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
+"document. Click Add to add a new server to the list.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">לחיצה על \"הוסף\" תוסיף שרת Wiki חדש.<br/>כדי לערוך את "
-"הגדרות החשבון יש לסמן פריט וללחוץ על \"ערוך\".<br/>כדי להסיר פריט מהרשימה יש "
-"לסמן אותו וללחוץ על \"הסר\".</ahelp>"
+"<ahelp hid=\".\">יש לבחור את שרת ה-MediaWiki אליו יפורסם המסמך שלך. לחיצה על "
+"\"הוסף\" תוסיף את השרת לרשימה.</ahelp>"
 
-#: wikisettings.xhp#par_id9786065.help.text
-#: wikisettings.xhp%23par_id9786065.help.text
+#: wikisend.xhp#par_id2794885.help.text
+#: wikisend.xhp%23par_id2794885.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
+"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
+"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
+"If you enter an existing title, your upload will overwrite the existing Wiki "
+"entry.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">פותח את תיבת הדיאלוג של MediaWiki כדי "
-"להוסיף פריט חדש לרשימה.</ahelp>"
+"<ahelp hid=\".\">יש להקליד כותרת לפריט ה-Wiki שלך. היא תופיע ככותרת בחלק "
+"העליון של הפריט. הכותרת חייבת להיות ייחודית, אם מדובר בפריט חדש. אם הכותרת "
+"אינה ייחודית, פרסום זה יחליף את הפריט הקיים ב-Wiki.</ahelp>"
 
-#: wikisettings.xhp#par_id3386333.help.text
-#: wikisettings.xhp%23par_id3386333.help.text
+#: wikisend.xhp#par_id2486342.help.text
+#: wikisend.xhp%23par_id2486342.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
+"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
+"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">פותח את תיבת הדיאלוג של MediaWiki כדי "
-"לערוך את הפריט שנבחר.</ahelp>"
+"<ahelp hid=\".\">באפשרותך להקליד סיכום קצר או הערה.</ahelp> ר' <link href=\""
+"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 
-#: wikisettings.xhp#par_id7285073.help.text
-#: wikisettings.xhp%23par_id7285073.help.text
+#: wikisend.xhp#par_id823999.help.text
+#: wikisend.xhp%23par_id823999.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
+"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
+"the uploaded page as a minor edit of the already existing page with the same "
+"title.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">מסיר את הפריט שנבחר מהרשימה.</ahelp>"
+"<emph>זוהי עריכה זניחה</emph>: <ahelp hid=\".\">סימון בתיבת-סימון זו יציין "
+"את העמוד המפורסם כעריכה לא משמעותית של דף קיים בעל אותה כותרת.</ahelp>"
 
-#: wikisettings.xhp#par_id1029084.help.text
-#: wikisettings.xhp%23par_id1029084.help.text
+#: wikisend.xhp#par_id6592913.help.text
+#: wikisend.xhp%23par_id6592913.help.text
 msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
+"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
+"your system web browser and show the uploaded Wiki page.</ahelp>"
 msgstr ""
-"לחיצה על \"הוסף\" או \"ערוך\" תפתח את תיבת הדיאלוג <link href=\""
-"@WIKIEXTENSIONID@/wikiaccount.xhp\">‎MediaWiki</link>."
-
-#: wikiaccount.xhp#tit.help.text
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "מדיה־ויקי"
-
-#: wikiaccount.xhp#hd_id960722.help.text
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "מדיה־ויקי"
-
-#: wikiaccount.xhp#par_id4571672.help.text
-#: wikiaccount.xhp%23par_id4571672.help.text
-msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
-msgstr ""
-"ניתן להשתמש בדו־שיח של מדיה־ויקי כדי להוסיף או לערוך את הגדרות החשבון "
-"במדיה־ויקי."
-
-#: wikiaccount.xhp#par_id7631458.help.text
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">נא להזין את כתובת שרת המדיה־ויקי "
-"המתחילה ב־http://</ahelp>"
-
-#: wikiaccount.xhp#par_id7862483.help.text
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">הזן את שם המשתמש שלך על שרת המדיה־"
-"ויקי. השאר את השדה ריק להתחברות אנונימית.</ahelp>"
-
-#: wikiaccount.xhp#par_id1113010.help.text
-#: wikiaccount.xhp%23par_id1113010.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">הזן את הסיסמה לשרת המדיה־ויקי. השאר "
-"את השדה ריק להתחברות אנונימית.</ahelp>"
-
-#: wikiaccount.xhp#par_id656758.help.text
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">מאפשר לשמור סיסמאות בין הפעלות שונות. "
-"אפשרות סיסמת האב צריכה להיות פעילה, ראה <item type=\"menuitem\">כלים - "
-"אפשרויות - %PRODUCTNAME - אבטחה</item>.</ahelp>"
-
-#: wikiaccount.xhp#par_id3112582.help.text
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"הכנס את כתובת האינטרנט של שרת Wiki כמו http://wiki.services.openoffice.org/"
-"wiki או העתק את כתובת השרת מדפדפן אינטרנט."
-
-#: wikiaccount.xhp#par_id628070.help.text
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"אם ויקי מאפשר גישה אנונימית, אתה יכול להשאיר את תיבות טקסט החשבון ריקות. או "
-"להזין את שם המשתמש והסיסמה שלך."
-
-#: wikiaccount.xhp#par_id9046601.help.text
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"אם הפעלת סיסמה ראשית בלשונית 'אבטחה' דרך כלים – אפשרויות – תיבת-שיח של "
-"‎%PRODUCTNAME‏, התוכנה יכולה לשמור את הסיסמה שלך, ובעת הצורך להוסיף את "
-"הנתונים באופן אוטומטי. הפעל את \"שמור סיסמה\" כדי לשמור את הסיסמה שלך."
+"<emph>הצג בדפדפן אינטרנט</emph>: <ahelp hid=\".\">סימון זה ייפתח את דפדפן "
+"האינטרנט של המערכת שלך ויציג את דף ה-Wiki שפורסם.</ahelp>"
