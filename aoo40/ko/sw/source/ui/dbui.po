@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fdbui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-07 14:20+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,280 +131,162 @@ msgstr "여기에 메시지를 쓰십시오"
 msgid "E-Mail Message"
 msgstr "전자 메일 메시지"
 
-#: dbui.src#DLG_DBSELECTION.modaldialog.text
-#: dbui.src%23DLG_DBSELECTION.modaldialog.text
-msgid "Database Selection"
-msgstr "데이터베이스 선택"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+msgid "Select starting document for the mail merge"
+msgstr "편지 병합의 시작 문서 선택"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-msgid "is being prepared for printing on"
-msgstr "인쇄 준비 중"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+msgid "Select the document upon which to base the mail merge document"
+msgstr "편지 병합 문서의 기반이 될 문서를 선택하십시오"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-msgid "is being sent to"
-msgstr "다음에 전송"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+msgid "Use the current ~document"
+msgstr "현재 문서 사용(~D)"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-msgid "is being saved to"
-msgstr "저장 중"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+msgid "Create a ne~w document"
+msgstr "새 문서 만들기(~W)"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
-msgid "Send-Monitor"
-msgstr "전송 모니터"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+msgid "Start from ~existing document"
+msgstr "기존 문서에서 시작(~E)"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
-msgid "Save-Monitor"
-msgstr "저장-모니터"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
+msgid "B~rowse..."
+msgstr "찾아보기(~R)..."
 
-#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
-#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
-msgid "Print monitor"
-msgstr "인쇄 모니터"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+msgid "Start from a t~emplate"
+msgstr "서식 파일에서 시작(~E)"
 
-#: dbui.src#STR_DB_EMAIL.string.text
-#: dbui.src%23STR_DB_EMAIL.string.text
-msgid "E-mail"
-msgstr "전자 메일"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
+msgid "B~rowse..."
+msgstr "찾아보기(~R)..."
 
-#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
-msgid "Title"
-msgstr "제목"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+msgid "Start fro~m a recently saved starting document"
+msgstr "최근에 저장한 시작 문서에서 시작(~M)"
 
-#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
-msgid "First Name"
-msgstr "이름"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+msgid "A~ddress list elements"
+msgstr "주소록 요소(~D)"
 
-#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
-msgid "Last Name"
-msgstr "성"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
+msgid "~Add..."
+msgstr "추가(~A)..."
 
-#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
-msgid "Company Name"
-msgstr "회사 이름"
-
-#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
-msgid "Address Line 1"
-msgstr "주소 1"
-
-#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
-msgid "Address Line 2"
-msgstr "주소 2"
-
-#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
-msgid "City"
-msgstr "구/군/시"
-
-#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
-msgid "State"
-msgstr "도/주"
-
-#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
-msgid "ZIP"
-msgstr "ZIP"
-
-#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
-msgid "Country"
-msgstr "국가"
-
-#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
-msgid "Telephone private"
-msgstr "자택 전화"
-
-#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
-msgid "Telephone business"
-msgstr "근무지 전화"
-
-#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
-msgid "E-mail Address"
-msgstr "전자 메일 주소"
-
-#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
-msgid "Gender"
-msgstr "성별"
-
-#: dbui.src#STR_NOTASSIGNED.string.text
-#: dbui.src%23STR_NOTASSIGNED.string.text
-msgid " not yet matched "
-msgstr " 일치 항목 없음 "
-
-#: dbui.src#STR_FILTER_ALL.string.text
-#: dbui.src%23STR_FILTER_ALL.string.text
-msgid "All files (*.*)"
-msgstr "모든 파일(*.*)"
-
-#: dbui.src#STR_FILTER_ALL_DATA.string.text
-#: dbui.src%23STR_FILTER_ALL_DATA.string.text
-msgid "Address lists(*.*)"
-msgstr "주소 목록(*.*)"
-
-#: dbui.src#STR_FILTER_SXB.string.text
-#: dbui.src%23STR_FILTER_SXB.string.text
-msgid "%PRODUCTNAME Base (*.odb)"
-msgstr "%PRODUCTNAME Base(*.odb)"
-
-#: dbui.src#STR_FILTER_SXC.string.text
-#: dbui.src%23STR_FILTER_SXC.string.text
-msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
-msgstr "%PRODUCTNAME Calc(*.ods;*.sxc)"
-
-#: dbui.src#STR_FILTER_DBF.string.text
-#: dbui.src%23STR_FILTER_DBF.string.text
-msgid "dBase (*.dbf)"
-msgstr "dBase(*.dbf)"
-
-#: dbui.src#STR_FILTER_XLS.string.text
-#: dbui.src%23STR_FILTER_XLS.string.text
-msgid "Microsoft Excel (*.xls)"
-msgstr "Microsoft Excel(*.xls)"
-
-#: dbui.src#STR_FILTER_TXT.string.text
-#: dbui.src%23STR_FILTER_TXT.string.text
-msgid "Plain text (*.txt)"
-msgstr "일반 텍스트(*.txt)"
-
-#: dbui.src#STR_FILTER_CSV.string.text
-#: dbui.src%23STR_FILTER_CSV.string.text
-msgid "Text Comma Separated (*.csv)"
-msgstr "쉼표로 구분된 텍스트(*.csv)"
-
-#: dbui.src#STR_FILTER_MDB.string.text
-#: dbui.src%23STR_FILTER_MDB.string.text
-msgid "Microsoft Access (*.mdb)"
-msgstr "Microsoft Access(*.mdb)"
-
-#: dbui.src#STR_FILTER_ACCDB.string.text
-#: dbui.src%23STR_FILTER_ACCDB.string.text
-msgid "Microsoft Access 2007 (*.accdb)"
-msgstr "Microsoft Access 2007(*.accdb)"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-msgid "Status:"
-msgstr "상태:"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-msgid "Progress:"
-msgstr "진행 상태:"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-msgid "Creating documents..."
-msgstr "문서 작성 중..."
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-msgid "%X of %Y"
-msgstr "%X / %Y"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
-msgid "Mail Merge"
-msgstr "편지 병합"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid "The list below shows the contents of: %1"
-msgstr "아래 목록에는 다음 항목의 내용이 표시됩니다: %1"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
-msgid "~Close"
-msgstr "닫기(~C)"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-msgid "Mail Merge Recipients"
-msgstr "편지 병합 수신인"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-msgid "Address Information"
-msgstr "주소 정보"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-msgid "~New"
-msgstr "새로 만들기(~N)"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "삭제(~D)"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "찾기(~F)..."
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+msgid "~Rename..."
+msgstr "이름 바꾸기(~R)..."
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-msgid "C~ustomize..."
-msgstr "사용자 정의(~U)..."
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-msgid "Sho~w entry number"
-msgstr "항목 번호 표시(~W)"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
+msgid "Move up"
+msgstr "위로"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-msgid "%PRODUCTNAME Address List (.csv)"
-msgstr "%PRODUCTNAME 주소 목록 (.csv)"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
-msgid "New Address List"
-msgstr "새 주소록"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
+msgid "Move down"
+msgstr "아래로"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-msgid "F~ind"
-msgstr "찾기(~I)"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+msgid "Customize Address List"
+msgstr "주소록 사용자 정의"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-msgid "Find ~only in"
-msgstr "다음 위치에서만 찾기 ~o"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+msgid "Element ~name"
+msgstr "요소 이름(~N)"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
-msgid "~Find"
-msgstr "찾기(~F)"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+msgid "Rename Element"
+msgstr "요소 이름 바꾸기"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "닫기(~C)"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+msgid "Add"
+msgstr "추가"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
-msgid "Find Entry"
-msgstr "항목 찾기"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+msgid "Add Element"
+msgstr "요소 추가"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+msgid ""
+"The file you have selected contains more than one table. Please select the "
+"table containing the address list you want to use."
+msgstr "선택한 파일에 테이블이 두 개 이상 있습니다. 사용할 주소록이 포함된 테이블을 선택하십시오."
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+msgid "~Preview"
+msgstr "미리보기(~P)"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "이름"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+msgid "Type"
+msgstr "유형"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "테이블"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+msgid "Query"
+msgstr "쿼리"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+msgid "Select Table"
+msgstr "테이블 선택"
 
 #: dbinsdlg.src#DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
@@ -486,6 +368,289 @@ msgstr "<없음>"
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.modaldialog.text
 msgid "Insert Database Columns"
 msgstr "데이터베이스 열 삽입"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+msgid "Select a document type"
+msgstr "문서 유형 선택"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+msgid "What type of document do you want to create?"
+msgstr "어떤 유형의 문서를 만드시겠습니까?"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+msgid "~Letter"
+msgstr "편지(~L)"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+msgid "~E-mail message"
+msgstr "전자 메일 메시지(~E)"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+msgid "Letter:"
+msgstr "편지:"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+msgid "E-Mail Message:"
+msgstr "전자 메일 메시지:"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+msgid ""
+"Send letters to a group of recipients. The letters can contain an address "
+"block and a salutation. The letters can be personalized for each recipient."
+msgstr ""
+"수신인 그룹에게 편지를 보내십시오. 편지에 주소 블록과 인사말을 포함할 수 있습니다. 각 수신인에 적합하게 편지를 사용자 지정할 수 "
+"있습니다."
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+msgid ""
+"Send e-mail messages to a group of recipients. The e-mail messages can "
+"contain a salutation. The e-mail messages can be personalized for each "
+"recipient."
+msgstr ""
+"수신인 그룹에게 전자 메일 메시지를 보내십시오. 전자 메일 메시지에 인사말을 포함할 수 있습니다. 각 수신인에 적합하게 전자 메일 "
+"메시지를 사용자 지정할 수 있습니다."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Preview and edit the document"
+msgstr "문서 미리보기 및 편집"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+msgid ""
+"The preview of a merged document is visible now. To see the preview of "
+"another document click one of the arrows."
+msgstr "이제 병합 문서의 미리보기를 볼 수 있습니다. 다른 문서의 미리보기를 보려면 화살표 중 하나를 클릭하십시오."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+msgid "~Recipient"
+msgstr "수신인(~R)"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+msgid "First"
+msgstr "첫번째"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+msgid "Previous"
+msgstr "이전"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+msgid "Next"
+msgstr "다음"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+msgid "Last"
+msgstr "마지막"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+msgid "E~xclude this recipient"
+msgstr "이 수신인 제외(~X)"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+msgid "Edit Document"
+msgstr "문서 편집"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"Write or edit your document now if you have not already done so. The changes "
+"will effect all merged documents.\n"
+"\n"
+"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
+"window so you can edit the mail merge document. After editing the document, "
+"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
+"window."
+msgstr ""
+"아직 문서를 쓰거나 편집하지 않은 경우 지금 문서를 쓰거나 편집하십시오. 이러한 변경 사항은 모든 병합 문서에 적용됩니다.\n"
+"\n"
+"'문서 편집...' 을 클릭하면 마법사가 잠시 작은 창으로 축소되므로 편지 병합 문서를 편집할 수 있습니다. 문서를 편집한 후 작은 "
+"창에서 '편지 병합 마법사로 돌아가기' 를 클릭하면 마법사로 돌아갑니다."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit Document..."
+msgstr "문서 편집(~E)..."
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+msgid "Address Information"
+msgstr "주소 정보"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+msgid "~New"
+msgstr "새로 만들기(~N)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+msgid "~Delete"
+msgstr "삭제(~D)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "찾기(~F)..."
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+msgid "C~ustomize..."
+msgstr "사용자 정의(~U)..."
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+msgid "Sho~w entry number"
+msgstr "항목 번호 표시(~W)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+msgid "%PRODUCTNAME Address List (.csv)"
+msgstr "%PRODUCTNAME 주소 목록 (.csv)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
+msgid "New Address List"
+msgstr "새 주소록"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+msgid "F~ind"
+msgstr "찾기(~I)"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+msgid "Find ~only in"
+msgstr "다음 위치에서만 찾기 ~o"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
+msgid "~Find"
+msgstr "찾기(~F)"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "닫기(~C)"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
+msgid "Find Entry"
+msgstr "항목 찾기"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+msgid "The list below shows the contents of: %1"
+msgstr "아래 목록에는 다음 항목의 내용이 표시됩니다: %1"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
+msgid "~Close"
+msgstr "닫기(~C)"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+msgid "Mail Merge Recipients"
+msgstr "편지 병합 수신인"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+msgid "Select starting document"
+msgstr "시작 문서 선택"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+msgid "Select document type"
+msgstr "문서 유형 선택"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
+msgid "Insert address block"
+msgstr "주소 블록 삽입"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+msgid "Select address list"
+msgstr "주소록 선택"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+msgid "Create salutation"
+msgstr "인사말 만들기"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+msgid "Adjust layout"
+msgstr "레이아웃 조정"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+msgid "Edit document"
+msgstr "문서 편집"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+msgid "Personalize document"
+msgstr "문서 사용자 지정"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+msgid "Save, print or send"
+msgstr "저장, 인쇄 또는 보내기"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+msgid "~Finish"
+msgstr "마침(~F)"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
+msgid "Mail Merge Wizard"
+msgstr "편지 병합 마법사"
 
 #: mmaddressblockpage.src#_ST_NONE_LIST.1.stringlist.text
 #: mmaddressblockpage.src%23_ST_NONE_LIST.1.stringlist.text
@@ -866,54 +1031,497 @@ msgstr "<없음>"
 msgid "Match Fields"
 msgstr "필드 일치"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-msgid "Select a document type"
-msgstr "문서 유형 선택"
+#: mailmergechildwindow.src#WORKAROUND.#define.text
+#: mailmergechildwindow.src%23WORKAROUND.%23define.text
+msgid "Return to Mail Merge Wizard"
+msgstr "편지 병합 마법사로 돌아가기"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-msgid "What type of document do you want to create?"
-msgstr "어떤 유형의 문서를 만드시겠습니까?"
+#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
+#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
+msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
+msgid "Mail Merge Wizard"
+msgstr "편지 병합 마법사"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-msgid "~Letter"
-msgstr "편지(~L)"
+#: mailmergechildwindow.src#FL_STATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
+msgid "Connection status"
+msgstr "연결 상태"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-msgid "~E-mail message"
-msgstr "전자 메일 메시지(~E)"
+#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
+#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
+msgid "The connection to the outgoing mail server has been established"
+msgstr "보내는 메일 서버에 연결했습니다"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-msgid "Letter:"
-msgstr "편지:"
+#: mailmergechildwindow.src#ST_SEND.string.text
+#: mailmergechildwindow.src%23ST_SEND.string.text
+msgid "Sending e-mails..."
+msgstr "전자 메일 보내는 중..."
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-msgid "E-Mail Message:"
-msgstr "전자 메일 메시지:"
+#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
+msgid "Transfer status"
+msgstr "전송 상태"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
+msgid "%1 of %2 e-mails sent"
+msgstr "%1 / %2 개의 이메일을 보냈습니다"
+
+#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
+#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
+msgid "Sending paused"
+msgstr "전송이 일시 중지되었습니다"
+
+#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
+msgid "E-mails not sent: %1"
+msgstr "보내지 않은 전자 메일: %1"
+
+#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
+#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
+msgid "More >>"
+msgstr "자세히 >>"
+
+#: mailmergechildwindow.src#ST_LESS.string.text
+#: mailmergechildwindow.src%23ST_LESS.string.text
+msgid "<< Less"
+msgstr "<< 간단히"
+
+#: mailmergechildwindow.src#PB_STOP.pushbutton.text
+#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
+msgid "~Stop"
+msgstr "중지(~S)"
+
+#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
+#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
+msgid "C~lose"
+msgstr "닫기(~L)"
+
+#: mailmergechildwindow.src#ST_CONTINUE.string.text
+#: mailmergechildwindow.src%23ST_CONTINUE.string.text
+msgid "~Continue"
+msgstr "계속(~C)"
+
+#: mailmergechildwindow.src#.modelessdialog.text
+#: mailmergechildwindow.src%23.modelessdialog.text
+msgid "Sending E-mail messages"
+msgstr "전자 메일 보내는 중"
+
+#: mailmergechildwindow.src#ST_TASK.string.text
+#: mailmergechildwindow.src%23ST_TASK.string.text
+msgid "Task"
+msgstr "작업"
+
+#: mailmergechildwindow.src#ST_STATUS.string.text
+#: mailmergechildwindow.src%23ST_STATUS.string.text
+msgid "Status"
+msgstr "상태"
+
+#: mailmergechildwindow.src#ST_SENDINGTO.string.text
+#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
+msgid "Sending to: %1"
+msgstr "다음 주소로 보내는 중: %1"
+
+#: mailmergechildwindow.src#ST_COMPLETED.string.text
+#: mailmergechildwindow.src%23ST_COMPLETED.string.text
+msgid "Successfully sent"
+msgstr "성공적으로 전송되었습니다"
+
+#: mailmergechildwindow.src#ST_FAILED.string.text
+#: mailmergechildwindow.src%23ST_FAILED.string.text
+msgid "Sending failed (invalid address)"
+msgstr "보내기 실패(잘못된 주소)"
+
+#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
+#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
 msgid ""
-"Send letters to a group of recipients. The letters can contain an address "
-"block and a salutation. The letters can be personalized for each recipient."
+"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
+"Would you like to exit anyway?"
 msgstr ""
-"수신인 그룹에게 편지를 보내십시오. 편지에 주소 블록과 인사말을 포함할 수 있습니다. 각 수신인에 적합하게 편지를 사용자 지정할 수 "
-"있습니다."
+"%PRODUCTNAME 보낼 편지함에 전자 메일 메시지가 있습니다.\n"
+"종료하시겠습니까?"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+msgid "The following error occurred:"
+msgstr "다음 오류가 발생했습니다:"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+msgid "Detailed information"
+msgstr "자세한 정보"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
+msgid "E-Mails could not be sent"
+msgstr "전자 메일을 보낼 수 없습니다"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
 msgid ""
-"Send e-mail messages to a group of recipients. The e-mail messages can "
-"contain a salutation. The e-mail messages can be personalized for each "
-"recipient."
+"Select an address list. Click '%1' to select recipients from a different "
+"list. If you do not have an address list you can create one by clicking '%2'."
 msgstr ""
-"수신인 그룹에게 전자 메일 메시지를 보내십시오. 전자 메일 메시지에 인사말을 포함할 수 있습니다. 각 수신인에 적합하게 전자 메일 "
-"메시지를 사용자 지정할 수 있습니다."
+"주소록을 선택하십시오. 다른 목록에서 수신인을 선택하려면 '%1' 을 클릭하십시오. 주소록이 없으면 '%2' 를 클릭하여 주소록을 만들 "
+"수 있습니다."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+msgid "Your recipients are currently selected from:"
+msgstr "현재 선택한 수신인이 속해 있는 목록:"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
+msgid "~Add..."
+msgstr "추가(~A)..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+msgid "~Create..."
+msgstr "만들기(~C)..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+msgid "~Filter..."
+msgstr "필터(~F)..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "편집(~E)..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+msgid "Change ~Table..."
+msgstr "테이블 변경(~T)..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "이름"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "테이블"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+msgid "Connecting to data source..."
+msgstr "데이터 원본으로 연결 중..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+msgid "Select Address List"
+msgstr "주소록 선택"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+msgid "Adjust layout of address block and salutation"
+msgstr "주소 블록 및 인사말 레이아웃 조정"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+msgid "Address block position"
+msgstr "주소 블록 위치"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+msgid "Align to text body"
+msgstr "텍스트 본문에 맞춤"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+msgid "From ~left"
+msgstr "왼쪽으로부터(~L)"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+msgid "~From top"
+msgstr "위에서(~F)"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+msgid "Salutation position"
+msgstr "인사말 위치"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
+msgid "Move"
+msgstr "이동"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+msgid "~Up"
+msgstr "위로(~U)"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
+msgid "Move"
+msgstr "이동"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+msgid "~Down"
+msgstr "아래로(~D)"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+msgid "~Zoom"
+msgstr "확대/축소(~Z)"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+msgid "Entire page"
+msgstr "전체 페이지"
+
+#: dbui.src#DLG_DBSELECTION.modaldialog.text
+#: dbui.src%23DLG_DBSELECTION.modaldialog.text
+msgid "Database Selection"
+msgstr "데이터베이스 선택"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+msgid "is being prepared for printing on"
+msgstr "인쇄 준비 중"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+msgid "is being sent to"
+msgstr "다음에 전송"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+msgid "is being saved to"
+msgstr "저장 중"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
+msgid "Send-Monitor"
+msgstr "전송 모니터"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
+msgid "Save-Monitor"
+msgstr "저장-모니터"
+
+#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
+#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
+msgid "Print monitor"
+msgstr "인쇄 모니터"
+
+#: dbui.src#STR_DB_EMAIL.string.text
+#: dbui.src%23STR_DB_EMAIL.string.text
+msgid "E-mail"
+msgstr "전자 메일"
+
+#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
+msgid "Title"
+msgstr "제목"
+
+#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
+msgid "First Name"
+msgstr "이름"
+
+#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
+msgid "Last Name"
+msgstr "성"
+
+#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
+msgid "Company Name"
+msgstr "회사 이름"
+
+#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
+msgid "Address Line 1"
+msgstr "주소 1"
+
+#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
+msgid "Address Line 2"
+msgstr "주소 2"
+
+#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
+msgid "City"
+msgstr "구/군/시"
+
+#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
+msgid "State"
+msgstr "도/주"
+
+#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
+msgid "ZIP"
+msgstr "ZIP"
+
+#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
+msgid "Country"
+msgstr "국가"
+
+#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
+msgid "Telephone private"
+msgstr "자택 전화"
+
+#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
+msgid "Telephone business"
+msgstr "근무지 전화"
+
+#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
+msgid "E-mail Address"
+msgstr "전자 메일 주소"
+
+#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
+msgid "Gender"
+msgstr "성별"
+
+#: dbui.src#STR_NOTASSIGNED.string.text
+#: dbui.src%23STR_NOTASSIGNED.string.text
+msgid " not yet matched "
+msgstr " 일치 항목 없음 "
+
+#: dbui.src#STR_FILTER_ALL.string.text
+#: dbui.src%23STR_FILTER_ALL.string.text
+msgid "All files (*.*)"
+msgstr "모든 파일(*.*)"
+
+#: dbui.src#STR_FILTER_ALL_DATA.string.text
+msgid "Address lists (*.*)"
+msgstr ""
+
+#: dbui.src#STR_FILTER_SXB.string.text
+#: dbui.src%23STR_FILTER_SXB.string.text
+msgid "%PRODUCTNAME Base (*.odb)"
+msgstr "%PRODUCTNAME Base(*.odb)"
+
+#: dbui.src#STR_FILTER_SXC.string.text
+#: dbui.src%23STR_FILTER_SXC.string.text
+msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
+msgstr "%PRODUCTNAME Calc(*.ods;*.sxc)"
+
+#: dbui.src#STR_FILTER_DBF.string.text
+#: dbui.src%23STR_FILTER_DBF.string.text
+msgid "dBase (*.dbf)"
+msgstr "dBase(*.dbf)"
+
+#: dbui.src#STR_FILTER_XLS.string.text
+#: dbui.src%23STR_FILTER_XLS.string.text
+msgid "Microsoft Excel (*.xls)"
+msgstr "Microsoft Excel(*.xls)"
+
+#: dbui.src#STR_FILTER_TXT.string.text
+#: dbui.src%23STR_FILTER_TXT.string.text
+msgid "Plain text (*.txt)"
+msgstr "일반 텍스트(*.txt)"
+
+#: dbui.src#STR_FILTER_CSV.string.text
+#: dbui.src%23STR_FILTER_CSV.string.text
+msgid "Text Comma Separated (*.csv)"
+msgstr "쉼표로 구분된 텍스트(*.csv)"
+
+#: dbui.src#STR_FILTER_MDB.string.text
+#: dbui.src%23STR_FILTER_MDB.string.text
+msgid "Microsoft Access (*.mdb)"
+msgstr "Microsoft Access(*.mdb)"
+
+#: dbui.src#STR_FILTER_ACCDB.string.text
+#: dbui.src%23STR_FILTER_ACCDB.string.text
+msgid "Microsoft Access 2007 (*.accdb)"
+msgstr "Microsoft Access 2007(*.accdb)"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+msgid "Status:"
+msgstr "상태:"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+msgid "Progress:"
+msgstr "진행 상태:"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+msgid "Creating documents..."
+msgstr "문서 작성 중..."
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+msgid "%X of %Y"
+msgstr "%X / %Y"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
+msgid "Mail Merge"
+msgstr "편지 병합"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Personalize the mail merge documents"
+msgstr "편지 병합 문서 사용자 지정"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"You can personalize particular documents. Clicking '%1' will temporarily "
+"reduce the wizard to a small window so you can edit your document. After "
+"editing the document, return to the wizard by clicking 'Return to Mail Merge "
+"Wizard' in the small window."
+msgstr ""
+"특정 문서를 사용자 지정할 수 있습니다. '%1' 을 클릭하면 마법사가 잠시 작은 창으로 축소되므로 문서를 편집할 수 있습니다. 문서를 "
+"편집한 후 작은 창에서 '편지 병합 마법사로 돌아가기' 를 클릭하면 마법사로 돌아갑니다."
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit individual document..."
+msgstr "개별 문서 편집(~E)..."
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
+msgid "~Find"
+msgstr "찾기(~F)"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+msgid "~Search for:"
+msgstr "검색 대상(~S):"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "찾기(~F)..."
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+msgid "Whole wor~ds only"
+msgstr "단어 단위로(~D)"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+msgid "Back~wards"
+msgstr "뒤로(~W)"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+msgid "Ma~tch case"
+msgstr "대문자 및 소문자를 구분(~T)"
 
 #: mmoutputpage.src#DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
 #: mmoutputpage.src%23DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
@@ -1157,612 +1765,3 @@ msgstr "이름 '%1' 을 가진 문서가 이미 있습니다. 다른 이름으�
 #: mmoutputpage.src%23DLG_MM_SAVEWARNING.FT_FILENAME.fixedtext.text
 msgid "New document name"
 msgstr "새 문서 이름"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-msgid "Select starting document"
-msgstr "시작 문서 선택"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-msgid "Select document type"
-msgstr "문서 유형 선택"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
-msgid "Insert address block"
-msgstr "주소 블록 삽입"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-msgid "Select address list"
-msgstr "주소록 선택"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-msgid "Create salutation"
-msgstr "인사말 만들기"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-msgid "Adjust layout"
-msgstr "레이아웃 조정"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-msgid "Edit document"
-msgstr "문서 편집"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-msgid "Personalize document"
-msgstr "문서 사용자 지정"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-msgid "Save, print or send"
-msgstr "저장, 인쇄 또는 보내기"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-msgid "~Finish"
-msgstr "마침(~F)"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
-msgid "Mail Merge Wizard"
-msgstr "편지 병합 마법사"
-
-#: mailmergechildwindow.src#WORKAROUND.#define.text
-#: mailmergechildwindow.src%23WORKAROUND.%23define.text
-msgid "Return to Mail Merge Wizard"
-msgstr "편지 병합 마법사로 돌아가기"
-
-#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
-#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
-msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
-msgid "Mail Merge Wizard"
-msgstr "편지 병합 마법사"
-
-#: mailmergechildwindow.src#FL_STATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
-msgid "Connection status"
-msgstr "연결 상태"
-
-#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
-#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
-msgid "The connection to the outgoing mail server has been established"
-msgstr "보내는 메일 서버에 연결했습니다"
-
-#: mailmergechildwindow.src#ST_SEND.string.text
-#: mailmergechildwindow.src%23ST_SEND.string.text
-msgid "Sending e-mails..."
-msgstr "전자 메일 보내는 중..."
-
-#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
-msgid "Transfer status"
-msgstr "전송 상태"
-
-#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
-msgid "%1 of %2 e-mails sent"
-msgstr "%1 / %2 개의 이메일을 보냈습니다"
-
-#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
-#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
-msgid "Sending paused"
-msgstr "전송이 일시 중지되었습니다"
-
-#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
-msgid "E-mails not sent: %1"
-msgstr "보내지 않은 전자 메일: %1"
-
-#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
-#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
-msgid "More >>"
-msgstr "자세히 >>"
-
-#: mailmergechildwindow.src#ST_LESS.string.text
-#: mailmergechildwindow.src%23ST_LESS.string.text
-msgid "<< Less"
-msgstr "<< 간단히"
-
-#: mailmergechildwindow.src#PB_STOP.pushbutton.text
-#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
-msgid "~Stop"
-msgstr "중지(~S)"
-
-#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
-#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
-msgid "C~lose"
-msgstr "닫기(~L)"
-
-#: mailmergechildwindow.src#ST_CONTINUE.string.text
-#: mailmergechildwindow.src%23ST_CONTINUE.string.text
-msgid "~Continue"
-msgstr "계속(~C)"
-
-#: mailmergechildwindow.src#.modelessdialog.text
-#: mailmergechildwindow.src%23.modelessdialog.text
-msgid "Sending E-mail messages"
-msgstr "전자 메일 보내는 중"
-
-#: mailmergechildwindow.src#ST_TASK.string.text
-#: mailmergechildwindow.src%23ST_TASK.string.text
-msgid "Task"
-msgstr "작업"
-
-#: mailmergechildwindow.src#ST_STATUS.string.text
-#: mailmergechildwindow.src%23ST_STATUS.string.text
-msgid "Status"
-msgstr "상태"
-
-#: mailmergechildwindow.src#ST_SENDINGTO.string.text
-#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
-msgid "Sending to: %1"
-msgstr "다음 주소로 보내는 중: %1"
-
-#: mailmergechildwindow.src#ST_COMPLETED.string.text
-#: mailmergechildwindow.src%23ST_COMPLETED.string.text
-msgid "Successfully sent"
-msgstr "성공적으로 전송되었습니다"
-
-#: mailmergechildwindow.src#ST_FAILED.string.text
-#: mailmergechildwindow.src%23ST_FAILED.string.text
-msgid "Sending failed (invalid address)"
-msgstr "보내기 실패(잘못된 주소)"
-
-#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
-#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
-msgid ""
-"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
-"Would you like to exit anyway?"
-msgstr ""
-"%PRODUCTNAME 보낼 편지함에 전자 메일 메시지가 있습니다.\n"
-"종료하시겠습니까?"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-msgid "The following error occurred:"
-msgstr "다음 오류가 발생했습니다:"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-msgid "Detailed information"
-msgstr "자세한 정보"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
-msgid "E-Mails could not be sent"
-msgstr "전자 메일을 보낼 수 없습니다"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid ""
-"Select an address list. Click '%1' to select recipients from a different "
-"list. If you do not have an address list you can create one by clicking '%2'."
-msgstr ""
-"주소록을 선택하십시오. 다른 목록에서 수신인을 선택하려면 '%1' 을 클릭하십시오. 주소록이 없으면 '%2' 를 클릭하여 주소록을 만들 "
-"수 있습니다."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-msgid "Your recipients are currently selected from:"
-msgstr "현재 선택한 수신인이 속해 있는 목록:"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
-msgid "~Add..."
-msgstr "추가(~A)..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-msgid "~Create..."
-msgstr "만들기(~C)..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-msgid "~Filter..."
-msgstr "필터(~F)..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "편집(~E)..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-msgid "Change ~Table..."
-msgstr "테이블 변경(~T)..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "이름"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "테이블"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-msgid "Connecting to data source..."
-msgstr "데이터 원본으로 연결 중..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-msgid "Select Address List"
-msgstr "주소록 선택"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-msgid "A~ddress list elements"
-msgstr "주소록 요소(~D)"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
-msgid "~Add..."
-msgstr "추가(~A)..."
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "삭제(~D)"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-msgid "~Rename..."
-msgstr "이름 바꾸기(~R)..."
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
-msgid "Move up"
-msgstr "위로"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
-msgid "Move down"
-msgstr "아래로"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-msgid "Customize Address List"
-msgstr "주소록 사용자 정의"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-msgid "Element ~name"
-msgstr "요소 이름(~N)"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-msgid "Rename Element"
-msgstr "요소 이름 바꾸기"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-msgid "Add"
-msgstr "추가"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-msgid "Add Element"
-msgstr "요소 추가"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-msgid "Adjust layout of address block and salutation"
-msgstr "주소 블록 및 인사말 레이아웃 조정"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-msgid "Address block position"
-msgstr "주소 블록 위치"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-msgid "Align to text body"
-msgstr "텍스트 본문에 맞춤"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-msgid "From ~left"
-msgstr "왼쪽으로부터(~L)"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-msgid "~From top"
-msgstr "위에서(~F)"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-msgid "Salutation position"
-msgstr "인사말 위치"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
-msgid "Move"
-msgstr "이동"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-msgid "~Up"
-msgstr "위로(~U)"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
-msgid "Move"
-msgstr "이동"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-msgid "~Down"
-msgstr "아래로(~D)"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-msgid "~Zoom"
-msgstr "확대/축소(~Z)"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-msgid "Entire page"
-msgstr "전체 페이지"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Personalize the mail merge documents"
-msgstr "편지 병합 문서 사용자 지정"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"You can personalize particular documents. Clicking '%1' will temporarily "
-"reduce the wizard to a small window so you can edit your document. After "
-"editing the document, return to the wizard by clicking 'Return to Mail Merge "
-"Wizard' in the small window."
-msgstr ""
-"특정 문서를 사용자 지정할 수 있습니다. '%1' 을 클릭하면 마법사가 잠시 작은 창으로 축소되므로 문서를 편집할 수 있습니다. 문서를 "
-"편집한 후 작은 창에서 '편지 병합 마법사로 돌아가기' 를 클릭하면 마법사로 돌아갑니다."
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit individual document..."
-msgstr "개별 문서 편집(~E)..."
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
-msgid "~Find"
-msgstr "찾기(~F)"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-msgid "~Search for:"
-msgstr "검색 대상(~S):"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "찾기(~F)..."
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-msgid "Whole wor~ds only"
-msgstr "단어 단위로(~D)"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-msgid "Back~wards"
-msgstr "뒤로(~W)"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-msgid "Ma~tch case"
-msgstr "대문자 및 소문자를 구분(~T)"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Preview and edit the document"
-msgstr "문서 미리보기 및 편집"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-msgid ""
-"The preview of a merged document is visible now. To see the preview of "
-"another document click one of the arrows."
-msgstr "이제 병합 문서의 미리보기를 볼 수 있습니다. 다른 문서의 미리보기를 보려면 화살표 중 하나를 클릭하십시오."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-msgid "~Recipient"
-msgstr "수신인(~R)"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-msgid "First"
-msgstr "첫번째"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-msgid "Previous"
-msgstr "이전"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-msgid "Next"
-msgstr "다음"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-msgid "Last"
-msgstr "마지막"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-msgid "E~xclude this recipient"
-msgstr "이 수신인 제외(~X)"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-msgid "Edit Document"
-msgstr "문서 편집"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"Write or edit your document now if you have not already done so. The changes "
-"will effect all merged documents.\n"
-"\n"
-"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
-"window so you can edit the mail merge document. After editing the document, "
-"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
-"window."
-msgstr ""
-"아직 문서를 쓰거나 편집하지 않은 경우 지금 문서를 쓰거나 편집하십시오. 이러한 변경 사항은 모든 병합 문서에 적용됩니다.\n"
-"\n"
-"'문서 편집...' 을 클릭하면 마법사가 잠시 작은 창으로 축소되므로 편지 병합 문서를 편집할 수 있습니다. 문서를 편집한 후 작은 "
-"창에서 '편지 병합 마법사로 돌아가기' 를 클릭하면 마법사로 돌아갑니다."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit Document..."
-msgstr "문서 편집(~E)..."
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-msgid ""
-"The file you have selected contains more than one table. Please select the "
-"table containing the address list you want to use."
-msgstr "선택한 파일에 테이블이 두 개 이상 있습니다. 사용할 주소록이 포함된 테이블을 선택하십시오."
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-msgid "~Preview"
-msgstr "미리보기(~P)"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "이름"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-msgid "Type"
-msgstr "유형"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "테이블"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-msgid "Query"
-msgstr "쿼리"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-msgid "Select Table"
-msgstr "테이블 선택"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-msgid "Select starting document for the mail merge"
-msgstr "편지 병합의 시작 문서 선택"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-msgid "Select the document upon which to base the mail merge document"
-msgstr "편지 병합 문서의 기반이 될 문서를 선택하십시오"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-msgid "Use the current ~document"
-msgstr "현재 문서 사용(~D)"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-msgid "Create a ne~w document"
-msgstr "새 문서 만들기(~W)"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-msgid "Start from ~existing document"
-msgstr "기존 문서에서 시작(~E)"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
-msgid "B~rowse..."
-msgstr "찾아보기(~R)..."
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-msgid "Start from a t~emplate"
-msgstr "서식 파일에서 시작(~E)"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
-msgid "B~rowse..."
-msgstr "찾아보기(~R)..."
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-msgid "Start fro~m a recently saved starting document"
-msgstr "최근에 저장한 시작 문서에서 시작(~M)"
