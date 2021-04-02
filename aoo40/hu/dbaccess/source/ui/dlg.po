@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-08-27 05:28+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,68 +16,804 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text
-msgctxt "sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text"
-msgid "Details"
-msgstr "Részletek"
+#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
+#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
+msgid "~Parameters"
+msgstr "~Paraméterek"
 
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FT_ERRORLIST.fixedtext.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FT_ERRORLIST.fixedtext.text
-msgid "Error ~list:"
-msgstr "Hiba~lista:"
+#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
+#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
+msgid "~Value"
+msgstr "É~rték"
 
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FT_DESCRIPTION.fixedtext.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FT_DESCRIPTION.fixedtext.text
-msgid "~Description:"
-msgstr "~Leírás:"
+#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+msgid "~Next"
+msgstr "~Következő"
 
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_STATUS.string.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_STATUS.string.text
-msgid "SQL Status"
-msgstr "SQL állapota"
-
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_ERRORCODE.string.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_ERRORCODE.string.text
-msgid "Error code"
-msgstr "Hibakód"
-
-#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.modaldialog.text
-#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.modaldialog.text
-msgid "%PRODUCTNAME Base"
-msgstr "%PRODUCTNAME Base"
-
-#: sqlmessage.src#STR_EXPLAN_STRINGCONVERSION_ERROR.string.text
-#: sqlmessage.src%23STR_EXPLAN_STRINGCONVERSION_ERROR.string.text
+#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
 msgid ""
-"A frequent reason for this error is an inappropriate character set setting "
-"for the language of your database. Check the setting by choosing Edit - "
-"Database - Properties."
+"The entry could not be converted to a valid value for the \"$name$\"column"
+msgstr "Az elem nem alakítható át a(z) „$name” mező érvényes értékévé"
+
+#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
+#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
+msgid "Parameter Input"
+msgstr "Paraméter bemenete"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+msgid "User selection"
+msgstr "Felhasználó kiválasztása"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+msgid "Us~er:"
+msgstr "~Felhasználó:"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+msgid "~Add User..."
+msgstr "~Felhasználó hozzáadása..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+msgid "Change ~Password..."
+msgstr "~Jelszócsere..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+msgid "~Delete User..."
+msgstr "Felhasználó ~törlése..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+msgid "Access rights for selected user"
+msgstr "A kijelölt felhasználó hozzáférési jogai"
+
+#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
+#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
+msgid "Do you really want to delete the user?"
+msgstr "Biztosan törölni akarja a felhasználót?  "
+
+#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
+#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
+msgid "The database does not support user administration."
+msgstr "Az adatbázis nem támogatja a felhasználókezelést."
+
+#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
+#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
+#, fuzzy
+msgid "User \"$name$: $\""
+msgstr "Felhasználó: „$name$: $”"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+msgid "Old p~assword"
+msgstr "Régi j~elszó"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "~Jelszó"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#, fuzzy
+msgid "~Confirm password"
+msgstr "~Jelszó megerősítése"
+
+#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
+#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
+msgid "Change Password"
+msgstr "Jelszó módosítása"
+
+#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr "A jelszavak nem egyeznek. Írja be újra a jelszót."
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
+msgid "AND"
+msgstr "ÉS"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
+msgid "OR"
+msgstr "VAGY"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
+msgid "AND"
+msgstr "ÉS"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
+msgid "OR"
+msgstr "VAGY"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Mezőnév"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+msgid "Condition"
+msgstr "Feltétel"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+msgid "Value"
+msgstr "Érték"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operátor"
+
+#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+msgid "Criteria"
+msgstr "Feltételek"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
+msgid "- none -"
+msgstr "- semmi -"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
+msgstr "=;<>;<;<=;>;>=;olyan, mint;nem olyan, mint;üres;nem üres"
+
+#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
+#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
+msgid "Standard Filter"
+msgstr "Általános szűrő"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+msgid "User Settings"
+msgstr "Felhasználó beállításai"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
+msgid "User administration"
+msgstr "Felhasználókezelés"
+
+#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
+msgid "Path to the dBASE files"
+msgstr "A dBASE-fájlok elérési útvonala"
+
+#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
+msgid "Path to the text files"
+msgstr "A szövegfájlok elérési útvonala"
+
+#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
+msgid "Path to the spreadsheet document"
+msgstr "A munkafüzet-dokumentumok elérési útvonala"
+
+#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
+#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
+msgid "Name of the ODBC data source on your system"
+msgstr "Az ODBC-adatforrás neve a rendszeren"
+
+#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
+msgid "Name of the MySQL database"
+msgstr "A MySQL-adatbázis neve"
+
+#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
+msgid "Name of the Oracle database"
+msgstr "Az Oracle-adatbázis neve"
+
+#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
+msgid "Name of the Adabas D database"
+msgstr "Az Adabas D-adatbázis neve"
+
+#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
+#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
+msgid "Microsoft Access database file"
+msgstr "Microsoft Access-adatbázisfájl"
+
+#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
+#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
+msgid ""
+"No more settings are necessary. To verify that the connection is working, "
+"click the '%test' button."
 msgstr ""
-"Ezen hiba gyakori oka az adatbázis helytelen karakterkészlet-beállítása az "
-"Ön által használt nyelvhez. Ellenőrizze a beállításokat a Szerkesztés - "
-"Adatbázis - Tulajdonságok ablakban."
+"További beállításra már nincs szükség. A kapcsolat működésének "
+"ellenőrzéséhez kattintson a  „%test” gombra."
 
-#: sqlmessage.src#STR_EXCEPTION_ERROR.string.text
-#: sqlmessage.src%23STR_EXCEPTION_ERROR.string.text
-msgid "Error"
-msgstr "Hiba"
+#: AutoControls.src#STR_COMMONURL.string.text
+#: AutoControls.src%23STR_COMMONURL.string.text
+msgid "Datasource URL"
+msgstr "Adatforrás URL-címe"
 
-#: sqlmessage.src#STR_EXCEPTION_WARNING.string.text
-#: sqlmessage.src%23STR_EXCEPTION_WARNING.string.text
-msgid "Warning"
-msgstr "Figyelmeztetés"
+#: AutoControls.src#STR_HOSTNAME.string.text
+#: AutoControls.src%23STR_HOSTNAME.string.text
+msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
+msgid "~Host name"
+msgstr "~Gépnév"
 
-#: sqlmessage.src#STR_EXCEPTION_INFO.string.text
-#: sqlmessage.src%23STR_EXCEPTION_INFO.string.text
-msgid "Information"
-msgstr "Információ"
+#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
+msgid "~Mozilla profile name"
+msgstr "~Mozilla-profil neve"
 
-#: sqlmessage.src#STR_EXCEPTION_DETAILS.string.text
-#: sqlmessage.src%23STR_EXCEPTION_DETAILS.string.text
-msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
-msgid "Details"
-msgstr "Részletek"
+#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
+msgid "~Thunderbird profile name"
+msgstr "~Thunderbird-profil neve"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+msgid "Create New Directory"
+msgstr "Új könyvtár létrehozása"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+msgid "Up One Level"
+msgstr "Egy szinttel feljebb"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+msgid "File ~name:"
+msgstr "Fájl~név:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
+msgid "Save"
+msgstr "Mentés"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+msgid "~Path:"
+msgstr "Ú~tvonal:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
+msgid "Save"
+msgstr "Mentés"
+
+#: CollectionView.src#STR_NEW_FOLDER.string.text
+#: CollectionView.src%23STR_NEW_FOLDER.string.text
+msgid "Folder"
+msgstr "Mappa"
+
+#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
+#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
+msgid "The file already exists. Overwrite?"
+msgstr "A fájl már létezik. Felülírja?"
+
+#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
+#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
+msgid "A password is needed to connect to the data source \"$name$\"."
+msgstr ""
+"A következő adatforráshoz való csatlakozáshoz jelszó szükséges: „$name$”."
+
+#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
+#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
+msgid ""
+"The directory\n"
+"\n"
+"$path$\n"
+"\n"
+"does not exist. Should it be created?"
+msgstr ""
+"A könyvtár nem létezik: \n"
+"\n"
+"$path$ \n"
+"\n"
+"Létrehozza?"
+
+#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
+#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
+msgid "The directory $name$ could not be created."
+msgstr "A következő könyvtárat nem lehet létrehozni:"
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+msgid "Please enter the ~password for the user 'DOMAIN'."
+msgstr "~Adja meg a „DOMAIN” felhasználó jelszavát."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
+msgid "Convert Database"
+msgstr "Adatbázis átalakítása"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+msgid "Tables and table filter"
+msgstr "Táblák és táblaszűrő"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+msgid "Mark the tables that should be visible for the applications."
+msgstr ""
+"Jelölje meg azokat a táblákat, amelyeket láthatóvá kíván tenni az "
+"alkalmazások számára."
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
+msgid "Tables Filter"
+msgstr "Táblaszűrő"
+
+#: dlgattr.src#DLG_ATTR.1.pushbutton.text
+#: dlgattr.src%23DLG_ATTR.1.pushbutton.text
+msgid "Bac~k"
+msgstr "~Vissza"
+
+#: dlgattr.src#DLG_ATTR.TP_ATTR_CHAR.string.text
+#: dlgattr.src%23DLG_ATTR.TP_ATTR_CHAR.string.text
+msgid "Font"
+msgstr "Betűkészlet"
+
+#: dlgattr.src#DLG_ATTR.TP_ATTR_NUMBER.string.text
+#: dlgattr.src%23DLG_ATTR.TP_ATTR_NUMBER.string.text
+msgid "Format"
+msgstr "Formátum"
+
+#: dlgattr.src#DLG_ATTR.TP_ATTR_ALIGN.string.text
+#: dlgattr.src%23DLG_ATTR.TP_ATTR_ALIGN.string.text
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: dlgattr.src#DLG_ATTR.ST_ROW.string.text
+#: dlgattr.src%23DLG_ATTR.ST_ROW.string.text
+msgid "Table Format"
+msgstr "Táblaformátum"
+
+#: dlgattr.src#DLG_ATTR.tabdialog.text
+#: dlgattr.src%23DLG_ATTR.tabdialog.text
+msgid "Field Format"
+msgstr "Mező formátuma"
+
+#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+msgid "~Height"
+msgstr "~Magasság"
+
+#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatikus"
+
+#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
+#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Sormagasság"
+
+#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
+msgid "~Width"
+msgstr "~Szélesség"
+
+#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatikus"
+
+#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
+#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Oszlopszélesség"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
+msgid "ascending"
+msgstr "növekvő"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
+msgid "descending"
+msgstr "csökkenő"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
+msgid "ascending"
+msgstr "növekvő"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
+msgid "descending"
+msgstr "csökkenő"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
+msgid "ascending"
+msgstr "növekvő"
+
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
+msgid "descending"
+msgstr "csökkenő"
+
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Mezőnév"
+
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
+msgid "and then"
+msgstr "azután"
+
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
+msgid "and then"
+msgstr "azután"
+
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operátor"
+
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+msgid "Order"
+msgstr "Sorrend"
+
+#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
+#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
+msgid "Sort order"
+msgstr "Rendezési sorrend"
+
+#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
+#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
+msgid "<none>"
+msgstr "<semmi>"
+
+#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
+#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
+msgid "Sort Order"
+msgstr "Rendezési sorrend"
+
+#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+msgid "Options"
+msgstr "Beállítások"
+
+#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+msgid "Use SQL92 naming constraints"
+msgstr "SQL92 elnevezési megszorítások használata"
+
+#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+msgid "Append the table alias name on SELECT statements"
+msgstr "Tábla-álnév hozzáfűzése a SELECT utasításokhoz"
+
+#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+msgid "Use keyword AS before table alias names"
+msgstr "Az AS kulcsszó használata táblaálnevek előtt"
+
+#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+msgid "Use Outer Join syntax '{OJ }'"
+msgstr "Használjon Outer Join szintaktikát „{OJ }”"
+
+#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+msgid "Ignore the privileges from the database driver"
+msgstr ""
+"Az adatbázis-illesztőprogramból származó jogosultságok figyelmen kívül "
+"hagyása"
+
+#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+msgid "Replace named parameters with '?'"
+msgstr "Névvel rendelkező paraméterek helyettesítése „?” jellel"
+
+#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+msgid "Display version columns (when available)"
+msgstr "Verzióoszlopok megjelenítése (ha lehetséges)"
+
+#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+msgid "Use catalog name in SELECT statements"
+msgstr "Katalógusnév használata a SELECT utasításokban"
+
+#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+msgid "Use schema name in SELECT statements"
+msgstr "Sémanév használata a SELECT utasításokban"
+
+#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+msgid "Create index with ASC or DESC statement"
+msgstr "Index létrehozása ASC vagy DESC utasítással"
+
+#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+msgid "End text lines with CR+LF"
+msgstr "Szöveges sorok lezárása CR+LF karakterekkel"
+
+#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+msgid "Ignore currency field information"
+msgstr "Pénznemmező-információ figyelmen kívül hagyása"
+
+#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+msgid "Form data input checks for required fields"
+msgstr "Űrlap-adatbeviteli ellenőrzések a kötelező mezők számára"
+
+#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+msgid "Use ODBC conformant date/time literals"
+msgstr "ODBC-nek megfelelő dátum-/időkifejezések használata"
+
+#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+msgid "Supports primary keys"
+msgstr "Támogatja az elsődleges kulcsokat"
+
+#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+msgid "Respect the result set type from the database driver"
+msgstr "Az adatbázis kapcsolatgyűjtő eredményhalmaz típusát figyelembe veszi"
+
+#: advancedsettings.src#WORKAROUND.1.stringlist.text
+#: advancedsettings.src%23WORKAROUND.1.stringlist.text
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: advancedsettings.src#WORKAROUND.2.stringlist.text
+#: advancedsettings.src%23WORKAROUND.2.stringlist.text
+msgid "SQL"
+msgstr "SQL"
+
+#: advancedsettings.src#WORKAROUND.3.stringlist.text
+#: advancedsettings.src%23WORKAROUND.3.stringlist.text
+msgid "Mixed"
+msgstr "Vegyes"
+
+#: advancedsettings.src#WORKAROUND.4.stringlist.text
+#: advancedsettings.src%23WORKAROUND.4.stringlist.text
+msgid "MS Access"
+msgstr "MS Access"
+
+#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+msgid "Comparison of Boolean values"
+msgstr "Logikai értékek összehasonlítása"
+
+#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+msgid "Rows to scan column types"
+msgstr "Sorok az oszlop típus felismerésére"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+msgid "Settings"
+msgstr "Beállítások"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+msgid "Re~trieve generated values"
+msgstr "Lé~trehozott értékek visszaállítása"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+msgid "~Auto-increment statement"
+msgstr "~Automatikusan növelő utasítás"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+msgid "~Query of generated values"
+msgstr "Lé~trehozott értékek lekérdezése"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+msgid "Generated Values"
+msgstr "Generált értékek"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+msgid "Special Settings"
+msgstr "Speciális beállítások"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
+msgid "Advanced Settings"
+msgstr "Speciális beállítások"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
+msgid "Tables"
+msgstr "Táblák"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_QUERIES.radiobutton.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_QUERIES.radiobutton.text
+msgid "Queries"
+msgstr "Lekérdezések"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.PB_ADDTABLE.pushbutton.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.PB_ADDTABLE.pushbutton.text
+msgid "~Add"
+msgstr "~Hozzáadás"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text
+msgctxt "adtabdlg.src#DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text"
+msgid "~Close"
+msgstr "~Bezárás"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.STR_ADD_TABLES.string.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.STR_ADD_TABLES.string.text
+msgid "Add Tables"
+msgstr "Táblák hozzáadása"
+
+#: adtabdlg.src#DLG_JOIN_TABADD.STR_ADD_TABLE_OR_QUERY.string.text
+#: adtabdlg.src%23DLG_JOIN_TABADD.STR_ADD_TABLE_OR_QUERY.string.text
+msgid "Add Table or Query"
+msgstr "Tábla vagy lekérdezés hozzáadása"
+
+#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_NEW.toolboxitem.text
+#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_NEW.toolboxitem.text
+msgid "New Index"
+msgstr "Új index"
+
+#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_DROP.toolboxitem.text
+#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_DROP.toolboxitem.text
+msgid "Delete Current Index"
+msgstr "Aktuális index törlése"
+
+#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RENAME.toolboxitem.text
+#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RENAME.toolboxitem.text
+msgid "Rename Current Index"
+msgstr "Aktuális index átnevezése"
+
+#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_SAVE.toolboxitem.text
+#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_SAVE.toolboxitem.text
+msgid "Save Current Index"
+msgstr "Aktuális index mentése"
+
+#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RESET.toolboxitem.text
+#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RESET.toolboxitem.text
+msgid "Reset Current Index"
+msgstr "Aktuális index alaphelyzetbe állítása"
+
+#: indexdialog.src#DLG_INDEXDESIGN.FL_INDEXDETAILS.fixedline.text
+#: indexdialog.src%23DLG_INDEXDESIGN.FL_INDEXDETAILS.fixedline.text
+msgid "Index details"
+msgstr "Index beállításai"
+
+#: indexdialog.src#DLG_INDEXDESIGN.FT_DESC_LABEL.fixedtext.text
+#: indexdialog.src%23DLG_INDEXDESIGN.FT_DESC_LABEL.fixedtext.text
+msgid "Index identifier:"
+msgstr "Indexazonosító:"
+
+#: indexdialog.src#DLG_INDEXDESIGN.CB_UNIQUE.checkbox.text
+#: indexdialog.src%23DLG_INDEXDESIGN.CB_UNIQUE.checkbox.text
+msgid "~Unique"
+msgstr "~Egyedi"
+
+#: indexdialog.src#DLG_INDEXDESIGN.FT_FIELDS.fixedtext.text
+#: indexdialog.src%23DLG_INDEXDESIGN.FT_FIELDS.fixedtext.text
+msgid "Fields"
+msgstr "Mezők"
+
+#: indexdialog.src#DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text
+#: indexdialog.src%23DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text
+msgctxt "indexdialog.src#DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "~Bezárás"
+
+#: indexdialog.src#DLG_INDEXDESIGN.modaldialog.text
+#: indexdialog.src%23DLG_INDEXDESIGN.modaldialog.text
+msgctxt "indexdialog.src#DLG_INDEXDESIGN.modaldialog.text"
+msgid "Indexes"
+msgstr "Indexek"
+
+#: indexdialog.src#STR_TAB_INDEX_SORTORDER.string.text
+#: indexdialog.src%23STR_TAB_INDEX_SORTORDER.string.text
+msgctxt "indexdialog.src#STR_TAB_INDEX_SORTORDER.string.text"
+msgid "Sort order"
+msgstr "Rendezési sorrend"
+
+#: indexdialog.src#STR_TAB_INDEX_FIELD.string.text
+#: indexdialog.src%23STR_TAB_INDEX_FIELD.string.text
+msgid "Index field"
+msgstr "Indexmező"
+
+#: indexdialog.src#STR_ORDER_ASCENDING.string.text
+#: indexdialog.src%23STR_ORDER_ASCENDING.string.text
+msgid "Ascending"
+msgstr "Növekvő"
+
+#: indexdialog.src#STR_ORDER_DESCENDING.string.text
+#: indexdialog.src%23STR_ORDER_DESCENDING.string.text
+msgid "Descending"
+msgstr "Csökkenő"
+
+#: indexdialog.src#STR_CONFIRM_DROP_INDEX.string.text
+#: indexdialog.src%23STR_CONFIRM_DROP_INDEX.string.text
+msgid "Do you really want to delete the index '$name$'?"
+msgstr "Biztosan törölni akarja a következő indexet: „$name$”?"
+
+#: indexdialog.src#STR_LOGICAL_INDEX_NAME.string.text
+#: indexdialog.src%23STR_LOGICAL_INDEX_NAME.string.text
+msgid "index"
+msgstr "index"
+
+#: indexdialog.src#ERR_NEED_INDEX_FIELDS.errorbox.text
+#: indexdialog.src%23ERR_NEED_INDEX_FIELDS.errorbox.text
+msgid "The index must contain at least one field."
+msgstr "Az indexnek legalább egy mezőt kell tartalmaznia."
+
+#: indexdialog.src#ERR_NEED_INDEX_FIELDS.errorbox.title
+#: indexdialog.src%23ERR_NEED_INDEX_FIELDS.errorbox.title
+msgid "Save Index"
+msgstr "Index mentése"
+
+#: indexdialog.src#QUERY_SAVE_CURRENT_INDEX.querybox.text
+#: indexdialog.src%23QUERY_SAVE_CURRENT_INDEX.querybox.text
+msgid "Do you want to save the changes made to the current index?"
+msgstr "Kívánja menteni az aktuális index változásait?"
+
+#: indexdialog.src#QUERY_SAVE_CURRENT_INDEX.querybox.title
+#: indexdialog.src%23QUERY_SAVE_CURRENT_INDEX.querybox.title
+msgid "Exit Index Design"
+msgstr "Kilépés az indextervezőből"
+
+#: indexdialog.src#STR_INDEX_NAME_ALREADY_USED.string.text
+#: indexdialog.src%23STR_INDEX_NAME_ALREADY_USED.string.text
+msgid "There is already another index named \"$name$\"."
+msgstr "„$name$” nevű index már létezik."
+
+#: indexdialog.src#STR_INDEXDESIGN_DOUBLE_COLUMN_NAME.string.text
+#: indexdialog.src%23STR_INDEXDESIGN_DOUBLE_COLUMN_NAME.string.text
+msgid ""
+"In an index definition, no table column may occur more than once. However, "
+"you have entered column \"$name$\" twice."
+msgstr ""
+"Az indexdefinícióban egy mező csak egyszer szerepelhet, azonban a következő "
+"mezőt kétszer vette fel: „$name$”."
 
 #: dbadminsetup.src#DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
 #: dbadminsetup.src%23DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
@@ -514,194 +1250,225 @@ msgstr "~Hely és fájlnév"
 msgid "~Password required"
 msgstr "J~elszó szükséges"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-msgid "User selection"
-msgstr "Felhasználó kiválasztása"
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text
+msgctxt "sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FL_DETAILS.fixedline.text"
+msgid "Details"
+msgstr "Részletek"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-msgid "Us~er:"
-msgstr "~Felhasználó:"
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FT_ERRORLIST.fixedtext.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FT_ERRORLIST.fixedtext.text
+msgid "Error ~list:"
+msgstr "Hiba~lista:"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-msgid "~Add User..."
-msgstr "~Felhasználó hozzáadása..."
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.FT_DESCRIPTION.fixedtext.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.FT_DESCRIPTION.fixedtext.text
+msgid "~Description:"
+msgstr "~Leírás:"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-msgid "Change ~Password..."
-msgstr "~Jelszócsere..."
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_STATUS.string.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_STATUS.string.text
+msgid "SQL Status"
+msgstr "SQL állapota"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-msgid "~Delete User..."
-msgstr "Felhasználó ~törlése..."
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_ERRORCODE.string.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.STR_EXCEPTION_ERRORCODE.string.text
+msgid "Error code"
+msgstr "Hibakód"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-msgid "Access rights for selected user"
-msgstr "A kijelölt felhasználó hozzáférési jogai"
+#: sqlmessage.src#DLG_SQLEXCEPTIONCHAIN.modaldialog.text
+#: sqlmessage.src%23DLG_SQLEXCEPTIONCHAIN.modaldialog.text
+msgid "%PRODUCTNAME Base"
+msgstr "%PRODUCTNAME Base"
 
-#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
-#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
-msgid "Do you really want to delete the user?"
-msgstr "Biztosan törölni akarja a felhasználót?  "
-
-#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
-#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
-msgid "The database does not support user administration."
-msgstr "Az adatbázis nem támogatja a felhasználókezelést."
-
-#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
-#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
-#, fuzzy
-msgid "User \"$name$: $\""
-msgstr "Felhasználó: „$name$: $”"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-msgid "Old p~assword"
-msgstr "Régi j~elszó"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "~Jelszó"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#, fuzzy
-msgid "~Confirm password"
-msgstr "~Jelszó megerősítése"
-
-#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
-#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
-msgid "Change Password"
-msgstr "Jelszó módosítása"
-
-#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The passwords do not match. Please enter the password again."
-msgstr "A jelszavak nem egyeznek. Írja be újra a jelszót."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-msgid "Choose a data source:"
-msgstr "Válasszon adatforrást:"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-msgid "Organize..."
-msgstr "Szervező..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-msgid "Create..."
-msgstr "Létrehozás..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-msgid "Local Databases"
-msgstr "Helyi adatbázisok"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-msgid "Choose a database"
-msgstr "Adatbázis kiválasztása"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
-msgid "Data Source"
-msgstr "Adatforrás"
-
-#: dlgattr.src#DLG_ATTR.1.pushbutton.text
-#: dlgattr.src%23DLG_ATTR.1.pushbutton.text
-msgid "Bac~k"
-msgstr "~Vissza"
-
-#: dlgattr.src#DLG_ATTR.TP_ATTR_CHAR.string.text
-#: dlgattr.src%23DLG_ATTR.TP_ATTR_CHAR.string.text
-msgid "Font"
-msgstr "Betűkészlet"
-
-#: dlgattr.src#DLG_ATTR.TP_ATTR_NUMBER.string.text
-#: dlgattr.src%23DLG_ATTR.TP_ATTR_NUMBER.string.text
-msgid "Format"
-msgstr "Formátum"
-
-#: dlgattr.src#DLG_ATTR.TP_ATTR_ALIGN.string.text
-#: dlgattr.src%23DLG_ATTR.TP_ATTR_ALIGN.string.text
-msgid "Alignment"
-msgstr "Igazítás"
-
-#: dlgattr.src#DLG_ATTR.ST_ROW.string.text
-#: dlgattr.src%23DLG_ATTR.ST_ROW.string.text
-msgid "Table Format"
-msgstr "Táblaformátum"
-
-#: dlgattr.src#DLG_ATTR.tabdialog.text
-#: dlgattr.src%23DLG_ATTR.tabdialog.text
-msgid "Field Format"
-msgstr "Mező formátuma"
-
-#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
-#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
-msgid "~Parameters"
-msgstr "~Paraméterek"
-
-#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
-#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
-msgid "~Value"
-msgstr "É~rték"
-
-#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-msgid "~Next"
-msgstr "~Következő"
-
-#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
-#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: sqlmessage.src#STR_EXPLAN_STRINGCONVERSION_ERROR.string.text
+#: sqlmessage.src%23STR_EXPLAN_STRINGCONVERSION_ERROR.string.text
 msgid ""
-"The entry could not be converted to a valid value for the \"$name$\"column"
-msgstr "Az elem nem alakítható át a(z) „$name” mező érvényes értékévé"
+"A frequent reason for this error is an inappropriate character set setting "
+"for the language of your database. Check the setting by choosing Edit - "
+"Database - Properties."
+msgstr ""
+"Ezen hiba gyakori oka az adatbázis helytelen karakterkészlet-beállítása az "
+"Ön által használt nyelvhez. Ellenőrizze a beállításokat a Szerkesztés - "
+"Adatbázis - Tulajdonságok ablakban."
 
-#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
-#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
-msgid "Parameter Input"
-msgstr "Paraméter bemenete"
+#: sqlmessage.src#STR_EXCEPTION_ERROR.string.text
+#: sqlmessage.src%23STR_EXCEPTION_ERROR.string.text
+msgid "Error"
+msgstr "Hiba"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
-msgid "Tables"
-msgstr "Táblák"
+#: sqlmessage.src#STR_EXCEPTION_WARNING.string.text
+#: sqlmessage.src%23STR_EXCEPTION_WARNING.string.text
+msgid "Warning"
+msgstr "Figyelmeztetés"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_QUERIES.radiobutton.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_QUERIES.radiobutton.text
-msgid "Queries"
-msgstr "Lekérdezések"
+#: sqlmessage.src#STR_EXCEPTION_INFO.string.text
+#: sqlmessage.src%23STR_EXCEPTION_INFO.string.text
+msgid "Information"
+msgstr "Információ"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.PB_ADDTABLE.pushbutton.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.PB_ADDTABLE.pushbutton.text
-msgid "~Add"
-msgstr "~Hozzáadás"
+#: sqlmessage.src#STR_EXCEPTION_DETAILS.string.text
+#: sqlmessage.src%23STR_EXCEPTION_DETAILS.string.text
+msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
+msgid "Details"
+msgstr "Részletek"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text
-msgctxt "adtabdlg.src#DLG_JOIN_TABADD.PB_CLOSE.cancelbutton.text"
-msgid "~Close"
-msgstr "~Bezárás"
+#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+msgid "Please enter a name for the object to be created:"
+msgstr "Adjon nevet az új objektumnak:"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.STR_ADD_TABLES.string.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.STR_ADD_TABLES.string.text
-msgid "Add Tables"
-msgstr "Táblák hozzáadása"
+#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+msgid "~Catalog"
+msgstr "~Katalógus"
 
-#: adtabdlg.src#DLG_JOIN_TABADD.STR_ADD_TABLE_OR_QUERY.string.text
-#: adtabdlg.src%23DLG_JOIN_TABADD.STR_ADD_TABLE_OR_QUERY.string.text
-msgid "Add Table or Query"
-msgstr "Tábla vagy lekérdezés hozzáadása"
+#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+msgid "~Schema"
+msgstr "~Séma"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
+msgid "~Table Name"
+msgstr "~Tábla neve"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
+msgid "~Name of table view"
+msgstr "Tá~blanézet neve"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
+msgid "~Query name"
+msgstr "~Lekérdezés neve"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+msgid "Rename to"
+msgstr "Átnevezés"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+msgid "Insert as"
+msgstr "Beszúrás másként"
+
+#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
+#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
+msgid "Save As"
+msgstr "Mentés másként"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+msgid "~Table"
+msgstr "~Tábla"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+msgid "Assignment"
+msgstr "Hozzárendelés"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+msgid "T~able indexes"
+msgstr "Tá~blaindexek"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+msgid "~Free indexes"
+msgstr "~Szabad indexek"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
+msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
+msgid "Indexes"
+msgstr "Indexek"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
+msgid "Database files"
+msgstr "Adatbázisfájlok"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+msgid "S~YSDEVSPACE:"
+msgstr "S~YSDEVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+msgid "~TRANSACTIONLOG:"
+msgstr "~TRANSACTIONLOG:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+msgid "DATAD~EVSPACE:"
+msgstr "DATAD~EVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
+msgid "Database sizes"
+msgstr "Adatbázis méretei"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+msgid "S~ize (MB):"
+msgstr "~Méret (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+msgid "~Free memory space (MB):"
+msgstr "~Szabad memóriaterület (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+msgid "~Memory utilization (in %):"
+msgstr "~Memóriakihasználtság (%):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
+#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
+msgid "Database Statistics"
+msgstr "Adatbázis-statisztikák"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
+msgid "Contains the system tables"
+msgstr "Tartalmazza a rendszertáblákat"
+
+#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
+msgid "Contains information about transaction"
+msgstr "Információkat tartalmaz a tranzakcióról"
+
+#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
+msgid "Contains all data files"
+msgstr "Minden adatfájlt tartalmaz"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
+msgid "Total size of the database files"
+msgstr "Az adatbázisfájlok összesített mérete"
+
+#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
+msgid "Currently available space before a new datadev file is created."
+msgstr ""
+"A rendelkezésre álló szabad hely mennyisége az új datadev fájl létrehozása "
+"előtt."
+
+#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
+msgid "Currently used memory"
+msgstr "Jelenleg használt memória"
+
+#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+msgid ""
+"No information could be displayed because no access rights exist for the "
+"required system tables."
+msgstr ""
+"Semmilyen információ nem jeleníthető meg, mert nincs hozzáférési joga a "
+"szükséges rendszertáblákhoz."
 
 #: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
 #: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
@@ -739,167 +1506,217 @@ msgstr "Szoftv~ercsatorna"
 msgid "Named p~ipe"
 msgstr "Né~vvel rendelkező cső"
 
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-msgid "User Settings"
-msgstr "Felhasználó beállításai"
+#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
+msgid "SQL command"
+msgstr "SQL-parancs"
 
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
-msgid "User administration"
-msgstr "Felhasználókezelés"
+#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
+msgid "Command to execute"
+msgstr "Végrehajtandó parancs"
 
-#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-msgid "Options"
-msgstr "Beállítások"
+#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+msgid "Execute"
+msgstr "Végrehajtás"
 
-#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-msgid "Use SQL92 naming constraints"
-msgstr "SQL92 elnevezési megszorítások használata"
+#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+msgid "Previous commands"
+msgstr "Előző parancsok"
 
-#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-msgid "Append the table alias name on SELECT statements"
-msgstr "Tábla-álnév hozzáfűzése a SELECT utasításokhoz"
+#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
+msgid "Status"
+msgstr "Állapot"
 
-#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-msgid "Use keyword AS before table alias names"
-msgstr "Az AS kulcsszó használata táblaálnevek előtt"
+#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+msgid "Close"
+msgstr "Bezárás"
 
-#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-msgid "Use Outer Join syntax '{OJ }'"
-msgstr "Használjon Outer Join szintaktikát „{OJ }”"
+#: directsql.src#DLG_DIRECTSQL.modaldialog.text
+#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
+msgid "Execute SQL Statement"
+msgstr "SQL-parancs végrehajtása"
 
-#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-msgid "Ignore the privileges from the database driver"
-msgstr ""
-"Az adatbázis-illesztőprogramból származó jogosultságok figyelmen kívül "
-"hagyása"
+#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+msgid "Command successfully executed."
+msgstr "A művelet sikeresen befejeződött."
 
-#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-msgid "Replace named parameters with '?'"
-msgstr "Névvel rendelkező paraméterek helyettesítése „?” jellel"
+#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
+msgid ""
+"The connection to the database has been lost. This dialog will be closed."
+msgstr "Az adatbázis-kapcsolat elveszett. Ez a párbeszédablak be fog zárulni."
 
-#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-msgid "Display version columns (when available)"
-msgstr "Verzióoszlopok megjelenítése (ha lehetséges)"
+#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+msgid "Text Connection Settings"
+msgstr "Szöveges kapcsolat beállításai"
 
-#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-msgid "Use catalog name in SELECT statements"
-msgstr "Katalógusnév használata a SELECT utasításokban"
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
+msgid "General"
+msgstr "Általános"
 
-#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-msgid "Use schema name in SELECT statements"
-msgstr "Sémanév használata a SELECT utasításokban"
+#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+msgid "~Host name"
+msgstr "~Gépnév"
 
-#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-msgid "Create index with ASC or DESC statement"
-msgstr "Index létrehozása ASC vagy DESC utasítással"
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
+msgid "User authentication"
+msgstr "Felhasználók hitelesítése"
 
-#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-msgid "End text lines with CR+LF"
-msgstr "Szöveges sorok lezárása CR+LF karakterekkel"
+#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
+msgid "~User name"
+msgstr "~Felhasználónév"
 
-#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-msgid "Ignore currency field information"
-msgstr "Pénznemmező-információ figyelmen kívül hagyása"
+#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
+msgid "Password required"
+msgstr "Jelszó szükséges"
 
-#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-msgid "Form data input checks for required fields"
-msgstr "Űrlap-adatbeviteli ellenőrzések a kötelező mezők számára"
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+msgid "JDBC properties"
+msgstr "JDBC-tulajdonságok"
 
-#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-msgid "Use ODBC conformant date/time literals"
-msgstr "ODBC-nek megfelelő dátum-/időkifejezések használata"
+#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+msgid "~JDBC driver class"
+msgstr "~JDBC-illesztőprogram osztálya"
 
-#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-msgid "Supports primary keys"
-msgstr "Támogatja az elsődleges kulcsokat"
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+msgid "Test Class"
+msgstr "Osztály tesztelése"
 
-#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-msgid "Respect the result set type from the database driver"
-msgstr "Az adatbázis kapcsolatgyűjtő eredményhalmaz típusát figyelembe veszi"
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+msgid "Test Connection"
+msgstr "Kapcsolat ellenőrzése"
 
-#: advancedsettings.src#WORKAROUND.1.stringlist.text
-#: advancedsettings.src%23WORKAROUND.1.stringlist.text
-msgid "Default"
-msgstr "Alapértelmezett"
+#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
+#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
+msgid "No Adabas D data sources were found on your system."
+msgstr "A rendszeren nem található Adabas D-adatforrás."
 
-#: advancedsettings.src#WORKAROUND.2.stringlist.text
-#: advancedsettings.src%23WORKAROUND.2.stringlist.text
-msgid "SQL"
-msgstr "SQL"
+#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
+#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
+msgid "Connection Test"
+msgstr "Kapcsolat ellenőrzése"
 
-#: advancedsettings.src#WORKAROUND.3.stringlist.text
-#: advancedsettings.src%23WORKAROUND.3.stringlist.text
-msgid "Mixed"
-msgstr "Vegyes"
+#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
+msgid "The connection was established successfully."
+msgstr "A kapcsolat létrejött."
 
-#: advancedsettings.src#WORKAROUND.4.stringlist.text
-#: advancedsettings.src%23WORKAROUND.4.stringlist.text
-msgid "MS Access"
-msgstr "MS Access"
+#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
+msgid "The connection could not be established."
+msgstr "A kapcsolatot nem sikerült létrehozni."
 
-#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-msgid "Comparison of Boolean values"
-msgstr "Logikai értékek összehasonlítása"
+#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
+msgid "The JDBC driver was loaded successfully."
+msgstr "A JDBC-illesztőprogram sikeresen betöltve."
 
-#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-msgid "Rows to scan column types"
-msgstr "Sorok az oszlop típus felismerésére"
+#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
+msgid "The JDBC driver could not be loaded."
+msgstr "A JDBC-illesztőprogram nem tölthető be."
 
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-msgid "Settings"
-msgstr "Beállítások"
+#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
+msgid "MS Access file"
+msgstr "Microsoft Access-fájl"
 
-#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-msgid "Re~trieve generated values"
-msgstr "Lé~trehozott értékek visszaállítása"
+#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
+msgid "MS Access 2007 file"
+msgstr "MS Access 2007-fájl"
 
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-msgid "~Auto-increment statement"
-msgstr "~Automatikusan növelő utasítás"
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "Érintett táblák"
 
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-msgid "~Query of generated values"
-msgstr "Lé~trehozott értékek lekérdezése"
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "Érintett mezők"
 
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-msgid "Generated Values"
-msgstr "Generált értékek"
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+msgid "Update options"
+msgstr "Beállítások frissítése"
 
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-msgid "Special Settings"
-msgstr "Speciális beállítások"
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
+msgid "~No action"
+msgstr "~Nincs teendő"
 
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
-msgid "Advanced Settings"
-msgstr "Speciális beállítások"
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+msgid "~Update cascade"
+msgstr "Kaszkád ~frissítése"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "~Null érték használata"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "~Alapérték használata"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+msgid "Delete options"
+msgstr "Beállítások törlése"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
+msgid "~No action"
+msgstr "~Nincs teendő"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+msgid "Delete ~cascade"
+msgstr "~Kaszkád törlése"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "~Null érték használata"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "~Alapérték használata"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
+msgid "Relations"
+msgstr "Relációk"
 
 #: dbadmin.src#AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
 #: dbadmin.src%23AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
@@ -1227,852 +2044,35 @@ msgstr ""
 "Válassza a „Kapcsolódás létező adatbázishoz” lehetőséget, ha inkább egy "
 "létező adatbázishoz szeretne kapcsolódni."
 
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-msgid "Create New Directory"
-msgstr "Új könyvtár létrehozása"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-msgid "Up One Level"
-msgstr "Egy szinttel feljebb"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-msgid "File ~name:"
-msgstr "Fájl~név:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
-msgid "Save"
-msgstr "Mentés"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-msgid "~Path:"
-msgstr "Ú~tvonal:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
-msgid "Save"
-msgstr "Mentés"
-
-#: CollectionView.src#STR_NEW_FOLDER.string.text
-#: CollectionView.src%23STR_NEW_FOLDER.string.text
-msgid "Folder"
-msgstr "Mappa"
-
-#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
-#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
-msgid "The file already exists. Overwrite?"
-msgstr "A fájl már létezik. Felülírja?"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
-msgid "AND"
-msgstr "ÉS"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
-msgid "OR"
-msgstr "VAGY"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
-msgid "AND"
-msgstr "ÉS"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
-msgid "OR"
-msgstr "VAGY"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Mezőnév"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-msgid "Condition"
-msgstr "Feltétel"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-msgid "Value"
-msgstr "Érték"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operátor"
-
-#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-msgid "Criteria"
-msgstr "Feltételek"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
-msgid "- none -"
-msgstr "- semmi -"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
-msgstr "=;<>;<;<=;>;>=;olyan, mint;nem olyan, mint;üres;nem üres"
-
-#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
-#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
-msgid "Standard Filter"
-msgstr "Általános szűrő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
-msgid "ascending"
-msgstr "növekvő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
-msgid "descending"
-msgstr "csökkenő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
-msgid "ascending"
-msgstr "növekvő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
-msgid "descending"
-msgstr "csökkenő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
-msgid "ascending"
-msgstr "növekvő"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
-msgid "descending"
-msgstr "csökkenő"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Mezőnév"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
-msgid "and then"
-msgstr "azután"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
-msgid "and then"
-msgstr "azután"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operátor"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-msgid "Order"
-msgstr "Sorrend"
-
-#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
-#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
-msgid "Sort order"
-msgstr "Rendezési sorrend"
-
-#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
-#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
-msgid "<none>"
-msgstr "<semmi>"
-
-#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
-#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
-msgid "Sort Order"
-msgstr "Rendezési sorrend"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
-msgid "Database files"
-msgstr "Adatbázisfájlok"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-msgid "S~YSDEVSPACE:"
-msgstr "S~YSDEVSPACE:"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-msgid "~TRANSACTIONLOG:"
-msgstr "~TRANSACTIONLOG:"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-msgid "DATAD~EVSPACE:"
-msgstr "DATAD~EVSPACE:"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
-msgid "Database sizes"
-msgstr "Adatbázis méretei"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-msgid "S~ize (MB):"
-msgstr "~Méret (MB):"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-msgid "~Free memory space (MB):"
-msgstr "~Szabad memóriaterület (MB):"
-
-#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-msgid "~Memory utilization (in %):"
-msgstr "~Memóriakihasználtság (%):"
-
-#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
-#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
-msgid "Database Statistics"
-msgstr "Adatbázis-statisztikák"
-
-#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
-msgid "Contains the system tables"
-msgstr "Tartalmazza a rendszertáblákat"
-
-#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
-msgid "Contains information about transaction"
-msgstr "Információkat tartalmaz a tranzakcióról"
-
-#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
-msgid "Contains all data files"
-msgstr "Minden adatfájlt tartalmaz"
-
-#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
-msgid "Total size of the database files"
-msgstr "Az adatbázisfájlok összesített mérete"
-
-#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
-msgid "Currently available space before a new datadev file is created."
-msgstr ""
-"A rendelkezésre álló szabad hely mennyisége az új datadev fájl létrehozása "
-"előtt."
-
-#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
-msgid "Currently used memory"
-msgstr "Jelenleg használt memória"
-
-#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-msgid ""
-"No information could be displayed because no access rights exist for the "
-"required system tables."
-msgstr ""
-"Semmilyen információ nem jeleníthető meg, mert nincs hozzáférési joga a "
-"szükséges rendszertáblákhoz."
-
-#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-msgid "~Height"
-msgstr "~Magasság"
-
-#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatikus"
-
-#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
-#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Sormagasság"
-
-#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
-msgid "~Width"
-msgstr "~Szélesség"
-
-#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatikus"
-
-#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
-#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Oszlopszélesség"
-
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-msgid "~Table"
-msgstr "~Tábla"
-
-#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-msgid "Assignment"
-msgstr "Hozzárendelés"
-
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-msgid "T~able indexes"
-msgstr "Tá~blaindexek"
-
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-msgid "~Free indexes"
-msgstr "~Szabad indexek"
-
-#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
-msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
-msgid "Indexes"
-msgstr "Indexek"
-
-#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-msgid "Please enter a name for the object to be created:"
-msgstr "Adjon nevet az új objektumnak:"
-
-#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-msgid "~Catalog"
-msgstr "~Katalógus"
-
-#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-msgid "~Schema"
-msgstr "~Séma"
-
-#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
-msgid "~Table Name"
-msgstr "~Tábla neve"
-
-#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
-msgid "~Name of table view"
-msgstr "Tá~blanézet neve"
-
-#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
-msgid "~Query name"
-msgstr "~Lekérdezés neve"
-
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-msgid "Rename to"
-msgstr "Átnevezés"
-
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-msgid "Insert as"
-msgstr "Beszúrás másként"
-
-#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
-#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
-msgid "Save As"
-msgstr "Mentés másként"
-
-#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
-#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
-msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr ""
-"A következő adatforráshoz való csatlakozáshoz jelszó szükséges: „$name$”."
-
-#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
-#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
-msgid ""
-"The directory\n"
-"\n"
-"$path$\n"
-"\n"
-"does not exist. Should it be created?"
-msgstr ""
-"A könyvtár nem létezik: \n"
-"\n"
-"$path$ \n"
-"\n"
-"Létrehozza?"
-
-#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
-#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
-msgid "The directory $name$ could not be created."
-msgstr "A következő könyvtárat nem lehet létrehozni:"
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-msgid "Please enter the ~password for the user 'DOMAIN'."
-msgstr "~Adja meg a „DOMAIN” felhasználó jelszavát."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
-msgid "Convert Database"
-msgstr "Adatbázis átalakítása"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-msgid "Tables and table filter"
-msgstr "Táblák és táblaszűrő"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-msgid "Mark the tables that should be visible for the applications."
-msgstr ""
-"Jelölje meg azokat a táblákat, amelyeket láthatóvá kíván tenni az "
-"alkalmazások számára."
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
-msgid "Tables Filter"
-msgstr "Táblaszűrő"
-
-#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-msgid "Text Connection Settings"
-msgstr "Szöveges kapcsolat beállításai"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
-msgid "General"
-msgstr "Általános"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
-msgid "~Host name"
-msgstr "~Gépnév"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
-msgid "User authentication"
-msgstr "Felhasználók hitelesítése"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
-msgid "~User name"
-msgstr "~Felhasználónév"
-
-#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
-msgid "Password required"
-msgstr "Jelszó szükséges"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-msgid "JDBC properties"
-msgstr "JDBC-tulajdonságok"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-msgid "~JDBC driver class"
-msgstr "~JDBC-illesztőprogram osztálya"
-
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-msgid "Test Class"
-msgstr "Osztály tesztelése"
-
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-msgid "Test Connection"
-msgstr "Kapcsolat ellenőrzése"
-
-#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
-#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
-msgid "No Adabas D data sources were found on your system."
-msgstr "A rendszeren nem található Adabas D-adatforrás."
-
-#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
-#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
-msgid "Connection Test"
-msgstr "Kapcsolat ellenőrzése"
-
-#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
-msgid "The connection was established successfully."
-msgstr "A kapcsolat létrejött."
-
-#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
-msgid "The connection could not be established."
-msgstr "A kapcsolatot nem sikerült létrehozni."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
-msgid "The JDBC driver was loaded successfully."
-msgstr "A JDBC-illesztőprogram sikeresen betöltve."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
-msgid "The JDBC driver could not be loaded."
-msgstr "A JDBC-illesztőprogram nem tölthető be."
-
-#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
-msgid "MS Access file"
-msgstr "Microsoft Access-fájl"
-
-#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
-msgid "MS Access 2007 file"
-msgstr "MS Access 2007-fájl"
-
-#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
-msgid "SQL command"
-msgstr "SQL-parancs"
-
-#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
-msgid "Command to execute"
-msgstr "Végrehajtandó parancs"
-
-#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-msgid "Execute"
-msgstr "Végrehajtás"
-
-#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-msgid "Previous commands"
-msgstr "Előző parancsok"
-
-#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
-msgid "Status"
-msgstr "Állapot"
-
-#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-msgid "Close"
-msgstr "Bezárás"
-
-#: directsql.src#DLG_DIRECTSQL.modaldialog.text
-#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
-msgid "Execute SQL Statement"
-msgstr "SQL-parancs végrehajtása"
-
-#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-msgid "Command successfully executed."
-msgstr "A művelet sikeresen befejeződött."
-
-#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
-#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
-msgid ""
-"The connection to the database has been lost. This dialog will be closed."
-msgstr "Az adatbázis-kapcsolat elveszett. Ez a párbeszédablak be fog zárulni."
-
-#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_NEW.toolboxitem.text
-#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_NEW.toolboxitem.text
-msgid "New Index"
-msgstr "Új index"
-
-#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_DROP.toolboxitem.text
-#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_DROP.toolboxitem.text
-msgid "Delete Current Index"
-msgstr "Aktuális index törlése"
-
-#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RENAME.toolboxitem.text
-#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RENAME.toolboxitem.text
-msgid "Rename Current Index"
-msgstr "Aktuális index átnevezése"
-
-#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_SAVE.toolboxitem.text
-#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_SAVE.toolboxitem.text
-msgid "Save Current Index"
-msgstr "Aktuális index mentése"
-
-#: indexdialog.src#DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RESET.toolboxitem.text
-#: indexdialog.src%23DLG_INDEXDESIGN.TLB_ACTIONS.ID_INDEX_RESET.toolboxitem.text
-msgid "Reset Current Index"
-msgstr "Aktuális index alaphelyzetbe állítása"
-
-#: indexdialog.src#DLG_INDEXDESIGN.FL_INDEXDETAILS.fixedline.text
-#: indexdialog.src%23DLG_INDEXDESIGN.FL_INDEXDETAILS.fixedline.text
-msgid "Index details"
-msgstr "Index beállításai"
-
-#: indexdialog.src#DLG_INDEXDESIGN.FT_DESC_LABEL.fixedtext.text
-#: indexdialog.src%23DLG_INDEXDESIGN.FT_DESC_LABEL.fixedtext.text
-msgid "Index identifier:"
-msgstr "Indexazonosító:"
-
-#: indexdialog.src#DLG_INDEXDESIGN.CB_UNIQUE.checkbox.text
-#: indexdialog.src%23DLG_INDEXDESIGN.CB_UNIQUE.checkbox.text
-msgid "~Unique"
-msgstr "~Egyedi"
-
-#: indexdialog.src#DLG_INDEXDESIGN.FT_FIELDS.fixedtext.text
-#: indexdialog.src%23DLG_INDEXDESIGN.FT_FIELDS.fixedtext.text
-msgid "Fields"
-msgstr "Mezők"
-
-#: indexdialog.src#DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text
-#: indexdialog.src%23DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text
-msgctxt "indexdialog.src#DLG_INDEXDESIGN.PB_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "~Bezárás"
-
-#: indexdialog.src#DLG_INDEXDESIGN.modaldialog.text
-#: indexdialog.src%23DLG_INDEXDESIGN.modaldialog.text
-msgctxt "indexdialog.src#DLG_INDEXDESIGN.modaldialog.text"
-msgid "Indexes"
-msgstr "Indexek"
-
-#: indexdialog.src#STR_TAB_INDEX_SORTORDER.string.text
-#: indexdialog.src%23STR_TAB_INDEX_SORTORDER.string.text
-msgctxt "indexdialog.src#STR_TAB_INDEX_SORTORDER.string.text"
-msgid "Sort order"
-msgstr "Rendezési sorrend"
-
-#: indexdialog.src#STR_TAB_INDEX_FIELD.string.text
-#: indexdialog.src%23STR_TAB_INDEX_FIELD.string.text
-msgid "Index field"
-msgstr "Indexmező"
-
-#: indexdialog.src#STR_ORDER_ASCENDING.string.text
-#: indexdialog.src%23STR_ORDER_ASCENDING.string.text
-msgid "Ascending"
-msgstr "Növekvő"
-
-#: indexdialog.src#STR_ORDER_DESCENDING.string.text
-#: indexdialog.src%23STR_ORDER_DESCENDING.string.text
-msgid "Descending"
-msgstr "Csökkenő"
-
-#: indexdialog.src#STR_CONFIRM_DROP_INDEX.string.text
-#: indexdialog.src%23STR_CONFIRM_DROP_INDEX.string.text
-msgid "Do you really want to delete the index '$name$'?"
-msgstr "Biztosan törölni akarja a következő indexet: „$name$”?"
-
-#: indexdialog.src#STR_LOGICAL_INDEX_NAME.string.text
-#: indexdialog.src%23STR_LOGICAL_INDEX_NAME.string.text
-msgid "index"
-msgstr "index"
-
-#: indexdialog.src#ERR_NEED_INDEX_FIELDS.errorbox.text
-#: indexdialog.src%23ERR_NEED_INDEX_FIELDS.errorbox.text
-msgid "The index must contain at least one field."
-msgstr "Az indexnek legalább egy mezőt kell tartalmaznia."
-
-#: indexdialog.src#ERR_NEED_INDEX_FIELDS.errorbox.title
-#: indexdialog.src%23ERR_NEED_INDEX_FIELDS.errorbox.title
-msgid "Save Index"
-msgstr "Index mentése"
-
-#: indexdialog.src#QUERY_SAVE_CURRENT_INDEX.querybox.text
-#: indexdialog.src%23QUERY_SAVE_CURRENT_INDEX.querybox.text
-msgid "Do you want to save the changes made to the current index?"
-msgstr "Kívánja menteni az aktuális index változásait?"
-
-#: indexdialog.src#QUERY_SAVE_CURRENT_INDEX.querybox.title
-#: indexdialog.src%23QUERY_SAVE_CURRENT_INDEX.querybox.title
-msgid "Exit Index Design"
-msgstr "Kilépés az indextervezőből"
-
-#: indexdialog.src#STR_INDEX_NAME_ALREADY_USED.string.text
-#: indexdialog.src%23STR_INDEX_NAME_ALREADY_USED.string.text
-msgid "There is already another index named \"$name$\"."
-msgstr "„$name$” nevű index már létezik."
-
-#: indexdialog.src#STR_INDEXDESIGN_DOUBLE_COLUMN_NAME.string.text
-#: indexdialog.src%23STR_INDEXDESIGN_DOUBLE_COLUMN_NAME.string.text
-msgid ""
-"In an index definition, no table column may occur more than once. However, "
-"you have entered column \"$name$\" twice."
-msgstr ""
-"Az indexdefinícióban egy mező csak egyszer szerepelhet, azonban a következő "
-"mezőt kétszer vette fel: „$name$”."
-
-#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
-msgid "Path to the dBASE files"
-msgstr "A dBASE-fájlok elérési útvonala"
-
-#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
-msgid "Path to the text files"
-msgstr "A szövegfájlok elérési útvonala"
-
-#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
-msgid "Path to the spreadsheet document"
-msgstr "A munkafüzet-dokumentumok elérési útvonala"
-
-#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
-#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
-msgid "Name of the ODBC data source on your system"
-msgstr "Az ODBC-adatforrás neve a rendszeren"
-
-#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
-msgid "Name of the MySQL database"
-msgstr "A MySQL-adatbázis neve"
-
-#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
-msgid "Name of the Oracle database"
-msgstr "Az Oracle-adatbázis neve"
-
-#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
-msgid "Name of the Adabas D database"
-msgstr "Az Adabas D-adatbázis neve"
-
-#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
-#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
-msgid "Microsoft Access database file"
-msgstr "Microsoft Access-adatbázisfájl"
-
-#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
-#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
-msgid ""
-"No more settings are necessary. To verify that the connection is working, "
-"click the '%test' button."
-msgstr ""
-"További beállításra már nincs szükség. A kapcsolat működésének "
-"ellenőrzéséhez kattintson a  „%test” gombra."
-
-#: AutoControls.src#STR_COMMONURL.string.text
-#: AutoControls.src%23STR_COMMONURL.string.text
-msgid "Datasource URL"
-msgstr "Adatforrás URL-címe"
-
-#: AutoControls.src#STR_HOSTNAME.string.text
-#: AutoControls.src%23STR_HOSTNAME.string.text
-msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
-msgid "~Host name"
-msgstr "~Gépnév"
-
-#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
-msgid "~Mozilla profile name"
-msgstr "~Mozilla-profil neve"
-
-#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
-msgid "~Thunderbird profile name"
-msgstr "~Thunderbird-profil neve"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "Érintett táblák"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "Érintett mezők"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-msgid "Update options"
-msgstr "Beállítások frissítése"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
-msgid "~No action"
-msgstr "~Nincs teendő"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-msgid "~Update cascade"
-msgstr "Kaszkád ~frissítése"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "~Null érték használata"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "~Alapérték használata"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-msgid "Delete options"
-msgstr "Beállítások törlése"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
-msgid "~No action"
-msgstr "~Nincs teendő"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-msgid "Delete ~cascade"
-msgstr "~Kaszkád törlése"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "~Null érték használata"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "~Alapérték használata"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
-msgid "Relations"
-msgstr "Relációk"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+msgid "Choose a data source:"
+msgstr "Válasszon adatforrást:"
+
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+msgid "Organize..."
+msgstr "Szervező..."
+
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+msgid "Create..."
+msgstr "Létrehozás..."
+
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+msgid "Local Databases"
+msgstr "Helyi adatbázisok"
+
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+msgid "Choose a database"
+msgstr "Adatbázis kiválasztása"
+
+#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
+msgid "Data Source"
+msgstr "Adatforrás"
 
 #: AutoControls_tmpl.hrc#AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
 #: AutoControls_tmpl.hrc%23AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
