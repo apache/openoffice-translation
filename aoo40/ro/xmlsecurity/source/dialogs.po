@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+xmlsecurity%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-08-25 18:57+0000\n"
 "Last-Translator: Claudiu Vicol <claudiu@vicol.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,53 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Acest document conține macrouri semnate de:"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Acest document conține macrouri."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Vizualizare semnături..."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#, fuzzy
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Macrourile pot conține viruși. Dezactivarea macrourilor pentru un document "
+"este întotdeauna o alegere bună. Dacă dezactivați macrourile s-ar putea să "
+"pierdeți funcționalitatea care acestea o oferă."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Am încredere întotdeauna în macrourile din această sursă"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Activează macrourile"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Dezactivează macrourile"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Avertisment de securitate"
 
 #: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
 #: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
@@ -38,128 +85,106 @@ msgstr "Vizualizare certificat..."
 msgid "Select Certificate"
 msgstr "Selectare certificat"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Nivel de securitate"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+msgid "The following have signed the document content:"
+msgstr "Documentul a fost semnat de:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Surse de încredere"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+msgid "The following have signed the document macro:"
+msgstr "Macrourile documentului au fost semnate de:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Resetează"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+msgid "The following have signed this package:"
+msgstr "Pachetul a fost semnat de:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Securitate pentru macrouri"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+msgid "\tSigned by\tDigital ID issued by\tDate"
+msgstr "\tSemnat de\tID digital emis de\tData"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"Ni~vel foarte ridicat.\n"
-"Este permisă doar rularea de macrouri din fișiere aflate în locuri de "
-"încredere. Toate celelalte macrouri vor fi dezactivate, indiferent dacă sunt "
-"semnate sau nu."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+msgid "Valid signature"
+msgstr "Semnătură validă"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"N~ivel ridicat.\n"
-"Este permisă doar rularea macrourilor semnate provenit de la surse sigure. "
-"Macrourile nesemnate sunt dezactivate."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+msgid "Certificate could not be validated"
+msgstr "Certificatul nu poate fi validat"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"Nivel ~mediu.\n"
-"Este necesară o confirmare înainte de a executa un macro dintr-o sursă care "
-"nu este de încredere."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
+msgid "The signatures in this document are invalid"
+msgstr "Semnăturile din acest document nu sunt valide"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"Nive~l mic (nerecomandat).\n"
-"Toate macrourile vor fi executate fără confirmare. Folosiți această opțiune "
-"doar dacă toate documentele ce vor fi deschise sunt sigure."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+msgid "The signatures in this document are valid"
+msgstr "Semnăturile din acest document sunt valide"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Certificate de încredere"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+msgid "Not all parts of the document are signed"
+msgstr "Nu toate părțile din document sunt semnate"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Emis pentru\tEmis de\tData expirării"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
+msgid "The signatures in this document are invalid"
+msgstr "Semnăturile din acest document nu sunt valide"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Vizualizare certificat..."
+
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+msgid "Sign Document..."
 msgstr "Adaugă..."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Vizualizare..."
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
 msgid "Remove"
 msgstr "Elimină"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Amplasări de încredere pentru fișiere"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+msgid "Close"
 msgstr ""
-"Macrourile sunt executate întotdeauna dacă documentul se află în una din "
-"următoarele amplasări."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Adaugă..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
+msgid "Digital Signatures"
+msgstr "Semnături digitale"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Elimină"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+msgid ""
+"This document contains signatures in ODF 1.1 format. Signing documents in %"
+"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
+"signatures can be added or removed to this document.\n"
+"\n"
+"Save document in ODF 1.2 format and add all desired signatures again."
+msgstr ""
+"Acest document conține semnături în format ODF 1.1. Semnarea documentelor în "
+"%PRODUCTNAME %PRODUCTVERSION necesită formatul ODF 1.2. De aceea nicio "
+"semnătură nu poate fi adăugată sau eliminată în acest document.\n"
+"\n"
+"Salvați documentul în format ODF 1.2 și adăugați din nou semnăturile dorite."
 
-#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Această setare este protejată de administrator"
+#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+msgid ""
+"Adding or removing a macro signature will remove all document signatures.\n"
+"Do you really want to continue?"
+msgstr ""
 
 #: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
@@ -321,150 +346,125 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "Certificatul nu poate fi validat."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Acest document conține macrouri semnate de:"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Nivel de securitate"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Acest document conține macrouri."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Surse de încredere"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Vizualizare semnături..."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Resetează"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#, fuzzy
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Securitate pentru macrouri"
+
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"Macrourile pot conține viruși. Dezactivarea macrourilor pentru un document "
-"este întotdeauna o alegere bună. Dacă dezactivați macrourile s-ar putea să "
-"pierdeți funcționalitatea care acestea o oferă."
+"Ni~vel foarte ridicat.\n"
+"Este permisă doar rularea de macrouri din fișiere aflate în locuri de "
+"încredere. Toate celelalte macrouri vor fi dezactivate, indiferent dacă sunt "
+"semnate sau nu."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Am încredere întotdeauna în macrourile din această sursă"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"N~ivel ridicat.\n"
+"Este permisă doar rularea macrourilor semnate provenit de la surse sigure. "
+"Macrourile nesemnate sunt dezactivate."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Activează macrourile"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"Nivel ~mediu.\n"
+"Este necesară o confirmare înainte de a executa un macro dintr-o sursă care "
+"nu este de încredere."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Dezactivează macrourile"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"Nive~l mic (nerecomandat).\n"
+"Toate macrourile vor fi executate fără confirmare. Folosiți această opțiune "
+"doar dacă toate documentele ce vor fi deschise sunt sigure."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Avertisment de securitate"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Certificate de încredere"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-msgid "The following have signed the document content:"
-msgstr "Documentul a fost semnat de:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Emis pentru\tEmis de\tData expirării"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-msgid "The following have signed the document macro:"
-msgstr "Macrourile documentului au fost semnate de:"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-msgid "The following have signed this package:"
-msgstr "Pachetul a fost semnat de:"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-msgid "\tSigned by\tDigital ID issued by\tDate"
-msgstr "\tSemnat de\tID digital emis de\tData"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-msgid "Valid signature"
-msgstr "Semnătură validă"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-msgid "Certificate could not be validated"
-msgstr "Certificatul nu poate fi validat"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
-msgid "The signatures in this document are invalid"
-msgstr "Semnăturile din acest document nu sunt valide"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-msgid "The signatures in this document are valid"
-msgstr "Semnăturile din acest document sunt valide"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-msgid "Not all parts of the document are signed"
-msgstr "Nu toate părțile din document sunt semnate"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
-msgid "The signatures in this document are invalid"
-msgstr "Semnăturile din acest document nu sunt valide"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Vizualizare certificat..."
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-msgid "Sign Document..."
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
 msgstr "Adaugă..."
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Vizualizare..."
+
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
 msgid "Remove"
 msgstr "Elimină"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-msgid "Close"
-msgstr ""
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Amplasări de încredere pentru fișiere"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
-msgid "Digital Signatures"
-msgstr "Semnături digitale"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
 msgid ""
-"This document contains signatures in ODF 1.1 format. Signing documents in %"
-"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
-"signatures can be added or removed to this document.\n"
-"\n"
-"Save document in ODF 1.2 format and add all desired signatures again."
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
 msgstr ""
-"Acest document conține semnături în format ODF 1.1. Semnarea documentelor în "
-"%PRODUCTNAME %PRODUCTVERSION necesită formatul ODF 1.2. De aceea nicio "
-"semnătură nu poate fi adăugată sau eliminată în acest document.\n"
-"\n"
-"Salvați documentul în format ODF 1.2 și adăugați din nou semnăturile dorite."
+"Macrourile sunt executate întotdeauna dacă documentul se află în una din "
+"următoarele amplasări."
 
-#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-msgid ""
-"Adding or removing a macro signature will remove all document signatures.\n"
-"Do you really want to continue?"
-msgstr ""
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Adaugă..."
+
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Elimină"
+
+#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Această setare este protejată de administrator"
