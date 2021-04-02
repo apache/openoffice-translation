@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+extensions%2Fsource%2Fpropctrlr.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-08-26 13:21+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,31 @@ msgstr "Põhivorm"
 msgid "The columns of '#' could not be retrieved."
 msgstr "Alamvormi '#' veergude hankimine ei õnnestunud."
 
+#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+msgid "Controls"
+msgstr "Juhtelemendid"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+msgid "Move Up"
+msgstr "Nihuta üles"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+msgid "Move Down"
+msgstr "Nihuta alla"
+
+#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+msgid "Automatic Sort"
+msgstr "Automaatne sortimine"
+
+#: taborder.src#RID_DLG_TABORDER.modaldialog.text
+#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
+msgid "Tab Order"
+msgstr "Navigeerimisjärjestus"
+
 #: newdatatype.src#RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 #: newdatatype.src%23RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 msgid "Type a name for the new data type:"
@@ -62,50 +87,29 @@ msgstr "Sisesta uue andmetüübi nimi:"
 msgid "New Data Type"
 msgstr "Uus andmetüüp"
 
-#: propres.src#RID_STR_STANDARD.string.text
-#: propres.src%23RID_STR_STANDARD.string.text
-msgctxt "propres.src#RID_STR_STANDARD.string.text"
-msgid "Default"
-msgstr "Vaikimisi"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+msgid ""
+"These are control fields that can be used as label fields for the "
+"$control_class$ $control_name$."
+msgstr ""
+"Need on juhtväljad, mida saab kasutada $control_class$ $control_name$ "
+"pealdisväljadena."
 
-#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
-#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
-msgid "General"
-msgstr "Üldine"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+msgid "~No assignment"
+msgstr "~Omistamata"
 
-#: propres.src#RID_STR_PROPPAGE_DATA.string.text
-#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
-msgid "Data"
-msgstr "Andmed"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
+msgid "Label Field Selection"
+msgstr "Pealdisvälja valimine"
 
-#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
-msgid "No"
-msgstr "Ei"
-
-#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
-msgid "Yes"
-msgstr "Jah"
-
-#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
-#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
-msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
-msgid "Help"
-msgstr "Abi"
-
-#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
-#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
-msgid "<Embedded-Image>"
-msgstr "<Embedded-Image>"
-
-#: propres.src#RID_STR_TEXT_FORMAT.string.text
-#: propres.src%23RID_STR_TEXT_FORMAT.string.text
-msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
-msgid "Text"
-msgstr "Tekst"
+#: selectlabeldialog.src#RID_STR_FORMS.string.text
+#: selectlabeldialog.src%23RID_STR_FORMS.string.text
+msgid "Forms"
+msgstr "Vormid"
 
 #: formres.src#RID_STR_EDITMASK.string.text
 #: formres.src%23RID_STR_EDITMASK.string.text
@@ -1788,46 +1792,50 @@ msgstr "Paks"
 msgid "(Default)"
 msgstr "(Vaikimisi)"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
-msgid "Font"
-msgstr "Font"
+#: propres.src#RID_STR_STANDARD.string.text
+#: propres.src%23RID_STR_STANDARD.string.text
+msgctxt "propres.src#RID_STR_STANDARD.string.text"
+msgid "Default"
+msgstr "Vaikimisi"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "Fondiefektid"
+#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
+#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
+msgid "General"
+msgstr "Üldine"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
-msgid "Character"
-msgstr "Märk"
+#: propres.src#RID_STR_PROPPAGE_DATA.string.text
+#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
+msgid "Data"
+msgstr "Andmed"
 
-#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-msgid "Controls"
-msgstr "Juhtelemendid"
+#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
+msgid "No"
+msgstr "Ei"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-msgid "Move Up"
-msgstr "Nihuta üles"
+#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
+msgid "Yes"
+msgstr "Jah"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-msgid "Move Down"
-msgstr "Nihuta alla"
+#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
+#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
+msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
+msgid "Help"
+msgstr "Abi"
 
-#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-msgid "Automatic Sort"
-msgstr "Automaatne sortimine"
+#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
+#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
+msgid "<Embedded-Image>"
+msgstr "<Embedded-Image>"
 
-#: taborder.src#RID_DLG_TABORDER.modaldialog.text
-#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
-msgid "Tab Order"
-msgstr "Navigeerimisjärjestus"
+#: propres.src#RID_STR_TEXT_FORMAT.string.text
+#: propres.src%23RID_STR_TEXT_FORMAT.string.text
+msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
+msgid "Text"
+msgstr "Tekst"
 
 #: pcrmiscres.src#RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
 #: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
@@ -1940,26 +1948,18 @@ msgstr "Mustriväli"
 msgid "Table Control "
 msgstr "Tabeli juhtelement "
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-msgid ""
-"These are control fields that can be used as label fields for the "
-"$control_class$ $control_name$."
-msgstr ""
-"Need on juhtväljad, mida saab kasutada $control_class$ $control_name$ "
-"pealdisväljadena."
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
+msgid "Font"
+msgstr "Font"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-msgid "~No assignment"
-msgstr "~Omistamata"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "Fondiefektid"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
-msgid "Label Field Selection"
-msgstr "Pealdisvälja valimine"
-
-#: selectlabeldialog.src#RID_STR_FORMS.string.text
-#: selectlabeldialog.src%23RID_STR_FORMS.string.text
-msgid "Forms"
-msgstr "Vormid"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
+msgid "Character"
+msgstr "Märk"
