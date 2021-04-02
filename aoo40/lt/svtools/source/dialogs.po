@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+svtools%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-08-23 17:44+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: Aivaras Stepukonis <astepukonis@apache.org>\n"
@@ -206,6 +206,26 @@ msgstr "Kalendorius"
 msgid "Invite"
 msgstr "Kviesti"
 
+#: wizardmachine.src#STR_WIZDLG_FINISH.string.text
+#: wizardmachine.src%23STR_WIZDLG_FINISH.string.text
+msgid "~Finish"
+msgstr "Baigti"
+
+#: wizardmachine.src#STR_WIZDLG_NEXT.string.text
+#: wizardmachine.src%23STR_WIZDLG_NEXT.string.text
+msgid "~Next >>"
+msgstr "Tęsti >>"
+
+#: wizardmachine.src#STR_WIZDLG_PREVIOUS.string.text
+#: wizardmachine.src%23STR_WIZDLG_PREVIOUS.string.text
+msgid "<< Bac~k"
+msgstr "<< Grįžti"
+
+#: wizardmachine.src#STR_WIZDLG_ROADMAP_TITLE.string.text
+#: wizardmachine.src%23STR_WIZDLG_ROADMAP_TITLE.string.text
+msgid "Steps"
+msgstr "Žingsniai"
+
 #: prnsetup.src#STR_SVT_PRNDLG_READY.string.text
 #: prnsetup.src%23STR_SVT_PRNDLG_READY.string.text
 msgid "Ready"
@@ -385,85 +405,6 @@ msgstr "Nuostatos…"
 #: prnsetup.src%23DLG_SVT_PRNDLG_PRNSETUPDLG.modaldialog.text
 msgid "Printer Setup"
 msgstr "Spausdintuvo nuostatos"
-
-#: filedlg2.src#STR_FILEDLG_SELECT.string.text
-#: filedlg2.src%23STR_FILEDLG_SELECT.string.text
-msgid "Select Directory"
-msgstr "Rinktis katalogą"
-
-#: filedlg2.src#STR_FILEDLG_CANTCHDIR.string.text
-#: filedlg2.src%23STR_FILEDLG_CANTCHDIR.string.text
-msgid "Cannot change to directory"
-msgstr "Negalima pereiti prie katalogo"
-
-#: filedlg2.src#STR_FILEDLG_OPEN.string.text
-#: filedlg2.src%23STR_FILEDLG_OPEN.string.text
-msgid "Open"
-msgstr "Atversti"
-
-#: filedlg2.src#STR_FILEDLG_FILE.string.text
-#: filedlg2.src%23STR_FILEDLG_FILE.string.text
-msgid "~File"
-msgstr "Byla"
-
-#: filedlg2.src#STR_FILEDLG_DIR.string.text
-#: filedlg2.src%23STR_FILEDLG_DIR.string.text
-msgid "~Directory"
-msgstr "Katalogas"
-
-#: filedlg2.src#STR_FILEDLG_TYPE.string.text
-#: filedlg2.src%23STR_FILEDLG_TYPE.string.text
-msgid "File ~type"
-msgstr "Bylos atmaina"
-
-#: filedlg2.src#STR_FILEDLG_CANTOPENFILE.string.text
-#: filedlg2.src%23STR_FILEDLG_CANTOPENFILE.string.text
-msgid "Can't open file"
-msgstr "Negalima atversti bylos"
-
-#: filedlg2.src#STR_FILEDLG_CANTOPENDIR.string.text
-#: filedlg2.src%23STR_FILEDLG_CANTOPENDIR.string.text
-msgid "Can't open directory"
-msgstr "Negalima atversti katalogo"
-
-#: filedlg2.src#STR_FILEDLG_OVERWRITE.string.text
-#: filedlg2.src%23STR_FILEDLG_OVERWRITE.string.text
-msgid ""
-"This file already exists. \n"
-"Overwrite ?"
-msgstr ""
-"Tokia byla jau yra. \n"
-"Ar ją perrašyti?"
-
-#: filedlg2.src#STR_FILEDLG_GOUP.string.text
-#: filedlg2.src%23STR_FILEDLG_GOUP.string.text
-msgid "Up One Level"
-msgstr "Vienu lygiu aukštyn"
-
-#: filedlg2.src#STR_FILEDLG_SAVE.string.text
-#: filedlg2.src%23STR_FILEDLG_SAVE.string.text
-msgid "Save"
-msgstr "Saugoti"
-
-#: filedlg2.src#STR_FILEDLG_DRIVES.string.text
-#: filedlg2.src%23STR_FILEDLG_DRIVES.string.text
-msgid "D~rive"
-msgstr "Kaupiklis"
-
-#: filedlg2.src#STR_FILEDLG_HOME.string.text
-#: filedlg2.src%23STR_FILEDLG_HOME.string.text
-msgid "User Directory"
-msgstr "Naudotojo katalogas"
-
-#: filedlg2.src#STR_FILEDLG_NEWDIR.string.text
-#: filedlg2.src%23STR_FILEDLG_NEWDIR.string.text
-msgid "Create Directory"
-msgstr "Kurti katalogą"
-
-#: filedlg2.src#STR_FILEDLG_ASKNEWDIR.string.text
-#: filedlg2.src%23STR_FILEDLG_ASKNEWDIR.string.text
-msgid "Do you want the directory %s to be created ?"
-msgstr "Ar kurti katalogą %s?"
 
 #: formats.src#STR_FORMAT_STRING.string.text
 #: formats.src%23STR_FORMAT_STRING.string.text
@@ -1129,22 +1070,81 @@ msgstr "Išjungti"
 msgid "Unknown source"
 msgstr "Nežinomas šaltinis"
 
-#: wizardmachine.src#STR_WIZDLG_FINISH.string.text
-#: wizardmachine.src%23STR_WIZDLG_FINISH.string.text
-msgid "~Finish"
-msgstr "Baigti"
+#: filedlg2.src#STR_FILEDLG_SELECT.string.text
+#: filedlg2.src%23STR_FILEDLG_SELECT.string.text
+msgid "Select Directory"
+msgstr "Rinktis katalogą"
 
-#: wizardmachine.src#STR_WIZDLG_NEXT.string.text
-#: wizardmachine.src%23STR_WIZDLG_NEXT.string.text
-msgid "~Next >>"
-msgstr "Tęsti >>"
+#: filedlg2.src#STR_FILEDLG_CANTCHDIR.string.text
+#: filedlg2.src%23STR_FILEDLG_CANTCHDIR.string.text
+msgid "Cannot change to directory"
+msgstr "Negalima pereiti prie katalogo"
 
-#: wizardmachine.src#STR_WIZDLG_PREVIOUS.string.text
-#: wizardmachine.src%23STR_WIZDLG_PREVIOUS.string.text
-msgid "<< Bac~k"
-msgstr "<< Grįžti"
+#: filedlg2.src#STR_FILEDLG_OPEN.string.text
+#: filedlg2.src%23STR_FILEDLG_OPEN.string.text
+msgid "Open"
+msgstr "Atversti"
 
-#: wizardmachine.src#STR_WIZDLG_ROADMAP_TITLE.string.text
-#: wizardmachine.src%23STR_WIZDLG_ROADMAP_TITLE.string.text
-msgid "Steps"
-msgstr "Žingsniai"
+#: filedlg2.src#STR_FILEDLG_FILE.string.text
+#: filedlg2.src%23STR_FILEDLG_FILE.string.text
+msgid "~File"
+msgstr "Byla"
+
+#: filedlg2.src#STR_FILEDLG_DIR.string.text
+#: filedlg2.src%23STR_FILEDLG_DIR.string.text
+msgid "~Directory"
+msgstr "Katalogas"
+
+#: filedlg2.src#STR_FILEDLG_TYPE.string.text
+#: filedlg2.src%23STR_FILEDLG_TYPE.string.text
+msgid "File ~type"
+msgstr "Bylos atmaina"
+
+#: filedlg2.src#STR_FILEDLG_CANTOPENFILE.string.text
+#: filedlg2.src%23STR_FILEDLG_CANTOPENFILE.string.text
+msgid "Can't open file"
+msgstr "Negalima atversti bylos"
+
+#: filedlg2.src#STR_FILEDLG_CANTOPENDIR.string.text
+#: filedlg2.src%23STR_FILEDLG_CANTOPENDIR.string.text
+msgid "Can't open directory"
+msgstr "Negalima atversti katalogo"
+
+#: filedlg2.src#STR_FILEDLG_OVERWRITE.string.text
+#: filedlg2.src%23STR_FILEDLG_OVERWRITE.string.text
+msgid ""
+"This file already exists. \n"
+"Overwrite ?"
+msgstr ""
+"Tokia byla jau yra. \n"
+"Ar ją perrašyti?"
+
+#: filedlg2.src#STR_FILEDLG_GOUP.string.text
+#: filedlg2.src%23STR_FILEDLG_GOUP.string.text
+msgid "Up One Level"
+msgstr "Vienu lygiu aukštyn"
+
+#: filedlg2.src#STR_FILEDLG_SAVE.string.text
+#: filedlg2.src%23STR_FILEDLG_SAVE.string.text
+msgid "Save"
+msgstr "Saugoti"
+
+#: filedlg2.src#STR_FILEDLG_DRIVES.string.text
+#: filedlg2.src%23STR_FILEDLG_DRIVES.string.text
+msgid "D~rive"
+msgstr "Kaupiklis"
+
+#: filedlg2.src#STR_FILEDLG_HOME.string.text
+#: filedlg2.src%23STR_FILEDLG_HOME.string.text
+msgid "User Directory"
+msgstr "Naudotojo katalogas"
+
+#: filedlg2.src#STR_FILEDLG_NEWDIR.string.text
+#: filedlg2.src%23STR_FILEDLG_NEWDIR.string.text
+msgid "Create Directory"
+msgstr "Kurti katalogą"
+
+#: filedlg2.src#STR_FILEDLG_ASKNEWDIR.string.text
+#: filedlg2.src%23STR_FILEDLG_ASKNEWDIR.string.text
+msgid "Do you want the directory %s to be created ?"
+msgstr "Ar kurti katalogą %s?"
