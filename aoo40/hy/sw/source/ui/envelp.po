@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fenvelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-11-21 16:53+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,35 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: envelp.src#STR_DATABASE_NOT_OPENED.string.text
+#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
+msgid "Database could not be opened."
+msgstr "Շտեմարանը հնարավոր չէ բացել։"
+
+#: envelp.src#STR_NO_DRIVERS.string.text
+#: envelp.src%23STR_NO_DRIVERS.string.text
+msgid "No database drivers installed."
+msgstr "Չկան տեղադրված շտեմարանի վարորդներ։"
+
+#: envelp.src#STR_BTN_NEW_DOC.string.text
+#: envelp.src%23STR_BTN_NEW_DOC.string.text
+msgid "~New Document"
+msgstr "~Նոր փաստաթուղթ"
+
+#: envelp.src#STR_BTN_NEWDOC.string.text
+#: envelp.src%23STR_BTN_NEWDOC.string.text
+msgid "~New Doc."
+msgstr "~Նոր փաս․"
+
+#: envelp.src#STR_SENDER_TOKENS.string.text
+#: envelp.src%23STR_SENDER_TOKENS.string.text
+msgid ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"
+msgstr ""
+"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
+";POSTALCODE;CR;COUNTRY;CR;"
 
 #: envfmt.src#TP_ENV_FMT.FL_ADDRESSEE.fixedline.text
 #: envfmt.src%23TP_ENV_FMT.FL_ADDRESSEE.fixedline.text
@@ -118,312 +147,133 @@ msgstr "Ն~իշ․․․"
 msgid "P~aragraph..."
 msgstr "Պ~արագրաֆ․․․"
 
-#: envelp.src#STR_DATABASE_NOT_OPENED.string.text
-#: envelp.src%23STR_DATABASE_NOT_OPENED.string.text
-msgid "Database could not be opened."
-msgstr "Շտեմարանը հնարավոր չէ բացել։"
+#: labfmt.src#TP_LAB_FMT.TXT_HDIST.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_HDIST.fixedtext.text
+msgid "Hori~zontal pitch"
+msgstr "Հորի~զոնական տոն"
 
-#: envelp.src#STR_NO_DRIVERS.string.text
-#: envelp.src%23STR_NO_DRIVERS.string.text
-msgid "No database drivers installed."
-msgstr "Չկան տեղադրված շտեմարանի վարորդներ։"
+#: labfmt.src#TP_LAB_FMT.TXT_VDIST.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_VDIST.fixedtext.text
+msgid "~Vertical pitch"
+msgstr "~Ուղղահայաց մատուցում"
 
-#: envelp.src#STR_BTN_NEW_DOC.string.text
-#: envelp.src%23STR_BTN_NEW_DOC.string.text
-msgid "~New Document"
-msgstr "~Նոր փաստաթուղթ"
+#: labfmt.src#TP_LAB_FMT.TXT_WIDTH.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_WIDTH.fixedtext.text
+msgctxt "labfmt.src#TP_LAB_FMT.TXT_WIDTH.fixedtext.text"
+msgid "~Width"
+msgstr "~Լայնք"
 
-#: envelp.src#STR_BTN_NEWDOC.string.text
-#: envelp.src%23STR_BTN_NEWDOC.string.text
-msgid "~New Doc."
-msgstr "~Նոր փաս․"
+#: labfmt.src#TP_LAB_FMT.TXT_HEIGHT.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_HEIGHT.fixedtext.text
+msgctxt "labfmt.src#TP_LAB_FMT.TXT_HEIGHT.fixedtext.text"
+msgid "~Height"
+msgstr "~Բարձրություն"
 
-#: envelp.src#STR_SENDER_TOKENS.string.text
-#: envelp.src%23STR_SENDER_TOKENS.string.text
+#: labfmt.src#TP_LAB_FMT.TXT_LEFT.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_LEFT.fixedtext.text
+msgid "~Left margin"
+msgstr "~Ձախ լուսանցք"
+
+#: labfmt.src#TP_LAB_FMT.TXT_UPPER.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_UPPER.fixedtext.text
+msgid "~Top margin"
+msgstr "~Վերին լուսանցք"
+
+#: labfmt.src#TP_LAB_FMT.TXT_COLUMNS.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_COLUMNS.fixedtext.text
+msgid "~Columns"
+msgstr "~Սյունակներ"
+
+#: labfmt.src#TP_LAB_FMT.TXT_ROWS.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_ROWS.fixedtext.text
+msgid "R~ows"
+msgstr "Տ~ողեր"
+
+#: labfmt.src#TP_LAB_FMT.TXT_PAPER_WIDTH.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_PAPER_WIDTH.fixedtext.text
+msgid "~Paper Width"
+msgstr "~Թղթի լայնք"
+
+#: labfmt.src#TP_LAB_FMT.TXT_PAPER_HEIGHT.fixedtext.text
+#: labfmt.src%23TP_LAB_FMT.TXT_PAPER_HEIGHT.fixedtext.text
+msgid "Pape~r Height"
+msgstr "Թղթ~ի բարձրություն"
+
+#: labfmt.src#TP_LAB_FMT.PB_SAVE.pushbutton.text
+#: labfmt.src%23TP_LAB_FMT.PB_SAVE.pushbutton.text
+msgid "~Save..."
+msgstr "~Հիշել․․․"
+
+#: labfmt.src#STR_HDIST.string.text
+#: labfmt.src%23STR_HDIST.string.text
+msgid "H. Pitch"
+msgstr "H. Pitch"
+
+#: labfmt.src#STR_VDIST.string.text
+#: labfmt.src%23STR_VDIST.string.text
+msgid "V. Pitch"
+msgstr "V. Pitch"
+
+#: labfmt.src#STR_WIDTH.string.text
+#: labfmt.src%23STR_WIDTH.string.text
+msgid "Width"
+msgstr "Լայնք"
+
+#: labfmt.src#STR_HEIGHT.string.text
+#: labfmt.src%23STR_HEIGHT.string.text
+msgid "Height"
+msgstr "Բարձրություն"
+
+#: labfmt.src#STR_LEFT.string.text
+#: labfmt.src%23STR_LEFT.string.text
+msgid "Left margin"
+msgstr "Ձախ լուսանցք"
+
+#: labfmt.src#STR_UPPER.string.text
+#: labfmt.src%23STR_UPPER.string.text
+msgid "Top margin"
+msgstr "Վերին լուսանցք"
+
+#: labfmt.src#STR_COLS.string.text
+#: labfmt.src%23STR_COLS.string.text
+msgid "Columns"
+msgstr "Սյունակներ"
+
+#: labfmt.src#STR_ROWS.string.text
+#: labfmt.src%23STR_ROWS.string.text
+msgid "Rows"
+msgstr "Տողեր"
+
+#: labfmt.src#DLG_SAVE_LABEL.FT_MAKE.fixedtext.text
+#: labfmt.src%23DLG_SAVE_LABEL.FT_MAKE.fixedtext.text
+msgctxt "labfmt.src#DLG_SAVE_LABEL.FT_MAKE.fixedtext.text"
+msgid "Brand"
+msgstr "Բրենդ"
+
+#: labfmt.src#DLG_SAVE_LABEL.FT_TYPE.fixedtext.text
+#: labfmt.src%23DLG_SAVE_LABEL.FT_TYPE.fixedtext.text
+msgid "T~ype"
+msgstr "Տ~եսակ"
+
+#: labfmt.src#DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text
+#: labfmt.src%23DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text
+msgctxt "labfmt.src#DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text"
+msgid "Options"
+msgstr "Ընտրանքներ"
+
+#: labfmt.src#DLG_SAVE_LABEL.MB_QUERY.querybox.text
+#: labfmt.src%23DLG_SAVE_LABEL.MB_QUERY.querybox.text
 msgid ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
+"The label \"%1 / %2\" already exists.\n"
+"Do you want to overwrite it?"
 msgstr ""
-"COMPANY;CR;FIRSTNAME; ;LASTNAME;CR;ADDRESS;CR;CITY; ;STATEPROV; "
-";POSTALCODE;CR;COUNTRY;CR;"
+"\"%1 / %2\" պիտակն արդեն առկա է։\n"
+"Ցանկանու՞մ եք վերագրել այն։"
 
-#: mailmrge.src#_MAIL_MERGE_STRING_.#define.text
-#: mailmrge.src%23_MAIL_MERGE_STRING_.%23define.text
-msgid "Mail Merge"
-msgstr "Փոստի ձուլում"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_ALL.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_ALL.radiobutton.text
-msgid "~All"
-msgstr "~Բոլորը"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_MARKED.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_MARKED.radiobutton.text
-msgid "~Selected records"
-msgstr "~Ընտրված գրառումները"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_FROM.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_FROM.radiobutton.text
-msgid "~From:"
-msgstr "~Այստեղից։"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_BIS.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_BIS.fixedtext.text
-msgid "~To:"
-msgstr "~Դեպի։"
-
-#: mailmrge.src#DLG_MAILMERGE.FL_RECORD.fixedline.text
-#: mailmrge.src%23DLG_MAILMERGE.FL_RECORD.fixedline.text
-msgid "Records"
-msgstr "Գրառումներ"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_PRINTER.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_PRINTER.radiobutton.text
-msgid "~Printer"
-msgstr "~Տպիչ"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_MAILING.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_MAILING.radiobutton.text
-msgid "~Electronic"
-msgstr "~Էլեկտրոնային"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_FILE.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_FILE.radiobutton.text
-msgid "File"
-msgstr "Նիշք"
-
-#: mailmrge.src#DLG_MAILMERGE.CB_SINGLE_JOBS.checkbox.text
-#: mailmrge.src%23DLG_MAILMERGE.CB_SINGLE_JOBS.checkbox.text
-msgid "~Single print jobs"
-msgstr "~Միայնակ տպելու աշխատանքներ"
-
-#: mailmrge.src#DLG_MAILMERGE.FL_SAVE_MERGED_DOCUMENT.fixedline.text
-#: mailmrge.src%23DLG_MAILMERGE.FL_SAVE_MERGED_DOCUMENT.fixedline.text
-msgid "Save merged document"
-msgstr "Հիշիր ձուլված փաստաթուղթը"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_SAVE_SINGLE_DOC.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_SAVE_SINGLE_DOC.radiobutton.text
-msgid "S~ave as single document"
-msgstr "Հ~իշիր որպես մեկ փաստաթուղթ"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_SAVE_INDIVIDUAL.radiobutton.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_SAVE_INDIVIDUAL.radiobutton.text
-msgid "Sa~ve as individual documents"
-msgstr "Հի~շեք որպես անհատական փաստաթղթեր"
-
-#: mailmrge.src#DLG_MAILMERGE.RB_GENERATE_FROM_DATABASE.checkbox.text
-#: mailmrge.src%23DLG_MAILMERGE.RB_GENERATE_FROM_DATABASE.checkbox.text
-msgid "Generate file name from ~Database"
-msgstr "Գեներացրեք նիշքի անունը ~շտեմարանից"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_COLUMN.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_COLUMN.fixedtext.text
-msgid "Field"
-msgstr "Դաշտ"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_PATH.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_PATH.fixedtext.text
-msgid "~Path"
-msgstr "~Ուղի"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_FILTER.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_FILTER.fixedtext.text
-msgid "F~ile format"
-msgstr "Ն~իշքի ձևաչափ"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_SUBJECT.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_SUBJECT.fixedtext.text
-msgid "~Subject"
-msgstr "~Խորագիր"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_ATTACH.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_ATTACH.fixedtext.text
-msgid "Attachments"
-msgstr "Հավելվածներ"
-
-#: mailmrge.src#DLG_MAILMERGE.FT_FORMAT.fixedtext.text
-#: mailmrge.src%23DLG_MAILMERGE.FT_FORMAT.fixedtext.text
-msgid "Mail Format"
-msgstr "Փոստի ձևաչափ"
-
-#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_HTML.checkbox.text
-#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_HTML.checkbox.text
-msgid "HTM~L"
-msgstr "HTM~L"
-
-#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_RTF.checkbox.text
-#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_RTF.checkbox.text
-msgid "RT~F"
-msgstr "RT~F"
-
-#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_SW.checkbox.text
-#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_SW.checkbox.text
-msgid "%PRODUCTNAME Writer"
-msgstr "%PRODUCTNAME Writer"
-
-#: mailmrge.src#DLG_MAILMERGE.FL_DEST.fixedline.text
-#: mailmrge.src%23DLG_MAILMERGE.FL_DEST.fixedline.text
-msgid "Output"
-msgstr "Ելք"
-
-#: mailmrge.src#DLG_MERGE_CREATE.FL_CREATEFROM.fixedline.text
-#: mailmrge.src%23DLG_MERGE_CREATE.FL_CREATEFROM.fixedline.text
-msgid "Create"
-msgstr "Ստեղծել"
-
-#: mailmrge.src#DLG_MERGE_CREATE.RB_THISDOC.radiobutton.text
-#: mailmrge.src%23DLG_MERGE_CREATE.RB_THISDOC.radiobutton.text
-msgid "From this ~document"
-msgstr "Այս ~փաստաթղթից"
-
-#: mailmrge.src#DLG_MERGE_CREATE.RB_TEMPLATE.radiobutton.text
-#: mailmrge.src%23DLG_MERGE_CREATE.RB_TEMPLATE.radiobutton.text
-msgid "From a ~template"
-msgstr "~Ձևանմուշից"
-
-#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.FL_CONNECTIONS.fixedline.text
-#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.FL_CONNECTIONS.fixedline.text
-msgid "Connect"
-msgstr "Միացեք"
-
-#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.RB_USEEXISTING.radiobutton.text
-#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.RB_USEEXISTING.radiobutton.text
-msgid "~Use existing"
-msgstr "~Օգտագործեք առկան"
-
-#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.RB_CREATENEW.radiobutton.text
-#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.RB_CREATENEW.radiobutton.text
-msgid "~Create new connection"
-msgstr "~Ստեղծեք նոր միացում"
-
-#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.FT_INFO.fixedtext.text
-#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.FT_INFO.fixedtext.text
-msgid ""
-"Fields are used to personalize form letters. The fields are placeholders for "
-"data from a data source, such as a database. The fields in the form letter "
-"must be connected to the data source."
-msgstr ""
-"Դաշտերն օգտագործվում են անհատականացնելու համար ձևաթղթերը: Դաշտերը տվյալների "
-"աղբյուրից եկող տվյալների տեղապահներն են, ինչպես օրինակ, շտեմարանը։ Ձևաթղթի "
-"դաշտերի պետք է միացվեն տվյալների աղբյուրին:"
-
-#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.modaldialog.text
-#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.modaldialog.text
-msgid "Data Source Connection"
-msgstr "Տվյալի աղբյուրի միացում"
-
-#: labprt.src#TP_LAB_PRT.BTN_PAGE.radiobutton.text
-#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
-msgid "~Entire page"
-msgstr "~Ամբողջական էջ"
-
-#: labprt.src#TP_LAB_PRT.BTN_SINGLE.radiobutton.text
-#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
-msgid "~Single label"
-msgstr "~Մեկ պիտակ"
-
-#: labprt.src#TP_LAB_PRT.TXT_COL.fixedtext.text
-#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
-msgid "Colu~mn"
-msgstr "Սյուն~ակ"
-
-#: labprt.src#TP_LAB_PRT.TXT_ROW.fixedtext.text
-#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
-msgid "Ro~w"
-msgstr "Տո~ղ"
-
-#: labprt.src#TP_LAB_PRT.CB_SYNCHRON.checkbox.text
-#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
-msgid "Synchroni~ze contents"
-msgstr "Համաժամանակացր~եք բովանդակությունը"
-
-#: labprt.src#TP_LAB_PRT.FL_DONTKNOW.fixedline.text
-#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
-msgid "Distribute"
-msgstr "Տարածեք"
-
-#: labprt.src#TP_LAB_PRT.INF_PRINTER.fixedtext.text
-#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
-msgid "Printer Name"
-msgstr "Տպիչի անունը"
-
-#: labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
-#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
-msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
-msgid "Setup..."
-msgstr "Կարգաբերում․․․"
-
-#: labprt.src#TP_LAB_PRT.FL_PRINTER.fixedline.text
-#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
-msgid " Printer "
-msgstr " Տպիչ "
-
-#: envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text
-#: envlop.src%23DLG_ENV.1.TP_ENV_ENV.pageitem.text
-msgctxt "envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text"
-msgid "Envelope"
-msgstr "Ծրար"
-
-#: envlop.src#DLG_ENV.1.TP_ENV_FMT.pageitem.text
-#: envlop.src%23DLG_ENV.1.TP_ENV_FMT.pageitem.text
-msgctxt "envlop.src#DLG_ENV.1.TP_ENV_FMT.pageitem.text"
-msgid "Format"
-msgstr "Ձևաչափ"
-
-#: envlop.src#DLG_ENV.1.TP_ENV_PRT.pageitem.text
-#: envlop.src%23DLG_ENV.1.TP_ENV_PRT.pageitem.text
-msgid "Printer"
-msgstr "Տպիչ"
-
-#: envlop.src#DLG_ENV.ST_INSERT.string.text
-#: envlop.src%23DLG_ENV.ST_INSERT.string.text
-msgid "~Insert"
-msgstr "~Տեղադրեք"
-
-#: envlop.src#DLG_ENV.ST_CHANGE.string.text
-#: envlop.src%23DLG_ENV.ST_CHANGE.string.text
-msgid "~Modify"
-msgstr "~Ձևափոխեք"
-
-#: envlop.src#DLG_ENV.tabdialog.text
-#: envlop.src%23DLG_ENV.tabdialog.text
-msgctxt "envlop.src#DLG_ENV.tabdialog.text"
-msgid "Envelope"
-msgstr "Ծրար"
-
-#: envlop.src#TP_ENV_ENV.TXT_ADDR.fixedtext.text
-#: envlop.src%23TP_ENV_ENV.TXT_ADDR.fixedtext.text
-msgid "Addr~essee"
-msgstr "Հաս~ցե"
-
-#: envlop.src#TP_ENV_ENV.FT_DATABASE.fixedtext.text
-#: envlop.src%23TP_ENV_ENV.FT_DATABASE.fixedtext.text
-msgctxt "envlop.src#TP_ENV_ENV.FT_DATABASE.fixedtext.text"
-msgid "Database"
-msgstr "Շտեմարան"
-
-#: envlop.src#TP_ENV_ENV.FT_TABLE.fixedtext.text
-#: envlop.src%23TP_ENV_ENV.FT_TABLE.fixedtext.text
-msgctxt "envlop.src#TP_ENV_ENV.FT_TABLE.fixedtext.text"
-msgid "Table"
-msgstr "Աղյուսակ"
-
-#: envlop.src#TP_ENV_ENV.FT_DBFIELD.fixedtext.text
-#: envlop.src%23TP_ENV_ENV.FT_DBFIELD.fixedtext.text
-msgid "~Database field"
-msgstr "~Շտեմարանի դաշտ"
-
-#: envlop.src#TP_ENV_ENV.BOX_SEND.checkbox.text
-#: envlop.src%23TP_ENV_ENV.BOX_SEND.checkbox.text
-msgid "~Sender"
-msgstr "~Առաքող"
-
-#: envlop.src#STR_DOC_TITLE.string.text
-#: envlop.src%23STR_DOC_TITLE.string.text
-msgctxt "envlop.src#STR_DOC_TITLE.string.text"
-msgid "Envelope"
-msgstr "Ծրար"
+#: labfmt.src#DLG_SAVE_LABEL.modaldialog.text
+#: labfmt.src%23DLG_SAVE_LABEL.modaldialog.text
+msgid "Save Label Format"
+msgstr "Հիշեք պիտակի ձևաչափը"
 
 #: label.src#LABEL_STRING.#define.text
 #: label.src%23LABEL_STRING.%23define.text
@@ -656,6 +506,218 @@ msgstr "Ֆաքս"
 msgid "Ho~mepage / e-mail"
 msgstr "Տն~ային էջ / էլ․ փոստ"
 
+#: mailmrge.src#_MAIL_MERGE_STRING_.#define.text
+#: mailmrge.src%23_MAIL_MERGE_STRING_.%23define.text
+msgid "Mail Merge"
+msgstr "Փոստի ձուլում"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_ALL.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_ALL.radiobutton.text
+msgid "~All"
+msgstr "~Բոլորը"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_MARKED.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_MARKED.radiobutton.text
+msgid "~Selected records"
+msgstr "~Ընտրված գրառումները"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_FROM.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_FROM.radiobutton.text
+msgid "~From:"
+msgstr "~Այստեղից։"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_BIS.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_BIS.fixedtext.text
+msgid "~To:"
+msgstr "~Դեպի։"
+
+#: mailmrge.src#DLG_MAILMERGE.FL_RECORD.fixedline.text
+#: mailmrge.src%23DLG_MAILMERGE.FL_RECORD.fixedline.text
+msgid "Records"
+msgstr "Գրառումներ"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_PRINTER.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_PRINTER.radiobutton.text
+msgid "~Printer"
+msgstr "~Տպիչ"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_MAILING.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_MAILING.radiobutton.text
+msgid "~Electronic"
+msgstr "~Էլեկտրոնային"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_FILE.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_FILE.radiobutton.text
+msgid "File"
+msgstr "Նիշք"
+
+#: mailmrge.src#DLG_MAILMERGE.CB_SINGLE_JOBS.checkbox.text
+#: mailmrge.src%23DLG_MAILMERGE.CB_SINGLE_JOBS.checkbox.text
+msgid "~Single print jobs"
+msgstr "~Միայնակ տպելու աշխատանքներ"
+
+#: mailmrge.src#DLG_MAILMERGE.FL_SAVE_MERGED_DOCUMENT.fixedline.text
+#: mailmrge.src%23DLG_MAILMERGE.FL_SAVE_MERGED_DOCUMENT.fixedline.text
+msgid "Save merged document"
+msgstr "Հիշիր ձուլված փաստաթուղթը"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_SAVE_SINGLE_DOC.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_SAVE_SINGLE_DOC.radiobutton.text
+msgid "S~ave as single document"
+msgstr "Հ~իշիր որպես մեկ փաստաթուղթ"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_SAVE_INDIVIDUAL.radiobutton.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_SAVE_INDIVIDUAL.radiobutton.text
+msgid "Sa~ve as individual documents"
+msgstr "Հի~շեք որպես անհատական փաստաթղթեր"
+
+#: mailmrge.src#DLG_MAILMERGE.RB_GENERATE_FROM_DATABASE.checkbox.text
+#: mailmrge.src%23DLG_MAILMERGE.RB_GENERATE_FROM_DATABASE.checkbox.text
+msgid "Generate file name from ~Database"
+msgstr "Գեներացրեք նիշքի անունը ~շտեմարանից"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_COLUMN.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_COLUMN.fixedtext.text
+msgid "Field"
+msgstr "Դաշտ"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_PATH.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_PATH.fixedtext.text
+msgid "~Path"
+msgstr "~Ուղի"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_FILTER.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_FILTER.fixedtext.text
+msgid "F~ile format"
+msgstr "Ն~իշքի ձևաչափ"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_SUBJECT.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_SUBJECT.fixedtext.text
+msgid "~Subject"
+msgstr "~Խորագիր"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_ATTACH.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_ATTACH.fixedtext.text
+msgid "Attachments"
+msgstr "Հավելվածներ"
+
+#: mailmrge.src#DLG_MAILMERGE.FT_FORMAT.fixedtext.text
+#: mailmrge.src%23DLG_MAILMERGE.FT_FORMAT.fixedtext.text
+msgid "Mail Format"
+msgstr "Փոստի ձևաչափ"
+
+#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_HTML.checkbox.text
+#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_HTML.checkbox.text
+msgid "HTM~L"
+msgstr "HTM~L"
+
+#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_RTF.checkbox.text
+#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_RTF.checkbox.text
+msgid "RT~F"
+msgstr "RT~F"
+
+#: mailmrge.src#DLG_MAILMERGE.CB_FORMAT_SW.checkbox.text
+#: mailmrge.src%23DLG_MAILMERGE.CB_FORMAT_SW.checkbox.text
+msgid "%PRODUCTNAME Writer"
+msgstr "%PRODUCTNAME Writer"
+
+#: mailmrge.src#DLG_MAILMERGE.FL_DEST.fixedline.text
+#: mailmrge.src%23DLG_MAILMERGE.FL_DEST.fixedline.text
+msgid "Output"
+msgstr "Ելք"
+
+#: mailmrge.src#DLG_MERGE_CREATE.FL_CREATEFROM.fixedline.text
+#: mailmrge.src%23DLG_MERGE_CREATE.FL_CREATEFROM.fixedline.text
+msgid "Create"
+msgstr "Ստեղծել"
+
+#: mailmrge.src#DLG_MERGE_CREATE.RB_THISDOC.radiobutton.text
+#: mailmrge.src%23DLG_MERGE_CREATE.RB_THISDOC.radiobutton.text
+msgid "From this ~document"
+msgstr "Այս ~փաստաթղթից"
+
+#: mailmrge.src#DLG_MERGE_CREATE.RB_TEMPLATE.radiobutton.text
+#: mailmrge.src%23DLG_MERGE_CREATE.RB_TEMPLATE.radiobutton.text
+msgid "From a ~template"
+msgstr "~Ձևանմուշից"
+
+#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.FL_CONNECTIONS.fixedline.text
+#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.FL_CONNECTIONS.fixedline.text
+msgid "Connect"
+msgstr "Միացեք"
+
+#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.RB_USEEXISTING.radiobutton.text
+#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.RB_USEEXISTING.radiobutton.text
+msgid "~Use existing"
+msgstr "~Օգտագործեք առկան"
+
+#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.RB_CREATENEW.radiobutton.text
+#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.RB_CREATENEW.radiobutton.text
+msgid "~Create new connection"
+msgstr "~Ստեղծեք նոր միացում"
+
+#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.FT_INFO.fixedtext.text
+#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.FT_INFO.fixedtext.text
+msgid ""
+"Fields are used to personalize form letters. The fields are placeholders for "
+"data from a data source, such as a database. The fields in the form letter "
+"must be connected to the data source."
+msgstr ""
+"Դաշտերն օգտագործվում են անհատականացնելու համար ձևաթղթերը: Դաշտերը տվյալների "
+"աղբյուրից եկող տվյալների տեղապահներն են, ինչպես օրինակ, շտեմարանը։ Ձևաթղթի "
+"դաշտերի պետք է միացվեն տվյալների աղբյուրին:"
+
+#: mailmrge.src#DLG_MERGE_FIELD_CONNECTIONS.modaldialog.text
+#: mailmrge.src%23DLG_MERGE_FIELD_CONNECTIONS.modaldialog.text
+msgid "Data Source Connection"
+msgstr "Տվյալի աղբյուրի միացում"
+
+#: labprt.src#TP_LAB_PRT.BTN_PAGE.radiobutton.text
+#: labprt.src%23TP_LAB_PRT.BTN_PAGE.radiobutton.text
+msgid "~Entire page"
+msgstr "~Ամբողջական էջ"
+
+#: labprt.src#TP_LAB_PRT.BTN_SINGLE.radiobutton.text
+#: labprt.src%23TP_LAB_PRT.BTN_SINGLE.radiobutton.text
+msgid "~Single label"
+msgstr "~Մեկ պիտակ"
+
+#: labprt.src#TP_LAB_PRT.TXT_COL.fixedtext.text
+#: labprt.src%23TP_LAB_PRT.TXT_COL.fixedtext.text
+msgid "Colu~mn"
+msgstr "Սյուն~ակ"
+
+#: labprt.src#TP_LAB_PRT.TXT_ROW.fixedtext.text
+#: labprt.src%23TP_LAB_PRT.TXT_ROW.fixedtext.text
+msgid "Ro~w"
+msgstr "Տո~ղ"
+
+#: labprt.src#TP_LAB_PRT.CB_SYNCHRON.checkbox.text
+#: labprt.src%23TP_LAB_PRT.CB_SYNCHRON.checkbox.text
+msgid "Synchroni~ze contents"
+msgstr "Համաժամանակացր~եք բովանդակությունը"
+
+#: labprt.src#TP_LAB_PRT.FL_DONTKNOW.fixedline.text
+#: labprt.src%23TP_LAB_PRT.FL_DONTKNOW.fixedline.text
+msgid "Distribute"
+msgstr "Տարածեք"
+
+#: labprt.src#TP_LAB_PRT.INF_PRINTER.fixedtext.text
+#: labprt.src%23TP_LAB_PRT.INF_PRINTER.fixedtext.text
+msgid "Printer Name"
+msgstr "Տպիչի անունը"
+
+#: labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
+#: labprt.src%23TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text
+msgctxt "labprt.src#TP_LAB_PRT.BTN_PRTSETUP.pushbutton.text"
+msgid "Setup..."
+msgstr "Կարգաբերում․․․"
+
+#: labprt.src#TP_LAB_PRT.FL_PRINTER.fixedline.text
+#: labprt.src%23TP_LAB_PRT.FL_PRINTER.fixedline.text
+msgid " Printer "
+msgstr " Տպիչ "
+
 #: envprt.src#TP_ENV_PRT.FL_NONAME.fixedline.text
 #: envprt.src%23TP_ENV_PRT.FL_NONAME.fixedline.text
 msgid "Envelope orientation"
@@ -697,130 +759,68 @@ msgctxt "envprt.src#TP_ENV_PRT.BTN_PRTSETUP.pushbutton.text"
 msgid "Setup..."
 msgstr "Կարգաբերում․․․"
 
-#: labfmt.src#TP_LAB_FMT.TXT_HDIST.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_HDIST.fixedtext.text
-msgid "Hori~zontal pitch"
-msgstr "Հորի~զոնական տոն"
+#: envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text
+#: envlop.src%23DLG_ENV.1.TP_ENV_ENV.pageitem.text
+msgctxt "envlop.src#DLG_ENV.1.TP_ENV_ENV.pageitem.text"
+msgid "Envelope"
+msgstr "Ծրար"
 
-#: labfmt.src#TP_LAB_FMT.TXT_VDIST.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_VDIST.fixedtext.text
-msgid "~Vertical pitch"
-msgstr "~Ուղղահայաց մատուցում"
+#: envlop.src#DLG_ENV.1.TP_ENV_FMT.pageitem.text
+#: envlop.src%23DLG_ENV.1.TP_ENV_FMT.pageitem.text
+msgctxt "envlop.src#DLG_ENV.1.TP_ENV_FMT.pageitem.text"
+msgid "Format"
+msgstr "Ձևաչափ"
 
-#: labfmt.src#TP_LAB_FMT.TXT_WIDTH.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_WIDTH.fixedtext.text
-msgctxt "labfmt.src#TP_LAB_FMT.TXT_WIDTH.fixedtext.text"
-msgid "~Width"
-msgstr "~Լայնք"
+#: envlop.src#DLG_ENV.1.TP_ENV_PRT.pageitem.text
+#: envlop.src%23DLG_ENV.1.TP_ENV_PRT.pageitem.text
+msgid "Printer"
+msgstr "Տպիչ"
 
-#: labfmt.src#TP_LAB_FMT.TXT_HEIGHT.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_HEIGHT.fixedtext.text
-msgctxt "labfmt.src#TP_LAB_FMT.TXT_HEIGHT.fixedtext.text"
-msgid "~Height"
-msgstr "~Բարձրություն"
+#: envlop.src#DLG_ENV.ST_INSERT.string.text
+#: envlop.src%23DLG_ENV.ST_INSERT.string.text
+msgid "~Insert"
+msgstr "~Տեղադրեք"
 
-#: labfmt.src#TP_LAB_FMT.TXT_LEFT.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_LEFT.fixedtext.text
-msgid "~Left margin"
-msgstr "~Ձախ լուսանցք"
+#: envlop.src#DLG_ENV.ST_CHANGE.string.text
+#: envlop.src%23DLG_ENV.ST_CHANGE.string.text
+msgid "~Modify"
+msgstr "~Ձևափոխեք"
 
-#: labfmt.src#TP_LAB_FMT.TXT_UPPER.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_UPPER.fixedtext.text
-msgid "~Top margin"
-msgstr "~Վերին լուսանցք"
+#: envlop.src#DLG_ENV.tabdialog.text
+#: envlop.src%23DLG_ENV.tabdialog.text
+msgctxt "envlop.src#DLG_ENV.tabdialog.text"
+msgid "Envelope"
+msgstr "Ծրար"
 
-#: labfmt.src#TP_LAB_FMT.TXT_COLUMNS.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_COLUMNS.fixedtext.text
-msgid "~Columns"
-msgstr "~Սյունակներ"
+#: envlop.src#TP_ENV_ENV.TXT_ADDR.fixedtext.text
+#: envlop.src%23TP_ENV_ENV.TXT_ADDR.fixedtext.text
+msgid "Addr~essee"
+msgstr "Հաս~ցե"
 
-#: labfmt.src#TP_LAB_FMT.TXT_ROWS.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_ROWS.fixedtext.text
-msgid "R~ows"
-msgstr "Տ~ողեր"
+#: envlop.src#TP_ENV_ENV.FT_DATABASE.fixedtext.text
+#: envlop.src%23TP_ENV_ENV.FT_DATABASE.fixedtext.text
+msgctxt "envlop.src#TP_ENV_ENV.FT_DATABASE.fixedtext.text"
+msgid "Database"
+msgstr "Շտեմարան"
 
-#: labfmt.src#TP_LAB_FMT.TXT_PAPER_WIDTH.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_PAPER_WIDTH.fixedtext.text
-msgid "~Paper Width"
-msgstr "~Թղթի լայնք"
+#: envlop.src#TP_ENV_ENV.FT_TABLE.fixedtext.text
+#: envlop.src%23TP_ENV_ENV.FT_TABLE.fixedtext.text
+msgctxt "envlop.src#TP_ENV_ENV.FT_TABLE.fixedtext.text"
+msgid "Table"
+msgstr "Աղյուսակ"
 
-#: labfmt.src#TP_LAB_FMT.TXT_PAPER_HEIGHT.fixedtext.text
-#: labfmt.src%23TP_LAB_FMT.TXT_PAPER_HEIGHT.fixedtext.text
-msgid "Pape~r Height"
-msgstr "Թղթ~ի բարձրություն"
+#: envlop.src#TP_ENV_ENV.FT_DBFIELD.fixedtext.text
+#: envlop.src%23TP_ENV_ENV.FT_DBFIELD.fixedtext.text
+msgid "~Database field"
+msgstr "~Շտեմարանի դաշտ"
 
-#: labfmt.src#TP_LAB_FMT.PB_SAVE.pushbutton.text
-#: labfmt.src%23TP_LAB_FMT.PB_SAVE.pushbutton.text
-msgid "~Save..."
-msgstr "~Հիշել․․․"
+#: envlop.src#TP_ENV_ENV.BOX_SEND.checkbox.text
+#: envlop.src%23TP_ENV_ENV.BOX_SEND.checkbox.text
+msgid "~Sender"
+msgstr "~Առաքող"
 
-#: labfmt.src#STR_HDIST.string.text
-#: labfmt.src%23STR_HDIST.string.text
-msgid "H. Pitch"
-msgstr "H. Pitch"
-
-#: labfmt.src#STR_VDIST.string.text
-#: labfmt.src%23STR_VDIST.string.text
-msgid "V. Pitch"
-msgstr "V. Pitch"
-
-#: labfmt.src#STR_WIDTH.string.text
-#: labfmt.src%23STR_WIDTH.string.text
-msgid "Width"
-msgstr "Լայնք"
-
-#: labfmt.src#STR_HEIGHT.string.text
-#: labfmt.src%23STR_HEIGHT.string.text
-msgid "Height"
-msgstr "Բարձրություն"
-
-#: labfmt.src#STR_LEFT.string.text
-#: labfmt.src%23STR_LEFT.string.text
-msgid "Left margin"
-msgstr "Ձախ լուսանցք"
-
-#: labfmt.src#STR_UPPER.string.text
-#: labfmt.src%23STR_UPPER.string.text
-msgid "Top margin"
-msgstr "Վերին լուսանցք"
-
-#: labfmt.src#STR_COLS.string.text
-#: labfmt.src%23STR_COLS.string.text
-msgid "Columns"
-msgstr "Սյունակներ"
-
-#: labfmt.src#STR_ROWS.string.text
-#: labfmt.src%23STR_ROWS.string.text
-msgid "Rows"
-msgstr "Տողեր"
-
-#: labfmt.src#DLG_SAVE_LABEL.FT_MAKE.fixedtext.text
-#: labfmt.src%23DLG_SAVE_LABEL.FT_MAKE.fixedtext.text
-msgctxt "labfmt.src#DLG_SAVE_LABEL.FT_MAKE.fixedtext.text"
-msgid "Brand"
-msgstr "Բրենդ"
-
-#: labfmt.src#DLG_SAVE_LABEL.FT_TYPE.fixedtext.text
-#: labfmt.src%23DLG_SAVE_LABEL.FT_TYPE.fixedtext.text
-msgid "T~ype"
-msgstr "Տ~եսակ"
-
-#: labfmt.src#DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text
-#: labfmt.src%23DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text
-msgctxt "labfmt.src#DLG_SAVE_LABEL.FL_OPTIONS.fixedline.text"
-msgid "Options"
-msgstr "Ընտրանքներ"
-
-#: labfmt.src#DLG_SAVE_LABEL.MB_QUERY.querybox.text
-#: labfmt.src%23DLG_SAVE_LABEL.MB_QUERY.querybox.text
-msgid ""
-"The label \"%1 / %2\" already exists.\n"
-"Do you want to overwrite it?"
-msgstr ""
-"\"%1 / %2\" պիտակն արդեն առկա է։\n"
-"Ցանկանու՞մ եք վերագրել այն։"
-
-#: labfmt.src#DLG_SAVE_LABEL.modaldialog.text
-#: labfmt.src%23DLG_SAVE_LABEL.modaldialog.text
-msgid "Save Label Format"
-msgstr "Հիշեք պիտակի ձևաչափը"
+#: envlop.src#STR_DOC_TITLE.string.text
+#: envlop.src%23STR_DOC_TITLE.string.text
+msgctxt "envlop.src#STR_DOC_TITLE.string.text"
+msgid "Envelope"
+msgstr "Ծրար"
