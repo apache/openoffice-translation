@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Futlui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,881 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: gloslst.src#DLG_GLOSSARY_DECIDE_DLG.FL_GLOSS.fixedline.text
+#: gloslst.src%23DLG_GLOSSARY_DECIDE_DLG.FL_GLOSS.fixedline.text
+msgid "AutoText - Group"
+msgstr "ข้อความอัตโนมัติ - จัดกลุ่ม"
+
+#: gloslst.src#DLG_GLOSSARY_DECIDE_DLG.modaldialog.text
+#: gloslst.src%23DLG_GLOSSARY_DECIDE_DLG.modaldialog.text
+msgid "Select AutoText:"
+msgstr "เลือกข้อความอัตโนมัติ: "
+
+#: initui.src#RID_SW_SHELLRES.STR_POSTIT_PAGE.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_PAGE.string.text
+msgid "Page"
+msgstr "หน้า"
+
+#: initui.src#RID_SW_SHELLRES.STR_POSTIT_LINE.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_LINE.string.text
+msgid "Line"
+msgstr "บรรทัด"
+
+#: initui.src#RID_SW_SHELLRES.STR_POSTIT_AUTHOR.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_AUTHOR.string.text
+msgid "Author"
+msgstr "ผู้เขียน"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_SYNTAX.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_SYNTAX.string.text
+msgid "** Syntax Error **"
+msgstr "** ไวยกรณ์ผิดพลาด **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_ZERODIV.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_ZERODIV.string.text
+msgid "** Division by zero **"
+msgstr "** หารด้วยศูนย์ **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_BRACK.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_BRACK.string.text
+msgid "** Wrong use of brackets **"
+msgstr "** ใช้วงเล็บก้ามปูผิด **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_POW.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_POW.string.text
+msgid "** Square function overflow **"
+msgstr "** ฟังก์ชันยกกำลังสอง ล้น **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_VARNFND.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_VARNFND.string.text
+msgid "** Variable not found **"
+msgstr "** ไม่พบตัวแปร **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_OVERFLOW.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_OVERFLOW.string.text
+msgid "** Overflow **"
+msgstr "** ล้น **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_WRONGTIME.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_WRONGTIME.string.text
+msgid "** Wrong time format **"
+msgstr "** รูปแบบเวลาผิด **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_DEFAULT.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_DEFAULT.string.text
+msgid "** Error **"
+msgstr "** ผิดพลาด **"
+
+#: initui.src#RID_SW_SHELLRES.STR_CALC_ERROR.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_CALC_ERROR.string.text
+msgid "** Expression is faulty **"
+msgstr "** คำอธิบายผิด **"
+
+#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_UP.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_UP.string.text
+msgid "above"
+msgstr "ด้านบน"
+
+#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_DOWN.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_DOWN.string.text
+msgid "below"
+msgstr "ด้านใต้"
+
+#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_REFITEMNOTFOUND.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_REFITEMNOTFOUND.string.text
+msgid "Error: Reference source not found"
+msgstr "ผิดพลาด: ไม่แหล่งที่อ้างอิง"
+
+#: initui.src#RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text
+msgctxt "initui.src#RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text"
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: initui.src#RID_SW_SHELLRES.STR_TEMPLATE_NONE.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TEMPLATE_NONE.string.text
+msgid "None"
+msgstr "ไม่มี"
+
+#: initui.src#RID_SW_SHELLRES.STR_FIELD_FIXED.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_FIELD_FIXED.string.text
+msgid "(fixed)"
+msgstr "(คงที่)"
+
+#: initui.src#RID_SW_SHELLRES.STR_DURATION_FORMAT.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_DURATION_FORMAT.string.text
+msgid " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
+msgstr " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOI.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOI.string.text
+msgid "Alphabetical Index"
+msgstr "ดัชนีเรียงตามตัวอักษร"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOU.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOU.string.text
+msgid "User-Defined"
+msgstr "ผู้ใช้กำหนด"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOC.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOC.string.text
+msgid "Table of Contents"
+msgstr "สารบัญ"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOX_AUTH.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOX_AUTH.string.text
+msgid "Bibliography"
+msgstr "บรรณานุกรม"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOX_TBL.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOX_TBL.string.text
+msgid "Index of Tables"
+msgstr "ดัชนีตาราง"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOX_OBJ.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOX_OBJ.string.text
+msgid "Table of Objects"
+msgstr "ตารางวัตถุ"
+
+#: initui.src#RID_SW_SHELLRES.STR_TOX_ILL.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_TOX_ILL.string.text
+msgid "Illustration Index"
+msgstr "ดัชนีภาพประกอบ"
+
+#: initui.src#RID_SW_SHELLRES.STR_HYPERLINK_CLICK.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_HYPERLINK_CLICK.string.text
+msgid "%s-click to open hyperlink"
+msgstr "%s-คลิกเพื่อเปิดการเชื่อมโยงหลายมิติ (hyperlink)"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text
+msgctxt "initui.src#RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text"
+msgid "Title"
+msgstr "ชื่อ"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_THEMA.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_THEMA.string.text
+msgid "Subject"
+msgstr "ชื่อเรื่อง"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_KEYS.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_KEYS.string.text
+msgid "Keywords"
+msgstr "คำสำคัญ"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text
+msgctxt "initui.src#RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text"
+msgid "Comments"
+msgstr "ความคิดเห็น"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_CREATE.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_CREATE.string.text
+msgid "Created"
+msgstr "สร้าง"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_CHANGE.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_CHANGE.string.text
+msgid "Modified"
+msgstr "แก้ไข"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_PRINT.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_PRINT.string.text
+msgid "Last printed"
+msgstr "พิมพ์ครั้งสุดท้าย"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_DOCNO.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_DOCNO.string.text
+msgid "Revision number"
+msgstr "เลขเอกสาร"
+
+#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_EDIT.string.text
+#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_EDIT.string.text
+msgid "Total editing time"
+msgstr "แก้ไขเวลา"
+
+#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_NAME.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_NAME.string.text
+msgid "Convert $(ARG1)"
+msgstr "แปลง $(ARG1)"
+
+#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_FIRSTNAME.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_FIRSTNAME.string.text
+msgid "First convert $(ARG1)"
+msgstr "แปลง $(ARG1) ครั้งแรก"
+
+#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_FOLLOWNAME.string.text
+#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_FOLLOWNAME.string.text
+msgid "Next convert $(ARG1)"
+msgstr "แปลง $(ARG1) ถัดไป"
+
+#: initui.src#STR_AUTH_TYPE_ARTICLE.string.text
+#: initui.src%23STR_AUTH_TYPE_ARTICLE.string.text
+msgid "Article"
+msgstr "บทความ"
+
+#: initui.src#STR_AUTH_TYPE_BOOK.string.text
+#: initui.src%23STR_AUTH_TYPE_BOOK.string.text
+msgid "Book"
+msgstr "หนังสือ"
+
+#: initui.src#STR_AUTH_TYPE_BOOKLET.string.text
+#: initui.src%23STR_AUTH_TYPE_BOOKLET.string.text
+msgid "Brochures"
+msgstr "แผ่นพับ"
+
+#: initui.src#STR_AUTH_TYPE_CONFERENCE.string.text
+#: initui.src%23STR_AUTH_TYPE_CONFERENCE.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CONFERENCE.string.text"
+msgid "Conference proceedings"
+msgstr "รายงานการประชุม"
+
+#: initui.src#STR_AUTH_TYPE_INBOOK.string.text
+#: initui.src%23STR_AUTH_TYPE_INBOOK.string.text
+msgid "Book excerpt"
+msgstr "คัดลอกจากหนังสือ"
+
+#: initui.src#STR_AUTH_TYPE_INCOLLECTION.string.text
+#: initui.src%23STR_AUTH_TYPE_INCOLLECTION.string.text
+msgid "Book excerpt with title"
+msgstr "คัดลอกจากหนังสือ มีชื่อเรื่อง"
+
+#: initui.src#STR_AUTH_TYPE_INPROCEEDINGS.string.text
+#: initui.src%23STR_AUTH_TYPE_INPROCEEDINGS.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_INPROCEEDINGS.string.text"
+msgid "Conference proceedings"
+msgstr "รายงานการประชุม"
+
+#: initui.src#STR_AUTH_TYPE_JOURNAL.string.text
+#: initui.src%23STR_AUTH_TYPE_JOURNAL.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_JOURNAL.string.text"
+msgid "Journal"
+msgstr "วารสาร"
+
+#: initui.src#STR_AUTH_TYPE_MANUAL.string.text
+#: initui.src%23STR_AUTH_TYPE_MANUAL.string.text
+msgid "Techn. documentation"
+msgstr "เอกสารทางเทคนิค"
+
+#: initui.src#STR_AUTH_TYPE_MASTERSTHESIS.string.text
+#: initui.src%23STR_AUTH_TYPE_MASTERSTHESIS.string.text
+msgid "Thesis"
+msgstr "วิทยานิพนธ์"
+
+#: initui.src#STR_AUTH_TYPE_MISC.string.text
+#: initui.src%23STR_AUTH_TYPE_MISC.string.text
+msgid "Miscellaneous"
+msgstr "เบ็ดเตล็ด"
+
+#: initui.src#STR_AUTH_TYPE_PHDTHESIS.string.text
+#: initui.src%23STR_AUTH_TYPE_PHDTHESIS.string.text
+msgid "Dissertation"
+msgstr "สารนิพนธ์"
+
+#: initui.src#STR_AUTH_TYPE_PROCEEDINGS.string.text
+#: initui.src%23STR_AUTH_TYPE_PROCEEDINGS.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_PROCEEDINGS.string.text"
+msgid "Conference proceedings"
+msgstr "รายงานการประชุม"
+
+#: initui.src#STR_AUTH_TYPE_TECHREPORT.string.text
+#: initui.src%23STR_AUTH_TYPE_TECHREPORT.string.text
+msgid "Research report"
+msgstr "รายงานการวิจัย"
+
+#: initui.src#STR_AUTH_TYPE_UNPUBLISHED.string.text
+#: initui.src%23STR_AUTH_TYPE_UNPUBLISHED.string.text
+msgid "Unpublished"
+msgstr "ไม่ได้ตีพิมพ์"
+
+#: initui.src#STR_AUTH_TYPE_EMAIL.string.text
+#: initui.src%23STR_AUTH_TYPE_EMAIL.string.text
+msgid "e-mail"
+msgstr "อีเมล"
+
+#: initui.src#STR_AUTH_TYPE_WWW.string.text
+#: initui.src%23STR_AUTH_TYPE_WWW.string.text
+msgid "WWW document"
+msgstr "เอกสาร WWW "
+
+#: initui.src#STR_AUTH_TYPE_CUSTOM1.string.text
+#: initui.src%23STR_AUTH_TYPE_CUSTOM1.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM1.string.text"
+msgid "User-defined1"
+msgstr "ผู้ใช้กำหนด 1"
+
+#: initui.src#STR_AUTH_TYPE_CUSTOM2.string.text
+#: initui.src%23STR_AUTH_TYPE_CUSTOM2.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM2.string.text"
+msgid "User-defined2"
+msgstr "ผู้ใช้กำหนด 2"
+
+#: initui.src#STR_AUTH_TYPE_CUSTOM3.string.text
+#: initui.src%23STR_AUTH_TYPE_CUSTOM3.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM3.string.text"
+msgid "User-defined3"
+msgstr "ผู้ใช้กำหนด 3"
+
+#: initui.src#STR_AUTH_TYPE_CUSTOM4.string.text
+#: initui.src%23STR_AUTH_TYPE_CUSTOM4.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM4.string.text"
+msgid "User-defined4"
+msgstr "ผู้ใช้กำหนด 4"
+
+#: initui.src#STR_AUTH_TYPE_CUSTOM5.string.text
+#: initui.src%23STR_AUTH_TYPE_CUSTOM5.string.text
+msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM5.string.text"
+msgid "User-defined5"
+msgstr "ผู้ใช้กำหนด 5"
+
+#: initui.src#STR_AUTH_FIELD_IDENTIFIER.string.text
+#: initui.src%23STR_AUTH_FIELD_IDENTIFIER.string.text
+msgid "Short name"
+msgstr "ชื่อย่อ"
+
+#: initui.src#STR_AUTH_FIELD_AUTHORITY_TYPE.string.text
+#: initui.src%23STR_AUTH_FIELD_AUTHORITY_TYPE.string.text
+msgid "Type"
+msgstr "ชนิด"
+
+#: initui.src#STR_AUTH_FIELD_ADDRESS.string.text
+#: initui.src%23STR_AUTH_FIELD_ADDRESS.string.text
+msgid "Address"
+msgstr "ที่อยู่"
+
+#: initui.src#STR_AUTH_FIELD_ANNOTE.string.text
+#: initui.src%23STR_AUTH_FIELD_ANNOTE.string.text
+msgid "Annotation"
+msgstr "หมายเหตุ"
+
+#: initui.src#STR_AUTH_FIELD_AUTHOR.string.text
+#: initui.src%23STR_AUTH_FIELD_AUTHOR.string.text
+msgid "Author(s)"
+msgstr "ผู้เขียน"
+
+#: initui.src#STR_AUTH_FIELD_BOOKTITLE.string.text
+#: initui.src%23STR_AUTH_FIELD_BOOKTITLE.string.text
+msgid "Book title"
+msgstr "ชื่อหนังสือ"
+
+#: initui.src#STR_AUTH_FIELD_CHAPTER.string.text
+#: initui.src%23STR_AUTH_FIELD_CHAPTER.string.text
+msgid "Chapter"
+msgstr "บท"
+
+#: initui.src#STR_AUTH_FIELD_EDITION.string.text
+#: initui.src%23STR_AUTH_FIELD_EDITION.string.text
+msgid "Edition"
+msgstr "ฉบับ"
+
+#: initui.src#STR_AUTH_FIELD_EDITOR.string.text
+#: initui.src%23STR_AUTH_FIELD_EDITOR.string.text
+msgid "Editor"
+msgstr "บรรณาธิการ"
+
+#: initui.src#STR_AUTH_FIELD_HOWPUBLISHED.string.text
+#: initui.src%23STR_AUTH_FIELD_HOWPUBLISHED.string.text
+msgid "Publication type"
+msgstr "ชนิดการตีพิมพ์"
+
+#: initui.src#STR_AUTH_FIELD_INSTITUTION.string.text
+#: initui.src%23STR_AUTH_FIELD_INSTITUTION.string.text
+msgid "Institution"
+msgstr "สถาบัน"
+
+#: initui.src#STR_AUTH_FIELD_JOURNAL.string.text
+#: initui.src%23STR_AUTH_FIELD_JOURNAL.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_JOURNAL.string.text"
+msgid "Journal"
+msgstr "วารสาร"
+
+#: initui.src#STR_AUTH_FIELD_MONTH.string.text
+#: initui.src%23STR_AUTH_FIELD_MONTH.string.text
+msgid "Month"
+msgstr "เดือน"
+
+#: initui.src#STR_AUTH_FIELD_NOTE.string.text
+#: initui.src%23STR_AUTH_FIELD_NOTE.string.text
+msgid "Note"
+msgstr "บันทึกย่อ"
+
+#: initui.src#STR_AUTH_FIELD_NUMBER.string.text
+#: initui.src%23STR_AUTH_FIELD_NUMBER.string.text
+msgid "Number"
+msgstr "จำนวน"
+
+#: initui.src#STR_AUTH_FIELD_ORGANIZATIONS.string.text
+#: initui.src%23STR_AUTH_FIELD_ORGANIZATIONS.string.text
+msgid "Organization"
+msgstr "องค์กร"
+
+#: initui.src#STR_AUTH_FIELD_PAGES.string.text
+#: initui.src%23STR_AUTH_FIELD_PAGES.string.text
+msgid "Page(s)"
+msgstr "หน้า"
+
+#: initui.src#STR_AUTH_FIELD_PUBLISHER.string.text
+#: initui.src%23STR_AUTH_FIELD_PUBLISHER.string.text
+msgid "Publisher"
+msgstr "สำนักพิมพ์"
+
+#: initui.src#STR_AUTH_FIELD_SCHOOL.string.text
+#: initui.src%23STR_AUTH_FIELD_SCHOOL.string.text
+msgid "University"
+msgstr "มหาวิทยาลัย"
+
+#: initui.src#STR_AUTH_FIELD_SERIES.string.text
+#: initui.src%23STR_AUTH_FIELD_SERIES.string.text
+msgid "Series"
+msgstr "ชื่อชุด"
+
+#: initui.src#STR_AUTH_FIELD_TITLE.string.text
+#: initui.src%23STR_AUTH_FIELD_TITLE.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_TITLE.string.text"
+msgid "Title"
+msgstr "ชื่อเรื่อง"
+
+#: initui.src#STR_AUTH_FIELD_TYPE.string.text
+#: initui.src%23STR_AUTH_FIELD_TYPE.string.text
+msgid "Type of report"
+msgstr "ชนิดรายงาน"
+
+#: initui.src#STR_AUTH_FIELD_VOLUME.string.text
+#: initui.src%23STR_AUTH_FIELD_VOLUME.string.text
+msgid "Volume"
+msgstr "จำนวนเล่ม"
+
+#: initui.src#STR_AUTH_FIELD_YEAR.string.text
+#: initui.src%23STR_AUTH_FIELD_YEAR.string.text
+msgid "Year"
+msgstr "ปีที่จัดพิมพ์"
+
+#: initui.src#STR_AUTH_FIELD_URL.string.text
+#: initui.src%23STR_AUTH_FIELD_URL.string.text
+msgid "URL"
+msgstr "URL"
+
+#: initui.src#STR_AUTH_FIELD_CUSTOM1.string.text
+#: initui.src%23STR_AUTH_FIELD_CUSTOM1.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM1.string.text"
+msgid "User-defined1"
+msgstr "ผู้ใช้กำหนด 1"
+
+#: initui.src#STR_AUTH_FIELD_CUSTOM2.string.text
+#: initui.src%23STR_AUTH_FIELD_CUSTOM2.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM2.string.text"
+msgid "User-defined2"
+msgstr "ผู้ใช้กำหนด 2"
+
+#: initui.src#STR_AUTH_FIELD_CUSTOM3.string.text
+#: initui.src%23STR_AUTH_FIELD_CUSTOM3.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM3.string.text"
+msgid "User-defined3"
+msgstr "ผู้ใช้กำหนด 3"
+
+#: initui.src#STR_AUTH_FIELD_CUSTOM4.string.text
+#: initui.src%23STR_AUTH_FIELD_CUSTOM4.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM4.string.text"
+msgid "User-defined4"
+msgstr "ผู้ใช้กำหนด 4"
+
+#: initui.src#STR_AUTH_FIELD_CUSTOM5.string.text
+#: initui.src%23STR_AUTH_FIELD_CUSTOM5.string.text
+msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM5.string.text"
+msgid "User-defined5"
+msgstr "ผู้ใช้กำหนด 5"
+
+#: initui.src#STR_AUTH_FIELD_ISBN.string.text
+#: initui.src%23STR_AUTH_FIELD_ISBN.string.text
+msgid "ISBN"
+msgstr "ISBN"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_EMPTY_PARA_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_EMPTY_PARA_1.string.text
+msgid "Remove empty paragraphs"
+msgstr "เอาย่อหน้าว่างออก"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USE_REPLACE_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USE_REPLACE_1.string.text
+msgid "Use replacement table"
+msgstr "ใช้ตารางแทนที่"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_WORD_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_WORD_1.string.text
+msgid "Correct TWo INitial CApitals"
+msgstr "แก้ไขตัวพิมพ์ใหญ่สองตัวแรกให้ถูกต้อง"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_SENT_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_SENT_1.string.text
+msgid "Capitalize first letter of sentences"
+msgstr "ทำตัวอักษรตัวแรกของประโยคเป็นตัวพิมพ์ใหญ่"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_TYPO_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_TYPO_1.string.text
+msgid "Replace \"standard\" quotes with %1 \\bcustom%2 quotes"
+msgstr "แทนที่อัญประกาศ \"มาตรฐาน\" ด้วย %1 อัญประกาศ %2 \\bที่กำหนดเอง"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USER_STYLE_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USER_STYLE_1.string.text
+msgid "Replace Custom Styles"
+msgstr "แทนที่ลักษณะที่กำหนดเอง"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BULLET_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BULLET_1.string.text
+msgid "Bullets replaced"
+msgstr "แทนที่จุดนำแล้ว"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_UNDER_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_UNDER_1.string.text
+msgid "Automatic _underline_"
+msgstr "ขีดเส้นใต้ _อัตโนมัติ_"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BOLD_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BOLD_1.string.text
+msgid "Automatic *bold*"
+msgstr "*ตัวหนา* อัตโนมัติ"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_FRACTION_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_FRACTION_1.string.text
+msgid "Replace 1/2 ... with ½ ..."
+msgstr "แทนที่ 1/2 ... ด้วย ½ ..."
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DETECT_URL_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DETECT_URL_1.string.text
+msgid "URL recognition"
+msgstr "จดจำ URL "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DASH_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DASH_1.string.text
+msgid "Replace dashes"
+msgstr "แทนที่เส้นประ"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_ORDINAL_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_ORDINAL_1.string.text
+msgid "Replace 1st... with 1^st..."
+msgstr "แทนที่ 1st... ด้วย 1^st..."
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_RIGHT_MARGIN_1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_RIGHT_MARGIN_1.string.text
+msgid "Combine single line paragraphs"
+msgstr "เชื่อมย่อหน้าบรรทัดเดียว"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT__1.string.text
+msgid "Set \"Text body\" Style"
+msgstr "กำหนดลักษณะ \"เนื้อความ\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text
+msgctxt "utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text"
+msgid "Set \"Text body indent\" Style"
+msgstr "กำหนดลักษณะ \"ระยะเยื้องเนื้อความ\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_NEG_INDENT__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_NEG_INDENT__1.string.text
+msgid "Set \"Hanging indent\" Style"
+msgstr "กำหนดลักษณะ \"ระยะเยื้องลอย\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text
+msgctxt "utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text"
+msgid "Set \"Text body indent\" Style"
+msgstr "กำหนดลักษณะ \"ระยะเยื้องเนื้อความ\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_HEADLINE__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_HEADLINE__1.string.text
+msgid "Set \"Heading $(ARG1)\" Style"
+msgstr "กำหนดลักษณะ \"หัวข้อ $(ARG1)\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_NUMBULET__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_NUMBULET__1.string.text
+msgid "Set \"Bullet\" or \"Numbering\" Style"
+msgstr "กำหนดลักษณะ \"สัญลักษณ์หน้ารายการ\" หรือ \"รายการลำดับ\" "
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_MORELINES__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_MORELINES__1.string.text
+msgid "Combine paragraphs"
+msgstr "เชื่อมย่อหน้า"
+
+#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_NON_BREAK_SPACE__1.string.text
+#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_NON_BREAK_SPACE__1.string.text
+msgid "Add non breaking space"
+msgstr "เติมวรรคที่ไม่แบ่งบรรทัด (non breaking space)"
+
+#: utlui.src#STR_EVENT_OBJECT_SELECT.string.text
+#: utlui.src%23STR_EVENT_OBJECT_SELECT.string.text
+msgid "Click object"
+msgstr "คลิกที่วัตถุ"
+
+#: utlui.src#STR_EVENT_START_INS_GLOSSARY.string.text
+#: utlui.src%23STR_EVENT_START_INS_GLOSSARY.string.text
+msgid "Before inserting AutoText"
+msgstr "ก่อนแทรกข้อความอัตโนมัติ"
+
+#: utlui.src#STR_EVENT_END_INS_GLOSSARY.string.text
+#: utlui.src%23STR_EVENT_END_INS_GLOSSARY.string.text
+msgid "After inserting AutoText"
+msgstr "หลังจากแทรกข้อความอัตโนมัติ"
+
+#: utlui.src#STR_EVENT_MOUSEOVER_OBJECT.string.text
+#: utlui.src%23STR_EVENT_MOUSEOVER_OBJECT.string.text
+msgid "Mouse over object"
+msgstr "เมาส์บนวัตถุ"
+
+#: utlui.src#STR_EVENT_MOUSECLICK_OBJECT.string.text
+#: utlui.src%23STR_EVENT_MOUSECLICK_OBJECT.string.text
+msgid "Trigger hyperlink"
+msgstr "เชื่อมโยงพิเศษแบบทริกเกอร"
+
+#: utlui.src#STR_EVENT_MOUSEOUT_OBJECT.string.text
+#: utlui.src%23STR_EVENT_MOUSEOUT_OBJECT.string.text
+msgid "Mouse leaves object"
+msgstr "เมาส์ออกจากวัตถุ"
+
+#: utlui.src#STR_EVENT_IMAGE_LOAD.string.text
+#: utlui.src%23STR_EVENT_IMAGE_LOAD.string.text
+msgid "Graphics load successful"
+msgstr "โหลดรูปสำเร็จ"
+
+#: utlui.src#STR_EVENT_IMAGE_ABORT.string.text
+#: utlui.src%23STR_EVENT_IMAGE_ABORT.string.text
+msgid "Graphics load terminated"
+msgstr "โหลดรูปถูกยกเลิก"
+
+#: utlui.src#STR_EVENT_IMAGE_ERROR.string.text
+#: utlui.src%23STR_EVENT_IMAGE_ERROR.string.text
+msgid "Graphics load faulty"
+msgstr "โหลดรูปผิด"
+
+#: utlui.src#STR_EVENT_FRM_KEYINPUT_A.string.text
+#: utlui.src%23STR_EVENT_FRM_KEYINPUT_A.string.text
+msgid "Input of alphanumeric characters"
+msgstr "ใส่ตัวอักษรตัวเลขพยัญชนะ"
+
+#: utlui.src#STR_EVENT_FRM_KEYINPUT_NOA.string.text
+#: utlui.src%23STR_EVENT_FRM_KEYINPUT_NOA.string.text
+msgid "Input of non-alphanumeric characters"
+msgstr "ใส่ตัวอักษรที่ไม่ใช่ตัวเลขพยัญชนะ"
+
+#: utlui.src#STR_EVENT_FRM_RESIZE.string.text
+#: utlui.src%23STR_EVENT_FRM_RESIZE.string.text
+msgid "Resize frame"
+msgstr "ปรับขนาดกรอบ"
+
+#: utlui.src#STR_EVENT_FRM_MOVE.string.text
+#: utlui.src%23STR_EVENT_FRM_MOVE.string.text
+msgid "Move frame"
+msgstr "ย้ายกรอบ"
+
+#: utlui.src#STR_CONTENT_TYPE_OUTLINE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_OUTLINE.string.text
+msgid "Headings"
+msgstr "หัวข้อ"
+
+#: utlui.src#STR_CONTENT_TYPE_TABLE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_TABLE.string.text
+msgid "Tables"
+msgstr "ตาราง"
+
+#: utlui.src#STR_CONTENT_TYPE_FRAME.string.text
+#: utlui.src%23STR_CONTENT_TYPE_FRAME.string.text
+msgid "Text frames"
+msgstr "กรอบข้อความ"
+
+#: utlui.src#STR_CONTENT_TYPE_GRAPHIC.string.text
+#: utlui.src%23STR_CONTENT_TYPE_GRAPHIC.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_GRAPHIC.string.text"
+msgid "Graphics"
+msgstr "รูป"
+
+#: utlui.src#STR_CONTENT_TYPE_OLE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_OLE.string.text
+msgid "OLE objects"
+msgstr "วัตถุ OLE"
+
+#: utlui.src#STR_CONTENT_TYPE_BOOKMARK.string.text
+#: utlui.src%23STR_CONTENT_TYPE_BOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "ที่คั่น"
+
+#: utlui.src#STR_CONTENT_TYPE_REGION.string.text
+#: utlui.src%23STR_CONTENT_TYPE_REGION.string.text
+msgid "Sections"
+msgstr "ส่วน"
+
+#: utlui.src#STR_CONTENT_TYPE_URLFIELD.string.text
+#: utlui.src%23STR_CONTENT_TYPE_URLFIELD.string.text
+msgid "Hyperlinks"
+msgstr "เชื่อมโยงพิเศษ"
+
+#: utlui.src#STR_CONTENT_TYPE_REFERENCE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_REFERENCE.string.text
+msgid "References"
+msgstr "อ้างอิง"
+
+#: utlui.src#STR_CONTENT_TYPE_INDEX.string.text
+#: utlui.src%23STR_CONTENT_TYPE_INDEX.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_INDEX.string.text"
+msgid "Indexes"
+msgstr "ดัชนี"
+
+#: utlui.src#STR_CONTENT_TYPE_DRAWOBJECT.string.text
+msgid "Drawing objects"
+msgstr ""
+
+#: utlui.src#STR_CONTENT_TYPE_POSTIT.string.text
+#: utlui.src%23STR_CONTENT_TYPE_POSTIT.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_POSTIT.string.text"
+msgid "Comments"
+msgstr "ความคิดเห็น"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text"
+msgid "Heading"
+msgstr "หัวข้อ"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_TABLE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_TABLE.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_TABLE.string.text"
+msgid "Table"
+msgstr "ตาราง"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_FRAME.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_FRAME.string.text
+msgid "Text frame"
+msgstr "กรอบข้อความ"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text"
+msgid "Graphics"
+msgstr "รูป"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_OLE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_OLE.string.text
+msgid "OLE object"
+msgstr "วัตถุ OLE "
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_BOOKMARK.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_BOOKMARK.string.text
+msgid "Bookmark"
+msgstr "ที่คั่น"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_REGION.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_REGION.string.text
+msgid "Section"
+msgstr "ตอน"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_URLFIELD.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_URLFIELD.string.text
+msgid "Hyperlink"
+msgstr "เชื่อมโยงพิเศษ"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_REFERENCE.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_REFERENCE.string.text
+msgid "Reference"
+msgstr "อ้างอิง"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_INDEX.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_INDEX.string.text
+msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_INDEX.string.text"
+msgid "Index"
+msgstr "ดัชนี"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_POSTIT.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_POSTIT.string.text
+msgid "Comment"
+msgstr "คำอธิบาย"
+
+#: utlui.src#STR_CONTENT_TYPE_SINGLE_DRAWOBJECT.string.text
+#: utlui.src%23STR_CONTENT_TYPE_SINGLE_DRAWOBJECT.string.text
+msgid "Draw object"
+msgstr "วาดวัตถุ"
+
+#: utlui.src#STR_DEFINE_NUMBERFORMAT.string.text
+#: utlui.src%23STR_DEFINE_NUMBERFORMAT.string.text
+msgid "Additional formats..."
+msgstr "รูปแบบเพิ่มเติม..."
+
+#: utlui.src#RID_STR_SYSTEM.string.text
+#: utlui.src%23RID_STR_SYSTEM.string.text
+msgid "[System]"
+msgstr "[ระบบ]"
+
+#: utlui.src#STR_MULT_INTERACT_SPELL_WARN.string.text
+#: utlui.src%23STR_MULT_INTERACT_SPELL_WARN.string.text
+msgid ""
+"The interactive spellcheck is already active\n"
+"in a different document"
+msgstr ""
+"การตรวจสอบการสะกดแบบโต้ตอบถูกใช้งานอยู่แล้ว\n"
+"ในเอกสารอื่น"
+
+#: utlui.src#STR_MULT_INTERACT_HYPH_WARN.string.text
+#: utlui.src%23STR_MULT_INTERACT_HYPH_WARN.string.text
+msgid ""
+"The interactive hyphenation is already active\n"
+"in a different document"
+msgstr ""
+"การใส่ยัติภังค์ท้ายบรรทัดแบบโต้ตอบถูกใช้งานอยู่แล้ว\n"
+"ในเอกสารอื่น"
+
+#: utlui.src#STR_SPELL_TITLE.string.text
+#: utlui.src%23STR_SPELL_TITLE.string.text
+msgid "Spellcheck"
+msgstr "ตรวจตัวสะกด"
+
+#: utlui.src#STR_HYPH_TITLE.string.text
+#: utlui.src%23STR_HYPH_TITLE.string.text
+msgid "Hyphenation"
+msgstr "แทรกยัติภังค์"
+
+#: utlui.src#STR_HYPERCTRL_SEL.string.text
+#: utlui.src%23STR_HYPERCTRL_SEL.string.text
+msgid "SEL"
+msgstr "SEL"
+
+#: utlui.src#STR_HYPERCTRL_HYP.string.text
+#: utlui.src%23STR_HYPERCTRL_HYP.string.text
+msgid "HYP"
+msgstr "HYP"
+
+#: unotools.src#DLG_RENAME_XNAMED.FT_NEW_NAME.fixedtext.text
+#: unotools.src%23DLG_RENAME_XNAMED.FT_NEW_NAME.fixedtext.text
+msgid "New name"
+msgstr "ชื่อใหม่"
+
+#: unotools.src#DLG_RENAME_XNAMED.FL_NAME.fixedline.text
+#: unotools.src%23DLG_RENAME_XNAMED.FL_NAME.fixedline.text
+msgid "Change name"
+msgstr "เปลี่ยนชื่อ"
+
+#: unotools.src#DLG_RENAME_XNAMED.modaldialog.text
+#: unotools.src%23DLG_RENAME_XNAMED.modaldialog.text
+msgid "Rename object: "
+msgstr "เปลี่ยนชื่อวัตถุ: "
+
+#: unotools.src#STR_SERVICE_UNAVAILABLE.string.text
+#: unotools.src%23STR_SERVICE_UNAVAILABLE.string.text
+msgid "The following service is not available: "
+msgstr "บริการนี้ใช้ไม่ได้: "
+
+#: unotools.src#RES_FRMEX_MENU.1.1.itemlist.text
+#: unotools.src%23RES_FRMEX_MENU.1.1.itemlist.text
+msgid "~Zoom"
+msgstr "~ซูม"
+
+#: unotools.src#RES_FRMEX_MENU.1.2.itemlist.text
+#: unotools.src%23RES_FRMEX_MENU.1.2.itemlist.text
+msgid "~Upwards"
+msgstr "Nach ~oben"
+
+#: unotools.src#RES_FRMEX_MENU.1.3.itemlist.text
+#: unotools.src%23RES_FRMEX_MENU.1.3.itemlist.text
+msgid "Do~wnwards"
+msgstr "Nach ~unten"
 
 #: poolfmt.src#STR_POOLCHR_FOOTNOTE.string.text
 #: poolfmt.src%23STR_POOLCHR_FOOTNOTE.string.text
@@ -954,880 +1829,322 @@ msgstr "2 คอลัมน์ที่มีขนาดต่างกัน 
 msgid "Vertical Numbering Symbols"
 msgstr "สัญลักษณ์รายการลำดับตามแนวตั้ง"
 
-#: unotools.src#DLG_RENAME_XNAMED.FT_NEW_NAME.fixedtext.text
-#: unotools.src%23DLG_RENAME_XNAMED.FT_NEW_NAME.fixedtext.text
-msgid "New name"
-msgstr "ชื่อใหม่"
+#: navipi.src#DLG_NAVIGATION_PI.window.text
+#: navipi.src%23DLG_NAVIGATION_PI.window.text
+msgid "Navigator"
+msgstr "ตัวนำ"
 
-#: unotools.src#DLG_RENAME_XNAMED.FL_NAME.fixedline.text
-#: unotools.src%23DLG_RENAME_XNAMED.FL_NAME.fixedline.text
-msgid "Change name"
-msgstr "เปลี่ยนชื่อ"
+#: navipi.src#TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text
+msgctxt "navipi.src#TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text"
+msgid "Toggle"
+msgstr "สลับ"
 
-#: unotools.src#DLG_RENAME_XNAMED.modaldialog.text
-#: unotools.src%23DLG_RENAME_XNAMED.modaldialog.text
-msgid "Rename object: "
-msgstr "เปลี่ยนชื่อวัตถุ: "
+#: navipi.src#TB_CONTENT.FN_CREATE_NAVIGATION.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_CREATE_NAVIGATION.toolboxitem.text
+msgid "Navigation"
+msgstr "นำทาง"
 
-#: unotools.src#STR_SERVICE_UNAVAILABLE.string.text
-#: unotools.src%23STR_SERVICE_UNAVAILABLE.string.text
-msgid "The following service is not available: "
-msgstr "บริการนี้ใช้ไม่ได้: "
+#: navipi.src#TB_CONTENT.FN_UP.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_UP.toolboxitem.text
+msgid "Back"
+msgstr "กลับ"
 
-#: unotools.src#RES_FRMEX_MENU.1.1.itemlist.text
-#: unotools.src%23RES_FRMEX_MENU.1.1.itemlist.text
-msgid "~Zoom"
-msgstr "~ซูม"
+#: navipi.src#TB_CONTENT.FN_DOWN.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_DOWN.toolboxitem.text
+msgid "Forward"
+msgstr "ไปข้างหน้า"
 
-#: unotools.src#RES_FRMEX_MENU.1.2.itemlist.text
-#: unotools.src%23RES_FRMEX_MENU.1.2.itemlist.text
-msgid "~Upwards"
-msgstr "Nach ~oben"
+#: navipi.src#TB_CONTENT.FN_DROP_REGION.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_DROP_REGION.toolboxitem.text
+msgctxt "navipi.src#TB_CONTENT.FN_DROP_REGION.toolboxitem.text"
+msgid "Drag Mode"
+msgstr "โหมดลาก"
 
-#: unotools.src#RES_FRMEX_MENU.1.3.itemlist.text
-#: unotools.src%23RES_FRMEX_MENU.1.3.itemlist.text
-msgid "Do~wnwards"
-msgstr "Nach ~unten"
+#: navipi.src#TB_CONTENT.FN_ITEM_UP.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_ITEM_UP.toolboxitem.text
+msgid "Promote Chapter"
+msgstr "เลื่อนขั้นบท"
 
-#: gloslst.src#DLG_GLOSSARY_DECIDE_DLG.FL_GLOSS.fixedline.text
-#: gloslst.src%23DLG_GLOSSARY_DECIDE_DLG.FL_GLOSS.fixedline.text
-msgid "AutoText - Group"
-msgstr "ข้อความอัตโนมัติ - จัดกลุ่ม"
+#: navipi.src#TB_CONTENT.FN_ITEM_DOWN.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_ITEM_DOWN.toolboxitem.text
+msgid "Demote Chapter"
+msgstr "ลดขั้นบท"
 
-#: gloslst.src#DLG_GLOSSARY_DECIDE_DLG.modaldialog.text
-#: gloslst.src%23DLG_GLOSSARY_DECIDE_DLG.modaldialog.text
-msgid "Select AutoText:"
-msgstr "เลือกข้อความอัตโนมัติ: "
+#: navipi.src#TB_CONTENT.FN_SHOW_CONTENT_BOX.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SHOW_CONTENT_BOX.toolboxitem.text
+msgid "List Box On/Off"
+msgstr "กล่องรายการ เปิด/ปิด"
 
-#: initui.src#RID_SW_SHELLRES.STR_POSTIT_PAGE.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_PAGE.string.text
-msgid "Page"
-msgstr "หน้า"
+#: navipi.src#TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text
+msgctxt "navipi.src#TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text"
+msgid "Content View"
+msgstr "มุมมองเนื้อหา"
 
-#: initui.src#RID_SW_SHELLRES.STR_POSTIT_LINE.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_LINE.string.text
-msgid "Line"
-msgstr "บรรทัด"
+#: navipi.src#TB_CONTENT.FN_SELECT_SET_AUTO_BOOKMARK.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SELECT_SET_AUTO_BOOKMARK.toolboxitem.text
+msgid "Set Reminder"
+msgstr "ตั้งค่าตัวเตือน"
 
-#: initui.src#RID_SW_SHELLRES.STR_POSTIT_AUTHOR.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_POSTIT_AUTHOR.string.text
-msgid "Author"
-msgstr "ผู้เขียน"
+#: navipi.src#TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text
+msgctxt "navipi.src#TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text"
+msgid "Header"
+msgstr "ส่วนหัว"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_SYNTAX.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_SYNTAX.string.text
-msgid "** Syntax Error **"
-msgstr "** ไวยกรณ์ผิดพลาด **"
+#: navipi.src#TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text
+msgctxt "navipi.src#TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text"
+msgid "Footer"
+msgstr "ส่วนท้าย"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_ZERODIV.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_ZERODIV.string.text
-msgid "** Division by zero **"
-msgstr "** หารด้วยศูนย์ **"
+#: navipi.src#TB_CONTENT.FN_SELECT_FOOTNOTE.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_SELECT_FOOTNOTE.toolboxitem.text
+msgid "Anchor<->Text"
+msgstr "สมอยึด<->ข้อความ"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_BRACK.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_BRACK.string.text
-msgid "** Wrong use of brackets **"
-msgstr "** ใช้วงเล็บก้ามปูผิด **"
+#: navipi.src#TB_CONTENT.FN_OUTLINE_LEVEL.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_OUTLINE_LEVEL.toolboxitem.text
+msgid "Heading Levels Shown"
+msgstr "แสดงระดับส่วนหัว"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_POW.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_POW.string.text
-msgid "** Square function overflow **"
-msgstr "** ฟังก์ชันยกกำลังสอง ล้น **"
+#: navipi.src#TB_CONTENT.FN_ITEM_LEFT.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_ITEM_LEFT.toolboxitem.text
+msgid "Promote Level"
+msgstr "ระดับการเลื่อนขั้น"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_VARNFND.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_VARNFND.string.text
-msgid "** Variable not found **"
-msgstr "** ไม่พบตัวแปร **"
+#: navipi.src#TB_CONTENT.FN_ITEM_RIGHT.toolboxitem.text
+#: navipi.src%23TB_CONTENT.FN_ITEM_RIGHT.toolboxitem.text
+msgid "Demote Level"
+msgstr "ระดับการลดขั้น"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_OVERFLOW.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_OVERFLOW.string.text
-msgid "** Overflow **"
-msgstr "** ล้น **"
+#: navipi.src#TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text
+msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text"
+msgid "Toggle"
+msgstr "สลับ"
 
-#: initui.src#RID_SW_SHELLRES.STR_CALC_WRONGTIME.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_WRONGTIME.string.text
-msgid "** Wrong time format **"
-msgstr "** รูปแบบเวลาผิด **"
-
-#: initui.src#RID_SW_SHELLRES.STR_CALC_DEFAULT.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_DEFAULT.string.text
-msgid "** Error **"
-msgstr "** ผิดพลาด **"
-
-#: initui.src#RID_SW_SHELLRES.STR_CALC_ERROR.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_CALC_ERROR.string.text
-msgid "** Expression is faulty **"
-msgstr "** คำอธิบายผิด **"
-
-#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_UP.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_UP.string.text
-msgid "above"
-msgstr "ด้านบน"
-
-#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_DOWN.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_DOWN.string.text
-msgid "below"
-msgstr "ด้านใต้"
-
-#: initui.src#RID_SW_SHELLRES.STR_GETREFFLD_REFITEMNOTFOUND.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_GETREFFLD_REFITEMNOTFOUND.string.text
-msgid "Error: Reference source not found"
-msgstr "ผิดพลาด: ไม่แหล่งที่อ้างอิง"
-
-#: initui.src#RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text
-msgctxt "initui.src#RID_SW_SHELLRES.STR_ALLPAGE_HEADFOOT.string.text"
-msgid "All"
-msgstr "ทั้งหมด"
-
-#: initui.src#RID_SW_SHELLRES.STR_TEMPLATE_NONE.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TEMPLATE_NONE.string.text
-msgid "None"
-msgstr "ไม่มี"
-
-#: initui.src#RID_SW_SHELLRES.STR_FIELD_FIXED.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_FIELD_FIXED.string.text
-msgid "(fixed)"
-msgstr "(คงที่)"
-
-#: initui.src#RID_SW_SHELLRES.STR_DURATION_FORMAT.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_DURATION_FORMAT.string.text
-msgid " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
-msgstr " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOI.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOI.string.text
-msgid "Alphabetical Index"
-msgstr "ดัชนีเรียงตามตัวอักษร"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOU.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOU.string.text
-msgid "User-Defined"
-msgstr "ผู้ใช้กำหนด"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOC.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOC.string.text
-msgid "Table of Contents"
-msgstr "สารบัญ"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOX_AUTH.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOX_AUTH.string.text
-msgid "Bibliography"
-msgstr "บรรณานุกรม"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOX_TBL.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOX_TBL.string.text
-msgid "Index of Tables"
-msgstr "ดัชนีตาราง"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOX_OBJ.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOX_OBJ.string.text
-msgid "Table of Objects"
-msgstr "ตารางวัตถุ"
-
-#: initui.src#RID_SW_SHELLRES.STR_TOX_ILL.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_TOX_ILL.string.text
-msgid "Illustration Index"
-msgstr "ดัชนีภาพประกอบ"
-
-#: initui.src#RID_SW_SHELLRES.STR_HYPERLINK_CLICK.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_HYPERLINK_CLICK.string.text
-msgid "%s-click to open hyperlink"
-msgstr "%s-คลิกเพื่อเปิดการเชื่อมโยงหลายมิติ (hyperlink)"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text
-msgctxt "initui.src#RID_SW_SHELLRES.FLD_DOCINFO_TITEL.string.text"
-msgid "Title"
-msgstr "ชื่อ"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_THEMA.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_THEMA.string.text
-msgid "Subject"
-msgstr "ชื่อเรื่อง"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_KEYS.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_KEYS.string.text
-msgid "Keywords"
-msgstr "คำสำคัญ"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text
-msgctxt "initui.src#RID_SW_SHELLRES.FLD_DOCINFO_COMMENT.string.text"
-msgid "Comments"
-msgstr "ความคิดเห็น"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_CREATE.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_CREATE.string.text
-msgid "Created"
-msgstr "สร้าง"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_CHANGE.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_CHANGE.string.text
-msgid "Modified"
+#: navipi.src#TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text
+msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text"
+msgid "Edit"
 msgstr "แก้ไข"
 
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_PRINT.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_PRINT.string.text
-msgid "Last printed"
-msgstr "พิมพ์ครั้งสุดท้าย"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_DOCNO.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_DOCNO.string.text
-msgid "Revision number"
-msgstr "เลขเอกสาร"
-
-#: initui.src#RID_SW_SHELLRES.FLD_DOCINFO_EDIT.string.text
-#: initui.src%23RID_SW_SHELLRES.FLD_DOCINFO_EDIT.string.text
-msgid "Total editing time"
-msgstr "แก้ไขเวลา"
-
-#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_NAME.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_NAME.string.text
-msgid "Convert $(ARG1)"
-msgstr "แปลง $(ARG1)"
-
-#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_FIRSTNAME.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_FIRSTNAME.string.text
-msgid "First convert $(ARG1)"
-msgstr "แปลง $(ARG1) ครั้งแรก"
-
-#: initui.src#RID_SW_SHELLRES.STR_PAGEDESC_FOLLOWNAME.string.text
-#: initui.src%23RID_SW_SHELLRES.STR_PAGEDESC_FOLLOWNAME.string.text
-msgid "Next convert $(ARG1)"
-msgstr "แปลง $(ARG1) ถัดไป"
-
-#: initui.src#STR_AUTH_TYPE_ARTICLE.string.text
-#: initui.src%23STR_AUTH_TYPE_ARTICLE.string.text
-msgid "Article"
-msgstr "บทความ"
-
-#: initui.src#STR_AUTH_TYPE_BOOK.string.text
-#: initui.src%23STR_AUTH_TYPE_BOOK.string.text
-msgid "Book"
-msgstr "หนังสือ"
-
-#: initui.src#STR_AUTH_TYPE_BOOKLET.string.text
-#: initui.src%23STR_AUTH_TYPE_BOOKLET.string.text
-msgid "Brochures"
-msgstr "แผ่นพับ"
-
-#: initui.src#STR_AUTH_TYPE_CONFERENCE.string.text
-#: initui.src%23STR_AUTH_TYPE_CONFERENCE.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CONFERENCE.string.text"
-msgid "Conference proceedings"
-msgstr "รายงานการประชุม"
-
-#: initui.src#STR_AUTH_TYPE_INBOOK.string.text
-#: initui.src%23STR_AUTH_TYPE_INBOOK.string.text
-msgid "Book excerpt"
-msgstr "คัดลอกจากหนังสือ"
-
-#: initui.src#STR_AUTH_TYPE_INCOLLECTION.string.text
-#: initui.src%23STR_AUTH_TYPE_INCOLLECTION.string.text
-msgid "Book excerpt with title"
-msgstr "คัดลอกจากหนังสือ มีชื่อเรื่อง"
-
-#: initui.src#STR_AUTH_TYPE_INPROCEEDINGS.string.text
-#: initui.src%23STR_AUTH_TYPE_INPROCEEDINGS.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_INPROCEEDINGS.string.text"
-msgid "Conference proceedings"
-msgstr "รายงานการประชุม"
-
-#: initui.src#STR_AUTH_TYPE_JOURNAL.string.text
-#: initui.src%23STR_AUTH_TYPE_JOURNAL.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_JOURNAL.string.text"
-msgid "Journal"
-msgstr "วารสาร"
-
-#: initui.src#STR_AUTH_TYPE_MANUAL.string.text
-#: initui.src%23STR_AUTH_TYPE_MANUAL.string.text
-msgid "Techn. documentation"
-msgstr "เอกสารทางเทคนิค"
-
-#: initui.src#STR_AUTH_TYPE_MASTERSTHESIS.string.text
-#: initui.src%23STR_AUTH_TYPE_MASTERSTHESIS.string.text
-msgid "Thesis"
-msgstr "วิทยานิพนธ์"
-
-#: initui.src#STR_AUTH_TYPE_MISC.string.text
-#: initui.src%23STR_AUTH_TYPE_MISC.string.text
-msgid "Miscellaneous"
-msgstr "เบ็ดเตล็ด"
-
-#: initui.src#STR_AUTH_TYPE_PHDTHESIS.string.text
-#: initui.src%23STR_AUTH_TYPE_PHDTHESIS.string.text
-msgid "Dissertation"
-msgstr "สารนิพนธ์"
-
-#: initui.src#STR_AUTH_TYPE_PROCEEDINGS.string.text
-#: initui.src%23STR_AUTH_TYPE_PROCEEDINGS.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_PROCEEDINGS.string.text"
-msgid "Conference proceedings"
-msgstr "รายงานการประชุม"
-
-#: initui.src#STR_AUTH_TYPE_TECHREPORT.string.text
-#: initui.src%23STR_AUTH_TYPE_TECHREPORT.string.text
-msgid "Research report"
-msgstr "รายงานการวิจัย"
-
-#: initui.src#STR_AUTH_TYPE_UNPUBLISHED.string.text
-#: initui.src%23STR_AUTH_TYPE_UNPUBLISHED.string.text
-msgid "Unpublished"
-msgstr "ไม่ได้ตีพิมพ์"
-
-#: initui.src#STR_AUTH_TYPE_EMAIL.string.text
-#: initui.src%23STR_AUTH_TYPE_EMAIL.string.text
-msgid "e-mail"
-msgstr "อีเมล"
-
-#: initui.src#STR_AUTH_TYPE_WWW.string.text
-#: initui.src%23STR_AUTH_TYPE_WWW.string.text
-msgid "WWW document"
-msgstr "เอกสาร WWW "
-
-#: initui.src#STR_AUTH_TYPE_CUSTOM1.string.text
-#: initui.src%23STR_AUTH_TYPE_CUSTOM1.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM1.string.text"
-msgid "User-defined1"
-msgstr "ผู้ใช้กำหนด 1"
-
-#: initui.src#STR_AUTH_TYPE_CUSTOM2.string.text
-#: initui.src%23STR_AUTH_TYPE_CUSTOM2.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM2.string.text"
-msgid "User-defined2"
-msgstr "ผู้ใช้กำหนด 2"
-
-#: initui.src#STR_AUTH_TYPE_CUSTOM3.string.text
-#: initui.src%23STR_AUTH_TYPE_CUSTOM3.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM3.string.text"
-msgid "User-defined3"
-msgstr "ผู้ใช้กำหนด 3"
-
-#: initui.src#STR_AUTH_TYPE_CUSTOM4.string.text
-#: initui.src%23STR_AUTH_TYPE_CUSTOM4.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM4.string.text"
-msgid "User-defined4"
-msgstr "ผู้ใช้กำหนด 4"
-
-#: initui.src#STR_AUTH_TYPE_CUSTOM5.string.text
-#: initui.src%23STR_AUTH_TYPE_CUSTOM5.string.text
-msgctxt "initui.src#STR_AUTH_TYPE_CUSTOM5.string.text"
-msgid "User-defined5"
-msgstr "ผู้ใช้กำหนด 5"
-
-#: initui.src#STR_AUTH_FIELD_IDENTIFIER.string.text
-#: initui.src%23STR_AUTH_FIELD_IDENTIFIER.string.text
-msgid "Short name"
-msgstr "ชื่อย่อ"
-
-#: initui.src#STR_AUTH_FIELD_AUTHORITY_TYPE.string.text
-#: initui.src%23STR_AUTH_FIELD_AUTHORITY_TYPE.string.text
-msgid "Type"
-msgstr "ชนิด"
-
-#: initui.src#STR_AUTH_FIELD_ADDRESS.string.text
-#: initui.src%23STR_AUTH_FIELD_ADDRESS.string.text
-msgid "Address"
-msgstr "ที่อยู่"
-
-#: initui.src#STR_AUTH_FIELD_ANNOTE.string.text
-#: initui.src%23STR_AUTH_FIELD_ANNOTE.string.text
-msgid "Annotation"
-msgstr "หมายเหตุ"
-
-#: initui.src#STR_AUTH_FIELD_AUTHOR.string.text
-#: initui.src%23STR_AUTH_FIELD_AUTHOR.string.text
-msgid "Author(s)"
-msgstr "ผู้เขียน"
-
-#: initui.src#STR_AUTH_FIELD_BOOKTITLE.string.text
-#: initui.src%23STR_AUTH_FIELD_BOOKTITLE.string.text
-msgid "Book title"
-msgstr "ชื่อหนังสือ"
-
-#: initui.src#STR_AUTH_FIELD_CHAPTER.string.text
-#: initui.src%23STR_AUTH_FIELD_CHAPTER.string.text
-msgid "Chapter"
-msgstr "บท"
-
-#: initui.src#STR_AUTH_FIELD_EDITION.string.text
-#: initui.src%23STR_AUTH_FIELD_EDITION.string.text
-msgid "Edition"
-msgstr "ฉบับ"
-
-#: initui.src#STR_AUTH_FIELD_EDITOR.string.text
-#: initui.src%23STR_AUTH_FIELD_EDITOR.string.text
-msgid "Editor"
-msgstr "บรรณาธิการ"
-
-#: initui.src#STR_AUTH_FIELD_HOWPUBLISHED.string.text
-#: initui.src%23STR_AUTH_FIELD_HOWPUBLISHED.string.text
-msgid "Publication type"
-msgstr "ชนิดการตีพิมพ์"
-
-#: initui.src#STR_AUTH_FIELD_INSTITUTION.string.text
-#: initui.src%23STR_AUTH_FIELD_INSTITUTION.string.text
-msgid "Institution"
-msgstr "สถาบัน"
-
-#: initui.src#STR_AUTH_FIELD_JOURNAL.string.text
-#: initui.src%23STR_AUTH_FIELD_JOURNAL.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_JOURNAL.string.text"
-msgid "Journal"
-msgstr "วารสาร"
-
-#: initui.src#STR_AUTH_FIELD_MONTH.string.text
-#: initui.src%23STR_AUTH_FIELD_MONTH.string.text
-msgid "Month"
-msgstr "เดือน"
-
-#: initui.src#STR_AUTH_FIELD_NOTE.string.text
-#: initui.src%23STR_AUTH_FIELD_NOTE.string.text
-msgid "Note"
-msgstr "บันทึกย่อ"
-
-#: initui.src#STR_AUTH_FIELD_NUMBER.string.text
-#: initui.src%23STR_AUTH_FIELD_NUMBER.string.text
-msgid "Number"
-msgstr "จำนวน"
-
-#: initui.src#STR_AUTH_FIELD_ORGANIZATIONS.string.text
-#: initui.src%23STR_AUTH_FIELD_ORGANIZATIONS.string.text
-msgid "Organization"
-msgstr "องค์กร"
-
-#: initui.src#STR_AUTH_FIELD_PAGES.string.text
-#: initui.src%23STR_AUTH_FIELD_PAGES.string.text
-msgid "Page(s)"
-msgstr "หน้า"
-
-#: initui.src#STR_AUTH_FIELD_PUBLISHER.string.text
-#: initui.src%23STR_AUTH_FIELD_PUBLISHER.string.text
-msgid "Publisher"
-msgstr "สำนักพิมพ์"
-
-#: initui.src#STR_AUTH_FIELD_SCHOOL.string.text
-#: initui.src%23STR_AUTH_FIELD_SCHOOL.string.text
-msgid "University"
-msgstr "มหาวิทยาลัย"
-
-#: initui.src#STR_AUTH_FIELD_SERIES.string.text
-#: initui.src%23STR_AUTH_FIELD_SERIES.string.text
-msgid "Series"
-msgstr "ชื่อชุด"
-
-#: initui.src#STR_AUTH_FIELD_TITLE.string.text
-#: initui.src%23STR_AUTH_FIELD_TITLE.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_TITLE.string.text"
-msgid "Title"
-msgstr "ชื่อเรื่อง"
-
-#: initui.src#STR_AUTH_FIELD_TYPE.string.text
-#: initui.src%23STR_AUTH_FIELD_TYPE.string.text
-msgid "Type of report"
-msgstr "ชนิดรายงาน"
-
-#: initui.src#STR_AUTH_FIELD_VOLUME.string.text
-#: initui.src%23STR_AUTH_FIELD_VOLUME.string.text
-msgid "Volume"
-msgstr "จำนวนเล่ม"
-
-#: initui.src#STR_AUTH_FIELD_YEAR.string.text
-#: initui.src%23STR_AUTH_FIELD_YEAR.string.text
-msgid "Year"
-msgstr "ปีที่จัดพิมพ์"
-
-#: initui.src#STR_AUTH_FIELD_URL.string.text
-#: initui.src%23STR_AUTH_FIELD_URL.string.text
-msgid "URL"
-msgstr "URL"
-
-#: initui.src#STR_AUTH_FIELD_CUSTOM1.string.text
-#: initui.src%23STR_AUTH_FIELD_CUSTOM1.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM1.string.text"
-msgid "User-defined1"
-msgstr "ผู้ใช้กำหนด 1"
-
-#: initui.src#STR_AUTH_FIELD_CUSTOM2.string.text
-#: initui.src%23STR_AUTH_FIELD_CUSTOM2.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM2.string.text"
-msgid "User-defined2"
-msgstr "ผู้ใช้กำหนด 2"
-
-#: initui.src#STR_AUTH_FIELD_CUSTOM3.string.text
-#: initui.src%23STR_AUTH_FIELD_CUSTOM3.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM3.string.text"
-msgid "User-defined3"
-msgstr "ผู้ใช้กำหนด 3"
-
-#: initui.src#STR_AUTH_FIELD_CUSTOM4.string.text
-#: initui.src%23STR_AUTH_FIELD_CUSTOM4.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM4.string.text"
-msgid "User-defined4"
-msgstr "ผู้ใช้กำหนด 4"
-
-#: initui.src#STR_AUTH_FIELD_CUSTOM5.string.text
-#: initui.src%23STR_AUTH_FIELD_CUSTOM5.string.text
-msgctxt "initui.src#STR_AUTH_FIELD_CUSTOM5.string.text"
-msgid "User-defined5"
-msgstr "ผู้ใช้กำหนด 5"
-
-#: initui.src#STR_AUTH_FIELD_ISBN.string.text
-#: initui.src%23STR_AUTH_FIELD_ISBN.string.text
-msgid "ISBN"
-msgstr "ISBN"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_EMPTY_PARA_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_EMPTY_PARA_1.string.text
-msgid "Remove empty paragraphs"
-msgstr "เอาย่อหน้าว่างออก"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USE_REPLACE_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USE_REPLACE_1.string.text
-msgid "Use replacement table"
-msgstr "ใช้ตารางแทนที่"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_WORD_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_WORD_1.string.text
-msgid "Correct TWo INitial CApitals"
-msgstr "แก้ไขตัวพิมพ์ใหญ่สองตัวแรกให้ถูกต้อง"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_SENT_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_CPTL_STT_SENT_1.string.text
-msgid "Capitalize first letter of sentences"
-msgstr "ทำตัวอักษรตัวแรกของประโยคเป็นตัวพิมพ์ใหญ่"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_TYPO_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_TYPO_1.string.text
-msgid "Replace \"standard\" quotes with %1 \\bcustom%2 quotes"
-msgstr "แทนที่อัญประกาศ \"มาตรฐาน\" ด้วย %1 อัญประกาศ %2 \\bที่กำหนดเอง"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USER_STYLE_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_USER_STYLE_1.string.text
-msgid "Replace Custom Styles"
-msgstr "แทนที่ลักษณะที่กำหนดเอง"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BULLET_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BULLET_1.string.text
-msgid "Bullets replaced"
-msgstr "แทนที่จุดนำแล้ว"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_UNDER_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_UNDER_1.string.text
-msgid "Automatic _underline_"
-msgstr "ขีดเส้นใต้ _อัตโนมัติ_"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BOLD_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_BOLD_1.string.text
-msgid "Automatic *bold*"
-msgstr "*ตัวหนา* อัตโนมัติ"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_FRACTION_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_FRACTION_1.string.text
-msgid "Replace 1/2 ... with ½ ..."
-msgstr "แทนที่ 1/2 ... ด้วย ½ ..."
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DETECT_URL_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DETECT_URL_1.string.text
-msgid "URL recognition"
-msgstr "จดจำ URL "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DASH_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DASH_1.string.text
-msgid "Replace dashes"
-msgstr "แทนที่เส้นประ"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_ORDINAL_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_ORDINAL_1.string.text
-msgid "Replace 1st... with 1^st..."
-msgstr "แทนที่ 1st... ด้วย 1^st..."
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_RIGHT_MARGIN_1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_RIGHT_MARGIN_1.string.text
-msgid "Combine single line paragraphs"
-msgstr "เชื่อมย่อหน้าบรรทัดเดียว"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT__1.string.text
-msgid "Set \"Text body\" Style"
-msgstr "กำหนดลักษณะ \"เนื้อความ\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text
-msgctxt "utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_INDENT__1.string.text"
-msgid "Set \"Text body indent\" Style"
-msgstr "กำหนดลักษณะ \"ระยะเยื้องเนื้อความ\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_NEG_INDENT__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_NEG_INDENT__1.string.text
-msgid "Set \"Hanging indent\" Style"
-msgstr "กำหนดลักษณะ \"ระยะเยื้องลอย\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text
-msgctxt "utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_TEXT_INDENT__1.string.text"
-msgid "Set \"Text body indent\" Style"
-msgstr "กำหนดลักษณะ \"ระยะเยื้องเนื้อความ\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_HEADLINE__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_TMPL_HEADLINE__1.string.text
-msgid "Set \"Heading $(ARG1)\" Style"
-msgstr "กำหนดลักษณะ \"หัวข้อ $(ARG1)\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_NUMBULET__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_SET_NUMBULET__1.string.text
-msgid "Set \"Bullet\" or \"Numbering\" Style"
-msgstr "กำหนดลักษณะ \"สัญลักษณ์หน้ารายการ\" หรือ \"รายการลำดับ\" "
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_MORELINES__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_DEL_MORELINES__1.string.text
-msgid "Combine paragraphs"
-msgstr "เชื่อมย่อหน้า"
-
-#: utlui.src#RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_NON_BREAK_SPACE__1.string.text
-#: utlui.src%23RID_SHELLRES_AUTOFMTSTRS.STR_AUTOFMTREDL_NON_BREAK_SPACE__1.string.text
-msgid "Add non breaking space"
-msgstr "เติมวรรคที่ไม่แบ่งบรรทัด (non breaking space)"
-
-#: utlui.src#STR_EVENT_OBJECT_SELECT.string.text
-#: utlui.src%23STR_EVENT_OBJECT_SELECT.string.text
-msgid "Click object"
-msgstr "คลิกที่วัตถุ"
-
-#: utlui.src#STR_EVENT_START_INS_GLOSSARY.string.text
-#: utlui.src%23STR_EVENT_START_INS_GLOSSARY.string.text
-msgid "Before inserting AutoText"
-msgstr "ก่อนแทรกข้อความอัตโนมัติ"
-
-#: utlui.src#STR_EVENT_END_INS_GLOSSARY.string.text
-#: utlui.src%23STR_EVENT_END_INS_GLOSSARY.string.text
-msgid "After inserting AutoText"
-msgstr "หลังจากแทรกข้อความอัตโนมัติ"
-
-#: utlui.src#STR_EVENT_MOUSEOVER_OBJECT.string.text
-#: utlui.src%23STR_EVENT_MOUSEOVER_OBJECT.string.text
-msgid "Mouse over object"
-msgstr "เมาส์บนวัตถุ"
-
-#: utlui.src#STR_EVENT_MOUSECLICK_OBJECT.string.text
-#: utlui.src%23STR_EVENT_MOUSECLICK_OBJECT.string.text
-msgid "Trigger hyperlink"
-msgstr "เชื่อมโยงพิเศษแบบทริกเกอร"
-
-#: utlui.src#STR_EVENT_MOUSEOUT_OBJECT.string.text
-#: utlui.src%23STR_EVENT_MOUSEOUT_OBJECT.string.text
-msgid "Mouse leaves object"
-msgstr "เมาส์ออกจากวัตถุ"
-
-#: utlui.src#STR_EVENT_IMAGE_LOAD.string.text
-#: utlui.src%23STR_EVENT_IMAGE_LOAD.string.text
-msgid "Graphics load successful"
-msgstr "โหลดรูปสำเร็จ"
-
-#: utlui.src#STR_EVENT_IMAGE_ABORT.string.text
-#: utlui.src%23STR_EVENT_IMAGE_ABORT.string.text
-msgid "Graphics load terminated"
-msgstr "โหลดรูปถูกยกเลิก"
-
-#: utlui.src#STR_EVENT_IMAGE_ERROR.string.text
-#: utlui.src%23STR_EVENT_IMAGE_ERROR.string.text
-msgid "Graphics load faulty"
-msgstr "โหลดรูปผิด"
-
-#: utlui.src#STR_EVENT_FRM_KEYINPUT_A.string.text
-#: utlui.src%23STR_EVENT_FRM_KEYINPUT_A.string.text
-msgid "Input of alphanumeric characters"
-msgstr "ใส่ตัวอักษรตัวเลขพยัญชนะ"
-
-#: utlui.src#STR_EVENT_FRM_KEYINPUT_NOA.string.text
-#: utlui.src%23STR_EVENT_FRM_KEYINPUT_NOA.string.text
-msgid "Input of non-alphanumeric characters"
-msgstr "ใส่ตัวอักษรที่ไม่ใช่ตัวเลขพยัญชนะ"
-
-#: utlui.src#STR_EVENT_FRM_RESIZE.string.text
-#: utlui.src%23STR_EVENT_FRM_RESIZE.string.text
-msgid "Resize frame"
-msgstr "ปรับขนาดกรอบ"
-
-#: utlui.src#STR_EVENT_FRM_MOVE.string.text
-#: utlui.src%23STR_EVENT_FRM_MOVE.string.text
-msgid "Move frame"
-msgstr "ย้ายกรอบ"
-
-#: utlui.src#STR_CONTENT_TYPE_OUTLINE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_OUTLINE.string.text
-msgid "Headings"
-msgstr "หัวข้อ"
-
-#: utlui.src#STR_CONTENT_TYPE_TABLE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_TABLE.string.text
-msgid "Tables"
-msgstr "ตาราง"
-
-#: utlui.src#STR_CONTENT_TYPE_FRAME.string.text
-#: utlui.src%23STR_CONTENT_TYPE_FRAME.string.text
-msgid "Text frames"
-msgstr "กรอบข้อความ"
-
-#: utlui.src#STR_CONTENT_TYPE_GRAPHIC.string.text
-#: utlui.src%23STR_CONTENT_TYPE_GRAPHIC.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_GRAPHIC.string.text"
-msgid "Graphics"
-msgstr "รูป"
-
-#: utlui.src#STR_CONTENT_TYPE_OLE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_OLE.string.text
-msgid "OLE objects"
-msgstr "วัตถุ OLE"
-
-#: utlui.src#STR_CONTENT_TYPE_BOOKMARK.string.text
-#: utlui.src%23STR_CONTENT_TYPE_BOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "ที่คั่น"
-
-#: utlui.src#STR_CONTENT_TYPE_REGION.string.text
-#: utlui.src%23STR_CONTENT_TYPE_REGION.string.text
-msgid "Sections"
-msgstr "ส่วน"
-
-#: utlui.src#STR_CONTENT_TYPE_URLFIELD.string.text
-#: utlui.src%23STR_CONTENT_TYPE_URLFIELD.string.text
-msgid "Hyperlinks"
-msgstr "เชื่อมโยงพิเศษ"
-
-#: utlui.src#STR_CONTENT_TYPE_REFERENCE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_REFERENCE.string.text
-msgid "References"
-msgstr "อ้างอิง"
-
-#: utlui.src#STR_CONTENT_TYPE_INDEX.string.text
-#: utlui.src%23STR_CONTENT_TYPE_INDEX.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_INDEX.string.text"
+#: navipi.src#TB_GLOBAL.FN_GLOBAL_UPDATE.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_GLOBAL_UPDATE.toolboxitem.text
+msgid "Update"
+msgstr "ปรับข้อมูล"
+
+#: navipi.src#TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text
+msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text"
+msgid "Insert"
+msgstr "แทรก"
+
+#: navipi.src#TB_GLOBAL.FN_GLOBAL_SAVE_CONTENT.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_GLOBAL_SAVE_CONTENT.toolboxitem.text
+msgid "Save Contents as well"
+msgstr "บันทึกเนื้อหาเป็นอย่างดี"
+
+#: navipi.src#TB_GLOBAL.FN_ITEM_UP.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_ITEM_UP.toolboxitem.text
+msgid "Move Up"
+msgstr "เลื่อนขึ้น"
+
+#: navipi.src#TB_GLOBAL.FN_ITEM_DOWN.toolboxitem.text
+#: navipi.src%23TB_GLOBAL.FN_ITEM_DOWN.toolboxitem.text
+msgid "Move Down"
+msgstr "ย้ายลง"
+
+#: navipi.src#ST_OUTLINE_LEVEL.string.text
+#: navipi.src%23ST_OUTLINE_LEVEL.string.text
+msgid "Outline Level"
+msgstr "ระดับเค้าโครง"
+
+#: navipi.src#ST_DRAGMODE.string.text
+#: navipi.src%23ST_DRAGMODE.string.text
+msgctxt "navipi.src#ST_DRAGMODE.string.text"
+msgid "Drag Mode"
+msgstr "โหมดลาก"
+
+#: navipi.src#ST_HYPERLINK.string.text
+#: navipi.src%23ST_HYPERLINK.string.text
+msgid "Insert as Hyperlink"
+msgstr "แทรกเป็นการเชื่อมโยงพิเศษ"
+
+#: navipi.src#ST_LINK_REGION.string.text
+#: navipi.src%23ST_LINK_REGION.string.text
+msgid "Insert as Link"
+msgstr "แทรกเป็นการเชื่อมโยง"
+
+#: navipi.src#ST_COPY_REGION.string.text
+#: navipi.src%23ST_COPY_REGION.string.text
+msgid "Insert as Copy"
+msgstr "แทรกเป็นสำเนา"
+
+#: navipi.src#ST_DISPLAY.string.text
+#: navipi.src%23ST_DISPLAY.string.text
+msgid "Display"
+msgstr "แสดงผล"
+
+#: navipi.src#ST_ACTIVE_VIEW.string.text
+#: navipi.src%23ST_ACTIVE_VIEW.string.text
+msgid "Active Window"
+msgstr "หน้าต่างที่ใช้งานอยู่"
+
+#: navipi.src#ST_HIDDEN.string.text
+#: navipi.src%23ST_HIDDEN.string.text
+msgctxt "navipi.src#ST_HIDDEN.string.text"
+msgid "hidden"
+msgstr "ซ่อน"
+
+#: navipi.src#ST_ACTIVE.string.text
+#: navipi.src%23ST_ACTIVE.string.text
+msgid "active"
+msgstr "ใช้งานอยู่"
+
+#: navipi.src#ST_INACTIVE.string.text
+#: navipi.src%23ST_INACTIVE.string.text
+msgid "inactive"
+msgstr "ไม่ได้ใช้"
+
+#: navipi.src#ST_EDIT_ENTRY.string.text
+#: navipi.src%23ST_EDIT_ENTRY.string.text
+msgid "Edit..."
+msgstr "แก้ไข..."
+
+#: navipi.src#ST_UPDATE.string.text
+#: navipi.src%23ST_UPDATE.string.text
+msgid "~Update"
+msgstr "~ปรับข้อมูล"
+
+#: navipi.src#ST_EDIT_CONTENT.string.text
+#: navipi.src%23ST_EDIT_CONTENT.string.text
+msgctxt "navipi.src#ST_EDIT_CONTENT.string.text"
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: navipi.src#ST_EDIT_LINK.string.text
+#: navipi.src%23ST_EDIT_LINK.string.text
+msgid "Edit link"
+msgstr "แก้ไขตัวเชื่อมโยง"
+
+#: navipi.src#ST_INSERT.string.text
+#: navipi.src%23ST_INSERT.string.text
+msgctxt "navipi.src#ST_INSERT.string.text"
+msgid "Insert"
+msgstr "แทรก"
+
+#: navipi.src#ST_INDEX.string.text
+#: navipi.src%23ST_INDEX.string.text
+msgid "~Index"
+msgstr "~ดัชนี"
+
+#: navipi.src#ST_FILE.string.text
+#: navipi.src%23ST_FILE.string.text
+msgid "File"
+msgstr "แฟ้ม"
+
+#: navipi.src#ST_NEW_FILE.string.text
+#: navipi.src%23ST_NEW_FILE.string.text
+msgid "New Document"
+msgstr "เอกสารใหม่"
+
+#: navipi.src#ST_TEXT.string.text
+#: navipi.src%23ST_TEXT.string.text
+msgctxt "navipi.src#ST_TEXT.string.text"
+msgid "Text"
+msgstr "ข้อความ"
+
+#: navipi.src#ST_DELETE.string.text
+#: navipi.src%23ST_DELETE.string.text
+msgid "Delete"
+msgstr "ลบ"
+
+#: navipi.src#ST_DELETE_ENTRY.string.text
+#: navipi.src%23ST_DELETE_ENTRY.string.text
+msgid "~Delete"
+msgstr "~ลบ"
+
+#: navipi.src#ST_UPDATE_SEL.string.text
+#: navipi.src%23ST_UPDATE_SEL.string.text
+msgid "Selection"
+msgstr "เลือก"
+
+#: navipi.src#ST_UPDATE_INDEX.string.text
+#: navipi.src%23ST_UPDATE_INDEX.string.text
+msgctxt "navipi.src#ST_UPDATE_INDEX.string.text"
 msgid "Indexes"
 msgstr "ดัชนี"
 
-#: utlui.src#STR_CONTENT_TYPE_DRAWOBJECT.string.text
-msgid "Drawing objects"
-msgstr ""
+#: navipi.src#ST_UPDATE_LINK.string.text
+#: navipi.src%23ST_UPDATE_LINK.string.text
+msgid "Links"
+msgstr "เชื่อมโยง"
 
-#: utlui.src#STR_CONTENT_TYPE_POSTIT.string.text
-#: utlui.src%23STR_CONTENT_TYPE_POSTIT.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_POSTIT.string.text"
-msgid "Comments"
-msgstr "ความคิดเห็น"
+#: navipi.src#ST_UPDATE_ALL.string.text
+#: navipi.src%23ST_UPDATE_ALL.string.text
+msgctxt "navipi.src#ST_UPDATE_ALL.string.text"
+msgid "All"
+msgstr "ทั้งหมด"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_OUTLINE.string.text"
-msgid "Heading"
-msgstr "หัวข้อ"
+#: navipi.src#ST_REMOVE_INDEX.string.text
+#: navipi.src%23ST_REMOVE_INDEX.string.text
+msgid "~Remove Index"
+msgstr "เ~อาดัชนีออก"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_TABLE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_TABLE.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_TABLE.string.text"
-msgid "Table"
-msgstr "ตาราง"
+#: navipi.src#ST_REMOVE_TBL_PROTECTION.string.text
+#: navipi.src%23ST_REMOVE_TBL_PROTECTION.string.text
+msgid "~Unprotect"
+msgstr "ไ~ม่ป้องกัน"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_FRAME.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_FRAME.string.text
-msgid "Text frame"
-msgstr "กรอบข้อความ"
+#: navipi.src#ST_INVISIBLE.string.text
+#: navipi.src%23ST_INVISIBLE.string.text
+msgctxt "navipi.src#ST_INVISIBLE.string.text"
+msgid "hidden"
+msgstr "ซ่อน"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_GRAPHIC.string.text"
-msgid "Graphics"
-msgstr "รูป"
+#: navipi.src#ST_BROKEN_LINK.string.text
+#: navipi.src%23ST_BROKEN_LINK.string.text
+msgid "File not found: "
+msgstr "ไม่พบแฟ้ม: "
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_OLE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_OLE.string.text
-msgid "OLE object"
-msgstr "วัตถุ OLE "
+#: navipi.src#ST_RENAME.string.text
+#: navipi.src%23ST_RENAME.string.text
+msgid "~Rename"
+msgstr "เ~ปลี่ยนชื่อ"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_BOOKMARK.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_BOOKMARK.string.text
-msgid "Bookmark"
-msgstr "ที่คั่น"
+#: navipi.src#ST_READONLY_IDX.string.text
+#: navipi.src%23ST_READONLY_IDX.string.text
+msgid "Read-~only"
+msgstr "อ่าน~อย่างเดียว"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_REGION.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_REGION.string.text
-msgid "Section"
-msgstr "ตอน"
+#: navipi.src#ST_POSTIT_SHOW.string.text
+#: navipi.src%23ST_POSTIT_SHOW.string.text
+msgid "Show All"
+msgstr "แสดงทั้งหมด"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_URLFIELD.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_URLFIELD.string.text
-msgid "Hyperlink"
-msgstr "เชื่อมโยงพิเศษ"
+#: navipi.src#ST_POSTIT_HIDE.string.text
+#: navipi.src%23ST_POSTIT_HIDE.string.text
+msgid "Hide All"
+msgstr "ซ่อนทั้งหมด"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_REFERENCE.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_REFERENCE.string.text
-msgid "Reference"
-msgstr "อ้างอิง"
+#: navipi.src#ST_POSTIT_DELETE.string.text
+#: navipi.src%23ST_POSTIT_DELETE.string.text
+msgid "Delete All"
+msgstr "ลบทั้งหมด"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_INDEX.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_INDEX.string.text
-msgctxt "utlui.src#STR_CONTENT_TYPE_SINGLE_INDEX.string.text"
-msgid "Index"
-msgstr "ดัชนี"
+#: navipi.src#STR_ACCESS_TL_GLOBAL.string.text
+#: navipi.src%23STR_ACCESS_TL_GLOBAL.string.text
+msgid "Global View"
+msgstr "มุมมองครอบคลุม"
 
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_POSTIT.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_POSTIT.string.text
-msgid "Comment"
-msgstr "คำอธิบาย"
-
-#: utlui.src#STR_CONTENT_TYPE_SINGLE_DRAWOBJECT.string.text
-#: utlui.src%23STR_CONTENT_TYPE_SINGLE_DRAWOBJECT.string.text
-msgid "Draw object"
-msgstr "วาดวัตถุ"
-
-#: utlui.src#STR_DEFINE_NUMBERFORMAT.string.text
-#: utlui.src%23STR_DEFINE_NUMBERFORMAT.string.text
-msgid "Additional formats..."
-msgstr "รูปแบบเพิ่มเติม..."
-
-#: utlui.src#RID_STR_SYSTEM.string.text
-#: utlui.src%23RID_STR_SYSTEM.string.text
-msgid "[System]"
-msgstr "[ระบบ]"
-
-#: utlui.src#STR_MULT_INTERACT_SPELL_WARN.string.text
-#: utlui.src%23STR_MULT_INTERACT_SPELL_WARN.string.text
-msgid ""
-"The interactive spellcheck is already active\n"
-"in a different document"
-msgstr ""
-"การตรวจสอบการสะกดแบบโต้ตอบถูกใช้งานอยู่แล้ว\n"
-"ในเอกสารอื่น"
-
-#: utlui.src#STR_MULT_INTERACT_HYPH_WARN.string.text
-#: utlui.src%23STR_MULT_INTERACT_HYPH_WARN.string.text
-msgid ""
-"The interactive hyphenation is already active\n"
-"in a different document"
-msgstr ""
-"การใส่ยัติภังค์ท้ายบรรทัดแบบโต้ตอบถูกใช้งานอยู่แล้ว\n"
-"ในเอกสารอื่น"
-
-#: utlui.src#STR_SPELL_TITLE.string.text
-#: utlui.src%23STR_SPELL_TITLE.string.text
-msgid "Spellcheck"
-msgstr "ตรวจตัวสะกด"
-
-#: utlui.src#STR_HYPH_TITLE.string.text
-#: utlui.src%23STR_HYPH_TITLE.string.text
-msgid "Hyphenation"
-msgstr "แทรกยัติภังค์"
-
-#: utlui.src#STR_HYPERCTRL_SEL.string.text
-#: utlui.src%23STR_HYPERCTRL_SEL.string.text
-msgid "SEL"
-msgstr "SEL"
-
-#: utlui.src#STR_HYPERCTRL_HYP.string.text
-#: utlui.src%23STR_HYPERCTRL_HYP.string.text
-msgid "HYP"
-msgstr "HYP"
+#: navipi.src#STR_ACCESS_TL_CONTENT.string.text
+#: navipi.src%23STR_ACCESS_TL_CONTENT.string.text
+msgctxt "navipi.src#STR_ACCESS_TL_CONTENT.string.text"
+msgid "Content View"
+msgstr "มุมมองเนื้อหา"
 
 #: attrdesc.src#STR_DROP_OVER.string.text
 #: attrdesc.src%23STR_DROP_OVER.string.text
@@ -2236,320 +2553,3 @@ msgstr "Merge borders"
 #: attrdesc.src%23STR_CONNECT_BORDER_OFF.string.text
 msgid "Do not merge borders"
 msgstr "Do not merge borders"
-
-#: navipi.src#DLG_NAVIGATION_PI.window.text
-#: navipi.src%23DLG_NAVIGATION_PI.window.text
-msgid "Navigator"
-msgstr "ตัวนำ"
-
-#: navipi.src#TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text
-msgctxt "navipi.src#TB_CONTENT.FN_GLOBAL_SWITCH.toolboxitem.text"
-msgid "Toggle"
-msgstr "สลับ"
-
-#: navipi.src#TB_CONTENT.FN_CREATE_NAVIGATION.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_CREATE_NAVIGATION.toolboxitem.text
-msgid "Navigation"
-msgstr "นำทาง"
-
-#: navipi.src#TB_CONTENT.FN_UP.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_UP.toolboxitem.text
-msgid "Back"
-msgstr "กลับ"
-
-#: navipi.src#TB_CONTENT.FN_DOWN.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_DOWN.toolboxitem.text
-msgid "Forward"
-msgstr "ไปข้างหน้า"
-
-#: navipi.src#TB_CONTENT.FN_DROP_REGION.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_DROP_REGION.toolboxitem.text
-msgctxt "navipi.src#TB_CONTENT.FN_DROP_REGION.toolboxitem.text"
-msgid "Drag Mode"
-msgstr "โหมดลาก"
-
-#: navipi.src#TB_CONTENT.FN_ITEM_UP.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_ITEM_UP.toolboxitem.text
-msgid "Promote Chapter"
-msgstr "เลื่อนขั้นบท"
-
-#: navipi.src#TB_CONTENT.FN_ITEM_DOWN.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_ITEM_DOWN.toolboxitem.text
-msgid "Demote Chapter"
-msgstr "ลดขั้นบท"
-
-#: navipi.src#TB_CONTENT.FN_SHOW_CONTENT_BOX.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SHOW_CONTENT_BOX.toolboxitem.text
-msgid "List Box On/Off"
-msgstr "กล่องรายการ เปิด/ปิด"
-
-#: navipi.src#TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text
-msgctxt "navipi.src#TB_CONTENT.FN_SHOW_ROOT.toolboxitem.text"
-msgid "Content View"
-msgstr "มุมมองเนื้อหา"
-
-#: navipi.src#TB_CONTENT.FN_SELECT_SET_AUTO_BOOKMARK.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SELECT_SET_AUTO_BOOKMARK.toolboxitem.text
-msgid "Set Reminder"
-msgstr "ตั้งค่าตัวเตือน"
-
-#: navipi.src#TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text
-msgctxt "navipi.src#TB_CONTENT.FN_SELECT_HEADER.toolboxitem.text"
-msgid "Header"
-msgstr "ส่วนหัว"
-
-#: navipi.src#TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text
-msgctxt "navipi.src#TB_CONTENT.FN_SELECT_FOOTER.toolboxitem.text"
-msgid "Footer"
-msgstr "ส่วนท้าย"
-
-#: navipi.src#TB_CONTENT.FN_SELECT_FOOTNOTE.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_SELECT_FOOTNOTE.toolboxitem.text
-msgid "Anchor<->Text"
-msgstr "สมอยึด<->ข้อความ"
-
-#: navipi.src#TB_CONTENT.FN_OUTLINE_LEVEL.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_OUTLINE_LEVEL.toolboxitem.text
-msgid "Heading Levels Shown"
-msgstr "แสดงระดับส่วนหัว"
-
-#: navipi.src#TB_CONTENT.FN_ITEM_LEFT.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_ITEM_LEFT.toolboxitem.text
-msgid "Promote Level"
-msgstr "ระดับการเลื่อนขั้น"
-
-#: navipi.src#TB_CONTENT.FN_ITEM_RIGHT.toolboxitem.text
-#: navipi.src%23TB_CONTENT.FN_ITEM_RIGHT.toolboxitem.text
-msgid "Demote Level"
-msgstr "ระดับการลดขั้น"
-
-#: navipi.src#TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text
-msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_SWITCH.toolboxitem.text"
-msgid "Toggle"
-msgstr "สลับ"
-
-#: navipi.src#TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text
-msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_EDIT.toolboxitem.text"
-msgid "Edit"
-msgstr "แก้ไข"
-
-#: navipi.src#TB_GLOBAL.FN_GLOBAL_UPDATE.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_GLOBAL_UPDATE.toolboxitem.text
-msgid "Update"
-msgstr "ปรับข้อมูล"
-
-#: navipi.src#TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text
-msgctxt "navipi.src#TB_GLOBAL.FN_GLOBAL_OPEN.toolboxitem.text"
-msgid "Insert"
-msgstr "แทรก"
-
-#: navipi.src#TB_GLOBAL.FN_GLOBAL_SAVE_CONTENT.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_GLOBAL_SAVE_CONTENT.toolboxitem.text
-msgid "Save Contents as well"
-msgstr "บันทึกเนื้อหาเป็นอย่างดี"
-
-#: navipi.src#TB_GLOBAL.FN_ITEM_UP.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_ITEM_UP.toolboxitem.text
-msgid "Move Up"
-msgstr "เลื่อนขึ้น"
-
-#: navipi.src#TB_GLOBAL.FN_ITEM_DOWN.toolboxitem.text
-#: navipi.src%23TB_GLOBAL.FN_ITEM_DOWN.toolboxitem.text
-msgid "Move Down"
-msgstr "ย้ายลง"
-
-#: navipi.src#ST_OUTLINE_LEVEL.string.text
-#: navipi.src%23ST_OUTLINE_LEVEL.string.text
-msgid "Outline Level"
-msgstr "ระดับเค้าโครง"
-
-#: navipi.src#ST_DRAGMODE.string.text
-#: navipi.src%23ST_DRAGMODE.string.text
-msgctxt "navipi.src#ST_DRAGMODE.string.text"
-msgid "Drag Mode"
-msgstr "โหมดลาก"
-
-#: navipi.src#ST_HYPERLINK.string.text
-#: navipi.src%23ST_HYPERLINK.string.text
-msgid "Insert as Hyperlink"
-msgstr "แทรกเป็นการเชื่อมโยงพิเศษ"
-
-#: navipi.src#ST_LINK_REGION.string.text
-#: navipi.src%23ST_LINK_REGION.string.text
-msgid "Insert as Link"
-msgstr "แทรกเป็นการเชื่อมโยง"
-
-#: navipi.src#ST_COPY_REGION.string.text
-#: navipi.src%23ST_COPY_REGION.string.text
-msgid "Insert as Copy"
-msgstr "แทรกเป็นสำเนา"
-
-#: navipi.src#ST_DISPLAY.string.text
-#: navipi.src%23ST_DISPLAY.string.text
-msgid "Display"
-msgstr "แสดงผล"
-
-#: navipi.src#ST_ACTIVE_VIEW.string.text
-#: navipi.src%23ST_ACTIVE_VIEW.string.text
-msgid "Active Window"
-msgstr "หน้าต่างที่ใช้งานอยู่"
-
-#: navipi.src#ST_HIDDEN.string.text
-#: navipi.src%23ST_HIDDEN.string.text
-msgctxt "navipi.src#ST_HIDDEN.string.text"
-msgid "hidden"
-msgstr "ซ่อน"
-
-#: navipi.src#ST_ACTIVE.string.text
-#: navipi.src%23ST_ACTIVE.string.text
-msgid "active"
-msgstr "ใช้งานอยู่"
-
-#: navipi.src#ST_INACTIVE.string.text
-#: navipi.src%23ST_INACTIVE.string.text
-msgid "inactive"
-msgstr "ไม่ได้ใช้"
-
-#: navipi.src#ST_EDIT_ENTRY.string.text
-#: navipi.src%23ST_EDIT_ENTRY.string.text
-msgid "Edit..."
-msgstr "แก้ไข..."
-
-#: navipi.src#ST_UPDATE.string.text
-#: navipi.src%23ST_UPDATE.string.text
-msgid "~Update"
-msgstr "~ปรับข้อมูล"
-
-#: navipi.src#ST_EDIT_CONTENT.string.text
-#: navipi.src%23ST_EDIT_CONTENT.string.text
-msgctxt "navipi.src#ST_EDIT_CONTENT.string.text"
-msgid "Edit"
-msgstr "แก้ไข"
-
-#: navipi.src#ST_EDIT_LINK.string.text
-#: navipi.src%23ST_EDIT_LINK.string.text
-msgid "Edit link"
-msgstr "แก้ไขตัวเชื่อมโยง"
-
-#: navipi.src#ST_INSERT.string.text
-#: navipi.src%23ST_INSERT.string.text
-msgctxt "navipi.src#ST_INSERT.string.text"
-msgid "Insert"
-msgstr "แทรก"
-
-#: navipi.src#ST_INDEX.string.text
-#: navipi.src%23ST_INDEX.string.text
-msgid "~Index"
-msgstr "~ดัชนี"
-
-#: navipi.src#ST_FILE.string.text
-#: navipi.src%23ST_FILE.string.text
-msgid "File"
-msgstr "แฟ้ม"
-
-#: navipi.src#ST_NEW_FILE.string.text
-#: navipi.src%23ST_NEW_FILE.string.text
-msgid "New Document"
-msgstr "เอกสารใหม่"
-
-#: navipi.src#ST_TEXT.string.text
-#: navipi.src%23ST_TEXT.string.text
-msgctxt "navipi.src#ST_TEXT.string.text"
-msgid "Text"
-msgstr "ข้อความ"
-
-#: navipi.src#ST_DELETE.string.text
-#: navipi.src%23ST_DELETE.string.text
-msgid "Delete"
-msgstr "ลบ"
-
-#: navipi.src#ST_DELETE_ENTRY.string.text
-#: navipi.src%23ST_DELETE_ENTRY.string.text
-msgid "~Delete"
-msgstr "~ลบ"
-
-#: navipi.src#ST_UPDATE_SEL.string.text
-#: navipi.src%23ST_UPDATE_SEL.string.text
-msgid "Selection"
-msgstr "เลือก"
-
-#: navipi.src#ST_UPDATE_INDEX.string.text
-#: navipi.src%23ST_UPDATE_INDEX.string.text
-msgctxt "navipi.src#ST_UPDATE_INDEX.string.text"
-msgid "Indexes"
-msgstr "ดัชนี"
-
-#: navipi.src#ST_UPDATE_LINK.string.text
-#: navipi.src%23ST_UPDATE_LINK.string.text
-msgid "Links"
-msgstr "เชื่อมโยง"
-
-#: navipi.src#ST_UPDATE_ALL.string.text
-#: navipi.src%23ST_UPDATE_ALL.string.text
-msgctxt "navipi.src#ST_UPDATE_ALL.string.text"
-msgid "All"
-msgstr "ทั้งหมด"
-
-#: navipi.src#ST_REMOVE_INDEX.string.text
-#: navipi.src%23ST_REMOVE_INDEX.string.text
-msgid "~Remove Index"
-msgstr "เ~อาดัชนีออก"
-
-#: navipi.src#ST_REMOVE_TBL_PROTECTION.string.text
-#: navipi.src%23ST_REMOVE_TBL_PROTECTION.string.text
-msgid "~Unprotect"
-msgstr "ไ~ม่ป้องกัน"
-
-#: navipi.src#ST_INVISIBLE.string.text
-#: navipi.src%23ST_INVISIBLE.string.text
-msgctxt "navipi.src#ST_INVISIBLE.string.text"
-msgid "hidden"
-msgstr "ซ่อน"
-
-#: navipi.src#ST_BROKEN_LINK.string.text
-#: navipi.src%23ST_BROKEN_LINK.string.text
-msgid "File not found: "
-msgstr "ไม่พบแฟ้ม: "
-
-#: navipi.src#ST_RENAME.string.text
-#: navipi.src%23ST_RENAME.string.text
-msgid "~Rename"
-msgstr "เ~ปลี่ยนชื่อ"
-
-#: navipi.src#ST_READONLY_IDX.string.text
-#: navipi.src%23ST_READONLY_IDX.string.text
-msgid "Read-~only"
-msgstr "อ่าน~อย่างเดียว"
-
-#: navipi.src#ST_POSTIT_SHOW.string.text
-#: navipi.src%23ST_POSTIT_SHOW.string.text
-msgid "Show All"
-msgstr "แสดงทั้งหมด"
-
-#: navipi.src#ST_POSTIT_HIDE.string.text
-#: navipi.src%23ST_POSTIT_HIDE.string.text
-msgid "Hide All"
-msgstr "ซ่อนทั้งหมด"
-
-#: navipi.src#ST_POSTIT_DELETE.string.text
-#: navipi.src%23ST_POSTIT_DELETE.string.text
-msgid "Delete All"
-msgstr "ลบทั้งหมด"
-
-#: navipi.src#STR_ACCESS_TL_GLOBAL.string.text
-#: navipi.src%23STR_ACCESS_TL_GLOBAL.string.text
-msgid "Global View"
-msgstr "มุมมองครอบคลุม"
-
-#: navipi.src#STR_ACCESS_TL_CONTENT.string.text
-#: navipi.src%23STR_ACCESS_TL_CONTENT.string.text
-msgctxt "navipi.src#STR_ACCESS_TL_CONTENT.string.text"
-msgid "Content View"
-msgstr "มุมมองเนื้อหา"
