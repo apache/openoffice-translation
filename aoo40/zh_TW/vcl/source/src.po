@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+vcl%2Fsource%2Fsrc.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-07 14:22+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,70 +16,283 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: menu.src#SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
-#: menu.src%23SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
-msgid "<No selection possible>"
-msgstr "<無法選擇>"
+#: helptext.src#SV_HELPTEXT_CLOSE.string.text
+#: helptext.src%23SV_HELPTEXT_CLOSE.string.text
+msgid "Close"
+msgstr "關閉"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
-msgid "~Undo"
-msgstr "復原(~U)"
+#: helptext.src#SV_HELPTEXT_CLOSEDOCUMENT.string.text
+#: helptext.src%23SV_HELPTEXT_CLOSEDOCUMENT.string.text
+msgid "Close Document"
+msgstr "關閉文件"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
-msgid "Cu~t"
-msgstr "剪下(~T)"
+#: helptext.src#SV_HELPTEXT_MINIMIZE.string.text
+#: helptext.src%23SV_HELPTEXT_MINIMIZE.string.text
+msgid "Minimize"
+msgstr "最小化"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
-msgid "~Copy"
-msgstr "複製(~C)"
+#: helptext.src#SV_HELPTEXT_MAXIMIZE.string.text
+#: helptext.src%23SV_HELPTEXT_MAXIMIZE.string.text
+msgid "Maximize"
+msgstr "最大化"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
-msgid "~Paste"
-msgstr "貼上(~P)"
+#: helptext.src#SV_HELPTEXT_RESTORE.string.text
+#: helptext.src%23SV_HELPTEXT_RESTORE.string.text
+msgid "Restore"
+msgstr "恢復"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
-msgid "~Delete"
-msgstr "刪除(~D)"
+#: helptext.src#SV_HELPTEXT_ROLLDOWN.string.text
+#: helptext.src%23SV_HELPTEXT_ROLLDOWN.string.text
+msgid "Drop down"
+msgstr "擴展"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
-msgid "Select ~All"
-msgstr "全部選取(~A)"
+#: helptext.src#SV_HELPTEXT_ROLLUP.string.text
+#: helptext.src%23SV_HELPTEXT_ROLLUP.string.text
+msgid "Roll up"
+msgstr "隱入"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
-msgid "~Special Character..."
-msgstr "插入特殊字元(~S)..."
+#: helptext.src#SV_HELPTEXT_HELP.string.text
+#: helptext.src%23SV_HELPTEXT_HELP.string.text
+msgctxt "helptext.src#SV_HELPTEXT_HELP.string.text"
+msgid "Help"
+msgstr "說明"
 
-#: menu.src#SV_MENU_MAC_SERVICES.string.text
-#: menu.src%23SV_MENU_MAC_SERVICES.string.text
-msgid "Services"
-msgstr "服務"
+#: helptext.src#SV_HELPTEXT_ALWAYSVISIBLE.string.text
+#: helptext.src%23SV_HELPTEXT_ALWAYSVISIBLE.string.text
+msgid "Always visible"
+msgstr "自動顯示"
 
-#: menu.src#SV_MENU_MAC_HIDEAPP.string.text
-#: menu.src%23SV_MENU_MAC_HIDEAPP.string.text
-msgid "Hide %PRODUCTNAME"
-msgstr "隱藏 %PRODUCTNAME"
+#: helptext.src#SV_HELPTEXT_FADEIN.string.text
+#: helptext.src%23SV_HELPTEXT_FADEIN.string.text
+msgid "Show"
+msgstr "顯示"
 
-#: menu.src#SV_MENU_MAC_HIDEALL.string.text
-#: menu.src%23SV_MENU_MAC_HIDEALL.string.text
-msgid "Hide Others"
-msgstr "隱藏其他"
+#: helptext.src#SV_HELPTEXT_FADEOUT.string.text
+#: helptext.src%23SV_HELPTEXT_FADEOUT.string.text
+msgid "Hide"
+msgstr "隱入"
 
-#: menu.src#SV_MENU_MAC_SHOWALL.string.text
-#: menu.src%23SV_MENU_MAC_SHOWALL.string.text
-msgid "Show All"
-msgstr "全部顯示"
+#: helptext.src#SV_HELPTEXT_SPLITFLOATING.string.text
+#: helptext.src%23SV_HELPTEXT_SPLITFLOATING.string.text
+msgid "Floating"
+msgstr "浮動"
 
-#: menu.src#SV_MENU_MAC_QUITAPP.string.text
-#: menu.src%23SV_MENU_MAC_QUITAPP.string.text
-msgid "Quit %PRODUCTNAME"
-msgstr "結束 %PRODUCTNAME"
+#: helptext.src#SV_HELPTEXT_SPLITFIXED.string.text
+#: helptext.src%23SV_HELPTEXT_SPLITFIXED.string.text
+msgid "Stick"
+msgstr "固定"
+
+#: helptext.src#SV_SHORTCUT_HELP.string.text
+#: helptext.src%23SV_SHORTCUT_HELP.string.text
+msgctxt "helptext.src#SV_SHORTCUT_HELP.string.text"
+msgid "Help"
+msgstr "說明"
+
+#: helptext.src#SV_SHORTCUT_CONTEXTHELP.string.text
+#: helptext.src%23SV_SHORTCUT_CONTEXTHELP.string.text
+msgid "Context Help"
+msgstr "上下文說明"
+
+#: helptext.src#SV_SHORTCUT_ACTIVEHELP.string.text
+#: helptext.src%23SV_SHORTCUT_ACTIVEHELP.string.text
+msgid "Extended Tips"
+msgstr "擴充提示"
+
+#: helptext.src#SV_SHORTCUT_DOCKUNDOCK.string.text
+#: helptext.src%23SV_SHORTCUT_DOCKUNDOCK.string.text
+msgid "Dock/Undock Windows"
+msgstr "固定/解除固定視窗"
+
+#: helptext.src#SV_SHORTCUT_NEXTSUBWINDOW.string.text
+#: helptext.src%23SV_SHORTCUT_NEXTSUBWINDOW.string.text
+msgid "To Next Toolbar/Window"
+msgstr "至下一個工具列/視窗"
+
+#: helptext.src#SV_SHORTCUT_PREVSUBWINDOW.string.text
+#: helptext.src%23SV_SHORTCUT_PREVSUBWINDOW.string.text
+msgid "To Previous Toolbar/Window"
+msgstr "至上一個工具列/視窗"
+
+#: helptext.src#SV_SHORTCUT_TODOCUMENT.string.text
+#: helptext.src%23SV_SHORTCUT_TODOCUMENT.string.text
+msgid "To Document"
+msgstr "至文件"
+
+#: helptext.src#SV_SHORTCUT_MENUBAR.string.text
+#: helptext.src%23SV_SHORTCUT_MENUBAR.string.text
+msgid "To Menu Bar"
+msgstr "至功能表列"
+
+#: helptext.src#SV_SHORTCUT_SPLITTER.string.text
+#: helptext.src%23SV_SHORTCUT_SPLITTER.string.text
+msgid "Split window separator"
+msgstr "分割視窗分隔器"
+
+#: btntext.src#SV_BUTTONTEXT_OK.string.text
+#: btntext.src%23SV_BUTTONTEXT_OK.string.text
+msgid "OK"
+msgstr "確定"
+
+#: btntext.src#SV_BUTTONTEXT_CANCEL.string.text
+#: btntext.src%23SV_BUTTONTEXT_CANCEL.string.text
+msgid "Cancel"
+msgstr "取消"
+
+#: btntext.src#SV_BUTTONTEXT_YES.string.text
+#: btntext.src%23SV_BUTTONTEXT_YES.string.text
+msgid "~Yes"
+msgstr "是(~Y)"
+
+#: btntext.src#SV_BUTTONTEXT_NO.string.text
+#: btntext.src%23SV_BUTTONTEXT_NO.string.text
+msgid "~No"
+msgstr "否(~N)"
+
+#: btntext.src#SV_BUTTONTEXT_RETRY.string.text
+#: btntext.src%23SV_BUTTONTEXT_RETRY.string.text
+msgid "~Retry"
+msgstr "重試(~R)"
+
+#: btntext.src#SV_BUTTONTEXT_HELP.string.text
+#: btntext.src%23SV_BUTTONTEXT_HELP.string.text
+msgid "~Help"
+msgstr "說明(~H)"
+
+#: btntext.src#SV_BUTTONTEXT_MORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_MORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_LESS.string.text
+#, fuzzy
+msgid "~More"
+msgstr "更多(~M)"
+
+#: btntext.src#SV_BUTTONTEXT_LESS.string.text
+msgid "~Less"
+msgstr ""
+
+#: btntext.src#SV_BUTTONTEXT_IGNORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_IGNORE.string.text
+msgid "~Ignore"
+msgstr "忽略(~I)"
+
+#: btntext.src#SV_BUTTONTEXT_ABORT.string.text
+#: btntext.src%23SV_BUTTONTEXT_ABORT.string.text
+msgid "~Abort"
+msgstr "中止(~A)"
+
+#: stdtext.src#SV_STDTEXT_SERVICENOTAVAILABLE.string.text
+#: stdtext.src%23SV_STDTEXT_SERVICENOTAVAILABLE.string.text
+msgid ""
+"The component (%s) could not be loaded.\n"
+"Please start setup with the repair option."
+msgstr ""
+"無法載入程式元件(%s)。\n"
+"請選擇安裝程式的修複選項。"
+
+#: stdtext.src#SV_STDTEXT_DONTHINTAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTHINTAGAIN.string.text
+msgid "Do not show this information again."
+msgstr "不再顯示這項資訊。"
+
+#: stdtext.src#SV_STDTEXT_DONTASKAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTASKAGAIN.string.text
+msgid "Do not show this question again."
+msgstr "不再顯示這個問題。"
+
+#: stdtext.src#SV_STDTEXT_DONTWARNAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTWARNAGAIN.string.text
+#, fuzzy
+msgid "Do not show this warning again."
+msgstr "不要再顯示這個提示。"
+
+#: stdtext.src#SV_ACCESSERROR_WRONG_VERSION.string.text
+#: stdtext.src%23SV_ACCESSERROR_WRONG_VERSION.string.text
+msgid "Wrong Version"
+msgstr "錯誤的 Java Access Bridge 版本"
+
+#: stdtext.src#SV_ACCESSERROR_BRIDGE_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_BRIDGE_MSG.string.text
+msgid ""
+"%PRODUCTNAME %PRODUCTVERSION requires a Java Access Bridge 1.0.3 or later "
+"version to support accessibility."
+msgstr ""
+"%PRODUCTNAME %PRODUCTVERSION 需要一個用於協助工具支援的 Java Access Bridge 1.0.3 或之上的版本。"
+
+#: stdtext.src#SV_ACCESSERROR_OK_CANCEL_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_OK_CANCEL_MSG.string.text
+msgid ""
+"Click '%OK' to start %PRODUCTNAME %PRODUCTVERSION without accessibility "
+"support, or click '%CANCEL' to exit %PRODUCTNAME %PRODUCTVERSION."
+msgstr ""
+"按一下「%OK」，省去協助工具支援，而直接啟動安裝 %PRODUCTNAME %PRODUCTVERSION，或者按一下「%CANCEL」結束程式。"
+
+#: stdtext.src#SV_ACCESSERROR_MISSING_BRIDGE.string.text
+#: stdtext.src%23SV_ACCESSERROR_MISSING_BRIDGE.string.text
+msgid "No Java Access Bridge"
+msgstr "沒有[Java Access Bridge]"
+
+#: stdtext.src#SV_ACCESSERROR_FAULTY_JAVA.string.text
+#: stdtext.src%23SV_ACCESSERROR_FAULTY_JAVA.string.text
+msgid "Faulty Java Installation"
+msgstr "錯誤的 Java 安裝"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_MSG.string.text
+msgid ""
+"%PRODUCTNAME %PRODUCTVERSION requires Java 1.4.0_02 or later version to "
+"support accessibility."
+msgstr "%PRODUCTNAME %PRODUCTVERSION 需要一個用於協助工具支援的 Java 1.4.0_02 或之上的版本。"
+
+#: stdtext.src#SV_ACCESSERROR_MISSING_JAVA.string.text
+#: stdtext.src%23SV_ACCESSERROR_MISSING_JAVA.string.text
+msgid "No Java Installation"
+msgstr "沒有安裝好 Java"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
+msgid "Missing Java Configuration"
+msgstr "沒有找到 Java 配置"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_DISABLED.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_DISABLED.string.text
+msgid "Java Disabled"
+msgstr "禁用 Java"
+
+#: stdtext.src#SV_ACCESSERROR_TURNAROUND_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_TURNAROUND_MSG.string.text
+msgid "The Java Access Bridge could not be started."
+msgstr "無法啟動 Java Access Bridge 。"
+
+#: stdtext.src#SV_ACCESSERROR_NO_FONTS.string.text
+#: stdtext.src%23SV_ACCESSERROR_NO_FONTS.string.text
+msgid "No fonts could be found on the system."
+msgstr "系統中找不到字型。"
+
+#: stdtext.src#SV_STDTEXT_ABOUT.string.text
+#: stdtext.src%23SV_STDTEXT_ABOUT.string.text
+msgid "About %PRODUCTNAME"
+msgstr "關於 %PRODUCTNAME"
+
+#: stdtext.src#SV_STDTEXT_PREFERENCES.string.text
+#: stdtext.src%23SV_STDTEXT_PREFERENCES.string.text
+msgid "Preferences..."
+msgstr "喜好設定..."
+
+#: stdtext.src#SV_EDIT_WARNING_BOX.warningbox.text
+#: stdtext.src%23SV_EDIT_WARNING_BOX.warningbox.text
+msgid ""
+"The inserted text exceeded the maximum length of this text field. The text "
+"was truncated."
+msgstr "插入的文字超出此文字欄位的長度上限。文字已截斷。"
+
+#: stdtext.src#SV_MAC_SCREENNNAME.string.text
+#: stdtext.src%23SV_MAC_SCREENNNAME.string.text
+msgid "Screen %d"
+msgstr "螢幕 %d"
+
+#: stdtext.src#SV_STDTEXT_ALLFILETYPES.string.text
+#: stdtext.src%23SV_STDTEXT_ALLFILETYPES.string.text
+msgid "Any type"
+msgstr "任何類型"
 
 #: print.src#SV_DLG_PRINT.SV_PRINT_OK.okbutton.text
 #: print.src%23SV_DLG_PRINT.SV_PRINT_OK.okbutton.text
@@ -569,57 +782,6 @@ msgstr "B5 (JIS)"
 msgid "B6 (JIS)"
 msgstr "B6 (JIS)"
 
-#: btntext.src#SV_BUTTONTEXT_OK.string.text
-#: btntext.src%23SV_BUTTONTEXT_OK.string.text
-msgid "OK"
-msgstr "確定"
-
-#: btntext.src#SV_BUTTONTEXT_CANCEL.string.text
-#: btntext.src%23SV_BUTTONTEXT_CANCEL.string.text
-msgid "Cancel"
-msgstr "取消"
-
-#: btntext.src#SV_BUTTONTEXT_YES.string.text
-#: btntext.src%23SV_BUTTONTEXT_YES.string.text
-msgid "~Yes"
-msgstr "是(~Y)"
-
-#: btntext.src#SV_BUTTONTEXT_NO.string.text
-#: btntext.src%23SV_BUTTONTEXT_NO.string.text
-msgid "~No"
-msgstr "否(~N)"
-
-#: btntext.src#SV_BUTTONTEXT_RETRY.string.text
-#: btntext.src%23SV_BUTTONTEXT_RETRY.string.text
-msgid "~Retry"
-msgstr "重試(~R)"
-
-#: btntext.src#SV_BUTTONTEXT_HELP.string.text
-#: btntext.src%23SV_BUTTONTEXT_HELP.string.text
-msgid "~Help"
-msgstr "說明(~H)"
-
-#: btntext.src#SV_BUTTONTEXT_MORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_MORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_LESS.string.text
-#, fuzzy
-msgid "~More"
-msgstr "更多(~M)"
-
-#: btntext.src#SV_BUTTONTEXT_LESS.string.text
-msgid "~Less"
-msgstr ""
-
-#: btntext.src#SV_BUTTONTEXT_IGNORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_IGNORE.string.text
-msgid "~Ignore"
-msgstr "忽略(~I)"
-
-#: btntext.src#SV_BUTTONTEXT_ABORT.string.text
-#: btntext.src%23SV_BUTTONTEXT_ABORT.string.text
-msgid "~Abort"
-msgstr "中止(~A)"
-
 #: units.src#SV_FUNIT_STRINGS.1.itemlist.text
 #: units.src%23SV_FUNIT_STRINGS.1.itemlist.text
 msgid "mm"
@@ -710,229 +872,67 @@ msgstr "英里"
 msgid "%"
 msgstr "%"
 
-#: helptext.src#SV_HELPTEXT_CLOSE.string.text
-#: helptext.src%23SV_HELPTEXT_CLOSE.string.text
-msgid "Close"
-msgstr "關閉"
+#: menu.src#SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
+#: menu.src%23SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
+msgid "<No selection possible>"
+msgstr "<無法選擇>"
 
-#: helptext.src#SV_HELPTEXT_CLOSEDOCUMENT.string.text
-#: helptext.src%23SV_HELPTEXT_CLOSEDOCUMENT.string.text
-msgid "Close Document"
-msgstr "關閉文件"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
+msgid "~Undo"
+msgstr "復原(~U)"
 
-#: helptext.src#SV_HELPTEXT_MINIMIZE.string.text
-#: helptext.src%23SV_HELPTEXT_MINIMIZE.string.text
-msgid "Minimize"
-msgstr "最小化"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
+msgid "Cu~t"
+msgstr "剪下(~T)"
 
-#: helptext.src#SV_HELPTEXT_MAXIMIZE.string.text
-#: helptext.src%23SV_HELPTEXT_MAXIMIZE.string.text
-msgid "Maximize"
-msgstr "最大化"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
+msgid "~Copy"
+msgstr "複製(~C)"
 
-#: helptext.src#SV_HELPTEXT_RESTORE.string.text
-#: helptext.src%23SV_HELPTEXT_RESTORE.string.text
-msgid "Restore"
-msgstr "恢復"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
+msgid "~Paste"
+msgstr "貼上(~P)"
 
-#: helptext.src#SV_HELPTEXT_ROLLDOWN.string.text
-#: helptext.src%23SV_HELPTEXT_ROLLDOWN.string.text
-msgid "Drop down"
-msgstr "擴展"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
+msgid "~Delete"
+msgstr "刪除(~D)"
 
-#: helptext.src#SV_HELPTEXT_ROLLUP.string.text
-#: helptext.src%23SV_HELPTEXT_ROLLUP.string.text
-msgid "Roll up"
-msgstr "隱入"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
+msgid "Select ~All"
+msgstr "全部選取(~A)"
 
-#: helptext.src#SV_HELPTEXT_HELP.string.text
-#: helptext.src%23SV_HELPTEXT_HELP.string.text
-msgctxt "helptext.src#SV_HELPTEXT_HELP.string.text"
-msgid "Help"
-msgstr "說明"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
+msgid "~Special Character..."
+msgstr "插入特殊字元(~S)..."
 
-#: helptext.src#SV_HELPTEXT_ALWAYSVISIBLE.string.text
-#: helptext.src%23SV_HELPTEXT_ALWAYSVISIBLE.string.text
-msgid "Always visible"
-msgstr "自動顯示"
+#: menu.src#SV_MENU_MAC_SERVICES.string.text
+#: menu.src%23SV_MENU_MAC_SERVICES.string.text
+msgid "Services"
+msgstr "服務"
 
-#: helptext.src#SV_HELPTEXT_FADEIN.string.text
-#: helptext.src%23SV_HELPTEXT_FADEIN.string.text
-msgid "Show"
-msgstr "顯示"
+#: menu.src#SV_MENU_MAC_HIDEAPP.string.text
+#: menu.src%23SV_MENU_MAC_HIDEAPP.string.text
+msgid "Hide %PRODUCTNAME"
+msgstr "隱藏 %PRODUCTNAME"
 
-#: helptext.src#SV_HELPTEXT_FADEOUT.string.text
-#: helptext.src%23SV_HELPTEXT_FADEOUT.string.text
-msgid "Hide"
-msgstr "隱入"
+#: menu.src#SV_MENU_MAC_HIDEALL.string.text
+#: menu.src%23SV_MENU_MAC_HIDEALL.string.text
+msgid "Hide Others"
+msgstr "隱藏其他"
 
-#: helptext.src#SV_HELPTEXT_SPLITFLOATING.string.text
-#: helptext.src%23SV_HELPTEXT_SPLITFLOATING.string.text
-msgid "Floating"
-msgstr "浮動"
+#: menu.src#SV_MENU_MAC_SHOWALL.string.text
+#: menu.src%23SV_MENU_MAC_SHOWALL.string.text
+msgid "Show All"
+msgstr "全部顯示"
 
-#: helptext.src#SV_HELPTEXT_SPLITFIXED.string.text
-#: helptext.src%23SV_HELPTEXT_SPLITFIXED.string.text
-msgid "Stick"
-msgstr "固定"
-
-#: helptext.src#SV_SHORTCUT_HELP.string.text
-#: helptext.src%23SV_SHORTCUT_HELP.string.text
-msgctxt "helptext.src#SV_SHORTCUT_HELP.string.text"
-msgid "Help"
-msgstr "說明"
-
-#: helptext.src#SV_SHORTCUT_CONTEXTHELP.string.text
-#: helptext.src%23SV_SHORTCUT_CONTEXTHELP.string.text
-msgid "Context Help"
-msgstr "上下文說明"
-
-#: helptext.src#SV_SHORTCUT_ACTIVEHELP.string.text
-#: helptext.src%23SV_SHORTCUT_ACTIVEHELP.string.text
-msgid "Extended Tips"
-msgstr "擴充提示"
-
-#: helptext.src#SV_SHORTCUT_DOCKUNDOCK.string.text
-#: helptext.src%23SV_SHORTCUT_DOCKUNDOCK.string.text
-msgid "Dock/Undock Windows"
-msgstr "固定/解除固定視窗"
-
-#: helptext.src#SV_SHORTCUT_NEXTSUBWINDOW.string.text
-#: helptext.src%23SV_SHORTCUT_NEXTSUBWINDOW.string.text
-msgid "To Next Toolbar/Window"
-msgstr "至下一個工具列/視窗"
-
-#: helptext.src#SV_SHORTCUT_PREVSUBWINDOW.string.text
-#: helptext.src%23SV_SHORTCUT_PREVSUBWINDOW.string.text
-msgid "To Previous Toolbar/Window"
-msgstr "至上一個工具列/視窗"
-
-#: helptext.src#SV_SHORTCUT_TODOCUMENT.string.text
-#: helptext.src%23SV_SHORTCUT_TODOCUMENT.string.text
-msgid "To Document"
-msgstr "至文件"
-
-#: helptext.src#SV_SHORTCUT_MENUBAR.string.text
-#: helptext.src%23SV_SHORTCUT_MENUBAR.string.text
-msgid "To Menu Bar"
-msgstr "至功能表列"
-
-#: helptext.src#SV_SHORTCUT_SPLITTER.string.text
-#: helptext.src%23SV_SHORTCUT_SPLITTER.string.text
-msgid "Split window separator"
-msgstr "分割視窗分隔器"
-
-#: stdtext.src#SV_STDTEXT_SERVICENOTAVAILABLE.string.text
-#: stdtext.src%23SV_STDTEXT_SERVICENOTAVAILABLE.string.text
-msgid ""
-"The component (%s) could not be loaded.\n"
-"Please start setup with the repair option."
-msgstr ""
-"無法載入程式元件(%s)。\n"
-"請選擇安裝程式的修複選項。"
-
-#: stdtext.src#SV_STDTEXT_DONTHINTAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTHINTAGAIN.string.text
-msgid "Do not show this information again."
-msgstr "不再顯示這項資訊。"
-
-#: stdtext.src#SV_STDTEXT_DONTASKAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTASKAGAIN.string.text
-msgid "Do not show this question again."
-msgstr "不再顯示這個問題。"
-
-#: stdtext.src#SV_STDTEXT_DONTWARNAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTWARNAGAIN.string.text
-#, fuzzy
-msgid "Do not show this warning again."
-msgstr "不要再顯示這個提示。"
-
-#: stdtext.src#SV_ACCESSERROR_WRONG_VERSION.string.text
-#: stdtext.src%23SV_ACCESSERROR_WRONG_VERSION.string.text
-msgid "Wrong Version"
-msgstr "錯誤的 Java Access Bridge 版本"
-
-#: stdtext.src#SV_ACCESSERROR_BRIDGE_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_BRIDGE_MSG.string.text
-msgid ""
-"%PRODUCTNAME %PRODUCTVERSION requires a Java Access Bridge 1.0.3 or later "
-"version to support accessibility."
-msgstr ""
-"%PRODUCTNAME %PRODUCTVERSION 需要一個用於協助工具支援的 Java Access Bridge 1.0.3 或之上的版本。"
-
-#: stdtext.src#SV_ACCESSERROR_OK_CANCEL_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_OK_CANCEL_MSG.string.text
-msgid ""
-"Click '%OK' to start %PRODUCTNAME %PRODUCTVERSION without accessibility "
-"support, or click '%CANCEL' to exit %PRODUCTNAME %PRODUCTVERSION."
-msgstr ""
-"按一下「%OK」，省去協助工具支援，而直接啟動安裝 %PRODUCTNAME %PRODUCTVERSION，或者按一下「%CANCEL」結束程式。"
-
-#: stdtext.src#SV_ACCESSERROR_MISSING_BRIDGE.string.text
-#: stdtext.src%23SV_ACCESSERROR_MISSING_BRIDGE.string.text
-msgid "No Java Access Bridge"
-msgstr "沒有[Java Access Bridge]"
-
-#: stdtext.src#SV_ACCESSERROR_FAULTY_JAVA.string.text
-#: stdtext.src%23SV_ACCESSERROR_FAULTY_JAVA.string.text
-msgid "Faulty Java Installation"
-msgstr "錯誤的 Java 安裝"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_MSG.string.text
-msgid ""
-"%PRODUCTNAME %PRODUCTVERSION requires Java 1.4.0_02 or later version to "
-"support accessibility."
-msgstr "%PRODUCTNAME %PRODUCTVERSION 需要一個用於協助工具支援的 Java 1.4.0_02 或之上的版本。"
-
-#: stdtext.src#SV_ACCESSERROR_MISSING_JAVA.string.text
-#: stdtext.src%23SV_ACCESSERROR_MISSING_JAVA.string.text
-msgid "No Java Installation"
-msgstr "沒有安裝好 Java"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
-msgid "Missing Java Configuration"
-msgstr "沒有找到 Java 配置"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_DISABLED.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_DISABLED.string.text
-msgid "Java Disabled"
-msgstr "禁用 Java"
-
-#: stdtext.src#SV_ACCESSERROR_TURNAROUND_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_TURNAROUND_MSG.string.text
-msgid "The Java Access Bridge could not be started."
-msgstr "無法啟動 Java Access Bridge 。"
-
-#: stdtext.src#SV_ACCESSERROR_NO_FONTS.string.text
-#: stdtext.src%23SV_ACCESSERROR_NO_FONTS.string.text
-msgid "No fonts could be found on the system."
-msgstr "系統中找不到字型。"
-
-#: stdtext.src#SV_STDTEXT_ABOUT.string.text
-#: stdtext.src%23SV_STDTEXT_ABOUT.string.text
-msgid "About %PRODUCTNAME"
-msgstr "關於 %PRODUCTNAME"
-
-#: stdtext.src#SV_STDTEXT_PREFERENCES.string.text
-#: stdtext.src%23SV_STDTEXT_PREFERENCES.string.text
-msgid "Preferences..."
-msgstr "喜好設定..."
-
-#: stdtext.src#SV_EDIT_WARNING_BOX.warningbox.text
-#: stdtext.src%23SV_EDIT_WARNING_BOX.warningbox.text
-msgid ""
-"The inserted text exceeded the maximum length of this text field. The text "
-"was truncated."
-msgstr "插入的文字超出此文字欄位的長度上限。文字已截斷。"
-
-#: stdtext.src#SV_MAC_SCREENNNAME.string.text
-#: stdtext.src%23SV_MAC_SCREENNNAME.string.text
-msgid "Screen %d"
-msgstr "螢幕 %d"
-
-#: stdtext.src#SV_STDTEXT_ALLFILETYPES.string.text
-#: stdtext.src%23SV_STDTEXT_ALLFILETYPES.string.text
-msgid "Any type"
-msgstr "任何類型"
+#: menu.src#SV_MENU_MAC_QUITAPP.string.text
+#: menu.src%23SV_MENU_MAC_QUITAPP.string.text
+msgid "Quit %PRODUCTNAME"
+msgstr "結束 %PRODUCTNAME"

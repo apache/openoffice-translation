@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fmiscdlgs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-07 14:22+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,6 +104,117 @@ msgstr "縮小/放大"
 #: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
 msgid "Show Changes"
 msgstr "顯示變動處"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+msgid ""
+"There are conflicting changes in this shared spreadsheet. Conflicts must be "
+"resolved before saving the spreadsheet. Keep either own or other changes."
+msgstr "此共用試算表中有相衝突的變更。必須先解決衝突，才能儲存試算表。請保留自己或其他人的變更。"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
+msgid "Keep ~Mine"
+msgstr "保留我的變更(~M)"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
+msgid "Keep ~Other"
+msgstr "保留其他人的變更(~O)"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
+msgid "~Keep All Mine"
+msgstr "保留我的所有變更(~K)"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
+msgid "Keep ~All Others"
+msgstr "保留所有其他人的變更(~A)"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
+msgid "Conflict"
+msgstr "衝突"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text"
+msgid "Author"
+msgstr "作者"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text"
+msgid "Date"
+msgstr "日期"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text"
+msgid "Unknown User"
+msgstr "不明的使用者"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.modaldialog.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.modaldialog.text
+msgid "Resolve Conflicts"
+msgstr "解決衝突"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "位置"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+msgid "B~efore current sheet"
+msgstr "在目前的工作表之前(~E)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+msgid "~After current sheet"
+msgstr "在目前的工作表之後(~A)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Sheet"
+msgstr "工作表"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+msgid "~New sheet"
+msgstr "新增工作表(~N)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+msgid "N~o. of sheets"
+msgstr "數目(~O)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgid "Na~me"
+msgstr "名稱(~M)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+msgid "~From file"
+msgstr "從檔案新增(~F)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+msgid "~Browse..."
+msgstr "瀏覽(~B)..."
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+msgid "Lin~k"
+msgstr "連結(~K)"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.modaldialog.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Sheet"
+msgstr "插入工作表"
 
 #: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
 #: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
@@ -267,93 +378,47 @@ msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text"
 msgid "Re-type Password"
 msgstr "重新鍵入密碼"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "位置"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+msgid "P~rotect this sheet and the contents of locked cells"
+msgstr "保護此工作表及鎖定的儲存格內容(~R)"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-msgid "B~efore current sheet"
-msgstr "在目前的工作表之前(~E)"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
+msgid "~Password"
+msgstr "密碼(~P)"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-msgid "~After current sheet"
-msgstr "在目前的工作表之後(~A)"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
+msgid "~Confirm"
+msgstr "確認(~C)"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Sheet"
-msgstr "工作表"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+msgid "Options"
+msgstr "選項"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-msgid "~New sheet"
-msgstr "新增工作表(~N)"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+msgid "Allow all users of this sheet to:"
+msgstr "允許此工作表的所有使用者："
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-msgid "N~o. of sheets"
-msgstr "數目(~O)"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+msgid "Select locked cells"
+msgstr "選取鎖定的儲存格"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgid "Na~me"
-msgstr "名稱(~M)"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+msgid "Select unlocked cells"
+msgstr "選取解除鎖定的儲存格"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-msgid "~From file"
-msgstr "從檔案新增(~F)"
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-msgid "~Browse..."
-msgstr "瀏覽(~B)..."
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-msgid "Lin~k"
-msgstr "連結(~K)"
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.modaldialog.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Sheet"
-msgstr "插入工作表"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-msgid "URL of ~external data source"
-msgstr "外部資料來源的 URL(~E)"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-msgid ""
-"(Enter the URL of the source document in the local file system or Internet "
-"here.)"
-msgstr "(本機檔案系統或 internet 中來源文件的 URL)"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-msgid "~Available tables/ranges"
-msgstr "現有的資料表或區域(~A)"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-msgid "~Update every"
-msgstr "更新時間間隔為每(~U)"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-msgid "seconds"
-msgstr "秒"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.modaldialog.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
-msgid "External Data"
-msgstr "外部的資料"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.modaldialog.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
+msgid "Protect Sheet"
+msgstr "保護工作表"
 
 #: acredlin.src#RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
 #: acredlin.src%23RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
@@ -497,99 +562,34 @@ msgstr "描述"
 msgid "Sorting"
 msgstr "排序"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+#: linkarea.src#RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+msgid "URL of ~external data source"
+msgstr "外部資料來源的 URL(~E)"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
 msgid ""
-"There are conflicting changes in this shared spreadsheet. Conflicts must be "
-"resolved before saving the spreadsheet. Keep either own or other changes."
-msgstr "此共用試算表中有相衝突的變更。必須先解決衝突，才能儲存試算表。請保留自己或其他人的變更。"
+"(Enter the URL of the source document in the local file system or Internet "
+"here.)"
+msgstr "(本機檔案系統或 internet 中來源文件的 URL)"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
-msgid "Keep ~Mine"
-msgstr "保留我的變更(~M)"
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+msgid "~Available tables/ranges"
+msgstr "現有的資料表或區域(~A)"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
-msgid "Keep ~Other"
-msgstr "保留其他人的變更(~O)"
+#: linkarea.src#RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+msgid "~Update every"
+msgstr "更新時間間隔為每(~U)"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
-msgid "~Keep All Mine"
-msgstr "保留我的所有變更(~K)"
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+msgid "seconds"
+msgstr "秒"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
-msgid "Keep ~All Others"
-msgstr "保留所有其他人的變更(~A)"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
-msgid "Conflict"
-msgstr "衝突"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text"
-msgid "Author"
-msgstr "作者"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text"
-msgid "Date"
-msgstr "日期"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text"
-msgid "Unknown User"
-msgstr "不明的使用者"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.modaldialog.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.modaldialog.text
-msgid "Resolve Conflicts"
-msgstr "解決衝突"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-msgid "P~rotect this sheet and the contents of locked cells"
-msgstr "保護此工作表及鎖定的儲存格內容(~R)"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
-msgid "~Password"
-msgstr "密碼(~P)"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
-msgid "~Confirm"
-msgstr "確認(~C)"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-msgid "Options"
-msgstr "選項"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-msgid "Allow all users of this sheet to:"
-msgstr "允許此工作表的所有使用者："
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-msgid "Select locked cells"
-msgstr "選取鎖定的儲存格"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-msgid "Select unlocked cells"
-msgstr "選取解除鎖定的儲存格"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.modaldialog.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
-msgid "Protect Sheet"
-msgstr "保護工作表"
+#: linkarea.src#RID_SCDLG_LINKAREA.modaldialog.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
+msgid "External Data"
+msgstr "外部的資料"
