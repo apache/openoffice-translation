@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+cui%2Fsource%2Foptions.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-07 14:19+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: Indonesian <LL@li.org>\n"
@@ -16,174 +16,447 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-msgid "Web login information (passwords are never shown)"
-msgstr "Informasi log masuk web (sandi tidak pernah ditampilkan)"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+msgid "Security warnings"
+msgstr "Peringatan keamanan"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-msgid "Remove"
-msgstr "Buang"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
+msgid ""
+"Warn if document contains recorded changes, versions, hidden information or "
+"comments:"
+msgstr ""
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-msgid "Remove All"
-msgstr "Buang Semua"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+msgid "When saving or sending"
+msgstr "Saat menyimpan atau mengirim"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-msgid "Change Password..."
-msgstr "Ubah Sandi..."
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+msgid "When signing"
+msgstr "Saat menandatangani"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
-msgid "Close"
-msgstr "Tutup"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+msgid "When printing"
+msgstr "Saat mencetak"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-msgid "Website"
-msgstr "Situs Web"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+msgid "When creating PDF files"
+msgstr "Saat membuat berkas PDF"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-msgid "User name"
-msgstr "Nama pengguna"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+msgid "Security options"
+msgstr "Opsi keamanan"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-msgid "Stored Web Connection Information"
-msgstr "Informasi Koneksi Web yang Disimpan"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+msgid "Remove personal information on saving"
+msgstr "Buang informasi pribadi saat menyimpan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-msgid "~Apply replacement table"
-msgstr "~Terapkan tabel pengganti"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+msgid "Recommend password protection on saving"
+msgstr "Meminta sandi proteksi saat menyimpan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-msgid "~Font"
-msgstr "~Font"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+msgid "Ctrl-click required to follow hyperlinks"
+msgstr "Diperlukan Ctrl-klik untuk mengikuti taut-luar"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-msgid "Re~place with"
-msgstr "~Ganti dengan"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
+msgid "Security options and warnings"
+msgstr "Opsi dan peringatan keamanan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Terapkan"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+msgid "Registered name"
+msgstr "Nama yang didaftarkan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
-msgid "Delete"
-msgstr "Hapus..."
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+msgid "Database file"
+msgstr "Berkas basis data"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-msgid "Font settings for HTML, Basic and SQL sources"
-msgstr "Pengaturan font untuk kode sumber HTML, Basic, dan SQL"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
+msgid "~New..."
+msgstr "~Baru..."
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
-msgid "Fonts"
-msgstr "Font"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "~Edit..."
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-msgid "Non-proportional fonts only"
-msgstr "Hanya font tak proporsional"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
+msgid "~Delete"
+msgstr "~Hapus"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-msgid "~Size"
-msgstr "~Ukuran"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
+msgid "Registered databases"
+msgstr "Basis data yang didaftarkan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-msgid "Always"
-msgstr "Selalu"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
+msgid "Registered databases"
+msgstr "Basis data yang didaftarkan"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-msgid "Screen only"
-msgstr "Hanya layar"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+msgid "Treat as equal"
+msgstr "Perlakukan sebagai sama"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-msgid "Font"
-msgstr "Font"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+msgid "~uppercase/lowercase"
+msgstr "h~uruf besar/kecil"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-msgid "Replace with"
-msgstr "Ganti dengan"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+msgid "~full-width/half-width forms"
+msgstr "bentuk ~lebar total/lebar separuh"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
-msgid "Automatic"
-msgstr "Otomatis"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+msgid "~hiragana/katakana"
+msgstr "~hiragana/katakana"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-msgid "Miscellaneous options"
-msgstr "Opsi lain-lain"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+msgid "~contractions (yo-on, sokuon)"
+msgstr "~kontraksi (yo-on, sokuon)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-msgid "Support ~assistive technology tools (program restart required)"
-msgstr "Mendukung perangkat ~bantu teknologi (program perlu dijalankan ulang)"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+msgid "~minus/dash/cho-on"
+msgstr "~minus/dash/cho-on"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-msgid "Use te~xt selection cursor in read-only text documents"
-msgstr "Gunakan pilihan kursor te~ks pada dokumen yang hanya bisa dibaca saja "
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+msgid "'re~peat character' marks"
+msgstr "tanda 'karakter ~pengulangan'"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-msgid "Allow animated ~graphics"
-msgstr "Perbolehkan ~gambar bergerak"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+msgid "~variant-form kanji (itaiji)"
+msgstr "kanji ~variasi (itaiji)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-msgid "Allow animated ~text"
-msgstr "Perbolehkan ~teks bergerak"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+msgid "~old Kana forms"
+msgstr "bentuk Kana ~kuno"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-msgid "~Help tips disappear after "
-msgstr "Tip bantuan ~hilang setelah "
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+msgid "~di/zi, du/zu"
+msgstr "~di/zi, du/zu"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-msgid "seconds"
-msgstr "detik"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+msgid "~ba/va, ha/fa"
+msgstr "~ba/va, ha/fa"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-msgid "Options for high contrast appearance"
-msgstr "Opsi untuk tampilan kontras tinggi"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+msgid "~tsi/thi/chi, dhi/zi"
+msgstr "~tsi/thi/chi, dhi/zi"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-msgid "Automatically ~detect high contrast mode of operating system"
-msgstr "Otomatis ~deteksi mode kontras tinggi pada sistem operasi"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+msgid "h~yu/fyu, byu/vyu"
+msgstr "h~yu/fyu, byu/vyu"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-msgid "Use automatic font ~color for screen display"
-msgstr "Gunakan warna font otomatis untuk tampilan layar"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+msgid "~se/she, ze/je"
+msgstr "~se/she, ze/je"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-msgid "~Use system colors for page previews"
-msgstr "Memakai warna sistem ~untuk pratampil halaman"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+msgid "~ia/iya (piano/piyano)"
+msgstr "~ia/iya (piano/piyano)"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+msgid "~ki/ku (tekisuto/tekusuto)"
+msgstr "~ki/ku (tekisuto/tekusuto)"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+msgid "Prolon~ged vowels (ka-/kaa)"
+msgstr "Huruf hidup prolog (ka-/kaa)"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+msgid "Ignore"
+msgstr "Abaikan"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+msgid "Pu~nctuation characters"
+msgstr "Karakter ta~nda baca"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+msgid "~Whitespace characters"
+msgstr "Karakter ~whitespace"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+msgid "Midd~le dots"
+msgstr "Titik tenga~h"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
+msgid "Searching in Japanese"
+msgstr "Cari dalam bahasa Jepang"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+msgid "Sequence checking"
+msgstr "Pengemeriksaan urutan"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+msgid "Use se~quence checking"
+msgstr "Gunakan pengujian ~berurutan"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+msgid "Restricted"
+msgstr "Terbatas"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+msgid "~Type and replace"
+msgstr "~Tulis dan ganti"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+msgid "Cursor control"
+msgstr "Kontrol kursor"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+msgid "Movement"
+msgstr "Pergerakan"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+msgid "Lo~gical"
+msgstr "Lo~gis"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+msgid "~Visual"
+msgstr "~Visual"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+msgid "General options"
+msgstr "Opsi umum"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+msgid "~Numerals"
+msgstr "~Angka"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+msgid "Arabic"
+msgstr "Arab"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+msgid "Hindi"
+msgstr "Hindi"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
+msgid "System"
+msgstr "Sistem"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+msgid "Context"
+msgstr "Konteks"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
+msgid "Complex Text Layout"
+msgstr "Tataletak Teks Kompleks"
+
+#: optsave.src#TEXT_SAVEPAGE.#define.text
+#: optsave.src%23TEXT_SAVEPAGE.%23define.text
+msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
+msgid "Save"
+msgstr "Simpan"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+msgid "Load"
+msgstr "Muat"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+msgid "Load user-specific settings with the document"
+msgstr "Tampilkan pengaturan yang spesifik oleh pengguna pada dokumen"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+msgid "Load printer settings with the document"
+msgstr "Tampilkan pengaturan printer pada dokumen"
+
+#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
+msgid "Save"
+msgstr "Simpan"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+msgid "~Edit document properties before saving"
+msgstr "Sunting prop~erti dokumen sebelum menyimpan"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+msgid "Al~ways create backup copy"
+msgstr "S~elalu buat salinan cadangan"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+msgid "Save ~AutoRecovery information every"
+msgstr "Simpan informasi ~Perbaikan Otomatis setiap"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+msgid "Minutes"
+msgstr "Menit"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+msgid "Save URLs relative to file system"
+msgstr "Simpan URL relatif ke sistem berkas"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+msgid "Save URLs relative to internet"
+msgstr "Simpan URL relatif ke Internet"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+msgid "Default file format and ODF settings"
+msgstr "Format berkas baku dan pengaturan ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+msgid "ODF format version"
+msgstr "Versi format ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+msgid "1.0/1.1"
+msgstr "1.0/1.1"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+msgid "1.2"
+msgstr "1.2"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+msgid "1.2 Extended (recommended)"
+msgstr "1.2 Diperluas (direkomendasikan)"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+msgid "Enable AES-256 encryption (ODF 1.2)"
+msgstr "Izinkan enkripsi AES-256 (ODF 1.2)"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+msgid "Size optimization for ODF format"
+msgstr "Optimisasi ukuran untuk format ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+msgid "Warn when not saving in ODF or default format"
+msgstr "Peringatkan bila tidak menyimpan dalam format utama atau ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+msgid "D~ocument type"
+msgstr "Jenis d~okumen"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+msgid "Always sa~ve as"
+msgstr "Selalu sim~pan sebagai"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+msgid "Text document"
+msgstr "Dokumen teks"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+msgid "HTML document"
+msgstr "Dokumen HTML"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+msgid "Master document"
+msgstr "Dokumen induk"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
+msgid "Spreadsheet"
+msgstr "Pengolah Angka"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+msgid "Presentation"
+msgstr "Presentasi"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+msgid "Drawing"
+msgstr "Buku Gambar"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+msgid "Formula"
+msgstr "Rumus"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+msgid "Not using ODF 1.2 Extended may cause information to be lost."
+msgstr ""
+"Tidak menggunakan ODF 1.2 Diperluas mungkin akan mengakibatkan adanya "
+"informasi yang hilang."
+
+#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+msgid "Using \"%1\" as default file format may cause information loss.\n"
+msgstr ""
+"Menggunakan \"%1\" sebagai format berkas utama bisa menyebabkan hilangnya "
+"informasi.\n"
 
 #: optinet2.src#RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
 #: optinet2.src%23RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
@@ -548,77 +821,414 @@ msgstr "Program Pos-~el"
 msgid "All files (*.*)"
 msgstr "Semua berkas (*.*)"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
-msgid "Undo"
-msgstr "Batal"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+msgid "Color scheme"
+msgstr "Skema warna"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-msgid "Number of steps"
-msgstr "Banyak langkah"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+msgid "Scheme"
+msgstr "Skema"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-msgid "Graphics cache"
-msgstr "Tembolok grafik"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+msgid "Save..."
+msgstr "Simpan..."
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-msgid "Use for %PRODUCTNAME"
-msgstr "Digunakan untuk %PRODUCTNAME"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
+msgid "Delete"
+msgstr "Hapus"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "MB"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+msgid "Custom colors"
+msgstr "Warna ubahan"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-msgid "Memory per object"
-msgstr "Memori per objek"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+msgid "On"
+msgstr "Aktif"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "MB"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+msgid "User interface elements"
+msgstr "Elemen antarmuka pengguna"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-msgid "Remove from memory after"
-msgstr "Buang dari memori setelah"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+msgid "Color setting"
+msgstr "Pengaturan warna"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-msgid "hh:mm"
-msgstr "jj:mm"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+msgid "Preview"
+msgstr "Pratampil"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-msgid "Cache for inserted objects"
-msgstr "Tembolok untuk objek yang disisipkan"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
+msgid "General"
+msgstr "Umum"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-msgid "Number of objects"
-msgstr "Banyak objek"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+msgid "Document background"
+msgstr "Latar belakang dokumen"
 
-#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-msgid "%PRODUCTNAME Quickstarter"
-msgstr "Pelancar %PRODUCTNAME"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+msgid "Text boundaries"
+msgstr "Batas teks"
 
-#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-msgid "Load %PRODUCTNAME during system start-up"
-msgstr "Memuat %PRODUCTNAME saat memulai sistem"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+msgid "Application background"
+msgstr "Latar belakang aplikasi"
 
-#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-msgid "Enable systray Quickstarter"
-msgstr "Aktifkan Pelancar baki sistem"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+msgid "Object boundaries"
+msgstr "Batas objek"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+msgid "Table boundaries"
+msgstr "Batas tabel"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+msgid "Font color"
+msgstr "Warna font"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+msgid "Unvisited links"
+msgstr "Taut tak dikunjungi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+msgid "Visited links"
+msgstr "Taut dikunjungi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+msgid "AutoSpellcheck"
+msgstr "Periksa Ejaan Otomatis"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+msgid "Smart Tags"
+msgstr "Tag Pintar"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+msgid "Text Document"
+msgstr "Dokumen Teks"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
+msgid "Grid"
+msgstr "Kisi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+msgid "Field shadings"
+msgstr "Pembayangan ruas"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+msgid "Index and table shadings"
+msgstr "Shading indeks dan tabel"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+msgid "Script indicator"
+msgstr "Indikator skrip"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+msgid "Section boundaries"
+msgstr "Batas bab"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+msgid "Page and column breaks"
+msgstr "Pemutus halaman dan kolom"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+msgid "Direct cursor"
+msgstr "Arah kursor"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+msgid "HTML Document"
+msgstr "Dokumen HTML"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+msgid "SGML syntax highlighting"
+msgstr "Penyorotan sintaks SGML"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+msgid "Comment highlighting"
+msgstr "Penyorotan komentar"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+msgid "Keyword highlighting"
+msgstr "Penyorotan kata kunci"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+msgid "Text"
+msgstr "Teks"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
+msgid "Spreadsheet"
+msgstr "Spreadsheet"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+msgid "Grid lines"
+msgstr "Garis kisi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+msgid "Page breaks"
+msgstr "Pemutus halaman"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+msgid "Manual page breaks"
+msgstr "Pemutus halaman manual"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+msgid "Automatic page breaks"
+msgstr "Pemutus halaman otomatis"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+msgid "Detective"
+msgstr "Detektif"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+msgid "Detective error"
+msgstr "Detektif kesalahan"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+msgid "References"
+msgstr "Referensi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
+msgid "Comment background"
+msgstr ""
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+msgid "Drawing / Presentation"
+msgstr "Menggambar / Presentasi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
+msgid "Grid"
+msgstr "Kisi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+msgid "Basic Syntax Highlighting"
+msgstr "Penyorotan Sintaks Basic"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "Pengenal"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "Komentar"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "Angka"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
+msgid "String"
+msgstr "String"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+msgid "Reserved expression"
+msgstr "Ekspresi yang sudah dialokasikan"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+msgid "Error"
+msgstr "Kesalahan"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+msgid "SQL Syntax Highlighting"
+msgstr "Penyorotan sintaks SQL"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "Pengenal"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "Angka"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
+msgid "String"
+msgstr "String"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+msgid "Keyword"
+msgstr "Kata kunci"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+msgid "Parameter"
+msgstr "Parameter"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "Komentar"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+msgid "Colorsettings of the Extensions"
+msgstr "Pengaturan warna dari Ekstensi"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+msgid "Spell check highlighting"
+msgstr "Penyorotan pengujian ejaan"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+msgid "Grammar check highlighting"
+msgstr "Penyorotan pengujian struktur kata"
+
+#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+msgid "Do you really want to delete the color scheme?"
+msgstr "Apakah Anda yakin untuk menghapus skema warna?"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+msgid "Color Scheme Deletion"
+msgstr "Pengapusan Skema Warna"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+msgid "Save scheme"
+msgstr "Simpan skema"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+msgid "Name of color scheme"
+msgstr "Nama skema warna"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+msgid "Online Update Options"
+msgstr "Opsi Update Online"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+msgid "~Check for updates automatically"
+msgstr "Tandai centang untuk update otomatis"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+msgid "Every Da~y"
+msgstr "Tiap Har~i"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+msgid "Every ~Week"
+msgstr "Tiap Mingg~u"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+msgid "Every ~Month"
+msgstr "Tiap Bula~n"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+msgid "Last checked: %DATE%, %TIME%"
+msgstr "Pemeriksaan terakhir: %DATE%, %TIME%"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+msgid "Check ~now"
+msgstr "Periksa sekara~ng"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+msgid "~Download updates automatically"
+msgstr "Unduh update secara otomatis"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+msgid "Download destination:"
+msgstr "Tujuan download:"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+msgid "Ch~ange..."
+msgstr "Ub~ah..."
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+msgid "Last checked: Not yet"
+msgstr "Pemeriksaan terakhir: Belum ada"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+msgid "OnlineUpdate"
+msgstr "Update Online"
 
 #: optlingu.src#RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
 #: optlingu.src%23RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
@@ -843,283 +1453,307 @@ msgstr "Opsi"
 msgid "Do you want to delete the dictionary?"
 msgstr "Apakah Anda bersedia untuk menghapus kamus?"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-msgid "Online Update Options"
-msgstr "Opsi Update Online"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+msgid "Kerning"
+msgstr "Kerning"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-msgid "~Check for updates automatically"
-msgstr "Tandai centang untuk update otomatis"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+msgid "~Western characters only"
+msgstr "Hanya karakter ~Barat"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-msgid "Every Da~y"
-msgstr "Tiap Har~i"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+msgid "Western ~text and Asian punctuation"
+msgstr "~Teks barat dan tanda baca Asia"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-msgid "Every ~Week"
-msgstr "Tiap Mingg~u"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+msgid "Character spacing"
+msgstr "Jarak antarkarakter"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-msgid "Every ~Month"
-msgstr "Tiap Bula~n"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+msgid "~No compression"
+msgstr "Ta~nap kompresi"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-msgid "Last checked: %DATE%, %TIME%"
-msgstr "Pemeriksaan terakhir: %DATE%, %TIME%"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+msgid "~Compress punctuation only"
+msgstr "~Kompresi tanda baca saja"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-msgid "Check ~now"
-msgstr "Periksa sekara~ng"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+msgid "Compress ~punctuation and Japanese Kana"
+msgstr "Kompresi ~tanda baca dan Kana Jepang"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-msgid "~Download updates automatically"
-msgstr "Unduh update secara otomatis"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+msgid "First and last characters"
+msgstr "Karakter awal dan akhir"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-msgid "Download destination:"
-msgstr "Tujuan download:"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-msgid "Ch~ange..."
-msgstr "Ub~ah..."
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-msgid "Last checked: Not yet"
-msgstr "Pemeriksaan terakhir: Belum ada"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-msgid "OnlineUpdate"
-msgstr "Update Online"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-msgid "Connection pool"
-msgstr "Pool koneksi"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-msgid "Connection pooling enabled"
-msgstr "Pooling koneksi diaktifkan"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-msgid "Drivers known in %PRODUCTNAME"
-msgstr "Driver yang dikenal oleh %PRODUCTNAME"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-msgid "Current driver:"
-msgstr "Driver sekarang:"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-msgid "Enable pooling for this driver"
-msgstr "Aktifkan pooling untuk driver ini"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-msgid "Timeout (seconds)"
-msgstr "Waktu habis (detik)"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-msgid "Driver name"
-msgstr "Nama driver"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-msgid "Pool"
-msgstr "Pool"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-msgid "Timeout"
-msgstr "Waktu habis"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-msgid "Yes"
-msgstr "Ya"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-msgid "No"
-msgstr "Tidak"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-msgid "Improvement Program"
-msgstr "Program Peningkatan"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-msgid ""
-"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
-"the quality of %PRODUCTNAME.\n"
-"\n"
-"If you are willing to participate, we will collect anonymous statistics "
-"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
-"\n"
-"\n"
-"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
-"document content."
-msgstr ""
-"Kami mengundang Anda untuk bergabung dalam Program Peningkatan %PRODUCTNAME "
-"kami untuk mengoptimalkan kualitas %PRODUCTNAME.\n"
-"\n"
-"Jika Anda bersedia berpartisipasi, kami akan mengumpulkan statistik anonim "
-"tentang bagaimana Anda menggunakan %PRODUCTNAME. Data digunakan untuk "
-"mengidentifikasikan pola.\n"
-"\n"
-"Program Peningkatan %PRODUCTNAME tidak akan mengumpulkan data pribadi, atau "
-"isi dokumen."
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-msgid ""
-"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
-msgstr ""
-"~Ya, Saya bersedia berpartisipasi dalam Program Peningkatan %PRODUCTNAME"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-msgid "~No, I do not wish to participate"
-msgstr "~Tidak, Saya tidak mau berpartisipasi"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-msgid "Tracked Data"
-msgstr "Data yang dilacak"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-msgid "Number of reports sent:"
-msgstr "Jumlah laporan yang dikirimkan:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-msgid "Number of tracked actions:"
-msgstr "Jumlah kegiatan yang dilacak:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-msgid "~Show Data"
-msgstr "~Tampilkan Data"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-msgid "Help Optimize the Quality of %PRODUCTNAME"
-msgstr "Bantu Optimalkan Kualitas %PRODUCTNAME"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-msgid "More Information"
-msgstr "Informasi Lebih Lanjut"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
-msgid "%PRODUCTNAME Improvement Program"
-msgstr "Program Peningkatan %PRODUCTNAME"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
-msgid "~Name"
-msgstr "~Nama"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
 msgid "~Language"
 msgstr "~Bahasa"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-msgid "~Exception (-)"
-msgstr "T~erkecuali (-)"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
+msgid "~Default"
+msgstr "~Baku"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-msgid "Dictionary"
-msgstr "Kamus"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+msgid "Not at start of line:"
+msgstr "Tidak di awal baris:"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
-msgid "New Dictionary"
-msgstr "Kamus Baru"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+msgid "Not at end of line:"
+msgstr "Tidak di akhir baris:"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-msgid "~Book"
-msgstr "~Buku"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+msgid "Without user-defined line break symbols"
+msgstr "Tanpa simbol pemutus baris yang ditentukan pengguna"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
-msgid "~Language"
-msgstr "~Bahasa"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
+msgid "Proxy"
+msgstr "Proxy"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-msgid "~Word"
-msgstr "~Kata"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+msgid "Miscellaneous options"
+msgstr "Opsi lain-lain"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-msgid "Replace ~By:"
-msgstr "~Ganti oleh:"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+msgid "Support ~assistive technology tools (program restart required)"
+msgstr "Mendukung perangkat ~bantu teknologi (program perlu dijalankan ulang)"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-msgid "~New"
-msgstr "~Baru"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+msgid "Use te~xt selection cursor in read-only text documents"
+msgstr "Gunakan pilihan kursor te~ks pada dokumen yang hanya bisa dibaca saja "
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
-msgid "~Delete"
-msgstr "~Hapus"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+msgid "Allow animated ~graphics"
+msgstr "Perbolehkan ~gambar bergerak"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-msgid "~Replace"
-msgstr "~Ganti"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+msgid "Allow animated ~text"
+msgstr "Perbolehkan ~teks bergerak"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-msgid "~Close"
-msgstr "~Tutup"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+msgid "~Help tips disappear after "
+msgstr "Tip bantuan ~hilang setelah "
 
-#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
-msgid "Edit Custom Dictionary"
-msgstr "Sunting Kamus Ubahan"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+msgid "seconds"
+msgstr "detik"
 
-#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
-#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+msgid "Options for high contrast appearance"
+msgstr "Opsi untuk tampilan kontras tinggi"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+msgid "Automatically ~detect high contrast mode of operating system"
+msgstr "Otomatis ~deteksi mode kontras tinggi pada sistem operasi"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+msgid "Use automatic font ~color for screen display"
+msgstr "Gunakan warna font otomatis untuk tampilan layar"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+msgid "~Use system colors for page previews"
+msgstr "Memakai warna sistem ~untuk pratampil halaman"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
+msgid "Undo"
+msgstr "Batal"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+msgid "Number of steps"
+msgstr "Banyak langkah"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+msgid "Graphics cache"
+msgstr "Tembolok grafik"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+msgid "Use for %PRODUCTNAME"
+msgstr "Digunakan untuk %PRODUCTNAME"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "MB"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+msgid "Memory per object"
+msgstr "Memori per objek"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "MB"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+msgid "Remove from memory after"
+msgstr "Buang dari memori setelah"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+msgid "hh:mm"
+msgstr "jj:mm"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+msgid "Cache for inserted objects"
+msgstr "Tembolok untuk objek yang disisipkan"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+msgid "Number of objects"
+msgstr "Banyak objek"
+
+#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+msgid "%PRODUCTNAME Quickstarter"
+msgstr "Pelancar %PRODUCTNAME"
+
+#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+msgid "Load %PRODUCTNAME during system start-up"
+msgstr "Memuat %PRODUCTNAME saat memulai sistem"
+
+#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+msgid "Enable systray Quickstarter"
+msgstr "Aktifkan Pelancar baki sistem"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+msgid "Web login information (passwords are never shown)"
+msgstr "Informasi log masuk web (sandi tidak pernah ditampilkan)"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+msgid "Remove"
+msgstr "Buang"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+msgid "Remove All"
+msgstr "Buang Semua"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+msgid "Change Password..."
+msgstr "Ubah Sandi..."
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
+msgid "Close"
+msgstr "Tutup"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+msgid "Website"
+msgstr "Situs Web"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+msgid "User name"
+msgstr "Nama pengguna"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+msgid "Stored Web Connection Information"
+msgstr "Informasi Koneksi Web yang Disimpan"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+msgid "~Database file"
+msgstr "Berkas basis ~data"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+msgid "~Browse..."
+msgstr "~Telusur..."
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+msgid "Registered ~name"
+msgstr "~Nama terdaftar"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+msgid "Edit Database Link"
+msgstr "Sunting Taut Basis Data"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+msgid "Create Database Link"
+msgstr "Buat Taut Basis Data"
+
+#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
 msgid ""
-"The specified name already exists.\n"
-"Please enter a new name."
+"The file\n"
+"$file$\n"
+"does not exist."
 msgstr ""
-"Nama yang ditentukan sudah ada.\n"
-"Silakan beri nama baru."
+"Berkas\n"
+"$file$\n"
+"tidak ada."
 
-#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
-#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
-msgid "Do you want to change the '%1' dictionary language?"
-msgstr "Apakah Anda hendak mengganti bahasa kamus '%1'?"
+#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+msgid ""
+"The file\n"
+"$file$\n"
+"does not exist in the local file system."
+msgstr ""
+"Berkas\n"
+"$file$\n"
+"tidak ada pada sistem berkas lokal."
+
+#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
+#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
+msgid ""
+"The name '$file$' is already used for another database.\n"
+"Please choose a different name."
+msgstr ""
+"Nama '$file$' telah dipakai oleh basis data yang lain.\n"
+"Silakan pilih nama lainnya."
+
+#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
+#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
+msgid "Do you want to delete the entry?"
+msgstr "Anda hendak menghapus entrinya?"
 
 #: optgdlg.src#OFA_TP_MISC.FL_HELP.fixedline.text
 #: optgdlg.src%23OFA_TP_MISC.FL_HELP.fixedline.text
@@ -1494,528 +2128,6 @@ msgstr ""
 "Pengaturan bahasa untuk antarmuka pengguna telah diperbaharui dan akan "
 "berpengaruh di saat Anda menjalankan ulang %PRODUCTNAME %PRODUCTVERSION"
 
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-msgid "Size ~1"
-msgstr "Ukuran ~1"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-msgid "Size ~2"
-msgstr "Ukuran ~2"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-msgid "Size ~3"
-msgstr "Ukuran ~3"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-msgid "Size ~4"
-msgstr "Ukuran ~4"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-msgid "Size ~5"
-msgstr "Ukuran ~5"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-msgid "Size ~6"
-msgstr "Ukuran ~6"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-msgid "Size ~7"
-msgstr "Ukuran ~7"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-msgid "Font sizes"
-msgstr "Ukuran font"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-msgid "Import"
-msgstr "Impor"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
-msgstr "G~unakan lokal '%ENGLISHUSLOCALE' bagi angka"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-msgid "~Import unknown HTML tags as fields"
-msgstr "~Impor tag HTML yang tak dikenal sebagai ruas"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-msgid "Ignore ~font settings"
-msgstr "Abaikan pengaturan font"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-msgid "Export"
-msgstr "Ekspor"
-
-#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
-#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
-msgid "Display ~warning"
-msgstr "Tampilkan ~peringatan"
-
-#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
-#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
-msgid "~Print layout"
-msgstr "Tatal~etak cetak"
-
-#: opthtml.src#CB_LOCAL_GRF.checkbox.text
-#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
-msgid "~Copy local graphics to Internet"
-msgstr "Salin grafi~k lokal ke Internet"
-
-#: opthtml.src#FT_CHARSET.fixedtext.text
-#: opthtml.src%23FT_CHARSET.fixedtext.text
-msgid "Character set"
-msgstr "Set karakter"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-msgid "Security warnings"
-msgstr "Peringatan keamanan"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-msgid ""
-"Warn if document contains recorded changes, versions, hidden information or "
-"notes:"
-msgstr ""
-"Peringatkan bila dokumen memiliki perubahan isi, versi, informasi "
-"tersembunyi, atau catatan:"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-msgid "When saving or sending"
-msgstr "Saat menyimpan atau mengirim"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-msgid "When signing"
-msgstr "Saat menandatangani"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-msgid "When printing"
-msgstr "Saat mencetak"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-msgid "When creating PDF files"
-msgstr "Saat membuat berkas PDF"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-msgid "Security options"
-msgstr "Opsi keamanan"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-msgid "Remove personal information on saving"
-msgstr "Buang informasi pribadi saat menyimpan"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-msgid "Recommend password protection on saving"
-msgstr "Meminta sandi proteksi saat menyimpan"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-msgid "Ctrl-click required to follow hyperlinks"
-msgstr "Diperlukan Ctrl-klik untuk mengikuti taut-luar"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
-msgid "Security options and warnings"
-msgstr "Opsi dan peringatan keamanan"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-msgid "~Company"
-msgstr "~Perusahaan"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-msgid "First/Last ~name/Initials"
-msgstr "~Nama/inisial Depan/Belakang"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-msgid "Last Name/First name/Father's name/Initials"
-msgstr "Nama belakang/Nama depan/Nama ayah/Inisial"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-msgid "Last/First ~name/Initials"
-msgstr "~Nama Depan/Belakang/Inisial"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-msgid "~Street"
-msgstr "~Jalan"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-msgid "Street/Apartment number"
-msgstr "Nomor Jalan/Apartemen"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-msgid "Zip/City"
-msgstr "Kode Pos/Kota"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-msgid "Country/Region"
-msgstr "Negara/Wilayah"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-msgid "~Title/Position"
-msgstr "~Gelar/Posisi"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-msgid "Tel. (Home/Work)"
-msgstr "Tlp. (Rumah/Kerja)"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-msgid "Fa~x / E-mail"
-msgstr "Fa~ks / Pos-el"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-msgid "Address "
-msgstr "Alamat"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-msgid "Use data for document properties"
-msgstr "Pakai data untuk properti dokumen"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-msgid "City/State/Zip"
-msgstr "Kota/Bagian/Kode Pos"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-msgid ""
-"Note that street, Zip code and city are used to generate the registration "
-"key. You will not be able to change the user data again until the "
-"registration has been carried out. Do you want to modify the user data now?"
-msgstr ""
-"Catatan bahwa jalan, kode pos, dan kota digunakan untuk menghasilkan kunci "
-"registrasi. Anda tidak bisa mengganti data pengguna kembali hingga "
-"registrasi selesai. Apakah Anda hendak memodifikasi data pengguna sekarang?"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
-msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
-msgid "User Data"
-msgstr "Data Pengguna"
-
-#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
-#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
-msgid ""
-"The User Data have been changed.\n"
-"Do you really want to change your User Data?"
-msgstr ""
-"Data Pengguna telah berubah. \n"
-"Apakah Anda sungguh-sungguh ingin merubah Data Pengguna Anda?"
-
-#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Pengaturan ini diamankan oleh Administrator"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-msgid "Chart colors"
-msgstr "Warna bagan"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-msgid "Color table"
-msgstr "Tabel warna"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "~Baku"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
-msgid "Default Colors"
-msgstr "Warna Baku"
-
-#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
-#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
-msgid "Data Series $(ROW)"
-msgstr "Seri Data $(ROW)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-msgid "Treat as equal"
-msgstr "Perlakukan sebagai sama"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-msgid "~uppercase/lowercase"
-msgstr "h~uruf besar/kecil"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-msgid "~full-width/half-width forms"
-msgstr "bentuk ~lebar total/lebar separuh"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-msgid "~hiragana/katakana"
-msgstr "~hiragana/katakana"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-msgid "~contractions (yo-on, sokuon)"
-msgstr "~kontraksi (yo-on, sokuon)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-msgid "~minus/dash/cho-on"
-msgstr "~minus/dash/cho-on"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-msgid "'re~peat character' marks"
-msgstr "tanda 'karakter ~pengulangan'"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-msgid "~variant-form kanji (itaiji)"
-msgstr "kanji ~variasi (itaiji)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-msgid "~old Kana forms"
-msgstr "bentuk Kana ~kuno"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-msgid "~di/zi, du/zu"
-msgstr "~di/zi, du/zu"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-msgid "~ba/va, ha/fa"
-msgstr "~ba/va, ha/fa"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-msgid "~tsi/thi/chi, dhi/zi"
-msgstr "~tsi/thi/chi, dhi/zi"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-msgid "h~yu/fyu, byu/vyu"
-msgstr "h~yu/fyu, byu/vyu"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-msgid "~se/she, ze/je"
-msgstr "~se/she, ze/je"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-msgid "~ia/iya (piano/piyano)"
-msgstr "~ia/iya (piano/piyano)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-msgid "~ki/ku (tekisuto/tekusuto)"
-msgstr "~ki/ku (tekisuto/tekusuto)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-msgid "Prolon~ged vowels (ka-/kaa)"
-msgstr "Huruf hidup prolog (ka-/kaa)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-msgid "Ignore"
-msgstr "Abaikan"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-msgid "Pu~nctuation characters"
-msgstr "Karakter ta~nda baca"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-msgid "~Whitespace characters"
-msgstr "Karakter ~whitespace"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-msgid "Midd~le dots"
-msgstr "Titik tenga~h"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
-msgid "Searching in Japanese"
-msgstr "Cari dalam bahasa Jepang"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-msgid "~Database file"
-msgstr "Berkas basis ~data"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-msgid "~Browse..."
-msgstr "~Telusur..."
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-msgid "Registered ~name"
-msgstr "~Nama terdaftar"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-msgid "Edit Database Link"
-msgstr "Sunting Taut Basis Data"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-msgid "Create Database Link"
-msgstr "Buat Taut Basis Data"
-
-#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist."
-msgstr ""
-"Berkas\n"
-"$file$\n"
-"tidak ada."
-
-#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist in the local file system."
-msgstr ""
-"Berkas\n"
-"$file$\n"
-"tidak ada pada sistem berkas lokal."
-
-#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
-#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
-msgid ""
-"The name '$file$' is already used for another database.\n"
-"Please choose a different name."
-msgstr ""
-"Nama '$file$' telah dipakai oleh basis data yang lain.\n"
-"Silakan pilih nama lainnya."
-
-#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
-#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
-msgid "Do you want to delete the entry?"
-msgstr "Anda hendak menghapus entrinya?"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-msgid "Sequence checking"
-msgstr "Pengemeriksaan urutan"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-msgid "Use se~quence checking"
-msgstr "Gunakan pengujian ~berurutan"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-msgid "Restricted"
-msgstr "Terbatas"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-msgid "~Type and replace"
-msgstr "~Tulis dan ganti"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-msgid "Cursor control"
-msgstr "Kontrol kursor"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-msgid "Movement"
-msgstr "Pergerakan"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-msgid "Lo~gical"
-msgstr "Lo~gis"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-msgid "~Visual"
-msgstr "~Visual"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-msgid "General options"
-msgstr "Opsi umum"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-msgid "~Numerals"
-msgstr "~Angka"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-msgid "Arabic"
-msgstr "Arab"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-msgid "Hindi"
-msgstr "Hindi"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
-msgid "System"
-msgstr "Sistem"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-msgid "Context"
-msgstr "Konteks"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
-msgid "Complex Text Layout"
-msgstr "Tataletak Teks Kompleks"
-
 #: optjava.src#RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 #: optjava.src%23RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 msgid "Java options"
@@ -2179,385 +2291,246 @@ msgstr ""
 "telah diubah bisa memberikan hasil.\n"
 "Silakan menjalankan ulang %PRODUCTNAME sekarang."
 
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-msgid "Default text direction"
-msgstr "Arah teks default"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-msgid "~Left-to-right"
-msgstr "~Kiri ke kanan"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-msgid "~Right-to-left"
-msgstr "Kanan ke ki~ri"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-msgid "Sheet view"
-msgstr "Tampilan set kerja"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-msgid "Right-~to-left"
-msgstr "Kanan k~e kiri"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-msgid "~Current document only"
-msgstr "~Dokumen yang sekarang saja"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-msgid "Color scheme"
-msgstr "Skema warna"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-msgid "Scheme"
-msgstr "Skema"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-msgid "Save..."
-msgstr "Simpan..."
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
-msgid "Delete"
-msgstr "Hapus"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-msgid "Custom colors"
-msgstr "Warna ubahan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-msgid "On"
-msgstr "Aktif"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-msgid "User interface elements"
-msgstr "Elemen antarmuka pengguna"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-msgid "Color setting"
-msgstr "Pengaturan warna"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-msgid "Preview"
-msgstr "Pratampil"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
-msgid "General"
-msgstr "Umum"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-msgid "Document background"
-msgstr "Latar belakang dokumen"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-msgid "Text boundaries"
-msgstr "Batas teks"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-msgid "Application background"
-msgstr "Latar belakang aplikasi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-msgid "Object boundaries"
-msgstr "Batas objek"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-msgid "Table boundaries"
-msgstr "Batas tabel"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-msgid "Font color"
-msgstr "Warna font"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-msgid "Unvisited links"
-msgstr "Taut tak dikunjungi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-msgid "Visited links"
-msgstr "Taut dikunjungi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-msgid "AutoSpellcheck"
-msgstr "Periksa Ejaan Otomatis"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-msgid "Smart Tags"
-msgstr "Tag Pintar"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-msgid "Text Document"
-msgstr "Dokumen Teks"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
-msgid "Grid"
-msgstr "Kisi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-msgid "Field shadings"
-msgstr "Pembayangan ruas"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-msgid "Index and table shadings"
-msgstr "Shading indeks dan tabel"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-msgid "Script indicator"
-msgstr "Indikator skrip"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-msgid "Section boundaries"
-msgstr "Batas bab"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-msgid "Page and column breaks"
-msgstr "Pemutus halaman dan kolom"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-msgid "Direct cursor"
-msgstr "Arah kursor"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-msgid "HTML Document"
-msgstr "Dokumen HTML"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-msgid "SGML syntax highlighting"
-msgstr "Penyorotan sintaks SGML"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-msgid "Comment highlighting"
-msgstr "Penyorotan komentar"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-msgid "Keyword highlighting"
-msgstr "Penyorotan kata kunci"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-msgid "Text"
-msgstr "Teks"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
-msgid "Spreadsheet"
-msgstr "Spreadsheet"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-msgid "Grid lines"
-msgstr "Garis kisi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-msgid "Page breaks"
-msgstr "Pemutus halaman"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-msgid "Manual page breaks"
-msgstr "Pemutus halaman manual"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-msgid "Automatic page breaks"
-msgstr "Pemutus halaman otomatis"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-msgid "Detective"
-msgstr "Detektif"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-msgid "Detective error"
-msgstr "Detektif kesalahan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-msgid "References"
-msgstr "Referensi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-msgid "Notes background"
-msgstr "Latar belakang catatan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-msgid "Drawing / Presentation"
-msgstr "Menggambar / Presentasi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
-msgid "Grid"
-msgstr "Kisi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-msgid "Basic Syntax Highlighting"
-msgstr "Penyorotan Sintaks Basic"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "Pengenal"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "Komentar"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "Angka"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
-msgid "String"
-msgstr "String"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-msgid "Reserved expression"
-msgstr "Ekspresi yang sudah dialokasikan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-msgid "Error"
-msgstr "Kesalahan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-msgid "SQL Syntax Highlighting"
-msgstr "Penyorotan sintaks SQL"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "Pengenal"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "Angka"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
-msgid "String"
-msgstr "String"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-msgid "Keyword"
-msgstr "Kata kunci"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-msgid "Parameter"
-msgstr "Parameter"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "Komentar"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-msgid "Colorsettings of the Extensions"
-msgstr "Pengaturan warna dari Ekstensi"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-msgid "Spell check highlighting"
-msgstr "Penyorotan pengujian ejaan"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-msgid "Grammar check highlighting"
-msgstr "Penyorotan pengujian struktur kata"
-
-#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-msgid "Do you really want to delete the color scheme?"
-msgstr "Apakah Anda yakin untuk menghapus skema warna?"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-msgid "Color Scheme Deletion"
-msgstr "Pengapusan Skema Warna"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-msgid "Save scheme"
-msgstr "Simpan skema"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-msgid "Name of color scheme"
-msgstr "Nama skema warna"
+#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Pengaturan ini diamankan oleh Administrator"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+msgid "Size ~1"
+msgstr "Ukuran ~1"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+msgid "Size ~2"
+msgstr "Ukuran ~2"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+msgid "Size ~3"
+msgstr "Ukuran ~3"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+msgid "Size ~4"
+msgstr "Ukuran ~4"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+msgid "Size ~5"
+msgstr "Ukuran ~5"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+msgid "Size ~6"
+msgstr "Ukuran ~6"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+msgid "Size ~7"
+msgstr "Ukuran ~7"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+msgid "Font sizes"
+msgstr "Ukuran font"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+msgid "Import"
+msgstr "Impor"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
+msgstr "G~unakan lokal '%ENGLISHUSLOCALE' bagi angka"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+msgid "~Import unknown HTML tags as fields"
+msgstr "~Impor tag HTML yang tak dikenal sebagai ruas"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+msgid "Ignore ~font settings"
+msgstr "Abaikan pengaturan font"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+msgid "Export"
+msgstr "Ekspor"
+
+#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
+#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
+msgid "Display ~warning"
+msgstr "Tampilkan ~peringatan"
+
+#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
+#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
+msgid "~Print layout"
+msgstr "Tatal~etak cetak"
+
+#: opthtml.src#CB_LOCAL_GRF.checkbox.text
+#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
+msgid "~Copy local graphics to Internet"
+msgstr "Salin grafi~k lokal ke Internet"
+
+#: opthtml.src#FT_CHARSET.fixedtext.text
+#: opthtml.src%23FT_CHARSET.fixedtext.text
+msgid "Character set"
+msgstr "Set karakter"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+msgid "Connection pool"
+msgstr "Pool koneksi"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+msgid "Connection pooling enabled"
+msgstr "Pooling koneksi diaktifkan"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+msgid "Drivers known in %PRODUCTNAME"
+msgstr "Driver yang dikenal oleh %PRODUCTNAME"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+msgid "Current driver:"
+msgstr "Driver sekarang:"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+msgid "Enable pooling for this driver"
+msgstr "Aktifkan pooling untuk driver ini"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+msgid "Timeout (seconds)"
+msgstr "Waktu habis (detik)"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+msgid "Driver name"
+msgstr "Nama driver"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+msgid "Pool"
+msgstr "Pool"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+msgid "Timeout"
+msgstr "Waktu habis"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+msgid "Yes"
+msgstr "Ya"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+msgid "No"
+msgstr "Tidak"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+msgid "~Company"
+msgstr "~Perusahaan"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+msgid "First/Last ~name/Initials"
+msgstr "~Nama/inisial Depan/Belakang"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+msgid "Last Name/First name/Father's name/Initials"
+msgstr "Nama belakang/Nama depan/Nama ayah/Inisial"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+msgid "Last/First ~name/Initials"
+msgstr "~Nama Depan/Belakang/Inisial"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+msgid "~Street"
+msgstr "~Jalan"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+msgid "Street/Apartment number"
+msgstr "Nomor Jalan/Apartemen"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+msgid "Zip/City"
+msgstr "Kode Pos/Kota"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+msgid "Country/Region"
+msgstr "Negara/Wilayah"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+msgid "~Title/Position"
+msgstr "~Gelar/Posisi"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+msgid "Tel. (Home/Work)"
+msgstr "Tlp. (Rumah/Kerja)"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+msgid "Fa~x / E-mail"
+msgstr "Fa~ks / Pos-el"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+msgid "Address "
+msgstr "Alamat"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+msgid "Use data for document properties"
+msgstr "Pakai data untuk properti dokumen"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+msgid "City/State/Zip"
+msgstr "Kota/Bagian/Kode Pos"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+msgid ""
+"Note that street, Zip code and city are used to generate the registration "
+"key. You will not be able to change the user data again until the "
+"registration has been carried out. Do you want to modify the user data now?"
+msgstr ""
+"Catatan bahwa jalan, kode pos, dan kota digunakan untuk menghasilkan kunci "
+"registrasi. Anda tidak bisa mengganti data pengguna kembali hingga "
+"registrasi selesai. Apakah Anda hendak memodifikasi data pengguna sekarang?"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
+msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
+msgid "User Data"
+msgstr "Data Pengguna"
+
+#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
+#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
+msgid ""
+"The User Data have been changed.\n"
+"Do you really want to change your User Data?"
+msgstr ""
+"Data Pengguna telah berubah. \n"
+"Apakah Anda sungguh-sungguh ingin merubah Data Pengguna Anda?"
 
 #: treeopt.src#RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
 #: treeopt.src%23RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
@@ -3148,45 +3121,35 @@ msgstr "Sertifikat situs"
 msgid "Personal certificates"
 msgstr "Sertifikat personal"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-msgid "Registered name"
-msgstr "Nama yang didaftarkan"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+msgid "Default text direction"
+msgstr "Arah teks default"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-msgid "Database file"
-msgstr "Berkas basis data"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+msgid "~Left-to-right"
+msgstr "~Kiri ke kanan"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
-msgid "~New..."
-msgstr "~Baru..."
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+msgid "~Right-to-left"
+msgstr "Kanan ke ki~ri"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "~Edit..."
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+msgid "Sheet view"
+msgstr "Tampilan set kerja"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "~Hapus"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+msgid "Right-~to-left"
+msgstr "Kanan k~e kiri"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
-msgid "Registered databases"
-msgstr "Basis data yang didaftarkan"
-
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
-msgid "Registered databases"
-msgstr "Basis data yang didaftarkan"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+msgid "~Current document only"
+msgstr "~Dokumen yang sekarang saja"
 
 #: optspell.src#RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
 #: optspell.src%23RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
@@ -3224,6 +3187,359 @@ msgstr "Periksa"
 #: optspell.src%23RID_SFXPAGE_SPELL.tabpage.text
 msgid "Spellcheck"
 msgstr "Periksa Ejaan"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+msgid "Microsoft Word 97/2000/XP"
+msgstr "Microsoft Word 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+msgid "Load Basic ~code"
+msgstr "Muat kode Basi~c"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+msgid "Save ~original Basic code"
+msgstr "Simpan k~ode asli Basic"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+msgid "Microsoft Excel 97/2000/XP"
+msgstr "Microsoft Excel 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+msgid "Lo~ad Basic code"
+msgstr "Muat kode B~asic"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+msgid "E~xecutable code"
+msgstr "Kode e~ksekusi"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+msgid "Sa~ve original Basic code"
+msgstr "Simpan kode as~li Basic"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+msgid "Microsoft PowerPoint 97/2000/XP"
+msgstr "Microsoft PowerPoint 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+msgid "Load Ba~sic code"
+msgstr "Muat kode Ba~sic"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+msgid "Sav~e original Basic code"
+msgstr "Simpan kod~e asli Basic"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+msgid "[L]"
+msgstr "[L]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+msgid "[S]"
+msgstr "[S]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+msgid "[L]: Load and convert the object"
+msgstr "[L]: Muat dan konversi objek"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+msgid "[S]: Convert and save the object"
+msgstr "[S]: Konversi dan simpan objek"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+msgid "MathType to %PRODUCTNAME Math or reverse"
+msgstr "MathType ke %PRODUCTNAME Math atau kebalikannya"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+msgid "Word to %PRODUCTNAME Writer or reverse"
+msgstr "Word ke %PRODUCTNAME Writer atau kebalikannya"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+msgid "Excel to %PRODUCTNAME Calc or reverse"
+msgstr "Excel ke %PRODUCTNAME Calc atau kebalikannya"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
+msgstr "PowerPoint ke %PRODUCTNAME Impress atau kebalikannya"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+msgid "~Apply replacement table"
+msgstr "~Terapkan tabel pengganti"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+msgid "~Font"
+msgstr "~Font"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+msgid "Re~place with"
+msgstr "~Ganti dengan"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Terapkan"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
+msgid "Delete"
+msgstr "Hapus..."
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+msgid "Font settings for HTML, Basic and SQL sources"
+msgstr "Pengaturan font untuk kode sumber HTML, Basic, dan SQL"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
+msgid "Fonts"
+msgstr "Font"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+msgid "Non-proportional fonts only"
+msgstr "Hanya font tak proporsional"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+msgid "~Size"
+msgstr "~Ukuran"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+msgid "Always"
+msgstr "Selalu"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+msgid "Screen only"
+msgstr "Hanya layar"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+msgid "Font"
+msgstr "Font"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+msgid "Replace with"
+msgstr "Ganti dengan"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
+msgid "Automatic"
+msgstr "Otomatis"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+msgid "Chart colors"
+msgstr "Warna bagan"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+msgid "Color table"
+msgstr "Tabel warna"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "~Baku"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
+msgid "Default Colors"
+msgstr "Warna Baku"
+
+#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
+#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
+msgid "Data Series $(ROW)"
+msgstr "Seri Data $(ROW)"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
+msgid "~Name"
+msgstr "~Nama"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "~Bahasa"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+msgid "~Exception (-)"
+msgstr "T~erkecuali (-)"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+msgid "Dictionary"
+msgstr "Kamus"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
+msgid "New Dictionary"
+msgstr "Kamus Baru"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+msgid "~Book"
+msgstr "~Buku"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "~Bahasa"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+msgid "~Word"
+msgstr "~Kata"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+msgid "Replace ~By:"
+msgstr "~Ganti oleh:"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+msgid "~New"
+msgstr "~Baru"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
+msgid "~Delete"
+msgstr "~Hapus"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+msgid "~Replace"
+msgstr "~Ganti"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+msgid "~Close"
+msgstr "~Tutup"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
+msgid "Edit Custom Dictionary"
+msgstr "Sunting Kamus Ubahan"
+
+#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+msgid ""
+"The specified name already exists.\n"
+"Please enter a new name."
+msgstr ""
+"Nama yang ditentukan sudah ada.\n"
+"Silakan beri nama baru."
+
+#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
+#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
+msgid "Do you want to change the '%1' dictionary language?"
+msgstr "Apakah Anda hendak mengganti bahasa kamus '%1'?"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+msgid "Improvement Program"
+msgstr "Program Peningkatan"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+msgid ""
+"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
+"the quality of %PRODUCTNAME.\n"
+"\n"
+"If you are willing to participate, we will collect anonymous statistics "
+"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
+"\n"
+"\n"
+"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
+"document content."
+msgstr ""
+"Kami mengundang Anda untuk bergabung dalam Program Peningkatan %PRODUCTNAME "
+"kami untuk mengoptimalkan kualitas %PRODUCTNAME.\n"
+"\n"
+"Jika Anda bersedia berpartisipasi, kami akan mengumpulkan statistik anonim "
+"tentang bagaimana Anda menggunakan %PRODUCTNAME. Data digunakan untuk "
+"mengidentifikasikan pola.\n"
+"\n"
+"Program Peningkatan %PRODUCTNAME tidak akan mengumpulkan data pribadi, atau "
+"isi dokumen."
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+msgid ""
+"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
+msgstr ""
+"~Ya, Saya bersedia berpartisipasi dalam Program Peningkatan %PRODUCTNAME"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+msgid "~No, I do not wish to participate"
+msgstr "~Tidak, Saya tidak mau berpartisipasi"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+msgid "Tracked Data"
+msgstr "Data yang dilacak"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+msgid "Number of reports sent:"
+msgstr "Jumlah laporan yang dikirimkan:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+msgid "Number of tracked actions:"
+msgstr "Jumlah kegiatan yang dilacak:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+msgid "~Show Data"
+msgstr "~Tampilkan Data"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+msgid "Help Optimize the Quality of %PRODUCTNAME"
+msgstr "Bantu Optimalkan Kualitas %PRODUCTNAME"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+msgid "More Information"
+msgstr "Informasi Lebih Lanjut"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
+msgid "%PRODUCTNAME Improvement Program"
+msgstr "Program Peningkatan %PRODUCTNAME"
 
 #: optpath.src#RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
 #: optpath.src%23RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
@@ -3388,323 +3704,3 @@ msgstr "KoreksiOtomatis"
 msgctxt "optpath.src#RID_SVXSTR_KEY_LINGUISTIC_DIR.string.text"
 msgid "Writing aids"
 msgstr "Bantuan penulisan"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-msgid "Microsoft Word 97/2000/XP"
-msgstr "Microsoft Word 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-msgid "Load Basic ~code"
-msgstr "Muat kode Basi~c"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-msgid "Save ~original Basic code"
-msgstr "Simpan k~ode asli Basic"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-msgid "Microsoft Excel 97/2000/XP"
-msgstr "Microsoft Excel 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-msgid "Lo~ad Basic code"
-msgstr "Muat kode B~asic"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-msgid "E~xecutable code"
-msgstr "Kode e~ksekusi"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-msgid "Sa~ve original Basic code"
-msgstr "Simpan kode as~li Basic"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-msgid "Microsoft PowerPoint 97/2000/XP"
-msgstr "Microsoft PowerPoint 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-msgid "Load Ba~sic code"
-msgstr "Muat kode Ba~sic"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-msgid "Sav~e original Basic code"
-msgstr "Simpan kod~e asli Basic"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-msgid "[L]"
-msgstr "[L]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-msgid "[S]"
-msgstr "[S]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-msgid "[L]: Load and convert the object"
-msgstr "[L]: Muat dan konversi objek"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-msgid "[S]: Convert and save the object"
-msgstr "[S]: Konversi dan simpan objek"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-msgid "MathType to %PRODUCTNAME Math or reverse"
-msgstr "MathType ke %PRODUCTNAME Math atau kebalikannya"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-msgid "Word to %PRODUCTNAME Writer or reverse"
-msgstr "Word ke %PRODUCTNAME Writer atau kebalikannya"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-msgid "Excel to %PRODUCTNAME Calc or reverse"
-msgstr "Excel ke %PRODUCTNAME Calc atau kebalikannya"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
-msgstr "PowerPoint ke %PRODUCTNAME Impress atau kebalikannya"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-msgid "Kerning"
-msgstr "Kerning"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-msgid "~Western characters only"
-msgstr "Hanya karakter ~Barat"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-msgid "Western ~text and Asian punctuation"
-msgstr "~Teks barat dan tanda baca Asia"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-msgid "Character spacing"
-msgstr "Jarak antarkarakter"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-msgid "~No compression"
-msgstr "Ta~nap kompresi"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-msgid "~Compress punctuation only"
-msgstr "~Kompresi tanda baca saja"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-msgid "Compress ~punctuation and Japanese Kana"
-msgstr "Kompresi ~tanda baca dan Kana Jepang"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-msgid "First and last characters"
-msgstr "Karakter awal dan akhir"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
-msgid "~Language"
-msgstr "~Bahasa"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
-msgid "~Default"
-msgstr "~Baku"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-msgid "Not at start of line:"
-msgstr "Tidak di awal baris:"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-msgid "Not at end of line:"
-msgstr "Tidak di akhir baris:"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-msgid "Without user-defined line break symbols"
-msgstr "Tanpa simbol pemutus baris yang ditentukan pengguna"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
-msgid "Proxy"
-msgstr "Proxy"
-
-#: optsave.src#TEXT_SAVEPAGE.#define.text
-#: optsave.src%23TEXT_SAVEPAGE.%23define.text
-msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
-msgid "Save"
-msgstr "Simpan"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-msgid "Load"
-msgstr "Muat"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-msgid "Load user-specific settings with the document"
-msgstr "Tampilkan pengaturan yang spesifik oleh pengguna pada dokumen"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-msgid "Load printer settings with the document"
-msgstr "Tampilkan pengaturan printer pada dokumen"
-
-#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
-msgid "Save"
-msgstr "Simpan"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-msgid "~Edit document properties before saving"
-msgstr "Sunting prop~erti dokumen sebelum menyimpan"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-msgid "Al~ways create backup copy"
-msgstr "S~elalu buat salinan cadangan"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-msgid "Save ~AutoRecovery information every"
-msgstr "Simpan informasi ~Perbaikan Otomatis setiap"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-msgid "Minutes"
-msgstr "Menit"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-msgid "Save URLs relative to file system"
-msgstr "Simpan URL relatif ke sistem berkas"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-msgid "Save URLs relative to internet"
-msgstr "Simpan URL relatif ke Internet"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-msgid "Default file format and ODF settings"
-msgstr "Format berkas baku dan pengaturan ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-msgid "ODF format version"
-msgstr "Versi format ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-msgid "1.0/1.1"
-msgstr "1.0/1.1"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-msgid "1.2"
-msgstr "1.2"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-msgid "1.2 Extended (recommended)"
-msgstr "1.2 Diperluas (direkomendasikan)"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-msgid "Enable AES-256 encryption (ODF 1.2)"
-msgstr "Izinkan enkripsi AES-256 (ODF 1.2)"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-msgid "Size optimization for ODF format"
-msgstr "Optimisasi ukuran untuk format ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-msgid "Warn when not saving in ODF or default format"
-msgstr "Peringatkan bila tidak menyimpan dalam format utama atau ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-msgid "D~ocument type"
-msgstr "Jenis d~okumen"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-msgid "Always sa~ve as"
-msgstr "Selalu sim~pan sebagai"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-msgid "Text document"
-msgstr "Dokumen teks"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-msgid "HTML document"
-msgstr "Dokumen HTML"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-msgid "Master document"
-msgstr "Dokumen induk"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
-msgid "Spreadsheet"
-msgstr "Pengolah Angka"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-msgid "Presentation"
-msgstr "Presentasi"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-msgid "Drawing"
-msgstr "Buku Gambar"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-msgid "Formula"
-msgstr "Rumus"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-msgid "Not using ODF 1.2 Extended may cause information to be lost."
-msgstr ""
-"Tidak menggunakan ODF 1.2 Diperluas mungkin akan mengakibatkan adanya "
-"informasi yang hilang."
-
-#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-msgid "Using \"%1\" as default file format may cause information loss.\n"
-msgstr ""
-"Menggunakan \"%1\" sebagai format berkas utama bisa menyebabkan hilangnya "
-"informasi.\n"

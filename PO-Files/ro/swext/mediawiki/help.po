@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-08-25 18:57+0000\n"
 "Last-Translator: Claudiu Vicol <claudiu@vicol.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,14 +38,11 @@ msgstr ""
 "@WIKIEXTENSIONPRODUCTNAME@ le poate încărca pe serverul Wiki."
 
 #: wikiformats.xhp#par_id5630664.help.text
-#: wikiformats.xhp%23par_id5630664.help.text
 msgid ""
-"The OpenDocument format used by Writer and the WikiMedia format are quite "
+"The OpenDocument format used by Writer and the MediaWiki format are quite "
 "different. Only a subset of all features can be transformed from one format "
 "to the other."
 msgstr ""
-"Formatul OpenDocument folosit de Writer e diferit de formatul WikiMedia. Se "
-"pot transforma doar o parte din funcționalități de la un format la celălalt."
 
 #: wikiformats.xhp#hd_id7178868.help.text
 #: wikiformats.xhp%23hd_id7178868.help.text
@@ -152,11 +149,10 @@ msgid "Images"
 msgstr "Imagini"
 
 #: wikiformats.xhp#par_id3541673.help.text
-#: wikiformats.xhp%23par_id3541673.help.text
 msgid ""
 "Images cannot be exported by a transformation producing a single file of "
 "Wiki text. However, if the image is already uploaded to the target Wiki "
-"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
+"domain (e.g. WikiMedia Commons), then the transformation produces a valid "
 "image tag that includes the image. Image captions are also supported."
 msgstr ""
 
@@ -179,16 +175,11 @@ msgid "Joined Cells"
 msgstr ""
 
 #: wikiformats.xhp#par_id8253730.help.text
-#: wikiformats.xhp%23par_id8253730.help.text
 msgid ""
-"OpenDocument and especially OpenOffice.org represent tables that have joined "
+"OpenDocument and especially OpenOffice represent tables that have joined "
 "cells that span rows as tables with nested tables. In contrast, the wiki "
-"model of table is to declare column and row spans for such joined cells. "
+"model of table is to declare column and row spans for such joined cells."
 msgstr ""
-"OpenDocument și îndeosebi OpenOffice.org reprezintă tabelele care au celule "
-"reunite ce cuprind mai multe linii ca tabele cu tabele imbricate. Spre "
-"deosebire de aceasta, modelul wiki pentru un tabel declară coloanele și "
-"rîndurile cuprinse în astfel de celule reunite. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 #: wikiformats.xhp%23par_id8163090.help.text
@@ -203,10 +194,9 @@ msgid "Borders"
 msgstr "Margini"
 
 #: wikiformats.xhp#par_id1831110.help.text
-#: wikiformats.xhp%23par_id1831110.help.text
 msgid ""
 "Irrespective of custom table styles for border and background, a table is "
-"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
+"always exported as <emph>\"prettytable\"</emph>, which renders in the Wiki "
 "engine with simple borders and bold header."
 msgstr ""
 
@@ -236,68 +226,160 @@ msgstr ""
 "transformării în navigatorul Firefox și să comutați acolo codarea la UTF-8. "
 "Apoi, puteți decupa și lipi rezultatul transformării în orice program doriți."
 
-#: wikisend.xhp#tit.help.text
-#: wikisend.xhp%23tit.help.text
-msgctxt "wikisend.xhp#tit.help.text"
-msgid "Send to MediaWiki"
-msgstr "Trimite spre MediaWiki"
+#: wikiaccount.xhp#tit.help.text
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
 
-#: wikisend.xhp#hd_id108340.help.text
-#: wikisend.xhp%23hd_id108340.help.text
-msgctxt "wikisend.xhp#hd_id108340.help.text"
-msgid "Send to MediaWiki"
-msgstr "Trimite spre MediaWiki"
+#: wikiaccount.xhp#hd_id960722.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
 
-#: wikisend.xhp#par_id1743827.help.text
-#: wikisend.xhp%23par_id1743827.help.text
+#: wikiaccount.xhp#par_id4571672.help.text
+#: wikiaccount.xhp%23par_id4571672.help.text
 msgid ""
-"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
-"upload."
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
 msgstr ""
-"În dialogul Trimite spre MediaWiki, specificați setările pentru încărcarea "
-"pe care pe care urmează să o faceți în Wiki."
+"Folosiți dialogul MediaWiki pentru a adăuga sau edita setările contului "
+"dumneavoastră MediaWiki."
 
-#: wikisend.xhp#par_id664082.help.text
-#: wikisend.xhp%23par_id664082.help.text
+#: wikiaccount.xhp#par_id7631458.help.text
+#: wikiaccount.xhp%23par_id7631458.help.text
 msgid ""
-"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
-"document. Click Add to add a new server to the list.</ahelp>"
-msgstr ""
-
-#: wikisend.xhp#par_id2794885.help.text
-#: wikisend.xhp%23par_id2794885.help.text
-msgid ""
-"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
-"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
-"If you enter an existing title, your upload will overwrite the existing Wiki "
-"entry.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with http://</ahelp>"
 msgstr ""
 
-#: wikisend.xhp#par_id2486342.help.text
-#: wikisend.xhp%23par_id2486342.help.text
+#: wikiaccount.xhp#par_id7862483.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
 msgid ""
-"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
-"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Introduceți numele dumneavoastră de "
+"utilizator al serverului MediaWiki. Lăsați gol pentru acces anonim.</ahelp>"
+
+#: wikiaccount.xhp#par_id1113010.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
+#, fuzzy
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Introduceți numele dumneavoastră de "
+"utilizator al serverului MediaWiki. Lăsați gol pentru acces anonim.</ahelp>"
+
+#: wikiaccount.xhp#par_id656758.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Bifați pentru ca parola dumneavoastră "
+"să fie reținută între sesiuni. Parola generală trebuie să fie activată, "
+"accesați <item type=\"menuitem\">Unelte - Opțiuni - %PRODUCTNAME - "
+"Securitate</item>.</ahelp>"
+
+#: wikiaccount.xhp#par_id3112582.help.text
+#: wikiaccount.xhp%23par_id3112582.help.text
+msgid ""
+"Enter the Internet address of a Wiki server in a format like "
+"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
+msgstr ""
+"Introduceți adresa de pe internet a serverului Wiki în formatul "
+"http://wiki.services.openoffice.org/wiki sau copiați adresa dintr-un "
+"navigator web."
+
+#: wikiaccount.xhp#par_id628070.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
+msgid ""
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
+msgstr ""
+"Dacă Wiki permite acces anonim, puteți lăsa goale căsuțele de text ale "
+"contului. Altfel, introduceți numele de utilizator și parola."
+
+#: wikiaccount.xhp#par_id9046601.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
+msgid ""
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
+msgstr ""
+"Dacă ați activat utilizarea parolei generale din fila „Securitate” a "
+"dialogului Unelte - Opțiuni - StarOffice/OpenOffice.org, atunci programul "
+"poate memora parola dumneavoastră și să insereze automat datele atunci când "
+"este nevoie. Bifați căsuța „Salvează parola” pentru a memora parola."
+
+#: wikisettings.xhp#tit.help.text
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "Opțiuni MediaWiki"
+
+#: wikisettings.xhp#hd_id6425672.help.text
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "Opțiuni MediaWiki"
+
+#: wikisettings.xhp#par_id1188390.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
+msgid ""
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
+msgstr ""
+"Puteți adăuga, edita sau elimina servere MediaWiki. Accesați aceste opțiuni "
+"din <item type=\"menuitem\">Unelte - Opțiuni - Internet - MediaWiki</item>. "
+"Alternativ, alegeți <item type=\"menuitem\">Unelte - Gestionar de "
+"extensii</item>, selectați  @WIKIEXTENSIONPRODUCTNAME@ și apăsați butonul "
+"Opțiuni."
+
+#: wikisettings.xhp#par_id300607.help.text
+#: wikisettings.xhp%23par_id300607.help.text
+msgid ""
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
 msgstr ""
 
-#: wikisend.xhp#par_id823999.help.text
-#: wikisend.xhp%23par_id823999.help.text
+#: wikisettings.xhp#par_id9786065.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
 msgid ""
-"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
-"the uploaded page as a minor edit of the already existing page with the same "
-"title.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
 msgstr ""
 
-#: wikisend.xhp#par_id6592913.help.text
-#: wikisend.xhp%23par_id6592913.help.text
+#: wikisettings.xhp#par_id3386333.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
 msgid ""
-"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
-"your system web browser and show the uploaded Wiki page.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
 msgstr ""
-"<emph>Arată în navigatorul web</emph>: <ahelp hid=\".\">Bifați această "
-"căsuță pentru a deschide navigatorul web de pe sistemul dumneavoastră și a "
-"arăta pagina Wiki creată.</ahelp>"
+
+#: wikisettings.xhp#par_id7285073.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Îndepărtează articolul selectat de pe "
+"listă.</ahelp>"
+
+#: wikisettings.xhp#par_id1029084.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
+msgid ""
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
+msgstr ""
 
 #: wiki.xhp#tit.help.text
 #: wiki.xhp%23tit.help.text
@@ -362,9 +444,8 @@ msgid "Java Runtime Environment 1.4"
 msgstr ""
 
 #: wiki.xhp#par_id7387615.help.text
-#: wiki.xhp%23par_id7387615.help.text
 msgid ""
-"A Wiki account on a supported <link href=\"http://www.mediawiki.org/wiki/"
+"A Wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/"
 "MediaWiki\">MediaWiki</link> server"
 msgstr ""
 
@@ -622,157 +703,65 @@ msgstr ""
 msgid "Click Send."
 msgstr "Dați clic pe Trimite."
 
-#: wikisettings.xhp#tit.help.text
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "Opțiuni MediaWiki"
+#: wikisend.xhp#tit.help.text
+#: wikisend.xhp%23tit.help.text
+msgctxt "wikisend.xhp#tit.help.text"
+msgid "Send to MediaWiki"
+msgstr "Trimite spre MediaWiki"
 
-#: wikisettings.xhp#hd_id6425672.help.text
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "Opțiuni MediaWiki"
+#: wikisend.xhp#hd_id108340.help.text
+#: wikisend.xhp%23hd_id108340.help.text
+msgctxt "wikisend.xhp#hd_id108340.help.text"
+msgid "Send to MediaWiki"
+msgstr "Trimite spre MediaWiki"
 
-#: wikisettings.xhp#par_id1188390.help.text
-#: wikisettings.xhp%23par_id1188390.help.text
+#: wikisend.xhp#par_id1743827.help.text
+#: wikisend.xhp%23par_id1743827.help.text
 msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
+"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
+"upload."
 msgstr ""
-"Puteți adăuga, edita sau elimina servere MediaWiki. Accesați aceste opțiuni "
-"din <item type=\"menuitem\">Unelte - Opțiuni - Internet - MediaWiki</item>. "
-"Alternativ, alegeți <item type=\"menuitem\">Unelte - Gestionar de "
-"extensii</item>, selectați  @WIKIEXTENSIONPRODUCTNAME@ și apăsați butonul "
-"Opțiuni."
+"În dialogul Trimite spre MediaWiki, specificați setările pentru încărcarea "
+"pe care pe care urmează să o faceți în Wiki."
 
-#: wikisettings.xhp#par_id300607.help.text
-#: wikisettings.xhp%23par_id300607.help.text
+#: wikisend.xhp#par_id664082.help.text
+#: wikisend.xhp%23par_id664082.help.text
 msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
+"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
+"document. Click Add to add a new server to the list.</ahelp>"
 msgstr ""
 
-#: wikisettings.xhp#par_id9786065.help.text
-#: wikisettings.xhp%23par_id9786065.help.text
+#: wikisend.xhp#par_id2794885.help.text
+#: wikisend.xhp%23par_id2794885.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
+"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
+"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
+"If you enter an existing title, your upload will overwrite the existing Wiki "
+"entry.</ahelp>"
 msgstr ""
 
-#: wikisettings.xhp#par_id3386333.help.text
-#: wikisettings.xhp%23par_id3386333.help.text
+#: wikisend.xhp#par_id2486342.help.text
+#: wikisend.xhp%23par_id2486342.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
+"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
+"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 msgstr ""
 
-#: wikisettings.xhp#par_id7285073.help.text
-#: wikisettings.xhp%23par_id7285073.help.text
+#: wikisend.xhp#par_id823999.help.text
+#: wikisend.xhp%23par_id823999.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Îndepărtează articolul selectat de pe "
-"listă.</ahelp>"
-
-#: wikisettings.xhp#par_id1029084.help.text
-#: wikisettings.xhp%23par_id1029084.help.text
-msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
+"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
+"the uploaded page as a minor edit of the already existing page with the same "
+"title.</ahelp>"
 msgstr ""
 
-#: wikiaccount.xhp#tit.help.text
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#hd_id960722.help.text
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#par_id4571672.help.text
-#: wikiaccount.xhp%23par_id4571672.help.text
+#: wikisend.xhp#par_id6592913.help.text
+#: wikisend.xhp%23par_id6592913.help.text
 msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
+"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
+"your system web browser and show the uploaded Wiki page.</ahelp>"
 msgstr ""
-"Folosiți dialogul MediaWiki pentru a adăuga sau edita setările contului "
-"dumneavoastră MediaWiki."
-
-#: wikiaccount.xhp#par_id7631458.help.text
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-
-#: wikiaccount.xhp#par_id7862483.help.text
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Introduceți numele dumneavoastră de "
-"utilizator al serverului MediaWiki. Lăsați gol pentru acces anonim.</ahelp>"
-
-#: wikiaccount.xhp#par_id1113010.help.text
-#: wikiaccount.xhp%23par_id1113010.help.text
-#, fuzzy
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Introduceți numele dumneavoastră de "
-"utilizator al serverului MediaWiki. Lăsați gol pentru acces anonim.</ahelp>"
-
-#: wikiaccount.xhp#par_id656758.help.text
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Bifați pentru ca parola dumneavoastră "
-"să fie reținută între sesiuni. Parola generală trebuie să fie activată, "
-"accesați <item type=\"menuitem\">Unelte - Opțiuni - %PRODUCTNAME - "
-"Securitate</item>.</ahelp>"
-
-#: wikiaccount.xhp#par_id3112582.help.text
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"Introduceți adresa de pe internet a serverului Wiki în formatul "
-"http://wiki.services.openoffice.org/wiki sau copiați adresa dintr-un "
-"navigator web."
-
-#: wikiaccount.xhp#par_id628070.help.text
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"Dacă Wiki permite acces anonim, puteți lăsa goale căsuțele de text ale "
-"contului. Altfel, introduceți numele de utilizator și parola."
-
-#: wikiaccount.xhp#par_id9046601.help.text
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"Dacă ați activat utilizarea parolei generale din fila „Securitate” a "
-"dialogului Unelte - Opțiuni - StarOffice/OpenOffice.org, atunci programul "
-"poate memora parola dumneavoastră și să insereze automat datele atunci când "
-"este nevoie. Bifați căsuța „Salvează parola” pentru a memora parola."
+"<emph>Arată în navigatorul web</emph>: <ahelp hid=\".\">Bifați această "
+"căsuță pentru a deschide navigatorul web de pe sistemul dumneavoastră și a "
+"arăta pagina Wiki creată.</ahelp>"

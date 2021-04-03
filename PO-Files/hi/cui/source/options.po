@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+cui%2Fsource%2Foptions.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-12-01 14:41+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,174 +16,446 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-msgid "Web login information (passwords are never shown)"
-msgstr "वेब लॉगिन सूचना (कूटशब्द कभी नहीं दिखाया जाता है)"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+msgid "Security warnings"
+msgstr "सुरक्षा की चेतावनी"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-msgid "Remove"
-msgstr "हटाएँ"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
+msgid ""
+"Warn if document contains recorded changes, versions, hidden information or "
+"comments:"
+msgstr ""
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-msgid "Remove All"
-msgstr "सभी हटाएँ"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+msgid "When saving or sending"
+msgstr "जब सहेजा व भेजा जा रहा हो"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-msgid "Change Password..."
-msgstr "कूटशब्द बदलें..."
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+msgid "When signing"
+msgstr "जब हस्ताक्षरित होता है"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
-msgid "Close"
-msgstr "बन्द करें"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+msgid "When printing"
+msgstr "जब मुद्रित होता है"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-msgid "Website"
-msgstr "वेबसाइट"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+msgid "When creating PDF files"
+msgstr "PDF फ़ाइल बनाते हुए"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-msgid "User name"
-msgstr "उपयोक्ता नाम"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+msgid "Security options"
+msgstr "सुरक्षा का विकल्प"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-msgid "Stored Web Connection Information"
-msgstr "जमा किया वेब संयोजन सूचना"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+msgid "Remove personal information on saving"
+msgstr "सहेजने पर निजी सूचना हटाएँ"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-msgid "~Apply replacement table"
-msgstr "प्रतिस्थापन सारणी लागू करें"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+msgid "Recommend password protection on saving"
+msgstr "सहेजते समय सुझायी गयी कूटशब्द सुरक्षा"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-msgid "~Font"
-msgstr "मुद्रलिपि"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+msgid "Ctrl-click required to follow hyperlinks"
+msgstr "Ctrl-click हाइपरलिंक के लिए जरूरी"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-msgid "Re~place with"
-msgstr "से बदलें"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
+msgid "Security options and warnings"
+msgstr "सुरक्षा विकल्प और चेतावनी"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "लागू करें"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+msgid "Registered name"
+msgstr "पंजीकृत नाम"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
-msgid "Delete"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+msgid "Database file"
+msgstr "डेटाबेस फ़ाइल"
+
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
+msgid "~New..."
+msgstr "नया (~N)..."
+
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "संपादन..."
+
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
+msgid "~Delete"
 msgstr "मिटाएँ"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-msgid "Font settings for HTML, Basic and SQL sources"
-msgstr "एचटीएमएल और बेसिक स्रोत के लिए मुद्रलिपि का विन्यास"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
+msgid "Registered databases"
+msgstr "पंजीकृत डेटाबेस"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
-msgid "Fonts"
-msgstr "मुद्रलिपि"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
+msgid "Registered databases"
+msgstr "पंजीकृत डेटाबेस"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-msgid "Non-proportional fonts only"
-msgstr "सिर्फ गैर आनुपातिक मुद्रलिपि"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+msgid "Treat as equal"
+msgstr "समान रूप में व्यवहार करें"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-msgid "~Size"
-msgstr "आकार"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+msgid "~uppercase/lowercase"
+msgstr "अपरकेस/लोअरकेस"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-msgid "Always"
-msgstr "हमेशा"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+msgid "~full-width/half-width forms"
+msgstr "पूरी-चौड़ाई/आधा-चौड़ाई फ़ॉर्म"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-msgid "Screen only"
-msgstr "सिर्फ स्क्रीन"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+msgid "~hiragana/katakana"
+msgstr "हिरागाना/कटकाना"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-msgid "Font"
-msgstr "मुद्रलिपि"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+msgid "~contractions (yo-on, sokuon)"
+msgstr "सिकुड़न (yo-on, sokuon)"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-msgid "Replace with"
-msgstr "से बदलें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+msgid "~minus/dash/cho-on"
+msgstr "घटाव/डॉश/cho-on"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
-msgid "Automatic"
-msgstr "स्वचालित"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+msgid "'re~peat character' marks"
+msgstr "'दुहराने का वर्ण' चिह्न"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-msgid "Miscellaneous options"
-msgstr "विविध विकल्प"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+msgid "~variant-form kanji (itaiji)"
+msgstr "परिवर्ती-रुप कांजी (इटाइजि)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-msgid "Support ~assistive technology tools (program restart required)"
-msgstr "समर्थन सहायक तकनीकी औज़ार (प्रोग्राम पुनप्रारंभ जरूरी)"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+msgid "~old Kana forms"
+msgstr "पुराना काना प्रपत्र"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-msgid "Use te~xt selection cursor in read-only text documents"
-msgstr "पाठ चयन कर्सर को सिर्फ पढ़ने-योग्य दस्तावेज़ के रूप में प्रयोग करें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+msgid "~di/zi, du/zu"
+msgstr "~di/zi, du/zu"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-msgid "Allow animated ~graphics"
-msgstr "संजीवित आलेखी को अनुमति दें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+msgid "~ba/va, ha/fa"
+msgstr "~ba/va, ha/fa"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-msgid "Allow animated ~text"
-msgstr "संजीवित पाठ को अनुमति दें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+msgid "~tsi/thi/chi, dhi/zi"
+msgstr "~tsi/thi/chi, dhi/zi"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-msgid "~Help tips disappear after "
-msgstr "मदद संकेत इसके बाद ओझल हो जाता है "
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+msgid "h~yu/fyu, byu/vyu"
+msgstr "h~yu/fyu, byu/vyu"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-msgid "seconds"
-msgstr "सेकन्ड"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+msgid "~se/she, ze/je"
+msgstr "~se/she, ze/je"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-msgid "Options for high contrast appearance"
-msgstr "अधिक विरोधी प्रकटन के लिए विकल्प"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+msgid "~ia/iya (piano/piyano)"
+msgstr "~ia/iya (piano/piyano)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-msgid "Automatically ~detect high contrast mode of operating system"
-msgstr "प्रचालन तंत्र के लिए स्वतः अधिक विरोधी ढंग जाँचें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+msgid "~ki/ku (tekisuto/tekusuto)"
+msgstr "~ki/ku (tekisuto/tekusuto)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-msgid "Use automatic font ~color for screen display"
-msgstr "स्क्रीन प्रदर्शन के लिए स्वचालित मुद्रलिपि रंग का प्रयोग करें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+msgid "Prolon~ged vowels (ka-/kaa)"
+msgstr "लंबा स्वर (ka-/kaa)"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-msgid "~Use system colors for page previews"
-msgstr "पृष्ठ पूर्वावलोकन के लिए तंत्र रंग का प्रयोग करें"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+msgid "Ignore"
+msgstr "नज़रअंदाज़ करें"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+msgid "Pu~nctuation characters"
+msgstr "विराम चिह्न वर्ण"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+msgid "~Whitespace characters"
+msgstr "खाली स्थान वर्ण"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+msgid "Midd~le dots"
+msgstr "मध्य बिन्दु"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
+msgid "Searching in Japanese"
+msgstr "जपानी में खोज"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+msgid "Sequence checking"
+msgstr "शृंखला जाँच"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+msgid "Use se~quence checking"
+msgstr "शृंखला जाँच प्रयोग करें"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+msgid "Restricted"
+msgstr "प्रतिबंधित"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+msgid "~Type and replace"
+msgstr "प्रकार व प्रतिस्थापन"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+msgid "Cursor control"
+msgstr "कर्सर नियंत्रण"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+msgid "Movement"
+msgstr "गति"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+msgid "Lo~gical"
+msgstr "तार्किक"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+msgid "~Visual"
+msgstr "दृश्य"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+msgid "General options"
+msgstr "सामान्य विकल्प"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+msgid "~Numerals"
+msgstr "सांख्यिक"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+msgid "Arabic"
+msgstr "अरबी"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+msgid "Hindi"
+msgstr "हिन्दी"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
+msgid "System"
+msgstr "तंत्र"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+msgid "Context"
+msgstr "संदर्भ"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
+msgid "Complex Text Layout"
+msgstr "जटिल पाठ रूपरेखा"
+
+#: optsave.src#TEXT_SAVEPAGE.#define.text
+#: optsave.src%23TEXT_SAVEPAGE.%23define.text
+msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
+msgid "Save"
+msgstr "सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+msgid "Load"
+msgstr "भारित करें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+msgid "Load user-specific settings with the document"
+msgstr "दस्तावेज़ के साथ उपयोक्ता-निर्दिष्ट विन्यास को भारित करें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+msgid "Load printer settings with the document"
+msgstr "दस्तावेज़ के साथ मुद्रक विन्यास को भारित करें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
+msgid "Save"
+msgstr "सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+msgid "~Edit document properties before saving"
+msgstr "संचित करने से पहले दस्तावेज़ विशषताओं का संपादन करें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+msgid "Al~ways create backup copy"
+msgstr "हमेशा बैकअप प्रतिलिपि बनाएँ"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+msgid "Save ~AutoRecovery information every"
+msgstr "हर स्वप्राप्ति सूचना को सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+msgid "Minutes"
+msgstr "मिनट"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+msgid "Save URLs relative to file system"
+msgstr "फ़ाइल तंत्र के सापेक्ष URL सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+msgid "Save URLs relative to internet"
+msgstr "अंतर्जाल के सापेक्ष URL सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+msgid "Default file format and ODF settings"
+msgstr "तयशुदा फ़ाइल प्रारूप और ODF विन्यास"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+msgid "ODF format version"
+msgstr "ODF प्रारूप संस्करण"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+msgid "1.0/1.1"
+msgstr "1.0/1.1"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+msgid "1.2"
+msgstr "1.2"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+msgid "1.2 Extended (recommended)"
+msgstr "1.2 विस्तारित (अनुशंसित)"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+msgid "Enable AES-256 encryption (ODF 1.2)"
+msgstr "AES-256 गुढिकरण (ODF 1.2) लागू करें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+msgid "Size optimization for ODF format"
+msgstr "ODF प्रारूप के लिए आकार अनुकूलन"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+msgid "Warn when not saving in ODF or default format"
+msgstr "चेतावनी दें जब ODF अथवा तयशुदा प्रारूप में नहीं सहेज रहा हो"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+msgid "D~ocument type"
+msgstr "दस्तावेज़ प्रकार"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+msgid "Always sa~ve as"
+msgstr "हमेशा ऐसे सहेजें"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+msgid "Text document"
+msgstr "पाठ दस्तावेज़"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+msgid "HTML document"
+msgstr "एचटीएमएल दस्तावेज़"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+msgid "Master document"
+msgstr "मुख्य दस्तावेज़"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
+msgid "Spreadsheet"
+msgstr "स्प्रेडशीट"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+msgid "Presentation"
+msgstr "प्रस्तुति"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+msgid "Drawing"
+msgstr "रेखाचित्र"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+msgid "Formula"
+msgstr "सूत्र"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+msgid "Not using ODF 1.2 Extended may cause information to be lost."
+msgstr ""
+"ODF 1.2 विस्तारित का प्रयोग नहीं करना सूचना के नष्ट होने का कारण बन सकता है।"
+
+#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+msgid "Using \"%1\" as default file format may cause information loss.\n"
+msgstr ""
+"\"%1\" को तयशुदा फ़ाइल प्रारूप के रूप में प्रयोग करने से सूचना नष्ट हो सकता "
+"है।\n"
 
 #: optinet2.src#RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
 #: optinet2.src%23RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
@@ -548,77 +820,414 @@ msgstr "ई-मेल प्रोग्राम"
 msgid "All files (*.*)"
 msgstr "सभी फ़ाइल (*.*)"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
-msgid "Undo"
-msgstr "पूर्ववत करें"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+msgid "Color scheme"
+msgstr "रंग योजना"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-msgid "Number of steps"
-msgstr "चरण की संख्या"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+msgid "Scheme"
+msgstr "योजना"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-msgid "Graphics cache"
-msgstr "आलेखी कैश"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+msgid "Save..."
+msgstr "सहेजें..."
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-msgid "Use for %PRODUCTNAME"
-msgstr "%PRODUCTNAME के लिए प्रयोग करें"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
+msgid "Delete"
+msgstr "मिटाएँ"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "मे.बा."
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+msgid "Custom colors"
+msgstr "मनपसंद रंग"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-msgid "Memory per object"
-msgstr "प्रति वस्तु मेमोरी"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+msgid "On"
+msgstr "चालू"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "मे.बा."
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+msgid "User interface elements"
+msgstr "उपयोक्ता अंतरफलक तत्व"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-msgid "Remove from memory after"
-msgstr "के बाद मेमोरी से हटाएँ"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+msgid "Color setting"
+msgstr "रंग विन्यास"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-msgid "hh:mm"
-msgstr "घंघं:मिमि"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+msgid "Preview"
+msgstr "पूर्वावलोकन"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-msgid "Cache for inserted objects"
-msgstr "घुसाएँ वस्तुओं के लिए कैश"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
+msgid "General"
+msgstr "सामान्य"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-msgid "Number of objects"
-msgstr "वस्तुओं की संख्या"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+msgid "Document background"
+msgstr "दस्तावेज़ पृष्ठभूमि"
 
-#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-msgid "%PRODUCTNAME Quickstarter"
-msgstr "%PRODUCTNAME द्रुत-आरंभक"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+msgid "Text boundaries"
+msgstr "पाठ सीमा"
 
-#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-msgid "Load %PRODUCTNAME during system start-up"
-msgstr "%PRODUCTNAME को तंत्र प्रारंभण के समय भारित करें"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+msgid "Application background"
+msgstr "अनुप्रयोग पृष्ठभूमि"
 
-#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-msgid "Enable systray Quickstarter"
-msgstr "द्रुत-आरंभक को तंत्र में सक्रिय करें"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+msgid "Object boundaries"
+msgstr "वस्तु सीमा"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+msgid "Table boundaries"
+msgstr "सारणी सीमा"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+msgid "Font color"
+msgstr "मुद्रलिपि रंग"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+msgid "Unvisited links"
+msgstr "न देखा गया कड़ी"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+msgid "Visited links"
+msgstr "देखा कड़ी"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+msgid "AutoSpellcheck"
+msgstr "स्वतः हिज्जे जाँच"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+msgid "Smart Tags"
+msgstr "स्मार्ट टैग"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+msgid "Text Document"
+msgstr "पाठ दस्तावेज़"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
+msgid "Grid"
+msgstr "जाली"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+msgid "Field shadings"
+msgstr "छायांकन क्षेत्र"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+msgid "Index and table shadings"
+msgstr "सूची व सारणी छायांकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+msgid "Script indicator"
+msgstr "स्क्रिप्ट संकेतक"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+msgid "Section boundaries"
+msgstr "सीमा चयनक"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+msgid "Page and column breaks"
+msgstr "पृष्ठ व स्तंभ खण्डन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+msgid "Direct cursor"
+msgstr "सीधा कर्सर"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+msgid "HTML Document"
+msgstr "एचटीएमएल दस्तावेज़"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+msgid "SGML syntax highlighting"
+msgstr "SGML सिंटेक्स आलोकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+msgid "Comment highlighting"
+msgstr "टिप्पणी आलोकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+msgid "Keyword highlighting"
+msgstr "कुंजीपटल आलोकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+msgid "Text"
+msgstr "पाठ"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
+msgid "Spreadsheet"
+msgstr "स्प्रेडशीट"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+msgid "Grid lines"
+msgstr "जाल रेखा"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+msgid "Page breaks"
+msgstr "पृष्ठ खण्डन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+msgid "Manual page breaks"
+msgstr "दस्ती पृष्ठ खण्डन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+msgid "Automatic page breaks"
+msgstr "स्वतःपृष्ठ खण्डन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+msgid "Detective"
+msgstr "ख़ुफिया"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+msgid "Detective error"
+msgstr "ख़ुफिया त्रुटि"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+msgid "References"
+msgstr "संदर्भ"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
+msgid "Comment background"
+msgstr ""
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+msgid "Drawing / Presentation"
+msgstr "आरेख / प्रस्तुति"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
+msgid "Grid"
+msgstr "जाली"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+msgid "Basic Syntax Highlighting"
+msgstr "मूल सिंटेक्स आलोकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "पहचानकर्ता"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "संख्या"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
+msgid "String"
+msgstr "स्ट्रिंग"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "प्रचालक"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+msgid "Reserved expression"
+msgstr "उल्टा व्यंजक"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+msgid "Error"
+msgstr "त्रुटि"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+msgid "SQL Syntax Highlighting"
+msgstr "एसक्वीएल वाक्यरचना आलोकन"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "पहचानकर्ता"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "संख्या"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
+msgid "String"
+msgstr "स्ट्रिंग"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "प्रचालक"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+msgid "Keyword"
+msgstr "मुख्यशब्द"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+msgid "Parameter"
+msgstr "प्राचल"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+msgid "Colorsettings of the Extensions"
+msgstr "विस्तारक के लिए रंग विन्यास"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+msgid "Spell check highlighting"
+msgstr "हिज्जे जाँच उभारना"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+msgid "Grammar check highlighting"
+msgstr "व्याकरण जाँच को उभारना"
+
+#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+msgid "Do you really want to delete the color scheme?"
+msgstr "क्या आप वास्तव में रंग योजना मिटाना चाहते हैं?"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+msgid "Color Scheme Deletion"
+msgstr "रंग योजना विलोपन"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+msgid "Save scheme"
+msgstr "योजना सहेजें"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+msgid "Name of color scheme"
+msgstr "रंग योजना का नाम"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+msgid "Online Update Options"
+msgstr "ऑनलाइन अद्यतन विकल्प"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+msgid "~Check for updates automatically"
+msgstr "अद्यतन के लिए स्वतः जाँचें"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+msgid "Every Da~y"
+msgstr "प्रतिदिन"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+msgid "Every ~Week"
+msgstr "हर सप्ताह"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+msgid "Every ~Month"
+msgstr "हर महीने"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+msgid "Last checked: %DATE%, %TIME%"
+msgstr "अंतिम बार जाँचा गया: %DATE%, %TIME%"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+msgid "Check ~now"
+msgstr "अब जाँचें"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+msgid "~Download updates automatically"
+msgstr "अद्यतन स्वतः अपभारित करें"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+msgid "Download destination:"
+msgstr "अपभारण गंतव्य:"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+msgid "Ch~ange..."
+msgstr "बदलें..."
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+msgid "Last checked: Not yet"
+msgstr "अंतिम बार जाँचा गया: अभी तक नहीं"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+msgid "OnlineUpdate"
+msgstr "ऑनलाइनअद्यतन"
 
 #: optlingu.src#RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
 #: optlingu.src%23RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
@@ -843,283 +1452,307 @@ msgstr "विकल्प"
 msgid "Do you want to delete the dictionary?"
 msgstr "आप शब्दकोश को मिटाना चाहते है?"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-msgid "Online Update Options"
-msgstr "ऑनलाइन अद्यतन विकल्प"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+msgid "Kerning"
+msgstr "रिक्ति समायोजन"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-msgid "~Check for updates automatically"
-msgstr "अद्यतन के लिए स्वतः जाँचें"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+msgid "~Western characters only"
+msgstr "केवल पाश्चात्य वर्ण"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-msgid "Every Da~y"
-msgstr "प्रतिदिन"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+msgid "Western ~text and Asian punctuation"
+msgstr "पाश्चात्य पाठ और ऐशियाई विराम-चिह्न"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-msgid "Every ~Week"
-msgstr "हर सप्ताह"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+msgid "Character spacing"
+msgstr "अक्षर अंतरण"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-msgid "Every ~Month"
-msgstr "हर महीने"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+msgid "~No compression"
+msgstr "कोई संकुचन नहीं"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-msgid "Last checked: %DATE%, %TIME%"
-msgstr "अंतिम बार जाँचा गया: %DATE%, %TIME%"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+msgid "~Compress punctuation only"
+msgstr "केवल विराम-चिह्न संकुचित करें"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-msgid "Check ~now"
-msgstr "अब जाँचें"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+msgid "Compress ~punctuation and Japanese Kana"
+msgstr "विराम-चिह्न और जपानी काना को संकुचित करें"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-msgid "~Download updates automatically"
-msgstr "अद्यतन स्वतः अपभारित करें"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+msgid "First and last characters"
+msgstr "प्रारंभिक व अंतिम वर्ण"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-msgid "Download destination:"
-msgstr "अपभारण गंतव्य:"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-msgid "Ch~ange..."
-msgstr "बदलें..."
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-msgid "Last checked: Not yet"
-msgstr "अंतिम बार जाँचा गया: अभी तक नहीं"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-msgid "OnlineUpdate"
-msgstr "ऑनलाइनअद्यतन"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-msgid "Connection pool"
-msgstr "संयोजन पूल"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-msgid "Connection pooling enabled"
-msgstr "संयोजन पूल सक्रिय"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-msgid "Drivers known in %PRODUCTNAME"
-msgstr "%PRODUCTNAME में ड्राइवर ज्ञात"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-msgid "Current driver:"
-msgstr "वर्तमान ड्राइवर:"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-msgid "Enable pooling for this driver"
-msgstr "इस ड्राइवर के लिए पूलिंग सक्रिय करें"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-msgid "Timeout (seconds)"
-msgstr "समय की समाप्ति (सेकन्ड्स)"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-msgid "Driver name"
-msgstr "ड्राइवर नाम"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-msgid "Pool"
-msgstr "पूल"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-msgid "Timeout"
-msgstr "समय ख़त्म"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-msgid "Yes"
-msgstr "हाँ"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-msgid "No"
-msgstr "नहीं"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-msgid "Improvement Program"
-msgstr "तरक्की प्रोग्राम"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-msgid ""
-"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
-"the quality of %PRODUCTNAME.\n"
-"\n"
-"If you are willing to participate, we will collect anonymous statistics "
-"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
-"\n"
-"\n"
-"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
-"document content."
-msgstr ""
-"हम आपको %PRODUCTNAME तरक्की प्रोग्राम में %PRODUCTNAME के गुणवत्ता को अनुकूलि"
-"त करने में मदद करने के लिए शामिल होने के लिए आमंत्रित करते हैं।\n"
-"\n"
-"यदि आप भाग लेने की इच्छा रखते हैं, हम बेनामी आँकड़ा जमा करेंगे कि कैसे आप %"
-"PRODUCTNAME का प्रयोग करते हैं। आँकड़ा का प्रयोग इस्तेमाल प्रारूप को पहचानने "
-"के लिए प्रयुक्त किया जाता है।\n"
-"\n"
-"%PRODUCTNAME तरक्की प्रोग्राम किसी निजी आँकड़ा अथवा दस्तावेज़ सामग्री को नहीं"
-" जमा करता है।"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-msgid ""
-"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
-msgstr ""
-"हाँ, हम %PRODUCTNAME के तरक्की प्रोग्राम में सहभागी बनने की इच्छा रखते हैं"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-msgid "~No, I do not wish to participate"
-msgstr "नहीं, हम सहभागी बनने की इच्छा नहीं रखते हैं"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-msgid "Tracked Data"
-msgstr "नजर रखी गई आँकड़ा"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-msgid "Number of reports sent:"
-msgstr "भेजी गई प्रतिवेदनों की संख्या:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-msgid "Number of tracked actions:"
-msgstr "नजर रखी गई क्रियाओं की संख्या:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-msgid "~Show Data"
-msgstr "आँकड़ा दिखाएँ"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-msgid "Help Optimize the Quality of %PRODUCTNAME"
-msgstr "%PRODUCTNAME के गुण को अनुकूलित करने में मदद करें"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-msgid "More Information"
-msgstr "ज्यादा जानकारी"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
-msgid "%PRODUCTNAME Improvement Program"
-msgstr "%PRODUCTNAME तरक्की प्रोग्राम"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
-msgid "~Name"
-msgstr "नाम"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
 msgid "~Language"
 msgstr "भाषा"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-msgid "~Exception (-)"
-msgstr "अपवाद (-)"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
+msgid "~Default"
+msgstr "तयशुदा"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-msgid "Dictionary"
-msgstr "शब्दकोश"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+msgid "Not at start of line:"
+msgstr "रेखा के प्रारंभ में नहीं:"
 
-#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
-msgid "New Dictionary"
-msgstr "नया शब्दकोश"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+msgid "Not at end of line:"
+msgstr "रेखा के अंत में नहीं:"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-msgid "~Book"
-msgstr "पुस्तक"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+msgid "Without user-defined line break symbols"
+msgstr "बिना उपयोक्ता परिभाषित रेखा खण्डन चिन्ह"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
-msgid "~Language"
-msgstr "भाषा"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
+msgid "Proxy"
+msgstr "परोक्ष"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-msgid "~Word"
-msgstr "शब्द"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+msgid "Miscellaneous options"
+msgstr "विविध विकल्प"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-msgid "Replace ~By:"
-msgstr "के द्वारा प्रतिस्थापित करें:"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+msgid "Support ~assistive technology tools (program restart required)"
+msgstr "समर्थन सहायक तकनीकी औज़ार (प्रोग्राम पुनप्रारंभ जरूरी)"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-msgid "~New"
-msgstr "नया (~N)"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+msgid "Use te~xt selection cursor in read-only text documents"
+msgstr "पाठ चयन कर्सर को सिर्फ पढ़ने-योग्य दस्तावेज़ के रूप में प्रयोग करें"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
-msgid "~Delete"
-msgstr "मिटाएँ"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+msgid "Allow animated ~graphics"
+msgstr "संजीवित आलेखी को अनुमति दें"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-msgid "~Replace"
-msgstr "प्रतिस्थापित करें"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+msgid "Allow animated ~text"
+msgstr "संजीवित पाठ को अनुमति दें"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-msgid "~Close"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+msgid "~Help tips disappear after "
+msgstr "मदद संकेत इसके बाद ओझल हो जाता है "
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+msgid "seconds"
+msgstr "सेकन्ड"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+msgid "Options for high contrast appearance"
+msgstr "अधिक विरोधी प्रकटन के लिए विकल्प"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+msgid "Automatically ~detect high contrast mode of operating system"
+msgstr "प्रचालन तंत्र के लिए स्वतः अधिक विरोधी ढंग जाँचें"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+msgid "Use automatic font ~color for screen display"
+msgstr "स्क्रीन प्रदर्शन के लिए स्वचालित मुद्रलिपि रंग का प्रयोग करें"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+msgid "~Use system colors for page previews"
+msgstr "पृष्ठ पूर्वावलोकन के लिए तंत्र रंग का प्रयोग करें"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
+msgid "Undo"
+msgstr "पूर्ववत करें"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+msgid "Number of steps"
+msgstr "चरण की संख्या"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+msgid "Graphics cache"
+msgstr "आलेखी कैश"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+msgid "Use for %PRODUCTNAME"
+msgstr "%PRODUCTNAME के लिए प्रयोग करें"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "मे.बा."
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+msgid "Memory per object"
+msgstr "प्रति वस्तु मेमोरी"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "मे.बा."
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+msgid "Remove from memory after"
+msgstr "के बाद मेमोरी से हटाएँ"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+msgid "hh:mm"
+msgstr "घंघं:मिमि"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+msgid "Cache for inserted objects"
+msgstr "घुसाएँ वस्तुओं के लिए कैश"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+msgid "Number of objects"
+msgstr "वस्तुओं की संख्या"
+
+#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+msgid "%PRODUCTNAME Quickstarter"
+msgstr "%PRODUCTNAME द्रुत-आरंभक"
+
+#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+msgid "Load %PRODUCTNAME during system start-up"
+msgstr "%PRODUCTNAME को तंत्र प्रारंभण के समय भारित करें"
+
+#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+msgid "Enable systray Quickstarter"
+msgstr "द्रुत-आरंभक को तंत्र में सक्रिय करें"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+msgid "Web login information (passwords are never shown)"
+msgstr "वेब लॉगिन सूचना (कूटशब्द कभी नहीं दिखाया जाता है)"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+msgid "Remove"
+msgstr "हटाएँ"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+msgid "Remove All"
+msgstr "सभी हटाएँ"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+msgid "Change Password..."
+msgstr "कूटशब्द बदलें..."
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
+msgid "Close"
 msgstr "बन्द करें"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
-msgid "Edit Custom Dictionary"
-msgstr "मनपसंद शब्दकोश संपादित करें"
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+msgid "Website"
+msgstr "वेबसाइट"
 
-#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
-#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+msgid "User name"
+msgstr "उपयोक्ता नाम"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+msgid "Stored Web Connection Information"
+msgstr "जमा किया वेब संयोजन सूचना"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+msgid "~Database file"
+msgstr "डेटाबेस फ़ाइल"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+msgid "~Browse..."
+msgstr "ब्राउज़ करें..."
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+msgid "Registered ~name"
+msgstr "पंजीकृत नाम"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+msgid "Edit Database Link"
+msgstr "डेटाबेस कड़ी संपादित करें"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+msgid "Create Database Link"
+msgstr "डेटाबेस कड़ी बनाएँ"
+
+#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
 msgid ""
-"The specified name already exists.\n"
-"Please enter a new name."
+"The file\n"
+"$file$\n"
+"does not exist."
 msgstr ""
-"निर्दिष्ट नाम पहले से मौजूद है।\n"
-"कृपया नया नाम प्रविष्ट करें।"
+"फ़ाइल\n"
+"$file$\n"
+" मौजूद नहीं है।"
 
-#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
-#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
-msgid "Do you want to change the '%1' dictionary language?"
-msgstr "आप '%1' शब्दकोश भाषा को बदलना चाहते है?"
+#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+msgid ""
+"The file\n"
+"$file$\n"
+"does not exist in the local file system."
+msgstr ""
+"फ़ाइल\n"
+"$file$\n"
+"स्थानीय फ़ाइल तंत्र में मौजूद नहीं है।"
+
+#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
+#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
+msgid ""
+"The name '$file$' is already used for another database.\n"
+"Please choose a different name."
+msgstr ""
+"इस नाम का '$file$' पहले से दूसरे डेटाबेस के लिए प्रयुक्त है।\n"
+"कृपया एक भिन्न नाम को चुनें।"
+
+#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
+#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
+msgid "Do you want to delete the entry?"
+msgstr "क्या आप प्रविष्टि को मिटाना चाहते हैं?"
 
 #: optgdlg.src#OFA_TP_MISC.FL_HELP.fixedline.text
 #: optgdlg.src%23OFA_TP_MISC.FL_HELP.fixedline.text
@@ -1494,528 +2127,6 @@ msgstr ""
 "उपयोक्ता के अंतरफलक की भाषा के विन्यास को अद्यतन किया गया और प्रभावी तब होगा "
 "जब आप %PRODUCTNAME %PRODUCTVERSION को अगली बार आरंभ करते हैं।"
 
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-msgid "Size ~1"
-msgstr "आकार 1"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-msgid "Size ~2"
-msgstr "आकार 2"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-msgid "Size ~3"
-msgstr "आकार 3"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-msgid "Size ~4"
-msgstr "आकार 4"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-msgid "Size ~5"
-msgstr "आकार 5"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-msgid "Size ~6"
-msgstr "आकार 6"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-msgid "Size ~7"
-msgstr "आकार 7"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-msgid "Font sizes"
-msgstr "मुद्रलिपि आकार"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-msgid "Import"
-msgstr "आयात"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
-msgstr "संख्या के लिए '%ENGLISHUSLOCALE' स्थानीय का प्रयोग करें"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-msgid "~Import unknown HTML tags as fields"
-msgstr "अज्ञात एचटीएमएल टैगों को क्षेत्र के रूप में आयात करें"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-msgid "Ignore ~font settings"
-msgstr "मुद्रलिपि विन्यास अनदेखा करें"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-msgid "Export"
-msgstr "निर्यात"
-
-#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
-#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
-msgid "Display ~warning"
-msgstr "चेतावनी दिखाएँ"
-
-#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
-#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
-msgid "~Print layout"
-msgstr "छपाई रूपरेखा"
-
-#: opthtml.src#CB_LOCAL_GRF.checkbox.text
-#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
-msgid "~Copy local graphics to Internet"
-msgstr "स्थानीय आलेखी को अंतर्जाल में प्रतिलिपि करें"
-
-#: opthtml.src#FT_CHARSET.fixedtext.text
-#: opthtml.src%23FT_CHARSET.fixedtext.text
-msgid "Character set"
-msgstr "अक्षर समूह"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-msgid "Security warnings"
-msgstr "सुरक्षा की चेतावनी"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-msgid ""
-"Warn if document contains recorded changes, versions, hidden information or "
-"notes:"
-msgstr ""
-"चेतावनी दें अगर दस्तावेज़ में अभिलेख दस्तावेज़, संस्करण, छिपी सूचना या "
-"टिप्पणी है:"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-msgid "When saving or sending"
-msgstr "जब सहेजा व भेजा जा रहा हो"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-msgid "When signing"
-msgstr "जब हस्ताक्षरित होता है"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-msgid "When printing"
-msgstr "जब मुद्रित होता है"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-msgid "When creating PDF files"
-msgstr "PDF फ़ाइल बनाते हुए"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-msgid "Security options"
-msgstr "सुरक्षा का विकल्प"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-msgid "Remove personal information on saving"
-msgstr "सहेजने पर निजी सूचना हटाएँ"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-msgid "Recommend password protection on saving"
-msgstr "सहेजते समय सुझायी गयी कूटशब्द सुरक्षा"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-msgid "Ctrl-click required to follow hyperlinks"
-msgstr "Ctrl-click हाइपरलिंक के लिए जरूरी"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
-msgid "Security options and warnings"
-msgstr "सुरक्षा विकल्प और चेतावनी"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-msgid "~Company"
-msgstr "कंपनी"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-msgid "First/Last ~name/Initials"
-msgstr "पहला/अंतिम नाम/आरंभिक"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-msgid "Last Name/First name/Father's name/Initials"
-msgstr "अंतिम नाम/पहला नाम/पिता का नाम/आरंभिक"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-msgid "Last/First ~name/Initials"
-msgstr "अंतिम/प्रथम नाम/आरंभिक"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-msgid "~Street"
-msgstr "सड़क"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-msgid "Street/Apartment number"
-msgstr "सड़क/एपार्टमेंट संख्या"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-msgid "Zip/City"
-msgstr "पिन/नगर"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-msgid "Country/Region"
-msgstr "देश/प्रदेश"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-msgid "~Title/Position"
-msgstr "उपाधि/पद"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-msgid "Tel. (Home/Work)"
-msgstr "फोन (निवास/कार्यालय)"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-msgid "Fa~x / E-mail"
-msgstr "फैक्स / ई-मेल"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-msgid "Address "
-msgstr "पता "
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-msgid "Use data for document properties"
-msgstr "दस्तावेज़ गुणों के लिए आँकड़ा का उपयोग करें"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-msgid "City/State/Zip"
-msgstr "नगर/राज्य/पिन"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-msgid ""
-"Note that street, Zip code and city are used to generate the registration "
-"key. You will not be able to change the user data again until the "
-"registration has been carried out. Do you want to modify the user data now?"
-msgstr ""
-"सड़क, पिन कोड और नगर को पंजीयन कुंजी को उत्पन्न करने के लिए किया जाएगा। पंजी"
-"यन कार्य सफ़ल होने तक, उपयोक्ता आँकड़ा को बदल नहीं सकते है। क्या आप अभी "
-"उपयोक्ता आँकड़ा को बदलना चाहते है?"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
-msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
-msgid "User Data"
-msgstr "उपयोक्ता आँकड़ा"
-
-#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
-#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
-msgid ""
-"The User Data have been changed.\n"
-"Do you really want to change your User Data?"
-msgstr ""
-"उपयोक्ता का आँकाड़ा बदला गया है।\n"
-"क्या आप सचमुच में अपने उपयोक्ता आँकड़ा को बदलना चाहते हैं?"
-
-#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "यह विन्यास प्रशासक द्वारा संरक्षित है"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-msgid "Chart colors"
-msgstr "चार्ट रंग"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-msgid "Color table"
-msgstr "रंग सारणी"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "तयशुदा"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
-msgid "Default Colors"
-msgstr "तयशुदा रंग"
-
-#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
-#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
-msgid "Data Series $(ROW)"
-msgstr "आँकड़ा शृंखला $(ROW)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-msgid "Treat as equal"
-msgstr "समान रूप में व्यवहार करें"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-msgid "~uppercase/lowercase"
-msgstr "अपरकेस/लोअरकेस"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-msgid "~full-width/half-width forms"
-msgstr "पूरी-चौड़ाई/आधा-चौड़ाई फ़ॉर्म"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-msgid "~hiragana/katakana"
-msgstr "हिरागाना/कटकाना"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-msgid "~contractions (yo-on, sokuon)"
-msgstr "सिकुड़न (yo-on, sokuon)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-msgid "~minus/dash/cho-on"
-msgstr "घटाव/डॉश/cho-on"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-msgid "'re~peat character' marks"
-msgstr "'दुहराने का वर्ण' चिह्न"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-msgid "~variant-form kanji (itaiji)"
-msgstr "परिवर्ती-रुप कांजी (इटाइजि)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-msgid "~old Kana forms"
-msgstr "पुराना काना प्रपत्र"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-msgid "~di/zi, du/zu"
-msgstr "~di/zi, du/zu"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-msgid "~ba/va, ha/fa"
-msgstr "~ba/va, ha/fa"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-msgid "~tsi/thi/chi, dhi/zi"
-msgstr "~tsi/thi/chi, dhi/zi"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-msgid "h~yu/fyu, byu/vyu"
-msgstr "h~yu/fyu, byu/vyu"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-msgid "~se/she, ze/je"
-msgstr "~se/she, ze/je"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-msgid "~ia/iya (piano/piyano)"
-msgstr "~ia/iya (piano/piyano)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-msgid "~ki/ku (tekisuto/tekusuto)"
-msgstr "~ki/ku (tekisuto/tekusuto)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-msgid "Prolon~ged vowels (ka-/kaa)"
-msgstr "लंबा स्वर (ka-/kaa)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-msgid "Ignore"
-msgstr "नज़रअंदाज़ करें"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-msgid "Pu~nctuation characters"
-msgstr "विराम चिह्न वर्ण"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-msgid "~Whitespace characters"
-msgstr "खाली स्थान वर्ण"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-msgid "Midd~le dots"
-msgstr "मध्य बिन्दु"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
-msgid "Searching in Japanese"
-msgstr "जपानी में खोज"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-msgid "~Database file"
-msgstr "डेटाबेस फ़ाइल"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-msgid "~Browse..."
-msgstr "ब्राउज़ करें..."
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-msgid "Registered ~name"
-msgstr "पंजीकृत नाम"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-msgid "Edit Database Link"
-msgstr "डेटाबेस कड़ी संपादित करें"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-msgid "Create Database Link"
-msgstr "डेटाबेस कड़ी बनाएँ"
-
-#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist."
-msgstr ""
-"फ़ाइल\n"
-"$file$\n"
-" मौजूद नहीं है।"
-
-#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist in the local file system."
-msgstr ""
-"फ़ाइल\n"
-"$file$\n"
-"स्थानीय फ़ाइल तंत्र में मौजूद नहीं है।"
-
-#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
-#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
-msgid ""
-"The name '$file$' is already used for another database.\n"
-"Please choose a different name."
-msgstr ""
-"इस नाम का '$file$' पहले से दूसरे डेटाबेस के लिए प्रयुक्त है।\n"
-"कृपया एक भिन्न नाम को चुनें।"
-
-#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
-#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
-msgid "Do you want to delete the entry?"
-msgstr "क्या आप प्रविष्टि को मिटाना चाहते हैं?"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-msgid "Sequence checking"
-msgstr "शृंखला जाँच"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-msgid "Use se~quence checking"
-msgstr "शृंखला जाँच प्रयोग करें"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-msgid "Restricted"
-msgstr "प्रतिबंधित"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-msgid "~Type and replace"
-msgstr "प्रकार व प्रतिस्थापन"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-msgid "Cursor control"
-msgstr "कर्सर नियंत्रण"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-msgid "Movement"
-msgstr "गति"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-msgid "Lo~gical"
-msgstr "तार्किक"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-msgid "~Visual"
-msgstr "दृश्य"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-msgid "General options"
-msgstr "सामान्य विकल्प"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-msgid "~Numerals"
-msgstr "सांख्यिक"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-msgid "Arabic"
-msgstr "अरबी"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-msgid "Hindi"
-msgstr "हिन्दी"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
-msgid "System"
-msgstr "तंत्र"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-msgid "Context"
-msgstr "संदर्भ"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
-msgid "Complex Text Layout"
-msgstr "जटिल पाठ रूपरेखा"
-
 #: optjava.src#RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 #: optjava.src%23RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 msgid "Java options"
@@ -2179,385 +2290,246 @@ msgstr ""
 " हो सके।\n"
 "कृपया %PRODUCTNAME को पुनारंभ करें।"
 
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-msgid "Default text direction"
-msgstr "तयशुदा पाठ दिशा"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-msgid "~Left-to-right"
-msgstr "बायें से दायें"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-msgid "~Right-to-left"
-msgstr "दाहिना से बायाँ"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-msgid "Sheet view"
-msgstr "शीट दृश्य"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-msgid "Right-~to-left"
-msgstr "दाहिना से बायाँ"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-msgid "~Current document only"
-msgstr "सिर्फ मौजूदा दस्तावेज़"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-msgid "Color scheme"
-msgstr "रंग योजना"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-msgid "Scheme"
-msgstr "योजना"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-msgid "Save..."
-msgstr "सहेजें..."
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
-msgid "Delete"
-msgstr "मिटाएँ"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-msgid "Custom colors"
-msgstr "मनपसंद रंग"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-msgid "On"
-msgstr "चालू"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-msgid "User interface elements"
-msgstr "उपयोक्ता अंतरफलक तत्व"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-msgid "Color setting"
-msgstr "रंग विन्यास"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-msgid "Preview"
-msgstr "पूर्वावलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
-msgid "General"
-msgstr "सामान्य"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-msgid "Document background"
-msgstr "दस्तावेज़ पृष्ठभूमि"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-msgid "Text boundaries"
-msgstr "पाठ सीमा"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-msgid "Application background"
-msgstr "अनुप्रयोग पृष्ठभूमि"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-msgid "Object boundaries"
-msgstr "वस्तु सीमा"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-msgid "Table boundaries"
-msgstr "सारणी सीमा"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-msgid "Font color"
-msgstr "मुद्रलिपि रंग"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-msgid "Unvisited links"
-msgstr "न देखा गया कड़ी"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-msgid "Visited links"
-msgstr "देखा कड़ी"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-msgid "AutoSpellcheck"
-msgstr "स्वतः हिज्जे जाँच"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-msgid "Smart Tags"
-msgstr "स्मार्ट टैग"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-msgid "Text Document"
-msgstr "पाठ दस्तावेज़"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
-msgid "Grid"
-msgstr "जाली"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-msgid "Field shadings"
-msgstr "छायांकन क्षेत्र"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-msgid "Index and table shadings"
-msgstr "सूची व सारणी छायांकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-msgid "Script indicator"
-msgstr "स्क्रिप्ट संकेतक"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-msgid "Section boundaries"
-msgstr "सीमा चयनक"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-msgid "Page and column breaks"
-msgstr "पृष्ठ व स्तंभ खण्डन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-msgid "Direct cursor"
-msgstr "सीधा कर्सर"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-msgid "HTML Document"
-msgstr "एचटीएमएल दस्तावेज़"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-msgid "SGML syntax highlighting"
-msgstr "SGML सिंटेक्स आलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-msgid "Comment highlighting"
-msgstr "टिप्पणी आलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-msgid "Keyword highlighting"
-msgstr "कुंजीपटल आलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-msgid "Text"
-msgstr "पाठ"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
-msgid "Spreadsheet"
-msgstr "स्प्रेडशीट"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-msgid "Grid lines"
-msgstr "जाल रेखा"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-msgid "Page breaks"
-msgstr "पृष्ठ खण्डन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-msgid "Manual page breaks"
-msgstr "दस्ती पृष्ठ खण्डन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-msgid "Automatic page breaks"
-msgstr "स्वतःपृष्ठ खण्डन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-msgid "Detective"
-msgstr "ख़ुफिया"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-msgid "Detective error"
-msgstr "ख़ुफिया त्रुटि"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-msgid "References"
-msgstr "संदर्भ"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-msgid "Notes background"
-msgstr "नोट पृष्ठभूमि"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-msgid "Drawing / Presentation"
-msgstr "आरेख / प्रस्तुति"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
-msgid "Grid"
-msgstr "जाली"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-msgid "Basic Syntax Highlighting"
-msgstr "मूल सिंटेक्स आलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "पहचानकर्ता"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "संख्या"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
-msgid "String"
-msgstr "स्ट्रिंग"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "प्रचालक"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-msgid "Reserved expression"
-msgstr "उल्टा व्यंजक"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-msgid "Error"
-msgstr "त्रुटि"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-msgid "SQL Syntax Highlighting"
-msgstr "एसक्वीएल वाक्यरचना आलोकन"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "पहचानकर्ता"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "संख्या"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
-msgid "String"
-msgstr "स्ट्रिंग"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "प्रचालक"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-msgid "Keyword"
-msgstr "मुख्यशब्द"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-msgid "Parameter"
-msgstr "प्राचल"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-msgid "Colorsettings of the Extensions"
-msgstr "विस्तारक के लिए रंग विन्यास"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-msgid "Spell check highlighting"
-msgstr "हिज्जे जाँच उभारना"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-msgid "Grammar check highlighting"
-msgstr "व्याकरण जाँच को उभारना"
-
-#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-msgid "Do you really want to delete the color scheme?"
-msgstr "क्या आप वास्तव में रंग योजना मिटाना चाहते हैं?"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-msgid "Color Scheme Deletion"
-msgstr "रंग योजना विलोपन"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-msgid "Save scheme"
-msgstr "योजना सहेजें"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-msgid "Name of color scheme"
-msgstr "रंग योजना का नाम"
+#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "यह विन्यास प्रशासक द्वारा संरक्षित है"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+msgid "Size ~1"
+msgstr "आकार 1"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+msgid "Size ~2"
+msgstr "आकार 2"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+msgid "Size ~3"
+msgstr "आकार 3"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+msgid "Size ~4"
+msgstr "आकार 4"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+msgid "Size ~5"
+msgstr "आकार 5"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+msgid "Size ~6"
+msgstr "आकार 6"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+msgid "Size ~7"
+msgstr "आकार 7"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+msgid "Font sizes"
+msgstr "मुद्रलिपि आकार"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+msgid "Import"
+msgstr "आयात"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
+msgstr "संख्या के लिए '%ENGLISHUSLOCALE' स्थानीय का प्रयोग करें"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+msgid "~Import unknown HTML tags as fields"
+msgstr "अज्ञात एचटीएमएल टैगों को क्षेत्र के रूप में आयात करें"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+msgid "Ignore ~font settings"
+msgstr "मुद्रलिपि विन्यास अनदेखा करें"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+msgid "Export"
+msgstr "निर्यात"
+
+#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
+#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
+msgid "Display ~warning"
+msgstr "चेतावनी दिखाएँ"
+
+#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
+#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
+msgid "~Print layout"
+msgstr "छपाई रूपरेखा"
+
+#: opthtml.src#CB_LOCAL_GRF.checkbox.text
+#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
+msgid "~Copy local graphics to Internet"
+msgstr "स्थानीय आलेखी को अंतर्जाल में प्रतिलिपि करें"
+
+#: opthtml.src#FT_CHARSET.fixedtext.text
+#: opthtml.src%23FT_CHARSET.fixedtext.text
+msgid "Character set"
+msgstr "अक्षर समूह"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+msgid "Connection pool"
+msgstr "संयोजन पूल"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+msgid "Connection pooling enabled"
+msgstr "संयोजन पूल सक्रिय"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+msgid "Drivers known in %PRODUCTNAME"
+msgstr "%PRODUCTNAME में ड्राइवर ज्ञात"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+msgid "Current driver:"
+msgstr "वर्तमान ड्राइवर:"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+msgid "Enable pooling for this driver"
+msgstr "इस ड्राइवर के लिए पूलिंग सक्रिय करें"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+msgid "Timeout (seconds)"
+msgstr "समय की समाप्ति (सेकन्ड्स)"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+msgid "Driver name"
+msgstr "ड्राइवर नाम"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+msgid "Pool"
+msgstr "पूल"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+msgid "Timeout"
+msgstr "समय ख़त्म"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+msgid "Yes"
+msgstr "हाँ"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+msgid "No"
+msgstr "नहीं"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+msgid "~Company"
+msgstr "कंपनी"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+msgid "First/Last ~name/Initials"
+msgstr "पहला/अंतिम नाम/आरंभिक"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+msgid "Last Name/First name/Father's name/Initials"
+msgstr "अंतिम नाम/पहला नाम/पिता का नाम/आरंभिक"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+msgid "Last/First ~name/Initials"
+msgstr "अंतिम/प्रथम नाम/आरंभिक"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+msgid "~Street"
+msgstr "सड़क"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+msgid "Street/Apartment number"
+msgstr "सड़क/एपार्टमेंट संख्या"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+msgid "Zip/City"
+msgstr "पिन/नगर"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+msgid "Country/Region"
+msgstr "देश/प्रदेश"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+msgid "~Title/Position"
+msgstr "उपाधि/पद"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+msgid "Tel. (Home/Work)"
+msgstr "फोन (निवास/कार्यालय)"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+msgid "Fa~x / E-mail"
+msgstr "फैक्स / ई-मेल"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+msgid "Address "
+msgstr "पता "
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+msgid "Use data for document properties"
+msgstr "दस्तावेज़ गुणों के लिए आँकड़ा का उपयोग करें"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+msgid "City/State/Zip"
+msgstr "नगर/राज्य/पिन"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+msgid ""
+"Note that street, Zip code and city are used to generate the registration "
+"key. You will not be able to change the user data again until the "
+"registration has been carried out. Do you want to modify the user data now?"
+msgstr ""
+"सड़क, पिन कोड और नगर को पंजीयन कुंजी को उत्पन्न करने के लिए किया जाएगा। पंजी"
+"यन कार्य सफ़ल होने तक, उपयोक्ता आँकड़ा को बदल नहीं सकते है। क्या आप अभी "
+"उपयोक्ता आँकड़ा को बदलना चाहते है?"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
+msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
+msgid "User Data"
+msgstr "उपयोक्ता आँकड़ा"
+
+#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
+#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
+msgid ""
+"The User Data have been changed.\n"
+"Do you really want to change your User Data?"
+msgstr ""
+"उपयोक्ता का आँकाड़ा बदला गया है।\n"
+"क्या आप सचमुच में अपने उपयोक्ता आँकड़ा को बदलना चाहते हैं?"
 
 #: treeopt.src#RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
 #: treeopt.src%23RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
@@ -3152,45 +3124,35 @@ msgstr "साइट प्रमाणपत्र"
 msgid "Personal certificates"
 msgstr "वैयक्तिक प्रमाणपत्र"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-msgid "Registered name"
-msgstr "पंजीकृत नाम"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+msgid "Default text direction"
+msgstr "तयशुदा पाठ दिशा"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-msgid "Database file"
-msgstr "डेटाबेस फ़ाइल"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+msgid "~Left-to-right"
+msgstr "बायें से दायें"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
-msgid "~New..."
-msgstr "नया (~N)..."
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+msgid "~Right-to-left"
+msgstr "दाहिना से बायाँ"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "संपादन..."
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+msgid "Sheet view"
+msgstr "शीट दृश्य"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "मिटाएँ"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+msgid "Right-~to-left"
+msgstr "दाहिना से बायाँ"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
-msgid "Registered databases"
-msgstr "पंजीकृत डेटाबेस"
-
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
-msgid "Registered databases"
-msgstr "पंजीकृत डेटाबेस"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+msgid "~Current document only"
+msgstr "सिर्फ मौजूदा दस्तावेज़"
 
 #: optspell.src#RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
 #: optspell.src%23RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
@@ -3228,6 +3190,359 @@ msgstr "जाँच"
 #: optspell.src%23RID_SFXPAGE_SPELL.tabpage.text
 msgid "Spellcheck"
 msgstr "वर्तनी जाँच"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+msgid "Microsoft Word 97/2000/XP"
+msgstr "Microsoft Word 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+msgid "Load Basic ~code"
+msgstr "बेसिक कोड भारित करें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+msgid "Save ~original Basic code"
+msgstr "मौलिक बेसिक कोड को सहेजें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+msgid "Microsoft Excel 97/2000/XP"
+msgstr "Microsoft Excel 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+msgid "Lo~ad Basic code"
+msgstr "बेसिक कोड लोड करें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+msgid "E~xecutable code"
+msgstr "निष्पादनीय कोड"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+msgid "Sa~ve original Basic code"
+msgstr "मौलिक बेसिक कोड को सहेजें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+msgid "Microsoft PowerPoint 97/2000/XP"
+msgstr "Microsoft PowerPoint 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+msgid "Load Ba~sic code"
+msgstr "बेसिक कोड भारित करें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+msgid "Sav~e original Basic code"
+msgstr "मौलिक बेसिक कोड को सहेजें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+msgid "[L]"
+msgstr "[L]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+msgid "[S]"
+msgstr "[S]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+msgid "[L]: Load and convert the object"
+msgstr "[L]: वस्तु को भारित करें और बदलें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+msgid "[S]: Convert and save the object"
+msgstr "[S]: वस्तु रूपांतरित करें व सहेजें"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+msgid "MathType to %PRODUCTNAME Math or reverse"
+msgstr "MathType to %PRODUCTNAME गणित या उल्टा"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+msgid "Word to %PRODUCTNAME Writer or reverse"
+msgstr "Word को %PRODUCTNAME लेखक या उल्टा"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+msgid "Excel to %PRODUCTNAME Calc or reverse"
+msgstr "एक्शेल को %PRODUCTNAME Calc या उल्टा"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
+msgstr "प्रस्तुती को %PRODUCTNAME इम्प्रेश या उल्टा"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+msgid "~Apply replacement table"
+msgstr "प्रतिस्थापन सारणी लागू करें"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+msgid "~Font"
+msgstr "मुद्रलिपि"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+msgid "Re~place with"
+msgstr "से बदलें"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "लागू करें"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
+msgid "Delete"
+msgstr "मिटाएँ"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+msgid "Font settings for HTML, Basic and SQL sources"
+msgstr "एचटीएमएल और बेसिक स्रोत के लिए मुद्रलिपि का विन्यास"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
+msgid "Fonts"
+msgstr "मुद्रलिपि"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+msgid "Non-proportional fonts only"
+msgstr "सिर्फ गैर आनुपातिक मुद्रलिपि"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+msgid "~Size"
+msgstr "आकार"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+msgid "Always"
+msgstr "हमेशा"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+msgid "Screen only"
+msgstr "सिर्फ स्क्रीन"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+msgid "Font"
+msgstr "मुद्रलिपि"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+msgid "Replace with"
+msgstr "से बदलें"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+msgid "Chart colors"
+msgstr "चार्ट रंग"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+msgid "Color table"
+msgstr "रंग सारणी"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "तयशुदा"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
+msgid "Default Colors"
+msgstr "तयशुदा रंग"
+
+#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
+#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
+msgid "Data Series $(ROW)"
+msgstr "आँकड़ा शृंखला $(ROW)"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
+msgid "~Name"
+msgstr "नाम"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "भाषा"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+msgid "~Exception (-)"
+msgstr "अपवाद (-)"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+msgid "Dictionary"
+msgstr "शब्दकोश"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
+msgid "New Dictionary"
+msgstr "नया शब्दकोश"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+msgid "~Book"
+msgstr "पुस्तक"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "भाषा"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+msgid "~Word"
+msgstr "शब्द"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+msgid "Replace ~By:"
+msgstr "के द्वारा प्रतिस्थापित करें:"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+msgid "~New"
+msgstr "नया (~N)"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
+msgid "~Delete"
+msgstr "मिटाएँ"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+msgid "~Replace"
+msgstr "प्रतिस्थापित करें"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+msgid "~Close"
+msgstr "बन्द करें"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
+msgid "Edit Custom Dictionary"
+msgstr "मनपसंद शब्दकोश संपादित करें"
+
+#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+msgid ""
+"The specified name already exists.\n"
+"Please enter a new name."
+msgstr ""
+"निर्दिष्ट नाम पहले से मौजूद है।\n"
+"कृपया नया नाम प्रविष्ट करें।"
+
+#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
+#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
+msgid "Do you want to change the '%1' dictionary language?"
+msgstr "आप '%1' शब्दकोश भाषा को बदलना चाहते है?"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+msgid "Improvement Program"
+msgstr "तरक्की प्रोग्राम"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+msgid ""
+"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
+"the quality of %PRODUCTNAME.\n"
+"\n"
+"If you are willing to participate, we will collect anonymous statistics "
+"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
+"\n"
+"\n"
+"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
+"document content."
+msgstr ""
+"हम आपको %PRODUCTNAME तरक्की प्रोग्राम में %PRODUCTNAME के गुणवत्ता को अनुकूलि"
+"त करने में मदद करने के लिए शामिल होने के लिए आमंत्रित करते हैं।\n"
+"\n"
+"यदि आप भाग लेने की इच्छा रखते हैं, हम बेनामी आँकड़ा जमा करेंगे कि कैसे आप %"
+"PRODUCTNAME का प्रयोग करते हैं। आँकड़ा का प्रयोग इस्तेमाल प्रारूप को पहचानने "
+"के लिए प्रयुक्त किया जाता है।\n"
+"\n"
+"%PRODUCTNAME तरक्की प्रोग्राम किसी निजी आँकड़ा अथवा दस्तावेज़ सामग्री को नहीं"
+" जमा करता है।"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+msgid ""
+"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
+msgstr ""
+"हाँ, हम %PRODUCTNAME के तरक्की प्रोग्राम में सहभागी बनने की इच्छा रखते हैं"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+msgid "~No, I do not wish to participate"
+msgstr "नहीं, हम सहभागी बनने की इच्छा नहीं रखते हैं"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+msgid "Tracked Data"
+msgstr "नजर रखी गई आँकड़ा"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+msgid "Number of reports sent:"
+msgstr "भेजी गई प्रतिवेदनों की संख्या:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+msgid "Number of tracked actions:"
+msgstr "नजर रखी गई क्रियाओं की संख्या:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+msgid "~Show Data"
+msgstr "आँकड़ा दिखाएँ"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+msgid "Help Optimize the Quality of %PRODUCTNAME"
+msgstr "%PRODUCTNAME के गुण को अनुकूलित करने में मदद करें"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+msgid "More Information"
+msgstr "ज्यादा जानकारी"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
+msgid "%PRODUCTNAME Improvement Program"
+msgstr "%PRODUCTNAME तरक्की प्रोग्राम"
 
 #: optpath.src#RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
 #: optpath.src%23RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
@@ -3392,322 +3707,3 @@ msgstr "स्वयं ठीक करें"
 msgctxt "optpath.src#RID_SVXSTR_KEY_LINGUISTIC_DIR.string.text"
 msgid "Writing aids"
 msgstr "लेखन सहायक"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-msgid "Microsoft Word 97/2000/XP"
-msgstr "Microsoft Word 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-msgid "Load Basic ~code"
-msgstr "बेसिक कोड भारित करें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-msgid "Save ~original Basic code"
-msgstr "मौलिक बेसिक कोड को सहेजें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-msgid "Microsoft Excel 97/2000/XP"
-msgstr "Microsoft Excel 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-msgid "Lo~ad Basic code"
-msgstr "बेसिक कोड लोड करें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-msgid "E~xecutable code"
-msgstr "निष्पादनीय कोड"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-msgid "Sa~ve original Basic code"
-msgstr "मौलिक बेसिक कोड को सहेजें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-msgid "Microsoft PowerPoint 97/2000/XP"
-msgstr "Microsoft PowerPoint 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-msgid "Load Ba~sic code"
-msgstr "बेसिक कोड भारित करें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-msgid "Sav~e original Basic code"
-msgstr "मौलिक बेसिक कोड को सहेजें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-msgid "[L]"
-msgstr "[L]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-msgid "[S]"
-msgstr "[S]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-msgid "[L]: Load and convert the object"
-msgstr "[L]: वस्तु को भारित करें और बदलें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-msgid "[S]: Convert and save the object"
-msgstr "[S]: वस्तु रूपांतरित करें व सहेजें"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-msgid "MathType to %PRODUCTNAME Math or reverse"
-msgstr "MathType to %PRODUCTNAME गणित या उल्टा"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-msgid "Word to %PRODUCTNAME Writer or reverse"
-msgstr "Word को %PRODUCTNAME लेखक या उल्टा"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-msgid "Excel to %PRODUCTNAME Calc or reverse"
-msgstr "एक्शेल को %PRODUCTNAME Calc या उल्टा"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
-msgstr "प्रस्तुती को %PRODUCTNAME इम्प्रेश या उल्टा"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-msgid "Kerning"
-msgstr "रिक्ति समायोजन"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-msgid "~Western characters only"
-msgstr "केवल पाश्चात्य वर्ण"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-msgid "Western ~text and Asian punctuation"
-msgstr "पाश्चात्य पाठ और ऐशियाई विराम-चिह्न"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-msgid "Character spacing"
-msgstr "अक्षर अंतरण"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-msgid "~No compression"
-msgstr "कोई संकुचन नहीं"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-msgid "~Compress punctuation only"
-msgstr "केवल विराम-चिह्न संकुचित करें"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-msgid "Compress ~punctuation and Japanese Kana"
-msgstr "विराम-चिह्न और जपानी काना को संकुचित करें"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-msgid "First and last characters"
-msgstr "प्रारंभिक व अंतिम वर्ण"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
-msgid "~Language"
-msgstr "भाषा"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
-msgid "~Default"
-msgstr "तयशुदा"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-msgid "Not at start of line:"
-msgstr "रेखा के प्रारंभ में नहीं:"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-msgid "Not at end of line:"
-msgstr "रेखा के अंत में नहीं:"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-msgid "Without user-defined line break symbols"
-msgstr "बिना उपयोक्ता परिभाषित रेखा खण्डन चिन्ह"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
-msgid "Proxy"
-msgstr "परोक्ष"
-
-#: optsave.src#TEXT_SAVEPAGE.#define.text
-#: optsave.src%23TEXT_SAVEPAGE.%23define.text
-msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
-msgid "Save"
-msgstr "सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-msgid "Load"
-msgstr "भारित करें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-msgid "Load user-specific settings with the document"
-msgstr "दस्तावेज़ के साथ उपयोक्ता-निर्दिष्ट विन्यास को भारित करें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-msgid "Load printer settings with the document"
-msgstr "दस्तावेज़ के साथ मुद्रक विन्यास को भारित करें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
-msgid "Save"
-msgstr "सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-msgid "~Edit document properties before saving"
-msgstr "संचित करने से पहले दस्तावेज़ विशषताओं का संपादन करें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-msgid "Al~ways create backup copy"
-msgstr "हमेशा बैकअप प्रतिलिपि बनाएँ"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-msgid "Save ~AutoRecovery information every"
-msgstr "हर स्वप्राप्ति सूचना को सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-msgid "Minutes"
-msgstr "मिनट"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-msgid "Save URLs relative to file system"
-msgstr "फ़ाइल तंत्र के सापेक्ष URL सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-msgid "Save URLs relative to internet"
-msgstr "अंतर्जाल के सापेक्ष URL सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-msgid "Default file format and ODF settings"
-msgstr "तयशुदा फ़ाइल प्रारूप और ODF विन्यास"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-msgid "ODF format version"
-msgstr "ODF प्रारूप संस्करण"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-msgid "1.0/1.1"
-msgstr "1.0/1.1"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-msgid "1.2"
-msgstr "1.2"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-msgid "1.2 Extended (recommended)"
-msgstr "1.2 विस्तारित (अनुशंसित)"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-msgid "Enable AES-256 encryption (ODF 1.2)"
-msgstr "AES-256 गुढिकरण (ODF 1.2) लागू करें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-msgid "Size optimization for ODF format"
-msgstr "ODF प्रारूप के लिए आकार अनुकूलन"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-msgid "Warn when not saving in ODF or default format"
-msgstr "चेतावनी दें जब ODF अथवा तयशुदा प्रारूप में नहीं सहेज रहा हो"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-msgid "D~ocument type"
-msgstr "दस्तावेज़ प्रकार"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-msgid "Always sa~ve as"
-msgstr "हमेशा ऐसे सहेजें"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-msgid "Text document"
-msgstr "पाठ दस्तावेज़"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-msgid "HTML document"
-msgstr "एचटीएमएल दस्तावेज़"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-msgid "Master document"
-msgstr "मुख्य दस्तावेज़"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
-msgid "Spreadsheet"
-msgstr "स्प्रेडशीट"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-msgid "Presentation"
-msgstr "प्रस्तुति"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-msgid "Drawing"
-msgstr "रेखाचित्र"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-msgid "Formula"
-msgstr "सूत्र"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-msgid "Not using ODF 1.2 Extended may cause information to be lost."
-msgstr ""
-"ODF 1.2 विस्तारित का प्रयोग नहीं करना सूचना के नष्ट होने का कारण बन सकता है।"
-
-#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-msgid "Using \"%1\" as default file format may cause information loss.\n"
-msgstr ""
-"\"%1\" को तयशुदा फ़ाइल प्रारूप के रूप में प्रयोग करने से सूचना नष्ट हो सकता "
-"है।\n"

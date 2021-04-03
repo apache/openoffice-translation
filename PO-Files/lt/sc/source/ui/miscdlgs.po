@@ -5,20 +5,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fmiscdlgs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-04-30 11:30+0000\n"
-"Last-Translator: Aivaras Stepukonis <astepukonis@gmail.com>\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
+"PO-Revision-Date: 2019-08-23 17:43+0000\n"
+"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: Aivaras Stepukonis <astepukonis@apache.org>\n"
-"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1588246212.000000\n"
 
 #: sharedocdlg.src#RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
 #: sharedocdlg.src%23RID_SCDLG_SHAREDOCUMENT.CB_SHARE.checkbox.text
@@ -33,7 +29,7 @@ msgid ""
 "drawing objects are not available in shared mode. Turn off shared mode to "
 "get exclusive access needed for those changes and functionalities."
 msgstr ""
-"Įsidėmėtina, kad bendrinimo veiksenoje negalimos formavimo požymių (šriftų, "
+"Prierašas: bendrinimo veiksenoje negalimos formavimo požymių (šriftų, "
 "spalvų, skaitmens formatų ir pan.) pataisos ir kai kurios priemonės ("
 "diagramų taisymas, objektų braižymas ir pan.). Išjungę bendrinimo veikseną, "
 "įgysite reikalingą išskirtinę kreipties į minėtas pataisas ir priemones "
@@ -111,6 +107,120 @@ msgstr "Mažinti arba didinti"
 #: highred.src%23RID_SCDLG_HIGHLIGHT_CHANGES.modelessdialog.text
 msgid "Show Changes"
 msgstr "Rodyti pataisas"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+msgid ""
+"There are conflicting changes in this shared spreadsheet. Conflicts must be "
+"resolved before saving the spreadsheet. Keep either own or other changes."
+msgstr ""
+"Šioje bendroje skaičiuotėje yra nesuderinamų pataisų. Skaičiuotę galima "
+"saugoti, tik išsprendus nesuderinamumus. Galima saugoti arba savo, arba kitų "
+"pastabas."
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
+msgid "Keep ~Mine"
+msgstr "Saugoti savo"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
+msgid "Keep ~Other"
+msgstr "Saugoti kitų"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
+msgid "~Keep All Mine"
+msgstr "Saugoti visas savo"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
+msgid "Keep ~All Others"
+msgstr "Saugoti visas kitų"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
+msgid "Conflict"
+msgstr "Nesuderinamumas"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text"
+msgid "Author"
+msgstr "Autorius"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text"
+msgid "Date"
+msgstr "Data"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
+msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text"
+msgid "Unknown User"
+msgstr "Nežinomas naudotojas"
+
+#: conflictsdlg.src#RID_SCDLG_CONFLICTS.modaldialog.text
+#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.modaldialog.text
+msgid "Resolve Conflicts"
+msgstr "Išspręsti nesuderinamumus"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
+msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
+msgid "Position"
+msgstr "Padėtis"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
+msgid "B~efore current sheet"
+msgstr "Prieš esamą lakštą"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
+msgid "~After current sheet"
+msgstr "Po esamo lakšto"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
+msgid "Sheet"
+msgstr "Lakštas"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
+msgid "~New sheet"
+msgstr "Naujas lakštas"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
+msgid "N~o. of sheets"
+msgstr "Lakštų skaičius"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
+msgid "Na~me"
+msgstr "Pavadinimas"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
+msgid "~From file"
+msgstr "Iš bylos"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
+msgid "~Browse..."
+msgstr "Naršyti…"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
+msgid "Lin~k"
+msgstr "Sieti"
+
+#: instbdlg.src#RID_SCDLG_INSERT_TABLE.modaldialog.text
+#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
+msgid "Insert Sheet"
+msgstr "Terpti lakštą"
 
 #: retypepassdlg.src#RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
 #: retypepassdlg.src%23RID_SCDLG_RETYPEPASS.FT_DESC.fixedtext.text
@@ -277,94 +387,47 @@ msgctxt "retypepassdlg.src#RID_SCDLG_RETYPEPASS_INPUT.modaldialog.text"
 msgid "Re-type Password"
 msgstr "Įvesti iš naujo slaptažodį"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text
-msgctxt "instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_POSITION.fixedline.text"
-msgid "Position"
-msgstr "Padėtis"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
+msgid "P~rotect this sheet and the contents of locked cells"
+msgstr "Apsaugoti šį lakštą ir užsklęstų langelių turinį"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEFORE.radiobutton.text
-msgid "B~efore current sheet"
-msgstr "Prieš esamą lakštą"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
+msgid "~Password"
+msgstr "Slaptažodis"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_BEHIND.radiobutton.text
-msgid "~After current sheet"
-msgstr "Po esamo lakšto"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
+msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
+msgid "~Confirm"
+msgstr "Kartoti"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FL_TABLE.fixedline.text
-msgid "Sheet"
-msgstr "Lakštas"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
+msgid "Options"
+msgstr "Nuostatos"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_NEW.radiobutton.text
-msgid "~New sheet"
-msgstr "Naujas lakštas"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
+msgid "Allow all users of this sheet to:"
+msgstr "Visiems šio lakšto naudotojams leisti:"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_COUNT.fixedtext.text
-msgid "N~o. of sheets"
-msgstr "Lakštų skaičius"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
+msgid "Select locked cells"
+msgstr "Žymėti užsklęstus langelius"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.FT_NAME.fixedtext.text
-msgid "Na~me"
-msgstr "Pavadinimas"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
+msgid "Select unlocked cells"
+msgstr "Žymėti neužsklęstus langelius"
 
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.RB_FROMFILE.radiobutton.text
-msgid "~From file"
-msgstr "Iš bylos"
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.BTN_BROWSE.pushbutton.text
-msgid "~Browse..."
-msgstr "Naršyti…"
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.CB_LINK.checkbox.text
-msgid "Lin~k"
-msgstr "Sieti"
-
-#: instbdlg.src#RID_SCDLG_INSERT_TABLE.modaldialog.text
-#: instbdlg.src%23RID_SCDLG_INSERT_TABLE.modaldialog.text
-msgid "Insert Sheet"
-msgstr "Terpti lakštą"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
-msgid "URL of ~external data source"
-msgstr "Išorinio duomenų šaltinio URL"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
-msgid ""
-"(Enter the URL of the source document in the local file system or Internet "
-"here.)"
-msgstr ""
-"(Įveskite pirminio dokumento URL vietinėje bylų sistemoje arba internete.)"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
-msgid "~Available tables/ranges"
-msgstr "Galimos lentelės arba rėžiai"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
-msgid "~Update every"
-msgstr "Naujinti kas"
-
-#: linkarea.src#RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
-msgid "seconds"
-msgstr "sek."
-
-#: linkarea.src#RID_SCDLG_LINKAREA.modaldialog.text
-#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
-msgid "External Data"
-msgstr "Išoriniai duomenys"
+#: protectiondlg.src#RID_SCDLG_TABPROTECTION.modaldialog.text
+#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
+msgid "Protect Sheet"
+msgstr "Apsaugoti lakštą"
 
 #: acredlin.src#RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
 #: acredlin.src%23RID_SCDLG_CHANGES.FT_ASSIGN.fixedtext.text
@@ -508,102 +571,35 @@ msgstr "Aprašas"
 msgid "Sorting"
 msgstr "Rikiavimas"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.FT_CONFLICTS.fixedtext.text
+#: linkarea.src#RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FL_LOCATION.fixedline.text
+msgid "URL of ~external data source"
+msgstr "Išorinio duomenų šaltinio URL"
+
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_HINT.fixedtext.text
 msgid ""
-"There are conflicting changes in this shared spreadsheet. Conflicts must be "
-"resolved before saving the spreadsheet. Keep either own or other changes."
+"(Enter the URL of the source document in the local file system or Internet "
+"here.)"
 msgstr ""
-"Šioje bendroje skaičiuotėje yra nesuderinamų pataisų. Skaičiuotę galima "
-"saugoti, tik išsprendus nesuderinamumus. Galima saugoti arba savo, arba kitų "
-"pastabas."
+"(Įveskite pirminio dokumento URL vietinėje bylų sistemoje arba internete.)"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPMINE.pushbutton.text
-msgid "Keep ~Mine"
-msgstr "Saugoti savo"
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_RANGES.fixedtext.text
+msgid "~Available tables/ranges"
+msgstr "Galimos lentelės arba rėžiai"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPOTHER.pushbutton.text
-msgid "Keep ~Other"
-msgstr "Saugoti kitų"
+#: linkarea.src#RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.BTN_RELOAD.checkbox.text
+msgid "~Update every"
+msgstr "Naujinti kas"
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLMINE.pushbutton.text
-msgid "~Keep All Mine"
-msgstr "Saugoti visas savo"
+#: linkarea.src#RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.FT_SECONDS.fixedtext.text
+msgid "seconds"
+msgstr "sek."
 
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.BTN_KEEPALLOTHERS.pushbutton.text
-msgid "Keep ~All Others"
-msgstr "Saugoti visas kitų"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_CONFLICT.string.text
-msgid "Conflict"
-msgstr "Nesuderinamumas"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_AUTHOR.string.text"
-msgid "Author"
-msgstr "Autorius"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_TITLE_DATE.string.text"
-msgid "Date"
-msgstr "Data"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text
-msgctxt "conflictsdlg.src#RID_SCDLG_CONFLICTS.STR_UNKNOWN_USER.string.text"
-msgid "Unknown User"
-msgstr "Nežinomas naudotojas"
-
-#: conflictsdlg.src#RID_SCDLG_CONFLICTS.modaldialog.text
-#: conflictsdlg.src%23RID_SCDLG_CONFLICTS.modaldialog.text
-msgid "Resolve Conflicts"
-msgstr "Išspręsti nesuderinamumus"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.BTN_PROTECT.checkbox.text
-msgid "P~rotect this sheet and the contents of locked cells"
-msgstr "Apsaugoti šį lakštą ir užsklęstų langelių turinį"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD1.fixedtext.text"
-msgid "~Password"
-msgstr "Slaptažodis"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text
-msgctxt "protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_PASSWORD2.fixedtext.text"
-msgid "~Confirm"
-msgstr "Kartoti"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FL_OPTIONS.fixedline.text
-msgid "Options"
-msgstr "Nuostatos"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.FT_OPTIONS.fixedtext.text
-msgid "Allow all users of this sheet to:"
-msgstr "Visiems šio lakšto naudotojams leisti:"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_LOCKED_CELLS.string.text
-msgid "Select locked cells"
-msgstr "Žymėti užsklęstus langelius"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.ST_SELECT_UNLOCKED_CELLS.string.text
-msgid "Select unlocked cells"
-msgstr "Žymėti neužsklęstus langelius"
-
-#: protectiondlg.src#RID_SCDLG_TABPROTECTION.modaldialog.text
-#: protectiondlg.src%23RID_SCDLG_TABPROTECTION.modaldialog.text
-msgid "Protect Sheet"
-msgstr "Apsaugoti lakštą"
+#: linkarea.src#RID_SCDLG_LINKAREA.modaldialog.text
+#: linkarea.src%23RID_SCDLG_LINKAREA.modaldialog.text
+msgid "External Data"
+msgstr "Išoriniai duomenys"

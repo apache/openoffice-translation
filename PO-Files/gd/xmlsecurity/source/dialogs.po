@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+xmlsecurity%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-07 18:30+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: Akerbeltz\n"
@@ -15,6 +15,52 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Tha macrothan san sgrìobhainn seo a tha air a shoidhneadh le:"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Tha macrothan san sgrìobhainn seo."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Seall na soidhneachaidhean..."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Faodaidh bìorasan a bhith ann am macrothan. Tha e sàbhailte an-còmhnaidh na "
+"macrothan a chur à comas ann an sgrìobhainn. Ma chuireas tu na macrothan à "
+"comas, faodaidh gun caill thu feartan a bheireadh na macrothan dhut."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Cuir earbsa ann am macrothan leis an tùs seo an-còmhnaidh"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Cuir na macrothan an comas"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Cuir na macrothan à comas"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Rabhadh tèarainteachd"
 
 #: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
 #: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
@@ -38,127 +84,111 @@ msgstr "Seall an teisteanas..."
 msgid "Select Certificate"
 msgstr "Tagh teisteanas"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Ìre na tèarainteachd"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+msgid "The following have signed the document content:"
+msgstr "Chuir na leanas soidhneadh ri susbaint na sgrìobhainn:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Tùsan earbsach"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+msgid "The following have signed the document macro:"
+msgstr "Chuir na leanas soidhneadh ri macro na sgrìobhainn:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Ath-shuidhich"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+msgid "The following have signed this package:"
+msgstr "Chuir na leanas soidhneadh ris a' phacaid seo:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Tèarainteachd nam macro"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+msgid "\tSigned by\tDigital ID issued by\tDate"
+msgstr "\tAir a shoidhneadh le\tID digiteach air fhoillseachadh le\tCeann-là"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"~Glè àrd.\n"
-"Cha bhi cead-ruith ach aig macrothan o thùsan earbsach. Bidh macro sam bith "
-"eile, soidhneadh ann no às, à comas."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+msgid "Valid signature"
+msgstr "Soidhneadh dligheach"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"À~rd.\n"
-"Cha bhi cead-ruith ach aig macrothan soidhnichte o thùsan earbsach. Bidh "
-"macrothan gun soidhneadh à comas."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+msgid "Certificate could not be validated"
+msgstr "Cha b' urrainn dhuinn an teisteanas seo a dhearbhadh"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"~Meadhanach.\n"
-"Iarraidh sinn cead ort mus cuir sinn gu dol macro o thùs nach eil earbsach."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
+msgid "The signatures in this document are invalid"
+msgstr "Chan eil na soidhneachaidhean san sgrìobhainn seo dligheach"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"Ì~seal (cha mholamaid seo).\n"
-"Thèid macro sam bith a chur gu dol gun dearbhadh. Na cleachd an roghainn seo "
-"ach ma tha thu làn-chinnteach gum bi gach sgrìobhainn a dh'fhosglas tu "
-"sàbhailte."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+msgid "The signatures in this document are valid"
+msgstr "Tha na soidhneachaidhean san sgrìobhainn seo dligheach"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Teisteanasan earbsach"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+msgid "Not all parts of the document are signed"
+msgstr "Chan eil soidhneadh ri gach pàirt dhen sgrìobhainn seo"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Air fhoillseachadh airson\tAir fhoillseachadh le\tFalbhaidh an ùine air"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
+msgid "The signatures in this document are invalid"
+msgstr "Chan eil na soidhneachaidhean san sgrìobhainn seo dligheach"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "Cuir ris..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Seall an teisteanas..."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Seall..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+msgid "Sign Document..."
+msgstr "Soidhnich an sgrìobhainn..."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
 msgid "Remove"
 msgstr "Thoir air falbh"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Ionadan fhaidhlichean earbsach"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+msgid "Close"
+msgstr "Dùin"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
+msgid "Digital Signatures"
+msgstr "Soidhneachaidhean digiteach"
+
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
 msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
+"This document contains signatures in ODF 1.1 format. Signing documents in %"
+"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
+"signatures can be added or removed to this document.\n"
+"\n"
+"Save document in ODF 1.2 format and add all desired signatures again."
 msgstr ""
-"Thèid macrothan ann an sgrìobhainnean a chur gu dol an-còmhnaidh ma thèid am "
-"fosgladh o gun dhe na h-ionadan a leanas."
+"Tha soidhneadh san fhòrmat ODF 1.1 (OpenOffice.org 2.x) san sgrìobhainn seo. "
+"Feumaidh tu soidhneadh san fhòrmat ODF 1.2 ann an %PRODUCTNAME %"
+"PRODUCTVERSION. Leis a sin, chan urrainn dhut soidhneadh a chur ris an "
+"sgrìobhainn seo no a thoirt air falbh.\n"
+"\n"
+"Sàbhail an sgrìobhainn san fhòrmat ODF 1.2 agus cuir gach soidhneadh ris "
+"a-rithist."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Cuir ris..."
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Thoir air falbh"
-
-#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Tha an roghainn seo fo dhìon rianaire"
+#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+msgid ""
+"Adding or removing a macro signature will remove all document signatures.\n"
+"Do you really want to continue?"
+msgstr ""
+"Ma bheir thu air falbh soidhneadh macro no ma chuireas tu ris fear, thèid "
+"gach soidhneadh san sgrìobhainn a thoirt air falbh.\n"
+"A bheil thu cinnteach gu bheil thu airson leantainn air adhart?"
 
 #: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
@@ -321,154 +351,124 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "Cha b' urrainn dhuinn an teisteanas seo a dhearbhadh."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Tha macrothan san sgrìobhainn seo a tha air a shoidhneadh le:"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Ìre na tèarainteachd"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Tha macrothan san sgrìobhainn seo."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Tùsan earbsach"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Seall na soidhneachaidhean..."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Ath-shuidhich"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Tèarainteachd nam macro"
+
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"Faodaidh bìorasan a bhith ann am macrothan. Tha e sàbhailte an-còmhnaidh na "
-"macrothan a chur à comas ann an sgrìobhainn. Ma chuireas tu na macrothan à "
-"comas, faodaidh gun caill thu feartan a bheireadh na macrothan dhut."
+"~Glè àrd.\n"
+"Cha bhi cead-ruith ach aig macrothan o thùsan earbsach. Bidh macro sam bith "
+"eile, soidhneadh ann no às, à comas."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Cuir earbsa ann am macrothan leis an tùs seo an-còmhnaidh"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"À~rd.\n"
+"Cha bhi cead-ruith ach aig macrothan soidhnichte o thùsan earbsach. Bidh "
+"macrothan gun soidhneadh à comas."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Cuir na macrothan an comas"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"~Meadhanach.\n"
+"Iarraidh sinn cead ort mus cuir sinn gu dol macro o thùs nach eil earbsach."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Cuir na macrothan à comas"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"Ì~seal (cha mholamaid seo).\n"
+"Thèid macro sam bith a chur gu dol gun dearbhadh. Na cleachd an roghainn seo "
+"ach ma tha thu làn-chinnteach gum bi gach sgrìobhainn a dh'fhosglas tu "
+"sàbhailte."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Rabhadh tèarainteachd"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Teisteanasan earbsach"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-msgid "The following have signed the document content:"
-msgstr "Chuir na leanas soidhneadh ri susbaint na sgrìobhainn:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Air fhoillseachadh airson\tAir fhoillseachadh le\tFalbhaidh an ùine air"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-msgid "The following have signed the document macro:"
-msgstr "Chuir na leanas soidhneadh ri macro na sgrìobhainn:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "Cuir ris..."
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-msgid "The following have signed this package:"
-msgstr "Chuir na leanas soidhneadh ris a' phacaid seo:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Seall..."
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-msgid "\tSigned by\tDigital ID issued by\tDate"
-msgstr "\tAir a shoidhneadh le\tID digiteach air fhoillseachadh le\tCeann-là"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-msgid "Valid signature"
-msgstr "Soidhneadh dligheach"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-msgid "Certificate could not be validated"
-msgstr "Cha b' urrainn dhuinn an teisteanas seo a dhearbhadh"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
-msgid "The signatures in this document are invalid"
-msgstr "Chan eil na soidhneachaidhean san sgrìobhainn seo dligheach"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-msgid "The signatures in this document are valid"
-msgstr "Tha na soidhneachaidhean san sgrìobhainn seo dligheach"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-msgid "Not all parts of the document are signed"
-msgstr "Chan eil soidhneadh ri gach pàirt dhen sgrìobhainn seo"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
-msgid "The signatures in this document are invalid"
-msgstr "Chan eil na soidhneachaidhean san sgrìobhainn seo dligheach"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Seall an teisteanas..."
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-msgid "Sign Document..."
-msgstr "Soidhnich an sgrìobhainn..."
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
 msgid "Remove"
 msgstr "Thoir air falbh"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-msgid "Close"
-msgstr "Dùin"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Ionadan fhaidhlichean earbsach"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
-msgid "Digital Signatures"
-msgstr "Soidhneachaidhean digiteach"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
 msgid ""
-"This document contains signatures in ODF 1.1 format. Signing documents in %"
-"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
-"signatures can be added or removed to this document.\n"
-"\n"
-"Save document in ODF 1.2 format and add all desired signatures again."
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
 msgstr ""
-"Tha soidhneadh san fhòrmat ODF 1.1 (OpenOffice.org 2.x) san sgrìobhainn seo. "
-"Feumaidh tu soidhneadh san fhòrmat ODF 1.2 ann an %PRODUCTNAME %"
-"PRODUCTVERSION. Leis a sin, chan urrainn dhut soidhneadh a chur ris an "
-"sgrìobhainn seo no a thoirt air falbh.\n"
-"\n"
-"Sàbhail an sgrìobhainn san fhòrmat ODF 1.2 agus cuir gach soidhneadh ris "
-"a-rithist."
+"Thèid macrothan ann an sgrìobhainnean a chur gu dol an-còmhnaidh ma thèid am "
+"fosgladh o gun dhe na h-ionadan a leanas."
 
-#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-msgid ""
-"Adding or removing a macro signature will remove all document signatures.\n"
-"Do you really want to continue?"
-msgstr ""
-"Ma bheir thu air falbh soidhneadh macro no ma chuireas tu ris fear, thèid "
-"gach soidhneadh san sgrìobhainn a thoirt air falbh.\n"
-"A bheil thu cinnteach gu bheil thu airson leantainn air adhart?"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Cuir ris..."
+
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Thoir air falbh"
+
+#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Tha an roghainn seo fo dhìon rianaire"

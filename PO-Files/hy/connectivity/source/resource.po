@@ -5,19 +5,63 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
-"PO-Revision-Date: 2020-08-07 08:47+0000\n"
-"Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"PO-Revision-Date: 2018-12-15 14:25+0000\n"
+"Last-Translator: Tigran <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1596790041.000000\n"
+
+#: conn_error_message.src#256___2_100___0.string.text
+#: conn_error_message.src%23256___2_100___0.string.text
+msgid "The record operation has been vetoed."
+msgstr "Գրանցման գործողությունը առկախվել է։"
+
+#: conn_error_message.src#256___2_200___0.string.text
+#: conn_error_message.src%23256___2_200___0.string.text
+msgid "The statement contains a cyclic reference to one or more sub queries."
+msgstr ""
+"Քաղվածքը պարունակում է շղթայական մեջբերումներ մեկ կամ ավել ենթահերթերին։ "
+
+#: conn_error_message.src#256___2_300___0.string.text
+#: conn_error_message.src%23256___2_300___0.string.text
+msgid "The name must not contain any slashes ('/')."
+msgstr "Անունը չպետք է պարունակի որևէ թեք գծեր ('/')։"
+
+#: conn_error_message.src#256___2_301___0.string.text
+#: conn_error_message.src%23256___2_301___0.string.text
+msgid "$1$ is no SQL conform identifier."
+msgstr "$1$ դա SQL համապատասխանեցված նույնացուցիչ չէ։"
+
+#: conn_error_message.src#256___2_302___0.string.text
+#: conn_error_message.src%23256___2_302___0.string.text
+msgid "Query names must not contain quote characters."
+msgstr "Հարցման անունները չպետք է պարունակեն մեջբերման նիշեր։"
+
+#: conn_error_message.src#256___2_303___0.string.text
+#: conn_error_message.src%23256___2_303___0.string.text
+msgid "The name '$1$' is already in use in the database."
+msgstr "'$1$' անունը արդեն իսկ օգտագործվում է շտեմարանում։"
+
+#: conn_error_message.src#256___2_304___0.string.text
+#: conn_error_message.src%23256___2_304___0.string.text
+msgid "No connection to the database exists."
+msgstr "Դեպի շտեմարան չկա կապ։"
+
+#: conn_error_message.src#256___2_500___0.string.text
+#: conn_error_message.src%23256___2_500___0.string.text
+msgid "No $1$ exists."
+msgstr "'$1$' գոյություն չունի։"
+
+#: conn_error_message.src#256___2_550___0.string.text
+#: conn_error_message.src%23256___2_550___0.string.text
+msgid "Unable to display the complete table content. Please apply a filter."
+msgstr ""
+"Չի կարողանում արտածել բովանդակության աղյուսակը ամբողջությմաբ։ Կիրառիր զտիչ։"
 
 #: conn_shared_res.src#STR_MOZILLA_ADDRESSBOOKS.string.text
 #: conn_shared_res.src%23STR_MOZILLA_ADDRESSBOOKS.string.text
@@ -207,7 +251,7 @@ msgid ""
 "'$count$' parameter(s) allowed. One reason may be that the property \""
 "ParameterNameSubstitution\" is not set to TRUE in the data source."
 msgstr ""
-"Դու փորձեցիր տեղադրել պարամետր '$pos$' դիրքում, սակայն միայն '$count$' "
+"Դու փորձեցիր տեղադռել պարամետր '$pos$' դիրքում, սակայն միայն '$count$' "
 "պարամետրերն են թույլատրելի։ Պատճառներից մեկը կարող է հանդիսանալ, որ \""
 "ParameterNameSubstitution\" հատկությունը տվյալների աղբյուրում չի կարգաբերված "
 "որպես ՃԻՇՏ։"
@@ -327,8 +371,8 @@ msgid ""
 "The query can not be executed. 'LIKE' can be used with a string argument "
 "only."
 msgstr ""
-"Հարցումը հնարավոր չէ կատարել։ 'LIKE' կարող է միայն օգտագործվել տողի փաստարկի "
-"հետ։"
+"Հարցումը հնարավոր չէ կատարել։ 'LIKE' կարող է միայն օգտագործվել տողի "
+"արգումենտի հետ։"
 
 #: conn_shared_res.src#STR_QUERY_NOT_LIKE_TOO_COMPLEX.string.text
 #: conn_shared_res.src%23STR_QUERY_NOT_LIKE_TOO_COMPLEX.string.text
@@ -481,7 +525,7 @@ msgstr "Ցուցիչը հնարավոր չէ ստեղծել։ Ընտրված ս�
 #: conn_shared_res.src#STR_SQL_NAME_ERROR.string.text
 #: conn_shared_res.src%23STR_SQL_NAME_ERROR.string.text
 msgid "The name '$name$' doesn't match SQL naming constraints."
-msgstr "'$name$'անունը չի համընկնում SQL անվանումների պարտադրանքներին։"
+msgstr "'$name$'անունը չի համընկնում SQL անվանումների պարտադրանքնեին։"
 
 #: conn_shared_res.src#STR_COULD_NOT_DELETE_FILE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_DELETE_FILE.string.text
@@ -601,7 +645,7 @@ msgstr ""
 #: conn_shared_res.src#STR_QUERY_INVALID_BETWEEN.string.text
 #: conn_shared_res.src%23STR_QUERY_INVALID_BETWEEN.string.text
 msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
-msgstr "Հարցումը հնարավոր չէ կատարել։ 'BETWEEN' փաստարկները սխալ են։"
+msgstr "Հարցումը հնարավոր չէ կատարել։ 'BETWEEN' արգումենտները սխալ են։"
 
 #: conn_shared_res.src#STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 #: conn_shared_res.src%23STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
@@ -801,50 +845,3 @@ msgstr "Չկա '$tablename$' անունով աղյուսակ։"
 #: conn_shared_res.src%23STR_NO_DOCUMENTUI.string.text
 msgid "The provided DocumentUI is not allowed to be NULL."
 msgstr "DocumentUI մատակարարը չի կարող լինել NULL։"
-
-#: conn_error_message.src#256___2_100___0.string.text
-#: conn_error_message.src%23256___2_100___0.string.text
-msgid "The record operation has been vetoed."
-msgstr "Գրանցման գործողությունը առկախվել է։"
-
-#: conn_error_message.src#256___2_200___0.string.text
-#: conn_error_message.src%23256___2_200___0.string.text
-msgid "The statement contains a cyclic reference to one or more sub queries."
-msgstr ""
-"Քաղվածքը պարունակում է շղթայական մեջբերումներ մեկ կամ ավել ենթահերթերին։ "
-
-#: conn_error_message.src#256___2_300___0.string.text
-#: conn_error_message.src%23256___2_300___0.string.text
-msgid "The name must not contain any slashes ('/')."
-msgstr "Անունը չպետք է պարունակի որևէ թեք գծեր ('/')։"
-
-#: conn_error_message.src#256___2_301___0.string.text
-#: conn_error_message.src%23256___2_301___0.string.text
-msgid "$1$ is no SQL conform identifier."
-msgstr "$1$ դա SQL համապատասխանեցված նույնացուցիչ չէ։"
-
-#: conn_error_message.src#256___2_302___0.string.text
-#: conn_error_message.src%23256___2_302___0.string.text
-msgid "Query names must not contain quote characters."
-msgstr "Հարցման անունները չպետք է պարունակեն մեջբերման նիշեր։"
-
-#: conn_error_message.src#256___2_303___0.string.text
-#: conn_error_message.src%23256___2_303___0.string.text
-msgid "The name '$1$' is already in use in the database."
-msgstr "'$1$' անունը արդեն իսկ օգտագործվում է շտեմարանում։"
-
-#: conn_error_message.src#256___2_304___0.string.text
-#: conn_error_message.src%23256___2_304___0.string.text
-msgid "No connection to the database exists."
-msgstr "Դեպի շտեմարան չկա կապ։"
-
-#: conn_error_message.src#256___2_500___0.string.text
-#: conn_error_message.src%23256___2_500___0.string.text
-msgid "No $1$ exists."
-msgstr "'$1$' գոյություն չունի։"
-
-#: conn_error_message.src#256___2_550___0.string.text
-#: conn_error_message.src%23256___2_550___0.string.text
-msgid "Unable to display the complete table content. Please apply a filter."
-msgstr ""
-"Չի կարողանում արտածել բովանդակության աղյուսակը ամբողջությմաբ։ Կիրառիր զտիչ։"

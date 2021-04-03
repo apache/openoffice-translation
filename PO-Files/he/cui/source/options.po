@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+cui%2Fsource%2Foptions.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-27 11:08+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,175 +16,443 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
-msgid "Web login information (passwords are never shown)"
-msgstr "מידע כניסה לאינטרנט (הסיסמה אינם מוצגת)"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
+msgid "Security warnings"
+msgstr "אזהרות אבטחה"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
-msgid "Remove"
-msgstr "הסר"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
+msgid ""
+"Warn if document contains recorded changes, versions, hidden information or "
+"comments:"
+msgstr ""
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
-msgid "Remove All"
-msgstr "הסר הכל"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
+msgid "When saving or sending"
+msgstr "בזמן שמירה או שליחה"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
-msgid "Change Password..."
-msgstr "שנה סיסמה..."
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
+msgid "When signing"
+msgstr "בזמן חתימה"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
-msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
-msgid "Close"
-msgstr "סגירה"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
+msgid "When printing"
+msgstr "בזמן הדפסה"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
-msgid "Website"
-msgstr "אתר אינטרנט"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
+msgid "When creating PDF files"
+msgstr "בעת יצירת קבצי PDF"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
-msgid "User name"
-msgstr "שם משתמש"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
+msgid "Security options"
+msgstr "אפשרויות אבטחה"
 
-#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
-msgid "Stored Web Connection Information"
-msgstr "מידע חיבורי רשת שמור"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
+msgid "Remove personal information on saving"
+msgstr "עם השמירה, הסר מידע אישי"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
-msgid "~Apply replacement table"
-msgstr "ה~פעל טבלת החלפה"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
+msgid "Recommend password protection on saving"
+msgstr "עם השמירה, המלץ להגן על המסמך בעזרת סיסמה"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
-msgid "~Font"
-msgstr "~גופן"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
+msgid "Ctrl-click required to follow hyperlinks"
+msgstr "כדי לעבור לקישורים יש לשלב לחיצה על Ctrl עם לחצן העכבר "
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
-msgid "Re~place with"
-msgstr "ה~חלף בגופן"
+#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
+msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
+msgid "Security options and warnings"
+msgstr "אפשרויות ואזהרות אבטחה"
 
-# המילה משמשת כתחליף ל-V שמוסיף את השורה לטבלה. המילה ״החל״ לא ממש מתאימה.
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "בצע"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
+msgid "Registered name"
+msgstr "השם הרשום"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
-msgid "Delete"
-msgstr "מחק"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
+msgid "Database file"
+msgstr "קובץ מסד נתונים"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
-msgid "Font settings for HTML, Basic and SQL sources"
-msgstr "הגדרת גופנים למקורות HTML,‏ Basic ו-SQL"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
+msgid "~New..."
+msgstr "חדש...‏"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
-msgid "Fonts"
-msgstr "גופנים"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "עריכה...‏"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
-msgid "Non-proportional fonts only"
-msgstr "רק גופנים לא-פרופורציונאלים"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
+msgid "~Delete"
+msgstr "~מחיקה"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
-msgid "~Size"
-msgstr "גודל"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
+msgid "Registered databases"
+msgstr "מסד נתונים רשום"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
-msgid "Always"
-msgstr "תמיד"
+#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
+#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
+msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
+msgid "Registered databases"
+msgstr "מסד נתונים רשום"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
-msgid "Screen only"
-msgstr "מסך"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
+msgid "Treat as equal"
+msgstr "התייחסות כשווה"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
-msgid "Font"
-msgstr "גופן"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
+msgid "~uppercase/lowercase"
+msgstr "אותיות גדולות/קטנות"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
-msgid "Replace with"
-msgstr "החלף ב-"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
+msgid "~full-width/half-width forms"
+msgstr "טפסים ברוחב מלא/חצי"
 
-#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
-msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
-msgid "Automatic"
-msgstr "אוטומטית"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
+msgid "~hiragana/katakana"
+msgstr "הירגנה/קטקנה"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
-msgid "Miscellaneous options"
-msgstr "אפשרויות שונות"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
+msgid "~contractions (yo-on, sokuon)"
+msgstr "קיצורים (יו-און, סוקואון)‏"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
-msgid "Support ~assistive technology tools (program restart required)"
-msgstr "תמיכה בכלי טכנולוגיה מסייעים (דורשת אתחול התוכנית)‏"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
+msgid "~minus/dash/cho-on"
+msgstr "מינוס/מקף/צ'ו און"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
-msgid "Use te~xt selection cursor in read-only text documents"
-msgstr "שימוש בסמן בחירת טקסט גם במסמכים לקריאה בלבד"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
+msgid "'re~peat character' marks"
+msgstr "סימני 'תווים חוזרים'‏"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
-msgid "Allow animated ~graphics"
-msgstr "אפשרות להנפשה גרפית"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
+msgid "~variant-form kanji (itaiji)"
+msgstr "צורה אלטרנטיבית של קאנג'י (איטיג'אי)‏"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
-msgid "Allow animated ~text"
-msgstr "אפשרות להנפשת טקסט"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
+msgid "~old Kana forms"
+msgstr "צורות קאנה עתיקות"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
-msgid "~Help tips disappear after "
-msgstr "עצות העזרה נעלמות אחרי ‏"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
+msgid "~di/zi, du/zu"
+msgstr "די/זי, דו/זו"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
-msgid "seconds"
-msgstr "שניות"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
+msgid "~ba/va, ha/fa"
+msgstr "בא/ווא, הא/פא"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
-msgid "Options for high contrast appearance"
-msgstr "אפשרויות למראה ניגודיות גבוהה"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
+msgid "~tsi/thi/chi, dhi/zi"
+msgstr "צי/תי/צ'י, די/זי"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
-msgid "Automatically ~detect high contrast mode of operating system"
-msgstr "גילוי אוטומטי של מצב ניגודיות גבוה במערכת ההפעלה"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
+msgid "h~yu/fyu, byu/vyu"
+msgstr "היו/פיו, ביו/וויו"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
-msgid "Use automatic font ~color for screen display"
-msgstr "שימוש בצבע גופן אוטומטי לתצוגת המסך"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
+msgid "~se/she, ze/je"
+msgstr "סי/שי, זה/ג'ה"
 
-#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
-msgid "~Use system colors for page previews"
-msgstr "השתמש ב~צבעי-מערכת בתצוגה מקדימה של עמודים"
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
+msgid "~ia/iya (piano/piyano)"
+msgstr "יא/אייא (פיאנו/פיינו)‏"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
+msgid "~ki/ku (tekisuto/tekusuto)"
+msgstr "קי/קו (טקיסוטו/טקוסוטו)‏"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
+msgid "Prolon~ged vowels (ka-/kaa)"
+msgstr "תנועות מאורכות (קא-/קאא)‏"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
+msgid "Ignore"
+msgstr "התעלמות"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
+msgid "Pu~nctuation characters"
+msgstr "סימני פיסוק"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
+msgid "~Whitespace characters"
+msgstr "תווים 'לבנים'‏"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
+msgid "Midd~le dots"
+msgstr "נקודות אמצעיות"
+
+#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
+msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
+msgid "Searching in Japanese"
+msgstr "חיפוש ביפנית"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
+msgid "Sequence checking"
+msgstr "בדיקת רצף"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
+msgid "Use se~quence checking"
+msgstr "השתמש בבדיקת ~רצף"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
+msgid "Restricted"
+msgstr "מוגבל"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
+msgid "~Type and replace"
+msgstr "הקלדה והחלפה"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
+msgid "Cursor control"
+msgstr "בקרת סמן"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
+msgid "Movement"
+msgstr "תנועה"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
+msgid "Lo~gical"
+msgstr "לוגי"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
+msgid "~Visual"
+msgstr "~ויזואלי"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
+msgid "General options"
+msgstr "אפשרויות כלליות"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
+msgid "~Numerals"
+msgstr "ספרות"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
+msgid "Arabic"
+msgstr "ערביות"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
+msgid "Hindi"
+msgstr "הינדיות"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
+msgid "System"
+msgstr "מערכת-הפעלה"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
+msgid "Context"
+msgstr "הקשר"
+
+#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
+msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
+msgid "Complex Text Layout"
+msgstr "מתאר טקסט מורכב"
+
+#: optsave.src#TEXT_SAVEPAGE.#define.text
+#: optsave.src%23TEXT_SAVEPAGE.%23define.text
+msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
+msgid "Save"
+msgstr "שמירה"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
+msgid "Load"
+msgstr "טעינה"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
+msgid "Load user-specific settings with the document"
+msgstr "טעינת ההגדרות המיוחדות למשתמש/ת יחד עם המסמך"
+
+#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
+msgid "Load printer settings with the document"
+msgstr "טעינת הגדרות המדפסת עם המסמך"
+
+#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
+msgid "Save"
+msgstr "שמירה"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
+msgid "~Edit document properties before saving"
+msgstr "~עריכת מאפייני המסמך לפני שמירה"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
+msgid "Al~ways create backup copy"
+msgstr "יש ליצור תמיד עותק גיבוי"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
+msgid "Save ~AutoRecovery information every"
+msgstr "שמירת מידע להתאוששות אוטומטית כל"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
+msgid "Minutes"
+msgstr "דקות"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
+msgid "Save URLs relative to file system"
+msgstr "שמירת כתובות יחסית למערכת הקבצים"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
+msgid "Save URLs relative to internet"
+msgstr "שמירת כתובות יחסית לאינטרנט"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
+msgid "Default file format and ODF settings"
+msgstr "פורמט ברירת המחדל לקובץ והגדרות ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
+msgid "ODF format version"
+msgstr "גרסת פורמט ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
+msgid "1.0/1.1"
+msgstr "1.0/1.1"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
+msgid "1.2"
+msgstr "1.2"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
+msgid "1.2 Extended (recommended)"
+msgstr "1.2 מורחב (מומלץ)"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
+msgid "Enable AES-256 encryption (ODF 1.2)"
+msgstr "הפעל הצפנת ‎AES-256 (ODF1.2)‎"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
+msgid "Size optimization for ODF format"
+msgstr "אופטימיזצית גודל לפורמט ODF"
+
+#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
+msgid "Warn when not saving in ODF or default format"
+msgstr "הזהר בעת שמירה שלא ב־ODF או בפורמט ברירת מחדל"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
+msgid "D~ocument type"
+msgstr "סוג מסמך"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
+msgid "Always sa~ve as"
+msgstr "לשמור תמיד כ"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
+msgid "Text document"
+msgstr "מסמך טקסט"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
+msgid "HTML document"
+msgstr "מסמך ‏‪HTML‏"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
+msgid "Master document"
+msgstr "מסמך אב"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
+msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
+msgid "Spreadsheet"
+msgstr "גיליון אלקטרוני"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
+msgid "Presentation"
+msgstr "מצגת"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
+msgid "Drawing"
+msgstr "ציור"
+
+#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
+msgid "Formula"
+msgstr "נוסחה"
+
+#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
+msgid "Not using ODF 1.2 Extended may cause information to be lost."
+msgstr "אי שימוש ב-ODF 1.2 מורחב עלול לגרום לאובדן מידע."
+
+#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
+msgid "Using \"%1\" as default file format may cause information loss.\n"
+msgstr "השימוש ב \"%1\" כצורת ברירת המחדל לקבצים יכול לגרום לאובדן מידע.‏\n"
 
 #: optinet2.src#RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
 #: optinet2.src%23RID_SVXPAGE_INET_PROXY.GB_SETTINGS.fixedline.text
@@ -537,77 +805,414 @@ msgstr "תוכנית דואר אלקטרוני"
 msgid "All files (*.*)"
 msgstr "כל הקבצים (*.*)‏"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
-msgid "Undo"
-msgstr "ביטול פעולה"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
+msgid "Color scheme"
+msgstr "סכימת צבעים"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
-msgid "Number of steps"
-msgstr "מספר הצעדים"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
+msgid "Scheme"
+msgstr "סכימה"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
-msgid "Graphics cache"
-msgstr "מטמון גרפי"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
+msgid "Save..."
+msgstr "שמירה...‏"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
-msgid "Use for %PRODUCTNAME"
-msgstr "לשימוש עבור ‏‪%PRODUCTNAME‏"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
+msgid "Delete"
+msgstr "מחיקה"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "מגה-בייט"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
+msgid "Custom colors"
+msgstr "צבעים מותאמים אישית"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
-msgid "Memory per object"
-msgstr "הקצאת זכרון לכל עצם"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
+msgid "On"
+msgstr "מופעל"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
-msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
-msgid "MB"
-msgstr "מגה-בייט"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
+msgid "User interface elements"
+msgstr "מרכיבי ממשק המשתמש/ת"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
-msgid "Remove from memory after"
-msgstr "מחק מהזכרון לאחר"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
+msgid "Color setting"
+msgstr "הגדרות צבע"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
-msgid "hh:mm"
-msgstr "hh:mm"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
+msgid "Preview"
+msgstr "תצוגה מקדימה"
 
-#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
-msgid "Cache for inserted objects"
-msgstr "מטמון עבור עצמים מוכנסים"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
+msgid "General"
+msgstr "כללי"
 
-#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
-msgid "Number of objects"
-msgstr "מספר העצמים"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
+msgid "Document background"
+msgstr "רקע מסמך"
 
-#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
-msgid "%PRODUCTNAME Quickstarter"
-msgstr "מאיץ-ההפעלה של ‏‪%PRODUCTNAME‏"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
+msgid "Text boundaries"
+msgstr "גבולות טקסט"
 
-#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
-msgid "Load %PRODUCTNAME during system start-up"
-msgstr "טעינת ‏‪%PRODUCTNAME‬‏ במהלך עליית המערכת"
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
+msgid "Application background"
+msgstr "רקע יישום"
 
-#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
-msgid "Enable systray Quickstarter"
-msgstr "הפעל את מאיץ-ההפעלה "
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
+msgid "Object boundaries"
+msgstr "גבולות עצם"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
+msgid "Table boundaries"
+msgstr "גבולות טבלה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
+msgid "Font color"
+msgstr "צבע גופן"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
+msgid "Unvisited links"
+msgstr "קישורים שעדיין לא ביקרו בהם"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
+msgid "Visited links"
+msgstr "קישורים שביקרו בהם"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
+msgid "AutoSpellcheck"
+msgstr "איות אוטומטי"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
+msgid "Smart Tags"
+msgstr "תגיות חכמות"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
+msgid "Text Document"
+msgstr "מסמך טקסט"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
+msgid "Grid"
+msgstr "רשת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
+msgid "Field shadings"
+msgstr "הצללות שדה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
+msgid "Index and table shadings"
+msgstr "הצללות אינדקס וטבלה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
+msgid "Script indicator"
+msgstr "מחוון הסקריפט"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
+msgid "Section boundaries"
+msgstr "גבולות מקטעים"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
+msgid "Page and column breaks"
+msgstr "מעברי עמוד ועמודה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
+msgid "Direct cursor"
+msgstr "סמן ישיר"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
+msgid "HTML Document"
+msgstr "מסמך ‏‪HTML‏"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
+msgid "SGML syntax highlighting"
+msgstr "הבלטת תחביר ‏‪SGML‏"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
+msgid "Comment highlighting"
+msgstr "הבלטת הערות"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
+msgid "Keyword highlighting"
+msgstr "הבלטת מילות מפתח"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
+msgid "Text"
+msgstr "טקסט"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
+msgid "Spreadsheet"
+msgstr "גיליון אלקטרוני"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
+msgid "Grid lines"
+msgstr "קווי רשת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
+msgid "Page breaks"
+msgstr "מעברי עמוד"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
+msgid "Manual page breaks"
+msgstr "מעברי עמוד ידניים"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
+msgid "Automatic page breaks"
+msgstr "מעברי עמוד אוטומטיים"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
+msgid "Detective"
+msgstr "מצב גילוי"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
+msgid "Detective error"
+msgstr "שגיאת מצב גילוי"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
+msgid "References"
+msgstr "הפניות"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
+msgid "Comment background"
+msgstr ""
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
+msgid "Drawing / Presentation"
+msgstr "תרשים / מצגת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
+msgid "Grid"
+msgstr "רשת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
+msgid "Basic Syntax Highlighting"
+msgstr "הבלטת תחביר בייסיק"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "מזהה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "הערה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "מספר"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
+msgid "String"
+msgstr "מחרוזת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "אופרטור"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
+msgid "Reserved expression"
+msgstr "ביטוי שמור"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
+msgid "Error"
+msgstr "שגיאה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
+msgid "SQL Syntax Highlighting"
+msgstr "הבלטת תחביר ‏‪SQL"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
+msgid "Identifier"
+msgstr "מזהה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
+msgid "Number"
+msgstr "מספר"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
+msgid "String"
+msgstr "מחרוזת"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
+msgid "Operator"
+msgstr "אופרטור"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
+msgid "Keyword"
+msgstr "מילת מפתח"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
+msgid "Parameter"
+msgstr "פרמטר"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
+msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
+msgid "Comment"
+msgstr "הערה"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
+msgid "Colorsettings of the Extensions"
+msgstr "הגדרות צבעים של ההרחבות"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
+msgid "Spell check highlighting"
+msgstr "הבלטת מילים של בדיקת איות"
+
+#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
+msgid "Grammar check highlighting"
+msgstr "הבלטת בדיקת דקדוק"
+
+#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
+msgid "Do you really want to delete the color scheme?"
+msgstr "האם למחוק את סכימת הצבעים?‏"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
+msgid "Color Scheme Deletion"
+msgstr "מחיקת סכימת הצבעים"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
+msgid "Save scheme"
+msgstr "שמירת הסכימה"
+
+#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
+msgid "Name of color scheme"
+msgstr "שם סכימת הצבעים"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
+msgid "Online Update Options"
+msgstr "אפשרויות עידכון מקוון"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
+msgid "~Check for updates automatically"
+msgstr "בדיקה אוטומטית לעידכונים"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
+msgid "Every Da~y"
+msgstr "פעם ביום"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
+msgid "Every ~Week"
+msgstr "פעם בשבוע"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
+msgid "Every ~Month"
+msgstr "פעם בחודש"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
+msgid "Last checked: %DATE%, %TIME%"
+msgstr "נבדק לאחרונה: %DATE%, %TIME%"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
+msgid "Check ~now"
+msgstr "לבדוק עכשיו"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
+msgid "~Download updates automatically"
+msgstr "הורדת עידכונים אוטומטית"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
+msgid "Download destination:"
+msgstr "יעד להורדה:"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
+msgid "Ch~ange..."
+msgstr "ש~ינוי..."
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
+msgid "Last checked: Not yet"
+msgstr "בדיקה אחרונה: עוד לא בוצע"
+
+#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
+msgid "OnlineUpdate"
+msgstr "עידכון מקוון"
 
 #: optlingu.src#RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
 #: optlingu.src%23RID_SVXDLG_EDIT_MODULES.FL_EDIT_MODULES_OPTIONS.fixedline.text
@@ -832,280 +1437,307 @@ msgstr "אפשרויות"
 msgid "Do you want to delete the dictionary?"
 msgstr "האם למחוק את המילון?‏"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FL_OPTIONS.fixedline.text
-msgid "Online Update Options"
-msgstr "אפשרויות עידכון מקוון"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
+msgid "Kerning"
+msgstr "ציפוף"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTOCHECK.checkbox.text
-msgid "~Check for updates automatically"
-msgstr "בדיקה אוטומטית לעידכונים"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
+msgid "~Western characters only"
+msgstr "תווים מערביים בלבד"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYDAY.radiobutton.text
-msgid "Every Da~y"
-msgstr "פעם ביום"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
+msgid "Western ~text and Asian punctuation"
+msgstr "טקסט מערבי וסימני פיסוק אסיאתיים"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYWEEK.radiobutton.text
-msgid "Every ~Week"
-msgstr "פעם בשבוע"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
+msgid "Character spacing"
+msgstr "ריווח תווים"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.RB_EVERYMONTH.radiobutton.text
-msgid "Every ~Month"
-msgstr "פעם בחודש"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
+msgid "~No compression"
+msgstr "ללא דחיסה"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_LASTCHECKED.fixedtext.text
-msgid "Last checked: %DATE%, %TIME%"
-msgstr "נבדק לאחרונה: %DATE%, %TIME%"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
+msgid "~Compress punctuation only"
+msgstr "דחיסת סימני פיסוק בלבד"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHECKNOW.pushbutton.text
-msgid "Check ~now"
-msgstr "לבדוק עכשיו"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
+msgid "Compress ~punctuation and Japanese Kana"
+msgstr "דחיסת סימני פיסוק וקנה יפנית"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.CB_AUTODOWNLOAD.checkbox.text
-msgid "~Download updates automatically"
-msgstr "הורדת עידכונים אוטומטית"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
+msgid "First and last characters"
+msgstr "אותיות ראשונות ואחרונות"
 
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.FT_DESTPATHLABEL.fixedtext.text
-msgid "Download destination:"
-msgstr "יעד להורדה:"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.PB_CHANGEPATH.pushbutton.text
-msgid "Ch~ange..."
-msgstr "ש~ינוי..."
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.STR_NEVERCHECKED.string.text
-msgid "Last checked: Not yet"
-msgstr "בדיקה אחרונה: עוד לא בוצע"
-
-#: optupdt.src#RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-#: optupdt.src%23RID_SVXPAGE_ONLINEUPDATE.tabpage.text
-msgid "OnlineUpdate"
-msgstr "עידכון מקוון"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
-msgid "Connection pool"
-msgstr "מאגר חיבורים"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
-msgid "Connection pooling enabled"
-msgstr "מאגר חיבורים פעיל"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
-msgid "Drivers known in %PRODUCTNAME"
-msgstr "מנהלי ההתקן המוכרים ב  ‏‪%PRODUCTNAME‏"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
-msgid "Current driver:"
-msgstr "מנהל ההתקן הנוכחי:‏"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
-msgid "Enable pooling for this driver"
-msgstr "מנהל התקן זה יוכל להשתמש במאגר"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
-msgid "Timeout (seconds)"
-msgstr "תפוגת-זמן (שניות)‏"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
-msgid "Driver name"
-msgstr "שם מנהל ההתקן"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
-msgid "Pool"
-msgstr "מאגר"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
-msgid "Timeout"
-msgstr "פג הזמן"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
-msgid "Yes"
-msgstr "כן"
-
-#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
-msgid "No"
-msgstr "לא"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
-msgid "Improvement Program"
-msgstr "תוכנית לשיפור"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
-msgid ""
-"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
-"the quality of %PRODUCTNAME.\n"
-"\n"
-"If you are willing to participate, we will collect anonymous statistics "
-"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
-"\n"
-"\n"
-"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
-"document content."
-msgstr ""
-"אנחנו מזמינים אותך להצטרף לתוכנית שיפור של %PRODUCTNAME בכדי לעזור ולייעל את "
-"האיכות של %PRODUCTNAME.\n"
-"\n"
-"אם תרצה להשתתף, אנחנו נאסוף מידע סטטיסטי אנונימי אודות השימוש ב-%"
-"PRODUCTNAME. המידע ישמש לזיהוי הרגלי השימוש.\n"
-"\n"
-"התוכנית לשיפור %PRODUCTNAME לא תאסוף שום מידע אישי, או תוכן מסמכים."
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
-msgid ""
-"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
-msgstr "~כן, אני מוכן להשתתף בתוכנית לשיפור %PRODUCTNAME"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
-msgid "~No, I do not wish to participate"
-msgstr "~לא, אין ברצוני להשתתף"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
-msgid "Tracked Data"
-msgstr "מעקב אחר נתונים"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
-msgid "Number of reports sent:"
-msgstr "מספר הדוחות שנשלחו:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
-msgid "Number of tracked actions:"
-msgstr "מספר פעולות שנעקבו:"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
-msgid "~Show Data"
-msgstr "~הצג נתונים"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
-msgid "Help Optimize the Quality of %PRODUCTNAME"
-msgstr "עזור לייעל את האיכות של %PRODUCTNAME"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
-msgid "More Information"
-msgstr "יותר מידע"
-
-#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
-#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
-msgid "%PRODUCTNAME Improvement Program"
-msgstr "התוכנית לשיפור ‏‫%PRODUCTNAME‏"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
-msgid "~Name"
-msgstr "~שם"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
-msgid "~Language"
-msgstr "~שפה"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
-msgid "~Exception (-)"
-msgstr "~חריג (-)‏"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
-msgid "Dictionary"
-msgstr "מילון"
-
-#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
-msgid "New Dictionary"
-msgstr "מילון חדש"
-
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
-msgid "~Book"
-msgstr "ספר"
-
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
 msgid "~Language"
 msgstr "שפה"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
-msgid "~Word"
-msgstr "מילה"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
+msgid "~Default"
+msgstr "ברירת מחדל"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
-msgid "Replace ~By:"
-msgstr "החלף עם:‏"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
+msgid "Not at start of line:"
+msgstr "לא בתחילת שורה:‏"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
-msgid "~New"
-msgstr "חדש"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
+msgid "Not at end of line:"
+msgstr "לא בסוף שורה:‏"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
-msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
-msgid "~Delete"
-msgstr "~מחיקה"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
+msgid "Without user-defined line break symbols"
+msgstr "ללא סימני מעבר שורה מוגדרים בידי המשתמש/ת"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
-msgid "~Replace"
-msgstr "~החלף"
+#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
+msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
+msgid "Proxy"
+msgstr "שרת-מתווך"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
-msgid "~Close"
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_MISCELLANEOUS.fixedline.text
+msgid "Miscellaneous options"
+msgstr "אפשרויות שונות"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ACCESSIBILITY_TOOL.checkbox.text
+msgid "Support ~assistive technology tools (program restart required)"
+msgstr "תמיכה בכלי טכנולוגיה מסייעים (דורשת אתחול התוכנית)‏"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TEXTSELECTION.checkbox.text
+msgid "Use te~xt selection cursor in read-only text documents"
+msgstr "שימוש בסמן בחירת טקסט גם במסמכים לקריאה בלבד"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_GRAPHICS.checkbox.text
+msgid "Allow animated ~graphics"
+msgstr "אפשרות להנפשה גרפית"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_ANIMATED_TEXTS.checkbox.text
+msgid "Allow animated ~text"
+msgstr "אפשרות להנפשת טקסט"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_TIPHELP.checkbox.text
+msgid "~Help tips disappear after "
+msgstr "עצות העזרה נעלמות אחרי ‏"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FT_TIPHELP.fixedtext.text
+msgid "seconds"
+msgstr "שניות"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.FL_HC_OPTIONS.fixedline.text
+msgid "Options for high contrast appearance"
+msgstr "אפשרויות למראה ניגודיות גבוהה"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTO_DETECT_HC.checkbox.text
+msgid "Automatically ~detect high contrast mode of operating system"
+msgstr "גילוי אוטומטי של מצב ניגודיות גבוה במערכת ההפעלה"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_AUTOMATIC_FONT_COLOR.checkbox.text
+msgid "Use automatic font ~color for screen display"
+msgstr "שימוש בצבע גופן אוטומטי לתצוגת המסך"
+
+#: optaccessibility.src#RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+#: optaccessibility.src%23RID_SVXPAGE_ACCESSIBILITYCONFIG.CB_PAGE_PREVIEWS.checkbox.text
+msgid "~Use system colors for page previews"
+msgstr "השתמש ב~צבעי-מערכת בתצוגה מקדימה של עמודים"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_UNDO.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_UNDO.fixedline.text
+msgid "Undo"
+msgstr "ביטול פעולה"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_UNDO.fixedtext.text
+msgid "Number of steps"
+msgstr "מספר הצעדים"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_GRAPHICCACHE.fixedline.text
+msgid "Graphics cache"
+msgstr "מטמון גרפי"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE.fixedtext.text
+msgid "Use for %PRODUCTNAME"
+msgstr "לשימוש עבור ‏‪%PRODUCTNAME‏"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "מגה-בייט"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE.fixedtext.text
+msgid "Memory per object"
+msgstr "הקצאת זכרון לכל עצם"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text
+msgctxt "optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTCACHE_UNIT.fixedtext.text"
+msgid "MB"
+msgstr "מגה-בייט"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME.fixedtext.text
+msgid "Remove from memory after"
+msgstr "מחק מהזכרון לאחר"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_GRAPHICOBJECTTIME_UNIT.fixedtext.text
+msgid "hh:mm"
+msgstr "hh:mm"
+
+#: optmemory.src#OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.GB_OLECACHE.fixedline.text
+msgid "Cache for inserted objects"
+msgstr "מטמון עבור עצמים מוכנסים"
+
+#: optmemory.src#OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+#: optmemory.src%23OFA_TP_MEMORY.FT_OLECACHE.fixedtext.text
+msgid "Number of objects"
+msgstr "מספר העצמים"
+
+#: optmemory.src#OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+#: optmemory.src%23OFA_TP_MEMORY.FL_QUICKLAUNCH.fixedline.text
+msgid "%PRODUCTNAME Quickstarter"
+msgstr "מאיץ-ההפעלה של ‏‪%PRODUCTNAME‏"
+
+#: optmemory.src#OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+#: optmemory.src%23OFA_TP_MEMORY.CB_QUICKLAUNCH.checkbox.text
+msgid "Load %PRODUCTNAME during system start-up"
+msgstr "טעינת ‏‪%PRODUCTNAME‬‏ במהלך עליית המערכת"
+
+#: optmemory.src#OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+#: optmemory.src%23OFA_TP_MEMORY.STR_QUICKLAUNCH_UNX.string.text
+msgid "Enable systray Quickstarter"
+msgstr "הפעל את מאיץ-ההפעלה "
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.FI_NEVERSHOWN.fixedtext.text
+msgid "Web login information (passwords are never shown)"
+msgstr "מידע כניסה לאינטרנט (הסיסמה אינם מוצגת)"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVE.pushbutton.text
+msgid "Remove"
+msgstr "הסר"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_REMOVEALL.pushbutton.text
+msgid "Remove All"
+msgstr "הסר הכל"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CHANGE.pushbutton.text
+msgid "Change Password..."
+msgstr "שנה סיסמה..."
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text
+msgctxt "webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.PB_CLOSE.cancelbutton.text"
+msgid "Close"
 msgstr "סגירה"
 
-#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
-#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
-msgid "Edit Custom Dictionary"
-msgstr "עריכת מילון מותאמת אישית"
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_WEBSITE.string.text
+msgid "Website"
+msgstr "אתר אינטרנט"
 
-#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
-#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.STR_USERNAME.string.text
+msgid "User name"
+msgstr "שם משתמש"
+
+#: webconninfo.src#RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+#: webconninfo.src%23RID_SVXDLG_WEBCONNECTION_INFO.modaldialog.text
+msgid "Stored Web Connection Information"
+msgstr "מידע חיבורי רשת שמור"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
+msgid "~Database file"
+msgstr "קובץ מסד נתונים"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
+msgid "~Browse..."
+msgstr "~עיון..."
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
+msgid "Registered ~name"
+msgstr "רשום על שם"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
+msgid "Edit Database Link"
+msgstr "עריכת קישור למסד נתונים"
+
+#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
+msgid "Create Database Link"
+msgstr "יצירת קישור למסד נתונים"
+
+#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
 msgid ""
-"The specified name already exists.\n"
-"Please enter a new name."
+"The file\n"
+"$file$\n"
+"does not exist."
 msgstr ""
-"השם שצויין כבר קיים.\n"
-"נא לבחור שם אחר.‏"
+"הקובץ\n"
+"$file$\n"
+"אינו קיים.‏"
 
-#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
-#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
-msgid "Do you want to change the '%1' dictionary language?"
-msgstr "האם לשנות את שפת מילון  '%1'?‏"
+#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
+msgid ""
+"The file\n"
+"$file$\n"
+"does not exist in the local file system."
+msgstr ""
+"הקובץ\n"
+"$file$\n"
+"אינו קיים במערכת הקבצים המקומית."
+
+#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
+#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
+msgid ""
+"The name '$file$' is already used for another database.\n"
+"Please choose a different name."
+msgstr ""
+"השם '$file$' נמצא בשימוש כבר עבור מסד נתונים אחר.\n"
+"נא לציין שם אחר.‏"
+
+#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
+#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
+msgid "Do you want to delete the entry?"
+msgstr "האם למחוק את הערך?‏"
 
 #: optgdlg.src#OFA_TP_MISC.FL_HELP.fixedline.text
 #: optgdlg.src%23OFA_TP_MISC.FL_HELP.fixedline.text
@@ -1481,525 +2113,6 @@ msgstr ""
 "הגדרת השפה לממשק המשתמש עודכנה ותחול בהפעלה הבאה של ‏‪%PRODUCTNAME "
 "%PRODUCTVERSION‬‏.‏"
 
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
-msgid "Size ~1"
-msgstr "גודל 1‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
-msgid "Size ~2"
-msgstr "גודל 2‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
-msgid "Size ~3"
-msgstr "גודל 3‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
-msgid "Size ~4"
-msgstr "גודל 4‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
-msgid "Size ~5"
-msgstr "גודל 5‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
-msgid "Size ~6"
-msgstr "גודל 6‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
-msgid "Size ~7"
-msgstr "גודל 7‏"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
-msgid "Font sizes"
-msgstr "גדלי גופן"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
-msgid "Import"
-msgstr "יבוא"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
-msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
-msgstr "יישום שיטת מספור ‏‪'%ENGLISHUSLOCALE'"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
-msgid "~Import unknown HTML tags as fields"
-msgstr "ייבוא תגיות ‏‪HTML‬‏ בלתי ידועות כשדות"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
-msgid "Ignore ~font settings"
-msgstr "התעלמות מהגדרות הגופן"
-
-#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
-msgid "Export"
-msgstr "ייצא"
-
-#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
-#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
-msgid "Display ~warning"
-msgstr "הצגת אזהרה"
-
-#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
-#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
-msgid "~Print layout"
-msgstr "עימוד ~דפוס"
-
-#: opthtml.src#CB_LOCAL_GRF.checkbox.text
-#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
-msgid "~Copy local graphics to Internet"
-msgstr "העתקת גרפיקה מקומית לאינטרנט"
-
-#: opthtml.src#FT_CHARSET.fixedtext.text
-#: opthtml.src%23FT_CHARSET.fixedtext.text
-msgid "Character set"
-msgstr "ערכת תווים"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_WARNINGS.fixedline.text
-msgid "Security warnings"
-msgstr "אזהרות אבטחה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FI_WARNINGS.fixedtext.text
-msgid ""
-"Warn if document contains recorded changes, versions, hidden information or "
-"notes:"
-msgstr "הזהר אם המסמך מכיל שינויים שהוקלטו, גרסאות, מידע מוסתר או הערות:"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SAVESENDDOCS.checkbox.text
-msgid "When saving or sending"
-msgstr "בזמן שמירה או שליחה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_SIGNDOCS.checkbox.text
-msgid "When signing"
-msgstr "בזמן חתימה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_PRINTDOCS.checkbox.text
-msgid "When printing"
-msgstr "בזמן הדפסה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CREATEPDF.checkbox.text
-msgid "When creating PDF files"
-msgstr "בעת יצירת קבצי PDF"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.FL_OPTIONS.fixedline.text
-msgid "Security options"
-msgstr "אפשרויות אבטחה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_REMOVEINFO.checkbox.text
-msgid "Remove personal information on saving"
-msgstr "עם השמירה, הסר מידע אישי"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_RECOMMENDPWD.checkbox.text
-msgid "Recommend password protection on saving"
-msgstr "עם השמירה, המלץ להגן על המסמך בעזרת סיסמה"
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.CB_CTRLHYPERLINK.checkbox.text
-msgid "Ctrl-click required to follow hyperlinks"
-msgstr "כדי לעבור לקישורים יש לשלב לחיצה על Ctrl עם לחצן העכבר "
-
-#: securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-#: securityoptions.src%23RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text
-msgctxt "securityoptions.src#RID_SVXDLG_SECURITY_OPTIONS.modaldialog.text"
-msgid "Security options and warnings"
-msgstr "אפשרויות ואזהרות אבטחה"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
-msgid "~Company"
-msgstr "חברה"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
-msgid "First/Last ~name/Initials"
-msgstr "שם פרטי/משפחה/ראשי תיבות"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
-msgid "Last Name/First name/Father's name/Initials"
-msgstr "שם פרטי/שם אב/שם משפחה/ראשי תיבות"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
-msgid "Last/First ~name/Initials"
-msgstr "שם משפחה/שם פרטי/ראשי ~תיבות"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
-msgid "~Street"
-msgstr "רחוב"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
-msgid "Street/Apartment number"
-msgstr "רחוב/דירה"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
-msgid "Zip/City"
-msgstr "מיקוד/עיר"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
-msgid "Country/Region"
-msgstr "מדינה/מחוז"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
-msgid "~Title/Position"
-msgstr "תואר/משרה"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
-msgid "Tel. (Home/Work)"
-msgstr "טלפון (בית/עבודה)‏"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
-msgid "Fa~x / E-mail"
-msgstr "פקס/דואר אלקטרוני"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
-msgid "Address "
-msgstr "כתובת"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
-msgid "Use data for document properties"
-msgstr "שימוש בנתונים עבור מאפייני המסמך"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
-msgid "City/State/Zip"
-msgstr "עיר/מחוז/מיקוד"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
-msgid ""
-"Note that street, Zip code and city are used to generate the registration "
-"key. You will not be able to change the user data again until the "
-"registration has been carried out. Do you want to modify the user data now?"
-msgstr ""
-"שימו לב: רחוב, מיקוד ועיר ישמשו ליצירת מפתח הרישום. לא תהיה אפשרות לשנות "
-"נתונים אלו עד לסיום הרישום. האם לשנות פרטי המשתמש עכשיו?‏"
-
-#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
-#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
-msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
-msgid "User Data"
-msgstr "פרטי המשתמש"
-
-#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
-#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
-msgid ""
-"The User Data have been changed.\n"
-"Do you really want to change your User Data?"
-msgstr ""
-"נתוני המשתמש שונו.\n"
-"האם לשנות באמת את נתוני המשתמש שלך?"
-
-#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "הגדרה זו מוגנת על ידי מנהל/ת המערכת"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
-msgid "Chart colors"
-msgstr "צבעי תרשים"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
-msgid "Color table"
-msgstr "טבלת צבעים"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
-msgid "~Default"
-msgstr "~ברירת מחדל"
-
-#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
-msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
-msgid "Default Colors"
-msgstr "צבעי ברירת מחדל"
-
-#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
-#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
-msgid "Data Series $(ROW)"
-msgstr "סדרת נתונים $(ROW)"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_TREAT_AS_EQUAL.fixedline.text
-msgid "Treat as equal"
-msgstr "התייחסות כשווה"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CASE.checkbox.text
-msgid "~uppercase/lowercase"
-msgstr "אותיות גדולות/קטנות"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_FULL_HALF_WIDTH.checkbox.text
-msgid "~full-width/half-width forms"
-msgstr "טפסים ברוחב מלא/חצי"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HIRAGANA_KATAKANA.checkbox.text
-msgid "~hiragana/katakana"
-msgstr "הירגנה/קטקנה"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_CONTRACTIONS.checkbox.text
-msgid "~contractions (yo-on, sokuon)"
-msgstr "קיצורים (יו-און, סוקואון)‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_MINUS_DASH_CHOON.checkbox.text
-msgid "~minus/dash/cho-on"
-msgstr "מינוס/מקף/צ'ו און"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_REPEAT_CHAR_MARKS.checkbox.text
-msgid "'re~peat character' marks"
-msgstr "סימני 'תווים חוזרים'‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_VARIANT_FORM_KANJI.checkbox.text
-msgid "~variant-form kanji (itaiji)"
-msgstr "צורה אלטרנטיבית של קאנג'י (איטיג'אי)‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_OLD_KANA_FORMS.checkbox.text
-msgid "~old Kana forms"
-msgstr "צורות קאנה עתיקות"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_DIZI_DUZU.checkbox.text
-msgid "~di/zi, du/zu"
-msgstr "די/זי, דו/זו"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_BAVA_HAFA.checkbox.text
-msgid "~ba/va, ha/fa"
-msgstr "בא/ווא, הא/פא"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_TSITHICHI_DHIZI.checkbox.text
-msgid "~tsi/thi/chi, dhi/zi"
-msgstr "צי/תי/צ'י, די/זי"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_HYUFYU_BYUVYU.checkbox.text
-msgid "h~yu/fyu, byu/vyu"
-msgstr "היו/פיו, ביו/וויו"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_SESHE_ZEJE.checkbox.text
-msgid "~se/she, ze/je"
-msgstr "סי/שי, זה/ג'ה"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_IAIYA.checkbox.text
-msgid "~ia/iya (piano/piyano)"
-msgstr "יא/אייא (פיאנו/פיינו)‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_KIKU.checkbox.text
-msgid "~ki/ku (tekisuto/tekusuto)"
-msgstr "קי/קו (טקיסוטו/טקוסוטו)‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_MATCH_PROLONGED_SOUNDMARK.checkbox.text
-msgid "Prolon~ged vowels (ka-/kaa)"
-msgstr "תנועות מאורכות (קא-/קאא)‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.FL_IGNORE.fixedline.text
-msgid "Ignore"
-msgstr "התעלמות"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_PUNCTUATION.checkbox.text
-msgid "Pu~nctuation characters"
-msgstr "סימני פיסוק"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_WHITESPACES.checkbox.text
-msgid "~Whitespace characters"
-msgstr "תווים 'לבנים'‏"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.CB_IGNORE_MIDDLE_DOT.checkbox.text
-msgid "Midd~le dots"
-msgstr "נקודות אמצעיות"
-
-#: optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-#: optjsearch.src%23RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text
-msgctxt "optjsearch.src#RID_SVXPAGE_JSEARCH_OPTIONS.tabpage.text"
-msgid "Searching in Japanese"
-msgstr "חיפוש ביפנית"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_URL.fixedtext.text
-msgid "~Database file"
-msgstr "קובץ מסד נתונים"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.PB_BROWSEFILE.pushbutton.text
-msgid "~Browse..."
-msgstr "~עיון..."
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.FT_NAME.fixedtext.text
-msgid "Registered ~name"
-msgstr "רשום על שם"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_EDIT_LINK.string.text
-msgid "Edit Database Link"
-msgstr "עריכת קישור למסד נתונים"
-
-#: doclinkdialog.src#DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-#: doclinkdialog.src%23DLG_DOCUMENTLINK.STR_NEW_LINK.string.text
-msgid "Create Database Link"
-msgstr "יצירת קישור למסד נתונים"
-
-#: doclinkdialog.src#STR_LINKEDDOC_DOESNOTEXIST.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_DOESNOTEXIST.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist."
-msgstr ""
-"הקובץ\n"
-"$file$\n"
-"אינו קיים.‏"
-
-#: doclinkdialog.src#STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-#: doclinkdialog.src%23STR_LINKEDDOC_NO_SYSTEM_FILE.string.text
-msgid ""
-"The file\n"
-"$file$\n"
-"does not exist in the local file system."
-msgstr ""
-"הקובץ\n"
-"$file$\n"
-"אינו קיים במערכת הקבצים המקומית."
-
-#: doclinkdialog.src#STR_NAME_CONFLICT.string.text
-#: doclinkdialog.src%23STR_NAME_CONFLICT.string.text
-msgid ""
-"The name '$file$' is already used for another database.\n"
-"Please choose a different name."
-msgstr ""
-"השם '$file$' נמצא בשימוש כבר עבור מסד נתונים אחר.\n"
-"נא לציין שם אחר.‏"
-
-#: doclinkdialog.src#QUERY_DELETE_CONFIRM.querybox.text
-#: doclinkdialog.src%23QUERY_DELETE_CONFIRM.querybox.text
-msgid "Do you want to delete the entry?"
-msgstr "האם למחוק את הערך?‏"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_SEQUENCECHECKING.fixedline.text
-msgid "Sequence checking"
-msgstr "בדיקת רצף"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_SEQUENCECHECKING.checkbox.text
-msgid "Use se~quence checking"
-msgstr "השתמש בבדיקת ~רצף"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_RESTRICTED.checkbox.text
-msgid "Restricted"
-msgstr "מוגבל"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.CB_TYPE_REPLACE.checkbox.text
-msgid "~Type and replace"
-msgstr "הקלדה והחלפה"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_CURSORCONTROL.fixedline.text
-msgid "Cursor control"
-msgstr "בקרת סמן"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.fixedtext.text
-msgid "Movement"
-msgstr "תנועה"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_LOGICAL.radiobutton.text
-msgid "Lo~gical"
-msgstr "לוגי"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.RB_MOVEMENT_VISUAL.radiobutton.text
-msgid "~Visual"
-msgstr "~ויזואלי"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FL_GENERAL.fixedline.text
-msgid "General options"
-msgstr "אפשרויות כלליות"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.FT_NUMERALS.fixedtext.text
-msgid "~Numerals"
-msgstr "ספרות"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.1.stringlist.text
-msgid "Arabic"
-msgstr "ערביות"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.2.stringlist.text
-msgid "Hindi"
-msgstr "הינדיות"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.3.stringlist.text"
-msgid "System"
-msgstr "מערכת-הפעלה"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.LB_NUMERALS.4.stringlist.text
-msgid "Context"
-msgstr "הקשר"
-
-#: optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-#: optctl.src%23RID_SVXPAGE_OPTIONS_CTL.tabpage.text
-msgctxt "optctl.src#RID_SVXPAGE_OPTIONS_CTL.tabpage.text"
-msgid "Complex Text Layout"
-msgstr "מתאר טקסט מורכב"
-
 #: optjava.src#RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 #: optjava.src%23RID_SVXPAGE_OPTIONS_JAVA.FL_JAVA.fixedline.text
 msgid "Java options"
@@ -2161,385 +2274,245 @@ msgstr ""
 "עליך להפעיל מחדש את ‎%PRODUCTNAME כדי שערכים ששונו או נוספו ייכנסו לתוקף.\n"
 " נא לאתחל את ‏‪%PRODUCTNAME‬‏."
 
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
-msgid "Default text direction"
-msgstr "ברירת מחדל של כיוון הטקסט"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
-msgid "~Left-to-right"
-msgstr "משמאל לימין"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
-msgid "~Right-to-left"
-msgstr "מ~ימין לשמאל"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
-msgid "Sheet view"
-msgstr "תצוגת גיליון"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
-msgid "Right-~to-left"
-msgstr "מימין ל~שמאל"
-
-#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
-msgid "~Current document only"
-msgstr "מסמך נוכחי בלבד"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_COLORSCHEME.fixedline.text
-msgid "Color scheme"
-msgstr "סכימת צבעים"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FT_COLORSCHEME.fixedtext.text
-msgid "Scheme"
-msgstr "סכימה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_SAVESCHEME.pushbutton.text
-msgid "Save..."
-msgstr "שמירה...‏"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.PB_DELETESCHEME.pushbutton.text"
-msgid "Delete"
-msgstr "מחיקה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.FL_CUSTOMCOLORS.fixedline.text
-msgid "Custom colors"
-msgstr "צבעים מותאמים אישית"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_ON.string.text
-msgid "On"
-msgstr "מופעל"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_UIELEM.string.text
-msgid "User interface elements"
-msgstr "מרכיבי ממשק המשתמש/ת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_COLSET.string.text
-msgid "Color setting"
-msgstr "הגדרות צבע"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.ST_PREVIEW.string.text
-msgid "Preview"
-msgstr "תצוגה מקדימה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_GENERAL.fixedtext.text"
-msgid "General"
-msgstr "כללי"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DOCCOLOR.fixedtext.text
-msgid "Document background"
-msgstr "רקע מסמך"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_DOCBOUND.checkbox.text
-msgid "Text boundaries"
-msgstr "גבולות טקסט"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_APPBACKGROUND.fixedtext.text
-msgid "Application background"
-msgstr "רקע יישום"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_OBJECTBOUNDARIES.checkbox.text
-msgid "Object boundaries"
-msgstr "גבולות עצם"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_TABLEBOUNDARIES.checkbox.text
-msgid "Table boundaries"
-msgstr "גבולות טבלה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_FONTCOLOR.fixedtext.text
-msgid "Font color"
-msgstr "צבע גופן"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKS.checkbox.text
-msgid "Unvisited links"
-msgstr "קישורים שעדיין לא ביקרו בהם"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_LINKSVISITED.checkbox.text
-msgid "Visited links"
-msgstr "קישורים שביקרו בהם"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SPELL.fixedtext.text
-msgid "AutoSpellcheck"
-msgstr "איות אוטומטי"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SMARTTAGS.fixedtext.text
-msgid "Smart Tags"
-msgstr "תגיות חכמות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITER.fixedtext.text
-msgid "Text Document"
-msgstr "מסמך טקסט"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERTEXTGRID.fixedtext.text"
-msgid "Grid"
-msgstr "רשת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERFIELDSHADINGS.checkbox.text
-msgid "Field shadings"
-msgstr "הצללות שדה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERIDXSHADINGS.checkbox.text
-msgid "Index and table shadings"
-msgstr "הצללות אינדקס וטבלה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERSCRIPTINDICATOR.fixedtext.text
-msgid "Script indicator"
-msgstr "מחוון הסקריפט"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.CB_WRITERSECTIONBOUNDARIES.checkbox.text
-msgid "Section boundaries"
-msgstr "גבולות מקטעים"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERPAGEBREAKS.fixedtext.text
-msgid "Page and column breaks"
-msgstr "מעברי עמוד ועמודה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_WRITERDIRECTCURSOR.fixedtext.text
-msgid "Direct cursor"
-msgstr "סמן ישיר"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTML.fixedtext.text
-msgid "HTML Document"
-msgstr "מסמך ‏‪HTML‏"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLSGML.fixedtext.text
-msgid "SGML syntax highlighting"
-msgstr "הבלטת תחביר ‏‪SGML‏"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLCOMMENT.fixedtext.text
-msgid "Comment highlighting"
-msgstr "הבלטת הערות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLKEYWORD.fixedtext.text
-msgid "Keyword highlighting"
-msgstr "הבלטת מילות מפתח"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_HTMLUNKNOWN.fixedtext.text
-msgid "Text"
-msgstr "טקסט"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALC.fixedtext.text"
-msgid "Spreadsheet"
-msgstr "גיליון אלקטרוני"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCGRID.fixedtext.text
-msgid "Grid lines"
-msgstr "קווי רשת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAK.fixedtext.text
-msgid "Page breaks"
-msgstr "מעברי עמוד"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKMANUAL.fixedtext.text
-msgid "Manual page breaks"
-msgstr "מעברי עמוד ידניים"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCPAGEBREAKAUTO.fixedtext.text
-msgid "Automatic page breaks"
-msgstr "מעברי עמוד אוטומטיים"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVE.fixedtext.text
-msgid "Detective"
-msgstr "מצב גילוי"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCDETECTIVEERROR.fixedtext.text
-msgid "Detective error"
-msgstr "שגיאת מצב גילוי"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCREFERENCE.fixedtext.text
-msgid "References"
-msgstr "הפניות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_CALCNOTESBACKGROUND.fixedtext.text
-msgid "Notes background"
-msgstr "רקע הערות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAW.fixedtext.text
-msgid "Drawing / Presentation"
-msgstr "תרשים / מצגת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_DRAWGRID.fixedtext.text"
-msgid "Grid"
-msgstr "רשת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASIC.fixedtext.text
-msgid "Basic Syntax Highlighting"
-msgstr "הבלטת תחביר בייסיק"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "מזהה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "הערה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "מספר"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICSTRING.fixedtext.text"
-msgid "String"
-msgstr "מחרוזת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "אופרטור"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICKEYWORD.fixedtext.text
-msgid "Reserved expression"
-msgstr "ביטוי שמור"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_BASICERROR.fixedtext.text
-msgid "Error"
-msgstr "שגיאה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQL_COMMAND.fixedtext.text
-msgid "SQL Syntax Highlighting"
-msgstr "הבלטת תחביר ‏‪SQL"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLIDENTIFIER.fixedtext.text"
-msgid "Identifier"
-msgstr "מזהה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLNUMBER.fixedtext.text"
-msgid "Number"
-msgstr "מספר"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLSTRING.fixedtext.text"
-msgid "String"
-msgstr "מחרוזת"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLOPERATOR.fixedtext.text"
-msgid "Operator"
-msgstr "אופרטור"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLKEYWORD.fixedtext.text
-msgid "Keyword"
-msgstr "מילת מפתח"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLPARAMETER.fixedtext.text
-msgid "Parameter"
-msgstr "פרמטר"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text
-msgctxt "optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.FT_SQLCOMMENT.fixedtext.text"
-msgid "Comment"
-msgstr "הערה"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_EXTENSION.string.text
-msgid "Colorsettings of the Extensions"
-msgstr "הגדרות צבעים של ההרחבות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_SPELL_CHECK_HIGHLIGHTING.string.text
-msgid "Spell check highlighting"
-msgstr "הבלטת מילים של בדיקת איות"
-
-#: optcolor.src#RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-#: optcolor.src%23RID_SVXPAGE_COLORCONFIG.CT_COLORCONFIG.WN_SCROLL.ST_GRAMMAR_CHECK_HIGHLIGHTING.string.text
-msgid "Grammar check highlighting"
-msgstr "הבלטת בדיקת דקדוק"
-
-#: optcolor.src#RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-#: optcolor.src%23RID_SVXQB_DELETE_COLOR_CONFIG.querybox.text
-msgid "Do you really want to delete the color scheme?"
-msgstr "האם למחוק את סכימת הצבעים?‏"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_DELETE.string.text
-msgid "Color Scheme Deletion"
-msgstr "מחיקת סכימת הצבעים"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE1.string.text
-msgid "Save scheme"
-msgstr "שמירת הסכימה"
-
-#: optcolor.src#RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-#: optcolor.src%23RID_SVXSTR_COLOR_CONFIG_SAVE2.string.text
-msgid "Name of color scheme"
-msgstr "שם סכימת הצבעים"
+#: readonlyimage.src#RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+#: readonlyimage.src%23RID_SVXSTR_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "הגדרה זו מוגנת על ידי מנהל/ת המערכת"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE1.fixedtext.text
+msgid "Size ~1"
+msgstr "גודל 1‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE2.fixedtext.text
+msgid "Size ~2"
+msgstr "גודל 2‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE3.fixedtext.text
+msgid "Size ~3"
+msgstr "גודל 3‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE4.fixedtext.text
+msgid "Size ~4"
+msgstr "גודל 4‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE5.fixedtext.text
+msgid "Size ~5"
+msgstr "גודל 5‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE6.fixedtext.text
+msgid "Size ~6"
+msgstr "גודל 6‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.FT_SIZE7.fixedtext.text
+msgid "Size ~7"
+msgstr "גודל 7‏"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_FONTSIZE.fixedline.text
+msgid "Font sizes"
+msgstr "גדלי גופן"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_IMPORT.fixedline.text
+msgid "Import"
+msgstr "יבוא"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_NUMBERS_ENGLISH_US.checkbox.text
+msgid "~Use '%ENGLISHUSLOCALE' locale for numbers"
+msgstr "יישום שיטת מספור ‏‪'%ENGLISHUSLOCALE'"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_UNKNOWN_TAGS.checkbox.text
+msgid "~Import unknown HTML tags as fields"
+msgstr "ייבוא תגיות ‏‪HTML‬‏ בלתי ידועות כשדות"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.CB_IGNORE_FONTNAMES.checkbox.text
+msgid "Ignore ~font settings"
+msgstr "התעלמות מהגדרות הגופן"
+
+#: opthtml.src#RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+#: opthtml.src%23RID_OFAPAGE_HTMLOPT.GB_EXPORT.fixedline.text
+msgid "Export"
+msgstr "ייצא"
+
+#: opthtml.src#CB_STARBASIC_WARNING.checkbox.text
+#: opthtml.src%23CB_STARBASIC_WARNING.checkbox.text
+msgid "Display ~warning"
+msgstr "הצגת אזהרה"
+
+#: opthtml.src#CB_PRINT_EXTENSION.checkbox.text
+#: opthtml.src%23CB_PRINT_EXTENSION.checkbox.text
+msgid "~Print layout"
+msgstr "עימוד ~דפוס"
+
+#: opthtml.src#CB_LOCAL_GRF.checkbox.text
+#: opthtml.src%23CB_LOCAL_GRF.checkbox.text
+msgid "~Copy local graphics to Internet"
+msgstr "העתקת גרפיקה מקומית לאינטרנט"
+
+#: opthtml.src#FT_CHARSET.fixedtext.text
+#: opthtml.src%23FT_CHARSET.fixedtext.text
+msgid "Character set"
+msgstr "ערכת תווים"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FL_POOLING.fixedline.text
+msgid "Connection pool"
+msgstr "מאגר חיבורים"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_POOL_CONNS.checkbox.text
+msgid "Connection pooling enabled"
+msgstr "מאגר חיבורים פעיל"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERS.fixedtext.text
+msgid "Drivers known in %PRODUCTNAME"
+msgstr "מנהלי ההתקן המוכרים ב  ‏‪%PRODUCTNAME‏"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_DRIVERLABEL.fixedtext.text
+msgid "Current driver:"
+msgstr "מנהל ההתקן הנוכחי:‏"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.CB_DRIVERPOOLING.checkbox.text
+msgid "Enable pooling for this driver"
+msgstr "מנהל התקן זה יוכל להשתמש במאגר"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.FT_TIMEOUT.fixedtext.text
+msgid "Timeout (seconds)"
+msgstr "תפוגת-זמן (שניות)‏"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_DRIVER_NAME.string.text
+msgid "Driver name"
+msgstr "שם מנהל ההתקן"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOLED_FLAG.string.text
+msgid "Pool"
+msgstr "מאגר"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_POOL_TIMEOUT.string.text
+msgid "Timeout"
+msgstr "פג הזמן"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_YES.string.text
+msgid "Yes"
+msgstr "כן"
+
+#: connpooloptions.src#RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+#: connpooloptions.src%23RID_OFAPAGE_CONNPOOLOPTIONS.STR_NO.string.text
+msgid "No"
+msgstr "לא"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COMPANY.fixedtext.text
+msgid "~Company"
+msgstr "חברה"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME.fixedtext.text
+msgid "First/Last ~name/Initials"
+msgstr "שם פרטי/משפחה/ראשי תיבות"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_RUSS.fixedtext.text
+msgid "Last Name/First name/Father's name/Initials"
+msgstr "שם פרטי/שם אב/שם משפחה/ראשי תיבות"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_NAME_EASTERN.fixedtext.text
+msgid "Last/First ~name/Initials"
+msgstr "שם משפחה/שם פרטי/ראשי ~תיבות"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET.fixedtext.text
+msgid "~Street"
+msgstr "רחוב"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_STREET_RUSS.fixedtext.text
+msgid "Street/Apartment number"
+msgstr "רחוב/דירה"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_CITY.fixedtext.text
+msgid "Zip/City"
+msgstr "מיקוד/עיר"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_COUNTRY.fixedtext.text
+msgid "Country/Region"
+msgstr "מדינה/מחוז"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_TITLEPOS.fixedtext.text
+msgid "~Title/Position"
+msgstr "תואר/משרה"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_PHONE.fixedtext.text
+msgid "Tel. (Home/Work)"
+msgstr "טלפון (בית/עבודה)‏"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.FT_FAXMAIL.fixedtext.text
+msgid "Fa~x / E-mail"
+msgstr "פקס/דואר אלקטרוני"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.GB_ADDRESS.fixedline.text
+msgid "Address "
+msgstr "כתובת"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.CB_USEDATA.checkbox.text
+msgid "Use data for document properties"
+msgstr "שימוש בנתונים עבור מאפייני המסמך"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_US_STATE.string.text
+msgid "City/State/Zip"
+msgstr "עיר/מחוז/מיקוד"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.STR_QUERY_REG.string.text
+msgid ""
+"Note that street, Zip code and city are used to generate the registration "
+"key. You will not be able to change the user data again until the "
+"registration has been carried out. Do you want to modify the user data now?"
+msgstr ""
+"שימו לב: רחוב, מיקוד ועיר ישמשו ליצירת מפתח הרישום. לא תהיה אפשרות לשנות "
+"נתונים אלו עד לסיום הרישום. האם לשנות פרטי המשתמש עכשיו?‏"
+
+#: optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text
+#: optgenrl.src%23RID_SFXPAGE_GENERAL.tabpage.text
+msgctxt "optgenrl.src#RID_SFXPAGE_GENERAL.tabpage.text"
+msgid "User Data"
+msgstr "פרטי המשתמש"
+
+#: optgenrl.src#RID_SVXQB_CHANGEDATA.querybox.text
+#: optgenrl.src%23RID_SVXQB_CHANGEDATA.querybox.text
+msgid ""
+"The User Data have been changed.\n"
+"Do you really want to change your User Data?"
+msgstr ""
+"נתוני המשתמש שונו.\n"
+"האם לשנות באמת את נתוני המשתמש שלך?"
 
 #: treeopt.src#RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
 #: treeopt.src%23RID_OFADLG_OPTIONS_TREE.PB_BACK.pushbutton.text
@@ -3119,45 +3092,35 @@ msgstr "הרשאות האתר"
 msgid "Personal certificates"
 msgstr "הרשאות אישיות"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_TYPE.fixedtext.text
-msgid "Registered name"
-msgstr "השם הרשום"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_DEFTXTDIRECTION.fixedline.text
+msgid "Default text direction"
+msgstr "ברירת מחדל של כיוון הטקסט"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.FT_PATH.fixedtext.text
-msgid "Database file"
-msgstr "קובץ מסד נתונים"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_LEFT2RIGHT.radiobutton.text
+msgid "~Left-to-right"
+msgstr "משמאל לימין"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_NEW.pushbutton.text"
-msgid "~New..."
-msgstr "חדש...‏"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.RB_TXTDIR_RIGHT2LEFT.radiobutton.text
+msgid "~Right-to-left"
+msgstr "מ~ימין לשמאל"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "עריכה...‏"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.FL_SHEETVIEW.fixedline.text
+msgid "Sheet view"
+msgstr "תצוגת גיליון"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.BTN_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "~מחיקה"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_RIGHT2LEFT.checkbox.text
+msgid "Right-~to-left"
+msgstr "מימין ל~שמאל"
 
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.GB_STD.fixedline.text"
-msgid "Registered databases"
-msgstr "מסד נתונים רשום"
-
-#: dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text
-#: dbregister.src%23RID_SFXPAGE_DBREGISTER.tabpage.text
-msgctxt "dbregister.src#RID_SFXPAGE_DBREGISTER.tabpage.text"
-msgid "Registered databases"
-msgstr "מסד נתונים רשום"
+#: internationaloptions.src#RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+#: internationaloptions.src%23RID_OFA_TP_INTERNATIONAL.CB_SHTVW_CURRENTDOCONLY.checkbox.text
+msgid "~Current document only"
+msgstr "מסמך נוכחי בלבד"
 
 #: optspell.src#RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
 #: optspell.src%23RID_SFXPAGE_SPELL.BTN_BOOK.pushbutton.text
@@ -3195,6 +3158,359 @@ msgstr "בדיקה"
 #: optspell.src%23RID_SFXPAGE_SPELL.tabpage.text
 msgid "Spellcheck"
 msgstr "בדיקת איות"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
+msgid "Microsoft Word 97/2000/XP"
+msgstr "Microsoft Word 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
+msgid "Load Basic ~code"
+msgstr "טעינת ~קוד בייסיק"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
+msgid "Save ~original Basic code"
+msgstr "שמור קוד בייסיק מקורי"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
+msgid "Microsoft Excel 97/2000/XP"
+msgstr "Microsoft Excel 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
+msgid "Lo~ad Basic code"
+msgstr "ט~עינת קוד בייסיק"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
+msgid "E~xecutable code"
+msgstr "קוד ~בר ביצוע"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
+msgid "Sa~ve original Basic code"
+msgstr "ש~מירת קוד בייסיק מקורי"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
+msgid "Microsoft PowerPoint 97/2000/XP"
+msgstr "Microsoft PowerPoint 97/2000/XP"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
+msgid "Load Ba~sic code"
+msgstr "טעינת קוד ~בייסיק"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
+msgid "Sav~e original Basic code"
+msgstr "שמירת קוד בייסיק מקורי"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
+msgid "[L]"
+msgstr "[L]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
+msgid "[S]"
+msgstr "[S]"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
+msgid "[L]: Load and convert the object"
+msgstr "[L]: טעינה והמרה של העצם"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
+msgid "[S]: Convert and save the object"
+msgstr "[S]: המר ושמור את העצם"
+
+# מדובר על המרת נוסחאות מפורמט Math של Microsoft לפורמט MathType, או המרה בכיוון ההפוך. נראה שהכוונה היא שייווצר ביטוי productname Math, ולא שהמילה Math תופיע בנפרד, לכן לא חשבתי שיש צורך להוסיף תו שינוי כיוון כתיבה.
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
+msgid "MathType to %PRODUCTNAME Math or reverse"
+msgstr "MathType ל-‎%PRODUCTNAME Math‏ או להפך"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
+#, fuzzy
+msgid "Word to %PRODUCTNAME Writer or reverse"
+msgstr "מסמך WinWord למסמך %PRODUCTNAME Writer או להפך"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
+msgid "Excel to %PRODUCTNAME Calc or reverse"
+msgstr "קובץ אקסל ל- %PRODUCTNAME Calc  או להפך"
+
+#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
+msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
+msgstr "קובץ PowerPoint ל- %PRODUCTNAME Impress  או להפך"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_USETABLE.checkbox.text
+msgid "~Apply replacement table"
+msgstr "ה~פעל טבלת החלפה"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT1.fixedtext.text
+msgid "~Font"
+msgstr "~גופן"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONT2.fixedtext.text
+msgid "Re~place with"
+msgstr "ה~חלף בגופן"
+
+# המילה משמשת כתחליף ל-V שמוסיף את השורה לטבלה. המילה ״החל״ לא ממש מתאימה.
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "בצע"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.TBX_SUBSTNEWDEL.BT_SUBSTDELETE.toolboxitem.text"
+msgid "Delete"
+msgstr "מחק"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FL_SOURCEVIEW.fixedline.text
+msgid "Font settings for HTML, Basic and SQL sources"
+msgstr "הגדרת גופנים למקורות HTML,‏ Basic ו-SQL"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTNAME.fixedtext.text"
+msgid "Fonts"
+msgstr "גופנים"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.CB_NONPROP.checkbox.text
+msgid "Non-proportional fonts only"
+msgstr "רק גופנים לא-פרופורציונאלים"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.FT_FONTHEIGHT.fixedtext.text
+msgid "~Size"
+msgstr "גודל"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER1.string.text
+msgid "Always"
+msgstr "תמיד"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.string.text
+msgid "Screen only"
+msgstr "מסך"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER3.string.text
+msgid "Font"
+msgstr "גופן"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_HEADER4.string.text
+msgid "Replace with"
+msgstr "החלף ב-"
+
+#: fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+#: fontsubs.src%23RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text
+msgctxt "fontsubs.src#RID_SVX_FONT_SUBSTITUTION.STR_AUTOMATIC.string.text"
+msgid "Automatic"
+msgstr "אוטומטית"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_CHART_COLOR_LIST.fixedline.text
+msgid "Chart colors"
+msgstr "צבעי תרשים"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.FL_COLOR_BOX.fixedline.text
+msgid "Color table"
+msgstr "טבלת צבעים"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.PB_RESET_TO_DEFAULT.pushbutton.text"
+msgid "~Default"
+msgstr "~ברירת מחדל"
+
+#: optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+#: optchart.src%23RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text
+msgctxt "optchart.src#RID_OPTPAGE_CHART_DEFCOLORS.tabpage.text"
+msgid "Default Colors"
+msgstr "צבעי ברירת מחדל"
+
+#: optchart.src#RID_SVXSTR_DIAGRAM_ROW.string.text
+#: optchart.src%23RID_SVXSTR_DIAGRAM_ROW.string.text
+msgid "Data Series $(ROW)"
+msgstr "סדרת נתונים $(ROW)"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTNAME.fixedtext.text"
+msgid "~Name"
+msgstr "~שם"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_NEWDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "~שפה"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.BTN_EXCEPT.checkbox.text
+msgid "~Exception (-)"
+msgstr "~חריג (-)‏"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.GB_NEWDICT.fixedline.text
+msgid "Dictionary"
+msgstr "מילון"
+
+#: optdict.src#RID_SFXDLG_NEWDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_NEWDICT.modaldialog.text
+msgid "New Dictionary"
+msgstr "מילון חדש"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_BOOK.fixedtext.text
+msgid "~Book"
+msgstr "ספר"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.FT_DICTLANG.fixedtext.text"
+msgid "~Language"
+msgstr "שפה"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_WORD.fixedtext.text
+msgid "~Word"
+msgstr "מילה"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.FT_REPLACE.fixedtext.text
+msgid "Replace ~By:"
+msgstr "החלף עם:‏"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_NEW_REPLACE.pushbutton.text
+msgid "~New"
+msgstr "חדש"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text
+msgctxt "optdict.src#RID_SFXDLG_EDITDICT.PB_DELETE_REPLACE.pushbutton.text"
+msgid "~Delete"
+msgstr "~מחיקה"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.STR_MODIFY.string.text
+msgid "~Replace"
+msgstr "~החלף"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.BTN_EDITCLOSE.cancelbutton.text
+msgid "~Close"
+msgstr "סגירה"
+
+#: optdict.src#RID_SFXDLG_EDITDICT.modaldialog.text
+#: optdict.src%23RID_SFXDLG_EDITDICT.modaldialog.text
+msgid "Edit Custom Dictionary"
+msgstr "עריכת מילון מותאמת אישית"
+
+#: optdict.src#RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+#: optdict.src%23RID_SVXSTR_OPT_DOUBLE_DICTS.string.text
+msgid ""
+"The specified name already exists.\n"
+"Please enter a new name."
+msgstr ""
+"השם שצויין כבר קיים.\n"
+"נא לבחור שם אחר.‏"
+
+#: optdict.src#RID_SFXQB_SET_LANGUAGE.querybox.text
+#: optdict.src%23RID_SFXQB_SET_LANGUAGE.querybox.text
+msgid "Do you want to change the '%1' dictionary language?"
+msgstr "האם לשנות את שפת מילון  '%1'?‏"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_IMPROVE.fixedline.text
+msgid "Improvement Program"
+msgstr "תוכנית לשיפור"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_INVITATION.fixedtext.text
+msgid ""
+"We invite you to join our %PRODUCTNAME Improvement Program to help optimize "
+"the quality of %PRODUCTNAME.\n"
+"\n"
+"If you are willing to participate, we will collect anonymous statistics "
+"about how you use %PRODUCTNAME. The data is used to identify usage patterns."
+"\n"
+"\n"
+"The %PRODUCTNAME Improvement Program will not collect any personal data, or "
+"document content."
+msgstr ""
+"אנחנו מזמינים אותך להצטרף לתוכנית שיפור של %PRODUCTNAME בכדי לעזור ולייעל את "
+"האיכות של %PRODUCTNAME.\n"
+"\n"
+"אם תרצה להשתתף, אנחנו נאסוף מידע סטטיסטי אנונימי אודות השימוש ב-%"
+"PRODUCTNAME. המידע ישמש לזיהוי הרגלי השימוש.\n"
+"\n"
+"התוכנית לשיפור %PRODUCTNAME לא תאסוף שום מידע אישי, או תוכן מסמכים."
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_YES.radiobutton.text
+msgid ""
+"~Yes, I am willing to participate in the %PRODUCTNAME Improvement Program"
+msgstr "~כן, אני מוכן להשתתף בתוכנית לשיפור %PRODUCTNAME"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.RB_NO.radiobutton.text
+msgid "~No, I do not wish to participate"
+msgstr "~לא, אין ברצוני להשתתף"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FL_DATA.fixedline.text
+msgid "Tracked Data"
+msgstr "מעקב אחר נתונים"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_REPORTS.fixedtext.text
+msgid "Number of reports sent:"
+msgstr "מספר הדוחות שנשלחו:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.FT_NR_ACTIONS.fixedtext.text
+msgid "Number of tracked actions:"
+msgstr "מספר פעולות שנעקבו:"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.PB_SHOWDATA.pushbutton.text
+msgid "~Show Data"
+msgstr "~הצג נתונים"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_INFO.string.text
+msgid "Help Optimize the Quality of %PRODUCTNAME"
+msgstr "עזור לייעל את האיכות של %PRODUCTNAME"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.STR_MOREINFO.string.text
+msgid "More Information"
+msgstr "יותר מידע"
+
+#: optimprove.src#RID_SVXPAGE_IMPROVEMENT.tabpage.text
+#: optimprove.src%23RID_SVXPAGE_IMPROVEMENT.tabpage.text
+msgid "%PRODUCTNAME Improvement Program"
+msgstr "התוכנית לשיפור ‏‫%PRODUCTNAME‏"
 
 #: optpath.src#RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
 #: optpath.src%23RID_SFXPAGE_PATH.FT_TYPE.fixedtext.text
@@ -3357,321 +3673,3 @@ msgstr "תיקון אוטומטי"
 msgctxt "optpath.src#RID_SVXSTR_KEY_LINGUISTIC_DIR.string.text"
 msgid "Writing aids"
 msgstr "עזרי כתיבה"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_WORD.fixedline.text
-msgid "Microsoft Word 97/2000/XP"
-msgstr "Microsoft Word 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_CODE.checkbox.text
-msgid "Load Basic ~code"
-msgstr "טעינת ~קוד בייסיק"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_WBAS_STG.checkbox.text
-msgid "Save ~original Basic code"
-msgstr "שמור קוד בייסיק מקורי"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_EXCEL.fixedline.text
-msgid "Microsoft Excel 97/2000/XP"
-msgstr "Microsoft Excel 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_CODE.checkbox.text
-msgid "Lo~ad Basic code"
-msgstr "ט~עינת קוד בייסיק"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_EXECTBL.checkbox.text
-msgid "E~xecutable code"
-msgstr "קוד ~בר ביצוע"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_EBAS_STG.checkbox.text
-msgid "Sa~ve original Basic code"
-msgstr "ש~מירת קוד בייסיק מקורי"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.GB_PPOINT.fixedline.text
-msgid "Microsoft PowerPoint 97/2000/XP"
-msgstr "Microsoft PowerPoint 97/2000/XP"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_CODE.checkbox.text
-msgid "Load Ba~sic code"
-msgstr "טעינת קוד ~בייסיק"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT.CB_PBAS_STG.checkbox.text
-msgid "Sav~e original Basic code"
-msgstr "שמירת קוד בייסיק מקורי"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER1.string.text
-msgid "[L]"
-msgstr "[L]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_HEADER2.string.text
-msgid "[S]"
-msgstr "[S]"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER1_EXPLANATION.fixedtext.text
-msgid "[L]: Load and convert the object"
-msgstr "[L]: טעינה והמרה של העצם"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.FT_HEADER2_EXPLANATION.fixedtext.text
-msgid "[S]: Convert and save the object"
-msgstr "[S]: המר ושמור את העצם"
-
-# מדובר על המרת נוסחאות מפורמט Math של Microsoft לפורמט MathType, או המרה בכיוון ההפוך. נראה שהכוונה היא שייווצר ביטוי productname Math, ולא שהמילה Math תופיע בנפרד, לכן לא חשבתי שיש צורך להוסיף תו שינוי כיוון כתיבה.
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_MATH.string.text
-msgid "MathType to %PRODUCTNAME Math or reverse"
-msgstr "MathType ל-‎%PRODUCTNAME Math‏ או להפך"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_WRITER.string.text
-#, fuzzy
-msgid "Word to %PRODUCTNAME Writer or reverse"
-msgstr "מסמך WinWord למסמך %PRODUCTNAME Writer או להפך"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_CALC.string.text
-msgid "Excel to %PRODUCTNAME Calc or reverse"
-msgstr "קובץ אקסל ל- %PRODUCTNAME Calc  או להפך"
-
-#: optfltr.src#RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-#: optfltr.src%23RID_OFAPAGE_MSFILTEROPT2.ST_CHG_IMPRESS.string.text
-msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
-msgstr "קובץ PowerPoint ל- %PRODUCTNAME Impress  או להפך"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_KERNING.fixedline.text
-msgid "Kerning"
-msgstr "ציפוף"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_KERNING.radiobutton.text
-msgid "~Western characters only"
-msgstr "תווים מערביים בלבד"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_CHAR_PUNCT.radiobutton.text
-msgid "Western ~text and Asian punctuation"
-msgstr "טקסט מערבי וסימני פיסוק אסיאתיים"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_CHAR_DIST.fixedline.text
-msgid "Character spacing"
-msgstr "ריווח תווים"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_NO_COMP.radiobutton.text
-msgid "~No compression"
-msgstr "ללא דחיסה"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_COMP.radiobutton.text
-msgid "~Compress punctuation only"
-msgstr "דחיסת סימני פיסוק בלבד"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.RB_PUNCT_KANA_COMP.radiobutton.text
-msgid "Compress ~punctuation and Japanese Kana"
-msgstr "דחיסת סימני פיסוק וקנה יפנית"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.GB_START_END.fixedline.text
-msgid "First and last characters"
-msgstr "אותיות ראשונות ואחרונות"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_LANGUAGE.fixedtext.text"
-msgid "~Language"
-msgstr "שפה"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.CB_STANDARD.checkbox.text"
-msgid "~Default"
-msgstr "ברירת מחדל"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_START.fixedtext.text
-msgid "Not at start of line:"
-msgstr "לא בתחילת שורה:‏"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_END.fixedtext.text
-msgid "Not at end of line:"
-msgstr "לא בסוף שורה:‏"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.FT_HINT.fixedtext.text
-msgid "Without user-defined line break symbols"
-msgstr "ללא סימני מעבר שורה מוגדרים בידי המשתמש/ת"
-
-#: optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-#: optasian.src%23RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text
-msgctxt "optasian.src#RID_SVXPAGE_ASIAN_LAYOUT.tabpage.text"
-msgid "Proxy"
-msgstr "שרת-מתווך"
-
-#: optsave.src#TEXT_SAVEPAGE.#define.text
-#: optsave.src%23TEXT_SAVEPAGE.%23define.text
-msgctxt "optsave.src#TEXT_SAVEPAGE.#define.text"
-msgid "Save"
-msgstr "שמירה"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_LOAD.fixedline.text
-msgid "Load"
-msgstr "טעינה"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_SETTINGS.checkbox.text
-msgid "Load user-specific settings with the document"
-msgstr "טעינת ההגדרות המיוחדות למשתמש/ת יחד עם המסמך"
-
-#: optsave.src#RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.CB_LOAD_DOCPRINTER.checkbox.text
-msgid "Load printer settings with the document"
-msgstr "טעינת הגדרות המדפסת עם המסמך"
-
-#: optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.GB_SAVE.fixedline.text"
-msgid "Save"
-msgstr "שמירה"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_DOCINFO.checkbox.text
-msgid "~Edit document properties before saving"
-msgstr "~עריכת מאפייני המסמך לפני שמירה"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_BACKUP.checkbox.text
-msgid "Al~ways create backup copy"
-msgstr "יש ליצור תמיד עותק גיבוי"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_AUTOSAVE.checkbox.text
-msgid "Save ~AutoRecovery information every"
-msgstr "שמירת מידע להתאוששות אוטומטית כל"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_MINUTE.fixedtext.text
-msgid "Minutes"
-msgstr "דקות"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_FSYS.checkbox.text
-msgid "Save URLs relative to file system"
-msgstr "שמירת כתובות יחסית למערכת הקבצים"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_RELATIVE_INET.checkbox.text
-msgid "Save URLs relative to internet"
-msgstr "שמירת כתובות יחסית לאינטרנט"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FL_FILTER.fixedline.text
-msgid "Default file format and ODF settings"
-msgstr "פורמט ברירת המחדל לקובץ והגדרות ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_ODF_VERSION.fixedtext.text
-msgid "ODF format version"
-msgstr "גרסת פורמט ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.1.stringlist.text
-msgid "1.0/1.1"
-msgstr "1.0/1.1"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.2.stringlist.text
-msgid "1.2"
-msgstr "1.2"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_ODF_VERSION.3.stringlist.text
-msgid "1.2 Extended (recommended)"
-msgstr "1.2 מורחב (מומלץ)"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_ODFENCRYPTION.checkbox.text
-msgid "Enable AES-256 encryption (ODF 1.2)"
-msgstr "הפעל הצפנת ‎AES-256 (ODF1.2)‎"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_NOPRETTYPRINTING.checkbox.text
-msgid "Size optimization for ODF format"
-msgstr "אופטימיזצית גודל לפורמט ODF"
-
-#: optsave.src#RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-#: optsave.src%23RID_SFXPAGE_SAVE.BTN_WARNALIENFORMAT.checkbox.text
-msgid "Warn when not saving in ODF or default format"
-msgstr "הזהר בעת שמירה שלא ב־ODF או בפורמט ברירת מחדל"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_APP.fixedtext.text
-msgid "D~ocument type"
-msgstr "סוג מסמך"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_FILTER.fixedtext.text
-msgid "Always sa~ve as"
-msgstr "לשמור תמיד כ"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.1.stringlist.text
-msgid "Text document"
-msgstr "מסמך טקסט"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.2.stringlist.text
-msgid "HTML document"
-msgstr "מסמך ‏‪HTML‏"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.3.stringlist.text
-msgid "Master document"
-msgstr "מסמך אב"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text
-msgctxt "optsave.src#RID_SFXPAGE_SAVE.LB_APP.4.stringlist.text"
-msgid "Spreadsheet"
-msgstr "גיליון אלקטרוני"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.5.stringlist.text
-msgid "Presentation"
-msgstr "מצגת"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.6.stringlist.text
-msgid "Drawing"
-msgstr "ציור"
-
-#: optsave.src#RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-#: optsave.src%23RID_SFXPAGE_SAVE.LB_APP.7.stringlist.text
-msgid "Formula"
-msgstr "נוסחה"
-
-#: optsave.src#RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-#: optsave.src%23RID_SFXPAGE_SAVE.FT_WARN.fixedtext.text
-msgid "Not using ODF 1.2 Extended may cause information to be lost."
-msgstr "אי שימוש ב-ODF 1.2 מורחב עלול לגרום לאובדן מידע."
-
-#: optsave.src#RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-#: optsave.src%23RID_SVXDLG_FILTER_WARNING.FT_FILTER_WARNING.fixedtext.text
-msgid "Using \"%1\" as default file format may cause information loss.\n"
-msgstr "השימוש ב \"%1\" כצורת ברירת המחדל לקבצים יכול לגרום לאובדן מידע.‏\n"

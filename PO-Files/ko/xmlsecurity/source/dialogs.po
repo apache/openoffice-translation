@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+xmlsecurity%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-07 14:20+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,51 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "문서에 다음 서명자가 서명한 문서 매크로가 포함되어 있습니다:"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "문서에 문서 매크로가 포함되어 있습니다."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "서명 보기..."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"매크로에 바이러스가 있을 수 있습니다. 문서 매크로를 비활성화하면 바이러스에 대해 염려할 필요가 없습니다. 그러나 매크로를 비활성화하면 "
+"문서 매크로에서 제공하는 기능을 사용할 수 없습니다."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "이 원본의 매크로는 항상 신뢰"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "매크로 활성화"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "매크로 비활성화"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "보안 경고"
 
 #: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
 #: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
@@ -38,121 +83,107 @@ msgstr "인증서 보기..."
 msgid "Select Certificate"
 msgstr "인증서 선택"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "보안 수준"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+msgid "The following have signed the document content:"
+msgstr "문서 내용 서명자:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "신뢰할 수 있는 소스"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+msgid "The following have signed the document macro:"
+msgstr "문서 매크로 서명자:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "원래대로"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+msgid "The following have signed this package:"
+msgstr "이 패키지 서명자:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "매크로 보안"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+msgid "\tSigned by\tDigital ID issued by\tDate"
+msgstr "\t서명자\t디지털 ID 발행날짜\t날짜"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"매우 높음.\n"
-"신뢰할 수 있는 파일 위치의 매크로만 실행할 수 있습니다. 다른 매크로는 서명 여부와 관계없이 모두 비활성화됩니다(~V)."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+msgid "Valid signature"
+msgstr "유효한 서명"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"높음.\n"
-"신뢰할 수 있는 소스의 서명된 매크로만 실행할 수 있습니다. 서명되지 않은 매크로는 비활성화됩니다(~I)."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+msgid "Certificate could not be validated"
+msgstr "인증서 유효성을 검증 할 수 없습니다"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"중간.\n"
-"알 수 없는 소스의 매크로를 실행하기 전에 사용자에게 확인해야 합니다(~M)."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
+msgid "The signatures in this document are invalid"
+msgstr "문서의 서명이 잘못되었습니다"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"낮음 (권장되지 않음).\n"
-"사용자 확인 없이 매크로를 실행합니다. 여는 문서가 모두 안전하다고 확신하는 경우에만 이 설정을 사용합니다(~L)."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+msgid "The signatures in this document are valid"
+msgstr "이 문서의 서명은 유효합니다"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "신뢰할 수 있는 인증서"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+msgid "Not all parts of the document are signed"
+msgstr "문서의 일부 부분이 서명되지 않았습니다"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "발행 대상\t발행 날짜\t만기일"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
+msgid "The signatures in this document are invalid"
+msgstr "이 문서의 서명은 유효하지 않습니다"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "추가..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "인증서 보기..."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "보기..."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+msgid "Sign Document..."
+msgstr "문서에 서명..."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
 msgid "Remove"
 msgstr "제거"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "신뢰할 수 있는 파일 위치"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+msgid "Close"
+msgstr "닫기"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
+msgid "Digital Signatures"
+msgstr "디지털 서명"
+
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
 msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
-msgstr "문서 매크로는 다음 위치 중 하나에서 연 경우에만 실행됩니다."
+"This document contains signatures in ODF 1.1 format. Signing documents in %"
+"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
+"signatures can be added or removed to this document.\n"
+"\n"
+"Save document in ODF 1.2 format and add all desired signatures again."
+msgstr ""
+"이 문서는 ODF 1.1 포맷으로 된 서명을 포함하고 있습니다. %PRODUCTNAME %PRODUCTVERSION 에서 서명한 문서는 "
+"ODF 1.2 포맷 버전이 필요합니다. 따라서 이 문서에 서명을 포함하거나 문서에서 서명을 제거할 수 없습니다.\n"
+"\n"
+"ODF 1.2 형식으로 문서를 저장하고, 원하는 서명을 추가하십시오."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "추가..."
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "제거"
-
-#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "이 설정은 관리자에 의해 보호됩니다"
+#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+msgid ""
+"Adding or removing a macro signature will remove all document signatures.\n"
+"Do you really want to continue?"
+msgstr ""
+"매크로 서명을 추가하거나 제거하면 모든 문서 서명이 제거됩니다.\n"
+"계속하시겠습니까?"
 
 #: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
@@ -314,149 +345,118 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "인증서가 검증되지 않았습니다."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "문서에 다음 서명자가 서명한 문서 매크로가 포함되어 있습니다:"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "보안 수준"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "문서에 문서 매크로가 포함되어 있습니다."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "신뢰할 수 있는 소스"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "서명 보기..."
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "원래대로"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "매크로 보안"
+
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"매크로에 바이러스가 있을 수 있습니다. 문서 매크로를 비활성화하면 바이러스에 대해 염려할 필요가 없습니다. 그러나 매크로를 비활성화하면 "
-"문서 매크로에서 제공하는 기능을 사용할 수 없습니다."
+"매우 높음.\n"
+"신뢰할 수 있는 파일 위치의 매크로만 실행할 수 있습니다. 다른 매크로는 서명 여부와 관계없이 모두 비활성화됩니다(~V)."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "이 원본의 매크로는 항상 신뢰"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"높음.\n"
+"신뢰할 수 있는 소스의 서명된 매크로만 실행할 수 있습니다. 서명되지 않은 매크로는 비활성화됩니다(~I)."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "매크로 활성화"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"중간.\n"
+"알 수 없는 소스의 매크로를 실행하기 전에 사용자에게 확인해야 합니다(~M)."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "매크로 비활성화"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"낮음 (권장되지 않음).\n"
+"사용자 확인 없이 매크로를 실행합니다. 여는 문서가 모두 안전하다고 확신하는 경우에만 이 설정을 사용합니다(~L)."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "보안 경고"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "신뢰할 수 있는 인증서"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-msgid "The following have signed the document content:"
-msgstr "문서 내용 서명자:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "발행 대상\t발행 날짜\t만기일"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-msgid "The following have signed the document macro:"
-msgstr "문서 매크로 서명자:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "추가..."
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-msgid "The following have signed this package:"
-msgstr "이 패키지 서명자:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "보기..."
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-msgid "\tSigned by\tDigital ID issued by\tDate"
-msgstr "\t서명자\t디지털 ID 발행날짜\t날짜"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-msgid "Valid signature"
-msgstr "유효한 서명"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-msgid "Certificate could not be validated"
-msgstr "인증서 유효성을 검증 할 수 없습니다"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
-msgid "The signatures in this document are invalid"
-msgstr "문서의 서명이 잘못되었습니다"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-msgid "The signatures in this document are valid"
-msgstr "이 문서의 서명은 유효합니다"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-msgid "Not all parts of the document are signed"
-msgstr "문서의 일부 부분이 서명되지 않았습니다"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
-msgid "The signatures in this document are invalid"
-msgstr "이 문서의 서명은 유효하지 않습니다"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "인증서 보기..."
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-msgid "Sign Document..."
-msgstr "문서에 서명..."
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
 msgid "Remove"
 msgstr "제거"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-msgid "Close"
-msgstr "닫기"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "신뢰할 수 있는 파일 위치"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
-msgid "Digital Signatures"
-msgstr "디지털 서명"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
 msgid ""
-"This document contains signatures in ODF 1.1 format. Signing documents in %"
-"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
-"signatures can be added or removed to this document.\n"
-"\n"
-"Save document in ODF 1.2 format and add all desired signatures again."
-msgstr ""
-"이 문서는 ODF 1.1 포맷으로 된 서명을 포함하고 있습니다. %PRODUCTNAME %PRODUCTVERSION 에서 서명한 문서는 "
-"ODF 1.2 포맷 버전이 필요합니다. 따라서 이 문서에 서명을 포함하거나 문서에서 서명을 제거할 수 없습니다.\n"
-"\n"
-"ODF 1.2 형식으로 문서를 저장하고, 원하는 서명을 추가하십시오."
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
+msgstr "문서 매크로는 다음 위치 중 하나에서 연 경우에만 실행됩니다."
 
-#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-msgid ""
-"Adding or removing a macro signature will remove all document signatures.\n"
-"Do you really want to continue?"
-msgstr ""
-"매크로 서명을 추가하거나 제거하면 모든 문서 서명이 제거됩니다.\n"
-"계속하시겠습니까?"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "추가..."
+
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "제거"
+
+#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "이 설정은 관리자에 의해 보호됩니다"

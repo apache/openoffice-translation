@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+extensions%2Fsource%2Fpropctrlr.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-20 20:07+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-12-07 13:44+0000\n"
 "Last-Translator: Mechtilde Stehmann <mechtilde@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,31 @@ msgstr "Formulaire principal"
 msgid "The columns of '#' could not be retrieved."
 msgstr "Impossible de récupérer les colonnes de '#'."
 
+#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+msgid "Controls"
+msgstr "Contrôles"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+msgid "Move Up"
+msgstr "Déplacer vers le haut"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+msgid "Move Down"
+msgstr "Déplacer vers le bas"
+
+#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+msgid "Automatic Sort"
+msgstr "Tri automatique"
+
+#: taborder.src#RID_DLG_TABORDER.modaldialog.text
+#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
+msgid "Tab Order"
+msgstr "Séquence d'activation"
+
 #: newdatatype.src#RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 #: newdatatype.src%23RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 msgid "Type a name for the new data type:"
@@ -63,50 +88,29 @@ msgstr "Saisissez le nom du nouveau type de données :"
 msgid "New Data Type"
 msgstr "Nouveau type de données"
 
-#: propres.src#RID_STR_STANDARD.string.text
-#: propres.src%23RID_STR_STANDARD.string.text
-msgctxt "propres.src#RID_STR_STANDARD.string.text"
-msgid "Default"
-msgstr "Par défaut"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+msgid ""
+"These are control fields that can be used as label fields for the "
+"$control_class$ $control_name$."
+msgstr ""
+"Voici tous les champs de contrôle qui peuvent être assignés comme champ "
+"d'étiquette à $control_class$ $control_name$."
 
-#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
-#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
-msgid "General"
-msgstr "Général"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+msgid "~No assignment"
+msgstr "~Aucune assignation"
 
-#: propres.src#RID_STR_PROPPAGE_DATA.string.text
-#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
-msgid "Data"
-msgstr "Données"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
+msgid "Label Field Selection"
+msgstr "Sélection de champ d'étiquette"
 
-#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
-msgid "No"
-msgstr "Non"
-
-#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
-msgid "Yes"
-msgstr "Oui"
-
-#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
-#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
-msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
-msgid "Help"
-msgstr "Aide"
-
-#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
-#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
-msgid "<Embedded-Image>"
-msgstr "<Image-incorporée>"
-
-#: propres.src#RID_STR_TEXT_FORMAT.string.text
-#: propres.src%23RID_STR_TEXT_FORMAT.string.text
-msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
-msgid "Text"
-msgstr "Texte"
+#: selectlabeldialog.src#RID_STR_FORMS.string.text
+#: selectlabeldialog.src%23RID_STR_FORMS.string.text
+msgid "Forms"
+msgstr "Formulaires"
 
 #: formres.src#RID_STR_EDITMASK.string.text
 #: formres.src%23RID_STR_EDITMASK.string.text
@@ -1789,46 +1793,50 @@ msgstr "Gras"
 msgid "(Default)"
 msgstr "(par défaut)"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
-msgid "Font"
-msgstr "Police"
+#: propres.src#RID_STR_STANDARD.string.text
+#: propres.src%23RID_STR_STANDARD.string.text
+msgctxt "propres.src#RID_STR_STANDARD.string.text"
+msgid "Default"
+msgstr "Par défaut"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "Effets de caractères"
+#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
+#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
+msgid "General"
+msgstr "Général"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
-msgid "Character"
-msgstr "Caractères"
+#: propres.src#RID_STR_PROPPAGE_DATA.string.text
+#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
+msgid "Data"
+msgstr "Données"
 
-#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-msgid "Controls"
-msgstr "Contrôles"
+#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
+msgid "No"
+msgstr "Non"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-msgid "Move Up"
-msgstr "Déplacer vers le haut"
+#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
+msgid "Yes"
+msgstr "Oui"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-msgid "Move Down"
-msgstr "Déplacer vers le bas"
+#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
+#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
+msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
+msgid "Help"
+msgstr "Aide"
 
-#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-msgid "Automatic Sort"
-msgstr "Tri automatique"
+#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
+#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
+msgid "<Embedded-Image>"
+msgstr "<Image-incorporée>"
 
-#: taborder.src#RID_DLG_TABORDER.modaldialog.text
-#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
-msgid "Tab Order"
-msgstr "Séquence d'activation"
+#: propres.src#RID_STR_TEXT_FORMAT.string.text
+#: propres.src%23RID_STR_TEXT_FORMAT.string.text
+msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
+msgid "Text"
+msgstr "Texte"
 
 #: pcrmiscres.src#RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
 #: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
@@ -1941,26 +1949,18 @@ msgstr "Champ masque"
 msgid "Table Control "
 msgstr "Contrôle de table "
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-msgid ""
-"These are control fields that can be used as label fields for the "
-"$control_class$ $control_name$."
-msgstr ""
-"Voici tous les champs de contrôle qui peuvent être assignés comme champ "
-"d'étiquette à $control_class$ $control_name$."
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
+msgid "Font"
+msgstr "Police"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-msgid "~No assignment"
-msgstr "~Aucune assignation"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "Effets de caractères"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
-msgid "Label Field Selection"
-msgstr "Sélection de champ d'étiquette"
-
-#: selectlabeldialog.src#RID_STR_FORMS.string.text
-#: selectlabeldialog.src%23RID_STR_FORMS.string.text
-msgid "Forms"
-msgstr "Formulaires"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
+msgid "Character"
+msgstr "Caractères"

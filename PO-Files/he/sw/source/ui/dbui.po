@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fdbui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-07-27 11:08+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,280 +131,164 @@ msgstr "יש לכתוב כאן את ההודעה"
 msgid "E-Mail Message"
 msgstr "הודעת דואר-אלקטרוני"
 
-#: dbui.src#DLG_DBSELECTION.modaldialog.text
-#: dbui.src%23DLG_DBSELECTION.modaldialog.text
-msgid "Database Selection"
-msgstr "בחירת מסד נתונים"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
+msgid "Select starting document for the mail merge"
+msgstr "יש לבחור את המסמך הראשון למיזוג הדואר"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
-msgid "is being prepared for printing on"
-msgstr "מתכונן להדפסה ב־"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
+msgid "Select the document upon which to base the mail merge document"
+msgstr "יש לבחור את המסמך עליו יתבסס מסמך מיזוג הדואר"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
-msgid "is being sent to"
-msgstr "נשלח אל"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
+msgid "Use the current ~document"
+msgstr "להשתמש במסמך הנוכחי"
 
-#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
-msgid "is being saved to"
-msgstr "נשמר ל־"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
+msgid "Create a ne~w document"
+msgstr "יצירת מסמך חדש"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
-msgid "Send-Monitor"
-msgstr "ניטור-משלוח"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
+msgid "Start from ~existing document"
+msgstr "להתחיל ממסמך קיים"
 
-#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
-#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
-msgid "Save-Monitor"
-msgstr "ניטור-שמירה"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
+msgid "B~rowse..."
+msgstr "דפדוף...‏"
 
-#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
-#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
-msgid "Print monitor"
-msgstr "ניטור הדפסה"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
+msgid "Start from a t~emplate"
+msgstr "להתחיל מתבנית"
 
-#: dbui.src#STR_DB_EMAIL.string.text
-#: dbui.src%23STR_DB_EMAIL.string.text
-msgid "E-mail"
-msgstr "דואר-אלקטרוני"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
+msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
+msgid "B~rowse..."
+msgstr "דפדוף...‏"
 
-#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
-msgid "Title"
-msgstr "כותרת"
+#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
+msgid "Start fro~m a recently saved starting document"
+msgstr "להתחיל ממסמך שנשמר לאחרונה"
 
-#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
-msgid "First Name"
-msgstr "שם פרטי"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
+msgid "A~ddress list elements"
+msgstr "פריטי רשימת כתובות"
 
-#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
-msgid "Last Name"
-msgstr "שם משפחה"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
+msgid "~Add..."
+msgstr "הוספה...‏"
 
-#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
-msgid "Company Name"
-msgstr "שם חברה"
-
-#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
-msgid "Address Line 1"
-msgstr "שורת כתובת 1‏"
-
-#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
-msgid "Address Line 2"
-msgstr "שורת כתובת 2‏"
-
-#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
-msgid "City"
-msgstr "עיר"
-
-#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
-msgid "State"
-msgstr "מחוז"
-
-#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
-msgid "ZIP"
-msgstr "מיקוד"
-
-#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
-msgid "Country"
-msgstr "מדינה"
-
-#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
-msgid "Telephone private"
-msgstr "מספר טלפון לשימוש פרטי"
-
-#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
-msgid "Telephone business"
-msgstr "מספר טלפון לשימוש עיסקי"
-
-#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
-msgid "E-mail Address"
-msgstr "כתובת דואר-אלקטרוני"
-
-#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
-#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
-msgid "Gender"
-msgstr "מין"
-
-#: dbui.src#STR_NOTASSIGNED.string.text
-#: dbui.src%23STR_NOTASSIGNED.string.text
-msgid " not yet matched "
-msgstr " לא זמין "
-
-#: dbui.src#STR_FILTER_ALL.string.text
-#: dbui.src%23STR_FILTER_ALL.string.text
-msgid "All files (*.*)"
-msgstr "כל הקבצים (*.*)‏"
-
-#: dbui.src#STR_FILTER_ALL_DATA.string.text
-#: dbui.src%23STR_FILTER_ALL_DATA.string.text
-msgid "Address lists(*.*)"
-msgstr "רשימות כתובות(*.*)‏"
-
-#: dbui.src#STR_FILTER_SXB.string.text
-#: dbui.src%23STR_FILTER_SXB.string.text
-msgid "%PRODUCTNAME Base (*.odb)"
-msgstr "‏‪%PRODUCTNAME‬‏ Base (*.odb)"
-
-#: dbui.src#STR_FILTER_SXC.string.text
-#: dbui.src%23STR_FILTER_SXC.string.text
-msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
-msgstr "‏‪%PRODUCTNAME‬‏ Calc(*.oxc)"
-
-#: dbui.src#STR_FILTER_DBF.string.text
-#: dbui.src%23STR_FILTER_DBF.string.text
-msgid "dBase (*.dbf)"
-msgstr "dBase (*.dbf)"
-
-#: dbui.src#STR_FILTER_XLS.string.text
-#: dbui.src%23STR_FILTER_XLS.string.text
-msgid "Microsoft Excel (*.xls)"
-msgstr "Microsoft Excel (*.xls)"
-
-#: dbui.src#STR_FILTER_TXT.string.text
-#: dbui.src%23STR_FILTER_TXT.string.text
-msgid "Plain text (*.txt)"
-msgstr "טקסט (*.txt)‏"
-
-#: dbui.src#STR_FILTER_CSV.string.text
-#: dbui.src%23STR_FILTER_CSV.string.text
-msgid "Text Comma Separated (*.csv)"
-msgstr "טקסט, מחולק לשדות לפי תו פסיק (*.csv)‏"
-
-#: dbui.src#STR_FILTER_MDB.string.text
-#: dbui.src%23STR_FILTER_MDB.string.text
-msgid "Microsoft Access (*.mdb)"
-msgstr "Microsoft Access (*.mdb)"
-
-#: dbui.src#STR_FILTER_ACCDB.string.text
-#: dbui.src%23STR_FILTER_ACCDB.string.text
-msgid "Microsoft Access 2007 (*.accdb)"
-msgstr "Microsoft Access 2007 (*.accdb)"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
-msgid "Status:"
-msgstr "מצב:‏"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
-msgid "Progress:"
-msgstr "התקדמות:‏"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
-msgid "Creating documents..."
-msgstr "יצירת מסמכים...‏"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
-msgid "%X of %Y"
-msgstr "%X מתוך %Y"
-
-#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
-#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
-msgid "Mail Merge"
-msgstr "מיזוג דואר"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid "The list below shows the contents of: %1"
-msgstr "הרשימה למטה מציגה את התוכן של: %1‏"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
-msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
-msgid "~Close"
-msgstr "סגירה"
-
-#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
-msgid "Mail Merge Recipients"
-msgstr "נמעני מיזוג הדואר"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
-msgid "Address Information"
-msgstr "מידע - כתובות"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
-msgid "~New"
-msgstr "חדש"
-
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
 msgid "~Delete"
 msgstr "מחיקה"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "חיפוש...‏"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
+msgid "~Rename..."
+msgstr "שינוי שם...‏"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
-msgid "C~ustomize..."
-msgstr "התאמה אישית...‏"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
-msgid "Sho~w entry number"
-msgstr "הצגת ערך מספר"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
+msgid "Move up"
+msgstr "Move up"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
-msgid "%PRODUCTNAME Address List (.csv)"
-msgstr "‏‎רשימת כתובות‫ ‎‏‪%PRODUCTNAME (.csv)"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
+msgid "-"
+msgstr "-"
 
-#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
-#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
-msgid "New Address List"
-msgstr "רשימת כתובות חדשה"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
+msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
+msgid "Move down"
+msgstr "Move down"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
-msgid "F~ind"
-msgstr "מצא"
+#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
+msgid "Customize Address List"
+msgstr "רשימת כתובות מותאמת אישית"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
-msgid "Find ~only in"
-msgstr "חיפוש רק ב"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
+msgid "Element ~name"
+msgstr "שם פריט"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
-msgid "~Find"
-msgstr "חיפוש"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
+msgid "Rename Element"
+msgstr "שינוי שם פריט"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
-msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "סגירה"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
+msgid "Add"
+msgstr "הוספה"
 
-#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
-#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
-msgid "Find Entry"
-msgstr "חיפוש ערך"
+#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
+msgid "Add Element"
+msgstr "הוספת פריט"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
+msgid ""
+"The file you have selected contains more than one table. Please select the "
+"table containing the address list you want to use."
+msgstr ""
+"הקובץ שבחרת מכיל יותר מטבלה אחת. נא לבחור את הטבלה המכילה את הכתובות "
+"הנדרשות.‏"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
+msgid "~Preview"
+msgstr "תצוגה מ~קדימה"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "שם"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
+msgid "Type"
+msgstr "סוג"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
+msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "טבלה"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
+msgid "Query"
+msgstr "שאילתה"
+
+#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
+msgid "Select Table"
+msgstr "בחירת טבלה"
 
 #: dbinsdlg.src#DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.FT_INSERT_DATA.fixedtext.text
@@ -486,6 +370,295 @@ msgstr "<ללא>"
 #: dbinsdlg.src%23DLG_AP_INSERT_DB_SEL.modaldialog.text
 msgid "Insert Database Columns"
 msgstr "הוסף עמודות למסד-הנתונים"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
+msgid "Select a document type"
+msgstr "בחירת סוג מסמך"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
+msgid "What type of document do you want to create?"
+msgstr "איזה סוג מסמך ליצור?‏"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
+msgid "~Letter"
+msgstr "מכתב"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
+msgid "~E-mail message"
+msgstr "הודעת ~דואר-אלקטרוני"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
+msgid "Letter:"
+msgstr "מכתב:‏"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
+msgid "E-Mail Message:"
+msgstr "הודעת דואר-אלקטרוני:"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+msgid ""
+"Send letters to a group of recipients. The letters can contain an address "
+"block and a salutation. The letters can be personalized for each recipient."
+msgstr ""
+"ניתן לכתוב מכתב בנוסח אחיד לקבוצה של אנשים באופן אוטומטי. כל מכתב מכיל בלוק "
+"לכתובת, וברכה פותחת. יש גם אפשרות להתאים את הנוסח של כל מכתב לנמען שלו באופן "
+"אישי.‏"
+
+#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+msgid ""
+"Send e-mail messages to a group of recipients. The e-mail messages can "
+"contain a salutation. The e-mail messages can be personalized for each "
+"recipient."
+msgstr ""
+"ברכה פותחת שניתן להתאים. יש אפשרות להתאים את הנוסח של כל מסר לנמען שלו באופן "
+"אישי.‏"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Preview and edit the document"
+msgstr "תצוגה מקדימה ועריכה של המסמך"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
+msgid ""
+"The preview of a merged document is visible now. To see the preview of "
+"another document click one of the arrows."
+msgstr ""
+"מופיעה כעת תצוגה מקדימה של מסמך ממוזג. כדי להציג מסמך אחר יש ללחוץ על אחד "
+"החיצים."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
+msgid "~Recipient"
+msgstr "נמען/ת"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
+msgid "First"
+msgstr "First"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
+msgid "Previous"
+msgstr "Previous"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
+msgid "Next"
+msgstr "הבא"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
+msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
+msgid "-"
+msgstr "-"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
+msgid "Last"
+msgstr "Last"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
+msgid "E~xclude this recipient"
+msgstr "לא לכלול את הנמען הזה"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
+msgid "Edit Document"
+msgstr "עריכת מסמך"
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"Write or edit your document now if you have not already done so. The changes "
+"will effect all merged documents.\n"
+"\n"
+"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
+"window so you can edit the mail merge document. After editing the document, "
+"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
+"window."
+msgstr ""
+"יש לכתוב או לערוך את המסמך כעת, אם לא עשית זאת כבר. השינויים ישפיעו על כל "
+"המסמכים הממוזגים.\n"
+"\n"
+"לחיצה על ׳עריכת מסמך...׳ תמזער את אשף המיזוג לחלון קטן כך שאפשר להמשיך "
+"ולערוך את המסמך. אחרי העריכה, יש לחזור לאשף על-ידי לחיצה על 'חזרה לאשף מיזוג "
+"הדואר' בחלון הקטן."
+
+#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit Document..."
+msgstr "עריכת מסמך...‏"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_ADDRESSINFORMATION.fixedtext.text
+msgid "Address Information"
+msgstr "מידע - כתובות"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_NEW.pushbutton.text
+msgid "~New"
+msgstr "חדש"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_DELETE.pushbutton.text"
+msgid "~Delete"
+msgstr "מחיקה"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "חיפוש...‏"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.PB_CUSTOMIZE.pushbutton.text
+msgid "C~ustomize..."
+msgstr "התאמה אישית...‏"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.FI_VIEWENTRIES.fixedtext.text
+msgid "Sho~w entry number"
+msgstr "הצגת ערך מספר"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.ST_FILTERNAME.string.text
+msgid "%PRODUCTNAME Address List (.csv)"
+msgstr "‏‎רשימת כתובות‫ ‎‏‪%PRODUCTNAME (.csv)"
+
+#: createaddresslistdialog.src#DLG_MM_CREATEADDRESSLIST.modaldialog.text
+#: createaddresslistdialog.src%23DLG_MM_CREATEADDRESSLIST.modaldialog.text
+msgid "New Address List"
+msgstr "רשימת כתובות חדשה"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.FT_FIND.fixedtext.text
+msgid "F~ind"
+msgstr "מצא"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.CB_FINDONLY.checkbox.text
+msgid "Find ~only in"
+msgstr "חיפוש רק ב"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_FIND.pushbutton.text"
+msgid "~Find"
+msgstr "חיפוש"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text
+msgctxt "createaddresslistdialog.src#DLG_MM_FIND_ENTRY.PB_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "סגירה"
+
+#: createaddresslistdialog.src#DLG_MM_FIND_ENTRY.modelessdialog.text
+#: createaddresslistdialog.src%23DLG_MM_FIND_ENTRY.modelessdialog.text
+msgid "Find Entry"
+msgstr "חיפוש ערך"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.FI_DESCRIPTION.fixedtext.text
+msgid "The list below shows the contents of: %1"
+msgstr "הרשימה למטה מציגה את התוכן של: %1‏"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text
+msgctxt "dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.PB_OK.okbutton.text"
+msgid "~Close"
+msgstr "סגירה"
+
+#: dbtablepreviewdialog.src#DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+#: dbtablepreviewdialog.src%23DLG_MM_DBTABLEPREVIEWDIALOG.modaldialog.text
+msgid "Mail Merge Recipients"
+msgstr "נמעני מיזוג הדואר"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
+msgid "Select starting document"
+msgstr "בחירת המסמך הראשון"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
+msgid "Select document type"
+msgstr "בחירת סוג המסמך"
+
+# הכוונה לאזור [ריק] בו תיכתב כתובת
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
+msgid "Insert address block"
+msgstr "הוסף מקום לכתובת"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
+msgid "Select address list"
+msgstr "בחירת רשימת כתובות"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
+msgid "Create salutation"
+msgstr "כתיבת ברכה פותחת"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
+msgid "Adjust layout"
+msgstr "התאמת הפריסה"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
+msgid "Edit document"
+msgstr "עריכת המסמך"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
+msgid "Personalize document"
+msgstr "התאמה אישית של המסמך"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
+msgid "Save, print or send"
+msgstr "שמירה, הדפסה או שליחה"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
+msgid "~Finish"
+msgstr "סיום"
+
+#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
+#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
+msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
+msgid "Mail Merge Wizard"
+msgstr "אשף מיזוג הדואר"
 
 #: mmaddressblockpage.src#_ST_NONE_LIST.1.stringlist.text
 #: mmaddressblockpage.src%23_ST_NONE_LIST.1.stringlist.text
@@ -866,55 +1039,498 @@ msgstr "< ללא >"
 msgid "Match Fields"
 msgstr "להתאים לשדות"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FI_HEADER.fixedtext.text
-msgid "Select a document type"
-msgstr "בחירת סוג מסמך"
+#: mailmergechildwindow.src#WORKAROUND.#define.text
+#: mailmergechildwindow.src%23WORKAROUND.%23define.text
+msgid "Return to Mail Merge Wizard"
+msgstr "חזרה לאשף מיזוג הדואר"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.FT_TYPE.fixedtext.text
-msgid "What type of document do you want to create?"
-msgstr "איזה סוג מסמך ליצור?‏"
+#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
+#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
+msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
+msgid "Mail Merge Wizard"
+msgstr "אשף מיזוג הדואר"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_LETTER.radiobutton.text
-msgid "~Letter"
-msgstr "מכתב"
+#: mailmergechildwindow.src#FL_STATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
+msgid "Connection status"
+msgstr "מצב החיבור"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.RB_MAIL.radiobutton.text
-msgid "~E-mail message"
-msgstr "הודעת ~דואר-אלקטרוני"
+#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
+#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
+msgid "The connection to the outgoing mail server has been established"
+msgstr "נוצר חיבור לשרת הדואר היוצא"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINTHEADER.string.text
-msgid "Letter:"
-msgstr "מכתב:‏"
+#: mailmergechildwindow.src#ST_SEND.string.text
+#: mailmergechildwindow.src%23ST_SEND.string.text
+msgid "Sending e-mails..."
+msgstr "הדואר-האלקטרוני נשלח..."
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINTHEADER.string.text
-msgid "E-Mail Message:"
-msgstr "הודעת דואר-אלקטרוני:"
+#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
+#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
+msgid "Transfer status"
+msgstr "מצב ההעברה"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_LETTERHINT.string.text
+#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
+msgid "%1 of %2 e-mails sent"
+msgstr "נשלחו %1 מתוך %2 הודעות דואר-אלקטרוני"
+
+#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
+#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
+msgid "Sending paused"
+msgstr "השליחה הופסקה"
+
+#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
+#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
+msgid "E-mails not sent: %1"
+msgstr "הודעות דואר-אלקטרוני שלא נשלחו: %1‏"
+
+#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
+#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
+msgid "More >>"
+msgstr "יותר >>‏"
+
+#: mailmergechildwindow.src#ST_LESS.string.text
+#: mailmergechildwindow.src%23ST_LESS.string.text
+msgid "<< Less"
+msgstr "<< פחות"
+
+#: mailmergechildwindow.src#PB_STOP.pushbutton.text
+#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
+msgid "~Stop"
+msgstr "עצור"
+
+#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
+#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
+msgid "C~lose"
+msgstr "סגירה"
+
+#: mailmergechildwindow.src#ST_CONTINUE.string.text
+#: mailmergechildwindow.src%23ST_CONTINUE.string.text
+msgid "~Continue"
+msgstr "המשך"
+
+#: mailmergechildwindow.src#.modelessdialog.text
+#: mailmergechildwindow.src%23.modelessdialog.text
+msgid "Sending E-mail messages"
+msgstr "שליחת הודעות דואר-אלקטרוני"
+
+#: mailmergechildwindow.src#ST_TASK.string.text
+#: mailmergechildwindow.src%23ST_TASK.string.text
+msgid "Task"
+msgstr "משימה"
+
+#: mailmergechildwindow.src#ST_STATUS.string.text
+#: mailmergechildwindow.src%23ST_STATUS.string.text
+msgid "Status"
+msgstr "מצב"
+
+#: mailmergechildwindow.src#ST_SENDINGTO.string.text
+#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
+msgid "Sending to: %1"
+msgstr "נשלח אל: %1‏"
+
+#: mailmergechildwindow.src#ST_COMPLETED.string.text
+#: mailmergechildwindow.src%23ST_COMPLETED.string.text
+msgid "Successfully sent"
+msgstr "נשלח בהצלחה"
+
+#: mailmergechildwindow.src#ST_FAILED.string.text
+#: mailmergechildwindow.src%23ST_FAILED.string.text
+msgid "Sending failed (invalid address)"
+msgstr "כשל בשליחה - כתובת פסולה"
+
+#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
+#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
 msgid ""
-"Send letters to a group of recipients. The letters can contain an address "
-"block and a salutation. The letters can be personalized for each recipient."
+"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
+"Would you like to exit anyway?"
 msgstr ""
-"ניתן לכתוב מכתב בנוסח אחיד לקבוצה של אנשים באופן אוטומטי. כל מכתב מכיל בלוק "
-"לכתובת, וברכה פותחת. יש גם אפשרות להתאים את הנוסח של כל מכתב לנמען שלו באופן "
-"אישי.‏"
+"יש עדיין הודעות דואר-אלקטרוני בתיבת הדואר היוצא של ‏‪%PRODUCTNAME‬‏.‏\n"
+"האם לצאת בכל זאת?"
 
-#: mmoutputtypepage.src#DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
-#: mmoutputtypepage.src%23DLG_MM_OUTPUTTYPE_PAGE.ST_MAILHINT.string.text
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
+msgid "The following error occurred:"
+msgstr "ארעה השגיאה הבאה:‏"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
+msgid "Detailed information"
+msgstr "מידע מפורט"
+
+#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
+#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
+msgid "E-Mails could not be sent"
+msgstr "לא ניתן היה לשלוח את ההודעות"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
 msgid ""
-"Send e-mail messages to a group of recipients. The e-mail messages can "
-"contain a salutation. The e-mail messages can be personalized for each "
-"recipient."
+"Select an address list. Click '%1' to select recipients from a different "
+"list. If you do not have an address list you can create one by clicking '%2'."
 msgstr ""
-"ברכה פותחת שניתן להתאים. יש אפשרות להתאים את הנוסח של כל מסר לנמען שלו באופן "
-"אישי.‏"
+"יש לבחור רשימת כתובות. לבחירת נמענים מרשימה אחרת יש ללחוץ '%1'. אם אין "
+"רשימה, אפשר ליצור  רשימה על ידי לחיצה על '%2'.‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
+msgid "Your recipients are currently selected from:"
+msgstr "הנמענים נבחרים מ:‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
+msgid "~Add..."
+msgstr "הוספה...‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
+msgid "~Create..."
+msgstr "יצירה...‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
+msgid "~Filter..."
+msgstr "סינון...‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
+msgid "~Edit..."
+msgstr "עריכה...‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
+msgid "Change ~Table..."
+msgstr "שינוי טבלה...‏"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
+msgid "Name"
+msgstr "שם"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
+msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
+msgid "Table"
+msgstr "טבלה"
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
+msgid "Connecting to data source..."
+msgstr "מתחבר למקור הנתונים..."
+
+#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
+msgid "Select Address List"
+msgstr "בחירת רשימת כתובות"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
+msgid "Adjust layout of address block and salutation"
+msgstr "התאמת פריסת בלוק הכתובת והברכה הפותחת"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
+msgid "Address block position"
+msgstr "מיקום בלוק הכתובת"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
+msgid "Align to text body"
+msgstr "יישור לגוף הטקסט"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
+msgid "From ~left"
+msgstr "משמאל"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
+msgid "~From top"
+msgstr "מלמעלה"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
+msgid "Salutation position"
+msgstr "מיקום הברכה הפותחת"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
+msgid "Move"
+msgstr "העברה"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
+msgid "~Up"
+msgstr "למעלה"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
+msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
+msgid "Move"
+msgstr "העברה"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
+msgid "~Down"
+msgstr "למטה"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
+msgid "~Zoom"
+msgstr "~תקריב"
+
+#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
+msgid "Entire page"
+msgstr "דף שלם"
+
+#: dbui.src#DLG_DBSELECTION.modaldialog.text
+#: dbui.src%23DLG_DBSELECTION.modaldialog.text
+msgid "Database Selection"
+msgstr "בחירת מסד נתונים"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_PRINTING.fixedtext.text
+msgid "is being prepared for printing on"
+msgstr "מתכונן להדפסה ב־"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SENDING.fixedtext.text
+msgid "is being sent to"
+msgstr "נשלח אל"
+
+#: dbui.src#DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+#: dbui.src%23DLG_PRINTMONITOR.FT_SAVING.fixedtext.text
+msgid "is being saved to"
+msgstr "נשמר ל־"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_EMAILMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_EMAILMON.string.text
+msgid "Send-Monitor"
+msgstr "ניטור-משלוח"
+
+#: dbui.src#DLG_PRINTMONITOR.STR_SAVEMON.string.text
+#: dbui.src%23DLG_PRINTMONITOR.STR_SAVEMON.string.text
+msgid "Save-Monitor"
+msgstr "ניטור-שמירה"
+
+#: dbui.src#DLG_PRINTMONITOR.modelessdialog.text
+#: dbui.src%23DLG_PRINTMONITOR.modelessdialog.text
+msgid "Print monitor"
+msgstr "ניטור הדפסה"
+
+#: dbui.src#STR_DB_EMAIL.string.text
+#: dbui.src%23STR_DB_EMAIL.string.text
+msgid "E-mail"
+msgstr "דואר-אלקטרוני"
+
+#: dbui.src#SA_ADDRESS_HEADER.1.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.1.itemlist.text
+msgid "Title"
+msgstr "כותרת"
+
+#: dbui.src#SA_ADDRESS_HEADER.2.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.2.itemlist.text
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: dbui.src#SA_ADDRESS_HEADER.3.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.3.itemlist.text
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: dbui.src#SA_ADDRESS_HEADER.4.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.4.itemlist.text
+msgid "Company Name"
+msgstr "שם חברה"
+
+#: dbui.src#SA_ADDRESS_HEADER.5.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.5.itemlist.text
+msgid "Address Line 1"
+msgstr "שורת כתובת 1‏"
+
+#: dbui.src#SA_ADDRESS_HEADER.6.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.6.itemlist.text
+msgid "Address Line 2"
+msgstr "שורת כתובת 2‏"
+
+#: dbui.src#SA_ADDRESS_HEADER.7.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.7.itemlist.text
+msgid "City"
+msgstr "עיר"
+
+#: dbui.src#SA_ADDRESS_HEADER.8.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.8.itemlist.text
+msgid "State"
+msgstr "מחוז"
+
+#: dbui.src#SA_ADDRESS_HEADER.9.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.9.itemlist.text
+msgid "ZIP"
+msgstr "מיקוד"
+
+#: dbui.src#SA_ADDRESS_HEADER.10.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.10.itemlist.text
+msgid "Country"
+msgstr "מדינה"
+
+#: dbui.src#SA_ADDRESS_HEADER.11.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.11.itemlist.text
+msgid "Telephone private"
+msgstr "מספר טלפון לשימוש פרטי"
+
+#: dbui.src#SA_ADDRESS_HEADER.12.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.12.itemlist.text
+msgid "Telephone business"
+msgstr "מספר טלפון לשימוש עיסקי"
+
+#: dbui.src#SA_ADDRESS_HEADER.13.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.13.itemlist.text
+msgid "E-mail Address"
+msgstr "כתובת דואר-אלקטרוני"
+
+#: dbui.src#SA_ADDRESS_HEADER.14.itemlist.text
+#: dbui.src%23SA_ADDRESS_HEADER.14.itemlist.text
+msgid "Gender"
+msgstr "מין"
+
+#: dbui.src#STR_NOTASSIGNED.string.text
+#: dbui.src%23STR_NOTASSIGNED.string.text
+msgid " not yet matched "
+msgstr " לא זמין "
+
+#: dbui.src#STR_FILTER_ALL.string.text
+#: dbui.src%23STR_FILTER_ALL.string.text
+msgid "All files (*.*)"
+msgstr "כל הקבצים (*.*)‏"
+
+#: dbui.src#STR_FILTER_ALL_DATA.string.text
+msgid "Address lists (*.*)"
+msgstr ""
+
+#: dbui.src#STR_FILTER_SXB.string.text
+#: dbui.src%23STR_FILTER_SXB.string.text
+msgid "%PRODUCTNAME Base (*.odb)"
+msgstr "‏‪%PRODUCTNAME‬‏ Base (*.odb)"
+
+#: dbui.src#STR_FILTER_SXC.string.text
+#: dbui.src%23STR_FILTER_SXC.string.text
+msgid "%PRODUCTNAME Calc (*.ods;*.sxc)"
+msgstr "‏‪%PRODUCTNAME‬‏ Calc(*.oxc)"
+
+#: dbui.src#STR_FILTER_DBF.string.text
+#: dbui.src%23STR_FILTER_DBF.string.text
+msgid "dBase (*.dbf)"
+msgstr "dBase (*.dbf)"
+
+#: dbui.src#STR_FILTER_XLS.string.text
+#: dbui.src%23STR_FILTER_XLS.string.text
+msgid "Microsoft Excel (*.xls)"
+msgstr "Microsoft Excel (*.xls)"
+
+#: dbui.src#STR_FILTER_TXT.string.text
+#: dbui.src%23STR_FILTER_TXT.string.text
+msgid "Plain text (*.txt)"
+msgstr "טקסט (*.txt)‏"
+
+#: dbui.src#STR_FILTER_CSV.string.text
+#: dbui.src%23STR_FILTER_CSV.string.text
+msgid "Text Comma Separated (*.csv)"
+msgstr "טקסט, מחולק לשדות לפי תו פסיק (*.csv)‏"
+
+#: dbui.src#STR_FILTER_MDB.string.text
+#: dbui.src%23STR_FILTER_MDB.string.text
+msgid "Microsoft Access (*.mdb)"
+msgstr "Microsoft Access (*.mdb)"
+
+#: dbui.src#STR_FILTER_ACCDB.string.text
+#: dbui.src%23STR_FILTER_ACCDB.string.text
+msgid "Microsoft Access 2007 (*.accdb)"
+msgstr "Microsoft Access 2007 (*.accdb)"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_STATUS.fixedtext.text
+msgid "Status:"
+msgstr "מצב:‏"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_PROGRESS.fixedtext.text
+msgid "Progress:"
+msgstr "התקדמות:‏"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_CREATEDOCUMENTS.fixedtext.text
+msgid "Creating documents..."
+msgstr "יצירת מסמכים...‏"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.FT_COUNTING.fixedtext.text
+msgid "%X of %Y"
+msgstr "%X מתוך %Y"
+
+#: dbui.src#DLG_MM_CREATIONMONITOR.modelessdialog.text
+#: dbui.src%23DLG_MM_CREATIONMONITOR.modelessdialog.text
+msgid "Mail Merge"
+msgstr "מיזוג דואר"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
+msgid "Personalize the mail merge documents"
+msgstr "התאמה אישית של מסמכי מיזוג בדואר"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
+msgid ""
+"You can personalize particular documents. Clicking '%1' will temporarily "
+"reduce the wizard to a small window so you can edit your document. After "
+"editing the document, return to the wizard by clicking 'Return to Mail Merge "
+"Wizard' in the small window."
+msgstr ""
+"ניתן להתאים מסמכים באופן פרטני לצרכים אישיים. לחיצה על '%1' יצמצם את האשף "
+"באופן זמני לשטח קטן כדי לאפשר עריכת המסמך. בסיום העריכה ניתן להחזיר את האשף "
+"למימדים הרגילים שלו על ידי לחיצה על 'חזרה לאשף מיזוג הדואר' בחלון הקטן.‏"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
+msgid "~Edit individual document..."
+msgstr "עריכת פרטנית של מסמכים...‏"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
+msgid "~Find"
+msgstr "חיפוש"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
+msgid "~Search for:"
+msgstr "לחפש: ‏"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
+msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
+msgid "~Find..."
+msgstr "חיפוש...‏"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
+msgid "Whole wor~ds only"
+msgstr "מילים שלמות בלבד"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
+msgid "Back~wards"
+msgstr "אחורה"
+
+#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
+msgid "Ma~tch case"
+msgstr "להתחשב באותיות גדולות וקטנות"
 
 #: mmoutputpage.src#DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
 #: mmoutputpage.src%23DLG_MM_OUTPUT_PAGE.FI_HEADER.fixedtext.text
@@ -1159,620 +1775,3 @@ msgstr "מסמך בשם '%1' כבר קיים. נא לשמור את המסמך ב
 #: mmoutputpage.src%23DLG_MM_SAVEWARNING.FT_FILENAME.fixedtext.text
 msgid "New document name"
 msgstr "השם החדש של המסמך"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_STARTING.string.text
-msgid "Select starting document"
-msgstr "בחירת המסמך הראשון"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_DOCUMETNTYPE.string.text
-msgid "Select document type"
-msgstr "בחירת סוג המסמך"
-
-# הכוונה לאזור [ריק] בו תיכתב כתובת
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSBLOCK.string.text"
-msgid "Insert address block"
-msgstr "הוסף מקום לכתובת"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_ADDRESSLIST.string.text
-msgid "Select address list"
-msgstr "בחירת רשימת כתובות"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_GREETINGSLINE.string.text
-msgid "Create salutation"
-msgstr "כתיבת ברכה פותחת"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_LAYOUT.string.text
-msgid "Adjust layout"
-msgstr "התאמת הפריסה"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_PREPAREMERGE.string.text
-msgid "Edit document"
-msgstr "עריכת המסמך"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_MERGE.string.text
-msgid "Personalize document"
-msgstr "התאמה אישית של המסמך"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_OUTPUT.string.text
-msgid "Save, print or send"
-msgstr "שמירה, הדפסה או שליחה"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.ST_FINISH.string.text
-msgid "~Finish"
-msgstr "סיום"
-
-#: mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text
-#: mailmergewizard.src%23DLG_MAILMERGEWIZARD.modaldialog.text
-msgctxt "mailmergewizard.src#DLG_MAILMERGEWIZARD.modaldialog.text"
-msgid "Mail Merge Wizard"
-msgstr "אשף מיזוג הדואר"
-
-#: mailmergechildwindow.src#WORKAROUND.#define.text
-#: mailmergechildwindow.src%23WORKAROUND.%23define.text
-msgid "Return to Mail Merge Wizard"
-msgstr "חזרה לאשף מיזוג הדואר"
-
-#: mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text
-#: mailmergechildwindow.src%23DLG_MAILMERGECHILD.floatingwindow.text
-msgctxt "mailmergechildwindow.src#DLG_MAILMERGECHILD.floatingwindow.text"
-msgid "Mail Merge Wizard"
-msgstr "אשף מיזוג הדואר"
-
-#: mailmergechildwindow.src#FL_STATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_STATUS.fixedline.text
-msgid "Connection status"
-msgstr "מצב החיבור"
-
-#: mailmergechildwindow.src#FT_STATUS1.fixedtext.text
-#: mailmergechildwindow.src%23FT_STATUS1.fixedtext.text
-msgid "The connection to the outgoing mail server has been established"
-msgstr "נוצר חיבור לשרת הדואר היוצא"
-
-#: mailmergechildwindow.src#ST_SEND.string.text
-#: mailmergechildwindow.src%23ST_SEND.string.text
-msgid "Sending e-mails..."
-msgstr "הדואר-האלקטרוני נשלח..."
-
-#: mailmergechildwindow.src#FL_TRANSFERSTATUS.fixedline.text
-#: mailmergechildwindow.src%23FL_TRANSFERSTATUS.fixedline.text
-msgid "Transfer status"
-msgstr "מצב ההעברה"
-
-#: mailmergechildwindow.src#FT_TRANSFERSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_TRANSFERSTATUS.fixedtext.text
-msgid "%1 of %2 e-mails sent"
-msgstr "נשלחו %1 מתוך %2 הודעות דואר-אלקטרוני"
-
-#: mailmergechildwindow.src#FI_PAUSED.fixedtext.text
-#: mailmergechildwindow.src%23FI_PAUSED.fixedtext.text
-msgid "Sending paused"
-msgstr "השליחה הופסקה"
-
-#: mailmergechildwindow.src#FT_ERRORSTATUS.fixedtext.text
-#: mailmergechildwindow.src%23FT_ERRORSTATUS.fixedtext.text
-msgid "E-mails not sent: %1"
-msgstr "הודעות דואר-אלקטרוני שלא נשלחו: %1‏"
-
-#: mailmergechildwindow.src#PB_DETAILS.pushbutton.text
-#: mailmergechildwindow.src%23PB_DETAILS.pushbutton.text
-msgid "More >>"
-msgstr "יותר >>‏"
-
-#: mailmergechildwindow.src#ST_LESS.string.text
-#: mailmergechildwindow.src%23ST_LESS.string.text
-msgid "<< Less"
-msgstr "<< פחות"
-
-#: mailmergechildwindow.src#PB_STOP.pushbutton.text
-#: mailmergechildwindow.src%23PB_STOP.pushbutton.text
-msgid "~Stop"
-msgstr "עצור"
-
-#: mailmergechildwindow.src#PB_CLOSE.pushbutton.text
-#: mailmergechildwindow.src%23PB_CLOSE.pushbutton.text
-msgid "C~lose"
-msgstr "סגירה"
-
-#: mailmergechildwindow.src#ST_CONTINUE.string.text
-#: mailmergechildwindow.src%23ST_CONTINUE.string.text
-msgid "~Continue"
-msgstr "המשך"
-
-#: mailmergechildwindow.src#.modelessdialog.text
-#: mailmergechildwindow.src%23.modelessdialog.text
-msgid "Sending E-mail messages"
-msgstr "שליחת הודעות דואר-אלקטרוני"
-
-#: mailmergechildwindow.src#ST_TASK.string.text
-#: mailmergechildwindow.src%23ST_TASK.string.text
-msgid "Task"
-msgstr "משימה"
-
-#: mailmergechildwindow.src#ST_STATUS.string.text
-#: mailmergechildwindow.src%23ST_STATUS.string.text
-msgid "Status"
-msgstr "מצב"
-
-#: mailmergechildwindow.src#ST_SENDINGTO.string.text
-#: mailmergechildwindow.src%23ST_SENDINGTO.string.text
-msgid "Sending to: %1"
-msgstr "נשלח אל: %1‏"
-
-#: mailmergechildwindow.src#ST_COMPLETED.string.text
-#: mailmergechildwindow.src%23ST_COMPLETED.string.text
-msgid "Successfully sent"
-msgstr "נשלח בהצלחה"
-
-#: mailmergechildwindow.src#ST_FAILED.string.text
-#: mailmergechildwindow.src%23ST_FAILED.string.text
-msgid "Sending failed (invalid address)"
-msgstr "כשל בשליחה - כתובת פסולה"
-
-#: mailmergechildwindow.src#ST_TERMINATEQUERY.string.text
-#: mailmergechildwindow.src%23ST_TERMINATEQUERY.string.text
-msgid ""
-"There are still e-mail messages in your %PRODUCTNAME Outbox.\n"
-"Would you like to exit anyway?"
-msgstr ""
-"יש עדיין הודעות דואר-אלקטרוני בתיבת הדואר היוצא של ‏‪%PRODUCTNAME‬‏.‏\n"
-"האם לצאת בכל זאת?"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FI_WARNING.fixedtext.text
-msgid "The following error occurred:"
-msgstr "ארעה השגיאה הבאה:‏"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.FT_DETAILS.fixedtext.text
-msgid "Detailed information"
-msgstr "מידע מפורט"
-
-#: mailmergechildwindow.src#DLG_MM_SENDWARNING.modaldialog.text
-#: mailmergechildwindow.src%23DLG_MM_SENDWARNING.modaldialog.text
-msgid "E-Mails could not be sent"
-msgstr "לא ניתן היה לשלוח את ההודעות"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FI_DESCRIPTION.fixedtext.text
-msgid ""
-"Select an address list. Click '%1' to select recipients from a different "
-"list. If you do not have an address list you can create one by clicking '%2'."
-msgstr ""
-"יש לבחור רשימת כתובות. לבחירת נמענים מרשימה אחרת יש ללחוץ '%1'. אם אין "
-"רשימה, אפשר ליצור  רשימה על ידי לחיצה על '%2'.‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.FT_LIST.fixedtext.text
-msgid "Your recipients are currently selected from:"
-msgstr "הנמענים נבחרים מ:‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_LOADLIST.pushbutton.text"
-msgid "~Add..."
-msgstr "הוספה...‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_CREATELIST.pushbutton.text
-msgid "~Create..."
-msgstr "יצירה...‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_FILTER.pushbutton.text
-msgid "~Filter..."
-msgstr "סינון...‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_EDIT.pushbutton.text"
-msgid "~Edit..."
-msgstr "עריכה...‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.PB_TABLE.pushbutton.text
-msgid "Change ~Table..."
-msgstr "שינוי טבלה...‏"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "שם"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text
-msgctxt "addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "טבלה"
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.ST_CONNECTING.string.text
-msgid "Connecting to data source..."
-msgstr "מתחבר למקור הנתונים..."
-
-#: addresslistdialog.src#DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-#: addresslistdialog.src%23DLG_MM_ADDRESSLISTDIALOG.modaldialog.text
-msgid "Select Address List"
-msgstr "בחירת רשימת כתובות"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.FT_FIELDS.fixedtext.text
-msgid "A~ddress list elements"
-msgstr "פריטי רשימת כתובות"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_ADD.pushbutton.text"
-msgid "~Add..."
-msgstr "הוספה...‏"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DELETE.pushbutton.text"
-msgid "~Delete"
-msgstr "מחיקה"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_RENAME.pushbutton.text
-msgid "~Rename..."
-msgstr "שינוי שם...‏"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_UP.imagebutton.quickhelptext"
-msgid "Move up"
-msgstr "Move up"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext
-msgctxt "customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.PB_DOWN.imagebutton.quickhelptext"
-msgid "Move down"
-msgstr "Move down"
-
-#: customizeaddresslistdialog.src#DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_CUSTOMIZE_ADDRESS_LIST.modaldialog.text
-msgid "Customize Address List"
-msgstr "רשימת כתובות מותאמת אישית"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.FT_FIELDNAME.fixedtext.text
-msgid "Element ~name"
-msgstr "שם פריט"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_RENAME_TITLE.string.text
-msgid "Rename Element"
-msgstr "שינוי שם פריט"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.ST_ADD_BUTTON.string.text
-msgid "Add"
-msgstr "הוספה"
-
-#: customizeaddresslistdialog.src#DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-#: customizeaddresslistdialog.src%23DLG_MM_ADD_RENAME_ENTRY.modaldialog.text
-msgid "Add Element"
-msgstr "הוספת פריט"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FI_HEADER.fixedtext.text
-msgid "Adjust layout of address block and salutation"
-msgstr "התאמת פריסת בלוק הכתובת והברכה הפותחת"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_POSITION.fixedline.text
-msgid "Address block position"
-msgstr "מיקום בלוק הכתובת"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.CB_ALIGN.checkbox.text
-msgid "Align to text body"
-msgstr "יישור לגוף הטקסט"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_LEFT.fixedtext.text
-msgid "From ~left"
-msgstr "משמאל"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_TOP.fixedtext.text
-msgid "~From top"
-msgstr "מלמעלה"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FL_GREETINGLINE.fixedline.text
-msgid "Salutation position"
-msgstr "מיקום הברכה הפותחת"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_UP.fixedtext.text"
-msgid "Move"
-msgstr "העברה"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.MF_UP.pushbutton.text
-msgid "~Up"
-msgstr "למעלה"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text
-msgctxt "mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_DOWN.fixedtext.text"
-msgid "Move"
-msgstr "העברה"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.PB_DOWN.pushbutton.text
-msgid "~Down"
-msgstr "למטה"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.FT_ZOOM.fixedtext.text
-msgid "~Zoom"
-msgstr "~תקריב"
-
-#: mmlayoutpage.src#DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-#: mmlayoutpage.src%23DLG_MM_LAYOUT_PAGE.LB_ZOOM.1.stringlist.text
-msgid "Entire page"
-msgstr "דף שלם"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Personalize the mail merge documents"
-msgstr "התאמה אישית של מסמכי מיזוג בדואר"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"You can personalize particular documents. Clicking '%1' will temporarily "
-"reduce the wizard to a small window so you can edit your document. After "
-"editing the document, return to the wizard by clicking 'Return to Mail Merge "
-"Wizard' in the small window."
-msgstr ""
-"ניתן להתאים מסמכים באופן פרטני לצרכים אישיים. לחיצה על '%1' יצמצם את האשף "
-"באופן זמני לשטח קטן כדי לאפשר עריכת המסמך. בסיום העריכה ניתן להחזיר את האשף "
-"למימדים הרגילים שלו על ידי לחיצה על 'חזרה לאשף מיזוג הדואר' בחלון הקטן.‏"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit individual document..."
-msgstr "עריכת פרטנית של מסמכים...‏"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.FL_FIND.fixedline.text"
-msgid "~Find"
-msgstr "חיפוש"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.FT_FIND.fixedtext.text
-msgid "~Search for:"
-msgstr "לחפש: ‏"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text
-msgctxt "mmmergepage.src#DLG_MM_MERGE_PAGE.PB_FIND.pushbutton.text"
-msgid "~Find..."
-msgstr "חיפוש...‏"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_WHOLEWORDS.checkbox.text
-msgid "Whole wor~ds only"
-msgstr "מילים שלמות בלבד"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_BACKWARDS.checkbox.text
-msgid "Back~wards"
-msgstr "אחורה"
-
-#: mmmergepage.src#DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-#: mmmergepage.src%23DLG_MM_MERGE_PAGE.CB_MATCHCASE.checkbox.text
-msgid "Ma~tch case"
-msgstr "להתחשב באותיות גדולות וקטנות"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_HEADER.fixedtext.text
-msgid "Preview and edit the document"
-msgstr "תצוגה מקדימה ועריכה של המסמך"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_PREVIEW.fixedtext.text
-msgid ""
-"The preview of a merged document is visible now. To see the preview of "
-"another document click one of the arrows."
-msgstr ""
-"מופיעה כעת תצוגה מקדימה של מסמך ממוזג. כדי להציג מסמך אחר יש ללחוץ על אחד "
-"החיצים."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FT_RECIPIENT.fixedtext.text
-msgid "~Recipient"
-msgstr "נמען/ת"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_FIRST.pushbutton.quickhelptext
-msgid "First"
-msgstr "First"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_PREV.pushbutton.quickhelptext
-msgid "Previous"
-msgstr "Previous"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_NEXT.pushbutton.quickhelptext
-msgid "Next"
-msgstr "הבא"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text
-msgctxt "mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.text"
-msgid "-"
-msgstr "-"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_LAST.pushbutton.quickhelptext
-msgid "Last"
-msgstr "Last"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.CB_EXCLUDE.checkbox.text
-msgid "E~xclude this recipient"
-msgstr "לא לכלול את הנמען הזה"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FL_NOTEHEADER.fixedline.text
-msgid "Edit Document"
-msgstr "עריכת מסמך"
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.FI_EDIT.fixedtext.text
-msgid ""
-"Write or edit your document now if you have not already done so. The changes "
-"will effect all merged documents.\n"
-"\n"
-"Clicking 'Edit Document...' will temporarily reduce the wizard to a small "
-"window so you can edit the mail merge document. After editing the document, "
-"return to the wizard by clicking 'Return to Mail Merge Wizard' in the small "
-"window."
-msgstr ""
-"יש לכתוב או לערוך את המסמך כעת, אם לא עשית זאת כבר. השינויים ישפיעו על כל "
-"המסמכים הממוזגים.\n"
-"\n"
-"לחיצה על ׳עריכת מסמך...׳ תמזער את אשף המיזוג לחלון קטן כך שאפשר להמשיך "
-"ולערוך את המסמך. אחרי העריכה, יש לחזור לאשף על-ידי לחיצה על 'חזרה לאשף מיזוג "
-"הדואר' בחלון הקטן."
-
-#: mmpreparemergepage.src#DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-#: mmpreparemergepage.src%23DLG_MM_PREPAREMERGE_PAGE.PB_EDIT.pushbutton.text
-msgid "~Edit Document..."
-msgstr "עריכת מסמך...‏"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.FI_SELECT.fixedtext.text
-msgid ""
-"The file you have selected contains more than one table. Please select the "
-"table containing the address list you want to use."
-msgstr ""
-"הקובץ שבחרת מכיל יותר מטבלה אחת. נא לבחור את הטבלה המכילה את הכתובות "
-"הנדרשות.‏"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.PB_PREVIEW.pushbutton.text
-msgid "~Preview"
-msgstr "תצוגה מ~קדימה"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_NAME.string.text"
-msgid "Name"
-msgstr "שם"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TYPE.string.text
-msgid "Type"
-msgstr "סוג"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text
-msgctxt "selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_TABLE.string.text"
-msgid "Table"
-msgstr "טבלה"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.ST_QUERY.string.text
-msgid "Query"
-msgstr "שאילתה"
-
-#: selectdbtabledialog.src#DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-#: selectdbtabledialog.src%23DLG_MM_SELECTDBTABLEDDIALOG.modaldialog.text
-msgid "Select Table"
-msgstr "בחירת טבלה"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FI_HEADER.fixedtext.text
-msgid "Select starting document for the mail merge"
-msgstr "יש לבחור את המסמך הראשון למיזוג הדואר"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.FT_HOWTO.fixedtext.text
-msgid "Select the document upon which to base the mail merge document"
-msgstr "יש לבחור את המסמך עליו יתבסס מסמך מיזוג הדואר"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_CURRENTDOC.radiobutton.text
-msgid "Use the current ~document"
-msgstr "להשתמש במסמך הנוכחי"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_NEWDOC.radiobutton.text
-msgid "Create a ne~w document"
-msgstr "יצירת מסמך חדש"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADDOC.radiobutton.text
-msgid "Start from ~existing document"
-msgstr "להתחיל ממסמך קיים"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_LOADDOC.pushbutton.text"
-msgid "B~rowse..."
-msgstr "דפדוף...‏"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_LOADTEMPLATE.radiobutton.text
-msgid "Start from a t~emplate"
-msgstr "להתחיל מתבנית"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text
-msgctxt "mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.PB_BROWSETEMPLATE.pushbutton.text"
-msgid "B~rowse..."
-msgstr "דפדוף...‏"
-
-#: mmdocselectpage.src#DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-#: mmdocselectpage.src%23DLG_MM_DOCSELECT_PAGE.RB_RECENTDOC.radiobutton.text
-msgid "Start fro~m a recently saved starting document"
-msgstr "להתחיל ממסמך שנשמר לאחרונה"

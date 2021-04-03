@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+xmlsecurity%2Fsource%2Fdialogs.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2020-01-09 14:38+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,51 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Dokumentet inneholder makroer signert av:"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Dokumentet inneholder makroer:"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Vis signaturer …"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Makroer kan inneholde virus. Det er alltid trygt å skru av makroer i et "
+"dokument, men du kan miste funksjoner som er lagt inn i eventuelle makroer."
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Stol alltid på makroer fra denne kilden"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
+msgid "Enable Macros"
+msgstr "Skru på makroer"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "Disable Macros"
+msgstr "Skru av makroer"
+
+#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
+#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
+msgid "Security Warning"
+msgstr "Sikkerhetsadvarsel"
 
 #: certificatechooser.src#RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
 #: certificatechooser.src%23RID_XMLSECDLG_CERTCHOOSER.FT_HINT_SELECT.fixedtext.text
@@ -38,125 +83,111 @@ msgstr "Vis sertifikat …"
 msgid "Select Certificate"
 msgstr "Velg sertifikat"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
-msgid "Security Level"
-msgstr "Sikkerhetsnivå"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
+msgid "The following have signed the document content:"
+msgstr "Følgende har signert dokumentinnholdet:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
-msgid "Trusted Sources"
-msgstr "Kilder du stoler på"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
+msgid "The following have signed the document macro:"
+msgstr "Følgende har signert dokumentmakroen:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
-msgid "Reset"
-msgstr "Nullstill"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
+msgid "The following have signed this package:"
+msgstr "Følgende har signert denne pakken:"
 
-#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
-#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
-msgid "Macro Security"
-msgstr "Makrosikkerhet"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
+msgid "\tSigned by\tDigital ID issued by\tDate"
+msgstr "\tSignert av\tDigital ID utstedt av\tDato"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
-msgid ""
-"~Very high.\n"
-"Only macros from trusted file locations are allowed to run. All other "
-"macros, regardless whether signed or not, are disabled."
-msgstr ""
-"~Svært høy\n"
-"Bare makroer fra tiltrodde filplasseringer får lov til å kjøre. Alle andre "
-"makroer, uansett om de er signerte eller ikke, blir slått av."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
+msgid "Valid signature"
+msgstr "Gyldig signatur"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
-msgid ""
-"H~igh.\n"
-"Only signed macros from trusted sources are allowed to run. Unsigned macros "
-"are disabled."
-msgstr ""
-"Hø~y\n"
-"Bare signerte makroer fra kilder du stoler på, får lov til å kjøre. Makroer "
-"som ikke er signert, blir slått av."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
+msgid "Certificate could not be validated"
+msgstr "Sertifikatet kunne ikke valideres"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
-msgid ""
-"~Medium.\n"
-"Confirmation required before executing macros from untrusted sources."
-msgstr ""
-"~Middels\n"
-"Krever bekreftelse før makroer fra ikke tiltrodde kilder blir kjørt."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
+msgid "The signatures in this document are invalid"
+msgstr "Signaturene i dette dokumentet er ugyldige"
 
-#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
-msgid ""
-"~Low (not recommended).\n"
-"All macros will be executed without confirmation. Use this setting only if "
-"you are certain that all documents that will be opened are safe."
-msgstr ""
-"~Lav (ikke anbefalt)\n"
-"Alle makroer blir kjørt uten bekreftelse. Bruk denne innstillinga bare hvis "
-"du er sikker på at alle dokumenter som skal åpnes, er trygge."
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
+msgid "The signatures in this document are valid"
+msgstr "Signaturene i dette dokumentet er gyldige"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
-msgid "Trusted certificates"
-msgstr "Sertifikater du stoler på"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
+msgid "Not all parts of the document are signed"
+msgstr "Ikke alle deler av dette dokumentet er signert"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
-msgid "Issued to\tIssued by\tExpiration date"
-msgstr "Utstedt til\tUtstedt av\tGyldig til"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
+msgid "The signatures in this document are invalid"
+msgstr "Signaturene i dette dokumentet er ugyldige"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
-msgid "Add..."
-msgstr "Legg til …"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
+msgid "View Certificate..."
+msgstr "Vis sertifikat …"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
-msgid "View..."
-msgstr "Vis …"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
+msgid "Sign Document..."
+msgstr "Signer dokumentet …"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
+msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
 msgid "Remove"
 msgstr "Fjern"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
-msgid "Trusted file locations"
-msgstr "Tiltrodde filplasseringer"
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
+msgid "Close"
+msgstr "Lukk"
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
+msgid "Digital Signatures"
+msgstr "Digitale signaturer"
+
+#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
 msgid ""
-"Document macros are always executed if they have been opened from one of the "
-"following locations."
+"This document contains signatures in ODF 1.1 format. Signing documents in %"
+"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
+"signatures can be added or removed to this document.\n"
+"\n"
+"Save document in ODF 1.2 format and add all desired signatures again."
 msgstr ""
-"Dokumentmakroer blir bare kjørt hvis de åpnes fra en av disse plasseringene."
+"Dette dokumentet inneholder signaturer i ODF 1.1-format. Signering av "
+"dokumenter i %PRODUCTNAME %PRODUCTVERSION krever at formatversjonen ODF 1.2 "
+"brukes. Derfor kan du ikke legge til eller fjerne signaturer i dette "
+"dokumentet.\n"
+"\n"
+"Lagre dokumentet i ODF 1.2-format og legg til alle signaturer du ønsker å "
+"bruke, på nytt."
 
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
-msgid "Add..."
-msgstr "Legg til …"
-
-#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
-msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
-msgid "Remove"
-msgstr "Fjern"
-
-#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
-msgid "This setting is protected by the Administrator"
-msgstr "Denne innstillinga er sperret av administratoren"
+#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
+msgid ""
+"Adding or removing a macro signature will remove all document signatures.\n"
+"Do you really want to continue?"
+msgstr ""
+"Å legge til eller fjerne en makrosignatur vil fjerne alle dokumentsignaturer."
+"\n"
+"Vil du virkelig fortsette?"
 
 #: certificateviewer.src#RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
 #: certificateviewer.src%23RID_XMLSECDLG_CERTVIEWER.1.RID_XMLSECTP_GENERAL.pageitem.text
@@ -318,153 +349,122 @@ msgctxt "certificateviewer.src#RID_XMLSECTP_CERTPATH.STR_PATH_CERT_NOT_VALIDATED
 msgid "The certificate could not be validated."
 msgstr "Sertifikatet kunne ikke valideres."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Dokumentet inneholder makroer signert av:"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_SECLEVEL.pageitem.text
+msgid "Security Level"
+msgstr "Sikkerhetsnivå"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Dokumentet inneholder makroer:"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.1.RID_XMLSECTP_TRUSTSOURCES.pageitem.text
+msgid "Trusted Sources"
+msgstr "Kilder du stoler på"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Vis signaturer …"
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.BTN_RESET.pushbutton.text
+msgid "Reset"
+msgstr "Nullstill"
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.FI_DESCR2.fixedtext.text
+#: macrosecurity.src#RID_XMLSECTP_MACROSEC.tabdialog.text
+#: macrosecurity.src%23RID_XMLSECTP_MACROSEC.tabdialog.text
+msgid "Macro Security"
+msgstr "Makrosikkerhet"
+
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_VERYHIGH.radiobutton.text
 msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
+"~Very high.\n"
+"Only macros from trusted file locations are allowed to run. All other "
+"macros, regardless whether signed or not, are disabled."
 msgstr ""
-"Makroer kan inneholde virus. Det er alltid trygt å skru av makroer i et "
-"dokument, men du kan miste funksjoner som er lagt inn i eventuelle makroer."
+"~Svært høy\n"
+"Bare makroer fra tiltrodde filplasseringer får lov til å kjøre. Alle andre "
+"makroer, uansett om de er signerte eller ikke, blir slått av."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Stol alltid på makroer fra denne kilden"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_HIGH.radiobutton.text
+msgid ""
+"H~igh.\n"
+"Only signed macros from trusted sources are allowed to run. Unsigned macros "
+"are disabled."
+msgstr ""
+"Hø~y\n"
+"Bare signerte makroer fra kilder du stoler på, får lov til å kjøre. Makroer "
+"som ikke er signert, blir slått av."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_ENABLE.pushbutton.text
-msgid "Enable Macros"
-msgstr "Skru på makroer"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_MEDIUM.radiobutton.text
+msgid ""
+"~Medium.\n"
+"Confirmation required before executing macros from untrusted sources."
+msgstr ""
+"~Middels\n"
+"Krever bekreftelse før makroer fra ikke tiltrodde kilder blir kjørt."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "Disable Macros"
-msgstr "Skru av makroer"
+#: macrosecurity.src#RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+#: macrosecurity.src%23RID_XMLSECTP_SECLEVEL.RB_LOW.radiobutton.text
+msgid ""
+"~Low (not recommended).\n"
+"All macros will be executed without confirmation. Use this setting only if "
+"you are certain that all documents that will be opened are safe."
+msgstr ""
+"~Lav (ikke anbefalt)\n"
+"Alle makroer blir kjørt uten bekreftelse. Bruk denne innstillinga bare hvis "
+"du er sikker på at alle dokumenter som skal åpnes, er trygge."
 
-#: warnings.src#RID_XMLSECTP_MACROWARN.modaldialog.text
-#: warnings.src%23RID_XMLSECTP_MACROWARN.modaldialog.text
-msgid "Security Warning"
-msgstr "Sikkerhetsadvarsel"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTCERT.fixedline.text
+msgid "Trusted certificates"
+msgstr "Sertifikater du stoler på"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_DOC.fixedtext.text
-msgid "The following have signed the document content:"
-msgstr "Følgende har signert dokumentinnholdet:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.STR_HEADERBAR.string.text"
+msgid "Issued to\tIssued by\tExpiration date"
+msgstr "Utstedt til\tUtstedt av\tGyldig til"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_BASIC.fixedtext.text
-msgid "The following have signed the document macro:"
-msgstr "Følgende har signert dokumentmakroen:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_ADD_TRUSTCERT.pushbutton.text"
+msgid "Add..."
+msgstr "Legg til …"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FT_HINT_PACK.fixedtext.text
-msgid "The following have signed this package:"
-msgstr "Følgende har signert denne pakken:"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_VIEW_TRUSTCERT.pushbutton.text
+msgid "View..."
+msgstr "Vis …"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_HEADERBAR.string.text
-msgid "\tSigned by\tDigital ID issued by\tDate"
-msgstr "\tSignert av\tDigital ID utstedt av\tDato"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_VALID_SIGNATURE.string.text
-msgid "Valid signature"
-msgstr "Gyldig signatur"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_NO_INFO_TO_VERIFY.string.text
-msgid "Certificate could not be validated"
-msgstr "Sertifikatet kunne ikke valideres"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.STR_INVALID_SIGNATURE.string.text"
-msgid "The signatures in this document are invalid"
-msgstr "Signaturene i dette dokumentet er ugyldige"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_VALID.fixedtext.text
-msgid "The signatures in this document are valid"
-msgstr "Signaturene i dette dokumentet er gyldige"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_OLDSIGNATURE.fixedtext.text
-msgid "Not all parts of the document are signed"
-msgstr "Ikke alle deler av dette dokumentet er signert"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.FI_STATE_BROKEN.fixedtext.text"
-msgid "The signatures in this document are invalid"
-msgstr "Signaturene i dette dokumentet er ugyldige"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_VIEWCERT.pushbutton.text"
-msgid "View Certificate..."
-msgstr "Vis sertifikat …"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_ADDCERT.pushbutton.text
-msgid "Sign Document..."
-msgstr "Signer dokumentet …"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text
-msgctxt "digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_REMOVECERT.pushbutton.text"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.PB_REMOVE_TRUSTCERT.pushbutton.text"
 msgid "Remove"
 msgstr "Fjern"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.BTN_OK.okbutton.text
-msgid "Close"
-msgstr "Lukk"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_TRUSTFILELOC.fixedline.text
+msgid "Trusted file locations"
+msgstr "Tiltrodde filplasseringer"
 
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_DIGSIG.modaldialog.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_DIGSIG.modaldialog.text
-msgid "Digital Signatures"
-msgstr "Digitale signaturer"
-
-#: digitalsignaturesdialog.src#RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
-#: digitalsignaturesdialog.src%23RID_XMLSECDLG_OLD_ODF_FORMAT.errorbox.text
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FI_TRUSTFILELOC.fixedtext.text
 msgid ""
-"This document contains signatures in ODF 1.1 format. Signing documents in %"
-"PRODUCTNAME %PRODUCTVERSION requires ODF 1.2 format version. Thus no "
-"signatures can be added or removed to this document.\n"
-"\n"
-"Save document in ODF 1.2 format and add all desired signatures again."
+"Document macros are always executed if they have been opened from one of the "
+"following locations."
 msgstr ""
-"Dette dokumentet inneholder signaturer i ODF 1.1-format. Signering av "
-"dokumenter i %PRODUCTNAME %PRODUCTVERSION krever at formatversjonen ODF 1.2 "
-"brukes. Derfor kan du ikke legge til eller fjerne signaturer i dette "
-"dokumentet.\n"
-"\n"
-"Lagre dokumentet i ODF 1.2-format og legg til alle signaturer du ønsker å "
-"bruke, på nytt."
+"Dokumentmakroer blir bare kjørt hvis de åpnes fra en av disse plasseringene."
 
-#: digitalsignaturesdialog.src#MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-#: digitalsignaturesdialog.src%23MSG_XMLSECDLG_QUERY_REMOVEDOCSIGNBEFORESIGN.querybox.text
-msgid ""
-"Adding or removing a macro signature will remove all document signatures.\n"
-"Do you really want to continue?"
-msgstr ""
-"Å legge til eller fjerne en makrosignatur vil fjerne alle dokumentsignaturer."
-"\n"
-"Vil du virkelig fortsette?"
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_ADD_TRUSTFILELOC.pushbutton.text"
+msgid "Add..."
+msgstr "Legg til …"
+
+#: macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+#: macrosecurity.src%23RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text
+msgctxt "macrosecurity.src#RID_XMLSECTP_TRUSTSOURCES.FL_REMOVE_TRUSTFILELOC.pushbutton.text"
+msgid "Remove"
+msgstr "Fjern"
+
+#: macrosecurity.src#RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+#: macrosecurity.src%23RID_XMLSECTP_READONLY_CONFIG_TIP.string.text
+msgid "This setting is protected by the Administrator"
+msgstr "Denne innstillinga er sperret av administratoren"

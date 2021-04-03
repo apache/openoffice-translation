@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-07 14:17+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,15 +38,11 @@ msgstr ""
 "l'extensió @WIKIEXTENSIONPRODUCTNAME@ pot pujar al servidor Wiki."
 
 #: wikiformats.xhp#par_id5630664.help.text
-#: wikiformats.xhp%23par_id5630664.help.text
 msgid ""
-"The OpenDocument format used by Writer and the WikiMedia format are quite "
+"The OpenDocument format used by Writer and the MediaWiki format are quite "
 "different. Only a subset of all features can be transformed from one format "
 "to the other."
 msgstr ""
-"El format OpenDocument que utilitza el Writer i el format WikiMedia són "
-"força diferents. Només un subconjunt de característiques es pot transformar "
-"d'un format a l'altre."
 
 #: wikiformats.xhp#hd_id7178868.help.text
 #: wikiformats.xhp%23hd_id7178868.help.text
@@ -181,18 +177,12 @@ msgid "Images"
 msgstr "Imatges"
 
 #: wikiformats.xhp#par_id3541673.help.text
-#: wikiformats.xhp%23par_id3541673.help.text
 msgid ""
 "Images cannot be exported by a transformation producing a single file of "
 "Wiki text. However, if the image is already uploaded to the target Wiki "
-"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
+"domain (e.g. WikiMedia Commons), then the transformation produces a valid "
 "image tag that includes the image. Image captions are also supported."
 msgstr ""
-"Les imatges no es poden exportar amb una transformació de manera que el "
-"resultat siga un únic fitxer de text Wiki. Malgrat això, si la imatge ja ha "
-"estat pujada al domini Wiki de destinació (p. ex. WikiMedia Commons), la "
-"transformació produeix una etiqueta d'imatge vàlida que inclou la imatge. "
-"També es poden utilitzar textos al peu."
 
 #: wikiformats.xhp#hd_id2162236.help.text
 #: wikiformats.xhp%23hd_id2162236.help.text
@@ -217,16 +207,11 @@ msgid "Joined Cells"
 msgstr "Cel·les fusionades"
 
 #: wikiformats.xhp#par_id8253730.help.text
-#: wikiformats.xhp%23par_id8253730.help.text
 msgid ""
-"OpenDocument and especially OpenOffice.org represent tables that have joined "
+"OpenDocument and especially OpenOffice represent tables that have joined "
 "cells that span rows as tables with nested tables. In contrast, the wiki "
-"model of table is to declare column and row spans for such joined cells. "
+"model of table is to declare column and row spans for such joined cells."
 msgstr ""
-"L'OpenDocument, i especialment l'OpenOffice.org, representen les taules amb "
-"cel·les fusionades que ocupen files senceres com a taules amb taules "
-"imbricades. En canvi, el model wiki de taula declara extensions de columna i "
-"de fila per a cel·les fusionades d'este estil."
 
 #: wikiformats.xhp#par_id8163090.help.text
 #: wikiformats.xhp%23par_id8163090.help.text
@@ -243,15 +228,11 @@ msgid "Borders"
 msgstr "Vores"
 
 #: wikiformats.xhp#par_id1831110.help.text
-#: wikiformats.xhp%23par_id1831110.help.text
 msgid ""
 "Irrespective of custom table styles for border and background, a table is "
-"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
+"always exported as <emph>\"prettytable\"</emph>, which renders in the Wiki "
 "engine with simple borders and bold header."
 msgstr ""
-"Independentment dels estils personalitzats per a vora i fons, una taula "
-"sempre s'exporta com a estil Wiki <emph>\"prettytable\"</emph>, que es "
-"representa en el motor Wiki amb vores simples i capçalera en negreta."
 
 #: wikiformats.xhp#hd_id6255073.help.text
 #: wikiformats.xhp%23hd_id6255073.help.text
@@ -280,80 +261,171 @@ msgstr ""
 "Llavors, talleu i enganxeu el resultat de la transformació al programa que "
 "vulgueu."
 
-#: wikisend.xhp#tit.help.text
-#: wikisend.xhp%23tit.help.text
-msgctxt "wikisend.xhp#tit.help.text"
-msgid "Send to MediaWiki"
-msgstr "Envia a MediaWiki"
+#: wikiaccount.xhp#tit.help.text
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
 
-#: wikisend.xhp#hd_id108340.help.text
-#: wikisend.xhp%23hd_id108340.help.text
-msgctxt "wikisend.xhp#hd_id108340.help.text"
-msgid "Send to MediaWiki"
-msgstr "Envia a MediaWiki"
+#: wikiaccount.xhp#hd_id960722.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
 
-#: wikisend.xhp#par_id1743827.help.text
-#: wikisend.xhp%23par_id1743827.help.text
+#: wikiaccount.xhp#par_id4571672.help.text
+#: wikiaccount.xhp%23par_id4571672.help.text
 msgid ""
-"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
-"upload."
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
 msgstr ""
-"Al diàleg Envia a MediaWiki, especifiqueu els paràmetres de l'article Wiki "
-"que voleu pujar."
+"Utilitzeu el diàleg MediaWiki per afegir o editar paràmetres del vostre "
+"compte MediaWiki."
 
-#: wikisend.xhp#par_id664082.help.text
-#: wikisend.xhp%23par_id664082.help.text
+#: wikiaccount.xhp#par_id7631458.help.text
+#: wikiaccount.xhp%23par_id7631458.help.text
 msgid ""
-"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
-"document. Click Add to add a new server to the list.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with http://</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Seleccioneu el servidor MediaWiki on voleu publicar el "
-"document. Feu clic a Afig per afegir un servidor nou a la llista.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Introduïu l'URL d'un servidor "
+"MediaWiki, començant amb http://</ahelp>"
 
-#: wikisend.xhp#par_id2794885.help.text
-#: wikisend.xhp%23par_id2794885.help.text
+#: wikiaccount.xhp#par_id7862483.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
 msgid ""
-"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
-"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
-"If you enter an existing title, your upload will overwrite the existing Wiki "
-"entry.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Introduïu el títol de l'entrada Wiki. Este és "
-"l'encapçalament principal de l'entrada. Per a una entrada nova, cal que el "
-"títol siga únic a esta Wiki. Si introduïu un títol existent, esta pujada "
-"sobreescriurà l'entrada Wiki que ja té este títol.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Introduïu el nom d'usuari per al "
+"servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.</ahelp>"
 
-#: wikisend.xhp#par_id2486342.help.text
-#: wikisend.xhp%23par_id2486342.help.text
+#: wikiaccount.xhp#par_id1113010.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
 msgid ""
-"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
-"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Introduïu un resum o comentari curt opcional.</ahelp> Vegeu "
-"<link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Introduïu la vostra contrasenya per "
+"al servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.</ahelp>"
 
-#: wikisend.xhp#par_id823999.help.text
-#: wikisend.xhp%23par_id823999.help.text
+#: wikiaccount.xhp#par_id656758.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
 msgid ""
-"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
-"the uploaded page as a minor edit of the already existing page with the same "
-"title.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
 msgstr ""
-"<emph>Esta és una edició menor</emph>: <ahelp hid=\".\">marqueu esta casella "
-"per indicar que la pàgina pujada és una edició menor de la pàgina existent "
-"amb el mateix títol.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Habiliteu-ho per emmagatzemar la "
+"vostra contrasenya entre sessions. Cal habilitar prèviament la contrasenya "
+"mestra, vegeu <item type=\"menuitem\">Eines - Opcions - %PRODUCTNAME - "
+"Seguretat</item>.</ahelp>"
 
-#: wikisend.xhp#par_id6592913.help.text
-#: wikisend.xhp%23par_id6592913.help.text
+#: wikiaccount.xhp#par_id3112582.help.text
+#: wikiaccount.xhp%23par_id3112582.help.text
 msgid ""
-"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
-"your system web browser and show the uploaded Wiki page.</ahelp>"
+"Enter the Internet address of a Wiki server in a format like "
+"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
 msgstr ""
-"<emph>Mostra-ho al navegador web</emph>: <ahelp hid=\".\">marqueu esta "
-"casella per obrir el navegador web del sistema i mostrar la pàgina Wiki "
-"pujada.</ahelp>"
+"Introduïu l'adreça Internet d'un servidor Wiki en un format com "
+"http://wiki.services.openoffice.org/wiki o copieu l'URL d'un navegador web."
+
+#: wikiaccount.xhp#par_id628070.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
+msgid ""
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
+msgstr ""
+"Si la Wiki permet l'accés anònim, podeu deixar els quadres de text del "
+"compte en blanc. Si no, introduïu el vostre nom d'usuari i la contrasenya."
+
+#: wikiaccount.xhp#par_id9046601.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
+msgid ""
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
+msgstr ""
+"Si heu habilitat la contrasenya mestra a la pestanya Seguretat del diàleg "
+"Eines - Opcions - %PRODUCTNAME, l'aplicació pot emmagatzemar la vostra "
+"contrasenya i inserir les dades automàticament allà on siga necessari. "
+"Habiliteu la casella \"Guarda la contrasenya\" per emmagatzemar la vostra "
+"contrasenya."
+
+#: wikisettings.xhp#tit.help.text
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "Opcions de MediaWiki"
+
+#: wikisettings.xhp#hd_id6425672.help.text
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "Opcions de MediaWiki"
+
+#: wikisettings.xhp#par_id1188390.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
+msgid ""
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
+msgstr ""
+"Podeu afegir, editar i suprimir servidors MediaWiki. Obriu el diàleg <item "
+"type=\"menuitem\">Eines - Opcions - Internet - MediaWiki</item>. "
+"Alternativament, trieu <item type=\"menuitem\">Eines - Gestor "
+"d'extensions</item>, seleccioneu @WIKIEXTENSIONPRODUCTNAME@ i feu clic al "
+"botó Opcions."
+
+#: wikisettings.xhp#par_id300607.help.text
+#: wikisettings.xhp%23par_id300607.help.text
+msgid ""
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\">Feu clic a Afig per afegir un servidor Wiki nou.<br/>"
+"Seleccioneu una entrada i feu clic a Edita per editar els paràmetres del "
+"compte.<br/>Seleccioneu una entrada i feu clic a Suprimeix per eliminar "
+"l'entrada de la llista.</ahelp>"
+
+#: wikisettings.xhp#par_id9786065.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Obri el diàleg MediaWiki per afegir "
+"una entrada nova a la llista.</ahelp>"
+
+#: wikisettings.xhp#par_id3386333.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Obri el diàleg MediaWiki per editar "
+"l'entrada seleccionada.</ahelp>"
+
+#: wikisettings.xhp#par_id7285073.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Suprimeix l'entrada seleccionada de "
+"la llista.</ahelp>"
+
+#: wikisettings.xhp#par_id1029084.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
+msgid ""
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
+msgstr ""
+"En fer clic a Afig o Edita, s'obri el diàleg <link href=\""
+"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>."
 
 #: wiki.xhp#tit.help.text
 #: wiki.xhp%23tit.help.text
@@ -422,13 +494,10 @@ msgid "Java Runtime Environment 1.4"
 msgstr "Entorn d'execució Java (JRE) 1.4"
 
 #: wiki.xhp#par_id7387615.help.text
-#: wiki.xhp%23par_id7387615.help.text
 msgid ""
-"A Wiki account on a supported <link href=\"http://www.mediawiki.org/wiki/"
+"A Wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/"
 "MediaWiki\">MediaWiki</link> server"
 msgstr ""
-"Un compte Wiki en un servidor <link href=\"http://www.mediawiki.org/wiki/"
-"MediaWiki\">MediaWiki</link> compatible"
 
 #: wiki.xhp#hd_id8047120.help.text
 #: wiki.xhp%23hd_id8047120.help.text
@@ -716,168 +785,77 @@ msgstr ""
 msgid "Click Send."
 msgstr "Feu clic a Envia."
 
-#: wikisettings.xhp#tit.help.text
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "Opcions de MediaWiki"
+#: wikisend.xhp#tit.help.text
+#: wikisend.xhp%23tit.help.text
+msgctxt "wikisend.xhp#tit.help.text"
+msgid "Send to MediaWiki"
+msgstr "Envia a MediaWiki"
 
-#: wikisettings.xhp#hd_id6425672.help.text
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "Opcions de MediaWiki"
+#: wikisend.xhp#hd_id108340.help.text
+#: wikisend.xhp%23hd_id108340.help.text
+msgctxt "wikisend.xhp#hd_id108340.help.text"
+msgid "Send to MediaWiki"
+msgstr "Envia a MediaWiki"
 
-#: wikisettings.xhp#par_id1188390.help.text
-#: wikisettings.xhp%23par_id1188390.help.text
+#: wikisend.xhp#par_id1743827.help.text
+#: wikisend.xhp%23par_id1743827.help.text
 msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
+"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
+"upload."
 msgstr ""
-"Podeu afegir, editar i suprimir servidors MediaWiki. Obriu el diàleg <item "
-"type=\"menuitem\">Eines - Opcions - Internet - MediaWiki</item>. "
-"Alternativament, trieu <item type=\"menuitem\">Eines - Gestor "
-"d'extensions</item>, seleccioneu @WIKIEXTENSIONPRODUCTNAME@ i feu clic al "
-"botó Opcions."
+"Al diàleg Envia a MediaWiki, especifiqueu els paràmetres de l'article Wiki "
+"que voleu pujar."
 
-#: wikisettings.xhp#par_id300607.help.text
-#: wikisettings.xhp%23par_id300607.help.text
+#: wikisend.xhp#par_id664082.help.text
+#: wikisend.xhp%23par_id664082.help.text
 msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
+"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
+"document. Click Add to add a new server to the list.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Feu clic a Afig per afegir un servidor Wiki nou.<br/>"
-"Seleccioneu una entrada i feu clic a Edita per editar els paràmetres del "
-"compte.<br/>Seleccioneu una entrada i feu clic a Suprimeix per eliminar "
-"l'entrada de la llista.</ahelp>"
+"<ahelp hid=\".\">Seleccioneu el servidor MediaWiki on voleu publicar el "
+"document. Feu clic a Afig per afegir un servidor nou a la llista.</ahelp>"
 
-#: wikisettings.xhp#par_id9786065.help.text
-#: wikisettings.xhp%23par_id9786065.help.text
+#: wikisend.xhp#par_id2794885.help.text
+#: wikisend.xhp%23par_id2794885.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
+"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
+"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
+"If you enter an existing title, your upload will overwrite the existing Wiki "
+"entry.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Obri el diàleg MediaWiki per afegir "
-"una entrada nova a la llista.</ahelp>"
+"<ahelp hid=\".\">Introduïu el títol de l'entrada Wiki. Este és "
+"l'encapçalament principal de l'entrada. Per a una entrada nova, cal que el "
+"títol siga únic a esta Wiki. Si introduïu un títol existent, esta pujada "
+"sobreescriurà l'entrada Wiki que ja té este títol.</ahelp>"
 
-#: wikisettings.xhp#par_id3386333.help.text
-#: wikisettings.xhp%23par_id3386333.help.text
+#: wikisend.xhp#par_id2486342.help.text
+#: wikisend.xhp%23par_id2486342.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
+"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
+"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Obri el diàleg MediaWiki per editar "
-"l'entrada seleccionada.</ahelp>"
+"<ahelp hid=\".\">Introduïu un resum o comentari curt opcional.</ahelp> Vegeu "
+"<link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 
-#: wikisettings.xhp#par_id7285073.help.text
-#: wikisettings.xhp%23par_id7285073.help.text
+#: wikisend.xhp#par_id823999.help.text
+#: wikisend.xhp%23par_id823999.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
+"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
+"the uploaded page as a minor edit of the already existing page with the same "
+"title.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Suprimeix l'entrada seleccionada de "
-"la llista.</ahelp>"
+"<emph>Esta és una edició menor</emph>: <ahelp hid=\".\">marqueu esta casella "
+"per indicar que la pàgina pujada és una edició menor de la pàgina existent "
+"amb el mateix títol.</ahelp>"
 
-#: wikisettings.xhp#par_id1029084.help.text
-#: wikisettings.xhp%23par_id1029084.help.text
+#: wikisend.xhp#par_id6592913.help.text
+#: wikisend.xhp%23par_id6592913.help.text
 msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
+"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
+"your system web browser and show the uploaded Wiki page.</ahelp>"
 msgstr ""
-"En fer clic a Afig o Edita, s'obri el diàleg <link href=\""
-"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>."
-
-#: wikiaccount.xhp#tit.help.text
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#hd_id960722.help.text
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#par_id4571672.help.text
-#: wikiaccount.xhp%23par_id4571672.help.text
-msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
-msgstr ""
-"Utilitzeu el diàleg MediaWiki per afegir o editar paràmetres del vostre "
-"compte MediaWiki."
-
-#: wikiaccount.xhp#par_id7631458.help.text
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Introduïu l'URL d'un servidor "
-"MediaWiki, començant amb http://</ahelp>"
-
-#: wikiaccount.xhp#par_id7862483.help.text
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Introduïu el nom d'usuari per al "
-"servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.</ahelp>"
-
-#: wikiaccount.xhp#par_id1113010.help.text
-#: wikiaccount.xhp%23par_id1113010.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Introduïu la vostra contrasenya per "
-"al servidor MediaWiki. Deixeu-ho en blanc per fer un accés anònim.</ahelp>"
-
-#: wikiaccount.xhp#par_id656758.help.text
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Habiliteu-ho per emmagatzemar la "
-"vostra contrasenya entre sessions. Cal habilitar prèviament la contrasenya "
-"mestra, vegeu <item type=\"menuitem\">Eines - Opcions - %PRODUCTNAME - "
-"Seguretat</item>.</ahelp>"
-
-#: wikiaccount.xhp#par_id3112582.help.text
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"Introduïu l'adreça Internet d'un servidor Wiki en un format com "
-"http://wiki.services.openoffice.org/wiki o copieu l'URL d'un navegador web."
-
-#: wikiaccount.xhp#par_id628070.help.text
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"Si la Wiki permet l'accés anònim, podeu deixar els quadres de text del "
-"compte en blanc. Si no, introduïu el vostre nom d'usuari i la contrasenya."
-
-#: wikiaccount.xhp#par_id9046601.help.text
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"Si heu habilitat la contrasenya mestra a la pestanya Seguretat del diàleg "
-"Eines - Opcions - %PRODUCTNAME, l'aplicació pot emmagatzemar la vostra "
-"contrasenya i inserir les dades automàticament allà on siga necessari. "
-"Habiliteu la casella \"Guarda la contrasenya\" per emmagatzemar la vostra "
-"contrasenya."
+"<emph>Mostra-ho al navegador web</emph>: <ahelp hid=\".\">marqueu esta "
+"casella per obrir el navegador web del sistema i mostrar la pàgina Wiki "
+"pujada.</ahelp>"
