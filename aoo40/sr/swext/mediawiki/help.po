@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-08-26 19:47+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,14 +38,11 @@ msgstr ""
 "сервер су наведена у следећем списку."
 
 #: wikiformats.xhp#par_id5630664.help.text
-#: wikiformats.xhp%23par_id5630664.help.text
 msgid ""
-"The OpenDocument format used by Writer and the WikiMedia format are quite "
+"The OpenDocument format used by Writer and the MediaWiki format are quite "
 "different. Only a subset of all features can be transformed from one format "
 "to the other."
 msgstr ""
-"Вики Медија формат и отворени документ-формат које користи Писац су прилично "
-"различити. Само део опција може бити преведен из једног формата у други."
 
 #: wikiformats.xhp#hd_id7178868.help.text
 #: wikiformats.xhp%23hd_id7178868.help.text
@@ -174,17 +171,12 @@ msgid "Images"
 msgstr "Слике"
 
 #: wikiformats.xhp#par_id3541673.help.text
-#: wikiformats.xhp%23par_id3541673.help.text
 msgid ""
 "Images cannot be exported by a transformation producing a single file of "
 "Wiki text. However, if the image is already uploaded to the target Wiki "
-"domain (e. g. WikiMedia Commons), then the transformation produces a valid "
+"domain (e.g. WikiMedia Commons), then the transformation produces a valid "
 "image tag that includes the image. Image captions are also supported."
 msgstr ""
-"Слике се не могу извести трансформацијом у датотеку Вики текста. Међутим, "
-"уколико је слика већ отпремљена на циљни Вики домен (нпр. WikiMedia Commons) "
-"биће направљена исправна ознака за укључивање слике. Наслови слика су такође "
-"подржани."
 
 #: wikiformats.xhp#hd_id2162236.help.text
 #: wikiformats.xhp%23hd_id2162236.help.text
@@ -208,15 +200,11 @@ msgid "Joined Cells"
 msgstr "Спојене ћелије"
 
 #: wikiformats.xhp#par_id8253730.help.text
-#: wikiformats.xhp%23par_id8253730.help.text
 msgid ""
-"OpenDocument and especially OpenOffice.org represent tables that have joined "
+"OpenDocument and especially OpenOffice represent tables that have joined "
 "cells that span rows as tables with nested tables. In contrast, the wiki "
-"model of table is to declare column and row spans for such joined cells. "
+"model of table is to declare column and row spans for such joined cells."
 msgstr ""
-"Отворени документ формат (ОДФ), а пре свега OpenOffice.org, представља "
-"табеле са спојеним ћелијама као табеле са угнежденим табелама. С друге "
-"стране, Вики дефинише спајање колона и редова за такве ћелије. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 #: wikiformats.xhp%23par_id8163090.help.text
@@ -233,15 +221,11 @@ msgid "Borders"
 msgstr "Ивице"
 
 #: wikiformats.xhp#par_id1831110.help.text
-#: wikiformats.xhp%23par_id1831110.help.text
 msgid ""
 "Irrespective of custom table styles for border and background, a table is "
-"always exported as \"<emph>prettytable\"</emph>, which renders in the Wiki "
+"always exported as <emph>\"prettytable\"</emph>, which renders in the Wiki "
 "engine with simple borders and bold header."
 msgstr ""
-"Занемарујући прилагођене стилове табеле за границе и позадину табеле, она се "
-"увек извози као „<emph>лепа табела</emph>“, што се у Викију приказује као "
-"табела са једноставним ивицама и подебљаним заглављем."
 
 #: wikiformats.xhp#hd_id6255073.help.text
 #: wikiformats.xhp%23hd_id6255073.help.text
@@ -267,79 +251,166 @@ msgstr ""
 "трансформације у Фајерфокс прегледнику и одатле пребацити кодирање на УТФ-8. "
 "Тада у жељени програм можете убацити резултат трансформације."
 
-#: wikisend.xhp#tit.help.text
-#: wikisend.xhp%23tit.help.text
-msgctxt "wikisend.xhp#tit.help.text"
-msgid "Send to MediaWiki"
-msgstr "Пошаљи на Медија Вики"
+#: wikiaccount.xhp#tit.help.text
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "Медија Вики"
 
-#: wikisend.xhp#hd_id108340.help.text
-#: wikisend.xhp%23hd_id108340.help.text
-msgctxt "wikisend.xhp#hd_id108340.help.text"
-msgid "Send to MediaWiki"
-msgstr "Пошаљи на Медија Вики"
+#: wikiaccount.xhp#hd_id960722.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "Медија Вики"
 
-#: wikisend.xhp#par_id1743827.help.text
-#: wikisend.xhp%23par_id1743827.help.text
+#: wikiaccount.xhp#par_id4571672.help.text
+#: wikiaccount.xhp%23par_id4571672.help.text
 msgid ""
-"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
-"upload."
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
 msgstr ""
-"У прозорчету за слање на Медија Вики одредите подешавања за отпремање на "
-"циљни Вики."
+"Користите Медија Вики прозорче за додавање и уређивање свог Медија Вики "
+"налога."
 
-#: wikisend.xhp#par_id664082.help.text
-#: wikisend.xhp%23par_id664082.help.text
+#: wikiaccount.xhp#par_id7631458.help.text
+#: wikiaccount.xhp%23par_id7631458.help.text
 msgid ""
-"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
-"document. Click Add to add a new server to the list.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with http://</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Изаберите Медија Вики сервер за објављивање документа. "
-"Кликните \"Додај\" за додавање новог сервера на листу.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Унесите УРЛ адресу Медија Вики "
+"сервера која почиње са http://</ahelp>"
 
-#: wikisend.xhp#par_id2794885.help.text
-#: wikisend.xhp%23par_id2794885.help.text
+#: wikiaccount.xhp#par_id7862483.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
 msgid ""
-"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
-"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
-"If you enter an existing title, your upload will overwrite the existing Wiki "
-"entry.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Наведите наслов за унос у Вики. Ово је основно заглавље "
-"уноса. За нови унос морате унети јединствен наслов на Викију. Уколико "
-"унесете постојећи наслов унос у Викију ће бити замењен.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Унесите корисничко име за Медија Вики "
+"сервер. Оставите празно за анониман приступ.</ahelp>"
 
-#: wikisend.xhp#par_id2486342.help.text
-#: wikisend.xhp%23par_id2486342.help.text
+#: wikiaccount.xhp#par_id1113010.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
 msgid ""
-"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
-"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Опционо унесите сажетак или коментар.</ahelp> Погледајте <"
-"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
-">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
+"<ahelp hid=\".\" visibility=\"hidden\">Унесите лозинку за Медија Вики "
+"сервер. Оставите празно за анониман приступ.</ahelp>"
 
-#: wikisend.xhp#par_id823999.help.text
-#: wikisend.xhp%23par_id823999.help.text
+#: wikiaccount.xhp#par_id656758.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
 msgid ""
-"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
-"the uploaded page as a minor edit of the already existing page with the same "
-"title.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
 msgstr ""
-"<emph>Ово је мала измена</emph>: <ahelp hid=\".\">Активирајте ово како бисте "
-"означили да је отпремљена страница мала измена већ постојећег текста са "
-"истим насловом.</ahelp>"
+"<ahelp hid=\".\" visibility=\"hidden\">Омогућите да бисте сачували лозинку "
+"између сесија. Најпре морате унети главну лозинку, погледајте <item type=\""
+"menuitem\">Алатке - Опције - %PRODUCTNAME - Сигурност</item>.</ahelp>"
 
-#: wikisend.xhp#par_id6592913.help.text
-#: wikisend.xhp%23par_id6592913.help.text
+#: wikiaccount.xhp#par_id3112582.help.text
+#: wikiaccount.xhp%23par_id3112582.help.text
 msgid ""
-"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
-"your system web browser and show the uploaded Wiki page.</ahelp>"
+"Enter the Internet address of a Wiki server in a format like "
+"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
 msgstr ""
-"<emph>Прикажи у веб прегледнику</emph>: <ahelp hid=\".\">Активирајте за "
-"отварање системског веб прегледника који ће приказати отпремљену Вики "
-"страницу.</ahelp>"
+"Унесите Интернет адресу Вики сервера у формату као што је "
+"http://wiki.services.openoffice.org/wiki или копирајте УРЛ адресу из веб "
+"прегледника."
+
+#: wikiaccount.xhp#par_id628070.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
+msgid ""
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
+msgstr ""
+"Уколико Вики дозвољава анониман приступ, можете оставити празне податке о "
+"налогу. У супротном, унесите своје корисничко име и лозинку."
+
+#: wikiaccount.xhp#par_id9046601.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
+msgid ""
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
+msgstr ""
+"Уколико је главна лозинка укључена у прозорчету „Алатке - Опције - %"
+"PRODUCTNAME - Сигурност“, програм може сачувати вашу лозинку и сам је унети "
+"где је потребно. Укључите „Сачувај лозинку“ за памћење ваше лозинке."
+
+#: wikisettings.xhp#tit.help.text
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "Опције за Медија Вики"
+
+#: wikisettings.xhp#hd_id6425672.help.text
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "Опције за Медија Вики"
+
+#: wikisettings.xhp#par_id1188390.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
+msgid ""
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
+msgstr ""
+"Можете додати, уредити и уклонити Медија Вики сервере. Отворите прозорче из <"
+"item type=\"menuitem\">Алатке - Опције - Интернет - Медија Вики</item>. "
+"Можете отворити и <item type=\"menuitem\">Алатке - Управник пакета</item>, "
+"изабрати @WIKIEXTENSIONPRODUCTNAME@ и кликнути на дугме „Опције“."
+
+#: wikisettings.xhp#par_id300607.help.text
+#: wikisettings.xhp%23par_id300607.help.text
+msgid ""
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\">Кликните на „Додај“ за додавање новог Вики сервера.<br/>"
+"Изаберите унос и кликните „Уреди“ за измену података о налогу.<br/>Изабетире "
+"унос и кликните „Уклони“ за уклањање уноса из листе.</ahelp>"
+
+#: wikisettings.xhp#par_id9786065.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Отвара Медија Вики прозорче за "
+"додавање новог уноса у листу.</ahelp>"
+
+#: wikisettings.xhp#par_id3386333.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Отвара Медија Вики прозорче за "
+"уређивање изабраног уноса.</ahelp>"
+
+#: wikisettings.xhp#par_id7285073.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Уклања изабрани унос из листе.</ahelp>"
+
+#: wikisettings.xhp#par_id1029084.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
+msgid ""
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
+msgstr ""
+"Када кликнете на „Додај“ или „Уреди“, отвара се <link href=\""
+"@WIKIEXTENSIONID@/wikiaccount.xhp\">Медија Вики</link> прозорче."
 
 #: wiki.xhp#tit.help.text
 #: wiki.xhp%23tit.help.text
@@ -407,13 +478,10 @@ msgid "Java Runtime Environment 1.4"
 msgstr "Јавино радно окружење 1.4"
 
 #: wiki.xhp#par_id7387615.help.text
-#: wiki.xhp%23par_id7387615.help.text
 msgid ""
-"A Wiki account on a supported <link href=\"http://www.mediawiki.org/wiki/"
+"A Wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/"
 "MediaWiki\">MediaWiki</link> server"
 msgstr ""
-"Вики налог на подржаном <link href=\"http://www.mediawiki.org/wiki/"
-"MediaWiki\">Медија Вики</link> серверу"
 
 #: wiki.xhp#hd_id8047120.help.text
 #: wiki.xhp%23hd_id8047120.help.text
@@ -694,163 +762,76 @@ msgstr ""
 msgid "Click Send."
 msgstr "Кликните на „Пошаљи“."
 
-#: wikisettings.xhp#tit.help.text
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "Опције за Медија Вики"
+#: wikisend.xhp#tit.help.text
+#: wikisend.xhp%23tit.help.text
+msgctxt "wikisend.xhp#tit.help.text"
+msgid "Send to MediaWiki"
+msgstr "Пошаљи на Медија Вики"
 
-#: wikisettings.xhp#hd_id6425672.help.text
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "Опције за Медија Вики"
+#: wikisend.xhp#hd_id108340.help.text
+#: wikisend.xhp%23hd_id108340.help.text
+msgctxt "wikisend.xhp#hd_id108340.help.text"
+msgid "Send to MediaWiki"
+msgstr "Пошаљи на Медија Вики"
 
-#: wikisettings.xhp#par_id1188390.help.text
-#: wikisettings.xhp%23par_id1188390.help.text
+#: wikisend.xhp#par_id1743827.help.text
+#: wikisend.xhp%23par_id1743827.help.text
 msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
+"In the Send to MediaWiki dialog, specify the settings for your current Wiki "
+"upload."
 msgstr ""
-"Можете додати, уредити и уклонити Медија Вики сервере. Отворите прозорче из <"
-"item type=\"menuitem\">Алатке - Опције - Интернет - Медија Вики</item>. "
-"Можете отворити и <item type=\"menuitem\">Алатке - Управник пакета</item>, "
-"изабрати @WIKIEXTENSIONPRODUCTNAME@ и кликнути на дугме „Опције“."
+"У прозорчету за слање на Медија Вики одредите подешавања за отпремање на "
+"циљни Вики."
 
-#: wikisettings.xhp#par_id300607.help.text
-#: wikisettings.xhp%23par_id300607.help.text
+#: wikisend.xhp#par_id664082.help.text
+#: wikisend.xhp%23par_id664082.help.text
 msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
+"<ahelp hid=\".\">Select the MediaWiki server where you want to publish your "
+"document. Click Add to add a new server to the list.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Кликните на „Додај“ за додавање новог Вики сервера.<br/>"
-"Изаберите унос и кликните „Уреди“ за измену података о налогу.<br/>Изабетире "
-"унос и кликните „Уклони“ за уклањање уноса из листе.</ahelp>"
+"<ahelp hid=\".\">Изаберите Медија Вики сервер за објављивање документа. "
+"Кликните \"Додај\" за додавање новог сервера на листу.</ahelp>"
 
-#: wikisettings.xhp#par_id9786065.help.text
-#: wikisettings.xhp%23par_id9786065.help.text
+#: wikisend.xhp#par_id2794885.help.text
+#: wikisend.xhp%23par_id2794885.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
+"<ahelp hid=\".\">Enter the title of your Wiki entry. This is the top heading "
+"of your Wiki entry. For a new entry, the title must be unique on this Wiki. "
+"If you enter an existing title, your upload will overwrite the existing Wiki "
+"entry.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Отвара Медија Вики прозорче за "
-"додавање новог уноса у листу.</ahelp>"
+"<ahelp hid=\".\">Наведите наслов за унос у Вики. Ово је основно заглавље "
+"уноса. За нови унос морате унети јединствен наслов на Викију. Уколико "
+"унесете постојећи наслов унос у Викију ће бити замењен.</ahelp>"
 
-#: wikisettings.xhp#par_id3386333.help.text
-#: wikisettings.xhp%23par_id3386333.help.text
+#: wikisend.xhp#par_id2486342.help.text
+#: wikisend.xhp%23par_id2486342.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
+"<ahelp hid=\".\">Enter an optional short summary or comment.</ahelp> See <"
+"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Отвара Медија Вики прозорче за "
-"уређивање изабраног уноса.</ahelp>"
+"<ahelp hid=\".\">Опционо унесите сажетак или коментар.</ahelp> Погледајте <"
+"link href=\"http://meta.wikimedia.org/wiki/Help:Edit_summary\""
+">http://meta.wikimedia.org/wiki/Help:Edit_summary</link>."
 
-#: wikisettings.xhp#par_id7285073.help.text
-#: wikisettings.xhp%23par_id7285073.help.text
+#: wikisend.xhp#par_id823999.help.text
+#: wikisend.xhp%23par_id823999.help.text
 msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
+"<emph>This is a minor edit</emph>: <ahelp hid=\".\">Check this box to mark "
+"the uploaded page as a minor edit of the already existing page with the same "
+"title.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Уклања изабрани унос из листе.</ahelp>"
+"<emph>Ово је мала измена</emph>: <ahelp hid=\".\">Активирајте ово како бисте "
+"означили да је отпремљена страница мала измена већ постојећег текста са "
+"истим насловом.</ahelp>"
 
-#: wikisettings.xhp#par_id1029084.help.text
-#: wikisettings.xhp%23par_id1029084.help.text
+#: wikisend.xhp#par_id6592913.help.text
+#: wikisend.xhp%23par_id6592913.help.text
 msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
+"<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
+"your system web browser and show the uploaded Wiki page.</ahelp>"
 msgstr ""
-"Када кликнете на „Додај“ или „Уреди“, отвара се <link href=\""
-"@WIKIEXTENSIONID@/wikiaccount.xhp\">Медија Вики</link> прозорче."
-
-#: wikiaccount.xhp#tit.help.text
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "Медија Вики"
-
-#: wikiaccount.xhp#hd_id960722.help.text
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "Медија Вики"
-
-#: wikiaccount.xhp#par_id4571672.help.text
-#: wikiaccount.xhp%23par_id4571672.help.text
-msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
-msgstr ""
-"Користите Медија Вики прозорче за додавање и уређивање свог Медија Вики "
-"налога."
-
-#: wikiaccount.xhp#par_id7631458.help.text
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Унесите УРЛ адресу Медија Вики "
-"сервера која почиње са http://</ahelp>"
-
-#: wikiaccount.xhp#par_id7862483.help.text
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Унесите корисничко име за Медија Вики "
-"сервер. Оставите празно за анониман приступ.</ahelp>"
-
-#: wikiaccount.xhp#par_id1113010.help.text
-#: wikiaccount.xhp%23par_id1113010.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Унесите лозинку за Медија Вики "
-"сервер. Оставите празно за анониман приступ.</ahelp>"
-
-#: wikiaccount.xhp#par_id656758.help.text
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Омогућите да бисте сачували лозинку "
-"између сесија. Најпре морате унети главну лозинку, погледајте <item type=\""
-"menuitem\">Алатке - Опције - %PRODUCTNAME - Сигурност</item>.</ahelp>"
-
-#: wikiaccount.xhp#par_id3112582.help.text
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"Унесите Интернет адресу Вики сервера у формату као што је "
-"http://wiki.services.openoffice.org/wiki или копирајте УРЛ адресу из веб "
-"прегледника."
-
-#: wikiaccount.xhp#par_id628070.help.text
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"Уколико Вики дозвољава анониман приступ, можете оставити празне податке о "
-"налогу. У супротном, унесите своје корисничко име и лозинку."
-
-#: wikiaccount.xhp#par_id9046601.help.text
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"Уколико је главна лозинка укључена у прозорчету „Алатке - Опције - %"
-"PRODUCTNAME - Сигурност“, програм може сачувати вашу лозинку и сам је унети "
-"где је потребно. Укључите „Сачувај лозинку“ за памћење ваше лозинке."
+"<emph>Прикажи у веб прегледнику</emph>: <ahelp hid=\".\">Активирајте за "
+"отварање системског веб прегледника који ће приказати отпремљену Вики "
+"страницу.</ahelp>"
