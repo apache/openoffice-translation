@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+extensions%2Fsource%2Fpropctrlr.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:46+0000\n"
 "PO-Revision-Date: 2019-08-25 05:28+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,31 @@ msgstr "主窗体"
 msgid "The columns of '#' could not be retrieved."
 msgstr "无法检索 '#' 中的列。"
 
+#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
+msgid "Controls"
+msgstr "控件"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
+msgid "Move Up"
+msgstr "上移"
+
+#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
+msgid "Move Down"
+msgstr "下移"
+
+#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
+msgid "Automatic Sort"
+msgstr "自动排序"
+
+#: taborder.src#RID_DLG_TABORDER.modaldialog.text
+#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
+msgid "Tab Order"
+msgstr "Tab 键次序"
+
 #: newdatatype.src#RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 #: newdatatype.src%23RID_DLG_NEW_DATA_TYPE.FT_LABEL.fixedtext.text
 msgid "Type a name for the new data type:"
@@ -59,50 +84,27 @@ msgstr "为新数据类型键入一个名称:"
 msgid "New Data Type"
 msgstr "新建数据类型"
 
-#: propres.src#RID_STR_STANDARD.string.text
-#: propres.src%23RID_STR_STANDARD.string.text
-msgctxt "propres.src#RID_STR_STANDARD.string.text"
-msgid "Default"
-msgstr "标准"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
+msgid ""
+"These are control fields that can be used as label fields for the "
+"$control_class$ $control_name$."
+msgstr "这些是可指定当作标签字段 $control_class$ $control_name$ 的所有控制。"
 
-#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
-#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
-msgid "General"
-msgstr "常规"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
+msgid "~No assignment"
+msgstr "不指定(~N)"
 
-#: propres.src#RID_STR_PROPPAGE_DATA.string.text
-#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
-msgid "Data"
-msgstr "数据"
+#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
+#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
+msgid "Label Field Selection"
+msgstr "选择标签字段"
 
-#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
-msgid "No"
-msgstr "否"
-
-#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
-#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
-msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
-msgid "Yes"
-msgstr "是"
-
-#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
-#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
-msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
-msgid "Help"
-msgstr "帮助"
-
-#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
-#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
-msgid "<Embedded-Image>"
-msgstr "<嵌入-图像>"
-
-#: propres.src#RID_STR_TEXT_FORMAT.string.text
-#: propres.src%23RID_STR_TEXT_FORMAT.string.text
-msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
-msgid "Text"
-msgstr "文字"
+#: selectlabeldialog.src#RID_STR_FORMS.string.text
+#: selectlabeldialog.src%23RID_STR_FORMS.string.text
+msgid "Forms"
+msgstr "表单"
 
 #: formres.src#RID_STR_EDITMASK.string.text
 #: formres.src%23RID_STR_EDITMASK.string.text
@@ -1785,46 +1787,50 @@ msgstr "粗体"
 msgid "(Default)"
 msgstr "（默认）"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
-msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
-msgid "Font"
-msgstr "字体"
+#: propres.src#RID_STR_STANDARD.string.text
+#: propres.src%23RID_STR_STANDARD.string.text
+msgctxt "propres.src#RID_STR_STANDARD.string.text"
+msgid "Default"
+msgstr "标准"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "字体效果"
+#: propres.src#RID_STR_PROPPAGE_DEFAULT.string.text
+#: propres.src%23RID_STR_PROPPAGE_DEFAULT.string.text
+msgid "General"
+msgstr "常规"
 
-#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
-#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
-msgid "Character"
-msgstr "字符"
+#: propres.src#RID_STR_PROPPAGE_DATA.string.text
+#: propres.src%23RID_STR_PROPPAGE_DATA.string.text
+msgid "Data"
+msgstr "数据"
 
-#: taborder.src#RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-#: taborder.src%23RID_DLG_TABORDER.FT_CONTROLS.fixedtext.text
-msgid "Controls"
-msgstr "控件"
+#: propres.src#RID_RSC_ENUM_YESNO.1.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.1.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.1.string.text"
+msgid "No"
+msgstr "否"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_UP.pushbutton.text
-msgid "Move Up"
-msgstr "上移"
+#: propres.src#RID_RSC_ENUM_YESNO.2.string.text
+#: propres.src%23RID_RSC_ENUM_YESNO.2.string.text
+msgctxt "propres.src#RID_RSC_ENUM_YESNO.2.string.text"
+msgid "Yes"
+msgstr "是"
 
-#: taborder.src#RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_MOVE_DOWN.pushbutton.text
-msgid "Move Down"
-msgstr "下移"
+#: propres.src#RID_STR_HELP_SECTION_LABEL.string.text
+#: propres.src%23RID_STR_HELP_SECTION_LABEL.string.text
+msgctxt "propres.src#RID_STR_HELP_SECTION_LABEL.string.text"
+msgid "Help"
+msgstr "帮助"
 
-#: taborder.src#RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-#: taborder.src%23RID_DLG_TABORDER.PB_AUTO_ORDER.pushbutton.text
-msgid "Automatic Sort"
-msgstr "自动排序"
+#: propres.src#RID_EMBED_IMAGE_PLACEHOLDER.string.text
+#: propres.src%23RID_EMBED_IMAGE_PLACEHOLDER.string.text
+msgid "<Embedded-Image>"
+msgstr "<嵌入-图像>"
 
-#: taborder.src#RID_DLG_TABORDER.modaldialog.text
-#: taborder.src%23RID_DLG_TABORDER.modaldialog.text
-msgid "Tab Order"
-msgstr "Tab 键次序"
+#: propres.src#RID_STR_TEXT_FORMAT.string.text
+#: propres.src%23RID_STR_TEXT_FORMAT.string.text
+msgctxt "propres.src#RID_STR_TEXT_FORMAT.string.text"
+msgid "Text"
+msgstr "文字"
 
 #: pcrmiscres.src#RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
 #: pcrmiscres.src%23RID_STR_CONFIRM_DELETE_DATA_TYPE.string.text
@@ -1937,24 +1943,18 @@ msgstr "掩码字段"
 msgid "Table Control "
 msgstr "表格控制 "
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.fixedtext.text
-msgid ""
-"These are control fields that can be used as label fields for the "
-"$control_class$ $control_name$."
-msgstr "这些是可指定当作标签字段 $control_class$ $control_name$ 的所有控制。"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text
+msgctxt "fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS.pageitem.text"
+msgid "Font"
+msgstr "字体"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.1.checkbox.text
-msgid "~No assignment"
-msgstr "不指定(~N)"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.1.TABPAGE_CHARACTERS_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "字体效果"
 
-#: selectlabeldialog.src#RID_DLG_SELECTLABELCONTROL.modaldialog.text
-#: selectlabeldialog.src%23RID_DLG_SELECTLABELCONTROL.modaldialog.text
-msgid "Label Field Selection"
-msgstr "选择标签字段"
-
-#: selectlabeldialog.src#RID_STR_FORMS.string.text
-#: selectlabeldialog.src%23RID_STR_FORMS.string.text
-msgid "Forms"
-msgstr "表单"
+#: fontdialog.src#RID_TABDLG_FONTDIALOG.tabdialog.text
+#: fontdialog.src%23RID_TABDLG_FONTDIALOG.tabdialog.text
+msgid "Character"
+msgstr "字符"

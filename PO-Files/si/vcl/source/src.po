@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+vcl%2Fsource%2Fsrc.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2020-04-21 07:26+0000\n"
+"POT-Creation-Date: 2021-04-02 18:45+0000\n"
 "PO-Revision-Date: 2019-07-25 22:11+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,70 +16,289 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: menu.src#SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
-#: menu.src%23SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
-msgid "<No selection possible>"
-msgstr "<කළ හැකි තේරීමක් නොමැත>"
+#: helptext.src#SV_HELPTEXT_CLOSE.string.text
+#: helptext.src%23SV_HELPTEXT_CLOSE.string.text
+msgid "Close"
+msgstr "වසන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
-msgid "~Undo"
-msgstr "අහෝසි කරන්න (~U)"
+#: helptext.src#SV_HELPTEXT_CLOSEDOCUMENT.string.text
+#: helptext.src%23SV_HELPTEXT_CLOSEDOCUMENT.string.text
+msgid "Close Document"
+msgstr "ලේඛනය වහන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
-msgid "Cu~t"
-msgstr "කපන්න (~t)"
+#: helptext.src#SV_HELPTEXT_MINIMIZE.string.text
+#: helptext.src%23SV_HELPTEXT_MINIMIZE.string.text
+msgid "Minimize"
+msgstr "හකුලන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
-msgid "~Copy"
-msgstr "පිටපත් කරන්න (~C)"
+#: helptext.src#SV_HELPTEXT_MAXIMIZE.string.text
+#: helptext.src%23SV_HELPTEXT_MAXIMIZE.string.text
+msgid "Maximize"
+msgstr "විහිදන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
-msgid "~Paste"
-msgstr "අලවන්න (~P)"
+#: helptext.src#SV_HELPTEXT_RESTORE.string.text
+#: helptext.src%23SV_HELPTEXT_RESTORE.string.text
+msgid "Restore"
+msgstr "පිළිනගන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
-msgid "~Delete"
-msgstr "මකන්න (~D)"
+#: helptext.src#SV_HELPTEXT_ROLLDOWN.string.text
+#: helptext.src%23SV_HELPTEXT_ROLLDOWN.string.text
+msgid "Drop down"
+msgstr "පහළට හෙළන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
-msgid "Select ~All"
-msgstr "සියල්ල තෝරන්න (~A)"
+#: helptext.src#SV_HELPTEXT_ROLLUP.string.text
+#: helptext.src%23SV_HELPTEXT_ROLLUP.string.text
+msgid "Roll up"
+msgstr "ඉහළට අකුළන්න"
 
-#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
-#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
-msgid "~Special Character..."
-msgstr "විශේෂ අනු ලකුණ... (~S)"
+#: helptext.src#SV_HELPTEXT_HELP.string.text
+#: helptext.src%23SV_HELPTEXT_HELP.string.text
+msgctxt "helptext.src#SV_HELPTEXT_HELP.string.text"
+msgid "Help"
+msgstr "උදව්"
 
-#: menu.src#SV_MENU_MAC_SERVICES.string.text
-#: menu.src%23SV_MENU_MAC_SERVICES.string.text
-msgid "Services"
-msgstr "සේවා"
+#: helptext.src#SV_HELPTEXT_ALWAYSVISIBLE.string.text
+#: helptext.src%23SV_HELPTEXT_ALWAYSVISIBLE.string.text
+msgid "Always visible"
+msgstr "සැමවිටම දෘශ්‍යයි"
 
-#: menu.src#SV_MENU_MAC_HIDEAPP.string.text
-#: menu.src%23SV_MENU_MAC_HIDEAPP.string.text
-msgid "Hide %PRODUCTNAME"
-msgstr "%PRODUCTNAME සඟවන්න"
+#: helptext.src#SV_HELPTEXT_FADEIN.string.text
+#: helptext.src%23SV_HELPTEXT_FADEIN.string.text
+msgid "Show"
+msgstr "පෙන්වන්න"
 
-#: menu.src#SV_MENU_MAC_HIDEALL.string.text
-#: menu.src%23SV_MENU_MAC_HIDEALL.string.text
-msgid "Hide Others"
-msgstr "අන්‍යයෝ සඟවන්න"
+#: helptext.src#SV_HELPTEXT_FADEOUT.string.text
+#: helptext.src%23SV_HELPTEXT_FADEOUT.string.text
+msgid "Hide"
+msgstr "සඟවන්න"
 
-#: menu.src#SV_MENU_MAC_SHOWALL.string.text
-#: menu.src%23SV_MENU_MAC_SHOWALL.string.text
-msgid "Show All"
-msgstr "සියල්ල පෙන්වන්න"
+#: helptext.src#SV_HELPTEXT_SPLITFLOATING.string.text
+#: helptext.src%23SV_HELPTEXT_SPLITFLOATING.string.text
+msgid "Floating"
+msgstr "චල"
 
-#: menu.src#SV_MENU_MAC_QUITAPP.string.text
-#: menu.src%23SV_MENU_MAC_QUITAPP.string.text
-msgid "Quit %PRODUCTNAME"
-msgstr "%PRODUCTNAME ගෙන් ඉවත් වෙන්න"
+#: helptext.src#SV_HELPTEXT_SPLITFIXED.string.text
+#: helptext.src%23SV_HELPTEXT_SPLITFIXED.string.text
+msgid "Stick"
+msgstr "අලවා තබන්න"
+
+#: helptext.src#SV_SHORTCUT_HELP.string.text
+#: helptext.src%23SV_SHORTCUT_HELP.string.text
+msgctxt "helptext.src#SV_SHORTCUT_HELP.string.text"
+msgid "Help"
+msgstr "උදව්"
+
+#: helptext.src#SV_SHORTCUT_CONTEXTHELP.string.text
+#: helptext.src%23SV_SHORTCUT_CONTEXTHELP.string.text
+msgid "Context Help"
+msgstr "සන්දර්භ උදව්"
+
+#: helptext.src#SV_SHORTCUT_ACTIVEHELP.string.text
+#: helptext.src%23SV_SHORTCUT_ACTIVEHELP.string.text
+msgid "Extended Tips"
+msgstr "විස්තීරණ ඉඟි"
+
+#: helptext.src#SV_SHORTCUT_DOCKUNDOCK.string.text
+#: helptext.src%23SV_SHORTCUT_DOCKUNDOCK.string.text
+msgid "Dock/Undock Windows"
+msgstr "කවුළු හිර කරන්න / හිර නොකරන්න"
+
+#: helptext.src#SV_SHORTCUT_NEXTSUBWINDOW.string.text
+#: helptext.src%23SV_SHORTCUT_NEXTSUBWINDOW.string.text
+msgid "To Next Toolbar/Window"
+msgstr "ඊළඟ මෙවලම් තීරුවට/කවුළුවට"
+
+#: helptext.src#SV_SHORTCUT_PREVSUBWINDOW.string.text
+#: helptext.src%23SV_SHORTCUT_PREVSUBWINDOW.string.text
+msgid "To Previous Toolbar/Window"
+msgstr "පෙර මෙවලම් තීරුවට/කවුළුවට"
+
+#: helptext.src#SV_SHORTCUT_TODOCUMENT.string.text
+#: helptext.src%23SV_SHORTCUT_TODOCUMENT.string.text
+msgid "To Document"
+msgstr "ලේඛනය වෙත"
+
+#: helptext.src#SV_SHORTCUT_MENUBAR.string.text
+#: helptext.src%23SV_SHORTCUT_MENUBAR.string.text
+msgid "To Menu Bar"
+msgstr "මෙනු තීරුවට"
+
+#: helptext.src#SV_SHORTCUT_SPLITTER.string.text
+#: helptext.src%23SV_SHORTCUT_SPLITTER.string.text
+msgid "Split window separator"
+msgstr "කවුළු විභේදකය විභේදනය කරන්න"
+
+#: btntext.src#SV_BUTTONTEXT_OK.string.text
+#: btntext.src%23SV_BUTTONTEXT_OK.string.text
+msgid "OK"
+msgstr "හරි"
+
+#: btntext.src#SV_BUTTONTEXT_CANCEL.string.text
+#: btntext.src%23SV_BUTTONTEXT_CANCEL.string.text
+msgid "Cancel"
+msgstr "වසන්න"
+
+#: btntext.src#SV_BUTTONTEXT_YES.string.text
+#: btntext.src%23SV_BUTTONTEXT_YES.string.text
+msgid "~Yes"
+msgstr "ඔව් (~Y)"
+
+#: btntext.src#SV_BUTTONTEXT_NO.string.text
+#: btntext.src%23SV_BUTTONTEXT_NO.string.text
+msgid "~No"
+msgstr "නැත (~N)"
+
+#: btntext.src#SV_BUTTONTEXT_RETRY.string.text
+#: btntext.src%23SV_BUTTONTEXT_RETRY.string.text
+msgid "~Retry"
+msgstr "යළි උත්සාහ කරන්න (~R)"
+
+#: btntext.src#SV_BUTTONTEXT_HELP.string.text
+#: btntext.src%23SV_BUTTONTEXT_HELP.string.text
+msgid "~Help"
+msgstr "උදව් (~H)"
+
+#: btntext.src#SV_BUTTONTEXT_MORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_MORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_LESS.string.text
+#, fuzzy
+msgid "~More"
+msgstr "තවත් (~M)"
+
+#: btntext.src#SV_BUTTONTEXT_LESS.string.text
+msgid "~Less"
+msgstr ""
+
+#: btntext.src#SV_BUTTONTEXT_IGNORE.string.text
+#: btntext.src%23SV_BUTTONTEXT_IGNORE.string.text
+msgid "~Ignore"
+msgstr "නොසලකා හරින්න (~I)"
+
+#: btntext.src#SV_BUTTONTEXT_ABORT.string.text
+#: btntext.src%23SV_BUTTONTEXT_ABORT.string.text
+msgid "~Abort"
+msgstr "නවත්තන්න (~A)"
+
+#: stdtext.src#SV_STDTEXT_SERVICENOTAVAILABLE.string.text
+#: stdtext.src%23SV_STDTEXT_SERVICENOTAVAILABLE.string.text
+msgid ""
+"The component (%s) could not be loaded.\n"
+"Please start setup with the repair option."
+msgstr ""
+"(%s) සංරචකය ප්‍රවේශ කිරීමට නොහැකි විය.\n"
+"කරුණාකර අලුත්වැඩියා කිරීමේ අභිරුචිය සහිතව සිටුවීම නැවත ආරම්භ කරන්න."
+
+#: stdtext.src#SV_STDTEXT_DONTHINTAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTHINTAGAIN.string.text
+msgid "Do not show this information again."
+msgstr "නැවත මෙම තොරතුරු පෙන්වන්න එපා."
+
+#: stdtext.src#SV_STDTEXT_DONTASKAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTASKAGAIN.string.text
+msgid "Do not show this question again."
+msgstr "නැවත මෙම ප්‍රශ්නය පෙන්වන්න එපා."
+
+#: stdtext.src#SV_STDTEXT_DONTWARNAGAIN.string.text
+#: stdtext.src%23SV_STDTEXT_DONTWARNAGAIN.string.text
+#, fuzzy
+msgid "Do not show this warning again."
+msgstr "නැවත අනතුරු හැඟවීම පෙන්වන්න එපා."
+
+#: stdtext.src#SV_ACCESSERROR_WRONG_VERSION.string.text
+#: stdtext.src%23SV_ACCESSERROR_WRONG_VERSION.string.text
+msgid "Wrong Version"
+msgstr "වැරදි වෙළුම"
+
+#: stdtext.src#SV_ACCESSERROR_BRIDGE_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_BRIDGE_MSG.string.text
+msgid ""
+"%PRODUCTNAME %PRODUCTVERSION requires a Java Access Bridge 1.0.3 or later "
+"version to support accessibility."
+msgstr ""
+"පිවිසීමට සහය දැක්වීම සඳහා %PRODUCTNAME %PRODUCTVERSION ට ජාවා පිවිසුම් පාලම "
+"1.0.3 හෝ ඊට පසු වෙළුමක් අවශ්‍ය වේ."
+
+#: stdtext.src#SV_ACCESSERROR_OK_CANCEL_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_OK_CANCEL_MSG.string.text
+msgid ""
+"Click '%OK' to start %PRODUCTNAME %PRODUCTVERSION without accessibility "
+"support, or click '%CANCEL' to exit %PRODUCTNAME %PRODUCTVERSION."
+msgstr ""
+"පිවිසුම් සහාය නොමැතිව %PRODUCTNAME %PRODUCTVERSION ආරම්භ කිරීම සඳහා '%OK' "
+"ක්ලික් කරන්න, නැත්නම් %PRODUCTNAME %PRODUCTVERSION ගෙන් ඉවත්වීම සඳහා '%"
+"CANCEL' ක්ලික් කරන්න."
+
+#: stdtext.src#SV_ACCESSERROR_MISSING_BRIDGE.string.text
+#: stdtext.src%23SV_ACCESSERROR_MISSING_BRIDGE.string.text
+msgid "No Java Access Bridge"
+msgstr "ජාවා පිවිසුම් පාලමක් නොමැත"
+
+#: stdtext.src#SV_ACCESSERROR_FAULTY_JAVA.string.text
+#: stdtext.src%23SV_ACCESSERROR_FAULTY_JAVA.string.text
+msgid "Faulty Java Installation"
+msgstr "දෝෂ සහිත ජාවා ස්ථාපනයක්"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_MSG.string.text
+msgid ""
+"%PRODUCTNAME %PRODUCTVERSION requires Java 1.4.0_02 or later version to "
+"support accessibility."
+msgstr ""
+"පිවිසීමට සහය දැක්වීම සඳහා %PRODUCTNAME %PRODUCTVERSION ට ජාවා 1.4.0_02 හෝ ඊට "
+"පසු වෙළුමක් අවශ්‍ය වේ."
+
+#: stdtext.src#SV_ACCESSERROR_MISSING_JAVA.string.text
+#: stdtext.src%23SV_ACCESSERROR_MISSING_JAVA.string.text
+msgid "No Java Installation"
+msgstr "ජාවා ස්ථාපනයක් නොමැත"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
+msgid "Missing Java Configuration"
+msgstr "ජාවා සකසාවින්‍යසගත කිරීමක් නැත"
+
+#: stdtext.src#SV_ACCESSERROR_JAVA_DISABLED.string.text
+#: stdtext.src%23SV_ACCESSERROR_JAVA_DISABLED.string.text
+msgid "Java Disabled"
+msgstr "ජාවා අක්‍රිය කර ඇත"
+
+#: stdtext.src#SV_ACCESSERROR_TURNAROUND_MSG.string.text
+#: stdtext.src%23SV_ACCESSERROR_TURNAROUND_MSG.string.text
+msgid "The Java Access Bridge could not be started."
+msgstr "ජාවා පිවිසුම් පාලම ආරම්භ කිරීමට නොහැකි විය."
+
+#: stdtext.src#SV_ACCESSERROR_NO_FONTS.string.text
+#: stdtext.src%23SV_ACCESSERROR_NO_FONTS.string.text
+msgid "No fonts could be found on the system."
+msgstr ""
+
+#: stdtext.src#SV_STDTEXT_ABOUT.string.text
+#: stdtext.src%23SV_STDTEXT_ABOUT.string.text
+msgid "About %PRODUCTNAME"
+msgstr "%PRODUCTNAME පිළිබඳ"
+
+#: stdtext.src#SV_STDTEXT_PREFERENCES.string.text
+#: stdtext.src%23SV_STDTEXT_PREFERENCES.string.text
+msgid "Preferences..."
+msgstr "අභිප්‍රේත..."
+
+#: stdtext.src#SV_EDIT_WARNING_BOX.warningbox.text
+#: stdtext.src%23SV_EDIT_WARNING_BOX.warningbox.text
+msgid ""
+"The inserted text exceeded the maximum length of this text field. The text "
+"was truncated."
+msgstr ""
+"ඇතුල් කරන ලද පෙළ මෙම පෙළ ක්ෂේත්‍රයේ උපරිම දිග ඉක්මවා ඇත. පෙළ ලොප් කරනු ලැබීය."
+
+#: stdtext.src#SV_MAC_SCREENNNAME.string.text
+#: stdtext.src%23SV_MAC_SCREENNNAME.string.text
+msgid "Screen %d"
+msgstr "%d තිරය"
+
+#: stdtext.src#SV_STDTEXT_ALLFILETYPES.string.text
+#: stdtext.src%23SV_STDTEXT_ALLFILETYPES.string.text
+msgid "Any type"
+msgstr "ඕනෑම ආකාරයකට"
 
 #: print.src#SV_DLG_PRINT.SV_PRINT_OK.okbutton.text
 #: print.src%23SV_DLG_PRINT.SV_PRINT_OK.okbutton.text
@@ -570,57 +789,6 @@ msgstr ""
 msgid "B6 (JIS)"
 msgstr ""
 
-#: btntext.src#SV_BUTTONTEXT_OK.string.text
-#: btntext.src%23SV_BUTTONTEXT_OK.string.text
-msgid "OK"
-msgstr "හරි"
-
-#: btntext.src#SV_BUTTONTEXT_CANCEL.string.text
-#: btntext.src%23SV_BUTTONTEXT_CANCEL.string.text
-msgid "Cancel"
-msgstr "වසන්න"
-
-#: btntext.src#SV_BUTTONTEXT_YES.string.text
-#: btntext.src%23SV_BUTTONTEXT_YES.string.text
-msgid "~Yes"
-msgstr "ඔව් (~Y)"
-
-#: btntext.src#SV_BUTTONTEXT_NO.string.text
-#: btntext.src%23SV_BUTTONTEXT_NO.string.text
-msgid "~No"
-msgstr "නැත (~N)"
-
-#: btntext.src#SV_BUTTONTEXT_RETRY.string.text
-#: btntext.src%23SV_BUTTONTEXT_RETRY.string.text
-msgid "~Retry"
-msgstr "යළි උත්සාහ කරන්න (~R)"
-
-#: btntext.src#SV_BUTTONTEXT_HELP.string.text
-#: btntext.src%23SV_BUTTONTEXT_HELP.string.text
-msgid "~Help"
-msgstr "උදව් (~H)"
-
-#: btntext.src#SV_BUTTONTEXT_MORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_MORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_LESS.string.text
-#, fuzzy
-msgid "~More"
-msgstr "තවත් (~M)"
-
-#: btntext.src#SV_BUTTONTEXT_LESS.string.text
-msgid "~Less"
-msgstr ""
-
-#: btntext.src#SV_BUTTONTEXT_IGNORE.string.text
-#: btntext.src%23SV_BUTTONTEXT_IGNORE.string.text
-msgid "~Ignore"
-msgstr "නොසලකා හරින්න (~I)"
-
-#: btntext.src#SV_BUTTONTEXT_ABORT.string.text
-#: btntext.src%23SV_BUTTONTEXT_ABORT.string.text
-msgid "~Abort"
-msgstr "නවත්තන්න (~A)"
-
 #: units.src#SV_FUNIT_STRINGS.1.itemlist.text
 #: units.src%23SV_FUNIT_STRINGS.1.itemlist.text
 msgid "mm"
@@ -711,235 +879,67 @@ msgstr "සැතපුම"
 msgid "%"
 msgstr "%"
 
-#: helptext.src#SV_HELPTEXT_CLOSE.string.text
-#: helptext.src%23SV_HELPTEXT_CLOSE.string.text
-msgid "Close"
-msgstr "වසන්න"
+#: menu.src#SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
+#: menu.src%23SV_RESID_STRING_NOSELECTIONPOSSIBLE.string.text
+msgid "<No selection possible>"
+msgstr "<කළ හැකි තේරීමක් නොමැත>"
 
-#: helptext.src#SV_HELPTEXT_CLOSEDOCUMENT.string.text
-#: helptext.src%23SV_HELPTEXT_CLOSEDOCUMENT.string.text
-msgid "Close Document"
-msgstr "ලේඛනය වහන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_UNDO.menuitem.text
+msgid "~Undo"
+msgstr "අහෝසි කරන්න (~U)"
 
-#: helptext.src#SV_HELPTEXT_MINIMIZE.string.text
-#: helptext.src%23SV_HELPTEXT_MINIMIZE.string.text
-msgid "Minimize"
-msgstr "හකුලන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_CUT.menuitem.text
+msgid "Cu~t"
+msgstr "කපන්න (~t)"
 
-#: helptext.src#SV_HELPTEXT_MAXIMIZE.string.text
-#: helptext.src%23SV_HELPTEXT_MAXIMIZE.string.text
-msgid "Maximize"
-msgstr "විහිදන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_COPY.menuitem.text
+msgid "~Copy"
+msgstr "පිටපත් කරන්න (~C)"
 
-#: helptext.src#SV_HELPTEXT_RESTORE.string.text
-#: helptext.src%23SV_HELPTEXT_RESTORE.string.text
-msgid "Restore"
-msgstr "පිළිනගන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_PASTE.menuitem.text
+msgid "~Paste"
+msgstr "අලවන්න (~P)"
 
-#: helptext.src#SV_HELPTEXT_ROLLDOWN.string.text
-#: helptext.src%23SV_HELPTEXT_ROLLDOWN.string.text
-msgid "Drop down"
-msgstr "පහළට හෙළන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_DELETE.menuitem.text
+msgid "~Delete"
+msgstr "මකන්න (~D)"
 
-#: helptext.src#SV_HELPTEXT_ROLLUP.string.text
-#: helptext.src%23SV_HELPTEXT_ROLLUP.string.text
-msgid "Roll up"
-msgstr "ඉහළට අකුළන්න"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_SELECTALL.menuitem.text
+msgid "Select ~All"
+msgstr "සියල්ල තෝරන්න (~A)"
 
-#: helptext.src#SV_HELPTEXT_HELP.string.text
-#: helptext.src%23SV_HELPTEXT_HELP.string.text
-msgctxt "helptext.src#SV_HELPTEXT_HELP.string.text"
-msgid "Help"
-msgstr "උදව්"
+#: menu.src#SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
+#: menu.src%23SV_RESID_MENU_EDIT.SV_MENU_EDIT_INSERTSYMBOL.menuitem.text
+msgid "~Special Character..."
+msgstr "විශේෂ අනු ලකුණ... (~S)"
 
-#: helptext.src#SV_HELPTEXT_ALWAYSVISIBLE.string.text
-#: helptext.src%23SV_HELPTEXT_ALWAYSVISIBLE.string.text
-msgid "Always visible"
-msgstr "සැමවිටම දෘශ්‍යයි"
+#: menu.src#SV_MENU_MAC_SERVICES.string.text
+#: menu.src%23SV_MENU_MAC_SERVICES.string.text
+msgid "Services"
+msgstr "සේවා"
 
-#: helptext.src#SV_HELPTEXT_FADEIN.string.text
-#: helptext.src%23SV_HELPTEXT_FADEIN.string.text
-msgid "Show"
-msgstr "පෙන්වන්න"
+#: menu.src#SV_MENU_MAC_HIDEAPP.string.text
+#: menu.src%23SV_MENU_MAC_HIDEAPP.string.text
+msgid "Hide %PRODUCTNAME"
+msgstr "%PRODUCTNAME සඟවන්න"
 
-#: helptext.src#SV_HELPTEXT_FADEOUT.string.text
-#: helptext.src%23SV_HELPTEXT_FADEOUT.string.text
-msgid "Hide"
-msgstr "සඟවන්න"
+#: menu.src#SV_MENU_MAC_HIDEALL.string.text
+#: menu.src%23SV_MENU_MAC_HIDEALL.string.text
+msgid "Hide Others"
+msgstr "අන්‍යයෝ සඟවන්න"
 
-#: helptext.src#SV_HELPTEXT_SPLITFLOATING.string.text
-#: helptext.src%23SV_HELPTEXT_SPLITFLOATING.string.text
-msgid "Floating"
-msgstr "චල"
+#: menu.src#SV_MENU_MAC_SHOWALL.string.text
+#: menu.src%23SV_MENU_MAC_SHOWALL.string.text
+msgid "Show All"
+msgstr "සියල්ල පෙන්වන්න"
 
-#: helptext.src#SV_HELPTEXT_SPLITFIXED.string.text
-#: helptext.src%23SV_HELPTEXT_SPLITFIXED.string.text
-msgid "Stick"
-msgstr "අලවා තබන්න"
-
-#: helptext.src#SV_SHORTCUT_HELP.string.text
-#: helptext.src%23SV_SHORTCUT_HELP.string.text
-msgctxt "helptext.src#SV_SHORTCUT_HELP.string.text"
-msgid "Help"
-msgstr "උදව්"
-
-#: helptext.src#SV_SHORTCUT_CONTEXTHELP.string.text
-#: helptext.src%23SV_SHORTCUT_CONTEXTHELP.string.text
-msgid "Context Help"
-msgstr "සන්දර්භ උදව්"
-
-#: helptext.src#SV_SHORTCUT_ACTIVEHELP.string.text
-#: helptext.src%23SV_SHORTCUT_ACTIVEHELP.string.text
-msgid "Extended Tips"
-msgstr "විස්තීරණ ඉඟි"
-
-#: helptext.src#SV_SHORTCUT_DOCKUNDOCK.string.text
-#: helptext.src%23SV_SHORTCUT_DOCKUNDOCK.string.text
-msgid "Dock/Undock Windows"
-msgstr "කවුළු හිර කරන්න / හිර නොකරන්න"
-
-#: helptext.src#SV_SHORTCUT_NEXTSUBWINDOW.string.text
-#: helptext.src%23SV_SHORTCUT_NEXTSUBWINDOW.string.text
-msgid "To Next Toolbar/Window"
-msgstr "ඊළඟ මෙවලම් තීරුවට/කවුළුවට"
-
-#: helptext.src#SV_SHORTCUT_PREVSUBWINDOW.string.text
-#: helptext.src%23SV_SHORTCUT_PREVSUBWINDOW.string.text
-msgid "To Previous Toolbar/Window"
-msgstr "පෙර මෙවලම් තීරුවට/කවුළුවට"
-
-#: helptext.src#SV_SHORTCUT_TODOCUMENT.string.text
-#: helptext.src%23SV_SHORTCUT_TODOCUMENT.string.text
-msgid "To Document"
-msgstr "ලේඛනය වෙත"
-
-#: helptext.src#SV_SHORTCUT_MENUBAR.string.text
-#: helptext.src%23SV_SHORTCUT_MENUBAR.string.text
-msgid "To Menu Bar"
-msgstr "මෙනු තීරුවට"
-
-#: helptext.src#SV_SHORTCUT_SPLITTER.string.text
-#: helptext.src%23SV_SHORTCUT_SPLITTER.string.text
-msgid "Split window separator"
-msgstr "කවුළු විභේදකය විභේදනය කරන්න"
-
-#: stdtext.src#SV_STDTEXT_SERVICENOTAVAILABLE.string.text
-#: stdtext.src%23SV_STDTEXT_SERVICENOTAVAILABLE.string.text
-msgid ""
-"The component (%s) could not be loaded.\n"
-"Please start setup with the repair option."
-msgstr ""
-"(%s) සංරචකය ප්‍රවේශ කිරීමට නොහැකි විය.\n"
-"කරුණාකර අලුත්වැඩියා කිරීමේ අභිරුචිය සහිතව සිටුවීම නැවත ආරම්භ කරන්න."
-
-#: stdtext.src#SV_STDTEXT_DONTHINTAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTHINTAGAIN.string.text
-msgid "Do not show this information again."
-msgstr "නැවත මෙම තොරතුරු පෙන්වන්න එපා."
-
-#: stdtext.src#SV_STDTEXT_DONTASKAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTASKAGAIN.string.text
-msgid "Do not show this question again."
-msgstr "නැවත මෙම ප්‍රශ්නය පෙන්වන්න එපා."
-
-#: stdtext.src#SV_STDTEXT_DONTWARNAGAIN.string.text
-#: stdtext.src%23SV_STDTEXT_DONTWARNAGAIN.string.text
-#, fuzzy
-msgid "Do not show this warning again."
-msgstr "නැවත අනතුරු හැඟවීම පෙන්වන්න එපා."
-
-#: stdtext.src#SV_ACCESSERROR_WRONG_VERSION.string.text
-#: stdtext.src%23SV_ACCESSERROR_WRONG_VERSION.string.text
-msgid "Wrong Version"
-msgstr "වැරදි වෙළුම"
-
-#: stdtext.src#SV_ACCESSERROR_BRIDGE_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_BRIDGE_MSG.string.text
-msgid ""
-"%PRODUCTNAME %PRODUCTVERSION requires a Java Access Bridge 1.0.3 or later "
-"version to support accessibility."
-msgstr ""
-"පිවිසීමට සහය දැක්වීම සඳහා %PRODUCTNAME %PRODUCTVERSION ට ජාවා පිවිසුම් පාලම "
-"1.0.3 හෝ ඊට පසු වෙළුමක් අවශ්‍ය වේ."
-
-#: stdtext.src#SV_ACCESSERROR_OK_CANCEL_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_OK_CANCEL_MSG.string.text
-msgid ""
-"Click '%OK' to start %PRODUCTNAME %PRODUCTVERSION without accessibility "
-"support, or click '%CANCEL' to exit %PRODUCTNAME %PRODUCTVERSION."
-msgstr ""
-"පිවිසුම් සහාය නොමැතිව %PRODUCTNAME %PRODUCTVERSION ආරම්භ කිරීම සඳහා '%OK' "
-"ක්ලික් කරන්න, නැත්නම් %PRODUCTNAME %PRODUCTVERSION ගෙන් ඉවත්වීම සඳහා '%"
-"CANCEL' ක්ලික් කරන්න."
-
-#: stdtext.src#SV_ACCESSERROR_MISSING_BRIDGE.string.text
-#: stdtext.src%23SV_ACCESSERROR_MISSING_BRIDGE.string.text
-msgid "No Java Access Bridge"
-msgstr "ජාවා පිවිසුම් පාලමක් නොමැත"
-
-#: stdtext.src#SV_ACCESSERROR_FAULTY_JAVA.string.text
-#: stdtext.src%23SV_ACCESSERROR_FAULTY_JAVA.string.text
-msgid "Faulty Java Installation"
-msgstr "දෝෂ සහිත ජාවා ස්ථාපනයක්"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_MSG.string.text
-msgid ""
-"%PRODUCTNAME %PRODUCTVERSION requires Java 1.4.0_02 or later version to "
-"support accessibility."
-msgstr ""
-"පිවිසීමට සහය දැක්වීම සඳහා %PRODUCTNAME %PRODUCTVERSION ට ජාවා 1.4.0_02 හෝ ඊට "
-"පසු වෙළුමක් අවශ්‍ය වේ."
-
-#: stdtext.src#SV_ACCESSERROR_MISSING_JAVA.string.text
-#: stdtext.src%23SV_ACCESSERROR_MISSING_JAVA.string.text
-msgid "No Java Installation"
-msgstr "ජාවා ස්ථාපනයක් නොමැත"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_NOT_CONFIGURED.string.text
-msgid "Missing Java Configuration"
-msgstr "ජාවා සකසාවින්‍යසගත කිරීමක් නැත"
-
-#: stdtext.src#SV_ACCESSERROR_JAVA_DISABLED.string.text
-#: stdtext.src%23SV_ACCESSERROR_JAVA_DISABLED.string.text
-msgid "Java Disabled"
-msgstr "ජාවා අක්‍රිය කර ඇත"
-
-#: stdtext.src#SV_ACCESSERROR_TURNAROUND_MSG.string.text
-#: stdtext.src%23SV_ACCESSERROR_TURNAROUND_MSG.string.text
-msgid "The Java Access Bridge could not be started."
-msgstr "ජාවා පිවිසුම් පාලම ආරම්භ කිරීමට නොහැකි විය."
-
-#: stdtext.src#SV_ACCESSERROR_NO_FONTS.string.text
-#: stdtext.src%23SV_ACCESSERROR_NO_FONTS.string.text
-msgid "No fonts could be found on the system."
-msgstr ""
-
-#: stdtext.src#SV_STDTEXT_ABOUT.string.text
-#: stdtext.src%23SV_STDTEXT_ABOUT.string.text
-msgid "About %PRODUCTNAME"
-msgstr "%PRODUCTNAME පිළිබඳ"
-
-#: stdtext.src#SV_STDTEXT_PREFERENCES.string.text
-#: stdtext.src%23SV_STDTEXT_PREFERENCES.string.text
-msgid "Preferences..."
-msgstr "අභිප්‍රේත..."
-
-#: stdtext.src#SV_EDIT_WARNING_BOX.warningbox.text
-#: stdtext.src%23SV_EDIT_WARNING_BOX.warningbox.text
-msgid ""
-"The inserted text exceeded the maximum length of this text field. The text "
-"was truncated."
-msgstr ""
-"ඇතුල් කරන ලද පෙළ මෙම පෙළ ක්ෂේත්‍රයේ උපරිම දිග ඉක්මවා ඇත. පෙළ ලොප් කරනු ලැබීය."
-
-#: stdtext.src#SV_MAC_SCREENNNAME.string.text
-#: stdtext.src%23SV_MAC_SCREENNNAME.string.text
-msgid "Screen %d"
-msgstr "%d තිරය"
-
-#: stdtext.src#SV_STDTEXT_ALLFILETYPES.string.text
-#: stdtext.src%23SV_STDTEXT_ALLFILETYPES.string.text
-msgid "Any type"
-msgstr "ඕනෑම ආකාරයකට"
+#: menu.src#SV_MENU_MAC_QUITAPP.string.text
+#: menu.src%23SV_MENU_MAC_QUITAPP.string.text
+msgid "Quit %PRODUCTNAME"
+msgstr "%PRODUCTNAME ගෙන් ඉවත් වෙන්න"
