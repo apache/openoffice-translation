@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+desktop%2Fsource%2Fapp.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2021-04-11 17:15+0000\n"
+"PO-Revision-Date: 2021-05-24 17:37+0000\n"
 "Last-Translator: Sam Belet <sambelet@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: am\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1618161305.000000\n"
+"X-POOTLE-MTIME: 1621877831.000000\n"
 
 #: desktop.src#STR_RECOVER_QUERY.string.text
 #: desktop.src%23STR_RECOVER_QUERY.string.text
@@ -111,31 +111,31 @@ msgstr ""
 #: desktop.src%23STR_CONFIG_ERR_SETTINGS_INCOMPLETE.string.text
 msgid ""
 "The startup settings for accessing the central configuration are incomplete. "
-msgstr ""
+msgstr "የ ማስጀመሪያ ማሰናጃው ማእከላዊ ማዋቀሪያው ጋር ለ መድረስ የተሟላ አይደለም: "
 
 #: desktop.src#STR_CONFIG_ERR_CANNOT_CONNECT.string.text
 #: desktop.src%23STR_CONFIG_ERR_CANNOT_CONNECT.string.text
 msgid "A connection to the central configuration could not be established. "
-msgstr ""
+msgstr "ወደ ማእከላዊ ማዋቀሪያው ጋር ግንኙነት መፍጠር አልተቻለም:"
 
 #: desktop.src#STR_CONFIG_ERR_RIGHTS_MISSING.string.text
 #: desktop.src%23STR_CONFIG_ERR_RIGHTS_MISSING.string.text
 msgid ""
 "You cannot access the central configuration because of missing access "
 "rights. "
-msgstr ""
+msgstr "እርስዎ ማእከላዊ ማዋቀሪያው ጋር መድረስ አይችሉም: ምክንያቱም የተሟላ የ ፍቃድ መብት የሎትም: "
 
 #: desktop.src#STR_CONFIG_ERR_ACCESS_GENERAL.string.text
 #: desktop.src%23STR_CONFIG_ERR_ACCESS_GENERAL.string.text
 msgid "A general error occurred while accessing your central configuration. "
-msgstr ""
+msgstr "ባጠቃላይ ስህተት ተፈጥሯል ማእከላዊ ማዋቀሪያው ጋር ለ መድረስ ሲሞከር: "
 
 #: desktop.src#STR_CONFIG_ERR_NO_WRITE_ACCESS.string.text
 #: desktop.src%23STR_CONFIG_ERR_NO_WRITE_ACCESS.string.text
 msgid ""
 "The changes to your personal settings cannot be stored centrally because of "
 "missing access rights. "
-msgstr ""
+msgstr "በ እርስዎ የ ግል ማሰናጃ ላይ የፈጸሙዋቸው ለውጦች አይቀመጡም ምክንያቱም በቂ የሆነ የ ፍቃድ መብት አልተገኘም:"
 
 #: desktop.src#STR_BOOTSTRAP_ERR_CFG_DATAACCESS.string.text
 #: desktop.src%23STR_BOOTSTRAP_ERR_CFG_DATAACCESS.string.text
@@ -162,6 +162,13 @@ msgid ""
 "\n"
 "Do you really want to continue?"
 msgstr ""
+"የ እርስዎን የ ግል ማሰናጃ %PRODUCTNAME ሌላ ሁኔታ እየተጠቀመበት ነው ወይንም የ እርስዎ የ ግል ማሰናጃ "
+"ተቆልፏል:\n"
+"በአንድ ጊዜ በሁለት ሁኔታ የ እርስዎን የ ግል ማሰናጃ ለ መድረስ ሲሞከር ያለ መረጋጋት ይፈጥራል በ እርስዎ የ ግል "
+"ማሰናጃ ላይ: ስለዚህ እርግጠኛ ይሁኑ ከ መቀጠልዎ በፊት ማንኛውም ተጠቃሚዎች በሙሉ '$u' መዝጋታቸውን %"
+"PRODUCTNAME on host '$h'.\n"
+"\n"
+"በእርግጥ መቀጠል ይፈልጋሉ?"
 
 #: desktop.src#STR_TITLE_USERDATALOCKED.string.text
 #: desktop.src%23STR_TITLE_USERDATALOCKED.string.text
@@ -172,7 +179,7 @@ msgstr "%PRODUCTNAME %PRODUCTVERSION"
 #: desktop.src#EBX_ERR_PRINTDISABLED.errorbox.text
 #: desktop.src%23EBX_ERR_PRINTDISABLED.errorbox.text
 msgid "Printing is disabled. No documents can be printed."
-msgstr ""
+msgstr "ማተሚያው ተሰናክሏል: ምንም ሰነድ ማተም አይቻልም:"
 
 #: desktop.src#INFOBOX_EXPIRED.infobox.text
 #: desktop.src%23INFOBOX_EXPIRED.infobox.text
@@ -190,7 +197,7 @@ msgstr "%PRODUCTNAME %PRODUCTVERSION"
 #: desktop.src#STR_BOOTSTRAP_ERR_NO_PATHSET_SERVICE.string.text
 #: desktop.src%23STR_BOOTSTRAP_ERR_NO_PATHSET_SERVICE.string.text
 msgid "The path manager is not available.\n"
-msgstr ""
+msgstr "የ መንገድ አስተዳዳሪ አልተገኘም:\n"
 
 #: desktop.src#STR_BOOSTRAP_ERR_NOTENOUGHDISKSPACE.string.text
 #: desktop.src%23STR_BOOSTRAP_ERR_NOTENOUGHDISKSPACE.string.text
@@ -200,6 +207,9 @@ msgid ""
 "restart %PRODUCTNAME:\n"
 "\n"
 msgstr ""
+"%PRODUCTNAME የ ተጠቃሚ መግጠሚያ መፈጸም አልተቻለም: በቂ የሆነ ባዶ ቦታ በ ዲስኩ ላይ የለም: እባክዎን ተጨማሪ "
+"የ ዲስክ ባዶ ቦታ ነፃ ያድርጉ: ከሚከተለው ቦታ እና እንደገና ይጀምሩ %PRODUCTNAME:\n"
+"\n"
 
 #: desktop.src#STR_BOOSTRAP_ERR_NOACCESSRIGHTS.string.text
 #: desktop.src%23STR_BOOSTRAP_ERR_NOACCESSRIGHTS.string.text
@@ -209,3 +219,6 @@ msgid ""
 "following location and restart %PRODUCTNAME:\n"
 "\n"
 msgstr ""
+"%PRODUCTNAME የ ተጠቃሚ መግጠሚያ ማስኬድ አልተቻለም: በቂ የሆነ የ ፍቃድ መብት ስለሚጎድል: እባክዎን እርግጠኛ "
+"ይሁኑ በቂ የሆነ የ ፍቃድ መብት እንዳለዎት ለሚከተለው ቦታ እና እንደገና ይጀምሩ %PRODUCTNAME:\n"
+"\n"
