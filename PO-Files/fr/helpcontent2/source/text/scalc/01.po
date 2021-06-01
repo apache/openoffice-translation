@@ -6,8 +6,8 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2021-05-20 21:49+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2021-05-31 14:19+0000\n"
+"Last-Translator: Bidouille <bidouille@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1621547378.000000\n"
+"X-POOTLE-MTIME: 1622470786.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -28532,7 +28532,7 @@ msgstr ""
 #: 12010000.xhp#hd_id3150010.12.help.text
 msgctxt "12010000.xhp#hd_id3150010.12.help.text"
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: 12010000.xhp#par_id3153144.13.help.text
 #: 12010000.xhp%23par_id3153144.13.help.text
@@ -31074,7 +31074,7 @@ msgstr "Exemple"
 
 #: 04060184.xhp#par_id3153122.33.help.text
 msgid "<item type=\"input\">=AVEDEV(A1:A50)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=ECART.MOYEN(A1:A50)</item>"
 
 #: 04060184.xhp#bm_id3145824.help.text
 #: 04060184.xhp%23bm_id3145824.help.text
@@ -31317,6 +31317,9 @@ msgid ""
 "<item type=\"input\">=AVERAGEIFS(A1:A50;B1:B25;\">\"0)</item> will return "
 "the average of A1:A50 if all cells in the range B1 to B25 are greater than 0."
 msgstr ""
+"<item type=\"input\">=MOYENNE.SI.ENS(A1:A50;B1:B25;\">\"0)</item> retournera "
+"la moyenne de A1:A50 si toutes les cellules de la plage B1 à B25 sont plus "
+"grands que 0."
 
 #: 04060184.xhp#bm_id3153933.help.text
 #: 04060184.xhp%23bm_id3153933.help.text
@@ -34967,7 +34970,7 @@ msgstr "Fin"
 
 #: 02110000.xhp#hd_id3150107.20.help.text
 msgid "Content View"
-msgstr ""
+msgstr "Affichage du contenu"
 
 #: 02110000.xhp#par_id3159098.22.help.text
 msgid ""
@@ -34975,6 +34978,10 @@ msgid ""
 "selected Navigator element and its subelements are displayed.</ahelp> Click "
 "the icon again to restore all elements for viewing."
 msgstr ""
+"<ahelp hid=\"HID_SC_NAVIPI_ROOT\">Affiche ou masque le contenu. Seul "
+"l'élément sélectionné par le biais du Navigateur et ses sous-éléments sont "
+"affichés.</ahelp> Cliquez de nouveau sur l'icône pour restaurer l'affichage "
+"de tous les éléments."
 
 #: 02110000.xhp#par_id3152869.help.text
 msgid ""
@@ -34986,7 +34993,7 @@ msgstr ""
 
 #: 02110000.xhp#par_id3159229.21.help.text
 msgid "Switch Content View"
-msgstr ""
+msgstr "Basculer l'affichage du contenu"
 
 #: 02110000.xhp#hd_id3149381.11.help.text
 #: 02110000.xhp%23hd_id3149381.11.help.text
@@ -36919,7 +36926,7 @@ msgstr ""
 #: 12070100.xhp#hd_id3163708.10.help.text
 msgctxt "12070100.xhp#hd_id3163708.10.help.text"
 msgid "Less"
-msgstr ""
+msgstr "Moins"
 
 #: 12070100.xhp#par_id3151118.11.help.text
 #: 12070100.xhp%23par_id3151118.11.help.text
@@ -44946,7 +44953,7 @@ msgstr ""
 #: 12010100.xhp#hd_id3146976.13.help.text
 msgctxt "12010100.xhp#hd_id3146976.13.help.text"
 msgid "Less"
-msgstr ""
+msgstr "Moins"
 
 #: 12010100.xhp#par_id3149664.14.help.text
 #: 12010100.xhp%23par_id3149664.14.help.text
@@ -46563,6 +46570,9 @@ msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> "
 "returns 'file:///X:/dr/test.ods'#$Sheet1.$D$2."
 msgstr ""
+"<item type=\"input\">=CELLULE(\"ADRESSE\";'X:\\rep\\"
+"test.ods'#$Feuille1.D2)</item> renvoie "
+"'file:///X:/rep/test.ods'#$Feuille1.$D$2. "
 
 #: 04060104.xhp#par_id3146811.178.help.text
 #: 04060104.xhp%23par_id3146811.178.help.text
@@ -46581,12 +46591,17 @@ msgid ""
 "'file:///X:/dr/own.ods'#$Sheet1, if the formula in the current document X:\\"
 "dr\\own.ods is located in Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";D2)</item> renvoie "
+"'file:///X:/rep/moi.ods'#$Sheet1, si la formule dans le document actif X:\\"
+"rep\\moi.ods est située en Feuille1."
 
 #: 04060104.xhp#par_id3155144.181.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item>"
 " returns 'file:///X:/dr/test.ods'#$Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";'X:\\rep\\"
+"test.ods'#$Feuille1.D2)</item> renvoie 'file:///X:/rep/test.ods'#$Feuille1. "
 
 #: 04060104.xhp#par_id3151381.182.help.text
 #: 04060104.xhp%23par_id3151381.182.help.text
