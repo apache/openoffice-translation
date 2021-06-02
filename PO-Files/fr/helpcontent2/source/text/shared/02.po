@@ -6,8 +6,8 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F02.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2021-05-20 21:52+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2021-06-01 12:28+0000\n"
+"Last-Translator: Bidouille <bidouille@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1621547569.000000\n"
+"X-POOTLE-MTIME: 1622550509.000000\n"
 
 #: 07010000.xhp#tit.help.text
 #: 07010000.xhp%23tit.help.text
@@ -2656,6 +2656,8 @@ msgid ""
 "The <emph>Events</emph> tab page, allows you to assign a macro to certain "
 "events which occur in a form."
 msgstr ""
+"L'onglet <emph>Événements</emph> vous permet d'assigner une macro à certains "
+"événements se produisant dans un formulaire."
 
 #: 01170202.xhp#par_id3159233.3.help.text
 msgid ""
@@ -2665,6 +2667,12 @@ msgid ""
 "corresponding event. The <emph>Assign Macro</emph> dialog opens, where you "
 "can select the macro."
 msgstr ""
+"Pour lier un événement à une macro, écrivez d'abord une macro contenant "
+"toutes les commandes devant être déclenchées par l'événement. Assignez "
+"ensuite cette macro à l'événement correspondant en cliquant sur le bouton "
+"<emph>...</emph> situé en regard de cet événement. La boîte de dialogue "
+"<emph>Assignation de macro</emph> s'ouvre. Vous pouvez y sélectionner la "
+"macro."
 
 #: 01170202.xhp#par_id3149182.29.help.text
 #: 01170202.xhp%23par_id3149182.29.help.text
@@ -2966,6 +2974,10 @@ msgid ""
 "event occurs before the current record pointer is changed.</ahelp> For "
 "example, the linked macro can prevent this action by returning \"FALSE\"."
 msgstr ""
+"<ahelp hid=\"HID_EVT_POSITIONING\">L'événement <emph>Avant le changement "
+"d'enregistrement</emph> se produit avant la modification du pointeur de "
+"l'enregistrement actif.</ahelp> Par exemple, la macro liée peut empêcher "
+"cette action en renvoyant la valeur FALSE."
 
 #: 01170202.xhp#hd_id3157975.49.help.text
 #: 01170202.xhp%23hd_id3157975.49.help.text
@@ -2977,6 +2989,9 @@ msgid ""
 "<ahelp hid=\"HID_EVT_POSITIONED\">The<emph> After record change </emph>event "
 "occurs directly after the current record pointer has been changed.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_EVT_POSITIONED\">L'événement <emph>Après le changement "
+"d'enregistrement</emph> se produit directement après la modification du "
+"pointeur de l'enregistrement actif.</ahelp>"
 
 #: 01170202.xhp#hd_id3151076.50.help.text
 #: 01170202.xhp%23hd_id3151076.50.help.text
@@ -2990,6 +3005,10 @@ msgid ""
 "out.</ahelp> For example, the data source of the form can be the following "
 "SQL command:"
 msgstr ""
+"<ahelp hid=\"HID_EVT_APPROVEPARAMETER\">L'événement <emph>Remplir les "
+"paramètres</emph> se produit lorsque le formulaire à charger contient des "
+"paramètres devant être remplis.</ahelp> Par exemple, la source de données du "
+"formulaire peut être la commande SQL suivante :"
 
 #: 01170202.xhp#par_id3148773.63.help.text
 #: 01170202.xhp%23par_id3148773.63.help.text
@@ -5858,6 +5877,11 @@ msgid ""
 "tables, you can search through data fields, list boxes, and check boxes for "
 "specific values.</variable>"
 msgstr ""
+"<variable id=\"suchentext\"><ahelp hid=\".uno:RecSearch\" visibility=\""
+"hidden\">Effectue des recherches dans les tables de base de données et dans "
+"les formulaires. </ahelp>Vous pouvez rechercher des valeurs spécifiques dans "
+"les champs de données, zones de liste et cases à cocher de formulaires ou de "
+"tables de base de données. </variable>"
 
 #: 12100200.xhp#par_id3149355.3.help.text
 #: 12100200.xhp%23par_id3149355.3.help.text
@@ -12861,6 +12885,9 @@ msgid ""
 "<emph>Drawing</emph> bar, where you can add shapes, lines, text, and "
 "callouts to the current document.</ahelp>"
 msgstr ""
+"<ahelp hid=\".uno:InsertDraw\">Cliquez ici pour ouvrir ou fermer la barre "
+"<emph>Dessin</emph> dans laquelle vous pouvez ajouter des formes, des "
+"lignes, du texte et des légendes au document actif.</ahelp>"
 
 #: 01140000.xhp#par_idN10849.help.text
 #: 01140000.xhp%23par_idN10849.help.text
@@ -13107,6 +13134,15 @@ msgid ""
 "click the starting point of the curve.</ahelp> The arc of the curve is "
 "determined by the distance you drag. </variable>"
 msgstr ""
+"<variable id=\"kurvetext\"><ahelp hid=\".uno:Bezier_Unfilled\">Trace une "
+"courbe de Bézier lisse. Cliquez à l'endroit où vous voulez faire commencer "
+"la courbe, faites glisser le curseur, relâchez, puis amenez le pointeur à "
+"l'endroit où vous voulez que la courbe s'arrête et cliquez avec le bouton "
+"gauche de la souris. Déplacez le curseur et cliquez de nouveau pour ajouter "
+"un segment de ligne droite à la courbe. Double-cliquez pour finir la courbe. "
+"Pour créer une forme fermée, double-cliquez sur le point de départ de la "
+"courbe.</ahelp> L'arc de la courbe est déterminé par la distance sur "
+"laquelle vous faites glisser le curseur. </variable>"
 
 #: 01140000.xhp#hd_id3148587.60.help.text
 #: 01140000.xhp%23hd_id3148587.60.help.text
@@ -13453,6 +13489,8 @@ msgid ""
 "<link href=\"text/shared/guide/insert_graphic_drawit.xhp\" name=\"Tips\">"
 "Tips for working with the <emph>Drawing</emph> bar.</link>"
 msgstr ""
+"<link href=\"text/shared/guide/insert_graphic_drawit.xhp\" name=\"Conseils\">"
+"Conseils d'utilisation de la barre<emph>Dessin</emph>.</link>"
 
 #: 09010000.xhp#tit.help.text
 #: 09010000.xhp%23tit.help.text
@@ -16207,6 +16245,11 @@ msgid ""
 "while the control has the focus. A button in the \"selected\" state appears "
 "\"pressed in\".</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Spécifie si un bouton se comporte comme un bouton à "
+"bascule. Si vous paramétrez Basculer à \"Oui\", vous pouvez passer de l'état "
+"de contrôle \"sélectionné\" et \"non sélectionné\" lorsque vous cliquez sur "
+"le bouton ou appuyez sur la barre d'espace alors que le contrôle a le focus. "
+"Un bouton dans l'état \"sélectionné\" apparaît \"enfoncé\".</ahelp> "
 
 #: 01170101.xhp#par_idN11558.help.text
 #: 01170101.xhp%23par_idN11558.help.text
