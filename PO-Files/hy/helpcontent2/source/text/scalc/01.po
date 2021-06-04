@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2021-06-02 11:37+0000\n"
+"PO-Revision-Date: 2021-06-03 11:28+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1622633849.000000\n"
+"X-POOTLE-MTIME: 1622719709.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -31009,6 +31009,11 @@ msgid ""
 "reference A and applying the dimensions, shape and size, of reference R. "
 "Does not accept constant values as reference parameters."
 msgstr ""
+" Եթե A հղումը բաց է թողնվում, միջինացված է R չափանիշի բջիջների արժեքները, "
+"որոնք համապատասխանում են C չափանիշին: Եթե տրված է A հղումը, միջինացված է մի "
+"միջակայքի բջիջների արժեքները, որոնք կառուցված են A հղման վերին ձախ բջիջի "
+"միջոցով և R հղման համար կիրառելով չափերը, ձևը և չափը։ Չի ընդունում հաստատուն "
+"արժեքները որպես հղման պարամետրեր:"
 
 #: 04060184.xhp#par_id3145139K1.help.text
 #: 04060184.xhp%23par_id3145139K1.help.text
@@ -31031,6 +31036,8 @@ msgid ""
 "<item type=\"input\">=AVERAGEIF(A1:A50;\">\"0)</item> will return the "
 "average of A1:A50 of all positive values in the range."
 msgstr ""
+"<item type=\"input\">=AVERAGEIF(A1:A50;\">\"0)</item> կվերադարձնի A1:A50 "
+"միջինը միջակայքում գտնվող բոլոր դրական արժեքների համար:"
 
 #: 04060184.xhp#bm_id3148754K2.help.text
 #: 04060184.xhp%23bm_id3148754K2.help.text
@@ -31104,6 +31111,8 @@ msgid ""
 "<item type=\"input\">=AVERAGEIFS(A1:A50;B1:B25;\">\"0)</item> will return "
 "the average of A1:A50 if all cells in the range B1 to B25 are greater than 0."
 msgstr ""
+"<item type=\"input\">=AVERAGEIFS(A1:A50;B1:B25;\">\"0)</item> կվերադարձնի A1:"
+"A50 միջինը, եթե B1- ից B25 տիրույթի բոլոր բջիջները 0-ից մեծ են:"
 
 #: 04060184.xhp#bm_id3153933.help.text
 #: 04060184.xhp%23bm_id3153933.help.text
@@ -31291,6 +31300,9 @@ msgid ""
 "egg weighs 63 grams with a standard deviation of 5, then there will be 90% "
 "probability that the egg will not be heavier than 69.41 grams."
 msgstr ""
+"<item type=\"input\">=NORMINV(0.9;63;5)</item> rվերադարձնում է 69.41: Եթե "
+"միջին ձվի քաշը 63 գրամ է՝ 5 ստանդարտ շեղումով, ապա 90% հավանականություն "
+"կլինի, որ ձուն 69,41 գրամից ծանր չի լինի:"
 
 #: 04060184.xhp#bm_id3153722.help.text
 #: 04060184.xhp%23bm_id3153722.help.text
@@ -32511,10 +32523,9 @@ msgstr ""
 
 #: 02170000.xhp#tit.help.text
 #: 02170000.xhp%23tit.help.text
-#, fuzzy
 msgctxt "02170000.xhp#tit.help.text"
 msgid "Delete Sheet"
-msgstr "Ջնջել թերթը"
+msgstr "Ջնջել թերթիկը"
 
 #: 02170000.xhp#bm_id3156424.help.text
 #: 02170000.xhp%23bm_id3156424.help.text
@@ -32532,7 +32543,7 @@ msgstr ""
 #: 02170000.xhp#hd_id3156424.1.help.text
 msgctxt "02170000.xhp#hd_id3156424.1.help.text"
 msgid "Delete Sheet"
-msgstr ""
+msgstr "Ջնջել թերթիկը"
 
 #: 02170000.xhp#par_id3153193.2.help.text
 #: 02170000.xhp%23par_id3153193.2.help.text
@@ -34642,6 +34653,8 @@ msgid ""
 "<image id=\"img_id3147338\" src=\"sc/res/imglst/navipi/na03.png\" width=\"0."
 "2228in\" height=\"0.2228in\"><alt id=\"alt_id3147338\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3147338\" src=\"sc/res/imglst/navipi/na03.png\" width=\"0."
+"2228in\" height=\"0.2228in\"><alt id=\"alt_id3147338\">Պատկերակ</alt></image>"
 
 #: 02110000.xhp#par_id3146919.9.help.text
 #: 02110000.xhp%23par_id3146919.9.help.text
@@ -34671,6 +34684,8 @@ msgid ""
 "<image id=\"img_id3150515\" src=\"sc/res/imglst/navipi/na05.png\" width=\"0."
 "2228in\" height=\"0.2228in\"><alt id=\"alt_id3150515\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3150515\" src=\"sc/res/imglst/navipi/na05.png\" width=\"0."
+"2228in\" height=\"0.2228in\"><alt id=\"alt_id3150515\">Պատկերակ</alt></image>"
 
 #: 02110000.xhp#par_id3154372.15.help.text
 #: 02110000.xhp%23par_id3154372.15.help.text
@@ -34700,6 +34715,8 @@ msgid ""
 "<image id=\"img_id3148871\" src=\"sc/res/imglst/navipi/na06.png\" width=\"0."
 "2228in\" height=\"0.2228in\"><alt id=\"alt_id3148871\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3148871\" src=\"sc/res/imglst/navipi/na06.png\" width=\"0."
+"2228in\" height=\"0.2228in\"><alt id=\"alt_id3148871\">Պատկերակ</alt></image>"
 
 #: 02110000.xhp#par_id3147072.18.help.text
 #: 02110000.xhp%23par_id3147072.18.help.text
@@ -34717,12 +34734,17 @@ msgid ""
 "selected Navigator element and its subelements are displayed.</ahelp> Click "
 "the icon again to restore all elements for viewing."
 msgstr ""
+"<ahelp hid=\"HID_SC_NAVIPI_ROOT\">Անցում է բովանդակության դիտմանը: "
+"Ցուցադրվում են միայն Նավարկիչի ընտրված տարրը և դրա ենթակետերը:</ahelp> Կրկին "
+"կտտացրեք պատկերակին՝ վերականգնելու համար բոլոր տարրերի դիտումը:"
 
 #: 02110000.xhp#par_id3152869.help.text
 msgid ""
 "<image id=\"img_id3149126\" src=\"sc/res/imglst/navipi/na010.png\" width=\"0."
 "2228in\" height=\"0.2228in\"><alt id=\"alt_id3149126\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3149126\" src=\"sc/res/imglst/navipi/na010.png\" width=\"0."
+"2228in\" height=\"0.2228in\"><alt id=\"alt_id3149126\">Պատկերակ</alt></image>"
 
 #: 02110000.xhp#par_id3159229.21.help.text
 msgid "Switch Content View"
@@ -34748,6 +34770,8 @@ msgid ""
 "<image id=\"img_id3154738\" src=\"sc/res/imglst/navipi/na011.png\" width=\"0."
 "2228in\" height=\"0.2228in\"><alt id=\"alt_id3154738\">Icon</alt></image>"
 msgstr ""
+"<image id=\"img_id3154738\" src=\"sc/res/imglst/navipi/na011.png\" width=\"0."
+"2228in\" height=\"0.2228in\"><alt id=\"alt_id3154738\">Պատկերակ</alt></image>"
 
 #: 02110000.xhp#par_id3150955.12.help.text
 #: 02110000.xhp%23par_id3150955.12.help.text
@@ -36632,7 +36656,7 @@ msgstr ""
 #: 12070100.xhp#hd_id3163708.10.help.text
 msgctxt "12070100.xhp#hd_id3163708.10.help.text"
 msgid "Less"
-msgstr ""
+msgstr "Քիչ"
 
 #: 12070100.xhp#par_id3151118.11.help.text
 #: 12070100.xhp%23par_id3151118.11.help.text
@@ -44554,7 +44578,7 @@ msgstr ""
 #: 12010100.xhp#hd_id3146976.13.help.text
 msgctxt "12010100.xhp#hd_id3146976.13.help.text"
 msgid "Less"
-msgstr ""
+msgstr "Քիչ"
 
 #: 12010100.xhp#par_id3149664.14.help.text
 #: 12010100.xhp%23par_id3149664.14.help.text
@@ -46161,6 +46185,8 @@ msgid ""
 "<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> "
 "returns 'file:///X:/dr/test.ods'#$Sheet1.$D$2."
 msgstr ""
+"<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> "
+"վերադարձնում է 'file:///X:/dr/test.ods'#$Sheet1.$D$2."
 
 #: 04060104.xhp#par_id3146811.178.help.text
 #: 04060104.xhp%23par_id3146811.178.help.text
@@ -46178,12 +46204,17 @@ msgid ""
 "'file:///X:/dr/own.ods'#$Sheet1, if the formula in the current document X:\\"
 "dr\\own.ods is located in Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";D2)</item> վերադարձնում է "
+"'file:///X:/dr/own.ods'#$Sheet1, եթե բանաձևը X:\\dr\\own.ods ընթացիկ "
+"փաստաթղթում տեղակայված է Sheet1-ում:"
 
 #: 04060104.xhp#par_id3155144.181.help.text
 msgid ""
 "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item>"
 " returns 'file:///X:/dr/test.ods'#$Sheet1."
 msgstr ""
+"<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item>"
+" վերադարձնում է 'file:///X:/dr/test.ods'#$Sheet1."
 
 #: 04060104.xhp#par_id3151381.182.help.text
 #: 04060104.xhp%23par_id3151381.182.help.text
