@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2021-08-11 18:38+0000\n"
+"PO-Revision-Date: 2021-08-12 20:33+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1628707110.000000\n"
+"X-POOTLE-MTIME: 1628800387.000000\n"
 
 #: 05250200.xhp#tit.help.text
 #: 05250200.xhp%23tit.help.text
@@ -15838,7 +15838,7 @@ msgstr ""
 #: 02100001.xhp#par_id3150670.35.help.text
 #: 02100001.xhp%23par_id3150670.35.help.text
 msgid "\\b"
-msgstr ""
+msgstr "\\b"
 
 #: 02100001.xhp#par_id3153666.36.help.text
 #: 02100001.xhp%23par_id3153666.36.help.text
@@ -15847,6 +15847,9 @@ msgid ""
 "checkbook\" whereas \"book\\b\" finds \"checkbook\" but not \"bookmark\". "
 "The discrete word \"book\" is found by both search terms."
 msgstr ""
+"Dopasuje granicę słowa. Na przykład, \"\\bpan\" znajdzie \"pantofel\", ale "
+"nie \"tulipan\", zaś \"pan\\b\" znajduje \"tulipan\" ale nie \"pantofel\". "
+"Samo słowo \"pan\" zostanie znalezione w obu przypadkach."
 
 #: 02100001.xhp#par_id3149576.37.help.text
 #: 02100001.xhp%23par_id3149576.37.help.text
@@ -16099,13 +16102,12 @@ msgstr "[:alpha:]"
 
 #: 02100001.xhp#par_id3147397.227.help.text
 #: 02100001.xhp%23par_id3147397.227.help.text
-#, fuzzy
 msgid ""
 "Represents an alphabetic character. Use [:alpha:]+ to find one or more of "
 "them."
 msgstr ""
-"Oznacza znak alfabetyczny. Aby znaleźć taki znak należy użyć wzorca "
-"[:alpha:]+"
+"Oznacza znak alfabetyczny. Aby znaleźć jeden lub więcej takich takich "
+"znaków, należy użyć wzorca [:alpha:]+"
 
 #: 02100001.xhp#par_id3152885.216.help.text
 #: 02100001.xhp%23par_id3152885.216.help.text
@@ -16114,10 +16116,10 @@ msgstr "[:digit:]"
 
 #: 02100001.xhp#par_id3150010.217.help.text
 #: 02100001.xhp%23par_id3150010.217.help.text
-#, fuzzy
 msgid "Represents a decimal digit. Use [:digit:]+ to find one or more of them."
 msgstr ""
-"Oznacza cyfrę dziesiętną. Aby znaleźć taki znak należy użyć wzorca [:digit:]+"
+"Oznacza cyfrę dziesiętną. Aby znaleźć jeden lub więcej takich takich znaków, "
+"należy użyć wzorca [:digit:]+"
 
 #: 02100001.xhp#par_id3153743.224.help.text
 #: 02100001.xhp%23par_id3153743.224.help.text
@@ -32164,6 +32166,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Check to print pages in reverse "
 "order.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Zaznacz, aby wydrukować strony w "
+"odwrotnej kolejności.</ahelp>"
 
 #: 01130000.xhp#par_id3145069.34.help.text
 #: 01130000.xhp%23par_id3145069.34.help.text
@@ -32199,6 +32203,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Show/Hide detailed information of the "
 "selected printer.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Pokaż/Ukryj szczegółowe informacje o "
+"wybranej drukarce.</ahelp>"
 
 #: 01130000.xhp#par_id3149511.4.help.text
 #: 01130000.xhp%23par_id3149511.4.help.text
@@ -32220,6 +32226,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Specify which pages to include in the "
 "output.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Określa, które strony mają zostać "
+"wydrukowane.</ahelp>"
 
 #: 01130000.xhp#par_id46.help.text
 #: 01130000.xhp%23par_id46.help.text
@@ -32250,6 +32258,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Check to draw a border around each "
 "page.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Zaznacz, aby narysować obramowanie "
+"wokół każdej strony.</ahelp>"
 
 #: 01130000.xhp#par_id52.help.text
 #: 01130000.xhp%23par_id52.help.text
@@ -32257,6 +32267,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Select order in which pages are to be "
 "printed.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Wybierz kolejność, w jakiej strony "
+"mają być drukowane.</ahelp>"
 
 #: 01130000.xhp#par_id54.help.text
 #: 01130000.xhp%23par_id54.help.text
@@ -32305,6 +32317,8 @@ msgid ""
 "<ahelp hid=\".\" visibility=\"hidden\">Select how many pages to print per "
 "sheet of paper.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Określ, ile stron ma być drukowanych "
+"na jednej kartce.</ahelp>"
 
 #: 01130000.xhp#par_id66.help.text
 #: 01130000.xhp%23par_id66.help.text
