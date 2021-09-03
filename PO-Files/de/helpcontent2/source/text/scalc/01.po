@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2021-09-01 20:27+0000\n"
+"PO-Revision-Date: 2021-09-02 21:18+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <dev-de@openoffice.apache.org>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1630528070.000000\n"
+"X-POOTLE-MTIME: 1630617496.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -5271,7 +5271,7 @@ msgid ""
 "            <item type=\"input\">=BAHTTEXT(12.65)</item> returns a string in "
 "Thai characters with the meaning of \"Twelve Baht and sixty five Satang\"."
 msgstr ""
-"<item type=\"input\">=BAHTTEXT(12.65)</item> gibt eine Thai-Zeichenkette mit "
+"<item type=\"input\">=BAHTTEXT(12,65)</item> gibt eine Thai-Zeichenkette mit "
 "der Bedeutung \"Zwölf Baht und 65 Satang\" zurück."
 
 #: 04060110.xhp#bm_id3153072.help.text
@@ -5447,7 +5447,7 @@ msgstr "<item type=\"input\">=ZEICHEN(100)</item> gibt das Zeichen d zurück."
 msgid ""
 "=\"abc\" & CHAR(10) & \"def\" inserts a newline character into the string."
 msgstr ""
-"=\"abc\" &ZEICHEN(10) & \"def\" fügt einen Zeilenumbruch in den Text ein."
+"=\"abc\" & ZEICHEN(10) & \"def\" fügt einen Zeilenumbruch in den Text ein."
 
 #: 04060110.xhp#bm_id3149009.help.text
 #: 04060110.xhp%23bm_id3149009.help.text
@@ -5628,8 +5628,8 @@ msgstr ""
 "href=\"text/shared/00/00000005.xhp#zahlensystem\" name=\"Zahlensystem\""
 ">Zahlensystem</link> in eine positive Ganzzahl in der gegebenen Zahlenbasis "
 "um.</ahelp> Die Zahlenbasis muss im Bereich von 2 bis 36 liegen. Leer- und "
-"Tabulatorzeichen und werden ignoriert. Das Feld <emph>Text</emph> "
-"unterscheidet nicht zwischen Groß- und Kleinschreibung."
+"Tabulatorzeichen werden ignoriert. Das Feld <emph>Text</emph> unterscheidet "
+"nicht zwischen Groß- und Kleinschreibung."
 
 #: 04060110.xhp#par_id3157994.227.help.text
 #: 04060110.xhp%23par_id3157994.227.help.text
@@ -6111,7 +6111,7 @@ msgstr "Beispiel"
 #: 04060110.xhp%23par_id3149141.102.help.text
 msgid ""
 "            <item type=\"input\">=LEFT(\"output\";3)</item> returns “out”."
-msgstr "<item type=\"input\">=LINKS(\"ausgabe\";3)</item> gibt  \"aus\" zurück."
+msgstr "<item type=\"input\">=LINKS(\"ausgabe\";3)</item> gibt \"aus\" zurück."
 
 #: 04060110.xhp#bm_id3156110.help.text
 #: 04060110.xhp%23bm_id3156110.help.text
@@ -6553,7 +6553,7 @@ msgstr "Beispiel"
 #: 04060110.xhp#par_id3151132.120.help.text
 #: 04060110.xhp%23par_id3151132.120.help.text
 msgid "            <item type=\"input\">=RIGHT(\"Sun\";2)</item> returns un."
-msgstr "<item type=\"input\">=RECHTS(\"Sonne\";2)</item> ergibt onne."
+msgstr "<item type=\"input\">=RECHTS(\"Sonne\";2)</item> ergibt ne."
 
 #: 04060110.xhp#bm_id3153534.help.text
 #: 04060110.xhp%23bm_id3153534.help.text
@@ -6835,7 +6835,7 @@ msgid ""
 "If <emph>Value</emph> is a text string or refers to a text string, T returns "
 "that text string; otherwise it returns a blank text string."
 msgstr ""
-"Wenn <emph>Wert</emph> ist eine Textzeichenfolge ist oder sich auf eine "
+"Wenn <emph>Wert</emph> eine Textzeichenfolge ist oder sich auf eine "
 "Textzeichenfolge bezieht, gibt T die Textzeichenfolge zurück; anderenfalls "
 "gibt T eine leere Textzeichenfolge zurück."
 
@@ -16719,7 +16719,7 @@ msgid ""
 "            <emph>Value1; Value2, ...</emph> are 1 to 30 values or ranges "
 "representing the values to be counted."
 msgstr ""
-"<emph>Wet1; Wert2, ...</emph> sind 1 bis 30 Werte oder Bereiche, die die "
+"<emph>Wert1; Wert2, ...</emph> sind 1 bis 30 Werte oder Bereiche, die die "
 "Werte darstellen, die gezählt werden sollen."
 
 #: 04060181.xhp#hd_id3149254.18.help.text
@@ -16791,7 +16791,7 @@ msgid ""
 "            <emph>Value1; Value2, ...</emph> are 1 to 30 arguments "
 "representing the values to be counted."
 msgstr ""
-"<emph>Wet1; Wert2, ...</emph> sind 1 bis 30 Argumente, die die Werte "
+"<emph>Wert1; Wert2, ...</emph> sind 1 bis 30 Argumente, die die Werte "
 "darstellen, die gezählt werden sollen."
 
 #: 04060181.xhp#hd_id3150334.27.help.text
@@ -39923,7 +39923,7 @@ msgid ""
 "            <item type=\"input\">=Rows(B5)</item> returns 1 because a cell "
 "only contains one row."
 msgstr ""
-"<item type=\"input\">=Zeilen(B5)</item> ergibt 1, weil eine Zelle nur eine "
+"<item type=\"input\">=ZEILEN(B5)</item> ergibt 1, weil eine Zelle nur eine "
 "Zeile enthält."
 
 #: 04060109.xhp#par_id3150102.172.help.text
