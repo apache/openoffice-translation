@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-01-20 15:49+0000\n"
+"PO-Revision-Date: 2022-01-26 17:04+0000\n"
 "Last-Translator: Василь Майданюк <vassily88@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1642693799.000000\n"
+"X-POOTLE-MTIME: 1643216683.000000\n"
 
 #: conn_error_message.src#256___2_100___0.string.text
 #: conn_error_message.src%23256___2_100___0.string.text
@@ -614,24 +614,23 @@ msgstr ""
 
 #: conn_shared_res.src#STR_COULD_NOT_ALTER_TABLE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_ALTER_TABLE.string.text
-#, fuzzy
 msgid "The table could not be altered."
-msgstr "Неможливо конвертувати тип."
+msgstr "Таблиця не може бути змінена."
 
 #: conn_shared_res.src#STR_INVALID_DBASE_FILE.string.text
 #: conn_shared_res.src%23STR_INVALID_DBASE_FILE.string.text
 msgid "The file '$filename$' is an invalid (or unrecognized) dBase file."
-msgstr ""
+msgstr "Файл '$filename$' є недійсним (або нерозпізнаним) dBase-файлом."
 
 #: conn_shared_res.src#STR_CANNOT_OPEN_BOOK.string.text
 #: conn_shared_res.src%23STR_CANNOT_OPEN_BOOK.string.text
 msgid "Cannot open Evolution address book."
-msgstr ""
+msgstr "Не вдається відкрити адресну книгу Evolution."
 
 #: conn_shared_res.src#STR_SORT_BY_COL_ONLY.string.text
 #: conn_shared_res.src%23STR_SORT_BY_COL_ONLY.string.text
 msgid "Can only sort by table columns."
-msgstr ""
+msgstr "Сортування можливе тільки по колонках таблиці."
 
 #: conn_shared_res.src#STR_QUERY_COMPLEX_COUNT.string.text
 #: conn_shared_res.src%23STR_QUERY_COMPLEX_COUNT.string.text
@@ -639,70 +638,72 @@ msgid ""
 "The query can not be executed. It is too complex. Only \"COUNT(*)\" is "
 "supported."
 msgstr ""
+"Запит не може бути виконаний.  Він занадто складний. Підтримується тільки  \""
+"COUNT(*)\""
 
 #: conn_shared_res.src#STR_QUERY_INVALID_BETWEEN.string.text
 #: conn_shared_res.src%23STR_QUERY_INVALID_BETWEEN.string.text
 msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
-msgstr ""
+msgstr "Запит не може бути виконаним. Аргументи 'BETWEEN' невірні."
 
 #: conn_shared_res.src#STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 #: conn_shared_res.src%23STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 msgid "The query can not be executed. The function is not supported."
-msgstr ""
+msgstr "Запит не може бути виконаний. Функція не підтримується."
 
 #: conn_shared_res.src#STR_TABLE_READONLY.string.text
 #: conn_shared_res.src%23STR_TABLE_READONLY.string.text
 msgid "The table can not be changed. It is read only."
-msgstr ""
+msgstr "Таблицю змінити не можна. Вона лише для читання."
 
 #: conn_shared_res.src#STR_DELETE_ROW.string.text
 #: conn_shared_res.src%23STR_DELETE_ROW.string.text
 msgid ""
 "The row could not be deleted. The option \"Display inactive records\" is set."
 msgstr ""
+"Запис не може бути видалений. Увімкнено опцію \"Показувати неактивні записи\""
+"."
 
 #: conn_shared_res.src#STR_ROW_ALREADY_DELETED.string.text
 #: conn_shared_res.src%23STR_ROW_ALREADY_DELETED.string.text
 msgid "The row could not be deleted. It is already deleted."
-msgstr ""
+msgstr "Не вдалося видалити рядок. Його вже видалено."
 
 #: conn_shared_res.src#STR_QUERY_MORE_TABLES.string.text
 #: conn_shared_res.src%23STR_QUERY_MORE_TABLES.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains more than one table."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконаний. Він містить більше однієї таблиці."
 
 #: conn_shared_res.src#STR_QUERY_NO_TABLE.string.text
 #: conn_shared_res.src%23STR_QUERY_NO_TABLE.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains no valid table."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконаний. У ньому немає дійсної таблиці."
 
 #: conn_shared_res.src#STR_QUERY_NO_COLUMN.string.text
 #: conn_shared_res.src%23STR_QUERY_NO_COLUMN.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains no valid columns."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконаний. Він не містить дійсних стовпців."
 
 #: conn_shared_res.src#STR_INVALID_PARA_COUNT.string.text
 #: conn_shared_res.src%23STR_INVALID_PARA_COUNT.string.text
 msgid "The count of the given parameter values doesn't match the parameters."
-msgstr ""
+msgstr "Кількість заданих значень параметрів не відповідає параметрам."
 
 #: conn_shared_res.src#STR_NO_VALID_FILE_URL.string.text
 #: conn_shared_res.src%23STR_NO_VALID_FILE_URL.string.text
 msgid "The URL '$URL$' is not valid. A connection can not be created."
-msgstr ""
+msgstr "URL-адреса \"$URL$\" недійсна. Неможливо створити з’єднання."
 
 #: conn_shared_res.src#STR_NO_CLASSNAME.string.text
 #: conn_shared_res.src%23STR_NO_CLASSNAME.string.text
 msgid "The driver class '$classname$' could not be loaded."
-msgstr ""
+msgstr "Клас драйвера '$classname$' не може бути завантажений."
 
 #: conn_shared_res.src#STR_NO_JAVA.string.text
 #: conn_shared_res.src%23STR_NO_JAVA.string.text
 msgid "No Java installation could be found. Please check your installation."
 msgstr ""
+"Не вдалося знайти інсталяцію Java. Будь ласка, перевірте свою установку."
 
 #: conn_shared_res.src#STR_NO_RESULTSET.string.text
 #: conn_shared_res.src%23STR_NO_RESULTSET.string.text
