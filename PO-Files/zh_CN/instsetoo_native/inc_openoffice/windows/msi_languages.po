@@ -7,15 +7,18 @@ msgstr ""
 "+instsetoo_native%2Finc_openoffice%2Fwindows%2Fmsi_languages.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2019-08-25 05:28+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2022-05-17 16:10+0000\n"
+"Last-Translator: Youlan Liao <yolandarabbit0502@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1652803859.000000\n"
 
 #: LaunchCo.ulf#OOO_LAUNCH_1.LngText.text
 #: LaunchCo.ulf%23OOO_LAUNCH_1.LngText.text
@@ -906,7 +909,7 @@ msgstr "读取文件 [2] 时出错。{{ 系统错误 [3]。}}  请确认文件�
 msgid ""
 "Cannot create the file [3]. A directory with this name already exists. "
 "Cancel the installation and try installing to a different location."
-msgstr ""
+msgstr "无法创建文件 [3]。已存在同名目录。取消安装并尝试安装到其他位置。"
 
 #: Error.ulf#OOO_ERROR_27.LngText.text
 #: Error.ulf%23OOO_ERROR_27.LngText.text
@@ -919,68 +922,68 @@ msgid ""
 "The installer has insufficient privileges to access this directory: [2]. The "
 "installation cannot continue.  Log on as an administrator or contact your "
 "system administrator."
-msgstr ""
+msgstr "安装程序没有足够的权限访问此目录：[2]。安装无法继续。  以管理员身份登录或联系您的系统管理员。"
 
 #: Error.ulf#OOO_ERROR_29.LngText.text
 #: Error.ulf%23OOO_ERROR_29.LngText.text
 msgid ""
 "Error writing to file [2]. Verify that you have access to that directory."
-msgstr ""
+msgstr "写入文件 [2] 时出错。验证您是否有权访问该目录。"
 
 #: Error.ulf#OOO_ERROR_30.LngText.text
 #: Error.ulf%23OOO_ERROR_30.LngText.text
 msgid ""
 "Error reading from file [2]. Verify that the file exists and that you can "
 "access it."
-msgstr ""
+msgstr "从文件 [2] 读取错误。验证该文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_31.LngText.text
 #: Error.ulf%23OOO_ERROR_31.LngText.text
 msgid ""
 "Another application has exclusive access to the file [2]. Please shut down "
 "all other applications, then click Retry."
-msgstr ""
+msgstr "另一个应用程序对文件 [2] 具有独占访问权。请关闭所有其他应用程序，然后单击重试。"
 
 #: Error.ulf#OOO_ERROR_32.LngText.text
 #: Error.ulf%23OOO_ERROR_32.LngText.text
 msgid ""
 "There is not enough disk space to install the file [2]. Free some disk space "
 "and click Retry, or click Cancel to exit."
-msgstr ""
+msgstr "没有足够的磁盘空间来安装文件 [2]。释放一些磁盘空间并单击重试，或单击取消退出。"
 
 #: Error.ulf#OOO_ERROR_33.LngText.text
 #: Error.ulf%23OOO_ERROR_33.LngText.text
 msgid ""
 "Source file not found: [2]. Verify that the file exists and that you can "
 "access it."
-msgstr ""
+msgstr "未找到源文件：[2]。验证该文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_34.LngText.text
 #: Error.ulf%23OOO_ERROR_34.LngText.text
 msgid ""
 "Error reading from file: [3]. {{ System error [2].}} Verify that the file "
 "exists and that you can access it."
-msgstr ""
+msgstr "从文件中读取错误：[3]。{{ 系统错误 [2].}} 验证文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_35.LngText.text
 #: Error.ulf%23OOO_ERROR_35.LngText.text
 msgid ""
 "Error writing to file: [3]. {{ System error [2].}} Verify that you have "
 "access to that directory."
-msgstr ""
+msgstr "从文件中读取错误：[3]。{{ 系统错误 [2].}} 验证文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_36.LngText.text
 msgid ""
 "Source file not found {{(cabinet)}}: [2]. Verify that the file exists and "
 "that you can access it."
-msgstr ""
+msgstr "找不到源文件 {{(cabinet)}}：[2]。验证该文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_37.LngText.text
 #: Error.ulf%23OOO_ERROR_37.LngText.text
 msgid ""
 "Cannot create the directory [2]. A file with this name already exists. "
 "Please rename or remove the file and click Retry, or click Cancel to exit."
-msgstr ""
+msgstr "无法创建目录 [2]。已存在同名文件。请重命名或删除文件并单击重试，或单击取消退出。"
 
 #: Error.ulf#OOO_ERROR_38.LngText.text
 #: Error.ulf%23OOO_ERROR_38.LngText.text
@@ -1066,62 +1069,63 @@ msgid ""
 "means, and can no longer be modified by this patch.  For more information "
 "contact your patch vendor. {{System Error: [3]}}"
 msgstr ""
+"将补丁应用到文件 [2] 时出错。它可能已通过其他方式更新，并且无法再被此补丁修改。  有关更多信息，请联系您的补丁供应商。{{系统错误：[3]}}"
 
 #: Error.ulf#OOO_ERROR_54.LngText.text
 #: Error.ulf%23OOO_ERROR_54.LngText.text
 msgid ""
 "Could not create key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法创建密钥 [2]。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_55.LngText.text
 #: Error.ulf%23OOO_ERROR_55.LngText.text
 msgid ""
 "Could not open key: [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法打开密钥：[2]。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_56.LngText.text
 #: Error.ulf%23OOO_ERROR_56.LngText.text
 msgid ""
 "Could not delete value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法从键 [3] 中删除值 [2]。{{ 系统错误 [4].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_57.LngText.text
 #: Error.ulf%23OOO_ERROR_57.LngText.text
 msgid ""
 "Could not delete key [2]. {{ System error [3].}} Verify that you have "
 "sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法删除键 [2]。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_58.LngText.text
 #: Error.ulf%23OOO_ERROR_58.LngText.text
 msgid ""
 "Could not read value [2] from key [3]. {{ System error [4].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法从键 [3] 读取值 [2]。{{ 系统错误 [4].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_59.LngText.text
 #: Error.ulf%23OOO_ERROR_59.LngText.text
 msgid ""
 "Could not write value [2] to key [3]. {{ System error [4].}} Verify that you "
 "have sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法将值 [2] 写入键 [3]。{{ 系统错误 [4].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_60.LngText.text
 #: Error.ulf%23OOO_ERROR_60.LngText.text
 msgid ""
 "Could not get value names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法获取键 [2] 的值名称。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_61.LngText.text
 #: Error.ulf%23OOO_ERROR_61.LngText.text
 msgid ""
 "Could not get sub key names for key [2]. {{ System error [3].}} Verify that "
 "you have sufficient access to that key, or contact your support personnel."
-msgstr ""
+msgstr "无法获取键 [2] 的子键名称。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_62.LngText.text
 #: Error.ulf%23OOO_ERROR_62.LngText.text
@@ -1129,7 +1133,7 @@ msgid ""
 "Could not read security information for key [2]. {{ System error [3].}} "
 "Verify that you have sufficient access to that key, or contact your support "
 "personnel."
-msgstr ""
+msgstr "无法读取密钥 [2] 的安全信息。{{ 系统错误 [3].}} 确认您对该密钥有足够的访问权限，或联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_63.LngText.text
 #: Error.ulf%23OOO_ERROR_63.LngText.text
@@ -1158,21 +1162,21 @@ msgid ""
 "User [2] has previously initiated an installation for product [3]. That user "
 "will need to run that installation again before using that product. Your "
 "current installation will now continue."
-msgstr ""
+msgstr "用户 [2] 之前已启动产品 [3] 的安装。该用户需要在使用该产品之前再次运行该安装。您当前的安装现在将继续。"
 
 #: Error.ulf#OOO_ERROR_67.LngText.text
 #: Error.ulf%23OOO_ERROR_67.LngText.text
 msgid ""
 "User [2] has previously initiated an installation for product [3]. That user "
 "will need to run that installation again before using that product."
-msgstr ""
+msgstr "用户 [2] 之前已启动产品 [3] 的安装。该用户需要在使用该产品之前再次运行该安装。"
 
 #: Error.ulf#OOO_ERROR_68.LngText.text
 #: Error.ulf%23OOO_ERROR_68.LngText.text
 msgid ""
 "Out of disk space -- Volume: '[2]'; required space: [3] KB; available space: "
 "[4] KB. Free some disk space and retry."
-msgstr ""
+msgstr "磁盘空间不足 -- 卷：'[2]'；所需空间：[3] KB；可用空间：[4] KB。释放一些磁盘空间并重试。"
 
 #: Error.ulf#OOO_ERROR_69.LngText.text
 #: Error.ulf%23OOO_ERROR_69.LngText.text
@@ -1184,7 +1188,7 @@ msgstr "是否确定要取消？"
 msgid ""
 "The file [2][3] is being held in use {by the following process: Name: [4], "
 "ID: [5], Window Title: [6]}. Close that application and retry."
-msgstr ""
+msgstr "文件 [2][3] 正在使用中{通过以下过程：名称：[4]，ID：[5]，窗口标题：[6]}。关闭该应用程序并重试。"
 
 #: Error.ulf#OOO_ERROR_71.LngText.text
 #: Error.ulf%23OOO_ERROR_71.LngText.text
@@ -1224,14 +1228,14 @@ msgstr "无法在计算机上找到安装本产品所需的任何以前安装的
 #: Error.ulf#OOO_ERROR_76.LngText.text
 #: Error.ulf%23OOO_ERROR_76.LngText.text
 msgid "The key [2] is not valid. Verify that you entered the correct key."
-msgstr ""
+msgstr "密钥 [2] 无效。验证您输入的密钥是否正确。"
 
 #: Error.ulf#OOO_ERROR_77.LngText.text
 #: Error.ulf%23OOO_ERROR_77.LngText.text
 msgid ""
 "The installer must restart your system before configuration of [2] can "
 "continue. Click Yes to restart now or No if you plan to restart later."
-msgstr ""
+msgstr "安装程序必须重新启动您的系统，然后才能继续配置 [2]。如果您打算稍后重新启动，请单击“是”立即重新启动或单击“否”。"
 
 #: Error.ulf#OOO_ERROR_78.LngText.text
 #: Error.ulf%23OOO_ERROR_78.LngText.text
@@ -1245,7 +1249,7 @@ msgstr "重新启动系统后，对 [2] 所做的配置更改才能生效。单�
 msgid ""
 "An installation for [2] is currently suspended.  You must undo the changes "
 "made by that installation to continue. Do you want to undo those changes?"
-msgstr ""
+msgstr "[2] 的安装当前已暂停。  您必须撤消该安装所做的更改才能继续。您要撤消这些更改吗？"
 
 #: Error.ulf#OOO_ERROR_80.LngText.text
 #: Error.ulf%23OOO_ERROR_80.LngText.text
@@ -1253,14 +1257,14 @@ msgid ""
 "A previous installation for this product is in progress. You must undo the "
 "changes made by that installation to continue. Do you want to undo those "
 "changes?"
-msgstr ""
+msgstr "该产品的先前安装正在进行中。您必须撤消该安装所做的更改才能继续。您要撤消这些更改吗？"
 
 #: Error.ulf#OOO_ERROR_81.LngText.text
 #: Error.ulf%23OOO_ERROR_81.LngText.text
 msgid ""
 "No valid source could be found for product [2]. The Windows Installer cannot "
 "continue."
-msgstr ""
+msgstr "找不到产品 [2] 的有效来源。Windows 安装程序无法继续。"
 
 #: Error.ulf#OOO_ERROR_82.LngText.text
 #: Error.ulf%23OOO_ERROR_82.LngText.text
@@ -1290,33 +1294,33 @@ msgid ""
 "An error occurred while writing installation information to disk. Check to "
 "make sure enough disk space is available, and click Retry, or Cancel to end "
 "the installation."
-msgstr ""
+msgstr "将安装信息写入磁盘时出错。检查以确保有足够的磁盘空间可用，然后单击重试或取消以结束安装。"
 
 #: Error.ulf#OOO_ERROR_87.LngText.text
 #: Error.ulf%23OOO_ERROR_87.LngText.text
 msgid ""
 "One or more of the files required to restore your computer to its previous "
 "state could not be found. Restoration will not be possible."
-msgstr ""
+msgstr "找不到将您的计算机恢复到以前状态所需的一个或多个文件。恢复将是不可能的。"
 
 #: Error.ulf#OOO_ERROR_88.LngText.text
 #: Error.ulf%23OOO_ERROR_88.LngText.text
 msgid ""
 "[2] cannot install one of its required products. Contact your technical "
 "support group. {{System Error: [3].}}"
-msgstr ""
+msgstr "[2] 无法安装其所需产品之一。请联系您的技术支持小组。{{系统错误：[3].}}"
 
 #: Error.ulf#OOO_ERROR_89.LngText.text
 #: Error.ulf%23OOO_ERROR_89.LngText.text
 msgid ""
 "The older version of [2] cannot be removed.  Contact your technical support "
 "group. {{System Error [3].}}"
-msgstr ""
+msgstr "旧版本的 [2] 无法删除。  联系您的技术支持小组。{{系统错误 [3].}}"
 
 #: Error.ulf#OOO_ERROR_90.LngText.text
 #: Error.ulf%23OOO_ERROR_90.LngText.text
 msgid "The path [2] is not valid. Please specify a valid path."
-msgstr ""
+msgstr "路径 [2] 无效。请指定有效路径。"
 
 #: Error.ulf#OOO_ERROR_91.LngText.text
 #: Error.ulf%23OOO_ERROR_91.LngText.text
@@ -1342,7 +1346,7 @@ msgstr "驱动器 [2] 中没有磁盘。请插入磁盘，然后单击“重试�
 #: Error.ulf%23OOO_ERROR_94.LngText.text
 msgid ""
 "The folder [2] does not exist. Please enter a path to an existing folder."
-msgstr ""
+msgstr "文件夹 [2] 不存在。请输入现有文件夹的路径。"
 
 #: Error.ulf#OOO_ERROR_95.LngText.text
 #: Error.ulf%23OOO_ERROR_95.LngText.text
@@ -1378,13 +1382,13 @@ msgstr "正在安排重启操作: 删除文件 [2]。只有重启后才能完成
 #: Error.ulf%23OOO_ERROR_100.LngText.text
 msgid ""
 "Module [2] failed to register. HRESULT [3]. Contact your support personnel."
-msgstr ""
+msgstr "模块 [2] 未能注册。结果 [3]。请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_101.LngText.text
 #: Error.ulf%23OOO_ERROR_101.LngText.text
 msgid ""
 "Module [2] failed to unregister. HRESULT [3]. Contact your support personnel."
-msgstr ""
+msgstr "模块 [2] 未能取消注册。结果 [3]。请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_102.LngText.text
 #: Error.ulf%23OOO_ERROR_102.LngText.text
@@ -1397,7 +1401,7 @@ msgstr "无法缓存包 [2]。错误: [3]。请与技术支持人员联系。"
 msgid ""
 "Could not register font [2]. Verify that you have sufficient permissions to "
 "install fonts, and that the system supports this font."
-msgstr ""
+msgstr "无法注册字体 [2]。确认您有足够的权限来安装字体，并且系统支持此字体。"
 
 #: Error.ulf#OOO_ERROR_104.LngText.text
 #: Error.ulf%23OOO_ERROR_104.LngText.text
@@ -1424,28 +1428,28 @@ msgstr "无法删除快捷方式 [2]。请确认快捷方式文件存在，并�
 #: Error.ulf%23OOO_ERROR_107.LngText.text
 msgid ""
 "Could not register type library for file [2]. Contact your support personnel."
-msgstr ""
+msgstr "无法为文件 [2] 注册类型库。请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_108.LngText.text
 #: Error.ulf%23OOO_ERROR_108.LngText.text
 msgid ""
 "Could not unregister type library for file [2]. Contact your support "
 "personnel."
-msgstr ""
+msgstr "无法取消注册文件 [2] 的类型库。请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_109.LngText.text
 #: Error.ulf%23OOO_ERROR_109.LngText.text
 msgid ""
 "Could not update the INI file [2][3]. Verify that the file exists and that "
 "you can access it."
-msgstr ""
+msgstr "无法更新 INI 文件 [2][3]。验证该文件是否存在并且您可以访问它。"
 
 #: Error.ulf#OOO_ERROR_110.LngText.text
 #: Error.ulf%23OOO_ERROR_110.LngText.text
 msgid ""
 "Could not schedule file [2] to replace file [3] on reboot. Verify that you "
 "have write permissions to file [3]."
-msgstr ""
+msgstr "无法安排文件 [2] 在重新启动时替换文件 [3]。验证您是否具有文件 [3] 的写入权限。"
 
 #: Error.ulf#OOO_ERROR_111.LngText.text
 #: Error.ulf%23OOO_ERROR_111.LngText.text
@@ -1487,35 +1491,35 @@ msgstr "配置 ODBC 数据源 [4] 时出错，ODBC 错误 [2]:[3]。请确认文
 msgid ""
 "Service [2] ([3]) failed to start. Verify that you have sufficient "
 "privileges to start system services."
-msgstr ""
+msgstr "服务 [2] ([3]) 无法启动。验证您是否有足够的权限来启动系统服务。"
 
 #: Error.ulf#OOO_ERROR_117.LngText.text
 #: Error.ulf%23OOO_ERROR_117.LngText.text
 msgid ""
 "Service [2] ([3]) could not be stopped. Verify that you have sufficient "
 "privileges to stop system services."
-msgstr ""
+msgstr "无法停止服务 [2] ([3])。验证您是否有足够的权限来停止系统服务。"
 
 #: Error.ulf#OOO_ERROR_118.LngText.text
 #: Error.ulf%23OOO_ERROR_118.LngText.text
 msgid ""
 "Service [2] ([3]) could not be deleted. Verify that you have sufficient "
 "privileges to remove system services."
-msgstr ""
+msgstr "无法删除服务 [2] ([3])。验证您是否有足够的权限来删除系统服务。"
 
 #: Error.ulf#OOO_ERROR_119.LngText.text
 #: Error.ulf%23OOO_ERROR_119.LngText.text
 msgid ""
 "Service [2] ([3]) could not be installed. Verify that you have sufficient "
 "privileges to install system services."
-msgstr ""
+msgstr "无法安装服务 [2] ([3])。验证您是否有足够的权限来安装系统服务。"
 
 #: Error.ulf#OOO_ERROR_120.LngText.text
 #: Error.ulf%23OOO_ERROR_120.LngText.text
 msgid ""
 "Could not update environment variable [2]. Verify that you have sufficient "
 "privileges to modify environment variables."
-msgstr ""
+msgstr "无法安装服务 [2] ([3])。验证您是否有足够的权限来安装系统服务。"
 
 #: Error.ulf#OOO_ERROR_121.LngText.text
 #: Error.ulf%23OOO_ERROR_121.LngText.text
@@ -1523,14 +1527,14 @@ msgid ""
 "You do not have sufficient privileges to complete this installation for all "
 "users of the machine. Log on as an administrator and then retry this "
 "installation."
-msgstr ""
+msgstr "您没有足够的权限为机器的所有用户完成此安装。以管理员身份登录，然后重试此安装。"
 
 #: Error.ulf#OOO_ERROR_122.LngText.text
 #: Error.ulf%23OOO_ERROR_122.LngText.text
 msgid ""
 "Could not set file security for file [3]. Error: [2]. Verify that you have "
 "sufficient privileges to modify the security permissions for this file."
-msgstr ""
+msgstr "无法为文件 [3] 设置文件安全性。错误：[2]。验证您是否有足够的权限来修改此文件的安全权限。"
 
 #: Error.ulf#OOO_ERROR_123.LngText.text
 #: Error.ulf%23OOO_ERROR_123.LngText.text
@@ -1538,21 +1542,21 @@ msgid ""
 "Component Services (COM+ 1.0) are not installed on this computer. This "
 "installation requires Component Services in order to complete successfully. "
 "Component Services are available on Windows 2000."
-msgstr ""
+msgstr "此计算机上未安装组件服务 (COM+ 1.0)。此安装需要组件服务才能成功完成。组件服务在 Windows 2000 上可用"
 
 #: Error.ulf#OOO_ERROR_124.LngText.text
 #: Error.ulf%23OOO_ERROR_124.LngText.text
 msgid ""
 "Error registering COM+ application. Contact your support personnel for more "
 "information."
-msgstr ""
+msgstr "注册 COM+ 应用程序时出错。有关详细信息，请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_125.LngText.text
 #: Error.ulf%23OOO_ERROR_125.LngText.text
 msgid ""
 "Error unregistering COM+ application. Contact your support personnel for "
 "more information."
-msgstr ""
+msgstr "注销 COM+ 应用程序时出错。有关详细信息，请联系您的支持人员。"
 
 #: Error.ulf#OOO_ERROR_126.LngText.text
 #: Error.ulf%23OOO_ERROR_126.LngText.text
@@ -1567,6 +1571,8 @@ msgid ""
 "for this program to work correctly. {{Package version: [3], OS Protected "
 "version: [4]}}"
 msgstr ""
+"Windows Installer 服务无法更新系统文件 [2]，因为该文件受 Windows "
+"保护。您可能需要更新操作系统才能使该程序正常运行。{{包版本：[3]，操作系统保护版本：[4]}}"
 
 #: Error.ulf#OOO_ERROR_128.LngText.text
 #: Error.ulf%23OOO_ERROR_128.LngText.text
@@ -1668,7 +1674,7 @@ msgid ""
 "Enter the network location or click Change to browse to a location. Click "
 "Install to create a server image of [ProductName] at the specified network "
 "location or click Cancel to exit the wizard."
-msgstr ""
+msgstr "输入网络位置或单击更改以浏览到某个位置。单击安装以在指定的网络位置创建 [ProductName] 的服务器映像，或单击取消退出向导。"
 
 #: Control.ulf#OOO_CONTROL_21.LngText.text
 #: Control.ulf%23OOO_CONTROL_21.LngText.text
@@ -2147,6 +2153,8 @@ msgid ""
 "by members of the Apache OpenOffice community. For credits please see: "
 "https://www.openoffice.org/welcome/credits.html"
 msgstr ""
+"该程序基于 Apache OpenOffice 社区成员支持的“Apache "
+"OpenOffice”项目。学分请参见：https://www.openoffice.org/welcome/credits.html"
 
 #: Control.ulf#OOO_CONTROL_125.LngText.text
 #: Control.ulf%23OOO_CONTROL_125.LngText.text
