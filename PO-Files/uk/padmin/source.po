@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+padmin%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-06-01 08:38+0000\n"
+"PO-Revision-Date: 2022-06-02 11:19+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1654072699.000000\n"
+"X-POOTLE-MTIME: 1654168784.000000\n"
 
 #: rtsetup.src#RID_RTS_RTSDIALOG.RID_RTS_RTSDIALOG_TABCONTROL.RID_RTS_COMMANDPAGE.pageitem.text
 #: rtsetup.src%23RID_RTS_RTSDIALOG.RID_RTS_RTSDIALOG_TABCONTROL.RID_RTS_COMMANDPAGE.pageitem.text
@@ -340,7 +340,6 @@ msgstr "Вимагається аутентифікація"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
-#, fuzzy
 msgid ""
 "Please select the folder from which you want to import fonts. Add the "
 "selected fonts by clicking the OK button."
@@ -360,20 +359,17 @@ msgstr "Шу~кати у підкаталогах"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_FL_TARGETOPTS.fixedline.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_FL_TARGETOPTS.fixedline.text
-#, fuzzy
 msgid "Target options"
-msgstr "Параметри цілі"
+msgstr "Цільові параметри"
 
 # Керувався тим, що Accelerator Key має бути тим самим
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_BOX_LINKONLY.checkbox.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_BOX_LINKONLY.checkbox.text
-#, fuzzy
 msgid "Create ~soft links only"
 msgstr "Створити лише симл~інк"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_BTN_SELECTALL.pushbutton.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_BTN_SELECTALL.pushbutton.text
-#, fuzzy
 msgctxt "padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_BTN_SELECTALL.pushbutton.text"
 msgid "~Select All"
 msgstr "Вид~ілити все"
@@ -385,7 +381,6 @@ msgstr "Додати шрифти"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_STR_QUERYOVERWRITE.string.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_QUERYOVERWRITE.string.text
-#, fuzzy
 msgid ""
 "Do you really want to overwrite this font file?\n"
 "   %s"
@@ -405,7 +400,6 @@ msgstr "Немає"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_STR_NOAFM.string.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_NOAFM.string.text
-#, fuzzy
 msgid ""
 "A format file (with an .afm extension) has not been found for the font\n"
 "%s\n"
@@ -413,28 +407,25 @@ msgid ""
 "ghostscript, for example, and have to be located in the same directory as "
 "the font files or its afm subdirectory."
 msgstr ""
-"Для шрифтового файлу\n"
+"Не вдалося знайти файл формату (з розширенням .afm) для шрифту\n"
 "%s\n"
-"не знайдено файл формату (з розширенням .afm), тому шрифт неможливо "
-"встановити. Файли формату можуть бути створені, наприклад, за допомогою "
-"ghostscript, та мають перебувати у тому самому каталозі, що й файли шрифтів, "
-"або у його підкаталозі для afm-файлів."
+"тому цей шрифт неможливо встановити. Файли формати можна створити, "
+"наприклад, за допомогою ghostscript і вони мають знаходитись в тій самій "
+"теці, що й файли шрифтів, або в підтеці afm."
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_STR_AFMCOPYFAILED.string.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_AFMCOPYFAILED.string.text
-#, fuzzy
 msgid ""
 "The metric file for the font file\n"
 "   %s\n"
 "could not be copied. The font will not be installed."
 msgstr ""
-"Не вдається скопіювати файл метрик шрифту\n"
+"Не вдалося скопіювати метричний файл шрифту\n"
 "   %s.\n"
 "Шрифт не буде встановлений."
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_STR_FONTCOPYFAILED.string.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_STR_FONTCOPYFAILED.string.text
-#, fuzzy
 msgid ""
 "The font file\n"
 "   %s\n"
@@ -512,7 +503,6 @@ msgstr "Властивості..."
 # accelerator key має бути на тій самій кнопці клавіатури
 #: padialog.src#RID_PADIALOG.RID_PA_BTN_RENAME.pushbutton.text
 #: padialog.src%23RID_PADIALOG.RID_PA_BTN_RENAME.pushbutton.text
-#, fuzzy
 msgid "R~ename..."
 msgstr "Переймен~увати..."
 
