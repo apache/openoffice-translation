@@ -7,7 +7,7 @@ msgstr ""
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Fexplorer%2Fdatabase.oo&subcomponent="
 "ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2021-08-13 05:58+0000\n"
+"PO-Revision-Date: 2022-07-02 17:19+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1628834288.000000\n"
+"X-POOTLE-MTIME: 1656782348.000000\n"
 
 #: dabawiz02jdbc.xhp#tit.help.text
 #: dabawiz02jdbc.xhp%23tit.help.text
@@ -1150,11 +1150,13 @@ msgid ""
 "<ahelp hid=\".\">Use date/time literals that conform to ODBC "
 "standard.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Użyj literałów data/czas spełniających standardy "
+"ODBC.</ahelp>"
 
 #: dabaadvpropdat.xhp#hd_id04092009442139524.help.text
 #: dabaadvpropdat.xhp%23hd_id04092009442139524.help.text
 msgid "Supports primary keys"
-msgstr ""
+msgstr "Obsługa kluczy głównych"
 
 #: dabaadvpropdat.xhp#par_id04096620092139526.help.text
 #: dabaadvpropdat.xhp%23par_id04096620092139526.help.text
@@ -1162,6 +1164,8 @@ msgid ""
 "<ahelp hid=\".\">Enable to overrule Base's heuristics used to detect whether "
 "the database supports primary keys.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Włącz, aby unieważnić heurystyki Base'a wykorzystywane do "
+"wykrywania, czy baza danych obsługuje klucze główne.</ahelp>"
 
 #: dabaadvpropdat.xhp#par_id66841631.help.text
 #: dabaadvpropdat.xhp%23par_id66841631.help.text
@@ -1171,6 +1175,10 @@ msgid ""
 "supports primary keys. None of those APIs has dedicated support to retrieve "
 "this information."
 msgstr ""
+"Podczas łączenia się z bazą danych przy pomocy ogólnych API takich jak ODBC, "
+"JDBC lub ADO, Base stosuje obecnie heurystyki do określenia, czy baza danych "
+"obsługuje klucze główne. Żaden z tych interfejsów API nie ma dedykowanego "
+"wsparcia dla pobierania takiej informacji."
 
 #: dabaadvpropdat.xhp#par_id66841632.help.text
 #: dabaadvpropdat.xhp%23par_id66841632.help.text
@@ -1180,6 +1188,11 @@ msgid ""
 "check box is enabled, primary key support is assumed. If the check box is "
 "disabled, no primary key support is assumed."
 msgstr ""
+"Heurystyka czasem kończy się niepowodzeniem. To trzystanowe pole wyboru "
+"domyślnie ustawione jest na stan nieokreślony, co oznacza \"stosowanie "
+"heurystyki\". Jeżeli pole jest zaznaczone, zakłada się wsparcie klucza "
+"głównego. Jeżeli pole wyboru jest wyłączone, nie zakłada się wsparcia dla "
+"klucza głównego."
 
 #: dabaadvpropdat.xhp#par_id66841633.help.text
 #: dabaadvpropdat.xhp%23par_id66841633.help.text
@@ -1188,6 +1201,9 @@ msgid ""
 "enable the check box for a database which actually does not support primary "
 "keys, you will see some errors."
 msgstr ""
+"Zauważ, iż ta opcja jest tylko dla uchylenia heurystyki. Po włączeniu pola "
+"wyboru dla bazy danych, która faktycznie nie obsługuje kluczy głównych, "
+"pojawi się kilka błędów."
 
 #: querywizard03.xhp#tit.help.text
 #: querywizard03.xhp%23tit.help.text
@@ -2537,14 +2553,13 @@ msgstr ""
 
 #: rep_navigator.xhp#par_id4095583.help.text
 #: rep_navigator.xhp%23par_id4095583.help.text
-#, fuzzy
 msgid ""
 "See <link href=\"https://wiki.openoffice.org/wiki/Database\">Wiki page about "
 "Base</link> for some more help regarding the functions in a report."
 msgstr ""
-"Szczegółowe informacje dotyczące funkcji w raporcie można znaleźć na <link "
-"href=\"http://wiki.services.openoffice.org/wiki/Database\">stronie Wiki "
-"dotyczącej programu Base</link>."
+"Zajrzyj na <link href=\"https://wiki.openoffice.org/wiki/Database\">stronę "
+"Wiki o programie Base</link>, aby uzyskać więcej informacji o funkcjach w "
+"raporcie."
 
 #: rep_navigator.xhp#hd_id311593.help.text
 #: rep_navigator.xhp%23hd_id311593.help.text
@@ -3981,6 +3996,8 @@ msgid ""
 "<bookmark_value>Report Builder</bookmark_value><bookmark_value>Apache "
 "OpenOffice Report Builder</bookmark_value>"
 msgstr ""
+"<bookmark_value>Report Builder</bookmark_value><bookmark_value>Apache "
+"OpenOffice Report Builder</bookmark_value>"
 
 #: rep_main.xhp#hd_id8773155.help.text
 #: rep_main.xhp%23hd_id8773155.help.text
@@ -5188,12 +5205,11 @@ msgstr ""
 
 #: main.xhp#par_id6474806.help.text
 #: main.xhp%23par_id6474806.help.text
-#, fuzzy
 msgid ""
 "<link href=\"https://wiki.openoffice.org/wiki/Database\">Wiki page about "
 "Base</link>"
 msgstr ""
-"<link href=\"http://wiki.services.openoffice.org/wiki/Database\">Strona Wiki "
+"<link href=\"https://wiki.openoffice.org/wiki/Database\">Strona Wiki "
 "dotycząca programu Base</link>"
 
 #: dabawiz02access.xhp#tit.help.text
@@ -5232,14 +5248,13 @@ msgstr ""
 
 #: dabawiz02access.xhp#par_id1142772.help.text
 #: dabawiz02access.xhp%23par_id1142772.help.text
-#, fuzzy
 msgid ""
 "See also the English Wiki page <link href=\"https://wiki.openoffice.org/wiki"
 "/MSA-Base_Faq\">wiki.openoffice.org/wiki/MSA-Base_Faq</link>."
 msgstr ""
-"Zapoznaj się także z angielską stroną Wiki <link href=\""
-"http://wiki.services.openoffice.org/wiki/MSA-Base_Faq\""
-">http://wiki.services.openoffice.org/wiki/MSA-Base_Faq</link>."
+"Zobacz również angielską stronę Wiki <link href=\""
+"https://wiki.openoffice.org/wiki/MSA-Base_Faq\">wiki.openoffice.org/wiki/MSA-"
+"Base_Faq</link>."
 
 #: dabawiz02access.xhp#par_idN10544.help.text
 #: dabawiz02access.xhp%23par_idN10544.help.text

@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2Foptionen.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-06-13 17:21+0000\n"
+"PO-Revision-Date: 2022-07-02 17:45+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1655140861.000000\n"
+"X-POOTLE-MTIME: 1656783901.000000\n"
 
 #: 01010000.xhp#tit.help.text
 #: 01010000.xhp%23tit.help.text
@@ -2395,7 +2395,6 @@ msgstr "Włącz wyrażenia regularne w formułach"
 
 #: 01060500.xhp#par_id3155092.59.help.text
 #: 01060500.xhp%23par_id3155092.59.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"SC_CHECKBOX_RID_SCPAGE_CALC_BTN_REGEX\">Specifies that regular "
 "expressions are enabled when searching and also for character string "
@@ -2404,12 +2403,12 @@ msgid ""
 "database functions\">database functions</link>, and to VLOOKUP, HLOOKUP and "
 "SEARCH.</caseinline></switchinline>"
 msgstr ""
-"<ahelp hid=\"SC_CHECKBOX_RID_SCPAGE_CALC_BTN_REGEX\">Określa, że podczas "
-"wyszukiwania i porównywania ciągów tekstowych obsługiwane są wyrażenia "
-"regularne.</ahelp><switchinline select=\"appl\"><caseinline select=\"CALC\"> "
-"Opcja dotyczy <link href=\"text/scalc/01/04060101.xhp\" name=\"database "
-"functions\">funkcji baz danych</link> oraz funkcji VLOOKUP, HLOOKUP i "
-"SEARCH. </caseinline></switchinline>"
+"<ahelp hid=\"SC_CHECKBOX_RID_SCPAGE_CALC_BTN_REGEX\">Określa, że wyrażenia "
+"regularne są dopuszczalne w wyszukiwaniu oraz w porównywaniu ciągów "
+"znaków.</ahelp><switchinline select=\"appl\"><caseinline select=\"CALC\"> "
+"Opcja dotyczy <link href=\"text/scalc/01/04060101.xhp\" name=\"funkcje bazy "
+"danych\">funkcji baz danych</link>, oraz funkcji WYSZUKAJ.PIONOWO, "
+"WYSZUKAJ.POZIOMO i SZUKAJ.TEKST.</caseinline></switchinline>"
 
 #: 01060500.xhp#hd_id3156199.55.help.text
 #: 01060500.xhp%23hd_id3156199.55.help.text
@@ -2446,7 +2445,7 @@ msgstr ""
 #: 01060500.xhp#hd_id315634199.help.text
 #: 01060500.xhp%23hd_id315634199.help.text
 msgid "Limit decimals for general number format"
-msgstr ""
+msgstr "Limit miejsc po przecinku dla ogólnego formatu liczby"
 
 #: 01060500.xhp#par_id315343818.help.text
 #: 01060500.xhp%23par_id315343818.help.text
@@ -2456,6 +2455,10 @@ msgid ""
 "cells with General number format show as many decimal places as the column "
 "width allows.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Możesz określić maksymalną liczbę domyślnie wyświetlanych "
+"cyfr po przecinku dla komórek z Ogólnym formatowaniem liczb. Jeśli nie jest "
+"włączone, to w komórkach z Ogólnym formatowaniem liczb będzie wyświetlana "
+"liczba cyfr po przecinku odpowiednia do szerokości kolumny.</ahelp>"
 
 #: 01050000.xhp#tit.help.text
 #: 01050000.xhp%23tit.help.text
@@ -2531,7 +2534,6 @@ msgstr "Program doskonalenia"
 
 #: improvement.xhp#bm_id7687094.help.text
 #: improvement.xhp%23bm_id7687094.help.text
-#, fuzzy
 msgid ""
 "         <bookmark_value>online feedback options</bookmark_value>         "
 "<bookmark_value>options;improvement program</bookmark_value>         "
@@ -2539,12 +2541,11 @@ msgid ""
 "<bookmark_value>feedback;automatically</bookmark_value>         "
 "<bookmark_value>user feedback;automatically</bookmark_value>"
 msgstr ""
-"<bookmark_value>program doskonalenia</bookmark_value>         "
-"<bookmark_value>opcje przesyłania opinii w trybie online</bookmark_value>"
-"         <bookmark_value>opcje; program doskonalenia</bookmark_value>"
-"         <bookmark_value>program doskonalenia</bookmark_value>         "
-"<bookmark_value>opinie;automatycznie</bookmark_value>         "
-"<bookmark_value>opinie użytkowników;automatycznie</bookmark_value>"
+"<bookmark_value>program doskonalenia</bookmark_value><bookmark_value>opcje "
+"przesyłania opinii w trybie online</bookmark_value><bookmark_value>opcje; "
+"program doskonalenia</bookmark_value><bookmark_value>opinie;automatycznie</bo"
+"okmark_value><bookmark_value>opinie "
+"użytkowników;automatycznie</bookmark_value>"
 
 #: improvement.xhp#hd_id0526200912315340.help.text
 #: improvement.xhp%23hd_id0526200912315340.help.text
@@ -2566,18 +2567,16 @@ msgstr ""
 
 #: improvement.xhp#par_id0526200903594966.help.text
 #: improvement.xhp%23par_id0526200903594966.help.text
-#, fuzzy
 msgid ""
 "The Improvement Program was initiated by the User Experience project to "
 "improve the usability of %PRODUCTNAME. The User Experience project can be "
 "found at the Apache OpenOffice website: <link href=\""
 "https://ux.openoffice.org/\">ux.openoffice.org/</link>."
 msgstr ""
-"Program doskonalenia został uruchomiony przez Projekt analizy pracy "
-"użytkownika i służy zwiększeniu przydatności produktu %PRODUCTNAME. "
-"Informacje o Projekcie analizy pracy użytkownika znajdują się na witrynie "
-"programu OpenOffice.org: <link href=\"http://ux.openoffice.org/\""
-">http://ux.openoffice.org/</link>."
+"Program doskonalenia został uruchomiony przez projekt \"Doświadczenie "
+"Użytkownika\" dla zwiększenia przydatności pakietu %PRODUCTNAME. Informacje "
+"o tym projekcie znajdują się na witrynie Apache OpenOffice: <link href=\""
+"https://ux.openoffice.org/\">ux.openoffice.org/</link>."
 
 #: improvement.xhp#par_id0526200903594946.help.text
 #: improvement.xhp%23par_id0526200903594946.help.text
@@ -3058,7 +3057,6 @@ msgstr ""
 
 #: 01010500.xhp#hd_id3150447.7.help.text
 #: 01010500.xhp%23hd_id3150447.7.help.text
-#, fuzzy
 msgctxt "01010500.xhp#hd_id3150447.7.help.text"
 msgid "Color"
 msgstr "Kolor"
@@ -6783,13 +6781,12 @@ msgstr "Odwrotnie"
 
 #: 01040400.xhp#par_id3150486.22.help.text
 #: 01040400.xhp%23par_id3150486.22.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_REVERSE\">Specifies whether to "
 "reverse the printing order. The last page of the document will then be the "
 "first one printed.</ahelp>"
 msgstr ""
-"<ahelp hid=\"SW:CHECKBOX:TP_OPTPRINT_PAGE:CB_REVERSE\">Określa, czy strony "
+"<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_REVERSE\">Określa, czy strony "
 "mają być drukowane w odwrotnej kolejności. Ostatnia strona dokumentu jest "
 "drukowana w pierwszej kolejności.</ahelp>"
 
@@ -6801,13 +6798,12 @@ msgstr "Broszura"
 
 #: 01040400.xhp#par_id3155417.24.help.text
 #: 01040400.xhp%23par_id3155417.24.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_PROSPECT\">Select the<emph> "
 "Brochure </emph>option to print your document in brochure format.</ahelp> "
 "The brochure format is as follows in $[officename] Writer:"
 msgstr ""
-"<ahelp hid=\"SW:CHECKBOX:TP_OPTPRINT_PAGE:CB_PROSPECT\">Zaznaczenie opcji "
+"<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_PROSPECT\">Zaznaczenie opcji "
 "<emph>Broszura</emph> powoduje, że dokument jest drukowany w formacie "
 "broszury.</ahelp> W programie $[officename] Writer format broszury "
 "charakteryzuje się następującymi cechami:"
@@ -6899,7 +6895,6 @@ msgstr "Utwórz pojedyncze zadanie wydruku"
 
 #: 01040400.xhp#par_id3147338.48.help.text
 #: 01040400.xhp%23par_id3147338.48.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_SINGLEJOBS\">Specifies that "
 "each new print job will begin on a new page even if you are using a duplex "
@@ -6907,12 +6902,12 @@ msgid ""
 "first page of the second copy is printed on the reverse side of the last "
 "page of the first copy, especially if there are an odd number of pages."
 msgstr ""
-"<ahelp hid=\"SW:CHECKBOX:TP_OPTPRINT_PAGE:CB_SINGLEJOBS\">Określa, że każde "
+"<ahelp hid=\"sw:CheckBox:TP_OPTPRINT_PAGE:CB_SINGLEJOBS\">Określa, że każde "
 "nowe zadanie drukowania jest rozpoczynane od nowej strony, nawet jeśli "
 "drukarka pracuje w trybie dwustronnym.</ahelp> Jeśli to pole nie jest "
 "zaznaczone, istnieje możliwość, że pierwsza strona drugiej kopii zostanie "
-"wydrukowana na odwrocie ostatniej strony pierwszej kopii, gdy liczba stron "
-"jest nieparzysta."
+"wydrukowana na odwrocie ostatniej strony pierwszej kopii, zwłaszcza gdy "
+"liczba stron jest nieparzysta."
 
 #: 01040400.xhp#hd_id3156384.41.help.text
 #: 01040400.xhp%23hd_id3156384.41.help.text
@@ -9768,13 +9763,12 @@ msgstr ""
 
 #: 01070300.xhp#par_id3149670.33.help.text
 #: 01070300.xhp%23par_id3149670.33.help.text
-#, fuzzy
 msgid ""
 "<variable id=\"seittext\">The cursor or a contour line of the graphics "
 "object must be in the snap range.</variable>"
 msgstr ""
 "<variable id=\"seittext\">Kursor lub kontur obiektu graficznego musi "
-"znajdować się w zakresie przyciągania. </variable>"
+"znajdować się w zakresie przyciągania.</variable>"
 
 #: 01070300.xhp#par_id3148947.38.help.text
 #: 01070300.xhp%23par_id3148947.38.help.text
@@ -9817,13 +9811,12 @@ msgstr ""
 
 #: 01070300.xhp#par_id3147228.34.help.text
 #: 01070300.xhp%23par_id3147228.34.help.text
-#, fuzzy
 msgid ""
 "<variable id=\"rahmtext\">The cursor or a contour line of the graphics "
 "object must be in the snap range.</variable>"
 msgstr ""
 "<variable id=\"rahmtext\">Kursor lub kontur obiektu graficznego musi "
-"znajdować się w zakresie przyciągania. </variable>"
+"znajdować się w zakresie przyciągania.</variable>"
 
 #: 01070300.xhp#par_id3148922.39.help.text
 #: 01070300.xhp%23par_id3148922.39.help.text
@@ -9866,14 +9859,13 @@ msgstr ""
 
 #: 01070300.xhp#par_id3149483.35.help.text
 #: 01070300.xhp%23par_id3149483.35.help.text
-#, fuzzy
 msgid ""
 "<variable id=\"opunktetext\">This only applies if the cursor or a contour "
 "line of the graphics object is in the snap range.</variable>"
 msgstr ""
 "<variable id=\"opunktetext\">Ta opcja ma zastosowanie tylko w przypadku, gdy "
-"kursor lub kontur obiektu graficznego znajduje się w zakresie przyciągania. "
-"</variable>"
+"kursor lub kontur obiektu graficznego znajduje się w zakresie "
+"przyciągania.</variable>"
 
 #: 01070300.xhp#par_id3146146.40.help.text
 #: 01070300.xhp%23par_id3146146.40.help.text
@@ -11446,6 +11438,8 @@ msgid ""
 "            <variable id=\"farbentext\">                <ahelp hid=\".\">"
 "Allows you to define your own colors.</ahelp>            </variable>        "
 msgstr ""
+"<variable id=\"farbentext\"> <ahelp hid=\".\">Umożliwa zdefiniowanie "
+"własnych kolorów.</ahelp> </variable> "
 
 #: 01010501.xhp#par_id9701528.help.text
 #: 01010501.xhp%23par_id9701528.help.text
@@ -11470,11 +11464,13 @@ msgid ""
 "            <ahelp hid=\"cui:Control:ColorPicker:ColorField\">In the big "
 "color field, you click to select a new color.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:Control:ColorPicker:ColorField\">Kliknij w wielkim polu "
+"koloru, aby wybrać nowy kolor.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778802.3.help.text
 #: 01010501.xhp%23hd_id5566778802.3.help.text
 msgid "Color Slider"
-msgstr ""
+msgstr "Suwak koloru"
 
 #: 01010501.xhp#par_id5566778802.help.text
 #: 01010501.xhp%23par_id5566778802.help.text
@@ -11486,11 +11482,17 @@ msgid ""
 "option button. Click inside the color slider to change values in the big "
 "color field.</ahelp>        "
 msgstr ""
+"Kliknij dowolny z sześciu przycisków opcji: Czerwony, Zielony, Niebieski, "
+"Odcień, Nasycenie i Jasność. Suwak koloru pokaże dostępny zakres wartości. <"
+"ahelp hid=\"cui:Control:ColorPicker:ColorSlider\">W suwaku kolorów zobaczysz "
+"zakres wartości, które możesz zmienić zależnie od wybranego przycisku opcji. "
+"Kliknij wewnątrz suwaka koloru, aby zmienić wartości w wielkim polu "
+"koloru.</ahelp> "
 
 #: 01010501.xhp#hd_id5566778803.3.help.text
 #: 01010501.xhp%23hd_id5566778803.3.help.text
 msgid "Current Color Preview"
-msgstr ""
+msgstr "Podgląd bieżącego koloru"
 
 #: 01010501.xhp#par_id5566778803.help.text
 #: 01010501.xhp%23par_id5566778803.help.text
@@ -11499,11 +11501,14 @@ msgid ""
 "half of the preview field, you will always see the current result of your "
 "work in this dialog.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:Control:ColorPicker:ColorPreview\">W lewej połowie pola "
+"podglądu zawsze pokazywany jest aktualny rezulat Twojej pracy w tym oknie "
+"dialogowym.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778803b.3.help.text
 #: 01010501.xhp%23hd_id5566778803b.3.help.text
 msgid "Previous Color"
-msgstr ""
+msgstr "Poprzedni kolor"
 
 #: 01010501.xhp#par_id5566778803b.help.text
 #: 01010501.xhp%23par_id5566778803b.help.text
@@ -11512,6 +11517,9 @@ msgid ""
 "right half of the preview field, you will see the original color from the "
 "parent tab, <emph>Colors</emph>.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:Control:ColorPicker:ColorPrevious\">W prawej połowie pola "
+"podglądu pokazywany jest oryginalny kolor z nadrzędnej zakładki "
+"<emph>Kolory</emph>.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778804.3.help.text
 #: 01010501.xhp%23hd_id5566778804.3.help.text
@@ -11600,7 +11608,7 @@ msgstr ""
 #: 01010501.xhp#hd_id5566778810.3.help.text
 #: 01010501.xhp%23hd_id5566778810.3.help.text
 msgid "Hue"
-msgstr ""
+msgstr "Odcień"
 
 #: 01010501.xhp#par_id5566778810.help.text
 #: 01010501.xhp%23par_id5566778810.help.text
@@ -11608,6 +11616,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Hue\">Sets the Hue in "
 "the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Hue\">Określa wartość odcienia (H) "
+"w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778811.3.help.text
 #: 01010501.xhp%23hd_id5566778811.3.help.text
@@ -11620,11 +11630,13 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Saturation\">Sets the "
 "Saturation in the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Saturation\">Określa wartość "
+"nasycenia (S) w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778812.3.help.text
 #: 01010501.xhp%23hd_id5566778812.3.help.text
 msgid "Brightness"
-msgstr ""
+msgstr "Jasność"
 
 #: 01010501.xhp#par_id5566778812.help.text
 #: 01010501.xhp%23par_id5566778812.help.text
@@ -11632,11 +11644,13 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Brightness\">Sets the "
 "Brightness in the HSB color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Brightness\">Określa wartość "
+"jasności (B) w modelu kolorów HSB.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778813.3.help.text
 #: 01010501.xhp%23hd_id5566778813.3.help.text
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: 01010501.xhp#par_id5566778813.help.text
 #: 01010501.xhp%23par_id5566778813.help.text
@@ -11645,6 +11659,9 @@ msgid ""
 "refers to the four inks used in some color printing: cyan, magenta, yellow, "
 "and key (black)."
 msgstr ""
+"Ten zestaw elementów sterujących umożliwia wybór koloru w modelu kolorów "
+"CMYK. CMYK odnosi się do czterech farb drukarskich stosowanych w druku "
+"barwnym: cyjan, magenta, żółty i klucz (czarny)."
 
 #: 01010501.xhp#hd_id5566778814.3.help.text
 #: 01010501.xhp%23hd_id5566778814.3.help.text
@@ -11657,6 +11674,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Cyan\">Sets the Cyan "
 "color value in the CMYK color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Cyan\">>Określa wartość składowej "
+"Cyjan w modelu kolorów CMYK.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778815.3.help.text
 #: 01010501.xhp%23hd_id5566778815.3.help.text
@@ -11669,6 +11688,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Magenta\">Sets the "
 "Magenta color value in the CMYK color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Magenta\">Określa wartość składowej "
+"Magenta w modelu kolorów CMYK.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778816.3.help.text
 #: 01010501.xhp%23hd_id5566778816.3.help.text
@@ -11681,6 +11702,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Yellow\">Sets the "
 "Yellow color value in the CMYK color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Yellow\">Określa wartość składowej "
+"Żółty w modelu kolorów CMYK.</ahelp>"
 
 #: 01010501.xhp#hd_id5566778817.3.help.text
 #: 01010501.xhp%23hd_id5566778817.3.help.text
@@ -11693,6 +11716,8 @@ msgid ""
 "            <ahelp hid=\"cui:MetricField:ColorPicker:Key\">Sets the Black "
 "color value or key (black) in the CMYK color model.</ahelp>        "
 msgstr ""
+"<ahelp hid=\"cui:MetricField:ColorPicker:Key\">Określa wartość składowej "
+"Czarny w modelu kolorów CMYK.</ahelp>"
 
 #: 01010800.xhp#tit.help.text
 #: 01010800.xhp%23tit.help.text
@@ -11797,7 +11822,6 @@ msgstr ""
 
 #: 01010800.xhp#par_idN10738.help.text
 #: 01010800.xhp%23par_idN10738.help.text
-#, fuzzy
 msgid "Use system font for user interface"
 msgstr "Użyj czcionki systemowej w interfejsie użytkownika"
 
@@ -12166,6 +12190,9 @@ msgid ""
 "immediately after clicking a text object. If off, you must double-click to "
 "edit text.</ahelp></variable>"
 msgstr ""
+"<variable id=\"schnellbearb\"><ahelp hid=\".\">Jeśli aktywne, można edytować "
+"tekst zaraz po kliknięciu obiektu tekstowego. Jeśli nieaktywne, by edytować "
+"tekst, należy kliknąć podwójnie.</ahelp></variable>"
 
 #: 01070500.xhp#par_id3154138.28.help.text
 #: 01070500.xhp%23par_id3154138.28.help.text
@@ -12204,13 +12231,12 @@ msgstr ""
 
 #: 01070500.xhp#par_id3155431.23.help.text
 #: 01070500.xhp%23par_id3155431.23.help.text
-#, fuzzy
 msgid ""
 "<variable id=\"textbereich2\">In the area of the text frame that is not "
 "filled with text, an object behind the text frame can be selected.</variable>"
 msgstr ""
-"<variable id=\"textbereich2\">W partiach ramki tekstowej niewypełnionych "
-"tekstem można wybrać obiekt znajdujący się za ramką tekstową. </variable>"
+"<variable id=\"textbereich2\">W obszarze ramki tekstowej niewypełnionym "
+"tekstem można wybrać obiekt znajdujący się za ramką tekstową.</variable>"
 
 #: 01070500.xhp#par_id3153367.29.help.text
 #: 01070500.xhp%23par_id3153367.29.help.text
