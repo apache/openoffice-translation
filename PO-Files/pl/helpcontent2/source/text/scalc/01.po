@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-07-02 19:13+0000\n"
+"PO-Revision-Date: 2022-07-05 18:43+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1656789180.000000\n"
+"X-POOTLE-MTIME: 1657046623.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -22352,6 +22352,11 @@ msgid ""
 "caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9."
 msgstr ""
+"Funkcja ta generuje nową liczbę losową za każdym razem, gdy arkusz Calc "
+"dokonuje ponownego obliczenia. Aby ręcznie wymusić ponowne wykonanie "
+"obliczeń przez arkusz Calc, naciśnij klawisze Shift+<switchinline select=\""
+"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9."
 
 #: 04060106.xhp#par_id2091433.help.text
 #: 04060106.xhp%23par_id2091433.help.text
@@ -22424,6 +22429,11 @@ msgid ""
 "caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9."
 msgstr ""
+"Funkcja ta generuje nową liczbę losową za każdym razem, gdy arkusz Calc "
+"dokonuje ponownego obliczenia. Aby ręcznie wymusić ponowne wykonanie "
+"obliczeń przez arkusz Calc, naciśnij klawisze Shift+<switchinline select=\""
+"sys\"><caseinline select=\"MAC\""
+">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+F9."
 
 #: 04060106.xhp#par_id9312417.help.text
 #: 04060106.xhp%23par_id9312417.help.text
@@ -47003,14 +47013,13 @@ msgid ""
 "<item type=\"input\">=XOR(12<11;13>22;10)</item> returns TRUE since this "
 "converts to (1+0+10) mod 2 = 0"
 msgstr ""
+"<item type=\"input\">=XOR(12<11;13>22;10)</item> zwraca PRAWDĘ, ponieważ "
+"przekłada się to na (1+0+10) mod 2 = 0"
 
 #: 04060105.xhp#par_id3158412K.help.text
 #: 04060105.xhp%23par_id3158412K.help.text
-#, fuzzy
 msgid "<item type=\"input\">=XOR(FALSE;TRUE)</item> returns TRUE."
-msgstr ""
-"            <item type=\"input\">=LUB(FAŁSZ;PRAWDA)</item> zwraca wartość "
-"PRAWDA."
+msgstr "<item type=\"input\">=XOR(FAŁSZ;PRAWDA)</item> zwraca wartość PRAWDA."
 
 #: 04060116.xhp#tit.help.text
 #: 04060116.xhp%23tit.help.text
@@ -47287,35 +47296,31 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157901.79.help.text
 #: 04060116.xhp%23par_id3157901.79.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCOS(\"3+4j\") </item>returns -27.03-"
 "3.85j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca wartość "
-"-27,03-3,85i (po zaokrągleniu)."
+"<item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca -27.03-3.85j (po "
+"zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3149148.help.text
 #: 04060116.xhp%23bm_id3149148.help.text
-#, fuzzy
 msgid "<bookmark_value>IMCOSH function</bookmark_value>"
-msgstr "<bookmark_value>IMCOS, funkcja</bookmark_value>"
+msgstr "<bookmark_value>COSH.LICZBY.ZESP, funkcja</bookmark_value>"
 
 #: 04060116.xhp#hd_id3149148.help.text
 #: 04060116.xhp%23hd_id3149148.help.text
-#, fuzzy
 msgid "IMCOSH"
-msgstr "IMCOS"
+msgstr "COSH.LICZBY.ZESP"
 
 #: 04060116.xhp#par_id3149727.help.text
 #: 04060116.xhp%23par_id3149727.help.text
-#, fuzzy
 msgid ""
 "<ahelp hid=\"HID_AAI_FUNC_IMCOSH\">The result is the hyberbolic cosine of a "
 "complex number.</ahelp>"
 msgstr ""
-"<ahelp hid=\"HID_AAI_FUNC_IMCOS\">Wynikiem jest cosinus liczby "
-"zespolonej.</ahelp>"
+"<ahelp hid=\"HID_AAI_FUNC_IMCOSH\">Wynikiem jest cosinus hiperboliczny "
+"liczby zespolonej.</ahelp>"
 
 #: 04060116.xhp#hd_id3159118.help.text
 #: 04060116.xhp%23hd_id3159118.help.text
@@ -47325,13 +47330,11 @@ msgstr "Składnia"
 
 #: 04060116.xhp#par_id3147417.help.text
 #: 04060116.xhp%23par_id3147417.help.text
-#, fuzzy
 msgid "IMCOSH(\"ComplexNumber\")"
-msgstr "IMCOS(liczba_zespolona)"
+msgstr "COSH.LICZBY.ZESP(liczba_zespolona)"
 
 #: 04060116.xhp#hd_id3152982.help.text
 #: 04060116.xhp%23hd_id3152982.help.text
-#, fuzzy
 msgctxt "04060116.xhp#hd_id3152982.help.text"
 msgid "Example"
 msgstr "Przykład"
@@ -47418,9 +47421,8 @@ msgstr "Składnia"
 
 #: 04060116.xhp#par_id3147416.help.text
 #: 04060116.xhp%23par_id3147416.help.text
-#, fuzzy
 msgid "IMCSC(\"ComplexNumber\")"
-msgstr "IMCOS(liczba_zespolona)"
+msgstr "CSC.LICZBY.ZESP(\"liczba_zespolona\")"
 
 #: 04060116.xhp#hd_id3152981.help.text
 #: 04060116.xhp%23hd_id3152981.help.text
@@ -47430,13 +47432,12 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157902.help.text
 #: 04060116.xhp%23par_id3157902.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCSC(\"3+4j\") </item>returns 0.00517447+"
 "0.03627589j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMEXP(\"1+j\")</item> zwraca wartość 1,47+"
-"2,29j (zaokrąglone)."
+"            <item type=\"input\">=CSC.LICZBY.ZESP(\"3+4j\") </item>returns "
+"0,00517447+0,03627589j (po zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3149150.help.text
 #: 04060116.xhp%23bm_id3149150.help.text
@@ -48023,13 +48024,12 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3154312.help.text
 #: 04060116.xhp%23par_id3154312.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMSINH(\"3+4j\")</item> returns "
 "-6.54812004-7.61923172j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMSIN(\"3+4j\")</item> zwraca wartość 3,85+"
-"27,02j (zaokrąglone)."
+"<item type=\"input\">=SINH.LICZBY.ZESP(\"3+4j\")</item> zwraca wartość "
+"-6.54812004-7.61923172j (zaokrąglone)."
 
 #: 04060116.xhp#bm_id3163826.help.text
 #: 04060116.xhp%23bm_id3163826.help.text
@@ -48757,14 +48757,12 @@ msgstr ""
 
 #: 04060116.xhp#par_id09022809540918.help.text
 #: 04060116.xhp%23par_id09022809540918.help.text
-#, fuzzy
 msgid ""
 "<link href=\"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
 "_CONVERT_ADD_function\">Current list of CONVERT_ADD units in the "
 "OpenOffice.org Wiki.</link>"
 msgstr ""
-"<link href=\""
-"http://wiki.services.openoffice.org/wiki/Documentation/How_Tos/Calc:"
+"<link href=\"https://wiki.openoffice.org/wiki/Documentation/How_Tos/Calc:"
 "_CONVERT_ADD_function\">Bieżąca lista jednostek funkcji KONWERTUJ_ADD na "
 "stronie Wiki OpenOffice.org.</link>"
 
