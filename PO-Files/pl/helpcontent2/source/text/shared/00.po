@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fshared%2F00.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-07-07 17:32+0000\n"
+"PO-Revision-Date: 2022-07-08 17:46+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657215121.000000\n"
+"X-POOTLE-MTIME: 1657302402.000000\n"
 
 #: 01010000.xhp#tit.help.text
 #: 01010000.xhp%23tit.help.text
@@ -2537,7 +2537,7 @@ msgstr "Określa pełną ścieżkę do obiektu."
 #: 00000200.xhp%23tit.help.text
 msgctxt "00000200.xhp#tit.help.text"
 msgid "Graphics Export Options"
-msgstr ""
+msgstr "Opcje eksportu grafiki"
 
 #: 00000200.xhp#hd_id3150127.help.text
 #: 00000200.xhp%23hd_id3150127.help.text
@@ -5067,7 +5067,6 @@ msgstr ""
 
 #: 00000020.xhp#par_id3144510.16.help.text
 #: 00000020.xhp%23par_id3144510.16.help.text
-#, fuzzy
 msgid ""
 "Text frames are supported with the use of CSS1 extensions for absolute "
 "positioned objects. This applies only to the export options Netscape "
@@ -5078,11 +5077,10 @@ msgid ""
 msgstr ""
 "Obsługa ramek tekstowych odbywa się za pośrednictwem rozszerzeń stylów CSS1 "
 "dla obiektów o pozycji bezwzględnej. Odnosi się to tylko do opcji eksportu "
-"programów Netscape Navigator 4.0, MS Internet Explorer 4.0 i $[officename] "
-"Writer. Ramki tekstowe mogą być wyrównane jako obrazy, <switchinline select="
-"\"sys\"><caseinline select=\"WIN\"> wtyczki plug-in, "
-"</caseinline></switchinline>aplety lub ramki przestawne, ale nie jako ramki "
-"łączone"
+"programów Netscape Navigator, MS Internet Explorer i $[officename] Writer. "
+"Ramki tekstowe mogą być wyrównane jako obrazy, <switchinline select=\"sys\"><"
+"caseinline select=\"WIN\"> wtyczki plug-in,</caseinline></switchinline> lub "
+"ramki przestawne, ale nie jako ramki łączone."
 
 #: 00000020.xhp#par_id3147530.46.help.text
 #: 00000020.xhp%23par_id3147530.46.help.text
@@ -5367,6 +5365,10 @@ msgid ""
 "xhp\" name=\"Graphics Export Options\">Graphics Export Options</link> for "
 "more information."
 msgstr ""
+"Dostęp do niektórych opcji programów $[officename] Draw i $[officename] "
+"Impress jest możliwy przez polecenie <emph>Plik - Eksportuj</emph>. Zobacz <"
+"link href=\"text/shared/00/00000200.xhp\" name=\"Opcje eksportu grafiki\">"
+"Opcje eksportu grafiki</link>, by uzyskać więcej informacji."
 
 #: 00000020.xhp#hd_id3153213.228.help.text
 #: 00000020.xhp%23hd_id3153213.228.help.text
@@ -9222,6 +9224,9 @@ msgid ""
 ", Calc will use the globally set language. If Language is set to a specific "
 "language, that language will be used when importing numbers."
 msgstr ""
+"Jeśli jako Język został wybrany Domyślny (dla importu CSV) lub Automatyczny ("
+"dla importu HTML), Calc użyje globalnie wybranego języka. Jeśli wybrany "
+"został konkretny język, to on zostanie użyty dla importu liczb."
 
 #: 00000208.xhp#par_id314949586.help.text
 #: 00000208.xhp%23par_id314949586.help.text
@@ -9233,6 +9238,12 @@ msgid ""
 "you select a specific language in the HTML Import Options dialog, the global "
 "HTML option is ignored."
 msgstr ""
+"Kiedy importowany jest dokument HTML, wybrany Język może być w konflikcie z "
+"globalną opcją HTML <link href=\"text/shared/optionen/01030500.xhp\" name=\""
+"Use\">Użyj ustawień narodowych Angielski (USA) dla liczb</link>. Globalna "
+"opcja HTML daje efekt jedynie wtedy, gdy wybrana jest opcja automatycznego "
+"wyboru języka. Jeśli w opcjach importu HTML wybierzesz konkretny język, "
+"globalna opcja HTML jest ignorowana."
 
 #: 00000208.xhp#hd_id3154894.47.help.text
 #: 00000208.xhp%23hd_id3154894.47.help.text
@@ -9399,17 +9410,17 @@ msgstr ""
 #: 00000208.xhp#hd_id315538811.help.text
 #: 00000208.xhp%23hd_id315538811.help.text
 msgid "Other options"
-msgstr ""
+msgstr "Inne opcje"
 
 #: 00000208.xhp#par_id315366511.help.text
 #: 00000208.xhp%23par_id315366511.help.text
 msgid "Sets some other import options."
-msgstr ""
+msgstr "Określa inne opcje importu."
 
 #: 00000208.xhp#hd_id314847411.help.text
 #: 00000208.xhp%23hd_id314847411.help.text
 msgid "Quoted fields as text"
-msgstr ""
+msgstr "Cytowane pola jako tekst"
 
 #: 00000208.xhp#par_id314995711.help.text
 #: 00000208.xhp%23par_id314995711.help.text
@@ -9418,6 +9429,9 @@ msgid ""
 "are quoted in their entirety (the first and last characters of the value "
 "equal the text delimiter) are imported as text.</ahelp>"
 msgstr ""
+"<ahelp hid=\".\">Kiedy ta opcja jest włączona, pola lub komórki, których "
+"wartość jest cytowana w całości (pierwszy i ostatni znak wartości są równe "
+"ogranicznikowi tekstu), są importowane jako tekst.</ahelp>"
 
 #: 00000208.xhp#hd_id314847422.help.text
 #: 00000208.xhp%23hd_id314847422.help.text
@@ -10379,6 +10393,8 @@ msgid ""
 "<variable id=\"addressimport4\"><emph>Address Data Source Wizards</emph> - "
 "<emph>Data source title</emph></variable>"
 msgstr ""
+"<variable id=\"addressimport4\"><emph>Kreatory źródeł danych "
+"adresowych</emph> - <emph>Tytuł źródła danych</emph></variable>"
 
 #: 00000401.xhp#par_id3148995.194.help.text
 #: 00000401.xhp%23par_id3148995.194.help.text
@@ -11022,7 +11038,7 @@ msgstr ""
 #: 00000207.xhp#hd_id783149793.help.text
 #: 00000207.xhp%23hd_id783149793.help.text
 msgid "Quote all text cells"
-msgstr ""
+msgstr "Cytuj wszystkie komórki tekstowe"
 
 #: 00000207.xhp#par_id3152778363.help.text
 #: 00000207.xhp%23par_id3152778363.help.text
