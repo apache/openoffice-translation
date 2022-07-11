@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-07-05 18:43+0000\n"
+"PO-Revision-Date: 2022-07-10 18:33+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657046623.000000\n"
+"X-POOTLE-MTIME: 1657477988.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -22590,20 +22590,18 @@ msgstr ""
 
 #: 04060106.xhp#bm_id3164897K.help.text
 #: 04060106.xhp%23bm_id3164897K.help.text
-#, fuzzy
 msgid ""
 "<bookmark_value>COUNTIFS function</bookmark_value><bookmark_value>counting;"
 "specified cells</bookmark_value>"
 msgstr ""
-"<bookmark_value>LICZ.JEŻELI, "
+"<bookmark_value>LICZ.WARUNKI, "
 "funkcja</bookmark_value><bookmark_value>liczenie;określone "
 "komórki</bookmark_value>"
 
 #: 04060106.xhp#hd_id3164897K.help.text
 #: 04060106.xhp%23hd_id3164897K.help.text
-#, fuzzy
 msgid "COUNTIFS"
-msgstr "LICZ.JEŻELI"
+msgstr "LICZ.WARUNKI"
 
 #: 04060106.xhp#par_id3164926K.help.text
 #: 04060106.xhp%23par_id3164926K.help.text
@@ -22611,6 +22609,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_ZAEHLENWNRNG\">Count the number of cells that meet "
 "multiple criteria in multiple ranges.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_ZAEHLENWNRNG\">Zwraca liczbę komórek spełniających "
+"wiele kryteriów w wielu zakresach.</ahelp>"
 
 #: 04060106.xhp#hd_id3164953K.help.text
 #: 04060106.xhp%23hd_id3164953K.help.text
@@ -22623,6 +22623,8 @@ msgstr "Składnia"
 msgid ""
 "COUNTIFS( Reference R1 ; Criterion C1 [ ; Reference R2 ; Criterion C2 ]... )"
 msgstr ""
+"LICZ.WARUNKI( odwołanie R1 ; kryterium C1 [ ; odwołanie R2 ; kryterium C2 ]"
+"... )"
 
 #: 04060106.xhp#par_id3164980K.help.text
 msgid ""
@@ -22633,7 +22635,6 @@ msgstr ""
 
 #: 04060106.xhp#par_id3165000K.help.text
 #: 04060106.xhp%23par_id3165000K.help.text
-#, fuzzy
 msgid ""
 "All <emph>Reference </emph> ranges shall have the same dimension and size, "
 "else an Error is returned. <emph>Criteria</emph> indicates the criteria in "
@@ -22643,21 +22644,20 @@ msgid ""
 "may also indicate a cell range that contains the search criterion. If you "
 "search for literal text, enclose the text in double quotes."
 msgstr ""
-"<emph>Kryteria</emph> oznaczają kryteria wyszukiwania w postaci liczby, "
-"wyrażenia lub ciągu znaków. Kryteria określają komórki, które mają być "
-"uwzględnione w obliczeniach. Funkcja pozwala także na wprowadzenie "
-"poszukiwanego tekstu w formie wyrażenia regularnego, np. wprowadzenie ciągu "
-"\"b*\" pozwala na wyszukanie wszystkich słów rozpoczynających się na literę "
-"b. Można także wskazać zakres komórek zawierający kryteria wyszukiwania. W "
-"celu wyszukania tekstu w dokładnie podanym brzmieniu należy ująć go w "
-"cudzysłów."
+"Wszystkie <emph>referencyjne</emph> zakresy powinny mieć ten sam wymiar i "
+"wielkość, w przeciwnym razie zwracany jest błąd. <emph>Kryteria</emph> "
+"oznaczają kryteria w postaci liczby, wyrażenia lub ciągu znaków. Kryteria te "
+"określają, które komórki są liczone. Funkcja pozwala także na wprowadzenie "
+"poszukiwanego tekstu w formie wyrażenia regularnego, np. b.* dla wszystkich "
+"słów rozpoczynających się na literę b. Można także wskazać zakres komórek, "
+"który zawiera kryterium wyszukiwania. W celu wyszukania tekstu w dosłownym "
+"brzmieniu należy ująć go w cudzysłów."
 
 #: 04060106.xhp#hd_id3165037K.553.help.text
 #: 04060106.xhp%23hd_id3165037K.553.help.text
-#, fuzzy
 msgctxt "04060106.xhp#hd_id3165037K.553.help.text"
 msgid "Examples:"
-msgstr "Przykład:"
+msgstr "Przykłady:"
 
 #: 04060106.xhp#par_id3166505K.help.text
 msgid ""
@@ -22666,6 +22666,9 @@ msgid ""
 "containing the numbers<item type=\"input\">2007</item> to <item type=\""
 "input\">2016</item>:"
 msgstr ""
+"Zakres komórek A1:A10 zawiera liczby od <item type=\"input\">2000</item> do <"
+"item type=\"input\">2009</item>. Zakres komórek B1:B10 zawiera liczby od <"
+"item type=\"input\">2007</item> do <item type=\"input\">2016</item>:"
 
 #: 04060106.xhp#par_id3581652K.help.text
 #: 04060106.xhp%23par_id3581652K.help.text
@@ -23386,7 +23389,6 @@ msgstr "Usuń komórki"
 
 #: 02160000.xhp#par_id3154490.2.help.text
 #: 02160000.xhp%23par_id3154490.2.help.text
-#, fuzzy
 msgid ""
 "<variable id=\"zellenloeschentext\"><ahelp hid=\".uno:DeleteCell\">"
 "Completely deletes selected cells, columns or rows. The cells below or to "
@@ -23395,8 +23397,8 @@ msgid ""
 "next called."
 msgstr ""
 "<variable id=\"zellenloeschentext\"><ahelp hid=\".uno:DeleteCell\">"
-"Całkowicie usuwa wybrane komórki, kolumny lub wiersze. Komórki poniżej i po "
-"prawej stronie usuwanych komórek zajmą ich miejsce.</ahelp> </variable> "
+"Całkowicie usuwa wybrane komórki, kolumny lub wiersze. Komórki poniżej lub "
+"po prawej stronie usuwanych komórek zajmą ich miejsce.</ahelp></variable> "
 "Należy pamiętać, że wybrana opcja usuwania jest zapamiętywana i używana przy "
 "następnym wywołaniu tego okna dialogowego."
 
@@ -23475,7 +23477,6 @@ msgstr ""
 
 #: 02160000.xhp#par_id3166424.help.text
 #: 02160000.xhp%23par_id3166424.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/scalc/01/02150000.xhp\" name=\"Deleting Contents\">"
 "Deleting Contents</link>"
@@ -25436,6 +25437,11 @@ msgid ""
 "period, enter 8%/12 under <emph>Rate</emph> and <item type=\"productname\""
 ">%PRODUCTNAME</item> Calc will automatically calculate the correct factor."
 msgstr ""
+"Powyższe wartości wprowadza się w postaci liczb, wyrażeń lub odwołań. Na "
+"przykład jeśli odsetki są wypłacane rocznie na poziomie 8%, ale okresem "
+"rozliczeniowym ma być miesiąc, jako parametr <emph>stopa</emph> należy "
+"wprowadzić wartość 8%/12, a <item type=\"productname\">%PRODUCTNAME</item> "
+"Calc automatycznie obliczy prawidłowy współczynnik."
 
 #: 04060103.xhp#hd_id3147407.7.help.text
 #: 04060103.xhp%23hd_id3147407.7.help.text
@@ -28353,7 +28359,7 @@ msgstr ""
 #: 12010000.xhp#hd_id3150010.12.help.text
 msgctxt "12010000.xhp#hd_id3150010.12.help.text"
 msgid "More"
-msgstr ""
+msgstr "Więcej"
 
 #: 12010000.xhp#par_id3153144.13.help.text
 #: 12010000.xhp%23par_id3153144.13.help.text
@@ -29589,13 +29595,12 @@ msgstr ""
 
 #: 12090102.xhp#par_id3149817.35.help.text
 #: 12090102.xhp%23par_id3149817.35.help.text
-#, fuzzy
 msgid ""
 "<link href=\"text/scalc/04/01020000.xhp\" name=\"Pivot table shortcut keys\">"
 "Pivot table shortcut keys</link>"
 msgstr ""
-"<link href=\"text/scalc/04/01020000.xhp\" name=\"DataPilot shortcut keys\">"
-"Klawisze skrótów Pilota danych</link>"
+"<link href=\"text/scalc/04/01020000.xhp\" name=\"Skróty klawiszowe tabeli "
+"przestawnej\">Skróty klawiszowe tabeli przestawnej</link>"
 
 #: func_timevalue.xhp#tit.help.text
 #: func_timevalue.xhp%23tit.help.text
@@ -30870,7 +30875,7 @@ msgstr "Przykład"
 
 #: 04060184.xhp#par_id3153122.33.help.text
 msgid "<item type=\"input\">=AVEDEV(A1:A50)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=ODCH.ŚREDNIE(A1:A50)</item>"
 
 #: 04060184.xhp#bm_id3145824.help.text
 #: 04060184.xhp%23bm_id3145824.help.text
@@ -30989,6 +30994,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_MITTELWERTB\">Average the values of cells in a range "
 "that meet a criteria.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_MITTELWERTB\">Uśrednia zawartość komórek w zakresie, "
+"które spełniają kryterium.</ahelp>"
 
 #: 04060184.xhp#hd_id3153326K1.159.help.text
 #: 04060184.xhp%23hd_id3153326K1.159.help.text
@@ -30999,7 +31006,7 @@ msgstr "Składnia"
 #: 04060184.xhp#par_id3149734K1.help.text
 #: 04060184.xhp%23par_id3149734K1.help.text
 msgid "AVERAGEIF( Reference R ; Criterion C [ ; Reference A ] )"
-msgstr ""
+msgstr "ŚREDNIA.JEŻELI(odwołanie R; kryterium C [ ; odwołanie A ])"
 
 #: 04060184.xhp#par_id3155260K1.help.text
 msgid ""
@@ -31016,10 +31023,11 @@ msgid ""
 "If no cell in range R matches the Criterion C, an Error is returned. If no "
 "Numbers are in the range to be averaged, an Error is returned."
 msgstr ""
+"Jeśli żadna komórka w zakresie R nie spełnia kryterium C, zwracany jest "
+"błąd. Jeśli w zakresie do uśrednienia nie ma liczb, zwracany jest błąd."
 
 #: 04060184.xhp#hd_id3149504K1.162.help.text
 #: 04060184.xhp%23hd_id3149504K1.162.help.text
-#, fuzzy
 msgctxt "04060184.xhp#hd_id3149504K1.162.help.text"
 msgid "Examples"
 msgstr "Przykłady"
@@ -31029,6 +31037,8 @@ msgid ""
 "<item type=\"input\">=AVERAGEIF(A1:A50;\">\"0)</item> will return the "
 "average of A1:A50 of all positive values in the range."
 msgstr ""
+"<item type=\"input\">=ŚREDNIA.JEŻELI(A1:A50;\">\"0)</item> zwraca średnią z "
+"wszystkich wartość dodatnich w zakresie A1:A50."
 
 #: 04060184.xhp#bm_id3148754K2.help.text
 #: 04060184.xhp%23bm_id3148754K2.help.text
@@ -31046,6 +31056,8 @@ msgid ""
 "<ahelp hid=\"HID_FUNC_MITTELWERTC\">Average the values of cells that meet "
 "multiple criteria in multiple ranges.</ahelp>"
 msgstr ""
+"<ahelp hid=\"HID_FUNC_MITTELWERTC\">Uśrednia wartości komórek, które "
+"spełniają określone kryteria w określonych zakresach.</ahelp>"
 
 #: 04060184.xhp#hd_id3153326K2.159.help.text
 #: 04060184.xhp%23hd_id3153326K2.159.help.text
@@ -31067,6 +31079,9 @@ msgid ""
 "Criterion C1 in the reference range R1 and the Criterion C2 in the reference "
 "range R2, and so on."
 msgstr ""
+"Uśrednia wartość komórek w referencyjnym zakresie A, które spełniają "
+"kryterium C1 w referencyjnym zakresie R1 oraz kryterium C2 w referencyjnym "
+"zakresie R2, i tak dalej."
 
 #: 04060184.xhp#par_id3145139K2.help.text
 #: 04060184.xhp%23par_id3145139K2.help.text
@@ -31077,6 +31092,12 @@ msgid ""
 "position in each array is the result of a Criterion match. If no numbers are "
 "in the result set to be averaged, an Error is returned."
 msgstr ""
+"Wszystkie referencyjne zakresy muszą mieć ten sam wymiar i wielkość, w "
+"przeciwnym razie zwracany jest błąd. Logiczne I jest używane pomiędzy każdą "
+"macierzą wynikową każdego wyboru; komórka referencyjnego zakresu A jest "
+"wartościowana wyłącznie wówczas, gdy ta sama pozycja w każdej macierzy jest "
+"rezultatem spełnienia kryterium. Jeśli w zbiorze wynikowym do uśrednienia "
+"nie ma liczb, zwracany jest błąd."
 
 #: 04060184.xhp#hd_id3149504K2.162.help.text
 #: 04060184.xhp%23hd_id3149504K2.162.help.text
@@ -44502,7 +44523,7 @@ msgstr ""
 #: 12010100.xhp#hd_id3146976.13.help.text
 msgctxt "12010100.xhp#hd_id3146976.13.help.text"
 msgid "Less"
-msgstr ""
+msgstr "Mniej"
 
 #: 12010100.xhp#par_id3149664.14.help.text
 #: 12010100.xhp%23par_id3149664.14.help.text
@@ -46488,6 +46509,8 @@ msgid ""
 "<variable id=\"logischtext\">This category contains the <emph>Logical</emph> "
 "functions.</variable>"
 msgstr ""
+"<variable id=\"logischtext\">W tej kategorii znajdują się funkcje "
+"<emph>Logiczne</emph>.</variable>"
 
 #: 04060105.xhp#bm_id3147505.help.text
 #: 04060105.xhp%23bm_id3147505.help.text
@@ -46640,9 +46663,8 @@ msgstr "Jeśli A=PRAWDA i B=FAŁSZ:"
 
 #: 04060105.xhp#par_id3083285.44.help.text
 #: 04060105.xhp%23par_id3083285.44.help.text
-#, fuzzy
 msgid "           <item type=\"input\">=AND(A;B)</item> returns FALSE"
-msgstr "            <item type=\"input\">=I(A;B)</item> zwraca wartość FAŁSZ."
+msgstr "<item type=\"input\">=I(A;B)</item> zwraca wartość FAŁSZ"
 
 #: 04060105.xhp#par_id3083444.45.help.text
 #: 04060105.xhp%23par_id3083444.45.help.text
@@ -46971,14 +46993,13 @@ msgstr ""
 
 #: 04060105.xhp#par_id3149027K.help.text
 #: 04060105.xhp%23par_id3149027K.help.text
-#, fuzzy
 msgctxt "04060105.xhp#par_id3149027K.help.text"
 msgid ""
 "If the entered range is outside of the current column or row of the formula, "
 "the function returns the error value #VALUE!"
 msgstr ""
 "Jeśli wprowadzony zakres znajduje się poza bieżącą kolumną lub wierszem "
-"formuły, funkcja zwraca wartość błędu #WARTOŚĆ"
+"formuły, funkcja zwraca wartość błędu #WARTOŚĆ!"
 
 #: 04060105.xhp#hd_id3155517K.22.help.text
 #: 04060105.xhp%23hd_id3155517K.22.help.text
@@ -46988,9 +47009,8 @@ msgstr "Składnia"
 
 #: 04060105.xhp#par_id3150468K.help.text
 #: 04060105.xhp%23par_id3150468K.help.text
-#, fuzzy
 msgid "XOR(Value1; Value2 ...Value30)"
-msgstr "WARIANCJA.A (wartość_1; wartość_2; ...wartość_30)"
+msgstr "XOR(wartość_1; wartość_2; ...wartość_30)"
 
 #: 04060105.xhp#par_id3155819K.24.help.text
 #: 04060105.xhp%23par_id3155819K.24.help.text
@@ -46999,13 +47019,15 @@ msgid ""
 "if the result of this addition is 1;FALSE is returned if the result of this "
 "addition is 0."
 msgstr ""
+"<emph>wartość_1; wartość_2 ...wartość_30</emph> są dodawane modulo 2. PRAWDA "
+"jest zwracana, jeśli wynikiem dodawania jest 1; FAŁSZ jest zwracany, jeśli "
+"wynikiem dodawania jest 0."
 
 #: 04060105.xhp#hd_id3153228K.help.text
 #: 04060105.xhp%23hd_id3153228K.help.text
-#, fuzzy
 msgctxt "04060105.xhp#hd_id3153228K.help.text"
 msgid "Examples:"
-msgstr "Przykład:"
+msgstr "Przykłady:"
 
 #: 04060105.xhp#par_id3155371K.help.text
 #: 04060105.xhp%23par_id3155371K.help.text
