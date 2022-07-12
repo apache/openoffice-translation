@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-07-07 19:50+0000\n"
+"PO-Revision-Date: 2022-07-11 18:28+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657223408.000000\n"
+"X-POOTLE-MTIME: 1657564130.000000\n"
 
 #: textdlgs.src#RID_SCDLG_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
 #: textdlgs.src%23RID_SCDLG_CHAR.1.RID_SVXPAGE_CHAR_NAME.pageitem.text
@@ -693,15 +693,14 @@ msgstr "Вставити ~як..."
 #: scwarngs.src#RID_WRNHDLSC.ERRCODE_SC_EXPORT_WRN_ASCII___SH_MAX.string.text
 #: scwarngs.src%23RID_WRNHDLSC.ERRCODE_SC_EXPORT_WRN_ASCII___SH_MAX.string.text
 msgid "Only the active sheet could be saved."
-msgstr "Збережено лише активний аркуш."
+msgstr "Можна зберегти лише активний аркуш."
 
 #: scwarngs.src#RID_WRNHDLSC.ERRCODE_SC_IMPORT_WRN_RNGOVRFLW___SH_MAX.string.text
 #: scwarngs.src%23RID_WRNHDLSC.ERRCODE_SC_IMPORT_WRN_RNGOVRFLW___SH_MAX.string.text
 msgid ""
 "The number of rows exceeded the maximum. Additional rows were not imported!"
 msgstr ""
-"Максимальна кількість рядків перевищено. Рядки, що перевищують вказане "
-"число, імпортовані не будуть!"
+"Кількість рядків перевищила максимальну. Додаткові рядки не були імпортовані!"
 
 #: attrdlg.src#RID_SCDLG_ATTR.1.TP_NUMBER.pageitem.text
 #: attrdlg.src%23RID_SCDLG_ATTR.1.TP_NUMBER.pageitem.text
@@ -861,7 +860,7 @@ msgstr "Ра~зом з форматами"
 #: subtdlg.src#RID_SCPAGE_SUBT_OPTIONS.BTN_USERDEF.checkbox.text
 #: subtdlg.src%23RID_SCPAGE_SUBT_OPTIONS.BTN_USERDEF.checkbox.text
 msgid "C~ustom sort order"
-msgstr "~Порядок сортування, визначений користувачів"
+msgstr "~Налаштований порядок сортування"
 
 #: subtdlg.src#RID_SCPAGE_SUBT_OPTIONS.BTN_ASCENDING.radiobutton.text
 #: subtdlg.src%23RID_SCPAGE_SUBT_OPTIONS.BTN_ASCENDING.radiobutton.text
@@ -9473,8 +9472,8 @@ msgid ""
 "Converts a text of a specified number system to a positive integer in the "
 "base given."
 msgstr ""
-"Конвертує текст, написаний у заданій системі числення, у десяткове "
-"число.наданої бази."
+"Перетворює текст у вказаній системі числення на додатне ціле число за "
+"вказаною основою."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.2.string.text
@@ -9491,7 +9490,7 @@ msgstr "Текст, що буде перетворений."
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.4.string.text"
 msgid "radix"
-msgstr "базис"
+msgstr "основа"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.5.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_DECIMAL.5.string.text
@@ -9505,7 +9504,8 @@ msgid ""
 "Converts a value according to a conversion table in the configuration "
 "(calc.xcu)."
 msgstr ""
-"Перетворює значення відповідно до таблиці замін у конфігурації (calc.xcu)."
+"Перетворює значення відповідно до таблиці перетворення у конфігурації "
+"(calc.xcu)."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.2.string.text
@@ -9528,7 +9528,7 @@ msgstr "текст"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.5.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.5.string.text
 msgid "Unit from which something is converted, case-sensitive."
-msgstr "Одиниця, до якої виконується перетворення, з врахуванням регістру."
+msgstr "Одиниця, з якої щось перетворюється, з урахуванням регістру."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.6.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.6.string.text
@@ -9539,7 +9539,7 @@ msgstr "текст"
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.7.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_CONVERT.7.string.text
 msgid "Unit into which something is converted, case-sensitive."
-msgstr "Одиниця, у яку відбувається перетворення, із врахуванням регістру."
+msgstr "Одиниця, в яку щось перетворюється, із урахуванням регістру."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ROMAN.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ROMAN.1.string.text
@@ -9556,7 +9556,9 @@ msgstr "Число"
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ROMAN.3.string.text
 msgid ""
 "The number to be converted to a Roman numeral must be in the 0 - 3999 range."
-msgstr "Число, що перетворюється на римське, має знаходитися у межах 0 - 3999."
+msgstr ""
+"Число, яке потрібно перетворити на римську цифру, має бути в діапазоні від 0 "
+"до 3999."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ROMAN.4.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ROMAN.4.string.text
@@ -9576,7 +9578,7 @@ msgstr ""
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ARABIC.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ARABIC.1.string.text
 msgid "Calculates the value of a Roman numeral."
-msgstr "Перетворює римське число на арабське."
+msgstr "Обчислює значення римської цифри."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ARABIC.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_ARABIC.2.string.text
@@ -9612,7 +9614,7 @@ msgstr ""
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICODE.1.string.text
 msgid ""
 "Returns the numeric code for the first Unicode character in a text string."
-msgstr "Повертає числовий код першого символу у текстовому рядку."
+msgstr "Повертає числовий код для першого символу Unicode у текстовому рядку."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICODE.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICODE.2.string.text
@@ -9625,12 +9627,12 @@ msgstr "текст"
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICODE.3.string.text"
 msgid ""
 "This is the text for which the code of the first character is to be found."
-msgstr "Текст, у якому требв дізнатись код першого символу."
+msgstr "Текст, у якому треба дізнатись код першого символу."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICHAR.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICHAR.1.string.text
 msgid "Converts a code number into a Unicode character or letter."
-msgstr "Перетворює число на символ."
+msgstr "Перетворює кодовий номер на символ або літеру Unicode."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICHAR.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_UNICHAR.2.string.text
@@ -9694,13 +9696,13 @@ msgid ""
 "If omitted or 0 or FALSE, the result is rounded to the decimals of "
 "to_currency. Else the result is not rounded."
 msgstr ""
-"Якщо значення не вказано, або дорівнює 0 чи FALSE, результат округляється до "
-"десятих частин  to_currency. У іншому випадку результат не округляється."
+"Якщо значення не вказано, 0 або FALSE, результат округлюється до десяткових "
+"знаків to_currency. Інакше результат не округлюється."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EUROCONVERT.10.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EUROCONVERT.10.string.text
 msgid "triangulation_precision"
-msgstr "triangulation_precision"
+msgstr "триангуляційна_точність"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EUROCONVERT.11.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_EUROCONVERT.11.string.text
@@ -9715,7 +9717,7 @@ msgstr ""
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NUMBERVALUE.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NUMBERVALUE.1.string.text
 msgid "Converts text to a number, in a locale-independent way."
-msgstr "Перетворює текст на число, враховуючи локаль."
+msgstr "Перетворює текст на число незалежно від регіональних налаштувань."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NUMBERVALUE.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_NUMBERVALUE.2.string.text
@@ -10148,12 +10150,12 @@ msgstr "~Враховувати регістр"
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.STR_COL_LABEL.string.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.STR_COL_LABEL.string.text
 msgid "Range contains column la~bels"
-msgstr "Заголовки стовпчиків у ~області"
+msgstr "Область містить ~заголовки стовпців"
 
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.STR_ROW_LABEL.string.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.STR_ROW_LABEL.string.text
 msgid "Range contains ~row labels"
-msgstr "Заголовки рядків у о~бласті"
+msgstr "Область містить заголовки ~рядків"
 
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.BTN_FORMATS.checkbox.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.BTN_FORMATS.checkbox.text
@@ -10168,7 +10170,7 @@ msgstr "~Копіювати результати сортування до:"
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.BTN_SORT_USER.checkbox.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.BTN_SORT_USER.checkbox.text
 msgid "Custom sort ~order"
-msgstr "~Порядок сортування, визначений користувачем"
+msgstr "~Налаштований порядок сортування"
 
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.FT_LANGUAGE.fixedtext.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.FT_LANGUAGE.fixedtext.text
@@ -10194,17 +10196,17 @@ msgstr "З~верху донизу (сортування рядків)"
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.BTN_LEFT_RIGHT.radiobutton.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.BTN_LEFT_RIGHT.radiobutton.text
 msgid "L~eft to right (sort columns)"
-msgstr "З~ліва направо (сортування стовпчиків)"
+msgstr "З~ліва направо (сортування стовпців)"
 
 #: sortdlg.src#RID_SCPAGE_SORT_OPTIONS.FT_AREA_LABEL.fixedtext.text
 #: sortdlg.src%23RID_SCPAGE_SORT_OPTIONS.FT_AREA_LABEL.fixedtext.text
 msgid "Data area:"
-msgstr "Обалсть даних:"
+msgstr "Область даних:"
 
 #: sortdlg.src#RID_SCDLG_SORT.1.TP_FIELDS.pageitem.text
 #: sortdlg.src%23RID_SCDLG_SORT.1.TP_FIELDS.pageitem.text
 msgid "Sort Criteria"
-msgstr "Умова сортування"
+msgstr "Критерії сортування"
 
 #: sortdlg.src#RID_SCDLG_SORT.1.TP_OPTIONS.pageitem.text
 #: sortdlg.src%23RID_SCDLG_SORT.1.TP_OPTIONS.pageitem.text
@@ -10274,7 +10276,7 @@ msgstr "Зменшити"
 #: tabopdlg.src#RID_SCDLG_TABOP.FT_ROWCELL.fixedtext.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.FT_ROWCELL.fixedtext.text
 msgid "~Row input cell"
-msgstr "~Рядок вводу"
+msgstr "Комірка введення ~рядка"
 
 #: tabopdlg.src#RID_SCDLG_TABOP.RB_ROWCELL.imagebutton.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.RB_ROWCELL.imagebutton.text
@@ -10291,7 +10293,7 @@ msgstr "Зменшити"
 #: tabopdlg.src#RID_SCDLG_TABOP.FT_COLCELL.fixedtext.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.FT_COLCELL.fixedtext.text
 msgid "~Column input cell"
-msgstr "~Стовпчик вводу"
+msgstr "Комірка введення ~стовпця"
 
 #: tabopdlg.src#RID_SCDLG_TABOP.RB_COLCELL.imagebutton.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.RB_COLCELL.imagebutton.text
@@ -10309,32 +10311,32 @@ msgstr "Зменшити"
 #: tabopdlg.src%23RID_SCDLG_TABOP.FL_VARIABLES.fixedline.text
 msgctxt "tabopdlg.src#RID_SCDLG_TABOP.FL_VARIABLES.fixedline.text"
 msgid "Default settings"
-msgstr "Типові параметри"
+msgstr "Типові налаштування"
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_NOFORMULA.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_NOFORMULA.string.text
 msgid "No formula specified."
-msgstr "Не вказана формула."
+msgstr "Формула не вказана."
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_NOCOLROW.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_NOCOLROW.string.text
 msgid "Neither row or column specified."
-msgstr "Ані рядки, ані стовпчики не вказані."
+msgstr "Не вказано ні рядок, ні стовпець."
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_WRONGFORMULA.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_WRONGFORMULA.string.text
 msgid "Undefined name or range."
-msgstr "Назва або область не визначені."
+msgstr "Невизначене ім'я або область."
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_WRONGROWCOL.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_WRONGROWCOL.string.text
 msgid "Undefined name or wrong cell reference."
-msgstr "Невизначена назва або неправильне посилання комірки."
+msgstr "Невизначене ім’я або неправильне посилання на комірку."
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_NOCOLFORMULA.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_NOCOLFORMULA.string.text
 msgid "Formulas don't form a column."
-msgstr "Формули не створюють стовпчик."
+msgstr "Формули не створюють стовпець."
 
 #: tabopdlg.src#RID_SCDLG_TABOP.STR_NOROWFORMULA.string.text
 #: tabopdlg.src%23RID_SCDLG_TABOP.STR_NOROWFORMULA.string.text
@@ -10350,7 +10352,7 @@ msgstr "Сполучені операції"
 #: simpref.src#RID_SCDLG_SIMPLEREF.FT_ASSIGN.fixedtext.text
 #: simpref.src%23RID_SCDLG_SIMPLEREF.FT_ASSIGN.fixedtext.text
 msgid "Area"
-msgstr "Діапазон"
+msgstr "Область"
 
 #: simpref.src#RID_SCDLG_SIMPLEREF.RB_ASSIGN.imagebutton.text
 #: simpref.src%23RID_SCDLG_SIMPLEREF.RB_ASSIGN.imagebutton.text
@@ -14509,13 +14511,13 @@ msgstr "Додати"
 #: scstring.src%23STR_COLWIDTH_TITLE.string.text
 msgctxt "scstring.src#STR_COLWIDTH_TITLE.string.text"
 msgid "Column Width"
-msgstr "Ширина стовпчика"
+msgstr "Ширина стовпця"
 
 #: scstring.src#STR_OPT_COLWIDTH_TITLE.string.text
 #: scstring.src%23STR_OPT_COLWIDTH_TITLE.string.text
 msgctxt "scstring.src#STR_OPT_COLWIDTH_TITLE.string.text"
 msgid "Optimal Column Width"
-msgstr "Оптимальна ширина стовпчика"
+msgstr "Оптимальна ширина стовпця"
 
 #: scstring.src#SCSTR_UNDEFINED.string.text
 #: scstring.src%23SCSTR_UNDEFINED.string.text
@@ -14530,7 +14532,7 @@ msgstr "- немає -"
 #: scstring.src#SCSTR_EMPTY.string.text
 #: scstring.src%23SCSTR_EMPTY.string.text
 msgid "- empty -"
-msgstr "- немає -"
+msgstr "- порожньо -"
 
 #: scstring.src#SCSTR_NOTEMPTY.string.text
 #: scstring.src%23SCSTR_NOTEMPTY.string.text
@@ -14567,7 +14569,7 @@ msgstr "безіменний"
 #: scstring.src%23SCSTR_COLUMN.string.text
 msgctxt "scstring.src#SCSTR_COLUMN.string.text"
 msgid "Column"
-msgstr "Стовпчик"
+msgstr "Стовпець"
 
 #: scstring.src#SCSTR_ROW.string.text
 #: scstring.src%23SCSTR_ROW.string.text
@@ -14663,7 +14665,7 @@ msgstr "Колір вкладки"
 #: scstring.src%23SCSTR_NO_TAB_BG_COLOR.string.text
 msgctxt "scstring.src#SCSTR_NO_TAB_BG_COLOR.string.text"
 msgid "Default"
-msgstr "Базовий"
+msgstr "Типовий"
 
 #: scstring.src#SCSTR_RENAMEOBJECT.string.text
 #: scstring.src%23SCSTR_RENAMEOBJECT.string.text
@@ -14673,7 +14675,7 @@ msgstr "Назва об'єкту"
 #: scstring.src#STR_INSERTGRAPHIC.string.text
 #: scstring.src%23STR_INSERTGRAPHIC.string.text
 msgid "Insert Picture"
-msgstr "Вставити графічний об'єкт'"
+msgstr "Вставити малюнок"
 
 #: scstring.src#SCSTR_HOR_JUSTIFY_LEFT.string.text
 #: scstring.src%23SCSTR_HOR_JUSTIFY_LEFT.string.text
@@ -14703,7 +14705,7 @@ msgstr "Повторити вирівнювання"
 #: scstring.src#SCSTR_HOR_JUSTIFY_STANDARD.string.text
 #: scstring.src%23SCSTR_HOR_JUSTIFY_STANDARD.string.text
 msgid "Horizontal alignment default"
-msgstr "Горизонтальне вирівнювання (стандарт)"
+msgstr "Горизонтальне вирівнювання (типово)"
 
 #: scstring.src#SCSTR_VER_JUSTIFY_TOP.string.text
 #: scstring.src%23SCSTR_VER_JUSTIFY_TOP.string.text
@@ -14723,7 +14725,7 @@ msgstr "Вирівняти знизу"
 #: scstring.src#SCSTR_VER_JUSTIFY_STANDARD.string.text
 #: scstring.src%23SCSTR_VER_JUSTIFY_STANDARD.string.text
 msgid "Vertical alignment default"
-msgstr "Вирівняти вертикально (стандарт)"
+msgstr "Вирівняти вертикально (типово)"
 
 #: scstring.src#SCSTR_ORIENTATION_TOPBOTTOM.string.text
 #: scstring.src%23SCSTR_ORIENTATION_TOPBOTTOM.string.text
@@ -14739,7 +14741,7 @@ msgstr "Знизу догори"
 #: scstring.src#SCSTR_ORIENTATION_STANDARD.string.text
 #: scstring.src%23SCSTR_ORIENTATION_STANDARD.string.text
 msgid "Default orientation"
-msgstr "Стандартна орієнтація"
+msgstr "Типова орієнтація"
 
 #: scstring.src#SCSTR_PROTECTDOC.string.text
 #: scstring.src%23SCSTR_PROTECTDOC.string.text
@@ -14766,7 +14768,7 @@ msgstr "Зняти захист з аркушу"
 #: scstring.src#SCSTR_CHG_PROTECT.string.text
 #: scstring.src%23SCSTR_CHG_PROTECT.string.text
 msgid "Protect Records"
-msgstr "Введіть пароль"
+msgstr "Захистити записи змін"
 
 #: scstring.src#SCSTR_CHG_UNPROTECT.string.text
 #: scstring.src%23SCSTR_CHG_UNPROTECT.string.text
@@ -14923,12 +14925,12 @@ msgstr "Неможливо прочитати графічний файл"
 #: scstring.src#SCSTR_GRFILTER_FORMATERROR.string.text
 #: scstring.src%23SCSTR_GRFILTER_FORMATERROR.string.text
 msgid "Unknown graphic format"
-msgstr "Невідомий формат графічних об'єктів"
+msgstr "Невідомий графічний формат"
 
 #: scstring.src#SCSTR_GRFILTER_VERSIONERROR.string.text
 #: scstring.src%23SCSTR_GRFILTER_VERSIONERROR.string.text
 msgid "This graphic file version is not supported"
-msgstr "Не підтримується версія графічного фільтру"
+msgstr "Ця версія графічного файлу не підтримується"
 
 #: scstring.src#SCSTR_GRFILTER_FILTERERROR.string.text
 #: scstring.src%23SCSTR_GRFILTER_FILTERERROR.string.text
@@ -14969,7 +14971,7 @@ msgid ""
 "Do you really want to overwrite the existing data?"
 msgstr ""
 "Ви вставляєте дані у комірки, які вже містять дані.\n"
-"Перезаписати зміст комірок?"
+"Перезаписати вміст комірок?"
 
 #: scstring.src#SCSTR_ALLFILTER.string.text
 #: scstring.src%23SCSTR_ALLFILTER.string.text
@@ -14984,7 +14986,7 @@ msgstr "Лінійка"
 #: scstring.src#STR_ACC_CSVRULER_DESCR.string.text
 #: scstring.src%23STR_ACC_CSVRULER_DESCR.string.text
 msgid "This ruler manages objects at fixed positions."
-msgstr "Ця лінійка розмітки керує об'єктами на фіксованих позиціях."
+msgstr "Ця лінійка упорядковує об'єкти по фіксованих позиціях."
 
 #: scstring.src#STR_ACC_CSVGRID_NAME.string.text
 #: scstring.src%23STR_ACC_CSVGRID_NAME.string.text
@@ -14994,12 +14996,12 @@ msgstr "Попередній перегляд"
 #: scstring.src#STR_ACC_CSVGRID_DESCR.string.text
 #: scstring.src%23STR_ACC_CSVGRID_DESCR.string.text
 msgid "This sheet shows how the data will be arranged in the document."
-msgstr "Цей аркуш показує як дані будуть організовані у документі."
+msgstr "Цей аркуш показує як дані будуть упорядковані у документі."
 
 #: scstring.src#STR_ACC_DOC_NAME.string.text
 #: scstring.src%23STR_ACC_DOC_NAME.string.text
 msgid "Document view"
-msgstr "Перегляд документу"
+msgstr "Перегляд документа"
 
 #: scstring.src#STR_ACC_TABLE_NAME.string.text
 #: scstring.src%23STR_ACC_TABLE_NAME.string.text
@@ -15064,7 +15066,7 @@ msgstr "Комірка %1"
 msgid ""
 "Fields that you drop here will be displayed as rows in the final pivot table."
 msgstr ""
-"Поля, які ви розміщуєте тут будуть відображатись як рядки у зведеній таблиці."
+"Поля, які ви розміщуєте тут відбиватимуться як рядки у зведеній таблиці."
 
 #: scstring.src#STR_ACC_DATAPILOT_COL_DESCR.string.text
 #: scstring.src%23STR_ACC_DATAPILOT_COL_DESCR.string.text
@@ -15072,8 +15074,7 @@ msgid ""
 "Fields that you drop here will be displayed as columns in the final pivot "
 "table."
 msgstr ""
-"Поля, які ви розміщуєте тут відображатимуться як стовпчики у зведеній "
-"таблиці."
+"Поля, які ви розміщуєте тут відбиватимуться як стовпці у зведеній таблиці."
 
 #: scstring.src#STR_ACC_DATAPILOT_DATA_DESCR.string.text
 #: scstring.src%23STR_ACC_DATAPILOT_DATA_DESCR.string.text
@@ -15087,7 +15088,7 @@ msgstr ""
 #: scstring.src#STR_ACC_DATAPILOT_SEL_DESCR.string.text
 #: scstring.src%23STR_ACC_DATAPILOT_SEL_DESCR.string.text
 msgid "Lists the fields that you can drag to one of the other three areas."
-msgstr "Показати поля, які можна перетягнути у одну з трьох областей."
+msgstr "Список полів які можна перетягнути у одну з трьох областей."
 
 #: scstring.src#SCSTR_MEDIASHELL.string.text
 #: scstring.src%23SCSTR_MEDIASHELL.string.text
@@ -15097,7 +15098,7 @@ msgstr "Керування мультимедіа"
 #: scstring.src#RID_SCSTR_ONCLICK.string.text
 #: scstring.src%23RID_SCSTR_ONCLICK.string.text
 msgid "Mouse button pressed"
-msgstr "Натиск клавіші миші"
+msgstr "Натиснута кнопка миші"
 
 #: scstring.src#STR_ACC_TOOLBAR_FORMULA.string.text
 #: scstring.src%23STR_ACC_TOOLBAR_FORMULA.string.text
@@ -15190,7 +15191,7 @@ msgstr "%PRODUCTNAME Calc"
 #: toolbox.src#SCSTR_QHELP_POSWND.string.text
 #: toolbox.src%23SCSTR_QHELP_POSWND.string.text
 msgid "Name Box"
-msgstr "Область аркуша"
+msgstr "Поле імені"
 
 #: toolbox.src#SCSTR_QHELP_INPUTWND.string.text
 #: toolbox.src%23SCSTR_QHELP_INPUTWND.string.text
@@ -15201,7 +15202,7 @@ msgstr "Рядок вводу"
 #: toolbox.src#SCSTR_QHELP_BTNCALC.string.text
 #: toolbox.src%23SCSTR_QHELP_BTNCALC.string.text
 msgid "Function Wizard"
-msgstr "Помічник з функцій"
+msgstr "Майстер функцій"
 
 #: toolbox.src#SCSTR_QHELP_BTNOK.string.text
 #: toolbox.src%23SCSTR_QHELP_BTNOK.string.text
@@ -15881,7 +15882,7 @@ msgstr "Механізм пошуку рішення"
 #: solveroptions.src#RID_SCDLG_SOLVEROPTIONS.FT_SETTINGS.fixedtext.text
 #: solveroptions.src%23RID_SCDLG_SOLVEROPTIONS.FT_SETTINGS.fixedtext.text
 msgid "Settings:"
-msgstr "Параметри:"
+msgstr "Налаштування:"
 
 #: solveroptions.src#RID_SCDLG_SOLVEROPTIONS.BTN_EDIT.pushbutton.text
 #: solveroptions.src%23RID_SCDLG_SOLVEROPTIONS.BTN_EDIT.pushbutton.text
@@ -15898,13 +15899,13 @@ msgstr "Параметри"
 #: solveroptions.src%23RID_SCDLG_SOLVER_INTEGER.modaldialog.text
 msgctxt "solveroptions.src#RID_SCDLG_SOLVER_INTEGER.modaldialog.text"
 msgid "Edit Setting"
-msgstr "Редагувати параметри"
+msgstr "Редагувати налаштування"
 
 #: solveroptions.src#RID_SCDLG_SOLVER_DOUBLE.modaldialog.text
 #: solveroptions.src%23RID_SCDLG_SOLVER_DOUBLE.modaldialog.text
 msgctxt "solveroptions.src#RID_SCDLG_SOLVER_DOUBLE.modaldialog.text"
 msgid "Edit Setting"
-msgstr "Редагувати параметри"
+msgstr "Редагувати налаштування"
 
 #: crnrdlg.src#RID_SCDLG_COLROWNAMERANGES.FL_ASSIGN.fixedline.text
 #: crnrdlg.src%23RID_SCDLG_COLROWNAMERANGES.FL_ASSIGN.fixedline.text
@@ -16227,7 +16228,7 @@ msgstr "Зменшити"
 #: solvrdlg.src%23RID_SCDLG_SOLVER.FL_VARIABLES.fixedline.text
 msgctxt "solvrdlg.src#RID_SCDLG_SOLVER.FL_VARIABLES.fixedline.text"
 msgid "Default settings"
-msgstr "Типові параметри"
+msgstr "Типові налаштування"
 
 #: solvrdlg.src#RID_SCDLG_SOLVER.STR_INVALIDVAL.string.text
 #: solvrdlg.src%23RID_SCDLG_SOLVER.STR_INVALIDVAL.string.text
