@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-07-15 18:03+0000\n"
+"PO-Revision-Date: 2022-07-17 16:51+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657908238.000000\n"
+"X-POOTLE-MTIME: 1658076673.000000\n"
 
 #: 06020000.xhp#tit.help.text
 #: 06020000.xhp%23tit.help.text
@@ -21338,6 +21338,8 @@ msgid ""
 "All <emph>Reference</emph> ranges shall have the same dimension and size, "
 "else an Error is returned."
 msgstr ""
+"Wszystkie zakresy <emph>referencyjne</emph> powinny mieć ten sam wymiar i "
+"wielkość, w przeciwnym razie zwracany jest błąd."
 
 #: 04060106.xhp#hd_id3152110K.443.help.text
 #: 04060106.xhp%23hd_id3152110K.443.help.text
@@ -22667,21 +22669,21 @@ msgstr ""
 
 #: 04060106.xhp#par_id3581652K.help.text
 #: 04060106.xhp%23par_id3581652K.help.text
-#, fuzzy
 msgid ""
 "<item type=\"input\">=COUNTIFS(A1:A10;2006;B1:B10;2014)</item> - this "
 "returns 2"
-msgstr "<item type=\"input\">=LICZ.JEŻELI(A1:A10;2006)</item> zwraca wartość 1."
+msgstr ""
+"<item type=\"input\">=LICZ.WARUNKI(A1:A10;2006;B1:B10;2014)</item> zwraca "
+"wartość 2"
 
 #: 04060106.xhp#par_id5169225K.help.text
 #: 04060106.xhp%23par_id5169225K.help.text
-#, fuzzy
 msgid ""
 "<item type=\"input\">=COUNTIFS(A1:A10;\">=2006\";B1:B10;\">=2006\") </item>- "
 "this returns 14"
 msgstr ""
-"<item type=\"input\">=LICZ.JEŻELI(A1:A10;\">=2006\") </item> zwraca wartość "
-"4."
+"<item type=\"input\">=LICZ.WARUNKI(A1:A10;\">=2006\";B1:B10;\">=2006\") "
+"</item>- zwraca wartość 14"
 
 #: solver.xhp#tit.help.text
 #: solver.xhp%23tit.help.text
@@ -31066,6 +31068,8 @@ msgid ""
 "AVERAGEIFS( Reference A ; Reference R1 ; Criterion C1 [ ; Reference R2 ; "
 "Criterion C2 ]... )"
 msgstr ""
+"ŚREDNIA.WARUNKÓW(odwołanie A; odwołanie R1 ; kryterium C1 [ ; odwołanie R2 ; "
+"kryterium C2 ]... )"
 
 #: 04060184.xhp#par_id3155260K2.help.text
 #: 04060184.xhp%23par_id3155260K2.help.text
@@ -31105,6 +31109,8 @@ msgid ""
 "<item type=\"input\">=AVERAGEIFS(A1:A50;B1:B25;\">\"0)</item> will return "
 "the average of A1:A50 if all cells in the range B1 to B25 are greater than 0."
 msgstr ""
+"<item type=\"input\">=ŚREDNIA.WARUNKÓW(A1:A50;B1:B25;\">\"0)</item> zwróci "
+"średnią A1:A50, jeśli wszystkie komórki w zakresie B1:B25 są większe od 0."
 
 #: 04060184.xhp#bm_id3153933.help.text
 #: 04060184.xhp%23bm_id3153933.help.text
@@ -31296,6 +31302,10 @@ msgid ""
 "egg weighs 63 grams with a standard deviation of 5, then there will be 90% "
 "probability that the egg will not be heavier than 69.41 grams."
 msgstr ""
+"<item type=\"input\">=ROZKŁAD.NORMALNY.ODW(0,9;63;5)</item> zwraca wartość "
+"69,41. Jeśli średnia waga jajka wynosi 63 gramy, a odchylenie standardowe "
+"wynosi 5, istnieje 90% prawdopodobieństwo, że jajko nie będzie cięższe niż "
+"69,41 g."
 
 #: 04060184.xhp#bm_id3153722.help.text
 #: 04060184.xhp%23bm_id3153722.help.text
@@ -46093,6 +46103,9 @@ msgid ""
 "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item>"
 " returns 'file:///X:/dr/test.ods'#$Sheet1."
 msgstr ""
+"<item type=\"input\">=KOMÓRKA(\"FILENAME\";'X:\\dr\\"
+"test.ods'#$Arkusz1.D2)</item> zwraca wartość "
+"'file:///X:/dr/test.ods'#$Arkusz1."
 
 #: 04060104.xhp#par_id3151381.182.help.text
 #: 04060104.xhp%23par_id3151381.182.help.text
@@ -47357,13 +47370,12 @@ msgstr "Przykład"
 
 #: 04060116.xhp#par_id3157903.help.text
 #: 04060116.xhp%23par_id3157903.help.text
-#, fuzzy
 msgid ""
 "            <item type=\"input\">=IMCOSH(\"3+4j\") </item>returns "
 "-6.58066304-7.58155274j (rounded)."
 msgstr ""
-"            <item type=\"input\">=IMCOS(\"3+4j\") </item>zwraca wartość "
-"-27,03-3,85i (po zaokrągleniu)."
+"            <item type=\"input\">=COSH.LICZBY.ZESP(\"3+4j\") </item>zwraca "
+"wartość -6.58066304-7.58155274j (po zaokrągleniu)."
 
 #: 04060116.xhp#bm_id3149149.help.text
 #: 04060116.xhp%23bm_id3149149.help.text
