@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-06-06 08:50+0000\n"
+"PO-Revision-Date: 2022-08-15 11:04+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1654505408.000000\n"
+"X-POOTLE-MTIME: 1660561469.000000\n"
 
 #: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
 #: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
@@ -83,7 +83,7 @@ msgstr "Незашифровані потоки"
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ABORT___ERRCODE_RES_MASK_.string.text
 msgid "The operation executed on $(ARG1) was aborted."
-msgstr "Дія що виконувалася на $(ARG1) була перервана."
+msgstr "Операція, що виконувалася на $(ARG1) була перервана."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_ACCESSDENIED___ERRCODE_RES_MASK_.string.text
@@ -114,9 +114,9 @@ msgstr ""
 "Ви збираєтесь зберегти/експортувати захищену паролем бібліотеку Basic, що "
 "містить модулі \n"
 "$(ARG1)\n"
-"і яка є надто великою для збереження у двійковому форматі. Якщо ви хочете, "
-"щоб користувачі, які не знають пароль, могли скористатись макросами із "
-"захищених паролем модулів, потрібно розбити ці модулі на менші. Продовжити "
+"і які є надто великими для збереження у двійковому форматі. Якщо ви хочете, "
+"щоб користувачі, які не знають пароль бібліотеки, могли скористатись "
+"макросами з тих модулів, потрібно розбити ці модулі на менші. Продовжити "
 "збереження/експорт цієї бібліотеки?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -425,7 +425,7 @@ msgstr ""
 "Персональний конфігураційний файл '$(ARG1)' пошкоджений і має бути "
 "видалений, для подальшої роботи. Деякі ваші персональні параметри можуть "
 "бути втрачені.\n"
-"Продовжити запуск %PRODUCTNAME без конфігурації?"
+"Продовжити запуск %PRODUCTNAME без пошкодженої конфігурації?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
@@ -433,8 +433,8 @@ msgid ""
 "The configuration data source '$(ARG1)' is unavailable. Without this data "
 "some functions may not operate correctly."
 msgstr ""
-"Конфігурація '$(ARG1)' недоступна. Без цих даних деякі функції можуть "
-"працювати некоректно."
+"Джерело конфігураційних даних '$(ARG1)' недоступне. Без цих даних деякі "
+"функції можуть не працювати належним чином."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
@@ -444,9 +444,10 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the missing "
 "configuration data?"
 msgstr ""
-"Конфігурація '$(ARG1)' недоступна. Без цих даних деякі функції можуть "
-"працювати некоректно.\n"
-"Продовжити завантаження %PRODUCTNAME без конфігурації?"
+"Джерело конфігураційних даних '$(ARG1)' недоступне. Без цих даних деякі "
+"функції можуть не працювати належним чином.\n"
+"Ви бажаєте продовжити запуск %PRODUCTNAME без відсутніх конфігураційних "
+"даних?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
@@ -498,7 +499,7 @@ msgid ""
 "certificate carefully. Are you willing to accept this certificate for the "
 "purpose of identifying the Web site $(ARG1)?"
 msgstr ""
-"Неможливо перевірити сертифікат сайту $(ARG1).\n"
+"Неможливо перевірити ідентичність сайту $(ARG1).\n"
 "\n"
 "Перш ніж прийняти сертифікат сайту ретельно його перевірте. Прийняти цей "
 "сертифікат для ідентифікації сайту $(ARG1)?"
@@ -596,7 +597,7 @@ msgstr "~Введіть пароль"
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
 #: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
 msgid "~Reenter password"
-msgstr "~Запам'ятати пароль"
+msgstr "~Повторно введіть пароль"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
 #: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
@@ -610,7 +611,7 @@ msgstr ""
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
 #: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
 msgid "Set Master Password"
-msgstr "Ввести головний пароль"
+msgstr "Встановіть головний пароль"
 
 #: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
 #: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
@@ -682,7 +683,7 @@ msgstr "Перегляд сертифікату"
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
 #: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
 msgid "Cancel Connection"
-msgstr "Скасувати з'єднання'"
+msgstr "Скасувати з'єднання"
 
 #: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
 #: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
@@ -692,12 +693,12 @@ msgstr "Продовжити"
 #: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
 #: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
 msgid "Security Warning: "
-msgstr "Попередження безпеки:"
+msgstr "Попередження безпеки: "
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
 #: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
 msgid "Message from server:"
-msgstr "Повідомлення від сервера"
+msgstr "Повідомлення від сервера:"
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
 #: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text

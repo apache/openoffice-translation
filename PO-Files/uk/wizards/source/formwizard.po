@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+wizards%2Fsource%2Fformwizard.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-07-20 07:15+0000\n"
+"PO-Revision-Date: 2022-08-15 11:48+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1658301338.000000\n"
+"X-POOTLE-MTIME: 1660564115.000000\n"
 
 #: dbwizres.src#RID_COMMON_START___0.string.text
 #: dbwizres.src%23RID_COMMON_START___0.string.text
@@ -44,7 +44,7 @@ msgid ""
 "The spreadsheet could not be created.<BR>Please check if the module "
 "'PRODUCTNAME Calc' is installed."
 msgstr ""
-"Електронна таблиця неможливо створити.<BR>Перевірте, чи встановлений "
+"Неможливо створити електронну таблицю.<BR>Перевірте, чи встановлений "
 "компонент 'PRODUCTNAME Calc'."
 
 #: dbwizres.src#RID_COMMON_START___3.string.text
@@ -53,7 +53,7 @@ msgid ""
 "The presentation could not be created.<BR>Please check if the module "
 "'PRODUCTNAME Impress' is installed."
 msgstr ""
-"Презентація не може бути створена.<BR>Перевірте, чи встановлений компонент "
+"Неможливо створити презентацію.<BR>Перевірте, чи встановлений компонент "
 "'PRODUCTNAME Impress'."
 
 #: dbwizres.src#RID_COMMON_START___4.string.text
@@ -62,7 +62,7 @@ msgid ""
 "The drawing could not be created.<BR>Please check if the module 'PRODUCTNAME "
 "Draw' is installed."
 msgstr ""
-"Малюнок не може бути створений.<BR>Перевірте, чи встановлений компонент "
+"Неможливо створити рисунок.<BR>Перевірте, чи встановлений компонент "
 "'PRODUCTNAME Draw'."
 
 #: dbwizres.src#RID_COMMON_START___5.string.text
@@ -71,7 +71,7 @@ msgid ""
 "The formula could not be created.<BR>Please check if the module 'PRODUCTNAME "
 "Math' is installed."
 msgstr ""
-"Формула не може бути створена.<BR>Перевірте, чи встановлений компонент "
+"Неможливо створити формулу.<BR>Перевірте, чи встановлений компонент "
 "'PRODUCTNAME Math'."
 
 #: dbwizres.src#RID_COMMON_START___6.string.text
@@ -156,7 +156,7 @@ msgstr "Файл вже існує. Замінити його?"
 #: dbwizres.src#RID_COMMON_START___20.string.text
 #: dbwizres.src%23RID_COMMON_START___20.string.text
 msgid "Template created via <wizard_name> on <current_date>."
-msgstr "Шаблон створений помічником <wizard_name> у <current_date>."
+msgstr "Шаблон створений майстром <wizard_name> у <current_date>."
 
 #: dbwizres.src#RID_COMMON_START___21.string.text
 #: dbwizres.src%23RID_COMMON_START___21.string.text
@@ -205,7 +205,7 @@ msgstr "~Назва таблиці"
 #: dbwizres.src%23RID_DB_COMMON_START___6.string.text
 msgid ""
 "An error occurred while running the wizard. The wizard will be terminated."
-msgstr "Помилка у роботі помічника. Помічник буде закритий."
+msgstr "Помилка у роботі майстра. Його буде закрито."
 
 #: dbwizres.src#RID_DB_COMMON_START___14.string.text
 #: dbwizres.src%23RID_DB_COMMON_START___14.string.text
@@ -231,7 +231,7 @@ msgstr "Не вдається зберегти документ."
 #: dbwizres.src#RID_DB_COMMON_START___33.string.text
 #: dbwizres.src%23RID_DB_COMMON_START___33.string.text
 msgid "Exiting the wizard"
-msgstr "Вихід з помічника"
+msgstr "Вихід з майстра"
 
 #: dbwizres.src#RID_DB_COMMON_START___34.string.text
 #: dbwizres.src%23RID_DB_COMMON_START___34.string.text
@@ -296,7 +296,7 @@ msgstr "Назви полів неможливо отримати з '%NAME'."
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___0.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___0.string.text
 msgid "Form Wizard"
-msgstr "Помічник форм"
+msgstr "Майстер форм"
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___1.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___1.string.text
@@ -309,7 +309,8 @@ msgid ""
 "Binary fields are always listed and selectable from the left list.\n"
 "If possible, they are interpreted as images."
 msgstr ""
-"Двійкові поля завжди будуть перелічені та їх можна виділити у списку.\n"
+"Двійкові поля завжди будуть перелічені та їх можна виділити у списку ліворуч."
+"\n"
 "Вони відображатимуться як зображення, якщо це можливо."
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___3.string.text
@@ -319,7 +320,7 @@ msgid ""
 "Use subforms to show data from tables or queries with a one-to-many "
 "relationship."
 msgstr ""
-"Форма є вкладеною у іншу форму.\n"
+"Субформа це форма яка є вкладеною у іншу форму.\n"
 "Використовуйте субформу для відображення даних з таблиць чи запитів типу «"
 "один до багатьох»."
 
@@ -435,7 +436,7 @@ msgstr "Плаский"
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___32.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___32.string.text
 msgid "Label placement"
-msgstr "Розташування підписи"
+msgstr "Розташування підпису"
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___33.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___33.string.text
@@ -455,12 +456,12 @@ msgstr "Упорядкування полів БД"
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___36.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___36.string.text
 msgid "Columnar - Labels Left"
-msgstr "Стовпчики - підписи ліворуч"
+msgstr "Стовпці - підписи ліворуч"
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___37.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___37.string.text
 msgid "Columnar - Labels on Top"
-msgstr "Стовпчики - підписи зверху"
+msgstr "Стовпці - підписи зверху"
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___38.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___38.string.text
@@ -525,7 +526,7 @@ msgstr "Назва ~форми"
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___51.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___51.string.text
 msgid "How do you want to proceed after creating the form?"
-msgstr "Ігнорувати після заповнення форми"
+msgstr "Дії після створення форми."
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___52.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___52.string.text
@@ -571,7 +572,7 @@ msgstr "Упорядкувати елементи керування"
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___85.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___85.string.text
 msgid "Set data entry"
-msgstr "Встановити джерела даних"
+msgstr "Налаштувати введення даних"
 
 #: dbwizres.src#RID_DB_FORM_WIZARD_START___86.string.text
 #: dbwizres.src%23RID_DB_FORM_WIZARD_START___86.string.text
@@ -646,7 +647,7 @@ msgstr ""
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___0.string.text
 msgctxt "dbwizres.src#RID_DB_QUERY_WIZARD_START___0.string.text"
 msgid "Query Wizard"
-msgstr "Помічник запитів"
+msgstr "Майстер запитів"
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___1.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___1.string.text
@@ -657,7 +658,7 @@ msgstr "Запит"
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___2.string.text
 msgctxt "dbwizres.src#RID_DB_QUERY_WIZARD_START___2.string.text"
 msgid "Query Wizard"
-msgstr "Помічник запитів"
+msgstr "Майстер запитів"
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___3.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___3.string.text
@@ -874,7 +875,7 @@ msgstr "Не вказано порядок сортування полів."
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___53.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___53.string.text
 msgid "Search conditions: "
-msgstr "Умова пошуку: "
+msgstr "Умови пошуку: "
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___54.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___54.string.text
@@ -909,12 +910,12 @@ msgstr "Умови групування:"
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___60.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___60.string.text
 msgid "No grouping conditions were assigned."
-msgstr "Не вказано умову групування."
+msgstr "Не вказано умов групування."
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___70.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___70.string.text
 msgid "Select the fields (columns) for your query"
-msgstr "Виберіть поля (стовпчики) для запиту"
+msgstr "Виберіть поля (стовпці) для запиту"
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___71.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___71.string.text
@@ -981,7 +982,7 @@ msgstr "Групування"
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___85.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___85.string.text
 msgid "Grouping conditions"
-msgstr "Умова групування"
+msgstr "Умови групування"
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___86.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___86.string.text
@@ -999,8 +1000,7 @@ msgid ""
 "A field that has not been assigned an aggregate function must be used in a "
 "group."
 msgstr ""
-"Поле, яке не назначено функцією агрегування, не може використовуватися у "
-"групуванні."
+"Поле, якому не призначено агрегатну функцію, має використовуватися в групі."
 
 #: dbwizres.src#RID_DB_QUERY_WIZARD_START___89.string.text
 #: dbwizres.src%23RID_DB_QUERY_WIZARD_START___89.string.text
@@ -1054,7 +1054,7 @@ msgstr "<FIELDNAME> <LOGICOPERATOR> <VALUE>"
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___0.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___0.string.text
 msgid "Report Wizard"
-msgstr "Помічник звітів"
+msgstr "Майстер звітів"
 
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___3.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___3.string.text
@@ -1064,7 +1064,7 @@ msgstr "~Таблиця"
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___4.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___4.string.text
 msgid "Colu~mns"
-msgstr "~Стовпчики"
+msgstr "~Стовпці"
 
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___7.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___7.string.text
@@ -1397,17 +1397,17 @@ msgstr "Табличний"
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___81.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___81.string.text
 msgid "Columnar, single-column"
-msgstr "Колонковий"
+msgstr "Стовпчастий, одностовпний"
 
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___82.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___82.string.text
 msgid "Columnar, two columns"
-msgstr "Колонковий, дві колонки"
+msgstr "Стовпчастий, дві стовпці"
 
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___83.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___83.string.text
 msgid "Columnar, three columns"
-msgstr "Колонковий, три колонки"
+msgstr "Стовпчастий, три стовпці"
 
 #: dbwizres.src#RID_DB_REPORT_WIZARD_START___84.string.text
 #: dbwizres.src%23RID_DB_REPORT_WIZARD_START___84.string.text
@@ -1459,7 +1459,7 @@ msgstr "Не знайдено придатного шаблону звіту."
 #: dbwizres.src#RID_DB_TABLE_WIZARD_START___1.string.text
 #: dbwizres.src%23RID_DB_TABLE_WIZARD_START___1.string.text
 msgid "Table Wizard"
-msgstr "Помічник таблиць"
+msgstr "Майстер таблиць"
 
 #: dbwizres.src#RID_DB_TABLE_WIZARD_START___2.string.text
 #: dbwizres.src%23RID_DB_TABLE_WIZARD_START___2.string.text
@@ -1512,7 +1512,7 @@ msgid ""
 "table category and a sample table, choose the fields you want to include in "
 "your table. You can include fields from more than one sample table."
 msgstr ""
-"Помічник поможе створити таблиці для бази даних. Після вибору категорії та "
+"Майстер поможе створити таблиці для бази даних. Після вибору категорії та "
 "прикладу таблиці виберіть поля, які ви хочете включити у таблицю. Можна "
 "включати поля з кількох прикладів таблиць."
 
@@ -1733,7 +1733,7 @@ msgstr "Поле '%FIELDNAME' вже існує."
 #: dbwizres.src#RID_LETTERWIZARDDIALOG_START___1.string.text
 #: dbwizres.src%23RID_LETTERWIZARDDIALOG_START___1.string.text
 msgid "Letter Wizard"
-msgstr "Помічник листів"
+msgstr "Майстер листів"
 
 #: dbwizres.src#RID_LETTERWIZARDDIALOG_START___2.string.text
 #: dbwizres.src%23RID_LETTERWIZARDDIALOG_START___2.string.text
