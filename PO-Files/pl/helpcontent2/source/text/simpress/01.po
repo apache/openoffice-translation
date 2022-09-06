@@ -6,7 +6,7 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fsimpress%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-09-04 19:16+0000\n"
+"PO-Revision-Date: 2022-09-05 16:13+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1662319001.000000\n"
+"X-POOTLE-MTIME: 1662394421.000000\n"
 
 #: 13180000.xhp#tit.help.text
 #: 13180000.xhp%23tit.help.text
@@ -910,8 +910,8 @@ msgid ""
 msgstr ""
 "Określ, czy pokaz slajdów ma się rozpoczynać od bieżącego czy od pierwszego "
 "slajdu na karcie <emph><switchinline select=\"sys\"><caseinline select=\""
-"MAC\">%PRODUCTNAME – Preferencje</caseinline><defaultinline>Narzędzia – "
-"Opcje</defaultinline></switchinline> – %PRODUCTNAME Impress – Ogólne</emph>."
+"MAC\">%PRODUCTNAME - Preferencje</caseinline><defaultinline>Narzędzia - "
+"Opcje</defaultinline></switchinline> - %PRODUCTNAME Impress - Ogólne</emph>."
 
 #: 03130000.xhp#par_id3155960.3.help.text
 #: 03130000.xhp%23par_id3155960.3.help.text
@@ -2337,7 +2337,7 @@ msgid ""
 "selected object in front of an object that you specify. The screen location "
 "of the selected object does not change.</ahelp>"
 msgstr ""
-"<ahelp hid=\".uno:BeforeObject\">Zmienia kolejność rozmieszczenia obiektów "
+"<ahelp hid=\".uno:BeforeObject\">Zmienia kolejność rozmieszczenia obiektów, "
 "przesuwając zaznaczone obiekty przed wybrany obiekt. Pozycja zaznaczonych "
 "obiektów na ekranie nie ulega zmianie. </ahelp>"
 
@@ -2835,7 +2835,7 @@ msgid ""
 "the selected objects from the area of the lowermost object.</ahelp>"
 msgstr ""
 "<ahelp hid=\".uno:Substract\" visibility=\"visible\">Odejmuje pola "
-"zaznaczonych obiektów do pola obiektu znajdującego się najniżej w kolejności "
+"zaznaczonych obiektów od pola obiektu znajdującego się najniżej w kolejności "
 "rozmieszczenia. </ahelp>"
 
 #: 13180200.xhp#par_id3154320.3.help.text
@@ -5217,7 +5217,7 @@ msgid ""
 "text/simpress/01/13150000.xhp\" name=\"split\">split</link> apart combined "
 "objects, but the original object properties are lost."
 msgstr ""
-"<ahelp hid=\".uno:Combine\">Zespala dwa lub więcej obiektów w jedną figurę. "
+"<ahelp hid=\".uno:Combine\">Zespala dwa obiekty lub więcej w jedną figurę. "
 "</ahelp> W odróżnieniu od <link href=\"text/shared/01/05290000.xhp\" name=\""
 "grupuj\">grupowania</link> zespolony obiekt posiada właściwości obiektu "
 "znajdującego się najniżej w kolejności rozmieszczenia. Możesz <link href=\""
@@ -5266,7 +5266,7 @@ msgid ""
 "selected object behind an object that you specify. The screen location of "
 "the selected object does not change.</ahelp>"
 msgstr ""
-"<ahelp hid=\".uno:BehindObject\">Zmienia kolejność rozmieszczenia obiektów "
+"<ahelp hid=\".uno:BehindObject\">Zmienia kolejność rozmieszczenia obiektów, "
 "przesuwając zaznaczone obiekty za wybrany obiekt. Pozycja zaznaczonych "
 "obiektów na ekranie nie ulega zmianie. </ahelp>"
 
@@ -5416,9 +5416,9 @@ msgid ""
 "lose their fill."
 msgstr ""
 "<ahelp hid=\".uno:Connect\" visibility=\"visible\">Łączy liniami lub "
-"krzywymi Béziera dwa lub więcej linii, krzywych Béziera lub innych obiektów. "
+"krzywymi Béziera co najmniej dwie linie, krzywe Béziera lub inne obiekty. "
 "</ahelp>Obiekty posiadające wypełnienie są konwertowane do linii a "
-"wypełnienie jest usuwane. "
+"wypełnienie jest usuwane."
 
 #: 05090000m.xhp#tit.help.text
 #: 05090000m.xhp%23tit.help.text
@@ -6440,7 +6440,7 @@ msgstr ""
 #: 05250000.xhp#par_id3149259.2.help.text
 #: 05250000.xhp%23par_id3149259.2.help.text
 msgid "Changes the stacking order of a selected object."
-msgstr "Zmienia kolejność rozmieszczenia zaznaczonych obiektów. "
+msgstr "Zmienia kolejność rozmieszczenia zaznaczonych obiektów."
 
 #: 01180000.xhp#tit.help.text
 #: 01180000.xhp%23tit.help.text
@@ -7414,15 +7414,16 @@ msgid ""
 "Group</emph></caseinline><defaultinline><emph>Format – Group – Exit "
 "Group</emph></defaultinline></switchinline> when you are finished."
 msgstr ""
-"Jeśli zaznaczysz dwa lub więcej obiektów i przekonwertujesz je na obiekty 3D "
-"otrzymasz grupę 3D, która zachowuje się jak pojedyńczy obiekt. Możesz "
+"Jeśli zaznaczysz co najmniej dwa obiekty i przekonwertujesz je na obiekty "
+"3D, otrzymasz grupę 3D, która zachowuje się jak pojedyńczy obiekt. Możesz "
 "edytować właściwości poszczególnych obiektów grupy. W tym celu wybierz <"
+"switchinline select=\"appl\"><caseinline select=\"DRAW\""
+"><emph>Modyfikuj</emph> - <emph>Wejdź do "
+"grupy</emph></caseinline><defaultinline><emph>Format - Grupuj - Wejdź do "
+"grupy</emph></defaultinline></switchinline>. Po skończonej edycji wybierz <"
 "switchinline select=\"appl\"><caseinline select=\"DRAW\"><emph>Modyfikuj - "
-"Wejdź do grupy</emph></caseinline><defaultinline><emph>Format - Grupuj - "
-"Wejdź do grupy</emph></defaultinline></switchinline>. Po skończonej edycji "
-"wybierz <switchinline select=\"appl\"><caseinline select=\"DRAW\"><emph>"
-"Modyfikuj - Wyjdź z grupy</emph></caseinline><defaultinline><emph>Format - "
-"Grupuj - Wyjdź z grupy</emph></defaultinline></switchinline>. "
+"Wyjdź z grupy</emph></caseinline><defaultinline><emph>Format - Grupuj - "
+"Wyjdź z grupy</emph></defaultinline></switchinline>."
 
 #: 13050300.xhp#par_id3151242.5.help.text
 #: 13050300.xhp%23par_id3151242.5.help.text
@@ -7430,8 +7431,8 @@ msgid ""
 "Converting a group of objects to 3D does not change the stacking order of "
 "the individual objects."
 msgstr ""
-"Konwertowanie grup obiketów na obiekty 3D nie zmienia kolejności "
-"rozmieszczenia poszczególnych obiektów. "
+"Konwertowanie grup obiektów na obiekty 3D nie zmienia kolejności "
+"rozmieszczenia poszczególnych obiektów."
 
 #: 13050300.xhp#par_id3146965.9.help.text
 #: 13050300.xhp%23par_id3146965.9.help.text
@@ -8088,7 +8089,7 @@ msgid ""
 "<ahelp hid=\".uno:ConvertInto3DLatheFast\">Creates a three-dimensional shape "
 "by rotating the selected object around its vertical axis.</ahelp>"
 msgstr ""
-"<ahelp hid=\".uno:ConvertInto3DLatheFast\">Tworzy trójwymiarowe figury "
+"<ahelp hid=\".uno:ConvertInto3DLatheFast\">Tworzy trójwymiarowe figury, "
 "obracając zaznaczony obiekt wokół pionowej osi. </ahelp>"
 
 #: 05120000.xhp#tit.help.text
