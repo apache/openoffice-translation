@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sfx2%2Fsource%2Fdialog.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-07 14:22+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,20 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: dinfedt.src#DLG_DOCINFO_EDT.FL_INFO.fixedline.text
-#: dinfedt.src%23DLG_DOCINFO_EDT.FL_INFO.fixedline.text
-msgid "Names"
-msgstr "Tên"
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
+msgid "Style name"
+msgstr "Tên kiểu dáng"
 
-#: dinfedt.src#DLG_DOCINFO_EDT.modaldialog.text
-#: dinfedt.src%23DLG_DOCINFO_EDT.modaldialog.text
-msgid "Edit Field Names"
-msgstr "Sửa tên trường"
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
+msgid "Style already exists. Overwrite?"
+msgstr "Kiểu dáng đã có. Ghi đẻ không?"
+
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
+msgid "Create Style"
+msgstr "Tạo kiểu dáng"
 
 #: passwd.src#DLG_PASSWD.FT_PASSWD_USER.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_USER.fixedtext.text
@@ -67,325 +72,6 @@ msgstr "Mật khẩu"
 #: passwd.src%23DLG_PASSWD.modaldialog.text
 msgid "Enter Password"
 msgstr "Nhập mật khẩu"
-
-#: filedlghelper.src#STR_SFX_FILEDLG_ACTUALVERSION.string.text
-#: filedlghelper.src%23STR_SFX_FILEDLG_ACTUALVERSION.string.text
-msgid "Current version"
-msgstr "Phiên bản hiện thời"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_EXPORT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_EXPORT.string.text
-msgid "Export"
-msgstr "Xuất"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_INSERT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_INSERT.string.text
-msgid "Insert"
-msgstr "Chèn"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
-msgid "~Insert"
-msgstr "C~hèn"
-
-#: filedlghelper.src#STR_SFX_IMPORT_ALL.string.text
-#: filedlghelper.src%23STR_SFX_IMPORT_ALL.string.text
-msgid "<All formats>"
-msgstr "<Mọi định dạng>"
-
-#: filedlghelper.src#STR_CB_AUTO_EXTENSION.string.text
-#: filedlghelper.src%23STR_CB_AUTO_EXTENSION.string.text
-msgid "~Automatic file name extension"
-msgstr "Tự gõ ~phần mở rộng tên tập tin"
-
-#: filedlghelper.src#STR_CB_SELECTION.string.text
-#: filedlghelper.src%23STR_CB_SELECTION.string.text
-msgid "~Selection"
-msgstr "Lựa ~chọn"
-
-#: filedlghelper.src#STR_CB_INSERT_AS_LINK.string.text
-#: filedlghelper.src%23STR_CB_INSERT_AS_LINK.string.text
-msgid "~Link"
-msgstr "~Liên kết"
-
-#: filedlghelper.src#STR_CB_SHOW_PREVIEW.string.text
-#: filedlghelper.src%23STR_CB_SHOW_PREVIEW.string.text
-msgid "Pr~eview"
-msgstr "X~em thử"
-
-#: filedlghelper.src#STR_CB_READONLY.string.text
-#: filedlghelper.src%23STR_CB_READONLY.string.text
-msgctxt "filedlghelper.src#STR_CB_READONLY.string.text"
-msgid "~Read-only"
-msgstr "~Chỉ đọc"
-
-#: filedlghelper.src#STR_CB_PASSWORD.string.text
-#: filedlghelper.src%23STR_CB_PASSWORD.string.text
-msgid "Save with ~password"
-msgstr "Lưu bằng ~mật khẩu"
-
-#: filedlghelper.src#STR_CB_FILTER_OPTIONS.string.text
-#: filedlghelper.src%23STR_CB_FILTER_OPTIONS.string.text
-msgid "Edit ~filter settings"
-msgstr "Sửa thiết lập ~lọc"
-
-#: filedlghelper.src#STR_PB_PLAY.string.text
-#: filedlghelper.src%23STR_PB_PLAY.string.text
-msgid "~Play"
-msgstr "~Chạy"
-
-#: filedlghelper.src#STR_PB_STOP.string.text
-#: filedlghelper.src%23STR_PB_STOP.string.text
-msgid "Sto~p"
-msgstr "~Dừng"
-
-#: filedlghelper.src#STR_PB_OPEN.string.text
-#: filedlghelper.src%23STR_PB_OPEN.string.text
-msgid "~Open"
-msgstr "~Mở"
-
-#: filedlghelper.src#STR_PB_SAVE.string.text
-#: filedlghelper.src%23STR_PB_SAVE.string.text
-msgid "~Save"
-msgstr "~Lưu"
-
-#: filedlghelper.src#STR_LB_IMAGE_TEMPLATE.string.text
-#: filedlghelper.src%23STR_LB_IMAGE_TEMPLATE.string.text
-msgid "Style:"
-msgstr "Kiểu dáng:"
-
-#: filedlghelper.src#STR_LB_TEMPLATES.string.text
-#: filedlghelper.src%23STR_LB_TEMPLATES.string.text
-msgid "~Templates:"
-msgstr "~Mẫu :"
-
-#: filedlghelper.src#STR_LB_VERSION.string.text
-#: filedlghelper.src%23STR_LB_VERSION.string.text
-msgid "~Version:"
-msgstr "Phiên ~bản:"
-
-#: templdlg.src#RID_STYLECATALOG.BT_ORG.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_ORG.pushbutton.text
-msgid "~Organizer..."
-msgstr "~Tổ chức..."
-
-#: templdlg.src#RID_STYLECATALOG.BT_DEL.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_DEL.pushbutton.text
-msgid "~Delete..."
-msgstr "~Xoá..."
-
-#: templdlg.src#RID_STYLECATALOG.BT_EDIT.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_EDIT.pushbutton.text
-msgid "~Modify..."
-msgstr "Sử~a..."
-
-#: templdlg.src#RID_STYLECATALOG.BT_NEW.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_NEW.pushbutton.text
-msgid "~New..."
-msgstr "~Mới..."
-
-#: templdlg.src#RID_STYLECATALOG.modaldialog.text
-#: templdlg.src%23RID_STYLECATALOG.modaldialog.text
-msgid "Style Catalog"
-msgstr "Phân loại Kiểu dáng"
-
-#: templdlg.src#STR_STYLE_ELEMTLIST.string.text
-#: templdlg.src%23STR_STYLE_ELEMTLIST.string.text
-msgid "Style List"
-msgstr "Danh sách Kiểu Trang Trí"
-
-#: templdlg.src#STR_STYLE_FILTER_HIERARCHICAL.string.text
-#: templdlg.src%23STR_STYLE_FILTER_HIERARCHICAL.string.text
-msgid "Hierarchical"
-msgstr "Phân cấp"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
-msgid "Fill Format Mode"
-msgstr "Chế độ Định dạng Tô đầy"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
-msgid "New Style from Selection"
-msgstr "Kiểu dáng Mới từ Vùng chọn"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
-msgid "Update Style"
-msgstr "Cập nhật Kiểu dáng"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.dockingwindow.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.dockingwindow.text
-msgid "Styles and Formatting"
-msgstr "Kiểu dáng và Định dạng"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
-msgid "Reduce print data"
-msgstr "Giảm dữ liệu in"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
-msgid "Settings for"
-msgstr "Thiết lập cho"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
-msgid "~Printer"
-msgstr "~Máy in"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
-msgid "Print to ~file"
-msgstr "In ~vào tập tin"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
-msgid "~Reduce transparency"
-msgstr "~Giảm tính trong suốt"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
-msgid "Auto~matically"
-msgstr "~Tự động"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
-msgid "~No transparency"
-msgstr "Khô~ng trong suốt"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
-msgid "Reduce ~gradients"
-msgstr "~Giảm chuyển màu"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
-msgid "Gradient ~stripes"
-msgstr "~Sọc chuyển màu"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
-msgid "Intermediate ~color"
-msgstr "~Màu trung gian"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
-msgid "Reduce ~bitmaps"
-msgstr "Giảm ~mảng"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
-msgid "~High print quality"
-msgstr "C~hất lượng in cao"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
-msgid "N~ormal print quality"
-msgstr "~Chất lượng in chuẩn"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
-msgid "Reso~lution"
-msgstr "Độ ~phân giải"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
-msgid "72 DPI"
-msgstr "72 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
-msgid "96 DPI"
-msgstr "96 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
-msgid "150 DPI (Fax)"
-msgstr "150 DPI (điện thư)"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
-msgid "200 DPI (default)"
-msgstr "200 DPI (mặc định)"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
-msgid "300 DPI"
-msgstr "300 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
-msgid "600 DPI"
-msgstr "600 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
-msgid "Include transparent ob~jects"
-msgstr "Gồm đối tượng tr~ong suốt"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
-msgid "Con~vert colors to grayscale"
-msgstr "Chuyển đổi màu thành g~am xám"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
-msgid "Printer warnings"
-msgstr "Cảnh báo in"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
-msgid "P~aper size"
-msgstr "Kích cỡ giấ~y"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
-msgid "Pap~er orientation"
-msgstr "~Hướng giấy"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
-msgid "~Transparency"
-msgstr "~Trong suốt"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
-msgid ""
-"Your document contains transparent objects.\n"
-"This may lead to longer printing time on certain\n"
-"printers. Should the aspect of transparency\n"
-"be reduced?"
-msgstr ""
-"Tài liệu này chứa các đối tượng trong suốt.\n"
-"Trường hợp này có thể gây ra thời gian in lâu hơn\n"
-"trên một số máy in nào đó. Có nên giảm\n"
-"độ trong suốt không?"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
-msgid "~Yes"
-msgstr "~Có"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
-msgid "~No"
-msgstr "~Không"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
-msgid "~Cancel"
-msgstr "Thô~i"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
-msgid "~Do not show warning again"
-msgstr "~Không hiển thị lại cảnh báo này"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.modaldialog.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.modaldialog.text
-msgid "Warning"
-msgstr "Cảnh báo"
 
 #: srchdlg.src#RID_DLG_SEARCH.FT_SEARCH.fixedtext.text
 #: srchdlg.src%23RID_DLG_SEARCH.FT_SEARCH.fixedtext.text
@@ -435,49 +121,35 @@ msgstr "Cuộn ~qua"
 msgid "Find on this Page"
 msgstr "Tìm trên trang này"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
-msgid "Style name"
-msgstr "Tên kiểu dáng"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_NAME.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "Tê~n"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
-msgid "Style already exists. Overwrite?"
-msgstr "Kiểu dáng đã có. Ghi đẻ không?"
+#: mgetempl.src#TP_MANAGE_STYLES.CB_AUTO.checkbox.text
+#: mgetempl.src%23TP_MANAGE_STYLES.CB_AUTO.checkbox.text
+msgid "~AutoUpdate"
+msgstr "Tự cậ~p nhật"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
-msgid "Create Style"
-msgstr "Tạo kiểu dáng"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
+msgid "Ne~xt Style"
+msgstr "Kiểu dáng ~sau"
 
-#: mailwindow.src#RID_ERRBOX_MAIL_CONFIG.errorbox.text
-#: mailwindow.src%23RID_ERRBOX_MAIL_CONFIG.errorbox.text
-msgid ""
-"%PRODUCTNAME was unable to find a working e-mail configuration. Please save "
-"this document locally instead and attach it from within your e-mail client."
-msgstr ""
-"%PRODUCTNAME đã không thể tìm cấu hình thư điện tử hoạt động được. Hãy lưu "
-"tài liệu này trên máy tính cục bộ và đính nó kèm thư bên trong ứng dụng thư "
-"điện tử."
+#: mgetempl.src#TP_MANAGE_STYLES.FT_BASE.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_BASE.fixedtext.text
+msgid "Linked with"
+msgstr "Liên kết với"
 
-#: recfloat.src#SID_RECORDING_FLOATWINDOW.floatingwindow.text
-#: recfloat.src%23SID_RECORDING_FLOATWINDOW.floatingwindow.text
-msgid "Record Macro"
-msgstr "Ghi lại ngôn ngữ kịch bản"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_REGION.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_REGION.fixedtext.text
+msgid "~Category"
+msgstr "~Loại"
 
-#: recfloat.src#STR_MACRO_LOSS.string.text
-#: recfloat.src%23STR_MACRO_LOSS.string.text
-msgid ""
-"Do you really want to cancel the recording? Any steps recorded up to this "
-"point will be lost."
-msgstr ""
-"Bạn có thực sự muốn thôi việc thu không? Bất kỳ bước nào được ghi lại cho "
-"tới điểm này sẽ bị mất hoàn toàn."
-
-#: recfloat.src#STR_CANCEL_RECORDING.string.text
-#: recfloat.src%23STR_CANCEL_RECORDING.string.text
-msgid "Cancel Recording"
-msgstr "Thôi thu"
+#: mgetempl.src#TP_MANAGE_STYLES.GB_DESC.fixedline.text
+#: mgetempl.src%23TP_MANAGE_STYLES.GB_DESC.fixedline.text
+msgid "Contains"
+msgstr "Chứa"
 
 #: dinfdlg.src#STR_SFX_NEWOFFICEDOC.string.text
 #: dinfdlg.src%23STR_SFX_NEWOFFICEDOC.string.text
@@ -981,6 +653,107 @@ msgstr "Ph~ần nghìn giây"
 msgid "Edit Duration"
 msgstr "Hiệu chỉnh thời lượng"
 
+#: dinfedt.src#DLG_DOCINFO_EDT.FL_INFO.fixedline.text
+#: dinfedt.src%23DLG_DOCINFO_EDT.FL_INFO.fixedline.text
+msgid "Names"
+msgstr "Tên"
+
+#: dinfedt.src#DLG_DOCINFO_EDT.modaldialog.text
+#: dinfedt.src%23DLG_DOCINFO_EDT.modaldialog.text
+msgid "Edit Field Names"
+msgstr "Sửa tên trường"
+
+#: versdlg.src#DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
+#: versdlg.src%23DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
+msgid "New versions"
+msgstr "Phiên bản mới"
+
+#: versdlg.src#DLG_VERSIONS.PB_SAVE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_SAVE.pushbutton.text
+msgid "Save ~New Version"
+msgstr "Lưu phiê~n bản mới"
+
+#: versdlg.src#DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
+#: versdlg.src%23DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
+msgid "~Always save a version on closing"
+msgstr "~Lúc nào cũng lưu phiên bản khi đóng"
+
+#: versdlg.src#DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
+#: versdlg.src%23DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
+msgid "Existing versions"
+msgstr "Phiên bản đã có"
+
+#: versdlg.src#DLG_VERSIONS.FT_DATETIME.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_DATETIME.fixedtext.text
+msgid "Date and time"
+msgstr "Ngày và giờ"
+
+#: versdlg.src#DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
+msgid "Saved by"
+msgstr "Lưu bởi"
+
+#: versdlg.src#DLG_VERSIONS.FT_COMMENTS.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_COMMENTS.fixedtext.text
+msgid "Comments"
+msgstr "Chú thích"
+
+#: versdlg.src#DLG_VERSIONS.PB_CLOSE.cancelbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_CLOSE.cancelbutton.text
+msgid "Close"
+msgstr "Đóng"
+
+#: versdlg.src#DLG_VERSIONS.PB_OPEN.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_OPEN.pushbutton.text
+msgid "Open"
+msgstr "Mở"
+
+#: versdlg.src#DLG_VERSIONS.PB_VIEW.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_VIEW.pushbutton.text
+msgid "~Show..."
+msgstr "~Hiện..."
+
+#: versdlg.src#DLG_VERSIONS.PB_DELETE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_DELETE.pushbutton.text
+msgid "~Delete"
+msgstr "~Xoá"
+
+#: versdlg.src#DLG_VERSIONS.PB_COMPARE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_COMPARE.pushbutton.text
+msgid "Compare"
+msgstr "So sánh"
+
+#: versdlg.src#DLG_VERSIONS.modaldialog.text
+#: versdlg.src%23DLG_VERSIONS.modaldialog.text
+msgid "Versions of"
+msgstr "Phiên bản của"
+
+#: versdlg.src#DLG_COMMENTS.FT_DATETIME.fixedtext.text
+#: versdlg.src%23DLG_COMMENTS.FT_DATETIME.fixedtext.text
+msgid "Date and time : "
+msgstr "Ngày và giờ : "
+
+#: versdlg.src#DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
+#: versdlg.src%23DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
+msgid "Saved by "
+msgstr "Lưu bởi "
+
+#: versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text
+#: versdlg.src%23DLG_COMMENTS.PB_CLOSE.pushbutton.text
+msgctxt "versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "Đón~g"
+
+#: versdlg.src#DLG_COMMENTS.modaldialog.text
+#: versdlg.src%23DLG_COMMENTS.modaldialog.text
+msgid "Insert Version Comment"
+msgstr "Chèn ghi chú phiên bản"
+
+#: versdlg.src#DLG_COMMENTS.string.text
+#: versdlg.src%23DLG_COMMENTS.string.text
+msgid "Version comment"
+msgstr "Ghi chú phiên bản"
+
 #: dialog.src#STR_RESET.string.text
 #: dialog.src%23STR_RESET.string.text
 msgid "~Reset"
@@ -1074,163 +847,156 @@ msgstr "Lỗi xác nhận mật khẩu"
 msgid "Send"
 msgstr "Gửi"
 
-#: versdlg.src#DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
-#: versdlg.src%23DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
-msgid "New versions"
-msgstr "Phiên bản mới"
+#: filedlghelper.src#STR_SFX_FILEDLG_ACTUALVERSION.string.text
+#: filedlghelper.src%23STR_SFX_FILEDLG_ACTUALVERSION.string.text
+msgid "Current version"
+msgstr "Phiên bản hiện thời"
 
-#: versdlg.src#DLG_VERSIONS.PB_SAVE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_SAVE.pushbutton.text
-msgid "Save ~New Version"
-msgstr "Lưu phiê~n bản mới"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_EXPORT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_EXPORT.string.text
+msgid "Export"
+msgstr "Xuất"
 
-#: versdlg.src#DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
-#: versdlg.src%23DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
-msgid "~Always save a version on closing"
-msgstr "~Lúc nào cũng lưu phiên bản khi đóng"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_INSERT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_INSERT.string.text
+msgid "Insert"
+msgstr "Chèn"
 
-#: versdlg.src#DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
-#: versdlg.src%23DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
-msgid "Existing versions"
-msgstr "Phiên bản đã có"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
+msgid "~Insert"
+msgstr "C~hèn"
 
-#: versdlg.src#DLG_VERSIONS.FT_DATETIME.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_DATETIME.fixedtext.text
-msgid "Date and time"
-msgstr "Ngày và giờ"
+#: filedlghelper.src#STR_SFX_IMPORT_ALL.string.text
+#: filedlghelper.src%23STR_SFX_IMPORT_ALL.string.text
+msgid "<All formats>"
+msgstr "<Mọi định dạng>"
 
-#: versdlg.src#DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
-msgid "Saved by"
-msgstr "Lưu bởi"
+#: filedlghelper.src#STR_CB_AUTO_EXTENSION.string.text
+#: filedlghelper.src%23STR_CB_AUTO_EXTENSION.string.text
+msgid "~Automatic file name extension"
+msgstr "Tự gõ ~phần mở rộng tên tập tin"
 
-#: versdlg.src#DLG_VERSIONS.FT_COMMENTS.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_COMMENTS.fixedtext.text
-msgid "Comments"
-msgstr "Chú thích"
+#: filedlghelper.src#STR_CB_SELECTION.string.text
+#: filedlghelper.src%23STR_CB_SELECTION.string.text
+msgid "~Selection"
+msgstr "Lựa ~chọn"
 
-#: versdlg.src#DLG_VERSIONS.PB_CLOSE.cancelbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_CLOSE.cancelbutton.text
-msgid "Close"
-msgstr "Đóng"
+#: filedlghelper.src#STR_CB_INSERT_AS_LINK.string.text
+#: filedlghelper.src%23STR_CB_INSERT_AS_LINK.string.text
+msgid "~Link"
+msgstr "~Liên kết"
 
-#: versdlg.src#DLG_VERSIONS.PB_OPEN.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_OPEN.pushbutton.text
-msgid "Open"
-msgstr "Mở"
+#: filedlghelper.src#STR_CB_SHOW_PREVIEW.string.text
+#: filedlghelper.src%23STR_CB_SHOW_PREVIEW.string.text
+msgid "Pr~eview"
+msgstr "X~em thử"
 
-#: versdlg.src#DLG_VERSIONS.PB_VIEW.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_VIEW.pushbutton.text
-msgid "~Show..."
-msgstr "~Hiện..."
+#: filedlghelper.src#STR_CB_READONLY.string.text
+#: filedlghelper.src%23STR_CB_READONLY.string.text
+msgctxt "filedlghelper.src#STR_CB_READONLY.string.text"
+msgid "~Read-only"
+msgstr "~Chỉ đọc"
 
-#: versdlg.src#DLG_VERSIONS.PB_DELETE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_DELETE.pushbutton.text
-msgid "~Delete"
-msgstr "~Xoá"
+#: filedlghelper.src#STR_CB_PASSWORD.string.text
+#: filedlghelper.src%23STR_CB_PASSWORD.string.text
+msgid "Save with ~password"
+msgstr "Lưu bằng ~mật khẩu"
 
-#: versdlg.src#DLG_VERSIONS.PB_COMPARE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_COMPARE.pushbutton.text
-msgid "Compare"
-msgstr "So sánh"
+#: filedlghelper.src#STR_CB_FILTER_OPTIONS.string.text
+#: filedlghelper.src%23STR_CB_FILTER_OPTIONS.string.text
+msgid "Edit ~filter settings"
+msgstr "Sửa thiết lập ~lọc"
 
-#: versdlg.src#DLG_VERSIONS.modaldialog.text
-#: versdlg.src%23DLG_VERSIONS.modaldialog.text
-msgid "Versions of"
-msgstr "Phiên bản của"
+#: filedlghelper.src#STR_PB_PLAY.string.text
+#: filedlghelper.src%23STR_PB_PLAY.string.text
+msgid "~Play"
+msgstr "~Chạy"
 
-#: versdlg.src#DLG_COMMENTS.FT_DATETIME.fixedtext.text
-#: versdlg.src%23DLG_COMMENTS.FT_DATETIME.fixedtext.text
-msgid "Date and time : "
-msgstr "Ngày và giờ : "
+#: filedlghelper.src#STR_PB_STOP.string.text
+#: filedlghelper.src%23STR_PB_STOP.string.text
+msgid "Sto~p"
+msgstr "~Dừng"
 
-#: versdlg.src#DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
-#: versdlg.src%23DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
-msgid "Saved by "
-msgstr "Lưu bởi "
+#: filedlghelper.src#STR_PB_OPEN.string.text
+#: filedlghelper.src%23STR_PB_OPEN.string.text
+msgid "~Open"
+msgstr "~Mở"
 
-#: versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text
-#: versdlg.src%23DLG_COMMENTS.PB_CLOSE.pushbutton.text
-msgctxt "versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "Đón~g"
+#: filedlghelper.src#STR_PB_SAVE.string.text
+#: filedlghelper.src%23STR_PB_SAVE.string.text
+msgid "~Save"
+msgstr "~Lưu"
 
-#: versdlg.src#DLG_COMMENTS.modaldialog.text
-#: versdlg.src%23DLG_COMMENTS.modaldialog.text
-msgid "Insert Version Comment"
-msgstr "Chèn ghi chú phiên bản"
+#: filedlghelper.src#STR_LB_IMAGE_TEMPLATE.string.text
+#: filedlghelper.src%23STR_LB_IMAGE_TEMPLATE.string.text
+msgid "Style:"
+msgstr "Kiểu dáng:"
 
-#: versdlg.src#DLG_COMMENTS.string.text
-#: versdlg.src%23DLG_COMMENTS.string.text
-msgid "Version comment"
-msgstr "Ghi chú phiên bản"
+#: filedlghelper.src#STR_LB_TEMPLATES.string.text
+#: filedlghelper.src%23STR_LB_TEMPLATES.string.text
+msgid "~Templates:"
+msgstr "~Mẫu :"
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_NAME.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "Tê~n"
+#: filedlghelper.src#STR_LB_VERSION.string.text
+#: filedlghelper.src%23STR_LB_VERSION.string.text
+msgid "~Version:"
+msgstr "Phiên ~bản:"
 
-#: mgetempl.src#TP_MANAGE_STYLES.CB_AUTO.checkbox.text
-#: mgetempl.src%23TP_MANAGE_STYLES.CB_AUTO.checkbox.text
-msgid "~AutoUpdate"
-msgstr "Tự cậ~p nhật"
+#: templdlg.src#RID_STYLECATALOG.BT_ORG.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_ORG.pushbutton.text
+msgid "~Organizer..."
+msgstr "~Tổ chức..."
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
-msgid "Ne~xt Style"
-msgstr "Kiểu dáng ~sau"
+#: templdlg.src#RID_STYLECATALOG.BT_DEL.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_DEL.pushbutton.text
+msgid "~Delete..."
+msgstr "~Xoá..."
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_BASE.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_BASE.fixedtext.text
-msgid "Linked with"
-msgstr "Liên kết với"
+#: templdlg.src#RID_STYLECATALOG.BT_EDIT.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_EDIT.pushbutton.text
+msgid "~Modify..."
+msgstr "Sử~a..."
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_REGION.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_REGION.fixedtext.text
-msgid "~Category"
-msgstr "~Loại"
+#: templdlg.src#RID_STYLECATALOG.BT_NEW.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_NEW.pushbutton.text
+msgid "~New..."
+msgstr "~Mới..."
 
-#: mgetempl.src#TP_MANAGE_STYLES.GB_DESC.fixedline.text
-#: mgetempl.src%23TP_MANAGE_STYLES.GB_DESC.fixedline.text
-msgid "Contains"
-msgstr "Chứa"
+#: templdlg.src#RID_STYLECATALOG.modaldialog.text
+#: templdlg.src%23RID_STYLECATALOG.modaldialog.text
+msgid "Style Catalog"
+msgstr "Phân loại Kiểu dáng"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
-msgid ""
-"This document may contain formatting or content that cannot be saved in the %"
-"FORMATNAME file format. Do you want to save the document in this format "
-"anyway?\n"
-"\n"
-"Use the latest ODF file format and be sure all formatting and content is "
-"saved correctly."
-msgstr ""
-"Tài liệu này có thể chứa mã định dạng hoặc nội dung không thể được lưu theo "
-"định dạng tập tin %FORMATNAME. Bạn vẫn muốn lưu tài liệu này theo định dạng "
-"đó không?\n"
-"\n"
-"Hãy dùng định dạng tập tin ODF mới nhất để đảm bảo tất cả các mã định dạng "
-"và nội dung đều được lưu đúng."
+#: templdlg.src#STR_STYLE_ELEMTLIST.string.text
+#: templdlg.src%23STR_STYLE_ELEMTLIST.string.text
+msgid "Style List"
+msgstr "Danh sách Kiểu Trang Trí"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
-msgid "~Keep Current Format"
-msgstr "~Giữ định dạng hiện thời"
+#: templdlg.src#STR_STYLE_FILTER_HIERARCHICAL.string.text
+#: templdlg.src%23STR_STYLE_FILTER_HIERARCHICAL.string.text
+msgid "Hierarchical"
+msgstr "Phân cấp"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
-msgid "~Save in ODF Format"
-msgstr "~Lưu dạng định dạng ODF"
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
+msgid "Fill Format Mode"
+msgstr "Chế độ Định dạng Tô đầy"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
-msgid "~More Information..."
-msgstr "Thông tin thê~m..."
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
+msgid "New Style from Selection"
+msgstr "Kiểu dáng Mới từ Vùng chọn"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
-msgid "~Ask when not saving in ODF format"
-msgstr "~Nhắc khi không lưu dạng ODF"
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
+msgid "Update Style"
+msgstr "Cập nhật Kiểu dáng"
+
+#: templdlg.src#DLG_STYLE_DESIGNER.dockingwindow.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.dockingwindow.text
+msgid "Styles and Formatting"
+msgstr "Kiểu dáng và Định dạng"
 
 #: securitypage.src#TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FL.fixedline.text
 #: securitypage.src%23TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FL.fixedline.text
@@ -1336,3 +1102,237 @@ msgstr "Chế độ xem"
 #: taskpane.src%23STR_SFX_TASKS.string.text
 msgid "Tasks"
 msgstr "Các tác vụ"
+
+#: mailwindow.src#RID_ERRBOX_MAIL_CONFIG.errorbox.text
+#: mailwindow.src%23RID_ERRBOX_MAIL_CONFIG.errorbox.text
+msgid ""
+"%PRODUCTNAME was unable to find a working e-mail configuration. Please save "
+"this document locally instead and attach it from within your e-mail client."
+msgstr ""
+"%PRODUCTNAME đã không thể tìm cấu hình thư điện tử hoạt động được. Hãy lưu "
+"tài liệu này trên máy tính cục bộ và đính nó kèm thư bên trong ứng dụng thư "
+"điện tử."
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
+msgid "Reduce print data"
+msgstr "Giảm dữ liệu in"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
+msgid "Settings for"
+msgstr "Thiết lập cho"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
+msgid "~Printer"
+msgstr "~Máy in"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
+msgid "Print to ~file"
+msgstr "In ~vào tập tin"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
+msgid "~Reduce transparency"
+msgstr "~Giảm tính trong suốt"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
+msgid "Auto~matically"
+msgstr "~Tự động"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
+msgid "~No transparency"
+msgstr "Khô~ng trong suốt"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
+msgid "Reduce ~gradients"
+msgstr "~Giảm chuyển màu"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
+msgid "Gradient ~stripes"
+msgstr "~Sọc chuyển màu"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
+msgid "Intermediate ~color"
+msgstr "~Màu trung gian"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
+msgid "Reduce ~bitmaps"
+msgstr "Giảm ~mảng"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
+msgid "~High print quality"
+msgstr "C~hất lượng in cao"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
+msgid "N~ormal print quality"
+msgstr "~Chất lượng in chuẩn"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
+msgid "Reso~lution"
+msgstr "Độ ~phân giải"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
+msgid "72 DPI"
+msgstr "72 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
+msgid "96 DPI"
+msgstr "96 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
+msgid "150 DPI (Fax)"
+msgstr "150 DPI (điện thư)"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
+msgid "200 DPI (default)"
+msgstr "200 DPI (mặc định)"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
+msgid "300 DPI"
+msgstr "300 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
+msgid "600 DPI"
+msgstr "600 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
+msgid "Include transparent ob~jects"
+msgstr "Gồm đối tượng tr~ong suốt"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
+msgid "Con~vert colors to grayscale"
+msgstr "Chuyển đổi màu thành g~am xám"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
+msgid "Printer warnings"
+msgstr "Cảnh báo in"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
+msgid "P~aper size"
+msgstr "Kích cỡ giấ~y"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
+msgid "Pap~er orientation"
+msgstr "~Hướng giấy"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
+msgid "~Transparency"
+msgstr "~Trong suốt"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
+msgid ""
+"Your document contains transparent objects.\n"
+"This may lead to longer printing time on certain\n"
+"printers. Should the aspect of transparency\n"
+"be reduced?"
+msgstr ""
+"Tài liệu này chứa các đối tượng trong suốt.\n"
+"Trường hợp này có thể gây ra thời gian in lâu hơn\n"
+"trên một số máy in nào đó. Có nên giảm\n"
+"độ trong suốt không?"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
+msgid "~Yes"
+msgstr "~Có"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
+msgid "~No"
+msgstr "~Không"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
+msgid "~Cancel"
+msgstr "Thô~i"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
+msgid "~Do not show warning again"
+msgstr "~Không hiển thị lại cảnh báo này"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.modaldialog.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.modaldialog.text
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#: recfloat.src#SID_RECORDING_FLOATWINDOW.floatingwindow.text
+#: recfloat.src%23SID_RECORDING_FLOATWINDOW.floatingwindow.text
+msgid "Record Macro"
+msgstr "Ghi lại ngôn ngữ kịch bản"
+
+#: recfloat.src#STR_MACRO_LOSS.string.text
+#: recfloat.src%23STR_MACRO_LOSS.string.text
+msgid ""
+"Do you really want to cancel the recording? Any steps recorded up to this "
+"point will be lost."
+msgstr ""
+"Bạn có thực sự muốn thôi việc thu không? Bất kỳ bước nào được ghi lại cho "
+"tới điểm này sẽ bị mất hoàn toàn."
+
+#: recfloat.src#STR_CANCEL_RECORDING.string.text
+#: recfloat.src%23STR_CANCEL_RECORDING.string.text
+msgid "Cancel Recording"
+msgstr "Thôi thu"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
+msgid ""
+"This document may contain formatting or content that cannot be saved in the %"
+"FORMATNAME file format. Do you want to save the document in this format "
+"anyway?\n"
+"\n"
+"Use the latest ODF file format and be sure all formatting and content is "
+"saved correctly."
+msgstr ""
+"Tài liệu này có thể chứa mã định dạng hoặc nội dung không thể được lưu theo "
+"định dạng tập tin %FORMATNAME. Bạn vẫn muốn lưu tài liệu này theo định dạng "
+"đó không?\n"
+"\n"
+"Hãy dùng định dạng tập tin ODF mới nhất để đảm bảo tất cả các mã định dạng "
+"và nội dung đều được lưu đúng."
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
+msgid "~Keep Current Format"
+msgstr "~Giữ định dạng hiện thời"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
+msgid "~Save in ODF Format"
+msgstr "~Lưu dạng định dạng ODF"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
+msgid "~More Information..."
+msgstr "Thông tin thê~m..."
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
+msgid "~Ask when not saving in ODF format"
+msgstr "~Nhắc khi không lưu dạng ODF"

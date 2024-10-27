@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Ffldui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,124 +16,204 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
-#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
-msgid "Input"
-msgstr "Vstup"
-
-#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
-#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
 msgid "Edit"
 msgstr "Upraviť"
 
-#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
 msgid "~Next"
 msgstr "Ď~alej"
 
-#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
-#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
-msgid "Input Field"
-msgstr "Vstupné pole"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+msgid "~Edit"
+msgstr "~Upraviť"
 
-#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
+msgid "Choose Item: "
+msgstr "Zvoľte položku: "
+
+#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+msgid "Exchange databases"
+msgstr "Vymeniť databázy"
+
+#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+msgid "Databases in Use"
+msgstr "Používaná databáza"
+
+#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+msgid "Available Databases"
+msgstr "Dostupné databázy"
+
+#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
+msgid "Browse..."
+msgstr "Prehľadávať..."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
+msgid ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+msgstr ""
+"V tomto dialógu môžete zmeniť databázu, ku ktorej pristupujete z dokumentu "
+"pomocou databázových polí. Naraz môžete vykonať len jednu zmenu. Viacnásobný "
+"výber je možný v zozname naľavo.\n"
+"Použite tlačidlo Prehliadať pre výber databázového súboru."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+msgid "Database applied to document:"
+msgstr "Databáza použitá v dokumente:"
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+msgid "Addresses.Addresses"
+msgstr "Adresy.Adresy"
+
+#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
+msgid "Define"
+msgstr "Definovať"
+
+#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "~Zatvoriť"
+
+#: changedb.src#DLG_CHANGE_DB.modaldialog.text
+#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
+msgid "Exchange Databases"
+msgstr "Vymeniť databázy"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
 msgid "~Type"
 msgstr "~Typ"
 
-#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "Vy~brať"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "F~ormát"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
+msgid "O~ffset"
+msgstr "O~dchýlka"
+
+#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Pe~vný obsah"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
+msgid "Offs~et in days"
+msgstr "Odchýlka v dň~och"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+msgid "Offs~et in minutes"
+msgstr "Od~chýlka v minútach"
+
+#: flddok.src#TP_FLD_DOK.tabpage.text
+#: flddok.src%23TP_FLD_DOK.tabpage.text
+msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
+msgid "Document"
+msgstr "Dokument"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Typ"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
 msgid "S~election"
 msgstr "Výb~er"
 
-#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-msgid "Insert ~reference to"
-msgstr "Vložiť od~kaz do"
+#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
+msgid "Format"
+msgstr "Formát"
 
-#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+msgid "Invisi~ble"
+msgstr "Nevi~diteľný"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+msgid "Numbering by chapter"
+msgstr "Číslovanie podľa kapitol"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+msgid "~Level"
+msgstr "Úro~veň"
+
+#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+msgid "None"
+msgstr "Žiadne"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+msgid "~Separator"
+msgstr "~Oddeľovač"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
 msgid "Na~me"
 msgstr "~Názov"
 
-#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
 msgid "~Value"
 msgstr "~Hodnota"
 
-#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "Záložky"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Použiť"
 
-#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
-msgid "Footnotes"
-msgstr "Poznámky pod čiarou"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+msgid "Delete"
+msgstr "Zmazať"
 
-#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
-msgid "Endnotes"
-msgstr "Vysvetlivky"
-
-#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
-msgid "Headings"
-msgstr "Nadpisy"
-
-#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
-msgid "Numbered Paragraphs"
-msgstr "Číslované odseky"
-
-#: fldref.src#TP_FLD_REF.tabpage.text
-#: fldref.src%23TP_FLD_REF.tabpage.text
-msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
-msgid "Cross-references"
-msgstr "Krížové odkazy"
-
-#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-msgid "Script type"
-msgstr "Druh skriptu"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
-msgid "URL"
-msgstr "URL"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-msgid "~Text"
-msgstr "~Text"
-
-#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-msgid "Contents"
-msgstr "Obsah"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
-msgid "Edit Script"
-msgstr "Upraviť skript"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-msgid "Insert Script"
-msgstr "Vložiť skript"
-
-#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
-#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
-msgid "Edit Script"
-msgstr "Upraviť skript"
+#: fldvar.src#TP_FLD_VAR.tabpage.text
+#: fldvar.src%23TP_FLD_VAR.tabpage.text
+msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
+msgid "Variables"
+msgstr "Premenné"
 
 #: fldui.src#STR_FLD_EDIT_DLG.string.text
 #: fldui.src%23STR_FLD_EDIT_DLG.string.text
@@ -482,9 +562,8 @@ msgid "Tel. (Work)"
 msgstr "Tel. (do práce)"
 
 #: fldui.src#FLD_EU_FAX.string.text
-#: fldui.src%23FLD_EU_FAX.string.text
-msgid "FAX"
-msgstr "Fax"
+msgid "Fax"
+msgstr ""
 
 #: fldui.src#FLD_EU_EMAIL.string.text
 #: fldui.src%23FLD_EU_EMAIL.string.text
@@ -836,6 +915,125 @@ msgstr "Upraviť"
 msgid "Custom"
 msgstr "Vlastné"
 
+#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+msgid "Script type"
+msgstr "Druh skriptu"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
+msgid "URL"
+msgstr "URL"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+msgid "~Text"
+msgstr "~Text"
+
+#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+msgid "Contents"
+msgstr "Obsah"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
+msgid "Edit Script"
+msgstr "Upraviť skript"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+msgid "Insert Script"
+msgstr "Vložiť skript"
+
+#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
+#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
+msgid "Edit Script"
+msgstr "Upraviť skript"
+
+#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
+#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
+msgid "Input"
+msgstr "Vstup"
+
+#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
+#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+msgid "Edit"
+msgstr "Upraviť"
+
+#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+msgid "~Next"
+msgstr "Ď~alej"
+
+#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
+#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
+msgid "Input Field"
+msgstr "Vstupné pole"
+
+#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Typ"
+
+#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+msgid "S~election"
+msgstr "Výb~er"
+
+#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+msgid "Insert ~reference to"
+msgstr "Vložiť od~kaz do"
+
+#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+msgid "Na~me"
+msgstr "~Názov"
+
+#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+msgid "~Value"
+msgstr "~Hodnota"
+
+#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
+msgid "Footnotes"
+msgstr "Poznámky pod čiarou"
+
+#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
+msgid "Endnotes"
+msgstr "Vysvetlivky"
+
+#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
+msgid "Headings"
+msgstr "Nadpisy"
+
+#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
+msgid "Numbered Paragraphs"
+msgstr "Číslované odseky"
+
+#: fldref.src#TP_FLD_REF.tabpage.text
+#: fldref.src%23TP_FLD_REF.tabpage.text
+msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
+msgid "Cross-references"
+msgstr "Krížové odkazy"
+
 #: flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text
 #: flddb.src%23TP_FLD_DB.FT_DBTYPE.fixedtext.text
 msgctxt "flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text"
@@ -892,27 +1090,115 @@ msgctxt "flddb.src#TP_FLD_DB.tabpage.text"
 msgid "Database"
 msgstr "Databáza"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
-msgid "Edit"
-msgstr "Upraviť"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Typ"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
-msgid "~Next"
-msgstr "Ď~alej"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "Vy~brať"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-msgid "~Edit"
-msgstr "~Upraviť"
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
+msgid "Author"
+msgstr "Autor"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
-msgid "Choose Item: "
-msgstr "Zvoľte položku: "
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
+msgid "Time"
+msgstr "Čas"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
+msgid "Date"
+msgstr "Dátum"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+msgid "Date Time Author"
+msgstr "Dátum, čas a autor"
+
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "F~ormát"
+
+#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Pe~vný obsah"
+
+#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+msgid "Info"
+msgstr "Informácie"
+
+#: flddinf.src#TP_FLD_DOKINF.tabpage.text
+#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
+msgid "DocInformation"
+msgstr "Informácie o dokumente"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
+msgid "Document"
+msgstr "Dokument"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
+msgid "Cross-references"
+msgstr "Krížové odkazy"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
+msgid "Functions"
+msgstr "Funkcie"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
+msgid "DocInformation"
+msgstr "Informácie o dokumente"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
+msgid "Variables"
+msgstr "Premenné"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
+msgid "Database"
+msgstr "Databáza"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+msgid "~Insert"
+msgstr "Vlož~iť"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
+msgid "~Close"
+msgstr "~Zatvoriť"
+
+#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
+#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
+msgid "Fields"
+msgstr "Polia"
 
 #: fldfunc.src#TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
 #: fldfunc.src%23TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
@@ -1000,290 +1286,3 @@ msgstr "~Názov"
 msgctxt "fldfunc.src#TP_FLD_FUNC.tabpage.text"
 msgid "Functions"
 msgstr "Funkcie"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
-msgid "Document"
-msgstr "Dokument"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
-msgid "Cross-references"
-msgstr "Krížové odkazy"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
-msgid "Functions"
-msgstr "Funkcie"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
-msgid "DocInformation"
-msgstr "Informácie o dokumente"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
-msgid "Variables"
-msgstr "Premenné"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
-msgid "Database"
-msgstr "Databáza"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-msgid "~Insert"
-msgstr "Vlož~iť"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
-msgid "~Close"
-msgstr "~Zatvoriť"
-
-#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
-#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
-msgid "Fields"
-msgstr "Polia"
-
-#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-msgid "Exchange databases"
-msgstr "Vymeniť databázy"
-
-#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-msgid "Databases in Use"
-msgstr "Používaná databáza"
-
-#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-msgid "Available Databases"
-msgstr "Dostupné databázy"
-
-#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
-msgid "Browse..."
-msgstr "Prehľadávať..."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
-msgid ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-msgstr ""
-"V tomto dialógu môžete zmeniť databázu, ku ktorej pristupujete z dokumentu "
-"pomocou databázových polí. Naraz môžete vykonať len jednu zmenu. Viacnásobný "
-"výber je možný v zozname naľavo.\n"
-"Použite tlačidlo Prehliadať pre výber databázového súboru."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-msgid "Database applied to document:"
-msgstr "Databáza použitá v dokumente:"
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-msgid "Addresses.Addresses"
-msgstr "Adresy.Adresy"
-
-#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
-msgid "Define"
-msgstr "Definovať"
-
-#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "~Zatvoriť"
-
-#: changedb.src#DLG_CHANGE_DB.modaldialog.text
-#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
-msgid "Exchange Databases"
-msgstr "Vymeniť databázy"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Typ"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "Vy~brať"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "F~ormát"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
-msgid "O~ffset"
-msgstr "O~dchýlka"
-
-#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Pe~vný obsah"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
-msgid "Offs~et in days"
-msgstr "Odchýlka v dň~och"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-msgid "Offs~et in minutes"
-msgstr "Od~chýlka v minútach"
-
-#: flddok.src#TP_FLD_DOK.tabpage.text
-#: flddok.src%23TP_FLD_DOK.tabpage.text
-msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
-msgid "Document"
-msgstr "Dokument"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Typ"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
-msgid "S~election"
-msgstr "Výb~er"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
-msgid "Format"
-msgstr "Formát"
-
-#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-msgid "Invisi~ble"
-msgstr "Nevi~diteľný"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-msgid "Numbering by chapter"
-msgstr "Číslovanie podľa kapitol"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-msgid "~Level"
-msgstr "Úro~veň"
-
-#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-msgid "None"
-msgstr "Žiadne"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-msgid "~Separator"
-msgstr "~Oddeľovač"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
-msgid "Na~me"
-msgstr "~Názov"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
-msgid "~Value"
-msgstr "~Hodnota"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Použiť"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-msgid "Delete"
-msgstr "Zmazať"
-
-#: fldvar.src#TP_FLD_VAR.tabpage.text
-#: fldvar.src%23TP_FLD_VAR.tabpage.text
-msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
-msgid "Variables"
-msgstr "Premenné"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Typ"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "Vy~brať"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
-msgid "Author"
-msgstr "Autor"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
-msgid "Time"
-msgstr "Čas"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
-msgid "Date"
-msgstr "Dátum"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-msgid "Date Time Author"
-msgstr "Dátum, čas a autor"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "F~ormát"
-
-#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Pe~vný obsah"
-
-#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-msgid "Info"
-msgstr "Informácie"
-
-#: flddinf.src#TP_FLD_DOKINF.tabpage.text
-#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
-msgid "DocInformation"
-msgstr "Informácie o dokumente"

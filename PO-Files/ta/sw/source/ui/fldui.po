@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Ffldui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,124 +16,204 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
-#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
-msgid "Input"
-msgstr "Input"
-
-#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
-#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
 msgid "Edit"
 msgstr "திருத்து"
 
-#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
 msgid "~Next"
 msgstr "அடுத்து"
 
-#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
-#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
-msgid "Input Field"
-msgstr "Input Field"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+msgid "~Edit"
+msgstr "~Edit"
 
-#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
+msgid "Choose Item: "
+msgstr "Choose Item: "
+
+#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+msgid "Exchange databases"
+msgstr "தரவுதளங்களை மாற்றுக"
+
+#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+msgid "Databases in Use"
+msgstr "Databases in Use"
+
+#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+msgid "Available Databases"
+msgstr "உள்ள தரவுதளங்கள்"
+
+#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
+msgid "Browse..."
+msgstr "உலாவு..."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
+msgid ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+msgstr ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+msgid "Database applied to document:"
+msgstr "ஆவணத்திற்கு பயன்படும் தரவுதளம் :"
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+msgid "Addresses.Addresses"
+msgstr "Addresses.Addresses"
+
+#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
+msgid "Define"
+msgstr "வரையறுக்க"
+
+#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "மூடு"
+
+#: changedb.src#DLG_CHANGE_DB.modaldialog.text
+#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
+msgid "Exchange Databases"
+msgstr "தரவுதளத்தை மாற்றுக"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
 msgid "~Type"
 msgstr "வகை"
 
-#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "தேர்ந்தெடு"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "வடிவம்"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
+msgid "O~ffset"
+msgstr "O~ffset"
+
+#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "~Fixed content"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
+msgid "Offs~et in days"
+msgstr "Offs~et in days"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+msgid "Offs~et in minutes"
+msgstr "அச்சுத்~தொலைவு நிமிடங்களில்"
+
+#: flddok.src#TP_FLD_DOK.tabpage.text
+#: flddok.src%23TP_FLD_DOK.tabpage.text
+msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
+msgid "Document"
+msgstr "ஆவணம்"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "வகை"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
 msgid "S~election"
 msgstr "தேர்வு"
 
-#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-msgid "Insert ~reference to"
+#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
+msgid "Format"
 msgstr "வடிவம்"
 
-#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+msgid "Invisi~ble"
+msgstr "Invisi~ble"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+msgid "Numbering by chapter"
+msgstr "தலைப்புகளுக்கு எண்ணிடுக"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+msgid "~Level"
+msgstr "~Level"
+
+#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+msgid "None"
+msgstr "Keine"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+msgid "~Separator"
+msgstr "~Separator"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
 msgid "Na~me"
 msgstr "பெயர்"
 
-#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
 msgid "~Value"
 msgstr "மதிப்பு"
 
-#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "புத்தகக்குறிகள்"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Apply"
 
-#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
-msgid "Footnotes"
-msgstr "அடியுரைகள்"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+msgid "Delete"
+msgstr "Delete"
 
-#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
-msgid "Endnotes"
-msgstr "முடிவுரைகள்"
-
-#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
-msgid "Headings"
-msgstr "தலைப்புகள்"
-
-#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
-msgid "Numbered Paragraphs"
-msgstr "Numbered Paragraphs"
-
-#: fldref.src#TP_FLD_REF.tabpage.text
-#: fldref.src%23TP_FLD_REF.tabpage.text
-msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
-msgid "Cross-references"
-msgstr "குறிப்புகள்"
-
-#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-msgid "Script type"
-msgstr "Script type"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
-msgid "URL"
-msgstr "URL"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-msgid "~Text"
-msgstr "~Text"
-
-#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-msgid "Contents"
-msgstr "Contents"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
-msgid "Edit Script"
-msgstr "ஸ்கிரிப்ட் திருத்து"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-msgid "Insert Script"
-msgstr "Insert Script"
-
-#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
-#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
-msgid "Edit Script"
-msgstr "ஸ்கிரிப்ட் திருத்து"
+#: fldvar.src#TP_FLD_VAR.tabpage.text
+#: fldvar.src%23TP_FLD_VAR.tabpage.text
+msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
+msgid "Variables"
+msgstr "மாறிகள்"
 
 #: fldui.src#STR_FLD_EDIT_DLG.string.text
 #: fldui.src%23STR_FLD_EDIT_DLG.string.text
@@ -482,9 +562,8 @@ msgid "Tel. (Work)"
 msgstr "தொலைபேசி (Work)"
 
 #: fldui.src#FLD_EU_FAX.string.text
-#: fldui.src%23FLD_EU_FAX.string.text
-msgid "FAX"
-msgstr "FAX"
+msgid "Fax"
+msgstr ""
 
 #: fldui.src#FLD_EU_EMAIL.string.text
 #: fldui.src%23FLD_EU_EMAIL.string.text
@@ -836,6 +915,125 @@ msgstr "திருத்து"
 msgid "Custom"
 msgstr "தனிபயன்"
 
+#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+msgid "Script type"
+msgstr "Script type"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
+msgid "URL"
+msgstr "URL"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+msgid "~Text"
+msgstr "~Text"
+
+#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+msgid "Contents"
+msgstr "Contents"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
+msgid "Edit Script"
+msgstr "ஸ்கிரிப்ட் திருத்து"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+msgid "Insert Script"
+msgstr "Insert Script"
+
+#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
+#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
+msgid "Edit Script"
+msgstr "ஸ்கிரிப்ட் திருத்து"
+
+#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
+#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
+msgid "Input"
+msgstr "Input"
+
+#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
+#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+msgid "Edit"
+msgstr "திருத்து"
+
+#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+msgid "~Next"
+msgstr "அடுத்து"
+
+#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
+#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
+msgid "Input Field"
+msgstr "Input Field"
+
+#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "வகை"
+
+#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+msgid "S~election"
+msgstr "தேர்வு"
+
+#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+msgid "Insert ~reference to"
+msgstr "வடிவம்"
+
+#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+msgid "Na~me"
+msgstr "பெயர்"
+
+#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+msgid "~Value"
+msgstr "மதிப்பு"
+
+#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "புத்தகக்குறிகள்"
+
+#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
+msgid "Footnotes"
+msgstr "அடியுரைகள்"
+
+#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
+msgid "Endnotes"
+msgstr "முடிவுரைகள்"
+
+#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
+msgid "Headings"
+msgstr "தலைப்புகள்"
+
+#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
+msgid "Numbered Paragraphs"
+msgstr "Numbered Paragraphs"
+
+#: fldref.src#TP_FLD_REF.tabpage.text
+#: fldref.src%23TP_FLD_REF.tabpage.text
+msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
+msgid "Cross-references"
+msgstr "குறிப்புகள்"
+
 #: flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text
 #: flddb.src%23TP_FLD_DB.FT_DBTYPE.fixedtext.text
 msgctxt "flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text"
@@ -892,27 +1090,115 @@ msgctxt "flddb.src#TP_FLD_DB.tabpage.text"
 msgid "Database"
 msgstr "தரவுத்தளம்"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
-msgid "Edit"
-msgstr "திருத்து"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "வகை"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
-msgid "~Next"
-msgstr "அடுத்து"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "தேர்ந்தெடு"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-msgid "~Edit"
-msgstr "~Edit"
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
+msgid "Author"
+msgstr "ஆசிரியர்"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
-msgid "Choose Item: "
-msgstr "Choose Item: "
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
+msgid "Time"
+msgstr "நேரம்"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
+msgid "Date"
+msgstr "தேதி"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+msgid "Date Time Author"
+msgstr "Datum Zeit Autor"
+
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "வடிவம்"
+
+#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "~Fixed content"
+
+#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+msgid "Info"
+msgstr "விவரம்"
+
+#: flddinf.src#TP_FLD_DOKINF.tabpage.text
+#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
+msgid "DocInformation"
+msgstr "DocInformation"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
+msgid "Document"
+msgstr "ஆவணம்"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
+msgid "Cross-references"
+msgstr "குறிப்புகள்"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
+msgid "Functions"
+msgstr "செயல்பாடுகள்"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
+msgid "DocInformation"
+msgstr "DocInformation"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
+msgid "Variables"
+msgstr "மாறிகள்"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
+msgid "Database"
+msgstr "தரவுத்தளம்"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+msgid "~Insert"
+msgstr "~சேர்க்க"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
+msgid "~Close"
+msgstr "மூடு"
+
+#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
+#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
+msgid "Fields"
+msgstr "புலங்கள்"
 
 #: fldfunc.src#TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
 #: fldfunc.src%23TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
@@ -1000,290 +1286,3 @@ msgstr "பெயர்"
 msgctxt "fldfunc.src#TP_FLD_FUNC.tabpage.text"
 msgid "Functions"
 msgstr "செயல்பாடுகள்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
-msgid "Document"
-msgstr "ஆவணம்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
-msgid "Cross-references"
-msgstr "குறிப்புகள்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
-msgid "Functions"
-msgstr "செயல்பாடுகள்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
-msgid "DocInformation"
-msgstr "DocInformation"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
-msgid "Variables"
-msgstr "மாறிகள்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
-msgid "Database"
-msgstr "தரவுத்தளம்"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-msgid "~Insert"
-msgstr "~சேர்க்க"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
-msgid "~Close"
-msgstr "மூடு"
-
-#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
-#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
-msgid "Fields"
-msgstr "புலங்கள்"
-
-#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-msgid "Exchange databases"
-msgstr "தரவுதளங்களை மாற்றுக"
-
-#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-msgid "Databases in Use"
-msgstr "Databases in Use"
-
-#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-msgid "Available Databases"
-msgstr "உள்ள தரவுதளங்கள்"
-
-#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
-msgid "Browse..."
-msgstr "உலாவு..."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
-msgid ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-msgstr ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-msgid "Database applied to document:"
-msgstr "ஆவணத்திற்கு பயன்படும் தரவுதளம் :"
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-msgid "Addresses.Addresses"
-msgstr "Addresses.Addresses"
-
-#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
-msgid "Define"
-msgstr "வரையறுக்க"
-
-#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "மூடு"
-
-#: changedb.src#DLG_CHANGE_DB.modaldialog.text
-#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
-msgid "Exchange Databases"
-msgstr "தரவுதளத்தை மாற்றுக"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "வகை"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "தேர்ந்தெடு"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "வடிவம்"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
-msgid "O~ffset"
-msgstr "O~ffset"
-
-#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "~Fixed content"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
-msgid "Offs~et in days"
-msgstr "Offs~et in days"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-msgid "Offs~et in minutes"
-msgstr "அச்சுத்~தொலைவு நிமிடங்களில்"
-
-#: flddok.src#TP_FLD_DOK.tabpage.text
-#: flddok.src%23TP_FLD_DOK.tabpage.text
-msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
-msgid "Document"
-msgstr "ஆவணம்"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "வகை"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
-msgid "S~election"
-msgstr "தேர்வு"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
-msgid "Format"
-msgstr "வடிவம்"
-
-#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-msgid "Invisi~ble"
-msgstr "Invisi~ble"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-msgid "Numbering by chapter"
-msgstr "தலைப்புகளுக்கு எண்ணிடுக"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-msgid "~Level"
-msgstr "~Level"
-
-#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-msgid "None"
-msgstr "Keine"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-msgid "~Separator"
-msgstr "~Separator"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
-msgid "Na~me"
-msgstr "பெயர்"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
-msgid "~Value"
-msgstr "மதிப்பு"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Apply"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-msgid "Delete"
-msgstr "Delete"
-
-#: fldvar.src#TP_FLD_VAR.tabpage.text
-#: fldvar.src%23TP_FLD_VAR.tabpage.text
-msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
-msgid "Variables"
-msgstr "மாறிகள்"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "வகை"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "தேர்ந்தெடு"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
-msgid "Author"
-msgstr "ஆசிரியர்"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
-msgid "Time"
-msgstr "நேரம்"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
-msgid "Date"
-msgstr "தேதி"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-msgid "Date Time Author"
-msgstr "Datum Zeit Autor"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "வடிவம்"
-
-#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "~Fixed content"
-
-#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-msgid "Info"
-msgstr "விவரம்"
-
-#: flddinf.src#TP_FLD_DOKINF.tabpage.text
-#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
-msgid "DocInformation"
-msgstr "DocInformation"

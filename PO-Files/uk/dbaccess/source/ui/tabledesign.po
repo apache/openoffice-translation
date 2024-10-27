@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Ftabledesign.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-06-08 11:46+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-09-29 11:47+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1654688761.000000\n"
+"X-POOTLE-MTIME: 1664452061.000000\n"
 
 #: table.src#STR_TABLEDESIGN_DBFIELDTYPES.string.text
 #: table.src%23STR_TABLEDESIGN_DBFIELDTYPES.string.text
@@ -28,10 +28,10 @@ msgid ""
 "Small Integer;Tiny Integer;SQL "
 "Null;Object;Distinct;Structure;Field;BLOB;CLOB;REF;OTHER;Bit (fix)"
 msgstr ""
-"Невідомо;Текст;Число;Дата/Час;Дата;Час;Логічне;Валюта;Пам'ятка;Лічильник;Зобр"
-"аження;Текст (фікс.);Десяткове;Двійкове (фікс.);Двійкове;Довге ціле;З "
-"подвійною точністю;З плаваючою комою;Дійсне;Ціле;Коротке ціле;Tiny Integer;"
-"SQL Нуль;Об'єкт;Distinct;Структура;Поле;BLOB;CLOB;REF;OTHER"
+"Невідомо;Текст;Число;Дата/Час;Дата;Час;Так/Ні;Валюта;Пам'ятка;Лічильник;Зобра"
+"ження;Текст (фікс.);Десяткове;Двійкове (фікс.);Двійкове;Довге ціле;З "
+"подвійною точністю;З рухомою комою;Дійсне;Ціле;Коротке ціле;Ціле байт;SQL "
+"NULL;Об'єкт;Distinct;Структура;Поле;BLOB;CLOB;REF;OTHER;Bit (fix)"
 
 #: table.src#STR_TABLEDESIGN_UNDO_PRIMKEY.string.text
 #: table.src%23STR_TABLEDESIGN_UNDO_PRIMKEY.string.text
@@ -77,7 +77,7 @@ msgstr "Назва поля"
 #: table.src#STR_TAB_FIELD_DATATYPE.string.text
 #: table.src%23STR_TAB_FIELD_DATATYPE.string.text
 msgid "Field ~type"
-msgstr "~Тип поля"
+msgstr "Тип поля"
 
 #: table.src#STR_TAB_FIELD_COLUMN_DATATYPE.string.text
 #: table.src%23STR_TAB_FIELD_COLUMN_DATATYPE.string.text
@@ -132,7 +132,7 @@ msgstr "Властивості таблиці"
 #: table.src#ERR_INVALID_LISTBOX_ENTRY.errorbox.text
 #: table.src%23ERR_INVALID_LISTBOX_ENTRY.errorbox.text
 msgid "The text you entered is not a list element. "
-msgstr "Введений текст не є елементом списку"
+msgstr "Текст, який ви ввели, не є елементом списку. "
 
 #: table.src#RID_TABLEDESIGNROWPOPUPMENU.SID_TABLEDESIGN_INSERTROWS.menuitem.text
 #: table.src%23RID_TABLEDESIGNROWPOPUPMENU.SID_TABLEDESIGN_INSERTROWS.menuitem.text
@@ -218,9 +218,9 @@ msgid ""
 "Select a value that is to appear in all new records as default.\n"
 "If the field is not to have a default value, select the empty string."
 msgstr ""
-"Виберіть значення, що буде призначатися цьому полю для кожного нового запису."
-"\n"
-"Якщо поле не повинно мати таке значення, лишить рядок порожнім."
+"Виберіть значення, що типово буде призначатися цьому полю для кожного нового "
+"запису.\n"
+"Якщо поле не повинно мати типове значення, лишіть рядок порожнім."
 
 #: table.src#STR_HELP_DEFAULT_VALUE.string.text
 #: table.src%23STR_HELP_DEFAULT_VALUE.string.text
@@ -243,8 +243,8 @@ msgid ""
 "Activate this option if this field cannot contain NULL values, i.e. the user "
 "must always enter data."
 msgstr ""
-"Виберіть \"Так\", якщо значення цього поля не повинно дорівнювати NULL (це "
-"означає, що у полі обв'язково мають бути введені дані)."
+"Активуйте цю опцію, якщо значення цього поля не повинно дорівнювати NULL (це "
+"означає, що у полі обов'язково мають бути введені дані)."
 
 #: table.src#STR_HELP_TEXT_LENGTH.string.text
 #: table.src%23STR_HELP_TEXT_LENGTH.string.text
@@ -270,13 +270,13 @@ msgstr ""
 "\n"
 "Для десяткових полів - це максимальна довжина введеного числа, для бінарних "
 "полів - це довжина блоку даних.\n"
-"Якщо вказане значення буде довше максимально допустимого для цієї бази "
-"даних, тоді воно буде автоматично відкориговане."
+"Якщо вказане значення буде перевищувати максимально допустиме для цієї бази "
+"даних, тоді воно буде автоматично відкореговане."
 
 #: table.src#STR_HELP_SCALE.string.text
 #: table.src%23STR_HELP_SCALE.string.text
 msgid "Specify the number of decimal places permitted in this field."
-msgstr "Вкажіть число знаків, що стоять після десяткової коми."
+msgstr "Укажіть допустиму кількість знаків після коми в цьому полі."
 
 #: table.src#STR_HELP_FORMAT_CODE.string.text
 #: table.src%23STR_HELP_FORMAT_CODE.string.text
@@ -284,7 +284,7 @@ msgid ""
 "This is where you see how the data would be displayed in the current format ("
 "use the button on the right to modify the format)."
 msgstr ""
-"Тут можна побачити, як відображаються дані відповідно до обраного формату ("
+"Тут можна побачити, як відображаються дані відповідно до вибраного формату ("
 "за допомогою кнопки, що розташована праворуч, можна змінити формат)."
 
 #: table.src#STR_HELP_FORMAT_BUTTON.string.text
@@ -335,7 +335,7 @@ msgstr ""
 #: table.src#STR_TBL_COLUMN_IS_KEYCOLUMN_TITLE.string.text
 #: table.src%23STR_TBL_COLUMN_IS_KEYCOLUMN_TITLE.string.text
 msgid "Primary Key Affected"
-msgstr "Відноситься до первинного ключа"
+msgstr "Пошкоджено первинний ключ"
 
 #: table.src#STR_COLUMN_NAME.string.text
 #: table.src%23STR_COLUMN_NAME.string.text
@@ -376,7 +376,7 @@ msgstr ""
 #: table.src%23STR_TABLEDESIGN_CONNECTION_MISSING.string.text
 msgid ""
 "The table could not be saved due to problems connecting to the database."
-msgstr "Неможливо зберегти таблицю, поки не відновиться зв'язок з базою даних."
+msgstr "Таблицю не вдалося зберегти через проблеми підключення до бази даних."
 
 #: table.src#STR_TABLEDESIGN_DATASOURCE_DELETED.string.text
 #: table.src%23STR_TABLEDESIGN_DATASOURCE_DELETED.string.text
@@ -391,7 +391,7 @@ msgid ""
 "Before you can edit the indexes of a table, you have to save it.\n"
 "Do you want to save the changes now?"
 msgstr ""
-"Перш ніж змінити індекси таблиці, хх потрібно зберегти.\n"
+"Перш ніж змінити індекси таблиці, її потрібно зберегти.\n"
 "Зберегти зміни?"
 
 #: table.src#STR_TABLEDESIGN_NO_PRIM_KEY_HEAD.string.text
@@ -427,8 +427,8 @@ msgid ""
 "The column \"$column$\" could not be changed. Should the column instead be "
 "deleted and the new format appended?"
 msgstr ""
-"Неможливо змінити стовпець \"$column$\". Його можна вилучити та застосувати. "
-"Продовжити?"
+"Не вдалося змінити стовпець \"$column$\". Чи слід натомість видалити "
+"стовпець і додати новий формат?"
 
 #: table.src#STR_TABLEDESIGN_SAVE_ERROR.string.text
 #: table.src%23STR_TABLEDESIGN_SAVE_ERROR.string.text
@@ -447,7 +447,7 @@ msgid ""
 "without columns. Should the table be deleted from the database? If not, the "
 "table will remain unchanged."
 msgstr ""
-"Ви намагаєтеся видалити всі стовпці у таблиці. Таблиця не може існувати без "
+"Ви намагаєтеся видалити всі стовпці таблиці. Таблиця не може існувати без "
 "стовпців. Видалити таблицю з бази даних? Якщо ні, таблиця лишитися "
 "незміненою."
 
@@ -475,8 +475,8 @@ msgid ""
 "No type information could be retrieved from the database.\n"
 "The table design mode is not available for this data source."
 msgstr ""
-"Інформацію про тип не можна отримана з бази даних.\n"
-"Режим проектування таблиці недоступний для цього джерела даних."
+"З бази даних не вдалося отримати інформацію про тип.\n"
+"Режим розробки таблиці недоступний для цього джерела даних."
 
 #: table.src#STR_CHANGE_COLUMN_NAME.string.text
 #: table.src%23STR_CHANGE_COLUMN_NAME.string.text

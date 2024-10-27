@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-09-07 23:42+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,350 +16,87 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
-#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
-msgid "~Parameters"
-msgstr "参数(~P)"
+#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
+msgid "SQL command"
+msgstr "SQL 命令"
 
-#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
-#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
-msgid "~Value"
-msgstr "数值(~V)"
+#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
+msgid "Command to execute"
+msgstr "要执行的命令"
 
-#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-msgid "~Next"
-msgstr "下一个(~N)"
+#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+msgid "Execute"
+msgstr "执行"
 
-#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
-#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+msgid "Previous commands"
+msgstr "前一个命令"
+
+#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
+msgid "Status"
+msgstr "状态"
+
+#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+msgid "Close"
+msgstr "关闭"
+
+#: directsql.src#DLG_DIRECTSQL.modaldialog.text
+#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
+msgid "Execute SQL Statement"
+msgstr "直接执行 SQL 命令"
+
+#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+msgid "Command successfully executed."
+msgstr "执行命令已经成功。"
+
+#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
 msgid ""
-"The entry could not be converted to a valid value for the \"$name$\"column"
-msgstr "输入的内容无法转换成一个用于列\"$name$\"的有效数值。"
+"The connection to the database has been lost. This dialog will be closed."
+msgstr "已经退出和数据库的连接。对话框将被关闭。"
 
-#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
-#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
-msgid "Parameter Input"
-msgstr "输入参数值"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+msgid "~Database name"
+msgstr "数据库名称(~D)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-msgid "User selection"
-msgstr "使用者选择"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+msgid "Se~rver / Port"
+msgstr "服务器/端口(~R)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-msgid "Us~er:"
-msgstr "使用者(~E)："
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+msgid "~Server"
+msgstr "服务器(~S)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-msgid "~Add User..."
-msgstr "新增使用者(~A)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+msgid "~Port"
+msgstr "端口(~P)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-msgid "Change ~Password..."
-msgstr "修改密码(~P)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
+msgid "Default: 3306"
+msgstr "默认值：3306"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-msgid "~Delete User..."
-msgstr "删除使用者(~D)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+msgid "So~cket"
+msgstr "套接字(~C)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-msgid "Access rights for selected user"
-msgstr "用于已经选中使用者的使用权限"
-
-#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
-#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
-msgid "Do you really want to delete the user?"
-msgstr "您真的要删除这个使用者？"
-
-#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
-#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
-msgid "The database does not support user administration."
-msgstr "数据库不支持用户管理。"
-
-#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
-#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
-msgid "User \"$name$: $\""
-msgstr "用户 $Name: $"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-msgid "Old p~assword"
-msgstr "旧密码(~A)"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "密码(~P)"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#, fuzzy
-msgid "~Confirm password"
-msgstr "确认密码(~C)"
-
-#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
-#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
-msgid "Change Password"
-msgstr "修改密码"
-
-#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The passwords do not match. Please enter the password again."
-msgstr "这两个密码不一致，请重新输入密码！"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
-msgid "AND"
-msgstr "AND"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
-msgid "OR"
-msgstr "OR"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
-msgid "AND"
-msgstr "AND"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
-msgid "OR"
-msgstr "OR"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "字段名称"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-msgid "Condition"
-msgstr "条件"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-msgid "Value"
-msgstr "数值"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
-msgid "Operator"
-msgstr "运算符"
-
-#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-msgid "Criteria"
-msgstr "条件"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
-msgid "- none -"
-msgstr "- 无 -"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
-msgstr "=;<>;<;<=;>;>=;等于;不等于;空缺;不空缺"
-
-#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
-#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
-msgid "Standard Filter"
-msgstr "标准筛选"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-msgid "User Settings"
-msgstr "用户设置"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
-msgid "User administration"
-msgstr "用户管理"
-
-#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
-msgid "Path to the dBASE files"
-msgstr "dBASE 文件的路径"
-
-#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
-msgid "Path to the text files"
-msgstr "文本文件的路径"
-
-#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
-msgid "Path to the spreadsheet document"
-msgstr "电子表格文档的路径"
-
-#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
-#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
-msgid "Name of the ODBC data source on your system"
-msgstr "系统上 ODBC 数据源的名称"
-
-#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
-msgid "Name of the MySQL database"
-msgstr "MySQL 数据库的名称"
-
-#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
-msgid "Name of the Oracle database"
-msgstr "Oracle 数据库的名称"
-
-#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
-msgid "Name of the Adabas D database"
-msgstr "Adabas D 数据库的名称"
-
-#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
-#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
-msgid "Microsoft Access database file"
-msgstr "Microsoft Access 数据库文件"
-
-#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
-#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
-msgid ""
-"No more settings are necessary. To verify that the connection is working, "
-"click the '%test' button."
-msgstr "不需更多其他设置。要确认连接是否起作用，请单击 %test 按钮。"
-
-#: AutoControls.src#STR_COMMONURL.string.text
-#: AutoControls.src%23STR_COMMONURL.string.text
-msgid "Datasource URL"
-msgstr "数据源 URL"
-
-#: AutoControls.src#STR_HOSTNAME.string.text
-#: AutoControls.src%23STR_HOSTNAME.string.text
-msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
-msgid "~Host name"
-msgstr "主机名(~H)"
-
-#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
-msgid "~Mozilla profile name"
-msgstr "~Mozilla 配置文件名称"
-
-#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
-msgid "~Thunderbird profile name"
-msgstr "~Thunderbird 配置文件名称"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-msgid "Create New Directory"
-msgstr "创建新目录!"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-msgid "Up One Level"
-msgstr "向上一级!"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-msgid "File ~name:"
-msgstr "文件名(~N):"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
-msgid "Save"
-msgstr "保存"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-msgid "~Path:"
-msgstr "路径(~P):"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
-msgid "Save"
-msgstr "保存"
-
-#: CollectionView.src#STR_NEW_FOLDER.string.text
-#: CollectionView.src%23STR_NEW_FOLDER.string.text
-msgid "Folder"
-msgstr "文件夹"
-
-#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
-#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
-msgid "The file already exists. Overwrite?"
-msgstr "该文件已存在。是否要覆盖？"
-
-#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
-#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
-msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr "读取数据源 \"$name$\" 要求您输入密码。"
-
-#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
-#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
-msgid ""
-"The directory\n"
-"\n"
-"$path$\n"
-"\n"
-"does not exist. Should it be created?"
-msgstr ""
-"这个目录\n"
-"\n"
-"$path$\n"
-"\n"
-"不存在。要新建这个目录？"
-
-#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
-#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
-msgid "The directory $name$ could not be created."
-msgstr "无法创建目录 $name$ 。"
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-msgid "Please enter the ~password for the user 'DOMAIN'."
-msgstr "请为使用者 'DOMAIN' 输入密码(~P)。"
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
-msgid "Convert Database"
-msgstr "转换数据库"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-msgid "Tables and table filter"
-msgstr "表格和表格过滤器"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-msgid "Mark the tables that should be visible for the applications."
-msgstr "标记允许应用程序访问的表格。"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
-msgid "Tables Filter"
-msgstr "表格过滤器"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+msgid "Named p~ipe"
+msgstr "已命名的 pipe(~I)"
 
 #: dlgattr.src#DLG_ATTR.1.pushbutton.text
 #: dlgattr.src%23DLG_ATTR.1.pushbutton.text
@@ -390,269 +127,6 @@ msgstr "表格格式"
 #: dlgattr.src%23DLG_ATTR.tabdialog.text
 msgid "Field Format"
 msgstr "字段格式"
-
-#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-msgid "~Height"
-msgstr "高度(~H)"
-
-#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "自动(~A)"
-
-#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
-#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "行高"
-
-#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
-msgid "~Width"
-msgstr "宽度(~W)"
-
-#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "自动(~A)"
-
-#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
-#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "列宽"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
-msgid "ascending"
-msgstr "升序"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
-msgid "descending"
-msgstr "降序"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
-msgid "ascending"
-msgstr "升序"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
-msgid "descending"
-msgstr "降序"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
-msgid "ascending"
-msgstr "升序"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
-msgid "descending"
-msgstr "降序"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "字段名称"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
-msgid "and then"
-msgstr "之后"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
-msgid "and then"
-msgstr "之后"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
-msgid "Operator"
-msgstr "运算符"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-msgid "Order"
-msgstr "顺序"
-
-#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
-#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
-msgid "Sort order"
-msgstr "排序"
-
-#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
-#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
-msgid "<none>"
-msgstr "<无>"
-
-#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
-#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
-msgid "Sort Order"
-msgstr "排序"
-
-#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-msgid "Options"
-msgstr "选项"
-
-#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-msgid "Use SQL92 naming constraints"
-msgstr "使用 SQL92 命名限制"
-
-#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-msgid "Append the table alias name on SELECT statements"
-msgstr "在 SELECT 语句中追加表格别名"
-
-#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-msgid "Use keyword AS before table alias names"
-msgstr "在表格别名之前使用关键字 AS"
-
-#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-msgid "Use Outer Join syntax '{OJ }'"
-msgstr "使用外部连接语法 {OJ }"
-
-#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-msgid "Ignore the privileges from the database driver"
-msgstr "忽略数据库驱动程序的权限"
-
-#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-msgid "Replace named parameters with '?'"
-msgstr "用 ? 替换已命名的参数"
-
-#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-msgid "Display version columns (when available)"
-msgstr "显示版本列（如果可以）"
-
-#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-msgid "Use catalog name in SELECT statements"
-msgstr "在 SELECT 语句中使用类别名称"
-
-#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-msgid "Use schema name in SELECT statements"
-msgstr "在 SELECT 语句中使用架构名称"
-
-#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-msgid "Create index with ASC or DESC statement"
-msgstr "使用 ASC 或 DESC 语句创建索引"
-
-#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-msgid "End text lines with CR+LF"
-msgstr "使用 CR+LF 结束文本行"
-
-#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-msgid "Ignore currency field information"
-msgstr "忽略货币字段信息"
-
-#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-msgid "Form data input checks for required fields"
-msgstr "表格必填字段数据输入检查"
-
-#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-msgid "Use ODBC conformant date/time literals"
-msgstr "使用 ODBC 日期/时间统一格式"
-
-#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-msgid "Supports primary keys"
-msgstr "支持主键"
-
-#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-msgid "Respect the result set type from the database driver"
-msgstr "遵守来自数据库驱动的结果集类型"
-
-#: advancedsettings.src#WORKAROUND.1.stringlist.text
-#: advancedsettings.src%23WORKAROUND.1.stringlist.text
-msgid "Default"
-msgstr "默认"
-
-#: advancedsettings.src#WORKAROUND.2.stringlist.text
-#: advancedsettings.src%23WORKAROUND.2.stringlist.text
-msgid "SQL"
-msgstr "SQL"
-
-#: advancedsettings.src#WORKAROUND.3.stringlist.text
-#: advancedsettings.src%23WORKAROUND.3.stringlist.text
-msgid "Mixed"
-msgstr "混合"
-
-#: advancedsettings.src#WORKAROUND.4.stringlist.text
-#: advancedsettings.src%23WORKAROUND.4.stringlist.text
-msgid "MS Access"
-msgstr "MS Access"
-
-#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-msgid "Comparison of Boolean values"
-msgstr "比较布尔值"
-
-#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-msgid "Rows to scan column types"
-msgstr "扫描列类型的行"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-msgid "Settings"
-msgstr "设置"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-msgid "Re~trieve generated values"
-msgstr "检索生成的值(~T)"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-msgid "~Auto-increment statement"
-msgstr "自动递增语句(~A)"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-msgid "~Query of generated values"
-msgstr "查询生成的值(~Q)"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-msgid "Generated Values"
-msgstr "生成值"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-msgid "Special Settings"
-msgstr "特殊设置"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
-msgid "Advanced Settings"
-msgstr "高级设置"
 
 #: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
 #: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
@@ -804,6 +278,608 @@ msgid ""
 "In an index definition, no table column may occur more than once. However, "
 "you have entered column \"$name$\" twice."
 msgstr "在一个索引定义之中仅允许一次使用一个列名称。但是您第二次使用列名称 \"$name$\" 。"
+
+#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+msgid "Text Connection Settings"
+msgstr "文本连接设置"
+
+#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
+#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
+msgid "A password is needed to connect to the data source \"$name$\"."
+msgstr "读取数据源 \"$name$\" 要求您输入密码。"
+
+#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
+#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
+msgid ""
+"The directory\n"
+"\n"
+"$path$\n"
+"\n"
+"does not exist. Should it be created?"
+msgstr ""
+"这个目录\n"
+"\n"
+"$path$\n"
+"\n"
+"不存在。要新建这个目录？"
+
+#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
+#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
+msgid "The directory $name$ could not be created."
+msgstr "无法创建目录 $name$ 。"
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+msgid "Please enter the ~password for the user 'DOMAIN'."
+msgstr "请为使用者 'DOMAIN' 输入密码(~P)。"
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
+msgid "Convert Database"
+msgstr "转换数据库"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+msgid "Tables and table filter"
+msgstr "表格和表格过滤器"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+msgid "Mark the tables that should be visible for the applications."
+msgstr "标记允许应用程序访问的表格。"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
+msgid "Tables Filter"
+msgstr "表格过滤器"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
+msgid "Database files"
+msgstr "数据库文件"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+msgid "S~YSDEVSPACE:"
+msgstr "S~YSDEVSPACE："
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+msgid "~TRANSACTIONLOG:"
+msgstr "~TRANSACTIONLOG："
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+msgid "DATAD~EVSPACE:"
+msgstr "DATAD~EVSPACE："
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
+msgid "Database sizes"
+msgstr "数据库大小"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+msgid "S~ize (MB):"
+msgstr "总计大小(MB)(~I)："
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+msgid "~Free memory space (MB):"
+msgstr "可用空间(MB)(~F)："
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+msgid "~Memory utilization (in %):"
+msgstr "内存使用率(%)(~M)："
+
+#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
+#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
+msgid "Database Statistics"
+msgstr "数据库统计"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
+msgid "Contains the system tables"
+msgstr "含有系统表格"
+
+#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
+msgid "Contains information about transaction"
+msgstr "含有有关传递的信息"
+
+#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
+msgid "Contains all data files"
+msgstr "含有全部的数据文件"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
+msgid "Total size of the database files"
+msgstr "数据库文件的总计大小"
+
+#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
+msgid "Currently available space before a new datadev file is created."
+msgstr "在新建一个 datadev 文件之前的可用空间。"
+
+#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
+msgid "Currently used memory"
+msgstr "当前占用的内存"
+
+#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+msgid ""
+"No information could be displayed because no access rights exist for the "
+"required system tables."
+msgstr "因为不具备读取需要的系统表格的权限而无法显示任何信息。"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+msgid "User Settings"
+msgstr "用户设置"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
+msgid "User administration"
+msgstr "用户管理"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
+msgid "General"
+msgstr "常规"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+msgid "~Host name"
+msgstr "主机名(~H)"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
+msgid "User authentication"
+msgstr "用户验证"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
+msgid "~User name"
+msgstr "用户名(~U)"
+
+#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
+msgid "Password required"
+msgstr "必须输入密码"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+msgid "JDBC properties"
+msgstr "JDBC 属性"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+msgid "~JDBC driver class"
+msgstr "~JDBC 驱动程序类"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+msgid "Test Class"
+msgstr "测试类"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+msgid "Test Connection"
+msgstr "测试连接"
+
+#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
+#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
+msgid "No Adabas D data sources were found on your system."
+msgstr "未在系统中找到任何 Adabas D 数据源。"
+
+#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
+#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
+msgid "Connection Test"
+msgstr "连接测试"
+
+#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
+msgid "The connection was established successfully."
+msgstr "成功建立连接。"
+
+#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
+msgid "The connection could not be established."
+msgstr "无法建立连接。"
+
+#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
+msgid "The JDBC driver was loaded successfully."
+msgstr "JDBC 驱动程序加载成功。"
+
+#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
+msgid "The JDBC driver could not be loaded."
+msgstr "无法加载 JDBC 驱动程序。"
+
+#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
+msgid "MS Access file"
+msgstr "MS Access 文件"
+
+#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
+msgid "MS Access 2007 file"
+msgstr "MS Access 2007 文件"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+msgid "Create New Directory"
+msgstr "创建新目录!"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+msgid "Up One Level"
+msgstr "向上一级!"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+msgid "File ~name:"
+msgstr "文件名(~N):"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
+msgid "Save"
+msgstr "保存"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+msgid "~Path:"
+msgstr "路径(~P):"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
+msgid "Save"
+msgstr "保存"
+
+#: CollectionView.src#STR_NEW_FOLDER.string.text
+#: CollectionView.src%23STR_NEW_FOLDER.string.text
+msgid "Folder"
+msgstr "文件夹"
+
+#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
+#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
+msgid "The file already exists. Overwrite?"
+msgstr "该文件已存在。是否要覆盖？"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+msgid "Please enter a name for the object to be created:"
+msgstr "请您输入一个要新建对象的名称："
+
+#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+msgid "~Catalog"
+msgstr "分类(~C)"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+msgid "~Schema"
+msgstr "略图(~S)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
+msgid "~Table Name"
+msgstr "表格名称(~T)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
+msgid "~Name of table view"
+msgstr "表格视图名称(~N)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
+msgid "~Query name"
+msgstr "查询名称(~Q)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+msgid "Rename to"
+msgstr "重命名为"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+msgid "Insert as"
+msgstr "插入方式为"
+
+#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
+#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
+msgid "Save As"
+msgstr "另存为"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
+msgid "AND"
+msgstr "AND"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
+msgid "OR"
+msgstr "OR"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
+msgid "AND"
+msgstr "AND"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
+msgid "OR"
+msgstr "OR"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "字段名称"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+msgid "Condition"
+msgstr "条件"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+msgid "Value"
+msgstr "数值"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
+msgid "Operator"
+msgstr "运算符"
+
+#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+msgid "Criteria"
+msgstr "条件"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
+msgid "- none -"
+msgstr "- 无 -"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
+msgstr "=;<>;<;<=;>;>=;等于;不等于;空缺;不空缺"
+
+#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
+#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
+msgid "Standard Filter"
+msgstr "标准筛选"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "关联表格"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "关联字段"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+msgid "Update options"
+msgstr "更新选项"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
+msgid "~No action"
+msgstr "无操作(~N)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+msgid "~Update cascade"
+msgstr "更新层叠(~U)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "设置null(~S)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "设置默认值(~D)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+msgid "Delete options"
+msgstr "删除的选项"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
+msgid "~No action"
+msgstr "无操作(~N)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+msgid "Delete ~cascade"
+msgstr "删除层叠(~C)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "设置null(~S)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "设置默认值(~D)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
+msgid "Relations"
+msgstr "关系"
+
+#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+msgid "~Height"
+msgstr "高度(~H)"
+
+#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "自动(~A)"
+
+#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
+#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "行高"
+
+#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
+msgid "~Width"
+msgstr "宽度(~W)"
+
+#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "自动(~A)"
+
+#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
+#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "列宽"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+msgid "~Table"
+msgstr "表格(~T)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+msgid "Assignment"
+msgstr "指定"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+msgid "T~able indexes"
+msgstr "表格标志(~A)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+msgid "~Free indexes"
+msgstr "自由标志(~F)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
+msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
+msgid "Indexes"
+msgstr "标志"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+msgid "User selection"
+msgstr "使用者选择"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+msgid "Us~er:"
+msgstr "使用者(~E)："
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+msgid "~Add User..."
+msgstr "新增使用者(~A)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+msgid "Change ~Password..."
+msgstr "修改密码(~P)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+msgid "~Delete User..."
+msgstr "删除使用者(~D)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+msgid "Access rights for selected user"
+msgstr "用于已经选中使用者的使用权限"
+
+#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
+#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
+msgid "Do you really want to delete the user?"
+msgstr "您真的要删除这个使用者？"
+
+#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
+#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
+msgid "The database does not support user administration."
+msgstr "数据库不支持用户管理。"
+
+#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
+#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
+msgid "User \"$name$: $\""
+msgstr "用户 $Name: $"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+msgid "Old p~assword"
+msgstr "旧密码(~A)"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "密码(~P)"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#, fuzzy
+msgid "~Confirm password"
+msgstr "确认密码(~C)"
+
+#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
+#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
+msgid "Change Password"
+msgstr "修改密码"
+
+#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr "这两个密码不一致，请重新输入密码！"
 
 #: dbadminsetup.src#DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
 #: dbadminsetup.src%23DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
@@ -1278,406 +1354,360 @@ msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
 msgid "Details"
 msgstr "详细信息"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-msgid "Please enter a name for the object to be created:"
-msgstr "请您输入一个要新建对象的名称："
+#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+msgid "Choose a data source:"
+msgstr "请您选择一个数据源："
 
-#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-msgid "~Catalog"
-msgstr "分类(~C)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+msgid "Organize..."
+msgstr "管理..."
 
-#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-msgid "~Schema"
-msgstr "略图(~S)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+msgid "Create..."
+msgstr "创建..."
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
-msgid "~Table Name"
-msgstr "表格名称(~T)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+msgid "Local Databases"
+msgstr "本地数据库"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
-msgid "~Name of table view"
-msgstr "表格视图名称(~N)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+msgid "Choose a database"
+msgstr "选择一个数据库"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
-msgid "~Query name"
-msgstr "查询名称(~Q)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
+msgid "Data Source"
+msgstr "数据源"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-msgid "Rename to"
-msgstr "重命名为"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
+msgid "ascending"
+msgstr "升序"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-msgid "Insert as"
-msgstr "插入方式为"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
+msgid "descending"
+msgstr "降序"
 
-#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
-#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
-msgid "Save As"
-msgstr "另存为"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
+msgid "ascending"
+msgstr "升序"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-msgid "~Table"
-msgstr "表格(~T)"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
+msgid "descending"
+msgstr "降序"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-msgid "Assignment"
-msgstr "指定"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
+msgid "ascending"
+msgstr "升序"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-msgid "T~able indexes"
-msgstr "表格标志(~A)"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
+msgid "descending"
+msgstr "降序"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-msgid "~Free indexes"
-msgstr "自由标志(~F)"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "字段名称"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
-msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
-msgid "Indexes"
-msgstr "标志"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
+msgid "and then"
+msgstr "之后"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
-msgid "Database files"
-msgstr "数据库文件"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
+msgid "and then"
+msgstr "之后"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-msgid "S~YSDEVSPACE:"
-msgstr "S~YSDEVSPACE："
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
+msgid "Operator"
+msgstr "运算符"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-msgid "~TRANSACTIONLOG:"
-msgstr "~TRANSACTIONLOG："
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+msgid "Order"
+msgstr "顺序"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-msgid "DATAD~EVSPACE:"
-msgstr "DATAD~EVSPACE："
+#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
+#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
+msgid "Sort order"
+msgstr "排序"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
-msgid "Database sizes"
-msgstr "数据库大小"
+#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
+#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
+msgid "<none>"
+msgstr "<无>"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-msgid "S~ize (MB):"
-msgstr "总计大小(MB)(~I)："
+#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
+#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
+msgid "Sort Order"
+msgstr "排序"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-msgid "~Free memory space (MB):"
-msgstr "可用空间(MB)(~F)："
+#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+msgid "Options"
+msgstr "选项"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-msgid "~Memory utilization (in %):"
-msgstr "内存使用率(%)(~M)："
+#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+msgid "Use SQL92 naming constraints"
+msgstr "使用 SQL92 命名限制"
 
-#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
-#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
-msgid "Database Statistics"
-msgstr "数据库统计"
+#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+msgid "Append the table alias name on SELECT statements"
+msgstr "在 SELECT 语句中追加表格别名"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
-msgid "Contains the system tables"
-msgstr "含有系统表格"
+#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+msgid "Use keyword AS before table alias names"
+msgstr "在表格别名之前使用关键字 AS"
 
-#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
-msgid "Contains information about transaction"
-msgstr "含有有关传递的信息"
+#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+msgid "Use Outer Join syntax '{OJ }'"
+msgstr "使用外部连接语法 {OJ }"
 
-#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
-msgid "Contains all data files"
-msgstr "含有全部的数据文件"
+#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+msgid "Ignore the privileges from the database driver"
+msgstr "忽略数据库驱动程序的权限"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
-msgid "Total size of the database files"
-msgstr "数据库文件的总计大小"
+#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+msgid "Replace named parameters with '?'"
+msgstr "用 ? 替换已命名的参数"
 
-#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
-msgid "Currently available space before a new datadev file is created."
-msgstr "在新建一个 datadev 文件之前的可用空间。"
+#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+msgid "Display version columns (when available)"
+msgstr "显示版本列（如果可以）"
 
-#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
-msgid "Currently used memory"
-msgstr "当前占用的内存"
+#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+msgid "Use catalog name in SELECT statements"
+msgstr "在 SELECT 语句中使用类别名称"
 
-#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+msgid "Use schema name in SELECT statements"
+msgstr "在 SELECT 语句中使用架构名称"
+
+#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+msgid "Create index with ASC or DESC statement"
+msgstr "使用 ASC 或 DESC 语句创建索引"
+
+#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+msgid "End text lines with CR+LF"
+msgstr "使用 CR+LF 结束文本行"
+
+#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+msgid "Ignore currency field information"
+msgstr "忽略货币字段信息"
+
+#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+msgid "Form data input checks for required fields"
+msgstr "表格必填字段数据输入检查"
+
+#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+msgid "Use ODBC conformant date/time literals"
+msgstr "使用 ODBC 日期/时间统一格式"
+
+#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+msgid "Supports primary keys"
+msgstr "支持主键"
+
+#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+msgid "Respect the result set type from the database driver"
+msgstr "遵守来自数据库驱动的结果集类型"
+
+#: advancedsettings.src#WORKAROUND.1.stringlist.text
+#: advancedsettings.src%23WORKAROUND.1.stringlist.text
+msgid "Default"
+msgstr "默认"
+
+#: advancedsettings.src#WORKAROUND.2.stringlist.text
+#: advancedsettings.src%23WORKAROUND.2.stringlist.text
+msgid "SQL"
+msgstr "SQL"
+
+#: advancedsettings.src#WORKAROUND.3.stringlist.text
+#: advancedsettings.src%23WORKAROUND.3.stringlist.text
+msgid "Mixed"
+msgstr "混合"
+
+#: advancedsettings.src#WORKAROUND.4.stringlist.text
+#: advancedsettings.src%23WORKAROUND.4.stringlist.text
+msgid "MS Access"
+msgstr "MS Access"
+
+#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+msgid "Comparison of Boolean values"
+msgstr "比较布尔值"
+
+#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+msgid "Rows to scan column types"
+msgstr "扫描列类型的行"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+msgid "Settings"
+msgstr "设置"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+msgid "Re~trieve generated values"
+msgstr "检索生成的值(~T)"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+msgid "~Auto-increment statement"
+msgstr "自动递增语句(~A)"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+msgid "~Query of generated values"
+msgstr "查询生成的值(~Q)"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+msgid "Generated Values"
+msgstr "生成值"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+msgid "Special Settings"
+msgstr "特殊设置"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
+msgid "Path to the dBASE files"
+msgstr "dBASE 文件的路径"
+
+#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
+msgid "Path to the text files"
+msgstr "文本文件的路径"
+
+#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
+msgid "Path to the spreadsheet document"
+msgstr "电子表格文档的路径"
+
+#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
+#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
+msgid "Name of the ODBC data source on your system"
+msgstr "系统上 ODBC 数据源的名称"
+
+#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
+msgid "Name of the MySQL database"
+msgstr "MySQL 数据库的名称"
+
+#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
+msgid "Name of the Oracle database"
+msgstr "Oracle 数据库的名称"
+
+#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
+msgid "Name of the Adabas D database"
+msgstr "Adabas D 数据库的名称"
+
+#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
+#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
+msgid "Microsoft Access database file"
+msgstr "Microsoft Access 数据库文件"
+
+#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
+#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
 msgid ""
-"No information could be displayed because no access rights exist for the "
-"required system tables."
-msgstr "因为不具备读取需要的系统表格的权限而无法显示任何信息。"
+"No more settings are necessary. To verify that the connection is working, "
+"click the '%test' button."
+msgstr "不需更多其他设置。要确认连接是否起作用，请单击 %test 按钮。"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-msgid "~Database name"
-msgstr "数据库名称(~D)"
+#: AutoControls.src#STR_COMMONURL.string.text
+#: AutoControls.src%23STR_COMMONURL.string.text
+msgid "Datasource URL"
+msgstr "数据源 URL"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-msgid "Se~rver / Port"
-msgstr "服务器/端口(~R)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-msgid "~Server"
-msgstr "服务器(~S)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-msgid "~Port"
-msgstr "端口(~P)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
-msgid "Default: 3306"
-msgstr "默认值：3306"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-msgid "So~cket"
-msgstr "套接字(~C)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-msgid "Named p~ipe"
-msgstr "已命名的 pipe(~I)"
-
-#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
-msgid "SQL command"
-msgstr "SQL 命令"
-
-#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
-msgid "Command to execute"
-msgstr "要执行的命令"
-
-#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-msgid "Execute"
-msgstr "执行"
-
-#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-msgid "Previous commands"
-msgstr "前一个命令"
-
-#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
-msgid "Status"
-msgstr "状态"
-
-#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-msgid "Close"
-msgstr "关闭"
-
-#: directsql.src#DLG_DIRECTSQL.modaldialog.text
-#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
-msgid "Execute SQL Statement"
-msgstr "直接执行 SQL 命令"
-
-#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-msgid "Command successfully executed."
-msgstr "执行命令已经成功。"
-
-#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
-#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
-msgid ""
-"The connection to the database has been lost. This dialog will be closed."
-msgstr "已经退出和数据库的连接。对话框将被关闭。"
-
-#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-msgid "Text Connection Settings"
-msgstr "文本连接设置"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
-msgid "General"
-msgstr "常规"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+#: AutoControls.src#STR_HOSTNAME.string.text
+#: AutoControls.src%23STR_HOSTNAME.string.text
+msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
 msgid "~Host name"
 msgstr "主机名(~H)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
-msgid "User authentication"
-msgstr "用户验证"
+#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
+msgid "~Mozilla profile name"
+msgstr "~Mozilla 配置文件名称"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
-msgid "~User name"
-msgstr "用户名(~U)"
+#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
+msgid "~Thunderbird profile name"
+msgstr "~Thunderbird 配置文件名称"
 
-#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
-msgid "Password required"
-msgstr "必须输入密码"
+#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
+#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
+msgid "~Parameters"
+msgstr "参数(~P)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-msgid "JDBC properties"
-msgstr "JDBC 属性"
+#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
+#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
+msgid "~Value"
+msgstr "数值(~V)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-msgid "~JDBC driver class"
-msgstr "~JDBC 驱动程序类"
+#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+msgid "~Next"
+msgstr "下一个(~N)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-msgid "Test Class"
-msgstr "测试类"
+#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+msgid ""
+"The entry could not be converted to a valid value for the \"$name$\"column"
+msgstr "输入的内容无法转换成一个用于列\"$name$\"的有效数值。"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-msgid "Test Connection"
-msgstr "测试连接"
-
-#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
-#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
-msgid "No Adabas D data sources were found on your system."
-msgstr "未在系统中找到任何 Adabas D 数据源。"
-
-#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
-#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
-msgid "Connection Test"
-msgstr "连接测试"
-
-#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
-msgid "The connection was established successfully."
-msgstr "成功建立连接。"
-
-#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
-msgid "The connection could not be established."
-msgstr "无法建立连接。"
-
-#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
-msgid "The JDBC driver was loaded successfully."
-msgstr "JDBC 驱动程序加载成功。"
-
-#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
-msgid "The JDBC driver could not be loaded."
-msgstr "无法加载 JDBC 驱动程序。"
-
-#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
-msgid "MS Access file"
-msgstr "MS Access 文件"
-
-#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
-msgid "MS Access 2007 file"
-msgstr "MS Access 2007 文件"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "关联表格"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "关联字段"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-msgid "Update options"
-msgstr "更新选项"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
-msgid "~No action"
-msgstr "无操作(~N)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-msgid "~Update cascade"
-msgstr "更新层叠(~U)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "设置null(~S)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "设置默认值(~D)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-msgid "Delete options"
-msgstr "删除的选项"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
-msgid "~No action"
-msgstr "无操作(~N)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-msgid "Delete ~cascade"
-msgstr "删除层叠(~C)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "设置null(~S)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "设置默认值(~D)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
-msgid "Relations"
-msgstr "关系"
+#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
+#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
+msgid "Parameter Input"
+msgstr "输入参数值"
 
 #: dbadmin.src#AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
 #: dbadmin.src%23AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
@@ -1837,11 +1867,10 @@ msgid "Display deleted records as well"
 msgstr "同时显示已删除的记录"
 
 #: dbadmin.src#PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
-#: dbadmin.src%23PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
 msgid ""
-"Note: When deleted, and thus inactive, records are  displayed, you will not "
+"Note: When deleted, and thus inactive, records are displayed, you will not "
 "be able to delete records from the data source."
-msgstr "注意：记录删除后将处于非活动状态，并仍将显示，无法从数据源中将其删除。"
+msgstr ""
 
 #: dbadmin.src#PAGE_DBASE.PB_INDICIES.pushbutton.text
 #: dbadmin.src%23PAGE_DBASE.PB_INDICIES.pushbutton.text
@@ -1957,9 +1986,8 @@ msgid "~Base DN"
 msgstr "~Base DN"
 
 #: dbadmin.src#PAGE_LDAP.CB_USESSL.checkbox.text
-#: dbadmin.src%23PAGE_LDAP.CB_USESSL.checkbox.text
-msgid "Use secure connection(SSL)"
-msgstr "使用安全连接 (SSL)"
+msgid "Use secure connection (SSL)"
+msgstr ""
 
 #: dbadmin.src#PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
 #: dbadmin.src%23PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
@@ -1994,36 +2022,6 @@ msgid ""
 "Please choose 'Connect to an existing database' to connect to an existing "
 "database instead."
 msgstr "请选择“连接到一个已经存在的数据库”以改为连接到一个已经存在的数据库。"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-msgid "Choose a data source:"
-msgstr "请您选择一个数据源："
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-msgid "Organize..."
-msgstr "管理..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-msgid "Create..."
-msgstr "创建..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-msgid "Local Databases"
-msgstr "本地数据库"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-msgid "Choose a database"
-msgstr "选择一个数据库"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
-msgid "Data Source"
-msgstr "数据源"
 
 #: AutoControls_tmpl.hrc#AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
 #: AutoControls_tmpl.hrc%23AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text

@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-12-07 14:11+0000\n"
 "Last-Translator: Mechtilde Stehmann <mechtilde@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,355 +16,89 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
-#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
-msgid "~Parameters"
-msgstr "~Parameters"
+#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
+msgid "SQL command"
+msgstr "SQL-opdracht"
 
-#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
-#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
-msgid "~Value"
-msgstr "~Waarde"
+#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
+msgid "Command to execute"
+msgstr "Uit te voeren opdracht"
 
-#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-msgid "~Next"
-msgstr "~Volgende"
+#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+msgid "Execute"
+msgstr "Uitvoeren"
 
-#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
-#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+msgid "Previous commands"
+msgstr "Vorige opdrachten"
+
+#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
+msgid "Status"
+msgstr "Status"
+
+#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+msgid "Close"
+msgstr "Sluiten"
+
+#: directsql.src#DLG_DIRECTSQL.modaldialog.text
+#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
+msgid "Execute SQL Statement"
+msgstr "SQL-instructie uitvoeren"
+
+#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+msgid "Command successfully executed."
+msgstr "Opdracht is uitgevoerd."
+
+#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
 msgid ""
-"The entry could not be converted to a valid value for the \"$name$\"column"
+"The connection to the database has been lost. This dialog will be closed."
 msgstr ""
-"De ingevoerde gegevens kunnen niet worden geconverteerd naar een geldige "
-"waarde voor de kolom \"$name$\""
+"Er bestaat geen verbinding met de database. Dit dialoogvenster wordt "
+"gesloten."
 
-#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
-#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
-msgid "Parameter Input"
-msgstr "Parameter opgeven"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+msgid "~Database name"
+msgstr "Naam ~database"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-msgid "User selection"
-msgstr "Gebruikersselectie"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+msgid "Se~rver / Port"
+msgstr "Se~rver / Poort"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-msgid "Us~er:"
-msgstr "Gebr~uiker:"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+msgid "~Server"
+msgstr "~Server"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-msgid "~Add User..."
-msgstr "Gebruiker ~toevoegen..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+msgid "~Port"
+msgstr "~Poort"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-msgid "Change ~Password..."
-msgstr "~Wachtwoord wijzigen..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
+msgid "Default: 3306"
+msgstr "Standaard: 3306"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-msgid "~Delete User..."
-msgstr "~Gebruiker verwijderen..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+msgid "So~cket"
+msgstr "So~cket"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-msgid "Access rights for selected user"
-msgstr "Toegangsrechten voor geselecteerde gebruiker"
-
-#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
-#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
-msgid "Do you really want to delete the user?"
-msgstr "Wilt u deze gebruikersnaam werkelijk verwijderen?"
-
-#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
-#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
-msgid "The database does not support user administration."
-msgstr "De database ondersteunt geen gebruikersbeheer."
-
-#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
-#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
-msgid "User \"$name$: $\""
-msgstr "Gebruiker \"$name$: $\""
-
-#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-msgid "Old p~assword"
-msgstr "Oud w~achtwoord"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "~Wachtwoord"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-msgid "~Confirm password"
-msgstr "~Wachtwoord bevestigen"
-
-#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
-#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
-msgid "Change Password"
-msgstr "Wachtwoord wijzigen"
-
-#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The passwords do not match. Please enter the password again."
-msgstr ""
-"De beide wachtwoorden komen niet overeen. Voer het wachtwoord nogmaals in."
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
-msgid "AND"
-msgstr "EN"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
-msgid "OR"
-msgstr "OF"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
-msgid "AND"
-msgstr "EN"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
-msgid "OR"
-msgstr "OF"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Veldnaam"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-msgid "Condition"
-msgstr "Voorwaarde"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-msgid "Value"
-msgstr "Waarde"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-msgid "Criteria"
-msgstr "Criteria"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
-msgid "- none -"
-msgstr "- geen -"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
-msgstr "=;<>;<;<=;>;>=;gelijk;niet gelijk aan;leeg;niet leeg"
-
-#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
-#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
-msgid "Standard Filter"
-msgstr "Standaardfilter"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-msgid "User Settings"
-msgstr "Gebruikerinstellingen"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
-msgid "User administration"
-msgstr "Gebruikersbeheer"
-
-#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
-msgid "Path to the dBASE files"
-msgstr "Pad naar de dBASE-bestanden"
-
-#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
-msgid "Path to the text files"
-msgstr "Pad naar de tekstbestanden"
-
-#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
-msgid "Path to the spreadsheet document"
-msgstr "Pad naar het werkbladdocument"
-
-#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
-#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
-msgid "Name of the ODBC data source on your system"
-msgstr "Naam van de ODBC-gegevensbron op uw systeem"
-
-#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
-msgid "Name of the MySQL database"
-msgstr "Naam van de MySQL-database"
-
-#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
-msgid "Name of the Oracle database"
-msgstr "Naam van de Oracle-database"
-
-#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
-msgid "Name of the Adabas D database"
-msgstr "Naam van de Adabas D-database"
-
-#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
-#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
-msgid "Microsoft Access database file"
-msgstr "Microsoft Access-databasebestand"
-
-#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
-#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
-msgid ""
-"No more settings are necessary. To verify that the connection is working, "
-"click the '%test' button."
-msgstr ""
-"De instellingen zijn compleet. Teneinde vast te stellen dat de verbinding "
-"werkt, klikt u op de '%test' knop."
-
-#: AutoControls.src#STR_COMMONURL.string.text
-#: AutoControls.src%23STR_COMMONURL.string.text
-msgid "Datasource URL"
-msgstr "URL van gegevensbron"
-
-#: AutoControls.src#STR_HOSTNAME.string.text
-#: AutoControls.src%23STR_HOSTNAME.string.text
-msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
-msgid "~Host name"
-msgstr "~Hostnaam"
-
-#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
-msgid "~Mozilla profile name"
-msgstr "~Mozilla-profielnaam"
-
-#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
-msgid "~Thunderbird profile name"
-msgstr "~Thunderbird-profielnaam"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-msgid "Create New Directory"
-msgstr "Nieuwe map maken"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-msgid "Up One Level"
-msgstr "Eén niveau hoger"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-msgid "File ~name:"
-msgstr "Bestands~naam:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
-msgid "Save"
-msgstr "Opslaan"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-msgid "~Path:"
-msgstr "~Pad:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
-msgid "Save"
-msgstr "Opslaan"
-
-#: CollectionView.src#STR_NEW_FOLDER.string.text
-#: CollectionView.src%23STR_NEW_FOLDER.string.text
-msgid "Folder"
-msgstr "Map"
-
-#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
-#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
-msgid "The file already exists. Overwrite?"
-msgstr "Het bestand bestaat reeds. Vervangen?"
-
-#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
-#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
-msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr ""
-"Er is een wachtwoord vereist om met de gegevensbron '$name$' te verbinden."
-
-#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
-#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
-msgid ""
-"The directory\n"
-"\n"
-"$path$\n"
-"\n"
-"does not exist. Should it be created?"
-msgstr ""
-"De map\n"
-"\n"
-"$path$\n"
-"\n"
-"bestaat niet. Wilt u deze maken?"
-
-#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
-#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
-msgid "The directory $name$ could not be created."
-msgstr "De map $name$ kan niet worden gemaakt."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-msgid "Please enter the ~password for the user 'DOMAIN'."
-msgstr "Voer het ~wachtwoord voor de gebruiker DOMAIN in."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
-msgid "Convert Database"
-msgstr "Database converteren"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-msgid "Tables and table filter"
-msgstr "Tabellen en tabelfilter"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-msgid "Mark the tables that should be visible for the applications."
-msgstr "De tabellen markeren die zichtbaar moeten zijn voor de toepassingen."
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
-msgid "Tables Filter"
-msgstr "Tabellenfilter"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+msgid "Named p~ipe"
+msgstr "Benoemde p~ipe"
 
 #: dlgattr.src#DLG_ATTR.1.pushbutton.text
 #: dlgattr.src%23DLG_ATTR.1.pushbutton.text
@@ -395,271 +129,6 @@ msgstr "Tabelopmaak"
 #: dlgattr.src%23DLG_ATTR.tabdialog.text
 msgid "Field Format"
 msgstr "Veldopmaak"
-
-#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-msgid "~Height"
-msgstr "H~oogte"
-
-#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatisch"
-
-#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
-#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Rijhoogte"
-
-#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
-msgid "~Width"
-msgstr "~Breedte"
-
-#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatisch"
-
-#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
-#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Kolombreedte"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
-msgid "ascending"
-msgstr "oplopend"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
-msgid "descending"
-msgstr "aflopend"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
-msgid "ascending"
-msgstr "oplopend"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
-msgid "descending"
-msgstr "aflopend"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
-msgid "ascending"
-msgstr "oplopend"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
-msgid "descending"
-msgstr "aflopend"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Veldnaam"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
-msgid "and then"
-msgstr "vervolgens"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
-msgid "and then"
-msgstr "vervolgens"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-msgid "Order"
-msgstr "Volgorde"
-
-#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
-#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
-msgid "Sort order"
-msgstr "Sorteervolgorde"
-
-#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
-#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
-msgid "<none>"
-msgstr "<geen>"
-
-#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
-#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
-msgid "Sort Order"
-msgstr "Sorteervolgorde"
-
-#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-msgid "Options"
-msgstr "Opties"
-
-#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-msgid "Use SQL92 naming constraints"
-msgstr "SQL92 naamconventies gebruiken"
-
-#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-msgid "Append the table alias name on SELECT statements"
-msgstr "De aliasnaam van de tabel toevoegen aan SELECT-instructies"
-
-#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-msgid "Use keyword AS before table alias names"
-msgstr "Het trefwoord AS gebruiken vóór aliasnamen van tabellen"
-
-#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-msgid "Use Outer Join syntax '{OJ }'"
-msgstr "Gebruik Outer Join syntaxis '{OJ }'"
-
-#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-msgid "Ignore the privileges from the database driver"
-msgstr "De privileges vanaf het databasestuurprogramma negeren"
-
-#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-msgid "Replace named parameters with '?'"
-msgstr "Benoemde parameters vervangen door '?'"
-
-#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-msgid "Display version columns (when available)"
-msgstr "Versiekolommen tonen (indien beschikbaar)"
-
-#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-msgid "Use catalog name in SELECT statements"
-msgstr "Catalogusnaam gebruiken in SELECT-instructies"
-
-#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-msgid "Use schema name in SELECT statements"
-msgstr "Schemanaam gebruiken in SELECT-instructies"
-
-#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-msgid "Create index with ASC or DESC statement"
-msgstr "Index maken met ASC- of DESC-instructie"
-
-#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-msgid "End text lines with CR+LF"
-msgstr "Tekstregels afsluiten met CR+LF"
-
-#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-msgid "Ignore currency field information"
-msgstr "Valutaveldinformatie negeren"
-
-#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-msgid "Form data input checks for required fields"
-msgstr "Controle van ingevoerde formuliergegevens voor verplichte velden"
-
-#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-msgid "Use ODBC conformant date/time literals"
-msgstr "Gebruik letterlijke datum/tijd die zich conformeert aan ODBC"
-
-#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-msgid "Supports primary keys"
-msgstr "Ondersteunt primaire sleutels"
-
-#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-msgid "Respect the result set type from the database driver"
-msgstr ""
-"Houdt rekening met het type resultaat van het besturingsprogramma van de "
-"database"
-
-#: advancedsettings.src#WORKAROUND.1.stringlist.text
-#: advancedsettings.src%23WORKAROUND.1.stringlist.text
-msgid "Default"
-msgstr "Standaard"
-
-#: advancedsettings.src#WORKAROUND.2.stringlist.text
-#: advancedsettings.src%23WORKAROUND.2.stringlist.text
-msgid "SQL"
-msgstr "SQL"
-
-#: advancedsettings.src#WORKAROUND.3.stringlist.text
-#: advancedsettings.src%23WORKAROUND.3.stringlist.text
-msgid "Mixed"
-msgstr "Gemengd"
-
-#: advancedsettings.src#WORKAROUND.4.stringlist.text
-#: advancedsettings.src%23WORKAROUND.4.stringlist.text
-msgid "MS Access"
-msgstr "MS Access"
-
-#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-msgid "Comparison of Boolean values"
-msgstr "Vergelijking van Booleaanse waarden"
-
-#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-msgid "Rows to scan column types"
-msgstr "Rijen om kolomtypes te scannen"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-msgid "Settings"
-msgstr "Instellingen"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-msgid "Re~trieve generated values"
-msgstr "Ge~genereerde waarden ophalen"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-msgid "~Auto-increment statement"
-msgstr "Instructie ~automatisch ophogen"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-msgid "~Query of generated values"
-msgstr "~Query van gegenereerde waarden"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-msgid "Generated Values"
-msgstr "Gegenereerde waarden"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-msgid "Special Settings"
-msgstr "Speciale instellingen"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
-msgid "Advanced Settings"
-msgstr "Geavanceerde instellingen"
 
 #: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
 #: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
@@ -813,6 +282,612 @@ msgid ""
 msgstr ""
 "In een indexdefinitie mag elke tabelkolom hoogstens eenmaal voorkomen. U "
 "hebt echter de kolom \"$name$\" tweemaal gebruikt."
+
+#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+msgid "Text Connection Settings"
+msgstr "Tekst verbindingsinstellingen"
+
+#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
+#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
+msgid "A password is needed to connect to the data source \"$name$\"."
+msgstr ""
+"Er is een wachtwoord vereist om met de gegevensbron '$name$' te verbinden."
+
+#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
+#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
+msgid ""
+"The directory\n"
+"\n"
+"$path$\n"
+"\n"
+"does not exist. Should it be created?"
+msgstr ""
+"De map\n"
+"\n"
+"$path$\n"
+"\n"
+"bestaat niet. Wilt u deze maken?"
+
+#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
+#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
+msgid "The directory $name$ could not be created."
+msgstr "De map $name$ kan niet worden gemaakt."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+msgid "Please enter the ~password for the user 'DOMAIN'."
+msgstr "Voer het ~wachtwoord voor de gebruiker DOMAIN in."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
+msgid "Convert Database"
+msgstr "Database converteren"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+msgid "Tables and table filter"
+msgstr "Tabellen en tabelfilter"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+msgid "Mark the tables that should be visible for the applications."
+msgstr "De tabellen markeren die zichtbaar moeten zijn voor de toepassingen."
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
+msgid "Tables Filter"
+msgstr "Tabellenfilter"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
+msgid "Database files"
+msgstr "Databasebestanden"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+msgid "S~YSDEVSPACE:"
+msgstr "S~YSDEVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+msgid "~TRANSACTIONLOG:"
+msgstr "~TRANSACTIONLOG:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+msgid "DATAD~EVSPACE:"
+msgstr "DATAD~EVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
+msgid "Database sizes"
+msgstr "Grootte van databases"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+msgid "S~ize (MB):"
+msgstr "Gr~ootte (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+msgid "~Free memory space (MB):"
+msgstr "~Vrij geheugen (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+msgid "~Memory utilization (in %):"
+msgstr "~Gebruikt geheugen (in %):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
+#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
+msgid "Database Statistics"
+msgstr "Databasestatistieken"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
+msgid "Contains the system tables"
+msgstr "Bevat de systeemtabellen"
+
+#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
+msgid "Contains information about transaction"
+msgstr "Bevat gegevens over de transactie"
+
+#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
+msgid "Contains all data files"
+msgstr "Bevat alle gegevensbestanden"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
+msgid "Total size of the database files"
+msgstr "Totale grootte van de databasebestanden"
+
+#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
+msgid "Currently available space before a new datadev file is created."
+msgstr ""
+"Nog beschikbare vrije ruimte voordat een nieuw Datadev-bestand wordt gemaakt."
+
+#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
+msgid "Currently used memory"
+msgstr "Momenteel gebruikte vrije ruimte"
+
+#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+msgid ""
+"No information could be displayed because no access rights exist for the "
+"required system tables."
+msgstr ""
+"Er kunnen geen gegevens worden weergegeven omdat er geen toegangsrecht "
+"bestaat voor de vereiste systeemtabellen."
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+msgid "User Settings"
+msgstr "Gebruikerinstellingen"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
+msgid "User administration"
+msgstr "Gebruikersbeheer"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
+msgid "General"
+msgstr "Algemeen"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+msgid "~Host name"
+msgstr "~Hostnaam"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
+msgid "User authentication"
+msgstr "Gebruikersverificatie"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
+msgid "~User name"
+msgstr "~Gebruikersnaam"
+
+#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
+msgid "Password required"
+msgstr "Wachtwoord vereist"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+msgid "JDBC properties"
+msgstr "JDBC eigenschappen"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+msgid "~JDBC driver class"
+msgstr "~JDBC-stuurprogrammaklasse"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+msgid "Test Class"
+msgstr "Klasse testen"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+msgid "Test Connection"
+msgstr "Verbinding testen"
+
+#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
+#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
+msgid "No Adabas D data sources were found on your system."
+msgstr "Er zijn geen Adabas D-gegevensbronnen gevonden op uw systeem."
+
+#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
+#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
+msgid "Connection Test"
+msgstr "Verbindingstest"
+
+#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
+msgid "The connection was established successfully."
+msgstr "De verbinding is tot stand gebracht."
+
+#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
+msgid "The connection could not be established."
+msgstr "De verbinding kon niet tot stand worden gebracht."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
+msgid "The JDBC driver was loaded successfully."
+msgstr "Het JDBC-stuurprogramma is geladen."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
+msgid "The JDBC driver could not be loaded."
+msgstr "Het JDBC-stuurprogramma kan niet worden geladen."
+
+#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
+msgid "MS Access file"
+msgstr "MS Access-bestand"
+
+#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
+msgid "MS Access 2007 file"
+msgstr "MS Access 2007-bestand"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+msgid "Create New Directory"
+msgstr "Nieuwe map maken"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+msgid "Up One Level"
+msgstr "Eén niveau hoger"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+msgid "File ~name:"
+msgstr "Bestands~naam:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
+msgid "Save"
+msgstr "Opslaan"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+msgid "~Path:"
+msgstr "~Pad:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
+msgid "Save"
+msgstr "Opslaan"
+
+#: CollectionView.src#STR_NEW_FOLDER.string.text
+#: CollectionView.src%23STR_NEW_FOLDER.string.text
+msgid "Folder"
+msgstr "Map"
+
+#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
+#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
+msgid "The file already exists. Overwrite?"
+msgstr "Het bestand bestaat reeds. Vervangen?"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+msgid "Please enter a name for the object to be created:"
+msgstr "Vul een naam in voor het object dat u wilt maken:"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+msgid "~Catalog"
+msgstr "~Catalogus"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+msgid "~Schema"
+msgstr "~Schema"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
+msgid "~Table Name"
+msgstr "~Naam tabel"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
+msgid "~Name of table view"
+msgstr "~Naam tabelweergave"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
+msgid "~Query name"
+msgstr "~Naam query"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+msgid "Rename to"
+msgstr "Hernoemen als"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+msgid "Insert as"
+msgstr "Invoegen als"
+
+#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
+#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
+msgid "Save As"
+msgstr "Opslaan als"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
+msgid "AND"
+msgstr "EN"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
+msgid "OR"
+msgstr "OF"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
+msgid "AND"
+msgstr "EN"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
+msgid "OR"
+msgstr "OF"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Veldnaam"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+msgid "Condition"
+msgstr "Voorwaarde"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+msgid "Value"
+msgstr "Waarde"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
+
+#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+msgid "Criteria"
+msgstr "Criteria"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
+msgid "- none -"
+msgstr "- geen -"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
+msgstr "=;<>;<;<=;>;>=;gelijk;niet gelijk aan;leeg;niet leeg"
+
+#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
+#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
+msgid "Standard Filter"
+msgstr "Standaardfilter"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "betrokken tabellen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "betrokken velden"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+msgid "Update options"
+msgstr "Bijwerkopties"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
+msgid "~No action"
+msgstr "~Geen handeling"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+msgid "~Update cascade"
+msgstr "~Trapsgewijs bijwerken"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "~Op nul instellen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "Op ~standaard instellen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+msgid "Delete options"
+msgstr "Wisopties"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
+msgid "~No action"
+msgstr "G~een handeling"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+msgid "Delete ~cascade"
+msgstr "~Trapsgewijs verwijderen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "Op n~ul instellen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "Op standaard ~instellen"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
+msgid "Relations"
+msgstr "Relaties"
+
+#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+msgid "~Height"
+msgstr "H~oogte"
+
+#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatisch"
+
+#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
+#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Rijhoogte"
+
+#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
+msgid "~Width"
+msgstr "~Breedte"
+
+#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatisch"
+
+#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
+#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Kolombreedte"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+msgid "~Table"
+msgstr "~Tabel"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+msgid "Assignment"
+msgstr "Toewijzing"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+msgid "T~able indexes"
+msgstr "Tabel~lenregister"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+msgid "~Free indexes"
+msgstr "~Vrije indices"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
+msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
+msgid "Indexes"
+msgstr "Indices"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+msgid "User selection"
+msgstr "Gebruikersselectie"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+msgid "Us~er:"
+msgstr "Gebr~uiker:"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+msgid "~Add User..."
+msgstr "Gebruiker ~toevoegen..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+msgid "Change ~Password..."
+msgstr "~Wachtwoord wijzigen..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+msgid "~Delete User..."
+msgstr "~Gebruiker verwijderen..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+msgid "Access rights for selected user"
+msgstr "Toegangsrechten voor geselecteerde gebruiker"
+
+#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
+#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
+msgid "Do you really want to delete the user?"
+msgstr "Wilt u deze gebruikersnaam werkelijk verwijderen?"
+
+#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
+#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
+msgid "The database does not support user administration."
+msgstr "De database ondersteunt geen gebruikersbeheer."
+
+#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
+#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
+msgid "User \"$name$: $\""
+msgstr "Gebruiker \"$name$: $\""
+
+#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+msgid "Old p~assword"
+msgstr "Oud w~achtwoord"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "~Wachtwoord"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+msgid "~Confirm password"
+msgstr "~Wachtwoord bevestigen"
+
+#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
+#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
+msgid "Change Password"
+msgstr "Wachtwoord wijzigen"
+
+#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr ""
+"De beide wachtwoorden komen niet overeen. Voer het wachtwoord nogmaals in."
 
 #: dbadminsetup.src#DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
 #: dbadminsetup.src%23DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
@@ -1307,411 +1382,366 @@ msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
 msgid "Details"
 msgstr "Details"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-msgid "Please enter a name for the object to be created:"
-msgstr "Vul een naam in voor het object dat u wilt maken:"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+msgid "Choose a data source:"
+msgstr "Kies een gegevensbron:"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-msgid "~Catalog"
-msgstr "~Catalogus"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+msgid "Organize..."
+msgstr "Beheren..."
 
-#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-msgid "~Schema"
-msgstr "~Schema"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+msgid "Create..."
+msgstr "Maken..."
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
-msgid "~Table Name"
-msgstr "~Naam tabel"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+msgid "Local Databases"
+msgstr "lokale gegevensbronnen"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
-msgid "~Name of table view"
-msgstr "~Naam tabelweergave"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+msgid "Choose a database"
+msgstr "Een database kiezen"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
-msgid "~Query name"
-msgstr "~Naam query"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
+msgid "Data Source"
+msgstr "Gegevensbron"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-msgid "Rename to"
-msgstr "Hernoemen als"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
+msgid "ascending"
+msgstr "oplopend"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-msgid "Insert as"
-msgstr "Invoegen als"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
+msgid "descending"
+msgstr "aflopend"
 
-#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
-#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
-msgid "Save As"
-msgstr "Opslaan als"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
+msgid "ascending"
+msgstr "oplopend"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-msgid "~Table"
-msgstr "~Tabel"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
+msgid "descending"
+msgstr "aflopend"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-msgid "Assignment"
-msgstr "Toewijzing"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
+msgid "ascending"
+msgstr "oplopend"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-msgid "T~able indexes"
-msgstr "Tabel~lenregister"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
+msgid "descending"
+msgstr "aflopend"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-msgid "~Free indexes"
-msgstr "~Vrije indices"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Veldnaam"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
-msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
-msgid "Indexes"
-msgstr "Indices"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
+msgid "and then"
+msgstr "vervolgens"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
-msgid "Database files"
-msgstr "Databasebestanden"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
+msgid "and then"
+msgstr "vervolgens"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-msgid "S~YSDEVSPACE:"
-msgstr "S~YSDEVSPACE:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-msgid "~TRANSACTIONLOG:"
-msgstr "~TRANSACTIONLOG:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+msgid "Order"
+msgstr "Volgorde"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-msgid "DATAD~EVSPACE:"
-msgstr "DATAD~EVSPACE:"
+#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
+#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
+msgid "Sort order"
+msgstr "Sorteervolgorde"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
-msgid "Database sizes"
-msgstr "Grootte van databases"
+#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
+#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
+msgid "<none>"
+msgstr "<geen>"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-msgid "S~ize (MB):"
-msgstr "Gr~ootte (MB):"
+#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
+#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
+msgid "Sort Order"
+msgstr "Sorteervolgorde"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-msgid "~Free memory space (MB):"
-msgstr "~Vrij geheugen (MB):"
+#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+msgid "Options"
+msgstr "Opties"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-msgid "~Memory utilization (in %):"
-msgstr "~Gebruikt geheugen (in %):"
+#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+msgid "Use SQL92 naming constraints"
+msgstr "SQL92 naamconventies gebruiken"
 
-#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
-#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
-msgid "Database Statistics"
-msgstr "Databasestatistieken"
+#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+msgid "Append the table alias name on SELECT statements"
+msgstr "De aliasnaam van de tabel toevoegen aan SELECT-instructies"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
-msgid "Contains the system tables"
-msgstr "Bevat de systeemtabellen"
+#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+msgid "Use keyword AS before table alias names"
+msgstr "Het trefwoord AS gebruiken vóór aliasnamen van tabellen"
 
-#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
-msgid "Contains information about transaction"
-msgstr "Bevat gegevens over de transactie"
+#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+msgid "Use Outer Join syntax '{OJ }'"
+msgstr "Gebruik Outer Join syntaxis '{OJ }'"
 
-#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
-msgid "Contains all data files"
-msgstr "Bevat alle gegevensbestanden"
+#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+msgid "Ignore the privileges from the database driver"
+msgstr "De privileges vanaf het databasestuurprogramma negeren"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
-msgid "Total size of the database files"
-msgstr "Totale grootte van de databasebestanden"
+#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+msgid "Replace named parameters with '?'"
+msgstr "Benoemde parameters vervangen door '?'"
 
-#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
-msgid "Currently available space before a new datadev file is created."
+#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+msgid "Display version columns (when available)"
+msgstr "Versiekolommen tonen (indien beschikbaar)"
+
+#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+msgid "Use catalog name in SELECT statements"
+msgstr "Catalogusnaam gebruiken in SELECT-instructies"
+
+#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+msgid "Use schema name in SELECT statements"
+msgstr "Schemanaam gebruiken in SELECT-instructies"
+
+#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+msgid "Create index with ASC or DESC statement"
+msgstr "Index maken met ASC- of DESC-instructie"
+
+#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+msgid "End text lines with CR+LF"
+msgstr "Tekstregels afsluiten met CR+LF"
+
+#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+msgid "Ignore currency field information"
+msgstr "Valutaveldinformatie negeren"
+
+#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+msgid "Form data input checks for required fields"
+msgstr "Controle van ingevoerde formuliergegevens voor verplichte velden"
+
+#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+msgid "Use ODBC conformant date/time literals"
+msgstr "Gebruik letterlijke datum/tijd die zich conformeert aan ODBC"
+
+#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+msgid "Supports primary keys"
+msgstr "Ondersteunt primaire sleutels"
+
+#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+msgid "Respect the result set type from the database driver"
 msgstr ""
-"Nog beschikbare vrije ruimte voordat een nieuw Datadev-bestand wordt gemaakt."
+"Houdt rekening met het type resultaat van het besturingsprogramma van de "
+"database"
 
-#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
-msgid "Currently used memory"
-msgstr "Momenteel gebruikte vrije ruimte"
+#: advancedsettings.src#WORKAROUND.1.stringlist.text
+#: advancedsettings.src%23WORKAROUND.1.stringlist.text
+msgid "Default"
+msgstr "Standaard"
 
-#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: advancedsettings.src#WORKAROUND.2.stringlist.text
+#: advancedsettings.src%23WORKAROUND.2.stringlist.text
+msgid "SQL"
+msgstr "SQL"
+
+#: advancedsettings.src#WORKAROUND.3.stringlist.text
+#: advancedsettings.src%23WORKAROUND.3.stringlist.text
+msgid "Mixed"
+msgstr "Gemengd"
+
+#: advancedsettings.src#WORKAROUND.4.stringlist.text
+#: advancedsettings.src%23WORKAROUND.4.stringlist.text
+msgid "MS Access"
+msgstr "MS Access"
+
+#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+msgid "Comparison of Boolean values"
+msgstr "Vergelijking van Booleaanse waarden"
+
+#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+msgid "Rows to scan column types"
+msgstr "Rijen om kolomtypes te scannen"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+msgid "Settings"
+msgstr "Instellingen"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+msgid "Re~trieve generated values"
+msgstr "Ge~genereerde waarden ophalen"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+msgid "~Auto-increment statement"
+msgstr "Instructie ~automatisch ophogen"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+msgid "~Query of generated values"
+msgstr "~Query van gegenereerde waarden"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+msgid "Generated Values"
+msgstr "Gegenereerde waarden"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+msgid "Special Settings"
+msgstr "Speciale instellingen"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
+msgid "Path to the dBASE files"
+msgstr "Pad naar de dBASE-bestanden"
+
+#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
+msgid "Path to the text files"
+msgstr "Pad naar de tekstbestanden"
+
+#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
+msgid "Path to the spreadsheet document"
+msgstr "Pad naar het werkbladdocument"
+
+#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
+#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
+msgid "Name of the ODBC data source on your system"
+msgstr "Naam van de ODBC-gegevensbron op uw systeem"
+
+#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
+msgid "Name of the MySQL database"
+msgstr "Naam van de MySQL-database"
+
+#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
+msgid "Name of the Oracle database"
+msgstr "Naam van de Oracle-database"
+
+#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
+msgid "Name of the Adabas D database"
+msgstr "Naam van de Adabas D-database"
+
+#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
+#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
+msgid "Microsoft Access database file"
+msgstr "Microsoft Access-databasebestand"
+
+#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
+#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
 msgid ""
-"No information could be displayed because no access rights exist for the "
-"required system tables."
+"No more settings are necessary. To verify that the connection is working, "
+"click the '%test' button."
 msgstr ""
-"Er kunnen geen gegevens worden weergegeven omdat er geen toegangsrecht "
-"bestaat voor de vereiste systeemtabellen."
+"De instellingen zijn compleet. Teneinde vast te stellen dat de verbinding "
+"werkt, klikt u op de '%test' knop."
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-msgid "~Database name"
-msgstr "Naam ~database"
+#: AutoControls.src#STR_COMMONURL.string.text
+#: AutoControls.src%23STR_COMMONURL.string.text
+msgid "Datasource URL"
+msgstr "URL van gegevensbron"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-msgid "Se~rver / Port"
-msgstr "Se~rver / Poort"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-msgid "~Server"
-msgstr "~Server"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-msgid "~Port"
-msgstr "~Poort"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
-msgid "Default: 3306"
-msgstr "Standaard: 3306"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-msgid "So~cket"
-msgstr "So~cket"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-msgid "Named p~ipe"
-msgstr "Benoemde p~ipe"
-
-#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
-msgid "SQL command"
-msgstr "SQL-opdracht"
-
-#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
-msgid "Command to execute"
-msgstr "Uit te voeren opdracht"
-
-#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-msgid "Execute"
-msgstr "Uitvoeren"
-
-#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-msgid "Previous commands"
-msgstr "Vorige opdrachten"
-
-#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
-msgid "Status"
-msgstr "Status"
-
-#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-msgid "Close"
-msgstr "Sluiten"
-
-#: directsql.src#DLG_DIRECTSQL.modaldialog.text
-#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
-msgid "Execute SQL Statement"
-msgstr "SQL-instructie uitvoeren"
-
-#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-msgid "Command successfully executed."
-msgstr "Opdracht is uitgevoerd."
-
-#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
-#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
-msgid ""
-"The connection to the database has been lost. This dialog will be closed."
-msgstr ""
-"Er bestaat geen verbinding met de database. Dit dialoogvenster wordt "
-"gesloten."
-
-#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-msgid "Text Connection Settings"
-msgstr "Tekst verbindingsinstellingen"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
-msgid "General"
-msgstr "Algemeen"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+#: AutoControls.src#STR_HOSTNAME.string.text
+#: AutoControls.src%23STR_HOSTNAME.string.text
+msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
 msgid "~Host name"
 msgstr "~Hostnaam"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
-msgid "User authentication"
-msgstr "Gebruikersverificatie"
+#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
+msgid "~Mozilla profile name"
+msgstr "~Mozilla-profielnaam"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
-msgid "~User name"
-msgstr "~Gebruikersnaam"
+#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
+msgid "~Thunderbird profile name"
+msgstr "~Thunderbird-profielnaam"
 
-#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
-msgid "Password required"
-msgstr "Wachtwoord vereist"
+#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
+#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
+msgid "~Parameters"
+msgstr "~Parameters"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-msgid "JDBC properties"
-msgstr "JDBC eigenschappen"
+#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
+#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
+msgid "~Value"
+msgstr "~Waarde"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-msgid "~JDBC driver class"
-msgstr "~JDBC-stuurprogrammaklasse"
+#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+msgid "~Next"
+msgstr "~Volgende"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-msgid "Test Class"
-msgstr "Klasse testen"
+#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+msgid ""
+"The entry could not be converted to a valid value for the \"$name$\"column"
+msgstr ""
+"De ingevoerde gegevens kunnen niet worden geconverteerd naar een geldige "
+"waarde voor de kolom \"$name$\""
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-msgid "Test Connection"
-msgstr "Verbinding testen"
-
-#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
-#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
-msgid "No Adabas D data sources were found on your system."
-msgstr "Er zijn geen Adabas D-gegevensbronnen gevonden op uw systeem."
-
-#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
-#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
-msgid "Connection Test"
-msgstr "Verbindingstest"
-
-#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
-msgid "The connection was established successfully."
-msgstr "De verbinding is tot stand gebracht."
-
-#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
-msgid "The connection could not be established."
-msgstr "De verbinding kon niet tot stand worden gebracht."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
-msgid "The JDBC driver was loaded successfully."
-msgstr "Het JDBC-stuurprogramma is geladen."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
-msgid "The JDBC driver could not be loaded."
-msgstr "Het JDBC-stuurprogramma kan niet worden geladen."
-
-#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
-msgid "MS Access file"
-msgstr "MS Access-bestand"
-
-#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
-msgid "MS Access 2007 file"
-msgstr "MS Access 2007-bestand"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "betrokken tabellen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "betrokken velden"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-msgid "Update options"
-msgstr "Bijwerkopties"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
-msgid "~No action"
-msgstr "~Geen handeling"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-msgid "~Update cascade"
-msgstr "~Trapsgewijs bijwerken"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "~Op nul instellen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "Op ~standaard instellen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-msgid "Delete options"
-msgstr "Wisopties"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
-msgid "~No action"
-msgstr "G~een handeling"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-msgid "Delete ~cascade"
-msgstr "~Trapsgewijs verwijderen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "Op n~ul instellen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "Op standaard ~instellen"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
-msgid "Relations"
-msgstr "Relaties"
+#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
+#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
+msgid "Parameter Input"
+msgstr "Parameter opgeven"
 
 #: dbadmin.src#AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
 #: dbadmin.src%23AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
@@ -1879,13 +1909,10 @@ msgid "Display deleted records as well"
 msgstr "Inactieve records ook weergeven"
 
 #: dbadmin.src#PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
-#: dbadmin.src%23PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
 msgid ""
-"Note: When deleted, and thus inactive, records are  displayed, you will not "
+"Note: When deleted, and thus inactive, records are displayed, you will not "
 "be able to delete records from the data source."
 msgstr ""
-"N.B.: Wanneer verwijderde, en dus inactieve records worden getoond, zult u "
-"niet in staat zijn records te verwijderen uit de gegevensbron."
 
 #: dbadmin.src#PAGE_DBASE.PB_INDICIES.pushbutton.text
 #: dbadmin.src%23PAGE_DBASE.PB_INDICIES.pushbutton.text
@@ -2001,9 +2028,8 @@ msgid "~Base DN"
 msgstr "~Basis-DN"
 
 #: dbadmin.src#PAGE_LDAP.CB_USESSL.checkbox.text
-#: dbadmin.src%23PAGE_LDAP.CB_USESSL.checkbox.text
-msgid "Use secure connection(SSL)"
-msgstr "Beveiligde verbinding(SSL) gebruiken"
+msgid "Use secure connection (SSL)"
+msgstr ""
 
 #: dbadmin.src#PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
 #: dbadmin.src%23PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
@@ -2040,36 +2066,6 @@ msgid ""
 msgstr ""
 "Kies 'Verbinden met een bestaande database' om, in plaats daarvan, te "
 "verbinden met een bestaande database."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-msgid "Choose a data source:"
-msgstr "Kies een gegevensbron:"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-msgid "Organize..."
-msgstr "Beheren..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-msgid "Create..."
-msgstr "Maken..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-msgid "Local Databases"
-msgstr "lokale gegevensbronnen"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-msgid "Choose a database"
-msgstr "Een database kiezen"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
-msgid "Data Source"
-msgstr "Gegevensbron"
 
 #: AutoControls_tmpl.hrc#AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
 #: AutoControls_tmpl.hrc%23AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text

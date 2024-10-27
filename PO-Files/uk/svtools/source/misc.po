@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+svtools%2Fsource%2Fmisc.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-08-30 17:44+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-05-04 17:52+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,12 +18,348 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1661881454.000000\n"
+"X-POOTLE-MTIME: 1683222735.000000\n"
+
+#: undo.src#STR_UNDO.string.text
+#: undo.src%23STR_UNDO.string.text
+msgid "Undo: "
+msgstr "Скасувати: "
+
+#: undo.src#STR_REDO.string.text
+#: undo.src%23STR_REDO.string.text
+msgid "Re~do: "
+msgstr "По~вторити: "
+
+#: undo.src#STR_REPEAT.string.text
+#: undo.src%23STR_REPEAT.string.text
+msgid "~Repeat: "
+msgstr "~Повторити: "
+
+#: imagemgr.src#STR_DESCRIPTION_SOURCEFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SOURCEFILE.string.text
+msgid "Source code"
+msgstr "Первинний код"
+
+#: imagemgr.src#STR_DESCRIPTION_BOOKMARKFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_BOOKMARKFILE.string.text
+msgid "Bookmark file"
+msgstr "Файл закладок"
+
+#: imagemgr.src#STR_DESCRIPTION_GRAPHIC_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_GRAPHIC_DOC.string.text
+msgid "Graphics"
+msgstr "Графіка"
+
+#: imagemgr.src#STR_DESCRIPTION_CFGFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_CFGFILE.string.text
+msgid "Configuration file"
+msgstr "Файл конфігурації"
+
+#: imagemgr.src#STR_DESCRIPTION_APPLICATION.string.text
+#: imagemgr.src%23STR_DESCRIPTION_APPLICATION.string.text
+msgid "Application"
+msgstr "Застосунок"
+
+#: imagemgr.src#STR_DESCRIPTION_DATABASE_TABLE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_DATABASE_TABLE.string.text
+msgid "Database table"
+msgstr "Таблиця бази даних"
+
+#: imagemgr.src#STR_DESCRIPTION_SYSFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SYSFILE.string.text
+msgid "System file"
+msgstr "Системний файл"
+
+#: imagemgr.src#STR_DESCRIPTION_WORD_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_WORD_DOC.string.text
+msgid "MS Word document"
+msgstr "Документ MS Word"
+
+#: imagemgr.src#STR_DESCRIPTION_HELP_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_HELP_DOC.string.text
+msgid "Help file"
+msgstr "Файл довідки"
+
+#: imagemgr.src#STR_DESCRIPTION_HTMLFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_HTMLFILE.string.text
+msgctxt "imagemgr.src#STR_DESCRIPTION_HTMLFILE.string.text"
+msgid "HTML document"
+msgstr "Документ HTML"
+
+#: imagemgr.src#STR_DESCRIPTION_ARCHIVFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_ARCHIVFILE.string.text
+msgid "Archive file"
+msgstr "Файл архіву"
+
+#: imagemgr.src#STR_DESCRIPTION_LOGFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_LOGFILE.string.text
+msgid "Log file"
+msgstr "Файл журналу"
+
+#: imagemgr.src#STR_DESCRIPTION_SDATABASE_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SDATABASE_DOC.string.text
+msgid "%STAROFFICE Database"
+msgstr "База даних %STAROFFICE"
+
+#: imagemgr.src#STR_DESCRIPTION_GLOBALDOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_GLOBALDOC.string.text
+msgid "StarWriter 4.0 / 5.0 Master Document"
+msgstr "Складений документ StarWriter 4.0 / 5.0"
+
+#: imagemgr.src#STR_DESCRIPTION_SIMAGE_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SIMAGE_DOC.string.text
+msgid "%STAROFFICE Image"
+msgstr "Зображення %STAROFFICE"
+
+#: imagemgr.src#STR_DESCRIPTION_TEXTFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_TEXTFILE.string.text
+msgid "Text file"
+msgstr "Текстовий файл"
+
+#: imagemgr.src#STR_DESCRIPTION_LINK.string.text
+#: imagemgr.src%23STR_DESCRIPTION_LINK.string.text
+msgid "Link"
+msgstr "Посилання"
+
+#: imagemgr.src#STR_DESCRIPTION_SOFFICE_TEMPLATE_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SOFFICE_TEMPLATE_DOC.string.text
+msgid "%STAROFFICE 3.0 - 5.0 Template"
+msgstr "Шаблон %STAROFFICE 3.0 - 5.0"
+
+#: imagemgr.src#STR_DESCRIPTION_EXCEL_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_EXCEL_DOC.string.text
+msgid "MS Excel document"
+msgstr "Документ MS Excel"
+
+#: imagemgr.src#STR_DESCRIPTION_EXCEL_TEMPLATE_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_EXCEL_TEMPLATE_DOC.string.text
+msgid "MS Excel template"
+msgstr "Шаблон MS Excel"
+
+#: imagemgr.src#STR_DESCRIPTION_BATCHFILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_BATCHFILE.string.text
+msgid "Batch file"
+msgstr "Пакетний файл"
+
+#: imagemgr.src#STR_DESCRIPTION_FILE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FILE.string.text
+msgid "File"
+msgstr "Файл"
+
+#: imagemgr.src#STR_DESCRIPTION_FOLDER.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FOLDER.string.text
+msgid "Folder"
+msgstr "Тека"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_WRITER.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_WRITER.string.text
+msgid "Text Document"
+msgstr "Текстовий документ"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_CALC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_CALC.string.text
+msgid "Spreadsheet"
+msgstr "Електронна таблиця"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_IMPRESS.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_IMPRESS.string.text
+msgid "Presentation"
+msgstr "Презентація"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_DRAW.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_DRAW.string.text
+msgid "Drawing"
+msgstr "Рисунок"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_WRITERWEB.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_WRITERWEB.string.text
+msgctxt "imagemgr.src#STR_DESCRIPTION_FACTORY_WRITERWEB.string.text"
+msgid "HTML document"
+msgstr "Документ HTML"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_GLOBALDOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_GLOBALDOC.string.text
+msgid "Master document"
+msgstr "Складений документ"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_MATH.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_MATH.string.text
+msgid "Formula"
+msgstr "Формула"
+
+#: imagemgr.src#STR_DESCRIPTION_FACTORY_DATABASE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FACTORY_DATABASE.string.text
+msgid "Database"
+msgstr "База даних"
+
+#: imagemgr.src#STR_DESCRIPTION_CALC_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_CALC_TEMPLATE.string.text
+msgid ""
+"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Spreadsheet Template"
+msgstr ""
+"Шаблон електронної таблиці %PRODUCTXMLFILEFORMATNAME "
+"%PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_DRAW_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_DRAW_TEMPLATE.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Drawing Template"
+msgstr "Шаблон рисунку %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_IMPRESS_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_IMPRESS_TEMPLATE.string.text
+msgid ""
+"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Presentation Template"
+msgstr ""
+"Шаблон презентації %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_WRITER_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_WRITER_TEMPLATE.string.text
+msgid ""
+"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Text Document Template"
+msgstr "Шаблон тексту %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_LOCALE_VOLUME.string.text
+#: imagemgr.src%23STR_DESCRIPTION_LOCALE_VOLUME.string.text
+msgid "Local drive"
+msgstr "Локальний диск"
+
+#: imagemgr.src#STR_DESCRIPTION_FLOPPY_VOLUME.string.text
+#: imagemgr.src%23STR_DESCRIPTION_FLOPPY_VOLUME.string.text
+msgid "Disk drive"
+msgstr "Дисковод"
+
+#: imagemgr.src#STR_DESCRIPTION_CDROM_VOLUME.string.text
+#: imagemgr.src%23STR_DESCRIPTION_CDROM_VOLUME.string.text
+msgid "CD-ROM drive"
+msgstr "Пристрій для компакт-дисків"
+
+#: imagemgr.src#STR_DESCRIPTION_REMOTE_VOLUME.string.text
+#: imagemgr.src%23STR_DESCRIPTION_REMOTE_VOLUME.string.text
+msgid "Network connection"
+msgstr "Підключення до мережі"
+
+#: imagemgr.src#STR_DESCRIPTION_POWERPOINT.string.text
+#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT.string.text
+msgid "MS PowerPoint Document"
+msgstr "Документ MS PowerPoint"
+
+#: imagemgr.src#STR_DESCRIPTION_POWERPOINT_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT_TEMPLATE.string.text
+msgid "MS PowerPoint Template"
+msgstr "Шаблон MS PowerPoint"
+
+#: imagemgr.src#STR_DESCRIPTION_POWERPOINT_SHOW.string.text
+#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT_SHOW.string.text
+msgid "MS PowerPoint Show"
+msgstr "Презентація MS PowerPoint"
+
+#: imagemgr.src#STR_DESCRIPTION_SXMATH_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXMATH_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Formula"
+msgstr "Формула %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXCHART_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXCHART_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Chart"
+msgstr "Діаграма %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXDRAW_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXDRAW_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Drawing"
+msgstr "Рисунок %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXCALC_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXCALC_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Spreadsheet"
+msgstr ""
+"Електронна таблиця %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXIMPRESS_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXIMPRESS_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Presentation"
+msgstr "Презентація %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXWRITER_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXWRITER_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Text Document"
+msgstr ""
+"Текстовий документ %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_SXGLOBAL_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_SXGLOBAL_DOC.string.text
+msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Master Document"
+msgstr ""
+"Складений документ %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
+
+#: imagemgr.src#STR_DESCRIPTION_MATHML_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_MATHML_DOC.string.text
+msgid "MathML Document"
+msgstr "Документ MathML"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_DATABASE_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_DATABASE_DOC.string.text
+msgid "OpenDocument Database"
+msgstr "База даних OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_DRAW_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_DRAW_DOC.string.text
+msgid "OpenDocument Drawing"
+msgstr "Малюнок OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_MATH_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_MATH_DOC.string.text
+msgid "OpenDocument Formula"
+msgstr "Формула OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_GLOBAL_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_GLOBAL_DOC.string.text
+msgid "OpenDocument Master Document"
+msgstr "Складений документ OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_IMPRESS_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_IMPRESS_DOC.string.text
+msgid "OpenDocument Presentation"
+msgstr "Презентація OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_CALC_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_CALC_DOC.string.text
+msgid "OpenDocument Spreadsheet"
+msgstr "Електронна таблиця OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_WRITER_DOC.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_WRITER_DOC.string.text
+msgid "OpenDocument Text"
+msgstr "Текстовий документ OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_CALC_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_CALC_TEMPLATE.string.text
+msgid "OpenDocument Spreadsheet Template"
+msgstr "Шаблон електронної таблиці OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_DRAW_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_DRAW_TEMPLATE.string.text
+msgid "OpenDocument Drawing Template"
+msgstr "Шаблон малюнку OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_IMPRESS_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_IMPRESS_TEMPLATE.string.text
+msgid "OpenDocument Presentation Template"
+msgstr "Шаблон презентації OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_OO_WRITER_TEMPLATE.string.text
+#: imagemgr.src%23STR_DESCRIPTION_OO_WRITER_TEMPLATE.string.text
+msgid "OpenDocument Text Template"
+msgstr "Шаблон текстового документу OpenDocument"
+
+#: imagemgr.src#STR_DESCRIPTION_EXTENSION.string.text
+#: imagemgr.src%23STR_DESCRIPTION_EXTENSION.string.text
+msgid "%PRODUCTNAME Extension"
+msgstr "Розширення %PRODUCTNAME"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NONE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NONE.pairedlist.text
 msgid "[None]"
-msgstr "[Ні]"
+msgstr "[Без перевірки]"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DONTKNOW.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DONTKNOW.pairedlist.text
@@ -63,12 +399,12 @@ msgstr "Арабська (Бахрейн)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_CHAD.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_CHAD.pairedlist.text
 msgid "Arabic (Chad)"
-msgstr "Арабська (Чад)"
+msgstr "Арабська (Ірак)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_COMOROS.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_COMOROS.pairedlist.text
 msgid "Arabic (Comoros)"
-msgstr "Арабська (Коморські о-ви)"
+msgstr "Арабська (Коморські острови)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_DJIBOUTI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_DJIBOUTI.pairedlist.text
@@ -83,7 +419,7 @@ msgstr "Арабська (Єгипет)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_ERITREA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_ARABIC_ERITREA.pairedlist.text
 msgid "Arabic (Eritrea)"
-msgstr "Арабська (Ерітрея)"
+msgstr "Арабська (Еритрея)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_ARABIC_IRAQ.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_ARABIC_IRAQ.pairedlist.text
@@ -203,7 +539,7 @@ msgstr "Баскська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_BENGALI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_BENGALI.pairedlist.text
 msgid "Bengali (India)"
-msgstr "Бенгальська (Індія)"
+msgstr "Бенгальська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_BULGARIAN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_BULGARIAN.pairedlist.text
@@ -523,7 +859,7 @@ msgstr "Малайська (Малайзія)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_MALAY_BRUNEI_DARUSSALAM.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_MALAY_BRUNEI_DARUSSALAM.pairedlist.text
 msgid "Malay (Brunei Darussalam)"
-msgstr "Малайська (Бруней-Даруссалам)"
+msgstr "Малайська (Бруней Дарусалам)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_MALAYALAM.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_MALAYALAM.pairedlist.text
@@ -543,12 +879,12 @@ msgstr "Маратхі"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NEPALI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NEPALI.pairedlist.text
 msgid "Nepali (Nepal)"
-msgstr "Непалі (Непал)"
+msgstr "Непальська (Непал)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NEPALI_INDIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NEPALI_INDIA.pairedlist.text
 msgid "Nepali (India)"
-msgstr "Непалі (Індія)"
+msgstr "Непальська (Індія)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NORWEGIAN_BOKMAL.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_NORWEGIAN_BOKMAL.pairedlist.text
@@ -588,7 +924,7 @@ msgstr "Панджабі"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_RHAETO_ROMAN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_RHAETO_ROMAN.pairedlist.text
 msgid "Rhaeto-Romance"
-msgstr "Рето-романський"
+msgstr "Ретороманська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_ROMANIAN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_ROMANIAN.pairedlist.text
@@ -613,7 +949,7 @@ msgstr "Сербська кирилиця (Сербія та Чорногорі�
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SERBIAN_LATIN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SERBIAN_LATIN.pairedlist.text
 msgid "Serbian Latin (Serbia and Montenegro)"
-msgstr "Serbian Latin (Serbia and Montenegro)"
+msgstr "Сербська латиниця (Сербія та Чорногорія)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SERBIAN_CYRILLIC_SERBIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SERBIAN_CYRILLIC_SERBIA.pairedlist.text
@@ -888,7 +1224,7 @@ msgstr "Галісійська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DHIVEHI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DHIVEHI.pairedlist.text
 msgid "Dhivehi"
-msgstr "Мальдивська (Дівехі)"
+msgstr "Мальдівська (Дівехі)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SEPEDI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SEPEDI.pairedlist.text
@@ -958,7 +1294,7 @@ msgstr "Сардинська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DZONGKHA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_DZONGKHA.pairedlist.text
 msgid "Dzongkha"
-msgstr "Дзонгха"
+msgstr "Дзонг-ке"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SWAHILI_TANZANIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SWAHILI_TANZANIA.pairedlist.text
@@ -1023,7 +1359,7 @@ msgstr "Ндебеле (Південна Африка)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SESOTHO.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SESOTHO.pairedlist.text
 msgid "Southern Sotho"
-msgstr "Південна сото"
+msgstr "Сесото (південна сото)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SWAZI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SWAZI.pairedlist.text
@@ -1118,7 +1454,7 @@ msgstr "Тигринья (Ефіопія)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_AMHARIC_ETHIOPIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_AMHARIC_ETHIOPIA.pairedlist.text
 msgid "Amharic"
-msgstr "Амхара"
+msgstr "Амхарська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_KIRGHIZ.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_KIRGHIZ.pairedlist.text
@@ -1228,17 +1564,17 @@ msgstr "Сомалійська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_INARI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_INARI.pairedlist.text
 msgid "Sami, Inari (Finland)"
-msgstr "Самі, Інарі (Фінляндія)"
+msgstr "Інарі-саамська (Фінляндія)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_LULE_NORWAY.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_LULE_NORWAY.pairedlist.text
 msgid "Sami, Lule (Norway)"
-msgstr "Самі, Луле (Норвегія)"
+msgstr "Луле-саамська (Норвегія)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_LULE_SWEDEN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_LULE_SWEDEN.pairedlist.text
 msgid "Sami, Lule (Sweden)"
-msgstr "Самі, Луле (Швеція)"
+msgstr "Луле-саамська (Швеція)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_NORTHERN_FINLAND.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_NORTHERN_FINLAND.pairedlist.text
@@ -1258,7 +1594,7 @@ msgstr "Північно-саамська (Швеція)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_SKOLT.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_SKOLT.pairedlist.text
 msgid "Sami, Skolt (Finland)"
-msgstr "Скольт-саамська (Фінляндія)"
+msgstr "Колтта-саамська (Фінляндія)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_SOUTHERN_NORWAY.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_SAMI_SOUTHERN_NORWAY.pairedlist.text
@@ -1278,12 +1614,12 @@ msgstr "Самі, Кілдін (Росія)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_GUARANI_PARAGUAY.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_GUARANI_PARAGUAY.pairedlist.text
 msgid "Guaraní, Paraguayan"
-msgstr "Гуарані, Парагвай"
+msgstr "Гуджараті, Парагвайська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BODO_INDIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BODO_INDIA.pairedlist.text
 msgid "Bodo"
-msgstr "Водо"
+msgstr "Бодо"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_DOGRI_INDIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_DOGRI_INDIA.pairedlist.text
@@ -1318,7 +1654,7 @@ msgstr "Мальтійська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_TOK_PISIN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_TOK_PISIN.pairedlist.text
 msgid "Tok Pisin"
-msgstr "Ток-пісін"
+msgstr "Ток-писин"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SHUSWAP.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SHUSWAP.pairedlist.text
@@ -1338,7 +1674,7 @@ msgstr "Грецька (давня)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_YIDDISH.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_YIDDISH.pairedlist.text
 msgid "Yiddish (Israel)"
-msgstr "Ідіш (Ізраїль)"
+msgstr "Ідиш (Ізраїль)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_QUECHUA_ECUADOR.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_QUECHUA_ECUADOR.pairedlist.text
@@ -1373,17 +1709,17 @@ msgstr "Латгальська"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_MAORE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_MAORE.pairedlist.text
 msgid "Maore"
-msgstr "Маоре"
+msgstr "Майотта"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BUSHI.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BUSHI.pairedlist.text
 msgid "Bushi"
-msgstr "Бусі"
+msgstr "Буші"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_TAHITIAN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_TAHITIAN.pairedlist.text
 msgid "Tahitian"
-msgstr "Тахітіан (Таїті)"
+msgstr "Таїтянська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_MALAGASY_PLATEAU.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_MALAGASY_PLATEAU.pairedlist.text
@@ -1393,32 +1729,32 @@ msgstr "Малагасійська, плато"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_PAPIAMENTU.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_PAPIAMENTU.pairedlist.text
 msgid "Papiamentu (Netherlands Antilles)"
-msgstr "Папімаменту (Нідерландські Антильські острови)"
+msgstr "Пап'яменто (Нідерландські Антильські острови)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_PAPIAMENTU_ARUBA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_PAPIAMENTU_ARUBA.pairedlist.text
 msgid "Papiamento (Aruba)"
-msgstr "Папімаменту (Аруба)"
+msgstr "Пап'яменто (Аруба)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_CAMPIDANESE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_CAMPIDANESE.pairedlist.text
 msgid "Sardinian, Campidanese"
-msgstr "Сардинська, Кампіданіз"
+msgstr "Сардинська, Кампіданська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_GALLURESE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_GALLURESE.pairedlist.text
 msgid "Sardinian, Gallurese"
-msgstr "Сардинська, Галура"
+msgstr "Сардинська, Галлурійська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_LOGUDORESE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_LOGUDORESE.pairedlist.text
 msgid "Sardinian, Logudorese"
-msgstr "Сардинська, Ладуроз"
+msgstr "Сардинська, Логудорська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_SASSARESE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_SARDINIAN_SASSARESE.pairedlist.text
 msgid "Sardinian, Sassarese"
-msgstr "Сардинська, Сасарі"
+msgstr "Сардинська, Сасарська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BAFIA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_BAFIA.pairedlist.text
@@ -1428,7 +1764,7 @@ msgstr "Бафіа"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_GIKUYU.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_GIKUYU.pairedlist.text
 msgid "Gikuyu"
-msgstr "Гікуйо"
+msgstr "Гікую"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_YORUBA.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_YORUBA.pairedlist.text
@@ -1448,7 +1784,7 @@ msgstr "Русинська (Словаччина)"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_YIDDISH_US.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_YIDDISH_US.pairedlist.text
 msgid "Yiddish (USA)"
-msgstr "Ідиш (USA)"
+msgstr "Ідиш (США)"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_HAWAIIAN_UNITED_STATES.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_HAWAIIAN_UNITED_STATES.pairedlist.text
@@ -1468,7 +1804,7 @@ msgstr "Ложбан"
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_KABYLE.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_KABYLE.pairedlist.text
 msgid "Kabyle"
-msgstr "Кабіле"
+msgstr "Кабільська"
 
 #: langtab.src#STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_HAITIAN.pairedlist.text
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_HAITIAN.pairedlist.text
@@ -1479,341 +1815,3 @@ msgstr "Гаїтянська"
 #: langtab.src%23STR_ARR_SVT_LANGUAGE_TABLE.LANGUAGE_USER_VENETAN.pairedlist.text
 msgid "Venetan"
 msgstr "Венетанська"
-
-#: undo.src#STR_UNDO.string.text
-#: undo.src%23STR_UNDO.string.text
-msgid "Undo: "
-msgstr "Скасувати: "
-
-#: undo.src#STR_REDO.string.text
-#: undo.src%23STR_REDO.string.text
-msgid "Re~do: "
-msgstr "По~вернути: "
-
-#: undo.src#STR_REPEAT.string.text
-#: undo.src%23STR_REPEAT.string.text
-msgid "~Repeat: "
-msgstr "~Повторити: "
-
-#: imagemgr.src#STR_DESCRIPTION_SOURCEFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SOURCEFILE.string.text
-msgid "Source code"
-msgstr "Джерельний код"
-
-#: imagemgr.src#STR_DESCRIPTION_BOOKMARKFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_BOOKMARKFILE.string.text
-msgid "Bookmark file"
-msgstr "Файл закладок"
-
-#: imagemgr.src#STR_DESCRIPTION_GRAPHIC_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_GRAPHIC_DOC.string.text
-msgid "Graphics"
-msgstr "Графіка"
-
-#: imagemgr.src#STR_DESCRIPTION_CFGFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_CFGFILE.string.text
-msgid "Configuration file"
-msgstr "Файл конфігурації"
-
-#: imagemgr.src#STR_DESCRIPTION_APPLICATION.string.text
-#: imagemgr.src%23STR_DESCRIPTION_APPLICATION.string.text
-msgid "Application"
-msgstr "Застосунок"
-
-#: imagemgr.src#STR_DESCRIPTION_DATABASE_TABLE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_DATABASE_TABLE.string.text
-msgid "Database table"
-msgstr "Таблиця бази даних"
-
-#: imagemgr.src#STR_DESCRIPTION_SYSFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SYSFILE.string.text
-msgid "System file"
-msgstr "Системний файл"
-
-#: imagemgr.src#STR_DESCRIPTION_WORD_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_WORD_DOC.string.text
-msgid "MS Word document"
-msgstr "Документ MS Word"
-
-#: imagemgr.src#STR_DESCRIPTION_HELP_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_HELP_DOC.string.text
-msgid "Help file"
-msgstr "Файл довідки"
-
-#: imagemgr.src#STR_DESCRIPTION_HTMLFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_HTMLFILE.string.text
-msgctxt "imagemgr.src#STR_DESCRIPTION_HTMLFILE.string.text"
-msgid "HTML document"
-msgstr "Документ HTML"
-
-#: imagemgr.src#STR_DESCRIPTION_ARCHIVFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_ARCHIVFILE.string.text
-msgid "Archive file"
-msgstr "Файл архіву"
-
-#: imagemgr.src#STR_DESCRIPTION_LOGFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_LOGFILE.string.text
-msgid "Log file"
-msgstr "Журнал"
-
-#: imagemgr.src#STR_DESCRIPTION_SDATABASE_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SDATABASE_DOC.string.text
-msgid "%STAROFFICE Database"
-msgstr "База даних %STAROFFICE"
-
-#: imagemgr.src#STR_DESCRIPTION_GLOBALDOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_GLOBALDOC.string.text
-msgid "StarWriter 4.0 / 5.0 Master Document"
-msgstr "Складений документ StarWriter 4.0 / 5.0"
-
-#: imagemgr.src#STR_DESCRIPTION_SIMAGE_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SIMAGE_DOC.string.text
-msgid "%STAROFFICE Image"
-msgstr "Зображення %STAROFFICE"
-
-#: imagemgr.src#STR_DESCRIPTION_TEXTFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_TEXTFILE.string.text
-msgid "Text file"
-msgstr "Текстовий файл"
-
-#: imagemgr.src#STR_DESCRIPTION_LINK.string.text
-#: imagemgr.src%23STR_DESCRIPTION_LINK.string.text
-msgid "Link"
-msgstr "Посилання"
-
-#: imagemgr.src#STR_DESCRIPTION_SOFFICE_TEMPLATE_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SOFFICE_TEMPLATE_DOC.string.text
-msgid "%STAROFFICE 3.0 - 5.0 Template"
-msgstr "Шаблон %STAROFFICE 3.0 - 5.0"
-
-#: imagemgr.src#STR_DESCRIPTION_EXCEL_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_EXCEL_DOC.string.text
-msgid "MS Excel document"
-msgstr "Документ MS Excel"
-
-#: imagemgr.src#STR_DESCRIPTION_EXCEL_TEMPLATE_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_EXCEL_TEMPLATE_DOC.string.text
-msgid "MS Excel template"
-msgstr "Шаблон MS Excel"
-
-#: imagemgr.src#STR_DESCRIPTION_BATCHFILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_BATCHFILE.string.text
-msgid "Batch file"
-msgstr "Пакетний файл"
-
-#: imagemgr.src#STR_DESCRIPTION_FILE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FILE.string.text
-msgid "File"
-msgstr "Файл"
-
-#: imagemgr.src#STR_DESCRIPTION_FOLDER.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FOLDER.string.text
-msgid "Folder"
-msgstr "Тека"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_WRITER.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_WRITER.string.text
-msgid "Text Document"
-msgstr "Текстовий документ"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_CALC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_CALC.string.text
-msgid "Spreadsheet"
-msgstr "Електронна таблиця"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_IMPRESS.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_IMPRESS.string.text
-msgid "Presentation"
-msgstr "Презентація"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_DRAW.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_DRAW.string.text
-msgid "Drawing"
-msgstr "Рисунок"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_WRITERWEB.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_WRITERWEB.string.text
-msgctxt "imagemgr.src#STR_DESCRIPTION_FACTORY_WRITERWEB.string.text"
-msgid "HTML document"
-msgstr "Документ HTML"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_GLOBALDOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_GLOBALDOC.string.text
-msgid "Master document"
-msgstr "Складений документ"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_MATH.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_MATH.string.text
-msgid "Formula"
-msgstr "Формула"
-
-#: imagemgr.src#STR_DESCRIPTION_FACTORY_DATABASE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FACTORY_DATABASE.string.text
-msgid "Database"
-msgstr "База даних"
-
-#: imagemgr.src#STR_DESCRIPTION_CALC_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_CALC_TEMPLATE.string.text
-msgid ""
-"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Spreadsheet Template"
-msgstr ""
-"Шаблон електронної таблиці %PRODUCTXMLFILEFORMATNAME "
-"%PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_DRAW_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_DRAW_TEMPLATE.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Drawing Template"
-msgstr "Шаблон рисунку %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_IMPRESS_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_IMPRESS_TEMPLATE.string.text
-msgid ""
-"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Presentation Template"
-msgstr ""
-"Шаблон презентації %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_WRITER_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_WRITER_TEMPLATE.string.text
-msgid ""
-"%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Text Document Template"
-msgstr ""
-"Шаблон текстового документа %PRODUCTXMLFILEFORMATNAME "
-"%PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_LOCALE_VOLUME.string.text
-#: imagemgr.src%23STR_DESCRIPTION_LOCALE_VOLUME.string.text
-msgid "Local drive"
-msgstr "Локальний диск"
-
-#: imagemgr.src#STR_DESCRIPTION_FLOPPY_VOLUME.string.text
-#: imagemgr.src%23STR_DESCRIPTION_FLOPPY_VOLUME.string.text
-msgid "Disk drive"
-msgstr "Дисковод"
-
-#: imagemgr.src#STR_DESCRIPTION_CDROM_VOLUME.string.text
-#: imagemgr.src%23STR_DESCRIPTION_CDROM_VOLUME.string.text
-msgid "CD-ROM drive"
-msgstr "Пристрій для компакт-дисків"
-
-#: imagemgr.src#STR_DESCRIPTION_REMOTE_VOLUME.string.text
-#: imagemgr.src%23STR_DESCRIPTION_REMOTE_VOLUME.string.text
-msgid "Network connection"
-msgstr "Мережне підключення"
-
-#: imagemgr.src#STR_DESCRIPTION_POWERPOINT.string.text
-#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT.string.text
-msgid "MS PowerPoint Document"
-msgstr "Документ MS PowerPoint"
-
-#: imagemgr.src#STR_DESCRIPTION_POWERPOINT_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT_TEMPLATE.string.text
-msgid "MS PowerPoint Template"
-msgstr "Шаблон MS PowerPoint"
-
-#: imagemgr.src#STR_DESCRIPTION_POWERPOINT_SHOW.string.text
-#: imagemgr.src%23STR_DESCRIPTION_POWERPOINT_SHOW.string.text
-msgid "MS PowerPoint Show"
-msgstr "Презентація MS PowerPoint"
-
-#: imagemgr.src#STR_DESCRIPTION_SXMATH_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXMATH_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Formula"
-msgstr "Формула %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXCHART_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXCHART_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Chart"
-msgstr "Діаграма %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXDRAW_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXDRAW_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Drawing"
-msgstr "Рисунок %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXCALC_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXCALC_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Spreadsheet"
-msgstr ""
-"Електронна таблиця %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXIMPRESS_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXIMPRESS_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Presentation"
-msgstr "Презентація %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXWRITER_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXWRITER_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Text Document"
-msgstr ""
-"Текстовий документ %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_SXGLOBAL_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_SXGLOBAL_DOC.string.text
-msgid "%PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION Master Document"
-msgstr ""
-"Складений документ %PRODUCTXMLFILEFORMATNAME %PRODUCTXMLFILEFORMATVERSION"
-
-#: imagemgr.src#STR_DESCRIPTION_MATHML_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_MATHML_DOC.string.text
-msgid "MathML Document"
-msgstr "Документ MathML"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_DATABASE_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_DATABASE_DOC.string.text
-msgid "OpenDocument Database"
-msgstr "База даних OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_DRAW_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_DRAW_DOC.string.text
-msgid "OpenDocument Drawing"
-msgstr "Рисунок OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_MATH_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_MATH_DOC.string.text
-msgid "OpenDocument Formula"
-msgstr "Формула OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_GLOBAL_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_GLOBAL_DOC.string.text
-msgid "OpenDocument Master Document"
-msgstr "Складений документ OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_IMPRESS_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_IMPRESS_DOC.string.text
-msgid "OpenDocument Presentation"
-msgstr "Презентація OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_CALC_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_CALC_DOC.string.text
-msgid "OpenDocument Spreadsheet"
-msgstr "Електронна таблиця OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_WRITER_DOC.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_WRITER_DOC.string.text
-msgid "OpenDocument Text"
-msgstr "Текстовий документ OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_CALC_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_CALC_TEMPLATE.string.text
-msgid "OpenDocument Spreadsheet Template"
-msgstr "Шаблон електронної таблиці OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_DRAW_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_DRAW_TEMPLATE.string.text
-msgid "OpenDocument Drawing Template"
-msgstr "Шаблон рисунку OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_IMPRESS_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_IMPRESS_TEMPLATE.string.text
-msgid "OpenDocument Presentation Template"
-msgstr "Шаблон презентації OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_OO_WRITER_TEMPLATE.string.text
-#: imagemgr.src%23STR_DESCRIPTION_OO_WRITER_TEMPLATE.string.text
-msgid "OpenDocument Text Template"
-msgstr "Шаблон текстового документу OpenDocument"
-
-#: imagemgr.src#STR_DESCRIPTION_EXTENSION.string.text
-#: imagemgr.src%23STR_DESCRIPTION_EXTENSION.string.text
-msgid "%PRODUCTNAME Extension"
-msgstr "Розширення %PRODUCTNAME"

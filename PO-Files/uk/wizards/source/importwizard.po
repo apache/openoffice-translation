@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+wizards%2Fsource%2Fimportwizard.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-08-15 11:27+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-06-08 06:48+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1660562840.000000\n"
+"X-POOTLE-MTIME: 1686206898.000000\n"
 
 #: importwi.src#sHelpButton.string.text
 #: importwi.src%23sHelpButton.string.text
@@ -56,8 +56,8 @@ msgid ""
 "This wizard converts documents in %PRODUCTNAME format and Microsoft Office "
 "documents to the new OpenDocument format."
 msgstr ""
-"Цей майстер перетворює документи зі старих форматів StarOffice та документи "
-"Microsoft Office у новий XML формат %PRODUCTNAME."
+"Цей майстер перетворює документи у форматі %PRODUCTNAME і документи "
+"Microsoft Office у новий формат OpenDocument."
 
 #: importwi.src#sWelcometextLabel2.string.text
 #: importwi.src%23sWelcometextLabel2.string.text
@@ -65,8 +65,8 @@ msgid ""
 "Please note that when converting Microsoft documents any attached VBA macros "
 "lose their functionality."
 msgstr ""
-"При перетворенні документів Microsoft вбудовані у них макроси VBA втрачають "
-"свою функціональність."
+"Зауважте, що під час конвертації документів Microsoft будь-які вкладені "
+"макроси VBA втрачають свою функціональність."
 
 #: importwi.src#sWelcometextLabel3.string.text
 #: importwi.src%23sWelcometextLabel3.string.text
@@ -106,7 +106,7 @@ msgstr "Документи PowerPoint"
 #: importwi.src#sSearchInSubDir.string.text
 #: importwi.src%23sSearchInSubDir.string.text
 msgid "Including subdirectories"
-msgstr "Включаючи підкаталоги"
+msgstr "Включно з підкаталогами"
 
 #: importwi.src#sMSContainerName.string.text
 #: importwi.src%23sMSContainerName.string.text
@@ -136,7 +136,7 @@ msgstr "Імпортовані_шаблони"
 #: importwi.src#sProgressDesc1.string.text
 #: importwi.src%23sProgressDesc1.string.text
 msgid "Progress: "
-msgstr "Поступ: "
+msgstr "Виконання: "
 
 #: importwi.src#sProgressOneDoc.string.text
 #: importwi.src%23sProgressOneDoc.string.text
@@ -156,7 +156,7 @@ msgstr "Шаблони"
 #: importwi.src#sNoDirCreation.string.text
 #: importwi.src%23sNoDirCreation.string.text
 msgid "The '%1' directory cannot be created: "
-msgstr "Неможливо створити каталог '%1':"
+msgstr "Неможливо створити каталог '%1': "
 
 #: importwi.src#sMsgDirNotThere.string.text
 #: importwi.src%23sMsgDirNotThere.string.text
@@ -171,12 +171,12 @@ msgstr "Створити зараз?"
 #: importwi.src#sFileExists.string.text
 #: importwi.src%23sFileExists.string.text
 msgid "The '<1>' file already exists.<CR>Do you want to overwrite it?"
-msgstr "Файл '<1>' вже існує.<CR>Замінити?"
+msgstr "Файл '<1>' вже існує.<CR>Замінити його?"
 
 #: importwi.src#sMorePathsError3.string.text
 #: importwi.src%23sMorePathsError3.string.text
 msgid "Directories do not exist"
-msgstr "Каталоги не існують"
+msgstr "Каталогів не існує"
 
 #: importwi.src#sOverwriteallFiles.string.text
 #: importwi.src%23sOverwriteallFiles.string.text
@@ -206,12 +206,12 @@ msgstr "Ви дійсно хочете зупинити перетворення
 #: importwi.src#sConvertError2.string.text
 #: importwi.src%23sConvertError2.string.text
 msgid "Cancel Wizard"
-msgstr "Скасувати Майстра"
+msgstr "Скасувати роботу майстра"
 
 #: importwi.src#sRTErrorDesc.string.text
 #: importwi.src%23sRTErrorDesc.string.text
 msgid "An unexpected error has occurred in the wizard."
-msgstr "Неочікувана помилка у майстрі."
+msgstr "У майстрі сталася неочікувана помилка."
 
 #: importwi.src#sRTErrorHeader.string.text
 #: importwi.src%23sRTErrorHeader.string.text
@@ -292,7 +292,7 @@ msgstr "Електронні таблиці"
 #: importwi.src#sXMLDocumentCheckbox_3_.string.text
 #: importwi.src%23sXMLDocumentCheckbox_3_.string.text
 msgid "Drawing/presentation documents"
-msgstr "Рисунки/Документи презентацій"
+msgstr "Документи малюнків та презентації"
 
 #: importwi.src#sXMLDocumentCheckbox_4_.string.text
 #: importwi.src%23sXMLDocumentCheckbox_4_.string.text
@@ -333,22 +333,22 @@ msgstr "<COUNT> документів перетворено"
 #: importwi.src#sLogfileHelpText.string.text
 #: importwi.src%23sLogfileHelpText.string.text
 msgid "A log file will be created in your work directory"
-msgstr "У вашому робочому каталозі буде створено журнал"
+msgstr "У вашому робочому каталозі буде створено файл журналу"
 
 #: importwi.src#sshowLogfile.string.text
 #: importwi.src%23sshowLogfile.string.text
 msgid "Show log file"
-msgstr "Показати журнал"
+msgstr "Показати файл журналу"
 
 #: importwi.src#sSumInclusiveSubDir.string.text
 #: importwi.src%23sSumInclusiveSubDir.string.text
 msgid "All subdirectories will be taken into account"
-msgstr "Включно усі підкаталоги"
+msgstr "Будуть враховані всі підкаталоги"
 
 #: importwi.src#sSumSaveDokumente.string.text
 #: importwi.src%23sSumSaveDokumente.string.text
 msgid "These will be exported to the following directory:"
-msgstr "Експорт до такого каталогу:"
+msgstr "Їх буде експортовано до наступного каталогу:"
 
 #: importwi.src#sSumSOTextDocuments.string.text
 #: importwi.src%23sSumSOTextDocuments.string.text
@@ -356,7 +356,8 @@ msgid ""
 "All %PRODUCTNAME text documents contained in the following directory will be "
 "imported:"
 msgstr ""
-"Будуть імпортовані усі текстові документи %PRODUCTNAME з такого каталогу:"
+"Будуть імпортовані всі текстові документи %PRODUCTNAME, які містяться в "
+"цьому каталозі:"
 
 #: importwi.src#sSumSOTableDocuments.string.text
 #: importwi.src%23sSumSOTableDocuments.string.text
@@ -364,8 +365,8 @@ msgid ""
 "All %PRODUCTNAME spreadsheets contained in the following directory will be "
 "imported:"
 msgstr ""
-"Будуть імпортовані усі документи електронних таблиць %PRODUCTNAME з такого "
-"каталогу:"
+"Будуть імпортовані всі електронні таблиці %PRODUCTNAME, які містяться в "
+"цьому каталозі:"
 
 #: importwi.src#sSumSODrawDocuments.string.text
 #: importwi.src%23sSumSODrawDocuments.string.text
@@ -373,21 +374,26 @@ msgid ""
 "All %PRODUCTNAME drawing and presentation documents contained in the "
 "following directory will be imported:"
 msgstr ""
-"Будуть імпортовані усі рисунки та презентації %PRODUCTNAME з такого каталогу:"
+"Будуть імпортовані всі рисунки та презентації %PRODUCTNAME, які містяться в "
+"цьому каталозі:"
 
 #: importwi.src#sSumSOMathDocuments.string.text
 #: importwi.src%23sSumSOMathDocuments.string.text
 msgid ""
 "All %PRODUCTNAME formula documents contained in the following directory will "
 "be imported:"
-msgstr "Будуть імпортовані усі документи формул %PRODUCTNAME з такого каталогу:"
+msgstr ""
+"Будуть імпортовані всі документи формул %PRODUCTNAME, які містяться в цьому "
+"каталозі:"
 
 #: importwi.src#sSumSOTextTemplates.string.text
 #: importwi.src%23sSumSOTextTemplates.string.text
 msgid ""
 "All %PRODUCTNAME text templates contained in the following directory will be "
 "imported:"
-msgstr "Будуть імпортовані усі текстові шаблони %PRODUCTNAME з такого каталогу:"
+msgstr ""
+"Будуть імпортовані всі текстові шаблони %PRODUCTNAME, які містяться в цьому "
+"каталозі:"
 
 #: importwi.src#sSumSOTableTemplates.string.text
 #: importwi.src%23sSumSOTableTemplates.string.text
@@ -395,8 +401,8 @@ msgid ""
 "All %PRODUCTNAME table templates contained in the following directory will "
 "be imported:"
 msgstr ""
-"Будуть імпортовані усі шаблони електронних таблиць %PRODUCTNAME з такого "
-"каталогу:"
+"Будуть імпортовані всі шаблони таблиць %PRODUCTNAME, які містяться в цьому "
+"каталозі:"
 
 #: importwi.src#sSumSODrawTemplates.string.text
 #: importwi.src%23sSumSODrawTemplates.string.text
@@ -404,8 +410,8 @@ msgid ""
 "All %PRODUCTNAME drawing and presentation templates contained in the "
 "following directory will be imported:"
 msgstr ""
-"Будуть імпортовані усі шаблони рисунків та презентацій %PRODUCTNAME з такого "
-"каталогу:"
+"Будуть імпортовані всі шаблони рисунків та презентацій %PRODUCTNAME, які "
+"містяться в цьому каталозі:"
 
 #: importwi.src#sSumSOGlobalDocuments.string.text
 #: importwi.src%23sSumSOGlobalDocuments.string.text
@@ -413,42 +419,45 @@ msgid ""
 "All %PRODUCTNAME master documents contained in the following directory will "
 "be imported:"
 msgstr ""
-"Будуть імпортовані усі складені документи %PRODUCTNAME з такого каталогу:"
+"Будуть імпортовані всі складені документи %PRODUCTNAME, які містяться в "
+"цьому каталозі:"
 
 #: importwi.src#sSumMSTextDocuments.string.text
 #: importwi.src%23sSumMSTextDocuments.string.text
 msgid ""
 "All Word documents contained in the following directory will be imported:"
-msgstr "Будуть імпортовані усі документи Word з такого каталогу:"
+msgstr "Будуть імпортовані всі документи Word, які містяться в цьому каталозі:"
 
 #: importwi.src#sSumMSTableDocuments.string.text
 #: importwi.src%23sSumMSTableDocuments.string.text
 msgid ""
 "All Excel documents contained in the following directory will be imported:"
-msgstr "Будуть імпортовані усі документи Excel з такого каталогу:"
+msgstr "Будуть імпортовані всі документи Excel, які містяться в цьому каталозі:"
 
 #: importwi.src#sSumMSDrawDocuments.string.text
 #: importwi.src%23sSumMSDrawDocuments.string.text
 msgid ""
 "All PowerPoint documents contained in the following directory will be "
 "imported:"
-msgstr "Будуть імпортовані усі документи PowerPoint з такого каталогу:"
+msgstr ""
+"Будуть імпортовані всі документи PowerPoint, які містяться в цьому каталозі:"
 
 #: importwi.src#sSumMSTextTemplates.string.text
 #: importwi.src%23sSumMSTextTemplates.string.text
 msgid ""
 "All Word templates contained in the following directory will be imported:"
-msgstr "Будуть імпортовані усі шаблони Word з такого каталогу:"
+msgstr "Будуть імпортовані всі шаблони Word, які містяться в цьому каталозі:"
 
 #: importwi.src#sSumMSTableTemplates.string.text
 #: importwi.src%23sSumMSTableTemplates.string.text
 msgid ""
 "All Excel templates contained in the following directory will be imported:"
-msgstr "Будуть імпортовані усі шаблони Excel з такого каталогу:"
+msgstr "Будуть імпортовані всі шаблони Excel, які містяться в цьому каталозі:"
 
 #: importwi.src#sSumMSDrawTemplates.string.text
 #: importwi.src%23sSumMSDrawTemplates.string.text
 msgid ""
 "All PowerPoint templates contained in the following directory will be "
 "imported:"
-msgstr "Будуть імпортовані усі шаблони PowerPoint з такого каталогу:"
+msgstr ""
+"Будуть імпортовані всі шаблони PowerPoint, які містяться в цьому каталозі:"

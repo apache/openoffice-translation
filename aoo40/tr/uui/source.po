@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2020-01-22 16:20+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,44 +16,118 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-msgid "Enter password to open file: \n"
-msgstr "Dosyayı açmak için parolayı girin: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-msgid "Enter password to modify file: \n"
-msgstr "Dosyayı değiştirmek için parolayı girin: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-msgid "Enter password: "
-msgstr "Parolayı girin: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-msgid "Confirm password: "
-msgstr "Parolayı onaylayın: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-msgid "Set Password"
-msgstr "Parola Ayarlayın"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-msgid "Enter Password"
-msgstr "Parola Girin"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
-"The confirmation password did not match the password. Set the password again "
-"by entering the same password in both boxes."
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
 msgstr ""
-"Onaylama parolası, parola ile eşleşmedi. Her iki kutuya aynı parolayı "
-"girerek tekrar parolayı ayarlayın."
+"Web bağlantıları için parolalar asıl bir parolayla korunur. Eğer %"
+"PRODUCTNAME, bir parolayı korunan parola listesinden geri alırsa, her "
+"oturumda bir defa bunu girmeniz için size sorulacaktır."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "Parolayı ~girin"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Reenter password"
+msgstr "Parolayı tek~rar girin"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"Dikkat: Eğer asıl parolayı unuttuysanız, asıl parola tarafından korunan "
+"herhangi bir bilgiye erişemeyeceksiniz. Parolalar büyük küçük harfe "
+"duyarlıdır."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "Asıl Parolayı Ayarlayın"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "Sertifikayı İnceleyin..."
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "Yardım"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "TAMAM"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "Bu oturum için sertifikayı geçici olarak kabul et"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "Bu sertifikayı kabul etme ve bu web sitesine bağlanma"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Metin Yok"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "Web Sitesi Bilinmeyen Bir Yetkili Tarafından Sertifikalanmış"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+msgid "Replace"
+msgstr "Değiştir"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+msgid "Rename"
+msgstr "Yeniden adlandır"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
+msgid "File Exists"
+msgstr "Dosya Var"
+
+#: filechanged.src#STR_FILECHANGED_TITLE.string.text
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "Belge Diğerleri Tarafından Değiştirilmiş"
+
+#: filechanged.src#STR_FILECHANGED_MSG.string.text
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+"Dosya, %PRODUCTNAME uygulamasında düzenlemek için açıldığından bu yana "
+"değiştirildi. Belgenin size ait sürümünü kaydetmek, diğerleri tarafından "
+"yapılan değişikliklerin üzerine yazacak.\n"
+"\n"
+"Yine de kaydetmek istiyor musunuz?\n"
+"\n"
+
+#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "Yinede ~Kaydet"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 #: ids.src%23RID_KEEP_PASSWORD.string.text
@@ -97,23 +171,15 @@ msgid "Target already exists."
 msgstr "Hedef zaten mevcut."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
+"You are about to save/export a password protected BASIC library containing "
+"module(s)\n"
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't "
 "have access to the library password to be able to run macros in those "
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
-"Parola korumalı basic kütüphanesinin içerdiği, ikilik biçimde saklamak için "
-"çok büyük olan modül(leri)ü \n"
-"$(ARG1)\n"
-"kaydetmek/dışa aktarmak üzeresiniz. Eğer kullanıcıların bu modül(ler)deki "
-"makroları çalıştırabilmek için kütüphane parolasına erişmesini "
-"istemiyorsanız, bu modülleri daha küçük modüllere bölmek zorundasınız. Bu "
-"kütüphaneyi kaydetmek/dışa aktarmak için devam etmek ister misiniz?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -575,269 +641,6 @@ msgstr "Parolayı girin"
 msgid "Enter Master Password"
 msgstr "Asıl parolayı girin"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
-msgstr ""
-"Web bağlantıları için parolalar asıl bir parolayla korunur. Eğer %"
-"PRODUCTNAME, bir parolayı korunan parola listesinden geri alırsa, her "
-"oturumda bir defa bunu girmeniz için size sorulacaktır."
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-msgid "~Enter password"
-msgstr "Parolayı ~girin"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-msgid "~Reenter password"
-msgstr "Parolayı tek~rar girin"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
-msgstr ""
-"Dikkat: Eğer asıl parolayı unuttuysanız, asıl parola tarafından korunan "
-"herhangi bir bilgiye erişemeyeceksiniz. Parolalar büyük küçük harfe "
-"duyarlıdır."
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "Asıl Parolayı Ayarlayın"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-msgid "Replace"
-msgstr "Değiştir"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-msgid "Rename"
-msgstr "Yeniden adlandır"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
-msgid "File Exists"
-msgstr "Dosya Var"
-
-#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
-#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
-msgid "Filter Selection"
-msgstr "Süzgeç Seçimi"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "Sertifikayı İnceleyin..."
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "Yardım"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "TAMAM"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "Bu oturum için sertifikayı geçici olarak kabul et"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "Bu sertifikayı kabul etme ve bu web sitesine bağlanma"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Metin Yok"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "Web Sitesi Bilinmeyen Bir Yetkili Tarafından Sertifikalanmış"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Metin Yok"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "View Certificate"
-msgstr "Sertifikayı Görüntüle"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-msgid "Cancel Connection"
-msgstr "Bağlantıyı İptal Et"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-msgid "Continue"
-msgstr "Devam"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
-msgid "Security Warning: "
-msgstr "Güvenlik Uyarısı: "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-msgid "Message from server:"
-msgstr "Sunucudan gelen ileti:"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-msgid ""
-"Enter user name and password for: \n"
-"%1"
-msgstr ""
-"Kullanıcı adı ve parolayı girin: \n"
-"%1"
-
-#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-msgid ""
-"Enter user name and password for: \n"
-"\"%2\" on %1"
-msgstr ""
-"Kullanıcı adı ve parolayı girin: \n"
-"%1 üzerinde \"%2\""
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-msgid "~Path"
-msgstr "~Yol"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-msgid "~User name"
-msgstr "~Kullanıcı adı"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-msgid "Pass~word"
-msgstr "~Parola"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-msgid "A~ccount"
-msgstr "~Hesap"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
-msgid "~Remember password"
-msgstr "Pa~rolayı hatırla"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-msgid "~Use system credentials"
-msgstr "Sistem kimlik bilgilerini ~kullan"
-
-#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
-#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
-msgid "Authentication Required"
-msgstr "Kimlik Doğrulaması Gerekli"
-
-#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
-#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
-msgid "Document in Use"
-msgstr "Belge Kullanımda"
-
-#: openlocked.src#STR_OPENLOCKED_MSG.string.text
-#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Open document read-only or open a copy of the document for editing.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' belge dosyası düzenlemek için şunun tarafından kilitli:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Belgeyi salt-okunur olarak ya da düzenleme için belgenin bir kopyasını açın."
-"\n"
-"\n"
-
-#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Salt-Okunu~r Aç"
-
-#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
-msgid "Open ~Copy"
-msgstr "Kopyayı ~Aç"
-
-#: openlocked.src#STR_UNKNOWNUSER.string.text
-#: openlocked.src%23STR_UNKNOWNUSER.string.text
-msgid "Unknown User"
-msgstr "Bilinmeyen Kullanıcı"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Belgenin içerdiği belge makrolarını imzalayan:"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Belge, belge makroları içeriyor."
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "İmzaları Görüntüle..."
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr ""
-"Makrolar virüsler içerebilir. Bir belge için makroları etkisizleştirmek her "
-"zaman güvenlidir. Eğer makroları etkisizleştirirseniz, belge makroları "
-"tarafından sağlanan işlevleri kaybedebilirsiniz."
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Bu kaynaktan gelen makrolara her zaman güven"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-msgid "~Enable Macros"
-msgstr "Makroları ~Etkinleştir"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "~Disable Macros"
-msgstr "Makroları E~tkisizleştir"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
-msgid "%PRODUCTNAME - Security Warning"
-msgstr "%PRODUCTNAME - Güvenlik Uyarısı"
-
 #: trylater.src#STR_TRYLATER_TITLE.string.text
 #: trylater.src%23STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
@@ -873,110 +676,44 @@ msgstr "Kaydetmeyi Tek~rar Dene"
 msgid "~Save As..."
 msgstr "~Farklı Kaydet..."
 
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "Belge Diğerleri Tarafından Değiştirilmiş"
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+msgid "Enter password to open file: \n"
+msgstr "Dosyayı açmak için parolayı girin: \n"
 
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+msgid "Enter password to modify file: \n"
+msgstr "Dosyayı değiştirmek için parolayı girin: \n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+msgid "Enter password: "
+msgstr "Parolayı girin: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+msgid "Confirm password: "
+msgstr "Parolayı onaylayın: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+msgid "Set Password"
+msgstr "Parola Ayarlayın"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+msgid "Enter Password"
+msgstr "Parola Girin"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
+"The confirmation password did not match the password. Set the password again "
+"by entering the same password in both boxes."
 msgstr ""
-"Dosya, %PRODUCTNAME uygulamasında düzenlemek için açıldığından bu yana "
-"değiştirildi. Belgenin size ait sürümünü kaydetmek, diğerleri tarafından "
-"yapılan değişikliklerin üzerine yazacak.\n"
-"\n"
-"Yine de kaydetmek istiyor musunuz?\n"
-"\n"
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "Yinede ~Kaydet"
-
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' belge dosyası düzenleme için sizin tarafınızdan farklı bir "
-"sistemde $(ARG2) bu yana kilitli.\n"
-"\n"
-"Dosyayı salt-okunur açın ya da kendi dosya kilitlemesini yoksayın ve "
-"düzenlemek için belgeyi açın.\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Salt-Okunu~r Aç"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "~Aç"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' belge dosyası düzenleme için sizin tarafınızdan farklı bir "
-"sistemde $(ARG2) bu yana kilitli.\n"
-"\n"
-"Diğer sistemdeki belgeyi kapatın ve kaydetmeyi yeniden deneyin ya da kendi "
-"dosya kilitlemesini yoksayın ve şu anki belgeyi kaydedin.\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "Kaydetmeyi Tek~rar Dene"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "~Kaydet"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
-msgid ""
-"This document uses an unsupported version of the Open Document Format. Some "
-"features may not be displayed correctly.\n"
-"\n"
-"Click 'Update Now' to run online update and see if there is a new version of "
-"%PRODUCTNAME available."
-msgstr ""
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-msgid "~Update Now..."
-msgstr "Şimdi ~Güncelle..."
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-msgid "~Later"
-msgstr "~Sonra"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
-msgid "ODF Version Conflict"
-msgstr ""
+"Onaylama parolası, parola ile eşleşmedi. Her iki kutuya aynı parolayı "
+"girerek tekrar parolayı ayarlayın."
 
 #: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
 #: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
@@ -997,31 +734,6 @@ msgstr ""
 #: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
 msgid "~Do not show this message again"
 msgstr "Bu iletiyi tekrar ~gösterme"
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "Parola yanlış. Belge açılamaz."
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "Parola yanlış. Belge değiştirilemez."
-
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "Asıl parola yanlış."
-
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "Parola yanlış."
-
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "Parola onaylaması eşleşmiyor."
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 #: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
@@ -1129,3 +841,283 @@ msgstr "Etki Alanı: ${DOMAIN}, Yol: ${PATH}, Tanımlama Bilgisi: ${COOKIE}.\n"
 #: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
 msgid "Send Cookies"
 msgstr "Tanımlama Bilgilerini Gönder"
+
+#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
+#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
+msgid "Filter Selection"
+msgstr "Süzgeç Seçimi"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "Parola yanlış. Belge açılamaz."
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "Parola yanlış. Belge değiştirilemez."
+
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "Asıl parola yanlış."
+
+#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "Parola yanlış."
+
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "Parola onaylaması eşleşmiyor."
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+msgid "Message from server:"
+msgstr "Sunucudan gelen ileti:"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+msgid ""
+"Enter user name and password for: \n"
+"%1"
+msgstr ""
+"Kullanıcı adı ve parolayı girin: \n"
+"%1"
+
+#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+msgid ""
+"Enter user name and password for: \n"
+"\"%2\" on %1"
+msgstr ""
+"Kullanıcı adı ve parolayı girin: \n"
+"%1 üzerinde \"%2\""
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+msgid "~Path"
+msgstr "~Yol"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "~Kullanıcı adı"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "~Parola"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+msgid "A~ccount"
+msgstr "~Hesap"
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
+msgid "~Remember password"
+msgstr "Pa~rolayı hatırla"
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+msgid "~Use system credentials"
+msgstr "Sistem kimlik bilgilerini ~kullan"
+
+#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
+#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
+msgid "Authentication Required"
+msgstr "Kimlik Doğrulaması Gerekli"
+
+#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
+#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
+msgid "Document in Use"
+msgstr "Belge Kullanımda"
+
+#: openlocked.src#STR_OPENLOCKED_MSG.string.text
+#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Open document read-only or open a copy of the document for editing.\n"
+"\n"
+msgstr ""
+"'$(ARG1)' belge dosyası düzenlemek için şunun tarafından kilitli:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Belgeyi salt-okunur olarak ya da düzenleme için belgenin bir kopyasını açın."
+"\n"
+"\n"
+
+#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Salt-Okunu~r Aç"
+
+#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
+msgid "Open ~Copy"
+msgstr "Kopyayı ~Aç"
+
+#: openlocked.src#STR_UNKNOWNUSER.string.text
+#: openlocked.src%23STR_UNKNOWNUSER.string.text
+msgid "Unknown User"
+msgstr "Bilinmeyen Kullanıcı"
+
+#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+"'$(ARG1)' belge dosyası düzenleme için sizin tarafınızdan farklı bir "
+"sistemde $(ARG2) bu yana kilitli.\n"
+"\n"
+"Dosyayı salt-okunur açın ya da kendi dosya kilitlemesini yoksayın ve "
+"düzenlemek için belgeyi açın.\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Salt-Okunu~r Aç"
+
+#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "~Aç"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+"'$(ARG1)' belge dosyası düzenleme için sizin tarafınızdan farklı bir "
+"sistemde $(ARG2) bu yana kilitli.\n"
+"\n"
+"Diğer sistemdeki belgeyi kapatın ve kaydetmeyi yeniden deneyin ya da kendi "
+"dosya kilitlemesini yoksayın ve şu anki belgeyi kaydedin.\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "Kaydetmeyi Tek~rar Dene"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "~Kaydet"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Metin Yok"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "View Certificate"
+msgstr "Sertifikayı Görüntüle"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+msgid "Cancel Connection"
+msgstr "Bağlantıyı İptal Et"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+msgid "Continue"
+msgstr "Devam"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
+msgid "Security Warning: "
+msgstr "Güvenlik Uyarısı: "
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Belgenin içerdiği belge makrolarını imzalayan:"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Belge, belge makroları içeriyor."
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "İmzaları Görüntüle..."
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Makrolar virüsler içerebilir. Bir belge için makroları etkisizleştirmek her "
+"zaman güvenlidir. Eğer makroları etkisizleştirirseniz, belge makroları "
+"tarafından sağlanan işlevleri kaybedebilirsiniz."
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Bu kaynaktan gelen makrolara her zaman güven"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+msgid "~Enable Macros"
+msgstr "Makroları ~Etkinleştir"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "~Disable Macros"
+msgstr "Makroları E~tkisizleştir"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
+msgid "%PRODUCTNAME - Security Warning"
+msgstr "%PRODUCTNAME - Güvenlik Uyarısı"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
+msgid ""
+"This document uses an unsupported version of the Open Document Format. Some "
+"features may not be displayed correctly.\n"
+"\n"
+"Click 'Update Now' to run online update and see if there is a new version of "
+"%PRODUCTNAME available."
+msgstr ""
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+msgid "~Update Now..."
+msgstr "Şimdi ~Güncelle..."
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+msgid "~Later"
+msgstr "~Sonra"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
+msgid "ODF Version Conflict"
+msgstr ""

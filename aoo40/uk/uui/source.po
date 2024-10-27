@@ -5,55 +5,132 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-07-25 18:58+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-06-02 07:40+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1685691649.000000\n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-msgid "Enter password to open file: \n"
-msgstr "Введіть пароль, щоб відкрити файл: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-msgid "Enter password to modify file: \n"
-msgstr "Введіть пароль для коректування файлу:\n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-msgid "Enter password: "
-msgstr "Введіть пароль: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-msgid "Confirm password: "
-msgstr "Підтвердьте пароль: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-msgid "Set Password"
-msgstr "Встановити пароль"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-msgid "Enter Password"
-msgstr "Введіть пароль"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
-"The confirmation password did not match the password. Set the password again "
-"by entering the same password in both boxes."
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
 msgstr ""
-"Паролі не збігаються. Задайте пароль знову, увівши однакові паролі в обидва "
-"поля."
+"Паролі для інтернет-з'єднань захищено основним паролем. У разі потреби "
+"доступу до захищеного списку, %PRODUCTNAME запропонує вам увести основний "
+"пароль один раз за сеанс."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "~Введіть пароль"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Reenter password"
+msgstr "~Повторно введіть пароль"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"Увага: Якщо ви забудете основний пароль, ви не матимете доступу до "
+"інформації, яка ним захищена. Паролі чуттєві до регістру."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "Ввести головний пароль"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "Перевірити сертифікат..."
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "Довідка"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "Гаразд"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "Прийняти сертифікат лише для поточного сеансу"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "Не приймати сертифікат та не приєднуватися до цього сайту"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Без тексту"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "Сертифікат сайту виписано невідомою установою"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+msgid "Replace"
+msgstr "Замінити"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
+msgid "File Exists"
+msgstr "Файл існує"
+
+#: filechanged.src#STR_FILECHANGED_TITLE.string.text
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "Документ було змінено іншими"
+
+#: filechanged.src#STR_FILECHANGED_MSG.string.text
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+"Файл було змінено після того, як його було відкрито для редагування в %"
+"PRODUCTNAME. Збереження вашої версії документа перезапише зміни, зроблені "
+"іншими.\n"
+"\n"
+"Все одно зберегти?\n"
+"\n"
+
+#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "~Зберегти попри все"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 #: ids.src%23RID_KEEP_PASSWORD.string.text
@@ -69,7 +146,7 @@ msgstr "~Запам'ятати пароль"
 #: ids.src#STR_WARNING_BROKENSIGNATURE_TITLE.string.text
 #: ids.src%23STR_WARNING_BROKENSIGNATURE_TITLE.string.text
 msgid "Invalid Document Signature"
-msgstr "Недійсний підпис"
+msgstr "Недійсний підпис документа"
 
 #: ids.src#STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE.string.text
 #: ids.src%23STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE.string.text
@@ -97,23 +174,22 @@ msgid "Target already exists."
 msgstr "Ціль вже існує."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
+"You are about to save/export a password protected BASIC library containing "
+"module(s)\n"
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't "
 "have access to the library password to be able to run macros in those "
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
-"Ви збираєтесь зберегти/експортувати захищену паролем бібліотеку Basic, що "
-"містить модулі \n"
+"Ви збираєтеся зберегти/експортувати захищену паролем бібліотеку BASIC, що "
+"містить модуль(і)\n"
 "$(ARG1)\n"
-"і яка є надто великою для збереження у двійковому форматі. Якщо ви хочете, "
-"щоб користувачі, які не знають пароль, могли скористатись макросами із "
-"захищених паролем модулів, потрібно розбити ці модулі на менші. Продовжити "
-"збереження/експорт цієї бібліотеки?"
+"які занадто великі для зберігання у двійковому форматі. Якщо ви бажаєте, щоб "
+"користувачі, які не мають доступу до пароля бібліотеки, могли запускати "
+"макроси в цих модулях, ви повинні розділити ці модулі на декілька менших. Ви "
+"бажаєте продовжити збереження/експорт цієї бібліотеки?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -158,12 +234,12 @@ msgstr "Пристрій $(ARG1) не готовий"
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTSAMEDEVICE___ERRCODE_RES_MASK_.string.text
 msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
-msgstr "Дія неможлива: $(ARG1) і $(ARG2) є різними пристроями."
+msgstr "Дія неможлива: $(ARG1) і $(ARG2) є різними пристроями (накопичувачами)."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_GENERAL___ERRCODE_RES_MASK_.string.text
 msgid "General input/output error while accessing $(ARG1)."
-msgstr "Загальна помилка при вводі / виводі під час доступу до $(ARG1)"
+msgstr "Загальна помилка вводу/виводу під час доступу до $(ARG1)"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDACCESS___ERRCODE_RES_MASK_.string.text
@@ -178,12 +254,12 @@ msgstr "$(ARG1) містить неприпустимі символи."
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDDEVICE___ERRCODE_RES_MASK_.string.text
 msgid "The device (drive) $(ARG1) is invalid."
-msgstr "Пристрій $(ARG1) є некоректним."
+msgstr "Пристрій (диск) $(ARG1) недійсний."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDLENGTH___ERRCODE_RES_MASK_.string.text
 msgid "The data from $(ARG1) has an invalid length."
-msgstr "Неприпустимий розмір даних з $(ARG1)."
+msgstr "Дані з $(ARG1) мають недійсну довжину."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_INVALIDPARAMETER___ERRCODE_RES_MASK_.string.text
@@ -294,7 +370,7 @@ msgstr "Диск $(ARG1) не існує."
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTEXISTS_FOLDER___ERRCODE_RES_MASK_.string.text
 msgid "Folder $(ARG1) does not exist."
-msgstr "Каталог $(ARG1) не існує."
+msgstr "Тека $(ARG1) не існує."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGJAVA___ERRCODE_RES_MASK_.string.text
@@ -326,17 +402,17 @@ msgstr ""
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP___ERRCODE_RES_MASK_.string.text
 msgid "The data associated with the partnership is corrupted."
-msgstr "Пошкоджені дані, що збережені для партнерства."
+msgstr "Дані, пов’язані з партнерством, пошкоджено."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_BADPARTNERSHIP_NAME___ERRCODE_RES_MASK_.string.text
 msgid "The data associated with the partnership $(ARG1) is corrupted."
-msgstr "Пошкоджені дані, що збережені для партнерства $(ARG1)."
+msgstr "Дані, пов’язані з партнерством $(ARG1), пошкоджено."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready."
-msgstr "Пристрій $(ARG1) не готовий."
+msgstr "Том $(ARG1) не готовий."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_REMOVABLE___ERRCODE_RES_MASK_.string.text
@@ -346,7 +422,7 @@ msgstr "$(ARG1) не готовий; вставте носій даних."
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_NOTREADY_VOLUME_REMOVABLE___ERRCODE_RES_MASK_.string.text
 msgid "Volume $(ARG1) is not ready; please insert a storage medium."
-msgstr "Пристрій $(ARG1) не готовий; вставте носій даних."
+msgstr "Том $(ARG1) не готовий; вставте носій даних."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_WRONGMEDIUM___ERRCODE_RES_MASK_.string.text
@@ -387,7 +463,7 @@ msgstr ""
 "Пошкодження може бути наслідком як підробки документа, так і псування його "
 "структури при передаванні даних.\n"
 "\n"
-"\"Ми радимо не довіряти вмісту відновленого документа.\n"
+"Ми радимо не довіряти вмісту відновленого документа.\n"
 "Виконання макросів у цьому документі вимкнене.\n"
 "\n"
 "Дозволити %PRODUCTNAME відновити файл?\n"
@@ -396,7 +472,7 @@ msgstr ""
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BROKENPACKAGE_CANTREPAIR___ERRCODE_RES_MASK_.string.text
 msgid ""
 "The file '$(ARG1)' could not be repaired and therefore cannot be opened."
-msgstr "Файл '$(ARG1)' неможливо відновити та відкрити."
+msgstr "Файл \"$(ARG1)\" не вдалося відновити, тому його неможливо відкрити."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_NOREMOVE___ERRCODE_RES_MASK_.string.text
@@ -406,9 +482,10 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the corrupted "
 "configuration data?"
 msgstr ""
-"Конфігурація у '$(ARG1)' пошкоджена. Без цієї інформації деякі функції "
-"можуть працювати некоректно.\n"
-"Продовжити запуск %PRODUCTNAME без пошкодженої конфігурації?"
+"Дані конфігурації в '$(ARG1)' пошкоджено. Без цих даних деякі функції можуть "
+"не працювати належним чином.\n"
+"Чи бажаєте ви продовжити запуск %PRODUCTNAME без пошкоджених конфігураційних "
+"даних?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BROKENDATA_WITHREMOVE___ERRCODE_RES_MASK_.string.text
@@ -418,10 +495,11 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the corrupted "
 "configuration data?"
 msgstr ""
-"Персональний конфігураційний файл '$(ARG1)' пошкоджений і має бути "
-"видалений, для подальшої роботи. Деякі ваші персональні параметри можуть "
-"бути втрачені.\n"
-"Продовжити запуск %PRODUCTNAME без конфігурації?"
+"Особистий файл конфігурації \"$(ARG1)\" пошкоджено, і його потрібно "
+"видалити, щоб продовжити. Деякі ваші особисті налаштування можуть бути "
+"втрачені.\n"
+"Чи бажаєте ви продовжити запуск %PRODUCTNAME без пошкоджених конфігураційних "
+"даних?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING___ERRCODE_RES_MASK_.string.text
@@ -429,8 +507,8 @@ msgid ""
 "The configuration data source '$(ARG1)' is unavailable. Without this data "
 "some functions may not operate correctly."
 msgstr ""
-"Конфігурація '$(ARG1)' недоступна. Без цих даних деякі функції можуть "
-"працювати некоректно."
+"Джерело конфігураційних даних \"$(ARG1)\" недоступне. Без цих даних деякі "
+"функції можуть не працювати належним чином."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_CONFIGURATION_BACKENDMISSING_WITHRECOVER___ERRCODE_RES_MASK_.string.text
@@ -440,9 +518,10 @@ msgid ""
 "Do you want to continue startup of %PRODUCTNAME without the missing "
 "configuration data?"
 msgstr ""
-"Конфігурація '$(ARG1)' недоступна. Без цих даних деякі функції можуть "
-"працювати некоректно.\n"
-"Продовжити завантаження %PRODUCTNAME без конфігурації?"
+"Джерело конфігураційних даних \"$(ARG1)\" недоступне. Без цих даних деякі "
+"функції можуть не працювати належним чином.\n"
+"Ви бажаєте продовжити запуск %PRODUCTNAME без відсутніх конфігураційних "
+"даних?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_INVALID_XFORMS_SUBMISSION_DATA___ERRCODE_RES_MASK_.string.text
@@ -455,8 +534,8 @@ msgid ""
 "The file $(ARG1) is locked by another user. Currently, another write access "
 "to this file cannot be granted."
 msgstr ""
-"Файл $(ARG1) заблоковано іншим користувачем. Зараз неможливо отримати доступ "
-"до файлу на запис."
+"Файл $(ARG1) заблоковано іншим користувачем. Наразі неможливо надати інший "
+"доступ для запису до цього файлу."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED_SELF___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCKED_SELF___ERRCODE_RES_MASK_.string.text
@@ -464,13 +543,13 @@ msgid ""
 "The file $(ARG1) is locked by yourself. Currently, another write access to "
 "this file cannot be granted."
 msgstr ""
-"Ви заблокували доступ до файлу $(ARG1). Зараз неможливо отримати доступ до "
-"файлу на запис."
+"Файл $(ARG1) заблоковано вами. Наразі неможливо надати інший доступ для "
+"запису до цього файлу."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_NOT_LOCKED___ERRCODE_RES_MASK_.string.text
 msgid "The file $(ARG1) is currently not locked by yourself."
-msgstr "Зараз файл $(ARG1) не заблоковано."
+msgstr "Файл $(ARG1) наразі не заблоковано вами."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCK_EXPIRED___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_LOCKING_LOCK_EXPIRED___ERRCODE_RES_MASK_.string.text
@@ -494,10 +573,11 @@ msgid ""
 "certificate carefully. Are you willing to accept this certificate for the "
 "purpose of identifying the Web site $(ARG1)?"
 msgstr ""
-"Неможливо перевірити сертифікат сайту $(ARG1).\n"
+"Неможливо перевірити ідентичність сайту $(ARG1).\n"
 "\n"
-"Перш ніж прийняти сертифікат сайту ретельно його перевірте. Прийняти цей "
-"сертифікат для ідентифікації сайту $(ARG1)?"
+"Перш ніж прийняти цей сертифікат, вам слід уважно вивчити сертифікат цього "
+"сайту. Чи бажаєте ви прийняти цей сертифікат з метою ідентифікації веб-сайту "
+"$(ARG1)?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_EXPIRED_1_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_EXPIRED_1_.string.text
@@ -507,10 +587,10 @@ msgid ""
 "\n"
 "You should check to make sure that your computer's time is correct."
 msgstr ""
-"Сайт $(ARG1) використовує сертифікат для передачі даних, термін дії якого "
-"вийшов $(ARG2).\n"
+"$(ARG1) – це сайт, який використовує сертифікат безпеки для шифрування даних "
+"під час передачі, але його сертифікат закінчився $(ARG2).\n"
 "\n"
-"Перевірте, чи правильно встановлено час на вашому комп'ютері."
+"Ви повинні перевірити, чи час на вашому комп’ютері правильний."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_DOMAINMISMATCH_1_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_DOMAINMISMATCH_1_.string.text
@@ -525,14 +605,14 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"Ви намагаєтеся з'єднатися з сайтом сайтом $(ARG1). Але сертифікат належить "
-"$(ARG2). Можливо здійснюється спроба перехоплення даних при комунікації з "
-"цим сайтом.\n"
+"Ви спробували встановити з'єднання з $(ARG1). Однак представлений сертифікат "
+"безпеки належить $(ARG2). Можливо, хоча й малоймовірно, що хтось може "
+"намагатися перехопити ваше спілкування з цим веб-сайтом.\n"
 "\n"
-"Якщо Ви підозрюєте, що сертифікат не належить сайту $(ARG1), скасуйте "
-"з'єднання та сповістіть адміністратора сайту.\n"
+"Якщо ви підозрюєте, що показаний сертифікат не належить $(ARG1), скасуйте з’"
+"єднання та повідомте адміністратора сайту.\n"
 "\n"
-"Продовжити?"
+"Все одно продовжити?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_INVALID_1_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_SSLWARN_INVALID_1_.string.text
@@ -551,12 +631,12 @@ msgstr ""
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_DOMAINMISMATCH_.string.text
 #: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_DOMAINMISMATCH_.string.text
 msgid "Security Warning: Domain Name Mismatch"
-msgstr "Попередження безпеки: домени не збігаються"
+msgstr "Попередження системи безпеки: невідповідність імені домену"
 
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_EXPIRED_.string.text
 #: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_EXPIRED_.string.text
 msgid "Security Warning: Server Certificate Expired"
-msgstr "Попередження безпеки: вийшов термін дії сертифікату сервера"
+msgstr "Попередження безпеки: Термін дії сертифіката сервера минув"
 
 #: ids.src#RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_INVALID_.string.text
 #: ids.src%23RID_UUI_ERRHDL._TITLE_UUI_SSLWARN_INVALID_.string.text
@@ -573,122 +653,235 @@ msgstr "Введіть пароль"
 msgid "Enter Master Password"
 msgstr "Ввести головний пароль"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: trylater.src#STR_TRYLATER_TITLE.string.text
+#: trylater.src%23STR_TRYLATER_TITLE.string.text
+msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
+msgid "Document in Use"
+msgstr "Документ використовується"
+
+#: trylater.src#STR_TRYLATER_MSG.string.text
+#: trylater.src%23STR_TRYLATER_MSG.string.text
 msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Try again later to save document or save a copy of that document.\n"
+"\n"
 msgstr ""
-"Паролі для інтернет-з'єднань захищено основним паролем. У разі потреби "
-"доступу до захищеного списку, %PRODUCTNAME запропонує вам увести основний "
-"пароль один раз за сеанс."
+"Файл документа \"$(ARG1)\" заблоковано для редагування:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Спробуйте ще раз пізніше, щоб зберегти документ, або збережіть копію цього "
+"документа.\n"
+"\n"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-msgid "~Enter password"
-msgstr "~Введіть пароль"
+#: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
+#: trylater.src%23STR_TRYLATER_RETRYSAVING_BTN.string.text
+msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "~Повторити збереження"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-msgid "~Reenter password"
-msgstr "~Запам'ятати пароль"
+#: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
+#: trylater.src%23STR_TRYLATER_SAVEAS_BTN.string.text
+msgid "~Save As..."
+msgstr "~Зберегти як..."
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+msgid "Enter password to open file: \n"
+msgstr "Введіть пароль, щоб відкрити файл: \n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+msgid "Enter password to modify file: \n"
+msgstr "Введіть пароль для коректування файлу:\n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+msgid "Enter password: "
+msgstr "Введіть пароль: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+msgid "Confirm password: "
+msgstr "Підтвердіть пароль: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+msgid "Set Password"
+msgstr "Встановити пароль"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+msgid "Enter Password"
+msgstr "Введіть пароль"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
+"The confirmation password did not match the password. Set the password again "
+"by entering the same password in both boxes."
 msgstr ""
-"Увага: Якщо ви забудете основний пароль, ви не матимете доступу до "
-"інформації, яка ним захищена. Паролі чуттєві до регістру."
+"Пароль підтвердження не збігається з паролем. Знову встановіть пароль, "
+"ввівши той самий пароль в обидва поля."
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "Ввести головний пароль"
+#: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
+#: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
+msgid "Document Could Not Be Locked"
+msgstr "Не вдалося заблокувати документ"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-msgid "Replace"
-msgstr "Замінити"
+#: lockfailed.src#STR_LOCKFAILED_MSG.string.text
+#: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
+msgid ""
+"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
+"missing permission to create a lock file on that file location."
+msgstr ""
+"%PRODUCTNAME не може заблокувати ексклюзивний доступ до файлу через "
+"відсутність дозволу на створення файлу блокування для цього розташування "
+"файлу."
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-msgid "Rename"
-msgstr "Перейменувати"
+#: lockfailed.src#STR_LOCKFAILED_DONTSHOWAGAIN.string.text
+#: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
+msgid "~Do not show this message again"
+msgstr "~Більше не показувати це повідомлення"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
-msgid "File Exists"
-msgstr "Файл існує"
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
+msgid "~Send"
+msgstr "~Надіслати"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+msgid "I~gnore"
+msgstr "І~гнорувати"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+msgid "I~nteractive"
+msgstr "Інтер~активно"
+
+#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
+#: cookiedg.src%23DLG_COOKIES.GB_INFUTURE.groupbox.text
+msgid "Future Cookie Handling"
+msgstr "Майбутня робота з файлами cookie"
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+msgid "~Ignore"
+msgstr "~Ігнорувати"
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
+msgid "~Send"
+msgstr "~Надіслати"
+
+#: cookiedg.src#STR_COOKIES_RECV_START.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_START.string.text
+msgid ""
+"The '${HOST}' server wishes to set one or more cookies.\n"
+"Cookies contain information referring to certain URL classes. If %"
+"PRODUCTNAME later requests a document with a URL corresponding to the class "
+"of a previously set cookie, %PRODUCTNAME will send this information to the "
+"server. This allows a server to recognize the status of a WWW application, "
+"e.g., when shopping online.\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+"Сервер '${HOST}' хоче встановити один або кілька файлів cookie.\n"
+"Файли cookie містять інформацію про певні класи URL-адрес. Якщо пізніше %"
+"PRODUCTNAME запитає документ із URL-адресою, що відповідає класу попередньо "
+"встановленого файлу cookie, %PRODUCTNAME надішле цю інформацію на сервер. Це "
+"дозволяє серверу розпізнавати статус програми WWW, наприклад, під час "
+"покупок в Інтернеті.\n"
+"\n"
+"Необхідно встановити такі файли cookie:\n"
+"\n"
+
+#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
+msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
+msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr "Домен: ${DOMAIN}, Шлях: ${PATH}, Cookie: ${COOKIE} .\n"
+
+#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_TITLE.string.text
+msgid "Cookie Reception"
+msgstr "Прийом файлів cookie"
+
+#: cookiedg.src#STR_COOKIES_SEND_START.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_START.string.text
+msgid ""
+"%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent "
+"when requesting the document ${PATH}.\n"
+"Cookies contain information which refers to certain URL classes. They are "
+"sent by some servers to %PRODUCTNAME where they are saved when certain "
+"documents are accessed. If %PRODUCTNAME loads a document that, according to "
+"the URL, corresponds to a class of one of the previously received Cookies, %"
+"PRODUCTNAME will send this information to that server. This enables a server "
+"to keep track of the status of a WWW application, e.g., when shopping online."
+"\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+"%PRODUCTNAME зберіг файли cookie для сервера '${HOST}', які будуть надіслані "
+"під час запиту документа ${PATH}.\n"
+"Файли cookie містять інформацію, яка відноситься до певних класів URL-адрес. "
+"Вони надсилаються деякими серверами до %PRODUCTNAME, де вони зберігаються "
+"під час доступу до певних документів. Якщо %PRODUCTNAME завантажує документ, "
+"який, згідно з URL-адресою, відповідає класу одного з раніше отриманих "
+"файлів cookie, %PRODUCTNAME надішле цю інформацію на цей сервер. Це дозволяє "
+"серверу відстежувати статус WWW-додатку, наприклад, під час покупок в "
+"Інтернеті.\n"
+"\n"
+"Необхідно встановити такі файли cookie:\n"
+"\n"
+
+#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_COOKIES.string.text
+msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
+msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr "Домен: ${DOMAIN}, Шлях: ${PATH}, Cookie: ${COOKIE} .\n"
+
+#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
+msgid "Send Cookies"
+msgstr "Надіслати файли Cookies"
 
 #: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
 #: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
 msgid "Filter Selection"
 msgstr "Вибір фільтру"
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "Подробиці про сертифікат..."
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "Невірний пароль. Файл неможливо відкрити."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "Довідка"
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "Невірний пароль. Файл неможливо змінити."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "Гаразд"
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "Невірний основний пароль."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "Прийняти сертифікат лише для поточного сеансу"
+#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "Невірний пароль"
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "Не приймати сертифікат та не приєднуватися до цього сайту"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Без тексту"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "Сертифікат сайту виписано невідомою установою"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Без тексту"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "View Certificate"
-msgstr "Перегляд сертифікату"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-msgid "Cancel Connection"
-msgstr "Скасувати з'єднання'"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-msgid "Continue"
-msgstr "Продовжити"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
-msgid "Security Warning: "
-msgstr "Попередження безпеки:"
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "Підтвердження пароля не збігається."
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
 #: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
@@ -765,12 +958,13 @@ msgid ""
 "Open document read-only or open a copy of the document for editing.\n"
 "\n"
 msgstr ""
-"Файл документу \"$(ARG1)\" блокований для змін користувачем:\n"
+"Файл документа \"$(ARG1)\" заблоковано для редагування:\n"
 "\n"
 "$(ARG2)\n"
 "\n"
-"Відкрийте документ лише для читання або відкрийте копію документу для "
-"внесення змін."
+"Відкрийте документ лише для читання або відкрийте копію документа для "
+"редагування.\n"
+"\n"
 
 #: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
 #: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
@@ -788,10 +982,92 @@ msgstr "Відкрити ~копію"
 msgid "Unknown User"
 msgstr "Невідомий користувач"
 
+#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+"Файл документа \"$(ARG1)\" заблоковано для самостійного редагування в іншій "
+"системі з $(ARG2)\n"
+"\n"
+"Відкрийте документ лише для читання або проігноруйте блокування власного "
+"файлу та відкрийте документ для редагування.\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Відкрити ~лише для читання"
+
+#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "~Відкрити"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+"Файл документа \"$(ARG1)\" заблоковано для самостійного редагування в іншій "
+"системі з $(ARG2)\n"
+"\n"
+"Закрийте документ в іншій системі та повторіть спробу збереження або "
+"проігноруйте блокування власного файлу та збережіть поточний документ.\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "Повто~рити збереження"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "~Зберегти"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Без тексту"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "View Certificate"
+msgstr "Перегляд сертифікату"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+msgid "Cancel Connection"
+msgstr "Скасувати з'єднання"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+msgid "Continue"
+msgstr "Продовжити"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
+msgid "Security Warning: "
+msgstr "Попередження безпеки:"
+
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
 #: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
 msgid "The document contains document macros signed by:"
-msgstr "Документ містить макроси підписані:"
+msgstr "Документ містить макроси, підписані:"
 
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
 #: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
@@ -834,119 +1110,6 @@ msgstr "В~имкнути макроси"
 msgid "%PRODUCTNAME - Security Warning"
 msgstr "Попередження про безпеку %PRODUCTNAME"
 
-#: trylater.src#STR_TRYLATER_TITLE.string.text
-#: trylater.src%23STR_TRYLATER_TITLE.string.text
-msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
-msgid "Document in Use"
-msgstr "Документ використовується"
-
-#: trylater.src#STR_TRYLATER_MSG.string.text
-#: trylater.src%23STR_TRYLATER_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Try again later to save document or save a copy of that document.\n"
-"\n"
-msgstr ""
-"Файл документа '$(ARG1)' блокований для змін користувачем:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Спробуйте зберегти документ пізніше або збережіть копію даного документу.\n"
-
-#: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
-#: trylater.src%23STR_TRYLATER_RETRYSAVING_BTN.string.text
-msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "~Повторити збереження"
-
-#: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
-#: trylater.src%23STR_TRYLATER_SAVEAS_BTN.string.text
-msgid "~Save As..."
-msgstr "~Зберегти як..."
-
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "Документ було змінено в інший програмі"
-
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-#: filechanged.src%23STR_FILECHANGED_MSG.string.text
-msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
-msgstr ""
-"Після того, як ви відкрили цей файл для редагування в %PRODUCTNAME, до "
-"ньогобуло внесено зміни. Зберігши свою версію документа ви анулюєте інші "
-"зміни.\n"
-"\n"
-"Продовжити збереження?\n"
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "~Зберегти попри все"
-
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-"Файл документа «$(ARG1)» заблоковано для редагування вами ж в іншій системі "
-"з $(ARG2)\n"
-"\n"
-"Відкрийте документ лише для читання або знехтуйте власне блокування і "
-"відкрийте документ для редагування.\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Відкрити ~лише для читання"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "~Відкрити"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-"Файл документа '$(ARG1)' заблоковано для редагування вами ж в іншій системі "
-"з $(ARG2)\n"
-"\n"
-"Закрийте документ в іншій системі і повторіть збереження або знехтуйте "
-"власне блокування і збережіть поточний варіант документа.\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "Повто~рити збереження"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "~Зберегти"
-
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
 msgid ""
 "This document uses an unsupported version of the Open Document Format. Some "
@@ -955,6 +1118,11 @@ msgid ""
 "Click 'Update Now' to run online update and see if there is a new version of "
 "%PRODUCTNAME available."
 msgstr ""
+"Цей документ використовує непідтримувану версію формату Open Document. Деякі "
+"функції можуть не відображатися належним чином.\n"
+"\n"
+"Натисніть \"Оновити зараз\", щоб запустити онлайн-оновлення та перевірити, "
+"чи доступна нова версія %PRODUCTNAME."
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
 #: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
@@ -968,155 +1136,4 @@ msgstr "~Пізніше"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
 msgid "ODF Version Conflict"
-msgstr ""
-
-#: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
-#: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
-msgid "Document Could Not Be Locked"
-msgstr ""
-
-#: lockfailed.src#STR_LOCKFAILED_MSG.string.text
-#: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
-msgid ""
-"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
-"missing permission to create a lock file on that file location."
-msgstr ""
-"%PRODUCTNAME не може заблокувати файл для монопольного доступу, оскільки "
-"немає прав для створення блокування у місці розташування файлу.\""
-
-#: lockfailed.src#STR_LOCKFAILED_DONTSHOWAGAIN.string.text
-#: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
-msgid "~Do not show this message again"
-msgstr ""
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "Невірний пароль. Файл неможливо відкрити."
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "Невірний пароль. Файл неможливо змінити."
-
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "Невірний основний пароль."
-
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "Невірний пароль"
-
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "Паролі не збігаються."
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
-msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
-msgid "~Send"
-msgstr "~Надіслати"
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
-msgid "I~gnore"
-msgstr "І~гнорувати"
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
-msgid "I~nteractive"
-msgstr "Інтер~активно"
-
-#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
-#: cookiedg.src%23DLG_COOKIES.GB_INFUTURE.groupbox.text
-msgid "Future Cookie Handling"
-msgstr "Подальша обробка файлів cookie"
-
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
-#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
-msgid "~Ignore"
-msgstr "~Ігнорувати"
-
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
-#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
-msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
-msgid "~Send"
-msgstr "~Надіслати"
-
-#: cookiedg.src#STR_COOKIES_RECV_START.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_START.string.text
-msgid ""
-"The '${HOST}' server wishes to set one or more cookies.\n"
-"Cookies contain information referring to certain URL classes. If %"
-"PRODUCTNAME later requests a document with a URL corresponding to the class "
-"of a previously set cookie, %PRODUCTNAME will send this information to the "
-"server. This allows a server to recognize the status of a WWW application, "
-"e.g., when shopping online.\n"
-"\n"
-"The following Cookies should be set:\n"
-"\n"
-msgstr ""
-"Сервер '${HOST}' намагається зберегти один або кілька файлів Cookiе.\n"
-"Ці файли зазвичай містять інформацію про те, які параметри були вибрані "
-"користувачем при відвіданні цього URL. Якщо надалі у %PRODUCTNAME буде "
-"відкритий документ, отриманий з URL, сервер якого зберіг на вашому "
-"комп'ютері Cookie, то %PRODUCTNAME надішле інформацію з Cookie на цей "
-"сервер. У такому випадку сервер отримає стан програми та ваші параметри; це "
-"може використовуватись, наприклад, для покупок у Інтернеті.\n"
-"\n"
-"Будуть збережені такі файли Cookie:\n"
-"\n"
-
-#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
-msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
-msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr "Домен: ${DOMAIN}, Шлях: ${PATH}, Cookie: ${COOKIE} .\n"
-
-#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_TITLE.string.text
-msgid "Cookie Reception"
-msgstr "Отримання файлів Cookie"
-
-#: cookiedg.src#STR_COOKIES_SEND_START.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_START.string.text
-#, fuzzy
-msgid ""
-"%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent "
-"when requesting the document ${PATH}.\n"
-"Cookies contain information which refers to certain URL classes. They are "
-"sent by some servers to %PRODUCTNAME where they are saved when certain "
-"documents are accessed. If %PRODUCTNAME loads a document that, according to "
-"the URL, corresponds to a class of one of the previously received Cookies, %"
-"PRODUCTNAME will send this information to that server. This enables a server "
-"to keep track of the status of a WWW application, e.g., when shopping online."
-"\n"
-"\n"
-"The following Cookies should be set:\n"
-"\n"
-msgstr ""
-"%PRODUCTNAME зберіг для сервера '${HOST}' файли Cookie, які будуть "
-"надсилатись назад на сервер при кожному відкритті документу ${PATH}.\n"
-"Ці файли зазвичай містять інформацію про параметри, які були вибрані "
-"користувачем при відвіданні даного URL. Якщо надалі у %PRODUCTNAME буде "
-"відкрито документ, що отриманий з URL, сервер якого зберіг на вашому "
-"комп'ютері Cookie, то %PRODUCTNAME надішле інформацію з Cookie на цей "
-"сервер. У такий спосіб сервер отримає стан програми та ваші параметри; це "
-"може використовуватись, наприклад, для покупок у Інтернеті.\n"
-"\n"
-"Будуть збережені такі файли Cookie:\n"
-"\n"
-
-#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_COOKIES.string.text
-msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
-msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr "Домен: ${DOMAIN}, Шлях: ${PATH}, Cookie: ${COOKIE} .\n"
-
-#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
-msgid "Send Cookies"
-msgstr "Надіслати файли Cookies"
+msgstr "Конфлікт версій ODF"

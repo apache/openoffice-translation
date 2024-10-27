@@ -5,16 +5,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-07-25 18:58+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-06-01 09:03+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1685610219.000000\n"
 
 #: wikiformats.xhp#tit.help.text
 #: wikiformats.xhp%23tit.help.text
@@ -43,6 +47,9 @@ msgid ""
 "different. Only a subset of all features can be transformed from one format "
 "to the other."
 msgstr ""
+"Формат OpenDocument, який використовує Writer, і формат MediaWiki досить "
+"різні. Лише частина всіх функцій може бути перетворена з одного формату в "
+"інший."
 
 #: wikiformats.xhp#hd_id7178868.help.text
 #: wikiformats.xhp%23hd_id7178868.help.text
@@ -56,9 +63,9 @@ msgid ""
 "Wiki will show the heading styles of the same outline level, formatted as "
 "defined by the Wiki engine."
 msgstr ""
-"Застосуйте стиль заголовка до заголовку текстового документа Writer. Wiki "
-"буде відображати стилі заголовків відповідного рівня, форматовані у "
-"відповідності до правилам Wiki."
+"Застосуйте стиль абзацу заголовка до заголовків у документі Writer. У Wiki "
+"відображатимуться стилі заголовків того самого рівня структури, "
+"відформатовані, як визначено системою Wiki."
 
 #: wikiformats.xhp#hd_id7217627.help.text
 #: wikiformats.xhp%23hd_id7217627.help.text
@@ -74,11 +81,11 @@ msgid ""
 "Wiki links that point to other subjects of the same Wiki domain, use Wiki "
 "links."
 msgstr ""
-"Гіперпосилання OpenDocument перетворюються на \"зовнішні\" посилання у Wiki. "
-"Тож, вбудовані функції створення посилань OpenDocument слід використовувати "
-"лише для створення посилань на інші сайти у мережі Wiki. Для створення Wiki-"
-"посилань, що вказують на інші теми у тому ж домені Wiki, користуйтесь "
-"Wiki-посиланнями."
+"Власні гіперпосилання OpenDocument перетворюються на «зовнішні» посилання "
+"Wiki. Таким чином, вбудований засіб посилання OpenDocument слід "
+"використовувати лише для створення посилань, які вказують на інші сайти за "
+"межами мережі Wiki. Для створення Wiki-посилань, які вказують на інші теми "
+"того самого домену Wiki, використовуйте Wiki-посилання."
 
 #: wikiformats.xhp#hd_id941190.help.text
 #: wikiformats.xhp%23hd_id941190.help.text
@@ -95,7 +102,7 @@ msgid ""
 msgstr ""
 "Списки надійно експортуються коли весь список складено з використанням "
 "одного стилю списків. Для створення списків у Writer користуйтесь значками "
-"нумерованого та маркірованого списків. Якщо треба створити список без "
+"нумерованого та маркованого списків. Якщо треба створити список без "
 "нумерації чи маркерів, для вибору та застосування відповідного стилю списку "
 "виберіть Формат - Маркери та нумерація."
 
@@ -115,8 +122,9 @@ msgid ""
 "Explicit text alignment should not be used in Wiki articles. Nevertheless, "
 "text alignment is supported for left, centered, and right alignment of text."
 msgstr ""
-"У статтях Wiki не слід використовувати явно вказане вирівнювання тексту. "
-"Проте, підтримується вирівнювання тексту ліворуч, у центрі та праворуч."
+"Явне вирівнювання тексту не слід використовувати у статтях Wiki. Тим не "
+"менш, вирівнювання тексту підтримується для вирівнювання тексту по лівому "
+"краю, посередині та правому краю."
 
 #: wikiformats.xhp#hd_id7486190.help.text
 #: wikiformats.xhp%23hd_id7486190.help.text
@@ -165,8 +173,8 @@ msgid ""
 msgstr ""
 "Примітка: При перетворенні використовується новий стиль виносок з тегами "
 "<ref> та <references>, що потребує встановлення розширення Cite.php на сайт "
-"MediaWiki. Якщо після перетворення ці теги зустрічаються у звичайному "
-"тексті, попросіть адміністратора Wiki становити це розширення."
+"MediaWiki. Якщо ці теги зустрічаються як звичайний текст у результаті "
+"перетворення, попросіть адміністратора Wiki встановити це розширення."
 
 #: wikiformats.xhp#hd_id9405499.help.text
 #: wikiformats.xhp%23hd_id9405499.help.text
@@ -180,6 +188,11 @@ msgid ""
 "domain (e.g. WikiMedia Commons), then the transformation produces a valid "
 "image tag that includes the image. Image captions are also supported."
 msgstr ""
+"Зображення не можна експортувати за допомогою перетворення, що створює один "
+"файл тексту Wiki. Однак, якщо зображення вже завантажено в цільовий домен "
+"Wiki (наприклад, WikiMedia Commons), тоді перетворення створює дійсний тег "
+"зображення, який містить зображення. Також підтримуються підписи до "
+"зображень."
 
 #: wikiformats.xhp#hd_id2162236.help.text
 #: wikiformats.xhp%23hd_id2162236.help.text
@@ -195,12 +208,12 @@ msgid ""
 msgstr ""
 "Прості таблиці добре підтримуються. Заголовки таблиць перетворюються на "
 "відповідні заголовки таблиці у Wiki-стилі. Проте, індивідуальне форматування "
-"рамок таблиці, розмірів стовпчиків та кольору тла ігнорується."
+"меж таблиці, розмірів стовпців та кольору тла ігнорується."
 
 #: wikiformats.xhp#hd_id2954496.help.text
 #: wikiformats.xhp%23hd_id2954496.help.text
 msgid "Joined Cells"
-msgstr "Об'єднані комірки'"
+msgstr "Об'єднані комірки"
 
 #: wikiformats.xhp#par_id8253730.help.text
 msgid ""
@@ -208,6 +221,10 @@ msgid ""
 "cells that span rows as tables with nested tables. In contrast, the wiki "
 "model of table is to declare column and row spans for such joined cells."
 msgstr ""
+"OpenDocument і особливо OpenOffice представляють таблиці, що мають об’єднані "
+"клітинки, які охоплюють рядки, як таблиці з вкладеними таблицями. На відміну "
+"від цього, вікі-модель таблиці передбачає оголошення діапазонів стовпців і "
+"рядків для таких об’єднаних комірок."
 
 #: wikiformats.xhp#par_id8163090.help.text
 #: wikiformats.xhp%23par_id8163090.help.text
@@ -215,13 +232,13 @@ msgid ""
 "If only columns of the same row are joined, the result of the transformation "
 "resembles the source document very well."
 msgstr ""
-"При об'єднанні стовпчиків з одного рядка, результат перетворення дуже схожий "
-"на первинний документ."
+"Якщо об’єднати лише стовпці одного рядка, результат перетворення буде дуже "
+"схожим на первинний документ."
 
 #: wikiformats.xhp#hd_id425122.help.text
 #: wikiformats.xhp%23hd_id425122.help.text
 msgid "Borders"
-msgstr "Обрамлення"
+msgstr "Межі"
 
 #: wikiformats.xhp#par_id1831110.help.text
 msgid ""
@@ -229,6 +246,9 @@ msgid ""
 "always exported as <emph>\"prettytable\"</emph>, which renders in the Wiki "
 "engine with simple borders and bold header."
 msgstr ""
+"Незалежно від настроюваних стилів таблиці для рамок і фону, таблиця завжди "
+"експортується як <emph>\"prettytable\"</emph>, яка відображається в системі "
+"Wiki з простими рамками та жирним заголовком."
 
 #: wikiformats.xhp#hd_id6255073.help.text
 #: wikiformats.xhp%23hd_id6255073.help.text
@@ -252,174 +272,9 @@ msgstr ""
 "того, що \"спеціальні символи\" виглядатимуть зіпсованими при перегляді з "
 "типовим кодуванням. Проте, для виправлення цієї ситуації можна перемикнути "
 "редактор у кодування UTF-8. Якщо редактор не підтримує це кодування, "
-"результат перетворення можна переглянути у веб-навігаторі Firefox та вибрати "
-"у ньому кодування UTF-8. Тепер, ви можете вирізати та вставити результат "
+"результат перетворення можна переглянути у браузері Firefox та вибрати у "
+"ньому кодування UTF-8. Тепер, ви можете вирізати та вставити результат "
 "перетворення у обрану вами програму."
-
-#: wikiaccount.xhp#tit.help.text
-#: wikiaccount.xhp%23tit.help.text
-msgctxt "wikiaccount.xhp#tit.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#hd_id960722.help.text
-#: wikiaccount.xhp%23hd_id960722.help.text
-msgctxt "wikiaccount.xhp#hd_id960722.help.text"
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: wikiaccount.xhp#par_id4571672.help.text
-#: wikiaccount.xhp%23par_id4571672.help.text
-msgid ""
-"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
-msgstr ""
-"Використовуйте діалогове вікно MediaWiki для додавання та редагування "
-"параметрів облікових записів MediaWiki."
-
-#: wikiaccount.xhp#par_id7631458.help.text
-#: wikiaccount.xhp%23par_id7631458.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
-"starting with http://</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Введіть URL сервера MediaWiki, "
-"починаючи з http://</ahelp>"
-
-#: wikiaccount.xhp#par_id7862483.help.text
-#: wikiaccount.xhp%23par_id7862483.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Введіть ім'я користувача MediaWiki. "
-"Для анонімного доступу залиште порожнім.</ahelp>"
-
-#: wikiaccount.xhp#par_id1113010.help.text
-#: wikiaccount.xhp%23par_id1113010.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
-"server. Leave empty for anonymous access.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Введіть пароль MediaWiki. Для "
-"анонімного доступу залиште порожнім.</ahelp>"
-
-#: wikiaccount.xhp#par_id656758.help.text
-#: wikiaccount.xhp%23par_id656758.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
-"sessions. The master password must be enabled, see <item type=\"menuitem\">"
-"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Увімкніть збереження вашого паролю "
-"між сеансами. Майстер-пароль має бути увімкнений, див. <item type=\""
-"menuitem\">Сервіс - Параметри - StarOffice/OpenOffice.org - "
-"Безпека</item>.</ahelp>"
-
-#: wikiaccount.xhp#par_id3112582.help.text
-#: wikiaccount.xhp%23par_id3112582.help.text
-msgid ""
-"Enter the Internet address of a Wiki server in a format like "
-"http://wiki.services.openoffice.org/wiki or copy the URL from a web browser."
-msgstr ""
-"Введіть адресу сервера Wiki у форматі http://wiki.services.openoffice.org/"
-"wiki або скопіюйте її з веб-навігатора."
-
-#: wikiaccount.xhp#par_id628070.help.text
-#: wikiaccount.xhp%23par_id628070.help.text
-msgid ""
-"If the Wiki allows anonymous access, you can leave the account text boxes "
-"empty. Else enter your user name and password."
-msgstr ""
-"Якщо Wiki дозволяє анонімні записи, поля інформації про обліковий запис "
-"заповнювати не слід. У іншому разі введіть ім'я користувача та пароль."
-
-#: wikiaccount.xhp#par_id9046601.help.text
-#: wikiaccount.xhp%23par_id9046601.help.text
-msgid ""
-"If you have enabled the master password feature on the Security tab page of "
-"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
-"password and automatically insert the data where necessary. Enable the \""
-"Save password\" checkbox to store your password."
-msgstr ""
-"Якщо функцію майстер-паролю було увімкнено на вкладці Безпека діалогу Сервіс "
-"- Параметри - StarOffice/OpenOffice.org, то програма може запам'ятовувати "
-"пароль та при потребі автоматично підставляти його. Увімкніть параметр «"
-"Зберегти пароль» для його запам'ятовування."
-
-#: wikisettings.xhp#tit.help.text
-#: wikisettings.xhp%23tit.help.text
-msgctxt "wikisettings.xhp#tit.help.text"
-msgid "MediaWiki Options"
-msgstr "Параметри MediaWiki"
-
-#: wikisettings.xhp#hd_id6425672.help.text
-#: wikisettings.xhp%23hd_id6425672.help.text
-msgctxt "wikisettings.xhp#hd_id6425672.help.text"
-msgid "MediaWiki Options"
-msgstr "Параметри MediaWiki"
-
-#: wikisettings.xhp#par_id1188390.help.text
-#: wikisettings.xhp%23par_id1188390.help.text
-msgid ""
-"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
-"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
-"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
-"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
-"button."
-msgstr ""
-"Ви можете додавати, редагувати або видаляти сервери MediaWiki. Відкрийте "
-"діалог <item type=\"menuitem\">Сервіс - Параметри - Інтернет - "
-"MediaWiki</item>. Також можна скористатись командою <item type=\"menuitem\">"
-"Параметри - Керування розширеннями</item>, виберіть "
-"@WIKIEXTENSIONPRODUCTNAME@ та натисніть кнопку «Параметри»."
-
-#: wikisettings.xhp#par_id300607.help.text
-#: wikisettings.xhp%23par_id300607.help.text
-msgid ""
-"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
-"click Edit to edit the account settings.<br/>Select an entry and click "
-"Remove to remove the entry from the list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\">Натисніть «Додати» для додавання нового сервера Wiki.<br/>"
-"Виберіть елемент та натисніть «Редагувати» для зміни параметрів облікового "
-"запису.<br/>Виберіть елемент та натисніть «Видалити» для видалення елементу "
-"зі списку.</ahelp>"
-
-#: wikisettings.xhp#par_id9786065.help.text
-#: wikisettings.xhp%23par_id9786065.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
-"new entry to the list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Відкриття діалогу MediaWiki для "
-"додавання нового елементу до списку.</ahelp>"
-
-#: wikisettings.xhp#par_id3386333.help.text
-#: wikisettings.xhp%23par_id3386333.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
-"the selected entry.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Відкриття діалогу MediaWiki для "
-"редагування обраного елементу.</ahelp>"
-
-#: wikisettings.xhp#par_id7285073.help.text
-#: wikisettings.xhp%23par_id7285073.help.text
-msgid ""
-"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
-"list.</ahelp>"
-msgstr ""
-"<ahelp hid=\".\" visibility=\"hidden\">Видалення обраного елементу зі "
-"списку.</ahelp>"
-
-#: wikisettings.xhp#par_id1029084.help.text
-#: wikisettings.xhp%23par_id1029084.help.text
-msgid ""
-"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
-"xhp\">MediaWiki</link> dialog opens."
-msgstr ""
-"Після натиску на «Додати» чи «Редагування» з'явиться діалогове вікно <link "
-"href=\"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>."
 
 #: wiki.xhp#tit.help.text
 #: wiki.xhp%23tit.help.text
@@ -480,7 +335,7 @@ msgstr "StarOffice/StarSuite 9"
 #: wiki.xhp#par_id8430738.help.text
 #: wiki.xhp%23par_id8430738.help.text
 msgid "OpenOffice.org 3.0"
-msgstr "OpenOffice.org 2.4"
+msgstr "OpenOffice.org 3.0"
 
 #: wiki.xhp#par_id9340495.help.text
 #: wiki.xhp%23par_id9340495.help.text
@@ -492,6 +347,8 @@ msgid ""
 "A Wiki account on a supported <link href=\"https://www.mediawiki.org/wiki/"
 "MediaWiki\">MediaWiki</link> server"
 msgstr ""
+"Обліковий запис Wiki на підтримуваному сервері <link href=\""
+"https://www.mediawiki.org/wiki/MediaWiki\">MediaWiki</link>"
 
 #: wiki.xhp#hd_id8047120.help.text
 #: wiki.xhp%23hd_id8047120.help.text
@@ -508,13 +365,13 @@ msgid ""
 "runtime folder is selected in the big listbox. If no JRE was activated, then "
 "activate a JRE 1.4 or later and restart %PRODUCTNAME."
 msgstr ""
-"Перед встановленням @WIKIEXTENSIONPRODUCTNAME@, перевірте, що StarOffice чи "
-"OpenOffice.org використовує Java Runtime Environment (JRE). Для цього "
-"виберіть <item type=\"menuitem\">Сервіс - Параметри - StarOffice/"
-"OpenOffice.org - Java</item>. Перевірте, що позначено \"Використовувати "
-"Java\" та що теку середовища Java вибрано у великому полі списку. Якщо JRE "
-"не активовано, активуйте JRE 1.4 або старшу версію ти перезапустіть "
-"StarOffice/OpenOffice.org."
+"Перш ніж інсталювати @WIKIEXTENSIONPRODUCTNAME@, переконайтеся, що %"
+"PRODUCTNAME використовує середовище виконання Java (JRE). Щоб перевірити "
+"статус JRE, виберіть <item type=\"menuitem\">Засоби - Параметри - %"
+"PRODUCTNAME - Java</item>. Переконайтеся, що позначено «Використовувати "
+"середовище виконання Java» і що у великому списку вибрано теку середовища "
+"виконання Java. Якщо JRE не було активовано, активуйте JRE 1.4 або новішої "
+"версії та перезапустіть %PRODUCTNAME."
 
 #: wiki.xhp#hd_id567339.help.text
 #: wiki.xhp%23hd_id567339.help.text
@@ -528,7 +385,7 @@ msgid ""
 "In a Writer window, choose <item type=\"menuitem\">Tools - Extension "
 "Manager</item>."
 msgstr ""
-"В вікні Writer виберіть <item type=\"menuitem\">Сервіс - Менеджер "
+"В вікні Writer виберіть <item type=\"menuitem\">Засоби - Менеджер "
 "розширень</item>."
 
 #: wiki.xhp#par_id4338511.help.text
@@ -548,7 +405,7 @@ msgstr ""
 #: wiki.xhp#par_id4008911.help.text
 #: wiki.xhp%23par_id4008911.help.text
 msgid "Close %PRODUCTNAME, and close also the Quickstarter if enabled."
-msgstr " Закрийте %PRODUCTNAME, а також Швидкий Запуск, якщо він увімкнений"
+msgstr "Закрийте %PRODUCTNAME, а також Швидкий Запуск, якщо він увімкнений"
 
 #: wiki.xhp#par_id265511.help.text
 #: wiki.xhp%23par_id265511.help.text
@@ -558,8 +415,8 @@ msgid ""
 "settings. See \"To Connect To a Wiki\" below."
 msgstr ""
 "Перезапустіть програму, відкрийте текстовий документ, потім виберіть <item "
-"type=\"menuitem\">Сервіс - Параметри - Інтернет - MediaWiki</item> введіть "
-"параметри Wiki. Див. далі \"Для з'єднання з Wiki\"."
+"type=\"menuitem\">Засоби - Параметри - Інтернет - MediaWiki</item> введіть "
+"налаштування Wiki. Див. далі \"Для з'єднання з Wiki\"."
 
 #: wiki.xhp#hd_id3569444.help.text
 #: wiki.xhp%23hd_id3569444.help.text
@@ -573,7 +430,7 @@ msgid ""
 "In a Writer window, choose <item type=\"menuitem\">Tools - Extension "
 "Manager</item>."
 msgstr ""
-"У Writer виберіть <item type=\"menuitem\">Сервіс - Керування "
+"У Writer виберіть <item type=\"menuitem\">Засоби - Керування "
 "розширеннями</item>."
 
 #: wiki.xhp#par_id9504379.help.text
@@ -600,11 +457,11 @@ msgid ""
 "choose <item type=\"menuitem\">Tools - Options - %PRODUCTNAME - "
 "Security</item>."
 msgstr ""
-"Примітка: Ви можете зберегти своє ім'я користувача та пароль для всіх "
-"відповідних діалогів StarOffice/OpenOffice.org. Пароль буде збережено у "
-"захищеному місці, доступ до якого обмежений за допомогою майстер-паролю. Для "
-"вмикання майстер-пароля виберіть <item type=\"menuitem\">Сервіс - Параметри -"
-" StarOffice/OpenOffice.org - Безпека</item>."
+"Примітка. Ви можете зберегти своє ім’я користувача та пароль для всіх "
+"відповідних діалогових вікон у %PRODUCTNAME. Пароль зберігатиметься в "
+"безпечному вигляді, доступ до якого забезпечується головним паролем. Щоб "
+"увімкнути головний пароль, виберіть <item type=\"menuitem\">Засоби - "
+"Параметри - %PRODUCTNAME - Безпека</item>."
 
 #: wiki.xhp#par_id3751640.help.text
 #: wiki.xhp%23par_id3751640.help.text
@@ -614,7 +471,7 @@ msgid ""
 "Proxy</item>, and restart the software."
 msgstr ""
 "Примітка: Якщо ви використовуєте проксі-сервер для з'єднання з інтернетом, "
-"введіть відомості про проксі-сервер у <item type=\"menuitem\">Сервіс - "
+"введіть відомості про проксі-сервер у <item type=\"menuitem\">Засоби - "
 "Параметри - Інтернет - Проксі</item> та перезапустіть програму."
 
 #: wiki.xhp#par_id9533677.help.text
@@ -656,7 +513,7 @@ msgstr ""
 #: wiki.xhp%23par_id389416.help.text
 msgid "You can copy the URL from a web browser and paste it into the textbox."
 msgstr ""
-"Можна скопіювати адресу з веб-навігатора та вставити його у текстове поле."
+"Можна скопіювати адресу з веб-браузера та вставити його у текстове поле."
 
 #: wiki.xhp#par_id5906552.help.text
 #: wiki.xhp%23par_id5906552.help.text
@@ -689,11 +546,11 @@ msgid ""
 "enable the master password. \"Save password\" is unavailable when the master "
 "password is not enabled."
 msgstr ""
-"Увімкніть функцію «Зберегти пароль» для запам'ятовування паролю між "
-"сеансами. Майстер-пароль забезпечує доступ до усіх збережених паролів. "
-"Виберіть <item type=\"menuitem\">Сервіс - Параметри - StarOffice/"
-"OpenOffice.org - Безпека</item> для вмикання майстер-паролю. Якщо майстер-"
-"пароль не введений, функція «Зберегти пароль» недоступна."
+"За бажанням увімкніть «Зберегти пароль», задля його збереження між сеансами. "
+"Головний пароль використовується для підтримки доступу до всіх збережених "
+"паролів. Виберіть <item type=\"menuitem\">Засоби - Параметри - %PRODUCTNAME -"
+" Безпека</item>, щоб увімкнути головний пароль. Функція \"Зберегти пароль\" "
+"недоступна, якщо головний пароль не ввімкнено."
 
 #: wiki.xhp#hd_id7044892.help.text
 #: wiki.xhp%23hd_id7044892.help.text
@@ -703,7 +560,7 @@ msgstr "Для створення нової сторінки Wiki"
 #: wiki.xhp#par_id3514206.help.text
 #: wiki.xhp%23par_id3514206.help.text
 msgid "Open a Writer document."
-msgstr "Відкрийте новий документ."
+msgstr "Відкрийте документ Writer ."
 
 #: wiki.xhp#par_id944853.help.text
 #: wiki.xhp%23par_id944853.help.text
@@ -713,7 +570,7 @@ msgid ""
 "@WIKIEXTENSIONID@/wikiformats.xhp\">list of supported formats</link>."
 msgstr ""
 "Введіть зміст Wiki-сторінки. Ви можете використовувати різне форматування "
-"тексту, верхні та нижні колонтитули та ін. Див. <link href=\""
+"тексту, верхні та нижні колонтитули тощо. Див. <link href=\""
 "@WIKIEXTENSIONID@/wikiformats.xhp\">список підтримуваних форматів</link>."
 
 #: wiki.xhp#par_id4566484.help.text
@@ -767,13 +624,100 @@ msgid ""
 "<emph>Show in web browser</emph>: Check this box to open your system web "
 "browser and show the uploaded Wiki page."
 msgstr ""
-"<emph>Показати у веб-навігаторі</emph>: Позначте цей параметр для відкриття "
+"<emph>Показати у веб-браузері</emph>: Позначте цей параметр для відкриття "
 "веб-навігатора та показу завантаженої Wiki-сторінки."
 
 #: wiki.xhp#par_id8346812.help.text
 #: wiki.xhp%23par_id8346812.help.text
 msgid "Click Send."
 msgstr "Натисніть «Надіслати»."
+
+#: wikiaccount.xhp#tit.help.text
+#: wikiaccount.xhp%23tit.help.text
+msgctxt "wikiaccount.xhp#tit.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: wikiaccount.xhp#hd_id960722.help.text
+#: wikiaccount.xhp%23hd_id960722.help.text
+msgctxt "wikiaccount.xhp#hd_id960722.help.text"
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: wikiaccount.xhp#par_id4571672.help.text
+#: wikiaccount.xhp%23par_id4571672.help.text
+msgid ""
+"Use the MediaWiki dialog to add or edit your MediaWiki account settings."
+msgstr ""
+"Використовуйте діалогове вікно MediaWiki для додавання та редагування "
+"налаштувань облікового запису MediaWiki."
+
+#: wikiaccount.xhp#par_id7631458.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enter the URL of a MediaWiki server, "
+"starting with https://</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Введіть URL серверу MediaWiki, який "
+"починається з https://</ahelp>"
+
+#: wikiaccount.xhp#par_id7862483.help.text
+#: wikiaccount.xhp%23par_id7862483.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your user name on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Введіть ім'я користувача MediaWiki. "
+"Для анонімного доступу залиште порожнім.</ahelp>"
+
+#: wikiaccount.xhp#par_id1113010.help.text
+#: wikiaccount.xhp%23par_id1113010.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enter your password on the MediaWiki "
+"server. Leave empty for anonymous access.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Введіть пароль MediaWiki. Для "
+"анонімного доступу залиште порожнім.</ahelp>"
+
+#: wikiaccount.xhp#par_id656758.help.text
+#: wikiaccount.xhp%23par_id656758.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password between "
+"sessions. The master password must be enabled, see <item type=\"menuitem\">"
+"Tools - Options - %PRODUCTNAME - Security</item>.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Увімкніть збереження пароля між "
+"сеансами. Головний пароль має бути ввімкнено, див. <item type=\"menuitem\">"
+"Засоби – Параметри – %PRODUCTNAME – Безпека</item>.</ahelp>"
+
+#: wikiaccount.xhp#par_id3112582.help.text
+msgid ""
+"Enter the Internet address of a Wiki server in a format like "
+"https://wiki.openoffice.org/wiki or copy the URL from a web browser."
+msgstr ""
+"Введіть адресу серверу Wiki у форматі схожим на https://wiki.openoffice.org/"
+"wiki або скопіюйте URL з веб-браузера"
+
+#: wikiaccount.xhp#par_id628070.help.text
+#: wikiaccount.xhp%23par_id628070.help.text
+msgid ""
+"If the Wiki allows anonymous access, you can leave the account text boxes "
+"empty. Else enter your user name and password."
+msgstr ""
+"Якщо Wiki дозволяє анонімні записи, залиште поля інформації про обліковий "
+"запис порожніми. У іншому випадку введіть ім'я користувача та пароль."
+
+#: wikiaccount.xhp#par_id9046601.help.text
+#: wikiaccount.xhp%23par_id9046601.help.text
+msgid ""
+"If you have enabled the master password feature on the Security tab page of "
+"the Tools - Options - %PRODUCTNAME dialog, then the software can store your "
+"password and automatically insert the data where necessary. Enable the \""
+"Save password\" checkbox to store your password."
+msgstr ""
+"Якщо ви ввімкнули функцію головного пароля на сторінці вкладки \"Безпека\" "
+"діалогового вікна \"Засоби\" — \"Параметри\" — %PRODUCTNAME, програмне "
+"забезпечення може зберігати ваш пароль і автоматично вставляти дані, де це "
+"необхідно. Поставте прапорець \"Зберегти пароль\", щоб зберегти пароль."
 
 #: wikisend.xhp#tit.help.text
 #: wikisend.xhp%23tit.help.text
@@ -844,6 +788,81 @@ msgid ""
 "<emph>Show in web browser</emph>: <ahelp hid=\".\">Check this box to open "
 "your system web browser and show the uploaded Wiki page.</ahelp>"
 msgstr ""
-"<emph>Показати у веб-навігаторі</emph>: <ahelp hid=\".\">Відмітьте цей "
-"параметр для відкриття веб-навігатора та показу завантаженої "
+"<emph>Показати у веб-браузері</emph>: <ahelp hid=\".\">Відмітьте цей "
+"параметр для відкриття веб-браузера та показу завантаженої "
 "Wiki-сторінки.</ahelp>"
+
+#: wikisettings.xhp#tit.help.text
+#: wikisettings.xhp%23tit.help.text
+msgctxt "wikisettings.xhp#tit.help.text"
+msgid "MediaWiki Options"
+msgstr "Параметри MediaWiki"
+
+#: wikisettings.xhp#hd_id6425672.help.text
+#: wikisettings.xhp%23hd_id6425672.help.text
+msgctxt "wikisettings.xhp#hd_id6425672.help.text"
+msgid "MediaWiki Options"
+msgstr "Параметри MediaWiki"
+
+#: wikisettings.xhp#par_id1188390.help.text
+#: wikisettings.xhp%23par_id1188390.help.text
+msgid ""
+"You can add, edit and remove MediaWiki servers. Open the dialog by <item "
+"type=\"menuitem\">Tools - Options - Internet - MediaWiki</item>. "
+"Alternatively, choose <item type=\"menuitem\">Tools - Extension "
+"Manager</item>, select the @WIKIEXTENSIONPRODUCTNAME@, and click the Options "
+"button."
+msgstr ""
+"Ви можете додавати, редагувати або видаляти сервери MediaWiki. Відкрийте "
+"діалог <item type=\"menuitem\">Засоби - Параметри - Інтернет - "
+"MediaWiki</item>. Також можна скористатись командою <item type=\"menuitem\">"
+"Засоби - Керування розширеннями</item>, виберіть @WIKIEXTENSIONPRODUCTNAME@ "
+"та натисніть кнопку «Параметри»."
+
+#: wikisettings.xhp#par_id300607.help.text
+#: wikisettings.xhp%23par_id300607.help.text
+msgid ""
+"<ahelp hid=\".\">Click Add to add a new Wiki server.<br/>Select an entry and "
+"click Edit to edit the account settings.<br/>Select an entry and click "
+"Remove to remove the entry from the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\">Натисніть «Додати» для додавання нового сервера Wiki.<br/>"
+"Виберіть елемент та натисніть «Редагувати» для редагування налаштувань "
+"облікового запису.<br/>Виберіть елемент та натисніть «Видалити» для "
+"видалення елементу зі списку.</ahelp>"
+
+#: wikisettings.xhp#par_id9786065.help.text
+#: wikisettings.xhp%23par_id9786065.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to add a "
+"new entry to the list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Відкриває діалог MediaWiki для "
+"додавання нового елементу до списку.</ahelp>"
+
+#: wikisettings.xhp#par_id3386333.help.text
+#: wikisettings.xhp%23par_id3386333.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Opens the MediaWiki dialog to edit "
+"the selected entry.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Відкриває діалог MediaWiki для "
+"редагування вибраного елементу.</ahelp>"
+
+#: wikisettings.xhp#par_id7285073.help.text
+#: wikisettings.xhp%23par_id7285073.help.text
+msgid ""
+"<ahelp hid=\".\" visibility=\"hidden\">Removes the selected entry from the "
+"list.</ahelp>"
+msgstr ""
+"<ahelp hid=\".\" visibility=\"hidden\">Видаляє вибраний елементу зі "
+"списку.</ahelp>"
+
+#: wikisettings.xhp#par_id1029084.help.text
+#: wikisettings.xhp%23par_id1029084.help.text
+msgid ""
+"When you click Add or Edit, the <link href=\"@WIKIEXTENSIONID@/wikiaccount."
+"xhp\">MediaWiki</link> dialog opens."
+msgstr ""
+"Після натиску на «Додати» чи «Редагування» з'явиться діалогове вікно <link "
+"href=\"@WIKIEXTENSIONID@/wikiaccount.xhp\">MediaWiki</link>."

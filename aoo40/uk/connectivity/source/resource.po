@@ -5,16 +5,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+connectivity%2Fsource%2Fresource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-07-11 18:35+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-09-20 14:00+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1663682400.000000\n"
 
 #: conn_error_message.src#256___2_100___0.string.text
 #: conn_error_message.src%23256___2_100___0.string.text
@@ -118,10 +122,10 @@ msgid "An error occurred while executing the query."
 msgstr "Помилка при виконанні запиту."
 
 #: conn_shared_res.src#STR_MOZILLA_IS_RUNNIG_NO_CHANGES.string.text
-#: conn_shared_res.src%23STR_MOZILLA_IS_RUNNIG_NO_CHANGES.string.text
 msgid ""
-"You can't make any changes to mozilla address book when mozilla is running."
-msgstr "Не можна вносити зміни до адресної книги Mozill, доки запущено Mozilla."
+"You can't make any changes to Mozilla address book when Mozilla is running."
+msgstr ""
+"Ви не можете вносити зміни в адресну книгу Mozilla, коли Mozilla працює."
 
 #: conn_shared_res.src#STR_FOREIGN_PROCESS_CHANGED_AB.string.text
 #: conn_shared_res.src%23STR_FOREIGN_PROCESS_CHANGED_AB.string.text
@@ -170,7 +174,7 @@ msgstr "Неможливо створити нову адресну книгу. 
 #: conn_shared_res.src#STR_COULD_NOT_LOAD_LIB.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_LOAD_LIB.string.text
 msgid "The library '$libname$' could not be loaded."
-msgstr "Файл $filename$ не може бути перезавантажений."
+msgstr "Не вдалося завантажити бібліотеку \"$libname$\"."
 
 #: conn_shared_res.src#STR_ERROR_REFRESH_ROW.string.text
 #: conn_shared_res.src%23STR_ERROR_REFRESH_ROW.string.text
@@ -513,7 +517,7 @@ msgstr ""
 #: conn_shared_res.src%23STR_COULD_NOT_CREATE_INDEX_KEYSIZE.string.text
 msgid ""
 "The index could not be created. The size of the chosen column is too big."
-msgstr "Індекс не вдалося створити. Розмір обраної колонки є занадто великим."
+msgstr "Індекс не вдалося створити. Розмір обраного стовпця є занадто великим."
 
 #: conn_shared_res.src#STR_SQL_NAME_ERROR.string.text
 #: conn_shared_res.src%23STR_SQL_NAME_ERROR.string.text
@@ -528,7 +532,7 @@ msgstr "Файл $filename$ не може бути перезавантажен�
 #: conn_shared_res.src#STR_INVALID_COLUMN_TYPE.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_TYPE.string.text
 msgid "Invalid column type for column '$columnname$'."
-msgstr "Невірний тип стовпця для стовпця '$columnname$'."
+msgstr "Невірний тип для стовпця '$columnname$'."
 
 #: conn_shared_res.src#STR_INVALID_COLUMN_PRECISION.string.text
 #: conn_shared_res.src%23STR_INVALID_COLUMN_PRECISION.string.text
@@ -558,6 +562,10 @@ msgid ""
 "\n"
 "The specified value \"$value$ is longer than the number of digits allowed."
 msgstr ""
+"Стовпець '$columnname$' було визначено як \"Decimal\", макс. довжина "
+"становить $precision$ символів (з $scale$ знаками після коми).\n"
+"\n"
+"Указане значення \"$value$ перевищує дозволену кількість цифр."
 
 #: conn_shared_res.src#STR_COLUMN_NOT_ALTERABLE.string.text
 #: conn_shared_res.src%23STR_COLUMN_NOT_ALTERABLE.string.text
@@ -592,6 +600,8 @@ msgid ""
 "The column at position '$position$' could not be dropped. May be the file "
 "system is write protected."
 msgstr ""
+"Не вдалося видалити стовпець у позиції \"$position$\". Можливо, файлова "
+"система захищена від запису."
 
 #: conn_shared_res.src#STR_TABLE_NOT_DROP.string.text
 #: conn_shared_res.src%23STR_TABLE_NOT_DROP.string.text
@@ -599,27 +609,27 @@ msgid ""
 "The table '$tablename$' could not be dropped. May be the file system is "
 "write protected."
 msgstr ""
+"Не вдалося видалити таблицю \"$tablename$\". Можливо, файлова система "
+"захищена від запису."
 
 #: conn_shared_res.src#STR_COULD_NOT_ALTER_TABLE.string.text
 #: conn_shared_res.src%23STR_COULD_NOT_ALTER_TABLE.string.text
-#, fuzzy
 msgid "The table could not be altered."
-msgstr "Неможливо конвертувати тип."
+msgstr "Таблиця не може бути зміненою."
 
 #: conn_shared_res.src#STR_INVALID_DBASE_FILE.string.text
-#: conn_shared_res.src%23STR_INVALID_DBASE_FILE.string.text
-msgid "The file '$filename$' is an invalid (or unrecognized) dBase file."
-msgstr ""
+msgid "The file '$filename$' is an invalid (or unrecognized) dBASE file."
+msgstr "Файл '$filename$' є недійсним (або нерозпізнаним) файлом dBASE."
 
 #: conn_shared_res.src#STR_CANNOT_OPEN_BOOK.string.text
 #: conn_shared_res.src%23STR_CANNOT_OPEN_BOOK.string.text
 msgid "Cannot open Evolution address book."
-msgstr ""
+msgstr "Не вдається відкрити адресну книгу Evolution."
 
 #: conn_shared_res.src#STR_SORT_BY_COL_ONLY.string.text
 #: conn_shared_res.src%23STR_SORT_BY_COL_ONLY.string.text
 msgid "Can only sort by table columns."
-msgstr ""
+msgstr "Можна сортувати лише за стовпцями таблиці."
 
 #: conn_shared_res.src#STR_QUERY_COMPLEX_COUNT.string.text
 #: conn_shared_res.src%23STR_QUERY_COMPLEX_COUNT.string.text
@@ -627,100 +637,100 @@ msgid ""
 "The query can not be executed. It is too complex. Only \"COUNT(*)\" is "
 "supported."
 msgstr ""
+"Запит не може бути виконано. Це занадто складно. Підтримується лише \""
+"COUNT(*)\"."
 
 #: conn_shared_res.src#STR_QUERY_INVALID_BETWEEN.string.text
 #: conn_shared_res.src%23STR_QUERY_INVALID_BETWEEN.string.text
 msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
-msgstr ""
+msgstr "Запит не може бути виконано. Аргументи \"BETWEEN\" неправильні."
 
 #: conn_shared_res.src#STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 #: conn_shared_res.src%23STR_QUERY_FUNCTION_NOT_SUPPORTED.string.text
 msgid "The query can not be executed. The function is not supported."
-msgstr ""
+msgstr "Запит не може бути виконаний. Функція не підтримується."
 
 #: conn_shared_res.src#STR_TABLE_READONLY.string.text
 #: conn_shared_res.src%23STR_TABLE_READONLY.string.text
 msgid "The table can not be changed. It is read only."
-msgstr ""
+msgstr "Таблицю змінити не можна. Вона лише для читання."
 
 #: conn_shared_res.src#STR_DELETE_ROW.string.text
 #: conn_shared_res.src%23STR_DELETE_ROW.string.text
 msgid ""
 "The row could not be deleted. The option \"Display inactive records\" is set."
 msgstr ""
+"Не вдалося видалити рядок. Встановлено опцію «Відображати неактивні записи»."
 
 #: conn_shared_res.src#STR_ROW_ALREADY_DELETED.string.text
 #: conn_shared_res.src%23STR_ROW_ALREADY_DELETED.string.text
 msgid "The row could not be deleted. It is already deleted."
-msgstr ""
+msgstr "Не вдалося видалити рядок. Він уже видалений."
 
 #: conn_shared_res.src#STR_QUERY_MORE_TABLES.string.text
 #: conn_shared_res.src%23STR_QUERY_MORE_TABLES.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains more than one table."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконано. Він містить більше однієї таблиці."
 
 #: conn_shared_res.src#STR_QUERY_NO_TABLE.string.text
 #: conn_shared_res.src%23STR_QUERY_NO_TABLE.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains no valid table."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконано. Він не містить дійсної таблиці."
 
 #: conn_shared_res.src#STR_QUERY_NO_COLUMN.string.text
 #: conn_shared_res.src%23STR_QUERY_NO_COLUMN.string.text
-#, fuzzy
 msgid "The query can not be executed. It contains no valid columns."
-msgstr "Запит неможливо виконати. Потрібна хоча б одна таблиця."
+msgstr "Запит не може бути виконано. Він не містить дійсних стовпців."
 
 #: conn_shared_res.src#STR_INVALID_PARA_COUNT.string.text
 #: conn_shared_res.src%23STR_INVALID_PARA_COUNT.string.text
 msgid "The count of the given parameter values doesn't match the parameters."
-msgstr ""
+msgstr "Кількість заданих значень параметра не відповідає параметрам."
 
 #: conn_shared_res.src#STR_NO_VALID_FILE_URL.string.text
 #: conn_shared_res.src%23STR_NO_VALID_FILE_URL.string.text
 msgid "The URL '$URL$' is not valid. A connection can not be created."
-msgstr ""
+msgstr "URL-адреса \"$URL$\" недійсна. Не вдається створити підключення."
 
 #: conn_shared_res.src#STR_NO_CLASSNAME.string.text
 #: conn_shared_res.src%23STR_NO_CLASSNAME.string.text
 msgid "The driver class '$classname$' could not be loaded."
-msgstr ""
+msgstr "Не вдалося завантажити клас драйвера \"$classname$\"."
 
 #: conn_shared_res.src#STR_NO_JAVA.string.text
 #: conn_shared_res.src%23STR_NO_JAVA.string.text
 msgid "No Java installation could be found. Please check your installation."
-msgstr ""
+msgstr "Не вдалося знайти інсталяцію Java. Перевірте встановлення."
 
 #: conn_shared_res.src#STR_NO_RESULTSET.string.text
 #: conn_shared_res.src%23STR_NO_RESULTSET.string.text
 msgid "The execution of the query doesn't return a valid result set."
-msgstr ""
+msgstr "Виконання запиту не повертає дійсний набір результатів."
 
 #: conn_shared_res.src#STR_NO_ROWCOUNT.string.text
 #: conn_shared_res.src%23STR_NO_ROWCOUNT.string.text
 msgid "The execution of the update statement doesn't effect any rows."
-msgstr ""
+msgstr "Виконання оператора оновлення не впливає на жодні рядки."
 
 #: conn_shared_res.src#STR_NO_CLASSNAME_PATH.string.text
 #: conn_shared_res.src%23STR_NO_CLASSNAME_PATH.string.text
 msgid "The additional driver class path is '$classpath$'."
-msgstr ""
+msgstr "Додатковий шлях до класу драйвера — \"$classpath$\"."
 
 #: conn_shared_res.src#STR_UNKNOWN_PARA_TYPE.string.text
 #: conn_shared_res.src%23STR_UNKNOWN_PARA_TYPE.string.text
 msgid "The type of parameter at position '$position$' is unknown."
-msgstr ""
+msgstr "Тип параметра в позиції \"$position$\" невідомий."
 
 #: conn_shared_res.src#STR_UNKNOWN_COLUMN_TYPE.string.text
 #: conn_shared_res.src%23STR_UNKNOWN_COLUMN_TYPE.string.text
 msgid "The type of column at position '$position$' is unknown."
-msgstr ""
+msgstr "Тип стовпця в позиції \"$position$\" невідомий."
 
 #: conn_shared_res.src#STR_NO_KDE_INST.string.text
 #: conn_shared_res.src%23STR_NO_KDE_INST.string.text
 msgid "No suitable KDE installation was found."
-msgstr ""
+msgstr "Відповідної інсталяції KDE не знайдено."
 
 #: conn_shared_res.src#STR_KDE_VERSION_TOO_OLD.string.text
 #: conn_shared_res.src%23STR_KDE_VERSION_TOO_OLD.string.text
@@ -728,6 +738,8 @@ msgid ""
 "KDE version $major$.$minor$ or higher is required to access the KDE Address "
 "Book."
 msgstr ""
+"Для доступу до адресної книги KDE потрібна версія KDE $major$.$minor$ або "
+"вище."
 
 #: conn_shared_res.src#STR_KDE_VERSION_TOO_NEW.string.text
 #: conn_shared_res.src%23STR_KDE_VERSION_TOO_NEW.string.text
@@ -735,6 +747,8 @@ msgid ""
 "The found KDE version is too new. Only KDE up to version $major$.$minor$ is "
 "known to work with this product.\n"
 msgstr ""
+"Знайдена версія KDE занадто нова. Відомо, що з цим продуктом працює лише KDE "
+"до версії $major$.$minor$.\n"
 
 #: conn_shared_res.src#STR_KDE_VERSION_TOO_NEW_WORK_AROUND.string.text
 #: conn_shared_res.src%23STR_KDE_VERSION_TOO_NEW_WORK_AROUND.string.text
@@ -743,21 +757,24 @@ msgid ""
 "Basic macro to disable this version check:\n"
 "\n"
 msgstr ""
+"Якщо ви впевнені, що ваша версія KDE працює, ви можете виконати наступний "
+"Basic макрос, щоб вимкнути цю перевірку версії:\n"
+"\n"
 
 #: conn_shared_res.src#STR_PARA_ONLY_PREPARED.string.text
 #: conn_shared_res.src%23STR_PARA_ONLY_PREPARED.string.text
 msgid "Parameters can appear only in prepared statements."
-msgstr ""
+msgstr "Параметри можуть з'являтися лише в підготовлених запитах."
 
 #: conn_shared_res.src#STR_NO_TABLE.string.text
 #: conn_shared_res.src%23STR_NO_TABLE.string.text
 msgid "No such table!"
-msgstr ""
+msgstr "Такої таблиці немає!"
 
 #: conn_shared_res.src#STR_NO_MAC_OS_FOUND.string.text
 #: conn_shared_res.src%23STR_NO_MAC_OS_FOUND.string.text
 msgid "No suitable Mac OS installation was found."
-msgstr ""
+msgstr "Відповідної інсталяції Mac OS не знайдено."
 
 #: conn_shared_res.src#STR_NO_DISK_SPACE.string.text
 #: conn_shared_res.src%23STR_NO_DISK_SPACE.string.text
@@ -765,6 +782,8 @@ msgid ""
 "The database file '$filename$' could not be created. Please check your disk "
 "space."
 msgstr ""
+"Не вдалося створити файл бази даних \"$filename$\". Будь ласка, перевірте "
+"місце на диску."
 
 #: conn_shared_res.src#STR_COMMAND_NOT_FOUND.string.text
 #: conn_shared_res.src%23STR_COMMAND_NOT_FOUND.string.text
@@ -772,6 +791,8 @@ msgid ""
 "The database '$databasename$' could not be started because the command "
 "'$progname$' could not be executed."
 msgstr ""
+"Не вдалося запустити базу даних \"$databasename$\", оскільки не вдалося "
+"виконати команду \"$progname$\"."
 
 #: conn_shared_res.src#STR_DATABASE_NEEDS_CONVERTING.string.text
 #: conn_shared_res.src%23STR_DATABASE_NEEDS_CONVERTING.string.text
@@ -779,6 +800,8 @@ msgid ""
 "The current database needs to be converted. Please insert control user and "
 "password."
 msgstr ""
+"Поточну базу даних потрібно конвертувати. Будь ласка, введіть контрольного "
+"користувача та пароль."
 
 #: conn_shared_res.src#STR_USER_NO_DELETE.string.text
 #: conn_shared_res.src%23STR_USER_NO_DELETE.string.text
@@ -786,11 +809,13 @@ msgid ""
 "This user couldn't be deleted. Otherwise the database stays in a "
 "inconsistent state."
 msgstr ""
+"Не вдалося видалити цього користувача. Інакше база даних залишається в "
+"неузгодженому стані."
 
 #: conn_shared_res.src#STR_NO_STROAGE.string.text
 #: conn_shared_res.src%23STR_NO_STROAGE.string.text
 msgid "The connection can not be established. No storage or URL was given."
-msgstr ""
+msgstr "Не вдається встановити з'єднання. Сховища чи URL-адреси не надано."
 
 #: conn_shared_res.src#STR_INVALID_FILE_URL.string.text
 #: conn_shared_res.src%23STR_INVALID_FILE_URL.string.text
@@ -798,23 +823,25 @@ msgid ""
 "The given URL contains no valid local file system path. Please check the "
 "location of your database file."
 msgstr ""
+"Наведена URL-адреса не містить дійсного шляху до локальної файлової системи. "
+"Перевірте розташування файлу вашої бази даних."
 
 #: conn_shared_res.src#STR_NO_TABLE_CONTAINER.string.text
 #: conn_shared_res.src%23STR_NO_TABLE_CONTAINER.string.text
 msgid "An error occurred while obtaining the connection's table container."
-msgstr ""
+msgstr "Під час отримання контейнера таблиці підключення сталася помилка."
 
 #: conn_shared_res.src#STR_NO_TABLE_EDITOR_DIALOG.string.text
 #: conn_shared_res.src%23STR_NO_TABLE_EDITOR_DIALOG.string.text
 msgid "An error occurred while creating the table editor dialog."
-msgstr ""
+msgstr "Під час створення діалогового вікна редактора таблиць сталася помилка."
 
 #: conn_shared_res.src#STR_NO_TABLENAME.string.text
 #: conn_shared_res.src%23STR_NO_TABLENAME.string.text
 msgid "There is no table named '$tablename$'."
-msgstr ""
+msgstr "Немає таблиці з назвою \"$tablename$\"."
 
 #: conn_shared_res.src#STR_NO_DOCUMENTUI.string.text
 #: conn_shared_res.src%23STR_NO_DOCUMENTUI.string.text
 msgid "The provided DocumentUI is not allowed to be NULL."
-msgstr ""
+msgstr "Наданий DocumentUI не може мати значення NULL."

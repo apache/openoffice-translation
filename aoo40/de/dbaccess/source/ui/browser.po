@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fbrowser.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-08-21 17:11+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2021-04-30 10:18+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,11 +16,127 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: bcommon.src#RID_STR_TBL_TITLE.string.text
-#: bcommon.src%23RID_STR_TBL_TITLE.string.text
-msgctxt "bcommon.src#RID_STR_TBL_TITLE.string.text"
-msgid "Table #"
-msgstr "Tabelle #"
+#: sbabrw.src#QUERY_BRW_SAVEMODIFIED.querybox.text
+#: sbabrw.src%23QUERY_BRW_SAVEMODIFIED.querybox.text
+msgid ""
+"The current record has been changed.\n"
+"Do you want to save the changes?"
+msgstr ""
+"Der aktuelle Datensatz wurde geändert.\n"
+"Sollen die Änderungen gespeichert werden?"
+
+#: sbabrw.src#QUERY_BRW_DELETE_ROWS.querybox.text
+#: sbabrw.src%23QUERY_BRW_DELETE_ROWS.querybox.text
+msgid "Do you want to delete the selected data?"
+msgstr "Sollen die selektierten Daten gelöscht werden?"
+
+#: sbabrw.src#RID_STR_DATABROWSER_FILTERED.string.text
+#: sbabrw.src%23RID_STR_DATABROWSER_FILTERED.string.text
+msgid "(filtered)"
+msgstr "(gefiltert)"
+
+#: sbabrw.src#SBA_BROWSER_SETTING_ORDER.string.text
+#: sbabrw.src%23SBA_BROWSER_SETTING_ORDER.string.text
+msgid "Error setting the sort criteria"
+msgstr "Fehler beim Setzen der Sortier-Kriterien"
+
+#: sbabrw.src#SBA_BROWSER_SETTING_FILTER.string.text
+#: sbabrw.src%23SBA_BROWSER_SETTING_FILTER.string.text
+msgid "Error setting the filter criteria"
+msgstr "Fehler beim Setzen der Filter-Kriterien"
+
+#: sbabrw.src#RID_STR_CONNECTION_LOST.string.text
+#: sbabrw.src%23RID_STR_CONNECTION_LOST.string.text
+msgid "Connection lost"
+msgstr "Vebindung verloren"
+
+#: sbabrw.src#RID_STR_QUERIES_CONTAINER.string.text
+#: sbabrw.src%23RID_STR_QUERIES_CONTAINER.string.text
+msgid "Queries"
+msgstr "Abfragen"
+
+#: sbabrw.src#RID_STR_TABLES_CONTAINER.string.text
+#: sbabrw.src%23RID_STR_TABLES_CONTAINER.string.text
+msgid "Tables"
+msgstr "Tabellen"
+
+#: sbabrw.src#MID_EDIT_DATABASE.#define.text
+#: sbabrw.src%23MID_EDIT_DATABASE.%23define.text
+msgid "Edit ~Database File..."
+msgstr "~Datenbankdatei bearbeiten …"
+
+#: sbabrw.src#MID_ADMINISTRATE.#define.text
+msgid "Registered databases..."
+msgstr "Registrierte Datenbanken …"
+
+#: sbabrw.src#MID_CLOSECONN.#define.text
+#: sbabrw.src%23MID_CLOSECONN.%23define.text
+msgid "Disco~nnect"
+msgstr "Verbindung s~chließen"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_TITLE_CONFIRM_DELETION.string.text
+#: sbabrw.src%23STR_TITLE_CONFIRM_DELETION.string.text
+msgid "Confirm Deletion"
+msgstr "Löschen bestätigen"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_QUERY_DELETE_TABLE.string.text
+#: sbabrw.src%23STR_QUERY_DELETE_TABLE.string.text
+msgid "Do you want to delete the table '%1'?"
+msgstr "Soll die Tabelle '%1' gelöscht werden?"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.QUERY_BRW_DELETE_QUERY_CONFIRM.querybox.text
+#: sbabrw.src%23QUERY_BRW_DELETE_QUERY_CONFIRM.querybox.text
+msgid "The query already exists. Do you want to delete it?"
+msgstr "Die Abfrage existiert bereits. Soll sie gelöscht werden?"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.QUERY_CONNECTION_LOST.querybox.text
+#: sbabrw.src%23QUERY_CONNECTION_LOST.querybox.text
+msgid "The connection to the database has been lost. Do you want to reconnect?"
+msgstr ""
+"Die Verbindung zur Datenbank wurde gelöscht! Soll Sie wieder aufgebaut "
+"werden?"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_OPENTABLES_WARNINGS.string.text
+#: sbabrw.src%23STR_OPENTABLES_WARNINGS.string.text
+msgid "Warnings encountered"
+msgstr "Warnungen aufgetreten."
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_OPENTABLES_WARNINGS_DETAILS.string.text
+#: sbabrw.src%23STR_OPENTABLES_WARNINGS_DETAILS.string.text
+msgid ""
+"While retrieving the tables, warnings were reported by the database "
+"connection."
+msgstr ""
+"Beim Ermitteln der Tabellen wurden von der Datenbankverbindung Warnungen "
+"gemeldet."
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_CONNECTING_DATASOURCE.string.text
+msgid "Connecting to \"$name$\"..."
+msgstr "Verbindungsaufbau zu \"$name$\" …"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_LOADING_QUERY.string.text
+msgid "Loading query $name$..."
+msgstr "Lade Abfrage $name$ …"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_LOADING_TABLE.string.text
+msgid "Loading table $name$..."
+msgstr "Lade Tabelle $name$ …"
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_NO_TABLE_FORMAT_INSIDE.string.text
+#: sbabrw.src%23STR_NO_TABLE_FORMAT_INSIDE.string.text
+msgid "No table format could be found."
+msgstr "Es konnte kein Tabellenformat gefunden werden."
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_COULDNOTCONNECT_DATASOURCE.string.text
+#: sbabrw.src%23STR_COULDNOTCONNECT_DATASOURCE.string.text
+msgid "The connection to the data source \"$name$\" could not be established."
+msgstr ""
+"Die Verbindung zur Datenquelle \"$name$\" konnte nicht hergestellt werden."
+
+#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.RID_MENU_REFRESH_DATA.ID_BROWSER_REFRESH_REBUILD.menuitem.text
+#: sbabrw.src%23RID_MENU_REFRESH_DATA.ID_BROWSER_REFRESH_REBUILD.menuitem.text
+msgid "Rebuild"
+msgstr "Neu aufbauen"
 
 #: sbagrid.src#RID_SBA_GRID_COLCTXMENU.ID_BROWSER_COLATTRSET.menuitem.text
 #: sbagrid.src%23RID_SBA_GRID_COLCTXMENU.ID_BROWSER_COLATTRSET.menuitem.text
@@ -93,124 +209,8 @@ msgstr "Tabellenansicht der Datenquelle"
 msgid "Shows the selected table or query."
 msgstr "Zeigt die ausgewählte Tabelle oder Abfrage an."
 
-#: sbabrw.src#QUERY_BRW_SAVEMODIFIED.querybox.text
-#: sbabrw.src%23QUERY_BRW_SAVEMODIFIED.querybox.text
-msgid ""
-"The current record has been changed.\n"
-"Do you want to save the changes?"
-msgstr ""
-"Der aktuelle Datensatz wurde geändert.\n"
-"Sollen die Änderungen gespeichert werden?"
-
-#: sbabrw.src#QUERY_BRW_DELETE_ROWS.querybox.text
-#: sbabrw.src%23QUERY_BRW_DELETE_ROWS.querybox.text
-msgid "Do you want to delete the selected data?"
-msgstr "Sollen die selektierten Daten gelöscht werden?"
-
-#: sbabrw.src#RID_STR_DATABROWSER_FILTERED.string.text
-#: sbabrw.src%23RID_STR_DATABROWSER_FILTERED.string.text
-msgid "(filtered)"
-msgstr "(gefiltert)"
-
-#: sbabrw.src#SBA_BROWSER_SETTING_ORDER.string.text
-#: sbabrw.src%23SBA_BROWSER_SETTING_ORDER.string.text
-msgid "Error setting the sort criteria"
-msgstr "Fehler beim Setzen der Sortier-Kriterien"
-
-#: sbabrw.src#SBA_BROWSER_SETTING_FILTER.string.text
-#: sbabrw.src%23SBA_BROWSER_SETTING_FILTER.string.text
-msgid "Error setting the filter criteria"
-msgstr "Fehler beim Setzen der Filter-Kriterien"
-
-#: sbabrw.src#RID_STR_CONNECTION_LOST.string.text
-#: sbabrw.src%23RID_STR_CONNECTION_LOST.string.text
-msgid "Connection lost"
-msgstr "Vebindung verloren"
-
-#: sbabrw.src#RID_STR_QUERIES_CONTAINER.string.text
-#: sbabrw.src%23RID_STR_QUERIES_CONTAINER.string.text
-msgid "Queries"
-msgstr "Abfragen"
-
-#: sbabrw.src#RID_STR_TABLES_CONTAINER.string.text
-#: sbabrw.src%23RID_STR_TABLES_CONTAINER.string.text
-msgid "Tables"
-msgstr "Tabellen"
-
-#: sbabrw.src#MID_EDIT_DATABASE.#define.text
-#: sbabrw.src%23MID_EDIT_DATABASE.%23define.text
-msgid "Edit ~Database File..."
-msgstr "~Datenbankdatei bearbeiten …"
-
-#: sbabrw.src#MID_ADMINISTRATE.#define.text
-msgid "Registered databases..."
-msgstr ""
-
-#: sbabrw.src#MID_CLOSECONN.#define.text
-#: sbabrw.src%23MID_CLOSECONN.%23define.text
-msgid "Disco~nnect"
-msgstr "Verbindung s~chließen"
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_TITLE_CONFIRM_DELETION.string.text
-#: sbabrw.src%23STR_TITLE_CONFIRM_DELETION.string.text
-msgid "Confirm Deletion"
-msgstr "Löschen bestätigen"
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_QUERY_DELETE_TABLE.string.text
-#: sbabrw.src%23STR_QUERY_DELETE_TABLE.string.text
-msgid "Do you want to delete the table '%1'?"
-msgstr "Soll die Tabelle '%1' gelöscht werden?"
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.QUERY_BRW_DELETE_QUERY_CONFIRM.querybox.text
-#: sbabrw.src%23QUERY_BRW_DELETE_QUERY_CONFIRM.querybox.text
-msgid "The query already exists. Do you want to delete it?"
-msgstr "Die Abfrage existiert bereits. Soll sie gelöscht werden?"
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.QUERY_CONNECTION_LOST.querybox.text
-#: sbabrw.src%23QUERY_CONNECTION_LOST.querybox.text
-msgid "The connection to the database has been lost. Do you want to reconnect?"
-msgstr ""
-"Die Verbindung zur Datenbank wurde gelöscht! Soll Sie wieder aufgebaut "
-"werden?"
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_OPENTABLES_WARNINGS.string.text
-#: sbabrw.src%23STR_OPENTABLES_WARNINGS.string.text
-msgid "Warnings encountered"
-msgstr "Warnungen aufgetreten."
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_OPENTABLES_WARNINGS_DETAILS.string.text
-#: sbabrw.src%23STR_OPENTABLES_WARNINGS_DETAILS.string.text
-msgid ""
-"While retrieving the tables, warnings were reported by the database "
-"connection."
-msgstr ""
-"Beim Ermitteln der Tabellen wurden von der Datenbankverbindung Warnungen "
-"gemeldet."
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_CONNECTING_DATASOURCE.string.text
-msgid "Connecting to \"$name$\"..."
-msgstr ""
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_LOADING_QUERY.string.text
-msgid "Loading query $name$..."
-msgstr ""
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_LOADING_TABLE.string.text
-msgid "Loading table $name$..."
-msgstr ""
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_NO_TABLE_FORMAT_INSIDE.string.text
-#: sbabrw.src%23STR_NO_TABLE_FORMAT_INSIDE.string.text
-msgid "No table format could be found."
-msgstr "Es konnte kein Tabellenformat gefunden werden."
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.STR_COULDNOTCONNECT_DATASOURCE.string.text
-#: sbabrw.src%23STR_COULDNOTCONNECT_DATASOURCE.string.text
-msgid "The connection to the data source \"$name$\" could not be established."
-msgstr ""
-"Die Verbindung zur Datenquelle \"$name$\" konnte nicht hergestellt werden."
-
-#: sbabrw.src#MENU_BROWSER_DEFAULTCONTEXT.RID_MENU_REFRESH_DATA.ID_BROWSER_REFRESH_REBUILD.menuitem.text
-#: sbabrw.src%23RID_MENU_REFRESH_DATA.ID_BROWSER_REFRESH_REBUILD.menuitem.text
-msgid "Rebuild"
-msgstr "Neu aufbauen"
+#: bcommon.src#RID_STR_TBL_TITLE.string.text
+#: bcommon.src%23RID_STR_TBL_TITLE.string.text
+msgctxt "bcommon.src#RID_STR_TBL_TITLE.string.text"
+msgid "Table #"
+msgstr "Tabelle #"

@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Ffldui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-08-02 18:03+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-05-28 16:28+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,126 +18,207 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1659463382.000000\n"
+"X-POOTLE-MTIME: 1685291312.000000\n"
 
-#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
-#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
-msgid "Input"
-msgstr "Ввід"
-
-#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
-#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
 msgid "Edit"
 msgstr "Редагування"
 
-#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
 msgid "~Next"
 msgstr "Д~алі"
 
-#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
-#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
-msgid "Input Field"
-msgstr "Поле вводу"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+msgid "~Edit"
+msgstr "~Редагування"
 
-#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
+msgid "Choose Item: "
+msgstr "Вибір елемента: "
+
+#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+msgid "Exchange databases"
+msgstr "Замінити бази даних"
+
+#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+msgid "Databases in Use"
+msgstr "Використані бази даних"
+
+#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+msgid "Available Databases"
+msgstr "Доступні бази даних"
+
+#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
+msgid "Browse..."
+msgstr "Огляд..."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
+msgid ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+msgstr ""
+"Використовуйте це діалогове вікно, щоб замінити бази даних, до яких ви "
+"отримуєте доступ у своєму документі через їхні поля, іншими базами даних. За "
+"один раз можна внести лише одну зміну. У списку ліворуч можливий вибір "
+"кількох варіантів.\n"
+"Використовуйте кнопку огляду, щоб вибрати файл бази даних."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+msgid "Database applied to document:"
+msgstr "База даних, що застосована до документа:"
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+msgid "Addresses.Addresses"
+msgstr "Адреси.Адреси"
+
+#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
+msgid "Define"
+msgstr "Встановити"
+
+#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "~Закрити"
+
+#: changedb.src#DLG_CHANGE_DB.modaldialog.text
+#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
+msgid "Exchange Databases"
+msgstr "Замінити бази даних"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
 msgid "~Type"
 msgstr "~Тип"
 
-#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "~Вибрати"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "Фор~мат"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
+msgid "O~ffset"
+msgstr "~Зсув"
+
+#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "~Фіксований вміст"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
+msgid "Offs~et in days"
+msgstr "З~сув у днях"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+msgid "Offs~et in minutes"
+msgstr "Зс~ув у хвилинах"
+
+#: flddok.src#TP_FLD_DOK.tabpage.text
+#: flddok.src%23TP_FLD_DOK.tabpage.text
+msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
+msgid "Document"
+msgstr "Документ"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Тип"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
 msgid "S~election"
 msgstr "~Вибір"
 
-#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-msgid "Insert ~reference to"
-msgstr "Вставити з~в'язок"
+#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
+msgid "Format"
+msgstr "Формат"
 
-#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+msgid "Invisi~ble"
+msgstr "~Невидимий"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+msgid "Numbering by chapter"
+msgstr "Нумерація по главах"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+msgid "~Level"
+msgstr "~Рівень"
+
+#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+msgid "None"
+msgstr "Немає"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+msgid "~Separator"
+msgstr "~Розділювач"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
 msgid "Na~me"
 msgstr "~Назва"
 
-#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
 msgid "~Value"
 msgstr "~Значення"
 
-#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "Закладки"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Застосувати"
 
-#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
-msgid "Footnotes"
-msgstr "Виноски"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+msgid "Delete"
+msgstr "Видалити"
 
-#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
-msgid "Endnotes"
-msgstr "Кінцева виноска"
-
-#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
-msgid "Headings"
-msgstr "Заголовки"
-
-#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
-msgid "Numbered Paragraphs"
-msgstr "Нумеровані абзаци"
-
-#: fldref.src#TP_FLD_REF.tabpage.text
-#: fldref.src%23TP_FLD_REF.tabpage.text
-msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
-msgid "Cross-references"
-msgstr "Перехресні посилання"
-
-#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-msgid "Script type"
-msgstr "Тип сценарію"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
-msgid "URL"
-msgstr "URL"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-msgid "~Text"
-msgstr "~Текст"
-
-#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-msgid "Contents"
-msgstr "Вміст"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
-msgid "Edit Script"
-msgstr "Редагування сценарію"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-msgid "Insert Script"
-msgstr "Вставити сценарій"
-
-#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
-#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
-msgid "Edit Script"
-msgstr "Редагування сценарію"
+#: fldvar.src#TP_FLD_VAR.tabpage.text
+#: fldvar.src%23TP_FLD_VAR.tabpage.text
+msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
+msgid "Variables"
+msgstr "Змінні"
 
 #: fldui.src#STR_FLD_EDIT_DLG.string.text
 #: fldui.src%23STR_FLD_EDIT_DLG.string.text
@@ -227,7 +308,7 @@ msgstr "Поле вводу (змінне)"
 #: fldui.src#STR_USRINPUTFLD.string.text
 #: fldui.src%23STR_USRINPUTFLD.string.text
 msgid "Input field (user)"
-msgstr "Поле вводу (користувацьке)"
+msgstr "Поле вводу (користувач)"
 
 #: fldui.src#STR_CONDTXTFLD.string.text
 #: fldui.src%23STR_CONDTXTFLD.string.text
@@ -267,7 +348,7 @@ msgstr "Завантажити URL"
 #: fldui.src#STR_JUMPEDITFLD.string.text
 #: fldui.src%23STR_JUMPEDITFLD.string.text
 msgid "Placeholder"
-msgstr "Місцезаповнювач"
+msgstr "Поле підстановки"
 
 #: fldui.src#STR_COMBINED_CHARS.string.text
 #: fldui.src%23STR_COMBINED_CHARS.string.text
@@ -292,7 +373,7 @@ msgstr "Вставити посилання"
 #: fldui.src#STR_DBFLD.string.text
 #: fldui.src%23STR_DBFLD.string.text
 msgid "Mail merge fields"
-msgstr "Поля розсилки"
+msgstr "Поля циркулярного листа"
 
 #: fldui.src#STR_DBNEXTSETFLD.string.text
 #: fldui.src%23STR_DBNEXTSETFLD.string.text
@@ -323,7 +404,7 @@ msgstr "Наступна сторінка"
 #: fldui.src#STR_HIDDENTXTFLD.string.text
 #: fldui.src%23STR_HIDDENTXTFLD.string.text
 msgid "Hidden text"
-msgstr "Схований текст"
+msgstr "Прихований текст"
 
 #: fldui.src#STR_USERFLD.string.text
 #: fldui.src%23STR_USERFLD.string.text
@@ -486,8 +567,7 @@ msgid "Tel. (Work)"
 msgstr "Teл. робочий"
 
 #: fldui.src#FLD_EU_FAX.string.text
-#: fldui.src%23FLD_EU_FAX.string.text
-msgid "FAX"
+msgid "Fax"
 msgstr "Факс"
 
 #: fldui.src#FLD_EU_EMAIL.string.text
@@ -508,7 +588,7 @@ msgstr "вимк"
 #: fldui.src#FLD_PAGEREF_ON.string.text
 #: fldui.src%23FLD_PAGEREF_ON.string.text
 msgid "on"
-msgstr "увімк"
+msgstr "увім"
 
 #: fldui.src#FMT_FF_NAME.string.text
 #: fldui.src%23FMT_FF_NAME.string.text
@@ -524,7 +604,7 @@ msgstr "Назва файлу без розширення"
 #: fldui.src#FMT_FF_PATHNAME.string.text
 #: fldui.src%23FMT_FF_PATHNAME.string.text
 msgid "Path/File name"
-msgstr "Шлях/Назва файлу"
+msgstr "Шляху/назва файлу"
 
 #: fldui.src#FMT_FF_PATH.string.text
 #: fldui.src%23FMT_FF_PATH.string.text
@@ -838,7 +918,126 @@ msgstr "Редагування"
 #: fldui.src#STR_CUSTOM.string.text
 #: fldui.src%23STR_CUSTOM.string.text
 msgid "Custom"
-msgstr "Налаштований"
+msgstr "Особливий"
+
+#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+msgid "Script type"
+msgstr "Тип сценарію"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
+msgid "URL"
+msgstr "URL"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+msgid "~Text"
+msgstr "~Текст"
+
+#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+msgid "Contents"
+msgstr "Вміст"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
+msgid "Edit Script"
+msgstr "Редагування сценарію"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+msgid "Insert Script"
+msgstr "Вставити сценарій"
+
+#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
+#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
+msgid "Edit Script"
+msgstr "Редагування сценарію"
+
+#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
+#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
+msgid "Input"
+msgstr "Ввід"
+
+#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
+#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+msgid "Edit"
+msgstr "Редагування"
+
+#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+msgid "~Next"
+msgstr "Д~алі"
+
+#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
+#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
+msgid "Input Field"
+msgstr "Поле вводу"
+
+#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Тип"
+
+#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+msgid "S~election"
+msgstr "~Вибір"
+
+#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+msgid "Insert ~reference to"
+msgstr "Вставте ~посилання на"
+
+#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+msgid "Na~me"
+msgstr "~Назва"
+
+#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+msgid "~Value"
+msgstr "~Значення"
+
+#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
+msgid "Footnotes"
+msgstr "Виноски"
+
+#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
+msgid "Endnotes"
+msgstr "Кінцева заувага"
+
+#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
+msgid "Headings"
+msgstr "Заголовки"
+
+#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
+msgid "Numbered Paragraphs"
+msgstr "Нумеровані абзаци"
+
+#: fldref.src#TP_FLD_REF.tabpage.text
+#: fldref.src%23TP_FLD_REF.tabpage.text
+msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
+msgid "Cross-references"
+msgstr "Перехресні посилання"
 
 #: flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text
 #: flddb.src%23TP_FLD_DB.FT_DBTYPE.fixedtext.text
@@ -872,7 +1071,7 @@ msgstr "Додати файл бази даних"
 #: flddb.src%23TP_FLD_DB.PB_ADDDB.pushbutton.text
 msgctxt "flddb.src#TP_FLD_DB.PB_ADDDB.pushbutton.text"
 msgid "Browse..."
-msgstr "Перегляд..."
+msgstr "Огляд..."
 
 #: flddb.src#TP_FLD_DB.RB_DBOWNFORMAT.radiobutton.text
 #: flddb.src%23TP_FLD_DB.RB_DBOWNFORMAT.radiobutton.text
@@ -896,27 +1095,115 @@ msgctxt "flddb.src#TP_FLD_DB.tabpage.text"
 msgid "Database"
 msgstr "База даних"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
-msgid "Edit"
-msgstr "Редагування"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Тип"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
-msgid "~Next"
-msgstr "Д~алі"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "~Вибрати"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-msgid "~Edit"
-msgstr "~Редагування"
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
+msgid "Author"
+msgstr "Автор"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
-msgid "Choose Item: "
-msgstr "Вибір елемента: "
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
+msgid "Time"
+msgstr "Час"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
+msgid "Date"
+msgstr "Дата"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+msgid "Date Time Author"
+msgstr "Дата Час Автор"
+
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "Фор~мат"
+
+#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "~Фіксований вміст"
+
+#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+msgid "Info"
+msgstr "Інформація"
+
+#: flddinf.src#TP_FLD_DOKINF.tabpage.text
+#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
+msgid "DocInformation"
+msgstr "Відомості про документ"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
+msgid "Document"
+msgstr "Документ"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
+msgid "Cross-references"
+msgstr "Перехресні посилання"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
+msgid "Functions"
+msgstr "Функції"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
+msgid "DocInformation"
+msgstr "Відомості про документ"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
+msgid "Variables"
+msgstr "Змінні"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
+msgid "Database"
+msgstr "База даних"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+msgid "~Insert"
+msgstr "Вст~авити"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
+msgid "~Close"
+msgstr "~Закрити"
+
+#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
+#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
+msgid "Fields"
+msgstr "Поля"
 
 #: fldfunc.src#TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
 #: fldfunc.src%23TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
@@ -1004,290 +1291,3 @@ msgstr "~Назва"
 msgctxt "fldfunc.src#TP_FLD_FUNC.tabpage.text"
 msgid "Functions"
 msgstr "Функції"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
-msgid "Document"
-msgstr "Документ"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
-msgid "Cross-references"
-msgstr "Перехресні посилання"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
-msgid "Functions"
-msgstr "Функції"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
-msgid "DocInformation"
-msgstr "Інформація про документ"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
-msgid "Variables"
-msgstr "Змінні"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
-msgid "Database"
-msgstr "База даних"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-msgid "~Insert"
-msgstr "Вст~авити"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
-msgid "~Close"
-msgstr "~Закрити"
-
-#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
-#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
-msgid "Fields"
-msgstr "Поля"
-
-#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-msgid "Exchange databases"
-msgstr "Замінити базу даних"
-
-#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-msgid "Databases in Use"
-msgstr "Використані бази даних"
-
-#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-msgid "Available Databases"
-msgstr "Доступні бази даних"
-
-#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
-msgid "Browse..."
-msgstr "Перегляд..."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
-msgid ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-msgstr ""
-"У цьому діалозі можна змінити базу даних доступ до якої є з вашого документа "
-"за допомогою полів іншими базами даних. За одну операцію можна відтворити "
-"одну зміну. У списку ліворуч доступне групове виділення.\n"
-"Використовуйте кнопку перегляду для вибору файлу бази даних."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-msgid "Database applied to document:"
-msgstr "Використана в документі база даних:"
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-msgid "Addresses.Addresses"
-msgstr "Адреси.Адреси"
-
-#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
-msgid "Define"
-msgstr "Визначити"
-
-#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "~Закрити"
-
-#: changedb.src#DLG_CHANGE_DB.modaldialog.text
-#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
-msgid "Exchange Databases"
-msgstr "Замінити базу даних"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Тип"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "~Вибрати"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "Фор~мат"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
-msgid "O~ffset"
-msgstr "~Зсув"
-
-#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "~Фіксований вміст"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
-msgid "Offs~et in days"
-msgstr "З~сув у днях"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-msgid "Offs~et in minutes"
-msgstr "Зс~ув у хвилинах"
-
-#: flddok.src#TP_FLD_DOK.tabpage.text
-#: flddok.src%23TP_FLD_DOK.tabpage.text
-msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
-msgid "Document"
-msgstr "Документ"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Тип поля"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
-msgid "S~election"
-msgstr "~Вибір"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
-msgid "Format"
-msgstr "Формат"
-
-#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-msgid "Invisi~ble"
-msgstr "~Невидимий"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-msgid "Numbering by chapter"
-msgstr "Нумерація по главах"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-msgid "~Level"
-msgstr "~Рівень"
-
-#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-msgid "None"
-msgstr "Немає"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-msgid "~Separator"
-msgstr "~Розділювач"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
-msgid "Na~me"
-msgstr "~Назва"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
-msgid "~Value"
-msgstr "~Значення"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Застосувати"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-msgid "Delete"
-msgstr "Видалити"
-
-#: fldvar.src#TP_FLD_VAR.tabpage.text
-#: fldvar.src%23TP_FLD_VAR.tabpage.text
-msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
-msgid "Variables"
-msgstr "Змінні"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Тип"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "~Вибрати"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
-msgid "Author"
-msgstr "Автор"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
-msgid "Time"
-msgstr "Час"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
-msgid "Date"
-msgstr "Дата"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-msgid "Date Time Author"
-msgstr "Дата Час Автор"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "Фор~мат"
-
-#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "~Фіксований вміст"
-
-#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-msgid "Info"
-msgstr "Інформація"
-
-#: flddinf.src#TP_FLD_DOKINF.tabpage.text
-#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
-msgid "DocInformation"
-msgstr "Відомості про документ"

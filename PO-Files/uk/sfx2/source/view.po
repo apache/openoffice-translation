@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sfx2%2Fsource%2Fview.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-07-06 13:38+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-04-20 15:24+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657114706.000000\n"
+"X-POOTLE-MTIME: 1682004252.000000\n"
 
 #: view.src#STR_NODEFPRINTER.string.text
 #: view.src%23STR_NODEFPRINTER.string.text
@@ -45,8 +45,9 @@ msgid ""
 "is not available.\n"
 "Do you want to use the standard printer $2 ?"
 msgstr ""
-"Цей документ форматовано для принтера $1. Визначений принтер недоступний.\n"
-"Бажаєте використати типовий принтер $2 ?"
+"Цей документ відформатовано для принтера $1. Зазначений принтер недоступний."
+"\n"
+"Бажаєте використовувати стандартний принтер $2 ?"
 
 #: view.src#STR_PRINT_OPTIONS.string.text
 #: view.src%23STR_PRINT_OPTIONS.string.text
@@ -56,7 +57,7 @@ msgstr "Параметри..."
 #: view.src#STR_PRINT_OPTIONS_TITLE.string.text
 #: view.src%23STR_PRINT_OPTIONS_TITLE.string.text
 msgid "Printer Options"
-msgstr "Параметри друку"
+msgstr "Параметри принтера"
 
 #: view.src#STR_ERROR_PRINTER_BUSY.string.text
 #: view.src%23STR_ERROR_PRINTER_BUSY.string.text
@@ -96,9 +97,9 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Змінено розмір і орієнтацію сторінки.\n"
-"Бажаєте зберегти нові налаштування\n"
-"у активному документі?"
+"Розмір і орієнтацію сторінки змінено.\n"
+"Бажаєте зберегти нові налаштування до \n"
+"активного документа?"
 
 #: view.src#STR_PRINT_NEWSIZE.string.text
 #: view.src%23STR_PRINT_NEWSIZE.string.text
@@ -108,8 +109,8 @@ msgid ""
 "in the active document?"
 msgstr ""
 "Розмір сторінки був змінений.\n"
-"Чи потрібно зберегти нові налаштування\n"
-"в активному документі?"
+"Бажаєте зберегти нові налаштування\n"
+"до активного документа?"
 
 #: view.src#STR_PRINT_NEWORISIZE.string.text
 #: view.src%23STR_PRINT_NEWORISIZE.string.text
@@ -119,9 +120,9 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Було змінено розмір і орієнтацію сторінки.\n"
+"Розмір та орієнтацію сторінки було змінено.\n"
 "Бажаєте зберегти нові налаштування\n"
-"у активному документі?"
+"до активного документа?"
 
 #: view.src#STR_PREVIEW_DOCINFO.string.text
 #: view.src%23STR_PREVIEW_DOCINFO.string.text
@@ -150,8 +151,8 @@ msgid ""
 "The document cannot be closed because a\n"
 "print job is being carried out."
 msgstr ""
-"Документ неможливо закрити оскільки\n"
-"виконується завдання з друку."
+"Документ не можна закрити через те, що\n"
+"виконується завдання друку."
 
 #: view.src#DLG_PRINTMONITOR_TEXT.#define.text
 #: view.src%23DLG_PRINTMONITOR_TEXT.%23define.text
@@ -166,7 +167,7 @@ msgstr "друкується на"
 #: view.src#DLG_PRINTMONITOR.STR_FT_PREPARATION.string.text
 #: view.src%23DLG_PRINTMONITOR.STR_FT_PREPARATION.string.text
 msgid "is being prepared for printing"
-msgstr "підготовка до друку"
+msgstr "готується до друку"
 
 #: view.src#MSG_ERROR_SEND_MAIL.infobox.text
 #: view.src%23MSG_ERROR_SEND_MAIL.infobox.text
@@ -175,9 +176,10 @@ msgid ""
 "user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your e-mail program settings."
 msgstr ""
-"Помилка при надсиланні повідомлення. Можливо, помилка виникла через "
-"відсутність облікового запису користувача або несправності у встановленні.\n"
-"Перевірте налаштування %PRODUCTNAME та програми електронної пошти."
+"Під час надсилання повідомлення сталася помилка. Можливими помилками можуть "
+"бути відсутність облікового запису або неправильні налаштування.\n"
+"Будь ласка, перевірте налаштування %PRODUCTNAME або вашої програми "
+"електронної пошти."
 
 #: view.src#MSG_QUERY_OPENASTEMPLATE.querybox.text
 #: view.src%23MSG_QUERY_OPENASTEMPLATE.querybox.text
@@ -185,13 +187,13 @@ msgid ""
 "This document cannot be edited, possibly due to missing access rights. Do "
 "you want to edit a copy of the document?"
 msgstr ""
-"Неможливо відкрити цей документ для редагування (ймовірно через відсутність "
-"прав). Бажаєте редагувати копію цього документа?"
+"Цей документ не можна редагувати, можливо, через відсутність прав доступу. "
+"Ви бажаєте відредагувати копію документа?"
 
 #: view.src#STR_REPAIREDDOCUMENT.string.text
 #: view.src%23STR_REPAIREDDOCUMENT.string.text
 msgid " (repaired document)"
-msgstr " (документ відновлено)"
+msgstr " (відновлений документ)"
 
 #: view.src#MSG_ERROR_NO_WEBBROWSER_FOUND.errorbox.text
 #: view.src%23MSG_ERROR_NO_WEBBROWSER_FOUND.errorbox.text
@@ -200,7 +202,7 @@ msgid ""
 "desktop preferences or install a web browser (for example, Mozilla) in the "
 "default location requested during the browser installation."
 msgstr ""
-"%PRODUCTNAME не може знайти веб-браузер в вашій системі. Будь ласка, "
-"перевірте налаштування десктопного оточення або встановіть веб-браузер ("
-"наприклад, Mozilla) у типовому розташуванні, яке запитується під час "
-"встановлення браузера."
+"%PRODUCTNAME не може знайти веб-браузер у вашій системі. Будь ласка, "
+"перевірте налаштування оточення або встановіть веб-браузер (наприклад, "
+"Mozilla) у стандартному місці, яке буде вказане під час встановлення "
+"браузера."

@@ -5,21 +5,25 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fshells.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2019-01-01 23:23+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-05-30 07:05+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1685430300.000000\n"
 
 #: shells.src#MSG_NO_RULER.infobox.text
 #: shells.src%23MSG_NO_RULER.infobox.text
 msgid "There are no bitmaps in the Gallery theme 'Rulers'."
-msgstr "В темі Галереї «Граничні лінії» відсутні графічні об'єкти."
+msgstr "У темі галереї «Лінійки» немає растрових зображень."
 
 #: shells.src#STR_GRFILTER_OPENERROR.string.text
 #: shells.src%23STR_GRFILTER_OPENERROR.string.text
@@ -49,12 +53,12 @@ msgstr "Графічний фільтр не знайдено"
 #: shells.src#STR_GRFILTER_TOOBIG.string.text
 #: shells.src%23STR_GRFILTER_TOOBIG.string.text
 msgid "Not enough memory to insert the picture."
-msgstr "Недостатньо пам'яті для вставки графічного об'єкту"
+msgstr "Недостатньо пам'яті для вставки малюнку"
 
 #: shells.src#STR_INSERT_GRAPHIC.string.text
 #: shells.src%23STR_INSERT_GRAPHIC.string.text
 msgid "Insert picture"
-msgstr "Вставити зображення"
+msgstr "Вставити малюнок"
 
 #: shells.src#STR_NO_ADDRESSBOOK.string.text
 #: shells.src%23STR_NO_ADDRESSBOOK.string.text
@@ -85,7 +89,7 @@ msgstr "Видалення"
 #: shells.src%23STR_REDLINE_AUTOFMT.string.text
 msgctxt "shells.src#STR_REDLINE_AUTOFMT.string.text"
 msgid "AutoCorrect"
-msgstr ""
+msgstr "Автовиправлення"
 
 #: shells.src#STR_REDLINE_FORMATED.string.text
 #: shells.src%23STR_REDLINE_FORMATED.string.text
@@ -106,7 +110,7 @@ msgstr "Застосований стиль абзацу"
 #: shells.src%23STR_REDLINE_TITLE.string.text
 msgctxt "shells.src#STR_REDLINE_TITLE.string.text"
 msgid "AutoCorrect"
-msgstr ""
+msgstr "Автовиправлення"
 
 #: shells.src#STR_REDLINE_MSG.string.text
 #: shells.src%23STR_REDLINE_MSG.string.text
@@ -115,8 +119,9 @@ msgid ""
 "You can accept or reject all changes,\n"
 "or accept or reject particular changes."
 msgstr ""
-"Автоформатування закінчено.\n"
-"Зараз ви можете прийняти чи відхилити одразу всі зміни, або кожну окремо."
+"Автовиправлення завершено.\n"
+"Зараз ви можете прийняти чи відхилити одразу всі зміни, \n"
+"або кожну окремо."
 
 #: shells.src#STR_REDLINE_ACCEPT_ALL.string.text
 #: shells.src%23STR_REDLINE_ACCEPT_ALL.string.text
@@ -131,7 +136,7 @@ msgstr "Відхилити всі"
 #: shells.src#STR_REDLINE_EDIT.string.text
 #: shells.src%23STR_REDLINE_EDIT.string.text
 msgid "Edit Changes"
-msgstr "Аналіз змін"
+msgstr "Редагувати зміни"
 
 #: shells.src#DLG_IMPORT_DBNAME.querybox.text
 #: shells.src%23DLG_IMPORT_DBNAME.querybox.text
@@ -161,7 +166,7 @@ msgstr "Контекстна панель кадру"
 #: shells.src#RID_GRAFIK_TOOLBOX.string.text
 #: shells.src%23RID_GRAFIK_TOOLBOX.string.text
 msgid "Graphics Object Bar"
-msgstr "Контекстна панель графічних об'єктів"
+msgstr "Контекстна панель графіки"
 
 #: shells.src#RID_OLE_TOOLBOX.string.text
 #: shells.src%23RID_OLE_TOOLBOX.string.text
@@ -182,7 +187,7 @@ msgstr "Контекстна панель об'єктів Безьє"
 #: shells.src#RID_DRAW_TEXT_TOOLBOX.string.text
 #: shells.src%23RID_DRAW_TEXT_TOOLBOX.string.text
 msgid "Text Object Bar/Graphics"
-msgstr "Контекстна панель тексту"
+msgstr "Контекстна панель тексту/графіки"
 
 #: shells.src#RID_NUM_TOOLBOX.string.text
 #: shells.src%23RID_NUM_TOOLBOX.string.text
@@ -204,13 +209,13 @@ msgstr "Таблиця"
 #: shells.src%23STR_SHELLNAME_FRAME.string.text
 msgctxt "shells.src#STR_SHELLNAME_FRAME.string.text"
 msgid "Frame"
-msgstr "Рамка"
+msgstr "Кадр"
 
 #: shells.src#STR_SHELLNAME_GRAPHIC.string.text
 #: shells.src%23STR_SHELLNAME_GRAPHIC.string.text
 msgctxt "shells.src#STR_SHELLNAME_GRAPHIC.string.text"
 msgid "Graphics"
-msgstr "Зображення"
+msgstr "Графіка"
 
 #: shells.src#STR_SHELLNAME_OBJECT.string.text
 #: shells.src%23STR_SHELLNAME_OBJECT.string.text
@@ -252,7 +257,7 @@ msgstr "Абзац"
 #: shells.src%23STR_SWBG_GRAPHIC.string.text
 msgctxt "shells.src#STR_SWBG_GRAPHIC.string.text"
 msgid "Graphics"
-msgstr "Зображення"
+msgstr "Графіка"
 
 #: shells.src#STR_SWBG_OLE.string.text
 #: shells.src%23STR_SWBG_OLE.string.text
@@ -263,7 +268,7 @@ msgstr "Об'єкт OLE"
 #: shells.src%23STR_SWBG_FRAME.string.text
 msgctxt "shells.src#STR_SWBG_FRAME.string.text"
 msgid "Frame"
-msgstr "Рамка"
+msgstr "Кадр"
 
 #: shells.src#STR_SWBG_TABLE.string.text
 #: shells.src%23STR_SWBG_TABLE.string.text

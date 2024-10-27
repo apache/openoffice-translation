@@ -5,16 +5,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fext%2Fmacromigration.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2020-03-04 16:50+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-09-28 09:53+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1664358810.000000\n"
 
 #: macromigration.src#DLG_MACRO_MIGRATION.STR_STATE_CLOSE_SUB_DOCS.string.text
 #: macromigration.src%23DLG_MACRO_MIGRATION.STR_STATE_CLOSE_SUB_DOCS.string.text
@@ -45,7 +49,7 @@ msgstr "Міграція макросів у документі бази дан�
 #: macromigration.src#TP_PREPARE.FT_HEADER.fixedtext.text
 #: macromigration.src%23TP_PREPARE.FT_HEADER.fixedtext.text
 msgid "Welcome to the Database Macro Migration Wizard"
-msgstr "Ласкаво просимо до помічника перетворення макросів бази даних"
+msgstr "Ласкаво просимо до майстра перетворення макросів бази даних"
 
 #: macromigration.src#TP_PREPARE.FT_INTRODUCTION.fixedtext.text
 #: macromigration.src%23TP_PREPARE.FT_INTRODUCTION.fixedtext.text
@@ -62,7 +66,7 @@ msgid ""
 "Before the migration can start, all forms, reports, queries and tables "
 "belonging to the document must be closed. Press 'Next' to do so."
 msgstr ""
-"Цей помічник допоможе виконати міграцію ваших макросів та сценаріїв.\n"
+"Цей майстер допоможе вам виконати завдання міграції ваших макросів.\n"
 "\n"
 "Після завершення його роботи, усі макроси та сценарії, що були раніше "
 "вбудовані у ваші форми та звіти будуть переміщені у документ бази даних. При "
@@ -80,7 +84,7 @@ msgid ""
 "Not all objects could be closed. Please close them manually, and re-start "
 "the wizard."
 msgstr ""
-"Не всі об'єкти можна закрити. Закрийте їх вручну та перезапустіть помічника."
+"Не всі об'єкти можна закрити. Закрийте їх вручну та перезапустіть майстра."
 
 #: macromigration.src#TP_SAVE_DBDOC_AS.FT_HEADER.fixedtext.text
 #: macromigration.src%23TP_SAVE_DBDOC_AS.FT_HEADER.fixedtext.text
@@ -172,13 +176,15 @@ msgid ""
 "The migration was successful. Below is a log of the actions which have been "
 "taken to your document."
 msgstr ""
+"Міграція пройшла успішно. Нижче наведено журнал дій, виконаних з вашим "
+"документом."
 
 #: macromigration.src#TP_SUMMARY.STR_UNSUCCESSFUL.string.text
 #: macromigration.src%23TP_SUMMARY.STR_UNSUCCESSFUL.string.text
 msgid ""
 "The migration was not successful. Examine the migration log below for "
 "details."
-msgstr ""
+msgstr "Перенесення не вдалося. Перегляньте подробиці в журналі міграції нижче."
 
 #: macromigration.src#STR_FORM.string.text
 #: macromigration.src%23STR_FORM.string.text
@@ -209,17 +215,17 @@ msgstr "копію збережено до $location$"
 #: macromigration.src#STR_MOVED_LIBRARY.string.text
 #: macromigration.src%23STR_MOVED_LIBRARY.string.text
 msgid "migrated $type$ library '$old$' to '$new$'"
-msgstr "переміщено $type$ біліотеку $old$ до $new$"
+msgstr "бібліотеку $type$ \"$old$\" перенесено до \"$new$\""
 
 #: macromigration.src#STR_LIBRARY_TYPE_AND_NAME.string.text
 #: macromigration.src%23STR_LIBRARY_TYPE_AND_NAME.string.text
 msgid "$type$ library '$library$'"
-msgstr ""
+msgstr "$type$ бібліотека \"$library$\""
 
 #: macromigration.src#STR_MIGRATING_LIBS.string.text
 #: macromigration.src%23STR_MIGRATING_LIBS.string.text
 msgid "migrating libraries ..."
-msgstr ""
+msgstr "міграція бібліотек..."
 
 #: macromigration.src#STR_OOO_BASIC.string.text
 #: macromigration.src%23STR_OOO_BASIC.string.text
@@ -254,35 +260,37 @@ msgstr "діалог"
 #: macromigration.src#STR_ERRORS.string.text
 #: macromigration.src%23STR_ERRORS.string.text
 msgid "Error(s)"
-msgstr ""
+msgstr "Помилка(и)"
 
 #: macromigration.src#STR_WARNINGS.string.text
 #: macromigration.src%23STR_WARNINGS.string.text
 msgid "Warnings"
-msgstr ""
+msgstr "Попередження"
 
 #: macromigration.src#STR_EXCEPTION.string.text
 #: macromigration.src%23STR_EXCEPTION.string.text
 msgid "caught exception: "
-msgstr ""
+msgstr "спійманий виняток: "
 
 #: macromigration.src#ERR_INVALID_BACKUP_LOCATION.errorbox.text
 #: macromigration.src%23ERR_INVALID_BACKUP_LOCATION.errorbox.text
 msgid ""
 "You need to choose a backup location other than the document location itself."
 msgstr ""
+"Вам потрібно вибрати місце резервного копіювання, відмінне від розташування "
+"самого документа."
 
 #: macromigration.src#STR_INVALID_NUMBER_ARGS.string.text
 #: macromigration.src%23STR_INVALID_NUMBER_ARGS.string.text
 msgid "Invalid number of initialization arguments. Expected 1."
-msgstr ""
+msgstr "Недійсна кількість аргументів ініціалізації. Очікується 1."
 
 #: macromigration.src#STR_NO_DATABASE.string.text
 #: macromigration.src%23STR_NO_DATABASE.string.text
 msgid "No database document found in the initialization arguments."
-msgstr ""
+msgstr "В аргументах ініціалізації не знайдено документа бази даних."
 
 #: macromigration.src#STR_NOT_READONLY.string.text
 #: macromigration.src%23STR_NOT_READONLY.string.text
 msgid "Not applicable to read-only documents."
-msgstr ""
+msgstr "Не застосовується до документів лише для читання."

@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-07 14:21+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,353 +16,87 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
-#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
-msgid "~Parameters"
-msgstr "அளவுருக்கள் (~P)"
+#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
+msgid "SQL command"
+msgstr "SQL கட்டளை"
 
-#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
-#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
-msgid "~Value"
-msgstr "மதிப்பு (~V)"
+#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
+msgid "Command to execute"
+msgstr "செயலாக்கப்பட வேண்டிய கட்டளை"
 
-#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-msgid "~Next"
-msgstr "அடுத்து (~N)"
+#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+msgid "Execute"
+msgstr "செயலாக்கு"
 
-#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
-#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+msgid "Previous commands"
+msgstr "முந்தைய கட்டளைகள்"
+
+#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
+msgid "Status"
+msgstr "தரம்"
+
+#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+msgid "Close"
+msgstr "மூடு"
+
+#: directsql.src#DLG_DIRECTSQL.modaldialog.text
+#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
+msgid "Execute SQL Statement"
+msgstr " SQL கட்டளையைச் செயல்படுத்து"
+
+#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+msgid "Command successfully executed."
+msgstr "கட்டளை வெற்றிகரமாகச் செயலாக்கப்பட்டது."
+
+#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
 msgid ""
-"The entry could not be converted to a valid value for the \"$name$\"column"
-msgstr "இந்த உள்ளிட்டை \"$name$\" நிரலுக்கான சரியான மதிப்பாக மாற்ற இயலவில்லை"
+"The connection to the database has been lost. This dialog will be closed."
+msgstr "தரவுதளத்துக்கான இணைப்பு துண்டிக்கப்பட்டது. இந்த உரை மூடப்படுகிறது."
 
-#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
-#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
-msgid "Parameter Input"
-msgstr "உள்ளீட்டு அளவுரு"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+msgid "~Database name"
+msgstr "தரவுத்தள பெயர் (~D)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-msgid "User selection"
-msgstr "பயனர் தேர்வு"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+msgid "Se~rver / Port"
+msgstr "சேவையகம்/துறை (~r)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-msgid "Us~er:"
-msgstr "பயனர் (~e):"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+msgid "~Server"
+msgstr "சேவையகம் (~S)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-msgid "~Add User..."
-msgstr "பயனரைச் சேர் (~A)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+msgid "~Port"
+msgstr "துறை (~P)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-msgid "Change ~Password..."
-msgstr "கடவுச்சொல்லை மாற்று (~P)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
+msgid "Default: 3306"
+msgstr "முன்னிருப்பு: 3306"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-msgid "~Delete User..."
-msgstr "பயனரை அழிக்கவும் (~D)..."
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+msgid "So~cket"
+msgstr "சாக்கெட் (~c)"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-msgid "Access rights for selected user"
-msgstr "தேர்ந்தெடுக்கப்பட்ட  பயனருக்கான அணுகு உரிமைகள்"
-
-#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
-#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
-msgid "Do you really want to delete the user?"
-msgstr "நீங்கள் பயனரை அழிக்க விரும்புகிறீர்களா?"
-
-#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
-#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
-msgid "The database does not support user administration."
-msgstr "தரவுத்தளம் பயனர் நிர்வாகத்தை ஆதரிக்கவில்லை."
-
-#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
-#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
-#, fuzzy
-msgid "User \"$name$: $\""
-msgstr "பயனர்\"$name$:  $\""
-
-#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-msgid "Old p~assword"
-msgstr "பழைய கடவுச்சொல் (~a)"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "கடவுச்சொல் (~P)"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#, fuzzy
-msgid "~Confirm password"
-msgstr "கடவுச்சொல்லை  உறுதிசெய் (~C)"
-
-#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
-#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
-msgid "Change Password"
-msgstr "கடவுச்சொல்லை மாற்று"
-
-#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The passwords do not match. Please enter the password again."
-msgstr "கடவுச்சொல் பொருந்தவில்லை. கடவுச்சொல்லை மறுபடியும் உள்ளிவும்."
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
-msgid "AND"
-msgstr "AND"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
-msgid "OR"
-msgstr "OR"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
-msgid "AND"
-msgstr "OR"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
-msgid "OR"
-msgstr "OR"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "புலப் பெயர்"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-msgid "Condition"
-msgstr "நிபந்தனை"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-msgid "Value"
-msgstr "மதிப்பு"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
-msgid "Operator"
-msgstr "இயக்கி"
-
-#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-msgid "Criteria"
-msgstr "வரையறை"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
-msgid "- none -"
-msgstr "-எதுவுமில்லை-"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
-msgstr "=;<>;<;<=;>;>=;ஒத்த;வேறுபட்ட;சுழி;சுழியில்லாத"
-
-#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
-#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
-msgid "Standard Filter"
-msgstr "நிலையான வடிகட்டி"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-msgid "User Settings"
-msgstr "பயன்படுத்துபவர் அமைவுகள்"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
-msgid "User administration"
-msgstr "பயனர் நிர்வாகி"
-
-#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
-msgid "Path to the dBASE files"
-msgstr "dBASE கோப்புகளுக்கான பாதை"
-
-#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
-msgid "Path to the text files"
-msgstr "உரை கோப்புகளுக்கான பாதை"
-
-#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
-msgid "Path to the spreadsheet document"
-msgstr "விரிதாள் ஆவணத்திற்கான பாதை"
-
-#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
-#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
-msgid "Name of the ODBC data source on your system"
-msgstr "உங்கள் கணினியிலுள்ள ODBC தரவு மூலத்தின் பெயர்"
-
-#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
-msgid "Name of the MySQL database"
-msgstr "MySQL தரவுத்தளத்தின் பெயர்"
-
-#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
-msgid "Name of the Oracle database"
-msgstr "ஆரக்கல் தரவுத்தளின் பெயர்"
-
-#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
-msgid "Name of the Adabas D database"
-msgstr "Adabas D தரவுத்தளத்தின் பெயர்"
-
-#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
-#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
-msgid "Microsoft Access database file"
-msgstr "மைக்ரோஸாஃப்ட் அணுகல் தரவுத்தள கோப்பு"
-
-#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
-#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
-msgid ""
-"No more settings are necessary. To verify that the connection is working, "
-"click the '%test' button."
-msgstr ""
-"மேற்பட்ட அமைவுகள் தேவையில்லை. இணைப்பு சரியாக வேலை செய்கிறதா எனப் பரிசோதிக்க, "
-"'%test' பொத்தானைச் சொடுக்கவும்."
-
-#: AutoControls.src#STR_COMMONURL.string.text
-#: AutoControls.src%23STR_COMMONURL.string.text
-msgid "Datasource URL"
-msgstr "தரவுமூல URL"
-
-#: AutoControls.src#STR_HOSTNAME.string.text
-#: AutoControls.src%23STR_HOSTNAME.string.text
-msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
-msgid "~Host name"
-msgstr "புரவலப் பெயர் (~H)"
-
-#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
-msgid "~Mozilla profile name"
-msgstr "~Mozilla விவரக்குறிப்பின் பெயர்"
-
-#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
-msgid "~Thunderbird profile name"
-msgstr "~Thunderbird விவரக்குறிப்பு பெயர்"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-msgid "Create New Directory"
-msgstr "புதிய அடைவவை உருவாக்கு"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-msgid "Up One Level"
-msgstr "ஒரு படி மேலே"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-msgid "File ~name:"
-msgstr "கோப்பின் பெயர் (~n):"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
-msgid "Save"
-msgstr "சேமி"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-msgid "~Path:"
-msgstr "பாதை (~P):"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
-msgid "Save"
-msgstr "சேமி"
-
-#: CollectionView.src#STR_NEW_FOLDER.string.text
-#: CollectionView.src%23STR_NEW_FOLDER.string.text
-msgid "Folder"
-msgstr "கோப்புறை"
-
-#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
-#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
-msgid "The file already exists. Overwrite?"
-msgstr "கோப்பு முன்பே உள்ளது. மேலெழுதவேண்டுமா?"
-
-#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
-#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
-msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr "\"$name$\" தரவு மூலத்துடன் இணைக்க ஒரு கடவுச்சொல் தேவை."
-
-#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
-#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
-msgid ""
-"The directory\n"
-"\n"
-"$path$\n"
-"\n"
-"does not exist. Should it be created?"
-msgstr ""
-"இந்த அடைவு\n"
-"\n"
-"$path$\n"
-"\n"
-"உள்ளிருக்கவில்லை. இதை உருவாக்க வேண்டுமா?"
-
-#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
-#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
-msgid "The directory $name$ could not be created."
-msgstr "$name$ என்ற அடைவை உருவாக்க முடியவில்லை."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-msgid "Please enter the ~password for the user 'DOMAIN'."
-msgstr "'DOMAIN' பயனருக்கான கடவுச்சொல்லை உள்ளிடவும். (~p)"
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
-msgid "Convert Database"
-msgstr "தரவுத்தளத்தை மாற்று"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-msgid "Tables and table filter"
-msgstr "அட்டவணைகள் மற்றும் அட்டவணை வடிகட்டி"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-msgid "Mark the tables that should be visible for the applications."
-msgstr "பயன்பாடுகளால் காணக்கூடிய அட்டவணைகளைக் குறிப்பிடவும்."
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
-msgid "Tables Filter"
-msgstr "அட்டவணைகள் வடிப்பி"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+msgid "Named p~ipe"
+msgstr "பெயரிடப்பட்ட பைப் (~i)"
 
 #: dlgattr.src#DLG_ATTR.1.pushbutton.text
 #: dlgattr.src%23DLG_ATTR.1.pushbutton.text
@@ -393,269 +127,6 @@ msgstr "அட்டவணை வடிவம்"
 #: dlgattr.src%23DLG_ATTR.tabdialog.text
 msgid "Field Format"
 msgstr "புல வடிவம்"
-
-#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-msgid "~Height"
-msgstr "உயரம் (~H)"
-
-#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "தானியங்கி (~A)"
-
-#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
-#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "வரிசை உயரம்"
-
-#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
-msgid "~Width"
-msgstr "அகலம் (~W)"
-
-#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "தானியங்கி (~A)"
-
-#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
-#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "நிரல் அகலம்"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
-msgid "ascending"
-msgstr "ஏறுவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
-msgid "descending"
-msgstr "இறங்குவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
-msgid "ascending"
-msgstr "ஏறுவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
-msgid "descending"
-msgstr "இறங்குவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
-msgid "ascending"
-msgstr "ஏறுவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
-msgid "descending"
-msgstr "இறங்குவரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "புலப் பெயர்"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
-msgid "and then"
-msgstr "அதன் பின்னர்"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
-msgid "and then"
-msgstr "அதன் பின்னர்"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
-msgid "Operator"
-msgstr "இயக்கி"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-msgid "Order"
-msgstr "வரிசை"
-
-#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
-#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
-msgid "Sort order"
-msgstr "அடுக்கு கட்டளை"
-
-#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
-#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
-msgid "<none>"
-msgstr "<ஏதுமில்லை>"
-
-#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
-#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
-msgid "Sort Order"
-msgstr "அடுக்கு கட்டளை"
-
-#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-msgid "Options"
-msgstr "விருப்பங்கள்"
-
-#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-msgid "Use SQL92 naming constraints"
-msgstr "SQL92 பெயரிடும் வரையறைகளைப் பயன்படுத்து"
-
-#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-msgid "Append the table alias name on SELECT statements"
-msgstr "SELECT கூற்றுகளில் அட்டவணைப் புனைப்பெயரை சேர்க்கவும்"
-
-#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-msgid "Use keyword AS before table alias names"
-msgstr "விசைவார்த்தை AS க்கு முன்பு அட்டவணை புனைப் பெயர்களை பயன்படுத்தவும்"
-
-#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-msgid "Use Outer Join syntax '{OJ }'"
-msgstr "வெளிப்புற சேர்க்கை syntax '{OJ }'ஐ பயன்படுத்தவும்"
-
-#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-msgid "Ignore the privileges from the database driver"
-msgstr "தரவுத்தள இயக்கியிலிருந்து முன்னுரிமைகளை புறக்கணிக்கவும்"
-
-#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-msgid "Replace named parameters with '?'"
-msgstr "பெயரிடப்பட்ட அளவுருக்களை மாற்றவா  '?'"
-
-#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-msgid "Display version columns (when available)"
-msgstr "பதிப்பு நிரல்களைக் காட்டு (கிடைத்தால்)"
-
-#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-msgid "Use catalog name in SELECT statements"
-msgstr "SELECT கூற்றுகளில்  வகை பெயரை பயன்படுத்தவும்"
-
-#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-msgid "Use schema name in SELECT statements"
-msgstr "SELECT கூற்றுகளில் திட்டப் பெயரை பயன்படுத்தவும்"
-
-#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-msgid "Create index with ASC or DESC statement"
-msgstr "ASC அல்லது DESC கூற்றுகளுடன் உள்ளடக்கத்தை உருவாக்கு"
-
-#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-msgid "End text lines with CR+LF"
-msgstr "CR+LF உடன் உரை வரிகளை முடி"
-
-#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-msgid "Ignore currency field information"
-msgstr "கரன்சி பல தகவலை புறக்கணி"
-
-#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-msgid "Form data input checks for required fields"
-msgstr "தேவைப்படும் புலத்திற்கான படிவம் தரவு உள்ளீடு பரிசோதனைகள்"
-
-#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-msgid "Use ODBC conformant date/time literals"
-msgstr "ODBC ஒத்த தேதி/நேர சொற்களுக்கு பயன்படுத்தவும்"
-
-#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-msgid "Supports primary keys"
-msgstr "முதன்மைச் சாவியை ஆதரிக்கிறது"
-
-#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-msgid "Respect the result set type from the database driver"
-msgstr "தகவல் தள மென்பொருள் இயக்கியிடமிருந்து முடிவுக் கோவை விதத்தை மதியுங்கள்"
-
-#: advancedsettings.src#WORKAROUND.1.stringlist.text
-#: advancedsettings.src%23WORKAROUND.1.stringlist.text
-msgid "Default"
-msgstr "முன்னிருப்பு"
-
-#: advancedsettings.src#WORKAROUND.2.stringlist.text
-#: advancedsettings.src%23WORKAROUND.2.stringlist.text
-msgid "SQL"
-msgstr "SQL"
-
-#: advancedsettings.src#WORKAROUND.3.stringlist.text
-#: advancedsettings.src%23WORKAROUND.3.stringlist.text
-msgid "Mixed"
-msgstr "கலந்தது"
-
-#: advancedsettings.src#WORKAROUND.4.stringlist.text
-#: advancedsettings.src%23WORKAROUND.4.stringlist.text
-msgid "MS Access"
-msgstr "MS அணுகல்"
-
-#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-msgid "Comparison of Boolean values"
-msgstr "பூலியன் மதிப்புகளை ஒப்பிடவும்"
-
-#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-msgid "Rows to scan column types"
-msgstr "பத்தி விதங்களை் வரிசைகள் ஆராயப் போகிறது"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-msgid "Settings"
-msgstr "அமைவுகள்"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-msgid "Re~trieve generated values"
-msgstr "உருவாக்கப்பட்ட மதிப்புகளை திரும்பி எடுக்கவும் (~t)"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-msgid "~Auto-increment statement"
-msgstr "தானியக்கி அதிகரிக்கும் கூற்று (~A)"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-msgid "~Query of generated values"
-msgstr "உருவாக்கப்பட்ட மதிப்புகளை வினவும் (~Q)"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-msgid "Generated Values"
-msgstr "உருவாக்கப்பட்ட மதிப்புகள்"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-msgid "Special Settings"
-msgstr "சிறப்பு அமைவுகள்"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
-msgid "Advanced Settings"
-msgstr "முன்னேறிய அமைப்புகள்"
 
 #: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
 #: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
@@ -809,6 +280,612 @@ msgid ""
 msgstr ""
 "அட்டவணையின் விவரவுரையில், நிரல் நெடுவரிசை ஓரு தடவைக்கு மேல் வரக் கூடாது. "
 "ஆனால் நிரல்\"$name$\" இருமுறை வருகிறது. "
+
+#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+msgid "Text Connection Settings"
+msgstr "உரை இணைப்பு அமைவுகள்"
+
+#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
+#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
+msgid "A password is needed to connect to the data source \"$name$\"."
+msgstr "\"$name$\" தரவு மூலத்துடன் இணைக்க ஒரு கடவுச்சொல் தேவை."
+
+#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
+#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
+msgid ""
+"The directory\n"
+"\n"
+"$path$\n"
+"\n"
+"does not exist. Should it be created?"
+msgstr ""
+"இந்த அடைவு\n"
+"\n"
+"$path$\n"
+"\n"
+"உள்ளிருக்கவில்லை. இதை உருவாக்க வேண்டுமா?"
+
+#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
+#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
+msgid "The directory $name$ could not be created."
+msgstr "$name$ என்ற அடைவை உருவாக்க முடியவில்லை."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+msgid "Please enter the ~password for the user 'DOMAIN'."
+msgstr "'DOMAIN' பயனருக்கான கடவுச்சொல்லை உள்ளிடவும். (~p)"
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
+msgid "Convert Database"
+msgstr "தரவுத்தளத்தை மாற்று"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+msgid "Tables and table filter"
+msgstr "அட்டவணைகள் மற்றும் அட்டவணை வடிகட்டி"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+msgid "Mark the tables that should be visible for the applications."
+msgstr "பயன்பாடுகளால் காணக்கூடிய அட்டவணைகளைக் குறிப்பிடவும்."
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
+msgid "Tables Filter"
+msgstr "அட்டவணைகள் வடிப்பி"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
+msgid "Database files"
+msgstr "தரவுத்தள கோப்புகள்"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+msgid "S~YSDEVSPACE:"
+msgstr "S~YSDEVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+msgid "~TRANSACTIONLOG:"
+msgstr "~TRANSACTIONLOG:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+msgid "DATAD~EVSPACE:"
+msgstr "DATAD~EVSPACE:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
+msgid "Database sizes"
+msgstr "தகவல்தள அளவுகள்"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+msgid "S~ize (MB):"
+msgstr "அளவு (~i) (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+msgid "~Free memory space (MB):"
+msgstr "இலவச நினைவகம் இடைவெளி (~F) (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+msgid "~Memory utilization (in %):"
+msgstr "நினைவகம் பயன்பாடு (~M) (in %):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
+#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
+msgid "Database Statistics"
+msgstr "தரவுத்தள புள்ளி விவரம்"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
+msgid "Contains the system tables"
+msgstr "முறைமை அட்டவணைகளை கொண்டுள்ளன"
+
+#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
+msgid "Contains information about transaction"
+msgstr "பரிமாற்றம் பற்றிய தகவல்களை கொண்டுள்ளது"
+
+#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
+msgid "Contains all data files"
+msgstr "அனைத்து தரவு கோப்புகளையும் கொண்டுள்ளன"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
+msgid "Total size of the database files"
+msgstr "தரவுத்தள கோப்புகளின் மொத்த அளவு"
+
+#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
+msgid "Currently available space before a new datadev file is created."
+msgstr ""
+"தற்போதைய வெற்றிடம் கிடைக்கபெறும் முன்பு புதிய தரவுடெவ் கோப்பு உருவாக்கும்."
+
+#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
+msgid "Currently used memory"
+msgstr "நடப்பில் பயன்படுத்தப்படும் நினைவகம்"
+
+#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+msgid ""
+"No information could be displayed because no access rights exist for the "
+"required system tables."
+msgstr ""
+"எந்த தகவலும் தெரியவில்லை ஏனென்றால் தேவையான முறைமை அட்டவணைகளை இயக்கும் உரிமை "
+"இல்லை."
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+msgid "User Settings"
+msgstr "பயன்படுத்துபவர் அமைவுகள்"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
+msgid "User administration"
+msgstr "பயனர் நிர்வாகி"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
+msgid "General"
+msgstr "பொது"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+msgid "~Host name"
+msgstr "புரவலப் பெயர் (~H)"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
+msgid "User authentication"
+msgstr "பயனர் அங்கீகாரம்"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
+msgid "~User name"
+msgstr "பயனர் பெயர் (~U)"
+
+#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
+msgid "Password required"
+msgstr "கடவுச்சொல் தேவைப்படுகிறது"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+msgid "JDBC properties"
+msgstr "JDBC பண்புகள்"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+msgid "~JDBC driver class"
+msgstr "~JDBC இயக்கியின் வகை"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+msgid "Test Class"
+msgstr "சோதனை வகை"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+msgid "Test Connection"
+msgstr "சொதனை இணைப்பு"
+
+#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
+#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
+msgid "No Adabas D data sources were found on your system."
+msgstr "Adabas D தரவு மூலங்கள் உங்கள் முறைமையில் காணப்படவில்லை."
+
+#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
+#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
+msgid "Connection Test"
+msgstr "இணைப்பு சோதனை"
+
+#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
+msgid "The connection was established successfully."
+msgstr "இணைப்பு வெற்றிகரமாக ஏற்படுத்தப்பட்டது."
+
+#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
+msgid "The connection could not be established."
+msgstr "இணைப்பை ஏற்படுத்த முடியவில்லை."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
+msgid "The JDBC driver was loaded successfully."
+msgstr "JDBC இயக்கி வெற்றிகரமாக ஏற்றப்பட்டது."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
+msgid "The JDBC driver could not be loaded."
+msgstr "JDBC இயக்கியை ஏற்ற முடியவில்லை."
+
+#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
+msgid "MS Access file"
+msgstr "MS அணுகல் கோப்பு"
+
+#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
+msgid "MS Access 2007 file"
+msgstr "MS அணுகல் 2007 கோப்பு"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+msgid "Create New Directory"
+msgstr "புதிய அடைவவை உருவாக்கு"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+msgid "Up One Level"
+msgstr "ஒரு படி மேலே"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+msgid "File ~name:"
+msgstr "கோப்பின் பெயர் (~n):"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
+msgid "Save"
+msgstr "சேமி"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+msgid "~Path:"
+msgstr "பாதை (~P):"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
+msgid "Save"
+msgstr "சேமி"
+
+#: CollectionView.src#STR_NEW_FOLDER.string.text
+#: CollectionView.src%23STR_NEW_FOLDER.string.text
+msgid "Folder"
+msgstr "கோப்புறை"
+
+#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
+#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
+msgid "The file already exists. Overwrite?"
+msgstr "கோப்பு முன்பே உள்ளது. மேலெழுதவேண்டுமா?"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+msgid "Please enter a name for the object to be created:"
+msgstr "உருவாக்கப்படும் பொருளுக்கான ஒரு  பெயர் உருவாக்கப்பட்டது:"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+msgid "~Catalog"
+msgstr "வகை (~C)"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+msgid "~Schema"
+msgstr "திட்டம் (~S)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
+msgid "~Table Name"
+msgstr "அட்டவணைப் பெயர் (~T)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
+msgid "~Name of table view"
+msgstr "அட்டவணை காட்சியின் பெயர் (~N)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
+msgid "~Query name"
+msgstr "வினாப் பெயர் (~Q)"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+msgid "Rename to"
+msgstr "இதற்கு மறுபெயரிடு"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+msgid "Insert as"
+msgstr "இதுவாக உள்நுழை"
+
+#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
+#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
+msgid "Save As"
+msgstr "இவ்வாறு சேமி"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
+msgid "AND"
+msgstr "AND"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
+msgid "OR"
+msgstr "OR"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
+msgid "AND"
+msgstr "OR"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
+msgid "OR"
+msgstr "OR"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "புலப் பெயர்"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+msgid "Condition"
+msgstr "நிபந்தனை"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+msgid "Value"
+msgstr "மதிப்பு"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
+msgid "Operator"
+msgstr "இயக்கி"
+
+#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+msgid "Criteria"
+msgstr "வரையறை"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
+msgid "- none -"
+msgstr "-எதுவுமில்லை-"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
+msgstr "=;<>;<;<=;>;>=;ஒத்த;வேறுபட்ட;சுழி;சுழியில்லாத"
+
+#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
+#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
+msgid "Standard Filter"
+msgstr "நிலையான வடிகட்டி"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "ஈடுபட்டுள்ள அட்டவணைகள்"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "ஈடுபட்டுள்ள புலங்கள்"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+msgid "Update options"
+msgstr "விருப்பங்களைப் புதுப்பி"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
+msgid "~No action"
+msgstr "எந்த செயலுமில்லை (~N)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+msgid "~Update cascade"
+msgstr "அழுத்தியதைப் புதுப்பி (~U)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "காலியாக அமை (~S)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "முன்னிருப்பாக அமை (~d)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+msgid "Delete options"
+msgstr "விருப்பங்களை அழி"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
+msgid "~No action"
+msgstr "எந்த செயலுமில்லை (~N)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+msgid "Delete ~cascade"
+msgstr "அடுக்குவதை நீக்கு (~c)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "காலியாக அமை (~S)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "முன்னிருப்பை அமை (~d)"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
+msgid "Relations"
+msgstr "உறவுகள்"
+
+#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+msgid "~Height"
+msgstr "உயரம் (~H)"
+
+#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "தானியங்கி (~A)"
+
+#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
+#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "வரிசை உயரம்"
+
+#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
+msgid "~Width"
+msgstr "அகலம் (~W)"
+
+#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "தானியங்கி (~A)"
+
+#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
+#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "நிரல் அகலம்"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+msgid "~Table"
+msgstr "அட்டவணை (~T)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+msgid "Assignment"
+msgstr "ஒதுக்கல்"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+msgid "T~able indexes"
+msgstr "அட்டவணை சுட்டுகள் (~a)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+msgid "~Free indexes"
+msgstr "வெற்றுச் சுட்டுகள் (~F)"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
+msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
+msgid "Indexes"
+msgstr "உள்ளடக்கங்கள்"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+msgid "User selection"
+msgstr "பயனர் தேர்வு"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+msgid "Us~er:"
+msgstr "பயனர் (~e):"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+msgid "~Add User..."
+msgstr "பயனரைச் சேர் (~A)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+msgid "Change ~Password..."
+msgstr "கடவுச்சொல்லை மாற்று (~P)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+msgid "~Delete User..."
+msgstr "பயனரை அழிக்கவும் (~D)..."
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+msgid "Access rights for selected user"
+msgstr "தேர்ந்தெடுக்கப்பட்ட  பயனருக்கான அணுகு உரிமைகள்"
+
+#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
+#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
+msgid "Do you really want to delete the user?"
+msgstr "நீங்கள் பயனரை அழிக்க விரும்புகிறீர்களா?"
+
+#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
+#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
+msgid "The database does not support user administration."
+msgstr "தரவுத்தளம் பயனர் நிர்வாகத்தை ஆதரிக்கவில்லை."
+
+#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
+#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
+#, fuzzy
+msgid "User \"$name$: $\""
+msgstr "பயனர்\"$name$:  $\""
+
+#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+msgid "Old p~assword"
+msgstr "பழைய கடவுச்சொல் (~a)"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "கடவுச்சொல் (~P)"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#, fuzzy
+msgid "~Confirm password"
+msgstr "கடவுச்சொல்லை  உறுதிசெய் (~C)"
+
+#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
+#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
+msgid "Change Password"
+msgstr "கடவுச்சொல்லை மாற்று"
+
+#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr "கடவுச்சொல் பொருந்தவில்லை. கடவுச்சொல்லை மறுபடியும் உள்ளிவும்."
 
 #: dbadminsetup.src#DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
 #: dbadminsetup.src%23DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
@@ -1301,409 +1378,362 @@ msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
 msgid "Details"
 msgstr "விவரங்கள்"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-msgid "Please enter a name for the object to be created:"
-msgstr "உருவாக்கப்படும் பொருளுக்கான ஒரு  பெயர் உருவாக்கப்பட்டது:"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+msgid "Choose a data source:"
+msgstr "ஒரு தரவு மூலத்தைத் தேர்ந்தெடு:"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-msgid "~Catalog"
-msgstr "வகை (~C)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+msgid "Organize..."
+msgstr "ஒழுங்குபடுத்து..."
 
-#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-msgid "~Schema"
-msgstr "திட்டம் (~S)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+msgid "Create..."
+msgstr "உருவாக்கு..."
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
-msgid "~Table Name"
-msgstr "அட்டவணைப் பெயர் (~T)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+msgid "Local Databases"
+msgstr "உள்ளமை தரவுத்தளங்கள்"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
-msgid "~Name of table view"
-msgstr "அட்டவணை காட்சியின் பெயர் (~N)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+msgid "Choose a database"
+msgstr "ஒரு தரவுத்தளத்தைத் தேர்ந்தெடு"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
-msgid "~Query name"
-msgstr "வினாப் பெயர் (~Q)"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
+msgid "Data Source"
+msgstr "தரவு மூலம்"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-msgid "Rename to"
-msgstr "இதற்கு மறுபெயரிடு"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
+msgid "ascending"
+msgstr "ஏறுவரிசை"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-msgid "Insert as"
-msgstr "இதுவாக உள்நுழை"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
+msgid "descending"
+msgstr "இறங்குவரிசை"
 
-#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
-#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
-msgid "Save As"
-msgstr "இவ்வாறு சேமி"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
+msgid "ascending"
+msgstr "ஏறுவரிசை"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-msgid "~Table"
-msgstr "அட்டவணை (~T)"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
+msgid "descending"
+msgstr "இறங்குவரிசை"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-msgid "Assignment"
-msgstr "ஒதுக்கல்"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
+msgid "ascending"
+msgstr "ஏறுவரிசை"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-msgid "T~able indexes"
-msgstr "அட்டவணை சுட்டுகள் (~a)"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
+msgid "descending"
+msgstr "இறங்குவரிசை"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-msgid "~Free indexes"
-msgstr "வெற்றுச் சுட்டுகள் (~F)"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "புலப் பெயர்"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
-msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
-msgid "Indexes"
-msgstr "உள்ளடக்கங்கள்"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
+msgid "and then"
+msgstr "அதன் பின்னர்"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
-msgid "Database files"
-msgstr "தரவுத்தள கோப்புகள்"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
+msgid "and then"
+msgstr "அதன் பின்னர்"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-msgid "S~YSDEVSPACE:"
-msgstr "S~YSDEVSPACE:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
+msgid "Operator"
+msgstr "இயக்கி"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-msgid "~TRANSACTIONLOG:"
-msgstr "~TRANSACTIONLOG:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+msgid "Order"
+msgstr "வரிசை"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-msgid "DATAD~EVSPACE:"
-msgstr "DATAD~EVSPACE:"
+#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
+#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
+msgid "Sort order"
+msgstr "அடுக்கு கட்டளை"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
-msgid "Database sizes"
-msgstr "தகவல்தள அளவுகள்"
+#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
+#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
+msgid "<none>"
+msgstr "<ஏதுமில்லை>"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-msgid "S~ize (MB):"
-msgstr "அளவு (~i) (MB):"
+#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
+#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
+msgid "Sort Order"
+msgstr "அடுக்கு கட்டளை"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-msgid "~Free memory space (MB):"
-msgstr "இலவச நினைவகம் இடைவெளி (~F) (MB):"
+#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+msgid "Options"
+msgstr "விருப்பங்கள்"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-msgid "~Memory utilization (in %):"
-msgstr "நினைவகம் பயன்பாடு (~M) (in %):"
+#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+msgid "Use SQL92 naming constraints"
+msgstr "SQL92 பெயரிடும் வரையறைகளைப் பயன்படுத்து"
 
-#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
-#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
-msgid "Database Statistics"
-msgstr "தரவுத்தள புள்ளி விவரம்"
+#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+msgid "Append the table alias name on SELECT statements"
+msgstr "SELECT கூற்றுகளில் அட்டவணைப் புனைப்பெயரை சேர்க்கவும்"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
-msgid "Contains the system tables"
-msgstr "முறைமை அட்டவணைகளை கொண்டுள்ளன"
+#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+msgid "Use keyword AS before table alias names"
+msgstr "விசைவார்த்தை AS க்கு முன்பு அட்டவணை புனைப் பெயர்களை பயன்படுத்தவும்"
 
-#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
-msgid "Contains information about transaction"
-msgstr "பரிமாற்றம் பற்றிய தகவல்களை கொண்டுள்ளது"
+#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+msgid "Use Outer Join syntax '{OJ }'"
+msgstr "வெளிப்புற சேர்க்கை syntax '{OJ }'ஐ பயன்படுத்தவும்"
 
-#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
-msgid "Contains all data files"
-msgstr "அனைத்து தரவு கோப்புகளையும் கொண்டுள்ளன"
+#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+msgid "Ignore the privileges from the database driver"
+msgstr "தரவுத்தள இயக்கியிலிருந்து முன்னுரிமைகளை புறக்கணிக்கவும்"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
-msgid "Total size of the database files"
-msgstr "தரவுத்தள கோப்புகளின் மொத்த அளவு"
+#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+msgid "Replace named parameters with '?'"
+msgstr "பெயரிடப்பட்ட அளவுருக்களை மாற்றவா  '?'"
 
-#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
-msgid "Currently available space before a new datadev file is created."
-msgstr ""
-"தற்போதைய வெற்றிடம் கிடைக்கபெறும் முன்பு புதிய தரவுடெவ் கோப்பு உருவாக்கும்."
+#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+msgid "Display version columns (when available)"
+msgstr "பதிப்பு நிரல்களைக் காட்டு (கிடைத்தால்)"
 
-#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
-msgid "Currently used memory"
-msgstr "நடப்பில் பயன்படுத்தப்படும் நினைவகம்"
+#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+msgid "Use catalog name in SELECT statements"
+msgstr "SELECT கூற்றுகளில்  வகை பெயரை பயன்படுத்தவும்"
 
-#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+msgid "Use schema name in SELECT statements"
+msgstr "SELECT கூற்றுகளில் திட்டப் பெயரை பயன்படுத்தவும்"
+
+#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+msgid "Create index with ASC or DESC statement"
+msgstr "ASC அல்லது DESC கூற்றுகளுடன் உள்ளடக்கத்தை உருவாக்கு"
+
+#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+msgid "End text lines with CR+LF"
+msgstr "CR+LF உடன் உரை வரிகளை முடி"
+
+#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+msgid "Ignore currency field information"
+msgstr "கரன்சி பல தகவலை புறக்கணி"
+
+#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+msgid "Form data input checks for required fields"
+msgstr "தேவைப்படும் புலத்திற்கான படிவம் தரவு உள்ளீடு பரிசோதனைகள்"
+
+#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+msgid "Use ODBC conformant date/time literals"
+msgstr "ODBC ஒத்த தேதி/நேர சொற்களுக்கு பயன்படுத்தவும்"
+
+#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+msgid "Supports primary keys"
+msgstr "முதன்மைச் சாவியை ஆதரிக்கிறது"
+
+#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+msgid "Respect the result set type from the database driver"
+msgstr "தகவல் தள மென்பொருள் இயக்கியிடமிருந்து முடிவுக் கோவை விதத்தை மதியுங்கள்"
+
+#: advancedsettings.src#WORKAROUND.1.stringlist.text
+#: advancedsettings.src%23WORKAROUND.1.stringlist.text
+msgid "Default"
+msgstr "முன்னிருப்பு"
+
+#: advancedsettings.src#WORKAROUND.2.stringlist.text
+#: advancedsettings.src%23WORKAROUND.2.stringlist.text
+msgid "SQL"
+msgstr "SQL"
+
+#: advancedsettings.src#WORKAROUND.3.stringlist.text
+#: advancedsettings.src%23WORKAROUND.3.stringlist.text
+msgid "Mixed"
+msgstr "கலந்தது"
+
+#: advancedsettings.src#WORKAROUND.4.stringlist.text
+#: advancedsettings.src%23WORKAROUND.4.stringlist.text
+msgid "MS Access"
+msgstr "MS அணுகல்"
+
+#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+msgid "Comparison of Boolean values"
+msgstr "பூலியன் மதிப்புகளை ஒப்பிடவும்"
+
+#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+msgid "Rows to scan column types"
+msgstr "பத்தி விதங்களை் வரிசைகள் ஆராயப் போகிறது"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+msgid "Settings"
+msgstr "அமைவுகள்"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+msgid "Re~trieve generated values"
+msgstr "உருவாக்கப்பட்ட மதிப்புகளை திரும்பி எடுக்கவும் (~t)"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+msgid "~Auto-increment statement"
+msgstr "தானியக்கி அதிகரிக்கும் கூற்று (~A)"
+
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+msgid "~Query of generated values"
+msgstr "உருவாக்கப்பட்ட மதிப்புகளை வினவும் (~Q)"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+msgid "Generated Values"
+msgstr "உருவாக்கப்பட்ட மதிப்புகள்"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+msgid "Special Settings"
+msgstr "சிறப்பு அமைவுகள்"
+
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
+msgid "Advanced Settings"
+msgstr "முன்னேறிய அமைப்புகள்"
+
+#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
+msgid "Path to the dBASE files"
+msgstr "dBASE கோப்புகளுக்கான பாதை"
+
+#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
+msgid "Path to the text files"
+msgstr "உரை கோப்புகளுக்கான பாதை"
+
+#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
+msgid "Path to the spreadsheet document"
+msgstr "விரிதாள் ஆவணத்திற்கான பாதை"
+
+#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
+#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
+msgid "Name of the ODBC data source on your system"
+msgstr "உங்கள் கணினியிலுள்ள ODBC தரவு மூலத்தின் பெயர்"
+
+#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
+msgid "Name of the MySQL database"
+msgstr "MySQL தரவுத்தளத்தின் பெயர்"
+
+#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
+msgid "Name of the Oracle database"
+msgstr "ஆரக்கல் தரவுத்தளின் பெயர்"
+
+#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
+msgid "Name of the Adabas D database"
+msgstr "Adabas D தரவுத்தளத்தின் பெயர்"
+
+#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
+#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
+msgid "Microsoft Access database file"
+msgstr "மைக்ரோஸாஃப்ட் அணுகல் தரவுத்தள கோப்பு"
+
+#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
+#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
 msgid ""
-"No information could be displayed because no access rights exist for the "
-"required system tables."
+"No more settings are necessary. To verify that the connection is working, "
+"click the '%test' button."
 msgstr ""
-"எந்த தகவலும் தெரியவில்லை ஏனென்றால் தேவையான முறைமை அட்டவணைகளை இயக்கும் உரிமை "
-"இல்லை."
+"மேற்பட்ட அமைவுகள் தேவையில்லை. இணைப்பு சரியாக வேலை செய்கிறதா எனப் பரிசோதிக்க, "
+"'%test' பொத்தானைச் சொடுக்கவும்."
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-msgid "~Database name"
-msgstr "தரவுத்தள பெயர் (~D)"
+#: AutoControls.src#STR_COMMONURL.string.text
+#: AutoControls.src%23STR_COMMONURL.string.text
+msgid "Datasource URL"
+msgstr "தரவுமூல URL"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-msgid "Se~rver / Port"
-msgstr "சேவையகம்/துறை (~r)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-msgid "~Server"
-msgstr "சேவையகம் (~S)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-msgid "~Port"
-msgstr "துறை (~P)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
-msgid "Default: 3306"
-msgstr "முன்னிருப்பு: 3306"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-msgid "So~cket"
-msgstr "சாக்கெட் (~c)"
-
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-msgid "Named p~ipe"
-msgstr "பெயரிடப்பட்ட பைப் (~i)"
-
-#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
-msgid "SQL command"
-msgstr "SQL கட்டளை"
-
-#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
-msgid "Command to execute"
-msgstr "செயலாக்கப்பட வேண்டிய கட்டளை"
-
-#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-msgid "Execute"
-msgstr "செயலாக்கு"
-
-#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-msgid "Previous commands"
-msgstr "முந்தைய கட்டளைகள்"
-
-#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
-msgid "Status"
-msgstr "தரம்"
-
-#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-msgid "Close"
-msgstr "மூடு"
-
-#: directsql.src#DLG_DIRECTSQL.modaldialog.text
-#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
-msgid "Execute SQL Statement"
-msgstr " SQL கட்டளையைச் செயல்படுத்து"
-
-#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-msgid "Command successfully executed."
-msgstr "கட்டளை வெற்றிகரமாகச் செயலாக்கப்பட்டது."
-
-#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
-#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
-msgid ""
-"The connection to the database has been lost. This dialog will be closed."
-msgstr "தரவுதளத்துக்கான இணைப்பு துண்டிக்கப்பட்டது. இந்த உரை மூடப்படுகிறது."
-
-#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-msgid "Text Connection Settings"
-msgstr "உரை இணைப்பு அமைவுகள்"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
-msgid "General"
-msgstr "பொது"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+#: AutoControls.src#STR_HOSTNAME.string.text
+#: AutoControls.src%23STR_HOSTNAME.string.text
+msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
 msgid "~Host name"
 msgstr "புரவலப் பெயர் (~H)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
-msgid "User authentication"
-msgstr "பயனர் அங்கீகாரம்"
+#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
+msgid "~Mozilla profile name"
+msgstr "~Mozilla விவரக்குறிப்பின் பெயர்"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
-msgid "~User name"
-msgstr "பயனர் பெயர் (~U)"
+#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
+msgid "~Thunderbird profile name"
+msgstr "~Thunderbird விவரக்குறிப்பு பெயர்"
 
-#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
-msgid "Password required"
-msgstr "கடவுச்சொல் தேவைப்படுகிறது"
+#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
+#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
+msgid "~Parameters"
+msgstr "அளவுருக்கள் (~P)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-msgid "JDBC properties"
-msgstr "JDBC பண்புகள்"
+#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
+#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
+msgid "~Value"
+msgstr "மதிப்பு (~V)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-msgid "~JDBC driver class"
-msgstr "~JDBC இயக்கியின் வகை"
+#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+msgid "~Next"
+msgstr "அடுத்து (~N)"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-msgid "Test Class"
-msgstr "சோதனை வகை"
+#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+msgid ""
+"The entry could not be converted to a valid value for the \"$name$\"column"
+msgstr "இந்த உள்ளிட்டை \"$name$\" நிரலுக்கான சரியான மதிப்பாக மாற்ற இயலவில்லை"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-msgid "Test Connection"
-msgstr "சொதனை இணைப்பு"
-
-#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
-#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
-msgid "No Adabas D data sources were found on your system."
-msgstr "Adabas D தரவு மூலங்கள் உங்கள் முறைமையில் காணப்படவில்லை."
-
-#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
-#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
-msgid "Connection Test"
-msgstr "இணைப்பு சோதனை"
-
-#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
-msgid "The connection was established successfully."
-msgstr "இணைப்பு வெற்றிகரமாக ஏற்படுத்தப்பட்டது."
-
-#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
-msgid "The connection could not be established."
-msgstr "இணைப்பை ஏற்படுத்த முடியவில்லை."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
-msgid "The JDBC driver was loaded successfully."
-msgstr "JDBC இயக்கி வெற்றிகரமாக ஏற்றப்பட்டது."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
-msgid "The JDBC driver could not be loaded."
-msgstr "JDBC இயக்கியை ஏற்ற முடியவில்லை."
-
-#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
-msgid "MS Access file"
-msgstr "MS அணுகல் கோப்பு"
-
-#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
-msgid "MS Access 2007 file"
-msgstr "MS அணுகல் 2007 கோப்பு"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "ஈடுபட்டுள்ள அட்டவணைகள்"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "ஈடுபட்டுள்ள புலங்கள்"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-msgid "Update options"
-msgstr "விருப்பங்களைப் புதுப்பி"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
-msgid "~No action"
-msgstr "எந்த செயலுமில்லை (~N)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-msgid "~Update cascade"
-msgstr "அழுத்தியதைப் புதுப்பி (~U)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "காலியாக அமை (~S)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "முன்னிருப்பாக அமை (~d)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-msgid "Delete options"
-msgstr "விருப்பங்களை அழி"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
-msgid "~No action"
-msgstr "எந்த செயலுமில்லை (~N)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-msgid "Delete ~cascade"
-msgstr "அடுக்குவதை நீக்கு (~c)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "காலியாக அமை (~S)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "முன்னிருப்பை அமை (~d)"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
-msgid "Relations"
-msgstr "உறவுகள்"
+#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
+#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
+msgid "Parameter Input"
+msgstr "உள்ளீட்டு அளவுரு"
 
 #: dbadmin.src#AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
 #: dbadmin.src%23AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
@@ -1870,13 +1900,10 @@ msgid "Display deleted records as well"
 msgstr "அழிக்கப்பட்ட பதிவுகளையும் காட்டு"
 
 #: dbadmin.src#PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
-#: dbadmin.src%23PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
 msgid ""
-"Note: When deleted, and thus inactive, records are  displayed, you will not "
+"Note: When deleted, and thus inactive, records are displayed, you will not "
 "be able to delete records from the data source."
 msgstr ""
-"குறிப்பு: அழிக்கப்பட்ட போது, மற்றும் இடைபடும் போது, பதிவுசெய்து காட்டவும், "
-"தரவு மூலத்திலிருந்து உங்களால்  பதிவுகளை அழிக்க முடியாது."
 
 #: dbadmin.src#PAGE_DBASE.PB_INDICIES.pushbutton.text
 #: dbadmin.src%23PAGE_DBASE.PB_INDICIES.pushbutton.text
@@ -1992,9 +2019,8 @@ msgid "~Base DN"
 msgstr "தளம் DN (~B)"
 
 #: dbadmin.src#PAGE_LDAP.CB_USESSL.checkbox.text
-#: dbadmin.src%23PAGE_LDAP.CB_USESSL.checkbox.text
-msgid "Use secure connection(SSL)"
-msgstr "பாதுகாப்பு இணைப்பை பயன்படுத்தவும்(SSL)"
+msgid "Use secure connection (SSL)"
+msgstr ""
 
 #: dbadmin.src#PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
 #: dbadmin.src%23PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
@@ -2031,36 +2057,6 @@ msgid ""
 msgstr ""
 "மாறாக இருக்கின்ற தரவுத்தளத்துடன் இணைய 'இருக்கின்ற தரவுத்தளத்துடன் இணை' ஐ "
 "தேர்ந்தெடுக்கவும்"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-msgid "Choose a data source:"
-msgstr "ஒரு தரவு மூலத்தைத் தேர்ந்தெடு:"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-msgid "Organize..."
-msgstr "ஒழுங்குபடுத்து..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-msgid "Create..."
-msgstr "உருவாக்கு..."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-msgid "Local Databases"
-msgstr "உள்ளமை தரவுத்தளங்கள்"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-msgid "Choose a database"
-msgstr "ஒரு தரவுத்தளத்தைத் தேர்ந்தெடு"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
-msgid "Data Source"
-msgstr "தரவு மூலம்"
 
 #: AutoControls_tmpl.hrc#AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
 #: AutoControls_tmpl.hrc%23AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text

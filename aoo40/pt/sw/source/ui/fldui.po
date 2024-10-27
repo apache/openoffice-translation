@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Ffldui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-08-25 18:54+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,124 +16,204 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
-#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
-msgid "Input"
-msgstr "Entrada"
-
-#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
-#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
 msgid "Edit"
 msgstr "Editar"
 
-#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
 msgid "~Next"
 msgstr "Segui~nte"
 
-#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
-#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
-msgid "Input Field"
-msgstr "Campo de entrada"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+msgid "~Edit"
+msgstr "~Editar"
 
-#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
+msgid "Choose Item: "
+msgstr "Escolher item: "
+
+#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+msgid "Exchange databases"
+msgstr "Trocar bases de dados"
+
+#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+msgid "Databases in Use"
+msgstr "Bases de dados em uso"
+
+#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+msgid "Available Databases"
+msgstr "Bases de dados disponíveis"
+
+#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
+msgid "Browse..."
+msgstr "Procurar..."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
+msgid ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+msgstr ""
+"Use este diálogo para substituir as bases de dados a que acede no seu "
+"documento através dos respectivos campos. Só pode fazer uma alteração de "
+"cada vez. É possível a selecção múltipla na lista esquerda.\n"
+"Use o botão Procurar para seleccionar uma base de dados."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+msgid "Database applied to document:"
+msgstr "Base de dados aplicada ao documento:"
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+msgid "Addresses.Addresses"
+msgstr "Endereços.Endereços"
+
+#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
+msgid "Define"
+msgstr "Definir"
+
+#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "Fe~char"
+
+#: changedb.src#DLG_CHANGE_DB.modaldialog.text
+#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
+msgid "Exchange Databases"
+msgstr "Trocar bases de dados"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
 msgid "~Type"
 msgstr "~Tipo"
 
-#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "S~eleccionar"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "F~ormato"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
+msgid "O~ffset"
+msgstr "~Desvio"
+
+#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Conteúdo ~fixo"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
+msgid "Offs~et in days"
+msgstr "D~esvio em dias"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+msgid "Offs~et in minutes"
+msgstr "D~esvio em minutos"
+
+#: flddok.src#TP_FLD_DOK.tabpage.text
+#: flddok.src%23TP_FLD_DOK.tabpage.text
+msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
+msgid "Document"
+msgstr "Documento"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Tipo"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
 msgid "S~election"
 msgstr "S~elecção"
 
-#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-msgid "Insert ~reference to"
-msgstr "Inserir ~referência a"
+#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
+msgid "Format"
+msgstr "Formato"
 
-#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+msgid "Invisi~ble"
+msgstr "~Invisível"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+msgid "Numbering by chapter"
+msgstr "Numerar por capítulo"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+msgid "~Level"
+msgstr "Níve~l"
+
+#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+msgid "None"
+msgstr "Nenhum"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+msgid "~Separator"
+msgstr "~Separador"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
 msgid "Na~me"
 msgstr "No~me"
 
-#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
 msgid "~Value"
 msgstr "~Valor"
 
-#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "Marcadores"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Aplicar"
 
-#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
-msgid "Footnotes"
-msgstr "Notas de rodapé"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+msgid "Delete"
+msgstr "Eliminar"
 
-#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
-msgid "Endnotes"
-msgstr "Notas finais"
-
-#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
-msgid "Headings"
-msgstr "Títulos"
-
-#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
-msgid "Numbered Paragraphs"
-msgstr "Parágrafos numerados"
-
-#: fldref.src#TP_FLD_REF.tabpage.text
-#: fldref.src%23TP_FLD_REF.tabpage.text
-msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
-msgid "Cross-references"
-msgstr "Referências cruzadas"
-
-#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-msgid "Script type"
-msgstr "Tipo de script"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
-msgid "URL"
-msgstr "URL"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-msgid "~Text"
-msgstr "~Texto"
-
-#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-msgid "Contents"
-msgstr "Conteúdo"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
-msgid "Edit Script"
-msgstr "Editar script"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-msgid "Insert Script"
-msgstr "Inserir script"
-
-#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
-#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
-msgid "Edit Script"
-msgstr "Editar script"
+#: fldvar.src#TP_FLD_VAR.tabpage.text
+#: fldvar.src%23TP_FLD_VAR.tabpage.text
+msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
+msgid "Variables"
+msgstr "Variáveis"
 
 #: fldui.src#STR_FLD_EDIT_DLG.string.text
 #: fldui.src%23STR_FLD_EDIT_DLG.string.text
@@ -482,9 +562,8 @@ msgid "Tel. (Work)"
 msgstr "Tel. (trabalho)"
 
 #: fldui.src#FLD_EU_FAX.string.text
-#: fldui.src%23FLD_EU_FAX.string.text
-msgid "FAX"
-msgstr "FAX"
+msgid "Fax"
+msgstr ""
 
 #: fldui.src#FLD_EU_EMAIL.string.text
 #: fldui.src%23FLD_EU_EMAIL.string.text
@@ -836,6 +915,125 @@ msgstr "Editar"
 msgid "Custom"
 msgstr "Personalizado"
 
+#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+msgid "Script type"
+msgstr "Tipo de script"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
+msgid "URL"
+msgstr "URL"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+msgid "~Text"
+msgstr "~Texto"
+
+#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+msgid "Contents"
+msgstr "Conteúdo"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
+msgid "Edit Script"
+msgstr "Editar script"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+msgid "Insert Script"
+msgstr "Inserir script"
+
+#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
+#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
+msgid "Edit Script"
+msgstr "Editar script"
+
+#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
+#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
+msgid "Input"
+msgstr "Entrada"
+
+#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
+#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+msgid "Edit"
+msgstr "Editar"
+
+#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+msgid "~Next"
+msgstr "Segui~nte"
+
+#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
+#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
+msgid "Input Field"
+msgstr "Campo de entrada"
+
+#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Tipo"
+
+#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+msgid "S~election"
+msgstr "S~elecção"
+
+#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+msgid "Insert ~reference to"
+msgstr "Inserir ~referência a"
+
+#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+msgid "Na~me"
+msgstr "No~me"
+
+#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+msgid "~Value"
+msgstr "~Valor"
+
+#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
+msgid "Footnotes"
+msgstr "Notas de rodapé"
+
+#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
+msgid "Endnotes"
+msgstr "Notas finais"
+
+#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
+msgid "Headings"
+msgstr "Títulos"
+
+#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
+msgid "Numbered Paragraphs"
+msgstr "Parágrafos numerados"
+
+#: fldref.src#TP_FLD_REF.tabpage.text
+#: fldref.src%23TP_FLD_REF.tabpage.text
+msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
+msgid "Cross-references"
+msgstr "Referências cruzadas"
+
 #: flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text
 #: flddb.src%23TP_FLD_DB.FT_DBTYPE.fixedtext.text
 msgctxt "flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text"
@@ -892,27 +1090,115 @@ msgctxt "flddb.src#TP_FLD_DB.tabpage.text"
 msgid "Database"
 msgstr "Base de dados"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
-msgid "Edit"
-msgstr "Editar"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Tipo"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
-msgid "~Next"
-msgstr "Segui~nte"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "~Seleccionar"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-msgid "~Edit"
-msgstr "~Editar"
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
+msgid "Author"
+msgstr "Autor"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
-msgid "Choose Item: "
-msgstr "Escolher item: "
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
+msgid "Time"
+msgstr "Hora"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
+msgid "Date"
+msgstr "Data"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+msgid "Date Time Author"
+msgstr "Data Hora Autor"
+
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "F~ormato"
+
+#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Conteúdo ~fixo"
+
+#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+msgid "Info"
+msgstr "Informação"
+
+#: flddinf.src#TP_FLD_DOKINF.tabpage.text
+#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
+msgid "DocInformation"
+msgstr "Inf. do documento"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
+msgid "Document"
+msgstr "Documento"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
+msgid "Cross-references"
+msgstr "Referências cruzadas"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
+msgid "Functions"
+msgstr "Funções"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
+msgid "DocInformation"
+msgstr "Info. sobre o documento"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
+msgid "Variables"
+msgstr "Variáveis"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
+msgid "Database"
+msgstr "Base de dados"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+msgid "~Insert"
+msgstr "~Inserir"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
+msgid "~Close"
+msgstr "Fe~char"
+
+#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
+#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
+msgid "Fields"
+msgstr "Campos"
 
 #: fldfunc.src#TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
 #: fldfunc.src%23TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
@@ -1000,290 +1286,3 @@ msgstr "No~me"
 msgctxt "fldfunc.src#TP_FLD_FUNC.tabpage.text"
 msgid "Functions"
 msgstr "Funções"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
-msgid "Document"
-msgstr "Documento"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
-msgid "Cross-references"
-msgstr "Referências cruzadas"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
-msgid "Functions"
-msgstr "Funções"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
-msgid "DocInformation"
-msgstr "Info. sobre o documento"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
-msgid "Variables"
-msgstr "Variáveis"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
-msgid "Database"
-msgstr "Base de dados"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-msgid "~Insert"
-msgstr "~Inserir"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
-msgid "~Close"
-msgstr "Fe~char"
-
-#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
-#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
-msgid "Fields"
-msgstr "Campos"
-
-#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-msgid "Exchange databases"
-msgstr "Trocar bases de dados"
-
-#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-msgid "Databases in Use"
-msgstr "Bases de dados em uso"
-
-#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-msgid "Available Databases"
-msgstr "Bases de dados disponíveis"
-
-#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
-msgid "Browse..."
-msgstr "Procurar..."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
-msgid ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-msgstr ""
-"Use este diálogo para substituir as bases de dados a que acede no seu "
-"documento através dos respectivos campos. Só pode fazer uma alteração de "
-"cada vez. É possível a selecção múltipla na lista esquerda.\n"
-"Use o botão Procurar para seleccionar uma base de dados."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-msgid "Database applied to document:"
-msgstr "Base de dados aplicada ao documento:"
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-msgid "Addresses.Addresses"
-msgstr "Endereços.Endereços"
-
-#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
-msgid "Define"
-msgstr "Definir"
-
-#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "Fe~char"
-
-#: changedb.src#DLG_CHANGE_DB.modaldialog.text
-#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
-msgid "Exchange Databases"
-msgstr "Trocar bases de dados"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Tipo"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "S~eleccionar"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "F~ormato"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
-msgid "O~ffset"
-msgstr "~Desvio"
-
-#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Conteúdo ~fixo"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
-msgid "Offs~et in days"
-msgstr "D~esvio em dias"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-msgid "Offs~et in minutes"
-msgstr "D~esvio em minutos"
-
-#: flddok.src#TP_FLD_DOK.tabpage.text
-#: flddok.src%23TP_FLD_DOK.tabpage.text
-msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
-msgid "Document"
-msgstr "Documento"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Tipo"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
-msgid "S~election"
-msgstr "S~elecção"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
-msgid "Format"
-msgstr "Formato"
-
-#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-msgid "Invisi~ble"
-msgstr "~Invisível"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-msgid "Numbering by chapter"
-msgstr "Numerar por capítulo"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-msgid "~Level"
-msgstr "Níve~l"
-
-#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-msgid "None"
-msgstr "Nenhum"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-msgid "~Separator"
-msgstr "~Separador"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
-msgid "Na~me"
-msgstr "No~me"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
-msgid "~Value"
-msgstr "~Valor"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Aplicar"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-msgid "Delete"
-msgstr "Eliminar"
-
-#: fldvar.src#TP_FLD_VAR.tabpage.text
-#: fldvar.src%23TP_FLD_VAR.tabpage.text
-msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
-msgid "Variables"
-msgstr "Variáveis"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "~Tipo"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "~Seleccionar"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
-msgid "Author"
-msgstr "Autor"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
-msgid "Time"
-msgstr "Hora"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
-msgid "Date"
-msgstr "Data"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-msgid "Date Time Author"
-msgstr "Data Hora Autor"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "F~ormato"
-
-#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Conteúdo ~fixo"
-
-#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-msgid "Info"
-msgstr "Informação"
-
-#: flddinf.src#TP_FLD_DOKINF.tabpage.text
-#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
-msgid "DocInformation"
-msgstr "Inf. do documento"

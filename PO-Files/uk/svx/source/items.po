@@ -5,9 +5,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+svx%2Fsource%2Fitems.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
-"PO-Revision-Date: 2022-07-14 17:36+0000\n"
-"Last-Translator: Pavlo Nechypurenko <acinonyxleo@gmail.com>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-05-14 14:33+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657820195.000000\n"
+"X-POOTLE-MTIME: 1684074839.000000\n"
 
 #: svxerr.src#RID_SVXERRCTX.ERRCTX_SVX_LINGU_THESAURUS_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_THESAURUS_ERRCODE_RES_MASK.string.text
@@ -33,7 +33,7 @@ msgstr "$(ERR) при перевірці правопису."
 #: svxerr.src#RID_SVXERRCTX.ERRCTX_SVX_LINGU_HYPHENATION_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_HYPHENATION_ERRCODE_RES_MASK.string.text
 msgid "$(ERR) executing the hyphenation."
-msgstr "$(ERR) при розстановці переносів."
+msgstr "$(ERR) при перенесенні слів."
 
 #: svxerr.src#RID_SVXERRCTX.ERRCTX_SVX_LINGU_DICTIONARY_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCTX.ERRCTX_SVX_LINGU_DICTIONARY_ERRCODE_RES_MASK.string.text
@@ -56,8 +56,8 @@ msgid ""
 "No thesaurus available for the current language.\n"
 "Please check your installation and install the desired language."
 msgstr ""
-"Для поточної мови недоступний тезаурус.\n"
-"Перевірте встановлення та, при потребі, вкажіть бажану мову."
+"Недоступний словник для поточної мови.\n"
+"Перевірте встановлення та, за потреби, встановіть бажану мову."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_LINGU_LANGUAGENOTEXISTS_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LANGUAGENOTEXISTS_ERRCODE_RES_MASK.string.text
@@ -68,12 +68,12 @@ msgid ""
 "language module\n"
 "or activate it under 'Tools - Options - Language Settings - Writing Aids'."
 msgstr ""
-"$(ARG1) не підтримується функцією перевірки орфографії або вона не увімкнена."
+"$(ARG1) не підтримується функцією перевірки правопису або наразі неактивний."
 "\n"
-"Будь ласка перевірте свою інсталяцію і, за необхідності, встановіть "
-"потрібний мовний модуль\n"
-"або активуйте його у 'Засоби - Параметри - Настройки мови - Письмові засоби' "
-"."
+"Перевірте інсталяцію та, якщо необхідно, встановіть необхідний мовний "
+"модуль\n"
+"або активуйте його в меню \"Засоби - Параметри - Налаштування мови - "
+"Допомога при написанні\"."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_LINGU_LINGUNOTEXISTS_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_LINGUNOTEXISTS_ERRCODE_RES_MASK.string.text
@@ -83,7 +83,7 @@ msgstr "Перевірка орфографії недоступна."
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_LINGU_HYPHENNOTEXISTS_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_HYPHENNOTEXISTS_ERRCODE_RES_MASK.string.text
 msgid "Hyphenation not available."
-msgstr "Розставляння переносів недоступне."
+msgstr "Розставлення переносів недоступне."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTREADABLE_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_DICT_NOTREADABLE_ERRCODE_RES_MASK.string.text
@@ -108,7 +108,7 @@ msgstr "Не вдалося завантажити незв’язану гра�
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_LINGU_NOLANGUAGE_ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_LINGU_NOLANGUAGE_ERRCODE_RES_MASK.string.text
 msgid "A language has not been fixed for the selected term."
-msgstr "Не встановлено мову для вибраного поняття."
+msgstr "Для вибраного терміна мова не встановлена."
 
 #: svxerr.src#RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_FORMS_NOIOSERVICES___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
@@ -141,15 +141,15 @@ msgstr ""
 msgid ""
 "An error occurred while writing the form controls. The form layer has not "
 "been saved."
-msgstr "Помилка при записі елементів керування форми. Шар форми не збережено."
+msgstr ""
+"Помилка при записі елементів керування форми. Не завантажений шар форми."
 
 #: svxerr.src#RID_SVXERRCODE._ERRCODE_SVX_BULLETITEM_NOBULLET___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE._ERRCODE_SVX_BULLETITEM_NOBULLET___ERRCODE_CLASS_READ____ERRCODE_RES_MASK.string.text
 msgid ""
 "An error occurred while reading one of the bullets. Not all of the bullets "
 "were loaded."
-msgstr ""
-"Помилка при читанні одного з маркерів. Не вдається завантажити всі маркери."
+msgstr "Помилка при читанні маркеру. Не вдається завантажити всі маркери."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_MODIFIED_VBASIC_STORAGE___ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_MODIFIED_VBASIC_STORAGE___ERRCODE_RES_MASK.string.text
@@ -157,14 +157,14 @@ msgid ""
 "All changes to the Basic Code are lost. The original VBA Macro Code is saved "
 "instead."
 msgstr ""
-"Всі зміни до Basic Code втрачено. Замість цього збережено вихідний код "
+"Усі зміни до коду Basic втрачаються. Натомість зберігається вихідний код "
 "макросу VBA."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_VBASIC_STORAGE_EXIST___ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_VBASIC_STORAGE_EXIST___ERRCODE_RES_MASK.string.text
 msgid ""
 "The original VBA Basic Code contained in the document will not be saved."
-msgstr "Джерельний код VBA Basic, що міститься в документі, не буде збережений."
+msgstr "Первинний код VBA Basic, що міститься в документі, не буде збережений."
 
 #: svxerr.src#RID_SVXERRCODE.ERRCODE_SVX_WRONGPASS___ERRCODE_RES_MASK.string.text
 #: svxerr.src%23RID_SVXERRCODE.ERRCODE_SVX_WRONGPASS___ERRCODE_RES_MASK.string.text
@@ -228,7 +228,7 @@ msgstr "Шрифт"
 #: svxitems.src#RID_ATTR_NAMES.6.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.6.itemlist.text
 msgid "Font posture"
-msgstr "Написання шрифту"
+msgstr "Положення шрифту"
 
 #: svxitems.src#RID_ATTR_NAMES.7.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.7.itemlist.text
@@ -268,7 +268,7 @@ msgstr "Розмір шрифту"
 #: svxitems.src#RID_ATTR_NAMES.14.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.14.itemlist.text
 msgid "Rel. Font size"
-msgstr "Відносний розмір шрифту"
+msgstr "Відн. розмір шрифту"
 
 #: svxitems.src#RID_ATTR_NAMES.15.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.15.itemlist.text
@@ -335,7 +335,7 @@ msgstr "Розрив сторінки"
 #: svxitems.src#RID_ATTR_NAMES.27.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.27.itemlist.text
 msgid "Hyphenation"
-msgstr "Розстановка переносів"
+msgstr "Розставлення переносів"
 
 #: svxitems.src#RID_ATTR_NAMES.28.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.28.itemlist.text
@@ -390,7 +390,7 @@ msgstr "Стиль сторінки"
 #: svxitems.src#RID_ATTR_NAMES.37.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.37.itemlist.text
 msgid "Keep with next paragraph"
-msgstr "Триматись із наступним абзацем"
+msgstr "Триматися наступного абзацу"
 
 #: svxitems.src#RID_ATTR_NAMES.38.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.38.itemlist.text
@@ -401,7 +401,7 @@ msgstr "Блимання"
 #: svxitems.src#RID_ATTR_NAMES.39.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.39.itemlist.text
 msgid "Register-true"
-msgstr "Приведення"
+msgstr "Регістро-залежний"
 
 #: svxitems.src#RID_ATTR_NAMES.40.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.40.itemlist.text
@@ -427,37 +427,37 @@ msgstr "Мова азіатського тексту"
 #: svxitems.src#RID_ATTR_NAMES.44.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.44.itemlist.text
 msgid "Posture of Asian font"
-msgstr "Написання азійського шрифту"
+msgstr "Написання азіатського шрифту"
 
 #: svxitems.src#RID_ATTR_NAMES.45.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.45.itemlist.text
 msgid "Weight of Asian font"
-msgstr "Товщина азійського шрифту"
+msgstr "Товщина азіатського шрифту"
 
 #: svxitems.src#RID_ATTR_NAMES.46.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.46.itemlist.text
 msgid "CTL"
-msgstr "Складні системи писемності"
+msgstr "CTL"
 
 #: svxitems.src#RID_ATTR_NAMES.47.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.47.itemlist.text
 msgid "Size of complex scripts"
-msgstr "Розмір складних писемностей"
+msgstr "Розмір комплексних скриптів"
 
 #: svxitems.src#RID_ATTR_NAMES.48.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.48.itemlist.text
 msgid "Language of complex scripts"
-msgstr "Мова складних писемностей"
+msgstr "Мова комплексних скриптів"
 
 #: svxitems.src#RID_ATTR_NAMES.49.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.49.itemlist.text
 msgid "Posture of complex scripts"
-msgstr "Написання шрифту складних писемностей"
+msgstr "Написання комплексних скриптів"
 
 #: svxitems.src#RID_ATTR_NAMES.50.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.50.itemlist.text
 msgid "Weight of complex scripts"
-msgstr "Товщина шрифту складних писемностей"
+msgstr "Ширина комплексних скриптів"
 
 #: svxitems.src#RID_ATTR_NAMES.51.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.51.itemlist.text
@@ -503,7 +503,7 @@ msgstr "Рельєф"
 #: svxitems.src#RID_ATTR_NAMES.59.itemlist.text
 #: svxitems.src%23RID_ATTR_NAMES.59.itemlist.text
 msgid "Vertical text alignment"
-msgstr "Вертикальне вирівнювання тексту"
+msgstr "Вирівнювання тексту по вертикалі"
 
 #: svxitems.src#RID_SVXITEMS_EXTRAS_CHARCOLOR.string.text
 #: svxitems.src%23RID_SVXITEMS_EXTRAS_CHARCOLOR.string.text
@@ -596,7 +596,7 @@ msgstr "Сітка"
 #: svxitems.src#RID_SVXITEMS_BRUSHSTYLE_DIAGCROSS.string.text
 #: svxitems.src%23RID_SVXITEMS_BRUSHSTYLE_DIAGCROSS.string.text
 msgid "Diamond"
-msgstr "Діагональна клітинка"
+msgstr "Ромбічна"
 
 #: svxitems.src#RID_SVXITEMS_BRUSHSTYLE_UPDIAG.string.text
 #: svxitems.src%23RID_SVXITEMS_BRUSHSTYLE_UPDIAG.string.text
@@ -616,7 +616,7 @@ msgstr "Зображення"
 #: svxitems.src#RID_SVXITEMS_HORJUST_STANDARD.string.text
 #: svxitems.src%23RID_SVXITEMS_HORJUST_STANDARD.string.text
 msgid "Horizontal alignment default"
-msgstr "Горизонтальне вирівнювання типово"
+msgstr "Горизонтальне вирівнювання (типово)"
 
 #: svxitems.src#RID_SVXITEMS_HORJUST_LEFT.string.text
 #: svxitems.src%23RID_SVXITEMS_HORJUST_LEFT.string.text
@@ -626,7 +626,7 @@ msgstr "Вирівняти зліва"
 #: svxitems.src#RID_SVXITEMS_HORJUST_CENTER.string.text
 #: svxitems.src%23RID_SVXITEMS_HORJUST_CENTER.string.text
 msgid "Centered horizontally"
-msgstr "Горизонтально у центрі"
+msgstr "Посередині горизонтально"
 
 #: svxitems.src#RID_SVXITEMS_HORJUST_RIGHT.string.text
 #: svxitems.src%23RID_SVXITEMS_HORJUST_RIGHT.string.text
@@ -651,17 +651,17 @@ msgstr "Вертикальне вирівнювання (типово)"
 #: svxitems.src#RID_SVXITEMS_VERJUST_TOP.string.text
 #: svxitems.src%23RID_SVXITEMS_VERJUST_TOP.string.text
 msgid "Align to top"
-msgstr "Вирівнювання вгору"
+msgstr "Вирівнювання згори"
 
 #: svxitems.src#RID_SVXITEMS_VERJUST_CENTER.string.text
 #: svxitems.src%23RID_SVXITEMS_VERJUST_CENTER.string.text
 msgid "Centered vertically"
-msgstr "Вертикально у центрі"
+msgstr "Вертикально посередині"
 
 #: svxitems.src#RID_SVXITEMS_VERJUST_BOTTOM.string.text
 #: svxitems.src%23RID_SVXITEMS_VERJUST_BOTTOM.string.text
 msgid "Align to bottom"
-msgstr "Вирівнювання вниз"
+msgstr "Вирівнювання до низу"
 
 #: svxitems.src#RID_SVXITEMS_ORI_STANDARD.string.text
 #: svxitems.src%23RID_SVXITEMS_ORI_STANDARD.string.text
@@ -681,7 +681,7 @@ msgstr "Знизу вгору"
 #: svxitems.src#RID_SVXITEMS_ORI_STACKED.string.text
 #: svxitems.src%23RID_SVXITEMS_ORI_STACKED.string.text
 msgid "Stacked"
-msgstr "Зверх"
+msgstr "Одне на одне"
 
 #: svxitems.src#RID_SVXITEMS_BOXINF_TABLE_TRUE.string.text
 #: svxitems.src%23RID_SVXITEMS_BOXINF_TABLE_TRUE.string.text
@@ -696,17 +696,17 @@ msgstr "Не таблиця"
 #: svxitems.src#RID_SVXITEMS_BOXINF_DIST_TRUE.string.text
 #: svxitems.src%23RID_SVXITEMS_BOXINF_DIST_TRUE.string.text
 msgid "Spacing enabled"
-msgstr "Інтервали увімкнено"
+msgstr "Інтервал дозволений"
 
 #: svxitems.src#RID_SVXITEMS_BOXINF_DIST_FALSE.string.text
 #: svxitems.src%23RID_SVXITEMS_BOXINF_DIST_FALSE.string.text
 msgid "Spacing disabled"
-msgstr "Інтервали вимкнено"
+msgstr "Інтервал заборонений"
 
 #: svxitems.src#RID_SVXITEMS_BOXINF_MDIST_TRUE.string.text
 #: svxitems.src%23RID_SVXITEMS_BOXINF_MDIST_TRUE.string.text
 msgid "Keep spacing interval"
-msgstr "Дотримання інтервалу"
+msgstr "Дотримуватись інтервалу"
 
 #: svxitems.src#RID_SVXITEMS_BOXINF_MDIST_FALSE.string.text
 #: svxitems.src%23RID_SVXITEMS_BOXINF_MDIST_FALSE.string.text
@@ -751,17 +751,17 @@ msgstr "Маленькі літери"
 #: svxitems.src#RID_SVXITEMS_PAGE_NUM_ROM_UPPER.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_NUM_ROM_UPPER.string.text
 msgid "Uppercase Roman"
-msgstr "Римські великі"
+msgstr "Римське велике"
 
 #: svxitems.src#RID_SVXITEMS_PAGE_NUM_ROM_LOWER.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_NUM_ROM_LOWER.string.text
 msgid "Lowercase Roman"
-msgstr "Римські маленькі"
+msgstr "Римське маленьке"
 
 #: svxitems.src#RID_SVXITEMS_PAGE_NUM_ARABIC.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_NUM_ARABIC.string.text
 msgid "Arabic"
-msgstr "Арабські"
+msgstr "Арабська"
 
 #: svxitems.src#RID_SVXITEMS_PAGE_NUM_NONE.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_NUM_NONE.string.text
@@ -777,7 +777,7 @@ msgstr "Альбомна"
 #: svxitems.src#RID_SVXITEMS_PAGE_LAND_FALSE.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_LAND_FALSE.string.text
 msgid "Portrait"
-msgstr "Книжкова"
+msgstr "Книжна"
 
 #: svxitems.src#RID_SVXITEMS_PAGE_USAGE_LEFT.string.text
 #: svxitems.src%23RID_SVXITEMS_PAGE_USAGE_LEFT.string.text

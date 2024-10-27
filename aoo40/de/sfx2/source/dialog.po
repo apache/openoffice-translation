@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sfx2%2Fsource%2Fdialog.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-08-21 17:13+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2021-05-30 00:59+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,15 +16,20 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: dinfedt.src#DLG_DOCINFO_EDT.FL_INFO.fixedline.text
-#: dinfedt.src%23DLG_DOCINFO_EDT.FL_INFO.fixedline.text
-msgid "Names"
-msgstr "Namen"
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
+msgid "Style name"
+msgstr "Vorlagenname"
 
-#: dinfedt.src#DLG_DOCINFO_EDT.modaldialog.text
-#: dinfedt.src%23DLG_DOCINFO_EDT.modaldialog.text
-msgid "Edit Field Names"
-msgstr "Infonamen bearbeiten"
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
+msgid "Style already exists. Overwrite?"
+msgstr "Vorlage existiert bereits. Überschreiben?"
+
+#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
+#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
+msgid "Create Style"
+msgstr "Vorlage erstellen"
 
 #: passwd.src#DLG_PASSWD.FT_PASSWD_USER.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_USER.fixedtext.text
@@ -34,7 +39,7 @@ msgstr "~Benutzer"
 #: passwd.src#DLG_PASSWD.FT_PASSWD_PASSWORD.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_PASSWORD.fixedtext.text
 msgid "~Password"
-msgstr "~Kennwort"
+msgstr "~Passwort"
 
 #: passwd.src#DLG_PASSWD.FT_PASSWD_CONFIRM.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_CONFIRM.fixedtext.text
@@ -45,12 +50,12 @@ msgstr "~Bestätigen"
 #: passwd.src%23DLG_PASSWD.GB_PASSWD_PASSWORD.fixedline.text
 msgctxt "passwd.src#DLG_PASSWD.GB_PASSWD_PASSWORD.fixedline.text"
 msgid "Password"
-msgstr "Kennwort"
+msgstr "Passwort"
 
 #: passwd.src#DLG_PASSWD.FT_PASSWD_PASSWORD2.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_PASSWORD2.fixedtext.text
 msgid "P~assword"
-msgstr "~Kennwort"
+msgstr "P~asswort"
 
 #: passwd.src#DLG_PASSWD.FT_PASSWD_CONFIRM2.fixedtext.text
 #: passwd.src%23DLG_PASSWD.FT_PASSWD_CONFIRM2.fixedtext.text
@@ -61,331 +66,12 @@ msgstr "~Bestätigen"
 #: passwd.src%23DLG_PASSWD.TEXT_PASSWD.string.text
 msgctxt "passwd.src#DLG_PASSWD.TEXT_PASSWD.string.text"
 msgid "Password"
-msgstr "Kennwort"
+msgstr "Passwort"
 
 #: passwd.src#DLG_PASSWD.modaldialog.text
 #: passwd.src%23DLG_PASSWD.modaldialog.text
 msgid "Enter Password"
-msgstr "Kennwort eingeben"
-
-#: filedlghelper.src#STR_SFX_FILEDLG_ACTUALVERSION.string.text
-#: filedlghelper.src%23STR_SFX_FILEDLG_ACTUALVERSION.string.text
-msgid "Current version"
-msgstr "Aktuelle Version"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_EXPORT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_EXPORT.string.text
-msgid "Export"
-msgstr "Exportieren"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_INSERT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_INSERT.string.text
-msgid "Insert"
-msgstr "Einfügen"
-
-#: filedlghelper.src#STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
-#: filedlghelper.src%23STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
-msgid "~Insert"
-msgstr "~Einfügen"
-
-#: filedlghelper.src#STR_SFX_IMPORT_ALL.string.text
-#: filedlghelper.src%23STR_SFX_IMPORT_ALL.string.text
-msgid "<All formats>"
-msgstr "<Alle Formate>"
-
-#: filedlghelper.src#STR_CB_AUTO_EXTENSION.string.text
-#: filedlghelper.src%23STR_CB_AUTO_EXTENSION.string.text
-msgid "~Automatic file name extension"
-msgstr "automatische Dateinamens~erweiterung"
-
-#: filedlghelper.src#STR_CB_SELECTION.string.text
-#: filedlghelper.src%23STR_CB_SELECTION.string.text
-msgid "~Selection"
-msgstr "S~elektion"
-
-#: filedlghelper.src#STR_CB_INSERT_AS_LINK.string.text
-#: filedlghelper.src%23STR_CB_INSERT_AS_LINK.string.text
-msgid "~Link"
-msgstr "~Verknüpfen"
-
-#: filedlghelper.src#STR_CB_SHOW_PREVIEW.string.text
-#: filedlghelper.src%23STR_CB_SHOW_PREVIEW.string.text
-msgid "Pr~eview"
-msgstr "V~orschau"
-
-#: filedlghelper.src#STR_CB_READONLY.string.text
-#: filedlghelper.src%23STR_CB_READONLY.string.text
-msgctxt "filedlghelper.src#STR_CB_READONLY.string.text"
-msgid "~Read-only"
-msgstr "N~ur lesen"
-
-#: filedlghelper.src#STR_CB_PASSWORD.string.text
-#: filedlghelper.src%23STR_CB_PASSWORD.string.text
-msgid "Save with ~password"
-msgstr "mit ~Passwort speichern"
-
-#: filedlghelper.src#STR_CB_FILTER_OPTIONS.string.text
-#: filedlghelper.src%23STR_CB_FILTER_OPTIONS.string.text
-msgid "Edit ~filter settings"
-msgstr "Filtereinstellungen ~bearbeiten"
-
-#: filedlghelper.src#STR_PB_PLAY.string.text
-#: filedlghelper.src%23STR_PB_PLAY.string.text
-msgid "~Play"
-msgstr "Ab~spielen"
-
-#: filedlghelper.src#STR_PB_STOP.string.text
-#: filedlghelper.src%23STR_PB_STOP.string.text
-msgid "Sto~p"
-msgstr "A~nhalten"
-
-#: filedlghelper.src#STR_PB_OPEN.string.text
-#: filedlghelper.src%23STR_PB_OPEN.string.text
-msgid "~Open"
-msgstr "Ö~ffnen"
-
-#: filedlghelper.src#STR_PB_SAVE.string.text
-#: filedlghelper.src%23STR_PB_SAVE.string.text
-msgid "~Save"
-msgstr "~Speichern"
-
-#: filedlghelper.src#STR_LB_IMAGE_TEMPLATE.string.text
-#: filedlghelper.src%23STR_LB_IMAGE_TEMPLATE.string.text
-msgid "Style:"
-msgstr "Rahmenvorlage:"
-
-#: filedlghelper.src#STR_LB_TEMPLATES.string.text
-#: filedlghelper.src%23STR_LB_TEMPLATES.string.text
-msgid "~Templates:"
-msgstr "~Vorlagen:"
-
-#: filedlghelper.src#STR_LB_VERSION.string.text
-#: filedlghelper.src%23STR_LB_VERSION.string.text
-msgid "~Version:"
-msgstr "~Version:"
-
-#: templdlg.src#RID_STYLECATALOG.BT_ORG.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_ORG.pushbutton.text
-msgid "~Organizer..."
-msgstr "~Verwalten …"
-
-#: templdlg.src#RID_STYLECATALOG.BT_DEL.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_DEL.pushbutton.text
-msgid "~Delete..."
-msgstr "~Löschen …"
-
-#: templdlg.src#RID_STYLECATALOG.BT_EDIT.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_EDIT.pushbutton.text
-msgid "~Modify..."
-msgstr "Än~dern …"
-
-#: templdlg.src#RID_STYLECATALOG.BT_NEW.pushbutton.text
-#: templdlg.src%23RID_STYLECATALOG.BT_NEW.pushbutton.text
-msgid "~New..."
-msgstr "~Neu …"
-
-#: templdlg.src#RID_STYLECATALOG.modaldialog.text
-#: templdlg.src%23RID_STYLECATALOG.modaldialog.text
-msgid "Style Catalog"
-msgstr "Vorlagenkatalog"
-
-#: templdlg.src#STR_STYLE_ELEMTLIST.string.text
-#: templdlg.src%23STR_STYLE_ELEMTLIST.string.text
-msgid "Style List"
-msgstr "Style Liste"
-
-#: templdlg.src#STR_STYLE_FILTER_HIERARCHICAL.string.text
-#: templdlg.src%23STR_STYLE_FILTER_HIERARCHICAL.string.text
-msgid "Hierarchical"
-msgstr "Hierarchisch"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
-msgid "Fill Format Mode"
-msgstr "Gießkannenmodus"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
-msgid "New Style from Selection"
-msgstr "Neue Vorlage aus Selektion"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
-msgid "Update Style"
-msgstr "Vorlage aktualisieren"
-
-#: templdlg.src#DLG_STYLE_DESIGNER.dockingwindow.text
-#: templdlg.src%23DLG_STYLE_DESIGNER.dockingwindow.text
-msgid "Styles and Formatting"
-msgstr "Formatvorlagen"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
-msgid "Reduce print data"
-msgstr "Druckdaten reduzieren"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
-msgid "Settings for"
-msgstr "Einstellungen für"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
-msgid "~Printer"
-msgstr "~Drucker"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
-msgid "Print to ~file"
-msgstr "Drucken ~in Datei"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
-msgid "~Reduce transparency"
-msgstr "Transparenz ~reduzieren"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
-msgid "Auto~matically"
-msgstr "Auto~matisch"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
-msgid "~No transparency"
-msgstr "~Keine Transparenz"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
-msgid "Reduce ~gradients"
-msgstr "Farb~verläufe reduzieren"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
-msgid "Gradient ~stripes"
-msgstr "Farbverlauf~sstreifen"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
-msgid "Intermediate ~color"
-msgstr "~Zwischenfarbe"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
-msgid "Reduce ~bitmaps"
-msgstr "~Bitmaps reduzieren"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
-msgid "~High print quality"
-msgstr "Hohe Druck~qualität"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
-msgid "N~ormal print quality"
-msgstr "N~ormale Druckqualität"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
-msgid "Reso~lution"
-msgstr "A~uflösung"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
-msgid "72 DPI"
-msgstr "72 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
-msgid "96 DPI"
-msgstr "96 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
-msgid "150 DPI (Fax)"
-msgstr "150 DPI (Fax)"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
-msgid "200 DPI (default)"
-msgstr "200 DPI (Voreinstellung)"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
-msgid "300 DPI"
-msgstr "300 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
-msgid "600 DPI"
-msgstr "600 DPI"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
-msgid "Include transparent ob~jects"
-msgstr "Transparente Ob~jekte einschließen"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
-msgid "Con~vert colors to grayscale"
-msgstr "Farben in Graustufen um~wandeln"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
-msgid "Printer warnings"
-msgstr "Drucker-Warnungen"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
-msgid "P~aper size"
-msgstr "P~apiergröße"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
-msgid "Pap~er orientation"
-msgstr "Papi~erorientierung"
-
-#: printopt.src#TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
-#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
-msgid "~Transparency"
-msgstr "~Transparenz"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
-msgid ""
-"Your document contains transparent objects.\n"
-"This may lead to longer printing time on certain\n"
-"printers. Should the aspect of transparency\n"
-"be reduced?"
-msgstr ""
-"Ihr Dokument enthält transparente Objekte.\n"
-"Auf vielen Druckern führt dies zu\n"
-"verlängerten Druckzeiten. Soll die Transparenz\n"
-"für diesen Ausdruck ignoriert werden?"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
-msgid "~Yes"
-msgstr "~Ja"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
-msgid "~No"
-msgstr "~Nein"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
-msgid "~Cancel"
-msgstr "~Abbrechen"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
-msgid "~Do not show warning again"
-msgstr "~Diese Warnung nicht mehr anzeigen"
-
-#: printopt.src#RID_WARN_PRINTTRANSPARENCY.modaldialog.text
-#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.modaldialog.text
-msgid "Warning"
-msgstr "Warnung"
+msgstr "Passwort eingeben"
 
 #: srchdlg.src#RID_DLG_SEARCH.FT_SEARCH.fixedtext.text
 #: srchdlg.src%23RID_DLG_SEARCH.FT_SEARCH.fixedtext.text
@@ -435,49 +121,35 @@ msgstr "Suche am ~Dokumentende fortsetzen"
 msgid "Find on this Page"
 msgstr "Auf dieser Seite suchen"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.FL_COL.fixedline.text
-msgid "Style name"
-msgstr "Vorlagenname"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_NAME.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "~Name"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.MSG_OVERWRITE.querybox.text
-msgid "Style already exists. Overwrite?"
-msgstr "Vorlage existiert bereits. Überschreiben?"
+#: mgetempl.src#TP_MANAGE_STYLES.CB_AUTO.checkbox.text
+#: mgetempl.src%23TP_MANAGE_STYLES.CB_AUTO.checkbox.text
+msgid "~AutoUpdate"
+msgstr "~Autom. aktualisieren"
 
-#: newstyle.src#DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
-#: newstyle.src%23DLG_NEW_STYLE_BY_EXAMPLE.modaldialog.text
-msgid "Create Style"
-msgstr "Vorlage erstellen"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
+msgid "Ne~xt Style"
+msgstr "~Folgevorlage"
 
-#: mailwindow.src#RID_ERRBOX_MAIL_CONFIG.errorbox.text
-#: mailwindow.src%23RID_ERRBOX_MAIL_CONFIG.errorbox.text
-msgid ""
-"%PRODUCTNAME was unable to find a working e-mail configuration. Please save "
-"this document locally instead and attach it from within your e-mail client."
-msgstr ""
-"%PRODUCTNAME konnte keine funktionierende E-Mail Konfiguration finden. Bitte "
-"speichern sie dieses Dokument lokal und senden es dann mit ihrem E-Mail "
-"Programm."
+#: mgetempl.src#TP_MANAGE_STYLES.FT_BASE.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_BASE.fixedtext.text
+msgid "Linked with"
+msgstr "Verknüpft mit"
 
-#: recfloat.src#SID_RECORDING_FLOATWINDOW.floatingwindow.text
-#: recfloat.src%23SID_RECORDING_FLOATWINDOW.floatingwindow.text
-msgid "Record Macro"
-msgstr "Makro aufzeichnen"
+#: mgetempl.src#TP_MANAGE_STYLES.FT_REGION.fixedtext.text
+#: mgetempl.src%23TP_MANAGE_STYLES.FT_REGION.fixedtext.text
+msgid "~Category"
+msgstr "~Bereich"
 
-#: recfloat.src#STR_MACRO_LOSS.string.text
-#: recfloat.src%23STR_MACRO_LOSS.string.text
-msgid ""
-"Do you really want to cancel the recording? Any steps recorded up to this "
-"point will be lost."
-msgstr ""
-"Soll die Aufzeichnung wirklich abgebrochen werden? Alle bis zu diesem Punkt "
-"aufgezeichneten Schritte gehen verloren."
-
-#: recfloat.src#STR_CANCEL_RECORDING.string.text
-#: recfloat.src%23STR_CANCEL_RECORDING.string.text
-msgid "Cancel Recording"
-msgstr "Aufzeichnung abbrechen"
+#: mgetempl.src#TP_MANAGE_STYLES.GB_DESC.fixedline.text
+#: mgetempl.src%23TP_MANAGE_STYLES.GB_DESC.fixedline.text
+msgid "Contains"
+msgstr "Enthält"
 
 #: dinfdlg.src#STR_SFX_NEWOFFICEDOC.string.text
 #: dinfdlg.src%23STR_SFX_NEWOFFICEDOC.string.text
@@ -981,6 +653,107 @@ msgstr "M~illisekunden"
 msgid "Edit Duration"
 msgstr "Dauer bearbeiten"
 
+#: dinfedt.src#DLG_DOCINFO_EDT.FL_INFO.fixedline.text
+#: dinfedt.src%23DLG_DOCINFO_EDT.FL_INFO.fixedline.text
+msgid "Names"
+msgstr "Namen"
+
+#: dinfedt.src#DLG_DOCINFO_EDT.modaldialog.text
+#: dinfedt.src%23DLG_DOCINFO_EDT.modaldialog.text
+msgid "Edit Field Names"
+msgstr "Infonamen bearbeiten"
+
+#: versdlg.src#DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
+#: versdlg.src%23DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
+msgid "New versions"
+msgstr "Neue Versionen"
+
+#: versdlg.src#DLG_VERSIONS.PB_SAVE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_SAVE.pushbutton.text
+msgid "Save ~New Version"
+msgstr "~Neue Version speichern"
+
+#: versdlg.src#DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
+#: versdlg.src%23DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
+msgid "~Always save a version on closing"
+msgstr "~Beim Schließen immer Version speichern"
+
+#: versdlg.src#DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
+#: versdlg.src%23DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
+msgid "Existing versions"
+msgstr "Vorhandene Versionen"
+
+#: versdlg.src#DLG_VERSIONS.FT_DATETIME.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_DATETIME.fixedtext.text
+msgid "Date and time"
+msgstr "Datum und Uhrzeit"
+
+#: versdlg.src#DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
+msgid "Saved by"
+msgstr "gespeichert von"
+
+#: versdlg.src#DLG_VERSIONS.FT_COMMENTS.fixedtext.text
+#: versdlg.src%23DLG_VERSIONS.FT_COMMENTS.fixedtext.text
+msgid "Comments"
+msgstr "Kommentare"
+
+#: versdlg.src#DLG_VERSIONS.PB_CLOSE.cancelbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_CLOSE.cancelbutton.text
+msgid "Close"
+msgstr "Schließen"
+
+#: versdlg.src#DLG_VERSIONS.PB_OPEN.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_OPEN.pushbutton.text
+msgid "Open"
+msgstr "Öffnen"
+
+#: versdlg.src#DLG_VERSIONS.PB_VIEW.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_VIEW.pushbutton.text
+msgid "~Show..."
+msgstr "~Anzeigen …"
+
+#: versdlg.src#DLG_VERSIONS.PB_DELETE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_DELETE.pushbutton.text
+msgid "~Delete"
+msgstr "~Löschen"
+
+#: versdlg.src#DLG_VERSIONS.PB_COMPARE.pushbutton.text
+#: versdlg.src%23DLG_VERSIONS.PB_COMPARE.pushbutton.text
+msgid "Compare"
+msgstr "Vergleichen"
+
+#: versdlg.src#DLG_VERSIONS.modaldialog.text
+#: versdlg.src%23DLG_VERSIONS.modaldialog.text
+msgid "Versions of"
+msgstr "Versionen in"
+
+#: versdlg.src#DLG_COMMENTS.FT_DATETIME.fixedtext.text
+#: versdlg.src%23DLG_COMMENTS.FT_DATETIME.fixedtext.text
+msgid "Date and time : "
+msgstr "Datum und Uhrzeit : "
+
+#: versdlg.src#DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
+#: versdlg.src%23DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
+msgid "Saved by "
+msgstr "gespeichert von "
+
+#: versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text
+#: versdlg.src%23DLG_COMMENTS.PB_CLOSE.pushbutton.text
+msgctxt "versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text"
+msgid "~Close"
+msgstr "~Schließen"
+
+#: versdlg.src#DLG_COMMENTS.modaldialog.text
+#: versdlg.src%23DLG_COMMENTS.modaldialog.text
+msgid "Insert Version Comment"
+msgstr "Versionskommentar eingeben"
+
+#: versdlg.src#DLG_COMMENTS.string.text
+#: versdlg.src%23DLG_COMMENTS.string.text
+msgid "Version comment"
+msgstr "Versionskommentar"
+
 #: dialog.src#STR_RESET.string.text
 #: dialog.src%23STR_RESET.string.text
 msgid "~Reset"
@@ -1074,194 +847,186 @@ msgstr "Fehlerhafte Bestätigung des Passwortes"
 msgid "Send"
 msgstr "Senden"
 
-#: versdlg.src#DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
-#: versdlg.src%23DLG_VERSIONS.GB_NEWVERSIONS.fixedline.text
-msgid "New versions"
-msgstr "Neue Versionen"
+#: filedlghelper.src#STR_SFX_FILEDLG_ACTUALVERSION.string.text
+#: filedlghelper.src%23STR_SFX_FILEDLG_ACTUALVERSION.string.text
+msgid "Current version"
+msgstr "Aktuelle Version"
 
-#: versdlg.src#DLG_VERSIONS.PB_SAVE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_SAVE.pushbutton.text
-msgid "Save ~New Version"
-msgstr "~Neue Version speichern"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_EXPORT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_EXPORT.string.text
+msgid "Export"
+msgstr "Exportieren"
 
-#: versdlg.src#DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
-#: versdlg.src%23DLG_VERSIONS.CB_SAVEONCLOSE.checkbox.text
-msgid "~Always save a version on closing"
-msgstr "~Beim Schließen immer Version speichern"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_INSERT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_INSERT.string.text
+msgid "Insert"
+msgstr "Einfügen"
 
-#: versdlg.src#DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
-#: versdlg.src%23DLG_VERSIONS.GB_OLDVERSIONS.fixedline.text
-msgid "Existing versions"
-msgstr "Vorhandene Versionen"
+#: filedlghelper.src#STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
+#: filedlghelper.src%23STR_SFX_EXPLORERFILE_BUTTONINSERT.string.text
+msgid "~Insert"
+msgstr "~Einfügen"
 
-#: versdlg.src#DLG_VERSIONS.FT_DATETIME.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_DATETIME.fixedtext.text
-msgid "Date and time"
-msgstr "Datum und Uhrzeit"
+#: filedlghelper.src#STR_SFX_IMPORT_ALL.string.text
+#: filedlghelper.src%23STR_SFX_IMPORT_ALL.string.text
+msgid "<All formats>"
+msgstr "<Alle Formate>"
 
-#: versdlg.src#DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_SAVEDBY.fixedtext.text
-msgid "Saved by"
-msgstr "gespeichert von"
+#: filedlghelper.src#STR_CB_AUTO_EXTENSION.string.text
+#: filedlghelper.src%23STR_CB_AUTO_EXTENSION.string.text
+msgid "~Automatic file name extension"
+msgstr "automatische Dateinamens~erweiterung"
 
-#: versdlg.src#DLG_VERSIONS.FT_COMMENTS.fixedtext.text
-#: versdlg.src%23DLG_VERSIONS.FT_COMMENTS.fixedtext.text
-msgid "Comments"
-msgstr "Kommentar"
+#: filedlghelper.src#STR_CB_SELECTION.string.text
+#: filedlghelper.src%23STR_CB_SELECTION.string.text
+msgid "~Selection"
+msgstr "S~elektion"
 
-#: versdlg.src#DLG_VERSIONS.PB_CLOSE.cancelbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_CLOSE.cancelbutton.text
-msgid "Close"
-msgstr "Schließen"
+#: filedlghelper.src#STR_CB_INSERT_AS_LINK.string.text
+#: filedlghelper.src%23STR_CB_INSERT_AS_LINK.string.text
+msgid "~Link"
+msgstr "~Verknüpfen"
 
-#: versdlg.src#DLG_VERSIONS.PB_OPEN.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_OPEN.pushbutton.text
-msgid "Open"
-msgstr "Öffnen"
+#: filedlghelper.src#STR_CB_SHOW_PREVIEW.string.text
+#: filedlghelper.src%23STR_CB_SHOW_PREVIEW.string.text
+msgid "Pr~eview"
+msgstr "V~orschau"
 
-#: versdlg.src#DLG_VERSIONS.PB_VIEW.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_VIEW.pushbutton.text
-msgid "~Show..."
-msgstr "~Anzeigen …"
+#: filedlghelper.src#STR_CB_READONLY.string.text
+#: filedlghelper.src%23STR_CB_READONLY.string.text
+msgctxt "filedlghelper.src#STR_CB_READONLY.string.text"
+msgid "~Read-only"
+msgstr "N~ur lesen"
 
-#: versdlg.src#DLG_VERSIONS.PB_DELETE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_DELETE.pushbutton.text
-msgid "~Delete"
-msgstr "~Löschen"
+#: filedlghelper.src#STR_CB_PASSWORD.string.text
+#: filedlghelper.src%23STR_CB_PASSWORD.string.text
+msgid "Save with ~password"
+msgstr "mit ~Passwort speichern"
 
-#: versdlg.src#DLG_VERSIONS.PB_COMPARE.pushbutton.text
-#: versdlg.src%23DLG_VERSIONS.PB_COMPARE.pushbutton.text
-msgid "Compare"
-msgstr "Vergleichen"
+#: filedlghelper.src#STR_CB_FILTER_OPTIONS.string.text
+#: filedlghelper.src%23STR_CB_FILTER_OPTIONS.string.text
+msgid "Edit ~filter settings"
+msgstr "Filtereinstellungen ~bearbeiten"
 
-#: versdlg.src#DLG_VERSIONS.modaldialog.text
-#: versdlg.src%23DLG_VERSIONS.modaldialog.text
-msgid "Versions of"
-msgstr "Versionen in"
+#: filedlghelper.src#STR_PB_PLAY.string.text
+#: filedlghelper.src%23STR_PB_PLAY.string.text
+msgid "~Play"
+msgstr "Abspielen"
 
-#: versdlg.src#DLG_COMMENTS.FT_DATETIME.fixedtext.text
-#: versdlg.src%23DLG_COMMENTS.FT_DATETIME.fixedtext.text
-msgid "Date and time : "
-msgstr "Datum und Uhrzeit : "
+#: filedlghelper.src#STR_PB_STOP.string.text
+#: filedlghelper.src%23STR_PB_STOP.string.text
+msgid "Sto~p"
+msgstr "Anhalten"
 
-#: versdlg.src#DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
-#: versdlg.src%23DLG_COMMENTS.FT_SAVEDBY.fixedtext.text
-msgid "Saved by "
-msgstr "gespeichert von "
+#: filedlghelper.src#STR_PB_OPEN.string.text
+#: filedlghelper.src%23STR_PB_OPEN.string.text
+msgid "~Open"
+msgstr "Ö~ffnen"
 
-#: versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text
-#: versdlg.src%23DLG_COMMENTS.PB_CLOSE.pushbutton.text
-msgctxt "versdlg.src#DLG_COMMENTS.PB_CLOSE.pushbutton.text"
-msgid "~Close"
-msgstr "~Schließen"
+#: filedlghelper.src#STR_PB_SAVE.string.text
+#: filedlghelper.src%23STR_PB_SAVE.string.text
+msgid "~Save"
+msgstr "~Speichern"
 
-#: versdlg.src#DLG_COMMENTS.modaldialog.text
-#: versdlg.src%23DLG_COMMENTS.modaldialog.text
-msgid "Insert Version Comment"
-msgstr "Versionskommentar eingeben"
+#: filedlghelper.src#STR_LB_IMAGE_TEMPLATE.string.text
+#: filedlghelper.src%23STR_LB_IMAGE_TEMPLATE.string.text
+msgid "Style:"
+msgstr "Rahmenvorlage:"
 
-#: versdlg.src#DLG_COMMENTS.string.text
-#: versdlg.src%23DLG_COMMENTS.string.text
-msgid "Version comment"
-msgstr "Versionskommentar"
+#: filedlghelper.src#STR_LB_TEMPLATES.string.text
+#: filedlghelper.src%23STR_LB_TEMPLATES.string.text
+msgid "~Templates:"
+msgstr "~Vorlagen:"
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_NAME.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "~Name"
+#: filedlghelper.src#STR_LB_VERSION.string.text
+#: filedlghelper.src%23STR_LB_VERSION.string.text
+msgid "~Version:"
+msgstr "~Version:"
 
-#: mgetempl.src#TP_MANAGE_STYLES.CB_AUTO.checkbox.text
-#: mgetempl.src%23TP_MANAGE_STYLES.CB_AUTO.checkbox.text
-msgid "~AutoUpdate"
-msgstr "~Autom. aktualisieren"
+#: templdlg.src#RID_STYLECATALOG.BT_ORG.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_ORG.pushbutton.text
+msgid "~Organizer..."
+msgstr "~Verwalten …"
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_NEXT.fixedtext.text
-msgid "Ne~xt Style"
-msgstr "~Folgevorlage"
+#: templdlg.src#RID_STYLECATALOG.BT_DEL.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_DEL.pushbutton.text
+msgid "~Delete..."
+msgstr "~Löschen …"
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_BASE.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_BASE.fixedtext.text
-msgid "Linked with"
-msgstr "Verknüpft mit"
+#: templdlg.src#RID_STYLECATALOG.BT_EDIT.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_EDIT.pushbutton.text
+msgid "~Modify..."
+msgstr "Än~dern …"
 
-#: mgetempl.src#TP_MANAGE_STYLES.FT_REGION.fixedtext.text
-#: mgetempl.src%23TP_MANAGE_STYLES.FT_REGION.fixedtext.text
-msgid "~Category"
-msgstr "~Bereich"
+#: templdlg.src#RID_STYLECATALOG.BT_NEW.pushbutton.text
+#: templdlg.src%23RID_STYLECATALOG.BT_NEW.pushbutton.text
+msgid "~New..."
+msgstr "~Neu …"
 
-#: mgetempl.src#TP_MANAGE_STYLES.GB_DESC.fixedline.text
-#: mgetempl.src%23TP_MANAGE_STYLES.GB_DESC.fixedline.text
-msgid "Contains"
-msgstr "Enthält"
+#: templdlg.src#RID_STYLECATALOG.modaldialog.text
+#: templdlg.src%23RID_STYLECATALOG.modaldialog.text
+msgid "Style Catalog"
+msgstr "Vorlagenkatalog"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
-msgid ""
-"This document may contain formatting or content that cannot be saved in the %"
-"FORMATNAME file format. Do you want to save the document in this format "
-"anyway?\n"
-"\n"
-"Use the latest ODF file format and be sure all formatting and content is "
-"saved correctly."
-msgstr ""
-"Dieses Dokument beinhaltet unter Umständen Formatierungen oder Inhalte, die "
-"im %FORMATNAME Format nicht gespeichert werden können. Möchten Sie das "
-"Dokument trotzdem in diesem Format speichern?\n"
-"\n"
-"Benutzen Sie das neueste ODF-Format um sicherzustellen, dass alle Inhalte "
-"und Formatierungen korrekt gespeichert werden."
+#: templdlg.src#STR_STYLE_ELEMTLIST.string.text
+#: templdlg.src%23STR_STYLE_ELEMTLIST.string.text
+msgid "Style List"
+msgstr "Style Liste"
 
-# Sehe ich nicht so. Will ich ein vorhandenes Dokument in anderem Format speichern, ist das vorahndene Format aktuell und nicht gewählt.
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
-msgid "~Keep Current Format"
-msgstr "~Aktuelles Format beibehalten"
+#: templdlg.src#STR_STYLE_FILTER_HIERARCHICAL.string.text
+#: templdlg.src%23STR_STYLE_FILTER_HIERARCHICAL.string.text
+msgid "Hierarchical"
+msgstr "Hierarchisch"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
-msgid "~Save in ODF Format"
-msgstr "Im ODF-Format ~speichern"
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_WATERCAN.toolboxitem.text
+msgid "Fill Format Mode"
+msgstr "Gießkannenmodus"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
-msgid "~More Information..."
-msgstr "~Weitere Informationen …"
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_NEW_BY_EXAMPLE.toolboxitem.text
+msgid "New Style from Selection"
+msgstr "Neue Vorlage aus Selektion"
 
-#: alienwarn.src#RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
-#: alienwarn.src%23RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
-msgid "~Ask when not saving in ODF format"
-msgstr "~Nachfragen, wenn nicht im ODF-Format gespeichert wird"
+#: templdlg.src#DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.TB_ACTION.SID_STYLE_UPDATE_BY_EXAMPLE.toolboxitem.text
+msgid "Update Style"
+msgstr "Vorlage aktualisieren"
+
+#: templdlg.src#DLG_STYLE_DESIGNER.dockingwindow.text
+#: templdlg.src%23DLG_STYLE_DESIGNER.dockingwindow.text
+msgid "Styles and Formatting"
+msgstr "Formatvorlagen"
 
 #: securitypage.src#TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FL.fixedline.text
 #: securitypage.src%23TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FL.fixedline.text
 msgid "File encryption password"
-msgstr "Kennwort zur Dateiverschlüsselung"
+msgstr "Passwort zur Dateiverschlüsselung"
 
 #: securitypage.src#TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FT.fixedtext.text
 #: securitypage.src%23TP_DOCINFOSECURITY.PASSWORD_TO_OPEN_FT.fixedtext.text
 msgid "~Enter password to open"
-msgstr "Öffnen-Kennwort ~eingeben"
+msgstr "Öffnen-Passwort ~eingeben"
 
 #: securitypage.src#TP_DOCINFOSECURITY.CONFIRM_PASSWORD_TO_OPEN_FT.fixedtext.text
 #: securitypage.src%23TP_DOCINFOSECURITY.CONFIRM_PASSWORD_TO_OPEN_FT.fixedtext.text
 msgid "~Reenter password to open"
-msgstr "Öffnen-Kennwort e~rneut eingeben"
+msgstr "Öffnen-Passwort e~rneut eingeben"
 
 #: securitypage.src#TP_DOCINFOSECURITY.PASSWORD_TO_MODIFY_FL.fixedline.text
 #: securitypage.src%23TP_DOCINFOSECURITY.PASSWORD_TO_MODIFY_FL.fixedline.text
 msgid "File sharing password"
-msgstr "Kennwort für Dokumentfreigabe"
+msgstr "Passwort für Dokumentfreigabe"
 
 #: securitypage.src#TP_DOCINFOSECURITY.PASSWORD_TO_MODIFY_FT.fixedtext.text
 #: securitypage.src%23TP_DOCINFOSECURITY.PASSWORD_TO_MODIFY_FT.fixedtext.text
 msgid "Enter password to modify"
-msgstr "Bearbeiten-Kennwort eingeben"
+msgstr "Bearbeiten-Passwort eingeben"
 
 #: securitypage.src#TP_DOCINFOSECURITY.CONFIRM_PASSWORD_TO_MODIFY_FT.fixedtext.text
 #: securitypage.src%23TP_DOCINFOSECURITY.CONFIRM_PASSWORD_TO_MODIFY_FT.fixedtext.text
 msgid "Reenter password to modify"
-msgstr "Bearbeiten-Kennwort erneut eingeben"
+msgstr "Bearbeiten-Passwort erneut eingeben"
 
 #: securitypage.src#TP_DOCINFOSECURITY.OPTIONS_FL.fixedline.text
 #: securitypage.src%23TP_DOCINFOSECURITY.OPTIONS_FL.fixedline.text
@@ -1316,7 +1081,7 @@ msgstr "Aufzeichnungsschutz aufheben"
 #: securitypage.src#RID_SFX_INCORRECT_PASSWORD.string.text
 #: securitypage.src%23RID_SFX_INCORRECT_PASSWORD.string.text
 msgid "Incorrect password"
-msgstr "Fehlerhaftes Kennwort"
+msgstr "Fehlerhaftes Passwort"
 
 #: taskpane.src#STR_SFX_DOCK.string.text
 #: taskpane.src%23STR_SFX_DOCK.string.text
@@ -1337,3 +1102,238 @@ msgstr "Anzeige"
 #: taskpane.src%23STR_SFX_TASKS.string.text
 msgid "Tasks"
 msgstr "Aufgabenbereich"
+
+#: mailwindow.src#RID_ERRBOX_MAIL_CONFIG.errorbox.text
+#: mailwindow.src%23RID_ERRBOX_MAIL_CONFIG.errorbox.text
+msgid ""
+"%PRODUCTNAME was unable to find a working e-mail configuration. Please save "
+"this document locally instead and attach it from within your e-mail client."
+msgstr ""
+"%PRODUCTNAME konnte keine funktionierende E-Mail Konfiguration finden. Bitte "
+"speichern sie dieses Dokument lokal und senden es dann mit ihrem E-Mail "
+"Programm."
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_REDUCE.fixedline.text
+msgid "Reduce print data"
+msgstr "Druckdaten reduzieren"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.FT_OUTPUTTYPE.fixedtext.text
+msgid "Settings for"
+msgstr "Einstellungen für"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTEROUTPUT.radiobutton.text
+msgid "~Printer"
+msgstr "~Drucker"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_PRINTFILEOUTPUT.radiobutton.text
+msgid "Print to ~file"
+msgstr "Drucken ~in Datei"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCETRANSPARENCY.checkbox.text
+msgid "~Reduce transparency"
+msgstr "Transparenz ~reduzieren"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_AUTO.radiobutton.text
+msgid "Auto~matically"
+msgstr "Auto~matisch"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCETRANSPARENCY_NONE.radiobutton.text
+msgid "~No transparency"
+msgstr "~Keine Transparenz"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEGRADIENTS.checkbox.text
+msgid "Reduce ~gradients"
+msgstr "Farb~verläufe reduzieren"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_STRIPES.radiobutton.text
+msgid "Gradient ~stripes"
+msgstr "Farbverlauf~sstreifen"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEGRADIENTS_COLOR.radiobutton.text
+msgid "Intermediate ~color"
+msgstr "~Zwischenfarbe"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS.checkbox.text
+msgid "Reduce ~bitmaps"
+msgstr "~Bitmaps reduzieren"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_OPTIMAL.radiobutton.text
+msgid "~High print quality"
+msgstr "Hohe Druck~qualität"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_NORMAL.radiobutton.text
+msgid "N~ormal print quality"
+msgstr "N~ormale Druckqualität"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.RB_REDUCEBITMAPS_RESOLUTION.radiobutton.text
+msgid "Reso~lution"
+msgstr "A~uflösung"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.1.stringlist.text
+msgid "72 DPI"
+msgstr "72 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.2.stringlist.text
+msgid "96 DPI"
+msgstr "96 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.3.stringlist.text
+msgid "150 DPI (Fax)"
+msgstr "150 DPI (Fax)"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.4.stringlist.text
+msgid "200 DPI (default)"
+msgstr "200 DPI (Voreinstellung)"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.5.stringlist.text
+msgid "300 DPI"
+msgstr "300 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.LB_REDUCEBITMAPS_RESOLUTION.6.stringlist.text
+msgid "600 DPI"
+msgstr "600 DPI"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_REDUCEBITMAPS_TRANSPARENCY.checkbox.text
+msgid "Include transparent ob~jects"
+msgstr "Transparente Ob~jekte einschließen"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_CONVERTTOGREYSCALES.checkbox.text
+msgid "Con~vert colors to grayscale"
+msgstr "Farben in Graustufen um~wandeln"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.GB_PRINT_WARN.fixedline.text
+msgid "Printer warnings"
+msgstr "Drucker-Warnungen"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERSIZE.checkbox.text
+msgid "P~aper size"
+msgstr "P~apiergröße"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_PAPERORIENTATION.checkbox.text
+msgid "Pap~er orientation"
+msgstr "Papi~erorientierung"
+
+#: printopt.src#TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
+#: printopt.src%23TP_COMMONPRINTOPTIONS.CB_TRANSPARENCY.checkbox.text
+msgid "~Transparency"
+msgstr "~Transparenz"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.FT_PRINTTRANSWARN.fixedtext.text
+msgid ""
+"Your document contains transparent objects.\n"
+"This may lead to longer printing time on certain\n"
+"printers. Should the aspect of transparency\n"
+"be reduced?"
+msgstr ""
+"Ihr Dokument enthält transparente Objekte.\n"
+"Auf vielen Druckern führt dies zu\n"
+"verlängerten Druckzeiten. Soll die Transparenz\n"
+"für diesen Ausdruck ignoriert werden?"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_YES.okbutton.text
+msgid "~Yes"
+msgstr "~Ja"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_NO.pushbutton.text
+msgid "~No"
+msgstr "~Nein"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.BTN_PRINTTRANS_CANCEL.cancelbutton.text
+msgid "~Cancel"
+msgstr "~Abbrechen"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.CBX_NOPRINTTRANSWARN.checkbox.text
+msgid "~Do not show warning again"
+msgstr "~Diese Warnung nicht mehr anzeigen"
+
+#: printopt.src#RID_WARN_PRINTTRANSPARENCY.modaldialog.text
+#: printopt.src%23RID_WARN_PRINTTRANSPARENCY.modaldialog.text
+msgid "Warning"
+msgstr "Warnung"
+
+#: recfloat.src#SID_RECORDING_FLOATWINDOW.floatingwindow.text
+#: recfloat.src%23SID_RECORDING_FLOATWINDOW.floatingwindow.text
+msgid "Record Macro"
+msgstr "Makro aufzeichnen"
+
+#: recfloat.src#STR_MACRO_LOSS.string.text
+#: recfloat.src%23STR_MACRO_LOSS.string.text
+msgid ""
+"Do you really want to cancel the recording? Any steps recorded up to this "
+"point will be lost."
+msgstr ""
+"Soll die Aufzeichnung wirklich abgebrochen werden? Alle bis zu diesem Punkt "
+"aufgezeichneten Schritte gehen verloren."
+
+#: recfloat.src#STR_CANCEL_RECORDING.string.text
+#: recfloat.src%23STR_CANCEL_RECORDING.string.text
+msgid "Cancel Recording"
+msgstr "Aufzeichnung abbrechen"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.FT_INFOTEXT.fixedtext.text
+msgid ""
+"This document may contain formatting or content that cannot be saved in the %"
+"FORMATNAME file format. Do you want to save the document in this format "
+"anyway?\n"
+"\n"
+"Use the latest ODF file format and be sure all formatting and content is "
+"saved correctly."
+msgstr ""
+"Dieses Dokument beinhaltet unter Umständen Formatierungen oder Inhalte, die "
+"im %FORMATNAME Format nicht gespeichert werden können. Möchten Sie das "
+"Dokument trotzdem in diesem Format speichern?\n"
+"\n"
+"Benutzen Sie das neueste ODF-Format um sicherzustellen, dass alle Inhalte "
+"und Formatierungen korrekt gespeichert werden."
+
+# Sehe ich nicht so. Will ich ein vorhandenes Dokument in anderem Format speichern, ist das vorahndene Format aktuell und nicht gewählt.
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_NO.okbutton.text
+msgid "~Keep Current Format"
+msgstr "~Aktuelles Format beibehalten"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_YES.cancelbutton.text
+msgid "~Save in ODF Format"
+msgstr "Im ODF-Format ~speichern"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.PB_MOREINFO.helpbutton.text
+msgid "~More Information..."
+msgstr "~Weitere Informationen …"
+
+#: alienwarn.src#RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
+#: alienwarn.src%23RID_DLG_ALIEN_WARNING.CB_WARNING_OFF.checkbox.text
+msgid "~Ask when not saving in ODF format"
+msgstr "~Nachfragen, wenn nicht im ODF-Format gespeichert wird"

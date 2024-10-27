@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+forms%2Fsource%2Fresource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-07-05 12:01+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-10-02 16:26+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1657022478.000000\n"
+"X-POOTLE-MTIME: 1664727993.000000\n"
 
 #: xforms.src#RID_STR_XFORMS_NO_BINDING_EXPRESSION.string.text
 #: xforms.src%23RID_STR_XFORMS_NO_BINDING_EXPRESSION.string.text
@@ -43,12 +43,12 @@ msgstr "Потрібно вказати значення."
 #: xforms.src#RID_STR_XFORMS_INVALID_CONSTRAINT.string.text
 #: xforms.src%23RID_STR_XFORMS_INVALID_CONSTRAINT.string.text
 msgid "The constraint '$1' not validated."
-msgstr "Обмеження '$1' не перевірено."
+msgstr "Обмеження \"$1\" не перевірено."
 
 #: xforms.src#RID_STR_XFORMS_VALUE_IS_NOT_A.string.text
 #: xforms.src%23RID_STR_XFORMS_VALUE_IS_NOT_A.string.text
 msgid "The value is not of the type '$2'."
-msgstr "Значення має бути типу '$2'."
+msgstr "Значення має бути типу \"$2\"."
 
 #: xforms.src#RID_STR_XFORMS_VALUE_MAX_INCL.string.text
 #: xforms.src%23RID_STR_XFORMS_VALUE_MAX_INCL.string.text
@@ -73,7 +73,7 @@ msgstr "Величина має бути більшою за $2."
 #: xforms.src#RID_STR_XFORMS_VALUE_PATTERN.string.text
 #: xforms.src%23RID_STR_XFORMS_VALUE_PATTERN.string.text
 msgid "The value does not match the pattern '$2'."
-msgstr "Величина не відповідає шаблону '$2'."
+msgstr "Величина не відповідає шаблону \"$2\"."
 
 #: xforms.src#RID_STR_XFORMS_VALUE_TOTAL_DIGITS.string.text
 #: xforms.src%23RID_STR_XFORMS_VALUE_TOTAL_DIGITS.string.text
@@ -103,7 +103,7 @@ msgstr "Рядок може містити максимум $2 символів.
 #: xforms.src#RID_STR_DATATYPE_STRING.string.text
 #: xforms.src%23RID_STR_DATATYPE_STRING.string.text
 msgid "String"
-msgstr "Рядки"
+msgstr "Рядок"
 
 #: xforms.src#RID_STR_DATATYPE_URL.string.text
 #: xforms.src%23RID_STR_DATATYPE_URL.string.text
@@ -123,7 +123,7 @@ msgstr "Десятковий"
 #: xforms.src#RID_STR_DATATYPE_FLOAT.string.text
 #: xforms.src%23RID_STR_DATATYPE_FLOAT.string.text
 msgid "Floating point"
-msgstr "Плаваюча кома"
+msgstr "Рухома крапка"
 
 #: xforms.src#RID_STR_DATATYPE_DOUBLE.string.text
 #: xforms.src%23RID_STR_DATATYPE_DOUBLE.string.text
@@ -178,7 +178,7 @@ msgstr "Помилка при обчисленні"
 #: xforms.src#RID_STR_XFORMS_PATTERN_DOESNT_MATCH.string.text
 #: xforms.src%23RID_STR_XFORMS_PATTERN_DOESNT_MATCH.string.text
 msgid "The string '$1' does not match the required regular expression '$2'."
-msgstr "Рядок '$1' не відповідає необхідному регулярному виразу '$2'."
+msgstr "Рядок \"$1\" не відповідає необхідному регулярному виразу \"$2\"."
 
 #: xforms.src#RID_STR_XFORMS_BINDING_UI_NAME.string.text
 #: xforms.src%23RID_STR_XFORMS_BINDING_UI_NAME.string.text
@@ -193,7 +193,7 @@ msgstr "Неможливо визначити зміст поля зі спис�
 #: strings.src#RID_STR_IMPORT_GRAPHIC.string.text
 #: strings.src%23RID_STR_IMPORT_GRAPHIC.string.text
 msgid "Insert graphics"
-msgstr "Вставити графіку"
+msgstr "Вставити графічний об'єкт"
 
 #: strings.src#RID_STR_CONTROL_SUBSTITUTED_NAME.string.text
 #: strings.src%23RID_STR_CONTROL_SUBSTITUTED_NAME.string.text
@@ -206,7 +206,8 @@ msgid ""
 "An error occurred while this control was being loaded. It was therefore "
 "replaced with a placeholder."
 msgstr ""
-"Помилка при завантаженні елементу керування. Тому його замінено заповнювачем."
+"Помилка при завантаженні елементу керування. Тому його замінено "
+"місцезаповнювачем."
 
 #: strings.src#RID_STR_READERROR.string.text
 #: strings.src%23RID_STR_READERROR.string.text
@@ -294,9 +295,10 @@ msgid ""
 "time acts as validator. You need to revoke the value binding, before you can "
 "set a new validator."
 msgstr ""
-"Елемент керування, який підключається до вашого зовнішнього зв'язуючого "
-"значення, є водночас елементом перевірки. Необхідно роз'єднати зв'язуюче "
-"значення, перш ніж зможете встановити новий перевірочний елемент."
+"Елемент керування, що підключається до вашого зовнішнього зв'язуючого "
+"значення, яке в одночасно виступає як перевірочний елемент. Необхідно "
+"роз'єднати зв'язуюче значення, перш ніж зможете встановити новий "
+"перевірочний елемент."
 
 #: strings.src#RID_STR_LABEL_OF.string.text
 #: strings.src%23RID_STR_LABEL_OF.string.text

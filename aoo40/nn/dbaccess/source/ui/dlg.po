@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fui%2Fdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-25 22:02+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,355 +16,87 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
-#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
-msgid "~Parameters"
-msgstr "~Parametrar"
+#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
+msgid "SQL command"
+msgstr "SQL-kommando"
 
-#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
-#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
-msgid "~Value"
-msgstr "~Verdi"
+#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
+msgid "Command to execute"
+msgstr "Kommando som skal utførast"
 
-#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
-msgid "~Next"
-msgstr "~Neste"
+#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
+msgid "Execute"
+msgstr "Utfør"
 
-#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
-#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
+msgid "Previous commands"
+msgstr "Førre kommando"
+
+#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
+#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
+msgid "Status"
+msgstr "Status"
+
+#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
+msgid "Close"
+msgstr "Lukk"
+
+#: directsql.src#DLG_DIRECTSQL.modaldialog.text
+#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
+msgid "Execute SQL Statement"
+msgstr "Utfør SQL-setning"
+
+#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
+msgid "Command successfully executed."
+msgstr "Kommandoen er vellukka utførd."
+
+#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
 msgid ""
-"The entry could not be converted to a valid value for the \"$name$\"column"
-msgstr ""
-"Oppføringa kunne ikkje konverterast til ein gyldig verdi for kolonnen "
-"«$name$»"
+"The connection to the database has been lost. This dialog will be closed."
+msgstr "Mista sambandet med databasen. Lukkar dette dialogvindauget."
 
-#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
-#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
-msgid "Parameter Input"
-msgstr "Oppgi parameter"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
+msgid "~Database name"
+msgstr "~Databasenamn"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
-msgid "User selection"
-msgstr "Brukarval"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
+msgid "Se~rver / Port"
+msgstr "~Tenar/port"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
-msgid "Us~er:"
-msgstr "Bru~kar:"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
+msgid "~Server"
+msgstr "~Tenar"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
-msgid "~Add User..."
-msgstr "~Legg til brukar …"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
+msgid "~Port"
+msgstr "~Port"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
-msgid "Change ~Password..."
-msgstr "~Byt passord …"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
+msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
+msgid "Default: 3306"
+msgstr "Standard: 3306"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
-msgid "~Delete User..."
-msgstr "~Slett brukar …"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
+msgid "So~cket"
+msgstr "~Sokkel"
 
-#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
-msgid "Access rights for selected user"
-msgstr "Tilgangsrettigheter for vald brukar"
-
-#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
-#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
-msgid "Do you really want to delete the user?"
-msgstr "Er du sikker på at du vil sletta brukaren?"
-
-#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
-#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
-msgid "The database does not support user administration."
-msgstr "Databasen støttar ikkje brukaradministrasjon."
-
-#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
-#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
-#, fuzzy
-msgid "User \"$name$: $\""
-msgstr "Brukar «$name$:  $»"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
-msgid "Old p~assword"
-msgstr "Gammalt ~passord"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
-msgid "~Password"
-msgstr "~Passord"
-
-#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
-#, fuzzy
-msgid "~Confirm password"
-msgstr "Stadfest ~passord"
-
-#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
-#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
-msgid "Change Password"
-msgstr "Byt passord"
-
-#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The passwords do not match. Please enter the password again."
-msgstr "Passorda er ikkje like. Oppgi passordet på nytt."
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
-msgid "AND"
-msgstr "OG"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
-msgid "OR"
-msgstr "ELLER"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
-msgid "AND"
-msgstr "OG"
-
-#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
-msgid "OR"
-msgstr "ELLER"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Feltnamn"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
-msgid "Condition"
-msgstr "Vilkår"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
-msgid "Value"
-msgstr "Verdi"
-
-#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
-msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
-msgid "Criteria"
-msgstr "Kriterium"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
-msgid "- none -"
-msgstr "- ingen -"
-
-#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
-msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
-msgstr "=;<>;<;<=;>;>=;lik;ikkje lik;null;ikkje null"
-
-#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
-#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
-msgid "Standard Filter"
-msgstr "Standardfilter"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
-msgid "User Settings"
-msgstr "Brukarinnstillingar"
-
-#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
-#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
-msgid "User administration"
-msgstr "Brukaradministrasjon"
-
-#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
-msgid "Path to the dBASE files"
-msgstr "Stig til dBASE-filene"
-
-#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
-msgid "Path to the text files"
-msgstr "Stig til tekstfilene"
-
-#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
-#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
-msgid "Path to the spreadsheet document"
-msgstr "Stig til reknearket"
-
-#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
-#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
-msgid "Name of the ODBC data source on your system"
-msgstr "Namn på ODBC-datakjelda"
-
-#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
-msgid "Name of the MySQL database"
-msgstr "Namn på MySQL-databasen"
-
-#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
-msgid "Name of the Oracle database"
-msgstr "Namn på Oracle-databasen"
-
-#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
-#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
-msgid "Name of the Adabas D database"
-msgstr "Namn på Adabas D-databasen"
-
-#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
-#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
-msgid "Microsoft Access database file"
-msgstr "Microsoft Access-databasefil"
-
-#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
-#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
-msgid ""
-"No more settings are necessary. To verify that the connection is working, "
-"click the '%test' button."
-msgstr ""
-"Ingen fleire innstillingar trengst. Du kan stadfesta at tilkoplinga verkar "
-"med «%test»-knappen."
-
-#: AutoControls.src#STR_COMMONURL.string.text
-#: AutoControls.src%23STR_COMMONURL.string.text
-msgid "Datasource URL"
-msgstr "URL til datakjelda"
-
-#: AutoControls.src#STR_HOSTNAME.string.text
-#: AutoControls.src%23STR_HOSTNAME.string.text
-msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
-msgid "~Host name"
-msgstr "~Vertsnamn"
-
-#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
-msgid "~Mozilla profile name"
-msgstr "~Mozilla-profilnamn"
-
-#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
-#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
-msgid "~Thunderbird profile name"
-msgstr "~Thunderbird-profilnamn"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
-msgid "Create New Directory"
-msgstr "Lag ny mappe"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
-msgid "-"
-msgstr "-"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
-msgid "Up One Level"
-msgstr "Eitt nivå opp"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
-msgid "File ~name:"
-msgstr "F~ilnamn:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
-msgid "Save"
-msgstr "Lagra"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
-msgid "~Path:"
-msgstr "~Stig:"
-
-#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
-#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
-msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
-msgid "Save"
-msgstr "Lagra"
-
-#: CollectionView.src#STR_NEW_FOLDER.string.text
-#: CollectionView.src%23STR_NEW_FOLDER.string.text
-msgid "Folder"
-msgstr "Mappe"
-
-#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
-#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
-msgid "The file already exists. Overwrite?"
-msgstr "Fila finst frå før. Vil du skriva over henne?"
-
-#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
-#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
-msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr "Du treng eit passord for å kopla til datakjelda «$name$»."
-
-#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
-#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
-msgid ""
-"The directory\n"
-"\n"
-"$path$\n"
-"\n"
-"does not exist. Should it be created?"
-msgstr ""
-"Mappa\n"
-"\n"
-"$path$\n"
-"\n"
-"finst ikkje. Vil du laga henne?"
-
-#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
-#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
-msgid "The directory $name$ could not be created."
-msgstr "Klarte ikkje laga mappa $name$."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
-msgid "Please enter the ~password for the user 'DOMAIN'."
-msgstr "Oppgi ~passordet til brukaren «DOMAIN»."
-
-#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
-#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
-msgid "Convert Database"
-msgstr "Konverter database"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
-msgid "Tables and table filter"
-msgstr "Tabellar og tabellfilter"
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
-msgid "Mark the tables that should be visible for the applications."
-msgstr "Marker dei tabellane som programma skal kunna sjå."
-
-#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
-#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
-msgid "Tables Filter"
-msgstr "Tabellfilter"
+#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
+msgid "Named p~ipe"
+msgstr "Namngjeve ~røyr"
 
 #: dlgattr.src#DLG_ATTR.1.pushbutton.text
 #: dlgattr.src%23DLG_ATTR.1.pushbutton.text
@@ -395,269 +127,6 @@ msgstr "Tabellformat"
 #: dlgattr.src%23DLG_ATTR.tabdialog.text
 msgid "Field Format"
 msgstr "Feltformat"
-
-#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
-msgid "~Height"
-msgstr "~Høgd"
-
-#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatisk"
-
-#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
-#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
-msgid "Row Height"
-msgstr "Radhøgd"
-
-#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
-#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
-msgid "~Width"
-msgstr "~Breidd"
-
-#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
-#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
-msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
-msgid "~Automatic"
-msgstr "~Automatisk"
-
-#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
-#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
-msgid "Column Width"
-msgstr "Kolonnebreidd"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
-msgid "ascending"
-msgstr "stigande"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
-msgid "descending"
-msgstr "synkande"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
-msgid "ascending"
-msgstr "stigande"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
-msgid "descending"
-msgstr "synkande"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
-msgid "ascending"
-msgstr "stigande"
-
-#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
-msgid "descending"
-msgstr "synkande"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
-msgid "Field name"
-msgstr "Feltnamn"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
-msgid "and then"
-msgstr "deretter"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
-msgid "and then"
-msgstr "deretter"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
-msgid "Operator"
-msgstr "Operator"
-
-#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
-msgid "Order"
-msgstr "Rekkjefølgje"
-
-#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
-#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
-msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
-msgid "Sort order"
-msgstr "Sorteringsrekkjefølgje"
-
-#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
-#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
-msgid "<none>"
-msgstr "<ingen>"
-
-#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
-#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
-msgid "Sort Order"
-msgstr "Sorteringsrekkjefølgje"
-
-#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
-msgid "Options"
-msgstr "Innstillingar"
-
-#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
-msgid "Use SQL92 naming constraints"
-msgstr "Bruk SQL92-namnereglane"
-
-#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
-msgid "Append the table alias name on SELECT statements"
-msgstr "Legg til tabellaliaset i SELECT-setningar"
-
-#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
-msgid "Use keyword AS before table alias names"
-msgstr "Bruk nøkkelordet AS før tabellalias"
-
-#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
-msgid "Use Outer Join syntax '{OJ }'"
-msgstr "Bruk ytre samanslåingssyntaks «{OJ}»"
-
-#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
-msgid "Ignore the privileges from the database driver"
-msgstr "Ignorer privilegium frå databasedrivaren"
-
-#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
-msgid "Replace named parameters with '?'"
-msgstr "Byt ut namngjevne parametrar med «?»"
-
-#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
-msgid "Display version columns (when available)"
-msgstr "Vis versjonskolonnar (når dei er tilgjengelege)"
-
-#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
-msgid "Use catalog name in SELECT statements"
-msgstr "Bruk katalognamn i SELECT-setningar"
-
-#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
-msgid "Use schema name in SELECT statements"
-msgstr "Bruk skjemanamn i SELECT-setningar"
-
-#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
-msgid "Create index with ASC or DESC statement"
-msgstr "Lag indeks med ASC- eller DESC-setning"
-
-#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
-msgid "End text lines with CR+LF"
-msgstr "Avslutt tekstlinjer med CR+LF"
-
-#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
-msgid "Ignore currency field information"
-msgstr "Sjå vekk frå valutafeltinformasjon"
-
-#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
-msgid "Form data input checks for required fields"
-msgstr "Kontroll av data i påkravde skjemafelt"
-
-#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
-msgid "Use ODBC conformant date/time literals"
-msgstr "Bruk ODBC-gyldige datouttrykk"
-
-#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
-msgid "Supports primary keys"
-msgstr ""
-
-#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
-msgid "Respect the result set type from the database driver"
-msgstr ""
-
-#: advancedsettings.src#WORKAROUND.1.stringlist.text
-#: advancedsettings.src%23WORKAROUND.1.stringlist.text
-msgid "Default"
-msgstr "Standard"
-
-#: advancedsettings.src#WORKAROUND.2.stringlist.text
-#: advancedsettings.src%23WORKAROUND.2.stringlist.text
-msgid "SQL"
-msgstr "SQL"
-
-#: advancedsettings.src#WORKAROUND.3.stringlist.text
-#: advancedsettings.src%23WORKAROUND.3.stringlist.text
-msgid "Mixed"
-msgstr "Blanda"
-
-#: advancedsettings.src#WORKAROUND.4.stringlist.text
-#: advancedsettings.src%23WORKAROUND.4.stringlist.text
-msgid "MS Access"
-msgstr "MS Access"
-
-#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
-msgid "Comparison of Boolean values"
-msgstr "Samanlikning av boolske verdiar"
-
-#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
-msgid "Rows to scan column types"
-msgstr ""
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
-msgid "Settings"
-msgstr "Innstillingar"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
-msgid "Re~trieve generated values"
-msgstr "~Hent ut dei utrekna verdiane"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
-msgid "~Auto-increment statement"
-msgstr "~Automatisk auke"
-
-#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
-msgid "~Query of generated values"
-msgstr "~Spørjing på utrekna verdiar"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
-msgid "Generated Values"
-msgstr "Genererte verdiar"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
-msgid "Special Settings"
-msgstr "Spesielle innstillingar"
-
-#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
-#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
-msgid "Advanced Settings"
-msgstr "Avanserte eigenskapar"
 
 #: adtabdlg.src#DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
 #: adtabdlg.src%23DLG_JOIN_TABADD.RB_CASE_TABLES.radiobutton.text
@@ -811,6 +280,611 @@ msgid ""
 msgstr ""
 "I ein indeksdefinisjon kan ikkje ein tabell førekoma meir enn ein gong. Du "
 "har skrive inn tabellen «$name$» to gonger."
+
+#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
+msgid "Text Connection Settings"
+msgstr "Innstillingar for teksttilkopling"
+
+#: dbadmin2.src#STR_ENTER_CONNECTION_PASSWORD.string.text
+#: dbadmin2.src%23STR_ENTER_CONNECTION_PASSWORD.string.text
+msgid "A password is needed to connect to the data source \"$name$\"."
+msgstr "Du treng eit passord for å kopla til datakjelda «$name$»."
+
+#: dbadmin2.src#STR_ASK_FOR_DIRECTORY_CREATION.string.text
+#: dbadmin2.src%23STR_ASK_FOR_DIRECTORY_CREATION.string.text
+msgid ""
+"The directory\n"
+"\n"
+"$path$\n"
+"\n"
+"does not exist. Should it be created?"
+msgstr ""
+"Mappa\n"
+"\n"
+"$path$\n"
+"\n"
+"finst ikkje. Vil du laga henne?"
+
+#: dbadmin2.src#STR_COULD_NOT_CREATE_DIRECTORY.string.text
+#: dbadmin2.src%23STR_COULD_NOT_CREATE_DIRECTORY.string.text
+msgid "The directory $name$ could not be created."
+msgstr "Klarte ikkje laga mappa $name$."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.FT_PASSWORD.fixedline.text
+msgid "Please enter the ~password for the user 'DOMAIN'."
+msgstr "Oppgi ~passordet til brukaren «DOMAIN»."
+
+#: dbadmin2.src#DLG_DOMAINPASSWORD.modaldialog.text
+#: dbadmin2.src%23DLG_DOMAINPASSWORD.modaldialog.text
+msgid "Convert Database"
+msgstr "Konverter database"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FL_SEPARATOR1.fixedline.text
+msgid "Tables and table filter"
+msgstr "Tabellar og tabellfilter"
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.FT_FILTER_EXPLANATION.fixedtext.text
+msgid "Mark the tables that should be visible for the applications."
+msgstr "Marker dei tabellane som programma skal kunna sjå."
+
+#: dbadmin2.src#PAGE_TABLESUBSCRIPTION.tabpage.text
+#: dbadmin2.src%23PAGE_TABLESUBSCRIPTION.tabpage.text
+msgid "Tables Filter"
+msgstr "Tabellfilter"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
+msgid "Database files"
+msgstr "Databasefiler"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
+msgid "S~YSDEVSPACE:"
+msgstr "SYS~LAGRINGSEINING:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
+msgid "~TRANSACTIONLOG:"
+msgstr "~TRANSAKSJONSLOGG:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
+msgid "DATAD~EVSPACE:"
+msgstr "~DATALAGRINGSEINING:"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
+msgid "Database sizes"
+msgstr "Databasestorleikar"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
+msgid "S~ize (MB):"
+msgstr "~Storleik (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
+msgid "~Free memory space (MB):"
+msgstr "~Ledig minne (MB):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
+msgid "~Memory utilization (in %):"
+msgstr "~Minnebruk (i %):"
+
+#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
+#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
+msgid "Database Statistics"
+msgstr "Databasestatistikk"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
+msgid "Contains the system tables"
+msgstr "Inneheld systemtabellane"
+
+#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
+msgid "Contains information about transaction"
+msgstr "Inneheld informasjon om transaksjonen"
+
+#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
+msgid "Contains all data files"
+msgstr "Inneheld alle datafilene"
+
+#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
+msgid "Total size of the database files"
+msgstr "Total storleik på databasefilene"
+
+#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
+msgid "Currently available space before a new datadev file is created."
+msgstr "Tilgjengeleg plass før ny dataeiningsfil blir laga."
+
+#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
+#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
+msgid "Currently used memory"
+msgstr "Minne som er i bruk"
+
+#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
+msgid ""
+"No information could be displayed because no access rights exist for the "
+"required system tables."
+msgstr ""
+"Klarte ikkje visa informasjon fordi du manglar tilgangsrettar til dei "
+"nødvendige systemtabellane."
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.STR_PAGETITLE_USERADMIN.string.text
+msgid "User Settings"
+msgstr "Brukarinnstillingar"
+
+#: UserAdminDlg.src#DLG_DATABASE_USERADMIN.tabdialog.text
+#: UserAdminDlg.src%23DLG_DATABASE_USERADMIN.tabdialog.text
+msgid "User administration"
+msgstr "Brukaradministrasjon"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
+msgid "General"
+msgstr "Generelt"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+msgid "~Host name"
+msgstr "~Vertsnamn"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
+msgid "User authentication"
+msgstr "Brukarautentisering"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
+msgid "~User name"
+msgstr "~Brukarnamn"
+
+#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
+msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
+msgid "Password required"
+msgstr "Krev passord"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
+msgid "JDBC properties"
+msgstr "JDBC-eigenskapar"
+
+#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
+msgid "~JDBC driver class"
+msgstr "~JDBC-drivarklasse"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
+msgid "Test Class"
+msgstr "Testklasse"
+
+#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
+msgid "Test Connection"
+msgstr "Testtilkopling"
+
+#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
+#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
+msgid "No Adabas D data sources were found on your system."
+msgstr "Fann ingen Adabas D-datakjelder på systemet."
+
+#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
+#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
+msgid "Connection Test"
+msgstr "Tilkoplingstest"
+
+#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
+msgid "The connection was established successfully."
+msgstr "Klarte å kopla til."
+
+#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
+msgid "The connection could not be established."
+msgstr "Klarte ikkje kopla til."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
+msgid "The JDBC driver was loaded successfully."
+msgstr "Klarte å lasta inn JDBC-drivaren."
+
+#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
+#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
+msgid "The JDBC driver could not be loaded."
+msgstr "Klarte ikkje å lasta inn JDBC-drivaren."
+
+#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
+msgid "MS Access file"
+msgstr "MS Access-fil"
+
+#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
+#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
+msgid "MS Access 2007 file"
+msgstr "MS Access 2007-fil"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_NEWFOLDER.imagebutton.quickhelptext
+msgid "Create New Directory"
+msgstr "Lag ny mappe"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.text"
+msgid "-"
+msgstr "-"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_UP.imagebutton.quickhelptext
+msgid "Up One Level"
+msgstr "Eitt nivå opp"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.FT_EXPLORERFILE_FILENAME.fixedtext.text
+msgid "File ~name:"
+msgstr "F~ilnamn:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.BTN_EXPLORERFILE_SAVE.pushbutton.text"
+msgid "Save"
+msgstr "Lagra"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.STR_PATHNAME.string.text
+msgid "~Path:"
+msgstr "~Stig:"
+
+#: CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text
+#: CollectionView.src%23DLG_COLLECTION_VIEW.modaldialog.text
+msgctxt "CollectionView.src#DLG_COLLECTION_VIEW.modaldialog.text"
+msgid "Save"
+msgstr "Lagra"
+
+#: CollectionView.src#STR_NEW_FOLDER.string.text
+#: CollectionView.src%23STR_NEW_FOLDER.string.text
+msgid "Folder"
+msgstr "Mappe"
+
+#: CollectionView.src#STR_ALREADYEXISTOVERWRITE.string.text
+#: CollectionView.src%23STR_ALREADYEXISTOVERWRITE.string.text
+msgid "The file already exists. Overwrite?"
+msgstr "Fila finst frå før. Vil du skriva over henne?"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
+msgid "Please enter a name for the object to be created:"
+msgstr "Skriv inn eit namn for objektet som skal opprettast:"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
+msgid "~Catalog"
+msgstr "~Katalog"
+
+#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
+msgid "~Schema"
+msgstr "~Skjema"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
+msgid "~Table Name"
+msgstr "~Tabellnamn"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
+msgid "~Name of table view"
+msgstr "~Namn på tabellvising"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
+msgid "~Query name"
+msgstr "Navn på ~spørjing"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
+msgid "Rename to"
+msgstr "Endra namn til"
+
+#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
+msgid "Insert as"
+msgstr "Set inn som"
+
+#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
+#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
+msgid "Save As"
+msgstr "Lagra som"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.1.stringlist.text"
+msgid "AND"
+msgstr "OG"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND2.2.stringlist.text"
+msgid "OR"
+msgstr "ELLER"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.1.stringlist.text"
+msgid "AND"
+msgstr "OG"
+
+#: queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+#: queryfilter.src%23DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.LB_WHERECOND3.2.stringlist.text"
+msgid "OR"
+msgstr "ELLER"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Feltnamn"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHERECOMP.fixedtext.text
+msgid "Condition"
+msgstr "Vilkår"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREVALUE.fixedtext.text
+msgid "Value"
+msgstr "Verdi"
+
+#: queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+#: queryfilter.src%23DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text
+msgctxt "queryfilter.src#DLG_FILTERCRIT.FT_WHEREOPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
+
+#: queryfilter.src#DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+#: queryfilter.src%23DLG_FILTERCRIT.FL_FIELDS.fixedline.text
+msgid "Criteria"
+msgstr "Kriterium"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_NOENTRY.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_NOENTRY.string.text
+msgid "- none -"
+msgstr "- ingen -"
+
+#: queryfilter.src#DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+#: queryfilter.src%23DLG_FILTERCRIT.STR_COMPARE_OPERATORS.string.text
+msgid "=;<>;<;<=;>;>=;like;not like;null;not null"
+msgstr "=;<>;<;<=;>;>=;lik;ikkje lik;null;ikkje null"
+
+#: queryfilter.src#DLG_FILTERCRIT.modaldialog.text
+#: queryfilter.src%23DLG_FILTERCRIT.modaldialog.text
+msgid "Standard Filter"
+msgstr "Standardfilter"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
+msgid "Tables involved"
+msgstr "Involverte tabellar"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
+msgid "Fields involved"
+msgstr "Involverte felt"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
+msgid "Update options"
+msgstr "Oppdateringsval"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
+msgid "~No action"
+msgstr "~Inga handling"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
+msgid "~Update cascade"
+msgstr "~Oppdater kaskade"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "~Vel nullverdi"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "Vel standard~innstillingar"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
+msgid "Delete options"
+msgstr "Innstillingar for sletting"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
+msgid "~No action"
+msgstr "~Inga handling"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
+msgid "Delete ~cascade"
+msgstr "~Slett kaskade"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
+msgid "~Set null"
+msgstr "~Vel nullverdi"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
+msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
+msgid "Set ~default"
+msgstr "Vel standard~innstillingar"
+
+#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
+#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
+msgid "Relations"
+msgstr "Relasjonar"
+
+#: dlgsize.src#DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_ROWHEIGHT.FT_VALUE.fixedtext.text
+msgid "~Height"
+msgstr "~Høgd"
+
+#: dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_ROWHEIGHT.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_ROWHEIGHT.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatisk"
+
+#: dlgsize.src#DLG_ROWHEIGHT.modaldialog.text
+#: dlgsize.src%23DLG_ROWHEIGHT.modaldialog.text
+msgid "Row Height"
+msgstr "Radhøgd"
+
+#: dlgsize.src#DLG_COLWIDTH.FT_VALUE.fixedtext.text
+#: dlgsize.src%23DLG_COLWIDTH.FT_VALUE.fixedtext.text
+msgid "~Width"
+msgstr "~Breidd"
+
+#: dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text
+#: dlgsize.src%23DLG_COLWIDTH.CB_STANDARD.checkbox.text
+msgctxt "dlgsize.src#DLG_COLWIDTH.CB_STANDARD.checkbox.text"
+msgid "~Automatic"
+msgstr "~Automatisk"
+
+#: dlgsize.src#DLG_COLWIDTH.modaldialog.text
+#: dlgsize.src%23DLG_COLWIDTH.modaldialog.text
+msgid "Column Width"
+msgstr "Kolonnebreidd"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
+msgid "~Table"
+msgstr "~Tabell"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
+msgid "Assignment"
+msgstr "Tildeling"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
+msgid "T~able indexes"
+msgstr "~Tabellindeksar"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
+msgid "~Free indexes"
+msgstr "~Frie indeksar"
+
+#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
+#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
+msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
+msgid "Indexes"
+msgstr "Indeksar"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_USER.fixedline.text
+msgid "User selection"
+msgstr "Brukarval"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FT_USER.fixedtext.text
+msgid "Us~er:"
+msgstr "Bru~kar:"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_NEWUSER.pushbutton.text
+msgid "~Add User..."
+msgstr "~Legg til brukar …"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_CHANGEPWD.pushbutton.text
+msgid "Change ~Password..."
+msgstr "~Byt passord …"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.PB_DELETEUSER.pushbutton.text
+msgid "~Delete User..."
+msgstr "~Slett brukar …"
+
+#: UserAdmin.src#TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+#: UserAdmin.src%23TAB_PAGE_USERADMIN.FL_TABLE_GRANTS.fixedline.text
+msgid "Access rights for selected user"
+msgstr "Tilgangsrettigheter for vald brukar"
+
+#: UserAdmin.src#QUERY_USERADMIN_DELETE_USER.querybox.text
+#: UserAdmin.src%23QUERY_USERADMIN_DELETE_USER.querybox.text
+msgid "Do you really want to delete the user?"
+msgstr "Er du sikker på at du vil sletta brukaren?"
+
+#: UserAdmin.src#STR_USERADMIN_NOT_AVAILABLE.string.text
+#: UserAdmin.src%23STR_USERADMIN_NOT_AVAILABLE.string.text
+msgid "The database does not support user administration."
+msgstr "Databasen støttar ikkje brukaradministrasjon."
+
+#: UserAdmin.src#DLG_PASSWORD.FL_USER.fixedline.text
+#: UserAdmin.src%23DLG_PASSWORD.FL_USER.fixedline.text
+#, fuzzy
+msgid "User \"$name$: $\""
+msgstr "Brukar «$name$:  $»"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_OLDPASSWORD.fixedtext.text
+msgid "Old p~assword"
+msgstr "Gammalt ~passord"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD.fixedtext.text
+msgid "~Password"
+msgstr "~Passord"
+
+#: UserAdmin.src#DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#: UserAdmin.src%23DLG_PASSWORD.FT_PASSWORD_REPEAT.fixedtext.text
+#, fuzzy
+msgid "~Confirm password"
+msgstr "Stadfest ~passord"
+
+#: UserAdmin.src#DLG_PASSWORD.modaldialog.text
+#: UserAdmin.src%23DLG_PASSWORD.modaldialog.text
+msgid "Change Password"
+msgstr "Byt passord"
+
+#: UserAdmin.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: UserAdmin.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The passwords do not match. Please enter the password again."
+msgstr "Passorda er ikkje like. Oppgi passordet på nytt."
 
 #: dbadminsetup.src#DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
 #: dbadminsetup.src%23DLG_DATABASE_WIZARD.STR_DBWIZARDTITLE.string.text
@@ -1305,408 +1379,364 @@ msgctxt "sqlmessage.src#STR_EXCEPTION_DETAILS.string.text"
 msgid "Details"
 msgstr "Detaljar"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_DESCRIPTION.fixedtext.text
-msgid "Please enter a name for the object to be created:"
-msgstr "Skriv inn eit namn for objektet som skal opprettast:"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
+msgid "Choose a data source:"
+msgstr "Vel ei datakjelde:"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_CATALOG.fixedtext.text
-msgid "~Catalog"
-msgstr "~Katalog"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
+msgid "Organize..."
+msgstr "Organiser …"
 
-#: dlgsave.src#DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-#: dlgsave.src%23DLG_SAVE_AS.FT_SCHEMA.fixedtext.text
-msgid "~Schema"
-msgstr "~Skjema"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
+msgid "Create..."
+msgstr "Lag …"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TBL_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TBL_LABEL.string.text
-msgid "~Table Name"
-msgstr "~Tabellnamn"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
+msgid "Local Databases"
+msgstr "Lokale databasar"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_VW_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_VW_LABEL.string.text
-msgid "~Name of table view"
-msgstr "~Namn på tabellvising"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
+msgid "Choose a database"
+msgstr "Vel ein database"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_QRY_LABEL.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_QRY_LABEL.string.text
-msgid "~Query name"
-msgstr "Navn på ~spørjing"
+#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
+#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
+msgid "Data Source"
+msgstr "Datakjelde"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_RENAME.string.text
-msgid "Rename to"
-msgstr "Endra namn til"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.1.stringlist.text"
+msgid "ascending"
+msgstr "stigande"
 
-#: dlgsave.src#DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-#: dlgsave.src%23DLG_SAVE_AS.STR_TITLE_PASTE_AS.string.text
-msgid "Insert as"
-msgstr "Set inn som"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE1.2.stringlist.text"
+msgid "descending"
+msgstr "synkande"
 
-#: dlgsave.src#DLG_SAVE_AS.modaldialog.text
-#: dlgsave.src%23DLG_SAVE_AS.modaldialog.text
-msgid "Save As"
-msgstr "Lagra som"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.1.stringlist.text"
+msgid "ascending"
+msgstr "stigande"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLES.fixedtext.text
-msgid "~Table"
-msgstr "~Tabell"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE2.2.stringlist.text"
+msgid "descending"
+msgstr "synkande"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FL_INDEXES.fixedline.text
-msgid "Assignment"
-msgstr "Tildeling"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.1.stringlist.text"
+msgid "ascending"
+msgstr "stigande"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_TABLEINDEXES.fixedtext.text
-msgid "T~able indexes"
-msgstr "~Tabellindeksar"
+#: queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+#: queryorder.src%23DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.LB_ORDERVALUE3.2.stringlist.text"
+msgid "descending"
+msgstr "synkande"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.FT_ALLINDEXES.fixedtext.text
-msgid "~Free indexes"
-msgstr "~Frie indeksar"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERFIELD.fixedtext.text"
+msgid "Field name"
+msgstr "Feltnamn"
 
-#: dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text
-#: dbfindex.src%23DLG_DBASE_INDEXES.modaldialog.text
-msgctxt "dbfindex.src#DLG_DBASE_INDEXES.modaldialog.text"
-msgid "Indexes"
-msgstr "Indeksar"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER1.fixedtext.text"
+msgid "and then"
+msgstr "deretter"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_FILES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_FILES.fixedline.text
-msgid "Database files"
-msgstr "Databasefiler"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDERAFTER2.fixedtext.text"
+msgid "and then"
+msgstr "deretter"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SYSDEVSPACE.fixedtext.text
-msgid "S~YSDEVSPACE:"
-msgstr "SYS~LAGRINGSEINING:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FT_ORDEROPER.fixedtext.text"
+msgid "Operator"
+msgstr "Operator"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_TRANSACTIONLOG.fixedtext.text
-msgid "~TRANSACTIONLOG:"
-msgstr "~TRANSAKSJONSLOGG:"
+#: queryorder.src#DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+#: queryorder.src%23DLG_ORDERCRIT.FT_ORDERDIR.fixedtext.text
+msgid "Order"
+msgstr "Rekkjefølgje"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_DATADEVSPACE.fixedtext.text
-msgid "DATAD~EVSPACE:"
-msgstr "~DATALAGRINGSEINING:"
+#: queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text
+#: queryorder.src%23DLG_ORDERCRIT.FL_ORDER.fixedline.text
+msgctxt "queryorder.src#DLG_ORDERCRIT.FL_ORDER.fixedline.text"
+msgid "Sort order"
+msgstr "Sorteringsrekkjefølgje"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FL_SIZES.fixedline.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FL_SIZES.fixedline.text
-msgid "Database sizes"
-msgstr "Databasestorleikar"
+#: queryorder.src#DLG_ORDERCRIT.STR_NOENTRY.string.text
+#: queryorder.src%23DLG_ORDERCRIT.STR_NOENTRY.string.text
+msgid "<none>"
+msgstr "<ingen>"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_SIZE.fixedtext.text
-msgid "S~ize (MB):"
-msgstr "~Storleik (MB):"
+#: queryorder.src#DLG_ORDERCRIT.modaldialog.text
+#: queryorder.src%23DLG_ORDERCRIT.modaldialog.text
+msgid "Sort Order"
+msgstr "Sorteringsrekkjefølgje"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_FREESIZE.fixedtext.text
-msgid "~Free memory space (MB):"
-msgstr "~Ledig minne (MB):"
+#: advancedsettings.src#AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+#: advancedsettings.src%23AUTO_DATAHANDLING_AUTO_Y_.FL_DATAHANDLING.fixedline.text
+msgid "Options"
+msgstr "Innstillingar"
 
-#: AdabasStat.src#DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-#: AdabasStat.src%23DLG_ADABASSTAT.FT_MEMORYUSING.fixedtext.text
-msgid "~Memory utilization (in %):"
-msgstr "~Minnebruk (i %):"
+#: advancedsettings.src#AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+#: advancedsettings.src%23AUTO_SQL92CHECK_AUTO_Y_.CB_SQL92CHECK.checkbox.text
+msgid "Use SQL92 naming constraints"
+msgstr "Bruk SQL92-namnereglane"
 
-#: AdabasStat.src#DLG_ADABASSTAT.modaldialog.text
-#: AdabasStat.src%23DLG_ADABASSTAT.modaldialog.text
-msgid "Database Statistics"
-msgstr "Databasestatistikk"
+#: advancedsettings.src#AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+#: advancedsettings.src%23AUTO_APPENDTABLEALIAS_AUTO_Y_.CB_APPENDTABLEALIAS.checkbox.text
+msgid "Append the table alias name on SELECT statements"
+msgstr "Legg til tabellaliaset i SELECT-setningar"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SYSDEVSPACE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SYSDEVSPACE.string.text
-msgid "Contains the system tables"
-msgstr "Inneheld systemtabellane"
+#: advancedsettings.src#AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+#: advancedsettings.src%23AUTO_AS_BEFORE_CORR_NAME_AUTO_Y_.CB_AS_BEFORE_CORR_NAME.checkbox.text
+msgid "Use keyword AS before table alias names"
+msgstr "Bruk nøkkelordet AS før tabellalias"
 
-#: AdabasStat.src#STR_ADABAS_HELP_TRANSACT.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_TRANSACT.string.text
-msgid "Contains information about transaction"
-msgstr "Inneheld informasjon om transaksjonen"
+#: advancedsettings.src#AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+#: advancedsettings.src%23AUTO_ENABLEOUTERJOIN_AUTO_Y_.CB_ENABLEOUTERJOIN.checkbox.text
+msgid "Use Outer Join syntax '{OJ }'"
+msgstr "Bruk ytre samanslåingssyntaks «{OJ}»"
 
-#: AdabasStat.src#STR_ADABAS_HELP_DATADEVSPACES.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_DATADEVSPACES.string.text
-msgid "Contains all data files"
-msgstr "Inneheld alle datafilene"
+#: advancedsettings.src#AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREDRIVER_PRIV_AUTO_Y_.CB_IGNOREDRIVER_PRIV.checkbox.text
+msgid "Ignore the privileges from the database driver"
+msgstr "Ignorer privilegium frå databasedrivaren"
 
-#: AdabasStat.src#STR_ADABAS_HELP_SIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_SIZE.string.text
-msgid "Total size of the database files"
-msgstr "Total storleik på databasefilene"
+#: advancedsettings.src#AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+#: advancedsettings.src%23AUTO_PARAMETERNAMESUBST_AUTO_Y_.CB_PARAMETERNAMESUBST.checkbox.text
+msgid "Replace named parameters with '?'"
+msgstr "Byt ut namngjevne parametrar med «?»"
 
-#: AdabasStat.src#STR_ADABAS_HELP_FREESIZE.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_FREESIZE.string.text
-msgid "Currently available space before a new datadev file is created."
-msgstr "Tilgjengeleg plass før ny dataeiningsfil blir laga."
+#: advancedsettings.src#AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+#: advancedsettings.src%23AUTO_SUPPRESVERSIONCOLUMN_AUTO_Y_.CB_SUPPRESVERSIONCL.checkbox.text
+msgid "Display version columns (when available)"
+msgstr "Vis versjonskolonnar (når dei er tilgjengelege)"
 
-#: AdabasStat.src#STR_ADABAS_HELP_MEMORYUSING.string.text
-#: AdabasStat.src%23STR_ADABAS_HELP_MEMORYUSING.string.text
-msgid "Currently used memory"
-msgstr "Minne som er i bruk"
+#: advancedsettings.src#AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+#: advancedsettings.src%23AUTO_CATALOG_AUTO_Y_.CB_CATALOG.checkbox.text
+msgid "Use catalog name in SELECT statements"
+msgstr "Bruk katalognamn i SELECT-setningar"
 
-#: AdabasStat.src#STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-#: AdabasStat.src%23STR_ADABAS_ERROR_SYSTEMTABLES.string.text
-msgid ""
-"No information could be displayed because no access rights exist for the "
-"required system tables."
+#: advancedsettings.src#AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+#: advancedsettings.src%23AUTO_SCHEMA_AUTO_Y_.CB_SCHEMA.checkbox.text
+msgid "Use schema name in SELECT statements"
+msgstr "Bruk skjemanamn i SELECT-setningar"
+
+#: advancedsettings.src#AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+#: advancedsettings.src%23AUTO_IGNOREINDEXAPPENDIX_AUTO_Y_.CB_IGNOREINDEXAPPENDIX.checkbox.text
+msgid "Create index with ASC or DESC statement"
+msgstr "Lag indeks med ASC- eller DESC-setning"
+
+#: advancedsettings.src#AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+#: advancedsettings.src%23AUTO_DOSLINEENDS_AUTO_Y_.CB_DOSLINEENDS.checkbox.text
+msgid "End text lines with CR+LF"
+msgstr "Avslutt tekstlinjer med CR+LF"
+
+#: advancedsettings.src#AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+#: advancedsettings.src%23AUTO_IGNORECURRENCY_AUTO_Y_.CB_IGNORECURRENCY.checkbox.text
+msgid "Ignore currency field information"
+msgstr "Sjå vekk frå valutafeltinformasjon"
+
+#: advancedsettings.src#AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+#: advancedsettings.src%23AUTO_CHECKREQUIRED_AUTO_Y_.CB_CHECK_REQUIRED.checkbox.text
+msgid "Form data input checks for required fields"
+msgstr "Kontroll av data i påkravde skjemafelt"
+
+#: advancedsettings.src#AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+#: advancedsettings.src%23AUTO_ESCAPE_DATETIME_AUTO_Y_.CB_ESCAPE_DATETIME.checkbox.text
+msgid "Use ODBC conformant date/time literals"
+msgstr "Bruk ODBC-gyldige datouttrykk"
+
+#: advancedsettings.src#AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+#: advancedsettings.src%23AUTO_PRIMARY_KEY_SUPPORT_AUTO_Y_.CB_PRIMARY_KEY_SUPPORT.checkbox.text
+msgid "Supports primary keys"
 msgstr ""
-"Klarte ikkje visa informasjon fordi du manglar tilgangsrettar til dei "
-"nødvendige systemtabellane."
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_MYSQL_DATABASE_NAME.fixedtext.text
-msgid "~Database name"
-msgstr "~Databasenamn"
+#: advancedsettings.src#AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+#: advancedsettings.src%23AUTO_RESPECTRESULTSETTYPE_AUTO_Y_.CB_RESPECTRESULTSETTYPE.checkbox.text
+msgid "Respect the result set type from the database driver"
+msgstr ""
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_HOST_PORT.radiobutton.text
-msgid "Se~rver / Port"
-msgstr "~Tenar/port"
+#: advancedsettings.src#WORKAROUND.1.stringlist.text
+#: advancedsettings.src%23WORKAROUND.1.stringlist.text
+msgid "Default"
+msgstr "Standard"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_HOST_NAME.fixedtext.text
-msgid "~Server"
-msgstr "~Tenar"
+#: advancedsettings.src#WORKAROUND.2.stringlist.text
+#: advancedsettings.src%23WORKAROUND.2.stringlist.text
+msgid "SQL"
+msgstr "SQL"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT.fixedtext.text
-msgid "~Port"
-msgstr "~Port"
+#: advancedsettings.src#WORKAROUND.3.stringlist.text
+#: advancedsettings.src%23WORKAROUND.3.stringlist.text
+msgid "Mixed"
+msgstr "Blanda"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text
-msgctxt "admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.FT_COMMON_PORT_DEFAULT.fixedtext.text"
-msgid "Default: 3306"
-msgstr "Standard: 3306"
+#: advancedsettings.src#WORKAROUND.4.stringlist.text
+#: advancedsettings.src%23WORKAROUND.4.stringlist.text
+msgid "MS Access"
+msgstr "MS Access"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_SOCKET.radiobutton.text
-msgid "So~cket"
-msgstr "~Sokkel"
+#: advancedsettings.src#AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+#: advancedsettings.src%23AUTO_BOOLEANCOMPARISON_AUTO_Y_.FT_BOOLEANCOMPARISON.fixedtext.text
+msgid "Comparison of Boolean values"
+msgstr "Samanlikning av boolske verdiar"
 
-#: admincontrols.src#RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-#: admincontrols.src%23RID_MYSQL_NATIVE_SETTINGS.RB_MYSQL_NAMED_PIPE.radiobutton.text
-msgid "Named p~ipe"
-msgstr "Namngjeve ~røyr"
+#: advancedsettings.src#AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+#: advancedsettings.src%23AUTO_MAXROWSCAN_AUTO_Y_.FT_MAXROWSCAN.fixedtext.text
+msgid "Rows to scan column types"
+msgstr ""
 
-#: directsql.src#DLG_DIRECTSQL.FL_SQL.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_SQL.fixedline.text
-msgid "SQL command"
-msgstr "SQL-kommando"
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FL_SEPARATORAUTO.fixedline.text
+msgid "Settings"
+msgstr "Innstillingar"
 
-#: directsql.src#DLG_DIRECTSQL.FT_SQL.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_SQL.fixedtext.text
-msgid "Command to execute"
-msgstr "Kommando som skal utførast"
+#: advancedsettings.src#PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.CB_RETRIEVE_AUTO.checkbox.text
+msgid "Re~trieve generated values"
+msgstr "~Hent ut dei utrekna verdiane"
 
-#: directsql.src#DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_EXECUTE.pushbutton.text
-msgid "Execute"
-msgstr "Utfør"
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_AUTOINCREMENTVALUE.fixedtext.text
+msgid "~Auto-increment statement"
+msgstr "~Automatisk auke"
 
-#: directsql.src#DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-#: directsql.src%23DLG_DIRECTSQL.FT_HISTORY.fixedtext.text
-msgid "Previous commands"
-msgstr "Førre kommando"
+#: advancedsettings.src#PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+#: advancedsettings.src%23PAGE_GENERATED_VALUES.FT_RETRIEVE_AUTO.fixedtext.text
+msgid "~Query of generated values"
+msgstr "~Spørjing på utrekna verdiar"
 
-#: directsql.src#DLG_DIRECTSQL.FL_STATUS.fixedline.text
-#: directsql.src%23DLG_DIRECTSQL.FL_STATUS.fixedline.text
-msgid "Status"
-msgstr "Status"
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_GENERATED_VALUE.string.text
+msgid "Generated Values"
+msgstr "Genererte verdiar"
 
-#: directsql.src#DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-#: directsql.src%23DLG_DIRECTSQL.PB_CLOSE.pushbutton.text
-msgid "Close"
-msgstr "Lukk"
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.STR_DS_BEHAVIOUR.string.text
+msgid "Special Settings"
+msgstr "Spesielle innstillingar"
 
-#: directsql.src#DLG_DIRECTSQL.modaldialog.text
-#: directsql.src%23DLG_DIRECTSQL.modaldialog.text
-msgid "Execute SQL Statement"
-msgstr "Utfør SQL-setning"
+#: advancedsettings.src#DLG_DATABASE_ADVANCED.tabdialog.text
+#: advancedsettings.src%23DLG_DATABASE_ADVANCED.tabdialog.text
+msgid "Advanced Settings"
+msgstr "Avanserte eigenskapar"
 
-#: directsql.src#STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-#: directsql.src%23STR_COMMAND_EXECUTED_SUCCESSFULLY.string.text
-msgid "Command successfully executed."
-msgstr "Kommandoen er vellukka utførd."
+#: AutoControls.src#STR_DBASE_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_DBASE_PATH_OR_FILE.string.text
+msgid "Path to the dBASE files"
+msgstr "Stig til dBASE-filene"
 
-#: directsql.src#STR_DIRECTSQL_CONNECTIONLOST.string.text
-#: directsql.src%23STR_DIRECTSQL_CONNECTIONLOST.string.text
+#: AutoControls.src#STR_FLAT_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_FLAT_PATH_OR_FILE.string.text
+msgid "Path to the text files"
+msgstr "Stig til tekstfilene"
+
+#: AutoControls.src#STR_CALC_PATH_OR_FILE.string.text
+#: AutoControls.src%23STR_CALC_PATH_OR_FILE.string.text
+msgid "Path to the spreadsheet document"
+msgstr "Stig til reknearket"
+
+#: AutoControls.src#STR_NAME_OF_ODBC_DATASOURCE.string.text
+#: AutoControls.src%23STR_NAME_OF_ODBC_DATASOURCE.string.text
+msgid "Name of the ODBC data source on your system"
+msgstr "Namn på ODBC-datakjelda"
+
+#: AutoControls.src#STR_MYSQL_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_MYSQL_DATABASE_NAME.string.text
+msgid "Name of the MySQL database"
+msgstr "Namn på MySQL-databasen"
+
+#: AutoControls.src#STR_ORACLE_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ORACLE_DATABASE_NAME.string.text
+msgid "Name of the Oracle database"
+msgstr "Namn på Oracle-databasen"
+
+#: AutoControls.src#STR_ADABAS_DATABASE_NAME.string.text
+#: AutoControls.src%23STR_ADABAS_DATABASE_NAME.string.text
+msgid "Name of the Adabas D database"
+msgstr "Namn på Adabas D-databasen"
+
+#: AutoControls.src#STR_MSACCESS_MDB_FILE.string.text
+#: AutoControls.src%23STR_MSACCESS_MDB_FILE.string.text
+msgid "Microsoft Access database file"
+msgstr "Microsoft Access-databasefil"
+
+#: AutoControls.src#STR_NO_ADDITIONAL_SETTINGS.string.text
+#: AutoControls.src%23STR_NO_ADDITIONAL_SETTINGS.string.text
 msgid ""
-"The connection to the database has been lost. This dialog will be closed."
-msgstr "Mista sambandet med databasen. Lukkar dette dialogvindauget."
+"No more settings are necessary. To verify that the connection is working, "
+"click the '%test' button."
+msgstr ""
+"Ingen fleire innstillingar trengst. Du kan stadfesta at tilkoplinga verkar "
+"med «%test»-knappen."
 
-#: textconnectionsettings.src#DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-#: textconnectionsettings.src%23DLG_TEXT_CONNECTION_SETTINGS.modaldialog.text
-msgid "Text Connection Settings"
-msgstr "Innstillingar for teksttilkopling"
+#: AutoControls.src#STR_COMMONURL.string.text
+#: AutoControls.src%23STR_COMMONURL.string.text
+msgid "Datasource URL"
+msgstr "URL til datakjelda"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR1.fixedline.text"
-msgid "General"
-msgstr "Generelt"
-
-#: ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_HOSTNAME.fixedtext.text"
+#: AutoControls.src#STR_HOSTNAME.string.text
+#: AutoControls.src%23STR_HOSTNAME.string.text
+msgctxt "AutoControls.src#STR_HOSTNAME.string.text"
 msgid "~Host name"
 msgstr "~Vertsnamn"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR2.fixedline.text"
-msgid "User authentication"
-msgstr "Brukarautentisering"
+#: AutoControls.src#STR_MOZILLA_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_MOZILLA_PROFILE_NAME.string.text
+msgid "~Mozilla profile name"
+msgstr "~Mozilla-profilnamn"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_USERNAME.fixedtext.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.FT_USERNAME.fixedtext.text"
-msgid "~User name"
-msgstr "~Brukarnamn"
+#: AutoControls.src#STR_THUNDERBIRD_PROFILE_NAME.string.text
+#: AutoControls.src%23STR_THUNDERBIRD_PROFILE_NAME.string.text
+msgid "~Thunderbird profile name"
+msgstr "~Thunderbird-profilnamn"
 
-#: ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-#: ConnectionPage.src%23PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text
-msgctxt "ConnectionPage.src#PAGE_CONNECTION.CB_PASSWORD_REQUIRED.checkbox.text"
-msgid "Password required"
-msgstr "Krev passord"
+#: paramdialog.src#DLG_PARAMETERS.FL_PARAMS.fixedline.text
+#: paramdialog.src%23DLG_PARAMETERS.FL_PARAMS.fixedline.text
+msgid "~Parameters"
+msgstr "~Parametrar"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FL_SEPARATOR3.fixedline.text
-msgid "JDBC properties"
-msgstr "JDBC-eigenskapar"
+#: paramdialog.src#DLG_PARAMETERS.FT_VALUE.fixedtext.text
+#: paramdialog.src%23DLG_PARAMETERS.FT_VALUE.fixedtext.text
+msgid "~Value"
+msgstr "~Verdi"
 
-#: ConnectionPage.src#PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-#: ConnectionPage.src%23PAGE_CONNECTION.FT_JDBCDRIVERCLASS.fixedtext.text
-msgid "~JDBC driver class"
-msgstr "~JDBC-drivarklasse"
+#: paramdialog.src#DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+#: paramdialog.src%23DLG_PARAMETERS.BT_TRAVELNEXT.pushbutton.text
+msgid "~Next"
+msgstr "~Neste"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTDRIVERCLASS.pushbutton.text
-msgid "Test Class"
-msgstr "Testklasse"
+#: paramdialog.src#DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+#: paramdialog.src%23DLG_PARAMETERS.STR_COULD_NOT_CONVERT_PARAM.string.text
+msgid ""
+"The entry could not be converted to a valid value for the \"$name$\"column"
+msgstr ""
+"Oppføringa kunne ikkje konverterast til ein gyldig verdi for kolonnen "
+"«$name$»"
 
-#: ConnectionPage.src#PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-#: ConnectionPage.src%23PAGE_CONNECTION.PB_TESTCONNECTION.pushbutton.text
-msgid "Test Connection"
-msgstr "Testtilkopling"
-
-#: ConnectionPage.src#STR_NO_ADABASE_DATASOURCES.string.text
-#: ConnectionPage.src%23STR_NO_ADABASE_DATASOURCES.string.text
-msgid "No Adabas D data sources were found on your system."
-msgstr "Fann ingen Adabas D-datakjelder på systemet."
-
-#: ConnectionPage.src#STR_CONNECTION_TEST.string.text
-#: ConnectionPage.src%23STR_CONNECTION_TEST.string.text
-msgid "Connection Test"
-msgstr "Tilkoplingstest"
-
-#: ConnectionPage.src#STR_CONNECTION_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_SUCCESS.string.text
-msgid "The connection was established successfully."
-msgstr "Klarte å kopla til."
-
-#: ConnectionPage.src#STR_CONNECTION_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_CONNECTION_NO_SUCCESS.string.text
-msgid "The connection could not be established."
-msgstr "Klarte ikkje kopla til."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_SUCCESS.string.text
-msgid "The JDBC driver was loaded successfully."
-msgstr "Klarte å lasta inn JDBC-drivaren."
-
-#: ConnectionPage.src#STR_JDBCDRIVER_NO_SUCCESS.string.text
-#: ConnectionPage.src%23STR_JDBCDRIVER_NO_SUCCESS.string.text
-msgid "The JDBC driver could not be loaded."
-msgstr "Klarte ikkje å lasta inn JDBC-drivaren."
-
-#: ConnectionPage.src#STR_MSACCESS_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_FILTERNAME.string.text
-msgid "MS Access file"
-msgstr "MS Access-fil"
-
-#: ConnectionPage.src#STR_MSACCESS_2007_FILTERNAME.string.text
-#: ConnectionPage.src%23STR_MSACCESS_2007_FILTERNAME.string.text
-msgid "MS Access 2007 file"
-msgstr "MS Access 2007-fil"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_TABLES.fixedline.text
-msgid "Tables involved"
-msgstr "Involverte tabellar"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.WND_CONTROL.FL_INVOLVED_FIELDS.fixedline.text
-msgid "Fields involved"
-msgstr "Involverte felt"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_UPD.fixedline.text
-msgid "Update options"
-msgstr "Oppdateringsval"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_UPD.radiobutton.text"
-msgid "~No action"
-msgstr "~Inga handling"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD.radiobutton.text
-msgid "~Update cascade"
-msgstr "~Oppdater kaskade"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "~Vel nullverdi"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_UPD_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "Vel standard~innstillingar"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.FL_CASC_DEL.fixedline.text
-msgid "Delete options"
-msgstr "Innstillingar for sletting"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_NO_CASC_DEL.radiobutton.text"
-msgid "~No action"
-msgstr "~Inga handling"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL.radiobutton.text
-msgid "Delete ~cascade"
-msgstr "~Slett kaskade"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_NULL.radiobutton.text"
-msgid "~Set null"
-msgstr "~Vel nullverdi"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text
-msgctxt "RelationDlg.src#DLG_REL_PROPERTIES.RB_CASC_DEL_DEFAULT.radiobutton.text"
-msgid "Set ~default"
-msgstr "Vel standard~innstillingar"
-
-#: RelationDlg.src#DLG_REL_PROPERTIES.modaldialog.text
-#: RelationDlg.src%23DLG_REL_PROPERTIES.modaldialog.text
-msgid "Relations"
-msgstr "Relasjonar"
+#: paramdialog.src#DLG_PARAMETERS.modaldialog.text
+#: paramdialog.src%23DLG_PARAMETERS.modaldialog.text
+msgid "Parameter Input"
+msgstr "Oppgi parameter"
 
 #: dbadmin.src#AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
 #: dbadmin.src%23AUTO_USECATALOG_AUTO_Y_.CB_USECATALOG.checkbox.text
@@ -1872,13 +1902,10 @@ msgid "Display deleted records as well"
 msgstr "Vis òg sletta postar"
 
 #: dbadmin.src#PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
-#: dbadmin.src%23PAGE_DBASE.FT_SPECIAL_MESSAGE.fixedtext.text
 msgid ""
-"Note: When deleted, and thus inactive, records are  displayed, you will not "
+"Note: When deleted, and thus inactive, records are displayed, you will not "
 "be able to delete records from the data source."
 msgstr ""
-"Merk: Når postar som er sletta, og dermed ikkje i bruk, vert viste, kan du "
-"ikkje sletta postar frå datakjelda."
 
 #: dbadmin.src#PAGE_DBASE.PB_INDICIES.pushbutton.text
 #: dbadmin.src%23PAGE_DBASE.PB_INDICIES.pushbutton.text
@@ -1994,9 +2021,8 @@ msgid "~Base DN"
 msgstr "~Base-DN"
 
 #: dbadmin.src#PAGE_LDAP.CB_USESSL.checkbox.text
-#: dbadmin.src%23PAGE_LDAP.CB_USESSL.checkbox.text
-msgid "Use secure connection(SSL)"
-msgstr "Bruk sikker tilkopling (SSL)"
+msgid "Use secure connection (SSL)"
+msgstr ""
 
 #: dbadmin.src#PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
 #: dbadmin.src%23PAGE_LDAP.FT_PORTNUMBER.fixedtext.text
@@ -2031,36 +2057,6 @@ msgid ""
 "Please choose 'Connect to an existing database' to connect to an existing "
 "database instead."
 msgstr "Vel «Kopla til ein eksisterande database» for å gjera det i staden."
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.FT_DESCRIPTION.fixedtext.text
-msgid "Choose a data source:"
-msgstr "Vel ei datakjelde:"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_MANAGE.pushbutton.text
-msgid "Organize..."
-msgstr "Organiser …"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.PB_CREATE.pushbutton.text
-msgid "Create..."
-msgstr "Lag …"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_LOCAL_DATASOURCES.string.text
-msgid "Local Databases"
-msgstr "Lokale databasar"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.STR_DESCRIPTION2.string.text
-msgid "Choose a database"
-msgstr "Vel ein database"
-
-#: dsselect.src#DLG_DATASOURCE_SELECTION.modaldialog.text
-#: dsselect.src%23DLG_DATASOURCE_SELECTION.modaldialog.text
-msgid "Data Source"
-msgstr "Datakjelde"
 
 #: AutoControls_tmpl.hrc#AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text
 #: AutoControls_tmpl.hrc%23AUTO_BROWSECONTROLGROUP__AUTO_X__AUTO_Y__AUTOPAGE_X__AUTO_HID__AUTO_HID2_.PB_AUTOBROWSEURL.pushbutton.text

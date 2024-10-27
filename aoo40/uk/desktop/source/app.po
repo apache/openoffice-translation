@@ -5,26 +5,30 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+desktop%2Fsource%2Fapp.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2019-07-11 18:35+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-09-30 07:14+0000\n"
+"Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1664522059.000000\n"
 
 #: desktop.src#STR_RECOVER_QUERY.string.text
 #: desktop.src%23STR_RECOVER_QUERY.string.text
 msgid "Should the file \"$1\" be restored?"
-msgstr "Відновити документ \"$1\"?"
+msgstr "Чи потрібно відновити файл \"$1\"?"
 
 #: desktop.src#STR_RECOVER_TITLE.string.text
 #: desktop.src%23STR_RECOVER_TITLE.string.text
 msgid "File Recovery"
-msgstr "Відновлення документу"
+msgstr "Відновлення файлу"
 
 #: desktop.src#STR_RECOVER_PREPARED.warningbox.text
 #: desktop.src%23STR_RECOVER_PREPARED.warningbox.text
@@ -34,15 +38,15 @@ msgid ""
 "All modified files have been saved and can\n"
 "probably be recovered at program restart."
 msgstr ""
-"Критична помилка.\n"
+"Сталася невиправна помилка.\n"
 "\n"
-"Всі змінені файли були збережені і можливо будуть\n"
-"відновлені після перезапуску програми."
+"Усі змінені файли збережено та\n"
+"ймовірно, будуть відновлені під час перезапуску програми."
 
 #: desktop.src#STR_BOOTSTRAP_ERR_CANNOT_START.string.text
 #: desktop.src%23STR_BOOTSTRAP_ERR_CANNOT_START.string.text
 msgid "The application cannot be started. "
-msgstr "Неможливо запустити програму."
+msgstr "Неможливо запустити застосунок. "
 
 #: desktop.src#STR_BOOTSTRAP_ERR_DIR_MISSING.string.text
 #: desktop.src%23STR_BOOTSTRAP_ERR_DIR_MISSING.string.text
@@ -100,6 +104,8 @@ msgid ""
 "You have another instance running in a different terminal session. Close "
 "that instance and then try again."
 msgstr ""
+"У вас запущений ще екземпляр в іншому термінальному сеансі. Закрийте той "
+"екземпляр і спробуйте ще."
 
 #: desktop.src#STR_ASK_START_SETUP_MANUALLY.string.text
 #: desktop.src%23STR_ASK_START_SETUP_MANUALLY.string.text
@@ -107,15 +113,14 @@ msgid ""
 "Start the setup application to repair the installation from the CD or the "
 "folder containing the installation packages."
 msgstr ""
-"Запустіть програму встановлення, щоб продовжити встановлення з диска чи з "
-"теки, що містить пакет програм встановлення."
+"Запустіть програму встановлення, щоб відновити інсталяцію з компакт-диска "
+"або теки, що містить інсталяційні пакети."
 
 #: desktop.src#STR_CONFIG_ERR_SETTINGS_INCOMPLETE.string.text
 #: desktop.src%23STR_CONFIG_ERR_SETTINGS_INCOMPLETE.string.text
 msgid ""
 "The startup settings for accessing the central configuration are incomplete. "
-msgstr ""
-"Початкові відомості для доступу до центральної конфігурації є неповними."
+msgstr "Початкові налаштування доступу до центральної конфігурації є неповними."
 
 #: desktop.src#STR_CONFIG_ERR_CANNOT_CONNECT.string.text
 #: desktop.src%23STR_CONFIG_ERR_CANNOT_CONNECT.string.text
@@ -142,7 +147,7 @@ msgid ""
 "The changes to your personal settings cannot be stored centrally because of "
 "missing access rights. "
 msgstr ""
-"Зміни до ваших персональних параметрів не можуть бути збережені "
+"Зміни до ваших персональних налаштувань не можуть бути збережені "
 "централізовано через відсутність прав доступу."
 
 #: desktop.src#STR_BOOTSTRAP_ERR_CFG_DATAACCESS.string.text
@@ -160,7 +165,6 @@ msgstr ""
 
 #: desktop.src#STR_INTERNAL_ERRMSG.string.text
 #: desktop.src%23STR_INTERNAL_ERRMSG.string.text
-#, fuzzy
 msgid "The following internal error has occurred: "
 msgstr "Виникла така внутрішня помилка: "
 
@@ -181,7 +185,7 @@ msgstr ""
 "параметрів. Перш ніж продовжити роботу,перевірте, що користувач \"$u\" "
 "завершив роботу з %PRODUCTNAME на \"$h\".\n"
 "\n"
-"Продовжити роботу?"
+"Продовжити?"
 
 #: desktop.src#STR_TITLE_USERDATALOCKED.string.text
 #: desktop.src%23STR_TITLE_USERDATALOCKED.string.text
@@ -192,7 +196,7 @@ msgstr "%PRODUCTNAME %PRODUCTVERSION"
 #: desktop.src#EBX_ERR_PRINTDISABLED.errorbox.text
 #: desktop.src%23EBX_ERR_PRINTDISABLED.errorbox.text
 msgid "Printing is disabled. No documents can be printed."
-msgstr "Друк вимкнено. Друк документів неможливий."
+msgstr "Друк вимкнено. Жодний документ не можна роздрукувати."
 
 #: desktop.src#INFOBOX_EXPIRED.infobox.text
 #: desktop.src%23INFOBOX_EXPIRED.infobox.text
@@ -200,6 +204,9 @@ msgid ""
 "This Evaluation Version has expired. To find out more about %PRODUCTNAME,\n"
 "visit https://www.openoffice.org"
 msgstr ""
+"Термін дії цієї пробної версії минув. Щоб дізнатися більше про %PRODUCTNAME,"
+"\n"
+"відвідайте https://www.openoffice.org"
 
 #: desktop.src#STR_TITLE_EXPIRED.string.text
 #: desktop.src%23STR_TITLE_EXPIRED.string.text
@@ -221,8 +228,8 @@ msgid ""
 "\n"
 msgstr ""
 "Встановлення %PRODUCTNAME для користувача неможливо завершити через "
-"відсутність вільного простору на диску. Звільніть місце за вказаною адресою "
-"та перезапустіть %PRODUCTNAME:\n"
+"відсутність вільного простору на диску. Звільніть місце за наступним "
+"розташуванням та перезапустіть %PRODUCTNAME:\n"
 "\n"
 
 #: desktop.src#STR_BOOSTRAP_ERR_NOACCESSRIGHTS.string.text
@@ -234,6 +241,6 @@ msgid ""
 "\n"
 msgstr ""
 "Встановлення %PRODUCTNAME для користувача неможливо завершити через відсутні "
-"правам доступу. Перевірте, що ви маєте права доступу до вказаного далі "
-"каталогу та перезапустіть %PRODUCTNAME:\n"
+"правам доступу. Перевірте, що ви маєте права доступу до вказаного "
+"розташування та перезапустіть %PRODUCTNAME:\n"
 "\n"

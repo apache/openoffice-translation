@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Fchrdlg.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-08-02 17:09+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-05-22 07:39+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1659460147.000000\n"
+"X-POOTLE-MTIME: 1684741148.000000\n"
 
 #: paradlg.src#DLG_PARA.1.TP_PARA_STD.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_PARA_STD.pageitem.text
@@ -35,7 +35,7 @@ msgstr "Вирівнювання"
 #: paradlg.src#DLG_PARA.1.TP_PARA_EXT.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_PARA_EXT.pageitem.text
 msgid "Text Flow"
-msgstr "Поводження тексту"
+msgstr "Положення на сторінці"
 
 #: paradlg.src#DLG_PARA.1.TP_PARA_ASIAN.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_PARA_ASIAN.pageitem.text
@@ -46,7 +46,7 @@ msgstr "Азіатські правила набору"
 #: paradlg.src#DLG_PARA.1.TP_NUMPARA.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_NUMPARA.pageitem.text
 msgid "Outline & Numbering"
-msgstr "Схема і нумерація"
+msgstr "Структура і нумерація"
 
 #: paradlg.src#DLG_PARA.1.TP_TABULATOR.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_TABULATOR.pageitem.text
@@ -63,7 +63,7 @@ msgstr "Буквиця"
 #: paradlg.src#DLG_PARA.1.TP_BORDER.pageitem.text
 #: paradlg.src%23DLG_PARA.1.TP_BORDER.pageitem.text
 msgid "Borders"
-msgstr "Межі"
+msgstr "Обрамлення"
 
 #: paradlg.src#DLG_PARA.1.RID_SVXPAGE_AREA.pageitem.text
 #: paradlg.src%23DLG_PARA.1.RID_SVXPAGE_AREA.pageitem.text
@@ -111,105 +111,27 @@ msgctxt "paradlg.src#DLG_DRAWPARA.tabdialog.text"
 msgid "Paragraph"
 msgstr "Абзац"
 
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_CHAR_STD.pageitem.text
-msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text"
-msgid "Font"
-msgstr "Шрифт"
+#: chrdlg.src#STR_TEXTCOLL_HEADER.string.text
+msgid " (Paragraph Style: "
+msgstr " (Стиль абзацу: "
 
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
-msgid "Font Effects"
-msgstr "Ефекти шрифту"
+#: chrdlg.src#STR_PAGEFMT_HEADER.string.text
+msgid " (Page Style: "
+msgstr " (Стиль сторінки: "
 
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_POS.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_CHAR_POS.pageitem.text
-msgid "Position"
-msgstr "Позиція"
+#: chrdlg.src#SW_STR_NONE.string.text
+#: chrdlg.src%23SW_STR_NONE.string.text
+msgctxt "chrdlg.src#SW_STR_NONE.string.text"
+msgid "[None]"
+msgstr "[Немає]"
 
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
-msgid "Asian Layout"
-msgstr "Розмітка азіатського тексту"
-
-#: chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_CHAR_URL.pageitem.text
-msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text"
-msgid "Hyperlink"
-msgstr "Гіперпосилання"
-
-#: chardlg.src#DLG_CHAR.1.TP_BACKGROUND.pageitem.text
-#: chardlg.src%23DLG_CHAR.1.TP_BACKGROUND.pageitem.text
-msgid "Background"
-msgstr "Тло"
-
-#: chardlg.src#DLG_CHAR.tabdialog.text
-#: chardlg.src%23DLG_CHAR.tabdialog.text
-msgid "Character"
-msgstr "Символи"
-
-#: chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
-#: chardlg.src%23DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
-msgctxt "chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text"
-msgid "Font"
-msgstr "Шрифт"
-
-#: chardlg.src#DLG_DRAWCHAR.tabdialog.text
-#: chardlg.src%23DLG_DRAWCHAR.tabdialog.text
-msgctxt "chardlg.src#DLG_DRAWCHAR.tabdialog.text"
-msgid "Font"
-msgstr "Шрифт"
-
-#: chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text
-#: chardlg.src%23TP_CHAR_URL.FL_URL.fixedline.text
-msgctxt "chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text"
-msgid "Hyperlink"
-msgstr "Гіперпосилання"
-
-#: chardlg.src#TP_CHAR_URL.FT_URL.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_URL.fixedtext.text
-msgid "~URL"
-msgstr "~URL"
-
-#: chardlg.src#TP_CHAR_URL.PB_URL.pushbutton.text
-#: chardlg.src%23TP_CHAR_URL.PB_URL.pushbutton.text
-msgid "~Browse..."
-msgstr "П~ерегляд..."
-
-#: chardlg.src#TP_CHAR_URL.FT_TEXT.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_TEXT.fixedtext.text
-msgid "Te~xt"
-msgstr "~Текст"
-
-#: chardlg.src#TP_CHAR_URL.FT_NAME.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_NAME.fixedtext.text
-msgid "~Name"
-msgstr "~Назва"
-
-#: chardlg.src#TP_CHAR_URL.FT_TARGET.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_TARGET.fixedtext.text
-msgid "~Target frame"
-msgstr "~Кадр"
-
-#: chardlg.src#TP_CHAR_URL.PB_EVENT.pushbutton.text
-#: chardlg.src%23TP_CHAR_URL.PB_EVENT.pushbutton.text
-msgid "~Events..."
-msgstr "~Події..."
-
-#: chardlg.src#TP_CHAR_URL.FL_STYLE.fixedline.text
-#: chardlg.src%23TP_CHAR_URL.FL_STYLE.fixedline.text
-msgid "Character Styles"
-msgstr "Стилі символів"
-
-#: chardlg.src#TP_CHAR_URL.FT_VISITED.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_VISITED.fixedtext.text
-msgid "~Visited links"
-msgstr "~Відвідані посилання"
-
-#: chardlg.src#TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
-#: chardlg.src%23TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
-msgid "Unvisited ~links"
-msgstr "~Невідвідані посилання"
+#: chrdlg.src#MSG_ILLEGAL_PAGENUM.infobox.text
+msgid ""
+"Page numbers cannot be applied to the current page. Even numbers can be used "
+"on left pages, odd numbers on right pages."
+msgstr ""
+"Номери сторінок не можна застосувати до поточної сторінки. Парні числа можна "
+"використовувати на лівих сторінках, непарні – на правих."
 
 #: ccoll.src#TP_CONDCOLL.FL_CONDITION.fixedline.text
 #: ccoll.src%23TP_CONDCOLL.FL_CONDITION.fixedline.text
@@ -229,7 +151,7 @@ msgstr "~Контекст"
 #: ccoll.src#TP_CONDCOLL.FT_USED.fixedtext.text
 #: ccoll.src%23TP_CONDCOLL.FT_USED.fixedtext.text
 msgid "Applied Styles"
-msgstr "Використані стилі"
+msgstr "Застосовані стилі"
 
 #: ccoll.src#TP_CONDCOLL.FT_STYLE.fixedtext.text
 #: ccoll.src%23TP_CONDCOLL.FT_STYLE.fixedtext.text
@@ -249,7 +171,7 @@ msgstr "Заст~осувати"
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.1.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.1.itemlist.text
 msgid "Table Header"
-msgstr "Верхній колонтитул таблиці"
+msgstr "Заголовок таблиці"
 
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.2.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.2.itemlist.text
@@ -274,7 +196,7 @@ msgstr "Виноска"
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.6.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.6.itemlist.text
 msgid "Endnote"
-msgstr "Кінцева виноска"
+msgstr "Кінцева заувага"
 
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.7.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.7.itemlist.text
@@ -334,7 +256,7 @@ msgstr " 9-й рівень структури"
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.18.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.18.itemlist.text
 msgid "10th Outline Level"
-msgstr "10-й рівень структури"
+msgstr " 10-й рівень структури"
 
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.19.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.19.itemlist.text
@@ -379,12 +301,12 @@ msgstr " 8-й рівень нумерації"
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.27.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.27.itemlist.text
 msgid " 9th Numbering Level"
-msgstr " 8-й рівень нумерації"
+msgstr " 9-й рівень нумерації"
 
 #: ccoll.src#TP_CONDCOLL.STR_REGIONS.28.itemlist.text
 #: ccoll.src%23TP_CONDCOLL.STR_REGIONS.28.itemlist.text
 msgid "10th Numbering Level"
-msgstr "10-й рівень нумерації"
+msgstr " 10-й рівень нумерації"
 
 #: ccoll.src#TP_CONDCOLL.STR_NOTEMPL.string.text
 #: ccoll.src%23TP_CONDCOLL.STR_NOTEMPL.string.text
@@ -406,7 +328,7 @@ msgstr "Буквиця"
 #: drpcps.src#TP_DROPCAPS.CB_SWITCH.checkbox.text
 #: drpcps.src%23TP_DROPCAPS.CB_SWITCH.checkbox.text
 msgid "Display drop caps"
-msgstr "Показати буквицю"
+msgstr "Показати ~буквицю"
 
 #: drpcps.src#TP_DROPCAPS.CB_WORD.checkbox.text
 #: drpcps.src%23TP_DROPCAPS.CB_WORD.checkbox.text
@@ -426,7 +348,7 @@ msgstr "В~исота у рядках"
 #: drpcps.src#TP_DROPCAPS.TXT_DISTANCE.fixedtext.text
 #: drpcps.src%23TP_DROPCAPS.TXT_DISTANCE.fixedtext.text
 msgid "Space to text"
-msgstr "Відстань до тексту"
+msgstr "Відстань ~до тексту"
 
 #: drpcps.src#TP_DROPCAPS.FL_SETTINGS.fixedline.text
 #: drpcps.src%23TP_DROPCAPS.FL_SETTINGS.fixedline.text
@@ -446,29 +368,107 @@ msgstr "~Стиль символу"
 #: drpcps.src#TP_DROPCAPS.FL_CONTENT.fixedline.text
 #: drpcps.src%23TP_DROPCAPS.FL_CONTENT.fixedline.text
 msgid "Contents"
-msgstr "Вміст"
+msgstr "Зміст"
 
-#: chrdlg.src#STR_TEXTCOLL_HEADER.string.text
-msgid " (Paragraph Style: "
-msgstr " (Стиль абзацу: "
+#: chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_STD.pageitem.text
+msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_STD.pageitem.text"
+msgid "Font"
+msgstr "Шрифт"
 
-#: chrdlg.src#STR_PAGEFMT_HEADER.string.text
-msgid " (Page Style: "
-msgstr " (Стиль сторінки: "
+#: chardlg.src#DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_EXT.pageitem.text
+msgid "Font Effects"
+msgstr "Ефекти шрифту"
 
-#: chrdlg.src#SW_STR_NONE.string.text
-#: chrdlg.src%23SW_STR_NONE.string.text
-msgctxt "chrdlg.src#SW_STR_NONE.string.text"
-msgid "[None]"
-msgstr "[Ні]"
+#: chardlg.src#DLG_CHAR.1.TP_CHAR_POS.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_POS.pageitem.text
+msgid "Position"
+msgstr "Позиція"
 
-#: chrdlg.src#MSG_ILLEGAL_PAGENUM.infobox.text
-msgid ""
-"Page numbers cannot be applied to the current page. Even numbers can be used "
-"on left pages, odd numbers on right pages."
-msgstr ""
-"До поточної сторінки не можна застосувати номери. Парні номери можна "
-"використовувати на лівих сторінках, непарні на правих."
+#: chardlg.src#DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_TWOLN.pageitem.text
+msgid "Asian Layout"
+msgstr "Розмітка азіатського тексту"
+
+#: chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_CHAR_URL.pageitem.text
+msgctxt "chardlg.src#DLG_CHAR.1.TP_CHAR_URL.pageitem.text"
+msgid "Hyperlink"
+msgstr "Гіперпосилання"
+
+#: chardlg.src#DLG_CHAR.1.TP_BACKGROUND.pageitem.text
+#: chardlg.src%23DLG_CHAR.1.TP_BACKGROUND.pageitem.text
+msgid "Background"
+msgstr "Тло"
+
+#: chardlg.src#DLG_CHAR.tabdialog.text
+#: chardlg.src%23DLG_CHAR.tabdialog.text
+msgid "Character"
+msgstr "Символ"
+
+#: chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
+#: chardlg.src%23DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text
+msgctxt "chardlg.src#DLG_DRAWCHAR.1.TP_CHAR_STD.pageitem.text"
+msgid "Font"
+msgstr "Шрифт"
+
+#: chardlg.src#DLG_DRAWCHAR.tabdialog.text
+#: chardlg.src%23DLG_DRAWCHAR.tabdialog.text
+msgctxt "chardlg.src#DLG_DRAWCHAR.tabdialog.text"
+msgid "Font"
+msgstr "Шрифт"
+
+#: chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text
+#: chardlg.src%23TP_CHAR_URL.FL_URL.fixedline.text
+msgctxt "chardlg.src#TP_CHAR_URL.FL_URL.fixedline.text"
+msgid "Hyperlink"
+msgstr "Гіперпосилання"
+
+#: chardlg.src#TP_CHAR_URL.FT_URL.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_URL.fixedtext.text
+msgid "~URL"
+msgstr "~URL"
+
+#: chardlg.src#TP_CHAR_URL.PB_URL.pushbutton.text
+#: chardlg.src%23TP_CHAR_URL.PB_URL.pushbutton.text
+msgid "~Browse..."
+msgstr "О~гляд..."
+
+#: chardlg.src#TP_CHAR_URL.FT_TEXT.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_TEXT.fixedtext.text
+msgid "Te~xt"
+msgstr "~Текст"
+
+#: chardlg.src#TP_CHAR_URL.FT_NAME.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_NAME.fixedtext.text
+msgid "~Name"
+msgstr "~Назва"
+
+#: chardlg.src#TP_CHAR_URL.FT_TARGET.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_TARGET.fixedtext.text
+msgid "~Target frame"
+msgstr "~Цільовий кадр"
+
+#: chardlg.src#TP_CHAR_URL.PB_EVENT.pushbutton.text
+#: chardlg.src%23TP_CHAR_URL.PB_EVENT.pushbutton.text
+msgid "~Events..."
+msgstr "~Події..."
+
+#: chardlg.src#TP_CHAR_URL.FL_STYLE.fixedline.text
+#: chardlg.src%23TP_CHAR_URL.FL_STYLE.fixedline.text
+msgid "Character Styles"
+msgstr "Стилі символів"
+
+#: chardlg.src#TP_CHAR_URL.FT_VISITED.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_VISITED.fixedtext.text
+msgid "~Visited links"
+msgstr "~Відвідані посилання"
+
+#: chardlg.src#TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
+#: chardlg.src%23TP_CHAR_URL.FT_NOT_VISITED.fixedtext.text
+msgid "Unvisited ~links"
+msgstr "~Невідвідані посилання"
 
 #: swbreak.src#DLG_BREAK.RB_LINE.radiobutton.text
 #: swbreak.src%23DLG_BREAK.RB_LINE.radiobutton.text
@@ -499,7 +499,7 @@ msgstr "С~тиль"
 #: swbreak.src%23DLG_BREAK.LB_COLL.1.stringlist.text
 msgctxt "swbreak.src#DLG_BREAK.LB_COLL.1.stringlist.text"
 msgid "[None]"
-msgstr "[Ні]"
+msgstr "[Немає]"
 
 #: swbreak.src#DLG_BREAK.CB_PAGENUM.checkbox.text
 #: swbreak.src%23DLG_BREAK.CB_PAGENUM.checkbox.text
@@ -514,12 +514,12 @@ msgstr "Вставити розрив"
 #: numpara.src#TP_NUMPARA.FL_OUTLINE_START.fixedline.text
 #: numpara.src%23TP_NUMPARA.FL_OUTLINE_START.fixedline.text
 msgid "Outline"
-msgstr "Схема"
+msgstr "Структура"
 
 #: numpara.src#TP_NUMPARA.FT_OUTLINE_LEVEL.fixedtext.text
 #: numpara.src%23TP_NUMPARA.FT_OUTLINE_LEVEL.fixedtext.text
 msgid "Outline level"
-msgstr "Рівень схеми"
+msgstr "Рівень структури"
 
 #: numpara.src#TP_NUMPARA.LB_OUTLINE_LEVEL.1.stringlist.text
 #: numpara.src%23TP_NUMPARA.LB_OUTLINE_LEVEL.1.stringlist.text
@@ -584,7 +584,7 @@ msgstr "Нумерація"
 #: numpara.src#TP_NUMPARA.FT_NUMBER_STYLE.fixedtext.text
 #: numpara.src%23TP_NUMPARA.FT_NUMBER_STYLE.fixedtext.text
 msgid "Numbering Style"
-msgstr "Стиль нумерації"
+msgstr "С~тиль нумерації"
 
 #: numpara.src#TP_NUMPARA.LB_NUMBER_STYLE.1.stringlist.text
 #: numpara.src%23TP_NUMPARA.LB_NUMBER_STYLE.1.stringlist.text

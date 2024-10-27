@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+dbaccess%2Fsource%2Fcore%2Fresource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2022-06-07 12:02+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2022-09-28 09:30+0000\n"
 "Last-Translator: Oleksiy <john.silver.heart@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1654603351.000000\n"
+"X-POOTLE-MTIME: 1664357459.000000\n"
 
 #: strings.src#RID_STR_TRIED_OPEN_TABLE.string.text
 #: strings.src%23RID_STR_TRIED_OPEN_TABLE.string.text
@@ -36,7 +36,7 @@ msgid ""
 "The table $name$ already exists. It is not visible because it has been "
 "filtered out."
 msgstr ""
-"Таблиця $name$ вже існує. Вона не є видимою, оскільки була відфільтрованою."
+"Таблиця $name$ вже існує. Вона не є видимою, оскільки була відфільтрована."
 
 #: strings.src#RID_STR_NEED_CONFIG_WRITE_ACCESS.string.text
 #: strings.src%23RID_STR_NEED_CONFIG_WRITE_ACCESS.string.text
@@ -68,7 +68,7 @@ msgid ""
 "The connection to the external data source could not be established. The "
 "SDBC driver manager could not be loaded."
 msgstr ""
-"Неможливо з'єднатися із зовнішнім джерелом даних. Менеджер драйвер SDBC не "
+"Неможливо з'єднатися із зовнішнім джерелом даних. Драйвер-менеджер SDBC не "
 "завантажується."
 
 #: strings.src#RID_STR_FORM.string.text
@@ -96,8 +96,8 @@ msgid ""
 "The given command is not a SELECT statement.\n"
 "Only queries are allowed."
 msgstr ""
-"Запит не є запитом типу SELECT.\n"
-"Дозволено лише запити, що не змінюють дані."
+"Дана команда не є оператором SELECT.\n"
+"Дозволяються лише запити."
 
 #: strings.src#RID_STR_NO_VALUE_CHANGED.string.text
 #: strings.src%23RID_STR_NO_VALUE_CHANGED.string.text
@@ -193,7 +193,7 @@ msgid ""
 "A row cannot be refreshed when the ResultSet is positioned after the last "
 "row."
 msgstr ""
-"Рядок неможливо оновити, коли ResultSet розташований за останнім стовпцем."
+"Рядок неможливо оновити, коли ResultSet розташований за останнім рядком."
 
 #: strings.src#RID_STR_NO_MOVETOINSERTROW_CALLED.string.text
 #: strings.src%23RID_STR_NO_MOVETOINSERTROW_CALLED.string.text
@@ -201,7 +201,8 @@ msgid ""
 "A new row cannot be inserted when the ResultSet is not first moved to the "
 "insert row."
 msgstr ""
-"Неможливо додати новий рядок, доки ResultSet не переміщений на доданий рядок."
+"Новий рядок не можна вставити, якщо ResultSet спочатку не переміщено до "
+"рядка вставки."
 
 #: strings.src#RID_STR_NO_UPDATEROW.string.text
 #: strings.src%23RID_STR_NO_UPDATEROW.string.text
@@ -250,7 +251,7 @@ msgstr "Таблиця \"$table$\" не існує."
 #: strings.src#RID_STR_QUERY_DOES_NOT_EXIST.string.text
 #: strings.src%23RID_STR_QUERY_DOES_NOT_EXIST.string.text
 msgid "There exists no query named \"$table$\"."
-msgstr "Таблиця \"$table$\" не існує."
+msgstr "Запиту \"$table$\" не існує."
 
 #: strings.src#RID_STR_CONFLICTING_NAMES.string.text
 #: strings.src%23RID_STR_CONFLICTING_NAMES.string.text
@@ -270,7 +271,7 @@ msgid ""
 "\n"
 "$command$"
 msgstr ""
-"SQL-запит призвів до помилки:\n"
+"SQL-запит, що призвів до цієї помилки:\n"
 "\n"
 "$command$"
 
@@ -287,7 +288,7 @@ msgstr "Назва не повинна бути порожньою."
 #: strings.src#RID_STR_NO_NULL_OBJECTS_IN_CONTAINER.string.text
 #: strings.src%23RID_STR_NO_NULL_OBJECTS_IN_CONTAINER.string.text
 msgid "The container cannot contain NULL objects."
-msgstr "Контейнер не може містити нульові об'єкти."
+msgstr "Контейнер не може містити NULL об'єкти."
 
 #: strings.src#RID_STR_NAME_ALREADY_USED.string.text
 #: strings.src%23RID_STR_NAME_ALREADY_USED.string.text
@@ -307,7 +308,7 @@ msgstr "Цей об'єкт з іншою назвою вже є частиною
 #: strings.src#RID_STR_NAME_NOT_FOUND.string.text
 #: strings.src%23RID_STR_NAME_NOT_FOUND.string.text
 msgid "Unable to find the document '$name$'."
-msgstr "Не вдалося знайти документ '$name$'."
+msgstr "Не вдалося знайти документ \"$name$\"."
 
 #: strings.src#RID_STR_ERROR_WHILE_SAVING.string.text
 #: strings.src%23RID_STR_ERROR_WHILE_SAVING.string.text
@@ -330,12 +331,12 @@ msgstr ""
 #: strings.src#RID_STR_NO_SUB_FOLDER.string.text
 #: strings.src%23RID_STR_NO_SUB_FOLDER.string.text
 msgid "There exists no folder named \"$folder$\"."
-msgstr "Каталог \"$folder$\" не існує."
+msgstr "Теки \"$folder$\" не існує."
 
 #: strings.src#RID_STR_NO_DELETE_BEFORE_AFTER.string.text
 #: strings.src%23RID_STR_NO_DELETE_BEFORE_AFTER.string.text
 msgid "Cannot delete the before-first or after-last row."
-msgstr "Неможливо видалити рядок перед першим або після останнього."
+msgstr "Неможливо видалити передперший або післяостанній рядок."
 
 #: strings.src#RID_STR_NO_DELETE_INSERT_ROW.string.text
 #: strings.src%23RID_STR_NO_DELETE_INSERT_ROW.string.text
@@ -345,32 +346,32 @@ msgstr "Неможливо видалити рядок вставки."
 #: strings.src#RID_STR_RESULT_IS_READONLY.string.text
 #: strings.src%23RID_STR_RESULT_IS_READONLY.string.text
 msgid "Result set is read only."
-msgstr "Результуючий набір призначений тільки для перегляду."
+msgstr "Результатний набір лише для читання."
 
 #: strings.src#RID_STR_NO_DELETE_PRIVILEGE.string.text
 #: strings.src%23RID_STR_NO_DELETE_PRIVILEGE.string.text
 msgid "DELETE privilege not available."
-msgstr "Відсутній дозвіл на операцію DELETE."
+msgstr "Немає привілею DELETE."
 
 #: strings.src#RID_STR_ROW_ALREADY_DELETED.string.text
 #: strings.src%23RID_STR_ROW_ALREADY_DELETED.string.text
 msgid "Current row is already deleted."
-msgstr "Поточний рядок вже видалено."
+msgstr "Поточний запис вже видалено."
 
 #: strings.src#RID_STR_UPDATE_FAILED.string.text
 #: strings.src%23RID_STR_UPDATE_FAILED.string.text
 msgid "Current row could not be updated."
-msgstr "Поточний рядок не може бути оновлений."
+msgstr "Поточний запис неможливо оновити."
 
 #: strings.src#RID_STR_NO_INSERT_PRIVILEGE.string.text
 #: strings.src%23RID_STR_NO_INSERT_PRIVILEGE.string.text
 msgid "INSERT privilege not available."
-msgstr "Права INSERT недоступні."
+msgstr "Немає привілею INSERT."
 
 #: strings.src#RID_STR_INTERNAL_ERROR.string.text
 #: strings.src%23RID_STR_INTERNAL_ERROR.string.text
 msgid "Internal error: no statement object provided by the database driver."
-msgstr "Внутрішня помилка: драйвер бази даних не надає об'єкт оператора."
+msgstr "Внутрішня помилка: драйвер бази даних не надав об’єкт оператора."
 
 #: strings.src#RID_STR_EXPRESSION1.string.text
 #: strings.src%23RID_STR_EXPRESSION1.string.text
@@ -390,22 +391,22 @@ msgstr "Недійсний індекс стовпця."
 #: strings.src#RID_STR_INVALID_CURSOR_STATE.string.text
 #: strings.src%23RID_STR_INVALID_CURSOR_STATE.string.text
 msgid "Invalid cursor state."
-msgstr "Недійсний стан курсора."
+msgstr "Недійсний стан курсору."
 
 #: strings.src#RID_STR_CURSOR_BEFORE_OR_AFTER.string.text
 #: strings.src%23RID_STR_CURSOR_BEFORE_OR_AFTER.string.text
 msgid "The cursor points to before the first or after the last row."
-msgstr "Курсор вказує до першого або після останнього рядка."
+msgstr "Курсор вказує перед першим або після останнього рядка."
 
 #: strings.src#RID_STR_NO_BOOKMARK_BEFORE_OR_AFTER.string.text
 #: strings.src%23RID_STR_NO_BOOKMARK_BEFORE_OR_AFTER.string.text
 msgid "The rows before the first and after the last row don't have a bookmark."
-msgstr "Рядки перед першим і після останнього рядків не мають закладок."
+msgstr "Рядки перед першим і після останнього рядка не мають закладки."
 
 #: strings.src#RID_STR_NO_BOOKMARK_DELETED.string.text
 #: strings.src%23RID_STR_NO_BOOKMARK_DELETED.string.text
 msgid "The current row is deleted, and thus doesn't have a bookmark."
-msgstr "Поточний рядок видалено, і для нього не можна створити закладку."
+msgstr "Поточний рядок видалено, тому закладки немає."
 
 #: strings.src#RID_STR_NO_EMBEDDING.string.text
 #: strings.src%23RID_STR_NO_EMBEDDING.string.text
@@ -415,9 +416,9 @@ msgstr "Вбудовування документів бази даних не �
 #: strings.src#RID_STR_CONNECTION_REQUEST.string.text
 #: strings.src%23RID_STR_CONNECTION_REQUEST.string.text
 msgid "A connection for the following URL was requested \"$name$\"."
-msgstr "Був запит на з'єднання з URL \"$name$\"."
+msgstr "Запитано з’єднання для такої URL-адреси \"$name$\"."
 
 #: strings.src#RID_STR_MISSING_EXTENSION.string.text
 #: strings.src%23RID_STR_MISSING_EXTENSION.string.text
 msgid "The extension is not installed."
-msgstr "Розширення не встановлене."
+msgstr "Розширення не встановлено"
