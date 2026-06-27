@@ -8,12 +8,18 @@ The Files presented here are useable for Apache OpenOffice trunk (and 4.2.0)
 # Repository Structure. 
 The repository contains several key directories organized for translation workflow:
 ## Main Directories:
-    PO-Files      - Contains Portable Object files, which are standard translation file formats used in localization
-    PotFiles-HELP - Houses template files for help content translation, specifically under helpcontent2/source/text
-    PotFiles-UI   - Stores user interface translation templates
-    SDF-Files     - Contains SDF (String Definition Files) used in the OpenOffice translation process
+| Name         | Description |
+| :---         | :----  |
+| PO-Files     | Contains Portable Object files, which are standard translation file formats used in localization|
+| PotFiles-HELP| Houses template files for help content translation, specifically under helpcontent2/source/text|
+| PotFiles-UI  | Stores user interface translation templates |
+| SDF-Files    | Contains SDF (String Definition Files) used in the OpenOffice translation process |
+
 ## Key Files:
-    en-US.sdf - The English (United States) source string definition file
+| Name       | Description |
+| :---       | :----  |
+| en-US.sdf  | The English (United States) source string definition file|
+
 # Project Governance
 This project operates under the Apache Software Foundation guidelines and follows the ASF Code of Conduct.
 
