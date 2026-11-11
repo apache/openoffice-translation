@@ -11,14 +11,19 @@ The repository contains several key directories organized for translation workfl
 | Name         | Description |
 | :---         | :----  |
 | PO-Files     | Contains Portable Object files, which are standard translation file formats used in localization|
-| PotFiles-HELP| Houses template files for help content translation, specifically under helpcontent2/source/text|
-| PotFiles-UI  | Stores user interface translation templates |
-| SDF-Files    | Contains SDF (String Definition Files) used in the OpenOffice translation process |
+| POT-HELP     | Houses template files for help content translation, specifically under helpcontent2/source/text|
+| POT-UI       | Stores user interface translation templates |
+| aoo40, aoo40help | Copies of the Pootle project directories for UI and help |
 
 ## Key Files:
 | Name       | Description |
 | :---       | :----  |
 | en-US.sdf  | The English (United States) source string definition file|
+| header.txt | License header that goes at the top of each generated localize.sdf |
+
+SDF files generated from the PO files (mksdf.sh) go to SDF-Files/, which is not tracked.
+
+The 2024-10-27 commit (c8b6ea9c8f) reverts some uk and pl translations to older text. The state before it is commit c1358ae8ce.
 
 # Project Governance
 This project operates under the Apache Software Foundation guidelines and follows the ASF Code of Conduct.
