@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-07 14:19+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,48 +16,114 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#, fuzzy
-msgid "Enter password to open file: \n"
-msgstr "Файлды ашу үшін парольді енгізіңіз: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#, fuzzy
-msgid "Enter password to modify file: \n"
-msgstr "Файлды өзгерту үшін парольді енгізіңіз: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#, fuzzy
-msgid "Enter password: "
-msgstr "Парольді енгізіңіз"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#, fuzzy
-msgid "Confirm password: "
-msgstr "Парольді растаңыз"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-msgid "Set Password"
-msgstr "Парольді орнату"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-msgid "Enter Password"
-msgstr "Парольді енгізіңіз"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
-"The confirmation password did not match the password. Set the password again "
-"by entering the same password in both boxes."
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
 msgstr ""
-"Растау паролі бірінші парольге сәйкес келмейді. Екі өрісте де бірдей "
-"парольді енгізіп көріңіз."
+"Веб байланыстары үшін парольдер басты парольмен қорғалған. Егер %PRODUCTNAME "
+"қорғалған парольдер тізімінен парольді алатын болса, сізге сессия үшін бір "
+"рет басты парольді енгізуге керек болады."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#, fuzzy
+msgid "~Enter password"
+msgstr "Парольді ~енгізу"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#, fuzzy
+msgid "~Reenter password"
+msgstr "Парольді қа_йта енгізіңіз:"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#, fuzzy
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"Ескерту: Егер сіз басты парольді ұмытсаңыз, онымен қорғалған барлық "
+"мәліметке қатынай алмайтын боласыз. Парольдер регистрге тәуелді болады."
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "Басты парольді орнату"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "Сертификаттың ақпараты..."
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "Көмек"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "ОК"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "Бұл сертификатты тек осы сессия үшін уақытша қабылдау"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "Сертификатты қабылдамау және бұл веб сайтпен байланысты орнатпау"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Мәтінсіз"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "Сайт сертификатын шығарған ұйым белгісіз"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+msgid "Replace"
+msgstr "Алмастыру"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+msgid "Rename"
+msgstr "Атын өзгерту"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
+msgid "File Exists"
+msgstr "Файл бар болып тұр"
+
+#: filechanged.src#STR_FILECHANGED_TITLE.string.text
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "Құжат басқалармен өзгертілген"
+
+#: filechanged.src#STR_FILECHANGED_MSG.string.text
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+
+#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "~Сақтауды жалғастыру"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 #: ids.src%23RID_KEEP_PASSWORD.string.text
@@ -101,10 +167,9 @@ msgid "Target already exists."
 msgstr "Мақсат бар болып тұр."
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
+"You are about to save/export a password protected BASIC library containing "
+"module(s)\n"
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't "
 "have access to the library password to be able to run macros in those "
@@ -547,126 +612,221 @@ msgstr "Парольді енгізіңіз"
 msgid "Enter Master Password"
 msgstr "Басты парольді енгізіңіз"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
-msgstr ""
-"Веб байланыстары үшін парольдер басты парольмен қорғалған. Егер %PRODUCTNAME "
-"қорғалған парольдер тізімінен парольді алатын болса, сізге сессия үшін бір "
-"рет басты парольді енгізуге керек болады."
+#: trylater.src#STR_TRYLATER_TITLE.string.text
+#: trylater.src%23STR_TRYLATER_TITLE.string.text
+msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
+msgid "Document in Use"
+msgstr "Құжат қолдануда болып тұр"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#, fuzzy
-msgid "~Enter password"
-msgstr "Парольді ~енгізу"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#, fuzzy
-msgid "~Reenter password"
-msgstr "Парольді қа_йта енгізіңіз:"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: trylater.src#STR_TRYLATER_MSG.string.text
+#: trylater.src%23STR_TRYLATER_MSG.string.text
 #, fuzzy
 msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Try again later to save document or save a copy of that document.\n"
+"\n"
 msgstr ""
-"Ескерту: Егер сіз басты парольді ұмытсаңыз, онымен қорғалған барлық "
-"мәліметке қатынай алмайтын боласыз. Парольдер регистрге тәуелді болады."
+"'$(ARG1)' құжат файлын өзгертулерді енгізу үшін блоктаған:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Құжатты кейінірек сақтап көріңіз, немесе құжат көшірмесін сақтаңыз.\n"
+"\n"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "Басты парольді орнату"
+#: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
+#: trylater.src%23STR_TRYLATER_RETRYSAVING_BTN.string.text
+msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "Сақтауды қа~йталау"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-msgid "Replace"
-msgstr "Алмастыру"
+#: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
+#: trylater.src%23STR_TRYLATER_SAVEAS_BTN.string.text
+msgid "~Save As..."
+msgstr "Қалайша ~сақтау..."
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-msgid "Rename"
-msgstr "Атын өзгерту"
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#, fuzzy
+msgid "Enter password to open file: \n"
+msgstr "Файлды ашу үшін парольді енгізіңіз: \n"
 
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
-msgid "File Exists"
-msgstr "Файл бар болып тұр"
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#, fuzzy
+msgid "Enter password to modify file: \n"
+msgstr "Файлды өзгерту үшін парольді енгізіңіз: \n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#, fuzzy
+msgid "Enter password: "
+msgstr "Парольді енгізіңіз"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#, fuzzy
+msgid "Confirm password: "
+msgstr "Парольді растаңыз"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+msgid "Set Password"
+msgstr "Парольді орнату"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+msgid "Enter Password"
+msgstr "Парольді енгізіңіз"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+msgid ""
+"The confirmation password did not match the password. Set the password again "
+"by entering the same password in both boxes."
+msgstr ""
+"Растау паролі бірінші парольге сәйкес келмейді. Екі өрісте де бірдей "
+"парольді енгізіп көріңіз."
+
+#: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
+#: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
+msgid "Document Could Not Be Locked"
+msgstr ""
+
+#: lockfailed.src#STR_LOCKFAILED_MSG.string.text
+#: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
+msgid ""
+"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
+"missing permission to create a lock file on that file location."
+msgstr ""
+"%PRODUCTNAME файлды жеке қатынау үшін блоктай алмады, өйткені файл "
+"орналасқан жерінде блоктау файлын жасауға рұқсаттар жетіспейді."
+
+#: lockfailed.src#STR_LOCKFAILED_DONTSHOWAGAIN.string.text
+#: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
+msgid "~Do not show this message again"
+msgstr ""
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
+msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
+msgid "~Send"
+msgstr "Жі~беру"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
+#, fuzzy
+msgid "I~gnore"
+msgstr "Елемеу"
+
+#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
+#, fuzzy
+msgid "I~nteractive"
+msgstr "Әрекеттесу"
+
+#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
+#: cookiedg.src%23DLG_COOKIES.GB_INFUTURE.groupbox.text
+msgid "Future Cookie Handling"
+msgstr ""
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
+msgid "~Ignore"
+msgstr "Е~лемеу"
+
+#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
+msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
+msgid "~Send"
+msgstr "Жі~беру"
+
+#: cookiedg.src#STR_COOKIES_RECV_START.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_START.string.text
+msgid ""
+"The '${HOST}' server wishes to set one or more cookies.\n"
+"Cookies contain information referring to certain URL classes. If %"
+"PRODUCTNAME later requests a document with a URL corresponding to the class "
+"of a previously set cookie, %PRODUCTNAME will send this information to the "
+"server. This allows a server to recognize the status of a WWW application, "
+"e.g., when shopping online.\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+
+#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
+msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
+msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr ""
+
+#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_RECV_TITLE.string.text
+#, fuzzy
+msgid "Cookie Reception"
+msgstr "~Сағат тілі бағытымен"
+
+#: cookiedg.src#STR_COOKIES_SEND_START.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_START.string.text
+msgid ""
+"%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent "
+"when requesting the document ${PATH}.\n"
+"Cookies contain information which refers to certain URL classes. They are "
+"sent by some servers to %PRODUCTNAME where they are saved when certain "
+"documents are accessed. If %PRODUCTNAME loads a document that, according to "
+"the URL, corresponds to a class of one of the previously received Cookies, %"
+"PRODUCTNAME will send this information to that server. This enables a server "
+"to keep track of the status of a WWW application, e.g., when shopping online."
+"\n"
+"\n"
+"The following Cookies should be set:\n"
+"\n"
+msgstr ""
+
+#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_COOKIES.string.text
+msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
+msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
+msgstr ""
+
+#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
+#: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
+#, fuzzy
+msgid "Send Cookies"
+msgstr "Cookies орнату"
 
 #: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
 #: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
 msgid "Filter Selection"
 msgstr "Сүзгіні таңдау"
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "Сертификаттың ақпараты..."
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "Пароль дұрыс емес. Құжатты ашу мүмкін емес."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "Көмек"
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "Пароль дұрыс емес. Құжатты түрлендіру мүмкін емес."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "ОК"
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "Басты пароль қате."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "Бұл сертификатты тек осы сессия үшін уақытша қабылдау"
+#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "Пароль дұрыс емес."
 
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "Сертификатты қабылдамау және бұл веб сайтпен байланысты орнатпау"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Мәтінсіз"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "Сайт сертификатын шығарған ұйым белгісіз"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Мәтінсіз"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "View Certificate"
-msgstr "Сертификатты қарау"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-msgid "Cancel Connection"
-msgstr "Байланыстан бас тарту"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-msgid "Continue"
-msgstr "Жалғастыру"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
-#, fuzzy
-msgid "Security Warning: "
-msgstr "Қауіпсіздік ескертуі"
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "Парольдер өзара сәйкес келмейді."
 
 #: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
 #: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
@@ -767,6 +927,77 @@ msgstr "~Көшірмесін ашу"
 msgid "Unknown User"
 msgstr "Белгісіз пайдаланушы"
 
+#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+
+#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Тек оқу ү~шін ашу"
+
+#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "~Ашу"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+
+#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "Сақтауды қа~йталау"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "~Сақтау"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Мәтінсіз"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "View Certificate"
+msgstr "Сертификатты қарау"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+msgid "Cancel Connection"
+msgstr "Байланыстан бас тарту"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+msgid "Continue"
+msgstr "Жалғастыру"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
+#, fuzzy
+msgid "Security Warning: "
+msgstr "Қауіпсіздік ескертуі"
+
 #: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
 #: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
 msgid "The document contains document macros signed by:"
@@ -813,105 +1044,6 @@ msgstr "Макростарды сө~ндіру"
 msgid "%PRODUCTNAME - Security Warning"
 msgstr "%PRODUCTNAME - қауіпсіздік ескертуі"
 
-#: trylater.src#STR_TRYLATER_TITLE.string.text
-#: trylater.src%23STR_TRYLATER_TITLE.string.text
-msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
-msgid "Document in Use"
-msgstr "Құжат қолдануда болып тұр"
-
-#: trylater.src#STR_TRYLATER_MSG.string.text
-#: trylater.src%23STR_TRYLATER_MSG.string.text
-#, fuzzy
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Try again later to save document or save a copy of that document.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' құжат файлын өзгертулерді енгізу үшін блоктаған:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Құжатты кейінірек сақтап көріңіз, немесе құжат көшірмесін сақтаңыз.\n"
-"\n"
-
-#: trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text
-#: trylater.src%23STR_TRYLATER_RETRYSAVING_BTN.string.text
-msgctxt "trylater.src#STR_TRYLATER_RETRYSAVING_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "Сақтауды қа~йталау"
-
-#: trylater.src#STR_TRYLATER_SAVEAS_BTN.string.text
-#: trylater.src%23STR_TRYLATER_SAVEAS_BTN.string.text
-msgid "~Save As..."
-msgstr "Қалайша ~сақтау..."
-
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "Құжат басқалармен өзгертілген"
-
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-#: filechanged.src%23STR_FILECHANGED_MSG.string.text
-msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
-msgstr ""
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "~Сақтауды жалғастыру"
-
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Тек оқу ү~шін ашу"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "~Ашу"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "Сақтауды қа~йталау"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "~Сақтау"
-
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
 msgid ""
 "This document uses an unsupported version of the Open Document Format. Some "
@@ -934,136 +1066,3 @@ msgstr "~Кейінірек"
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
 msgid "ODF Version Conflict"
 msgstr ""
-
-#: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
-#: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
-msgid "Document Could Not Be Locked"
-msgstr ""
-
-#: lockfailed.src#STR_LOCKFAILED_MSG.string.text
-#: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
-msgid ""
-"The file could not be locked for exclusive access by %PRODUCTNAME, due to "
-"missing permission to create a lock file on that file location."
-msgstr ""
-"%PRODUCTNAME файлды жеке қатынау үшін блоктай алмады, өйткені файл "
-"орналасқан жерінде блоктау файлын жасауға рұқсаттар жетіспейді."
-
-#: lockfailed.src#STR_LOCKFAILED_DONTSHOWAGAIN.string.text
-#: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
-msgid "~Do not show this message again"
-msgstr ""
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "Пароль дұрыс емес. Құжатты ашу мүмкін емес."
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "Пароль дұрыс емес. Құжатты түрлендіру мүмкін емес."
-
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "Басты пароль қате."
-
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "Пароль дұрыс емес."
-
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "Парольдер өзара сәйкес келмейді."
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
-msgctxt "cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text"
-msgid "~Send"
-msgstr "Жі~беру"
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_IGNORE.radiobutton.text
-#, fuzzy
-msgid "I~gnore"
-msgstr "Елемеу"
-
-#: cookiedg.src#DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
-#: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_INTERACTIVE.radiobutton.text
-#, fuzzy
-msgid "I~nteractive"
-msgstr "Әрекеттесу"
-
-#: cookiedg.src#DLG_COOKIES.GB_INFUTURE.groupbox.text
-#: cookiedg.src%23DLG_COOKIES.GB_INFUTURE.groupbox.text
-msgid "Future Cookie Handling"
-msgstr ""
-
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
-#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_CANCEL.pushbutton.text
-msgid "~Ignore"
-msgstr "Е~лемеу"
-
-#: cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
-#: cookiedg.src%23DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text
-msgctxt "cookiedg.src#DLG_COOKIES.BTN_COOKIES_OK.pushbutton.text"
-msgid "~Send"
-msgstr "Жі~беру"
-
-#: cookiedg.src#STR_COOKIES_RECV_START.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_START.string.text
-msgid ""
-"The '${HOST}' server wishes to set one or more cookies.\n"
-"Cookies contain information referring to certain URL classes. If %"
-"PRODUCTNAME later requests a document with a URL corresponding to the class "
-"of a previously set cookie, %PRODUCTNAME will send this information to the "
-"server. This allows a server to recognize the status of a WWW application, "
-"e.g., when shopping online.\n"
-"\n"
-"The following Cookies should be set:\n"
-"\n"
-msgstr ""
-
-#: cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_COOKIES.string.text
-msgctxt "cookiedg.src#STR_COOKIES_RECV_COOKIES.string.text"
-msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr ""
-
-#: cookiedg.src#STR_COOKIES_RECV_TITLE.string.text
-#: cookiedg.src%23STR_COOKIES_RECV_TITLE.string.text
-#, fuzzy
-msgid "Cookie Reception"
-msgstr "~Сағат тілі бағытымен"
-
-#: cookiedg.src#STR_COOKIES_SEND_START.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_START.string.text
-msgid ""
-"%PRODUCTNAME has saved cookies for the server '${HOST}' which will be sent "
-"when requesting the document ${PATH}.\n"
-"Cookies contain information which refers to certain URL classes. They are "
-"sent by some servers to %PRODUCTNAME where they are saved when certain "
-"documents are accessed. If %PRODUCTNAME loads a document that, according to "
-"the URL, corresponds to a class of one of the previously received Cookies, %"
-"PRODUCTNAME will send this information to that server. This enables a server "
-"to keep track of the status of a WWW application, e.g., when shopping online."
-"\n"
-"\n"
-"The following Cookies should be set:\n"
-"\n"
-msgstr ""
-
-#: cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_COOKIES.string.text
-msgctxt "cookiedg.src#STR_COOKIES_SEND_COOKIES.string.text"
-msgid "Domain: ${DOMAIN}, Path: ${PATH}, Cookie: ${COOKIE}.\n"
-msgstr ""
-
-#: cookiedg.src#STR_COOKIES_SEND_TITLE.string.text
-#: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
-#, fuzzy
-msgid "Send Cookies"
-msgstr "Cookies орнату"

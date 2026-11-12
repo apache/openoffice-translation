@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-07-09 10:00+0000\n"
 "Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,44 +16,121 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-msgid "Enter password to open file: \n"
-msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ដើម្បី​បើក​ឯកសារ ៖ \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-msgid "Enter password to modify file: \n"
-msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ដើម្បី​កែប្រែ​​ឯកសារ ៖ \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-msgid "Enter password: "
-msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ៖"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-msgid "Confirm password: "
-msgstr "បញ្ជាក់​ពាក្យ​សម្ងាត់ ៖"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-msgid "Set Password"
-msgstr "កំណត់​ពាក្យ​សម្ងាត់"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-msgid "Enter Password"
-msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
-"The confirmation password did not match the password. Set the password again "
-"by entering the same password in both boxes."
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
 msgstr ""
-"ការ​បញ្ជាក់​ពាក្យ​សម្ងាត់​មិន​ត្រូវ​គ្នា​ទេ ។ កំណត់​ពាក្យ​សម្ងាត់​ម្ដ​ងទៀត "
-"ដោយ​បញ្ចូល​ពាក្យ​សម្ងាត់​ដូច​គ្នា​នៅ​ក្នុង​ប្រអប់​ទាំង​ពីរ ។"
+"ពាក្យ​សម្ងាត់​សម្រាប់​ការ​តភ្ជាប់​បណ្ដាញ "
+"គឺ​ត្រូវបាន​ការពារ​ដោយ​ពាក្យ​សម្ងាត់​មេ ។ "
+"អ្នក​នឹង​ត្រូវ​ស្នើ​ឲ្យ​បញ្ចូល​វា​ក្នុង​មួយ​សម័យ​បញ្ចូល​ម្ដង ប្រសិន​បើ %"
+"PRODUCTNAME ទៅ​យក​ពាក្យ​សម្ងាត់​ពី​បញ្ជី​ពាក្យ​សម្ងាត់​ដែល​បាន​ការពារ ។"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "បញ្ចូល​​ពាក្យ​​​សម្ងាត់​ "
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Reenter password"
+msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់​ម្ដងទៀត "
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"ប្រុងប្រយ័ត្ន ៖ ត្រូវ​ប្រាកដ​ថា អ្នក​ចងចាំ​ពាក្យ​សម្ងាត់​មេ "
+"ដែល​អ្នក​បាន​កំណត់ ។ ប្រសិន​បើ​អ្នក​ភ្លេច​ពាក្យ​សម្ងាត់​មេ អ្នក​នឹង​មិនអាច​ចូ"
+"លដំណើរការ​ព័ត៌មាន​ណាមួយ​ដែល​វា​មាន​ពាក្យ​សម្ងាត់​នោះ​ការ​ពារ​នោះ​ទេ ។ "
+"ពាក្យ​សម្ងាត់​គឺ​ប្រកាន់​តួអក្សរ​តូច​ធំ ហើយ​យ៉ាង​ហោច​ណាស់​ក៏​ត្រូវមាន​តួអក្"
+"សរ ៥ តួ​អក្សរ​ដែរ ។"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "កំណត់​ពាក្យ​សម្ងាត់​មេ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "ពិនិត្យ​វិញ្ញាបនបត្រ..."
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "ជំនួយ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "យល់ព្រម"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "យល់ព្រម​ទទួល​វិញ្ញាបនបត្រ​នេះ​បណ្ដោះអាសន្ន​សម្រាប់​សម័យ​នេះ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "កុំ​យល់ព្រម​ទទួល​វិញ្ញាបនបត្រ​នេះ និង​កុំ​តភ្ជាប់​ទៅ​តំបន់​បណ្ដាញ​នេះ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "គ្មាន​អត្ថបទ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "តំបន់​បណ្ដាញ​ដែល​ចេញ​វិញ្ញាបនបត្រ​ដោយ​អាជ្ញាធរ​មិន​ស្គាល់​"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+msgid "Replace"
+msgstr "ជំនួស"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+msgid "Rename"
+msgstr "ប្ដូរ​ឈ្មោះ"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
+msgid "File Exists"
+msgstr "មាន​ឯកសារ​រួច​ហើយ"
+
+#: filechanged.src#STR_FILECHANGED_TITLE.string.text
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "ឯកសារ​ត្រូវ​បាន​ផ្លាស់ប្ដូរ​ដោយ​អ្នក​ផ្សេង"
+
+#: filechanged.src#STR_FILECHANGED_MSG.string.text
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+"ឯកសារ​ត្រូវបាន​ផ្លាស់ប្ដូរ ចាប់តាំង​ពី​វា​ត្រូវ​បាន​បើក​កែសម្រួល​នៅ​ក្នុង %"
+"PRODUCTNAME ។ ការ​រក្សាទុក​កំណែ​​ឯកសារ​របស់​អ្នក "
+"នឹង​សរសេរ​ជាន់លើ​ការ​ផ្លាស់ប្ដូរ​ដែល​អ្នក​ដ៏ទៃ​បាន​ធ្វើ ។\n"
+"\n"
+"តើ​អ្នក​ចង់​រក្សាទុក​ឬ​ទេ ?\n"
+"\n"
+
+#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "រក្សាទុក"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 #: ids.src%23RID_KEEP_PASSWORD.string.text
@@ -97,24 +174,15 @@ msgid "Target already exists."
 msgstr "មាន​គោលដៅ​រួច​ហើយ ។"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
+"You are about to save/export a password protected BASIC library containing "
+"module(s)\n"
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't "
 "have access to the library password to be able to run macros in those "
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
-"អ្នក​រៀប​នឹង​រក្សាទុក/នាំចេញ​បណ្ណាល័យ​មូលដ្ឋាន​ដែល​បានការពារ​ដោយ​ពាក្យ​សម្ងាត"
-"់ ដែល​មាន​ម៉ូឌុល \n"
-"$(ARG1)\n"
-"ដែល​ធំពេក​ពិបាក​នឹង​ទុក​ក្នុង​ទ្រង់ទ្រាយ​គោលពីរ ។ "
-"ប្រសិន​បើ​អ្នក​ចង់​ឲ្យ​អ្នក​ប្រើ​ ដែល​គ្មាន​ពាក្យ​សម្ងាត់​ចូល​ដំណើរការ​បណ្ណាល"
-"​អាច​រត់​ម៉ាក្រូ​ក្នុង​ម៉ូឌុល​ទាំង​នោះ "
-"អ្នក​ត្រូវ​តែ​បំបែក​ម៉ូឌុល​ទាំង​នោះ​ជា​ចំនួន​ម៉ូឌុល​តូចៗ ។ "
-"តើ​អ្នក​ចង់​បន្ដ​រក្សាទុក/នាំចេញ​បណ្ណាល័យ​នេះ​ឬទេ ។"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -594,271 +662,6 @@ msgstr "បញ្ចូល​​ពាក្យ​​​សម្ងាត់​
 msgid "Enter Master Password"
 msgstr "បញ្ចូល​​ពាក្យ​​​សម្ងាត់​​​មេ "
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
-msgstr ""
-"ពាក្យ​សម្ងាត់​សម្រាប់​ការ​តភ្ជាប់​បណ្ដាញ "
-"គឺ​ត្រូវបាន​ការពារ​ដោយ​ពាក្យ​សម្ងាត់​មេ ។ "
-"អ្នក​នឹង​ត្រូវ​ស្នើ​ឲ្យ​បញ្ចូល​វា​ក្នុង​មួយ​សម័យ​បញ្ចូល​ម្ដង ប្រសិន​បើ %"
-"PRODUCTNAME ទៅ​យក​ពាក្យ​សម្ងាត់​ពី​បញ្ជី​ពាក្យ​សម្ងាត់​ដែល​បាន​ការពារ ។"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-msgid "~Enter password"
-msgstr "បញ្ចូល​​ពាក្យ​​​សម្ងាត់​ "
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-msgid "~Reenter password"
-msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់​ម្ដងទៀត "
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
-msgstr ""
-"ប្រុងប្រយ័ត្ន ៖ ត្រូវ​ប្រាកដ​ថា អ្នក​ចងចាំ​ពាក្យ​សម្ងាត់​មេ "
-"ដែល​អ្នក​បាន​កំណត់ ។ ប្រសិន​បើ​អ្នក​ភ្លេច​ពាក្យ​សម្ងាត់​មេ អ្នក​នឹង​មិនអាច​ចូ"
-"លដំណើរការ​ព័ត៌មាន​ណាមួយ​ដែល​វា​មាន​ពាក្យ​សម្ងាត់​នោះ​ការ​ពារ​នោះ​ទេ ។ "
-"ពាក្យ​សម្ងាត់​គឺ​ប្រកាន់​តួអក្សរ​តូច​ធំ ហើយ​យ៉ាង​ហោច​ណាស់​ក៏​ត្រូវមាន​តួអក្"
-"សរ ៥ តួ​អក្សរ​ដែរ ។"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "កំណត់​ពាក្យ​សម្ងាត់​មេ"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-msgid "Replace"
-msgstr "ជំនួស"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-msgid "Rename"
-msgstr "ប្ដូរ​ឈ្មោះ"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
-msgid "File Exists"
-msgstr "មាន​ឯកសារ​រួច​ហើយ"
-
-#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
-#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
-msgid "Filter Selection"
-msgstr "ជម្រើស​តម្រង"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "ពិនិត្យ​វិញ្ញាបនបត្រ..."
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "ជំនួយ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "យល់ព្រម"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "យល់ព្រម​ទទួល​វិញ្ញាបនបត្រ​នេះ​បណ្ដោះអាសន្ន​សម្រាប់​សម័យ​នេះ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "កុំ​យល់ព្រម​ទទួល​វិញ្ញាបនបត្រ​នេះ និង​កុំ​តភ្ជាប់​ទៅ​តំបន់​បណ្ដាញ​នេះ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "គ្មាន​អត្ថបទ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "តំបន់​បណ្ដាញ​ដែល​ចេញ​វិញ្ញាបនបត្រ​ដោយ​អាជ្ញាធរ​មិន​ស្គាល់​"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "គ្មាន​អត្ថបទ"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "View Certificate"
-msgstr "មើល​វិញ្ញាបនបត្រ"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-msgid "Cancel Connection"
-msgstr "បោះបង់​ការ​តភ្ជាប់"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-msgid "Continue"
-msgstr "បន្ត"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
-msgid "Security Warning: "
-msgstr "ការ​ព្រមាន​សុវត្ថិភាព ៖ "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-msgid "Message from server:"
-msgstr "សារ​ពី​ម៉ាស៊ីន​បម្រើ ៖"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-msgid ""
-"Enter user name and password for: \n"
-"%1"
-msgstr ""
-"បញ្ចូល​ឈ្មោះ​អ្នកប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ ៖ \n"
-"%1"
-
-#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-msgid ""
-"Enter user name and password for: \n"
-"\"%2\" on %1"
-msgstr ""
-"បញ្ចូល​ឈ្មោះ​អ្នកប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ ៖\n"
-"\"%2\" នៅ​លើ %1"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-msgid "~Path"
-msgstr "ផ្លូវ "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-msgid "~User name"
-msgstr "ឈ្មោះ​អ្នក​ប្រើ "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-msgid "Pass~word"
-msgstr "ពាក្យ​សម្ងាត់ "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-msgid "A~ccount"
-msgstr "គណនី "
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
-msgid "~Remember password"
-msgstr "ចងចាំ​ពាក្យ​សម្ងាត់ "
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-msgid "~Use system credentials"
-msgstr "ប្រើ​លិខិត​សម្គាល់​ប្រព័ន្ធ"
-
-#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
-#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
-msgid "Authentication Required"
-msgstr "ត្រូវការ​កា​រផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
-
-#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
-#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
-msgid "Document in Use"
-msgstr "ឯកសារ​កំពុងប្រើ"
-
-#: openlocked.src#STR_OPENLOCKED_MSG.string.text
-#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Open document read-only or open a copy of the document for editing.\n"
-"\n"
-msgstr ""
-"ឯកសារ '$(ARG1)' ត្រូវ​បាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ ៖\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"បើក​ឯកសារ​ដែល​បាន​តែ​អាន ឬ​បើក​ច្បាប់​ចម្លង​ឯកសារ​ដើម្បី​កែសម្រួល ។\n"
-"\n"
-
-#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "បើក​បាន​តែ​អាន"
-
-#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
-msgid "Open ~Copy"
-msgstr "បើក​ច្បាប់​ចម្លង"
-
-#: openlocked.src#STR_UNKNOWNUSER.string.text
-#: openlocked.src%23STR_UNKNOWNUSER.string.text
-msgid "Unknown User"
-msgstr "អ្នកប្រើ​មិនស្គាល់"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "ឯកសារ​មាន​ឯកសារ​ម៉ាក្រូ​ដែល​ចុះ​ហត្ថលេខា​ដោយ ៖"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "ឯកសារ​មាន​ម៉ាក្រូ​ឯកសារ ។"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "មើល​ហត្ថលេខា..."
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr ""
-"ម៉ាក្រូ​អាច​មាន​មេរោគ ។ "
-"ការ​បិទ​ម៉ាក្រូ​សម្រាប់​ឯកសារ​នេះ​គឺ​មាន​សុវត្ថិភាព​ជានិច្ច ។ "
-"បើ​អ្នក​បិទ​ម៉ាក្រូ អ្នក​អាច​បាត់​មុខងារ​ដែល​ផ្ដល់​ដោយ​ម៉ាក្រូ​ឯកសារ ។"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "ទុក​ចិត្ត​ម៉ាក្រូ​ពី​ប្រភព​នេះ​ជានិច្ច"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-msgid "~Enable Macros"
-msgstr "អនុញ្ញាត​ម៉ាក្រូ"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "~Disable Macros"
-msgstr "មិន​អនុញ្ញាត​ម៉ាក្រូ"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
-msgid "%PRODUCTNAME - Security Warning"
-msgstr "%PRODUCTNAME - ការ​ព្រមាន​សុវត្ថិភាព"
-
 #: trylater.src#STR_TRYLATER_TITLE.string.text
 #: trylater.src%23STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
@@ -894,110 +697,44 @@ msgstr "ព្យាយាម​រក្សាទុក"
 msgid "~Save As..."
 msgstr "រក្សាទុក​ជា..."
 
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "ឯកសារ​ត្រូវ​បាន​ផ្លាស់ប្ដូរ​ដោយ​អ្នក​ផ្សេង"
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+msgid "Enter password to open file: \n"
+msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ដើម្បី​បើក​ឯកសារ ៖ \n"
 
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+msgid "Enter password to modify file: \n"
+msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ដើម្បី​កែប្រែ​​ឯកសារ ៖ \n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+msgid "Enter password: "
+msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់ ៖"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+msgid "Confirm password: "
+msgstr "បញ្ជាក់​ពាក្យ​សម្ងាត់ ៖"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+msgid "Set Password"
+msgstr "កំណត់​ពាក្យ​សម្ងាត់"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+msgid "Enter Password"
+msgstr "បញ្ចូល​ពាក្យ​សម្ងាត់"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
+"The confirmation password did not match the password. Set the password again "
+"by entering the same password in both boxes."
 msgstr ""
-"ឯកសារ​ត្រូវបាន​ផ្លាស់ប្ដូរ ចាប់តាំង​ពី​វា​ត្រូវ​បាន​បើក​កែសម្រួល​នៅ​ក្នុង %"
-"PRODUCTNAME ។ ការ​រក្សាទុក​កំណែ​​ឯកសារ​របស់​អ្នក "
-"នឹង​សរសេរ​ជាន់លើ​ការ​ផ្លាស់ប្ដូរ​ដែល​អ្នក​ដ៏ទៃ​បាន​ធ្វើ ។\n"
-"\n"
-"តើ​អ្នក​ចង់​រក្សាទុក​ឬ​ទេ ?\n"
-"\n"
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "រក្សាទុក"
-
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-"ឯកសារ '$(ARG1)' ត្រូវបាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ​ខ្លួន​របស់​អ្នក "
-"នៅ​លើ​ប្រព័ន្ធ​ផ្សេង​ដោយ $(ARG2)\n"
-"\n"
-"បើក​ឯកសារ​ ដែល​បាន​តែអាន ឬ​មិនអើពើ​នឹង​ឯកសារ​ផ្ទាល់ខ្លួន ដែល​ចាក់សោ "
-"និង​បើក​ឯកសារ​សម្រាប់​ការ​កែសម្រួល ។\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "បើក​បាន​តែ​អាន"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "បើក"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-"ឯកសារ '$(ARG1)' ត្រូវបាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ​ខ្លួន​អ្នក​ផ្ទាល់​នៅ"
-"លើ​ប្រព័ន្ធ​ផ្សេងគ្នា ដោយ $(ARG2)\n"
-"\n"
-"បិទ​ឯកសារ​នៅលើ​ប្រព័ន្ធ​ផ្សេង ហើយ​ព្យាយាម​រក្សាទុក "
-"ឬ​មិនអើពើ​នឹង​ការ​ចាក់សោ​ឯកសារ​ផ្ទាល់ខ្លួន និង​រក្សាទុក​ឯកសារ​បច្ចុប្បន្ន ។\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "ព្យាយាម​រក្សាទុក"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "រក្សាទុក"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
-msgid ""
-"This document uses an unsupported version of the Open Document Format. Some "
-"features may not be displayed correctly.\n"
-"\n"
-"Click 'Update Now' to run online update and see if there is a new version of "
-"%PRODUCTNAME available."
-msgstr ""
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-msgid "~Update Now..."
-msgstr "ធ្វើ​បច្ចុប្បន្ន​ភាព​ឥឡូវ... "
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-msgid "~Later"
-msgstr "ពេលក្រោយ"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
-msgid "ODF Version Conflict"
-msgstr ""
+"ការ​បញ្ជាក់​ពាក្យ​សម្ងាត់​មិន​ត្រូវ​គ្នា​ទេ ។ កំណត់​ពាក្យ​សម្ងាត់​ម្ដ​ងទៀត "
+"ដោយ​បញ្ចូល​ពាក្យ​សម្ងាត់​ដូច​គ្នា​នៅ​ក្នុង​ប្រអប់​ទាំង​ពីរ ។"
 
 #: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
 #: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
@@ -1017,31 +754,6 @@ msgstr ""
 #: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
 msgid "~Do not show this message again"
 msgstr ""
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "ពាក្យ​សម្ងាត់ មិនត្រឹមត្រូវ ។ ឯកសារ​មិនអាច​បើក​បានទេ ។"
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "ពាក្យ​សម្ងាត់ មិនត្រឹមត្រូវ ។ មិន​អាច​កែប្រែ​ឯកសារ​បាន​ទេ ។"
-
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "ពាក្យ​សម្ងាត់​មេ​មិន​ត្រឹមត្រូវ។"
-
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "ពាក្យ​មិន​ត្រឹមត្រូវ ។"
-
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "ការ​អះអាង​ពាក្យ​សម្ងាត់ គឺ​មិនត្រូវ​គ្នា​ទេ ។"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 #: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
@@ -1150,3 +862,282 @@ msgstr "ដែន ៖ ${DOMAIN} ផ្លូវ ៖ ${PATH} ខូគី ៖ ${C
 #: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
 msgid "Send Cookies"
 msgstr "ផ្ញើ​ខូគី"
+
+#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
+#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
+msgid "Filter Selection"
+msgstr "ជម្រើស​តម្រង"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "ពាក្យ​សម្ងាត់ មិនត្រឹមត្រូវ ។ ឯកសារ​មិនអាច​បើក​បានទេ ។"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "ពាក្យ​សម្ងាត់ មិនត្រឹមត្រូវ ។ មិន​អាច​កែប្រែ​ឯកសារ​បាន​ទេ ។"
+
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "ពាក្យ​សម្ងាត់​មេ​មិន​ត្រឹមត្រូវ។"
+
+#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "ពាក្យ​មិន​ត្រឹមត្រូវ ។"
+
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "ការ​អះអាង​ពាក្យ​សម្ងាត់ គឺ​មិនត្រូវ​គ្នា​ទេ ។"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+msgid "Message from server:"
+msgstr "សារ​ពី​ម៉ាស៊ីន​បម្រើ ៖"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+msgid ""
+"Enter user name and password for: \n"
+"%1"
+msgstr ""
+"បញ្ចូល​ឈ្មោះ​អ្នកប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ ៖ \n"
+"%1"
+
+#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+msgid ""
+"Enter user name and password for: \n"
+"\"%2\" on %1"
+msgstr ""
+"បញ្ចូល​ឈ្មោះ​អ្នកប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ ៖\n"
+"\"%2\" នៅ​លើ %1"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+msgid "~Path"
+msgstr "ផ្លូវ "
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "ឈ្មោះ​អ្នក​ប្រើ "
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "ពាក្យ​សម្ងាត់ "
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+msgid "A~ccount"
+msgstr "គណនី "
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
+msgid "~Remember password"
+msgstr "ចងចាំ​ពាក្យ​សម្ងាត់ "
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+msgid "~Use system credentials"
+msgstr "ប្រើ​លិខិត​សម្គាល់​ប្រព័ន្ធ"
+
+#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
+#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
+msgid "Authentication Required"
+msgstr "ត្រូវការ​កា​រផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
+
+#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
+#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
+msgid "Document in Use"
+msgstr "ឯកសារ​កំពុងប្រើ"
+
+#: openlocked.src#STR_OPENLOCKED_MSG.string.text
+#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Open document read-only or open a copy of the document for editing.\n"
+"\n"
+msgstr ""
+"ឯកសារ '$(ARG1)' ត្រូវ​បាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ ៖\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"បើក​ឯកសារ​ដែល​បាន​តែ​អាន ឬ​បើក​ច្បាប់​ចម្លង​ឯកសារ​ដើម្បី​កែសម្រួល ។\n"
+"\n"
+
+#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "បើក​បាន​តែ​អាន"
+
+#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
+msgid "Open ~Copy"
+msgstr "បើក​ច្បាប់​ចម្លង"
+
+#: openlocked.src#STR_UNKNOWNUSER.string.text
+#: openlocked.src%23STR_UNKNOWNUSER.string.text
+msgid "Unknown User"
+msgstr "អ្នកប្រើ​មិនស្គាល់"
+
+#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+"ឯកសារ '$(ARG1)' ត្រូវបាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ​ខ្លួន​របស់​អ្នក "
+"នៅ​លើ​ប្រព័ន្ធ​ផ្សេង​ដោយ $(ARG2)\n"
+"\n"
+"បើក​ឯកសារ​ ដែល​បាន​តែអាន ឬ​មិនអើពើ​នឹង​ឯកសារ​ផ្ទាល់ខ្លួន ដែល​ចាក់សោ "
+"និង​បើក​ឯកសារ​សម្រាប់​ការ​កែសម្រួល ។\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "បើក​បាន​តែ​អាន"
+
+#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "បើក"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+"ឯកសារ '$(ARG1)' ត្រូវបាន​ចាក់សោ​សម្រាប់​ការ​កែសម្រួល​ដោយ​ខ្លួន​អ្នក​ផ្ទាល់​នៅ"
+"លើ​ប្រព័ន្ធ​ផ្សេងគ្នា ដោយ $(ARG2)\n"
+"\n"
+"បិទ​ឯកសារ​នៅលើ​ប្រព័ន្ធ​ផ្សេង ហើយ​ព្យាយាម​រក្សាទុក "
+"ឬ​មិនអើពើ​នឹង​ការ​ចាក់សោ​ឯកសារ​ផ្ទាល់ខ្លួន និង​រក្សាទុក​ឯកសារ​បច្ចុប្បន្ន ។\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "ព្យាយាម​រក្សាទុក"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "រក្សាទុក"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "គ្មាន​អត្ថបទ"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "View Certificate"
+msgstr "មើល​វិញ្ញាបនបត្រ"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+msgid "Cancel Connection"
+msgstr "បោះបង់​ការ​តភ្ជាប់"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+msgid "Continue"
+msgstr "បន្ត"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
+msgid "Security Warning: "
+msgstr "ការ​ព្រមាន​សុវត្ថិភាព ៖ "
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "ឯកសារ​មាន​ឯកសារ​ម៉ាក្រូ​ដែល​ចុះ​ហត្ថលេខា​ដោយ ៖"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "ឯកសារ​មាន​ម៉ាក្រូ​ឯកសារ ។"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "មើល​ហត្ថលេខា..."
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"ម៉ាក្រូ​អាច​មាន​មេរោគ ។ "
+"ការ​បិទ​ម៉ាក្រូ​សម្រាប់​ឯកសារ​នេះ​គឺ​មាន​សុវត្ថិភាព​ជានិច្ច ។ "
+"បើ​អ្នក​បិទ​ម៉ាក្រូ អ្នក​អាច​បាត់​មុខងារ​ដែល​ផ្ដល់​ដោយ​ម៉ាក្រូ​ឯកសារ ។"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "ទុក​ចិត្ត​ម៉ាក្រូ​ពី​ប្រភព​នេះ​ជានិច្ច"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+msgid "~Enable Macros"
+msgstr "អនុញ្ញាត​ម៉ាក្រូ"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "~Disable Macros"
+msgstr "មិន​អនុញ្ញាត​ម៉ាក្រូ"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
+msgid "%PRODUCTNAME - Security Warning"
+msgstr "%PRODUCTNAME - ការ​ព្រមាន​សុវត្ថិភាព"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
+msgid ""
+"This document uses an unsupported version of the Open Document Format. Some "
+"features may not be displayed correctly.\n"
+"\n"
+"Click 'Update Now' to run online update and see if there is a new version of "
+"%PRODUCTNAME available."
+msgstr ""
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+msgid "~Update Now..."
+msgstr "ធ្វើ​បច្ចុប្បន្ន​ភាព​ឥឡូវ... "
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+msgid "~Later"
+msgstr "ពេលក្រោយ"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
+msgid "ODF Version Conflict"
+msgstr ""

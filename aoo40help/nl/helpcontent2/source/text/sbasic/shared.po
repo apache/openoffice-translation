@@ -6,15 +6,18 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+helpcontent2%2Fsource%2Ftext%2Fsbasic%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2022-09-06 19:49+0000\n"
-"PO-Revision-Date: 2019-12-25 13:09+0000\n"
+"PO-Revision-Date: 2024-08-31 14:53+0000\n"
 "Last-Translator: Dick Groskamp <digro@apache.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1725116034.000000\n"
 
 #: 03020200.xhp#tit.help.text
 #: 03020200.xhp%23tit.help.text
@@ -91,10 +94,9 @@ msgid ""
 "that the text on a line is comments. This symbol can be inserted directly to "
 "the right of the program code, followed by a comment."
 msgstr ""
-"U kunt het enkele aanhalingsteken gebruiken in plaats van het Rem-"
-"sleutelwoord om commentaar aan te geven. Dit symbool kan worden ingevoegd "
-"direct rechts van de programmacode, gevolgd door commentaar tot het "
-"regeleinde."
+"U kunt het enkele aanhalingsteken gebruiken, in plaats van het sleutelwoord "
+"Rem, om commentaar aan te geven. Dit symbool kan worden ingevoegd direct "
+"rechts van de programmacode, gevolgd door commentaar tot het regeleinde."
 
 #: 03090407.xhp#par_id6187017.help.text
 #: 03090407.xhp%23par_id6187017.help.text
@@ -246,7 +248,7 @@ msgstr "<emph>Sleutelwoord:</emph> Type variabele"
 #: 03102101.xhp#par_id3153728.11.help.text
 #: 03102101.xhp%23par_id3153728.11.help.text
 msgid "<emph>Bool: </emph>Boolean variable (True, False)"
-msgstr "<emph>Bool: </emph>Booleaanse variabele (Waar, Onwaar)"
+msgstr "<emph>Bool:</emph> Booleaanse variabele (Waar, Onwaar)"
 
 #: 03102101.xhp#par_id3146121.12.help.text
 #: 03102101.xhp%23par_id3146121.12.help.text
@@ -312,7 +314,7 @@ msgid ""
 "<emph>Variant: </emph>Variant variable type (can contain all types and is "
 "set by definition)."
 msgstr ""
-"<emph>Variant: </emph>Variant type variabele (kan alle typen bevatten en "
+"<emph>Variant:</emph> Variant type variabele (kan alle typen bevatten en "
 "wordt ingesteld door definitie)."
 
 #: 03102101.xhp#par_id3155601.20.help.text
@@ -365,7 +367,8 @@ msgstr "DIM tekst(20) As String REM 21 elementen genummerd van 0 tot 20"
 #: 03102101.xhp#par_id3146912.24.help.text
 #: 03102101.xhp%23par_id3146912.24.help.text
 msgid "DIM text(5 to 25) As String REM 21 elements numbered from 5 to 25"
-msgstr "DIM tekst(5 to 25) As String REM 21 elementen genummerd van 5 tot 25"
+msgstr ""
+"DIM tekst(5 to 25) As String REM 21 elementen genummerd van 5 tot en met 25"
 
 #: 03102101.xhp#par_id3153709.25.help.text
 #: 03102101.xhp%23par_id3153709.25.help.text
@@ -375,7 +378,7 @@ msgstr "DIM tekst$(-15 to 5) As String REM 21 elementen (inclusief 0),"
 #: 03102101.xhp#par_id3150321.26.help.text
 #: 03102101.xhp%23par_id3150321.26.help.text
 msgid "rem numbered from -15 to 5"
-msgstr "rem genummerd van -15 tot 5"
+msgstr "rem genummerd van -15 tot en met 5"
 
 #: 03102101.xhp#par_id3149018.27.help.text
 #: 03102101.xhp%23par_id3149018.27.help.text
@@ -387,11 +390,11 @@ msgid ""
 "with numeric expressions to define the range of the field sizes."
 msgstr ""
 "Variabele velden kunnen, zonder te letten op type, dynamisch worden gemaakt "
-"als zij worden gedimensioneerd door ReDim op procedureniveau in Subs of "
-"Functions. Normaal kan het bereik van een array maar één keer worden "
-"ingesteld en kan niet worden gewijzigd. Binnen een procedure kan een array "
-"worden gedeclareerd door ReDim met behulp van numerieke expressies om het "
-"bereik voor de veldafmetingen te definiëren."
+"als zij worden gedimensioneerd door ReDim op procedureniveau in Sub's of "
+"Function's. Normaal kan het bereik van een array maar één keer worden "
+"ingesteld en niet worden gewijzigd. Binnen een procedure kan een array "
+"worden gedeclareerd door ReDim, met behulp van numerieke uitdrukkingen, om "
+"het bereik voor de veldafmetingen te definiëren."
 
 #: 03102101.xhp#hd_id3148405.28.help.text
 #: 03102101.xhp%23hd_id3148405.28.help.text
@@ -462,12 +465,12 @@ msgstr "End Sub"
 #: 03020404.xhp#tit.help.text
 #: 03020404.xhp%23tit.help.text
 msgid "Dir Function [Runtime]"
-msgstr "Dir-functie [Runtime]"
+msgstr "functie Dir [Runtime]"
 
 #: 03020404.xhp#bm_id3154347.help.text
 #: 03020404.xhp%23bm_id3154347.help.text
 msgid "<bookmark_value>Dir function</bookmark_value>"
-msgstr "<bookmark_value>Dir-functie</bookmark_value>"
+msgstr "<bookmark_value>functie Dir</bookmark_value>"
 
 #: 03020404.xhp#hd_id3154347.1.help.text
 #: 03020404.xhp%23hd_id3154347.1.help.text
@@ -475,8 +478,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03020404.xhp\" name=\"Dir Function [Runtime]"
 "\">Dir Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03020404.xhp\" name=\"Dir-functie [Runtime"
-"]\">Dir-functie [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03020404.xhp\" name=\"functie Dir [Runtime]\""
+">functie Dir [Runtime]</link>"
 
 #: 03020404.xhp#par_id3153381.2.help.text
 #: 03020404.xhp%23par_id3153381.2.help.text
@@ -527,10 +530,10 @@ msgid ""
 "notation</link>."
 msgstr ""
 "<emph>Tekst:</emph> Elke tekenreeks die het zoekpad, de map of het bestand "
-"specificeert. Dit argument kan alleen gespecificeerd worden wanneer u de Dir-"
-"functie voor het eerst aanroept. Als u wilt, kunt u het pad in <link href=\""
-"text/sbasic/shared/00000002.xhp\" name=\"URL-notatie\">URL-notatie</link> "
-"invoeren."
+"specificeert. Dit argument kan alleen gespecificeerd worden wanneer u de "
+"functie Dir voor het eerst aanroept. Als u wilt, kunt u het pad in <link "
+"href=\"text/sbasic/shared/00000002.xhp\" name=\"URL-notatie\">URL-"
+"notatie</link> invoeren."
 
 #: 03020404.xhp#par_id3146974.9.help.text
 #: 03020404.xhp%23par_id3146974.9.help.text
@@ -574,7 +577,7 @@ msgid ""
 "length string (\"\")."
 msgstr ""
 "Voer het pad en de naam van een bestand volledig in om te controleren of het "
-"bestaat. Als de bestands- of mapnaam niet bestaat, geeft de Dir-functie een "
+"bestaat. Als de bestands- of mapnaam niet bestaat, geeft de functie Dir een "
 "tekenreeks met lengte nul (\"\")."
 
 #: 03020404.xhp#par_id3154012.18.help.text
@@ -588,10 +591,10 @@ msgid ""
 "file names that match the path, call Dir again, but with no arguments."
 msgstr ""
 "U kunt als volgt een lijst van alle bestaande bestanden in een specifieke "
-"map genereren: Wanneer u de Dir-functie voor het eerst aanroept, "
+"map genereren: Wanneer u de functie Dir voor het eerst aanroept, "
 "specificeert u het volledige zoekpad voor de bestanden, bijvoorbeeld 'D:\\"
-"Files\\*.sxw'. Is het pad juist en vindt de zoekopdracht ten minste één "
-"bestand, dan geeft de Dir-functie de naam van het eerste bestand dat met het "
+"Files\\*.odt'. Is het pad juist en vindt de zoekopdracht ten minste één "
+"bestand, dan geeft de functie Dir de naam van het eerste bestand dat met het "
 "zoekpad overeenkomt. Voor extra bestandsnamen die met het pad overeenkomen, "
 "roept u 'Dir' nogmaals op, maar zonder argumenten."
 
@@ -731,12 +734,12 @@ msgstr ""
 #: 03030120.xhp#tit.help.text
 #: 03030120.xhp%23tit.help.text
 msgid "DateDiff Function [Runtime]"
-msgstr "DateDiff-functie [Runtime]"
+msgstr "functie DateDiff [Runtime]"
 
 #: 03030120.xhp#bm_id6134830.help.text
 #: 03030120.xhp%23bm_id6134830.help.text
 msgid "<bookmark_value>DateDiff function</bookmark_value>"
-msgstr "<bookmark_value>DateDiff-functie</bookmark_value>"
+msgstr "<bookmark_value>functie DateDiff</bookmark_value>"
 
 #: 03030120.xhp#par_idN10542.help.text
 #: 03030120.xhp%23par_idN10542.help.text
@@ -788,7 +791,7 @@ msgid ""
 "<emph>Add</emph> - A string expression from the following table, specifying "
 "the date interval."
 msgstr ""
-"<emph>Toevoegen</emph> - Een tekenreeks uit de volgende tabel, waarmee de "
+"<emph>Toevoegen</emph> - Een tekenreeks uit de volgende tabel, waarmee het "
 "datuminterval gespecificeerd wordt."
 
 #: 03030120.xhp#par_idN10664.help.text
@@ -1020,12 +1023,12 @@ msgstr ""
 #: 03120303.xhp#tit.help.text
 #: 03120303.xhp%23tit.help.text
 msgid "Left Function [Runtime]"
-msgstr "Left-functie [Runtime]"
+msgstr "functie Left [Runtime]"
 
 #: 03120303.xhp#bm_id3149346.help.text
 #: 03120303.xhp%23bm_id3149346.help.text
 msgid "<bookmark_value>Left function</bookmark_value>"
-msgstr "<bookmark_value>Left-functie</bookmark_value>"
+msgstr "<bookmark_value>functie Left</bookmark_value>"
 
 #: 03120303.xhp#hd_id3149346.1.help.text
 #: 03120303.xhp%23hd_id3149346.1.help.text
@@ -1033,8 +1036,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03120303.xhp\" name=\"Left Function [Runtime]"
 "\">Left Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03120303.xhp\" name=\"Left-functie [Runtime"
-"]\">Left-functie [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03120303.xhp\" name=\"functie Left-[Runtime]"
+"\">functie Left [Runtime]</link> "
 
 #: 03120303.xhp#par_id3147242.2.help.text
 #: 03120303.xhp%23par_id3147242.2.help.text
@@ -1089,8 +1092,8 @@ msgid ""
 "returned. The maximum allowed value is 65535."
 msgstr ""
 "<emph>n:</emph> Numerieke expressie die het aantal tekens dat moet worden "
-"teruggegeven specificeert. Als <emph>n</emph> = 0 wordt een nul-lengte "
-"tekenreeks teruggegeven. De hoogst toegestane waarde is 65535."
+"teruggegeven specificeert. Als <emph>n</emph> = 0 wordt een tekenreeks met "
+"de lengte nul teruggegeven. De hoogst toegestane waarde is 65535."
 
 #: 03120303.xhp#par_id3150791.10.help.text
 #: 03120303.xhp%23par_id3150791.10.help.text
@@ -1324,7 +1327,7 @@ msgid ""
 "Procedures (SUBS) and functions (FUNCTIONS) help you maintaining a "
 "structured overview by separating a program into logical pieces."
 msgstr ""
-"Met behulp van procedures (SUBS) en functies (FUNCTIONS) kunt u een "
+"Met behulp van procedures (SUB's) en functies (FUNCTION's) kunt u een "
 "gestructureerd overzicht behouden door een programma in logische stukken te "
 "verdelen."
 
@@ -1377,7 +1380,7 @@ msgstr "De SUB wordt met de volgende syntaxis aangeroepen:"
 #: 01020300.xhp#par_id3159154.32.help.text
 #: 01020300.xhp%23par_id3159154.32.help.text
 msgid "SubName(Value1, Value2,...)"
-msgstr "SubNaam(Waarde1, Waarde2,...)"
+msgstr "SubNaam(Waarde1, Waarde2,…)"
 
 #: 01020300.xhp#par_id3147124.33.help.text
 #: 01020300.xhp%23par_id3147124.33.help.text
@@ -1395,7 +1398,7 @@ msgid ""
 "a function result. The result of a function is defined by assigning the "
 "return value to the function name:"
 msgstr ""
-"Hetzelfde proces geldt voor FUNCTIONS. Functies geven daarnaast altijd een "
+"Hetzelfde proces geldt voor FUNCTION's. Functies geven daarnaast altijd een "
 "functieresultaat. Het resultaat van een functie wordt gedefinieerd door de "
 "retourwaarde aan de functienaam toe te wijzen."
 
@@ -1443,8 +1446,8 @@ msgid ""
 msgstr ""
 "U kunt ook de volledige naam gebruiken om een procedure of functie op te "
 "roepen:<br/><item type=\"literal\">Bibliotheek.Module.Macro()</item><br/> Zo "
-"kunt u de volgende opdracht gebruiken om de AutoTekst-macro uit de Gimmicks-"
-"bibliotheek op te roepen:<br/><item type=\"literal\""
+"kunt u de volgende opdracht gebruiken om de AutoTekst-macro uit de "
+"bibliotheek Gimmicks op te roepen:<br/><item type=\"literal\""
 ">Gimmicks.AutoText.Main()</item>"
 
 #: 01020300.xhp#hd_id3156276.45.help.text
@@ -1593,7 +1596,7 @@ msgstr "myText = \"Hallo\""
 #: 01020300.xhp#par_id6933500.help.text
 #: 01020300.xhp%23par_id6933500.help.text
 msgid "print \"in module1 : \", myText"
-msgstr "druk af \"in module1 : \", myText"
+msgstr "print \"in module1 : \", myText"
 
 #: 01020300.xhp#par_id631733.help.text
 #: 01020300.xhp%23par_id631733.help.text
@@ -1609,7 +1612,7 @@ msgstr "REM ***** Module2 *****"
 #: 01020300.xhp#par_id6969512.help.text
 #: 01020300.xhp%23par_id6969512.help.text
 msgid "'Option Explicit"
-msgstr "'Optie Expliciet"
+msgstr "'Option Explicit"
 
 #: 01020300.xhp#par_id1196935.help.text
 #: 01020300.xhp%23par_id1196935.help.text
@@ -1634,12 +1637,12 @@ msgstr "' Geeft een lege string weer"
 #: 01020300.xhp#par_id7906125.help.text
 #: 01020300.xhp%23par_id7906125.help.text
 msgid "' (or rises error for Option Explicit)"
-msgstr "' (of verhoogt de fout voor Optie Expliciet)"
+msgstr "' (of verhoogt de fout voor Option Explicit)"
 
 #: 01020300.xhp#par_id8055970.help.text
 #: 01020300.xhp%23par_id8055970.help.text
 msgid "print \"Now in module2 : \", myText"
-msgstr "druk af \"Now in module2 : \", myText"
+msgstr "print \"Nu in module2 : \", myText"
 
 #: 01020300.xhp#par_id2806176.help.text
 #: 01020300.xhp%23par_id2806176.help.text
@@ -1722,7 +1725,7 @@ msgstr "Syntaxis:"
 #: 03070100.xhp#par_id3156023.4.help.text
 #: 03070100.xhp%23par_id3156023.4.help.text
 msgid "Result = Expression1 - Expression2"
-msgstr "Resultaat = Expressie1 - Expressie2 "
+msgstr "Resultaat = Expressie1 - Expressie2"
 
 #: 03070100.xhp#hd_id3154760.5.help.text
 #: 03070100.xhp%23hd_id3154760.5.help.text
@@ -1813,12 +1816,12 @@ msgstr "End Sub"
 #: 03030104.xhp#tit.help.text
 #: 03030104.xhp%23tit.help.text
 msgid "Month Function [Runtime]"
-msgstr "Month-functie [Runtime]"
+msgstr "functie Month [Runtime]"
 
 #: 03030104.xhp#bm_id3153127.help.text
 #: 03030104.xhp%23bm_id3153127.help.text
 msgid "<bookmark_value>Month function</bookmark_value>"
-msgstr "<bookmark_value>Month-functie</bookmark_value>"
+msgstr "<bookmark_value>functie Month</bookmark_value>"
 
 #: 03030104.xhp#hd_id3153127.1.help.text
 #: 03030104.xhp%23hd_id3153127.1.help.text
@@ -1826,8 +1829,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03030104.xhp\" name=\"Month Function "
 "[Runtime]\">Month Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03030104.xhp\" name=\"Month-functie [Runtime"
-"]\">Month-functie [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03030104.xhp\" name=\"functie Month [Runtime]"
+"\">functie Month [Runtime]</link>"
 
 #: 03030104.xhp#par_id3148550.2.help.text
 #: 03030104.xhp%23par_id3148550.2.help.text
@@ -1898,7 +1901,7 @@ msgstr "Print Month(DateSerial(1994, 12, 20))"
 #: 03030104.xhp%23par_id3145366.11.help.text
 msgctxt "03030104.xhp#par_id3145366.11.help.text"
 msgid "returns the value 12."
-msgstr "geeft de waarde 12 terug."
+msgstr "de waarde 12 terug."
 
 #: 03030104.xhp#hd_id3146923.12.help.text
 #: 03030104.xhp%23hd_id3146923.12.help.text
@@ -1963,8 +1966,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03102100.xhp\" name=\"Dim Statement [Runtime]"
 "\">Dim Statement [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03102100.xhp\" name=\"Dim-instructie [Runtime"
-"]\">Dim-instructie [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03102100.xhp\" name=\"Instructie Dim "
+"[Runtime]\">Instructie Dim[Runtime]</link>"
 
 #: 03102100.xhp#par_id3143271.2.help.text
 #: 03102100.xhp%23par_id3143271.2.help.text
@@ -2005,9 +2008,9 @@ msgid ""
 "Dim declares local variables within subroutines. Global variables are "
 "declared with the PUBLIC or the PRIVATE statement."
 msgstr ""
-"Dim wordt gebruikt om lokale variabelen binnen Subs te declareren. Globale "
-"variabelen buiten Subs worden gedeclareerd met de Public- of Private-"
-"instructie."
+"Dim wordt gebruikt om lokale variabelen binnen Sub's te declareren. Globale "
+"variabelen buiten Sub's worden gedeclareerd met de instructie Public of "
+"Private."
 
 #: 03102100.xhp#hd_id3156443.8.help.text
 #: 03102100.xhp%23hd_id3156443.8.help.text
@@ -2134,8 +2137,8 @@ msgid ""
 "<emph>String:</emph> String variable consisting of a maximum of 64,000 ASCII "
 "characters."
 msgstr ""
-"<emph>String:</emph> String-variabele bestaande uit een maximum van 64.000 "
-"ASCII tekens."
+"<emph>String:</emph> Variabele String (tekenreeks) bestaande uit een maximum "
+"van 64.000 ASCII tekens."
 
 #: 03102100.xhp#par_id3154704.25.help.text
 #: 03102100.xhp%23par_id3154704.25.help.text
@@ -2144,9 +2147,9 @@ msgid ""
 "by definition). If a key word is not specified, variables are automatically "
 "defined as Variant Type, unless a statement from DefBool to DefVar is used."
 msgstr ""
-"<emph>[Variant]:</emph> Variant-variabelentype (omvat alle typen, "
+"<emph>[Variant]:</emph> Variant-variabeletype (omvat alle typen, "
 "gespecificeerd door definitie). Als er geen sleutelwoord wordt gegeven, "
-"worden variabelen automatisch gedefinieerd als Variant-type, tenzij een "
+"worden variabelen automatisch gedefinieerd als type Variant, tenzij een "
 "instructie tussen DefBool en DefVar is gebruikt."
 
 #: 03102100.xhp#par_id3146316.26.help.text
@@ -2161,10 +2164,10 @@ msgid ""
 msgstr ""
 "In $[officename] BASIC behoeven variabelen niet expliciet te worden "
 "gedeclareerd. Alleen arrays moeten worden gedeclareerd vóór het gebruik. Een "
-"variabele kan worden gedeclareerd met de Dim-instructie, waarbij meervoudige "
+"variabele kan worden gedeclareerd met de instructie Dim, waarbij meervoudige "
 "declaraties door komma's van elkaar gescheiden worden. Teneinde een type "
-"variabele te declareren toetst u een typedeclaratie-teken in gevolgd door de "
-"naam of gebruikt u een overeenkomstig sleutelwoord."
+"variabele te declareren toetst u een teken voor typedeclaratie in, gevolgd "
+"door de naam of gebruikt u een overeenkomstig sleutelwoord."
 
 #: 03102100.xhp#par_id3149924.27.help.text
 #: 03102100.xhp%23par_id3149924.27.help.text
@@ -2200,7 +2203,8 @@ msgstr "DIM tekst(20) as String REM 21 elementen genummerd van 0 tot 20"
 #: 03102100.xhp#par_id3155604.30.help.text
 #: 03102100.xhp%23par_id3155604.30.help.text
 msgid "DIM text(5 to 25) as String REM 21 elements numbered from 5 to 25"
-msgstr "DIM tekst(5 to 25) as String REM 21 elementen genummerd van 5 tot 25"
+msgstr ""
+"DIM tekst(5 to 25) as String REM 21 elementen genummerd van 5 tot en met 25"
 
 #: 03102100.xhp#par_id3151274.31.help.text
 #: 03102100.xhp%23par_id3151274.31.help.text
@@ -2210,7 +2214,7 @@ msgstr "DIM tekst(-15 to 5) as String REM 21 elementen (waaronder 0)"
 #: 03102100.xhp#par_id3152774.32.help.text
 #: 03102100.xhp%23par_id3152774.32.help.text
 msgid "REM numbered from -15 to 5"
-msgstr "REM genummerd van -15 tot 5"
+msgstr "REM genummerd van -15 tot en met 5"
 
 #: 03102100.xhp#par_id3150829.33.help.text
 #: 03102100.xhp%23par_id3150829.33.help.text
@@ -2236,13 +2240,13 @@ msgid ""
 "You can only define dimensions with numeric expressions. This ensures that "
 "the fields are only as large as necessary."
 msgstr ""
-"Alle array-typen kunnen dynamisch worden gedeclareerd als de ReDim-"
-"instructie wordt gebruikt binnen de procedure (in Subs of Functies) om het "
-"aantal afmetingen te definiëren. Over het algemeen kunnen array-afmetingen "
-"maar één keer worden gedefinieerd en kunnen vervolgens niet worden "
-"gewijzigd. Binnen een procedure kan een array worden gedeclareerd met ReDim. "
-"Afmetingen kunnen alleen worden gedefinieerd met numerieke expressies. Dit "
-"zorgt er voor dat de velden niet groter zijn dan nodig is."
+"Alle typen matrices kunnen dynamisch worden gedeclareerd als de instructie "
+"ReDim wordt gebruikt, binnen de procedure (in Sub's of Function's), om het "
+"aantal afmetingen te definiëren. Over het algemeen kunnen afmetingen van "
+"matrices maar één keer worden gedefinieerd en kunnen vervolgens niet worden "
+"gewijzigd. Binnen een procedure kan een matrix worden gedeclareerd met "
+"ReDim. Afmetingen kunnen alleen worden gedefinieerd met numerieke "
+"expressies. Dit zorgt ervoor dat de velden niet groter zijn dan nodig is."
 
 #: 03102100.xhp#hd_id3150344.36.help.text
 #: 03102100.xhp%23hd_id3150344.36.help.text
@@ -2271,7 +2275,7 @@ msgstr "Dim iVar As Integer"
 #: 03102100.xhp%23par_id3154657.40.help.text
 msgctxt "03102100.xhp#par_id3154657.40.help.text"
 msgid "sVar = \"Office\""
-msgstr "sVar = \"OpenOffice.org\""
+msgstr "sVar = \"OpenOffice\""
 
 #: 03102100.xhp#par_id3148459.41.help.text
 #: 03102100.xhp%23par_id3148459.41.help.text
@@ -2398,12 +2402,12 @@ msgstr ""
 #: 03131000.xhp#tit.help.text
 #: 03131000.xhp%23tit.help.text
 msgid "GetSolarVersion Function [Runtime]"
-msgstr "GetSolarVersion-functie [Runtime]"
+msgstr "functie GetSolarVersion [Runtime]"
 
 #: 03131000.xhp#bm_id3157898.help.text
 #: 03131000.xhp%23bm_id3157898.help.text
 msgid "<bookmark_value>GetSolarVersion function</bookmark_value>"
-msgstr "<bookmark_value>GetSolarVersion-functie</bookmark_value>"
+msgstr "<bookmark_value>functie GetSolarVersion</bookmark_value>"
 
 #: 03131000.xhp#hd_id3157898.1.help.text
 #: 03131000.xhp%23hd_id3157898.1.help.text
@@ -2411,8 +2415,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03131000.xhp\" name=\"GetSolarVersion "
 "Function [Runtime]\">GetSolarVersion Function [Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03131000.xhp\" name=\"GetSolarVersion-"
-"functie [Runtime]\">GetSolarVersion-functie [Runtime]</link>"
+"<link href=\"text/sbasic/shared/03131000.xhp\" name=\"functie "
+"GetSolarVersion [Runtime]\">functie GetSolarVersion [Runtime]</link>"
 
 #: 03131000.xhp#par_id3152801.2.help.text
 #: 03131000.xhp%23par_id3152801.2.help.text
@@ -2428,7 +2432,7 @@ msgstr "Syntaxis:"
 #: 03131000.xhp#par_id3155388.4.help.text
 #: 03131000.xhp%23par_id3155388.4.help.text
 msgid "s = GetSolarVersion"
-msgstr "s = GetSolarVersion "
+msgstr "s = GetSolarVersion"
 
 #: 03131000.xhp#hd_id3149514.5.help.text
 #: 03131000.xhp%23hd_id3149514.5.help.text
@@ -2523,7 +2527,7 @@ msgid ""
 "the data channel that was opened with the <emph>Open</emph> statement."
 msgstr ""
 "<emph>BestandsNummer:</emph> Elke Integer die het nummer specificeert van "
-"het gegevenskanaal dat geopend is met de <emph>Open</emph>-instructie."
+"het gegevenskanaal dat geopend is met de instructie <emph>Open</emph>."
 
 #: 03020101.xhp#hd_id3153192.7.help.text
 #: 03020101.xhp%23hd_id3153192.7.help.text
@@ -2824,7 +2828,7 @@ msgstr ""
 "select=\"sys\"><caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Q, "
 "alsmede van buiten de BASIC IDE. Indien u in de BASIC IDE bent en de macro "
-"stopt bij een onderbekingspunt, dan stopt Shift+<switchinline select=\"sys\""
+"stopt bij een onderbrekingspunt, dan stopt Shift+<switchinline select=\"sys\""
 "><caseinline select=\"MAC\""
 ">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline>+Q "
 "het uitvoeren van de macro, maar u kunt dit pas herkennen na de volgende F5, "
@@ -2952,7 +2956,7 @@ msgid ""
 "declaration character or keyword is specified."
 msgstr ""
 "Stelt het standaardtype variabele in, overeenkomstig een letterbereik, als "
-"er geen typedeclaratie-teken of sleutelwoord werd gespecificeerd."
+"geen teken voor typedeclaratie of sleutelwoord werd gespecificeerd."
 
 #: 03101600.xhp#hd_id3150504.3.help.text
 #: 03101600.xhp%23hd_id3150504.3.help.text
@@ -2993,7 +2997,7 @@ msgstr ""
 #: 03101600.xhp%23par_id3148798.8.help.text
 msgctxt "03101600.xhp#par_id3148798.8.help.text"
 msgid "<emph>Keyword: </emph>Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101600.xhp#par_id3154686.9.help.text
 #: 03101600.xhp%23par_id3154686.9.help.text
@@ -3147,7 +3151,7 @@ msgstr "Print Int(3.99) REM retourneert de waarde 3.0"
 #: 03080502.xhp#par_id3145787.12.help.text
 #: 03080502.xhp%23par_id3145787.12.help.text
 msgid "Print Int(0) REM returns the value 0"
-msgstr "Print Int(0) REM retourneert de waarde 0.0"
+msgstr "Print Int(0) REM retourneert de waarde 0"
 
 #: 03080502.xhp#par_id3153143.13.help.text
 #: 03080502.xhp%23par_id3153143.13.help.text
@@ -3187,7 +3191,7 @@ msgid ""
 "declaration character or keyword is specified."
 msgstr ""
 "Stelt het standaardtype variabele in, overeenkomstig een letterbereik, als "
-"er geen typedeclaratie-teken of sleutelwoord werd gespecificeerd."
+"er geen teken voor typedeclaratie of sleutelwoord werd gespecificeerd."
 
 #: 03102000.xhp#hd_id3154143.3.help.text
 #: 03102000.xhp%23hd_id3154143.3.help.text
@@ -3228,7 +3232,7 @@ msgstr ""
 #: 03102000.xhp%23par_id3153524.8.help.text
 msgctxt "03102000.xhp#par_id3153524.8.help.text"
 msgid "<emph>Keyword: </emph>Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03102000.xhp#par_id3150767.9.help.text
 #: 03102000.xhp%23par_id3150767.9.help.text
@@ -3346,9 +3350,9 @@ msgid ""
 "input is returned as the function return value. If you close the dialog with "
 "Cancel, <emph>InputBox</emph> returns a zero-length string (\"\")."
 msgstr ""
-"De <emph>InputBox</emph>-instructie is een gemakkelijke methode voor het "
+"De instructie <emph>InputBox</emph> is een gemakkelijke methode voor het "
 "invoeren van tekst via een dialoogvenster. Bevestig de invoer door op OK te "
-"klikken of Enter te drukken. De invoer wordt teruggegeven als "
+"klikken of op Enter te drukken. De invoer wordt teruggegeven als "
 "resultaatwaarde van de functie. Als u het dialoogvenster sluit met Annuleren "
 "geeft <emph>InputBox</emph> een lege tekenreeks (\"\") terug."
 
@@ -3615,7 +3619,8 @@ msgstr ""
 "worden als services via XmultiServiceFactory gecreëerd worden. Zie het "
 "hoofdstuk <item type=\"literal\">Professional UNO</item> in de <item type=\""
 "literal\">gids voor ontwikkelaars</item> op <link href=\""
-"https://api.openoffice.org\">api.openoffice.org</link> voor meer informatie."
+"https://www.openoffice.org/api\">www.openoffice.org/api</link> voor meer "
+"informatie."
 
 #: 03060200.xhp#tit.help.text
 #: 03060200.xhp%23tit.help.text
@@ -4002,10 +4007,10 @@ msgstr ""
 "kunnen worden gebruikt om bepaalde records op te slaan en ze direct te "
 "herladen door een recordnummer te specificeren. Bestand I/O functies helpen "
 "bij het beheren van uw bestanden door u te voorzien van specifieke "
-"informatie. Deze functies geven de bestandsgrootte, actuele padinstellingen "
-"of de bestanden van een subdirectory en zijn respectievelijke subdirectories "
-"terug of kunnen zelfs bepalen wanneer het bestand of directory was gemaakt "
-"of voor het laatst werd gewijzigd."
+"informatie. Deze functies geven de bestandsgrootte, actuele instellingen "
+"voor paden of de bestanden van een submap en zijn respectievelijke submappen "
+"terug, of kunnen zelfs bepalen wanneer het bestand of map werd gemaakt of "
+"voor het laatst werd gewijzigd."
 
 #: 03020406.xhp#tit.help.text
 #: 03020406.xhp%23tit.help.text
@@ -4135,7 +4140,7 @@ msgstr "Syntaxis:"
 #: 03103000.xhp#par_id3149415.4.help.text
 #: 03103000.xhp%23par_id3149415.4.help.text
 msgid "UBound (ArrayName [, Dimension])"
-msgstr "UBound (Matrixnaam [, Dimensie]) "
+msgstr "UBound (Matrixnaam [, Dimensie])"
 
 #: 03103000.xhp#hd_id3153897.5.help.text
 #: 03103000.xhp%23hd_id3153897.5.help.text
@@ -4161,7 +4166,7 @@ msgid ""
 "<emph>ArrayName:</emph> Name of the array for which you want to determine "
 "the upper (<emph>Ubound</emph>) or the lower (<emph>LBound</emph>) boundary."
 msgstr ""
-"<emph>Matrixnaam:</emph>Naam van de matrix waarvoor de boven- "
+"<emph>Matrixnaam:</emph> Naam van de matrix waarvoor de boven- "
 "(<emph>Ubound</emph>) of ondergrens (<emph>LBound</emph>) moet worden "
 "bepaald."
 
@@ -4276,7 +4281,7 @@ msgid ""
 "calculations."
 msgstr ""
 "Gebruik de hier beschreven instructies en functies om berekeningen met datum "
-"en tijd uit te voeren. "
+"en tijd uit te voeren."
 
 #: 03030000.xhp#par_id3152363.3.help.text
 #: 03030000.xhp%23par_id3152363.3.help.text
@@ -4376,7 +4381,7 @@ msgstr ""
 #: 03101100.xhp%23par_id3150669.8.help.text
 msgctxt "03101100.xhp#par_id3150669.8.help.text"
 msgid "<emph>Keyword: </emph>Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101100.xhp#par_id3149233.9.help.text
 #: 03101100.xhp%23par_id3149233.9.help.text
@@ -4649,7 +4654,7 @@ msgid ""
 "<emph>DialogTitle</emph>: String expression displayed in the title bar of "
 "the dialog. If omitted, the name of the respective application is displayed."
 msgstr ""
-"<emph>DialogTitel</emph>: Tekenreeks die in de titelbalk van het "
+"<emph>DialoogTitel</emph>: Tekenreeks die in de titelbalk van het "
 "dialoogvenster wordt weergegeven. Als deze wordt weggelaten, wordt de naam "
 "van de respectieve toepassing weergegeven."
 
@@ -4661,7 +4666,7 @@ msgid ""
 "represents a combination of bit patterns (dialog elements defined by adding "
 "the respective values):"
 msgstr ""
-"<emph>Type</emph>: Een integerexpressie die het type dialoogvenster "
+"<emph>Type</emph>: Een Integer-expressie die het type dialoogvenster "
 "specificeert en het aantal en type van de weergegeven knoppen of "
 "pictogrammen definieert. <emph>Type</emph> staat voor een combinatie van "
 "bitpatronen (dialoogelementen die gedefinieerd worden door de respectieve "
@@ -5010,7 +5015,7 @@ msgstr ""
 #: 03060300.xhp#tit.help.text
 #: 03060300.xhp%23tit.help.text
 msgid "Imp-Operator [Runtime]"
-msgstr "Imp Operator [Runtime]"
+msgstr "Imp-operator [Runtime]"
 
 #: 03060300.xhp#bm_id3156024.help.text
 #: 03060300.xhp%23bm_id3156024.help.text
@@ -5082,7 +5087,7 @@ msgid ""
 "result if the corresponding bit is set in the first expression and the "
 "corresponding bit is deleted in the second expression."
 msgstr ""
-"Als u de Imp operator in bit-uitdrukkingen gebruikt, zal een bit worden "
+"Als u de Imp-operator in bit-uitdrukkingen gebruikt, zal een bit worden "
 "verwijderd uit het resultaat als het overeenkomstige bit is ingesteld in de "
 "eerste uitdrukking en het overeenkomstige bit is verwijderd uit de tweede "
 "uitdrukking."
@@ -5352,7 +5357,7 @@ msgstr "Sub VoorbeeldFix"
 #: 03080501.xhp#par_id3156214.11.help.text
 #: 03080501.xhp%23par_id3156214.11.help.text
 msgid "Print Fix(3.14159) REM returns 3."
-msgstr "Print Fix(3.14159) Rem Geef 3 terug"
+msgstr "Print Fix(3.14159) Rem Geeft 3 terug."
 
 #: 03080501.xhp#par_id3154217.12.help.text
 #: 03080501.xhp%23par_id3154217.12.help.text
@@ -5362,7 +5367,7 @@ msgstr "Print Fix(0) Rem Geeft 0 terug"
 #: 03080501.xhp#par_id3145786.13.help.text
 #: 03080501.xhp%23par_id3145786.13.help.text
 msgid "Print Fix(-3.14159) REM returns -3."
-msgstr "Print Fix(-3.14159) REM geeft -3."
+msgstr "Print Fix(-3.14159) REM Geeft -3 terug."
 
 #: 03080501.xhp#par_id3153188.14.help.text
 #: 03080501.xhp%23par_id3153188.14.help.text
@@ -5553,7 +5558,7 @@ msgstr ""
 msgid ""
 "This section provides the fundamentals for working with $[officename] Basic."
 msgstr ""
-"In deze sectie worden de grondbeginselen voor het werken met $[officename] "
+"In dit gedeelte worden de grondbeginselen voor het werken met $[officename] "
 "BASIC uiteengezet."
 
 #: 01010210.xhp#par_id3147560.2.help.text
@@ -5567,10 +5572,10 @@ msgid ""
 "text/sbasic/shared/01020300.xhp\" name=\"Procedures and Functions\">"
 "Procedures and Functions</link>."
 msgstr ""
-"$[officename] BASIC-code is gebaseerd op subroutines en functies die "
-"gespecificeerd worden tussen de secties <emph>sub...end sub</emph> en <emph>"
-"function...end function</emph>. Elke Sub of Function kan andere Subs en "
-"Functions aanroepen. Als u erop let dat u algemene code voor een Sub of "
+"Code voor $[officename] BASIC is gebaseerd op subroutines en functies die "
+"gespecificeerd worden tussen de gedeelten <emph>Sub...End Sub</emph> en "
+"<emph>Function...End Function</emph>. Elke Sub of Function kan andere Sub's "
+"en Function's aanroepen. Als u erop let dat u algemene code voor een Sub of "
 "Function schrijft, kunt u deze waarschijnlijk opnieuw gebruiken in andere "
 "programma's. Zie ook <link href=\"text/sbasic/shared/01020300.xhp\" name=\""
 "Procedures en functies\">Procedures en functies</link>."
@@ -5602,13 +5607,13 @@ msgid ""
 "possibly takes some arguments as parameters but does not return any values "
 "back to the calling sub or function, for example:"
 msgstr ""
-"<emph>Sub</emph> is kort voor <emph>subroutine</emph> en wordt gebruikt om "
-"een bepaalde taak binnen een programma te verwerken. Subs worden gebruikt om "
-"een taak in afzonderlijke procedures te splitsen. Het splitsen van een "
-"programma in procedures en subprocedures verbetert de leesbaarheid en "
-"reduceert de kans op fouten. Een sub kan sommige argumenten als parameters "
-"aannemen, maar retourneert geen waarden aan de aanroepende sub of functie. "
-"Bijvoorbeeld:"
+"<emph>Sub</emph> is een afkorting voor <emph>subroutine</emph> en wordt "
+"gebruikt om een bepaalde taak binnen een programma te verwerken. Subs worden "
+"gebruikt om een taak in afzonderlijke procedures te splitsen. Het splitsen "
+"van een programma in procedures en subprocedures verbetert de leesbaarheid "
+"en reduceert de kans op fouten. Een sub kan sommige argumenten als "
+"parameters aannemen, maar retourneert geen waarden aan de aanroepende sub of "
+"functie. Bijvoorbeeld:"
 
 #: 01010210.xhp#par_id3150868.15.help.text
 #: 01010210.xhp%23par_id3150868.15.help.text
@@ -5924,7 +5929,7 @@ msgstr ""
 #: 03020411.xhp#par_id3147000.2.help.text
 #: 03020411.xhp%23par_id3147000.2.help.text
 msgid "Creates a new directory on a data medium."
-msgstr "Creeërt een nieuwe directory op een gegevensmedium."
+msgstr "Maakt een nieuwe map op een gegevensmedium."
 
 #: 03020411.xhp#hd_id3148520.3.help.text
 #: 03020411.xhp%23hd_id3148520.3.help.text
@@ -5961,8 +5966,8 @@ msgid ""
 "If the path is not determined, the directory is created in the current "
 "directory."
 msgstr ""
-"Als het pad niet kan worden bepaald, zal de gespecificeerde directory in de "
-"huidige directory worden gemaakt."
+"Als het pad niet kan worden bepaald, zal de gespecificeerde map in de "
+"huidige map worden gemaakt."
 
 #: 03020411.xhp#hd_id3155388.8.help.text
 #: 03020411.xhp%23hd_id3155388.8.help.text
@@ -5978,7 +5983,7 @@ msgstr "Sub VoorbeeldFileIO"
 #: 03020411.xhp#par_id3149762.10.help.text
 #: 03020411.xhp%23par_id3149762.10.help.text
 msgid "' Example for functions of the file organization"
-msgstr "'Voorbeeld voor de functies die het bestand ordenen"
+msgstr "' Voorbeeld voor de functies die het bestand ordenen"
 
 #: 03020411.xhp#par_id3145610.11.help.text
 #: 03020411.xhp%23par_id3145610.11.help.text
@@ -6024,7 +6029,7 @@ msgstr "ChDir(sDir1)"
 #: 03020411.xhp#par_id3154217.19.help.text
 #: 03020411.xhp%23par_id3154217.19.help.text
 msgid "If Dir(sSubDir1,16)=\"\" then ' Does the directory exist ?"
-msgstr "If Dir(sSubDir1,16)=\"\" Then Rem Bestaat de directory?"
+msgstr "If Dir(sSubDir1,16)=\"\" Then Rem Bestaat de map?"
 
 #: 03020411.xhp#par_id3156423.20.help.text
 #: 03020411.xhp%23par_id3156423.20.help.text
@@ -6034,7 +6039,7 @@ msgstr "MkDir sSubDir1"
 #: 03020411.xhp#par_id3147228.21.help.text
 #: 03020411.xhp%23par_id3147228.21.help.text
 msgid "MsgBox sFile,0,\"Create directory\""
-msgstr "MsgBox sFile,0,\"Maak de directory\""
+msgstr "MsgBox sFile,0,\"Maak de map\""
 
 #: 03020411.xhp#par_id3153970.22.help.text
 #: 03020411.xhp%23par_id3153970.22.help.text
@@ -6055,7 +6060,7 @@ msgstr "FileCopy sFile1 , sFile"
 #: 03020411.xhp#par_id3153770.26.help.text
 #: 03020411.xhp%23par_id3153770.26.help.text
 msgid "MsgBox fSysURL(CurDir()),0,\"Current directory\""
-msgstr "MsgBox fSysURL(CurDir()),0,\"Huidige directory\""
+msgstr "MsgBox fSysURL(CurDir()),0,\"Huidige map\""
 
 #: 03020411.xhp#par_id3159154.27.help.text
 #: 03020411.xhp%23par_id3159154.27.help.text
@@ -6081,7 +6086,7 @@ msgstr "Name sFile As sDir1 + \"/\" + sSubDir1 + \"/\" + sFile3"
 #: 03020411.xhp#par_id3153952.31.help.text
 #: 03020411.xhp%23par_id3153952.31.help.text
 msgid "' Rename in the same directory"
-msgstr "' Hernoemen in dezelfde directory"
+msgstr "' Hernoemen in dezelfde map"
 
 #: 03020411.xhp#par_id3152576.33.help.text
 #: 03020411.xhp%23par_id3152576.33.help.text
@@ -6356,7 +6361,7 @@ msgid ""
 "first expression in the list, if index i= 2, it returns the second "
 "expression, and so on."
 msgstr ""
-"De <emph>Choose</emph>-functie geeft een waarde terug uit de lijst van "
+"De functie <emph>Choose</emph> geeft een waarde terug uit de lijst van "
 "expressies gebaseerd op de indexwaarde. Bij Index = 1 geeft de functie de "
 "eerste expressie in de lijst terug; bij Index = 2 geeft het de tweede "
 "expressie terug, enzovoort."
@@ -6376,7 +6381,7 @@ msgid ""
 "The following example uses the <emph>Choose</emph> function to select a "
 "string from several strings that form a menu:"
 msgstr ""
-"Het volgende voorbeeld gebruikt de <emph>Choose</emph>-functie om een van de "
+"Het volgende voorbeeld gebruikt de functie <emph>Choose</emph> om een van de "
 "tekenreeksen te selecteren die een menu vormen:"
 
 #: 03090402.xhp#hd_id3150439.11.help.text
@@ -6476,7 +6481,7 @@ msgstr ""
 #: 01020100.xhp#hd_id3153361.4.help.text
 #: 01020100.xhp%23hd_id3153361.4.help.text
 msgid "Naming Conventions for Variable Identifiers"
-msgstr "Naamgevingsconventies voor variabelen-ID's"
+msgstr "Naamgevingsconventies voor ID's van variabelen"
 
 #: 01020100.xhp#par_id3148797.5.help.text
 #: 01020100.xhp%23par_id3148797.5.help.text
@@ -6538,7 +6543,7 @@ msgstr "Correct"
 #: 01020100.xhp#par_id3154729.10.help.text
 #: 01020100.xhp%23par_id3154729.10.help.text
 msgid "My Number=20"
-msgstr "Mjin Getal=20"
+msgstr "Mijn Getal=20"
 
 #: 01020100.xhp#par_id3153876.11.help.text
 #: 01020100.xhp%23par_id3153876.11.help.text
@@ -6722,7 +6727,7 @@ msgid ""
 "<emph>Single</emph>."
 msgstr ""
 "De instructie <emph>Option Explicit</emph> moet de eerste regel in de module "
-"zijn, vóór de eerste SUB. Meestal moeten alleen matrices expliciet "
+"zijn, vóór de eerste SUB. Meestal moeten alleen arrays expliciet "
 "gedeclareerd worden. Alle andere variabelen worden volgens het type-"
 "aanduidingsteken gedeclareerd of, indien weggelaten, als het standaardtype "
 "<emph>Single</emph>."
@@ -6782,7 +6787,7 @@ msgid ""
 "suitable for counter variables in loops. An integer variable only requires "
 "two bytes of memory. \"%\" is the type-declaration character."
 msgstr ""
-"Integer-variabelen gaan van -32768 tot 32767. Als u een drijvende-"
+"Integer-variabelen gaan van -32768 tot en met 32767. Als u een drijvende-"
 "kommawaarde aan een integere variabele toewijst, worden de decimalen naar "
 "het volgende gehele getal afgerond. Integer-variabelen worden snel in "
 "procedures berekend en zijn geschikt voor tellervariabelen in lussen. Een "
@@ -6814,10 +6819,10 @@ msgid ""
 "values. A long integer variable requires four bytes of memory. \"&\" is the "
 "type-declaration character."
 msgstr ""
-"Long Integer-variabelen hebben een waarde van -2147483648 tot 2147483647. "
-"Als u een drijvende-kommawaarde aan een Long Integer-variabele toewijst, "
-"worden de decimalen naar het volgende gehele getal afgerond. Long Integer-"
-"variabelen worden snel in procedures berekend en zijn geschikt voor "
+"Long Integer-variabelen hebben een waarde van -2147483648 tot en met "
+"2147483647. Als u een drijvende-kommawaarde aan een Long Integer-variabele "
+"toewijst, worden de decimalen naar het volgende gehele getal afgerond. Long "
+"Integer-variabelen worden snel in procedures berekend en zijn geschikt voor "
 "tellervariabelen in lussen voor grote waarden. Een Long Integer-variabele "
 "vereist 4 byte geheugen. Het type-aanduidingsteken is \"&\"."
 
@@ -6880,13 +6885,13 @@ msgid ""
 "Single variable requires 4 bytes of memory. The type-declaration character "
 "is \"!\"."
 msgstr ""
-"Single-variabelen kunnen positieve of negatieve waarden hebben van 3,402823 "
-"x 10E38 tot 1,401298 x 10E-45. Single-variabelen zijn variabelen met een "
-"drijvende komma, waarin de decimale precisie afneemt naarmate het niet-"
-"decimale gedeelte van het getal groter wordt. Single-variabelen zijn "
+"Variabelen Single kunnen positieve of negatieve waarden hebben van 3,402823 "
+"x 10E38 tot en met 1,401298 x 10E-45. Variabelen Single zijn variabelen met "
+"een drijvende komma, waarin de decimale precisie afneemt naarmate het niet-"
+"decimale gedeelte van het getal groter wordt. Variabelen Single zijn "
 "geschikt voor wiskundige berekeningen met gemiddelde nauwkeurigheid. "
-"Berekeningen vereisen meer tijd dan voor Integer-variabelen, maar zijn "
-"sneller dan berekeningen met Double-variabelen. Een Single-variabele vereist "
+"Berekeningen vereisen meer tijd dan voor variabelen Integer, maar zijn "
+"sneller dan berekeningen met variabelen Double. Een variabele Single vereist "
 "4 byte geheugen. Het type-aanduidingsteken is \"!\"."
 
 #: 01020100.xhp#par_id3149875.52.help.text
@@ -6915,12 +6920,12 @@ msgid ""
 "variables. A Double variable requires 8 bytes of memory. The type-"
 "declaration character is \"#\"."
 msgstr ""
-"Double-variabelen kunnen positieve of negatieve waarden hebben van "
-"1,79769313486232 x 10E308 tot 4,94065645841247 x 10E-324. Double-variabelen "
-"zijn variabelen met een drijvende komma, waarin de decimale precisie afneemt "
-"naarmate het niet-decimale gedeelte van het getal groter wordt. Double-"
-"variabelen zijn geschikt voor nauwkeurige berekeningen. Berekeningen "
-"vereisen meer tijd dan bij Single-variabelen. Een Double-variabele vereist 8 "
+"Variabelen Double kunnen positieve of negatieve waarden hebben van "
+"1,79769313486232 x 10E308 tot en met 4,94065645841247 x 10E-324. Variabelen "
+"Double zijn variabelen met een drijvende komma, waarin de decimale precisie "
+"afneemt naarmate het niet-decimale gedeelte van het getal groter wordt. "
+"Variabelen Double zijn geschikt voor nauwkeurige berekeningen. Berekeningen "
+"vereisen meer tijd dan bij variabelenSingle. Een variabele Double vereist 8 "
 "byte geheugen. Het type-aanduidingsteken is \"#\"."
 
 #: 01020100.xhp#par_id3150431.56.help.text
@@ -6950,8 +6955,8 @@ msgstr ""
 "Valutavariabelen worden intern opgeslagen als 64bits-getallen (8 byte) en "
 "weergegeven als een getal met een vast aantal plaatsen achter de komma (15 "
 "niet-decimale en 4 decimale plaatsen). De waarden gaan van -"
-"922337203685477,5808 tot +922337203685477,5807. Valutavariabelen worden "
-"gebruikt om valutawaarden uiterst nauwkeurig te berekenen. Het type-"
+"922337203685477,5808 tot en met +922337203685477,5807. Valutavariabelen "
+"worden gebruikt om valutawaarden uiterst nauwkeurig te berekenen. Het type-"
 "aanduidingsteken is \"@\"."
 
 #: 01020100.xhp#par_id3147296.97.help.text
@@ -7045,7 +7050,7 @@ msgid ""
 "calculating the difference between two numbers. These variables can only be "
 "declared with the key word <emph>Date</emph>."
 msgstr ""
-"Datumvariabelen kunnen enkel datums en tijdwaarden bevatten die in een "
+"Datumvariabelen kunnen alleen datums en tijdwaarden bevatten die in een "
 "interne notatie opgeslagen zijn. Waarden die met <link href=\""
 "text/sbasic/shared/03030101.xhp\" name=\"Dateserial\""
 "><emph>Dateserial</emph></link>, <link href=\"text/sbasic/shared/03030102."
@@ -7083,7 +7088,7 @@ msgid ""
 "As soon as the variable has been declared, it is automatically set to the \""
 "Null\" value. Note the following conventions:"
 msgstr ""
-"Zo gauw de variabele gedeclareerd is, wordt deze automatisch op de waarde \""
+"Zodra de variabele gedeclareerd is, wordt deze automatisch op de waarde \""
 "Null\" ingesteld. Neem de volgende conventies in acht:"
 
 #: 01020100.xhp#par_id3143222.70.help.text
@@ -7132,7 +7137,7 @@ msgstr ""
 #: 01020100.xhp#hd_id3153936.83.help.text
 #: 01020100.xhp%23hd_id3153936.83.help.text
 msgid "Arrays"
-msgstr "Matrices"
+msgstr "Arrays"
 
 #: 01020100.xhp#par_id3148736.84.help.text
 #: 01020100.xhp%23par_id3148736.84.help.text
@@ -7153,9 +7158,9 @@ msgid ""
 "Arrays <emph>must</emph> be declared with the <emph>Dim</emph> statement. "
 "There are several ways to define the index range of an array:"
 msgstr ""
-"Matrices <emph>moeten</emph> gedeclareerd worden met de <emph>Dim</emph>-"
-"instructie. Het indexbereik van een matrix kan op verschillende manieren "
-"gedefinieerd worden."
+"Arrays <emph>moeten</emph> gedeclareerd worden met de instructie "
+"<emph>Dim</emph>. Het indexbereik van een array kan op verschillende "
+"manieren gedefinieerd worden."
 
 #: 01020100.xhp#par_id3150143.86.help.text
 #: 01020100.xhp%23par_id3150143.86.help.text
@@ -7398,9 +7403,9 @@ msgid ""
 "statement. If <emph>Do...Loop</emph> statements are nested, the control is "
 "transferred to the loop in the next higher level."
 msgstr ""
-"Alleen geldig binnen een <emph>Do...Loop</emph>-instructie om de lus te "
-"beëindigen. Het programma vervolgt met de expressie die volgt op de Loop-"
-"instructie. Als <emph>Do...Loop</emph>-instructies zijn genest, wordt de "
+"Alleen geldig binnen een instructie <emph>Do…Loop</emph> om de lus te "
+"beëindigen. Het programma vervolgt met de expressie die volgt op de "
+"instructie Loop. Als instructies <emph>Do…Loop</emph> zijn genest, wordt de "
 "controle overgedragen aan de lus in het volgende hogere niveau."
 
 #: 03090412.xhp#par_id3150398.8.help.text
@@ -7416,9 +7421,9 @@ msgid ""
 "<emph>Next</emph> statement. In nested statements, the control is "
 "transferred to the loop in the next higher level."
 msgstr ""
-"Alleen geldig binnen een <emph>For...Next</emph>-lus om de lus te "
-"beëindigen.De programma-uitvoering vervolgt met de eerste instructie volgend "
-"op de <emph>Next</emph>-instructie. In geneste insturcties wordt de controle "
+"Alleen geldig binnen een lus <emph>For…Next</emph> om de lus te beëindigen. "
+"De programma-uitvoering vervolgt met de eerste instructie volgend op de "
+"instructie <emph>Next</emph>. In geneste instructies wordt de controle "
 "overgedragen aan de lus in het volgende hogere niveau."
 
 #: 03090412.xhp#par_id3147229.10.help.text
@@ -8158,10 +8163,10 @@ msgid ""
 "determine the current file length of an open file, use the Lof function."
 msgstr ""
 "Deze functie gebruikt u om de grootte van een bestand te bepalen. Als de "
-"FileLen-functie wordt aangeroepen voor een geopend bestand, geeft het de "
+"functie FileLen wordt aangeroepen voor een geopend bestand, geeft het de "
 "bestandsgrootte vóórdat het was geopend. Teneinde de actuele bestandsgrootte "
-"van een geopend bestand te bepalen, moet u de Lof-functie in plaats van "
-"'FileLen' gebruiken."
+"van een geopend bestand te bepalen, moet u de functie Lof, in plaats van "
+"'FileLen', gebruiken."
 
 #: 03020408.xhp#hd_id3163710.10.help.text
 #: 03020408.xhp%23hd_id3163710.10.help.text
@@ -8318,7 +8323,7 @@ msgstr ""
 #: 01040000.xhp%23par_id3146120.2.help.text
 msgid "This section describes how to assign Basic programs to program events."
 msgstr ""
-"In deze sectie wordt beschreven hoe u BASIC-programma's aan "
+"In dit gedeelte wordt beschreven hoe u BASIC-programma's aan "
 "programmagebeurtenissen toewijst."
 
 #: 01040000.xhp#par_id3149263.4.help.text
@@ -8328,9 +8333,9 @@ msgid ""
 "by assigning the desired macro to the event. The following table provides an "
 "overview of program events and at what point an assigned macro is executed."
 msgstr ""
-"U kunt een macro automatisch laten uitvoeren wanneer er zich een "
-"gespecificeerde softwaregebeurtenis voordoet, door de gewenste macro aan de "
-"gebeurtenis toe te voegen. De volgende tabel biedt een overzicht van "
+"U kunt een macro automatisch laten uitvoeren als een gespecificeerde "
+"softwaregebeurtenis zich voordoet, door de gewenste macro aan de gebeurtenis "
+"toe te voegen. De volgende tabel biedt een overzicht van "
 "programmagebeurtenissen en toont op welk punt een toegewezen macro wordt "
 "uitgevoerd."
 
@@ -8724,7 +8729,7 @@ msgstr ""
 #: 03101700.xhp%23par_id3148798.8.help.text
 msgctxt "03101700.xhp#par_id3148798.8.help.text"
 msgid "<emph>Keyword: </emph>Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101700.xhp#par_id3150769.9.help.text
 #: 03101700.xhp%23par_id3150769.9.help.text
@@ -9020,7 +9025,7 @@ msgid ""
 "breakpoint by checking or clearing the <emph>Active</emph> box."
 msgstr ""
 "In de keuzelijst staan alle <emph>onderbrekingspunten</emph> met het "
-"overeenkomstige regelnummer in het programma. Met behulp van het keuzevakje "
+"overeenkomstige regelnummer in het programma. Met behulp van het keuzevak "
 "<emph>Actief</emph> kunt u aangeven of het onderbrekingspunt actief moet "
 "blijven of niet."
 
@@ -9047,7 +9052,7 @@ msgstr ""
 #: 01030300.xhp#hd_id3150439.14.help.text
 #: 01030300.xhp%23hd_id3150439.14.help.text
 msgid "Observing the Value of Variables"
-msgstr "Het Gedrag van Variabelen Bekijken"
+msgstr "Het gedrag van variabelen bekijken"
 
 #: 01030300.xhp#par_id3153368.15.help.text
 #: 01030300.xhp%23par_id3153368.15.help.text
@@ -9059,8 +9064,8 @@ msgid ""
 msgstr ""
 "U kunt de waarden van een variabele controleren door deze aan het venster "
 "<emph>Controle</emph> toe te voegen. Als u een variabele aan de lijst van "
-"gecontroleerde variabelen wilt toevoege, typt u de variabelenaame in het "
-"tekstvak <emph>Controle</emph> en drukt u op Enter."
+"gecontroleerde variabelen wilt toevoegen, typt u de naam van de variabele in "
+"het tekstvak <emph>Controle</emph> en drukt u op Enter."
 
 #: 01030300.xhp#par_id3146986.16.help.text
 #: 01030300.xhp%23par_id3146986.16.help.text
@@ -9081,9 +9086,9 @@ msgid ""
 "array variable without an index value in the Watch text box, the content of "
 "the entire array is displayed."
 msgstr ""
-"U kunt ook matrices opnemen in het Controle-venster. Als u de naam van een "
-"matrixvariabele zonder een indexwaarde in het Controle tekstvak intypt wordt "
-"de inhoud van de gehele matrix getoond."
+"U kunt ook arrays opnemen in het venster Controle. Als u de naam van een "
+"array-variabele, zonder een indexwaarde, in het tekstvak Controle intypt, "
+"wordt de inhoud van de gehele array getoond."
 
 #: 01030300.xhp#par_id3145749.19.help.text
 #: 01030300.xhp%23par_id3145749.19.help.text
@@ -9091,8 +9096,9 @@ msgid ""
 "If you rest the mouse over a predefined variable in the Editor at run-time, "
 "the content of the variable is displayed in a pop-up box."
 msgstr ""
-"Als u de muis in run-time op een vooraf gedefinieerde variabele in de editor "
-"laat staan, wordt de inhoud van de variabele in een popup-vak weergegeven."
+"Als u de muis in runtime op een vooraf gedefinieerde variabele in de "
+"bewerker laat staan, wordt de inhoud van de variabele in een pop-upvak "
+"weergegeven."
 
 #: 01030300.xhp#hd_id3148618.20.help.text
 #: 01030300.xhp%23hd_id3148618.20.help.text
@@ -9142,11 +9148,12 @@ msgid ""
 "https://api.openoffice.org\">https://api.openoffice.org</link>"
 msgstr ""
 "%PRODUCTNAME %PRODUCTVERSION biedt een API (Application Programming "
-"Interface) waardoor de $[officename]-componenten met verschillende "
+"Interface), waardoor de componenten van $[officename] met verschillende "
 "programmeertalen beheerd kunnen worden met behulp van de $[officename]-SDK ("
-"Software Development Kit). Ga naar <link href=\"https://api.openoffice.org/\""
-" name=\"https://api.openoffice.org\">https://api.openoffice.org</link> voor "
-"meer informatie over de $[officename]-API en de Software Development Kit."
+"Software Development Kit). Ga naar <link href=\""
+"https://www.openoffice.org/api/\" name=\"https://www.openoffice.org/api/\""
+">https://www.openoffice.org/api/</link> voor meer informatie over de "
+"$[officename]-API en de Software Development Kit."
 
 #: main0601.xhp#par_id3147226.10.help.text
 #: main0601.xhp%23par_id3147226.10.help.text
@@ -9158,8 +9165,8 @@ msgid ""
 msgstr ""
 "Deze sectie van de Help behandelt de meest algemene runtime-functies van %"
 "PRODUCTNAME BASIC. Voor meer diepte-informatie raadpleegt u de <link href=\""
-"https://wiki.openoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice.org "
-"BASIC Programming Guide</link> op de OpenOffice.org Wiki."
+"https://wiki.openoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice "
+"BASIC Programming Guide</link> op de wiki van OpenOffice."
 
 #: main0601.xhp#hd_id3146957.9.help.text
 #: main0601.xhp%23hd_id3146957.9.help.text
@@ -9444,8 +9451,9 @@ msgid ""
 "<emph>FileNumber:</emph> Any numeric expression that contains the file "
 "number that is set by the Open statement for the respective file."
 msgstr ""
-"<emph>BestandsNummer</emph>: Elke numerieke expressie die het bestandsnummer "
-"dat ingesteld is door de Open-instructie voor het betreffende bestand, bevat."
+"<emph>BestandsNummer:</emph> Elke numerieke expressie die het "
+"bestandsnummer, dat ingesteld is door de instructie Open voor het "
+"betreffende bestand, bevat."
 
 #: 03020302.xhp#par_id3154320.9.help.text
 #: 03020302.xhp%23par_id3154320.9.help.text
@@ -9760,12 +9768,12 @@ msgid ""
 "MAC\">Command</caseinline><defaultinline>Ctrl</defaultinline></switchinline> "
 "and the arrow keys)."
 msgstr ""
-"De BASIC-editor biedt de standaard functies voor bewerking die u kent van "
-"het werken in een tekstdocument. De editor ondersteunt de functies van het "
-"menu <emph>Bewerken</emph> (Knippen, Verwijderen, Plakken), de mogelijkheid "
-"tekst met de Shift-toets te selecteren, en functies voor cursorpositionering "
-"(bijvoorbeeld van woord naar woord springen met <switchinline select=\"sys\""
-"><caseinline select=\"MAC\">Option "
+"De bewerker voor BASIC biedt de standaard functies voor bewerking die u kent "
+"van het werken in een tekstdocument. De bewerker ondersteunt de functies van "
+"het menu <emph>Bewerken</emph> (Knippen, Verwijderen, Plakken), de "
+"mogelijkheid tekst met de Shift-toets te selecteren, en functies voor "
+"plaatsen van de cursor (bijvoorbeeld van woord naar woord springen met <"
+"switchinline select=\"sys\"><caseinline select=\"MAC\">Option "
 "</caseinline><defaultinline>Ctrl</defaultinline></switchinline> en de "
 "pijltoetsen)."
 
@@ -9793,9 +9801,9 @@ msgid ""
 "executes the first Sub or Function and then program execution stops. The \""
 "Sub Main\" does not take precedence on program execution."
 msgstr ""
-"Wanneer u op het pictogram<emph>BASIC uitvoeren</emph> drukt op de werkbalk "
-"<emph>Macro</emph>, start het programma bij de eerste regel van de BASIC-"
-"editor. Het programma begint bij de eerste Subroutine of Functie en dan "
+"Wanneer u op het pictogram <emph>BASIC uitvoeren</emph> drukt op de werkbalk "
+"<emph>Macro</emph>, start het programma bij de eerste regel van de bewerker "
+"voor BASIC. Het programma begint bij de eerste Subroutine of Functie en dan "
 "stopt het programma. Het \"Sub Main\" krijgt geen voorrang op de uitvoering "
 "van het programma."
 
@@ -9827,9 +9835,9 @@ msgid ""
 "toolbar to load the library in the editor. The first module of the selected "
 "library will be displayed."
 msgstr ""
-"Selecteer een bibliotheek in de lijst <emph>Bibliotheek</emph> links op de "
-"Macrobalk om de bibliotheek in de editor te laden. De eerste module van de "
-"geselecteerde bibliotheek wordt weergegeven."
+"Selecteer een bibliotheek in de lijst <emph>Bibliotheek</emph>, links op de "
+"Macrobalk, om de bibliotheek in de bewerker te laden. De eerste module van "
+"de geselecteerde bibliotheek wordt weergegeven."
 
 #: 01030200.xhp#hd_id3153190.8.help.text
 #: 01030200.xhp%23hd_id3153190.8.help.text
@@ -9871,7 +9879,8 @@ msgstr ""
 #: 01030200.xhp%23par_id3150752.19.help.text
 msgid "Click the <emph>Save Source As</emph> icon in the Macro toolbar."
 msgstr ""
-"Klik op het pictogram <emph>Brontekst opslaan als</emph> op de Macrowerkbalk."
+"Klik op het pictogram <emph>Brontekst opslaan als</emph> op de werkbalk "
+"Macro."
 
 #: 01030200.xhp#par_id3154754.20.help.text
 #: 01030200.xhp%23par_id3154754.20.help.text
@@ -9996,9 +10005,9 @@ msgid ""
 "the expression:"
 msgstr ""
 "Deze functie is de tegenovergestelde functie van <emph>TimeSerial</emph>. "
-"Het geeft de seconde terug uit een gespecificeerde seriële tijdwaarde die "
-"gegenereerd is door <emph>TimeSerial-</emph> of <emph>TimeValue-</emph>. "
-"Daarom geeft de expressie:"
+"Het geeft de seconde terug uit een gespecificeerde seriële tijdswaarde die "
+"gegenereerd is door de functies <emph>TimeSerial</emph> of "
+"<emph>TimeValue</emph>. Daarom geeft de expressie:"
 
 #: 03030204.xhp#par_id3153951.10.help.text
 #: 03030204.xhp%23par_id3153951.10.help.text
@@ -10008,7 +10017,7 @@ msgstr "Print Second(TimeSerial(12,30,41))"
 #: 03030204.xhp#par_id3151117.11.help.text
 #: 03030204.xhp%23par_id3151117.11.help.text
 msgid "returns the value 41."
-msgstr "geeft de waarde 41 terug."
+msgstr "de waarde 41 terug."
 
 #: 03030204.xhp#hd_id3147426.12.help.text
 #: 03030204.xhp%23hd_id3147426.12.help.text
@@ -10353,7 +10362,7 @@ msgid ""
 "restored."
 msgstr ""
 "<emph>Local:</emph> \"On error\" is globaal in bereik en blijft actief "
-"totdat het wordt geannuleerd door een andere \"On error\"-instructie. \"On "
+"totdat het wordt geannuleerd door een andere instructie \"On error\". \"On "
 "Local error\" is lokaal voor de routine die het activeert. Afhandeling van "
 "Local error gaat vóór enige eerdere globale instelling. Als de activerende "
 "routine eindigt, wordt de lokale foutafhandeling automatisch geannuleerd en "
@@ -10617,10 +10626,10 @@ msgid ""
 msgstr ""
 "Als de tekenreeks korter is dan de tekenreeksvariabele, lijnt "
 "<emph>LSet</emph> de tekenreeks links uit binnen de tekenreeksvariabele. Elk "
-"overblijvende teken in de tekenreeksvariabele wordt vervangen door een "
+"overblijvend teken in de tekenreeksvariabele wordt vervangen door een "
 "spatie. Als de tekenreeks langer is dan de tekenreeksvariabele, worden "
 "alleen de meest linkse tekens tot de lengte van de tekenreeksvariabele "
-"gekopieerd. Met de <emph>LSet</emph>instructie kunt u ook een door de "
+"gekopieerd. Met de instructie <emph>LSet</emph> kunt u ook een door de "
 "gebruiker gedefinieerd type variabele naar een andere variabele van "
 "hetzelfde soort kopiëren."
 
@@ -10788,7 +10797,7 @@ msgstr ""
 #: 03020412.xhp#par_id3154346.2.help.text
 #: 03020412.xhp%23par_id3154346.2.help.text
 msgid "Renames an existing file or directory."
-msgstr "Hernoemt een bestaand bestand of bestaande directory."
+msgstr "Hernoemt een bestaand bestand of bestaande map."
 
 #: 03020412.xhp#hd_id3156344.3.help.text
 #: 03020412.xhp%23hd_id3156344.3.help.text
@@ -10917,7 +10926,7 @@ msgstr "Syntaxis:"
 #: 03080401.xhp#par_id3149415.4.help.text
 #: 03080401.xhp%23par_id3149415.4.help.text
 msgid "Sqr (Number)"
-msgstr "Sqr (Getal) "
+msgstr "Sqr (Getal)"
 
 #: 03080401.xhp#hd_id3156023.5.help.text
 #: 03080401.xhp%23hd_id3156023.5.help.text
@@ -11072,7 +11081,7 @@ msgid ""
 msgstr ""
 "<emph>Teller:</emph> Lusteller waarvan de waarde bij het begin rechts van "
 "het \"is gelijk\"-teken (Start) is toegekend. Alleen numerieke variabelen "
-"zijn geldig. De lusteller wordt hoger of lager volgens de variabele Stap "
+"zijn geldig. De lusteller wordt hoger of lager volgens de variabele Stap, "
 "totdat End wordt gepasseerd."
 
 #: 03090202.xhp#par_id3152455.11.help.text
@@ -11090,7 +11099,7 @@ msgid ""
 "<emph>End:</emph> Numeric variable that defines the final value at the end "
 "of the loop."
 msgstr ""
-"<emph>Einde:</emph>: Numerieke variabele die de uiteindelijke waarde waarop "
+"<emph>Einde:</emph> Numerieke variabele die de uiteindelijke waarde, waarop "
 "de lus moet worden beëindigd, definieert."
 
 #: 03090202.xhp#par_id3156281.13.help.text
@@ -11112,9 +11121,9 @@ msgid ""
 "The <emph>For...Next</emph> loop repeats all of the statements in the loop "
 "for the number of times that is specified by the parameters."
 msgstr ""
-"De <emph>For...Next</emph> lus wordt gebruikt voor het herhalen van alle "
-"instructies tussen deze twee sleutelwoorden zo vaak als wordt gespecificeerd "
-"door de parameters."
+"De lus <emph>For...Next</emph> wordt gebruikt voor het herhalen van alle "
+"instructies tussen deze twee sleutelwoorden, zo vaak als wordt "
+"gespecificeerd door de parameters."
 
 #: 03090202.xhp#par_id3147287.15.help.text
 #: 03090202.xhp%23par_id3147287.15.help.text
@@ -11135,10 +11144,10 @@ msgid ""
 "<emph>Next</emph> automatically refers to the most recent <emph>For</emph> "
 "statement."
 msgstr ""
-"Het is mogelijk <emph>For...Next</emph>-instructies te nesten. Als u geen "
-"variabele specificeert volgend op de <emph>Next</emph>-instructie, verwijst "
-"<emph>Next</emph> altijd automatisch naar de meest recente "
-"<emph>For</emph>-instructie."
+"Het is mogelijk instructies <emph>For...Next</emph> te nesten. Als u geen "
+"variabele specificeert, volgend op de instructie <emph>Next</emph>, verwijst "
+"<emph>Next</emph> altijd automatisch naar de meest recente instructie "
+"<emph>For</emph>."
 
 #: 03090202.xhp#par_id3155306.17.help.text
 #: 03090202.xhp%23par_id3155306.17.help.text
@@ -11207,7 +11216,7 @@ msgid ""
 "Note: In nested <emph>For...Next</emph> loops, if you exit a loop "
 "unconditionally with <emph>Exit For</emph>, only one loop is exited."
 msgstr ""
-"Let op: In geneste <emph>For...Next</emph>-lussen wordt, als u een loop "
+"Let op: In geneste lussen <emph>For...Next</emph> wordt, als u een loop "
 "onvoorwaardelijk beëindigt met <emph>Exit For</emph>, alleen één lus "
 "beëindigd."
 
@@ -11438,7 +11447,7 @@ msgstr ""
 #: 03090404.xhp#par_id3145171.9.help.text
 #: 03090404.xhp%23par_id3145171.9.help.text
 msgid "End Function: Ends a <emph>Function</emph> statement."
-msgstr "End Function: Beëindigt een <emph>Function</emph>-instructie."
+msgstr "End Function: Beëindigt een instructie <emph>Function</emph>."
 
 #: 03090404.xhp#par_id3153192.10.help.text
 #: 03090404.xhp%23par_id3153192.10.help.text
@@ -11453,7 +11462,7 @@ msgstr "End Select: Markeert het einde van een <emph>Select Case</emph> blok."
 #: 03090404.xhp#par_id3155131.12.help.text
 #: 03090404.xhp%23par_id3155131.12.help.text
 msgid "End Sub: Ends a <emph>Sub</emph> statement."
-msgstr "End Sub: Beëindigt een <emph>Sub</emph>-instructie."
+msgstr "End Sub: Beëindigt een instructie <emph>Sub</emph>."
 
 #: 03090404.xhp#hd_id3146120.13.help.text
 #: 03090404.xhp%23hd_id3146120.13.help.text
@@ -11495,7 +11504,7 @@ msgstr "Case 1 To 5"
 #: 03090404.xhp%23par_id3152887.19.help.text
 msgctxt "03090404.xhp#par_id3152887.19.help.text"
 msgid "Print \"Number from 1 to 5\""
-msgstr "Print \"Getal van 1 tot 5\""
+msgstr "Print \"Getal van 1 tot en met 5\""
 
 #: 03090404.xhp#par_id3163713.20.help.text
 #: 03090404.xhp%23par_id3163713.20.help.text
@@ -11507,7 +11516,7 @@ msgstr "Case 6, 7, 8"
 #: 03090404.xhp%23par_id3148618.21.help.text
 msgctxt "03090404.xhp#par_id3148618.21.help.text"
 msgid "Print \"Number from 6 to 8\""
-msgstr "Print \"Getal van 6 tot 8\""
+msgstr "Print \"Getal van 6 tot en met 8\""
 
 #: 03090404.xhp#par_id3153144.22.help.text
 #: 03090404.xhp%23par_id3153144.22.help.text
@@ -11531,7 +11540,7 @@ msgstr "Case Else"
 #: 03090404.xhp%23par_id3150418.25.help.text
 msgctxt "03090404.xhp#par_id3150418.25.help.text"
 msgid "Print \"Outside range 1 to 10\""
-msgstr "Print \"Buiten bereik van 1 tot 10\""
+msgstr "Print \"Buiten bereik van 1 tot en met 10\""
 
 #: 03090404.xhp#par_id3156285.26.help.text
 #: 03090404.xhp%23par_id3156285.26.help.text
@@ -11619,8 +11628,8 @@ msgid ""
 "<emph>Str</emph> function."
 msgstr ""
 "<emph>Opmaak:</emph> Tekenreeks die de opmaakcode voor het getal "
-"specificeert. Als <emph>Opmaak</emph> wordt weggelaten werkt de Format-"
-"functie als de <emph>Str</emph>-functie."
+"specificeert. Als <emph>Opmaak</emph> wordt weggelaten werkt de functie "
+"Format als de functie <emph>Str</emph>."
 
 #: 03120301.xhp#hd_id3147561.47.help.text
 #: 03120301.xhp%23hd_id3147561.47.help.text
@@ -11888,7 +11897,7 @@ msgid ""
 "<emph>Percent:</emph> Multiplies the number by 100 and appends a percent "
 "sign to the number."
 msgstr ""
-"<emph>Percent:</emph> Het getal wordt vermenigvuldigd met 100 en een "
+"<emph>Procent:</emph> Het getal wordt vermenigvuldigd met 100 en een "
 "procentteken wordt achter het getal geplaatst."
 
 #: 03120301.xhp#par_id3153836.38.help.text
@@ -11898,7 +11907,7 @@ msgid ""
 "1.00E+03 for 1000)."
 msgstr ""
 "<emph>Wetenschappelijk:</emph> Toont getallen in wetenschappelijke opmaak ("
-"bijv., 1,00E+03 voor 1000)."
+"bijv. 1,00E+03 voor 1000)."
 
 #: 03120301.xhp#par_id3153707.39.help.text
 #: 03120301.xhp%23par_id3153707.39.help.text
@@ -11908,7 +11917,7 @@ msgid ""
 "second part for negative values, and the third part for zero. If you only "
 "specify one format code, it applies to all numbers."
 msgstr ""
-"Een opmaakcode kan in drie secties verdeeld worden, gescheiden door "
+"Een opmaakcode kan in drie gedeelten verdeeld worden, gescheiden door "
 "puntkomma's. Het eerste deel definieert de opmaak voor positieve waarden, "
 "het tweede deel voor negatieve waarden en het derde deel voor nul. Als "
 "slechts één opmaakcode is gegeven, heeft deze betrekking op alle getallen."
@@ -12028,10 +12037,10 @@ msgid ""
 "also detect non-printable key codes in ASCII code. This function can also "
 "handle 16 bit unicode characters."
 msgstr ""
-"Gebruik de Asc-functie om toetsen door waarden te vervangen. Als Asc een "
+"Gebruik de functie Asc om toetsen door waarden te vervangen. Als Asc een "
 "lege tekenreeks tegenkomt, rapporteert $[officename] BASIC een runtime-fout. "
 "In aanvulling op de afdrukbare 7-bits ASCII tekens (Codes 0-127) kan de "
-"ASCII-functie ook worden gebruikt om niet-afdrukbare toetscodes in ASCII-"
+"functie ASCII ook worden gebruikt om niet-afdrukbare toetscodes in ASCII-"
 "code te ontdekken. Deze functie kan ook 16-bits unicode-tekens verwerken."
 
 #: 03120101.xhp#hd_id3159413.10.help.text
@@ -12143,9 +12152,9 @@ msgid ""
 "function returns <emph>True</emph>, otherwise <emph>False</emph> is returned."
 msgstr ""
 "<emph>Expressie1, Expressie2:</emph> Elke tekenreeks of numerieke expressie "
-"die moet worden vergeleken. Als de uitdrukkingen overeenstemmen geeft de "
-"functie <emph>CBool</emph> <emph>Waar</emph> terug; anders zal "
-"<emph>Onwaar</emph> worden teruggegeven."
+"die moet worden vergeleken. Als de uitdrukkingen overeenstemmen wordt "
+"<emph>Waar</emph> teruggegeven door de functie <emph>CBool</emph>; anders "
+"zal <emph>Onwaar</emph> worden teruggegeven."
 
 #: 03100100.xhp#par_id3149655.9.help.text
 #: 03100100.xhp%23par_id3149655.9.help.text
@@ -12575,7 +12584,7 @@ msgid ""
 "returns False."
 msgstr ""
 "<emph>Var:</emph> Elke variabele die moet worden getest. Als de Variant de "
-"Empty-waarde bevat geeft de functie Waar terug; anders Onwaar."
+"waarde Empty bevat geeft de functie Waar terug; anders Onwaar."
 
 #: 03102400.xhp#hd_id3154138.9.help.text
 #: 03102400.xhp%23hd_id3154138.9.help.text
@@ -13068,7 +13077,7 @@ msgid ""
 msgstr ""
 "Selecteer in de lijst <emph>Locatie</emph> waar u de bibliotheek wilt "
 "toevoegen. Als u '%PRODUCTNAME-macro's en dialoogvensters' selecteert, "
-"behoort de bibliotheek tot de $[officename]-toepassing en is deze voor alle "
+"behoort de bibliotheek tot het programma $[officename] en is deze voor alle "
 "documenten beschikbaar. Selecteert u een document, dan wordt de bibliotheek "
 "aan dit document toegevoegd en is deze alleen van daaruit beschikbaar."
 
@@ -13114,7 +13123,7 @@ msgid ""
 msgstr ""
 "Selecteer in de lijst <emph>Locatie</emph> waar u de bibliotheek wilt "
 "toevoegen. Als u '%PRODUCTNAME-macro's en dialoogvensters' selecteert, "
-"behoort de bibliotheek tot de $[officename]-toepassing en is deze voor alle "
+"behoort de bibliotheek tot het programma $[officename] en is deze voor alle "
 "documenten beschikbaar. Selecteert u een document, dan wordt de bibliotheek "
 "aan dit document toegevoegd en is deze alleen van daaruit beschikbaar."
 
@@ -13143,8 +13152,8 @@ msgid ""
 "as reference (read-only)</emph> box. Read-only libraries are fully "
 "functional but cannot be modified in the Basic IDE."
 msgstr ""
-"Wilt u de bibliotheek alleen als verwijzing invoegen, dan vinkt u het vakje "
-"<emph>Als verwijzing invoegen (alleen-lezen)</emph> af. Alleen-lezen "
+"Wilt u de bibliotheek alleen als verwijzing invoegen, dan selecteert u het "
+"vak <emph>Als verwijzing invoegen (alleen-lezen)</emph>. Alleen-lezen "
 "bibliotheken zijn volledig functioneel, maar kunnen niet in de BASIC-IDE "
 "gewijzigd worden."
 
@@ -13154,7 +13163,7 @@ msgid ""
 "Check the <emph>Replace existing libraries</emph> box if you want existing "
 "libraries of the same name to be overwritten."
 msgstr ""
-"Selecteer het vakje <emph>Bestaande bibliotheken vervangen</emph> als "
+"Selecteer het vak <emph>Bestaande bibliotheken vervangen</emph> als "
 "bestaande bibliotheken met dezelfde naam overschreven moeten worden."
 
 #: 01030400.xhp#par_id3147004.56.help.text
@@ -13209,7 +13218,8 @@ msgstr ""
 #: 01030400.xhp#par_id3148868.59.help.text
 #: 01030400.xhp%23par_id3148868.59.help.text
 msgid "You cannot delete the default library named \"Standard\"."
-msgstr "U kunt de standaardbibliotheek genaamd \"Standard\" niet verwijderen."
+msgstr ""
+"U kunt de standaard bibliotheek, genaamd \"Standard\", niet verwijderen."
 
 #: 01030400.xhp#par_id3146869.60.help.text
 #: 01030400.xhp%23par_id3146869.60.help.text
@@ -13602,7 +13612,7 @@ msgid ""
 "opened in the <emph>Output</emph> or <emph>Append</emph> mode."
 msgstr ""
 "Om een expressielijst aan een nieuw of bestaand bestand toe te voegen, moet "
-"het bestand in de <emph>Output</emph> of <emph>Append</emph> modus worden "
+"het bestand in de modus <emph>Output</emph> of <emph>Append</emph> worden "
 "geopend."
 
 #: 03020205.xhp#par_id3147428.10.help.text
@@ -13806,9 +13816,9 @@ msgid ""
 "You can also use the <emph>RSet statement</emph> to assign variables of one "
 "user-defined type to another."
 msgstr ""
-"De <emph>RSet-instructie</emph> kan ook worden gebruikt om variabelen van "
-"het ene door de gebruiker gedefinieerd type, aan die van een ander type toe "
-"te kennen."
+"De <emph>instructie RSet</emph> kan ook worden gebruikt om variabelen van "
+"het ene, door de gebruiker gedefinieerde type, aan die van een ander type "
+"toe te kennen."
 
 #: 03120308.xhp#par_id3151042.12.help.text
 #: 03120308.xhp%23par_id3151042.12.help.text
@@ -13816,9 +13826,8 @@ msgid ""
 "The following example uses the <emph>RSet</emph> and <emph>LSet</emph> "
 "statements to modify the left and right alignment of a string."
 msgstr ""
-"Het voorbeeld gebruikt de <emph>RSet-</emph> en <emph>LSet-</emph>"
-"instructies om de linkse en rechtse uitlijning van een tekenreeks te "
-"veranderen."
+"Het voorbeeld gebruikt de instructies <emph>RSet</emph> en <emph>LSet</emph> "
+"om de linkse en rechtse uitlijning van een tekenreeks te veranderen."
 
 #: 03120308.xhp#hd_id3154909.13.help.text
 #: 03120308.xhp%23hd_id3154909.13.help.text
@@ -14021,7 +14030,7 @@ msgid ""
 "whereas negative numbers are converted to positive numbers."
 msgstr ""
 "<emph>Getal:</emph> Een willekeurige numerieke expressie waarvan de absolute "
-"waarde teruggegeven wordt. Elk positief getal, met inbegrip van O, zal in "
+"waarde teruggegeven wordt. Elk positief getal, met inbegrip van 0, zal in "
 "het origineel worden teruggegeven; elk negatief getal zal worden "
 "geconverteerd naar een positief getal."
 
@@ -14180,7 +14189,7 @@ msgstr "Syntaxis:"
 #: 03120313.xhp#par_id3154142.4.help.text
 #: 03120313.xhp%23par_id3154142.4.help.text
 msgid "ConvertFromURL(filename)"
-msgstr "ConvertFromURL(bestandsnaam) "
+msgstr "ConvertFromURL(bestandsnaam)"
 
 #: 03120313.xhp#hd_id3159157.5.help.text
 #: 03120313.xhp%23hd_id3159157.5.help.text
@@ -14300,8 +14309,8 @@ msgid ""
 "<emph>FileNumber:</emph> Any numeric expression that contains the file "
 "number that is specified in the Open statement."
 msgstr ""
-"<emph>BestandsNummer:</emph> Elke numerieke expressie die het bestandsnummer "
-"dat gespecificeerd is door de Open-instructie bevat."
+"<emph>BestandsNummer:</emph> Elke numerieke expressie die het "
+"bestandsnummer, dat gespecificeerd is door de instructie Open, bevat."
 
 #: 03020303.xhp#par_id3147349.9.help.text
 #: 03020303.xhp%23par_id3147349.9.help.text
@@ -14918,7 +14927,7 @@ msgstr "Parameters:"
 #: 03050100.xhp#par_id3153771.8.help.text
 #: 03050100.xhp%23par_id3153771.8.help.text
 msgid "The Erl function only returns a line number, and not a line label."
-msgstr "De Erl-functie geeft alleen een regelnummer terug en geen regellabel."
+msgstr "De functie Erl geeft alleen een regelnummer terug en geen regellabel."
 
 #: 03050100.xhp#hd_id3146921.9.help.text
 #: 03050100.xhp%23hd_id3146921.9.help.text
@@ -15256,8 +15265,8 @@ msgid ""
 "FUNCTIONS in a Basic project."
 msgstr ""
 "$[officename] BASIC biedt werktuigen waarmee u uw projecten kunt "
-"structureren. Er is ondersteuning voor verschillende 'eenheden' zodat u "
-"individuele SUBS en FUNCTIONS in een project van BASIC kunt groeperen."
+"structureren. Er is ondersteuning voor verschillende 'eenheden', zodat u "
+"individuele SUB's en FUNCTION's in een project van BASIC kunt groeperen."
 
 #: 01020500.xhp#hd_id3148575.5.help.text
 #: 01020500.xhp%23hd_id3148575.5.help.text
@@ -15295,11 +15304,11 @@ msgid ""
 "more space is required you can divide a $[officename] Basic project among "
 "several modules, and then save them in a single library."
 msgstr ""
-"Een module bevat SUBS en FUNCTIONS samen met variabelendeclaraties. De "
+"Een module bevat SUB's en FUNCTION's samen met variabelendeclaraties. De "
 "lengte van het programma dat in een module kan worden opgeslagen, is beperkt "
 "tot 64 KB. Als er meer ruimte vereist is, kunt u een project van "
-"$[officename] BASIC tussen verschillende modules verdelen, en deze "
-"vervolgens in één bibliotheek opslaan."
+"$[officename] BASIC over verschillende modules verdelen, en deze vervolgens "
+"in één bibliotheek opslaan."
 
 #: 01020500.xhp#hd_id3152577.11.help.text
 #: 01020500.xhp%23hd_id3152577.11.help.text
@@ -15321,7 +15330,7 @@ msgstr ""
 
 #: 03090203.xhp#tit.help.text
 msgid "While...Wend Statement [Runtime]"
-msgstr ""
+msgstr "While…Wend-instructie [Runtime]"
 
 #: 03090203.xhp#bm_id3150400.help.text
 #: 03090203.xhp%23bm_id3150400.help.text
@@ -15333,6 +15342,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03090203.xhp\" name=\"While...Wend Statement "
 "[Runtime]\">While...Wend Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03090203.xhp\" name=\"While...Wend Statement "
+"[Runtime]\"> While…Wend-instructie [Runtime]</link>"
 
 #: 03090203.xhp#par_id3151211.2.help.text
 #: 03090203.xhp%23par_id3151211.2.help.text
@@ -15343,12 +15354,12 @@ msgid ""
 "finds Wend and then jumps back to the<emph> While </emph>statement. If the "
 "condition is still True, the loop is executed again."
 msgstr ""
-"Als het programma een While-instructie tegenkomt test het de voorwaarde. Als "
-"de voorwaarde Onwaar is, vervolgt het programma direct met de volgende Wend-"
-"instructie. Als de voorwaarde Waar is, wordt de lus uitgevoerd totdat het "
-"programma Wend vindt en springt dan terug naar de <emph>While</emph>-"
-"instructie. Als de voorwaarde nog steeds Waar is, zal de lus nogmaals worden "
-"uitgevoerd."
+"Als het programma een instructie While tegenkomt test het de voorwaarde. Als "
+"de voorwaarde Onwaar is, vervolgt het programma direct met de volgende "
+"instructie Wend. Als de voorwaarde Waar is, wordt de lus uitgevoerd totdat "
+"het programma Wend vindt en springt dan terug naar de instructie "
+"<emph>While</emph>. Als de voorwaarde nog steeds Waar is, zal de lus "
+"nogmaals worden uitgevoerd."
 
 #: 03090203.xhp#par_id3151041.3.help.text
 #: 03090203.xhp%23par_id3151041.3.help.text
@@ -15360,12 +15371,13 @@ msgid ""
 "text/sbasic/shared/03090302.xhp\" name=\"GoTo\">GoTo</link>, since this can "
 "cause a run-time error."
 msgstr ""
-"In tegenstelling tot de <link href=\"text/sbasic/shared/03090201.xhp\" name="
-"\"Do...Loop\">Do...Loop</link>-instructie kan een <emph>While...Wend</emph>-"
-"lus niet geannuleerd worden met <link href=\"text/sbasic/shared/03090412."
-"xhp\" name=\"Exit\">Exit</link>. U moet nooit een While...Wend-lus met <link "
-"href=\"text/sbasic/shared/03090302.xhp\" name=\"GoTo\">GoTo</link> "
-"beëindigen aangezien dit een runtime-fout kan veroorzaken."
+"In tegenstelling tot de instructie <link href=\"text/sbasic/shared/03090201."
+"xhp\" name=\"Do...Loop\">Do...Loop</link> kan een lus "
+"<emph>While...Wend</emph> niet geannuleerd worden met <link href=\""
+"text/sbasic/shared/03090412.xhp\" name=\"Exit\">Exit</link>. U moet nooit "
+"een lus While...Wend met <link href=\"text/sbasic/shared/03090302.xhp\" name="
+"\"GoTo\">GoTo</link> beëindigen, aangezien dit een runtime-fout kan "
+"veroorzaken."
 
 #: 03090203.xhp#par_id3145172.4.help.text
 #: 03090203.xhp%23par_id3145172.4.help.text
@@ -15906,7 +15918,7 @@ msgid ""
 "December 30,1899 and the given date. You can use this function to calculate "
 "the difference between two dates."
 msgstr ""
-"De <emph>DateSerial-functie</emph> geeft het aantal dagen tussen 30 December "
+"De <emph>functie DateSerial</emph> geeft het aantal dagen tussen 30 december "
 "1899 en de opgegeven datum terug. U kunt deze functie gebruiken om het "
 "verschil tussen twee datums te berekenen."
 
@@ -15929,7 +15941,7 @@ msgid ""
 "If a date is defined that lies outside of the accepted range, $[officename] "
 "Basic returns an error message."
 msgstr ""
-"Als een datum wordt gedefinieerd die buiten het geaccepteerd bereik ligt "
+"Als een datum wordt gedefinieerd die buiten het geaccepteerd bereik ligt, "
 "geeft $[officename] BASIC een foutboodschap terug."
 
 #: 03030101.xhp#par_id3149481.14.help.text
@@ -15939,9 +15951,9 @@ msgid ""
 "contains the date, the <emph>DateSerial function</emph> evaluates each of "
 "the parameters (year, month, day) as separate numeric expressions."
 msgstr ""
-"Het verschil met de <emph>DateValue-functie</emph> is dat u daar het "
+"Het verschil met de <emph>functie DateValue</emph> is dat u daar het "
 "functieargument definieert als een tekenreeks die de datum bevat. In "
-"tegenstelling daarmee evalueert de <emph>DateSeril- functie</emph> elk van "
+"tegenstelling daarmee evalueert de <emph>functie DateSerial</emph> elk van "
 "de parameters (jaar, maand, dag) als gescheiden numerieke expressies."
 
 #: 03030101.xhp#hd_id3155411.15.help.text
@@ -16713,8 +16725,7 @@ msgstr ""
 #: 03020415.xhp#par_id3153361.2.help.text
 #: 03020415.xhp%23par_id3153361.2.help.text
 msgid "Determines if a file or a directory is available on the data medium."
-msgstr ""
-"Bepaalt of een bestand of een directory beschikbaar is op het gegevensmedium."
+msgstr "Bepaalt of een bestand of een map beschikbaar is op het gegevensmedium."
 
 #: 03020415.xhp#hd_id3150447.3.help.text
 #: 03020415.xhp%23hd_id3150447.3.help.text
@@ -16725,7 +16736,7 @@ msgstr "Syntaxis:"
 #: 03020415.xhp#par_id3154685.4.help.text
 #: 03020415.xhp%23par_id3154685.4.help.text
 msgid "FileExists(FileName As String | DirectoryName As String)"
-msgstr "FileExists(BestandsNaam As String | DirectoryNaam As String )"
+msgstr "FileExists(BestandsNaam As String | MapNaam As String)"
 
 #: 03020415.xhp#hd_id3154126.5.help.text
 #: 03020415.xhp%23hd_id3154126.5.help.text
@@ -16937,7 +16948,7 @@ msgstr "End Sub"
 
 #: 03020103.xhp#tit.help.text
 msgid "Open Statement [Runtime]"
-msgstr ""
+msgstr "Open-instructie [Runtime]"
 
 #: 03020103.xhp#bm_id3150791.help.text
 #: 03020103.xhp%23bm_id3150791.help.text
@@ -16949,6 +16960,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open Statement "
 "[Runtime]\">Open Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open-instructie "
+"[Runtime]\">Open-instructie [Runtime]</link>"
 
 #: 03020103.xhp#par_id3150769.2.help.text
 #: 03020103.xhp%23par_id3150769.2.help.text
@@ -16984,7 +16997,7 @@ msgid ""
 "appears. If you try to write to a file that does not exist (Access = Write), "
 "a new file is created."
 msgstr ""
-"<emph>Bestandsnaam: </emph>Naam en pad van het bestand dat u wenst te "
+"<emph>Bestandsnaam:</emph> Naam en pad van het bestand dat u wenst te "
 "openen. Indien u probeert om een bestand te lezen dat niet bestaat (Toegang "
 "krijgen = Lezen), verschijnt er een foutbericht. Indien u probeert om naar "
 "een bestand te schrijven dat niet bestaat (Toegang krijgen = Schrijven), "
@@ -17035,11 +17048,11 @@ msgid ""
 "data channel to access the file. The file number must be determined by the "
 "FreeFile function immediately before the Open statement."
 msgstr ""
-"<emph>Bestandsnummer:</emph> Elke Integer tussen 0 en 511 dat het nummer van "
-"een vrij gegevenskanaal aangeeft dat later kan worden gebruikt om toegang te "
-"krijgen tot het bestand met verschillende opdrachten. Het bestandsnummer "
-"moet worden bepaald vlak vóór de Open-instructie met behulp van de FreeFile-"
-"functie."
+"<emph>Bestandsnummer:</emph> Elke expressie Integer tussen 0 en 511 dat het "
+"nummer van een vrij gegevenskanaal aangeeft, dat later kan worden gebruikt "
+"om toegang te krijgen tot het bestand met verschillende opdrachten. Het "
+"bestandsnummer moet worden bepaald vlak vóór de instructie Open met behulp "
+"van de functie FreeFile."
 
 #: 03020103.xhp#par_id3151115.11.help.text
 #: 03020103.xhp%23par_id3151115.11.help.text
@@ -17480,8 +17493,8 @@ msgstr "Parameters:"
 msgid ""
 "<emph>FileNumber: </emph>The data channel number used in the Open statement."
 msgstr ""
-"<emph>FileNumber: </emph>Het nummer van een gegevenskanaal dat in de Open-"
-"instructie gebruikt wordt."
+"<emph>FileNumber:</emph> Het nummer van een gegevenskanaal dat in de "
+"instructie Open gebruikt wordt."
 
 #: 03020305.xhp#par_id3145366.10.help.text
 #: 03020305.xhp%23par_id3145366.10.help.text
@@ -17492,12 +17505,12 @@ msgid ""
 "the byte position (files in the Binary, Output, Append or Input mode). The "
 "first byte in a file is position 1, the second byte is position 2, and so on."
 msgstr ""
-"<emph>Positie: </emph>Positie voor het volgende schrijven of lezen. Positie "
+"<emph>Positie:</emph> Positie voor het volgende schrijven of lezen. Positie "
 "kan een getal zijn tussen 1 en 2.147.483.647. Afhankelijk van het "
-"bestandstype geeft de positie het nummer van de record (Bestanden in de "
-"Random-modus) of de bytepositie (Bestanden in de Binary-, Output-, Append- "
-"of Input-modus). De eerste byte van het bestand heeft de positie 1 en de "
-"tweede byte heeft de positie 2."
+"bestandstype geeft de positie het nummer van het record (Bestanden in de "
+"modus Random) of de bytepositie (Bestanden in de modi Binary, Output, Append "
+"of Input). De eerste byte van het bestand heeft de positie 1 en de tweede "
+"byte heeft de positie 2."
 
 #: 03101000.xhp#tit.help.text
 #: 03101000.xhp%23tit.help.text
@@ -17968,7 +17981,7 @@ msgid ""
 "of the side that is adjacent to the angle, divided by the length of the "
 "hypotenuse in a right-angled triangle."
 msgstr ""
-"Met behulp van de hoek Alfa, berekent de Cos-functie de verhouding van de "
+"Met behulp van de hoek Alfa, berekent de functie Cos de verhouding van de "
 "lengte van de aanliggende zijde van de hoek, gedeeld door de lengte van de "
 "hypotenusa in een rechthoekige driehoek."
 
@@ -18355,7 +18368,7 @@ msgid ""
 "statement sets the default variable type, according to a letter range."
 msgstr ""
 "Als er geen type-aanduidingsteken of sleutelwoord gespecificeerd is, wordt "
-"met de DefStr-instructie het standaardtype variabele ingesteld, volgens een "
+"met de instructie DefStr het standaardtype variabele ingesteld, volgens een "
 "letterbereik."
 
 #: 03101140.xhp#par_idN1058A.help.text
@@ -18398,7 +18411,7 @@ msgstr ""
 #: 03101140.xhp%23par_idN105A3.help.text
 msgctxt "03101140.xhp#par_idN105A3.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101140.xhp#par_idN105AA.help.text
 #: 03101140.xhp%23par_idN105AA.help.text
@@ -18645,9 +18658,9 @@ msgid ""
 "to indent the output to a specific position, or you can use the "
 "<emph>Spc</emph> function to insert a specified number of spaces."
 msgstr ""
-"U kunt de Tab-functie (tussen puntkomma's) tussen argumenten invoegen om de "
+"U kunt de functie Tab (tussen puntkomma's) tussen argumenten invoegen om de "
 "uitvoer naar een specifieke positie in te laten springen of u kunt de "
-"<emph>Spc</emph>-functie gebruiken om een gespecificeerd aantal spaties in "
+"functie <emph>Spc</emph> gebruiken om een gespecificeerd aantal spaties in "
 "te voegen."
 
 #: 03010103.xhp#hd_id3146912.13.help.text
@@ -18690,12 +18703,12 @@ msgstr ""
 #: 03010103.xhp#par_id36317.help.text
 #: 03010103.xhp%23par_id36317.help.text
 msgid "Print #i, \"ABC\""
-msgstr "Afdrukken #i, \"ABC\""
+msgstr "Print #i, \"ABC\""
 
 #: 03010103.xhp#par_id7381817.help.text
 #: 03010103.xhp%23par_id7381817.help.text
 msgid "Close #i"
-msgstr "Afsluiten #i"
+msgstr "Close #i"
 
 #: 03010103.xhp#par_id3147339.17.help.text
 #: 03010103.xhp%23par_id3147339.17.help.text
@@ -18906,8 +18919,8 @@ msgid ""
 "<emph>Position: </emph>For relative files (random access files), the number "
 "of the record that you want to write."
 msgstr ""
-"<emph>Positie: </emph>Voor relationele bestanden (Random-toegang bestanden) "
-"het nummer van de record die moet worden geschreven."
+"<emph>Positie:</emph> Voor relatieve bestanden (Random-toegang bestanden) "
+"het nummer van het record dat moet worden geschreven."
 
 #: 03020204.xhp#par_id3148576.9.help.text
 #: 03020204.xhp%23par_id3148576.9.help.text
@@ -18936,10 +18949,10 @@ msgid ""
 "record and the next record is padded with existing data from the file that "
 "you are writing to."
 msgstr ""
-"Opmerking voor relationele bestanden: Als de inhoud van deze variabele niet "
-"overeenstemt met de lengte van een record zoals die gespecificeerd is in de "
-"<emph>Len</emph>-variable van de <emph>Open</emph>-insstructie, wordt de "
-"ruimte vanaf het einde van de nieuw geschreven gegevens tot de volgende "
+"Opmerking voor relatieve bestanden: Als de inhoud van deze variabele niet "
+"overeenstemt met de lengte van een record, zoals die gespecificeerd is in de "
+"variabele <emph>Len</emph> van de instructie <emph>Open</emph>, wordt de "
+"ruimte vanaf het einde van de nieuw geschreven gegevens tot het volgende "
 "record gevuld met de bestaande gegevens in het bestand."
 
 #: 03020204.xhp#par_id3155855.12.help.text
@@ -19220,7 +19233,7 @@ msgstr "Case 1 To 5"
 #: 03090102.xhp%23par_id3152597.14.help.text
 msgctxt "03090102.xhp#par_id3152597.14.help.text"
 msgid "Print \"Number from 1 to 5\""
-msgstr "Print \"Getal van 1 tot 5\""
+msgstr "Print \"Getal van 1 tot en met 5\""
 
 #: 03090102.xhp#par_id3147428.15.help.text
 #: 03090102.xhp%23par_id3147428.15.help.text
@@ -19232,7 +19245,7 @@ msgstr "Case 6, 7, 8"
 #: 03090102.xhp%23par_id3147349.16.help.text
 msgctxt "03090102.xhp#par_id3147349.16.help.text"
 msgid "Print \"Number from 6 to 8\""
-msgstr "Print \"Getal van 6 tot 8\""
+msgstr "Print \"Getal van 6 tot en met 8\""
 
 #: 03090102.xhp#par_id3153729.17.help.text
 #: 03090102.xhp%23par_id3153729.17.help.text
@@ -19254,7 +19267,7 @@ msgstr "Case Else"
 #: 03090102.xhp#par_id3146975.20.help.text
 #: 03090102.xhp%23par_id3146975.20.help.text
 msgid "Print \"Out of range 1 to 10\""
-msgstr "Print \"Buiten bereik van 1 tot 10\""
+msgstr "Print \"Buiten bereik van 1 tot en met 10\""
 
 #: 03090102.xhp#par_id3150419.21.help.text
 #: 03090102.xhp%23par_id3150419.21.help.text
@@ -19297,9 +19310,9 @@ msgid ""
 "<ahelp visibility=\"visible\" hid=\".uno:MacroBarVisible\">The <emph>Macro "
 "Toolbar </emph>contains commands to create, edit, and run macros.</ahelp>"
 msgstr ""
-"<ahelp visibility=\"visible\" hid=\".uno:MacroBarVisible\">De <emph>"
-"Macrobalk </emph>bevat opdrachten voor het maken, bewerken en uitvoeren van "
-"macro's.</ahelp>"
+"<ahelp visibility=\"visible\" hid=\".uno:MacroBarVisible\">De "
+"<emph>Macrobalk</emph> bevat opdrachten voor het maken, bewerken en "
+"uitvoeren van macro's.</ahelp>"
 
 #: 03080600.xhp#tit.help.text
 #: 03080600.xhp%23tit.help.text
@@ -20867,7 +20880,7 @@ msgstr ""
 #: 03080101.xhp#par_id3155415.24.help.text
 #: 03080101.xhp%23par_id3155415.24.help.text
 msgid "Print \"The Alpha angle is\"; (atn (d2/d1) * 180 / Pi); \" degrees\""
-msgstr "Print \"De Alfa hoek is\"; (Atn (d2/d1) * 180 / Pi); \" graden\""
+msgstr "Print \"De Alfa-hoek is\"; (Atn (d2/d1) * 180 / Pi); \" graden\""
 
 #: 03080101.xhp#par_id3149959.25.help.text
 #: 03080101.xhp%23par_id3149959.25.help.text
@@ -21270,7 +21283,7 @@ msgstr ""
 #: 03101500.xhp%23par_id3154365.8.help.text
 msgctxt "03101500.xhp#par_id3154365.8.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101500.xhp#par_id3125863.9.help.text
 #: 03101500.xhp%23par_id3125863.9.help.text
@@ -21411,7 +21424,7 @@ msgid ""
 "This function can only be used immediately in front of an Open statement. "
 "FreeFile returns the next available file number, but does not reserve it."
 msgstr ""
-"Deze functie moet direct vóór een Open-instructie worden gebruikt. FreeFile "
+"Deze functie moet direct vóór een instructie Open worden gebruikt. FreeFile "
 "geeft het volgende beschikbare bestandsnummer terug, maar zal het niet "
 "reserveren."
 
@@ -23207,9 +23220,9 @@ msgid ""
 "the file in the current directory. You can also use <link href=\""
 "text/sbasic/shared/00000002.xhp\" name=\"URL notation\">URL notation</link>."
 msgstr ""
-"FileName: Naam van het bestand, inclusief het pad, waarvan u de attributen "
-"wilt testen. Als u geen pad invoert, zoekt <emph>SetAttr</emph> in de "
-"huidige map naar het bestand. U kunt ook <link href=\""
+"BestandsNaam: Naam van het bestand, inclusief het pad, waarvan u de "
+"attributen wilt testen. Als u geen pad invoert, zoekt <emph>SetAttr</emph> "
+"in de huidige map naar het bestand. U kunt ook <link href=\""
 "text/sbasic/shared/00000002.xhp\" name=\"URL-notatie\">URL-notatie</link> "
 "gebruiken."
 
@@ -23561,8 +23574,8 @@ msgstr "Parameters:"
 msgid ""
 "<emph>FileNumber:</emph> The data channel number used in the Open statement."
 msgstr ""
-"<emph>FileNumber:</emph> Het nummer van een gegevenskanaal dat in de Open-"
-"instructie gebruikt wordt."
+"<emph>FileNumber:</emph> Het nummer van een gegevenskanaal dat in de "
+"instructie Open gebruikt wordt."
 
 #: 03080104.xhp#tit.help.text
 #: 03080104.xhp%23tit.help.text
@@ -24686,9 +24699,9 @@ msgid ""
 "generated by the <emph>TimeSerial</emph> or the <emph>TimeValue </emph>"
 "function. For example, the expression"
 msgstr ""
-"Deze functie is het tegenovergestelde van de <emph>TimeSerial</emph>-"
-"functie. De functie geeft een Integer-waarde terug die het uur van een "
-"tijdwaarde voorstelt, die gegenereerd is door <emph>TimeSerial</emph> of "
+"Deze functie is het tegenovergestelde van de functie <emph>TimeSerial</emph>"
+". De functie geeft een waarde Integer terug die het uur van een tijdswaarde "
+"voorstelt, die gegenereerd is door de functies <emph>TimeSerial</emph> of "
 "<emph>TimeValue</emph>. Daarom geeft de uitdrukking"
 
 #: 03030201.xhp#par_id3163798.10.help.text
@@ -24700,7 +24713,7 @@ msgstr "Print Hour(TimeSerial(12,30,41))"
 #: 03030201.xhp%23par_id3155132.11.help.text
 msgctxt "03030201.xhp#par_id3155132.11.help.text"
 msgid "returns the value 12."
-msgstr "geeft de waarde 12 terug."
+msgstr "de waarde 12 terug."
 
 #: 03030201.xhp#hd_id3147348.12.help.text
 #: 03030201.xhp%23hd_id3147348.12.help.text
@@ -25046,7 +25059,7 @@ msgstr "Dim sBestand As String"
 #: 03110100.xhp#par_id3154909.18.help.text
 #: 03110100.xhp%23par_id3154909.18.help.text
 msgid "DIM sRoot As String REM ' Root directory for file in and output"
-msgstr "Dim sRoot As String Rem Rootdirectory voor bestand in- en uitvoer"
+msgstr "Dim sRoot As String Rem Rootmap voor bestand in- en uitvoer"
 
 #: 03110100.xhp#par_id3150767.19.help.text
 #: 03110100.xhp%23par_id3150767.19.help.text
@@ -25438,7 +25451,7 @@ msgstr ""
 #: 03020413.xhp#par_id3149457.2.help.text
 #: 03020413.xhp%23par_id3149457.2.help.text
 msgid "Deletes an existing directory from a data medium."
-msgstr "Verwijdert een bestaande directory van een gegevensmedium."
+msgstr "Verwijdert een bestaande map van een gegevensmedium."
 
 #: 03020413.xhp#hd_id3153361.3.help.text
 #: 03020413.xhp%23hd_id3153361.3.help.text
@@ -25476,8 +25489,8 @@ msgid ""
 "the directory that you want to delete in the current path. If it is not "
 "found there, an error message appears."
 msgstr ""
-"Als het pad niet is opgegeven zal de <emph>RmDir-instructie</emph> naar de "
-"gespecificeerde directory in het huidige pad zoeken. Als het daar niet wordt "
+"Als het pad niet is opgegeven zal de <emph>instructie RmDir</emph> naar de "
+"gespecificeerde map in het huidige pad zoeken. Als die daar niet wordt "
 "gevonden, zal een foutboodschap verschijnen."
 
 #: 03020413.xhp#hd_id3145271.8.help.text
@@ -25525,7 +25538,7 @@ msgstr "End Sub"
 #: 03010200.xhp#tit.help.text
 #: 03010200.xhp%23tit.help.text
 msgid "Functions for Screen Input"
-msgstr "Functies voor Scherminvoer"
+msgstr "Functies voor scherminvoer"
 
 #: 03010200.xhp#hd_id3149456.1.help.text
 #: 03010200.xhp%23hd_id3149456.1.help.text
@@ -25650,7 +25663,7 @@ msgid ""
 "<ahelp hid=\".\">Select a button type. Button types determine what type of "
 "action is initiated.</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Selecteer een knoptype. Knoptypen bepalen wat voor actie er "
+"<ahelp hid=\".\">Selecteer een type knop. Typen knop bepalen welk type actie "
 "gestart wordt.</ahelp>"
 
 #: 01170101.xhp#hd_id3149019.5.help.text
@@ -26891,7 +26904,7 @@ msgid ""
 "checked, unchecked, and grayed out) instead of two (checked and "
 "unchecked).</ahelp>"
 msgstr ""
-"<ahelp hid=\".\">Selecteer 'Ja' voor een keuzevakje met drie statussen ("
+"<ahelp hid=\".\">Selecteer 'Ja' voor een keuzevak met drie statussen ("
 "geselecteerd, niet-geselecteerd en gedimd) in plaats van twee (geselecteerd "
 "en niet-geselecteerd).</ahelp>"
 
@@ -27986,7 +27999,7 @@ msgid ""
 "<emph>Number:</emph> Integer expression that contains the serial date number "
 "that is used to calculate the day of the week (1-7)."
 msgstr ""
-"<emph>Getal:</emph> Integer die het serieële datumgetal bevat waaruit de "
+"<emph>Getal:</emph> Integer die het seriële datumgetal bevat waaruit de "
 "weekdag (1-7) wordt berekend."
 
 #: 03030105.xhp#par_id3159254.9.help.text
@@ -28391,7 +28404,7 @@ msgid ""
 "word INPUT."
 msgstr ""
 "<emph>BestandsNummer:</emph> Nummer van het bestand waarvan gegevens moeten "
-"worden gelezen. Het bestand moet geopend zijn door het Open-instructie met "
+"worden gelezen. Het bestand moet geopend zijn door de instructie Open met "
 "het sleutelwoord INPUT."
 
 #: 03020202.xhp#par_id3150011.7.help.text
@@ -28401,7 +28414,7 @@ msgid ""
 "read from the opened file to."
 msgstr ""
 "<emph>var:</emph> Een numerieke of tekenreeks-variabele waaraan u de "
-"waarden, die gelezen worden uit het geopende bestand, aan toe wijst."
+"waarden, die gelezen worden uit het geopende bestand, toewijst."
 
 #: 03020202.xhp#par_id3159153.8.help.text
 #: 03020202.xhp%23par_id3159153.8.help.text
@@ -28412,7 +28425,7 @@ msgid ""
 "or comma. String variables are read to up to the first carriage return "
 "(Asc=13), line feed (Asc=10), or comma."
 msgstr ""
-"De <emph>Input#</emph>-instructie wordt gebruikt om numerieke waarden of "
+"De instructie <emph>Input#</emph> wordt gebruikt om numerieke waarden of "
 "tekenreeksen uit een geopend bestand te lezen en de gegevens aan één of meer "
 "variabelen toe te kennen. Een numerieke variabele wordt gelezen tot het "
 "eerste harde regeleinde (Asc=13), regeleinde (Asc=10), spatie of komma. "
@@ -28427,7 +28440,7 @@ msgid ""
 "numeric values to a numeric variable, \"var\" is assigned a value of \"0\"."
 msgstr ""
 "Gegevens en gegevenstypen in een bestand moeten in dezelfde volgorde "
-"verschijnen als de variabelen die toegekend zijn in 'Var'. Als u niet-"
+"verschijnen als de variabelen die toegekend zijn in 'var'. Als u niet-"
 "numerieke waarden toekent aan een numerieke variabele, wordt aan 'var' de "
 "waarde '0' toegekend."
 
@@ -28443,7 +28456,7 @@ msgstr ""
 "Records die door komma's gescheiden zijn, kunnen niet aan een "
 "tekenreeksvariabele worden toegewezen. Aanhalingstekens (\") in het bestand "
 "worden eveneens genegeerd. Als u deze tekens uit het bestand wilt lezen, "
-"moet u de <emph>Line Input#</emph>-instructie gebruiken om pure "
+"moet u de instructie <emph>Line Input#</emph> gebruiken om pure "
 "tekstbestanden (bestanden die alleen afdrukbare tekens bevatten) regel voor "
 "regel te lezen."
 
@@ -28914,7 +28927,7 @@ msgid ""
 "breakpoints in the program code."
 msgstr ""
 "In het <link href=\"text/sbasic/shared/01030200.xhp\" name=\"editorvenster\""
-"><emph>venster Bewerken</emph></link> kunt u direct onder de Macrobalk de "
+"><emph>venster Bewerken</emph></link> kunt u, direct onder de Macrobalk, de "
 "BASIC-programmacode bewerken. De kolom aan de linkerkant wordt gebruikt om "
 "onderbrekingspunten in de programmacode in te stellen."
 
@@ -28938,8 +28951,8 @@ msgid ""
 "the call stack of SUBS and FUNCTIONS when a program runs."
 msgstr ""
 "In het venster <emph>Aanroepen</emph> aan de rechterkant vindt u informatie "
-"over de call stack van SUBS en FUNCTIONS wanneer een programma uitgevoerd "
-"wordt."
+"over de stapel met aanroepen (call stack) van SUB's en FUNCTION's wanneer "
+"een programma uitgevoerd wordt."
 
 #: 01030100.xhp#par_id3147434.6.help.text
 #: 01030100.xhp%23par_id3147434.6.help.text
@@ -28954,7 +28967,7 @@ msgstr ""
 #: 03080302.xhp#tit.help.text
 #: 03080302.xhp%23tit.help.text
 msgid "Rnd Function [Runtime]"
-msgstr "Rnd functie [Runtime]"
+msgstr "Rnd-functie [Runtime]"
 
 #: 03080302.xhp#bm_id3148685.help.text
 #: 03080302.xhp%23bm_id3148685.help.text
@@ -29022,7 +29035,7 @@ msgid ""
 "generate random integers in a given range, use the formula in the following "
 "example:"
 msgstr ""
-"De <emph>Rnd</emph>-functie geeft alleen waarden terug in het bereik van 0 "
+"De functie <emph>Rnd</emph> geeft alleen waarden terug in het bereik van 0 "
 "tot 1. Teneinde willekeurige gehele getallen in een gegeven bereik te "
 "genereren, moet u de formule in het volgende voorbeeld gebruiken:"
 
@@ -29066,7 +29079,7 @@ msgstr "Case 1 To 5"
 #: 03080302.xhp%23par_id3147124.21.help.text
 msgctxt "03080302.xhp#par_id3147124.21.help.text"
 msgid "Print \"Number from 1 to 5\""
-msgstr "Print \"Getal van 1 tot 5\""
+msgstr "Print \"Getal van 1 tot en met 5\""
 
 #: 03080302.xhp#par_id3155418.22.help.text
 #: 03080302.xhp%23par_id3155418.22.help.text
@@ -29078,7 +29091,7 @@ msgstr "Case 6, 7, 8"
 #: 03080302.xhp%23par_id3154943.23.help.text
 msgctxt "03080302.xhp#par_id3154943.23.help.text"
 msgid "Print \"Number from 6 to 8\""
-msgstr "Print \"Getal van 6 tot 8\""
+msgstr "Print \"Getal van 6 tot en met 8\""
 
 #: 03080302.xhp#par_id3145800.24.help.text
 #: 03080302.xhp%23par_id3145800.24.help.text
@@ -29102,7 +29115,7 @@ msgstr "Case Else"
 #: 03080302.xhp%23par_id3155602.27.help.text
 msgctxt "03080302.xhp#par_id3155602.27.help.text"
 msgid "Print \"Outside range 1 to 10\""
-msgstr "Print \"Buiten bereik van 1 tot 10\""
+msgstr "Print \"Buiten bereik van 1 tot en met 10\""
 
 #: 03080302.xhp#par_id3150328.28.help.text
 #: 03080302.xhp%23par_id3150328.28.help.text
@@ -29118,7 +29131,7 @@ msgstr "End Sub"
 
 #: 03103700.xhp#tit.help.text
 msgid "Set Statement [Runtime]"
-msgstr ""
+msgstr "Set-instructie [Runtime]"
 
 #: 03103700.xhp#bm_id3154422.help.text
 #: 03103700.xhp%23bm_id3154422.help.text
@@ -29134,6 +29147,8 @@ msgid ""
 "<link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set Statement [Runtime]"
 "\">Set Statement [Runtime]</link>"
 msgstr ""
+"<link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set-instructie [Runtime"
+"]\">Set-instructie [Runtime]</link>"
 
 #: 03103700.xhp#par_id3159149.2.help.text
 #: 03103700.xhp%23par_id3159149.2.help.text
@@ -29283,7 +29298,7 @@ msgstr ""
 #: 03101400.xhp%23par_id3151210.8.help.text
 msgctxt "03101400.xhp#par_id3151210.8.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101400.xhp#par_id3154123.9.help.text
 #: 03101400.xhp%23par_id3154123.9.help.text
@@ -29573,7 +29588,7 @@ msgid ""
 "the natural logarithm of x by the natural logarithm of n, as follows:"
 msgstr ""
 "U kunt logaritmen berekenen van een willekeurige basis (n) voor een "
-"willekeurig getal (x) door het natuurlijke logaritme van x door het "
+"willekeurig getal (x) door de natuurlijke logaritme van x door de "
 "natuurlijke logaritme van n te delen. Zo gaat u te werk:"
 
 #: 03080202.xhp#par_id3145420.11.help.text
@@ -30648,8 +30663,8 @@ msgid ""
 "expression that is passed by this function."
 msgstr ""
 "Evalueert een lijst van argumenten, bestaande uit een expressie gevolgd door "
-"een waarde. De Switch-functie geeft een waarde terug die geassocieerd is met "
-"de expressie die werd uitgevoerd met deze functie ."
+"een waarde. De functie Switch geeft een waarde terug die geassocieerd is met "
+"de expressie die werd uitgevoerd met deze functie."
 
 #: 03090410.xhp#hd_id3154863.3.help.text
 #: 03090410.xhp%23hd_id3154863.3.help.text
@@ -30705,7 +30720,7 @@ msgid ""
 "In the following example, the <emph>Switch</emph> function assigns the "
 "appropriate gender to the name that is passed to the function:"
 msgstr ""
-"In het volgende voorbeeld wordt de <emph>Switch</emph>-functie gebruikt om "
+"In het volgende voorbeeld wordt de functie <emph>Switch</emph> gebruikt om "
 "het toepasselijke geslacht aan de naam, gegeven door de functie, toe te "
 "kennen:"
 
@@ -30829,7 +30844,7 @@ msgstr ""
 "Wanneer u eigenschappen definieert, kunnen kleuren gespecificeerd worden met "
 "behulp van hun RGB-code die naar een lange integere waarde geconverteerd "
 "wordt via de <link href=\"text/sbasic/shared/03010305.xhp\" name=\"RGB-"
-"functie\">RGB-functie</link>."
+"functie\">functie RGB</link>."
 
 #: 00000002.xhp#hd_id3146119.32.help.text
 #: 00000002.xhp%23hd_id3146119.32.help.text
@@ -30938,8 +30953,8 @@ msgstr ""
 "Voor de URL-notatie zijn bepaalde speciale tekens niet toegestaan. Deze "
 "worden door andere tekens vervangen of gecodeerd. Een slash (<emph>/</emph>) "
 "wordt gebruikt als padscheidingsteken. Zo wordt een bestand waarnaar in \""
-"Windows-notatie\" verwezen wordt met <emph>C:\\My File.sxw</emph> op de "
-"lokale host, <emph>file:///C|/My%20File.sxw</emph> in URL-notatie."
+"Windows-notatie\" verwezen wordt met <emph>C:\\My File.odt</emph> op de "
+"lokale host, <emph>file:///C|/My%20File.odt</emph> in URL-notatie."
 
 #: 03090303.xhp#tit.help.text
 #: 03090303.xhp%23tit.help.text
@@ -31018,13 +31033,13 @@ msgid ""
 "<emph>Label:</emph> Target line according to<emph> GoTo </emph>or "
 "<emph>GoSub</emph> structure."
 msgstr ""
-"<emph>Label:</emph> Bestemmingsregel volgens <emph>GoTo-</emph>of "
-"<emph>GoSub-</emph>structuur."
+"<emph>Label:</emph> Bestemmingsregel volgens de structuur <emph>GoTo</emph> "
+"of <emph>GoSub</emph>."
 
 #: 03090303.xhp#par_id3156442.9.help.text
 #: 03090303.xhp%23par_id3156442.9.help.text
 msgid "The <emph>GoTo</emph> or <emph>GoSub </emph>conventions are valid."
-msgstr "De <emph>GoTo</emph> of <emph>GoSub </emph>regels zijn geldig."
+msgstr "De regels <emph>GoTo</emph> of <emph>GoSub</emph> zijn geldig."
 
 #: 03090303.xhp#hd_id3148645.10.help.text
 #: 03090303.xhp%23hd_id3148645.10.help.text
@@ -31430,8 +31445,8 @@ msgid ""
 "reference</link>."
 msgstr ""
 "Bekijk de <link href=\""
-"https://api.openoffice.org/docs/common/ref/com/sun/star/module-ix.html\">API-"
-"verwijzing</link> voor een lijst van beschikbare services."
+"https://www.openoffice.org/api/docs/common/ref/com/sun/star/module-ix.html\""
+">API-verwijzing</link> voor een lijst van beschikbare services."
 
 #: 03131600.xhp#hd_id3151111.5.help.text
 #: 03131600.xhp%23hd_id3151111.5.help.text
@@ -31519,7 +31534,7 @@ msgstr "End function"
 #: 03080200.xhp#tit.help.text
 #: 03080200.xhp%23tit.help.text
 msgid "Exponential and Logarithmic Functions"
-msgstr "Exponentiele en Logarithmische Functies"
+msgstr "Exponentiële en logaritmische functies"
 
 #: 03080200.xhp#hd_id3154758.1.help.text
 #: 03080200.xhp%23hd_id3154758.1.help.text
@@ -31536,7 +31551,7 @@ msgid ""
 "$[officename] Basic supports the following exponential and logarithmic "
 "functions."
 msgstr ""
-"De volgende exponentiele en logaritmische functies worden ondersteund in "
+"De volgende exponentiële en logaritmische functies worden ondersteund in "
 "$[officename] BASIC."
 
 #: 03090101.xhp#tit.help.text
@@ -31580,7 +31595,7 @@ msgid ""
 "Statement block [Else] Statement block EndIf<br/>Instead of Else If you can "
 "write ElseIf, instead of End If you can write EndIf."
 msgstr ""
-"Als de voorwaarde=waar Then-instructieblok [ElseIf-voorwaarde=waar Then] "
+"If voorwaarde=waar Then-instructieblok [ElseIf voorwaarde=waar Then] "
 "instructieblok [Else] instructieblok EndIf<br/>In plaats van Else If mag u "
 "ElseIf schrijven, in plaats van End If mag u EndIf schrijven."
 
@@ -31606,15 +31621,15 @@ msgid ""
 "evaluated, and the corresponding statements executed, the program continues "
 "with the statement following <emph>EndIf</emph>."
 msgstr ""
-"De <emph>If...Then</emph>-instructie wordt gebruikt om programmablokken, "
+"De instructie <emph>If…Then</emph> wordt gebruikt om programmablokken, "
 "afhankelijk van bepaalde voorwaarden, uit te voeren. Wanneer $[officename] "
-"BASIC een <emph>If</emph>-instructie tegenkomt wordt de voorwaarde getest. "
-"Als deze Waar is worden alle erop volgende insructies tot de volgende "
-"<emph>Else</emph> of <emph>ElseIf</emph>-instructie uitgevoerd. Als de "
-"voorwaarde Onwaar is en een <emph>ElseIf</emph>-instructie volgt, test "
+"BASIC een instructie <emph>If</emph> tegenkomt, wordt de voorwaarde getest. "
+"Als deze Waar is worden alle erop volgende instructies tot de volgende "
+"instructie <emph>Else</emph> of <emph>ElseIf</emph> uitgevoerd. Als de "
+"voorwaarde Onwaar is en een instructie <emph>ElseIf</emph> volgt, test "
 "$[officename] BASIC de volgende voorwaarde en voert de volgende instructies "
 "uit als de voorwaarde Waar is. Indien Onwaar vervolgt het programma of met "
-"de volgende <emph>ElseIf</emph> of <emph>Else</emph>-instructie. Instructies "
+"de volgende instructie <emph>ElseIf</emph> of <emph>Else</emph>. Instructies "
 "die volgen op <emph>Else</emph> worden alleen uitgevoerd als geen van de "
 "eerder geteste voorwaarden Waar was. Nadat alle voorwaarden zijn geëvalueerd "
 "en de overeenkomstige instructies zijn uitgevoerd, vervolgt het programma "
@@ -31623,12 +31638,12 @@ msgstr ""
 #: 03090101.xhp#par_id3153192.7.help.text
 #: 03090101.xhp%23par_id3153192.7.help.text
 msgid "You can nest multiple <emph>If...Then</emph> statements."
-msgstr "Er kunnen meerdere <emph>If...Then</emph>-instructies worden genest."
+msgstr "Er kunnen meerdere instructies <emph>If...Then</emph> worden genest."
 
 #: 03090101.xhp#par_id3154684.8.help.text
 #: 03090101.xhp%23par_id3154684.8.help.text
 msgid "<emph>Else</emph> and <emph>ElseIf</emph> statements are optional."
-msgstr "<emph>Else</emph>- en <emph>ElseIf</emph>-instructies zijn optioneel."
+msgstr "Instructies <emph>Else</emph> en <emph>ElseIf</emph> zijn optioneel."
 
 #: 03090101.xhp#par_id3152939.9.help.text
 #: 03090101.xhp%23par_id3152939.9.help.text
@@ -31637,9 +31652,9 @@ msgid ""
 "<emph>If...Then</emph> block, but not to jump into an <emph>If...Then</emph> "
 "structure."
 msgstr ""
-"U kunt wel <emph>GoTo</emph> en <emph>GoSub</emph> gebruiken om uit een "
-"<emph>If...Then</emph> blok te springen, maar niet om een "
-"<emph>If...Then</emph> structuur binnen te springen."
+"U kunt wel <emph>GoTo</emph> en <emph>GoSub</emph> gebruiken om uit een blok "
+"<emph>If...Then</emph> te springen, maar niet om een structuur "
+"<emph>If...Then</emph> binnen te springen."
 
 #: 03090101.xhp#par_id3153951.10.help.text
 #: 03090101.xhp%23par_id3153951.10.help.text
@@ -31966,7 +31981,7 @@ msgid ""
 "<emph>Date</emph> variable."
 msgstr ""
 "Test of een gegeven tekenreeks of numerieke expressie kan worden "
-"geconverteerd naar een <emph>Date</emph>-variabele."
+"geconverteerd naar een variabele <emph>Date</emph>."
 
 #: 03102300.xhp#hd_id3153824.3.help.text
 #: 03102300.xhp%23hd_id3153824.3.help.text
@@ -32232,7 +32247,7 @@ msgstr "Parameters:"
 #: 03120309.xhp#par_id3151380.9.help.text
 #: 03120309.xhp%23par_id3151380.9.help.text
 msgid "<emph>Text: </emph>Any string expression."
-msgstr "<emph>Tekst: </emph>Elke tekenreeks."
+msgstr "<emph>Tekst:</emph> Elke tekenreeks."
 
 #: 03120309.xhp#hd_id3151041.10.help.text
 #: 03120309.xhp%23hd_id3151041.10.help.text
@@ -32341,8 +32356,8 @@ msgid ""
 msgstr ""
 "Roept een subroutine aan die met een label uit een subroutine of een functie "
 "wordt aangegeven. De instructies na de label worden uitgevoerd tot de "
-"volgende Return-instructie. Daarna gaat het programma verder met de "
-"instructie die op de <emph>GoSub</emph>-instructie volgt."
+"volgende instructie Return. Daarna gaat het programma verder met de "
+"instructie die op de instructie <emph>GoSub</emph> volgt."
 
 #: 03090301.xhp#hd_id3145609.3.help.text
 #: 03090301.xhp%23hd_id3145609.3.help.text
@@ -32580,7 +32595,7 @@ msgid ""
 "automatically reloaded if one of its functions is called. See also: <link "
 "href=\"text/sbasic/shared/03090403.xhp\" name=\"Declare\">Declare</link>"
 msgstr ""
-"Geeft DLL's vrij die geladen zijn door een Declare-instructie. Een "
+"Geeft DLL's vrij die geladen zijn door een instructie Declare. Een "
 "vrijgegeven DLL zal automatisch worden herladen als één van zijn functies "
 "wordt aangeroepen. Zie ook: <link href=\"text/sbasic/shared/03090403.xhp\" "
 "name=\"Declare\">Declare</link>"
@@ -32763,8 +32778,8 @@ msgstr ""
 #: 03120400.xhp%23par_id3159201.2.help.text
 msgid "The following functions determine string lengths and compare strings."
 msgstr ""
-"De volgende functies worden gebruikt om tekenreekslengte te bepalen en "
-"tekenreeksen te vergelijken."
+"De volgende functies worden gebruikt om lengtes van tekenreeksen te bepalen "
+"en tekenreeksen te vergelijken."
 
 #: 03120102.xhp#tit.help.text
 #: 03120102.xhp%23tit.help.text
@@ -32836,7 +32851,7 @@ msgid ""
 "printer or to another output source. You can also use it to insert quotation "
 "marks in a string expression."
 msgstr ""
-"De <emph>Chr$</emph>-functie wordt vaak gebruikt om speciale stuurcodes naar "
+"De functie <emph>Chr$</emph> wordt vaak gebruikt om speciale stuurcodes naar "
 "een printer of andere uitvoerbron te zenden. U kunt de functie ook gebruiken "
 "om aanhalingstekens in een tekenreeks in te voegen."
 
@@ -32945,12 +32960,12 @@ msgid ""
 "appropriate characters of the string are converted. If the string does not "
 "contain any numbers, the <emph>Val</emph> function returns the value 0."
 msgstr ""
-"Met gebruik van de Val-functie kunt u een tekenreeks die getallen voorstelt "
-"omzetten naar numerieke expressies. Dit is de afgeleide van de "
-"<emph>Str</emph>-functie. Als alleen een deel van de tekenreeks getallen "
-"bevat, worden alleen de eerste toepasselijke tekens van de tekenreeks "
+"Met gebruik van de functie Val kunt u een tekenreeks die getallen voorstelt "
+"omzetten naar numerieke expressies. Dit is de afgeleide van de functie "
+"<emph>Str</emph>. Als alleen een deel van de tekenreeks getallen bevat, "
+"worden alleen de eerste toepasselijke tekens van de tekenreeks "
 "geconverteerd. Als de tekenreeks helemaal geen getallen bevat, geeft de "
-"<emph>Val</emph>-functie de waarde 0 terug."
+"functie <emph>Val</emph> de waarde 0 terug."
 
 #: 03120104.xhp#hd_id3154365.10.help.text
 #: 03120104.xhp%23hd_id3154365.10.help.text
@@ -33016,8 +33031,8 @@ msgid ""
 "If you use a 32-Bit operating system, you cannot use the FileAttr-Function "
 "to determine the file access number."
 msgstr ""
-"Als u een besturingssysteem met een 32Bit-Versie gebruikt zal het niet "
-"mogelijk zijn om de FileAttr functie te gebruiken om het MS-DOS "
+"Als u een besturingssysteem met een 32bit-versie gebruikt zal het niet "
+"mogelijk zijn om de functie FileAttr te gebruiken om het MS-DOS "
 "bestandsattribuut te bepalen. In dat geval zult u altijd de waarde 0 als "
 "toegangsnummer krijgen."
 
@@ -33066,7 +33081,7 @@ msgid ""
 "Open statement."
 msgstr ""
 "<emph>BestandsNummer:</emph> Het nummer van het bestand dat geopend is met "
-"de Open-instructie."
+"de instructie Open."
 
 #: 03020405.xhp#par_id3144766.11.help.text
 #: 03020405.xhp%23par_id3144766.11.help.text
@@ -33237,7 +33252,7 @@ msgstr "Syntaxis:"
 #: 03030106.xhp#par_id3147229.4.help.text
 #: 03030106.xhp%23par_id3147229.4.help.text
 msgid "Year (Number)"
-msgstr "Year (Getal) "
+msgstr "Year (Getal)"
 
 #: 03030106.xhp#hd_id3154685.5.help.text
 #: 03030106.xhp%23hd_id3154685.5.help.text
@@ -33272,7 +33287,7 @@ msgid ""
 "This function is the opposite of the <emph>DateSerial </emph>function, and "
 "returns the year of a serial date. For example, the expression:"
 msgstr ""
-"Deze functie is het tegenovergestelde van de <emph>DateSerial</emph>-functie "
+"Deze functie is het tegenovergestelde van de functie <emph>DateSerial</emph> "
 "en geeft het jaar van een seriële datum terug. Bijvoorbeeld, de expressie"
 
 #: 03030106.xhp#par_id3154319.10.help.text
@@ -33283,7 +33298,7 @@ msgstr "Print Year(DateSerial(1994, 12, 20))"
 #: 03030106.xhp#par_id3149483.11.help.text
 #: 03030106.xhp%23par_id3149483.11.help.text
 msgid "returns the value 1994."
-msgstr "geeft de waarde 1994 terug."
+msgstr "de waarde 1994 terug."
 
 #: 03030106.xhp#hd_id3146985.12.help.text
 #: 03030106.xhp%23hd_id3146985.12.help.text
@@ -33408,7 +33423,7 @@ msgstr "Syntaxis:"
 #: 03020203.xhp#par_id3147229.4.help.text
 #: 03020203.xhp%23par_id3147229.4.help.text
 msgid "Line Input #FileNumber As Integer, Var As String "
-msgstr "Line Input #BestandsNummer As Integer, Var As String"
+msgstr "Line Input #BestandsNummer As Integer, Var As String "
 
 #: 03020203.xhp#hd_id3145173.5.help.text
 #: 03020203.xhp%23hd_id3145173.5.help.text
@@ -33442,9 +33457,9 @@ msgid ""
 "first carriage return (Asc=13) or linefeed (Asc=10). Line end marks are not "
 "included in the resulting string."
 msgstr ""
-"Met de <emph>Line Input#</emph>-instructie kunt u tekenreeksen uit een "
+"Met de instructie <emph>Line Input#</emph> kunt u tekenreeksen uit een "
 "geopend bestand in een variabele inlezen. Tekenreeksvariabelen worden regel-"
-"na-regel gelezen tot het eerste harde regeleinde (Asc=13) of regeleinde "
+"na-regel gelezen, tot het eerste harde regeleinde (Asc=13) of regeleinde "
 "(Asc=10). Regeleinde-tekens worden niet opgenomen in de resulterende "
 "tekenreeks."
 
@@ -33653,7 +33668,7 @@ msgstr ""
 #: 03101300.xhp%23par_id3145171.8.help.text
 msgctxt "03101300.xhp#par_id3145171.8.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101300.xhp#par_id3150767.9.help.text
 #: 03101300.xhp%23par_id3150767.9.help.text
@@ -33946,7 +33961,7 @@ msgstr ""
 
 #: 03120402.xhp#par_id3147576.2.help.text
 msgid "Returns the number of characters in a string."
-msgstr ""
+msgstr "Geeft het aantal tekens in een tekenreeks terug."
 
 #: 03120402.xhp#hd_id3159177.3.help.text
 #: 03120402.xhp%23hd_id3159177.3.help.text
@@ -33980,7 +33995,7 @@ msgstr "Parameters:"
 #: 03120402.xhp#par_id3147265.8.help.text
 msgctxt "03120402.xhp#par_id3147265.8.help.text"
 msgid "<emph>Text:</emph> Any string expression."
-msgstr ""
+msgstr "<emph>Tekst:</emph> Elke tekenreeks."
 
 #: 03120402.xhp#hd_id3153360.9.help.text
 #: 03120402.xhp%23hd_id3153360.9.help.text
@@ -34580,8 +34595,8 @@ msgid ""
 "<emph>Number:</emph> Numeric expression that determines the value that is "
 "returned by the function."
 msgstr ""
-"<emph>Getal:</emph> Numerieke expressie die de waarde die door de functie is "
-"teruggegeven, bepaalt."
+"<emph>Getal:</emph> Numerieke expressie die de waarde, die door de functie "
+"is teruggegeven, bepaalt."
 
 #: 03080701.xhp#par_id3150767.9.help.text
 #: 03080701.xhp%23par_id3150767.9.help.text
@@ -34683,7 +34698,7 @@ msgid ""
 "statement sets the default variable type, according to a letter range."
 msgstr ""
 "Als er geen type-aanduidingsteken of sleutelwoord gespecificeerd is, wordt "
-"met de DefErr-instructie het standaardtype variabele ingesteld, volgens een "
+"met de instructie DefErr het standaardtype variabele ingesteld, volgens een "
 "letterbereik."
 
 #: 03101120.xhp#par_idN10590.help.text
@@ -34726,7 +34741,7 @@ msgstr ""
 #: 03101120.xhp%23par_idN105A9.help.text
 msgctxt "03101120.xhp#par_idN105A9.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabelee"
+msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
 
 #: 03101120.xhp#par_idN105B0.help.text
 #: 03101120.xhp%23par_idN105B0.help.text
@@ -34982,8 +34997,7 @@ msgstr "If sTemp = \"\" Then sTemp=Environ(\"TMP\")"
 #: 03130800.xhp#par_id3145419.15.help.text
 #: 03130800.xhp%23par_id3145419.15.help.text
 msgid "MsgBox \"'\" & sTemp & \"'\" ,64,\"Directory of temporary files:\""
-msgstr ""
-"MsgBox \"'\" & sTemp & \"'\" ,64,\"Directory voor tijdelijke bestanden:\""
+msgstr "MsgBox \"'\" & sTemp & \"'\" ,64,\"Map voor tijdelijke bestanden:\""
 
 #: 03130800.xhp#par_id3154124.16.help.text
 #: 03130800.xhp%23par_id3154124.16.help.text
@@ -35242,7 +35256,7 @@ msgstr ""
 #: 03020401.xhp#par_id3153126.2.help.text
 #: 03020401.xhp%23par_id3153126.2.help.text
 msgid "Changes the current directory or drive."
-msgstr "Wijzigt de huidige directory of schijf."
+msgstr "Wijzigt de huidige map of schijf."
 
 #: 03020401.xhp#par_id9783013.help.text
 #: 03020401.xhp%23par_id9783013.help.text
@@ -35278,7 +35292,7 @@ msgid ""
 "<emph>Text:</emph> Any string expression that specifies the directory path "
 "or drive."
 msgstr ""
-"<emph>Tekst:</emph> Elke tekenreeks die het directorypad of de schijf "
+"<emph>Tekst:</emph> Elke tekenreeks die het pad voor de map of de schijf "
 "specificeert."
 
 #: 03020401.xhp#par_id3152598.7.help.text
@@ -35484,9 +35498,9 @@ msgid ""
 "the expression:"
 msgstr ""
 "Deze functie is het tegenovergestelde van <emph>TimeSerial</emph>. Het geeft "
-"de minuut terug uit een gespecificeerde seriële tijdwaarde die gegenereerd "
-"is door <emph>TimeSerial</emph>- of <emph>TimeValue</emph>-functie. Daarom "
-"geeft de uitdrukking"
+"de minuut terug uit een gespecificeerde seriële tijdswaarde die gegenereerd "
+"is door de functies <emph>TimeSerial</emph> of <emph>TimeValue</emph>. "
+"Daarom geeft de uitdrukking"
 
 #: 03030202.xhp#par_id3149262.10.help.text
 #: 03030202.xhp%23par_id3149262.10.help.text
@@ -35496,7 +35510,7 @@ msgstr "Print Minute(TimeSerial(12,30,41))"
 #: 03030202.xhp#par_id3148576.11.help.text
 #: 03030202.xhp%23par_id3148576.11.help.text
 msgid "returns the value 30."
-msgstr "geeft de waarde 30 terug."
+msgstr "de waarde 30 terug."
 
 #: 03030202.xhp#hd_id3150010.12.help.text
 #: 03030202.xhp%23hd_id3150010.12.help.text
@@ -35523,7 +35537,7 @@ msgstr "End Sub"
 #: 03080100.xhp#tit.help.text
 #: 03080100.xhp%23tit.help.text
 msgid "Trigonometric Functions"
-msgstr "Trigonometrische Functies"
+msgstr "Trigonometrische functies"
 
 #: 03080100.xhp#hd_id3159201.1.help.text
 #: 03080100.xhp%23hd_id3159201.1.help.text
@@ -35821,9 +35835,9 @@ msgid ""
 "function</emph>), or replaces the portion of a string expression with "
 "another string (<emph>Mid statement</emph>)."
 msgstr ""
-"Geeft het gespecificeerde deel van een tekenreeks (<emph>Mid-functie</emph>)"
-", of vervangt het deel van een tekenreeks door een andere tekenreeks (<emph"
-">Mid-instructie</emph>)."
+"Geeft het gespecificeerde deel van een tekenreeks (<emph>functie Mid</emph>)"
+", of vervangt het deel van een tekenreeks door een andere tekenreeks (<emph>"
+"instructie Mid</emph>)."
 
 #: 03120306.xhp#hd_id3154285.3.help.text
 #: 03120306.xhp%23hd_id3154285.3.help.text
@@ -35869,9 +35883,9 @@ msgid ""
 "within the string where the string portion that you want to replace or to "
 "return begins. The maximum allowed value is 65535."
 msgstr ""
-"<emph>Start: </emph>Numerieke expressie die binnen de tekenreeks de "
-"tekenpositie aangeeft waar het tekenreeksdeel begint dat u wilt vervangen of "
-"retourneren. Hoogste toegestane waarde is 65535."
+"<emph>Start:</emph> Numerieke expressie die binnen de tekenreeks de "
+"tekenpositie aangeeft waar het deel van de tekenreeks begint dat u wilt "
+"vervangen of retourneren. Hoogste toegestane waarde is 65535."
 
 #: 03120306.xhp#par_id3148451.10.help.text
 #: 03120306.xhp%23par_id3148451.10.help.text
@@ -35890,7 +35904,7 @@ msgid ""
 "characters in the string expression from the start position to the end of "
 "the string are returned."
 msgstr ""
-"Als de Lengte-parameter in de <emph>Mid-functie</emph> wordt weggelaten, "
+"Als de parameter Lengte in de <emph>functie Mid</emph> wordt weggelaten, "
 "worden alle tekens in de tekenreeks vanaf de beginpositie tot het einde van "
 "de tekenreeks teruggegeven."
 
@@ -35901,7 +35915,7 @@ msgid ""
 "length of the text that you want to replace, the text is reduced to the "
 "specified length."
 msgstr ""
-"Als de Lengte-parameter in de <emph>Mid-instructie</emph> kleiner is dan de "
+"Als de parameter Lengte in de <emph>instructie Mid</emph> kleiner is dan de "
 "lengte van de tekst die moet worden vervangen, zal de tekst worden ingekort "
 "tot de gespecificeerde lengte."
 
@@ -36035,7 +36049,7 @@ msgstr ""
 msgid ""
 "Returns the base of the natural logarithm (e = 2.718282) raised to a power."
 msgstr ""
-"Geeft de basis van het natuurlijke logaritme (e = 2.718282) verhoogd tot een "
+"Geeft de basis van de natuurlijke logaritme (e = 2.718282) verhoogd tot een "
 "macht."
 
 #: 03080201.xhp#hd_id3150984.3.help.text
@@ -36272,7 +36286,7 @@ msgstr ""
 #: 03101130.xhp%23par_idN105A3.help.text
 msgctxt "03101130.xhp#par_idN105A3.help.text"
 msgid "<emph>Keyword:</emph> Default variable type"
-msgstr "<emph>Sleutelwoord: </emph> Standaardtype variabele"
+msgstr "<emph>Sleutelwoord:</emph> Standaardtype variabele"
 
 #: 03101130.xhp#par_idN105AA.help.text
 #: 03101130.xhp%23par_idN105AA.help.text
@@ -36440,7 +36454,7 @@ msgid ""
 "The AND operator also performs a bitwise comparison of identically "
 "positioned bits in two numeric expressions."
 msgstr ""
-"De And operator voert ook een bit-gewijze vergelijking uit van identiek "
+"De And-operator voert ook een bit-gewijze vergelijking uit van identiek "
 "geplaatste bits in twee numerieke expressies."
 
 #: 03060100.xhp#hd_id3153727.11.help.text
@@ -36583,8 +36597,8 @@ msgid ""
 msgstr ""
 "Deze functie is in principe het omgekeerde van de functie DateSerial en "
 "geeft de dag van de maand uit een serieel datumgetal terug dat gegenereerd "
-"is met de functies <emph>DateSerial-</emph> of <emph>DateValue-</emph>. "
-"Daarom geeft de uitdrukking"
+"is met de functies <emph>DateSerial</emph> of <emph>DateValue</emph>. Daarom "
+"geeft de uitdrukking"
 
 #: 03030103.xhp#par_id3145364.10.help.text
 #: 03030103.xhp%23par_id3145364.10.help.text
@@ -36895,7 +36909,7 @@ msgstr "\"*\"-operator [Runtime]"
 #: 03070200.xhp#bm_id3147573.help.text
 #: 03070200.xhp%23bm_id3147573.help.text
 msgid "<bookmark_value>\"*\" operator (mathematical)</bookmark_value>"
-msgstr "<bookmark_value>'*' operator (wiskundig)</bookmark_value>"
+msgstr "<bookmark_value>\"*\"-operator (wiskundig)</bookmark_value>"
 
 #: 03070200.xhp#hd_id3147573.1.help.text
 #: 03070200.xhp%23hd_id3147573.1.help.text
@@ -36903,7 +36917,7 @@ msgid ""
 "<link href=\"text/sbasic/shared/03070200.xhp\">\"*\" Operator "
 "[Runtime]</link>"
 msgstr ""
-"<link href=\"text/sbasic/shared/03070200.xhp\">\"*\" Operator "
+"<link href=\"text/sbasic/shared/03070200.xhp\">\"*\"-operator "
 "[Runtime]</link>"
 
 #: 03070200.xhp#par_id3154347.2.help.text
@@ -37158,10 +37172,10 @@ msgid ""
 "reached, EOF returns the value \"True\" (-1)."
 msgstr ""
 "Gebruik EOF om fouten te vermijden wanneer geprobeerd wordt invoer voorbij "
-"het einde van een bestand in te voeren. Als de Input- of Get-instructie "
-"wordt gebruikt om te lezen uit een bestand, gaat de bestandsaanwijzer "
-"vooruit door het aantal gelezen bytes. Als het einde van het bestand wordt "
-"bereikt, geeft EOF de waarde Waar (-1)."
+"het einde van een bestand in te voeren. Als de instructie Input of Get wordt "
+"gebruikt om te lezen uit een bestand, gaat de bestandsaanwijzer vooruit door "
+"het aantal gelezen bytes. Als het einde van het bestand wordt bereikt, geeft "
+"EOF de waarde Waar (-1)."
 
 #: 03020301.xhp#hd_id3154046.10.help.text
 #: 03020301.xhp%23hd_id3154046.10.help.text

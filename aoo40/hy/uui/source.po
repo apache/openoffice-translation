@@ -5,8 +5,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:45+0000\n"
-"PO-Revision-Date: 2021-04-05 09:34+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
+"PO-Revision-Date: 2023-03-01 07:42+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -17,46 +17,119 @@ msgstr ""
 "X-Accelerator-Marker: ~\n"
 "X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
-"X-POOTLE-MTIME: 1617615265.000000\n"
+"X-POOTLE-MTIME: 1677656545.000000\n"
 
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
-msgid "Enter password to open file: \n"
-msgstr "Նիշքը բացելու համար մուտքագրեք գաղտնաբառը: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
-msgid "Enter password to modify file: \n"
-msgstr "Նիշքը ձևափոխելու համար մուտքագրեք գաղտնաբառը: \n"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
-msgid "Enter password: "
-msgstr "Մուտքագրեք գաղտնաբառը: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
-msgid "Confirm password: "
-msgstr "Հաստատեք գաղտնաբառը: "
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
-msgid "Set Password"
-msgstr "Սահմանեք գաղտնաբառը"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
-msgid "Enter Password"
-msgstr "Մուտքագրեք գաղտնաբառը"
-
-#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
-#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 msgid ""
-"The confirmation password did not match the password. Set the password again "
-"by entering the same password in both boxes."
+"Passwords for web connections are protected by a master password. You will "
+"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
+"from the protected password list."
 msgstr ""
-"Հաստատման գաղտնաբառը չի համապատասխանում գաղտնաբառին: Նորից ստեղծեք "
-"գաղտնաբառը, երկու վանդակներում էլ նույն գաղտնաբառը մուտքագրելով:"
+"Ոստայնի կապի համար գաղտնաբառերը պաշտպանված են վարպետ գաղտնաբառով: Ձեզանից "
+"կպահանջվի մուտքագրել այն մեկ անգամ մեկ կապի համար, եթե %PRODUCTNAME -ը "
+"վերցնում է գաղտնաբառը պաշտպանված գաղտնաբառի ցուցակից:"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
+msgid "~Enter password"
+msgstr "~Մուտքագրեք գաղտնաբառը"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
+msgid "~Reenter password"
+msgstr "~Կրկին մուտքագրեք գաղտնաբառը"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
+msgid ""
+"Caution: If you forget the master password, you will be unable to access any "
+"of the information protected by it. Passwords are case-sensitive."
+msgstr ""
+"Ուշադրություն. Եթե մոռանաս վարպետի գաղտնաբառը, ապա չեք կարողանա օգտվել նրա "
+"կողմից պաշտպանված տեղեկատվությունից: Գաղտնաբառերը ընտրությանը զգայուն են:"
+
+#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
+msgid "Set Master Password"
+msgstr "Տեղադրի վարպետ գաղտնաբառը"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "Examine Certificate..."
+msgstr "Ուսումնասիրեք վկայականը․․․"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
+msgid "Help"
+msgstr "Օգնություն"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
+msgid "OK"
+msgstr "ԼԱՎ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
+msgid "Accept this certificate temporarily for this session"
+msgstr "Ընդունեք այս վկայագիրը ժամանակավորապես այս կապի համար"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
+msgid "Do not accept this certificate and do not connect to this Web site"
+msgstr "Մի ընդունեք այս վկայագիրը և մի միացեք ոստայնի այս կայքին"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
+msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Չկա տեքստ"
+
+#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
+#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
+msgid "Website Certified by an Unknown Authority"
+msgstr "Կայքը վկայագրված անհայտ պաշտոնյայի կողմից"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
+msgid "Replace"
+msgstr "Փոխարինել"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
+msgid "Rename"
+msgstr "Անվանափոխել"
+
+#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
+#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
+msgid "File Exists"
+msgstr "Նիշքը առկա է"
+
+#: filechanged.src#STR_FILECHANGED_TITLE.string.text
+#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
+msgid "Document Has Been Changed by Others"
+msgstr "Փաստաթուղթը փոխվել է ուրիշների կողմից"
+
+#: filechanged.src#STR_FILECHANGED_MSG.string.text
+#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+msgid ""
+"The file has been changed since it was opened for editing in %PRODUCTNAME. "
+"Saving your version of the document will overwrite changes made by others.\n"
+"\n"
+"Do you want to save anyway?\n"
+"\n"
+msgstr ""
+"Նիշքը փոխվել է, քանի որ այն բացվել է %PRODUCTNAME -ում խմբագրվելու համար: "
+"Փաստաթղթի ձեր տարբերակը հիշելը կվերագրվի ուրիշների կողմից կատարված "
+"փոփոխությունները:\n"
+"\n"
+"Ցանկանու՞մ եք ամեն դեպքում հիշել։\n"
+"\n"
+
+#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
+msgid "~Save Anyway"
+msgstr "~Հիշիր ամեն դեպքում"
 
 #: ids.src#RID_KEEP_PASSWORD.string.text
 #: ids.src%23RID_KEEP_PASSWORD.string.text
@@ -100,24 +173,22 @@ msgid "Target already exists."
 msgstr "Թիրախն արդեն առկա է։"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
-#: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_MODULESIZEEXCEEDED___ERRCODE_RES_MASK_.string.text
 msgid ""
-"You are about to save/export a password protected basic library containing "
-"module(s) \n"
+"You are about to save/export a password protected BASIC library containing "
+"module(s)\n"
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't "
 "have access to the library password to be able to run macros in those "
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
-"Դու պետք է հիշես/արտահանես գաղտնաբառով պաշտպանված հիմնական գրադարան, որը "
-"պարունակում է մոդուլ(ներ) \n"
+"Դուք պատրաստվում եք պահպանել/արտահանել գաղտնաբառով պաշտպանված BASIC "
+"գրադարան, որը պարունակում է մոդուլ(ներ)\n"
 "$(ARG1)\n"
-"որոնք չափազանց մեծ են պահելու երկուական ձևաչափով: Եթե ցանկանում եք, որ այն "
-"օգտվողները, ովքեր չունեն գրադարանային գաղտնաբառ հնարավորություն ունենան "
-"աշխատեցնելու մակրոները այդ մոդուլ(ներ)ում, դուք պետք է բաժանեք այդ "
-"մոդուլները մի քանի փոքր մոդուլների: Ցանկանու?մ եք շարունակել հիշել/արտահանել "
-"այս գրադարանը:"
+"որոնք չափազանց մեծ են երկուական ձևաչափով պահելու համար: Եթե ցանկանում եք, որ "
+"գրադարանի գաղտնաբառին մուտք չունեցող օգտվողները կարողանան մակրոներ գործարկել "
+"այդ մոդուլ(ներ)ում, դուք պետք է բաժանեք այդ մոդուլները մի քանի փոքր "
+"մոդուլների: Ցանկանու՞մ եք շարունակել պահպանել/արտահանել այս գրադարանը:"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -590,268 +661,6 @@ msgstr "Մուտքագրեք գաղտնաբառը"
 msgid "Enter Master Password"
 msgstr "Մուտքագրեք վարպետ գաղտնաբառը"
 
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
-msgid ""
-"Passwords for web connections are protected by a master password. You will "
-"be asked to enter it once per session, if %PRODUCTNAME retrieves a password "
-"from the protected password list."
-msgstr ""
-"Ոստայնի կապի համար գաղտնաբառերը պաշտպանված են վարպետ գաղտնաբառով: Ձեզանից "
-"կպահանջվի մուտքագրել այն մեկ անգամ մեկ կապի համար, եթե %PRODUCTNAME -ը "
-"վերցնում է գաղտնաբառը պաշտպանված գաղտնաբառի ցուցակից:"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_CRT.fixedtext.text
-msgid "~Enter password"
-msgstr "~Մուտքագրեք գաղտնաբառը"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_MASTERPASSWORD_REPEAT.fixedtext.text
-msgid "~Reenter password"
-msgstr "~Կրկին մուտքագրեք գաղտնաբառը"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_CAUTIONTEXT.fixedtext.text
-msgid ""
-"Caution: If you forget the master password, you will be unable to access any "
-"of the information protected by it. Passwords are case-sensitive."
-msgstr ""
-"Ուշադրություն. Եթե մոռանաս վարպետի գաղտնաբառը, ապա չեք կարողանա օգտվել նրա "
-"կողմից պաշտպանված տեղեկատվությունից: Գաղտնաբառերը ընտրությանը զգայուն են:"
-
-#: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-#: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.modaldialog.text
-msgid "Set Master Password"
-msgstr "Տեղադրի վարպետ գաղտնաբառը"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_OVERWRITE.pushbutton.text
-msgid "Replace"
-msgstr "Փոխարինել"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.BTN_RENAME.pushbutton.text
-msgid "Rename"
-msgstr "Անվանափոխել"
-
-#: nameclashdlg.src#DLG_SIMPLE_NAME_CLASH.modaldialog.text
-#: nameclashdlg.src%23DLG_SIMPLE_NAME_CLASH.modaldialog.text
-msgid "File Exists"
-msgstr "Նիշքը առկա է"
-
-#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
-#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
-msgid "Filter Selection"
-msgstr "Զտիչի ընտրություն"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "Examine Certificate..."
-msgstr "Ուսումնասիրեք վկայականը․․․"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_HELP.helpbutton.text
-msgid "Help"
-msgstr "Օգնություն"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.PB_OK.pushbutton.text
-msgid "OK"
-msgstr "ԼԱՎ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_ACCEPT_1.radiobutton.text
-msgid "Accept this certificate temporarily for this session"
-msgstr "Ընդունեք այս վկայագիրը ժամանակավորապես այս կապի համար"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.RB_DONTACCEPT_2.radiobutton.text
-msgid "Do not accept this certificate and do not connect to this Web site"
-msgstr "Մի ընդունեք այս վկայագիրը և մի միացեք ոստայնի այս կայքին"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text
-msgctxt "unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Չկա տեքստ"
-
-#: unknownauthdlg.src#DLG_UUI_UNKNOWNAUTH.modaldialog.text
-#: unknownauthdlg.src%23DLG_UUI_UNKNOWNAUTH.modaldialog.text
-msgid "Website Certified by an Unknown Authority"
-msgstr "Կայքը վկայագրված անհայտ պաշտոնյայի կողմից"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
-msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
-msgid "No Text"
-msgstr "Չկա տեքստ"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
-msgid "View Certificate"
-msgstr "Դիտւր վկայագիրը"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
-msgid "Cancel Connection"
-msgstr "Չեղարկել միացումը"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
-msgid "Continue"
-msgstr "Շարունակել"
-
-#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
-#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
-msgid "Security Warning: "
-msgstr "Անվտանգության զգուշացում։ "
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
-msgid "Message from server:"
-msgstr "Հաղորդագրություն կայանից։"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
-msgid ""
-"Enter user name and password for: \n"
-"%1"
-msgstr ""
-"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
-"%1"
-
-#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
-msgid ""
-"Enter user name and password for: \n"
-"\"%2\" on %1"
-msgstr ""
-"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
-"\"%2\" on %1"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
-msgid "~Path"
-msgstr "~Ուղի"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
-msgid "~User name"
-msgstr "~Օգտվողի անուն"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
-msgid "Pass~word"
-msgstr "Գաղտ~նաբառ"
-
-#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
-msgid "A~ccount"
-msgstr "Հ~աշիվ"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
-msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
-msgid "~Remember password"
-msgstr "~Հիշիր գաղտնաբառը"
-
-#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
-msgid "~Use system credentials"
-msgstr "~Օգտագործեք համակարգային հավատարմագրերը"
-
-#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
-#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
-msgid "Authentication Required"
-msgstr "Պահանջվում է նույնականացում"
-
-#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
-#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
-msgid "Document in Use"
-msgstr "Փաստաթուղթը օգտագործման մեջ է"
-
-#: openlocked.src#STR_OPENLOCKED_MSG.string.text
-#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Open document read-only or open a copy of the document for editing.\n"
-"\n"
-msgstr ""
-"Փաստաթղթային '$(ARG1)' նիշքը կողպված է խմբագրման համար այս անձի կողմից։\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Բացիր փաստաթուղթը որպես միայն կարդալու, կամ  խմբագրման համար բացիր փաստաթղթի "
-"պատճենը։\n"
-"\n"
-
-#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
-msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Բացիր ~միայն կարադալ"
-
-#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
-#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
-msgid "Open ~Copy"
-msgstr "Բացեք ~պատճենը"
-
-#: openlocked.src#STR_UNKNOWNUSER.string.text
-#: openlocked.src%23STR_UNKNOWNUSER.string.text
-msgid "Unknown User"
-msgstr "Անհայտ օգտվող"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
-msgid "The document contains document macros signed by:"
-msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ, ստորագրված։"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
-msgid "The document contains document macros."
-msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ։"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
-msgid "View Signatures..."
-msgstr "Դիտիրր ստորագրությունները․․․"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
-msgid ""
-"Macros may contain viruses. Disabling macros for a document is always safe. "
-"If you disable macros you may lose functionality provided by the document "
-"macros."
-msgstr ""
-"Մակրոները կարող են պարունակել վիրուսներ: Փաստաթղթի մակրոներ անջատելը միշտ էլ "
-"ապահով է: Եթե դուք անջատեք մակրոները, կարող եք կորցնել փաստաթղթի մակրոների "
-"կողմից տրամադրած ֆունկցիոնալությունը:"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
-msgid "Always trust macros from this source"
-msgstr "Միշտ վստահիր այս աղբյուրի մակրոներին"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
-msgid "~Enable Macros"
-msgstr "~Թույլատրեք մակրոները"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
-msgid "~Disable Macros"
-msgstr "~Արգելեք մակրոները"
-
-#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
-#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
-msgid "%PRODUCTNAME - Security Warning"
-msgstr "%PRODUCTNAME - անվտանգության զգուշացում"
-
 #: trylater.src#STR_TRYLATER_TITLE.string.text
 #: trylater.src%23STR_TRYLATER_TITLE.string.text
 msgctxt "trylater.src#STR_TRYLATER_TITLE.string.text"
@@ -887,115 +696,44 @@ msgstr "~Կրկնիր հիշելը"
 msgid "~Save As..."
 msgstr "~Հիշիր որպես․․․"
 
-#: filechanged.src#STR_FILECHANGED_TITLE.string.text
-#: filechanged.src%23STR_FILECHANGED_TITLE.string.text
-msgid "Document Has Been Changed by Others"
-msgstr "Փաստաթուղթը փոխվել է ուրիշների կողմից"
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_OPEN.string.text
+msgid "Enter password to open file: \n"
+msgstr "Նիշքը բացելու համար մուտքագրեք գաղտնաբառը: \n"
 
-#: filechanged.src#STR_FILECHANGED_MSG.string.text
-#: filechanged.src%23STR_FILECHANGED_MSG.string.text
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_PASSWORD_TO_MODIFY.string.text
+msgid "Enter password to modify file: \n"
+msgstr "Նիշքը ձևափոխելու համար մուտքագրեք գաղտնաբառը: \n"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_ENTER_SIMPLE_PASSWORD.string.text
+msgid "Enter password: "
+msgstr "Մուտքագրեք գաղտնաբառը: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_CONFIRM_SIMPLE_PASSWORD.string.text
+msgid "Confirm password: "
+msgstr "Հաստատեք գաղտնաբառը: "
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_CREATE_PASSWORD.string.text
+msgid "Set Password"
+msgstr "Սահմանեք գաղտնաբառը"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_TITLE_ENTER_PASSWORD.string.text
+msgid "Enter Password"
+msgstr "Մուտքագրեք գաղտնաբառը"
+
+#: passworddlg.src#DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
+#: passworddlg.src%23DLG_UUI_PASSWORD.STR_PASSWORD_MISMATCH.string.text
 msgid ""
-"The file has been changed since it was opened for editing in %PRODUCTNAME. "
-"Saving your version of the document will overwrite changes made by others.\n"
-"\n"
-"Do you want to save anyway?\n"
-"\n"
+"The confirmation password did not match the password. Set the password again "
+"by entering the same password in both boxes."
 msgstr ""
-"Նիշքը փոխվել է, քանի որ այն բացվել է %PRODUCTNAME -ում խմբագրվելու համար: "
-"Փաստաթղթի ձեր տարբերակը հիշելը կվերագրվի ուրիշների կողմից կատարված "
-"փոփոխությունները:\n"
-"\n"
-"Ցանկանու՞մ եք ամեն դեպքում հիշել։\n"
-"\n"
-
-#: filechanged.src#STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-#: filechanged.src%23STR_FILECHANGED_SAVEANYWAY_BTN.string.text
-msgid "~Save Anyway"
-msgstr "~Հիշիր ամեն դեպքում"
-
-#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Open document read-only, or ignore own file locking and open the document "
-"for editing.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
-"է սկսած $(ARG2)\n"
-"\n"
-"Բացեք միայն կարդալու փաստաթուղթը կամ անտեսեք սեփական նիշքի կողպումը և բացեք "
-"փաստաթուղթը խմբագրելու համար:\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
-msgid "Open ~Read-Only"
-msgstr "Բացեք ~Կարդալ միայն"
-
-#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
-msgid "~Open"
-msgstr "~Բացեք"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
-msgid ""
-"Document file '$(ARG1)' is locked for editing by yourself on a different "
-"system since $(ARG2)\n"
-"\n"
-"Close document on other system and retry saving or ignore own file locking "
-"and save current document.\n"
-"\n"
-msgstr ""
-"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
-"է սկսած $(ARG2)\n"
-"\n"
-"Փակեք փաստաթուղթը այլ համակարգում և կրկին փորձեք պահպանելը, կամ անտեսեք "
-"սեփական նիշքի կողպումը և պահպանեք ընթացիկ փաստաթուղթը:\n"
-"\n"
-
-#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
-msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
-msgid "~Retry Saving"
-msgstr "~Կրկնեք հիշելը"
-
-#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
-#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
-msgid "~Save"
-msgstr "~Հիշել"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
-msgid ""
-"This document uses an unsupported version of the Open Document Format. Some "
-"features may not be displayed correctly.\n"
-"\n"
-"Click 'Update Now' to run online update and see if there is a new version of "
-"%PRODUCTNAME available."
-msgstr ""
-"Այս փաստաթուղթն օգտագործում է Բաց փաստաթղթի ձևաչափի չաջակցվող տարբերակը: "
-"Որոշ առանձնահատկություններ կարող են ճիշտ չցուցադրվել:\n"
-"\n"
-"Սեղմեք «Թարմացնել հիմա»՝ առցանց թարմացումը գործարկելու համար և տեսնելու "
-"համար, թե արդյոք առկա է %PRODUCTNAME -ի նոր տարբերակ:"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
-msgid "~Update Now..."
-msgstr "~Թարմացրու հիմա․․․"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
-msgid "~Later"
-msgstr "~Ավելի ուշ"
-
-#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
-msgid "ODF Version Conflict"
-msgstr "ODF վարկածի կոնֆլիկտ"
+"Հաստատման գաղտնաբառը չի համապատասխանում գաղտնաբառին: Նորից ստեղծեք "
+"գաղտնաբառը, երկու վանդակներում էլ նույն գաղտնաբառը մուտքագրելով:"
 
 #: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
 #: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
@@ -1015,31 +753,6 @@ msgstr ""
 #: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
 msgid "~Do not show this message again"
 msgstr "~Այս հաղորդագրությունն այլևս ցույց չտալ"
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
-msgid "The password is incorrect. The file cannot be opened."
-msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող բացվել:"
-
-#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
-msgid "The password is incorrect. The file cannot be modified."
-msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող ձևափոխվել:"
-
-#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
-msgid "The master password is incorrect."
-msgstr "Վարպետ գաղտնաբառը սխալ է։"
-
-#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
-msgid "The password is incorrect."
-msgstr "Գաղտնաբառը սխալ է։"
-
-#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
-msgid "The password confirmation does not match."
-msgstr "Գաղտնաբառի հաստատումը չի համապատասխանում:"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 #: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
@@ -1146,3 +859,288 @@ msgstr "Դոմեյն: ${DOMAIN}, Ուղի: ${PATH}, Cookie: ${COOKIE}.\n"
 #: cookiedg.src%23STR_COOKIES_SEND_TITLE.string.text
 msgid "Send Cookies"
 msgstr "Ուղարկիր քուկիներ"
+
+#: fltdlg.src#DLG_FILTER_SELECT.modaldialog.text
+#: fltdlg.src%23DLG_FILTER_SELECT.modaldialog.text
+msgid "Filter Selection"
+msgstr "Զտիչի ընտրություն"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_OPEN_WRONG.string.text
+msgid "The password is incorrect. The file cannot be opened."
+msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող բացվել:"
+
+#: passworderrs.src#STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORD_TO_MODIFY_WRONG.string.text
+msgid "The password is incorrect. The file cannot be modified."
+msgstr "Գաղտնաբառը սխալ է: Նիշքը չի կարող ձևափոխվել:"
+
+#: passworderrs.src#STR_ERROR_MASTERPASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_MASTERPASSWORD_WRONG.string.text
+msgid "The master password is incorrect."
+msgstr "Վարպետ գաղտնաբառը սխալ է։"
+
+#: passworderrs.src#STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+#: passworderrs.src%23STR_ERROR_SIMPLE_PASSWORD_WRONG.string.text
+msgid "The password is incorrect."
+msgstr "Գաղտնաբառը սխալ է։"
+
+#: passworderrs.src#STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+#: passworderrs.src%23STR_ERROR_PASSWORDS_NOT_IDENTICAL.string.text
+msgid "The password confirmation does not match."
+msgstr "Գաղտնաբառի հաստատումը չի համապատասխանում:"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ERROR.fixedtext.text
+msgid "Message from server:"
+msgstr "Հաղորդագրություն կայանից։"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_INFO_LOGIN_REQUEST.fixedtext.text
+msgid ""
+"Enter user name and password for: \n"
+"%1"
+msgstr ""
+"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
+"%1"
+
+#: logindlg.src#DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+#: logindlg.src%23DLG_UUI_LOGIN.STR_LOGIN_REALM.string.text
+msgid ""
+"Enter user name and password for: \n"
+"\"%2\" on %1"
+msgstr ""
+"Մուտքագրեք օգտվողի անունը և գաղտնաբառը: \n"
+"\"%2\" on %1"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PATH.fixedtext.text
+msgid "~Path"
+msgstr "~Ուղի"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_USERNAME.fixedtext.text
+msgid "~User name"
+msgstr "~Օգտվողի անուն"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_PASSWORD.fixedtext.text
+msgid "Pass~word"
+msgstr "Գաղտ~նաբառ"
+
+#: logindlg.src#DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+#: logindlg.src%23DLG_UUI_LOGIN.FT_LOGIN_ACCOUNT.fixedtext.text
+msgid "A~ccount"
+msgstr "Հ~աշիվ"
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text
+msgctxt "logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_SAVEPASSWORD.checkbox.text"
+msgid "~Remember password"
+msgstr "~Հիշիր գաղտնաբառը"
+
+#: logindlg.src#DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+#: logindlg.src%23DLG_UUI_LOGIN.CB_LOGIN_USESYSCREDS.checkbox.text
+msgid "~Use system credentials"
+msgstr "~Օգտագործեք համակարգային հավատարմագրերը"
+
+#: logindlg.src#DLG_UUI_LOGIN.modaldialog.text
+#: logindlg.src%23DLG_UUI_LOGIN.modaldialog.text
+msgid "Authentication Required"
+msgstr "Պահանջվում է նույնականացում"
+
+#: openlocked.src#STR_OPENLOCKED_TITLE.string.text
+#: openlocked.src%23STR_OPENLOCKED_TITLE.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_TITLE.string.text"
+msgid "Document in Use"
+msgstr "Փաստաթուղթը օգտագործման մեջ է"
+
+#: openlocked.src#STR_OPENLOCKED_MSG.string.text
+#: openlocked.src%23STR_OPENLOCKED_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by:\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Open document read-only or open a copy of the document for editing.\n"
+"\n"
+msgstr ""
+"Փաստաթղթային '$(ARG1)' նիշքը կողպված է խմբագրման համար այս անձի կողմից։\n"
+"\n"
+"$(ARG2)\n"
+"\n"
+"Բացիր փաստաթուղթը որպես միայն կարդալու, կամ  խմբագրման համար բացիր փաստաթղթի "
+"պատճենը։\n"
+"\n"
+
+#: openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENREADONLY_BTN.string.text
+msgctxt "openlocked.src#STR_OPENLOCKED_OPENREADONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Բացիր ~միայն կարադալ"
+
+#: openlocked.src#STR_OPENLOCKED_OPENCOPY_BTN.string.text
+#: openlocked.src%23STR_OPENLOCKED_OPENCOPY_BTN.string.text
+msgid "Open ~Copy"
+msgstr "Բացեք ~պատճենը"
+
+#: openlocked.src#STR_UNKNOWNUSER.string.text
+#: openlocked.src%23STR_UNKNOWNUSER.string.text
+msgid "Unknown User"
+msgstr "Անհայտ օգտվող"
+
+#: alreadyopen.src#STR_ALREADYOPEN_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Open document read-only, or ignore own file locking and open the document "
+"for editing.\n"
+"\n"
+msgstr ""
+"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
+"է սկսած $(ARG2)\n"
+"\n"
+"Բացեք միայն կարդալու փաստաթուղթը կամ անտեսեք սեփական նիշքի կողպումը և բացեք "
+"փաստաթուղթը խմբագրելու համար:\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_READONLY_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_READONLY_BTN.string.text"
+msgid "Open ~Read-Only"
+msgstr "Բացեք ~Կարդալ միայն"
+
+#: alreadyopen.src#STR_ALREADYOPEN_OPEN_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_OPEN_BTN.string.text
+msgid "~Open"
+msgstr "~Բացեք"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_MSG.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_MSG.string.text
+msgid ""
+"Document file '$(ARG1)' is locked for editing by yourself on a different "
+"system since $(ARG2)\n"
+"\n"
+"Close document on other system and retry saving or ignore own file locking "
+"and save current document.\n"
+"\n"
+msgstr ""
+"'$(ARG1)' փաստաթղթի նիշքը խմբագրման համար այլլ համակարգից ձեր կողմից կողպված "
+"է սկսած $(ARG2)\n"
+"\n"
+"Փակեք փաստաթուղթը այլ համակարգում և կրկին փորձեք պահպանելը, կամ անտեսեք "
+"սեփական նիշքի կողպումը և պահպանեք ընթացիկ փաստաթուղթը:\n"
+"\n"
+
+#: alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text
+msgctxt "alreadyopen.src#STR_ALREADYOPEN_RETRY_SAVE_BTN.string.text"
+msgid "~Retry Saving"
+msgstr "~Կրկնեք հիշելը"
+
+#: alreadyopen.src#STR_ALREADYOPEN_SAVE_BTN.string.text
+#: alreadyopen.src%23STR_ALREADYOPEN_SAVE_BTN.string.text
+msgid "~Save"
+msgstr "~Հիշել"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text
+msgctxt "sslwarndlg.src#DLG_UUI_SSLWARN.FT_LABEL_1.fixedtext.text"
+msgid "No Text"
+msgstr "Չկա տեքստ"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_VIEW__CERTIFICATE.pushbutton.text
+msgid "View Certificate"
+msgstr "Դիտւր վկայագիրը"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_CANCEL.cancelbutton.text
+msgid "Cancel Connection"
+msgstr "Չեղարկել միացումը"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.PB_OK.pushbutton.text
+msgid "Continue"
+msgstr "Շարունակել"
+
+#: sslwarndlg.src#DLG_UUI_SSLWARN.modaldialog.text
+#: sslwarndlg.src%23DLG_UUI_SSLWARN.modaldialog.text
+msgid "Security Warning: "
+msgstr "Անվտանգության զգուշացում։ "
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1A.fixedtext.text
+msgid "The document contains document macros signed by:"
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ, ստորագրված։"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR1B.fixedtext.text
+msgid "The document contains document macros."
+msgstr "Փաստաթուղթը պարունակում է փաստաթղթային մակրոներ։"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_VIEWSIGNS.pushbutton.text
+msgid "View Signatures..."
+msgstr "Դիտիրր ստորագրությունները․․․"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.FI_DESCR2.fixedtext.text
+msgid ""
+"Macros may contain viruses. Disabling macros for a document is always safe. "
+"If you disable macros you may lose functionality provided by the document "
+"macros."
+msgstr ""
+"Մակրոները կարող են պարունակել վիրուսներ: Փաստաթղթի մակրոներ անջատելը միշտ էլ "
+"ապահով է: Եթե դուք անջատեք մակրոները, կարող եք կորցնել փաստաթղթի մակրոների "
+"կողմից տրամադրած ֆունկցիոնալությունը:"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.CB_ALWAYSTRUST.checkbox.text
+msgid "Always trust macros from this source"
+msgstr "Միշտ վստահիր այս աղբյուրի մակրոներին"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_ENABLE.okbutton.text
+msgid "~Enable Macros"
+msgstr "~Թույլատրեք մակրոները"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.PB_DISABLE.cancelbutton.text
+msgid "~Disable Macros"
+msgstr "~Արգելեք մակրոները"
+
+#: secmacrowarnings.src#RID_XMLSECDLG_MACROWARN.modaldialog.text
+#: secmacrowarnings.src%23RID_XMLSECDLG_MACROWARN.modaldialog.text
+msgid "%PRODUCTNAME - Security Warning"
+msgstr "%PRODUCTNAME - անվտանգության զգուշացում"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.FT_INFO.fixedtext.text
+msgid ""
+"This document uses an unsupported version of the Open Document Format. Some "
+"features may not be displayed correctly.\n"
+"\n"
+"Click 'Update Now' to run online update and see if there is a new version of "
+"%PRODUCTNAME available."
+msgstr ""
+"Այս փաստաթուղթն օգտագործում է Բաց փաստաթղթի ձևաչափի չաջակցվող տարբերակը: "
+"Որոշ առանձնահատկություններ կարող են ճիշտ չցուցադրվել:\n"
+"\n"
+"Սեղմեք «Թարմացնել հիմա»՝ առցանց թարմացումը գործարկելու համար և տեսնելու "
+"համար, թե արդյոք առկա է %PRODUCTNAME -ի նոր տարբերակ:"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
+msgid "~Update Now..."
+msgstr "~Թարմացրու հիմա․․․"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+#: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_LATER.cancelbutton.text
+msgid "~Later"
+msgstr "~Ավելի ուշ"
+
+#: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
+msgid "ODF Version Conflict"
+msgstr "ODF վարկածի կոնֆլիկտ"

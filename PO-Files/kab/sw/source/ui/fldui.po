@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&"
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sw%2Fsource%2Fui%2Ffldui.oo&subcomponent=ui\n"
-"POT-Creation-Date: 2021-04-02 18:46+0000\n"
+"POT-Creation-Date: 2022-09-06 19:49+0000\n"
 "PO-Revision-Date: 2019-04-23 19:25+0000\n"
 "Last-Translator: Slimane Amiri <slimane.amiri@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,124 +16,206 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 "X-Merge-On: location\n"
 
-#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
-#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
-msgid "Input"
-msgstr "Asekcem"
-
-#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
-#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
 msgid "Edit"
 msgstr "Ẓreg"
 
-#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
-msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
+msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
 msgid "~Next"
 msgstr "Uḍfir"
 
-#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
-#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
-msgid "Input Field"
-msgstr "Urti n usekcem"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
+msgid "~Edit"
+msgstr "Ẓreg"
 
-#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
+#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
+msgid "Choose Item: "
+msgstr "Fren aferdis: "
+
+#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
+msgid "Exchange databases"
+msgstr "Beddel azadur n yisefka"
+
+#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
+msgid "Databases in Use"
+msgstr "Azadur n yisefka yettwasqedcen"
+
+#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
+msgid "Available Databases"
+msgstr "Izaduren n yisefka iwejden"
+
+#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
+msgid "Browse..."
+msgstr "Ḍum..."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
+msgid ""
+"Use this dialog to replace the databases you access in your document via "
+"database fields, with other databases. You can only make one change at a "
+"time. Multiple selection is possible in the list on the left.\n"
+"Use the browse button to select a database file."
+msgstr ""
+"Cette boîte de dialogue permet de remplacer les bases de données auxquelles "
+"vous accédez dans votre document via les champs de base de données, par "
+"d'autres bases de données. Un seul changement à la fois est autorisé. Vous "
+"pouvez effectuer une sélection multiple à partir de la liste de gauche.\n"
+"Utilisez le bouton d'exploration pour sélectionner un fichier de base de "
+"données."
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
+msgid "Database applied to document:"
+msgstr "Azadur n yisefka icudden ɣer utaftar :"
+
+#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
+msgid "Addresses.Addresses"
+msgstr "Adresses.Adresses"
+
+#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
+msgid "Define"
+msgstr "Sbadu"
+
+#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
+msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
+msgid "~Close"
+msgstr "Mdel"
+
+#: changedb.src#DLG_CHANGE_DB.modaldialog.text
+#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
+msgid "Exchange Databases"
+msgstr "Beddel azadur n yisefka"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
 msgid "~Type"
-msgstr "~Type de champ"
+msgstr "Anaw n wurti"
 
-#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "Fren"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "Amasal"
+
+#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
+msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
+msgid "O~ffset"
+msgstr "Aseɣti"
+
+#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
+msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Agbur usbiḍ"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
+msgid "Offs~et in days"
+msgstr "Aseɣti s wussan"
+
+#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
+msgid "Offs~et in minutes"
+msgstr "Aseɣti s tseddiyin"
+
+#: flddok.src#TP_FLD_DOK.tabpage.text
+#: flddok.src%23TP_FLD_DOK.tabpage.text
+msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
+msgid "Document"
+msgstr "Ataftar"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "Anaw n wurti"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
 msgid "S~election"
 msgstr "Tafrayt"
 
-#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
-msgid "Insert ~reference to"
-msgstr "Ger tawelha ɣer"
+#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
+msgid "Format"
+msgstr "Amasal"
 
-#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
+msgid "Invisi~ble"
+msgstr "Uffir"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
+msgid "Numbering by chapter"
+msgstr "Asuḍḍen n yixef"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
+msgid "~Level"
+msgstr "Aswir"
+
+#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
+msgid "None"
+msgstr "Ulac"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
+msgid "~Separator"
+msgstr "Anabraz"
+
+#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
 msgid "Na~me"
 msgstr "Isem"
 
-#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
-#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
-msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
+msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
 msgid "~Value"
 msgstr "Azal"
 
-#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
-msgid "Bookmarks"
-msgstr "Isɣalen"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
+msgid "Apply"
+msgstr "Snes"
 
-#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
-msgid "Footnotes"
-msgstr "Tilɣa n uḍar n usebter"
+#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
+msgid "Delete"
+msgstr "Kkes"
 
-#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
-msgid "Endnotes"
-msgstr "Tilɣa n tagarra"
-
-#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
-msgid "Headings"
-msgstr "Izewlen"
-
-#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
-#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
-msgid "Numbered Paragraphs"
-msgstr "Tiseddarin yettwassuḍḍen"
-
-#: fldref.src#TP_FLD_REF.tabpage.text
-#: fldref.src%23TP_FLD_REF.tabpage.text
-msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
-msgid "Cross-references"
-msgstr "Tiwelhiwin"
-
-#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
-msgid "Script type"
-msgstr "Anaw n script"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
-msgid "URL"
-msgstr "URL"
-
-#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
-msgid "~Text"
-msgstr "Aḍris"
-
-#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
-msgid "Contents"
-msgstr "Agbur"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
-msgid "Edit Script"
-msgstr "Ẓreg script"
-
-#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
-msgid "Insert Script"
-msgstr "Ger script"
-
-#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
-#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
-msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
-msgid "Edit Script"
-msgstr "Ẓreg script"
+#: fldvar.src#TP_FLD_VAR.tabpage.text
+#: fldvar.src%23TP_FLD_VAR.tabpage.text
+msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
+msgid "Variables"
+msgstr "Imuttiyen"
 
 #: fldui.src#STR_FLD_EDIT_DLG.string.text
 #: fldui.src%23STR_FLD_EDIT_DLG.string.text
@@ -482,9 +564,8 @@ msgid "Tel. (Work)"
 msgstr "Tél. (bureau)"
 
 #: fldui.src#FLD_EU_FAX.string.text
-#: fldui.src%23FLD_EU_FAX.string.text
-msgid "FAX"
-msgstr "FAX"
+msgid "Fax"
+msgstr ""
 
 #: fldui.src#FLD_EU_EMAIL.string.text
 #: fldui.src%23FLD_EU_EMAIL.string.text
@@ -836,6 +917,125 @@ msgstr "Ẓreg"
 msgid "Custom"
 msgstr "Sagen"
 
+#: javaedit.src#DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+#: javaedit.src%23DLG_JAVAEDIT.FT_TYPE.fixedtext.text
+msgid "Script type"
+msgstr "Anaw n script"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_URL.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_URL.radiobutton.text
+msgid "URL"
+msgstr "URL"
+
+#: javaedit.src#DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+#: javaedit.src%23DLG_JAVAEDIT.RB_EDIT.radiobutton.text
+msgid "~Text"
+msgstr "Aḍris"
+
+#: javaedit.src#DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+#: javaedit.src%23DLG_JAVAEDIT.FL_POSTIT.fixedline.text
+msgid "Contents"
+msgstr "Agbur"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_EDIT.string.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.STR_JAVA_EDIT.string.text"
+msgid "Edit Script"
+msgstr "Ẓreg script"
+
+#: javaedit.src#DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+#: javaedit.src%23DLG_JAVAEDIT.STR_JAVA_INSERT.string.text
+msgid "Insert Script"
+msgstr "Ger script"
+
+#: javaedit.src#DLG_JAVAEDIT.modaldialog.text
+#: javaedit.src%23DLG_JAVAEDIT.modaldialog.text
+msgctxt "javaedit.src#DLG_JAVAEDIT.modaldialog.text"
+msgid "Edit Script"
+msgstr "Ẓreg script"
+
+#: inpdlg.src#DLG_FLD_INPUT.ED_LABEL.edit.text
+#: inpdlg.src%23DLG_FLD_INPUT.ED_LABEL.edit.text
+msgid "Input"
+msgstr "Asekcem"
+
+#: inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text
+#: inpdlg.src%23DLG_FLD_INPUT.FL_EDIT.fixedline.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.FL_EDIT.fixedline.text"
+msgid "Edit"
+msgstr "Ẓreg"
+
+#: inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+#: inpdlg.src%23DLG_FLD_INPUT.PB_NEXT.pushbutton.text
+msgctxt "inpdlg.src#DLG_FLD_INPUT.PB_NEXT.pushbutton.text"
+msgid "~Next"
+msgstr "Uḍfir"
+
+#: inpdlg.src#DLG_FLD_INPUT.modaldialog.text
+#: inpdlg.src%23DLG_FLD_INPUT.modaldialog.text
+msgid "Input Field"
+msgstr "Urti n usekcem"
+
+#: fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFTYPE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "~Type de champ"
+
+#: fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFSELECTION.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFSELECTION.fixedtext.text"
+msgid "S~election"
+msgstr "Tafrayt"
+
+#: fldref.src#TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFFORMAT.fixedtext.text
+msgid "Insert ~reference to"
+msgstr "Ger tawelha ɣer"
+
+#: fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFNAME.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFNAME.fixedtext.text"
+msgid "Na~me"
+msgstr "Isem"
+
+#: fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text
+#: fldref.src%23TP_FLD_REF.FT_REFVALUE.fixedtext.text
+msgctxt "fldref.src#TP_FLD_REF.FT_REFVALUE.fixedtext.text"
+msgid "~Value"
+msgstr "Azal"
+
+#: fldref.src#TP_FLD_REF.STR_REFBOOKMARK.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFBOOKMARK.string.text
+msgid "Bookmarks"
+msgstr "Isɣalen"
+
+#: fldref.src#TP_FLD_REF.STR_REFFOOTNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFFOOTNOTE.string.text
+msgid "Footnotes"
+msgstr "Tilɣa n uḍar n usebter"
+
+#: fldref.src#TP_FLD_REF.STR_REFENDNOTE.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFENDNOTE.string.text
+msgid "Endnotes"
+msgstr "Tilɣa n tagarra"
+
+#: fldref.src#TP_FLD_REF.STR_REFHEADING.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFHEADING.string.text
+msgid "Headings"
+msgstr "Izewlen"
+
+#: fldref.src#TP_FLD_REF.STR_REFNUMITEM.string.text
+#: fldref.src%23TP_FLD_REF.STR_REFNUMITEM.string.text
+msgid "Numbered Paragraphs"
+msgstr "Tiseddarin yettwassuḍḍen"
+
+#: fldref.src#TP_FLD_REF.tabpage.text
+#: fldref.src%23TP_FLD_REF.tabpage.text
+msgctxt "fldref.src#TP_FLD_REF.tabpage.text"
+msgid "Cross-references"
+msgstr "Tiwelhiwin"
+
 #: flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text
 #: flddb.src%23TP_FLD_DB.FT_DBTYPE.fixedtext.text
 msgctxt "flddb.src#TP_FLD_DB.FT_DBTYPE.fixedtext.text"
@@ -892,27 +1092,115 @@ msgctxt "flddb.src#TP_FLD_DB.tabpage.text"
 msgid "Database"
 msgstr "Azadur n isefka"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.FL_ITEMS.fixedline.text"
-msgid "Edit"
-msgstr "Ẓreg"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
+msgid "~Type"
+msgstr "Anaw n wurti"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text
-msgctxt "DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_NEXT.pushbutton.text"
-msgid "~Next"
-msgstr "Uḍfir"
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
+msgid "S~elect"
+msgstr "Fren"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.PB_EDIT.pushbutton.text
-msgid "~Edit"
-msgstr "Ẓreg"
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
+msgid "Author"
+msgstr "Ameskar"
 
-#: DropDownFieldDialog.src#DLG_FLD_DROPDOWN.modaldialog.text
-#: DropDownFieldDialog.src%23DLG_FLD_DROPDOWN.modaldialog.text
-msgid "Choose Item: "
-msgstr "Fren aferdis: "
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
+msgid "Time"
+msgstr "Asrag"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
+msgid "Date"
+msgstr "Azemz"
+
+#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
+msgid "Date Time Author"
+msgstr "Azemz asrag ameskar"
+
+#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
+msgid "F~ormat"
+msgstr "Amasal"
+
+#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
+msgid "~Fixed content"
+msgstr "Agbur usbiḍ"
+
+#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
+msgid "Info"
+msgstr "Talɣut"
+
+#: flddinf.src#TP_FLD_DOKINF.tabpage.text
+#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
+msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
+msgid "DocInformation"
+msgstr "Talɣut n utafatar"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
+msgid "Document"
+msgstr "Ataftar"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
+msgid "Cross-references"
+msgstr "Tiwelhiwin"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
+msgid "Functions"
+msgstr "Tiwura"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
+msgid "DocInformation"
+msgstr "Talɣut n utaftar"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
+msgid "Variables"
+msgstr "Imuttiyen"
+
+#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
+msgid "Database"
+msgstr "Azadur n isefka"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
+msgid "~Insert"
+msgstr "Ger"
+
+#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
+msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
+msgid "~Close"
+msgstr "Mdel"
+
+#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
+#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
+msgid "Fields"
+msgstr "Urtiyen"
 
 #: fldfunc.src#TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
 #: fldfunc.src%23TP_FLD_FUNC.FT_FUNCTYPE.fixedtext.text
@@ -1000,292 +1288,3 @@ msgstr "Isem"
 msgctxt "fldfunc.src#TP_FLD_FUNC.tabpage.text"
 msgid "Functions"
 msgstr "Tiwura"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOK.pageitem.text"
-msgid "Document"
-msgstr "Ataftar"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_REF.pageitem.text"
-msgid "Cross-references"
-msgstr "Tiwelhiwin"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_FUNC.pageitem.text"
-msgid "Functions"
-msgstr "Tiwura"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DOKINF.pageitem.text"
-msgid "DocInformation"
-msgstr "Talɣut n utaftar"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_VAR.pageitem.text"
-msgid "Variables"
-msgstr "Imuttiyen"
-
-#: fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-#: fldtdlg.src%23DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.1.TP_FLD_DB.pageitem.text"
-msgid "Database"
-msgstr "Azadur n isefka"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_INSERT.string.text
-msgid "~Insert"
-msgstr "Ger"
-
-#: fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-#: fldtdlg.src%23DLG_FLD_INSERT.STR_FLD_CLOSE.string.text
-msgctxt "fldtdlg.src#DLG_FLD_INSERT.STR_FLD_CLOSE.string.text"
-msgid "~Close"
-msgstr "Mdel"
-
-#: fldtdlg.src#DLG_FLD_INSERT.tabdialog.text
-#: fldtdlg.src%23DLG_FLD_INSERT.tabdialog.text
-msgid "Fields"
-msgstr "Urtiyen"
-
-#: changedb.src#DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-#: changedb.src%23DLG_CHANGE_DB.FL_DBLIST.fixedline.text
-msgid "Exchange databases"
-msgstr "Beddel azadur n yisefka"
-
-#: changedb.src#DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_USEDDB.fixedtext.text
-msgid "Databases in Use"
-msgstr "Azadur n yisefka yettwasqedcen"
-
-#: changedb.src#DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_AVAILDB.fixedtext.text
-msgid "Available Databases"
-msgstr "Izaduren n yisefka iwejden"
-
-#: changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-#: changedb.src%23DLG_CHANGE_DB.PB_ADDDB.pushbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.PB_ADDDB.pushbutton.text"
-msgid "Browse..."
-msgstr "Ḍum..."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DESC.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DESC.fixedtext.text
-msgid ""
-"Use this dialog to replace the databases you access in your document via "
-"database fields, with other databases. You can only make one change at a "
-"time. Multiple selection is possible in the list on the left.\n"
-"Use the browse button to select a database file."
-msgstr ""
-"Cette boîte de dialogue permet de remplacer les bases de données auxquelles "
-"vous accédez dans votre document via les champs de base de données, par "
-"d'autres bases de données. Un seul changement à la fois est autorisé. Vous "
-"pouvez effectuer une sélection multiple à partir de la liste de gauche.\n"
-"Utilisez le bouton d'exploration pour sélectionner un fichier de base de "
-"données."
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBTEXT.fixedtext.text
-msgid "Database applied to document:"
-msgstr "Azadur n yisefka icudden ɣer utaftar :"
-
-#: changedb.src#DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-#: changedb.src%23DLG_CHANGE_DB.FT_DOCDBNAME.fixedtext.text
-msgid "Addresses.Addresses"
-msgstr "Adresses.Adresses"
-
-#: changedb.src#DLG_CHANGE_DB.BT_OK.okbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_OK.okbutton.text
-msgid "Define"
-msgstr "Sbadu"
-
-#: changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-#: changedb.src%23DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text
-msgctxt "changedb.src#DLG_CHANGE_DB.BT_CANCEL.cancelbutton.text"
-msgid "~Close"
-msgstr "Mdel"
-
-#: changedb.src#DLG_CHANGE_DB.modaldialog.text
-#: changedb.src%23DLG_CHANGE_DB.modaldialog.text
-msgid "Exchange Databases"
-msgstr "Beddel azadur n yisefka"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKTYPE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "Anaw n wurti"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "Fren"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "Amasal"
-
-#: flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-#: flddok.src%23TP_FLD_DOK.FT_DOKVALUE.fixedtext.text
-msgctxt "flddok.src#TP_FLD_DOK.FT_DOKVALUE.fixedtext.text"
-msgid "O~ffset"
-msgstr "Aseɣti"
-
-#: flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-#: flddok.src%23TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text
-msgctxt "flddok.src#TP_FLD_DOK.CB_DOKFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Agbur usbiḍ"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKDATEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKDATEOFF.string.text
-msgid "Offs~et in days"
-msgstr "Aseɣti s wussan"
-
-#: flddok.src#TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-#: flddok.src%23TP_FLD_DOK.STR_DOKTIMEOFF.string.text
-msgid "Offs~et in minutes"
-msgstr "Aseɣti s tseddiyin"
-
-#: flddok.src#TP_FLD_DOK.tabpage.text
-#: flddok.src%23TP_FLD_DOK.tabpage.text
-msgctxt "flddok.src#TP_FLD_DOK.tabpage.text"
-msgid "Document"
-msgstr "Ataftar"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARTYPE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "Anaw n wurti"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSELECTION.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARSELECTION.fixedtext.text"
-msgid "S~election"
-msgstr "Tafrayt"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARFORMAT.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARFORMAT.fixedtext.text"
-msgid "Format"
-msgstr "Amasal"
-
-#: fldvar.src#TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-#: fldvar.src%23TP_FLD_VAR.CB_VARINVISIBLE.checkbox.text
-msgid "Invisi~ble"
-msgstr "Uffir"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERHEADER.fixedtext.text
-msgid "Numbering by chapter"
-msgstr "Asuḍḍen n yixef"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARCHAPTERLEVEL.fixedtext.text
-msgid "~Level"
-msgstr "Aswir"
-
-#: fldvar.src#TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-#: fldvar.src%23TP_FLD_VAR.LB_VARCHAPTERLEVEL.1.stringlist.text
-msgid "None"
-msgstr "Ulac"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARSEPARATOR.fixedtext.text
-msgid "~Separator"
-msgstr "Anabraz"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARNAME.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARNAME.fixedtext.text"
-msgid "Na~me"
-msgstr "Isem"
-
-#: fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-#: fldvar.src%23TP_FLD_VAR.FT_VARVALUE.fixedtext.text
-msgctxt "fldvar.src#TP_FLD_VAR.FT_VARVALUE.fixedtext.text"
-msgid "~Value"
-msgstr "Azal"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARAPPLY.toolboxitem.text
-msgid "Apply"
-msgstr "Snes"
-
-#: fldvar.src#TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-#: fldvar.src%23TP_FLD_VAR.TBX_VARNEWDEL.BT_VARDELETE.toolboxitem.text
-msgid "Delete"
-msgstr "Kkes"
-
-#: fldvar.src#TP_FLD_VAR.tabpage.text
-#: fldvar.src%23TP_FLD_VAR.tabpage.text
-msgctxt "fldvar.src#TP_FLD_VAR.tabpage.text"
-msgid "Variables"
-msgstr "Imuttiyen"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFTYPE.fixedtext.text"
-msgid "~Type"
-msgstr "Anaw n wurti"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFSELECTION.fixedtext.text"
-msgid "S~elect"
-msgstr "Fren"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.1.stringlist.text"
-msgid "Author"
-msgstr "Ameskar"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.2.stringlist.text"
-msgid "Time"
-msgstr "Asrag"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.3.stringlist.text"
-msgid "Date"
-msgstr "Azemz"
-
-#: flddinf.src#TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-#: flddinf.src%23TP_FLD_DOKINF.LB_DOKINFSELECTION.4.stringlist.text
-msgid "Date Time Author"
-msgstr "Azemz asrag ameskar"
-
-#: flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-#: flddinf.src%23TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.FT_DOKINFFORMAT.fixedtext.text"
-msgid "F~ormat"
-msgstr "Amasal"
-
-#: flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-#: flddinf.src%23TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.CB_DOKINFFIXEDCONTENT.checkbox.text"
-msgid "~Fixed content"
-msgstr "Agbur usbiḍ"
-
-#: flddinf.src#TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-#: flddinf.src%23TP_FLD_DOKINF.STR_DOKINF_INFO.string.text
-msgid "Info"
-msgstr "Talɣut"
-
-#: flddinf.src#TP_FLD_DOKINF.tabpage.text
-#: flddinf.src%23TP_FLD_DOKINF.tabpage.text
-msgctxt "flddinf.src#TP_FLD_DOKINF.tabpage.text"
-msgid "DocInformation"
-msgstr "Talɣut n utafatar"

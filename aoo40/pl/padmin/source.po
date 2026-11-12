@@ -6,15 +6,19 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+padmin%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2022-09-06 19:49+0000\n"
-"PO-Revision-Date: 2020-01-02 01:11+0000\n"
-"Last-Translator: Maciej Jaros <egil@wp.pl>\n"
+"PO-Revision-Date: 2024-04-10 09:38+0000\n"
+"Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1712741931.000000\n"
 
 #: padialog.src#RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
 #: padialog.src%23RID_FONTIMPORT_DIALOG.RID_FIMP_TXT_HELP.fixedtext.text
@@ -192,7 +196,7 @@ msgstr "~Domyślnie"
 #: padialog.src#RID_PADIALOG.RID_PA_BTN_DEL.pushbutton.text
 #: padialog.src%23RID_PADIALOG.RID_PA_BTN_DEL.pushbutton.text
 msgid "Remo~ve..."
-msgstr "Usuń..."
+msgstr "~Usuń..."
 
 #: padialog.src#RID_PADIALOG.RID_PA_TESTPAGE.pushbutton.text
 #: padialog.src%23RID_PADIALOG.RID_PA_TESTPAGE.pushbutton.text
@@ -241,8 +245,8 @@ msgid ""
 "Please contact your system administrator."
 msgstr ""
 "Nie można zainstalować drukarki, ponieważ system plików jest tylko do "
-"odczytu (lub brak uprawnień do instalacji)\n"
-"Skontaktuj się z administratorem systemu"
+"odczytu (lub brak uprawnień do instalacji).\n"
+"Skontaktuj się z administratorem systemu."
 
 #: padialog.src#RID_QRY_PRTNAME.string.text
 #: padialog.src%23RID_QRY_PRTNAME.string.text
@@ -288,7 +292,7 @@ msgstr "Zamknij"
 #: padialog.src#RID_FONTNAMEDIALOG.RID_FNTNM_BTN_RENAME.pushbutton.text
 #: padialog.src%23RID_FONTNAMEDIALOG.RID_FNTNM_BTN_RENAME.pushbutton.text
 msgid "Re~name..."
-msgstr "Zmień nazwę..."
+msgstr "Z~mień nazwę..."
 
 #: padialog.src#RID_FONTNAMEDIALOG.RID_FNTNM_BTN_REMOVE.pushbutton.text
 #: padialog.src%23RID_FONTNAMEDIALOG.RID_FNTNM_BTN_REMOVE.pushbutton.text
@@ -435,7 +439,7 @@ msgstr "~Wybór sterowników"
 #: padialog.src#RID_PPDIMPORT_DLG.RID_PPDIMP_TXT_DRIVER.fixedtext.text
 #: padialog.src%23RID_PPDIMPORT_DLG.RID_PPDIMP_TXT_DRIVER.fixedtext.text
 msgid "Please select the drivers to install and press \"%s\"."
-msgstr "Wybierz sterowniki i kliknij przycisk \"%s\"."
+msgstr "Wybierz sterowniki do zainstalowania i kliknij przycisk \"%s\"."
 
 #: padialog.src#RID_PPDIMPORT_DLG.RID_PPDIMP_STR_LOADINGPPD.string.text
 #: padialog.src%23RID_PPDIMPORT_DLG.RID_PPDIMP_STR_LOADINGPPD.string.text
@@ -450,7 +454,7 @@ msgstr "Instalacja sterownika"
 #: padialog.src#RID_QUERY_REMOVEDRIVER.string.text
 #: padialog.src%23RID_QUERY_REMOVEDRIVER.string.text
 msgid "Do you really want to remove the driver \"%s\"?"
-msgstr " Czy na pewno chcesz usunąć sterownik \"%s\"?"
+msgstr "Czy na pewno chcesz usunąć sterownik \"%s\"?"
 
 #: padialog.src#RID_QUERY_REMOVEPRINTER.string.text
 #: padialog.src%23RID_QUERY_REMOVEPRINTER.string.text
@@ -484,7 +488,7 @@ msgid ""
 "\n"
 "%s2."
 msgstr ""
-"Nie udało się usunąć sterownika \"%s1\". Usunięcie pliku było niemożliwe\n"
+"Nie udało się usunąć sterownika \"%s1\". Niemożliwe było usunięcie pliku\n"
 "\n"
 "%s2."
 
@@ -662,7 +666,7 @@ msgstr "Podaj wiersz p~olecenia odpowiedni dla tego urządzenia."
 #: padialog.src#RID_ADDP_PAGE_COMMAND.RID_ADDP_CMD_TXT_PDFDIR.fixedtext.text
 #: padialog.src%23RID_ADDP_PAGE_COMMAND.RID_ADDP_CMD_TXT_PDFDIR.fixedtext.text
 msgid "PDF ~target directory"
-msgstr "Katalog docelowy PDF"
+msgstr "Katalo~g docelowy PDF"
 
 #: padialog.src#RID_ADDP_PAGE_COMMAND.RID_ADDP_CMD_BTN_HELP.pushbutton.text
 #: padialog.src%23RID_ADDP_PAGE_COMMAND.RID_ADDP_CMD_BTN_HELP.pushbutton.text
@@ -698,7 +702,7 @@ msgid ""
 msgstr ""
 "Wiersz polecenia dla połączeń faksowych jest wykonywany w następujący sposób:"
 " podczas wysyłania faksu, występujący w wierszu polecenia argument \"(TMP)\" "
-"jest zamieniany na plik tymczasowy, a \"(PHON)\" - na numer faksu. Jeżeli w "
+"jest zamieniany na plik tymczasowy, a \"(PHONE)\" - na numer faksu. Jeżeli w "
 "wierszu polecenia występuje argument \"(TMP)\", to kod PostScript zostanie "
 "przekazany w pliku; w przeciwnym razie zostanie przekazany jako standardowe "
 "wejście (tj. jako potok)."
@@ -944,7 +948,7 @@ msgstr "Bieżąca ~wartość"
 #: rtsetup.src#RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PRINTLANG_TXT.fixedtext.text
 #: rtsetup.src%23RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PRINTLANG_TXT.fixedtext.text
 msgid "Printer ~Language type"
-msgstr "Typ języka drukarki"
+msgstr "Typ ~języka drukarki"
 
 #: rtsetup.src#RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PRINTLANG_BOX.1.stringlist.text
 #: rtsetup.src%23RID_RTS_DEVICEPAGE.RID_RTS_DEVICE_PRINTLANG_BOX.1.stringlist.text
@@ -1022,7 +1026,9 @@ msgstr ""
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_FT_QUICKCMD.fixedtext.text
 #: rtsetup.src%23RID_RTS_COMMANDPAGE.RID_RTS_CMD_FT_QUICKCMD.fixedtext.text
 msgid "Command for quick printing without dialog (optional)"
-msgstr "Polecenie umożliwiające szybkie drukowanie bez użycia okna (opcja)"
+msgstr ""
+"Polecenie umożliwiające szybkie drukowanie bez użycia okna dialogowego "
+"(opcja)"
 
 #: rtsetup.src#RID_RTS_COMMANDPAGE.RID_RTS_CMD_FL_INSTALL.fixedline.text
 #: rtsetup.src%23RID_RTS_COMMANDPAGE.RID_RTS_CMD_FL_INSTALL.fixedline.text
@@ -1123,7 +1129,7 @@ msgid ""
 msgstr ""
 "Wiersz polecenia dla urządzeń faksowych jest wykonywany w następujący sposób:"
 " podczas wysyłania faksu, występujący w wierszu polecenia argument \"(TMP)\" "
-"jest zamieniany na plik tymczasowy, a \"(PHON)\" - na numer faksu. Jeżeli w "
+"jest zamieniany na plik tymczasowy, a \"(PHONE)\" - na numer faksu. Jeżeli w "
 "wierszu polecenia występuje argument \"(TMP)\", to kod PostScript zostanie "
 "przekazany w pliku; w przeciwnym razie zostanie przekazany jako standardowe "
 "wejście (tj. jako potok)."

@@ -6,15 +6,19 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+uui%2Fsource.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2022-09-06 19:49+0000\n"
-"PO-Revision-Date: 2019-08-22 13:55+0000\n"
-"Last-Translator: Matthias Seidel <mseidel@apache.org>\n"
+"PO-Revision-Date: 2022-11-28 19:04+0000\n"
+"Last-Translator: Serg Bormat <bormant@gmail.com>\n"
 "Language-Team: Russian <l10n@ru.openoffice.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1669662269.000000\n"
 
 #: masterpasscrtdlg.src#DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
 #: masterpasscrtdlg.src%23DLG_UUI_MASTERPASSWORD_CRT.FT_INFOTEXT.fixedtext.text
@@ -178,6 +182,13 @@ msgid ""
 "module(s) you must split those modules into a number of smaller modules. Do "
 "you wish to continue to save/export this library?"
 msgstr ""
+"Попытка сохранить/экспортировать защищённую паролем библиотеку BASIC, "
+"содержащую модули\n"
+"$(ARG1)\n"
+"которые слишком велики для хранения в двоичном формате. Чтобы не имеющие "
+"доступа к паролю библиотеки пользователи могли запускать макросы в этих "
+"модулях, их необходимо разделить на несколько меньших. Продолжить сохранение/"
+"экспорт этой библиотеки?"
 
 #: ids.src#RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
 #: ids.src%23RID_UUI_ERRHDL._ERRCODE_UUI_IO_BADCRC___ERRCODE_RES_MASK_.string.text
@@ -718,7 +729,7 @@ msgstr ""
 #: lockfailed.src#STR_LOCKFAILED_TITLE.string.text
 #: lockfailed.src%23STR_LOCKFAILED_TITLE.string.text
 msgid "Document Could Not Be Locked"
-msgstr ""
+msgstr "Невозможно заблокировать документ"
 
 #: lockfailed.src#STR_LOCKFAILED_MSG.string.text
 #: lockfailed.src%23STR_LOCKFAILED_MSG.string.text
@@ -732,7 +743,7 @@ msgstr ""
 #: lockfailed.src#STR_LOCKFAILED_DONTSHOWAGAIN.string.text
 #: lockfailed.src%23STR_LOCKFAILED_DONTSHOWAGAIN.string.text
 msgid "~Do not show this message again"
-msgstr ""
+msgstr "Больше не показывать это сообщение"
 
 #: cookiedg.src#DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
 #: cookiedg.src%23DLG_COOKIES.RB_INFUTURE_SEND.radiobutton.text
@@ -1105,6 +1116,11 @@ msgid ""
 "Click 'Update Now' to run online update and see if there is a new version of "
 "%PRODUCTNAME available."
 msgstr ""
+"Документ использует неподдерживаемую версию формата ODF. Некоторые "
+"возможности могут отображаться неправильно.\n"
+"\n"
+"Нажмите «Обновить сейчас» для проверки, доступна ли новая версия "
+"%PRODUCTNAME."
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
 #: newerverwarn.src%23RID_DLG_NEWER_VERSION_WARNING.PB_UPDATE.pushbutton.text
@@ -1118,4 +1134,4 @@ msgstr "Позже"
 
 #: newerverwarn.src#RID_DLG_NEWER_VERSION_WARNING.modaldialog.text
 msgid "ODF Version Conflict"
-msgstr ""
+msgstr "Конфликт версий ODF"

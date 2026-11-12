@@ -6,15 +6,19 @@ msgstr ""
 "component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A"
 "+sc%2Fsource%2Fui%2Fsrc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2022-09-06 19:49+0000\n"
-"PO-Revision-Date: 2020-02-22 18:46+0000\n"
+"PO-Revision-Date: 2025-08-08 15:53+0000\n"
 "Last-Translator: Czesław Wolański <czeslaw.wolanski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Pootle 2.8\n"
 "X-Merge-On: location\n"
+"X-POOTLE-MTIME: 1754668417.000000\n"
 
 #: opredlin.src#RID_SCPAGE_OPREDLINE.FT_CONTENT.fixedtext.text
 #: opredlin.src%23RID_SCPAGE_OPREDLINE.FT_CONTENT.fixedtext.text
@@ -1603,7 +1607,7 @@ msgstr "%PRODUCTNAME Calc 6.0"
 
 #: scstring.src#SCSTR_50_APPLICATION.string.text
 msgid "StarCalc 5.0"
-msgstr ""
+msgstr "StarCalc 5.0"
 
 #: scstring.src#SCSTR_40_APPLICATION.string.text
 #: scstring.src%23SCSTR_40_APPLICATION.string.text
@@ -2125,13 +2129,13 @@ msgstr "~Wartość"
 #: scstring.src#SCSTR_VALID_RANGE.string.text
 #: scstring.src%23SCSTR_VALID_RANGE.string.text
 msgid "~Source"
-msgstr "Źródło"
+msgstr "Źró~dło"
 
 #: scstring.src#SCSTR_VALID_LIST.string.text
 #: scstring.src%23SCSTR_VALID_LIST.string.text
 msgctxt "scstring.src#SCSTR_VALID_LIST.string.text"
 msgid "~Entries"
-msgstr "Wpi~sy"
+msgstr "Wpis~y"
 
 #: scstring.src#SCSTR_CHARSET_USER.string.text
 #: scstring.src%23SCSTR_CHARSET_USER.string.text
@@ -7973,10 +7977,8 @@ msgstr "Stawka procentowa danych, które nie będą uwzględnione."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.1.string.text
-#, fuzzy
 msgid "Returns the discrete probability of an interval."
-msgstr ""
-"Zwraca prawdopodobieństwo przy ciągu wartości ograniczonych z dołu i z góry."
+msgstr "Zwraca prawdopodobieństwo dyskretne z przedziału."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_PROB.2.string.text
@@ -11537,7 +11539,7 @@ msgstr "Tekst, którego długość trzeba określić."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_RIGHTB.1.string.text
 msgid "Returns the last character or characters of a text, with DBCS"
-msgstr ""
+msgstr "Zwraca ostatni znak lub znaki tekstu, z DBCS"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_RIGHTB.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_RIGHTB.2.string.text
@@ -11565,7 +11567,7 @@ msgstr "Liczba znaków dla końcowej części tekstu."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_LEFTB.1.string.text
 msgid "Returns the first character or characters of a text, with DBCS"
-msgstr ""
+msgstr "Zwraca pierwszy znak lub znaki tekstu, z DBCS"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_LEFTB.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_LEFTB.2.string.text
@@ -11717,12 +11719,12 @@ msgstr "Liczba2"
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITXOR.5.string.text"
 msgid "Positive integer less than 2^48."
-msgstr ""
+msgstr "Dodatnia liczba całkowita mniejsza niż 2^48."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.1.string.text
 msgid "Bitwise left shift of an integer value."
-msgstr ""
+msgstr "Bitowe przesunięcie w lewo wartości całkowitej."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.2.string.text
@@ -11734,24 +11736,24 @@ msgstr "Liczba"
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.3.string.text"
 msgid "The value to be shifted. Positive integer."
-msgstr ""
+msgstr "Wartość do przesunięcia. Dodatnia liczba całkowita."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.4.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.4.string.text"
 msgid "Shift"
-msgstr ""
+msgstr "BITREJL"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.5.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITLSHIFT.5.string.text"
 msgid "The number of bits the first argument is to be shifted by."
-msgstr ""
+msgstr "Liczba bitów, o jaką ma zostać przesunięty pierwszy argument."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.1.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.1.string.text
 msgid "Bitwise right shift of an integer value."
-msgstr ""
+msgstr "Bitowe przesunięcie w prawo wartości całkowitej."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.2.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.2.string.text
@@ -11763,19 +11765,19 @@ msgstr "Liczba"
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.3.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.3.string.text"
 msgid "The value to be shifted. Positive integer."
-msgstr ""
+msgstr "Wartość do przesunięcia. Dodatnia liczba całkowita."
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.4.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.4.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.4.string.text"
 msgid "Shift"
-msgstr ""
+msgstr "BITREJP"
 
 #: scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.5.string.text
 #: scfuncs.src%23RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.5.string.text
 msgctxt "scfuncs.src#RID_SC_FUNCTION_DESCRIPTIONS2.SC_OPCODE_BITRSHIFT.5.string.text"
 msgid "The number of bits the first argument is to be shifted by."
-msgstr ""
+msgstr "Liczba bitów, o jaką ma zostać przesunięty pierwszy argument."
 
 #: globstr.src#RID_GLOBSTR.STR_UNDO_INSERTCELLS.string.text
 #: globstr.src%23RID_GLOBSTR.STR_UNDO_INSERTCELLS.string.text
@@ -12018,7 +12020,7 @@ msgstr "Edytuj tabelę przestwną"
 #: globstr.src#RID_GLOBSTR.STR_UNDO_PIVOT_DELETE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_UNDO_PIVOT_DELETE.string.text
 msgid "Delete pivot table"
-msgstr "Utwórz tabelę przestawną"
+msgstr "Usuń tabelę przestawną"
 
 #: globstr.src#RID_GLOBSTR.STR_UNDO_CONSOLIDATE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_UNDO_CONSOLIDATE.string.text
@@ -12233,7 +12235,7 @@ msgstr "Importuj"
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_DOSUBTOTALS_0.string.text
 msgctxt "globstr.src#RID_GLOBSTR.STR_MSSG_DOSUBTOTALS_0.string.text"
 msgid "%PRODUCTNAME Calc"
-msgstr "%PRODUCTNAME - Calc"
+msgstr "%PRODUCTNAME Calc"
 
 #: globstr.src#RID_GLOBSTR.STR_MSSG_DOSUBTOTALS_1.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_DOSUBTOTALS_1.string.text
@@ -12262,12 +12264,12 @@ msgstr ""
 #: globstr.src#RID_GLOBSTR.STR_MSSG_IMPORTDATA_0.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_IMPORTDATA_0.string.text
 msgid "Error while importing data!"
-msgstr "Błąd podczas importowania danych"
+msgstr "Błąd podczas importowania danych!"
 
 #: globstr.src#RID_GLOBSTR.STR_DATABASE_NOTFOUND.string.text
 #: globstr.src%23RID_GLOBSTR.STR_DATABASE_NOTFOUND.string.text
 msgid "The database '#' could not be opened."
-msgstr "Nie udało się otworzyć bazy danych \"#\"."
+msgstr "Nie udało się otworzyć bazy danych '#'."
 
 #: globstr.src#RID_GLOBSTR.STR_QUERY_NOTFOUND.string.text
 #: globstr.src%23RID_GLOBSTR.STR_QUERY_NOTFOUND.string.text
@@ -12297,19 +12299,19 @@ msgstr "Nie można rozgrupować"
 #: globstr.src#RID_GLOBSTR.STR_MSSG_PASTEFROMCLIP_0.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_PASTEFROMCLIP_0.string.text
 msgid "Insert into multiple selection not possible"
-msgstr "Nie można wstawiać do wielokrotnego zaznaczenia"
+msgstr "Nie można wstawiać do wielokrotnego zaznaczenia."
 
 #: globstr.src#RID_GLOBSTR.STR_MSSG_PASTEFROMCLIP_1.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_PASTEFROMCLIP_1.string.text
 msgctxt "globstr.src#RID_GLOBSTR.STR_MSSG_PASTEFROMCLIP_1.string.text"
 msgid "Cell merge not possible if cells already merged!"
-msgstr "Nie można scalać już scalonych komórek"
+msgstr "Nie można scalać już scalonych komórek!"
 
 #: globstr.src#RID_GLOBSTR.STR_MSSG_MOVEBLOCKTO_0.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_MOVEBLOCKTO_0.string.text
 msgctxt "globstr.src#RID_GLOBSTR.STR_MSSG_MOVEBLOCKTO_0.string.text"
 msgid "Cell merge not possible if cells already merged!"
-msgstr "Nie można scalać już scalonych komórek"
+msgstr "Nie można scalać już scalonych komórek!"
 
 #: globstr.src#RID_GLOBSTR.STR_MSSG_INSERTCELLS_0.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_INSERTCELLS_0.string.text
@@ -12365,12 +12367,12 @@ msgstr "Nie znaleziono dokładnej wartości.\n"
 #: globstr.src#RID_GLOBSTR.STR_MSSG_SOLVE_5.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_SOLVE_5.string.text
 msgid "Insert closest value ("
-msgstr "Wstaw najbliższą wartość"
+msgstr "Wstawić najbliższą wartość ("
 
 #: globstr.src#RID_GLOBSTR.STR_MSSG_SOLVE_6.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MSSG_SOLVE_6.string.text
 msgid ")?"
-msgstr ") ma zostać zaakceptowana?"
+msgstr ")?"
 
 #: globstr.src#RID_GLOBSTR.STR_TABLE_GESAMTERGEBNIS.string.text
 #: globstr.src%23RID_GLOBSTR.STR_TABLE_GESAMTERGEBNIS.string.text
@@ -12827,12 +12829,12 @@ msgstr "Błąd: Dzielenie przez zero"
 #: globstr.src#RID_GLOBSTR.STR_LONG_ERR_NO_VALUE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_LONG_ERR_NO_VALUE.string.text
 msgid "Error: Wrong data type"
-msgstr "Błąd: Nieprawidlowy typ danych"
+msgstr "Błąd: Nieprawidłowy typ danych"
 
 #: globstr.src#RID_GLOBSTR.STR_LONG_ERR_NO_REF.string.text
 #: globstr.src%23RID_GLOBSTR.STR_LONG_ERR_NO_REF.string.text
 msgid "Error: Not a valid reference"
-msgstr "Błąd: Nieprawidłowa odwołanie"
+msgstr "Błąd: Nieprawidłowe odwołanie"
 
 #: globstr.src#RID_GLOBSTR.STR_LONG_ERR_NO_NAME.string.text
 #: globstr.src%23RID_GLOBSTR.STR_LONG_ERR_NO_NAME.string.text
@@ -13068,7 +13070,7 @@ msgstr "Komentarze"
 #: globstr.src#RID_GLOBSTR.STR_QUERY_DELTAB.string.text
 #: globstr.src%23RID_GLOBSTR.STR_QUERY_DELTAB.string.text
 msgid "Are you sure you want to delete the selected sheet(s)?"
-msgstr "Czy na pewno chcesz usunąć zaznaczone arkusze?"
+msgstr "Czy na pewno chcesz usunąć zaznaczone arkusz(e)?"
 
 #: globstr.src#RID_GLOBSTR.STR_QUERY_DELSCENARIO.string.text
 #: globstr.src%23RID_GLOBSTR.STR_QUERY_DELSCENARIO.string.text
@@ -13102,11 +13104,11 @@ msgstr "Importuj pliki Lotus"
 
 #: globstr.src#RID_GLOBSTR.STR_IMPORT_DBF.string.text
 msgid "Import dBASE files"
-msgstr ""
+msgstr "Importuj pliki dBASE"
 
 #: globstr.src#RID_GLOBSTR.STR_EXPORT_DBF.string.text
 msgid "dBASE export"
-msgstr ""
+msgstr "Eksportuj dBASE"
 
 #: globstr.src#RID_GLOBSTR.STR_EXPORT_DIF.string.text
 #: globstr.src%23RID_GLOBSTR.STR_EXPORT_DIF.string.text
@@ -13169,7 +13171,7 @@ msgstr ""
 #: globstr.src#RID_GLOBSTR.STR_THESAURUS_NO_STRING.string.text
 #: globstr.src%23RID_GLOBSTR.STR_THESAURUS_NO_STRING.string.text
 msgid "Thesaurus can only be used in text cells!"
-msgstr "Tezaurusa można używać tylko w komórkach tekstowych"
+msgstr "Tezaurusa można używać tylko w komórkach tekstowych!"
 
 #: globstr.src#RID_GLOBSTR.STR_SPELLING_BEGIN_TAB.string.text
 #: globstr.src%23RID_GLOBSTR.STR_SPELLING_BEGIN_TAB.string.text
@@ -13255,7 +13257,7 @@ msgstr "Ukryj arkusz"
 #: globstr.src#RID_GLOBSTR.STR_UNDO_TAB_RTL.string.text
 #: globstr.src%23RID_GLOBSTR.STR_UNDO_TAB_RTL.string.text
 msgid "Flip sheet"
-msgstr "lip sheet"
+msgstr "Przerzuć arkusz"
 
 #: globstr.src#RID_GLOBSTR.STR_UNDO_TAB_R1C1.string.text
 #: globstr.src%23RID_GLOBSTR.STR_UNDO_TAB_R1C1.string.text
@@ -13294,7 +13296,7 @@ msgid ""
 "incorrect!"
 msgstr ""
 "Nowa tabela zawiera odwołania bezwzględne do innych tabel, które mogą być "
-"nieprawidłowe"
+"nieprawidłowe!"
 
 #: globstr.src#RID_GLOBSTR.STR_NAMECONFLICT.string.text
 #: globstr.src%23RID_GLOBSTR.STR_NAMECONFLICT.string.text
@@ -13303,7 +13305,7 @@ msgid ""
 "has been altered!"
 msgstr ""
 "Ze względu na identyczne nazwy została zmieniona dotychczasowa nazwa zakresu "
-"w dokumencie docelowym"
+"w dokumencie docelowym!"
 
 #: globstr.src#RID_GLOBSTR.STR_ERR_AUTOFILTER.string.text
 #: globstr.src%23RID_GLOBSTR.STR_ERR_AUTOFILTER.string.text
@@ -13687,7 +13689,7 @@ msgstr "Usuń zawartość"
 
 #: globstr.src#RID_GLOBSTR.STR_QUICKHELP_REF.string.text
 msgid "%1 R x %2 C"
-msgstr ""
+msgstr "%1 R x %2 C"
 
 #: globstr.src#RID_GLOBSTR.STR_FUNCTIONLIST_MORE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_FUNCTIONLIST_MORE.string.text
@@ -13787,7 +13789,7 @@ msgstr "<pusty>"
 #: globstr.src#RID_GLOBSTR.STR_CHANGED_CELL.string.text
 #: globstr.src%23RID_GLOBSTR.STR_CHANGED_CELL.string.text
 msgid "Cell #1 changed from '#2' to '#3'"
-msgstr "Komórka #1 została zmieniona z '#2' na '#3' "
+msgstr "Komórka #1 została zmieniona z '#2' na '#3'"
 
 #: globstr.src#RID_GLOBSTR.STR_CHANGED_INSERT.string.text
 #: globstr.src%23RID_GLOBSTR.STR_CHANGED_INSERT.string.text
@@ -13796,17 +13798,17 @@ msgstr "Wstawiono #1"
 
 #: globstr.src#RID_GLOBSTR.STR_CHANGED_DELETE.string.text
 msgid "#1 deleted"
-msgstr ""
+msgstr "#1 usunięty"
 
 #: globstr.src#RID_GLOBSTR.STR_CHANGED_MOVE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_CHANGED_MOVE.string.text
 msgid "Range moved from #1 to #2"
-msgstr "Zakres przeniesiony z #1 do #2 "
+msgstr "Zakres przeniesiony z #1 do #2"
 
 #: globstr.src#RID_GLOBSTR.STR_END_REDLINING_TITLE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_END_REDLINING_TITLE.string.text
 msgid "Exit Recording"
-msgstr "Zakończ zapisywanie"
+msgstr "Zakończ rejestrowanie"
 
 #: globstr.src#RID_GLOBSTR.STR_END_REDLINING.string.text
 #: globstr.src%23RID_GLOBSTR.STR_END_REDLINING.string.text
@@ -13835,7 +13837,7 @@ msgstr "Dostosuj obszar macierzy"
 
 #: globstr.src#RID_GLOBSTR.STR_TIP_RESIZEMATRIX.string.text
 msgid "Array formula %1 R x %2 C"
-msgstr ""
+msgstr "Formuła macierzowa %1 R x %2 C"
 
 #: globstr.src#RID_GLOBSTR.STR_MACRO_WARNING.string.text
 #: globstr.src%23RID_GLOBSTR.STR_MACRO_WARNING.string.text
@@ -13910,7 +13912,7 @@ msgid ""
 "WARNING: This action may have resulted in references to the deleted area not "
 "being restored."
 msgstr ""
-"UWAGA: Ta operacja może spowodować pojawienie się odołań do usuniętego "
+"UWAGA: Ta operacja może spowodować pojawienie się odwołań do usuniętego "
 "obszaru."
 
 #: globstr.src#RID_GLOBSTR.STR_HF_NONE_IN_BRACKETS.string.text
@@ -14103,7 +14105,7 @@ msgstr "Style strony"
 #: globstr.src#RID_GLOBSTR.STR_ERR_DATAPILOTSOURCE.string.text
 #: globstr.src%23RID_GLOBSTR.STR_ERR_DATAPILOTSOURCE.string.text
 msgid "Pivot table source data is invalid."
-msgstr "Dane źródłowe tabeli przestawnej sa niepoprawne."
+msgstr "Dane źródłowe tabeli przestawnej są niepoprawne."
 
 #: globstr.src#RID_GLOBSTR.STR_PIVOT_FIRSTROWEMPTYERR.string.text
 #: globstr.src%23RID_GLOBSTR.STR_PIVOT_FIRSTROWEMPTYERR.string.text
@@ -14734,7 +14736,7 @@ msgstr "Wklej specjalnie"
 #: miscdlgs.src#RID_SCDLG_MOVETAB.FT_DEST.fixedtext.text
 #: miscdlgs.src%23RID_SCDLG_MOVETAB.FT_DEST.fixedtext.text
 msgid "To ~document"
-msgstr "Do dokumentu"
+msgstr "~Do dokumentu"
 
 #: miscdlgs.src#RID_SCDLG_MOVETAB.FT_INSERT.fixedtext.text
 #: miscdlgs.src%23RID_SCDLG_MOVETAB.FT_INSERT.fixedtext.text
@@ -15073,7 +15075,7 @@ msgstr "Minimum"
 #: optsolver.src#RID_SCDLG_OPTSOLVER.RB_VALUE.radiobutton.text
 msgctxt "optsolver.src#RID_SCDLG_OPTSOLVER.RB_VALUE.radiobutton.text"
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 #: optsolver.src#RID_SCDLG_OPTSOLVER.IB_TARGET.imagebutton.text
 #: optsolver.src%23RID_SCDLG_OPTSOLVER.IB_TARGET.imagebutton.text
@@ -15428,7 +15430,7 @@ msgstr "Trwa szukanie rozwiązania..."
 #: optsolver.src#RID_SCDLG_SOLVER_PROGRESS.FT_TIMELIMIT.fixedtext.text
 #: optsolver.src%23RID_SCDLG_SOLVER_PROGRESS.FT_TIMELIMIT.fixedtext.text
 msgid "(time limit # seconds)"
-msgstr "(limit czasu w sekundach)"
+msgstr "(limit czasu w sekundach: #)"
 
 #: optsolver.src#RID_SCDLG_SOLVER_PROGRESS.modelessdialog.text
 #: optsolver.src%23RID_SCDLG_SOLVER_PROGRESS.modelessdialog.text
@@ -16535,7 +16537,7 @@ msgstr "Źródło:"
 #: dbnamdlg.src#RID_SCDLG_DBNAMES.FT_OPERATIONS.fixedtext.text
 #: dbnamdlg.src%23RID_SCDLG_DBNAMES.FT_OPERATIONS.fixedtext.text
 msgid "Operations:"
-msgstr "Operacje"
+msgstr "Operacje:"
 
 #: dbnamdlg.src#RID_SCDLG_DBNAMES.BTN_ADD.pushbutton.text
 #: dbnamdlg.src%23RID_SCDLG_DBNAMES.BTN_ADD.pushbutton.text
